@@ -1,0 +1,52 @@
+#!/bin/sh
+
+usage () {
+  cat <<EOF
+Transform EarlyPrint source file(s) to DraCor TEI.
+
+Usage: $0 source-file [source-file ...]
+
+OPTIONS:
+  -h, --help      show this message
+
+EOF
+}
+
+# options parsing inspired by
+# https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
+
+ALL=""
+PARAMS=""
+
+while (( "$#" )); do
+  case "$1" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    -v|--verbose)
+      VERBOSE=yes
+      shift
+      ;;
+    -*|--*=) # unsupported flags
+      echo "Error: Unsupported flag $1" >&2
+      exit 1
+      ;;
+    *) # preserve positional arguments
+      PARAMS="$PARAMS $1"
+      shift
+      ;;
+  esac
+done
+
+# set positional arguments in their proper place
+eval set -- "$PARAMS"
+
+XSLT="ep2dracor.xsl"
+OUT="tei"
+
+for source in $@; do
+  saxon -xsl:$XSLT -s:$source outputdirectory=$OUT
+done
+
+xmlformat -f format.conf -i $(git ls-files -m -o $OUT)
