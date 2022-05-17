@@ -1,0 +1,1369 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Coelum Britannicum</title>
+        <author>
+<!--Carew, Thomas-->
+          <persName>
+            <forename>Thomas</forename>
+            <surname>Carew</surname>
+          </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">ep000816</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>EarlyPrint Project</name>
+          <idno type="URL">https://earlyprint.org</idno>
+          <availability>
+            <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+          </availability>
+          <bibl type="originalSource">
+            <biblFull n="TCP source">
+              <titleStmt>
+                <title type="_245">Cœlum Britanicum: A masque at White-Hall in the Banquetting-House, on Shrove-Tuesday-night, the 18. of February, 1633.</title>
+                <title type="alt">Cœlum Britannicum</title>
+                <author>Carew, Thomas, 1595?-1639?</author>
+              </titleStmt>
+              <extent>21 400dpi TIFF images (displayed as GIF) and XML-encoded text (displayed as HTML).</extent>
+              <publicationStmt>
+                <publisher>University of Michigan Library</publisher>
+                <pubPlace>Ann Arbor, Michigan</pubPlace>
+                <date>2011 April (TCP phase 2)</date>
+                <idno type="DLPS">A73704</idno>
+                <idno type="vid">132967</idno>
+                <idno type="Aleph">5372186</idno>
+                <idno type="stc">STC (2nd ed.) 4618</idno>
+                <idno type="stc">Greg II, 496(a)</idno>
+                <idno type="bibno">(UnM)99898413e</idno>
+                <idno type="PROQUESTGOID">2240910811</idno>
+                <availability>
+                  <p>Where applicable, subject to copyright. Other restrictions on distribution may apply. Please go to http://www.umdl.umich.edu/ for more information.</p>
+                </availability>
+              </publicationStmt>
+            </biblFull>
+            <biblFull n="printed source">
+              <titleStmt>
+                <title type="_245">Cœlum Britanicum: A masque at White-Hall in the Banquetting-House, on Shrove-Tuesday-night, the 18. of February, 1633.</title>
+                <title type="alt">Cœlum Britannicum</title>
+                <author>Carew, Thomas, 1595?-1639?</author>
+                <author>Bruno, Giordano, 1548-1600. Spaccio de la bestia trionfante.</author>
+                <author>Jones, Inigo, 1573-1652.</author>
+              </titleStmt>
+              <extent>[4], 35, [1] p.</extent>
+              <publicationStmt>
+                <publisher>printed for Thomas VValkley, and are to be sold at his shop neare White-Hall,</publisher>
+                <pubPlace>London :</pubPlace>
+                <date type="publication_date">1634.</date>
+                <date type="creation_date">1634</date>
+              </publicationStmt>
+              <notesStmt>
+                <note>By Thomas Carew.</note>
+                <note>The designer for the masque was Inigo Jones, whose name appears on the internal title page for "Cœlum Britannicum" in subsequent editions of Carew's works.</note>
+                <note>Based in part on: Bruno, Giordano. Spaccio de la bestia trionfante.</note>
+                <note>Signatures: A² B-E⁴ F² .</note>
+                <note>The first leaf is blank.</note>
+                <note>Most of the sheets are in two settings, and C outer forme and D inner forme are in three. Some copies have final pages numbered 31, 32, 30, 28, 29.</note>
+                <note>Reproduction of original in the Folger Shakespeare Library.</note>
+              </notesStmt>
+            </biblFull>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" when="1634">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="eng">
+    <front>
+      <div type="title_page" xml:id="ep000816-e100030">
+        <pb type="blank" xml:id="ep000816-001-a"/>
+        <pb type="blank" xml:id="ep000816-001-b"/>
+        <pb type="blank" xml:id="ep000816-002-a"/>
+        <pb xml:id="ep000816-002-b"/>
+        <p>Coelum Britanicum. </p>
+        <p>A MASQUE AT WHITE-HALL IN THE BANQVETTING-HOVSE, ON SHROVE-TVESDAY-NIGHT, THE 18. of February, 1633. </p>
+        <quote>
+          <l>Non habeo ingenium; Caesar sed jussit: habebo. </l>
+          <l>Cur me posse negem, posse quod ille putat? </l>
+        </quote>
+        <p>By Thomas Carew. </p>
+        <p>LONDON: Printed for Thomas Walkley, and are to be sold at his Shop neare White-Hall. 1634. </p>
+      </div>
+    </front>
+    <body>
+      <div type="masque" xml:id="ep000816-e100120">
+        <pb type="blank" xml:id="ep000816-003-a"/>
+        <pb n="1" xml:id="ep000816-003-b"/>
+        <head>THE DESCRIPTION OF THE SCAENE. </head>
+        <p>THe first thing that presented it selfe to the sight, was a rich Ornament, that enclosed the Scaene; in the upper part of which, were great branches of Foliage growing out of leaves and huskes, with a Coronice at the top; and in the midst was placed a large compartiment composed of Groteske worke, wherein were Harpies with wings and Lions clawes, and their hinder parts converted into leaves and branches: over all was a broken Frontispice, wrought with scrowles and masque heads of Children; and within this a Table adorn'd with a lesser Compartiment, with this Inscription, COELVM BRITANNICVM. The two sides of this Ornament were thus ordered: First, from the ground arose a square Basement, and on the Plinth stood a great vaze of gold, richly enchased, and beautified with Sculptures of great Releine, with frutages hanging from the upper part: At the foot of this sate two youths naked, in their naturall colours; each of these with one arme supported the Vaze; on the cover of which stood two young women in Draperies, arme in arme; the one figuring the glory of Princes, and the other Mansuetude: their other armes bore up an Ovall, in which, to the Kings Majesty was this Imprese, A Lion with an Imperiall Crowne on his head; the word, Animum sub pectore forti: On the other side was the like Composition, but the designe of the Figures varied; and in the Ovall on the top, being borne up by Nobility and Fecundity, was this Imprese to the Queenes Majesty <pb n="2" xml:id="ep000816-004-a"/>A Lilly growing with branches and leaves, and three lesser Lillies springing out of the Stemme; the word, Semper inclit a Virtus: All this Ornament was heightned with Gold, and for the Invention and various composition was the newest and most gracious that hath beene done in this place. </p>
+        <p>The Curtaine was watchet and a pale yellow in paines, which flying up on the sudden, discovered the Scaene, representing old Arches, old Palaces, decayed walls, parts of Temples, Theaters, Basilita's and Therme, with confused heaps of broken Columnes, Bases, Coronices and Statues, lying as underground, and altogether resembling the ruines of some great City of the ancient Romans, or civiliz'd Brittaines. This strange prospect detain'd the eyes of the Spectators some time, when to a loud Musicke Mercury descends; on the upper part of his Chariot stands a Cocke in action of crowing: his habit was a Coat of flame colour girt to him, and a white mantle trimm'd with gold and silver; upon his head a wreath with small falls of white Feathers, a Caduseus in his hand, and wings at his heeles: being come to the ground he dismounts and goes up to the State, </p>
+        <sp who="A73704-mercury" xml:id="ep000816-e100150">
+          <speaker>Mercury. </speaker>
+          <l>FRom the high Senate of the gods, to You </l>
+          <l>Bright glorious Twins of Love and Majesty, </l>
+          <l>Before whose Throne three warlike Nations bend </l>
+          <l>Their willing knees, on whose Imperiall browes </l>
+          <l>The Regall Circle prints no awfull frownes </l>
+          <l>To fright your Subjects, but whose calmer eyes </l>
+          <l>Shed joy and safety on their melting hearts </l>
+          <l>That flow with cheerefull loyall reverence, </l>
+          <l>Come I Cyllenius, Ioves Ambassadour: </l>
+          <l>Not, as of old, to whisper amorous tales </l>
+          <l>Of wanton love, into the glowing eare </l>
+          <l>Of some choyce beauty in this numerous traine; </l>
+          <l>Those dayes are fled, the rebell flame is quench'd </l>
+          <pb n="3" xml:id="ep000816-004-b"/>
+          <l>In heavenly brests, the gods have sworne by Styx </l>
+          <l>Never to tempt yeelding mortality </l>
+          <l>To loose embraces. Your exemplar life </l>
+          <l>Hath not alone transfus'd a zealous heat </l>
+          <l>Of imitation through your vertuous Court, </l>
+          <l>By whose bright blaze your Pallace is become </l>
+          <l>The envy'd patterne of this underworld, </l>
+          <l>But the aspiring flame hath kindled heaven; </l>
+          <l>Th' immortall bosomes burne with emulous fires, </l>
+          <l>Jove rivals your great vertues, Royall Sir, </l>
+          <l>And Iuno, Madam, your attractive graces; </l>
+          <l>He his wild lusts, her raging jealousies </l>
+          <l>She layes aside, and through th' Olympique hall, </l>
+          <l>As yours doth here, their great Example spreads. </l>
+          <l>And though of old, when youthfull blood conspir'd </l>
+          <l>With his new Empire, prone to heats of lust, </l>
+          <l>He acted incests, rapes, adulteries </l>
+          <l>On earthly beauties, which his raging Queene, </l>
+          <l>Swolne with revengefull fury, turn'd to beasts, </l>
+          <l>And in despight he retransform'd to Stars, </l>
+          <l>Till he had fill'd the crowded Firmament </l>
+          <l>With his loose Strumpets, and their spurious race, </l>
+          <l>Where the eternall records of his shame </l>
+          <l>Shine to the world in flaming Characters; </l>
+          <l>When in the Chrystall myrrour of your reigne </l>
+          <l>He view'd himselfe, he found his loathsome staines; </l>
+          <l>And now, to expiate the infectious guilt </l>
+          <l>Of those detested luxuries, hee'll chace </l>
+          <l>Th' infamous lights from their usurped Spheare, </l>
+          <l>And drowne in the Lethae an flood, their curs'd </l>
+          <l>Both names and memories. In whose vacant roomes </l>
+          <l>First you succeed, and of the wheeling Orbe </l>
+          <l>In the most eminent and conspicuous point, </l>
+          <l>With dazeling beames, and spreading magnitude, </l>
+          <l>Shine the bright Pole-starre of this Hemispheare. </l>
+          <l>Next, by your side, in a triumphant Chaire, </l>
+          <l>And crown'd with Ariadnes Diadem, </l>
+          <pb n="4" xml:id="ep000816-005-a"/>
+          <l>Sits the faire Consort of your heart, and Throne; </l>
+          <l>Diffus'd about you, with that share of light </l>
+          <l>As they of vertue have deriv'd from you, </l>
+          <l>Hee'll fix this Noble traine, of either sexe; </l>
+          <l>So to the Brittish Stars this lower Globe </l>
+          <l>Shall owe its light, and they alone dispence </l>
+          <l>To'th world a pure refined influence. </l>
+        </sp>
+        <stage xml:id="ep000816-e100730">Enter Momus attired in a long darkish Robe all wrought over with ponyards, Serpents tongues, eyes and eares, his beard and haire party coloured, and upon his head a wreath stucke with Feathers, and a Porcupine in the forepart. </stage>
+        <sp who="A73704-momus" xml:id="ep000816-e100740">
+          <speaker>Momus. </speaker>
+          <p>BY your leave, Mortals. Goodden Cozen Hermes; your pardon good my Lord Ambassadour: I found the tables of your Armes and Titles, in every Inne betwixt this and Olympus, where your present expedition is registred, your nine thousandth nine hundred ninety ninth Legation. I cannot reach the policy why your Master breeds so few Statesmen, it suits not with his dignity that in the whole Empyraeum there should not be a god fit to send on these honourable errands but your selfe, who are not yet so carefull of his honour as your owne, as might become your quality, when you are itinerant: the Hosts upon the high-way cry out with open month upon you for supporting pilfery in your traine; which, though as you are the god of petty Larcinry, you might protect, yet you know it is directly against the new orders, and opposes the Reformation in Diameter. </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e100760">
+          <speaker>Merc. </speaker>
+          <l>Peace Rayler, bridle your licentious tongue, </l>
+          <l>And let this Presence teach you modesty. </l>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e100790">
+          <speaker>Mom. </speaker>
+          <p>Let it if it can; in the meane time I will acquaint it with my condition. Know (gay people) that though your Poets who enjoy by Patent a particular privilege to draw downe any of the Deities from Twelfnight till Shrove-tuesday, <pb n="5" xml:id="ep000816-005-b"/>at what time there is annually a most familiar enter course betweene the two Courts, have as yet never invited me to these Solemnities, yet it shall appeare by my intrusion this night, that I am a very considerable Person upon these occasions, and may most properly assist at such entertainments. My name is Momus-ap-Somnus-ap-Erebus-ap-Chaos-up-Demogorgon-ap-Eternity. My Offices and Titles are, The Supreme Theomastix, Hupercrittique of manners, Protonotarie of abuses, Arch-Informer, Dilator Generall, Vniversall Calumniator, Eternall Plaintiffe, and perpetuall Foreman of the Grand Inquest. My privileges are an ubiquitary, circumambulatory, speculatory, interrogatory, redargutory immunity over all the privy lodgings, behind hangings, dores, curtaines, through key-holes, chinkes, windowes, about all Veneriall Lobbies, Skonces or Redoubts, though it bee to the surprize of a perdu Page or Chambermaid, in, and at all Courts of civill and criminall judicature, all Counsels, Consultations, and Parlamentary Assemblies, where though I am but a Woollsacke god, and have no vote in the sanction of new lawes, I have yet a Praerogative of wresting the old to any whatsoever interpretation, whether it be to the behoofe, or prejudice, of Iupiter his Crowne and Dignity, for, or against the Rights of either house of Patrician or Plebeian gods. My naturall qualities are to make Iove frowne, Iuno powt, Mars chafe, Venus blush, Vulcan glow, Saturne quake, Cynthia pale, Phaebus hide his face, and Mercury here take his heeles. My recreations are witty mischiefes, as when Saturne guelt his father; the Smith caught his wife and her Bravo in a net of Cobweb-Iron; and Hebe through the lubricity of the pavement tumbling over the Halfpace, presented the Embleme of the forked tree, and discover'd to the tann'd Ethiops the snowie cliffs of Culabria with the Grotta of Puteolum. But that you may arrive at the perfect knowledge of me by the familiar illustration of a Bird of mine owne feather, old Peter Aretine, who reduc'd all the Scepters and Myters of that Age tributary to his wit, <pb n="6" xml:id="ep000816-006-a"/>was my Parallell; and Frank Rublais suck'd much of my milke too; but your moderne French Hospitall of Oratory, is meere counterfeit, an arrant Mountebanke, for though fearing no other tortures than his Sciatica, he discourse of Kings and Queenes with as little reverence as of Groomes and Chambermaids, yet hee wants their fangteeth, and Scorpions taile; I meane that fellow, who to adde to his stature thinkes it a greater grace to dance on his tiptoes like a Dogge in a doublet, than to walke like other men on the soles of his feet. </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e100810">
+          <speaker>Merc. </speaker>
+          <l>No more impertinent Trifeler, you disturbe </l>
+          <l>The great Affaire with your rude scurrilous chat: </l>
+          <l>What doth the knowledge of your abject state </l>
+          <l>Concerne Joves solemne Message? </l>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e100860">
+          <speaker>Mom. </speaker>
+          <p>Sir, by your favour, though you have a more especiall Commission of employment from Iupiter, and a larger entertainment from his Exchequer, yet as a freeborne god I have the liberty to travell at mine owne charges, without your passe or countenance Legacine; and that it may appeare a sedulous acute observer, may know as much as a dull flegmatique Ambassadour, and weares a treble key to unlocke the misterious Cyphers of your darke secrecies, I will discourse the politique state of heaven to this trimme Audience.— </p>
+          <stage xml:id="ep000816-e100880">
+            <p>At this the Scaene changeth, and in the heaven is discovered a Spheare, with Starres placed in their severall Images; borne up by a huge naked Figure (onely a peece of Drapery hanging over his thigh) kneeling, and bowing forwards, as if the great weight lying on his shoulders opprest him, upon his head a Crowne, by all which he might easily be knowne to be Atlas. </p>
+          </stage>
+          <p>— You shall understand, that Iupiter upon the inspection of I know not what vertuous Presidents extant (as they say) here in this Court, but as I more probably ghesse out of the consideration of the decay of his natural abilities, <pb n="7" xml:id="ep000816-006-b"/>hath before a frequent convocation of the Superlunary Peers in a solemne Oration recanted, disclaimed, and utterly renounced all the lascivious extravagancies, and riotous enormities of his forepast licentious life, and taken his oath on Junos Breviary, religiously kissing the two-leav'd booke, never to stretch his limbs more betwixt adulterous sheets, and hath with patheticall remonstrances exhorted, and under strict penalties enjoyned a respective conformity in the severall subordinate Deities; and because the Libertines of Antiquity, the Ribald Poets, to perpetuate the memory and example of their triumphs over chastity, to all future imitation, have in their immortall songs celebrated the martyrdome of those Strumpets under the persecution of the wives, and devolved to Posterity the Pedigrees of their whores bawds, and bastards; it is therefore by the authority aforesaid enacted, that this whole Army of Constellations be immediately disbanded and casheerd, so to remove all imputation of impiety from the Coelestiall Spirits, and all lustfull influences upon terrestriall bodies; and consequently that there be an Inquisition erected to exspunge in the Ancient, and suppresse in the moderne and succeeding Poems and Pamphlets, all past, present, and future mention of those abjur'd heresies, and to take particular notice of all ensuing incontinences, and punish them in their high Commission Court. Am not I in election to be a tall Statesman thinke you, that can repeat a passage at a Counsell-table thus punctually? </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e100910">
+          <speaker>Merc. </speaker>
+          <l>I shun in vaine the importunity </l>
+          <l>With which this Snarler vexeth all the gods, </l>
+          <l>Iove cannot scape him: well, what else from heaven? </l>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e100950">
+          <speaker>Mom. </speaker>
+          <p>Heaven! Heaven is no more the place it was; a cloyster of Carthusians, a Monastery of converted gods, Iove is growne old and fearefull, apprehends a subversion of his Empire, and doubts lest Fate should introduce a legall succession in the legitimate heire, by repossessing the Titanian line, and hence springs all this innovation. Wee have had new orders read in the Presence Chamber, by <pb n="8" xml:id="ep000816-007-a"/>the Vi-President of Pernassies, too strict to bee observed long. Monopolies are called in, sophistication of wares punished, and rates imposed on Commodities. Injunctions are gone out to the Nectar Brewers, for the purging of the heavenly Beverage of a narcotique weed which hath rendred the Idaeacs confus'd in the Divine intellects, and reducing it to the composition used in Saturnes Reigne. Edicts are made for the restoring of decayed housekeeping, prohibiting the repayrs of Families to the Metropolis, but this did endanger an Amazonian mutiny, till the females put on a more masculine resolution of solliciting businesses in their owne persons, and leaving their husbands at home for stallions of hospitality. Baccus hath commanded all Tavernes to be shut, and no liquor drawne after tenne at night. Cupid must goe no more so scandalously naked, but is enjoyned to make him breeches though of his mothers petticotes. Ganimede is forbidden the Bedchamber, and must onely minister in publique. The gods must keepe no Pages, nor Groomes of their Chamber under the age of 25. and those provided of a competent stocke of beard. Pan may not pipe, nor Proteus juggle, but by especiall permission. Vulcan was brought to an Oretenus and fined, for driving in a plate of Iron into one of the Sunnes Chariot-wheeles and frost-nailing his horses upon the fifth of November last, for breach of a penall Statute prohibiting worke upon Holydayes, that being the annuall celebration of the Gygantomachy. In briefe, the whole state of the Hierarchy suffers a totall reformation, especially in the poynt of reciprocation of conjugall affection. Venus hath confest all her adulteries, and is receiv'd to grace by her husband, who conscious of the great disparity betwixt her perfections and his deformities, allowes those levities as an equall counterpoize; but it is the prettiest spectacle to see her stroaking with her Ivory hand his collied cheekes, and with her sinowy fingers combing his sooty beard. Iupiter too beginnes to learne to lead his owne wife, I left him practising in the milky way; and there is no doubt of an universall <pb n="9" xml:id="ep000816-007-b"/>obedience, where the Lawgiver himselfe in his owne person observes his decrees so punctually; who besides to eternize the memory of that great example of Matrimoniall union which he derives from hence, hath on his bed chamber dore, and seeling, fretted with starres in capitall letters, engraven the Inscription of CARLOMARIA. This is as much I am sure as either your knowledge or Instructions can direct you to, which I having in a blunt round tale, without State-formality, politique inferences, or suspected Rhetoricall elegancies, already delivered, you may now dexteriously proceed to the second part of your charge, which is the raking of yon heavenly sparks up in the Embers, or reducing the Aetheriall lights to their primitive opacity, and grosse darke subsistance; they are all unrivited from the Spheare, and hang loose in their sockets, where they but attend the waving of your Caduce, and immediately they reinvest their pristine shapes, and appeare before you in their owne naturall deformities. </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e100970">
+          <speaker>Merc. </speaker>
+          <l>Momus thou shalt prevaile, for since thy bold </l>
+          <l>Intrusion hath inverted my resolves, </l>
+          <l>I must obey necessity, and thus turne </l>
+          <l>My face, to breath the Thundrers just decree </l>
+          <l>'Gainst this adulterate Spheare, which first I purge </l>
+          <l>Of loathsome Monsters, and mis-shapen formes: </l>
+          <l>Downe from her azure concave, thus I charme </l>
+          <l>The Lyrnean Hydra, the rough unlick'd Beare, </l>
+          <l>The watchfull Dragon, the storme-boading Whale, </l>
+          <l>The Centaure, the horn'd Goatfish Capricorne, </l>
+          <l>The Snake-heard Gorgon, and fierce Sagittar: </l>
+          <l>Divested of your gorgeous starry robes, </l>
+          <l>Fall from the circling Orbe, and e're you sucke </l>
+          <l>Fresh venome in, measure this happy earth, </l>
+          <l>Then to the Fens, Caves, Forrests, Deserts, Seas, </l>
+          <l>Fly, and resume your native qualities. </l>
+        </sp>
+        <stage xml:id="ep000816-e101140">They dance in those menstrous shapes the first Antimaske of naturall deformity. </stage>
+        <pb n="10" xml:id="ep000816-008-a"/>
+        <sp who="A73704-momus" xml:id="ep000816-e101150">
+          <speaker>Mom. </speaker>
+          <p>Are not these fine companions, trim playfellowes for the Deities? yet these and their fellowes have made up all our conversation for some thousands of yeeres. Doe not you faire Ladies acknowledge your selves deeply engaged now to those Poets your servants, that in the height of commendation have rais'd your beauties to a parallell with such exact proportions, or at least rank'd you in their spruce society. Hath not the consideration of these Inhabitants rather frighted your thoughts utterly from the contemplation of the place? but now that those heavenly Mansions are to be voyd, you that shall hereafter be found unlodged will become inexcusable; especially since Vertue alone shall be sufficient title, fine, and rent: yet if there be a Lady not competently stock'd that way, she shall not on the instant utterly despaire, if shee carry a sufficient pawne of handsomenesse; for however the letter of the Law runnes, Jupiter notwithstanding his Age and present austerity, will never refuse to stampe beauty, and make it currant with his owne Impression; but to such as are destitute of both, I can afford but small encouragement. Proceed Cozen Mercury, what followes? </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e101170">
+          <speaker>Merc. </speaker>
+          <l>Looke up, and marke where the bright Zodiacke </l>
+          <l>Hangs like a Belt about the brest of heaven; </l>
+          <l>On the right shoulder, like a flaming Iewell, </l>
+          <l>His shell, with nine rich Topazes adorn'd, </l>
+          <l>Lord of this Tropique, sits the skalding Crab: </l>
+          <l>He, when the Sunne gallops in full careere </l>
+          <l>His annuall race; his ghastly clawes uprear'd, </l>
+          <l>Frights at the confines of the torrid Zone, </l>
+          <l>The fiery teame, and proudly stops their course, </l>
+          <l>Making a solstice, till the fierce Steeds learne </l>
+          <l>His backward paces, and so retrograde </l>
+          <l>Poste downe-hill to th' opposed Capricorne. </l>
+          <l>Thus I depose him from his laughty Throne; </l>
+          <l>Drop from the Sky, into the briny flood, </l>
+          <l>There teach thy motion to the ebbing Sea, </l>
+          <l>But let those fires that beautifi'd thy shell </l>
+          <pb n="11" xml:id="ep000816-008-b"/>
+          <l>Take humane shapes, and the disorder show </l>
+          <l>Of thy regressive paces here below. </l>
+        </sp>
+        <stage xml:id="ep000816-e101360">The second Antimasque is danc'd in retrograde paces, expressing obliquity in motion. </stage>
+        <sp who="A73704-momus" xml:id="ep000816-e101370">
+          <speaker>Mom. </speaker>
+          <p>This Crab, I confesse, did ill become the heavens; but there is another that more infests the Earth, and makes such a solstice in the politer Arts and Sciences, as they have not beene observed for many Ages to have made any sensible advance: could you but lead the learned squadrous with a masculine resolution past this point of retrogradation, it were a benefit to mankinde worthy the power of a god, and to be payed with Altars; but that not being the worke of this night, you may pursue your purposes: what now succeeds? </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e101390">
+          <speaker>Merc. </speaker>
+          <l>Vice, that unbodied, in the Appetite </l>
+          <l>Erects his Throne, hath yet, in bestiall shapes, </l>
+          <l>Branded, by Nature, with the Character </l>
+          <l>And distinct stampe of some peculiar Ill, </l>
+          <l>Mounted the Sky, and fix'd his Trophies there: </l>
+          <l>As fawning flattery in the little Dog; </l>
+          <l>I'th bigger, churlish Murmur; Cowardize </l>
+          <l>I'th timorous Hare: Ambition in the Eagle; </l>
+          <l>Rapine and Avarice in th' adventrous Ship </l>
+          <l>That sail'd to Colchos for the golden fleece; </l>
+          <l>Drunken distemper in the Goblet flowes; </l>
+          <l>I'th Dart and Scorpion, biting Calumny; </l>
+          <l>In Hercules and the Lion, furious rage; </l>
+          <l>Vaine Ostentation in Cassiope: </l>
+          <l>All these I to eternall exile doome, </l>
+          <l>But to this place their emblem'd Vices summon, </l>
+          <l>Clad in those proper Figures, by which best </l>
+          <l>Their incorporeall nature is exprest. </l>
+        </sp>
+        <stage xml:id="ep000816-e101580">The third Antimasque is danc'd of these severall vices, expressing the deviation from Vertue. </stage>
+        <pb n="12" xml:id="ep000816-009-a"/>
+        <sp who="A73704-momus" xml:id="ep000816-e101590">
+          <speaker>Mom. </speaker>
+          <p>From henceforth it shall be no more said in the Proverbe, when you would expresse a riotous Assembly, That hell, but heaven is broke loose: this was an arrant Goale-delivery, all the prisons of your great Cities could not have vomitted more corrupt marter: but Cozen Cylleneus, in my judgement it is not safe that these infectious persons should wander here to the hazard of this Island, they threatned lesse danger when they were nayl'd to the Firmament: I should conceive it a very discreet course since they are provided of a tall vessell of their owne ready rigg'd, to embarque them all together in that good Ship called the Argo, and send them to the plantation in New-England, which hath purg'd more virulent humors from the politique body, then Guacum and all the West-Indian druggs have from the naturall bodies of this kingdome: Can you devise how to dispose them better? </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e101610">
+          <speaker>Merc. </speaker>
+          <l>They cannot breath this pure and temperate Aire </l>
+          <l>Where Vertue lives, but will with hasty flight, </l>
+          <l>'Mongst fogs and vapours, seeke unsound abodes. </l>
+          <l>Fly after them, from your usurped seats, </l>
+          <l>You foule remainders of that viperous brood: </l>
+          <l>Let not a Starre of the luxurious race </l>
+          <l>With his loose blaze staine the skyes chrystall face. </l>
+          <stage xml:id="ep000816-e101690">All the Starres are quench'd, and the Spheare darkned. </stage>
+          <stage xml:id="ep000816-e101700">
+            <p>Before the entry of every Antimasque, the Starres in those figures in the Spheare which they were to represent, were extinct; so as, by the end of the Antimasques in the Spheare no more Stars were seene. </p>
+          </stage>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e101720">
+          <speaker>Mom. </speaker>
+          <p>Here is a totall Ecclipse of the eighth Spheare, which neither Booker, Allestre, nor any of your Prognosticators, no nor their great Master Tico were aware of; bur yet in my opinion there were some innocent, and some generous Constellations, that might have beene reserved for Noble uses: as the Skales and Sword to adorne the <pb n="13" xml:id="ep000816-009-b"/>statue of Iustice, since she resides here on Earth onely in Picture and Effigie. The Eagle had beene a fit present for the Germans, in regard their Bird hath mew'd most of her feathers lately. The Dolphin too had beene most welcome to the French, and then had you but clapt Perseus on his Pegasus, brandishing his Sword, the Dragon yawning on his backe under the horses feet, with Pytheus dart through his throat, there had beene a Divine St. George for this Nation: but since you have improvidently shuffled them altogether, it now rests onely that wee provide an immediate succession, and to that purpose I will instantly proclaime a free Election, </p>
+          <quote>O yes, O yes, O yes, By the Father of the gods, and the King of Men, </quote>
+          <p>Whereas we having observed a very commendable practice taken into frequent use by the Princes of these latter Ages, of perpetuating the memory of their famous enterprizes, sieges, battels, victories, in Picture, Sculpture, Tapistry, Embroyderies, and other manifactures, wherewith they have embellished their publique Palaces, and taken into Our more distinct and serious consideration, the particular Christmas hangings of the Guard-Chamber of this Court, wherein the Navall Victory of 88. is to the eternall glory of this Nation exactly delineated: and whereas We likewise out of a propheticall imitation of this so laudable custome, did for many thousand yeares before, adorne and beautifie the eighth roome of Our caelestiall Mansion, commonly called the Starre-Chamber, with the military adventures, stratagems, archievements, feats and defeats, performed in Our Owne person, whilest yet Our Standard was erected, and We a Combattant in the Amorous Warfare. It hath notwithstanding, after mature deliberation, and long debate, held first in our owne inscrutable bosome, and afterwards communicated with Our Privy <pb n="14" xml:id="ep000816-010-a"/>Counsell, seemed meet to Our Omnipotency, for causes to Our selfe best knowne, to unfurnish and dis-array Our foresaid Starre-Chamber of all those Antient Constellations which have for so many Ages beene sufficiently notorious, and to admit into their vacant places, such Persons onely as shall be qualified with exemplar Vertue and eminent Desert, there to shine in indelible Characters of glory to all Posterity. It is therefore Our divine will and pleasure, voluntarily, and out of Our owne free and proper motion, meere grace and speciall favour, by these presents to specifie and declare to all Our loving People, that it shall be lawfull for any Person whatsoever, that conceiveth him or her selfe to be really endued with any Heroicall Vertue or transcendent Merit, worthy so high a calling and dignity, to bring their severall pleas and pretences before Our Right trusty and Welbeloved Cozen, and Counsellor, Don Mercury, and god Momus, &amp;c. Our peculiar Delegates for that affaire, upon whom We have transferr'd an absolute power to conclude, and determine without Appeale or Revelation, accordingly as to their wisdomes it shall in such cases appeare behoovefull and expedient. Given at Our Palace in Olympus the first day of the first month, in the first yeare of the Reformation. </p>
+          <stage xml:id="ep000816-e101760">
+            <p>Plutus enters, an old man full of wrinkles, a bald head, a thinne white beard, spectacles on his nose, with a buncht backe, and attir'd in a Robe of Cloth of gold. </p>
+          </stage>
+        </sp>
+        <stage xml:id="ep000816-e101780">Plutus appeares. </stage>
+        <sp who="A73704-mercury" xml:id="ep000816-e101790">
+          <speaker>Merc. </speaker>
+          <p>Who's this appeares? </p>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e101810">
+          <speaker>Mom. </speaker>
+          <p>This is subterranean Fiend, Plutus, in this Dialect term'd Riches, or the god of gold; a Poyson, hid by Providence in the bottome of Seas, and Navill of the Earth, from mans discovery, where if the seeds begunne to sprout above-ground, the excrescence was carefully guarded by Dragons, yet at last by humane curiosity brought <pb n="15" xml:id="ep000816-010-b"/>to light, to their owne destruction; this being the true Pandora's box, whence issued all those mischiefes that now fill the Vniverse. </p>
+        </sp>
+        <sp who="A73704-plutus" xml:id="ep000816-e101830">
+          <speaker>Plut. </speaker>
+          <lg>
+            <l>That I prevent the message of the gods </l>
+            <l>Thus with my haste, and not attend their summons, </l>
+            <l>Which ought in Iustice call me to the place </l>
+            <l>I now require of Right, is not alone </l>
+            <l>To shew the just precedence that I hold </l>
+            <l>Before all earthly, next th' immortall Powers; </l>
+            <l>But to exclude the hope of partiall Grace </l>
+            <l>In all Pretenders, who, since I descend </l>
+            <l>To equall tryall, must by my example, </l>
+            <l>Waving your favour, clayme by sole Desert. </l>
+          </lg>
+          <lg>
+            <l>If Vertue must inherit, shee's my slave; </l>
+            <l>I lead her captive in a golden chaine, </l>
+            <l>About the world: She takes her Forme and Being </l>
+            <l>From my creation; and those barren seeds </l>
+            <l>That drop from Heaven, if I not cherish them </l>
+            <l>With my distilling dewes, and fotive heat, </l>
+            <l>They know no vegetation; but expos'd </l>
+            <l>To blasting winds of freezing Poverty, </l>
+            <l>Or not shoot forth at all, or budding, wither: </l>
+            <l>Should I proclaime the daily sacrifice </l>
+            <l>Brought to my Temples by the toyling rout, </l>
+            <l>Not of the fat and gore of abject Beasts, </l>
+            <l>But human sweat, and blood powr'd on my Altars, </l>
+            <l>I might provoke the envy of the gods. </l>
+            <l>Turne but your eyes and marke the busie world, </l>
+            <l>Climbing steepe Mountaines for the sparkling stone, </l>
+            <l>Piereing the Center for the shining Ore, </l>
+            <l>And th' Oceans bosome to rake pearly sands, </l>
+            <l>Crossing the torrid and the frozen Zones, </l>
+            <l>'Midst Rocks and swallowing Gulfes, for gainfull trade, </l>
+            <l>And though opposing swords, fire, murdring Canon, </l>
+            <l>Skaling the walled Towne for precious spoyles: </l>
+            <l>Plant in the passage to your heavenly seats, </l>
+            <l>These horrid dangers, and then see who dares </l>
+            <pb n="16" xml:id="ep000816-011-a"/>
+            <l>Advance his desperate foot; yet am I sought, </l>
+            <l>And oft in vaine, through these, and greater hazards; </l>
+            <l>I could discover how your Deities </l>
+            <l>Are for my sake sleighted, despis'd, abus'd, </l>
+            <l>Your Temples, Shrines, Altars, and Images </l>
+            <l>Vncover'd, rifled, rob'd, and disarray'd </l>
+            <l>By sacrilegious hands: yet is this treasure </l>
+            <l>To th' golden Mountaine, where I sit ador'd </l>
+            <l>With superstitious solemne rights convay'd, </l>
+            <l>And becomes sacred there, the sordid wretch </l>
+            <l>Not daring touch the consecrated Ore, </l>
+            <l>Or with prophane hands lessen the bright heape; </l>
+            <l>But this might draw your anger downe on mortals </l>
+            <l>For rendring me the homage due to you: </l>
+            <l>Yet what is said may well expresse my power </l>
+            <l>Too great for Earth, and onely fit for Heaven. </l>
+          </lg>
+          <lg>
+            <l>Now, for you pastime, view the naked root, </l>
+            <l>Which in the dirty earth, and base mould drown'd, </l>
+            <l>Sends forth this precious Plant, and golden fruit. </l>
+            <l>You lusty Swaines, that to your grazing flockes </l>
+            <l>Pipe amorous Roundelayes; you toyling Hinds, </l>
+            <l>That barbe the fields, and to your merry Teames </l>
+            <l>Whistle your passions; and you mining Moles, </l>
+            <l>That in the bowels of your mother-Earth </l>
+            <l>Dwell the eternall burthen of her wombe, </l>
+            <l>Cease from your labours, when Wealth bids you play, </l>
+            <l>Sing, dance, and keepe a chearefull holyday. </l>
+          </lg>
+        </sp>
+        <stage xml:id="ep000816-e102480">They dance the fourth Antimasque consisting of Countrey people, musique and measures. </stage>
+        <sp who="A73704-mercury" xml:id="ep000816-e102490">
+          <speaker>Merc. </speaker>
+          <l>Plutus, the gods know and confesse your power </l>
+          <l>Which feeble Vertue seldome can resist; </l>
+          <l>Stronger then Towers of brasse, or Chastity; </l>
+          <l>Iove knew you when he courted Danae, </l>
+          <l>And Cupid weares you on that Arrowes head </l>
+          <l>That still prevailes. But the gods keepe their Thrones </l>
+          <pb n="17" xml:id="ep000816-011-b"/>
+          <l>To enstall Vertue, not her Enemies. </l>
+          <l>They dread thy force, which even themselves have felt, </l>
+          <l>Witnesse Mount-Ida, where the Martiall Maid, </l>
+          <l>And frowning Iuno, did to mortall eyes </l>
+          <l>Naked, for gold, their sacred bodies show, </l>
+          <l>Therefore for ever be from heaven banish'd. </l>
+          <l>But since with toyle from undiscover'd Worlds </l>
+          <l>Thou aret brought hither, where thou first didst breathe </l>
+          <l>The thirst of Empire, into Regall brests, </l>
+          <l>And frightedst quiet Peace from her meeke Throne, </l>
+          <l>Filling the World with tumult, blood, and warre, </l>
+          <l>Follow the Camps of the contentious earth, </l>
+          <l>And be the Conqu'rers slave, but he that can </l>
+          <l>Or conquer thee, or give thee Vertues stampe, </l>
+          <l>Shall shine in heaven a pure immortall Lampe. </l>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e102710">
+          <speaker>Mom. </speaker>
+          <p>Nay stay, and take my benediction along with you. I could, being here a Co-Iudge, like others in my place, now that you are condemn'd, either raile at you, or breake jests upon you, but I rather chuse to loose a word of good counsell, and entreat you to bee more carefull in your choyce of company, for you are alwayes found either with Misers, that not use you at all; or with fooles, that know not how to use you wel: be not hereafter so reserv'd and coy to men of worth and parts, and so you shall gaine such credit, as at the next Sessions you may be heard with better successe. But till you are thus reform'd, I pronounce this positive sentence, That wheresoever you shall chuse to abide, your society shall adde no credit or reputation to the party, nor your discontinuance, or totall absence, be matter of disparagement to any man; and whosoever shall hold a contrary estimation of you, shall be condemn'd to weare perpetuall Motley, unlesse hee recant his opinion. Now you may voyd the Court. </p>
+          <stage xml:id="ep000816-e102730">
+            <p>Paenia enters, a woman of a pale colour, large brims of a hat upon her head, through which her haire started up like a fury, her Robe was of a darke color full of patches, <pb n="18" xml:id="ep000816-012-a"/>about one of her hands was tied a chaine of Iron, to which was fastned a weighty stone, which shee bore up under her arme. </p>
+          </stage>
+        </sp>
+        <stage xml:id="ep000816-e102750">Paenia enters. </stage>
+        <sp who="A73704-mercury" xml:id="ep000816-e102760">
+          <speaker>Merc. </speaker>
+          <p>What Creature's this? </p>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e102780">
+          <speaker>Mom. </speaker>
+          <p>The Antipodes to the other, they move like two Buckets, or as two nayles drive out one another; if Riches depart, Poverty will enter. </p>
+        </sp>
+        <sp who="A73704-poverty" xml:id="ep000816-e102800">
+          <speaker>Pov. </speaker>
+          <lg>
+            <l>I nothing doubt (Great and Immortall Powers) </l>
+            <l>But that the place, your wisdome hath deny'd </l>
+            <l>My foe, your Instice will conferre on me; </l>
+            <l>Since that which renders him incapable, </l>
+            <l>Proves a strong plea for me. I could pretend, </l>
+            <l>Even in these rags, a larger Soverainty </l>
+            <l>Then gaudy Wealth in all his pompe can boast; </l>
+            <l>For marke how few they are that share the World; </l>
+            <l>The numerous Armies, and the swarming Ants </l>
+            <l>That fight and toyle for them, are all my Subjects, </l>
+            <l>They take my wages, weare my Livery: </l>
+            <l>Invention too and Wit, are both my creatures, </l>
+            <l>And the whole race of Vertue is my Off-spring; </l>
+            <l>As many mischiefes issue from my wombe, </l>
+            <l>And those as mighty, as proceed from gold. </l>
+            <l>Oft o're his Throne I wave my awfull Scepter, </l>
+            <l>And in the bowels of his state command, </l>
+            <l>When 'midst his heapes of coyne, and hils of gold, </l>
+            <l>I pine, and starve the avaritious Foole. </l>
+            <l>But I decline those titles, and lay clayme </l>
+            <l>To heaven, by right of Diuine contemplation; </l>
+            <l>Shee is my Darling, I, in my soft lap, </l>
+            <l>Free from disturbing cares, bargaines, accounts, </l>
+            <l>Leases, Rents, Stewards, and the feare of theeves, </l>
+            <l>That vex the rich, nurse her in calme repose, </l>
+            <l>And with her, all the Vertues speculative, </l>
+            <l>Which, but with me, find no secure retreat. </l>
+          </lg>
+          <lg>
+            <l>For entertainment of this howre, I'll call </l>
+            <pb n="19" xml:id="ep000816-012-b"/>
+            <l>A race of people to this place, that live </l>
+            <l>At Natures charge, and not importune heaven </l>
+            <l>To chaine the winds up, or keepe backe the stormes, </l>
+            <l>To stay the thunder, or forbid the hayle </l>
+            <l>To thresh the unreap'd eare; but to all weathers, </l>
+            <l>Both chilling frost, and skalding Sunne, expose </l>
+            <l>Their equall face, Come forth, my swarthy traine, </l>
+            <l>In this faire circle dance, and as you move, </l>
+            <l>Marke, and foretell happy events of Love. </l>
+          </lg>
+        </sp>
+        <stage xml:id="ep000816-e103200">They dance the fifth Antimaske of Gypsies. </stage>
+        <sp who="A73704-momus" xml:id="ep000816-e103210">
+          <speaker>Mom. </speaker>
+          <p>I cannot but wonder that your perpetuall conversation with Poets and Philosophers hath furnished you with no more Logicke, or that you should thinke to impose upon us so grosse an inference, as because Plutus and you are contrary, therefore whatsoever is denyed of the one, must be true of the other; as if it should follow of necessity, because he is not Iupiter, you are. No, I give you to know, I am better vers'd in cavils with the gods, then to swallow such a fallacie, for though you two cannot bee together in one place, yet there are many places that may be without you both, and such is heaven, where neither of you are likely to arrive: therefore let me advise you to marry your selfe to Content, and beget sage Apothegms, and goodly morall Sentences in dispraise of Riches, and contempt of the world. </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e103230">
+          <speaker>Merc. </speaker>
+          <l>Thou dost presume too much, poore needy wretch, </l>
+          <l>To claime a station in the Firmament, </l>
+          <l>Because thy humble Cottage, or thy Tub </l>
+          <l>Nurses some lazie or Pedantique virtue </l>
+          <l>In the cheape Sun-shine, or by shady springs </l>
+          <l>With roots and pot-hearbs; where thy rigid hand, </l>
+          <l>Tearing those humane passions from the mind, </l>
+          <l>Vpon whose stockes faire blooming vertues flourish, </l>
+          <l>Degradeth Nature, and benummeth sense, </l>
+          <pb n="20" xml:id="ep000816-013-a"/>
+          <l>And Gorgon-like, turnes active men to stone. </l>
+          <l>We not require the dull society </l>
+          <l>Of your necessitated Temperance, </l>
+          <l>Or that unnaturall stupidity </l>
+          <l>That knowes nor joy nor sorrow; nor your forc'd </l>
+          <l>Falsly exalted passive Fortitude </l>
+          <l>Above the active: This low abject brood, </l>
+          <l>That fix their seats in mediocrity, </l>
+          <l>Become your servile minds; but we advance </l>
+          <l>Such vertues onely as admit excesse, </l>
+          <l>Brave bounteous Acts, Regall Magnificence, </l>
+          <l>All-seeing Prudence, Magnanimity </l>
+          <l>That knowes no bound, and that Heroicke vertue </l>
+          <l>For which Antiquity hath left no name, </l>
+          <l>But patternes onely, such as Hercules, </l>
+          <l>Achilles, Theseus. Backe, to thy loath'd cell, </l>
+          <l>And when thou seest the new enlightned Spheare, </l>
+          <l>Study to know but what those Worthies were. </l>
+          <p>Tiche, enters, hor head bald behind, and one great locke before, wings at her shoulders, and in her hand a wheele, her upper parts naked, and the skirt of her garment wrought all over with Crownes, Scepters, Boakes, and such other things as expresse both her greatest and smallest gifts. </p>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e103520">
+          <speaker>Mom. </speaker>
+          <p>See where Dame Fortune comes, you may know her by her wheele, and that vaile over eyes, with which she hopes like a seel'd Pigeon to mount above the Clouds, and pearch in the eighth Spheare: listen, she begins. </p>
+        </sp>
+        <sp who="A73704-fortuna" xml:id="ep000816-e103540">
+          <speaker>Fort. </speaker>
+          <lg>
+            <l>I come not here (you gods) to plead the Right </l>
+            <l>By which Antiquity assign'd my Deitie, </l>
+            <l>Though no peculiar station 'mongst the Stars, </l>
+            <l>Yet generall power to rule their influence, </l>
+            <l>Or boast the Title of Omnipotent, </l>
+            <l>Ascrib'd me then, by which I rival'd Iove, </l>
+            <pb n="21" xml:id="ep000816-013-b"/>
+            <l>Since you have cancell'd all those old records; </l>
+            <l>But confident in my good cause and merit, </l>
+            <l>Claime a succession in the vacant Orbe. </l>
+            <l>For since Astraa fled to heaven, I sit </l>
+            <l>Her Deputy on Earth, I hold her skales </l>
+            <l>And weigh mens Fates out, who have made me blind, </l>
+            <l>Because themselves want eyes to fee my causes, </l>
+            <l>Call me inconstant, cause my workes surpasse </l>
+            <l>The shallow fathom of their human reason; </l>
+            <l>Yet here, like blinded Iustice, I dispence </l>
+            <l>With nay impartiall hands, their constant lots, </l>
+            <l>And if desertlesse, impious men engrosse </l>
+            <l>My best rewards, the fault is yours, you gods, </l>
+            <l>That scant your graces to mortalitie, </l>
+            <l>And niggards of your good, scarce spare the world </l>
+            <l>One vertuous, for a thousand wicked men. </l>
+            <l>It is no error to conferre dignity, </l>
+            <l>But to bestow it on a vicious man; </l>
+            <l>I gave the dignity, but you made the vice, </l>
+            <l>Make you men good, and I'le make good men happy </l>
+            <l>That Plutus is refus'd, dismaies me not, </l>
+            <l>He is my Drudge, and the externall pompe, </l>
+            <l>In which he deckes the World, proceeds from me, </l>
+            <l>Not him; like Harmony, that not resides </l>
+            <l>In strings, or notes, but in the hand and voyce. </l>
+            <l>The revolutions of Empires, States, </l>
+            <l>Scepters, and Crownes, are but my game and sport, </l>
+            <l>Which as they hang on the events of Warre, </l>
+            <l>So those depend upon my turning wheele. </l>
+          </lg>
+          <lg>
+            <l>You warlike Squadrons, who in battels joyn'd, </l>
+            <l>Dispute the Right of Kings, which I decide, </l>
+            <l>Present the modell of that martiall frame, </l>
+            <l>By which, when Crownes are stak'd, I rule the game. </l>
+          </lg>
+        </sp>
+        <stage xml:id="ep000816-e103960">They dance the sixth Antimaske, being the representation of a Buttell. </stage>
+        <pb n="20" xml:id="ep000816-014-a"/>
+        <sp who="A73704-momus" xml:id="ep000816-e103970">
+          <speaker>Mom. </speaker>
+          <p>Madam, I should censure you, pro falso clamore, for preferring a skandalous cros-bill of recrimination against the gods, but your blindnesse shall excuse you. Alas! what would it advantage you, if vertue were as universall as vice is? it would onely follow, that as the world now exclaimes upon you for exalting the vicious, it would then raile as fast at you for depressing the vertuous; so they would still keep their tune, though you chang'd their ditty. </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e103990">
+          <speaker>Merc. </speaker>
+          <l>The mists, in which future events are wrap'd, </l>
+          <l>That oft succeed beside the purposes </l>
+          <l>Of him that workes, his dull eyes not discerning </l>
+          <l>The first great cause, offer'd thy clouded shape </l>
+          <l>To his enquiring search; so in the darke </l>
+          <l>The groping world first found thy Deity, </l>
+          <l>And gave thee rule over contingencies, </l>
+          <l>Which, to the piercing eye of Providence, </l>
+          <l>Being fix'd and certaine, where past and to come, </l>
+          <l>Are alwayes present, thou dost disappeare, </l>
+          <l>Losest thy being, and art not all. </l>
+          <l>Be thou then onely a deluding Phantome, </l>
+          <l>At best a blind guide, leading blinder fooles; </l>
+          <l>Who, would they but survay their mutuall wants, </l>
+          <l>And helpe each other, there were left no roome </l>
+          <l>For thy vaine ayd. Wisdome, whose strong-built plots </l>
+          <l>Leave nought to hazard, mockes thy futile power. </l>
+          <l>Industrious labour drags thee by the lockes. </l>
+          <l>Bound to his toyling Car, and not attending </l>
+          <l>Till thou dispence, reaches his owne reward. </l>
+          <l>Onely the lazy sluggard yawning lyes </l>
+          <l>Before thy threshold, gaping for thy dole, </l>
+          <l>And lickes the easie hand that feeds his sloth. </l>
+          <l>The shallow, rash, and unadvised man </l>
+          <l>Makes thee his stale, disburdens all the follies </l>
+          <l>Of his mis-guided actions, on thy shoulders. </l>
+          <l>Vanish from hence, and seeke those Ideots out </l>
+          <l>That thy fantasticke god-head hath allow'd, </l>
+          <l>And rule that giddy superstitious crowd. </l>
+          <pb n="21" xml:id="ep000816-014-b"/>
+          <p>Hedone, Pleasure, a young woman with a smiling face, in a light lascivious habit, adorn'd with silver and gold, her Temples crown'd with a garland of Roses, and over that a Rainbow circling her head downe to her shoulders. </p>
+        </sp>
+        <stage xml:id="ep000816-e104300">Hedone enters. </stage>
+        <sp who="A73704-mercury" xml:id="ep000816-e104310">
+          <speaker>Merc. </speaker>
+          <p>What wanton's this? </p>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e104330">
+          <speaker>Mom. </speaker>
+          <p>This is the sprightly Lady Hedone, a merry gamester, this people call her Pleasure. </p>
+        </sp>
+        <sp who="A73704-pleasure" xml:id="ep000816-e104350">
+          <speaker>Plea. </speaker>
+          <lg>
+            <l>The reasons (equall Iudges) here alleag'd </l>
+            <l>By the dismist Pretenders, all concurre </l>
+            <l>To strengthen my just title to the Spheare. </l>
+            <l>Honour, or Wealth, or the contempt of both, </l>
+            <l>Have in themselves no simple reall good, </l>
+            <l>But as they are the meanes to purchase Pleasure; </l>
+            <l>The paths that lead to my delicious Palace; </l>
+            <l>They for my sake, I for mine owne am priz'd. </l>
+            <l>Beyond me nothing is, I am the Gole, </l>
+            <l>The journeyes end, to which the sweating world, </l>
+            <l>And wearied Nature travels. For this, the best </l>
+            <l>And wisest sect of all Philosophers, </l>
+            <l>Made me the seat of supreme happinesse. </l>
+            <l>And though some, more austere, upon my ruines, </l>
+            <l>Did to the prejudice of Nature, raise </l>
+            <l>Some petty low-built vertues, 'twas because </l>
+            <l>They wanted wings to reach my soaring pitch. </l>
+            <l>Had they beene Princes borne, themselves had prov'd </l>
+            <l>Of all mankind the most luxurious. </l>
+            <l>For those delights, which to their low condition </l>
+            <l>Were obvious, they with greedy appetite </l>
+            <l>Suck'd and devour'd: from offices of State, </l>
+            <l>From cares of family, children, wife, hopes, feares, </l>
+            <l>Retir'd, the churlish Cynicke in his Tub </l>
+            <l>Enjoy'd those pleasures which his tongue defam'd. </l>
+            <l>Nor am I rank'd mongst the superfluous goods; </l>
+            <l>My necessary offices preserve </l>
+            <l>Each single man, and propogate the kind. </l>
+            <l>Then am I universall as the light, </l>
+            <pb n="24" xml:id="ep000816-015-a"/>
+            <l>Or common Ayre we breathe; and since I am </l>
+            <l>The generall desire of all mankinde, </l>
+            <l>Civill Felicity must reside in me. </l>
+            <l>Tell me what rate my choycest pleasures beare, </l>
+            <l>When for the short delight of a poore draught </l>
+            <l>Of cheape cold water, great Lysimachus </l>
+            <l>Rendred himselfe slave to the Scythians. </l>
+            <l>Should I the curious structure of my seats, </l>
+            <l>The art and beauty of my severall objects, </l>
+            <l>Rehearse at large, your bounties would reserve </l>
+            <l>For every sense a proper constellation; </l>
+            <l>But I present their Persons to your eyes. </l>
+          </lg>
+          <lg>
+            <l>Come forth my subtle Organs of delight, </l>
+            <l>With changing figures please the curious eye, </l>
+            <l>And charme the eare with moving Harmonie. </l>
+          </lg>
+        </sp>
+        <stage xml:id="ep000816-e104820">They dance the seventh Antimaske of the five Senses. </stage>
+        <sp who="A73704-mercury" xml:id="ep000816-e104830">
+          <speaker>Merc. </speaker>
+          <l>Bewitching Syren, guilded rottennesse, </l>
+          <l>Thou hast with cunning artifice display'd </l>
+          <l>Th' enamel'd outside, and the honied verge </l>
+          <l>Of the faire cup, where deadly poyson lurkes. </l>
+          <l>Within, a thousand sorrowes dance the round; </l>
+          <l>And like a shell, Paine circles thee without, </l>
+          <l>Griefe is the shadow waiting on thy steps, </l>
+          <l>Which, as thy joyes 'ginne tow'rds their West decline, </l>
+          <l>Doth to a Gyants spreading forme extend </l>
+          <l>Thy Dwarfish stature. Thou thy selfe art Paine, </l>
+          <l>Greedy, intense Desire, and the keene edge </l>
+          <l>Of thy fierce Appetite, oft strangles thee, </l>
+          <l>And cuts thy slender thread; but still the terror </l>
+          <l>And apprehension of thy hasty end, </l>
+          <l>Mingles with Gall thy most refined sweets; </l>
+          <l>Yet thy Cyrcaean charmes transforme the world. </l>
+          <l>Captaines, that have resisted warre and death, </l>
+          <l>Nations, that over Fortune have triumph'd, </l>
+          <pb n="25" xml:id="ep000816-015-b"/>
+          <l>Are by thy Magicke made effeminate. </l>
+          <l>Empires, that knew no limits but the Poles, </l>
+          <l>Have in thy wanton lap melted away. </l>
+          <l>Thou wert the Author of the first excesse </l>
+          <l>That drew this reformation on the gods. </l>
+          <l>Canst thou then dreame, those Powers, that from heaven have </l>
+          <l>Banish'd th' effect, will there enthrone th' cause? </l>
+          <l>To thy voluptuous Denne, flye Witch, from hence, </l>
+          <l>There dwell, for ever drown'd in brutish sense. </l>
+        </sp>
+        <sp who="A73704-momus" xml:id="ep000816-e105110">
+          <speaker>Mom. </speaker>
+          <p>I concurre, and am growne so weary of these tedious pleadings, as I'le packe up too and be gone: Besides, I see a crowd of other suitors pressing hither, I'le stop 'em, take their petitions and preferre 'em above; and as I came in bluntly without knocking, and no body bid mee welcome; so I'le depart as abruptly without taking leave, and bid no bodie fare well. </p>
+        </sp>
+        <sp who="A73704-mercury" xml:id="ep000816-e105130">
+          <speaker>Merc. </speaker>
+          <l>These, with forc'd reasons, and strain'd arguments, </l>
+          <l>Vrge vaine pretences, whilst your Actions plead, </l>
+          <l>And with a silent importunity </l>
+          <l>Awake the drousie Iustice of the gods </l>
+          <l>To Crowne your deeds with immortality. </l>
+          <l>The growing Titles of your Ancestors, </l>
+          <l>These Nations glorious Acts, joyn'd to the stocke </l>
+          <l>Of your owne Royall vertues, and the cleare </l>
+          <l>Reflexe they take from th'imitation </l>
+          <l>Of your fam'd Court, make Honors storie full, </l>
+          <l>And have to that secure fix'd state advanc'd </l>
+          <l>Both you and them, to which the labouring world, </l>
+          <l>Wading through streames of blood, sweats to aspire. </l>
+          <l>Those antient Worthies of these famous Isles, </l>
+          <l>That long have slept, in fresh and lively shapes </l>
+          <l>Shall straight appeare, where you shall see your self </l>
+          <l>Circled with moderne Heroes, who shall be </l>
+          <l>In Act, what-ever elder times can boast, </l>
+          <l>Noble, or Great; as they in Prophesie </l>
+          <l>Were all but what you are. Then shall you see </l>
+          <l>The sacred hand of bright Eternitie </l>
+          <pb n="26" xml:id="ep000816-016-a"/>
+          <l>Mould you to Stars, and six you in the Spheare. </l>
+          <l>To you, your Royall halfe, to them shee'll joyne </l>
+          <l>Such of this traine, as with industrious steps </l>
+          <l>In the faire prints your vertuous feet have made, </l>
+          <l>Though with unequall paces, follow you. </l>
+          <l>This is decreed by Iove, which my returne </l>
+          <l>Shall see perform'd; but first behold the rude </l>
+          <l>And old Abiders here, and in them view </l>
+          <l>The point from which your full perfections grew. </l>
+          <l>You naked, antient wild Inhabitants, </l>
+          <l>That breath'd this Ayre, and prest this flowery Earth, </l>
+          <l>Come from those shades where dwells eternall night, </l>
+          <l>And see what wonders Time hath brought to light. </l>
+        </sp>
+        <stage xml:id="ep000816-e105480">
+          <p>Atlas, and the Spheare vanisheth, and a new Scaene appeares of mountaines, whose eminent height exceed the Clouds which past beneath them, the lower parts were wild and woody: out of this place comes forth a more grave Antimasque of Picts, the naturall Inhabitants of this Isle, antient Scots and Irish, these dance a Perica or Marshall dance. </p>
+          <p>When this Antimasque was past, there began to arise out of the earth the top of a hill, which by little and little grew to be a huge mountaine that covered all the Scaene; the under-part of this was wild and craggy, and above somewhat more pleasant and flourishing: about the middle part of this Mountaine were seated the three kingdomes of England, Scotland, and Ireland; all richly attired in regall habits, appropriated to the severall Nations, with Crownes on their heads, and each of them bearing the ancient Armes of the kingdomes they represented: At a distance above these sate a young man in a white embroidered robe, upon his faire haire an Olive garland with wings at his shoulders, and holding in his hand a Cornucopia fill'd with corne and fruits, representing the Genius of these kingdomes. </p>
+        </stage>
+        <pb n="27" xml:id="ep000816-016-b"/>
+        <floatingText>
+          <body>
+            <div n="1" type="song" xml:id="ep000816-e105530">
+              <head>The first Song. </head>
+              <sp who="A73704-genius" xml:id="ep000816-e105540">
+                <speaker>GENIVS. </speaker>
+                <l>RAise from these rockie cliffs, your heads, </l>
+                <l>Brave Sonnes, and see where Glory spreads </l>
+                <l>Her glittering wings, where Majesty </l>
+                <l>Crown'd with sweet smiles, shoots from her eye </l>
+                <l>Diffusive joy, where Good and Faire, </l>
+                <l>Vnited sit in Honours chayre. </l>
+                <l>Call forth your aged Priests, and chrystall streames, </l>
+                <l>To warme their hearts, and waves in these bright beame. </l>
+              </sp>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e105630">
+                <speaker>KINGDOMES. </speaker>
+                <l n="1">1. From your consecrated woods, </l>
+                <l>Holy Druids. 2. Silver floods, </l>
+                <l>From your channels fring'd with flowers, </l>
+                <l n="3">3. Hither move; forsake your howers </l>
+                <l n="1">1. Strew'd with hallowed Oaken leaves, </l>
+                <l>Deck'd with flags and fedgie sheaves, </l>
+                <l>And behold a wonder. 3. Say, </l>
+                <l>What doe your duller eyes survay? </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e105720">
+                <speaker>CHORVS of DRVIDS and RIVERS. </speaker>
+                <l>We see at once in dead of night </l>
+                <l>A Sun appeare, and yet a bright </l>
+                <l>Nooneday, springing from Starre-light. </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e105760">
+                <speaker>GENIVS. </speaker>
+                <l>Looke up, and see the darkned Spheare </l>
+                <l>Depriv'd of light, her eyes shine there; </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e105790">
+                <speaker>CHORVS. </speaker>
+                <l>These are more sparkling then those were. </l>
+              </sp>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e105810">
+                <speaker>KINGDOMES. </speaker>
+                <l n="1">1. These shed a nobler influence, </l>
+                <l n="2">2. These by a pure intelligence </l>
+                <l>Of more transcendent Vertue move, </l>
+                <l n="3">3. These first feele, then kindle love. </l>
+                <l n="1.2">1.2. From the bosomes they inspire, </l>
+                <l>These receive a mutuall fire; </l>
+                <l n="1.2.3">1.2.3. And where their flames impure returne, </l>
+                <pb n="28" xml:id="ep000816-017-a"/>
+                <l>These can quench as well as burne. </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e105900">
+                <speaker>GENIVS. </speaker>
+                <l>Here the faire victorious eyes. </l>
+                <l>Make Worth onely Beauties prize, </l>
+                <l>Here the hand of Vertue tyes </l>
+                <l>'Bout the heart loves amourous chaine, </l>
+                <l>Captives triumph, Vassals reigne, </l>
+                <l>And none live here but the slaine. </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e105970">
+                <speaker>CHORVS. </speaker>
+                <l>These are th' Hesperian bowers, whose faire trees beare </l>
+                <l>Rich golden fruit, and yet no Dragon neare. </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e106000">
+                <speaker>GENIVS. </speaker>
+                <l>Then, from your impris'ning wombe, </l>
+                <l>Which is the cradle and the tombe </l>
+                <l>Of British Worthies (faire sonnes) send </l>
+                <l>A troope of Heroes, that may lend </l>
+                <l>Their hands to case this loaden grove, </l>
+                <l>And gather the ripe fruits of love. </l>
+              </sp>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e106070">
+                <speaker>KINGDOMES. </speaker>
+                <l n="1.2.3">1.2.3. Open thy stony entrailes wide, </l>
+                <l>And breake old Atlas, that the pride </l>
+                <l>Of three fam'd kingdomes may be spy'd. </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e106110">
+                <speaker>CHORVS. </speaker>
+                <l>Pace forth thou mighty British Hercules, </l>
+                <l>With thy choyce band, for onely thou, and these, </l>
+                <l>May revell here, in Loves Hesperides. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="ep000816-e106150">
+          <p>At this the under-part of the Rocke opens, and out of a Cave are seene to come the Masquers, richly attired like ancient Heroes, the Colours yellow, embroydered with silver, their antique Helmes curiously wrought, and great plumes on the top; before them a troope of young Lords and Noblemens sonnes bearing Torches of Virginwax, these were apparelled after the old British fashion in white Coats, embroydered with silver, girt, and full gathered, cut square coller'd, and round caps on their heads, with a white feather wreathen about them; first these dance with their lights in their hands: After which, the <pb n="29" xml:id="ep000816-017-b"/>Masquers descend into the roome, and dance their entry. </p>
+          <p>The dance being past, there appeares in the further part of the heaven comming downe a pleasant Cloud, bright and transparent, which comming softly downewards before the upper part of the mountaine, embraceth the Genius, but so as through it all his body is seene; and then rising againe with a gentle motion beares up the Genius of the three kingdomes, and being past the Airy Region, pierceth the heavens, and is no more seene: At that instant the Rocke with the three kingdomes on it sinkes, and is hidden in the earth. This strange spectacle gave great cause of admiration, but especially how so huge a machine, and of that great height could come from under the Stage, which was but six foot high. </p>
+        </stage>
+        <floatingText>
+          <body>
+            <div n="2" type="song" xml:id="ep000816-e106200">
+              <head>The second Song. </head>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e106210">
+                <speaker>KINGDOMES. </speaker>
+                <l n="1">1. HEre are shapes form'd fit for heaven, </l>
+                <l n="2">2. These move gracefully and even, </l>
+                <l n="3">3. Here the Ayre and paces meet </l>
+                <l>So just, as if the skilfull feet </l>
+                <l>Had strucke the Vials. 1.2.3. So the Ear </l>
+                <l>Might the tune full footing heare. </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e106280">
+                <speaker>CHORVS. </speaker>
+                <l>And had the Musicke silent beene, </l>
+                <l>The eye a moving tune had seene. </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e106310">
+                <speaker>GENIVS. </speaker>
+                <l>These must in the unpeopled skie </l>
+                <l>Succeed, and governe Destinie, </l>
+                <l>Iove is temp'ring purer fire, </l>
+                <l>And will with brighter flames attire </l>
+                <l>These glorious lights. I must ascend </l>
+                <l>And helpe the Worke. </l>
+              </sp>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e106380">
+                <speaker>KINGDOMES. </speaker>
+                <l n="1">1. We cannot lend </l>
+                <l>Heaven so much treasure. 2. Nor that pay, </l>
+                <pb n="30" xml:id="ep000816-018-a"/>
+                <l>But rendring what it takes away. </l>
+                <l n="3">3. Why should they that here can move </l>
+                <l>So well, be ever-fix'd above? </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e106440">
+                <speaker>CHORVS. </speaker>
+                <l>Or be to one eternall posture ty'd, </l>
+                <l>That can into such various figures slide. </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e106470">
+                <speaker>GENIVS. </speaker>
+                <l>Iove shall not, to enrich the Skie, </l>
+                <l>Beggar the Earth, their Fame shall flye </l>
+                <l>From hence alone, and in the Spheare </l>
+                <l>Kindle new Starres, whilst they rest here. </l>
+              </sp>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e106520">
+                <speaker>KINGDOMES. </speaker>
+                <l n="1.2.3">1.2.3. How can the shaft stay in the quiver, </l>
+                <l>Yet hit the marke? </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e106550">
+                <speaker>GENIVS. </speaker>
+                <l>Did not the River </l>
+                <l>Eridanus, the grace acquire </l>
+                <l>In Heaven and Earth to flow, </l>
+                <l>Above in streames of golden fire, </l>
+                <l>In silver waves below? </l>
+              </sp>
+              <sp who="A73704-kingdoms" xml:id="ep000816-e106610">
+                <speaker>KINGDOMES </speaker>
+                <l n="1.2.3">1.2.3. But shall not wee, now thou art gone </l>
+                <l>Who wert our Nature, wither, </l>
+                <l>Or breake that triple Vnion </l>
+                <l>Which thy soule held together? </l>
+              </sp>
+              <sp who="A73704-genius" xml:id="ep000816-e106660">
+                <speaker>GENIVS. </speaker>
+                <l>In Concords purce immortall spring </l>
+                <l>I will my force renew, </l>
+                <l>And a more active Vertue bring </l>
+                <l>At my returne. Adieu. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="ep000816-e106710">KINGDOMES Adieu, CHORVS Adieu. </stage>
+        <stage xml:id="ep000816-e106720">
+          <p>The Masquers dance their maine dance; which done, the Scaene againe is varied into a new and pleasant prospect, cleane differing from all the other, the nearest part shewing a delicious garden with severall walkes and perterra's set round with low trees, and on the sides against <pb n="31" xml:id="ep000816-018-b"/>these walkes, were fountaines and grots, and in the furthest part a Palace, from whence went high walkes upon Arches, and above them open Tarraces planted with Cypresse trees, and all this together was composed of such Ornaments as might expresse a Princely Villa. </p>
+          <p>From hence the Chorus descending into the roome, goes up to the State. </p>
+        </stage>
+        <floatingText>
+          <body>
+            <div n="3" type="song" xml:id="ep000816-e106770">
+              <head>The third Song. </head>
+              <stage xml:id="ep000816-e106780">By the Chorus going up to the Queene. </stage>
+              <lg>
+                <l>WHilst thus the darlings of the Gods </l>
+                <l>From Honours Temple, to the Shrine </l>
+                <l>Of Beauty, and these sweet abodes </l>
+                <l>Of Loue, we guide, let thy Divine </l>
+                <l>Aspects (Bright Deity) with faire </l>
+                <l>And, Halcyon beames, becalme the Ayre. </l>
+              </lg>
+              <lg>
+                <l>We bring Prince Arthur, or the brave </l>
+                <l>St. George himselfe (great Queene) to you, </l>
+                <l>You'll soone discerne him; and we have </l>
+                <l>A Guy, a Beavis, or some true </l>
+                <l>Round-Table Knight, as ever fought </l>
+                <l>For Lady, to each Beauty brought. </l>
+              </lg>
+              <lg>
+                <l>Plant in their Martiall hands, Warr's seat, </l>
+                <l>Your peace full pledges of warme snow, </l>
+                <l>And, if a speaking touch, repeat </l>
+                <l>In Loves knowne langvage, tales of woe; </l>
+                <l>Say, in soft whispers of the Palme, </l>
+                <l>As Eyes shoot darts, so Lips shed Balme. </l>
+              </lg>
+              <lg>
+                <l>For though you seeme like Captives, lid </l>
+                <l>In triumph by the Foe away, </l>
+                <l>Yet on the Conqu'rers nocke you tread, </l>
+                <l>And the fierce Victor proves your prey. </l>
+                <l>What heart is then secure from you, </l>
+                <l>That can, though vanquish'd, yet subdue? </l>
+              </lg>
+            </div>
+          </body>
+        </floatingText>
+        <pb n="32" xml:id="ep000816-019-a"/>
+        <stage xml:id="ep000816-e107070">
+          <p>The Song done they retire, and the Masquers dance the Revels with the Ladies, which continued a great part of the night. </p>
+          <p>The Revels being past, and the Kings Majesty seated under the State by the Queene; for Conclusion to this Masque there appeares comming forth from one of the sides, as moving by a gentle wind, a great Cloud, which arriving at the middle of the heaven, stayeth; this was of severall colours, and so great, that it covered the whole Scaene. Out of the further part of the heaven beginnes to breake forth two other Clouds, differing in colour and shape; and being fully discovered there appeared sitting in one of them, Religion, Truth, and Wisdome. Religion was apparelled in white, and part of her face was covered with a light vaile, in one hand a booke, and in the other a same of fire. Truth in a Watchet Robe, a Sunne upon her fore-head and bearing in her hand a Palme. Wisdome in a mantle wrought with eyes and hands, golden rayes about her head, and Apollo's Cithera in her hand. In the other Cloud fate Concord, Government, and Reputation. The habit of Concord was Carnation, bearing in her hand a little faggot of stickes bound together, and on the top of it a hart, and a garland of corne on her head: Government was figured in a coat of Armour, bearing a shield, and on it a Medusa's head; upon her head a plumed helme, and in her right hand a Lance. Reputation, a young man in purple robe wrought with gold, and wearing a laurell wreath on his head. These being come downe in an equall distance to the middle part of the Ayre, the great Cloud beganne to breake open, out of which stroke beames of light; in the midst suspended in the Ayre, sate Eternity on a Globe, his Garment was long of a light blue, wrought all over with Stars of gold, and bearing in his hand a Serpent bent into a circle, with his taile in his mouth. In the firmament about him, was a troope of fifteene starres, expressing the stellifying of our British Heroes; but one more great and eminent than the rest, which was over his head, figured <pb n="30" xml:id="ep000816-019-b"/>his Majesty. And in the lower part was seene a farre off the prospect of Windsor Castell, the famous seat of the most honourable Order of the Garter. </p>
+        </stage>
+        <floatingText>
+          <body>
+            <div n="4" type="song" xml:id="ep000816-e107120">
+              <head>The fourth Song. </head>
+              <stage xml:id="ep000816-e107130">Eternity, Eusebia, Alethia, Sophia, Homonoia, Dicaearche, Euphemia. </stage>
+              <sp who="A73704-eternity" xml:id="ep000816-e107140">
+                <speaker>ETERNITIE. </speaker>
+                <l>BE fix'd you rapid Orbes, that beare </l>
+                <l>The changing seasons of the yeare </l>
+                <l>On your swife wings, and see the old </l>
+                <l>Decrepit Spheare growne darke and cold; </l>
+                <l>Nor did Iove quench her fires, these bright </l>
+                <l>Flames, have ecclips'ed her sullen light: </l>
+                <l>This Royall Payre, for whom Fate will </l>
+                <l>Make Motion cease, and Time stand still; </l>
+                <l>Since Good is here so perfect, as no Worth </l>
+                <l>Is left for After-Ages to bring forth. </l>
+              </sp>
+              <sp who="A73704-eusebeia" xml:id="ep000816-e107250">
+                <speaker>EVSEBIA. </speaker>
+                <l>Mortality cannot with more </l>
+                <l>Religious zeale, the gods adore. </l>
+              </sp>
+              <sp who="A73704-aletheia" xml:id="ep000816-e107280">
+                <speaker>ALETHIA. </speaker>
+                <l>My Truths, from human eyes conceal'd, </l>
+                <l>Are naked to their sight reveal'd. </l>
+              </sp>
+              <sp who="A73704-sophia" xml:id="ep000816-e107310">
+                <speaker>SOPHIA. </speaker>
+                <l>Nor doe their Actions, from the guide </l>
+                <l>Of my exactest precepts slide. </l>
+              </sp>
+              <sp who="A73704-homonoia" xml:id="ep000816-e107340">
+                <speaker>HOMONOIA. </speaker>
+                <l>And as their owne pure Soules entwin'd, </l>
+                <l>So are their Subjects hearts combin'd. </l>
+              </sp>
+              <sp who="A73704-dicaearche" xml:id="ep000816-e107370">
+                <speaker>DICAEARCHES. </speaker>
+                <l>So just, so gentle is their sway, </l>
+                <l>As it seemes Empire to obay. </l>
+              </sp>
+              <pb n="28" xml:id="ep000816-020-a"/>
+              <sp who="A73704-euphemia" xml:id="ep000816-e107400">
+                <speaker>EVPHEMIA. </speaker>
+                <l>And their faire Fame, like incense hurl'd </l>
+                <l>On Altars, hath pefum'd the world. </l>
+              </sp>
+              <sp who="A73704-sophia" xml:id="ep000816-e107430">
+                <speaker>SO. </speaker>
+                <l>Wisdome. </l>
+              </sp>
+              <sp who="A73704-aletheia" xml:id="ep000816-e107450">
+                <speaker>AL. </speaker>
+                <l>Truth. </l>
+              </sp>
+              <sp who="A73704-eusebeia" xml:id="ep000816-e107470">
+                <speaker>EVS. </speaker>
+                <l>Pure Adoration. </l>
+              </sp>
+              <sp who="A73704-homonoia" xml:id="ep000816-e107490">
+                <speaker>HO. </speaker>
+                <l>Concord. </l>
+              </sp>
+              <sp who="A73704-dicaearche" xml:id="ep000816-e107510">
+                <speaker>DI. </speaker>
+                <l>Rule. </l>
+              </sp>
+              <sp who="A73704-euphemia" xml:id="ep000816-e107530">
+                <speaker>EVP. </speaker>
+                <l>Cleare Reputation, </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e107550">
+                <speaker>CHORVS. </speaker>
+                <l>Crowne this King, this Queene, this Nation. </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e107570">
+                <speaker>CHORVS. </speaker>
+                <l>Wisdome, Truth, &amp;c. </l>
+              </sp>
+              <sp who="A73704-eternity" xml:id="ep000816-e107590">
+                <speaker>ETERNITIE. </speaker>
+                <l>Brave Spirits, whose adventrous feet </l>
+                <l>Have to the Mountaines top aspir'd, </l>
+                <l>Where faire Desert, and Honour meet, </l>
+                <l>Here, from the toyling Presse retir'd, </l>
+                <l>Secure from all disturbing Evill, </l>
+                <l>For ever in my Temple revell. </l>
+                <l>With wreathes of Starres circled about, </l>
+                <l>Guild all the spacious Firmament, </l>
+                <l>And smiling on the panting Routs </l>
+                <l>That labour in the steepe ascent, </l>
+                <l>With your resistlesse influence guide </l>
+                <l>Of human change th' incertaine tide </l>
+              </sp>
+              <sp who="A73704-multiple" xml:id="ep000816-e107720">
+                <speaker>EVS. ALE. SOP. </speaker>
+                <l>But oh you Royall Turtles, shed, </l>
+                <l>When you from Earth remove, </l>
+                <l>On the ripe fruits of your chaste bed, </l>
+                <l>Those sacred seeds of Love. </l>
+              </sp>
+              <sp who="A73704-chorus" xml:id="ep000816-e107770">
+                <speaker>CHORVS. </speaker>
+                <l>Which no Power can but yours dispence, </l>
+                <l>Since you the patterne beare from hence. </l>
+              </sp>
+              <sp who="A73704-multiple" xml:id="ep000816-e107800">
+                <speaker>HOM. DIC. EVP. </speaker>
+                <l>Then from your fruitfull race shall flow </l>
+                <l>Endlesse Succession, </l>
+                <l>Scepters shall bud, and Lawrels blow </l>
+                <l>'Bout their Immortall Throne. </l>
+              </sp>
+              <pb n="29" xml:id="ep000816-020-b"/>
+              <sp who="A73704-chorus" xml:id="ep000816-e107850">
+                <speaker>CHORVS. </speaker>
+                <l>Propitious Starres shall crowne each birth, </l>
+                <l>Whilst you rule them, and they the Earth. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="ep000816-e107880">
+          <p>The Song ended, the two Clouds, with the persons sitting on them, ascend; the great Cloud closeth againe, and so passeth away overthwart the Scaene; leaving behind it no thing but a sirene Skye. After which, the Masquers dance their last dance, and the Curtaine was let fall. </p>
+        </stage>
+        <div type="characters" xml:id="ep000816-e107900">
+          <list>
+            <head>The Names of the Masquers. </head>
+            <item>The Kings Majesty. </item>
+            <item>Duke of Lenox. </item>
+            <item>Earle of Devonshire. </item>
+            <item>Earle of Holland. </item>
+            <item>Earle of Newport. </item>
+            <item>Earle of Elgin. </item>
+            <item>Viscount Grandeson. </item>
+            <item>Lord Rich. </item>
+            <item>Lord Feilding. </item>
+            <item>Lord Digby. </item>
+            <item>Lord Dungarvin. </item>
+            <item>Lord Dunluce. </item>
+            <item>Lord Wharton. </item>
+            <item>Lord Paget. </item>
+            <item>Lord Saltine. </item>
+          </list>
+          <list>
+            <head>The names of the young Lords and Noble-mens Sonnes. </head>
+            <item>Lord Walden. </item>
+            <item>Lord Craborne, </item>
+            <item>Lord Brackley. </item>
+            <item>Lord Shandos. </item>
+            <item>Mr. William Herbert. </item>
+            <item>Mr. Thomas Howard. </item>
+            <item>Mr. Thomas Egerton, </item>
+            <item>Mr. Charles Cavendish. </item>
+            <item>Mr. Robert Howard. </item>
+            <item>Mr. Henry Spencer. </item>
+          </list>
+          <pb xml:id="ep000816-021-a"/>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist">
+        <head>Machine-generated castlist</head>
+        <list n="163-A73704">
+          <item n="16">
+            <seg type="character_name">A73704-momus</seg>
+            <seg type="speech_count">16</seg>
+          </item>
+          <item n="16">
+            <seg type="character_name">A73704-mercury</seg>
+            <seg type="speech_count">16</seg>
+          </item>
+          <item n="10">
+            <seg type="character_name">A73704-chorus</seg>
+            <seg type="speech_count">10</seg>
+          </item>
+          <item n="8">
+            <seg type="character_name">A73704-genius</seg>
+            <seg type="speech_count">8</seg>
+          </item>
+          <item n="7">
+            <seg type="character_name">A73704-kingdoms</seg>
+            <seg type="speech_count">7</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-aletheia</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-eternity</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-sophia</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-homonoia</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-euphemia</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-multiple</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-eusebeia</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A73704-dicaearche</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="1">
+            <seg type="character_name">A73704-pleasure</seg>
+            <seg type="speech_count">1</seg>
+          </item>
+          <item n="1">
+            <seg type="character_name">A73704-fortuna</seg>
+            <seg type="speech_count">1</seg>
+          </item>
+          <item n="1">
+            <seg type="character_name">A73704-poverty</seg>
+            <seg type="speech_count">1</seg>
+          </item>
+          <item n="1">
+            <seg type="character_name">A73704-plutus</seg>
+            <seg type="speech_count">1</seg>
+          </item>
+        </list>
+      </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
+        <note target="A73704-005-a-3350">
+          <label>c3bth-005-a-3350</label>
+          <sic>●●●●ne</sic>
+          <seg>by Patent a particular privilege to draw</seg>
+          <corr>downe</corr>
+          <seg>any of the Deities from Twelfnight till</seg>
+        </note>
+        <note target="A73704-006-a-2750">
+          <label>c3bth-006-a-2750</label>
+          <sic>hauging</sic>
+          <seg>huge naked Figure ( onely a peece of Drapery</seg>
+          <corr>hanging</corr>
+          <seg>over his thigh ) kneeling , and bowing forwards</seg>
+        </note>
+        <note target="A73704-006-a-3490">
+          <label>c3bth-006-a-3490</label>
+          <sic>ghesle</sic>
+          <seg>here in this Court , but as I more probably</seg>
+          <corr>ghesse</corr>
+          <seg>out of the consideration of the decay of</seg>
+        </note>
+        <note target="A73704-008-a-0640">
+          <label>c3bth-008-a-0640</label>
+          <sic>prpportions</sic>
+          <seg>your beauties to a parallell with such exact</seg>
+          <corr>proportions</corr>
+          <seg>, or at least rank'd you in their spruce</seg>
+        </note>
+        <note target="A73704-009-a-1210">
+          <label>c3bth-009-a-1210</label>
+          <sic>call●d</sic>
+          <seg>embarque them all together in that good Ship</seg>
+          <corr>called</corr>
+          <seg>the Argo , and send them to the plantation</seg>
+        </note>
+        <note target="A73704-010-a-2880">
+          <label>c3bth-010-a-2880</label>
+          <sic>subterraucan</sic>
+          <seg>This is</seg>
+          <corr>subterranean</corr>
+          <seg>Fiend , Plutus , in this Dialect term'd</seg>
+        </note>
+        <note target="A73704-012-a-2210">
+          <label>c3bth-012-a-2210</label>
+          <sic>Sceprer</sic>
+          <seg>gold . Oft o're his Throne I wave my awfull</seg>
+          <corr>Scepter</corr>
+          <seg>, And in the bowels of his state command</seg>
+        </note>
+        <note target="A73704-012-b-0740">
+          <label>c3bth-012-b-0740</label>
+          <sic>cireled</sic>
+          <seg>forth , my swarthy traine , In this faire</seg>
+          <corr>circle</corr>
+          <seg>dance , and as you move , Marke , and foretell</seg>
+        </note>
+        <note target="A73704-013-a-1630">
+          <label>c3bth-013-a-1630</label>
+          <sic>apper</sic>
+          <seg>shoulders , and in her hand a wheele , her</seg>
+          <corr>upper</corr>
+          <seg>parts naked , and the skirt of her garment</seg>
+        </note>
+        <note target="A73704-013-a-2670">
+          <label>c3bth-013-a-2670</label>
+          <sic>peculiarstation</sic>
+          <seg>Antiquity assign'd my Deitie , Though no</seg>
+          <corr>peculiar station</corr>
+          <seg>'mongst the Stars , Yet generall</seg>
+        </note>
+        <note target="A73704-014-a-0120">
+          <label>c3bth-014-a-0120</label>
+          <sic>clamor●</sic>
+          <seg>Madam , I should censure you , pro falso</seg>
+          <corr>clamore</corr>
+          <seg>, for preferring a skandalous cros-bill</seg>
+        </note>
+        <note target="A73704-014-b-0390">
+          <label>c3bth-014-b-0390</label>
+          <sic>eireling</sic>
+          <seg>garland of Roses , and over that a Rainbow</seg>
+          <corr>circling</corr>
+          <seg>her head downe to her shoulders .</seg>
+        </note>
+        <note target="A73704-014-b-2010">
+          <label>c3bth-014-b-2010</label>
+          <sic>anstere</sic>
+          <seg>supreme happinesse . And though some , more</seg>
+          <corr>austere</corr>
+          <seg>, upon my ruines , Did to the prejudice</seg>
+        </note>
+        <note target="A73704-014-b-2340">
+          <label>c3bth-014-b-2340</label>
+          <sic>Prinees</sic>
+          <seg>to reach my soaring pitch . Had they beene</seg>
+          <corr>Princes</corr>
+          <seg>borne , themselves had prov'd Of all mankind</seg>
+        </note>
+        <note target="A73704-014-b-3070">
+          <label>c3bth-014-b-3070</label>
+          <sic>supersluous</sic>
+          <seg>tongue defam'd . Nor am I rank'd mongst the</seg>
+          <corr>superfluous</corr>
+          <seg>goods ; My necessary offices preserve Each</seg>
+        </note>
+        <note target="A73704-016-a-2430">
+          <label>c3bth-016-a-2430</label>
+          <sic>fiourishing</sic>
+          <seg>craggy , and above somewhat more pleasant and</seg>
+          <corr>flourishing</corr>
+          <seg>: about the middle part of this Mountaine</seg>
+        </note>
+        <note target="A73704-016-b-1040">
+          <label>c3bth-016-b-1040</label>
+          <sic>for sake</sic>
+          <seg>fring'd with flowers , 3. Hither move ;</seg>
+          <corr>forsake</corr>
+          <seg>your howers 1. Strew'd with hallowed</seg>
+        </note>
+        <note target="A73704-017-b-0650">
+          <label>c3bth-017-b-0650</label>
+          <sic>rifing</sic>
+          <seg>through it all his body is seene ; and then</seg>
+          <corr>rising</corr>
+          <seg>againe with a gentle motion beares up the</seg>
+        </note>
+        <note target="A73704-018-b-1270">
+          <label>c3bth-018-b-1270</label>
+          <sic>Prinoe</sic>
+          <seg>We bring</seg>
+          <corr>Prince</corr>
+          <seg>Arthur , or the brave St. George himselfe</seg>
+        </note>
+        <note target="A73704-019-a-2950">
+          <label>c3bth-019-a-2950</label>
+          <sic>Lanee</sic>
+          <seg>a plumed helme , and in her right hand a</seg>
+          <corr>Lance</corr>
+          <seg>. Reputation , a young man in purple robe</seg>
+        </note>
+        <note target="A73704-019-b-0930">
+          <label>c3bth-019-b-0930</label>
+          <sic>ecclips d</sic>
+          <seg>quench her fires , these bright Flames , have</seg>
+          <corr>ecclips'ed</corr>
+          <seg>her fullen light : This Royall Payre , for</seg>
+        </note>
+      </div>
+    </back>
+  </text>
+</TEI>

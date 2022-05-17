@@ -1,0 +1,2494 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Comus</title>
+        <author>
+<!--Milton, John-->
+          <persName>
+            <forename>John</forename>
+            <surname>Milton</surname>
+          </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">ep000202</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>EarlyPrint Project</name>
+          <idno type="URL">https://earlyprint.org</idno>
+          <availability>
+            <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+          </availability>
+          <bibl type="originalSource">
+            <biblFull n="TCP source">
+              <titleStmt>
+                <title type="_245">A maske presented at Ludlow Castle, 1634 on Michaelmasse night, before the Right Honorable, Iohn Earle of Bridgewater, Vicount Brackly, Lord Præsident of Wales, and one of His Maiesties most honorable Privie Counsell.</title>
+                <author>Milton, John, 1608-1674.</author>
+              </titleStmt>
+              <extent>20 600dpi TIFF G4 page images</extent>
+              <publicationStmt>
+                <publisher>University of Michigan, Digital Library Production Service</publisher>
+                <pubPlace>Ann Arbor, Michigan</pubPlace>
+                <date>2003 January (TCP phase 1)</date>
+                <idno type="marc">99857016</idno>
+                <idno type="stc">STC (2nd ed.) 17937.</idno>
+                <idno type="stc">Greg, II, 524(a).</idno>
+                <idno type="vid">22676</idno>
+                <idno type="DLPS">A07555</idno>
+                <idno type="PROQUESTGOID">2240914948</idno>
+                <availability>
+                  <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+                </availability>
+              </publicationStmt>
+            </biblFull>
+            <biblFull n="printed source">
+              <titleStmt>
+                <title type="_245">A maske presented at Ludlow Castle, 1634 on Michaelmasse night, before the Right Honorable, Iohn Earle of Bridgewater, Vicount Brackly, Lord Præsident of Wales, and one of His Maiesties most honorable Privie Counsell.</title>
+                <title type="alt">Comus</title>
+                <title type="alt">Comus.</title>
+                <author>Milton, John, 1608-1674.</author>
+                <author>Lawes, Henry, 1596-1662,</author>
+              </titleStmt>
+              <extent>[4], 35, [1] p.</extent>
+              <publicationStmt>
+                <publisher>Printed [by Augustine Mathewes] for Humphrey Robinson, at the signe of the Three Pidgeons in Pauls Church-yard,</publisher>
+                <pubPlace>London :</pubPlace>
+                <date type="publication_date">1637.</date>
+                <date type="creation_date">1637</date>
+              </publicationStmt>
+              <notesStmt>
+                <note>
+                  <p>The first edition of "Comus" by John Milton.</p>
+                </note>
+                <note>
+                  <p>Editor's dedication signed: H. Lavves.</p>
+                </note>
+                <note>
+                  <p>Printer's name from STC.</p>
+                </note>
+                <note>
+                  <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+                </note>
+              </notesStmt>
+            </biblFull>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" when="1637">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="eng">
+    <front>
+      <div type="title_page" xml:id="ep000202-e100030">
+        <pb type="blank" xml:id="ep000202-001-a"/>
+        <pb xml:id="ep000202-001-b"/>
+        <p>A MASKE PRESENTED At Ludlow Castle, 1634: On Michaelmasse night, before the RIGHT HONORABLE, IOHN Earle of Bridgewater, Vicount BRACKLY, Lord Praesident of WALES, And one of His MAIESTIES most honorable Privie Counsell. </p>
+        <quote>
+          <l>Eheu quid volui misero mihi: floribus austrum </l>
+          <l>Perditus— </l>
+        </quote>
+        <p>LONDON, Printed for HVMPHREY ROBINSON, at the sign of the Three Pidgeons in Pauls Church-yard. 1637. </p>
+      </div>
+      <div type="dedication" xml:id="ep000202-e100100">
+        <pb type="blank" xml:id="ep000202-002-a"/>
+        <pb xml:id="ep000202-002-b"/>
+        <head>TO THE RIGHT HONORABLE, IOHN Lord Vicount BRACLY, Son and heire apparent to the Earle, of Bridgewater, &amp;c. </head>
+        <p>MY LORD, </p>
+        <p>THis Poem, which receiv'd its first occasion of birth from your selfe, and others of your noble familie, and much honour from your own Person in the performance, now returns againe to make a finall dedication of it selfe to you. Although not openly acknowledg'd by the Author, yet it is a legitimate off-spring, so lovely, and so much desired, that the often copying of it hath tir'd my pen to give my severall <pb xml:id="ep000202-003-a"/>friends satisfaction, and brought me to a necessitie of producing it to the publick view; and now to offer it up in all rightfull devotion to those faire hopes, and rare Endowments of your much-promising Youth, which give a full assurance, to all that know you, of a future excellence. Live sweet Lord to be the houour of your Name, and receive this as your owne, from the hands of him, who hath by many favours beene long oblig'd to your most honour'd Parents, and as in this repraesentation your attendant Thyrsis, so now in all reall expression </p>
+        <p>Your faithfull, and most humble Servant, </p>
+        <p>H. LAWES. </p>
+      </div>
+    </front>
+    <body>
+      <div type="masque" xml:id="ep000202-e100160">
+        <pb n="1" xml:id="ep000202-003-b"/>
+        <head>A MASKE PERFORMED BEFORE the praesident of WALES at Ludlow, 1634. </head>
+        <stage xml:id="ep000202-e100170">The first Scene discovers a wild wood. </stage>
+        <stage xml:id="ep000202-e100180">The attendant Spirit descends or enters. </stage>
+        <lg>
+          <l>BEfore the starrie threshold of Ioves Court </l>
+          <l>My mansion is, where those immortall shapes </l>
+          <l>Of bright aëreall Spirits live insphear'd </l>
+          <l>In Regions mild of calme and serene aire, </l>
+          <l>Above the smoake and stirre of this dim spot </l>
+          <l>Which men call Earth, and with low-thoughted care </l>
+          <l>Confin'd, and pester'd in this pin-fold here, </l>
+          <l>Strive to keepe up a fraile, and feaverish being </l>
+          <l>Vnmindfull of the crowne that Vertue gives </l>
+          <l>After this mortall change to her true Servants </l>
+          <l>Amongst the enthron'd gods on Sainted seats. </l>
+          <l>Yet some there be that by due steps aspire </l>
+          <pb n="2" xml:id="ep000202-004-a"/>
+          <l>To lay their just hands on that golden key </l>
+          <l>That ope's the palace of Aeternity: </l>
+          <l>To such my errand is, and but for such </l>
+          <l>I would not soile these pure ambrosial weeds </l>
+          <l>With the ranck vapours of this Sin-worne mould. </l>
+        </lg>
+        <lg>
+          <l>But to my task. Neptune besides the sway </l>
+          <l>Of every salt Flood, and each ebbing Streame </l>
+          <l>Tooke in my lot 'twixt high, and neather love </l>
+          <l>Imperial rule of all the Sea-girt Iles </l>
+          <l>That like to rich, and various gemms inlay </l>
+          <l>The unadorned bosome of the Deepe, </l>
+          <l>Which he to grace his tributarie gods </l>
+          <l>By course commits to severall government </l>
+          <l>And gives them leave to weare their Saphire crowns, </l>
+          <l>And weild their little tridents, but this Ile </l>
+          <l>The greatest, and the best of all the maine </l>
+          <l>He quarters to his blu-hair'd deities, </l>
+          <l>And all this tract that fronts the falling Sun </l>
+          <l>A noble Peere of mickle trust, and power </l>
+          <l>Has in his charge, with temper'd awe to guide </l>
+          <l>An old, and haughtie Nation proud in Armes: </l>
+          <l>Where his faire off-spring nurs't in Princely lore </l>
+          <l>Are comming to attend their Fathers state, </l>
+          <l>And new-entrusted Scepter, but their way </l>
+          <l>Lies through the perplex't paths of this dreare wood, </l>
+          <l>The nodding horror of whose shadie brows </l>
+          <l>Threats the forlorne and wandring Passinger. </l>
+          <l>And here their tender age might suffer perill </l>
+          <l>But that by quick command from Soveraigne Iove </l>
+          <l>I was dispacht for their defence and guard, </l>
+          <l>And listen why, for I will tell yee now </l>
+          <l>What never yet was heard in Tale or Song </l>
+          <pb n="3" xml:id="ep000202-004-b"/>
+          <l>From old, or moderne Bard in hall, or bowre. </l>
+        </lg>
+        <lg>
+          <l>Bacchus that first from out the purple Grape </l>
+          <l>Crush't the sweet poyson of mis-used Wine </l>
+          <l>After the Tuscan Mariners transform'd </l>
+          <l>Coasting the Tyrrhenic shore, as the winds listed, </l>
+          <l>On Circes Iland fell (who knowes not Circe </l>
+          <l>The daughter of the Sun? whose charmed Cup </l>
+          <l>Whoever tasted lost his upright shape </l>
+          <l>And downward fell into a grovling Swine) </l>
+          <l>This Nymph that gaz'd upon his clustring locks </l>
+          <l>With Ivie berries wreath'd, and his blith youth </l>
+          <l>Had by him, ere he parted thence, a Son </l>
+          <l>Much like his Father, but his Mother more, </l>
+          <l>Whom therefore she brought up and Comus nam'd, </l>
+          <l>Who ripe, and frolick of his full growne age </l>
+          <l>Roaving the Celtick, and Iberian fields </l>
+          <l>At last betakes him to this ominous wood, </l>
+          <l>And in thick shelter of black shades imbowr'd </l>
+          <l>Excells his Mother at her mightie Art </l>
+          <l>Offring to every wearie Travailer </l>
+          <l>His orient liquor in a Chrystall glasse </l>
+          <l>To quench the drouth of Phoebus, which as they tast </l>
+          <l>(For most doe tast through fond intemperate thirst) </l>
+          <l>Soone as the Potion works, their humane count'nance </l>
+          <l>Th'expresse resemblance of the gods is chang'd </l>
+          <l>Into some brutish forme of Wolfe, or Beare </l>
+          <l>Or Ounce, or Tiger, Hog, or bearded Goat, </l>
+          <l>All other parts remaining as they were, </l>
+          <l>And they, so perfect in their miserie, </l>
+          <l>Not once perceive their foule disfigurement, </l>
+          <l>But boast themselves more comely then before </l>
+          <l>And all their friends; and native home forget </l>
+          <pb n="4" xml:id="ep000202-005-a"/>
+          <l>To roule with pleasure in a sensuall stie. </l>
+          <l>Therefore when any favour'd of high Iove </l>
+          <l>Chances to passe through this adventrous glade, </l>
+          <l>Swift as the Sparkle of a glancing Starre </l>
+          <l>I shoote from heav'n to giue him safe convoy, </l>
+          <l>As now I doe: but first I must put off </l>
+          <l>These my skie robes spun out of Iris wooffe, </l>
+          <l>And take the weeds and likenesse of a Swaine, </l>
+          <l>That to the service of this house belongs, </l>
+          <l>Who with his soft Pipe, and smooth-dittied Song, </l>
+          <l>Well knows to still the wild winds when they roare, </l>
+          <l>And hush the waving woods, nor of lesse faith, </l>
+          <l>And in this office of his Mountaine watch, </l>
+          <l>Likeliest, and neerest to the present aide </l>
+          <l>Of this occasion. But I heare the tread </l>
+          <l>Of hatefull steps, I must be viewlesse now. </l>
+        </lg>
+        <stage xml:id="ep000202-e101140">Comus enters with a Charming rod in one hand, his Glasse in the other, with him a rout of Monsters headed like sundry sorts of wilde Beasts, but otherwise like Men and Women, their appareil glistring, they come in making a riotous and vnruly noise, with Torches in their hands. </stage>
+        <sp who="A07555-comus" xml:id="ep000202-e101150">
+          <speaker>Comus. </speaker>
+          <l>The starre that bids the Shepheard fold, </l>
+          <l>Now the top of heav'n doth hold, </l>
+          <l>And the gilded Carre of Day </l>
+          <l>His glowing Axle doth allay, </l>
+          <l>In the steepe Atlantik streame, </l>
+          <l>And the slope Sun his upward beame </l>
+          <l>Shoots against the duskie Pole, </l>
+          <l>Pacing toward the other gole </l>
+          <pb n="5" xml:id="ep000202-005-b"/>
+          <l>Of his Chamber in the East. </l>
+          <l>Meane while welcome Joy, and Feast, </l>
+          <l>Midnight shout, and revelrie, </l>
+          <l>Tipsie dance, and Jollitie. </l>
+          <l>Braid your Locks with rosie Twine, </l>
+          <l>Dropping odours, dropping Wine. </l>
+          <l>Rigor now is gone to bed, </l>
+          <l>And Advice with scrupulous head, </l>
+          <l>Strict Age, and sowre Severitie </l>
+          <l>With their graue Sawes in slumber lie. </l>
+          <l>We that are of purer fire, </l>
+          <l>Immitate the starrie quire, </l>
+          <l>Who in their nightly watchfull Spheares, </l>
+          <l>Lead in swift round the Months and Yeares. </l>
+          <l>The Sounds, and Seas with all their finnie drove, </l>
+          <l>Now to the Moone in wavering Morrice move, </l>
+          <l>And on the tawny sands and shelves, </l>
+          <l>Trip the pert Fairies and the dapper Elves; </l>
+          <l>By dimpled Brooke, and Fountaine brim. </l>
+          <l>The Wood-nymphs deckt with daisies trim, </l>
+          <l>Their merry wakes, and pastimes keepe, </l>
+          <l>What hath night to doe with sleepe? </l>
+          <l>Night hath better sweets to prove, </l>
+          <l>Venus now wakes, and wakens Love. </l>
+          <l>Come let us our rights begin </l>
+          <l>'Tis onely day-light that makes Sin </l>
+          <l>Which these dun shades will ne're report. </l>
+          <l>Haile Goddesse of Nocturnall sport </l>
+          <l>Dark-vaild cotytto, t'whom the secret flame </l>
+          <l>Of mid-night Torches burnes; mysterious Dame </l>
+          <l>That ne're at call'd, but when the Dragon woome </l>
+          <l>Of Stygian darknesse spets her thickest gloome </l>
+          <pb n="6" xml:id="ep000202-006-a"/>
+          <l>And makes one blot of all the aire, </l>
+          <l>Stay thy clowdie Ebon chaire, </l>
+          <l>Wherein thou rid'st with Hecat', and befriend </l>
+          <l>Vs thy vow'd Priests, till utmost end </l>
+          <l>Of all thy dues be done, and none left out </l>
+          <l>Ere the blabbing Easterne scout </l>
+          <l>The nice Morne on th' Indian steepe </l>
+          <l>From her cabin'd loop hole peepe, </l>
+          <l>And to the tel-tale Sun discry </l>
+          <l>Our conceal'd Solemnity. </l>
+          <l>Come, knit hands, and heate the ground </l>
+          <l>In a light fantastick round. </l>
+          <stage xml:id="ep000202-e101680">The Measure. </stage>
+          <l>Breake off, breake off, I feele the different pace </l>
+          <l>Of some chast footing neere about this ground, </l>
+          <l>Run to your shrouds, within these Brakes, and Trees </l>
+          <l>Our number may affright: Some Virgin sure </l>
+          <l>(For so I can distinguish by mine Art) </l>
+          <l>Benighted in these woods. Now to my charmes </l>
+          <l>And to my wilie trains, I shall e're long </l>
+          <l>Be well stock't with as faire a Heard as graz'd </l>
+          <l>About my Mother Circe. Thus I hurle </l>
+          <l>My dazling Spells into the spungie aire </l>
+          <l>Of power to cheate the eye with bleare illusion, </l>
+          <l>And give it false presentments, lest the place </l>
+          <l>And my queint habits breed astonishment, </l>
+          <l>And put the Damsel to suspicious flight, </l>
+          <l>Which must not be, for that's against my course; </l>
+          <l>I under faire praetents of friendly ends, </l>
+          <l>And wel plac't words of glozing courtesie </l>
+          <l>Baited with reasons not unplausible </l>
+          <pb n="7" xml:id="ep000202-006-b"/>
+          <l>Wind me into the easie hearted man, </l>
+          <l>And hug him into snares; when once her eye </l>
+          <l>Hath met the vertue of this Magick dust, </l>
+          <l>I shall appeare some harmlesse Villager </l>
+          <l>Whom thrift keepes up about his Country geare </l>
+          <l>But here she comes, I fairly step aside </l>
+          <l>And hearken, if I may, her buisnesse here. </l>
+          <stage xml:id="ep000202-e101940">The Ladie enters. </stage>
+          <l>This way the noise was, if mine eare be true </l>
+          <l>My best guide now, me thought it was the sound </l>
+          <l>Of Riot, and ill manag'd Merriment, </l>
+          <l>Such as the jocond Flute, or gamesome Pipe </l>
+          <l>Stirs up among the loose unleter'd Hinds </l>
+          <l>When for their teeming Flocks, and granges full </l>
+          <l>In wanton dance they praise the bounteous Pan, </l>
+          <l>And thanke the gods amisse. I should be loath </l>
+          <l>To meet the rudenesse, and swill'd insolence </l>
+          <l>Of such late Wassailers; yet o where else </l>
+          <l>Shall I informe my unacquainted feet </l>
+          <l>In the blind mates of this tangled wood? </l>
+          <l>My Brothers when they saw me wearied out </l>
+          <l>With this long way, resolving here to lodge. </l>
+          <l>Vnder the spreading favour of these Pines </l>
+          <l>Stept as they se'd to the next Thicket side </l>
+          <l>To bring me Berries, or such cooling fruit </l>
+          <l>As the kind hospitable woods provide. </l>
+          <l>They left me then, when the gray-hooded Ev'n </l>
+          <l>Like a sad Votarist in Palmers weeds </l>
+          <l>Rose from the hindmost wheels of Phaebus waine. </l>
+          <l>But where they are, and why they came not back </l>
+          <l>Is now the labour of my thoughts, 'tis likeliest </l>
+          <pb n="8" xml:id="ep000202-007-a"/>
+          <l>They had ingag'd their wandring steps too far, </l>
+          <l>And envious darknesse, e're they could returne, </l>
+          <l>Had stolne them from me, else ô theevish Night </l>
+          <l>Why shouldst thou, but for some fellonious end </l>
+          <l>In thy darke lanterne thus close up the Stars, </l>
+          <l>That nature hung in Heav'n, and fill'd their lamps </l>
+          <l>With everlasting oile to give due light </l>
+          <l>To the misled, and lonely Travailer. </l>
+          <l>This is the place, as well as I may guesse </l>
+          <l>Whence even now the tumult of loud Mirth </l>
+          <l>Was rife, and perfect in my listening eare, </l>
+          <l>Yet nought but single darknesse doe I find, </l>
+          <l>What might this be? a thousand fantasies </l>
+          <l>Begin to throng into my memorie </l>
+          <l>Of calling shapes, and beckning shadows dire, </l>
+          <l>And ayrie tongues, that syllable mens names </l>
+          <l>On Sands, and Shoars, and desert Wildernesses. </l>
+          <l>These thoughts may startle well, but not astound </l>
+          <l>The vertuous mind, that ever walks attended </l>
+          <l>By a strong siding champion Conscience.— </l>
+          <l>O welcome pure-ey'd Faith, white-handed Hope </l>
+          <l>Thou flittering Angel girt with golden wings; </l>
+          <l>And thou unblemish't forme of Chastitie </l>
+          <l>I see yee visibly, and now beleeve </l>
+          <l>That he, the Supreme good, t'whom all things ill </l>
+          <l>Are but as slavish officers of vengeance </l>
+          <l>Would send a glistring Guardian if need were </l>
+          <l>To keepe my life, and honour unassail'd. </l>
+          <l>Was I deceiv'd, or did a sable cloud </l>
+          <l>Turne forth her silver lining on the night? </l>
+          <l>I did not erre, there does a sables cloud </l>
+          <l>Turne forth her silver lining on the night </l>
+          <pb n="9" xml:id="ep000202-007-b"/>
+          <l>And casts a gleame over this tufted Grove. </l>
+          <l>I cannot hallow to my Brothers, but </l>
+          <l>Such noise as I can make to be heard fardest </l>
+          <l>Ile venter, for my new enliv'nd spirits </l>
+          <l>Prompt me; and they perhaps are not farre off. </l>
+          <lg>
+            <head>Song. </head>
+            <lg>
+              <l>Sweet echo, sweetest Nymph that liv'st unseene </l>
+              <l>Within thy ayrie shell </l>
+              <l>By slow Meander's margent greene, </l>
+              <l>And in the violet-imbroider'd vale </l>
+              <l>Where the love-lorne Nightingale </l>
+              <l>Nightly to thee her sad Song mourneth well. </l>
+            </lg>
+            <lg>
+              <l>Canst thou not tell me of a gentle Paire </l>
+              <l>That likest thy Narcissus are? </l>
+              <l>O if thou have </l>
+              <l>Hid them in some flowrie Cave, </l>
+              <l>Tell me but where </l>
+              <l>Sweet Queen of Parlie, Daughter of the Sphare, </l>
+              <l>So maist thou be translated to the skies, </l>
+              <l>And give resounding grace to all Heav'ns Harmonies. </l>
+            </lg>
+          </lg>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e102720">
+          <speaker>Com. </speaker>
+          <l>Can any mortall mixture of Earths mould </l>
+          <l>Breath such Divine inchanting ravishment? </l>
+          <l>Sure something holy lodges in that brest, </l>
+          <l>And with these raptures moves the vocal aire </l>
+          <l>To testifie his hidden residence; </l>
+          <l>How sweetly did they float upon the wings </l>
+          <l>Of Silence, through the emptie-vaulted night </l>
+          <l>At every fall smoothing the Raven downe </l>
+          <l>Of darknesse till she smil'd: I have oft heard </l>
+          <pb n="10" xml:id="ep000202-008-a"/>
+          <l>My mother Circe with the Sirens three </l>
+          <l>Amidst the flowrie-kirtl'd Naiades </l>
+          <l>Culling their Potent hearbs, and balefull drugs </l>
+          <l>Who as they sung, would take the prison'd soule </l>
+          <l>And lap it in Elysium, Scylla wept, </l>
+          <l>And chid her barking waves into attention, </l>
+          <l>And fell Charybdis murmur'd soft applause: </l>
+          <l>Yet they in pleasing slumber lull'd the sense </l>
+          <l>And in sweet madnesse rob'd it of it selfe, </l>
+          <l>But such a sacred, and home-felt delight, </l>
+          <l>Such sober certainty of waking blisse </l>
+          <l>I never heard till now. Ile speake to her </l>
+          <l>And she shall be my Queene. Haile forreine wonder </l>
+          <l>Whom certaine these rough shades did never breed </l>
+          <l>Vnlesse the Goddesse that in rurall shrine </l>
+          <l>Dwell'st here with Pan, or Silvan, by blest Song </l>
+          <l>Forbidding every bleake unkindly Fog </l>
+          <l>To touch the prosperous growth of this tall wood. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103000">
+          <speaker>La. </speaker>
+          <l>Nay gentle Shepherd ill is lost that praise </l>
+          <l>That is addrest to unattending Eares, </l>
+          <l>Not any boast of skill, but extreame shift </l>
+          <l>How to regaine my sever'd companie </l>
+          <l>Compell'd me to awake the courteous Echo </l>
+          <l>To give me answer from her mossie Couch. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103070">
+          <speaker>Co. </speaker>
+          <l>What chance good Ladie hath bereft you thus? </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103090">
+          <speaker>La. </speaker>
+          <l>Dim darknesse, and this leavie Labyrinth. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103110">
+          <speaker>Co. </speaker>
+          <l>Could that divide you from neere-ushering guides? </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103130">
+          <speaker>La. </speaker>
+          <l>They left me weary on a grassie terfe. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103150">
+          <speaker>Co. </speaker>
+          <l>By falshood, or discourtesie, or why? </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103170">
+          <speaker>La. </speaker>
+          <l>To seeke i'th vally some coole friendly Spring. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103190">
+          <speaker>Co. </speaker>
+          <l>And left your faire side all unguarded Ladie? </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103210">
+          <speaker>La. </speaker>
+          <l>They were but twain, &amp; purpos'd quick return. </l>
+        </sp>
+        <pb n="11" xml:id="ep000202-008-b"/>
+        <sp who="A07555-comus" xml:id="ep000202-e103230">
+          <speaker>Co. </speaker>
+          <l>Perhaps fore-stalling night praevented them. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103250">
+          <speaker>La. </speaker>
+          <l>How easie my misfortune is to hit! </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103270">
+          <speaker>Co. </speaker>
+          <l>Imports their losse, beside the praesent need? </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103290">
+          <speaker>La. </speaker>
+          <l>No lesse then if I should my brothers lose. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103310">
+          <speaker>Co. </speaker>
+          <l>Were they of manly prime, or youthful bloom? </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103330">
+          <speaker>La. </speaker>
+          <l>As smooth as Hebe's their unrazord lips. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103350">
+          <speaker>Co. </speaker>
+          <l>Two such I saw, what time the labour'd Oxe </l>
+          <l>In his loose traces from the furrow came, </l>
+          <l>And the swink't hedger at his Supper sate; </l>
+          <l>I saw them under a greene mantling vine </l>
+          <l>That crawls along the side of yon small hill, </l>
+          <l>Plucking ripe clusters from the tender shoots, </l>
+          <l>Their port was more then humaine; as they stood, </l>
+          <l>I tooke it for a faërie vision </l>
+          <l>Of some gay creatures of the element </l>
+          <l>That in the colours of the Rainbow live </l>
+          <l>And play i'th plighted clouds, I was aw-strooke, </l>
+          <l>And as I past, I worshipt; if those you seeke </l>
+          <l>It were a journy like the path to heav'n </l>
+          <l>To helpe you find them. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103500">
+          <speaker>La. </speaker>
+          <l>Gentle villager </l>
+          <l>What readiest way would bring me to that place? </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103530">
+          <speaker>Co. </speaker>
+          <l>Due west it rises from this shrubbie point. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103550">
+          <speaker>La. </speaker>
+          <l>To find out that good shepheard I suppose </l>
+          <l>In such a scant allowance of starre light </l>
+          <l>Would overtask the best land-pilots art </l>
+          <l>Without the sure guesse of well-practiz'd feet. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e103600">
+          <speaker>Co. </speaker>
+          <l>I know each lane, and every alley greene </l>
+          <l>Dingle, or bushie dell of this wild wood, </l>
+          <l>And every boskie bourne from side to side </l>
+          <l>My day lie walks and ancient neighbourhood, </l>
+          <l>And if your stray attendance be yet lodg'd </l>
+          <l>Or shroud within these limits, I shall know </l>
+          <pb n="12" xml:id="ep000202-009-a"/>
+          <l>Ere morrow wake, or the low-roosted larke </l>
+          <l>From her thach't palate rowse, if otherwise </l>
+          <l>I can conduct you Ladie to a low </l>
+          <l>But loyall cottage, where you may be safe </l>
+          <l>Till further quest. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e103720">
+          <speaker>La. </speaker>
+          <l>Shepheard I take thy word, </l>
+          <l>And trust thy honest offer'd courtesie, </l>
+          <l>Which oft is sooner found in lowly sheds </l>
+          <l>With smoakie rafters, then in tapstrie halls, </l>
+          <l>And courts of Princes, where it first was nam'd, </l>
+          <l>And yet is most praetended: in a place </l>
+          <l>Lesse warranted then this, or lesse secure </l>
+          <l>I cannot be, that I should feare to change it, </l>
+          <l>Eye me blest Providence, and square my triall </l>
+          <l>To my proportion'd strength. Shepheard lead on.— </l>
+        </sp>
+        <stage xml:id="ep000202-e103830">The two Brothers. </stage>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e103840">
+          <speaker>Eld bro. </speaker>
+          <l>Vnmuffle yee faint stars, and thou fair moon </l>
+          <l>That wontst to love the travailers benizon </l>
+          <l>Stoope thy pale visage through an amber cloud </l>
+          <l>And disinherit Chaos, that raigns here </l>
+          <l>In double night of darknesse, and of shades; </l>
+          <l>Or if your influence be quite damm'd up </l>
+          <l>With black usurping mists, some gentle taper </l>
+          <l>Though a rush candle from the wicker hole </l>
+          <l>Of some clay habitation visit us </l>
+          <l>With thy long levell'd rule of streaming light </l>
+          <l>And thou shalt be our starre of Arcadie </l>
+          <l>Or Tyrian Cynosure. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e103970">
+          <speaker>2 Bro. </speaker>
+          <l>Or if our eyes: </l>
+          <l>Be barr'd that happinesse, might we but heare </l>
+          <l>The folded flocks pen'd in their watled cotes, </l>
+          <l>Or sound of pastoral reed with oaten stops, </l>
+          <l>Or whistle from the Lodge, or village cock </l>
+          <pb n="13" xml:id="ep000202-009-b"/>
+          <l>Count the night watches to his featherie Dames, </l>
+          <l>T'would be some solace yet, some little chearing </l>
+          <l>In this close dungeon of innumerous bowes. </l>
+          <l>But ô that haplesse virgin our lost sister </l>
+          <l>Where may she wander now, whether betake her </l>
+          <l>From the chill dew, amongst rude burs and thistles? </l>
+          <l>Perhaps some cold banke is her boulster now </l>
+          <l>Or 'gainst the rugged barke of some broad Elme </l>
+          <l>Leans her unpillow'd head fraught with sad fears. </l>
+          <l>What if in wild amazement, and affright </l>
+          <l>Or while we speake within he direfull graspe </l>
+          <l>Of Savage hunger, or of Savage heat? </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e104150">
+          <speaker>Eld: bro. </speaker>
+          <l>Peace brother, be not over exquisite </l>
+          <l>To cast the fashion of uncertaine evils, </l>
+          <l>For grant they be so, while they rest unknowne </l>
+          <l>What need a man forestall his date of griefe </l>
+          <l>And run to meet what he would most avoid? </l>
+          <l>Or if they be but false alarms of Feare </l>
+          <l>How bitter is such selfe-delusion? </l>
+          <l>I doe not thinke my sister so to seeke </l>
+          <l>Or so unprincipl'd in vertues book </l>
+          <l>And the sweet peace that goodnesse bosoms ever </l>
+          <l>As that the single want of light, and noise </l>
+          <l>(Not being in danger, as I trust she is not) </l>
+          <l>Could stir the constant mood of her calme thoughts </l>
+          <l>And put them into mis-becomming. </l>
+          <l>Vertue could see to doe what vertue would </l>
+          <l>By her owne' radiant light, though Sun and Moon </l>
+          <l>Were in the flat Sea sunck, and Wisdoms selfe </l>
+          <l>Oft seeks to sweet retired Solitude </l>
+          <l>Where with her best nurse Contemplation </l>
+          <l>She plumes her feathers, and lets grow her wings </l>
+          <pb n="14" xml:id="ep000202-010-a"/>
+          <l>That in the various bustle of resort </l>
+          <l>Were all to ruffl'd, and sometimes impair'd. </l>
+          <l>He that has light within his owne cleere brest </l>
+          <l>May sit i'th center, and enjoy bright day, </l>
+          <l>But he that hides a darke soule, and foule thoughts </l>
+          <l>Benighted walks under the mid-day Sun, </l>
+          <l>Himselfe is his owne dungeon. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e104430">
+          <speaker>2. Bro. </speaker>
+          <l>'Tis most true </l>
+          <l>That musing meditation most affects </l>
+          <l>The Pensive secrecie of desert cell </l>
+          <l>Farre from the cheerefull haunt of men, and heards, </l>
+          <l>And sits as safe as in a Senat house </l>
+          <l>For who would rob an Hermit of his weeds </l>
+          <l>His few books, or his beades, or maple dish, </l>
+          <l>Or doe his gray hairs any violence? </l>
+          <l>But beautie like the faire Hesperian tree </l>
+          <l>Laden with blooming gold, had need the guard </l>
+          <l>Of dragon watch with uninchanted eye </l>
+          <l>To save her blossoms, and defend her fruit </l>
+          <l>From the rash hand of bold Incontinence. </l>
+          <l>You may as well spread out the unsun'd heaps </l>
+          <l>Of misers treasure by an outlaws den </l>
+          <l>And tell me it is safe, as bid me hope </l>
+          <l>Danger will winke on opportunitie </l>
+          <l>And let a single helplesse mayden passe </l>
+          <l>Vninjur'd in this wild surrounding wast. </l>
+          <l>Of night, or lonelynesse it recks me not </l>
+          <l>I feare the dred events that dog them both, </l>
+          <l>I est some ill greeting touch attempt the person </l>
+          <l>Of our unowned sister. </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e104670">
+          <speaker>Eld. Bro. </speaker>
+          <l>I doe not brother </l>
+          <l>Inferre, as if I thought my sisters state </l>
+          <pb n="15" xml:id="ep000202-010-b"/>
+          <l>Secure without all doubt, or controversie: </l>
+          <l>Yet where an equall poise of hope, and feare </l>
+          <l>Does arbitrate th'event, my nature is </l>
+          <l>That I encline to hope, rather then feare </l>
+          <l>And gladly banish squint suspicion. </l>
+          <l>My sister is not so defencelesse left </l>
+          <l>As you imagine, she has a hidden strength </l>
+          <l>Which you remember not. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e104780">
+          <speaker>2. Bro. </speaker>
+          <l>What hidden strength </l>
+          <l>Vnlesse the strength of heav'n, if meane that? </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e104810">
+          <speaker>Eld. Bro. </speaker>
+          <l>I meane that too, but yet a hidden strength </l>
+          <l>Which if heav'n gave it, may be term'd her owne: </l>
+          <l>'Tis chastitie, my brother, chastitie: </l>
+          <l>She that has that, is clad in compleat steele, </l>
+          <l>And like a quiver'd nymph with arrowes keene </l>
+          <l>May trace huge forrests, and unharbour'd heaths </l>
+          <l>Infamous hills, and sandie perillous wilds </l>
+          <l>Where through the sacred rays of chastitie </l>
+          <l>No savage fierce, bandite, or mountaneere </l>
+          <l>Will dare to soyle her virgin puritie </l>
+          <l>Yea there, where very desolation dwells </l>
+          <l>By grots, and caverns shag'd with horrid shades </l>
+          <l>She may passe on with unblench't majestie </l>
+          <l>Be it not done in pride, or in presumption. </l>
+          <l>Some say no evill thing that walks by night </l>
+          <l>In fog, or fire, by lake, or moorish fen </l>
+          <l>Blew meager hag, or stubborne unlayd ghost </l>
+          <l>That breaks his magicke chaines at curfeu time </l>
+          <l>No goblin, or swart Faërie of the mine </l>
+          <l>Has hurtfull power ore true virginity. </l>
+          <l>Doe yee beleeve me yet, or shall I call </l>
+          <l>Antiquity from the old schools of Greece </l>
+          <pb n="16" xml:id="ep000202-011-a"/>
+          <l>To testifie the armes of Chastitie? </l>
+          <l>Hence had the huntresse Dian her dred bow </l>
+          <l>Faire silver-shafted Queene for ever chast </l>
+          <l>Wherewith we tam'd the brinded lionesse </l>
+          <l>And spotted mountaine pard, but set at nought </l>
+          <l>The frivolous bolt of Cupid, gods and men </l>
+          <l>Fear'd her sterne frowne, &amp; she was queen oth' woods. </l>
+          <l>What was that snakie headed Gorgon sheild </l>
+          <l>That wise Minerva wore, unconquer'd virgin </l>
+          <l>Wherewith she freez'd her foes to congeal'd stone? </l>
+          <l>But rigid looks of Chast austeritie </l>
+          <l>And noble grace that dash't brute violence </l>
+          <l>With sudden adoration, and blancke aw. </l>
+          <l>So deare to heav'n is saintly chastitie </l>
+          <l>That when a soule is found sincerely so, </l>
+          <l>A thousand liveried angels lackie her </l>
+          <l>Driving farre off each thing of sinne, and guilt, </l>
+          <l>And in cleere dreame, and solemne vision </l>
+          <l>Tell her of things that no grosse eare can heare, </l>
+          <l>Till oft converse with heav'nly habitants </l>
+          <l>Begin to cast a beame on th' outward shape </l>
+          <l>The unpolluted temple of the mind </l>
+          <l>And turnes it by degrees to the souls essence </l>
+          <l>Till all bee made immortall; but when lust </l>
+          <l>By unchast looks, loose gestures, and foule talke </l>
+          <l>But most by leud, and lavish act of sin </l>
+          <l>Lets in defilement to the inward parts, </l>
+          <l>The soule growes clotted by contagion, </l>
+          <l>Imbodies, and imbrutes, till she quite loose </l>
+          <l>The divine propertie of her first being. </l>
+          <l>Such are those thick, and gloomie shadows damp </l>
+          <l>Oft seene in Charnell vaults, and Sepulchers </l>
+          <pb n="17" xml:id="ep000202-011-b"/>
+          <l>Hovering, and sitting by a new made grave </l>
+          <l>As loath to leave the body that it lov'd, </l>
+          <l>And link't it selfe by carnall sensualitie </l>
+          <l>To a degenerate and degraded state. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e105400">
+          <speaker>2 Bro. </speaker>
+          <l>How charming is divine Philosophie! </l>
+          <l>Not harsh, and crabbed as dull fools suppose, </l>
+          <l>But musicall as is Apollo's lute, </l>
+          <l>And a perpetuall feast of nectar'd sweets </l>
+          <l>Where no crude surfet raigns. </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e105460">
+          <speaker>El: bro. </speaker>
+          <l>List, list I heare </l>
+          <l>Some farre off hallow breake the silent aire. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e105490">
+          <speaker>2 Bro. </speaker>
+          <l>Me thought so too, what should it be? </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e105510">
+          <speaker>Eld: bro. </speaker>
+          <l>For certaine </l>
+          <l>Either some one like us night founder'd here, </l>
+          <l>Or else some neighbour wood man, or at worst </l>
+          <l>Some roaving robber calling to his fellows. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e105560">
+          <speaker>2 Bro. </speaker>
+          <l>Heav'n keepe my sister, agen agen and neere, </l>
+          <l>Best draw, and stand upon our guard. </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e105590">
+          <speaker>Eld: bro. </speaker>
+          <l>Ile hallow, </l>
+          <l>If he be friendly he comes well, if not </l>
+          <l>Defence is a good cause, and Heav'n be for us. </l>
+          <stage xml:id="ep000202-e105630">The attendant Spirit habited like a shepheard. </stage>
+          <l>That hallow I should know, what are you, speake, </l>
+          <l>Come not too neere, you fall on iron stakes else. </l>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e105660">
+          <speaker>Spir. </speaker>
+          <l>What voice is that, my yong Lord? speak agen. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e105680">
+          <speaker>2 Bro. </speaker>
+          <l>O brother 'tis my father Shepheard sure. </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e105700">
+          <speaker>Eld: bro. </speaker>
+          <l>Thyrsis whose artfull strains have oft delayd </l>
+          <l>The huddling brook to heare his madrigale, </l>
+          <l>And sweeten'd every muskrose of the dale, </l>
+          <l>How cam'st thou here good Swaine, hath any ram </l>
+          <l>Slip't from the fold, or yong kid lost his dam, </l>
+          <l>Or straggling weather the pen't flock forsook, </l>
+          <pb n="18" xml:id="ep000202-012-a"/>
+          <l>How couldst thou find this darke sequester'd nook? </l>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e105780">
+          <speaker>Spir. </speaker>
+          <l>O my lov'd masters heire, and his next joy </l>
+          <l>I came not here on such a triviall toy </l>
+          <l>As a strayd Ewe, or to pursue the stealth </l>
+          <l>Of pilfering wolfe, not all the fleccie wealth </l>
+          <l>That doth enrich these downs is worth a thought </l>
+          <l>To this my errand, and the care it brought. </l>
+          <l>But o my virgin Ladie where is she, </l>
+          <l>How chance she is not in your companie? </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e105870">
+          <speaker>Eld: bro. </speaker>
+          <l>To tell thee sadly shepheard, without blame </l>
+          <l>Or our neglect, wee lost her as wee came. </l>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e105900">
+          <speaker>Spir. </speaker>
+          <l>Aye me unhappie then my fears are true. </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e105920">
+          <speaker>Eld: bro. </speaker>
+          <l>What fears good Thyrsis? prethee briefly shew. </l>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e105940">
+          <speaker>Spir. </speaker>
+          <l>Ile tell you, 'tis not vaine, or fabulous </l>
+          <l>(Though so esteem'd by shallow ignorance) </l>
+          <l>What the sage Poets taught by th'heav'nly Muse </l>
+          <l>Storied of old in high immortall verse </l>
+          <l>Of dire Chimera's and inchanted Iles </l>
+          <l>And rifted rocks whose entrance leads to hell, </l>
+          <l>To such there be, but unbeliefe is blind. </l>
+          <l>Within the navill of this hideous wood </l>
+          <l>Immur'd in cypresse shades a Sorcerer dwells </l>
+          <l>Of Bacchus, and of Circe borne, great Comus, </l>
+          <l>Deepe skill'd in all his mothers witcheries, </l>
+          <l>And here to every thirstie wanderer </l>
+          <l>By slie enticement gives his banefull cup </l>
+          <l>With many murmurs mixt, whose pleasing poison </l>
+          <l>The visage quite transforms of him that drinks, </l>
+          <l>And the inglorious likenesse of a beast </l>
+          <l>Fixes instead, unmoulding reasons mintage </l>
+          <l>Character'd in the face; this have I learn't </l>
+          <l>Tending my flocks hard by i'th hilly crofts </l>
+          <pb n="19" xml:id="ep000202-012-b"/>
+          <l>That brow this bottome glade, whence night by night </l>
+          <l>He and his monstrous rout are heard to howle </l>
+          <l>Like stabl'd wolves, or tigers at their prey </l>
+          <l>Doing abhorred rites to Hecate </l>
+          <l>In their obscured haunts of inmost bowres. </l>
+          <l>Yet have they many baits, and guilefull spells </l>
+          <l>T'inveigle, and invite th'unwarie sense </l>
+          <l>Of them that passe unweeting by the way. </l>
+          <l>This evening late by then the chewing flocks </l>
+          <l>Had ta'ne their supper on the savourie herbe </l>
+          <l>Of Knot-grass dew-besprent, and were in fold </l>
+          <l>I sate me downe to watch upon a bank </l>
+          <l>With ivie canopied, and interwove </l>
+          <l>With flaunting hony-suckle, and began </l>
+          <l>Wrapt in a pleasing fit of melancholy </l>
+          <l>To meditate my rural minstrelsie </l>
+          <l>Till fancie had her fill, but ere a close </l>
+          <l>The wonted roare was up amidst the woods, </l>
+          <l>And filld the aire with barbarous dissonance </l>
+          <l>At which I ceas't, and listen'd them a while </l>
+          <l>Till an unusuall stop of sudden silence </l>
+          <l>Gave respit to the drowsie frighted steeds </l>
+          <l>That draw the litter of close-curtain'd sleepe. </l>
+          <l>At last a soft, and solemne breathing sound </l>
+          <l>Rose like a steame of rich distill'd Perfumes </l>
+          <l>And stole upon the aire, that even Silence </l>
+          <l>Was tooke e're she was ware, and wish't she might </l>
+          <l>Deny her nature, and be never more </l>
+          <l>Still to be so displac't. I was all eare, </l>
+          <l>And took in strains that might create a soule </l>
+          <l>Vnder the ribs of Death, but ô ere long </l>
+          <l>Too well I did perceive it was the voice </l>
+          <pb n="20" xml:id="ep000202-013-a"/>
+          <l>Of my most honour'd Lady your deare sister. </l>
+          <l>Amaz'd I stood, harrow'd with griefe and feare, </l>
+          <l>And ô poore haplesse nightingale thought I </l>
+          <l>How sweet thou sing'st, how neere the deadly snare! </l>
+          <l>Then downe the lawns I ran with headlong hast </l>
+          <l>Through paths, and turnings often trod by day </l>
+          <l>Till guided by mine eare I found the place </l>
+          <l>Where that dam'd wisard hid in slie-disguise </l>
+          <l>(For so by certain signs I knew) had met </l>
+          <l>Alreadie, ere my best speed could praevent </l>
+          <l>The aidlesse innocent Ladie his wish't prey, </l>
+          <l>Who gently ask't if he had seene such two </l>
+          <l>Supposing him some neighbour villager; </l>
+          <l>Longer I durst not stay, but soone I guess't </l>
+          <l>Yee were the two she mean't, with that I sprung </l>
+          <l>Into swift flight till I had found you here, </l>
+          <l>But farther know I not. </l>
+        </sp>
+        <sp who="A07555-younger_brother" xml:id="ep000202-e106630">
+          <speaker>2 Bro. </speaker>
+          <l>O night and shades </l>
+          <l>How are yee joyn'd with hell in triple knot </l>
+          <l>Against th'unarmed weaknesse of one virgin </l>
+          <l>Alone, and helplesse! is this the confidence </l>
+          <l>You gave me brother? </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e106690">
+          <speaker>Eld: bro. </speaker>
+          <l>Yes, and keep it still, </l>
+          <l>Leare on it safely, not a period </l>
+          <l>Shall be unsaid for me; against the threats </l>
+          <l>Of malice or of sorcerie, or that power </l>
+          <l>Which erring men call Chance, this I hold firme, </l>
+          <l>Vertue may be assail'd, but never hurt, </l>
+          <l>Surpriz'd by unjust force, but not enthrall'd, </l>
+          <l>Yea even that which mischiefe meant most harme, </l>
+          <l>Shall in the happie triall prove most glorie. </l>
+          <l>But evill on it selfe shall backe recoyle </l>
+          <l>And mixe no more with goodnesse, when at last </l>
+          <l>Gather'd like scum, and setl'd to it selfe </l>
+          <pb n="21" xml:id="ep000202-013-b"/>
+          <l>It shall bee in eternall restlesse changen </l>
+          <l>Selfe fed, and selfe consum'd, if this faile </l>
+          <l>The pillar'd firmament is rottenesse, </l>
+          <l>And earths base built on stubble. But come let's on.. </l>
+          <l>Against th' opposing will and arme of heav'n </l>
+          <l>May never this just sword be lifted up, </l>
+          <l>But for that damn'd magician, let him be girt </l>
+          <l>With all the greisly legions that troope </l>
+          <l>Vnder the sootie flag of Acheron, </l>
+          <l>Harpyies and Hydra's, or all the monstrous bugs </l>
+          <l>'Twixt Africa, and Inde, Ile find him out </l>
+          <l>And force him to restore his purchase backe </l>
+          <l>Or drag him by the curles, and cleave his scalpe </l>
+          <l>Downe to the hipps. </l>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e106960">
+          <speaker>Spir. </speaker>
+          <l>Alas good ventrous youth, </l>
+          <l>I love thy courage yet, and bold Emprise, </l>
+          <l>But here thy sword can doe thee little stead, </l>
+          <l>Farre other arms, and other weapons must </l>
+          <l>Be those that quell the might of hellish charms, </l>
+          <l>He with his bare wand can unthred thy joynts </l>
+          <l>And crumble all thy sinewes. </l>
+        </sp>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e107040">
+          <speaker>Eld. Bro. </speaker>
+          <l>Why prethee shepheard </l>
+          <l>How durst thou then thy selfe approach so neere </l>
+          <l>As to make this relation? </l>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e107080">
+          <speaker>Spir. </speaker>
+          <l>Care and utmost shifts </l>
+          <l>How to secure the Ladie from surprisall </l>
+          <l>Brought to my mind a certaine shepheard lad </l>
+          <l>Of small regard to see to, yet well skill'd </l>
+          <l>In every vertuous plant, and healing herbe </l>
+          <l>That spreds her verdant lease toth' morning ray, </l>
+          <l>He lov'd me well, and oft would beg me sing, </l>
+          <l>Which when I did, he on the tender grasse </l>
+          <pb n="22" xml:id="ep000202-014-a"/>
+          <l>Would sit, and hearken even to extasie, </l>
+          <l>And in requitall ope his leather'n scrip, </l>
+          <l>And shew me simples of a thousand names </l>
+          <l>Telling their strange, and vigorous faculties, </l>
+          <l>Amongst the rest a small unsightly root, </l>
+          <l>But of divine effect, he cull'd me out; </l>
+          <l>The leafe was darkish, and had prickles on it, </l>
+          <l>But in another Countrie, as be said, </l>
+          <l>Bore a bright golden flowre, but not in this soyle: </l>
+          <l>Vnknowne, and like esteem'd, and the dull swayne </l>
+          <l>Treads on it dayly with his cloured shoone, </l>
+          <l>And yet more med'cinall is it then that Moby </l>
+          <l>That Hermes once to wise Vlysses gave, </l>
+          <l>He call'd it Haemony, and gave it me </l>
+          <l>And bad me keepe it as of soveraine use </l>
+          <l>'Gainst all inchantments, mildew blast, or damp </l>
+          <l>Or gastly furies apparition; </l>
+          <l>I purs't it up, but little reck'ning made </l>
+          <l>Till now that this extremity compell'd, </l>
+          <l>But now I find it true, for by this means </l>
+          <l>I knew the foule inchanter though disguis'd, </l>
+          <l>Enter'd the very limetwigs of his spells, </l>
+          <l>And yet came off, if you have this about you </l>
+          <l>(As I will give you when wee goe) you may </l>
+          <l>Boldly assault the necromancers hall, </l>
+          <l>Where if he be, with dauntlesse hardihood </l>
+          <l>And brandish't blade rush on him, breake his glasse, </l>
+          <l>And shed the lushious liquor on the ground </l>
+          <l>But sease his wand, though he and his curst crew </l>
+          <l>Feirce signe of battaile make, and menace high, </l>
+          <l>Or like the sons of Vulcan vomit smoake, </l>
+          <l>Yet will they soone retire, if he but shrinke </l>
+        </sp>
+        <pb n="23" xml:id="ep000202-014-b"/>
+        <sp who="A07555-elder_brother" xml:id="ep000202-e107490">
+          <speaker>Eld. Bro. </speaker>
+          <l>Thyrsis lead on apace Ile follow thee, </l>
+          <l>And some good angell beare a sheild before us. </l>
+        </sp>
+        <stage xml:id="ep000202-e107520">The Scene Changes to a stately palace set out with all manner of deliciousnesse, soft musicke, tables spred with all dainties. Comus appears with his rabble, and the Ladie set in an inchanted chaire to whom he offers his glasse, which she puts by, and goes about to rise. </stage>
+        <sp who="A07555-comus" xml:id="ep000202-e107530">
+          <speaker>Comus. </speaker>
+          <l>Nay Ladie sit; if I but wave this wand, </l>
+          <l>Your nervs are all chain'd up in alablaster, </l>
+          <l>And you a statue; or as Daphne was </l>
+          <l>Root bound that fled Apollo. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e107580">
+          <speaker>La. </speaker>
+          <l>Foole doe not boast, </l>
+          <l>Thou canst not touch the freedome of my mind </l>
+          <l>With all thy charms, although this corporall rind </l>
+          <l>Thou hast immanacl'd, while heav'n sees good. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e107630">
+          <speaker>Co. </speaker>
+          <l>Why are you vext Ladie, why doe you frowne? </l>
+          <l>Here dwell no frowns, nor anger, from these gates </l>
+          <l>Sorrow flies farre: see here be all the pleasurs </l>
+          <l>That fancie can beget on youthfull thoughts </l>
+          <l>When the fresh blood grows lively, and returns </l>
+          <l>Brisk as the April buds in primrose season. </l>
+          <l>And first behold this cordial julep here </l>
+          <l>That flames, and dances in his crystall bounds </l>
+          <l>With spirits of balme, and fragrant syrops mixt. </l>
+          <l>Not that Nepenthes which the wife of Thone </l>
+          <l>In Aegypt gave to love borne Helena </l>
+          <l>Is of such power to stirre up joy as this, </l>
+          <l>To life so friendly, or so coole to thirst. </l>
+          <l>Why should you be so cruell to your selfe, </l>
+          <pb n="24" xml:id="ep000202-015-a"/>
+          <l>And to those daintie limms which nature lent </l>
+          <l>For gentle usage, and soft delicacie? </l>
+          <l>But you invert the cov'nants of her trust, </l>
+          <l>And harshly deale like an ill borrower </l>
+          <l>With that which you receiv'd on other termes, </l>
+          <l>Scorning the unexempt condition, </l>
+          <l>By which all mortall frailty must subsist, </l>
+          <l>Refreshment after toile, ease after paine, </l>
+          <l>That have been tir'd all day without repast, </l>
+          <l>And timely rest have wanted, but faire virgin </l>
+          <l>This will restore all soone. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e107890">
+          <speaker>La. </speaker>
+          <l>T'will not false traitor, </l>
+          <l>T'will not restore the truth and honestie </l>
+          <l>That thou hast banish't from thy tongue with lies, </l>
+          <l>Was this the cottage, and the safe abode </l>
+          <l>Thou told'st me of? what grim aspects are these, </l>
+          <l>These ougly-headed monsters? Mercie guard me! </l>
+          <l>Hence with thy brewd inchantments foule deceiver, </l>
+          <l>Hast thou betray'd my credulous innocence </l>
+          <l>With visor'd falshood, and base forgerie, </l>
+          <l>And wouldst thou seek againe to trap me here </l>
+          <l>With lickerish baits fit to ensnare a brute? </l>
+          <l>Were it a draft for Iuno when she banquets </l>
+          <l>I would not tast thy treasonous offer; none </l>
+          <l>But such as are good men can give good things, </l>
+          <l>And that which is not good, is nor delicious </l>
+          <l>To a wel-govern'd and wise appetite. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e108060">
+          <speaker>Co. </speaker>
+          <l>O foolishnesse of men! that lend their eares </l>
+          <l>To those budge doctors of the Stoick furre, </l>
+          <l>And fetch their praecepts from the Cynick tub, </l>
+          <l>Praising the leane, and sallow Abstinence. </l>
+          <l>Wherefore did Nature powre her bounties forth </l>
+          <pb n="25" xml:id="ep000202-015-b"/>
+          <l>With such a full and unwithdrawing hand, </l>
+          <l>Covering the earth with odours, fruits, and flocks </l>
+          <l>Thronging the seas with spawne innumerable </l>
+          <l>But all to please, and sate the curious tast? </l>
+          <l>And set to work millions of spinning worms, </l>
+          <l>That in their green shops weave the smooth-hair'd silk </l>
+          <l>To deck her Sons, and that no corner might </l>
+          <l>Be vacant of her plentie, in her owne loyns </l>
+          <l>She hutch't th'all worshipt ore, and precious gems </l>
+          <l>To store her children with; if all the world </l>
+          <l>Should in a pet of temperance feed on Pulse, </l>
+          <l>Drink the clear streame, and nothing weare but Freize, </l>
+          <l>Th'all-giver would be unthank't, would be unprais'd, </l>
+          <l>Not halfe his riches known, and yet despis'd, </l>
+          <l>And we should serve him as a grudging master, </l>
+          <l>As a penurious niggard of his wealth, </l>
+          <l>And live like Natures bastards, not her sons, </l>
+          <l>Who would be quite surcharg'd with her own weight, plumes, </l>
+          <l>And strangl'd with her wast fertilitie; </l>
+          <l>Th'earth cumber'd, and the wing'd aire dark't with </l>
+          <l>The heards would over-multitude their Lords, </l>
+          <l>The sea ore-fraught would swell, and th'unsought diamonds </l>
+          <l>Would so emblaze he forehead of the Deep, </l>
+          <l>And so bestudde with stars that they below </l>
+          <l>Would grow inur'd to light, and come at last </l>
+          <l>To gaze upon the Sun with shameless brows. </l>
+          <l>List Ladie be not coy, and be not cosen'd </l>
+          <l>With that same vaunted name Virginitie, </l>
+          <l>Beautie is natures coine, must not be hoorded, </l>
+          <l>But must be currant, and the good thereof </l>
+          <l>Consists in mutuall and partaken blisse, </l>
+          <l>Vnsavourie in th'injoyment of it selfe </l>
+          <pb n="26" xml:id="ep000202-016-a"/>
+          <l>If you let slip time, like a neglected rose </l>
+          <l>It withers on the stalke with languish't head. </l>
+          <l>Beautie is natures brag, and must be showne </l>
+          <l>In courts, at feasts, and high solemnities </l>
+          <l>Where most may wonder at the workmanship; </l>
+          <l>It is for homely features to keepe home, </l>
+          <l>They had their name thence; course complexions </l>
+          <l>And cheeks of sorrie graine will serve to ply </l>
+          <l>The sampler, and to teize the huswifes wooll. </l>
+          <l>What need a vermeil-tinctur'd lip for that </l>
+          <l>Love-darting eyes, or tresses like the Morne </l>
+          <l>There was another meaning in these gifts? </l>
+          <l>Thinke what, and be adviz'd, you are but yong yet. </l>
+        </sp>
+        <sp who="A07555-lady" xml:id="ep000202-e108590">
+          <speaker>La. </speaker>
+          <l>I had not thought to have unlockt my lips </l>
+          <l>In this unhallow'd aire, but that this Jugler </l>
+          <l>Would thinke to charme my judgement, as mine eyes </l>
+          <l>Obtruding false rules pranckt in reasons garbe. </l>
+          <l>I hate when vice can bolt her arguments </l>
+          <l>And vertue has no tongue to check her pride: </l>
+          <l>Impostor doe not charge most innocent nature </l>
+          <l>As if she would her children should be riotous </l>
+          <l>With her abundance, she good cateresse </l>
+          <l>Means her provision only to the good </l>
+          <l>That live according to her sober laws </l>
+          <l>And holy dictate of spare Temperance, </l>
+          <l>If every just man that now pines with want </l>
+          <l>Had but a moderate, and beseeming share </l>
+          <l>Of that which lewdy-pamper'd Luxurie </l>
+          <l>Now heaps upon some few with vast excesse, </l>
+          <l>Natures full blessings would be well dispenc't </l>
+          <l>In unsuperfluous even proportion, </l>
+          <l>And she no whit encomber'd with her store, </l>
+          <pb n="27" xml:id="ep000202-016-b"/>
+          <l>And then the giver would be better thank't,' </l>
+          <l>His praise due paid, for swinish gluttony </l>
+          <l>Ne're looks to heav'n amidst his gorgeous feast, </l>
+          <l>But with besorted base ingratitude </l>
+          <l>Cramms, and blasphemes his feeder. Shall I goe on? </l>
+          <l>Or have I said enough? to him that dares </l>
+          <l>Arme his profane tongue with reproachfull words </l>
+          <l>Against the Sun-clad power of Chastitie </l>
+          <l>Faine would I something say, yet to what end? </l>
+          <l>Thou hast nor Eare, nor Scule to apprehend </l>
+          <l>The sublime notion, and high mysterie </l>
+          <l>That must be utter'd to unfold the sage </l>
+          <l>And serious doctrine of Virginitie, </l>
+          <l>And thou art worthy that thou shouldst not know </l>
+          <l>More hapinesse then this thy praesent lot. </l>
+          <l>Enjoy your deere Wit, and gay Rhetorick </l>
+          <l>That hath so well beene taught her dazling fence, </l>
+          <l>Thou art not fit to heare thy selfe convinc't; </l>
+          <l>Yet should I trie, the uncontrouled worth </l>
+          <l>Of this pure cause would kindle my rap't spirits </l>
+          <l>To such a flame of sacred vehemence, </l>
+          <l>That dumb things would be mov'd to sympathize, </l>
+          <l>And the brute Earth would lend her nerves, and shake, </l>
+          <l>Till all thy magick structures rear'd so high </l>
+          <l>Were shatter'd into heaps ore thy false head. </l>
+        </sp>
+        <sp who="A07555-comus" xml:id="ep000202-e109040">
+          <speaker>Co. </speaker>
+          <l>She fables not, I feele that I doe feare </l>
+          <l>Her words set off by some superior power; </l>
+          <l>And though not mortall, yet a cold shuddring dew </l>
+          <l>Dips me all ore, as when the wrath of Iove </l>
+          <l>Speaks thunder, and the chaines of Erebus </l>
+          <l>To some of Saturns crew. I must dissemble, </l>
+          <l>And try her yet more strongly. Come; no more, </l>
+          <pb n="28" xml:id="ep000202-017-a"/>
+          <l>This is meere morall babble, and direct </l>
+          <l>Against the canon laws of our foundation, </l>
+          <l>I must not suffer this, yet 'tis but the lees </l>
+          <l>And setlings of a melancholy blood; </l>
+          <l>But this will cure all streight, one sip of this </l>
+          <l>Will bathe the drooping spirits in delight </l>
+          <l>Beyond the blisse of dreams. Be wise, and tast.— </l>
+        </sp>
+        <stage xml:id="ep000202-e109190">The brothers rush in with swords drawne, wrest his glasse out of his hand, and breake it against the ground; his rout make signe of resistance, but are all driven in; the attendant Spirit comes in. </stage>
+        <sp who="A07555-spirit" xml:id="ep000202-e109200">
+          <speaker>Spir. </speaker>
+          <l>What, have you let the false enchanter scape? </l>
+          <l>O yee mistooke, yee should have snatcht his wand </l>
+          <l>And bound him fast; without his rod revers't, </l>
+          <l>And backward mutters of dissevering power </l>
+          <l>Wee cannot free the Ladie that sits here </l>
+          <l>In stonie fetters fixt, and motionlesse; </l>
+          <l>Yet stay, be not disturb'd, now I bethinke me, </l>
+          <l>Some other meanes I have which may be us'd, </l>
+          <l>Which once of Melibaeus old I learnt </l>
+          <l>The soothest shepheard that ere pipe't on plains. </l>
+          <l>There is a gentle nymph not farre from hence </l>
+          <l>That with moist curb sways the smooth Severn stream, </l>
+          <l>Sabrina is her name, a virgin pure, </l>
+          <l>Whilome shee was the daughter of Locrine, </l>
+          <l>That had the scepter from his father Brute. </l>
+          <l>She guiltlesse damsell flying the mad pursuit </l>
+          <l>Of her enraged stepdam Guendolen </l>
+          <l>Commended her faire innocence to the flood </l>
+          <l>That stay'd her flight with his crosse-flowing course, </l>
+          <pb n="29" xml:id="ep000202-017-b"/>
+          <l>The water Nymphs that in the bottome playd </l>
+          <l>Held up their pearled wrists and tooke her in, </l>
+          <l>Bearing her straite to aged Nereus hall </l>
+          <l>Who piteous of her woes reard her lanke head, </l>
+          <l>And gave her to his daughters to imbathe </l>
+          <l>In nectar'd lavers strewd with asphodil, </l>
+          <l>And through the porch, and inlet of each sense </l>
+          <l>Dropt in ambrosial oyles till she reviv'd, </l>
+          <l>And underwent a quicke, immortall change </l>
+          <l>Made goddesse of the river; still she retaines </l>
+          <l>Her maiden gentlenesse, and oft at eve </l>
+          <l>Visits the heards along the twilight meadows, </l>
+          <l>Helping all urchin blasts, and ill lucke signes </l>
+          <l>That the shrewd medling elfe delights so make, </l>
+          <l>Which she with precious viold liquors heales. </l>
+          <l>For which the shepheards at their festivalls </l>
+          <l>Carroll her goodnesse lowd in rusticke layes, </l>
+          <l>And throw sweet garland wreaths into her streame </l>
+          <l>Of pancies, pinks, and gaudie daffadills. </l>
+          <l>And, as the old Swaine said, she can unlocke </l>
+          <l>The clasping charme, and thaw the numming spell, </l>
+          <l>If she be right invok't in warbled Song, </l>
+          <l>For maidenhood she loves, and will be swift </l>
+          <l>To aid a virgin such as was her selfe </l>
+          <l>In hard besetting need, this will I trie </l>
+          <l>And adde the power of some adjuring verse. </l>
+          <lg>
+            <head>Song. </head>
+            <lg>
+              <l>Sabrina faire </l>
+              <l>Listen where thou art sitting </l>
+              <l>Vnder the glassie, coole, translucent wave, </l>
+              <l>In twisted braids of lillies knitting </l>
+              <pb n="30" xml:id="ep000202-018-a"/>
+              <l>The loose traine of thy amber-dropping haire, </l>
+              <l>Listen for deare honours sake </l>
+              <l>Goddesse of the silver lake </l>
+              <l>Listen and save. </l>
+            </lg>
+          </lg>
+          <l>Listen and appeare to us </l>
+          <l>In name of great Oceanus, </l>
+          <l>By th earth shaking Neptun's mace </l>
+          <l>And Tethys grave majesticke pace, </l>
+          <l>By hoarie Nereus wrincled looke, </l>
+          <l>And the Carpathian wisards hooke, </l>
+          <l>By scalie winding shell. </l>
+          <l>And old sooth saying Claucus spell, </l>
+          <l>By Leucothea's lovely hands, </l>
+          <l>And her son that rules the strands, </l>
+          <l>By Thetis tinsel-slipper feet; </l>
+          <l>And the songs of Sirens sweet, </l>
+          <l>By dead Parthenope's deare tomb, </l>
+          <l>And faire Ligea's golden comb, </l>
+          <l>Wherewith she sits on diamond rocks </l>
+          <l>Sleeking her soft alluring locks, </l>
+          <l>By all the Nymphs that nightly dance </l>
+          <l>Vpon thy streams with wilie glance, </l>
+          <l>Rise, rise and heave thy rosie head </l>
+          <l>From thy coral-paven bed, </l>
+          <l>And bridle in thy headlong wave </l>
+          <l>Till thou our summons answerd have. </l>
+          <l>Listen and save. </l>
+          <lg>
+            <l>Sabrina rises attended by water Nimphes and sings. </l>
+            <l>By the rushie fringed banke, </l>
+            <l>Where growes the willow and the osier dancke </l>
+            <l>My sliding chariot stayes, </l>
+            <pb n="31" xml:id="ep000202-018-b"/>
+            <l>Thicke set with agat, and the azurne sheene </l>
+            <l>Of turkkis blew, and Emrould greene </l>
+            <l>That in the channell strayes, </l>
+            <l>Whilst from off the waters fleet </l>
+            <l>Thus I set my printlesse feet </l>
+            <l>Ore the cowslips velvet head, </l>
+            <l>That bends not as I tread, </l>
+            <l>Gentle swaine at thy request </l>
+            <l>I am here. </l>
+          </lg>
+        </sp>
+        <sp who="A07555-spirit" xml:id="ep000202-e110130">
+          <speaker>Spir. </speaker>
+          <l>Goddesse deare </l>
+          <l>Wee implore thy powerfull hand </l>
+          <l>To undoe the charmed band </l>
+          <l>Of true virgin here distrest, </l>
+          <l>Through the force, and through the wile </l>
+          <l>Of unblest inchanter vile. </l>
+        </sp>
+        <sp who="A07555-sabrina" xml:id="ep000202-e110200">
+          <speaker>Sab. </speaker>
+          <l>Shepheard tis my office best </l>
+          <l>To helpe insnared chastitie; </l>
+          <l>Brightest Ladie looke on me, </l>
+          <l>Thus I sprinckle on thy brest </l>
+          <l>Drops that from my fountaine pure </l>
+          <l>I have kept of precious cure, </l>
+          <l>Thrice upon thy fingers tip, </l>
+          <l>Thrice upon thy rubied lip, </l>
+          <l>Next this marble venom'd seate </l>
+          <l>Smear'd with gummes of glutenous heate </l>
+          <l>I touch with chast palmes moist and cold, </l>
+          <l>Now the spell hath lost his hold. </l>
+          <l>And I must hast ere morning houre </l>
+          <l>To waite in Amphitrite's bowre. </l>
+        </sp>
+        <stage xml:id="ep000202-e110350">
+          <pb n="32" xml:id="ep000202-019-a"/>Sabrina descends and the Ladie rises out of her seate. </stage>
+        <sp who="A07555-spirit" xml:id="ep000202-e110360">
+          <speaker>Spir. </speaker>
+          <l>Virgin, daughter of Locrine </l>
+          <l>Sprung of old Anchises line </l>
+          <l>May thy brimmed waves for this </l>
+          <l>Their full tribute never misse </l>
+          <l>From a thousand pettie rills, </l>
+          <l>That tumble downe the snowie hills: </l>
+          <l>Summer drouth, or singed aire </l>
+          <l>Never scorch thy tresses faire, </l>
+          <l>Nor wet Octobers torrent flood </l>
+          <l>Thy molten crystall fill with mudde, </l>
+          <l>May thy billowes rowle a shoare </l>
+          <l>The beryll, and the golden ore, </l>
+          <l>May thy loftie head be crown'd </l>
+          <l>With many a tower, and terrasse round, </l>
+          <l>And here and there thy banks upon </l>
+          <l>With groves of myrrhe, and cinnamon. </l>
+          <l>Come Ladie while heaven lends us grace, </l>
+          <l>Let us fly this cursed place, </l>
+          <l>Lest the sorcerer us intice </l>
+          <l>With some other new device. </l>
+          <l>Not a wast, or needlesse sound </l>
+          <l>Till we come to holyer ground, </l>
+          <l>I shall be your faithfull guide </l>
+          <l>Through this gloomie covert wide, </l>
+          <l>And not many furlongs thence </l>
+          <l>Is your Fathers residence, </l>
+          <l>Where this night are met in state </l>
+          <l>Many a freind to gratulate </l>
+          <pb n="33" xml:id="ep000202-019-b"/>
+          <l>His wish't presence, and beside </l>
+          <l>All the Swains that there abide, </l>
+          <l>With Iiggs, and rurall dance resort, </l>
+          <l>Wee shall catch them at their sport, </l>
+          <l>And our suddaine comming there </l>
+          <l>Will double all their mirth, and chere, </l>
+          <l>Come let us hast the starrs are high </l>
+          <l>But night sits monarch yet in the mid skie. </l>
+        </sp>
+        <stage xml:id="ep000202-e110730">The Scene changes presenting Ludlow towne and the Presidents Castle, then come in Countrie dancers, after them the attendant Spirit with the two Brothers and the Ladie. </stage>
+        <stage xml:id="ep000202-e110740">Song. </stage>
+        <sp who="A07555-spirit" xml:id="ep000202-e110750">
+          <speaker>Spir. </speaker>
+          <l>Back shepheards, back enough your play, </l>
+          <l>Till next Sun-shine holiday, </l>
+          <l>Here be without duck or nod, </l>
+          <l>Other trippings to be trod </l>
+          <l>Of lighter toes, and such Court guise </l>
+          <l>As Mercury did first devise </l>
+          <l>With the mincing Dryades </l>
+          <l>On the lawns, and on the leas. </l>
+          <stage xml:id="ep000202-e110840">This second Song praesents them to their father and mother. </stage>
+          <l>Noble Lord, and Lady bright, </l>
+          <l>I have brought yee new delight, </l>
+          <l>Here behold so goodly growne. </l>
+          <l>Three faire branches of your owne, </l>
+          <l>Heav'n hath timely tri'd their youth, </l>
+          <l>Their faith, their patience, and their truth, </l>
+          <pb n="34" xml:id="ep000202-020-a"/>
+          <l>And sent them here through hard assays </l>
+          <l>With a crowne of deathlesse Praise, </l>
+          <l>To triumph in victorious dance </l>
+          <l>Ore sensuall Folly, and Intemperance. </l>
+        </sp>
+        <stage xml:id="ep000202-e110950">The dances ended, the Spirit Epilogizes. </stage>
+        <sp who="A07555-spirit" xml:id="ep000202-e110960">
+          <speaker>Spir. </speaker>
+          <l>To the Ocean now I flie, </l>
+          <l>And those happie climes that lie </l>
+          <l>Where day never shuts his eye, </l>
+          <l>Vp in the broad fields of the skie: </l>
+          <l>There I suck the liquid ayre </l>
+          <l>All amidst the gardens faire </l>
+          <l>Of Hesperus, and his daughters three </l>
+          <l>That sing about the golden tree, </l>
+          <l>Along the crisped shades, and bowres </l>
+          <l>Revells the spruce and jocond Spring, </l>
+          <l>The Graces, and the rosie-bosom'd Howres </l>
+          <l>Thither all their bounties bring, </l>
+          <l>That there aeternall Summer dwells </l>
+          <l>And west winds, with muskie wing </l>
+          <l>About the cedar'n alleys fling </l>
+          <l>Nard, and Cassia's balmie smells. </l>
+          <l>Iris there with humid bow </l>
+          <l>Waters the odorous banks that blow </l>
+          <l>Flowers of more mingled hew </l>
+          <l>Then her purfl'd scarfe can shew, </l>
+          <l>And drenches with Elysium dew </l>
+          <l>(List mortalls, if your eares be true) </l>
+          <l>Beds of Hyacinth, and roses) </l>
+          <l>Where young Adonis oft reposes, </l>
+          <l>Waxing well of his deepe wound </l>
+          <l>In slumber soft, and on the ground </l>
+          <pb n="35" xml:id="ep000202-020-b"/>
+          <l>Sadly sits th'Assyrian Queene; </l>
+          <l>But farre above in spangled sheene </l>
+          <l>Celestiall Cupid her fam'd Son advanc't, </l>
+          <l>Holds his deare Psyche sweet intranc't </l>
+          <l>After her wandring labours long, </l>
+          <l>Till free consent the gods among </l>
+          <l>Make her his aeternall Bride, </l>
+          <l>And from her faire unspotted side </l>
+          <l>Two blissfull twins are to be borne, </l>
+          <l>Youth, and Ioy; so Iove hath sworne. </l>
+          <l>But now my taske is smoothly done, </l>
+          <l>I can fly, or I can run </l>
+          <l>Quickly to the greene earths end, </l>
+          <l>Where the bow'd welkin slow doth bend, </l>
+          <l>And from thence can soare as soone </l>
+          <l>To the corners of the Moone. </l>
+          <l>Mortalls that would follow me, </l>
+          <l>Love vertue, she alone is free, </l>
+          <l>She can teach yee how to clime </l>
+          <l>Higher then the Sphaerie chime; </l>
+          <l>Or if vertue feeble were </l>
+          <l>Heav'n it selfe would stoope to her. </l>
+        </sp>
+        <list>
+          <head>The principall persons in this Maske; were </head>
+          <item>The Lord BRACLY, </item>
+          <item>Mr. THOMAS EGERTON, </item>
+          <item>The Lady ALICE EGERTON. </item>
+        </list>
+        <trailer>The END </trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist">
+        <head>Machine-generated castlist</head>
+        <list n="163-A07555">
+          <item n="16">
+            <seg type="character_name">A07555-comus</seg>
+            <seg type="speech_count">16</seg>
+          </item>
+          <item n="14">
+            <seg type="character_name">A07555-lady</seg>
+            <seg type="speech_count">14</seg>
+          </item>
+          <item n="13">
+            <seg type="character_name">A07555-elder_brother</seg>
+            <seg type="speech_count">13</seg>
+          </item>
+          <item n="11">
+            <seg type="character_name">A07555-spirit</seg>
+            <seg type="speech_count">11</seg>
+          </item>
+          <item n="8">
+            <seg type="character_name">A07555-younger_brother</seg>
+            <seg type="speech_count">8</seg>
+          </item>
+          <item n="1">
+            <seg type="character_name">A07555-sabrina</seg>
+            <seg type="speech_count">1</seg>
+          </item>
+        </list>
+      </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
+        <note target="A07555-001-b-0610">
+          <label>c3cpb-001-b-0610</label>
+          <sic>figne</sic>
+          <seg>, Printed for HVMPHREY ROBINSON , at the</seg>
+          <corr>sign</corr>
+          <seg>of the Three Pidgeons in Pauls Church-yard</seg>
+        </note>
+        <note target="A07555-003-a-1160">
+          <label>c3cpb-003-a-1160</label>
+          <sic>●umble</sic>
+          <seg>Your faithfull , and most</seg>
+          <corr>humble</corr>
+          <seg>Servant ,</seg>
+        </note>
+        <note target="A07555-004-a-0440">
+          <label>c3cpb-004-a-0440</label>
+          <sic>●ut</sic>
+          <seg/>
+          <corr>But</corr>
+          <seg>to my task . Neptune besides the sway Of</seg>
+        </note>
+        <note target="A07555-004-a-0640">
+          <label>c3cpb-004-a-0640</label>
+          <sic>●y</sic>
+          <seg>Flood , and each ebbing Streame Tooke in</seg>
+          <corr>my</corr>
+          <seg>lot 'twixt high , and neather love Imperial</seg>
+        </note>
+        <note target="A07555-004-a-0770">
+          <label>c3cpb-004-a-0770</label>
+          <sic>S●a-girt</sic>
+          <seg>and neather love Imperial rule of all the</seg>
+          <corr>Sea-girt</corr>
+          <seg>Iles That like to rich , and various gemms</seg>
+        </note>
+        <note target="A07555-004-a-2240">
+          <label>c3cpb-004-a-2240</label>
+          <sic>forlor●e</sic>
+          <seg>horror of whose shadie brows Threats the</seg>
+          <corr>forlorne</corr>
+          <seg>and wandring Passinger . And here their</seg>
+        </note>
+        <note target="A07555-004-a-2400">
+          <label>c3cpb-004-a-2400</label>
+          <sic>qu●ck</sic>
+          <seg>tender age might suffer perill But that by</seg>
+          <corr>quick</corr>
+          <seg>command from Soveraigne Iove I was dispacht</seg>
+        </note>
+        <note target="A07555-004-a-2470">
+          <label>c3cpb-004-a-2470</label>
+          <sic>disp●cht</sic>
+          <seg>quick command from Soveraigne Iove I was</seg>
+          <corr>dispacht</corr>
+          <seg>for their defence and guard , And listen</seg>
+        </note>
+        <note target="A07555-004-b-0350">
+          <label>c3cpb-004-b-0350</label>
+          <sic>Tyrrhenc</sic>
+          <seg>Tuscan Mariners transform'd Coasting the</seg>
+          <corr>Tyrrhenic</corr>
+          <seg>shore , as the winds listed , On Circes</seg>
+        </note>
+        <note target="A07555-004-b-1190">
+          <label>c3cpb-004-b-1190</label>
+          <sic>Comu●</sic>
+          <seg>more , Whom therefore she brought up and</seg>
+          <corr>Comus</corr>
+          <seg>nam'd , Who ripe , and frolick of his full</seg>
+        </note>
+        <note target="A07555-004-b-2040">
+          <label>c3cpb-004-b-2040</label>
+          <sic>count'hance</sic>
+          <seg>Soone as the Potion works , their humane</seg>
+          <corr>count'nance</corr>
+          <seg>Th'expresse resemblance of the gods is chang'd</seg>
+        </note>
+        <note target="A07555-005-a-0340">
+          <label>c3cpb-005-a-0340</label>
+          <sic>●oote</sic>
+          <seg>Swift as the Sparkle of a glancing Starre I</seg>
+          <corr>shoote</corr>
+          <seg>from heav'n to giue him safe convoy , As</seg>
+        </note>
+        <note target="A07555-005-a-0600">
+          <label>c3cpb-005-a-0600</label>
+          <sic>os</sic>
+          <seg>must put off These my skie robes spun out</seg>
+          <corr>of</corr>
+          <seg>Iris wooffe , And take the weeds and likenesse</seg>
+        </note>
+        <note target="A07555-005-b-0220">
+          <label>c3cpb-005-b-0220</label>
+          <sic>dan●e</sic>
+          <seg>, Midnight shout , and revelrie , Tipsie</seg>
+          <corr>dance</corr>
+          <seg>, and Jollitie . Braid your Locks with rosie</seg>
+        </note>
+        <note target="A07555-005-b-0340">
+          <label>c3cpb-005-b-0340</label>
+          <sic>D●opping</sic>
+          <seg>Jollitie . Braid your Locks with rosie Twine ,</seg>
+          <corr>Dropping</corr>
+          <seg>odours , dropping Wine . Rigor now is gone</seg>
+        </note>
+        <note target="A07555-005-b-0480">
+          <label>c3cpb-005-b-0480</label>
+          <sic>A●vice</sic>
+          <seg>dropping Wine . Rigor now is gone to bed , And</seg>
+          <corr>Advice</corr>
+          <seg>with scrupulous head , Strict Age , and</seg>
+        </note>
+        <note target="A07555-005-b-0580">
+          <label>c3cpb-005-b-0580</label>
+          <sic>Severi●ie</sic>
+          <seg>scrupulous head , Strict Age , and sowre</seg>
+          <corr>Severitie</corr>
+          <seg>With their graue Sawes in slumber lie .</seg>
+        </note>
+        <note target="A07555-005-b-0710">
+          <label>c3cpb-005-b-0710</label>
+          <sic>pu●er</sic>
+          <seg>graue Sawes in slumber lie . We that are of</seg>
+          <corr>purer</corr>
+          <seg>fire , Immitate the starrie quire , Who</seg>
+        </note>
+        <note target="A07555-005-b-1440">
+          <label>c3cpb-005-b-1440</label>
+          <sic>daisiestrim</sic>
+          <seg>Fountaine brim . The Wood-nymphs deckt with</seg>
+          <corr>daisies trim</corr>
+          <seg>, Their merry wakes , and pastimes</seg>
+        </note>
+        <note target="A07555-005-b-2120">
+          <label>c3cpb-005-b-2120</label>
+          <sic>To●ches</sic>
+          <seg>cotytto , t'whom the secret flame Of mid-night</seg>
+          <corr>Torches</corr>
+          <seg>burnes ; mysterious Dame That ne're at call'd</seg>
+        </note>
+        <note target="A07555-006-a-0430">
+          <label>c3cpb-006-a-0430</label>
+          <sic>E●e</sic>
+          <seg>all thy dues be done , and none left out</seg>
+          <corr>Ere</corr>
+          <seg>the blabbing Easterne scout The nice Morne</seg>
+        </note>
+        <note target="A07555-006-a-0880">
+          <label>c3cpb-006-a-0880</label>
+          <sic>Mcasure</sic>
+          <seg>The</seg>
+          <corr>Measure</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A07555-006-a-1770">
+          <label>c3cpb-006-a-1770</label>
+          <sic>d●zling</sic>
+          <seg>graz'd About my Mother Circe . Thus I hurle My</seg>
+          <corr>dazling</corr>
+          <seg>Spells into the spungie aire Of power to</seg>
+        </note>
+        <note target="A07555-006-a-2290">
+          <label>c3cpb-006-a-2290</label>
+          <sic>●nder</sic>
+          <seg>not be , for that's against my course ; I</seg>
+          <corr>under</corr>
+          <seg>faire praetents of friendly ends , And wel</seg>
+        </note>
+        <note target="A07555-006-a-2430">
+          <label>c3cpb-006-a-2430</label>
+          <sic>Bait●d</sic>
+          <seg>And wel plac't words of glozing courtesie</seg>
+          <corr>Baited</corr>
+          <seg>with reasons not unplausible Wind me into</seg>
+        </note>
+        <note target="A07555-006-b-0410">
+          <label>c3cpb-006-b-0410</label>
+          <sic>gea●</sic>
+          <seg>Villager Whom thrift keepes up about his Country</seg>
+          <corr>geare</corr>
+          <seg>But here she comes , I fairly step aside</seg>
+        </note>
+        <note target="A07555-006-b-0500">
+          <label>c3cpb-006-b-0500</label>
+          <sic>afide</sic>
+          <seg>geare But here she comes , I fairly step</seg>
+          <corr>aside</corr>
+          <seg>And hearken , if I may , her buisnesse here</seg>
+        </note>
+        <note target="A07555-006-b-0590">
+          <label>c3cpb-006-b-0590</label>
+          <sic>buifnesse</sic>
+          <seg>fairly step aside And hearken , if I may , her</seg>
+          <corr>buisnesse</corr>
+          <seg>here .</seg>
+        </note>
+        <note target="A07555-006-b-1460">
+          <label>c3cpb-006-b-1460</label>
+          <sic>infolence</sic>
+          <seg>loath To meet the rudenesse , and swill'd</seg>
+          <corr>insolence</corr>
+          <seg>Of such late Wassailers ; yet o where else</seg>
+        </note>
+        <note target="A07555-006-b-1530">
+          <label>c3cpb-006-b-1530</label>
+          <sic>〈◊〉</sic>
+          <seg>swill'd insolence Of such late Wassailers ; yet</seg>
+          <corr>o</corr>
+          <seg>where else Shall I in●e my unacquainted</seg>
+        </note>
+        <note target="A07555-006-b-2310">
+          <label>c3cpb-006-b-2310</label>
+          <sic>Vota●st</sic>
+          <seg>then , when the gray-hooded Ev'n Like a sad</seg>
+          <corr>Votarist</corr>
+          <seg>in Palmers weeds Rose from the hindmost</seg>
+        </note>
+        <note target="A07555-007-a-1900">
+          <label>c3cpb-007-a-1900</label>
+          <sic>wing●</sic>
+          <seg>Hope Thou flittering Angel girt with golden</seg>
+          <corr>wings</corr>
+          <seg>; And thou unblemish't forme of Chastitie</seg>
+        </note>
+        <note target="A07555-007-b-0560">
+          <label>c3cpb-007-b-0560</label>
+          <sic>unseen●</sic>
+          <seg>Sweet echo , sweetest Nymph that liv'st</seg>
+          <corr>unseene</corr>
+          <seg>Within thy ayrie shell By slow Meander's</seg>
+        </note>
+        <note target="A07555-007-b-0740">
+          <label>c3cpb-007-b-0740</label>
+          <sic>love - 〈◊〉</sic>
+          <seg>in the violet-imbroider'd vale Where the</seg>
+          <corr>love-lorne</corr>
+          <seg>Nightingale Nightly to thee her sad Song</seg>
+        </note>
+        <note target="A07555-008-a-0100">
+          <label>c3cpb-008-a-0100</label>
+          <sic>slowrie-kirtl'd</sic>
+          <seg>mother Circe with the Sirens three Amidst the</seg>
+          <corr>flowrie-kirtl'd</corr>
+          <seg>Naiades Culling their Potent hearbs , and</seg>
+        </note>
+        <note target="A07555-008-a-0340">
+          <label>c3cpb-008-a-0340</label>
+          <sic>Elysinm</sic>
+          <seg>would take the prison'd soule And lap it in</seg>
+          <corr>Elysium</corr>
+          <seg>, Scylla wept , And chid her barking waves</seg>
+        </note>
+        <note target="A07555-008-a-0570">
+          <label>c3cpb-008-a-0570</label>
+          <sic>plea●ing</sic>
+          <seg>Charybdis murmur'd soft applause : Yet they in</seg>
+          <corr>pleasing</corr>
+          <seg>slumber lull'd the sense And in sweet madnesse</seg>
+        </note>
+        <note target="A07555-008-a-2530">
+          <label>c3cpb-008-a-2530</label>
+          <sic>val'y</sic>
+          <seg>To seeke i'th</seg>
+          <corr>vally</corr>
+          <seg>some coole friendly Spring .</seg>
+        </note>
+        <note target="A07555-008-b-0210">
+          <label>c3cpb-008-b-0210</label>
+          <sic>Impor●s</sic>
+          <seg/>
+          <corr>Imports</corr>
+          <seg>their losse , beside the praesent need ?</seg>
+        </note>
+        <note target="A07555-009-a-0850">
+          <label>c3cpb-009-a-0850</label>
+          <sic>p●ae●ended</sic>
+          <seg>where it first was nam'd , And yet is most</seg>
+          <corr>praetended</corr>
+          <seg>: in a place Lesse warranted then this ,</seg>
+        </note>
+        <note target="A07555-009-a-1830">
+          <label>c3cpb-009-a-1830</label>
+          <sic>d●mm'd</sic>
+          <seg>of shades ; Or if your influence be quite</seg>
+          <corr>damm'd</corr>
+          <seg>up With black usurping mists , some gentle</seg>
+        </note>
+        <note target="A07555-009-a-1950">
+          <label>c3cpb-009-a-1950</label>
+          <sic>●ush</sic>
+          <seg>usurping mists , some gentle taper Though a</seg>
+          <corr>rush</corr>
+          <seg>candle from the wicker hole Of some clay</seg>
+        </note>
+        <note target="A07555-009-a-2360">
+          <label>c3cpb-009-a-2360</label>
+          <sic>barr d</sic>
+          <seg>Or if our eyes : Be</seg>
+          <corr>barr'd</corr>
+          <seg>that happinesse , might we but heare The</seg>
+        </note>
+        <note target="A07555-009-b-2120">
+          <label>c3cpb-009-b-2120</label>
+          <sic>●ot</sic>
+          <seg>( Not being in danger , as I trust she is</seg>
+          <corr>not</corr>
+          <seg>) Could stir the constant mood of her calme</seg>
+        </note>
+        <note target="A07555-009-b-2240">
+          <label>c3cpb-009-b-2240</label>
+          <sic>p●t</sic>
+          <seg>the constant mood of her calme thoughts And</seg>
+          <corr>put</corr>
+          <seg>them into mis-becomming . Vertue could see</seg>
+        </note>
+        <note target="A07555-009-b-2270">
+          <label>c3cpb-009-b-2270</label>
+          <sic>mis● becomming</sic>
+          <seg>mood of her calme thoughts And put them into</seg>
+          <corr>mis-becomming</corr>
+          <seg>. Vertue could see to doe what vertue would</seg>
+        </note>
+        <note target="A07555-009-b-2390">
+          <label>c3cpb-009-b-2390</label>
+          <sic>owne'radiant</sic>
+          <seg>could see to doe what vertue would By her</seg>
+          <corr>owne' radiant</corr>
+          <seg>light , though Sun and Moon Were</seg>
+        </note>
+        <note target="A07555-009-b-2500">
+          <label>c3cpb-009-b-2500</label>
+          <sic>slat</sic>
+          <seg>radiant light , though Sun and Moon Were in the</seg>
+          <corr>flat</corr>
+          <seg>Sea sunck , and wisdoms selfe Oft seeks</seg>
+        </note>
+        <note target="A07555-009-b-2550">
+          <label>c3cpb-009-b-2550</label>
+          <sic>Wifdoms</sic>
+          <seg>and Moon Were in the flat Sea sunck , and</seg>
+          <corr>wisdoms</corr>
+          <seg>selfe Oft seeks to sweet retired Solitude</seg>
+        </note>
+        <note target="A07555-010-a-0810">
+          <label>c3cpb-010-a-0810</label>
+          <sic>cheer●full</sic>
+          <seg>Pensive secrecie of desert cell Farre from the</seg>
+          <corr>cheerefull</corr>
+          <seg>haunt of men , and heards , And sits as</seg>
+        </note>
+        <note target="A07555-010-b-1600">
+          <label>c3cpb-010-b-1600</label>
+          <sic>mountaneet●</sic>
+          <seg>chastitie No savage fierce , bandite , or</seg>
+          <corr>mountaneere</corr>
+          <seg>Will dare to soyle her virgin puritie Yea</seg>
+        </note>
+        <note target="A07555-010-b-2480">
+          <label>c3cpb-010-b-2480</label>
+          <sic>●as</sic>
+          <seg>time No goblin , or swart Faërie of the mine</seg>
+          <corr>Has</corr>
+          <seg>hurtfull power ore true virginity . Doe</seg>
+        </note>
+        <note target="A07555-011-a-0170">
+          <label>c3cpb-011-a-0170</label>
+          <sic>silver-shaf●ed</sic>
+          <seg>had the huntresse Dian her dred bow Faire</seg>
+          <corr>silver-shafted</corr>
+          <seg>Queene for ever chast Wherewith we tam'd</seg>
+        </note>
+        <note target="A07555-011-a-0520">
+          <label>c3cpb-011-a-0520</label>
+          <sic>sh●</sic>
+          <seg>gods and men Fear'd her sterne frowne , &amp;</seg>
+          <corr>she</corr>
+          <seg>was queen oth' woods . What was that snakie</seg>
+        </note>
+        <note target="A07555-011-a-0600">
+          <label>c3cpb-011-a-0600</label>
+          <sic>●hat</sic>
+          <seg>frowne , &amp; she was queen oth' woods . What was</seg>
+          <corr>that</corr>
+          <seg>snakie headed Gorgon sheild That wise Minerva</seg>
+        </note>
+        <note target="A07555-011-a-2280">
+          <label>c3cpb-011-a-2280</label>
+          <sic>Imbodie●</sic>
+          <seg>, The soule growes clotted by contagion ,</seg>
+          <corr>Imbodies</corr>
+          <seg>, and imbrutes , till she quite loose The</seg>
+        </note>
+        <note target="A07555-011-b-2700">
+          <label>c3cpb-011-b-2700</label>
+          <sic>he●</sic>
+          <seg>every muskrose of the dale , How cam'st thou</seg>
+          <corr>here</corr>
+          <seg>good Swaine , hath any ram Slip't from the</seg>
+        </note>
+        <note target="A07555-011-b-2950">
+          <label>c3cpb-011-b-2950</label>
+          <sic>sorsook</sic>
+          <seg>dam , Or straggling weather the pen't flock</seg>
+          <corr>forsook</corr>
+          <seg>, How couldst thou find this darke sequester'd</seg>
+        </note>
+        <note target="A07555-012-a-0250">
+          <label>c3cpb-012-a-0250</label>
+          <sic>h●re</sic>
+          <seg>masters heire , and his next joy I came not</seg>
+          <corr>here</corr>
+          <seg>on such a triviall toy As a strayd Ewe ,</seg>
+        </note>
+        <note target="A07555-012-a-0710">
+          <label>c3cpb-012-a-0710</label>
+          <sic>〈◊〉</sic>
+          <seg>my errand , and the care it brought . But</seg>
+          <corr>o</corr>
+          <seg>my virgin Ladie where is she , How chance</seg>
+        </note>
+        <note target="A07555-012-a-1560">
+          <label>c3cpb-012-a-1560</label>
+          <sic>Po●s</sic>
+          <seg>esteem'd by shallow ignorance ) What the sage</seg>
+          <corr>Poets</corr>
+          <seg>taught by th'heav'nly Muse Storied of old</seg>
+        </note>
+        <note target="A07555-012-a-1610">
+          <label>c3cpb-012-a-1610</label>
+          <sic>S●oried</sic>
+          <seg>the sage Poets taught by th'heav'nly Muse</seg>
+          <corr>Storied</corr>
+          <seg>of old in high immortall verse Of dire Chimera's</seg>
+        </note>
+        <note target="A07555-012-a-1670">
+          <label>c3cpb-012-a-1670</label>
+          <sic>verfe</sic>
+          <seg>th'heav'nly Muse Storied of old in high immortall</seg>
+          <corr>verse</corr>
+          <seg>Of dire Chimera's and inchanted Iles And</seg>
+        </note>
+        <note target="A07555-012-a-1830">
+          <label>c3cpb-012-a-1830</label>
+          <sic>〈◊〉</sic>
+          <seg>rifted rocks whose entrance leads to hell ,</seg>
+          <corr>To</corr>
+          <seg>such there be , but unbeliefe is blind .</seg>
+        </note>
+        <note target="A07555-012-a-2080">
+          <label>c3cpb-012-a-2080</label>
+          <sic>●acchus</sic>
+          <seg>Immur'd in cypresse shades a Sorcerer dwells Of</seg>
+          <corr>Bacchus</corr>
+          <seg>, and of Circe borne , great Comus , Deepe</seg>
+        </note>
+        <note target="A07555-012-a-2120">
+          <label>c3cpb-012-a-2120</label>
+          <sic>Ciree</sic>
+          <seg>shades a Sorcerer dwells Of Bacchus , and of</seg>
+          <corr>Circe</corr>
+          <seg>borne , great Comus , Deepe skill'd in all</seg>
+        </note>
+        <note target="A07555-012-a-2640">
+          <label>c3cpb-012-a-2640</label>
+          <sic>in●ead</sic>
+          <seg>the inglorious likenesse of a beast Fixes</seg>
+          <corr>instead</corr>
+          <seg>, unmoulding reasons mintage Character'd</seg>
+        </note>
+        <note target="A07555-012-a-2800">
+          <label>c3cpb-012-a-2800</label>
+          <sic>flock●</sic>
+          <seg>the face ; this have I learn't Tending my</seg>
+          <corr>flocks</corr>
+          <seg>h●rd by i'th hilly crofts That brow this</seg>
+        </note>
+        <note target="A07555-013-a-0900">
+          <label>c3cpb-013-a-0900</label>
+          <sic>p●aevent</sic>
+          <seg>had met Alreadie , ere my best speed could</seg>
+          <corr>praevent</corr>
+          <seg>The aidlesse innocent Ladie his wish't prey</seg>
+        </note>
+        <note target="A07555-013-a-0990">
+          <label>c3cpb-013-a-0990</label>
+          <sic>W●o</sic>
+          <seg>aidlesse innocent Ladie his wish't prey ,</seg>
+          <corr>Who</corr>
+          <seg>gently ask't if he had seene such two Supposing</seg>
+        </note>
+        <note target="A07555-013-a-1050">
+          <label>c3cpb-013-a-1050</label>
+          <sic>s●ene</sic>
+          <seg>wish't prey , Who gently ask't if he had</seg>
+          <corr>seene</corr>
+          <seg>such two Supposing him some neighbour villager</seg>
+        </note>
+        <note target="A07555-013-a-1360">
+          <label>c3cpb-013-a-1360</label>
+          <sic>〈◊〉</sic>
+          <seg>two she mean't , with that I sprung Into</seg>
+          <corr>swift</corr>
+          <seg>flight till I had found you here , But farther</seg>
+        </note>
+        <note target="A07555-013-a-1670">
+          <label>c3cpb-013-a-1670</label>
+          <sic>Ag●inst</sic>
+          <seg>How are yee joyn'd with hell in triple knot</seg>
+          <corr>Against</corr>
+          <seg>th'unarmed weaknesse of one virgin Alone</seg>
+        </note>
+        <note target="A07555-013-a-2180">
+          <label>c3cpb-013-a-2180</label>
+          <sic>〈◊〉</sic>
+          <seg>me ; against the threats Of malice or of</seg>
+          <corr>sorcerie</corr>
+          <seg>, or that power Which erring men call Chance</seg>
+        </note>
+        <note target="A07555-013-a-2570">
+          <label>c3cpb-013-a-2570</label>
+          <sic>meantmost</sic>
+          <seg>enthrall'd , Yea even that which mischiefe</seg>
+          <corr>meant most</corr>
+          <seg>harme , Shall in the happie triall</seg>
+        </note>
+        <note target="A07555-013-a-2710">
+          <label>c3cpb-013-a-2710</label>
+          <sic>〈◊〉</sic>
+          <seg>the happie triall prove most glorie . But</seg>
+          <corr>evill</corr>
+          <seg>on it selfe shall backe recoyle And mixe</seg>
+        </note>
+        <note target="A07555-013-a-2770">
+          <label>c3cpb-013-a-2770</label>
+          <sic>An</sic>
+          <seg>But evill on it selfe shall backe recoyle</seg>
+          <corr>And</corr>
+          <seg>mixe no more with goodnesse , when at last</seg>
+        </note>
+        <note target="A07555-013-a-2780">
+          <label>c3cpb-013-a-2780</label>
+          <sic>〈◊〉</sic>
+          <seg>evill on it selfe shall backe recoyle And</seg>
+          <corr>mixe</corr>
+          <seg>no more with goodnesse , when at last Gather'd</seg>
+        </note>
+        <note target="A07555-013-a-2890">
+          <label>c3cpb-013-a-2890</label>
+          <sic>se●m</sic>
+          <seg>with goodnesse , when at last Gather'd like</seg>
+          <corr>scum</corr>
+          <seg>, and setl'd to it selfe It shall bee in</seg>
+        </note>
+        <note target="A07555-013-b-0220">
+          <label>c3cpb-013-b-0220</label>
+          <sic>rottenness●</sic>
+          <seg>, if this faile The pillar'd firmament is</seg>
+          <corr>rottenesse</corr>
+          <seg>, And earths base built on stubble . But</seg>
+        </note>
+        <note target="A07555-013-b-1690">
+          <label>c3cpb-013-b-1690</label>
+          <sic>ca●</sic>
+          <seg>of hellish charms , He with his bare wand</seg>
+          <corr>can</corr>
+          <seg>u●thred thy joynts And crumble all thy sinewes</seg>
+        </note>
+        <note target="A07555-013-b-1870">
+          <label>c3cpb-013-b-1870</label>
+          <sic>thouthen</sic>
+          <seg>Why prethee shepheard How durst</seg>
+          <corr>thou then</corr>
+          <seg>thy selfe approach so neere As to make</seg>
+        </note>
+        <note target="A07555-013-b-1970">
+          <label>c3cpb-013-b-1970</label>
+          <sic>relatio●</sic>
+          <seg>thy selfe approach so neere As to make this</seg>
+          <corr>relation</corr>
+          <seg>?</seg>
+        </note>
+        <note target="A07555-013-b-2070">
+          <label>c3cpb-013-b-2070</label>
+          <sic>s●cure</sic>
+          <seg>Care and utmost shifts How to</seg>
+          <corr>secure</corr>
+          <seg>the Ladie from surprisall Brought to my</seg>
+        </note>
+        <note target="A07555-013-b-2320">
+          <label>c3cpb-013-b-2320</label>
+          <sic>●tuous</sic>
+          <seg>regard to see to , yet well skill'd In every</seg>
+          <corr>vertuous</corr>
+          <seg>plant , and healing herbe That spreds her</seg>
+        </note>
+        <note target="A07555-013-b-2430">
+          <label>c3cpb-013-b-2430</label>
+          <sic>t●th</sic>
+          <seg>healing herbe That spreds her verdant lease</seg>
+          <corr>toth'</corr>
+          <seg>morning ray , He lov'd me well , and oft</seg>
+        </note>
+        <note target="A07555-014-a-0400">
+          <label>c3cpb-014-a-0400</label>
+          <sic>〈◊〉</sic>
+          <seg>faculties , Amongst the rest a small unsightly</seg>
+          <corr>root</corr>
+          <seg>, But of divine effect , he 〈◊〉 me out ;</seg>
+        </note>
+        <note target="A07555-014-a-0660">
+          <label>c3cpb-014-a-0660</label>
+          <sic>Coun●</sic>
+          <seg>, and had prickles on it , But in another</seg>
+          <corr>Countrie</corr>
+          <seg>, as be said , Bore a bright golden flowre</seg>
+        </note>
+        <note target="A07555-014-a-0760">
+          <label>c3cpb-014-a-0760</label>
+          <sic>flow●e</sic>
+          <seg>Countrie , as be said , Bore a bright golden</seg>
+          <corr>flowre</corr>
+          <seg>, but not in this soyle : Vnknowne , and</seg>
+        </note>
+        <note target="A07555-014-a-1010">
+          <label>c3cpb-014-a-1010</label>
+          <sic>s●oone</sic>
+          <seg>swayne Treads on it dayly with his cloured</seg>
+          <corr>shoone</corr>
+          <seg>, And yet more med'cinall is it then that</seg>
+        </note>
+        <note target="A07555-014-a-1060">
+          <label>c3cpb-014-a-1060</label>
+          <sic>med ' cinall</sic>
+          <seg>dayly with his cloured shoone , And yet more</seg>
+          <corr>med'cinall</corr>
+          <seg>is it then that Moby That Hermes once to</seg>
+        </note>
+        <note target="A07555-014-a-1170">
+          <label>c3cpb-014-a-1170</label>
+          <sic>Vl●sses</sic>
+          <seg>it then that Moby That Hermes once to wise</seg>
+          <corr>Vlysses</corr>
+          <seg>gave , He call'd it Haemony , and gave it</seg>
+        </note>
+        <note target="A07555-014-a-2300">
+          <label>c3cpb-014-a-2300</label>
+          <sic>da●tlesse</sic>
+          <seg>necromancers hall , Where if he be , with</seg>
+          <corr>dauntlesse</corr>
+          <seg>hardihood And brandish't blade rush on him</seg>
+        </note>
+        <note target="A07555-014-a-2540">
+          <label>c3cpb-014-a-2540</label>
+          <sic>wa●d</sic>
+          <seg>lushious liquor on the ground But sease his</seg>
+          <corr>wand</corr>
+          <seg>, though he and his curst crew Feirce signe</seg>
+        </note>
+        <note target="A07555-014-a-2650">
+          <label>c3cpb-014-a-2650</label>
+          <sic>b●aile</sic>
+          <seg>though he and his curst crew Feirce signe of</seg>
+          <corr>battaile</corr>
+          <seg>make , and menace high , Or like the sons</seg>
+        </note>
+        <note target="A07555-014-a-2690">
+          <label>c3cpb-014-a-2690</label>
+          <sic>m●ace</sic>
+          <seg>crew Feirce signe of battaile make , and</seg>
+          <corr>menace</corr>
+          <seg>high , Or like the sons of Vulcan vomit</seg>
+        </note>
+        <note target="A07555-014-a-2770">
+          <label>c3cpb-014-a-2770</label>
+          <sic>V●lcan</sic>
+          <seg>make , and menace high , Or like the sons of</seg>
+          <corr>Vulcan</corr>
+          <seg>vomit smoake , Yet will they soone retire</seg>
+        </note>
+        <note target="A07555-014-b-0090">
+          <label>c3cpb-014-b-0090</label>
+          <sic>●ollow</sic>
+          <seg>Thyrsis lead on apace Ile</seg>
+          <corr>follow</corr>
+          <seg>thee , And some good angell beare a sheild</seg>
+        </note>
+        <note target="A07555-014-b-0240">
+          <label>c3cpb-014-b-0240</label>
+          <sic>Cha●ges</sic>
+          <seg>The Scene</seg>
+          <corr>Changes</corr>
+          <seg>to a stately palace set out with all manner</seg>
+        </note>
+        <note target="A07555-014-b-0290">
+          <label>c3cpb-014-b-0290</label>
+          <sic>so●</sic>
+          <seg>The Scene Changes to a stately palace</seg>
+          <corr>set</corr>
+          <seg>out with all manner of detict● sno●e , soft</seg>
+        </note>
+        <note target="A07555-014-b-0390">
+          <label>c3cpb-014-b-0390</label>
+          <sic>●sicke</sic>
+          <seg>out with all manner of detict● sno●e , soft</seg>
+          <corr>musicke</corr>
+          <seg>, tables spred with all dainties . Comus</seg>
+        </note>
+        <note target="A07555-014-b-0470">
+          <label>c3cpb-014-b-0470</label>
+          <sic>Co●s</sic>
+          <seg>musicke , tables spred with all dainties .</seg>
+          <corr>Comus</corr>
+          <seg>appears with his rabble , and the Ladie</seg>
+        </note>
+        <note target="A07555-014-b-0480">
+          <label>c3cpb-014-b-0480</label>
+          <sic>app●s</sic>
+          <seg>, tables spred with all dainties . Comus</seg>
+          <corr>appears</corr>
+          <seg>with his rabble , and the Ladie set in an</seg>
+        </note>
+        <note target="A07555-014-b-0510">
+          <label>c3cpb-014-b-0510</label>
+          <sic>vabble</sic>
+          <seg>with all dainties . Comus appears with his</seg>
+          <corr>rabble</corr>
+          <seg>, and the Ladie set in an inchanted chaire</seg>
+        </note>
+        <note target="A07555-014-b-0590">
+          <label>c3cpb-014-b-0590</label>
+          <sic>inch●</sic>
+          <seg>with his rabble , and the Ladie set in an</seg>
+          <corr>inchanted</corr>
+          <seg>chaire to whom he offers his glasse , which</seg>
+        </note>
+        <note target="A07555-014-b-1040">
+          <label>c3cpb-014-b-1040</label>
+          <sic>statre</sic>
+          <seg>all chain'd up in alablaster , And you a</seg>
+          <corr>statue</corr>
+          <seg>; or as Daphne was Root bound that fled</seg>
+        </note>
+        <note target="A07555-014-b-1080">
+          <label>c3cpb-014-b-1080</label>
+          <sic>Dap●</sic>
+          <seg>in alablaster , And you a statue ; or as</seg>
+          <corr>Daphne</corr>
+          <seg>was Root bound that fled Apollo .</seg>
+        </note>
+        <note target="A07555-014-b-1180">
+          <label>c3cpb-014-b-1180</label>
+          <sic>Foo'e</sic>
+          <seg/>
+          <corr>Foole</corr>
+          <seg>doe not boast , Thou canst not touch the</seg>
+        </note>
+        <note target="A07555-014-b-1240">
+          <label>c3cpb-014-b-1240</label>
+          <sic>〈◊〉</sic>
+          <seg>Foole doe not boast , Thou</seg>
+          <corr>canst</corr>
+          <seg>not touch the freedome of my mind Withall</seg>
+        </note>
+        <note target="A07555-014-b-1320">
+          <label>c3cpb-014-b-1320</label>
+          <sic>Withall</sic>
+          <seg>Thou canst not touch the freedome of my mind</seg>
+          <corr>With all</corr>
+          <seg>thy charms , although this corporall rind</seg>
+        </note>
+        <note target="A07555-014-b-1420">
+          <label>c3cpb-014-b-1420</label>
+          <sic>〈◊〉</sic>
+          <seg>, although this corporall rind Thou hast</seg>
+          <corr>immanacl'd</corr>
+          <seg>, while heav'n sees good .</seg>
+        </note>
+        <note target="A07555-014-b-1450">
+          <label>c3cpb-014-b-1450</label>
+          <sic>●eav'n</sic>
+          <seg>corporall rind Thou hast immanacl'd , while</seg>
+          <corr>heav'n</corr>
+          <seg>sees good .</seg>
+        </note>
+        <note target="A07555-014-b-1540">
+          <label>c3cpb-014-b-1540</label>
+          <sic>ve●t</sic>
+          <seg>Why are you</seg>
+          <corr>vext</corr>
+          <seg>Ladie , why doe you frowne ? Here dwell</seg>
+        </note>
+        <note target="A07555-014-b-1600">
+          <label>c3cpb-014-b-1600</label>
+          <sic>frow●</sic>
+          <seg>Why are you vext Ladie , why doe you</seg>
+          <corr>frowne?</corr>
+          <seg>? Here dwell no frowns , nor anger , from</seg>
+        </note>
+        <note target="A07555-014-b-1740">
+          <label>c3cpb-014-b-1740</label>
+          <sic>●ies</sic>
+          <seg>frowns , nor anger , from these gates Sorrow</seg>
+          <corr>flies</corr>
+          <seg>farre : see here be all the pleasurs That</seg>
+        </note>
+        <note target="A07555-014-b-2110">
+          <label>c3cpb-014-b-2110</label>
+          <sic>thi●</sic>
+          <seg>buds in primrose season . And first behold</seg>
+          <corr>this</corr>
+          <seg>cordial julep here That flames , and dances</seg>
+        </note>
+        <note target="A07555-014-b-2130">
+          <label>c3cpb-014-b-2130</label>
+          <sic>●ulep</sic>
+          <seg>primrose season . And first behold this cordial</seg>
+          <corr>julep</corr>
+          <seg>here That flames , and dances in his crystall</seg>
+        </note>
+        <note target="A07555-014-b-2270">
+          <label>c3cpb-014-b-2270</label>
+          <sic>bal●e</sic>
+          <seg>dances in his crystall bounds With spirits of</seg>
+          <corr>balme</corr>
+          <seg>, and fragrant syrops mixt . Not that Nepenthes</seg>
+        </note>
+        <note target="A07555-014-b-2480">
+          <label>c3cpb-014-b-2480</label>
+          <sic>He●</sic>
+          <seg>wife of Tho● In Aegypt gave to love borne</seg>
+          <corr>Helena</corr>
+          <seg>Is of such power to stirre up joy as this</seg>
+        </note>
+        <note target="A07555-014-b-2540">
+          <label>c3cpb-014-b-2540</label>
+          <sic>〈◊〉</sic>
+          <seg>to love borne Helena Is of such power to</seg>
+          <corr>stirre</corr>
+          <seg>up joy as this , To life so friendly , or</seg>
+        </note>
+        <note target="A07555-014-b-2610">
+          <label>c3cpb-014-b-2610</label>
+          <sic>li●e</sic>
+          <seg>such power to stirre up joy as this , To</seg>
+          <corr>life</corr>
+          <seg>so friendly , or so coole to thirst . Why</seg>
+        </note>
+        <note target="A07555-015-a-0040">
+          <label>c3cpb-015-a-0040</label>
+          <sic>dain●</sic>
+          <seg>be so cruell to your selfe , And to those</seg>
+          <corr>daintie</corr>
+          <seg>limms which nature lent For gentle usage</seg>
+        </note>
+        <note target="A07555-015-a-0050">
+          <label>c3cpb-015-a-0050</label>
+          <sic>li●ms</sic>
+          <seg>cruell to your selfe , And to those daintie</seg>
+          <corr>limms</corr>
+          <seg>which nature lent For gentle usage , and</seg>
+        </note>
+        <note target="A07555-015-a-0270">
+          <label>c3cpb-015-a-0270</label>
+          <sic>har●hly</sic>
+          <seg>you invert the cov'nants of her trust , And</seg>
+          <corr>harshly</corr>
+          <seg>deale like an ill borrower With that which</seg>
+        </note>
+        <note target="A07555-015-a-0440">
+          <label>c3cpb-015-a-0440</label>
+          <sic>u●exempt</sic>
+          <seg>you receiv'd on other termes , Scorning the</seg>
+          <corr>unexempt</corr>
+          <seg>condition , By which all mortall frailty</seg>
+        </note>
+        <note target="A07555-016-a-2610">
+          <label>c3cpb-016-a-2610</label>
+          <sic>An●she</sic>
+          <seg>dispenc't In unsuperfluous even proportion ,</seg>
+          <corr>And she</corr>
+          <seg>no whit encomber'd with her store ,</seg>
+        </note>
+        <note target="A07555-016-b-0120">
+          <label>c3cpb-016-b-0120</label>
+          <sic>pr●se</sic>
+          <seg>the giver would be better thank't , ' His</seg>
+          <corr>praise</corr>
+          <seg>due paid , for swinish gluttony Ne're looks</seg>
+        </note>
+        <note target="A07555-016-b-0600">
+          <label>c3cpb-016-b-0600</label>
+          <sic>re●</sic>
+          <seg>him that dares Arme his profane tongue with</seg>
+          <corr>reproachfull</corr>
+          <seg>words Against the Sun-clad power of Chastitie</seg>
+        </note>
+        <note target="A07555-016-b-2380">
+          <label>c3cpb-016-b-2380</label>
+          <sic>t●ough</sic>
+          <seg>words set off by some superior power ; And</seg>
+          <corr>though</corr>
+          <seg>not mortall , yet a cold shuddring dew Dips</seg>
+        </note>
+        <note target="A07555-016-b-2490">
+          <label>c3cpb-016-b-2490</label>
+          <sic>allo●e</sic>
+          <seg>mortall , yet a cold shuddring dew Dips me</seg>
+          <corr>all ore</corr>
+          <seg>, as when the wrath of Iove Speaks thunder</seg>
+        </note>
+        <note target="A07555-016-b-2690">
+          <label>c3cpb-016-b-2690</label>
+          <sic>Scturns</sic>
+          <seg>thunder , and the chaines of Erebus To some of</seg>
+          <corr>Saturns</corr>
+          <seg>crew . I must dissemble , And try her yet</seg>
+        </note>
+        <note target="A07555-017-b-0310">
+          <label>c3cpb-017-b-0310</label>
+          <sic>reatd</sic>
+          <seg>aged Nereus hall Who piteous of her woes</seg>
+          <corr>reard</corr>
+          <seg>her lanke head , And gave her to his daughters</seg>
+        </note>
+        <note target="A07555-017-b-1160">
+          <label>c3cpb-017-b-1160</label>
+          <sic>〈◊〉</sic>
+          <seg>signes That the shrewd medling elfe delights</seg>
+          <corr>so</corr>
+          <seg>make , Which she with precious viold liquors</seg>
+        </note>
+        <note target="A07555-018-a-0320">
+          <label>c3cpb-018-a-0320</label>
+          <sic>Ocea●us</sic>
+          <seg>Listen and appeare to us In name of great</seg>
+          <corr>Oceanus</corr>
+          <seg>, By th earth sha●ng Neptun's mace And Tethys</seg>
+        </note>
+        <note target="A07555-018-a-0480">
+          <label>c3cpb-018-a-0480</label>
+          <sic>N●reus</sic>
+          <seg>Tethys grave majesticke pace , By hoarie</seg>
+          <corr>Nereus</corr>
+          <seg>wrincled looke , And the Carpathian wisards</seg>
+        </note>
+        <note target="A07555-018-a-0540">
+          <label>c3cpb-018-a-0540</label>
+          <sic>Carpath●</sic>
+          <seg>By hoarie Nereus wrincled looke , And the</seg>
+          <corr>Carpathian</corr>
+          <seg>wisards hooke , By 〈◊〉 winding shell . And</seg>
+        </note>
+        <note target="A07555-018-a-0600">
+          <label>c3cpb-018-a-0600</label>
+          <sic>win●ing</sic>
+          <seg>And the Carpathian wisards hooke , By 〈◊〉</seg>
+          <corr>winding</corr>
+          <seg>shell . And old sooth saying Clau● spell</seg>
+        </note>
+        <note target="A07555-018-a-1300">
+          <label>c3cpb-018-a-1300</label>
+          <sic>w●lie</sic>
+          <seg>that nightly dance Vpon thy streams with</seg>
+          <corr>wilie</corr>
+          <seg>glance , Rise , rise and heave thy rosie</seg>
+        </note>
+        <note target="A07555-018-b-0090">
+          <label>c3cpb-018-b-0090</label>
+          <sic>sheen●</sic>
+          <seg>stayes , Thicke set with agat , and the azurne</seg>
+          <corr>sheene</corr>
+          <seg>Of turkkis blew , and ●rould greene That</seg>
+        </note>
+        <note target="A07555-018-b-0690">
+          <label>c3cpb-018-b-0690</label>
+          <sic>charm●d</sic>
+          <seg>Wee implore thy powerfull hand To undoe the</seg>
+          <corr>charmed</corr>
+          <seg>band Of true virgin here distrest , Through</seg>
+        </note>
+        <note target="A07555-019-b-1360">
+          <label>c3cpb-019-b-1360</label>
+          <sic>mineing</sic>
+          <seg>guise As Mercury did first devise With the</seg>
+          <corr>mincing</corr>
+          <seg>Dryades On the lawns , and on the leas .</seg>
+        </note>
+        <note target="A07555-020-a-0030">
+          <label>c3cpb-020-a-0030</label>
+          <sic>th●m</sic>
+          <seg>their patience , and their truth , And sent</seg>
+          <corr>them</corr>
+          <seg>here through hard assays With a crowne of</seg>
+        </note>
+        <note target="A07555-020-a-0160">
+          <label>c3cpb-020-a-0160</label>
+          <sic>●riumph</sic>
+          <seg>assays With a crowne of deathlesse Praise , To</seg>
+          <corr>triumph</corr>
+          <seg>in victorious dance Ore sensuall Folly ,</seg>
+        </note>
+        <note target="A07555-020-a-1680">
+          <label>c3cpb-020-a-1680</label>
+          <sic>Elysinn</sic>
+          <seg>purfl'd scarfe can shew , And drenches with</seg>
+          <corr>Elysium</corr>
+          <seg>dew ( List mortalls , if your eares be true</seg>
+        </note>
+        <note target="A07555-020-b-0030">
+          <label>c3cpb-020-b-0030</label>
+          <sic>th●Assyrian</sic>
+          <seg>slumber soft , and on the ground Sadly sits</seg>
+          <corr>th'Assyrian</corr>
+          <seg>Queene ; But farre above in spangled sheene</seg>
+        </note>
+        <note target="A07555-020-b-0400">
+          <label>c3cpb-020-b-0400</label>
+          <sic>aeternal●</sic>
+          <seg>free consent the gods among Make her his</seg>
+          <corr>aeternall</corr>
+          <seg>Bride , And from her faire unspotted side</seg>
+        </note>
+        <note target="A07555-020-b-1650">
+          <label>c3cpb-020-b-1650</label>
+          <sic>EG●RTON</sic>
+          <seg>Mr. THOMAS</seg>
+          <corr>EGERTON</corr>
+          <seg>,</seg>
+        </note>
+      </div>
+    </back>
+  </text>
+</TEI>
