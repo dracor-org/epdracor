@@ -1,2 +1,3 @@
-# engdracor
-English Drama Corpus
+# EPDraCor
+
+EarlyPrint Drama Corpus

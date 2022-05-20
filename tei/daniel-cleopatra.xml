@@ -1,0 +1,2688 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cleopatra</title>
+        <author>
+<!--Daniel, Samuel-->
+          <persName>
+            <forename>Samuel</forename>
+            <surname>Daniel</surname>
+          </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">ep000360</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>EarlyPrint Project</name>
+          <idno type="URL">https://earlyprint.org</idno>
+          <availability>
+            <licence target="A19816-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+          </availability>
+          <bibl type="originalSource">
+            <biblFull n="TCP source">
+              <titleStmt>
+                <title type="_245">Delia and Rosamond augmented. Cleopatra by Samuel Daniel.</title>
+                <author>Daniel, Samuel, 1562-1619.</author>
+              </titleStmt>
+              <extent>100 600dpi TIFF G4 page images</extent>
+              <publicationStmt>
+                <publisher>University of Michigan, Digital Library Production Service</publisher>
+                <pubPlace>Ann Arbor, Michigan</pubPlace>
+                <date>2003 January (TCP phase 1)</date>
+                <idno type="marc">99840902</idno>
+                <idno type="stc">STC (2nd ed.) 6243.4.</idno>
+                <idno type="stc">Greg, I, 132(a).</idno>
+                <idno type="vid">5446</idno>
+                <idno type="DLPS">A19816</idno>
+                <idno type="PROQUESTGOID">2240863040</idno>
+                <availability>
+                  <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+                </availability>
+              </publicationStmt>
+            </biblFull>
+            <biblFull n="printed source">
+              <titleStmt>
+                <title type="_245">Delia and Rosamond augmented. Cleopatra by Samuel Daniel.</title>
+                <title type="alt">Delia</title>
+                <title type="alt">Delia</title>
+                <title type="alt">Complaynt of Rosamond.</title>
+                <title type="alt">Tragedie of Cleopatra.</title>
+                <author>Daniel, Samuel, 1562-1619.</author>
+              </titleStmt>
+              <extent>[196] p.</extent>
+              <publicationStmt>
+                <publisher>[By James Roberts and Edward Allde] for Simon Waterson, and are to be sold in Paules Church-yarde at the signe of the Crowne,</publisher>
+                <pubPlace>1594. Printed at London :</pubPlace>
+                <date type="publication_date">[1594]</date>
+                <date type="creation_date">1594</date>
+              </publicationStmt>
+              <notesStmt>
+                <note>
+                  <p>An expanded edition of "Delia".</p>
+                </note>
+                <note>
+                  <p>In verse.</p>
+                </note>
+                <note>
+                  <p>Printers' names from colophon.</p>
+                </note>
+                <note>
+                  <p>Signatures: A2 B-N.</p>
+                </note>
+                <note>
+                  <p>"The complaynt of Rosamond" and "The tragedie of Cleopatra" have separate divisional title pages, the second dated; register is continuous.</p>
+                </note>
+                <note>
+                  <p>Identified as STC 6254 on UMI microfilm.</p>
+                </note>
+                <note>
+                  <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+                </note>
+              </notesStmt>
+            </biblFull>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" when="1594">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="eng">
+    <front>
+      <div type="title_page" xml:id="A19816-e100030" xml:lang="lat-hi">
+        <pb type="blank" xml:id="A19816-054-a"/>
+        <pb xml:id="A19816-054-b"/>
+        <p>THE Tragedie of Cleopatra. </p>
+        <p>AEtas prima canat veneres postrema tumultus. </p>
+        <p>1594. </p>
+      </div>
+      <div type="dedication" xml:id="A19816-e100070">
+        <pb type="blank" xml:id="A19816-055-a"/>
+        <pb xml:id="A19816-055-b"/>
+        <head>To the Right Honourable, the Lady Marie, Countesse of PEMBROOKE. </head>
+        <lg>
+          <l>LOE heere the worke the which she did impose, </l>
+          <l>Who onely doth predominate my Muse: </l>
+          <l>The starre of wonder, which my labours chose </l>
+          <l>To guide their way in all the course I vse. </l>
+          <l>Shee, whose cleere brightnes doth alone infuse </l>
+          <l>Strength to my thoughts, and makes mee what I am, </l>
+          <l>Call'd vp my spirits from out their low repose, </l>
+          <l>To sing of state, and tragick notes to frame. </l>
+        </lg>
+        <lg>
+          <l>I, who (contented with an humble song.) </l>
+          <l>Made musique to my selfe that pleas'd mee best, </l>
+          <l>And onely told of DELIA, and her wrong, </l>
+          <l>And prais'd her eyes, and plain'd mine owne vnrest: </l>
+          <l>(A text from whence my Muse had not degrest.) </l>
+          <l>Madam, had not thy well grac'd Anthony, </l>
+          <l>(Who all alone hauing remained long,) </l>
+          <l>Requir'd his Cleopatras company. </l>
+        </lg>
+        <lg>
+          <pb xml:id="A19816-056-a"/>
+          <l>Who if shee heere doe so appeare in act, </l>
+          <l>That for his Queene &amp; Loue he scarce wil know her, </l>
+          <l>Finding how much shee of her selfe hath lackt, </l>
+          <l>And mist that glory wherein I should shew her, </l>
+          <l>In maiestie debas'd, in courage lower; </l>
+          <l>Yet lightning thou by thy sweet fauouring eyes, </l>
+          <l>My darke defects which from her sp'rit detract, </l>
+          <l>Hee yet may gesse it's shee; which will suffise. </l>
+        </lg>
+        <lg>
+          <l>And I heereafter, in another kinde, </l>
+          <l>More fitting to the nature of my vaine, </l>
+          <l>May (peraduenture) better please thy minde, </l>
+          <l>And higher notes in sweeter musique straine: </l>
+          <l>Seeing that thou so graciously doost daine. </l>
+          <l>To countenaunce my song and cherish mee. </l>
+          <l>I must so worke posterity may finde </l>
+          <l>How much I did contend to honour thee. </l>
+        </lg>
+        <lg>
+          <l>Now when so many pennes (like Speares) are charg'd, </l>
+          <l>To chace away this tyrant of the North: </l>
+          <l>Gross Barbarism, whose powre growne far inlarg'd, </l>
+          <l>Was lately by thy valiant Brothers worth, </l>
+          <l>First found, encountred, and prouoked forth: </l>
+          <l>Whose onset made the rest audacious, </l>
+          <l>Whereby they likewise haue so well discharg'd, </l>
+          <l>Vpon that hidious Beast incroching thus. </l>
+        </lg>
+        <lg>
+          <pb xml:id="A19816-056-b"/>
+          <l>And now must I with that poore strength I haue, </l>
+          <l>Resist so foule a foe in what I may: </l>
+          <l>And arme against obliuion and the graue, </l>
+          <l>That els in darknes carries all away, </l>
+          <l>And makes of all our honors but a pray. </l>
+          <l>So that if by my penne procure I shall </l>
+          <l>But to defend mee, and my name to saue, </l>
+          <l>Then though I die, I cannot yet die all; </l>
+        </lg>
+        <lg>
+          <l>But still the better part of me will liue, </l>
+          <l>Deckt and adorned with thy sacred name, </l>
+          <l>Although thy selfe dost farre more glory giue </l>
+          <l>Vnto thy selfe, then I can by the same. </l>
+          <l>Who doost with thine owne hand a Bulwarke frame </l>
+          <l>Against these Monsters, (enemies of honour,) </l>
+          <l>Which euer-more shall so defend thy Fame, </l>
+          <l>That Time nor they, shall neuer pray vpon her. </l>
+        </lg>
+        <lg>
+          <l>Those Hymnes that thou doost consecrate to heauen, </l>
+          <l>Which Israels Singer to his God did frame: </l>
+          <l>Vnto thy voyce eternitie hath giuen, </l>
+          <l>And makes thee deere to him from whence they came. </l>
+          <l>In them must rest thy euer reuerent name, </l>
+          <l>So long as Syons GOD remaineth honoured; </l>
+          <l>And till confusion hath all zeale be-reauen, </l>
+          <l>And murthered Fayth, and Temples ruined. </l>
+        </lg>
+        <lg>
+          <pb xml:id="A19816-057-a"/>
+          <l>By this, (Great Lady,) thou must then be knowne, </l>
+          <l>When Wilton lyes low leuel'd with the ground: </l>
+          <l>And this is that which thou maist call thine owne, </l>
+          <l>Which sacriligious time cannot confound; </l>
+          <l>Heere thou suruiu'st thy selfe, heere thou are found </l>
+          <l>Of late succeeding ages, fresh in fame: </l>
+          <l>This Monument cannot be ouer-throwne, </l>
+          <l>Where, in eternall Brasse remaines thy Name. </l>
+        </lg>
+        <lg>
+          <l>O that the Ocean did not bound our stile </l>
+          <l>Within these strict and narrow limmits so: </l>
+          <l>But that the melody of our sweet Ile, </l>
+          <l>Might now be heard to Tyber, Arne, and Po. </l>
+          <l>That they might know how far Thames doth out-go </l>
+          <l>The musique of Declyned Italie: </l>
+          <l>And listning to our songs another while, </l>
+          <l>Might learne of thee, their notes to purifie. </l>
+        </lg>
+        <lg>
+          <l>O why may not some after-comming hand, </l>
+          <l>Vnlock these limits, open our confines: </l>
+          <l>And breake a sunder this imprisoning band, </l>
+          <l>T'inlarge our spirits, and publish our dissignes; </l>
+          <l>Planting our Roses on the Apenines? </l>
+          <l>And teach to Rhene, to Loyre, and Rhodanus, </l>
+          <l>Our accents, and the wonders of our Land, </l>
+          <l>That they might all admire and honour vs. </l>
+        </lg>
+        <lg>
+          <pb xml:id="A19816-057-b"/>
+          <l>Wherby great SYDNEY &amp; our SPENCER might, </l>
+          <l>With those Po-singers beeing equalled, </l>
+          <l>Enchaunt the world with such a sweet delight, </l>
+          <l>That theyr eternall songs (for euer read,) </l>
+          <l>May shew what great ELIZAS raigne hath bred. </l>
+          <l>What musique in the kingdome of her peace. </l>
+          <l>Hath now beene made to her, and by her might, </l>
+          <l>Whereby her glorious fame shall neuer cease. </l>
+        </lg>
+        <lg>
+          <l>But if that Fortune doth deny vs this, </l>
+          <l>Then Neptune, lock vp with thy Ocean key, </l>
+          <l>This treasure to our selues, and let them misse </l>
+          <l>Of so sweet ritches: as vnworthy they </l>
+          <l>To taste the great delights that we inioy. </l>
+          <l>And let our harmony so pleasing growne, </l>
+          <l>Content our selues, whose errour euer is, </l>
+          <l>Strange notes to like, and disesteeme our owne. </l>
+        </lg>
+        <lg>
+          <l>But, whither doe my vowes transport me now, </l>
+          <l>Without the compasse of my course inioynd? </l>
+          <l>Alas, what honour can a voyce so low </l>
+          <l>As this of mine, expect heereby to find? </l>
+          <l>But, (Madam,) this doth animate my mind, </l>
+          <l>That fauored by the Worthyes of our Land, </l>
+          <l>My lynes are lik'd; the which may make me grow, </l>
+          <l>In time to take a greater taske in hand. </l>
+        </lg>
+      </div>
+    </front>
+    <body>
+      <div type="argument" xml:id="A19816-e101350">
+        <pb type="blank" xml:id="A19816-058-a"/>
+        <pb xml:id="A19816-058-b"/>
+        <head>THE ARGVMENT. </head>
+        <p>AFter the death of Antonius, Cleopatra (liuing still in the Monument shee had caused to be built,) could not by any means be drawne forth, although Octauius Caesar verie earnestly laboured it: &amp; sent Proculeius to vse all diligence to bring her vnto him: For that hee though it woulde be a great ornament to his Tryumphes, to get her aliue to Rome. But neuer woulde shee put herselfe into the hands of Proculeius, although on a time he found the meanes, (by a window that was at the top of the Monument,) to come downe vnto her: where hee perswaded her (all hee might) to <pb xml:id="A19816-059-a"/>yeeld herselfe to Caesars mercie. Which shee, (to be ridd of him,) cunningly seemed to grant vnto. After that, Octauius in person went to visite her, to whom shee excus'd her offence, laying all the fault vpon the greatnes, and feare shee had of Antonius, and withall, seemed verie tractable, and willing to be disposed of by him. </p>
+        <p>Where-vpon, Octauius (thinking himselfe sure) resolu'd presently to send her away to Rome. Whereof, Dolabella a fauorite of Caesars, (and one that was grown into some good liking of her,) hauing certified her, shee makes her humble peticion to Caesar, that he would suffer her to sacrifize to the ghost of Antonius: which being granted her, shee was brought vnto his Sepulcher, where after her rites performed, shee returned to the Monument, and there dined, with great magnificence. And in dinner time, came there one in the habite of a Countriman, with a basket of figgs vnto her, who (vnsuspected) was suffered to carry them in. And in that basket (among the figges) were conuaid the Aspicks wherewith shee did herselfe to death. Dinner beeing <pb xml:id="A19816-059-b"/>ended, shee dispatched Letters to Caesar, contayning great lamentations: with an earnest supplication, that shee might be entomb'd with Antonius. Wherevpon, Caesar knowing what shee intended, sent presently with all speed, messengers to haue preuented her death, which notwithstanding, before they came was dispatched. </p>
+        <p>Cesario her sonne, which shee had by Iulius Caesar, (conuaied before vnto India, out of the danger of the warrs,) was about the same time of her death, murthered at Rhodes: trained thether by the falshood of his Tutor, corrupted by Caesar. And so heereby, came the race of the Ptolomies to be wholy extinct, &amp; the florishing ritch Kingdome of Egipt vtterly ouer-throwne and subdued. </p>
+      </div>
+      <div type="dramatis" xml:id="A19816-e101390">
+        <pb xml:id="A19816-060-a"/>
+        <head>The Scaene supposed Alexandria. </head>
+        <list>
+          <head>THE ACTORS. </head>
+          <item>CLEOPATRA. </item>
+          <item>OCTAVIVS </item>
+          <item>CAESAR. </item>
+          <item>PROCVLEIVS. </item>
+          <item>DOLABELLA. </item>
+          <item>TITIVS, seruant to DOLABELLA. </item>
+          <item>
+            <table>
+              <row role="data">
+                <cell cols="1" role="data" rows="1">ARIVS.— </cell>
+                <cell cols="1" role="data" rows="2">two Philosophers. </cell>
+              </row>
+              <row role="data">
+                <cell cols="1" role="data" rows="1">PHILOSTRATVS. </cell>
+              </row>
+            </table>
+          </item>
+          <item>SELEVCVS. Secretary to CLEOPATRA. </item>
+          <item>RODON. Tutor to CAESARIO. </item>
+          <item>NVNTIVS. </item>
+          <item>The CHORVS. all Egiptians. </item>
+        </list>
+      </div>
+      <div type="act" xml:id="A19816-e101550">
+        <pb xml:id="A19816-060-b"/>
+        <head>ACTVS PRIMVS. </head>
+        <list>
+          <item>CLEOPATRA. </item>
+        </list>
+        <sp who="A19816-A19816" xml:id="A19816-e101580">
+          <l>YET doe I liue, and yet doth breath possesse </l>
+          <l>This hatefull prison of a loathsome soule: </l>
+          <l>Can no calamitie, nor no distresse </l>
+          <l>Breake hart and all, and end a life so soule? </l>
+          <l>Can Cleopatra liue, and with these eyes </l>
+          <l>Behold the deerest of her life bereft her? </l>
+          <l>Ah, can shee entertaine the least surmise </l>
+          <l>Of any hope, that hath but horror left her? </l>
+          <l>Why should I linger longer griefes to try? </l>
+          <l>These eyes that sawe what honor earth could giue mee, </l>
+          <l>Doe now behold the worst of misery: </l>
+          <l>The greatest wrack wherto Fortune could driue mee </l>
+          <l>Hee on whose shoulders all my rest relyde, </l>
+          <l>On whom the burthen of my ambition lay: </l>
+          <pb xml:id="A19816-061-a"/>
+          <l>The Atlas and the Champion of my pride, </l>
+          <l>That did the world of my whole fortune sway; </l>
+          <l>Lyes falne, confounded, dead in shame and dolors, </l>
+          <l>Following th'vnlucky party of my loue. </l>
+          <l>Th' Ensigne of mine eyes, th'vnhappy collours, </l>
+          <l>That him to mischiefe, mee to ruine droue. </l>
+          <l>And now the modell made of misery, </l>
+          <l>Scorne to the world, borne but for Fortunes foile, </l>
+          <l>My lusts haue fram'd a Tombe for mee to lie, </l>
+          <l>Euen in the ashes of my Countries spoyle. </l>
+          <l>Ah, who would think that I were shee who late, </l>
+          <l>Clad with the glory of the worlds chiefe ritches, </l>
+          <l>Admir'd of all the earth, and wondred at, </l>
+          <l>Glittring in pompe that hart and eye bewitches: </l>
+          <l>Should thus distress'd, cast down from of that heigth </l>
+          <l>Leuell'd with low disgrac'd calamitie, </l>
+          <l>Vnder the waight of such affliction sigh, </l>
+          <l>Reduc'd vnto th'extreamest misery. </l>
+          <l>Am I the woman, whose inuentiue pride, </l>
+          <l>(Adorn'd like Isis,) scornd mortalitie? </l>
+          <l>Ist I that left my sence so without guide, </l>
+          <l>That flattery would not let him know twas I? </l>
+          <l>Ah, now I see, they scarce tell truth, that praise vs, </l>
+          <l>Crownes are beguild, prosperity betraies vs. </l>
+          <pb xml:id="A19816-061-b"/>
+          <l>What is become of all that statelie traine, </l>
+          <l>Those troopes that wont attend prosperitie? </l>
+          <l>See what is left, what number doth remaine, </l>
+          <l>A tombe, two maydes, and miserable I. </l>
+          <l>And I t'adorne their tryumphes, am reseru'd </l>
+          <l>A captiue kept to beautifie their spoyles: </l>
+          <l>Whom Caesar labours, so to haue preseru'd, </l>
+          <l>And seekes to entertaine my life with wiles. </l>
+          <l>No Caesar no, it is not thou canst doe it. </l>
+          <l>Promise, flatter, threaten extreamitie, </l>
+          <l>Imploy thy wits, and all thy force vnto it, </l>
+          <l>I haue both hands, and will, and I can die. </l>
+          <l>Though thou of Country, kingdom, &amp; my Crowne, </l>
+          <l>Though thou of all my glory dost bereaue me, </l>
+          <l>Though thou hast all my Egipt as thine owne, </l>
+          <l>Yet hast thou left me that which will deceiue thee. </l>
+          <l>That courage with my blood and birth innated, </l>
+          <l>Admir'd of all the earth, as thou art now: </l>
+          <l>Cannot by threates be vulgarly abated, </l>
+          <l>To be thy slaue, that rul'd as good as thou. </l>
+          <l>Consider Caesar that I am a Queene, </l>
+          <l>And scorne the basenes of a seruile thought: </l>
+          <l>The world and thou, dost know what I haue beene, </l>
+          <l>And neuer thinke I can be so low brought, </l>
+          <pb xml:id="A19816-062-a"/>
+          <l>The Rome should see my scepter-bearing hands, </l>
+          <l>Behinde mee bounde, and glory in my teares. </l>
+          <l>That I should passe, whereas Octauia stands </l>
+          <l>To view my misery, that purchast hers. </l>
+          <l>No, I disdaine that head that wore a Crowne, </l>
+          <l>Should stoope to take vp that which others giue: </l>
+          <l>I must not be, vnlesse I be mine owne. </l>
+          <l>Tis sweet to die when we are forst to liue. </l>
+          <l>Nor had I troubled now the world thus long, </l>
+          <l>And beene indebted for this little breath, </l>
+          <l>But that I feare, Caesar would offer wrong </l>
+          <l>To my distressed seede after my death. </l>
+          <l>Tis that which dooth my deerest blood controule. </l>
+          <l>Tis that (alas) detaines mee from my Tombe, </l>
+          <l>Whilst Nature brings to contradict my soule, </l>
+          <l>The argument of mine vnhappy wombe. </l>
+          <l>O lucklesse issue of a wofull Mother, </l>
+          <l>Th' vngodly pledges of a wanton bed; </l>
+          <l>You Kings design'd, must now be slaues to other, </l>
+          <l>Or els not bee (I feare) when I am dead. </l>
+          <l>It is for you I temporise with Caesar, </l>
+          <l>And liue this while for to procure your safetie. </l>
+          <l>For you I fayne content, and soothe his pleasure, </l>
+          <l>Calamitie heerein hath made me crafty. </l>
+          <pb xml:id="A19816-062-b"/>
+          <l>But tis not long, Ile see what may be done, </l>
+          <l>And come what will, this stands, I must die free. </l>
+          <l>Ile be my selfe, my thoughts doe rest thereon, </l>
+          <l>Blood, chyldren, nature, all must pardon mee. </l>
+          <l>My soule yeelds honour vp the victory, </l>
+          <l>And I must bee a Queene, forget a mother: </l>
+          <l>Yet mother would I be, were I not I, </l>
+          <l>And Queene would I not now be, were I other. </l>
+          <l>But what know I, if th'heauens haue decreed, </l>
+          <l>And that the sinnes of Egipt haue deseru'd, </l>
+          <l>The Ptolomeyes should faile, and none succeed, </l>
+          <l>And that my weakenes was thereto reseru'd. </l>
+          <l>That I should bring confusion to my state, </l>
+          <l>And fill the measure of iniquitie: </l>
+          <l>Licentiousnes in mee should end her date, </l>
+          <l>Begunne in ill-dispensed libertie. </l>
+          <l>If so it be, and that my heedles waies, </l>
+          <l>Haue this so great a dissolation rais'd, </l>
+          <l>Yet let a glorious end conclude my dayes, </l>
+          <l>Though life were bad, my death may yet be prais'd, </l>
+          <l>That I may write in letters of my blood, </l>
+          <l>A fit memoriall for the times to come: </l>
+          <l>To be example to such Princes good </l>
+          <l>That please themselues, and care not what become. </l>
+          <pb xml:id="A19816-063-a"/>
+          <l>And Anthony, because the world doth know, </l>
+          <l>That my mis-fortune hath procured thine, </l>
+          <l>And my improuidence brought thee folow, </l>
+          <l>To lose thy glory, and to ruine mine: </l>
+          <l>By grapling in the Ocean of our pride, </l>
+          <l>To sinke each others greatnes both together, </l>
+          <l>Both equall shipwrack of our states t'abide, </l>
+          <l>And like destruction to procure to eyther: </l>
+          <l>If I should now (our common faulte) suruiue, </l>
+          <l>Then all the world must hate mee if I doe it, </l>
+          <l>Sith both our errors did occasion giue, </l>
+          <l>And both our faults haue brought vs both vnto it. </l>
+          <l>I beeing first inamour'd with thy greatnes, </l>
+          <l>Thou with my vanity bewitched wholy: </l>
+          <l>And both betrayd with th'outward pleasant sweetnes, </l>
+          <l>The one ambition spoyld, th'other folly. </l>
+          <l>For which, thou hast already duly paid, </l>
+          <l>The statute of thy errors dearest forfeit: </l>
+          <l>Whereby thy gotten credite was decayd, </l>
+          <l>Procur'd thee by thy wanton deadly surfeit. </l>
+          <l>And next is my turne, now to sacrifize </l>
+          <l>To Death, and thee, the life that doth reproue mee, </l>
+          <l>Our like distresse I feele doth sympathize, </l>
+          <l>And euen affliction makes me truly loue thee. </l>
+          <pb xml:id="A19816-063-b"/>
+          <l>Which Anthony, (I must confesse my fault,) </l>
+          <l>I neuer did sincerely vntill now; </l>
+          <l>Now I protest I doe, now am I taught, </l>
+          <l>In death to loue, in life that knew not how. </l>
+          <l>For whilst my glory in that greatnes stood, </l>
+          <l>And that I saw my state, and knew my beauty, </l>
+          <l>Saw how the world admir'd mee, how they woode, </l>
+          <l>I then thought all men, must loue me of dutie, </l>
+          <l>And I loue none: for my lasciuious Courte, </l>
+          <l>(Fertile in euer-fresh and new-choyce pleasure,) </l>
+          <l>Affoorded me so bountiful disport, </l>
+          <l>That I to thinke on loue had neuer leysure. </l>
+          <l>My vagabond desires no limits found, </l>
+          <l>For lust is endlesse, pleasure hath no bound. </l>
+          <l>Thou, comming from the strictnes of thy Citty, </l>
+          <l>The wanton pompe of Courts yet neuer learnedst: </l>
+          <l>Inur'd to wairs, in womans wiles vnwittie, </l>
+          <l>Whilst others fayn'd, thou fell'st to loue in earnest. </l>
+          <l>Not knowing women like them best that houer, </l>
+          <l>And make least reckning of a doting Louer. </l>
+          <l>And yet thou earn'st but in my beauties waine, </l>
+          <l>When new-appearing wrinkles of declining, </l>
+          <l>Wrought with the hand of yeeres, seem'd to detaine </l>
+          <l>My graces light, as now but dimly shining. </l>
+          <pb xml:id="A19816-064-a"/>
+          <l>Euen in the confines of mine age, when I </l>
+          <l>Fayling of what I was, and was but thus: </l>
+          <l>When such as wee, doe deeme in iealosie </l>
+          <l>That men loue for them-selues, and not for vs. </l>
+          <l>Then, and but thus, thou didst loue most sincerely, </l>
+          <l>(O Anthony,) that best deseru'dst it better </l>
+          <l>Thys Autumne of my beauty bought so deerely, </l>
+          <l>For which (in more then death) I stand thy debter. </l>
+          <l>Which I will pay thee with most faithfull zeale, </l>
+          <l>And that ere long, no Caesar shall detaine me; </l>
+          <l>My death, my loue and courage shall reueale, </l>
+          <l>The which is all the world hath left t'vnstaine me. </l>
+          <l>And to the end I may deceiue best, Caesar, </l>
+          <l>Who dooth so eagerly my life importune, </l>
+          <l>I must preuaile mee of this little leisure, </l>
+          <l>Seeming to sute my minde vnto my fortune. </l>
+          <l>Whereby I may the better mee prouide, </l>
+          <l>Of what my death and honor best shall fit: </l>
+          <l>A seeming base content, must warie hide </l>
+          <l>My last disseigne, till I accomplish it. </l>
+          <l>That heereby yet the world shall see that I, </l>
+          <l>Although vnwise to liue, had wit to die. </l>
+          <stage xml:id="A19816-e103390">Exit. </stage>
+        </sp>
+        <div type="chorus" xml:id="A19816-e103400">
+          <pb xml:id="A19816-064-b"/>
+          <head>CHORVS. </head>
+          <lg>
+            <l>BEhold what Furies still </l>
+            <l>Torment their tortur'd brest. </l>
+            <l>Who by their doing ill, </l>
+            <l>Haue wrought the worlds vnrest. </l>
+            <l>Which when being most distrest, </l>
+            <l>Yet more to vexe their sp'rit, </l>
+            <l>The hidious face of sinne, </l>
+            <l>(In formes they most detest) </l>
+            <l>Stands euer in their sight. </l>
+            <l>Their Conscience still within, </l>
+            <l>Theternall larum is, </l>
+            <l>That euer-barking dog that calls vppon theyr miss. </l>
+          </lg>
+          <lg>
+            <l>No meanes at all to hide </l>
+            <l>Man from himselfe can finde: </l>
+            <l>No way to start aside </l>
+            <l>Out from the hell of mind. </l>
+            <l>But in himselfe confin'd, </l>
+            <l>Hee still sees sinne before: </l>
+            <l>And winged-footed paine, </l>
+            <pb xml:id="A19816-065-a"/>
+            <l>That swiftly comes behind, </l>
+            <l>The which is euer more, </l>
+            <l>The sure and certaine gaine </l>
+            <l>Impietie doth get, </l>
+            <l>And wanton loose respect, that dooth it selfe forget. </l>
+          </lg>
+          <lg>
+            <l>And CLEOPATRA now, </l>
+            <l>Well sees the dangerous way </l>
+            <l>Shee tooke, and car'd not bow, </l>
+            <l>Which led her to decay. </l>
+            <l>And likewise makes vs pay </l>
+            <l>For her disordred lust, </l>
+            <l>Th' int'rest of our blood: </l>
+            <l>Or liue a seruile pray, </l>
+            <l>Vnder a band vniust, </l>
+            <l>As others shall thinke good. </l>
+            <l>This hath her riot wonne. </l>
+            <l>And thus shee hath her state, her selfe and vs vndunne. </l>
+          </lg>
+          <lg>
+            <l>Now euery mouth can tell, </l>
+            <l>What close was muttered: </l>
+            <l>How that shee did not well, </l>
+            <l>To take the course shee did. </l>
+            <l>For now is nothing hid, </l>
+            <pb xml:id="A19816-065-b"/>
+            <l>Of what feare did restraine. </l>
+            <l>No secrete closely done, </l>
+            <l>But now is vttered: </l>
+            <l>The text is made most plaine </l>
+            <l>That flattry glos'd vpon, </l>
+            <l>The bed of sinne reueal'd, </l>
+            <l>And all the luxurie that shame would haue concealed. </l>
+          </lg>
+          <lg>
+            <l>The scene is broken downe, </l>
+            <l>And all vncou'red lyes, </l>
+            <l>The purple Actors knowne </l>
+            <l>Scarce men, whom men despise. </l>
+            <l>The complots of the wise, </l>
+            <l>Proue imperfections smoake: </l>
+            <l>And all what wonder gaue </l>
+            <l>To pleasure-gazing eyes, </l>
+            <l>Lyes scattered, dasht, all broke. </l>
+            <l>Thus much beguiled haue </l>
+            <l>Poore vnconsider at wights, </l>
+            <l>These momentary pleasures, fugitiue delights. </l>
+          </lg>
+        </div>
+      </div>
+      <div type="act" xml:id="A19816-e104060">
+        <pb xml:id="A19816-066-a"/>
+        <head>ACTVS SECVNDVS. </head>
+        <list>
+          <item>CAESAR. </item>
+          <item>PROCVLEIVS. </item>
+        </list>
+        <l>KIngdoms I see we winne, we conquere Climates, </l>
+        <l>Yet cannot vanquish harts, nor force obedience, </l>
+        <l>Affections kept in close-concealed limits, </l>
+        <l>Stand farre without the reach of sword or violence. </l>
+        <l>Who forc'd doe pay vs duety, pay not loue: </l>
+        <l>Free is the hart, the temple of the minde, </l>
+        <l>The Sanctuarie sacred from aboue, </l>
+        <l>Where nature keepes the keyes that loose and bind. </l>
+        <l>No mortall hand force open can that doore, </l>
+        <l>So close shut vp, and lockt to all mankind: </l>
+        <l>I see mens bodies onely ours, no more, </l>
+        <l>The rest, anothers right, that rules the minde. </l>
+        <l>Behold, my forces vanquisht haue this Land, </l>
+        <l>Subdu'de that strong Competitor of mine: </l>
+        <l>All Egipt yeelds to my all-conquering hand, </l>
+        <l>And all theyr treasure and themselues resigne. </l>
+        <l>Onely this Queene, that hath lost all this all, </l>
+        <l>To whom is nothing left except a minde: </l>
+        <l>Cannot into a thought of yeelding fall, </l>
+        <pb xml:id="A19816-066-b"/>
+        <l>To be dispos'd as chaunce hath her assign'd. </l>
+        <l>But Proculei, what hope doth shee now giue, </l>
+        <l>Will shee be brought to condiscend to liue? </l>
+        <sp who="A19816-A19816" xml:id="A19816-e104320">
+          <speaker>Proc. </speaker>
+          <l>My Lord, what time being sent from you to try, </l>
+          <l>To win her foorth aliue, (if that I might) </l>
+          <l>From out the Monument, where wofully </l>
+          <l>Shee liues inclos'd in most afflicted plight; </l>
+          <l>No way I found, no meanes how to surprize her, </l>
+          <l>But through a Grate at th'entry of the place, </l>
+          <l>Standing to treate, I labour'd to aduise her, </l>
+          <l>To come to Caesar, and to sue for grace. </l>
+          <l>Shee saide, shee crau'd not life, but leaue to die, </l>
+          <l>Yet for her children, prayd they might inherite, </l>
+          <l>That Caesar would vouchsafe (in clemency,) </l>
+          <l>To pitty them, though shee deseru'd no merite. </l>
+          <l>So leauing her for then; and since of late, </l>
+          <l>With Gallus sent to try another time, </l>
+          <l>The whilst hee entertaines her at the grate, </l>
+          <l>I found the meanes vp to the Tombe to climbe. </l>
+          <l>Where in discending in the closest wise, </l>
+          <l>And silent manner as I could contriue: </l>
+          <l>Her woman mee descri'd, and out shee cryes, </l>
+          <l>Poore Cleopatra, thou art tane aliue. </l>
+          <l>With that the Queene raught from her side her knife, </l>
+          <pb xml:id="A19816-067-a"/>
+          <l>And euen in acte to stab her martred brest, </l>
+          <l>I stept with speed, and held, and sau'd her life, </l>
+          <l>And forth her trembling hand the blade did wrest. </l>
+          <l>Ah Cleopatra, why should'st thou (said I,) </l>
+          <l>Both iniurie thy selfe and Caesar so? </l>
+          <l>Barre him the honour of his victory, </l>
+          <l>Who euer deales most mildly with his foe? </l>
+          <l>Liue and relye on him, whose mercy will </l>
+          <l>To thy submission alwaies ready be. </l>
+          <l>With that (as all amaz'd) shee held her still, </l>
+          <l>Twixt maiestie confus'd and miserie. </l>
+          <l>Her proud grieu'd eyes, held sorrow and disdaine, </l>
+          <l>State and distresse warring within her soule: </l>
+          <l>Dying ambition dispossest her raigne, </l>
+          <l>So base affliction seemed to controule. </l>
+          <l>Like as a burning Lampe, whose liquor spent </l>
+          <l>With intermitted flames, when dead you deeme it, </l>
+          <l>Sendes foorth a dying flash, as discontent, </l>
+          <l>That so the matter failes that should redeeme it. </l>
+          <l>So shee (in spight) to see her low-brought state, </l>
+          <l>(When all her hopes were now consum'd to nought,) </l>
+          <l>Scornes yet to make an abiect league with Fate, </l>
+          <l>Or once discend into a seruile thought. </l>
+          <l>Th'imperious tongue vnused to beseech, </l>
+          <pb xml:id="A19816-067-b"/>
+          <l>Authority confounds with prayers, so </l>
+          <l>Words of commaund conioyn'd wish humble speech, </l>
+          <l>Shew'd shee would liue, yet scorn'd to pray her foe. </l>
+          <l>Ah, what hath Caesar heere to doe, said shee, </l>
+          <l>In confines of the dead in darknes liuing? </l>
+          <l>Will hee not graunt our Sepulchers be free, </l>
+          <l>But violate the priuiledge of dying? </l>
+          <l>What, must hee stretch forth his ambitious hand </l>
+          <l>Into the right of Death, and force vs heere? </l>
+          <l>Hath misery no couert where to stand </l>
+          <l>Free from the storme of pryde, ist safe no where? </l>
+          <l>Cannot my land, my gold, my Crowne suffise, </l>
+          <l>And all what I held deere, to him made common, </l>
+          <l>But that he must in this sort tirannize, </l>
+          <l>Th'afflicted body of an wofull woman? </l>
+          <l>Tell him, my frailty, and the Gods haue giuen, </l>
+          <l>Sufficient glory, if hee could content him: </l>
+          <l>And let him now with his desires make euen, </l>
+          <l>And leaue mee to this horror, to lamenting. </l>
+          <l>Now hee hath taken all away from mee, </l>
+          <l>What must hee take mee from my selfe by force? </l>
+          <l>Ah, let him yet (in mercie) leaue mee free </l>
+          <l>The kingdom of this poore distressed corse. </l>
+          <l>No other crowne I seeke, no other good. </l>
+          <pb xml:id="A19816-068-a"/>
+          <l>Yet wish that Caesar would vouchsafe this grace, </l>
+          <l>To fauour the poore of-spring of my blood. </l>
+          <l>Confused issue, yet of Roman race. </l>
+          <l>If blood and name be linkes of loue in Princes, </l>
+          <l>Not spurres of hate; my poore Caesario may </l>
+          <l>Finde fauour notwithstanding mine offences, </l>
+          <l>And Caesars blood, may Caesars raging stay. </l>
+          <l>But if that with the torrent of my fall, </l>
+          <l>All must bee rapt with furious violence, </l>
+          <l>And no respect, nor no regard at all, </l>
+          <l>Can ought with nature or with blood dispence: </l>
+          <l>Then be it so, if needes it must be so. </l>
+          <l>There stayes and shrinkes in horror of her state. </l>
+          <l>When I began to mitigate her woe, </l>
+          <l>And thy great mercies vnto her relate; </l>
+          <l>Wishing her not dispaire, but rather come </l>
+          <l>And sue for grace, and shake off all vaine feares: </l>
+          <l>No doubt shee should obtaine as gentle doome </l>
+          <l>As shee desir'd, both for herselfe and hers. </l>
+          <l>And so with much a-doe, (well pacifide </l>
+          <l>Seeming to bee,) shee shew'd content to lyue, </l>
+          <l>Saying shee was resolu'd thy doome t'abide, </l>
+          <l>And to accept what fauour thou would'st giue. </l>
+          <l>And heere-withall, crau'd also that shee might </l>
+          <pb xml:id="A19816-068-b"/>
+          <l>Performe her last rites to her lost belou'd. </l>
+          <l>To sacrifize to him that wrought her plight: </l>
+          <l>And that shee might not bee by force remou'd. </l>
+          <l>I graunting from thy part this her request, </l>
+          <l>Left her for then, seeming in better rest. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105310">
+          <speaker>Caes. </speaker>
+          <l>But doost thou thinke she will remaine so still? </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105330">
+          <speaker>Pro. </speaker>
+          <l>I thinke, and doe assure my selfe shee will. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105350">
+          <speaker>Caes. </speaker>
+          <l>Ah, priuate men found not the harts of Princes, </l>
+          <l>Whose actions oft beare contrarie pretences. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105380">
+          <speaker>Pro. </speaker>
+          <l>Why, tis her safety for to yeeld to thee. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105400">
+          <speaker>Caes. </speaker>
+          <l>But tis more honour for her to die free. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105420">
+          <speaker>Pro. </speaker>
+          <l>Shee may thereby procure her childrens good. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105440">
+          <speaker>Caes. </speaker>
+          <l>Princes respect theyr honour more then blood. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105460">
+          <speaker>Pro. </speaker>
+          <l>Can Princes powre dispence with nature than? </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105480">
+          <speaker>Caes. </speaker>
+          <l>To be a Prince, is more then be a man. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105500">
+          <speaker>Pro. </speaker>
+          <l>There's none but haue in time perswaded beene. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105520">
+          <speaker>Caes. </speaker>
+          <l>And so might shee too, were shee not a Queene. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105540">
+          <speaker>Pro. </speaker>
+          <l>Diuers respects will force her be reclam'd. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e105560">
+          <speaker>Caes. </speaker>
+          <l>Princes (like Lyons) neuer will be tam'd. </l>
+          <l>A priuate man may yeeld, and care not how, </l>
+          <l>But greater harts will breake before they bow. </l>
+          <l>And sure I thinke sh'will neuer condiscend, </l>
+          <l>To lyue to grace our spoyles with her disgrace: </l>
+          <l>But yet let still a warie watch attend, </l>
+          <pb xml:id="A19816-069-a"/>
+          <l>To guard her person, and to watch the place. </l>
+          <l>And looke that none with her come to confer: </l>
+          <l>Shortly my selfe will goe to visite her. </l>
+        </sp>
+        <div type="chorus" xml:id="A19816-e105660">
+          <head>CHORVS. </head>
+          <lg>
+            <l>OPINION, howe doost thou molest </l>
+            <l>Th affected minde of restles man? </l>
+            <l>Who following thee, neuer can, </l>
+            <l>Nor euer shall attaine to rest. </l>
+            <l>For getting what thou saist is best, </l>
+            <l>Yet loe, that best hee findes farre wide </l>
+            <l>Of what thou promisedst before: </l>
+            <l>For in the same hee lookt for more, </l>
+            <l>Which proues but small when once tis tride. </l>
+            <l>Then something els thou find'st beside, </l>
+            <l>To draw him still from thought to thought: </l>
+            <l>When in the end all proues but nought. </l>
+            <l>Farther from rest hee findes him than, </l>
+            <l>Then at the first when he began. </l>
+          </lg>
+          <lg>
+            <l>O malcontent seducing guest, </l>
+            <l>Contriuer of our greatest woes: </l>
+            <pb xml:id="A19816-069-b"/>
+            <l>Which borne of winde, and fed with showes, </l>
+            <l>Doost nurse thy selfe in thine vnrest. </l>
+            <l>Iudging vngotten things the best, </l>
+            <l>Or what thou in conceite design'st. </l>
+            <l>And all things in the world doost deeme, </l>
+            <l>Not as they are, but as they seeme: </l>
+            <l>Which shewes, their state thou ill defin'st: </l>
+            <l>And liu'st to come, in present pin'st. </l>
+            <l>For what thou hast, thou still doost lacke: </l>
+            <l>O minde's tormentor, bodies wracke, </l>
+            <l>Vaine promiser of that sweet rest, </l>
+            <l>Which neuer any yet possest. </l>
+          </lg>
+          <lg>
+            <l>If wee vnto ambition tende, </l>
+            <l>Then doost thou draw our weakenes on, </l>
+            <l>With vaine imagination </l>
+            <l>Of that which neuer hath an end. </l>
+            <l>Or if that lust we apprehend, </l>
+            <l>How doth that pleasant plague infest? </l>
+            <l>O what strange formes of luxurie, </l>
+            <l>Thou straight doost cast t'intice vs by? </l>
+            <l>And tell'st vs that is euer best, </l>
+            <l>Which wee haue neuer yet possest. </l>
+            <l>And that more pleasure rests beside, </l>
+            <pb xml:id="A19816-070-a"/>
+            <l>In something that we haue not tride. </l>
+            <l>And when the same likewise is had, </l>
+            <l>Then all is one, and all is bad. </l>
+          </lg>
+          <lg>
+            <l>This Anthony can say is true, </l>
+            <l>And Cleopatra knowes tis so, </l>
+            <l>By th'experience of their woe. </l>
+            <l>Shee can say, shee neuer knew </l>
+            <l>But that iust found pleasures new, </l>
+            <l>And was neuer satis-fide: </l>
+            <l>Hee can say by proofe of toyle, </l>
+            <l>Ambition is a Vulture vile, </l>
+            <l>That feedes vpon the hart of pride: </l>
+            <l>And findes no rest when all is tride. </l>
+            <l>For worlds cannot confine the one, </l>
+            <l>Th'other, listes and bounds hath none. </l>
+            <l>And both subuert the minde, the state, </l>
+            <l>Procure destruction, enuie, hate. </l>
+          </lg>
+          <lg>
+            <l>And now when all this is prou'd vaine, </l>
+            <l>Yet Opinion leaues not heere, </l>
+            <l>But sticks to Cleopatra neere. </l>
+            <l>Perswading now, how she shall gaine </l>
+            <l>Honour by death, and fame attaine. </l>
+            <pb xml:id="A19816-070-b"/>
+            <l>And what a shame it were to liue, </l>
+            <l>Her kingdome lost, her Louer dead: </l>
+            <l>And so with this perswasion led, </l>
+            <l>Dispayre doth such a courage giue, </l>
+            <l>That naught els can her minde relieue. </l>
+            <l>Nor yet diuert her from that thought: </l>
+            <l>To this conclusion all is brought. </l>
+            <l>This is that rest this vaine world lends, </l>
+            <l>To end in death that all thing ends. </l>
+          </lg>
+        </div>
+      </div>
+      <div type="act" xml:id="A19816-e106420">
+        <head>ACTVS TERTIVS. </head>
+        <div type="scene" xml:id="A19816-e106430">
+          <list>
+            <item>PHILOSTRATVS. </item>
+            <item>ARIVS. </item>
+          </list>
+          <l>HOW deepely Arius am I bounde to thee, </l>
+          <l>That sau'dst from death this wretched life of mine: </l>
+          <l>Obtayning Caesars gentle grace for mee, </l>
+          <l>When I of all helps els dispayr'd but thine? </l>
+          <l>Although I see in such a wofull state, </l>
+          <l>Life is not that which should be much desir'd: </l>
+          <l>Sith all our glories come to end theyr date, </l>
+          <l>Our Countries honour and our owne expir'd. </l>
+          <l>Now that the hand of wrath hath ouer-gone vs, </l>
+          <l>Liuing (as 'twere) in th'armes of our dead mother, </l>
+          <pb xml:id="A19816-071-a"/>
+          <l>With blood vnder our feete ruine vpon vs, </l>
+          <l>And in a Land most wretched of all other, </l>
+          <l>When yet we reckon life our deerest good. </l>
+          <l>And so we liue, we care not how we liue: </l>
+          <l>So deepe we feel impressed in our blood, </l>
+          <l>That touch which nature with our breath did giue. </l>
+          <l>And yet what blasts of words hath learning found, </l>
+          <l>To blow against the feare of death and dying? </l>
+          <l>What comforts vnsicke Eloquence can sound, </l>
+          <l>And yet all fayles vs in the poynt of trying. </l>
+          <l>For whilst we reason with the breath of safety, </l>
+          <l>Without the compasse of destruction liuing: </l>
+          <l>What precepts shew wee then, what courage lofty </l>
+          <l>In taxing others feares in counsell giuing? </l>
+          <l>When all thys ayre of sweet-contriued words, </l>
+          <l>Prooues but weake armour to defend the hart. </l>
+          <l>For when this lyfe, pale feare and terror boords, </l>
+          <l>Where are our precepts then, where is our arte? </l>
+          <l>O who is he that from himselfe can turne, </l>
+          <l>That beares about the body of a man? </l>
+          <l>Who doth not toyle and labour to adiorne </l>
+          <l>The day of death, by any meanes he can? </l>
+          <l>All this I speake to th'end my selfe t'excuse, </l>
+          <l>For my base begging of a seruile breath, </l>
+          <pb xml:id="A19816-071-b"/>
+          <l>Wherein I graunt my selfe much t'abuse, </l>
+          <l>So shamefully to seeke t'auoyd my death. </l>
+          <sp who="A19816-A19816" xml:id="A19816-e106830">
+            <speaker>Arius. </speaker>
+            <l>Philostratus, that selfe same care to liue, </l>
+            <l>Possesseth all alike, and grieue not then </l>
+            <l>Nature dooth vs no more then others giue: </l>
+            <l>Though we speak more then men, we are but men. </l>
+            <l>And yet (in truth) these miseries to see, </l>
+            <l>Wherein we stand in most extreame distresse: </l>
+            <l>Might to our selues sufficient motiues be </l>
+            <l>To loathe this life, and weigh our death the lesse. </l>
+            <l>For neuer any age hath better taught, </l>
+            <l>What feeble footing pride and greatnes hath. </l>
+            <l>How 'improuident prosperity is caught, </l>
+            <l>And cleane confounded in the day of wrath. </l>
+            <l>See how dismaid Confusion keepes those streetes, </l>
+            <l>That nought but mirth &amp; Musique late resounded, </l>
+            <l>How nothing with our eye but horror meetes, </l>
+            <l>Our state, our wealth, our pride &amp; all confounded. </l>
+            <l>Yet what weake sight did not discerne from far </l>
+            <l>This black-arysing tempest, all confounding? </l>
+            <l>Who did not see we should be what we are, </l>
+            <l>When pride and ryot grew to such abounding. </l>
+            <l>When dissolute impiety possest, </l>
+            <l>Th'vnrespectiue mindes of such a people: </l>
+            <pb xml:id="A19816-072-a"/>
+            <l>When insolent Security found rest </l>
+            <l>In wanton thoughts, with lust and ease made feeble. </l>
+            <l>Then when vnwary peace with fat-fed pleasure, </l>
+            <l>New-fresh inuented ryots still detected, </l>
+            <l>Purchac'd with all the Ptolomies ritch treasure, </l>
+            <l>Our lawes, our Gods, our misteries neglected. </l>
+            <l>Who saw not how this confluence of vice, </l>
+            <l>This innondation of disorders, must </l>
+            <l>At length of force pay back the bloody price </l>
+            <l>Of sad destruction, (a reward for lust.) </l>
+            <l>O thou and I haue heard, and read, and knowne </l>
+            <l>Of lyke proude states, as wofully incombred, </l>
+            <l>And fram'd by them, examples for our owne: </l>
+            <l>Which now among examples must be numbred. </l>
+            <l>For this decree a law from high is giuen, </l>
+            <l>An auncient Canon, of eternall date, </l>
+            <l>In Consistorie of the starres of heauen, </l>
+            <l>Entred the booke of vnauoyded Fate; </l>
+            <l>That no state can in heigth of happines, </l>
+            <l>In th'exaltation of theyr glory stand: </l>
+            <l>But thither once ariu'd, declyning lesse, </l>
+            <l>Ruine themselues, or fall by others hand. </l>
+            <l>Thus doth the euer-changing course of things, </l>
+            <l>Runne a perpetuall circle, euer turning: </l>
+            <pb xml:id="A19816-072-b"/>
+            <l>And that same day that highest glory brings, </l>
+            <l>Brings vs vnto the poynt of back-returning. </l>
+            <l>For senceles sensualitie, doth euer </l>
+            <l>Accompany felicity and greatnes. </l>
+            <l>A fatall witch, whose charmes do leaue vs neuer, </l>
+            <l>Till we leaue all in sorrow for our sweetnes; </l>
+            <l>When yet our selues must be the cause we fall, </l>
+            <l>Although the same be first decreed on hie: </l>
+            <l>Our errors still must beare the blame of all, </l>
+            <l>This must it be, earth aske not heauen why. </l>
+            <l>Yet mighty men with wary iealous hand, </l>
+            <l>Striue to cut off all obstacles of feare: </l>
+            <l>All whatsoeuer seemes but to withstand </l>
+            <l>Theyr least conceite of quiet, held so deere; </l>
+            <l>And so intrench themselues with blood, with crymes, </l>
+            <l>With all iniustice as theyr feares dispose: </l>
+            <l>Yet for all thys wee see, how oftentimes </l>
+            <l>The meanes they worke to keep, are means to lose. </l>
+            <l>And sure I cannot see, how this can stand </l>
+            <l>With great Augustus safety and his honor, </l>
+            <l>To cut off all succession from our land, </l>
+            <l>For her offence that puld the warrs vpon her. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107520">
+            <speaker>Phi. </speaker>
+            <l>Why must her issue pay the price of that? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107540">
+            <speaker>Ari. </speaker>
+            <l>The price is life that they are rated at. </l>
+          </sp>
+          <pb xml:id="A19816-073-a"/>
+          <sp who="A19816-A19816" xml:id="A19816-e107560">
+            <speaker>Phi. </speaker>
+            <l>Caesario to, issued of Caesars blood? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107580">
+            <speaker>Ari. </speaker>
+            <l>Pluralitie of Caesars are not good. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107600">
+            <speaker>Phi. </speaker>
+            <l>Alas what hurt procures his feeble arme? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107620">
+            <speaker>Ari. </speaker>
+            <l>Not for it dooth, but that it may doe harme. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107640">
+            <speaker>Phi. </speaker>
+            <l>Then when it offers hurt, represse the same, </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107660">
+            <speaker>Ari. </speaker>
+            <l>Tis best to quench a sparke before it flame. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107680">
+            <speaker>Phi. </speaker>
+            <l>Tis in humane, an innocent to kill. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107700">
+            <speaker>Ari. </speaker>
+            <l>Such innocents, sildome remaine so still. </l>
+            <l>And sure his death may best procure our peace, </l>
+            <l>Competitors the subiect deerely buies: </l>
+            <l>And so that our affliction may surcease, </l>
+            <l>Let great men be the peoples sacrifice. </l>
+            <l>But see where Caesar comes himselfe, to try </l>
+            <l>And worke the mind of our distressed Queene, </l>
+            <l>To apprehend some falsed hope: whereby </l>
+            <l>Shee might be drawne to haue her fortune seene. </l>
+            <l>But yet I thinke, Rome will not see that face </l>
+            <l>(That quel her champions,) blush in base disgrace. </l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A19816-e107820">
+          <pb xml:id="A19816-073-b"/>
+          <head>SCENA. SECVNDA. </head>
+          <list>
+            <item>CAESAR, </item>
+            <item>CLEOPATRA, </item>
+            <item>SELEVCVS, </item>
+            <item>DOLABELLA. </item>
+          </list>
+          <sp who="A19816-A19816" xml:id="A19816-e107880">
+            <speaker>Caes. </speaker>
+            <l>WHat Cleopatrae, doost thou doubt so much </l>
+            <l>Of Caesars mercy, that thou hid'st thy face? </l>
+            <l>Or doost thou think, thy 'offences can be such, </l>
+            <l>That they surmount the measure of our grace? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e107930">
+            <speaker>Cleo. </speaker>
+            <l>O Caesar, not for that I flye thy fight </l>
+            <l>My soule this sad retyre of sorrow chose: </l>
+            <l>But that my 'oppressed thoughts abhorring light, </l>
+            <l>Like best in darknes, my disgrace t'inclose. </l>
+            <l>And heere to these close limmits of dispaire, </l>
+            <l>This solitary horror where I bide: </l>
+            <l>Caesar, I thought no Roman should repaire, </l>
+            <l>More after him, who heere oppressed dyde. </l>
+            <l>Yet now, heere at thy conquering feete I lye, </l>
+            <l>Poore captiue soule, that neuer thought to bow: </l>
+            <l>Whose happy foote of rule and maiestie, </l>
+            <l>Stoode late on that same ground thou standest now. </l>
+          </sp>
+          <pb xml:id="A19816-074-a"/>
+          <sp who="A19816-A19816" xml:id="A19816-e108060">
+            <speaker>Caes. </speaker>
+            <l>Rise Queene, none but thy selfe is cause of all. </l>
+            <l>And yet, would all were but thyne owne alone: </l>
+            <l>That others ruine had not with thy fall </l>
+            <l>Brought Rome her sorowes, to my tryumphs mone. </l>
+            <l>For breaking off the league of loue and blood. </l>
+            <l>Thou mak'st my winning ioy a gaine vnpleasing: </l>
+            <l>Sith th'eye of griefe must looke into our good, </l>
+            <l>Thorow the horror of our owne blood-shedding. </l>
+            <l>And all, we must attribute vnto thee. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108160">
+            <speaker>Cleo. </speaker>
+            <l>To mee? Caesar what should a woman doe </l>
+            <l>Opprest with greatnes? What was it for mee </l>
+            <l>To contradict my Lord, beeing bent thereto? </l>
+            <l>I was by loue, by feare, by weakenes, made </l>
+            <l>An instrument to such disseignes as these. </l>
+            <l>For when the Lord of all the Orient bade, </l>
+            <l>Who but obeyd? who was not glad to please? </l>
+            <l>And how could I with-draw my succouring hand, </l>
+            <l>From him that had my hart, or what was mine? </l>
+            <l>Th'intrest of my faith in straightest band, </l>
+            <l>My loue to his most firmely did combine. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108280">
+            <speaker>Caes. </speaker>
+            <l>Loue? alas no, it was th'innated hatred </l>
+            <l>That thou and thine hast euer borne our people: </l>
+            <l>That made thee seeke al meanes to haue vs scattred, </l>
+            <l>To disvnite our strength, and makers feeble. </l>
+            <pb xml:id="A19816-074-b"/>
+            <l>And therefore did that brest nurse our dissention, </l>
+            <l>With hope t'exalt thy selfe, t'augment thy state: </l>
+            <l>To pray vpon the wrack of our contention, </l>
+            <l>And (with the rest our foes,) to ioy thereat. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108370">
+            <speaker>Cleo. </speaker>
+            <l>O Caesar, see how easie tis t'accuse </l>
+            <l>Whom fortune hath made faultie by their fall, </l>
+            <l>The wretched conquered may not refuse </l>
+            <l>The titles of reproch he's charg'd withall. </l>
+            <l>The conquering cause hath right, wherein thou art, </l>
+            <l>The vanquisht, still is iudg'd the worser part. </l>
+            <l>Which part is mine, because I lost my part. </l>
+            <l>No lesser then the portion of a Crowne. </l>
+            <l>Enough for mee, alas what needed arte </l>
+            <l>To gaine by others, but to keepe mine owne? </l>
+            <l>But heere let weaker powers note what it is, </l>
+            <l>To neighbour great Competitors too neere, </l>
+            <l>If we take part, we oft doe perrish thus, </l>
+            <l>If neutrall bide, both parties we must feare. </l>
+            <l>Alas, what shall the forst partakers doe, </l>
+            <l>When following none, yet must they perrish to? </l>
+            <l>But CAESAR. sith thy right and cause is such, </l>
+            <l>Bee not a heauie weight vpon calamitie: </l>
+            <l>Depresse not the afflicted ouer-much, </l>
+            <l>The chiefest glory is the Victors lenitie. </l>
+            <pb xml:id="A19816-075-a"/>
+            <l>Th'inheritaunce of mercy from him take, </l>
+            <l>Of whom thou hast thy fortune and thy name: </l>
+            <l>Great Caesar mee a Queene at first did make, </l>
+            <l>And let not Caesar now confound the same. </l>
+            <l>Reade heere these lines which still I keep with me, </l>
+            <l>The witnes of his loue and fauours euer: </l>
+            <l>And God forbid this should be said of thee, </l>
+            <l>That Caesar wrong'd the fauoured of Caesar. </l>
+            <l>For looke what I haue beene to Anthony, </l>
+            <l>Thinke thou the same I might haue been to thee. </l>
+            <l>And heere I doe present thee with the note, </l>
+            <l>Of all the treasure, all the Iewels rare </l>
+            <l>That Egipt hath in many ages got; </l>
+            <l>And looke what Cleopatra hath, is there. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108720">
+            <speaker>Seleu. </speaker>
+            <l>Nay there's not all set down within that roule, </l>
+            <l>I know some things shee hath reseru'd a part. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108750">
+            <speaker>Cle. </speaker>
+            <l>What vile vngreateful wretch, dar'st thou controule </l>
+            <l>Thy Queene &amp; soueraine? caitiue as thou art. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108780">
+            <speaker>Caes. </speaker>
+            <l>Hold, holde, a poore reuenge can worke so feeble </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108800">
+            <speaker>Cle. </speaker>
+            <l>Ah Caesar, what a great indignitie hands. </l>
+            <l>Is this, that heere my vassale subiect stands, </l>
+            <l>T' accuse mee to my Lord of trechery? </l>
+            <l>If I reseru'd some certaine womens toyes, </l>
+            <l>Alas it was not for my selfe (God knowes,) </l>
+            <pb xml:id="A19816-075-b"/>
+            <l>Poore miserable soule, that little ioyes </l>
+            <l>In trifling ornaments, in outward showes. </l>
+            <l>But what I kept, I kept to make my way </l>
+            <l>Vnto thy Liuia, and Octauias grace. </l>
+            <l>That thereby in compassion mooued, they </l>
+            <l>Might mediat thy fauour in my case. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e108920">
+            <speaker>Caes. </speaker>
+            <l>Well Cleopatra, feare not, thou shalt finde </l>
+            <l>What fauour thou desir'st, or canst expect: </l>
+            <l>For Caesar neuer yet was found but kinde </l>
+            <l>To such as yeeld, and can themselues subiect. </l>
+            <l>And therefore giue thou comfort to thy minde; </l>
+            <l>Relieue thy soule thus ouer-charg'd with care, </l>
+            <l>How well I will intreate thee thou shalt find, </l>
+            <l>So soone as some affayres dispatched are. </l>
+            <l>Til when farewel. Cl. Thanks thrise-renowned Caesar, </l>
+            <l>Poore Cleopatra rests thine owne for euer. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e109030">
+            <speaker>Dol. </speaker>
+            <l>No meruaile Caesar though our greatest sp'rits, </l>
+            <l>Haue to the powre of such a charming beautie, </l>
+            <l>Beene brought to yeeld the honour of their merits: </l>
+            <l>Forgetting all respect of other dutie. </l>
+            <l>Then whilst the glory of her youth remain'd </l>
+            <l>The wondring obiect to each wanton eye: </l>
+            <l>Before her full of sweet (with sorrow wain'd,) </l>
+            <l>Came to the period of this misery. </l>
+            <pb xml:id="A19816-076-a"/>
+            <l>If still, euen in the midst of death and horror, </l>
+            <l>Such beauty shines, thorow clowds of age &amp; sorow, </l>
+            <l>If euen those sweet decayes seeme to plead for her, </l>
+            <l>Which from affliction, mouing graces borrow; </l>
+            <l>If in calamity shee could thus moue, </l>
+            <l>What could she do adorn'd with youth &amp; loue? </l>
+            <l>What could she do then, when as spreading wide </l>
+            <l>The pompe of beauty, in her glory dight? </l>
+            <l>When arm'd with wonder, shee could vse beside, </l>
+            <l>Th' engines of her loue, Hope and Delight? </l>
+            <l>Beauty daughter of Meruaile, ô see how </l>
+            <l>Thou canst disgracing sorrowes sweetly grace? </l>
+            <l>What power thou shew'st in a distressed brow, </l>
+            <l>That mak'st affliction faire, giu'st teares their grace. </l>
+            <l>What can vntressed locks, can torne rent haire, </l>
+            <l>A weeping eye, a wailing face be faire? </l>
+            <l>I see then, artlesse feature can content, </l>
+            <l>And that true beauty needes no ornament. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e109300">
+            <speaker>Caes. </speaker>
+            <l>What in a passion Dolabella? what? take heede: </l>
+            <l>Let others fresh examples be thy warning; </l>
+            <l>What mischiefes these, so idle humors breed, </l>
+            <l>Whilst error keepes vs from a true discerning. </l>
+            <l>Indeed, I saw shee labour'd to impart </l>
+            <l>Her sweetest graces in her saddest cheere: </l>
+            <pb xml:id="A19816-076-b"/>
+            <l>Presuming on the face that knew the arte </l>
+            <l>To moue with what aspect so eu'r it were. </l>
+            <l>But all in vaine, shee takes her ayme amisse, </l>
+            <l>The ground and marke, her leuel much deceiues; </l>
+            <l>Time now hath altred all, for neither is </l>
+            <l>Shee as shee was, nor wee as shee conceiues. </l>
+            <l>And therefore now, twere best she left such badnes, </l>
+            <l>Folly in youth is sinne, in age, tis madnes. </l>
+            <l>And for my part, I seeke but t'entertaine </l>
+            <l>In her some feeding hope to draw her forth; </l>
+            <l>The greatest Trophey that my trauailes gaine, </l>
+            <l>Is to bring home a prizall of such worth. </l>
+            <l>And now, sith that shee seemes so well content </l>
+            <l>To be dispos'd by vs, without more stay </l>
+            <l>Shee with her chyldren shall to Rome be sent, </l>
+            <l>Whilst I by Syria thither take my way. </l>
+          </sp>
+        </div>
+        <div type="chorus" xml:id="A19816-e109530">
+          <head>CHORVS. </head>
+          <lg>
+            <l>O Fearefull frowning NEMESIS, </l>
+            <l>Daughter of IVSTICE, most seuere, </l>
+            <l>That art the worlds great Arbitresse, </l>
+            <l>And Queene of causes raigning heere. </l>
+            <pb xml:id="A19816-077-a"/>
+            <l>Whose swift-sure hand is euer neere </l>
+            <l>Eternill iustice, righting wrong: </l>
+            <l>Who neuer yet-deserrest long </l>
+            <l>The proudes decay, the weakes redresse. </l>
+            <l>But through thy powre euery where, </l>
+            <l>Doost raze the great, and raise the lesse. </l>
+            <l>The lesse made great, doost ruine to, </l>
+            <l>To shew the earth what heauen can doe. </l>
+          </lg>
+          <lg>
+            <l>Thou from dark-clos'd eternitie, </l>
+            <l>From thy black clowdy hidden seate, </l>
+            <l>The worlds disorders doost discry: </l>
+            <l>Which when they swell so proudly great, </l>
+            <l>Reuersing th'order nature set, </l>
+            <l>Thou giu'st thy all-confounding doome, </l>
+            <l>Which none can know before it come. </l>
+            <l>Th' ineuitable destinie, </l>
+            <l>Which neyther wit nor strength can let, </l>
+            <l>Fast chayn'd vnto necessitie, </l>
+            <l>In mortall things doth order so, </l>
+            <l>Th'alternate course of weale or wo. </l>
+          </lg>
+          <lg>
+            <l>O low the powres of heauen do play </l>
+            <l>With trauailed mortalitie: </l>
+            <pb xml:id="A19816-077-b"/>
+            <l>And doth their weakenes still betray, </l>
+            <l>In theyr best prosperitie. </l>
+            <l>When beeing listed vp so hie, </l>
+            <l>They looke beyond themselues so farre, </l>
+            <l>That to themselues they take no care: </l>
+            <l>Whilst swift confusion downe doth lay, </l>
+            <l>Theyr late proude mounting vanitie: </l>
+            <l>Bringing theyr glory to decay. </l>
+            <l>And with the ruine of theyr fall, </l>
+            <l>Extinguish people, state and all. </l>
+          </lg>
+          <lg>
+            <l>But is it iustice that all wee </l>
+            <l>Th'innocent poore multitude, </l>
+            <l>For great mens faults should punisht be, </l>
+            <l>And to destruction thus pursude. </l>
+            <l>O why should th'heauens vs include, </l>
+            <l>Within the compasse of theyr sall, </l>
+            <l>Who of themselues procured all? </l>
+            <l>Or doe the Gods (in close) decree, </l>
+            <l>Occasion take how to extrude </l>
+            <l>Man from the earth with crueltie? </l>
+            <l>Ah no, the Gods are euer iust, </l>
+            <l>Our faults excuse theyr rigor must. </l>
+          </lg>
+          <lg>
+            <pb xml:id="A19816-078-a"/>
+            <l>This is the period Fate set downe, </l>
+            <l>To Egipts fat prosperity: </l>
+            <l>Which now vnto her greatest growne, </l>
+            <l>Must perrish thus, by course must die. </l>
+            <l>And some must be the causers why </l>
+            <l>This reuolution must be wrought: </l>
+            <l>As borne to bring theyr state to nought. </l>
+            <l>To change the people and the crowne, </l>
+            <l>And purge the worlds iniquitie: </l>
+            <l>Which vice so farre hath ouer-growne. </l>
+            <l>As wee, so they that treate vs thus, </l>
+            <l>Must one day perrish like to vs. </l>
+          </lg>
+        </div>
+      </div>
+      <div type="act" xml:id="A19816-e110190">
+        <head>ACTVS QVARTVS. </head>
+        <list>
+          <item>SELEVCVS. </item>
+          <item>RODON. </item>
+        </list>
+        <sp who="A19816-A19816" xml:id="A19816-e110230">
+          <speaker>Sel. </speaker>
+          <l>NEuer friend Rodon in a better howre, </l>
+          <l>Could I haue met thee then eu'en now I do </l>
+          <l>Hauing affliction in the greatest powre </l>
+          <l>Vpon my soule, and none to tell it to. </l>
+          <l>For tis some ease our sorrowes to reueale, </l>
+          <l>If they to whom wee shall impart our woes </l>
+          <pb xml:id="A19816-078-b"/>
+          <l>Seeme but to feele a part of what wee feele, </l>
+          <l>And meete vs with a sigh but at a cloze. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e110320">
+          <speaker>Rod. </speaker>
+          <l>And neuer (friend Seleucus) found'st thou one, </l>
+          <l>That better could beare such a part with thee: </l>
+          <l>Who by his owne, knowes others cares to mone, </l>
+          <l>And can in like accord of griefe agree. </l>
+          <l>And therefore tell th'oppression of thy hart, </l>
+          <l>Tell to an eare prepar'd and tun'd to care: </l>
+          <l>And I will likewise vnto thee impart </l>
+          <l>As sad a tale as what thou shalt declare. </l>
+          <l>So shal we both our mournful plaints combine, </l>
+          <l>Ile waile thy state, and thou shalt pitty mine. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e110430">
+          <speaker>Sel. </speaker>
+          <l>Well then, thou know'st how I haue liu'd in grace </l>
+          <l>With Cleopatra, and esteem'd in Court </l>
+          <l>As one of Counsell, and of chiefest place, </l>
+          <l>And euer held my credite in that sort. </l>
+          <l>Tyll now in this confusion of our state, </l>
+          <l>When thinking to haue vs'd a meane to climbe, </l>
+          <l>And fled the wretched, flowne vnto the great, </l>
+          <l>(Follow'ing the fortune of the present time,) </l>
+          <l>Am come to be cast downe and ruin'd cleene. </l>
+          <l>And in the course of mine owne plot vndonne. </l>
+          <l>For hauing all the secretes of the Queene </l>
+          <l>Reueal'd to Cesar, to haue sauour wonne: </l>
+          <pb xml:id="A19816-079-a"/>
+          <l>My trechery is quited with disgrace, </l>
+          <l>My falshood loath'd, and not without great reason </l>
+          <l>Though good for him, yet Princes in this case </l>
+          <l>Doe hate the Traytor, though they loue the treason. </l>
+          <l>For how could hee imagine I would be </l>
+          <l>Faithfull to him, being false vnto mine owne? </l>
+          <l>And false to such a bountious Queene as shee, </l>
+          <l>That had me rais'd, and made mine honor known. </l>
+          <l>Hee saw twas not for zeale to him I bare, </l>
+          <l>But for base feare, or mine owne state to settle. </l>
+          <l>Weakenes is false, and faith in Cowards rare, </l>
+          <l>Feare findes out shyfts, timiditie is subtle. </l>
+          <l>And therefore scornd of him, scornd of mine own. </l>
+          <l>Hatefull to all that looke into my state: </l>
+          <l>Despis'd Seleucus now is onely growne </l>
+          <l>The marke of infamy, that's pointed at. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e110720">
+          <speaker>Rod. </speaker>
+          <l>Tis much thou saist, and ô too much to feele, </l>
+          <l>And I doe grieue and doe lament thy fall: </l>
+          <l>But yet all this which thou doost heere reueale, </l>
+          <l>Compar'd with mine, wil make thine seem but smal. </l>
+          <l>Although my fault be in the selfe-same kind, </l>
+          <l>Yet in degree far greater, far more hatefull; </l>
+          <l>Mine sprong of myschiefe, thine from feeble mind, </l>
+          <l>I staind with blood, thou onely but' vngratefull. </l>
+          <pb xml:id="A19816-079-b"/>
+          <l>For vnto mee did Cleopatra gyue </l>
+          <l>The best and deerest treasure of her blood. </l>
+          <l>Louely Casario, whom shee would should liue </l>
+          <l>Free from the dangers wherein Egipt stood. </l>
+          <l>And vnto mee with him this charge she gaue, </l>
+          <l>Heere Rodon, take, conuay from out thys Coast, </l>
+          <l>This precious Gem, the chiefest that I haue, </l>
+          <l>The iewell of my soule I value most. </l>
+          <l>Guide hym to INDIA, leade him farre from hence, </l>
+          <l>Safeguard him where secure he may remaine, </l>
+          <l>Till better fortune call him back from thence, </l>
+          <l>And Egipts peace be reconcil'd againe. </l>
+          <l>For this is hee that may our hopes bring back, </l>
+          <l>(The rysing Sunne of our declyning state:) </l>
+          <l>These be the hands that may restore our wrack, </l>
+          <l>And rayse the broken ruines made of late. </l>
+          <l>Hee may gyue limmits to the boundles pryde </l>
+          <l>Of fierce Octauius, and abate his might: </l>
+          <l>Great Iulius of-spring, hee may come to guide </l>
+          <l>The Empire of the world, as his by right. </l>
+          <l>O how hee seemes the modell of his Syre? </l>
+          <l>O how I gaze my Caesar in his face? </l>
+          <l>Such was his gate, so dyd his lookes aspyre; </l>
+          <l>Such was his threatning brow, such was his grace. </l>
+          <pb xml:id="A19816-080-a"/>
+          <l>High shouldred, and his forehead euen as hie. </l>
+          <l>And ô, (if hee had not beene borne so late,) </l>
+          <l>He might haue rul'd the worlds great Monarchy, </l>
+          <l>And nowe haue beene the Champion of our state. </l>
+          <l>Then vnto him, ô my deere Sonne, (she sayes,) </l>
+          <l>Sonne of my youth, flye hence, ô flye, be gone: </l>
+          <l>Reserue thy selfe, ordain'd for better dayes, </l>
+          <l>For much thou hast to ground thy hopes vppon. </l>
+          <l>Leaue mee (thy wofull Mother) to endure, </l>
+          <l>The fury of thys tempest heere alone: </l>
+          <l>Who cares not for herselfe, so thou be sure, </l>
+          <l>Thou mayst reuenge, when others can but mone. </l>
+          <l>Rodon will see thee safe, Rodon will guide </l>
+          <l>Thee and thy waies, thou shalt not need to feare. </l>
+          <l>Rodon (my faithfull seruaunt) will prouide </l>
+          <l>What shall be best for thee, take thou no care. </l>
+          <l>And ô good Rodon, looke well to his youth, </l>
+          <l>The wayes are long, and daungers eu'ry where. </l>
+          <l>I vrge it not that I doe doubt thy truth, </l>
+          <l>Mothers will cast the worst, and alwaies feare. </l>
+          <l>The absent daunger greater still appeares, </l>
+          <l>Lesse feares he, who is neere the thing he feares. </l>
+          <l>And ô, I know not what presaging thought </l>
+          <l>My sp'rit suggests of luckles bad euent: </l>
+          <pb xml:id="A19816-080-b"/>
+          <l>But yet it may be tis but loue doth dote, </l>
+          <l>Or idle shadowes which my feares present. </l>
+          <l>But yet the memory of myne owne fate, </l>
+          <l>Makes mee feare his. And yet why should I feare? </l>
+          <l>His fortune may recouer better state, </l>
+          <l>And hee may come in pompe to gouerne heere. </l>
+          <l>But yet I doubt the Genius of our Race </l>
+          <l>By some malignant spirit comes ouer-throwne: </l>
+          <l>Our blood must be extinct, in my disgrace, </l>
+          <l>Egypt must haue no more Kings of theyr owne. </l>
+          <l>Then let him stay, and let vs fall together, </l>
+          <l>Sith it is fore-decreed that we must fal. </l>
+          <l>Yet who knowes what may come? let him go thither, </l>
+          <l>What Merchaunt in one Vessell venters all? </l>
+          <l>Let vs deuide our starrs. Goe, goe my Sonne, </l>
+          <l>Let not the fate of Egypt find thee heere: </l>
+          <l>Try if so be thy destiny can shunne </l>
+          <l>The common wracke of vs, by beeing there. </l>
+          <l>But who is hee found euer yet defence </l>
+          <l>Against the heauens, or hyd him any where? </l>
+          <l>Then what neede I to send thee so far hence </l>
+          <l>To seeke thy death that mayst as well die heere? </l>
+          <l>And heere die with thy mother, die in rest, </l>
+          <l>Not trauayling to what will come to thee. </l>
+          <pb xml:id="A19816-081-a"/>
+          <l>Why should wee leaue our blood vnto the East, </l>
+          <l>When Egipt may a Tom be sufficient be? </l>
+          <l>O my deuided soule, what shall I doe? </l>
+          <l>Whereon shall now my resolution rest? </l>
+          <l>What were I best resolue to yeeld vnto </l>
+          <l>When both are bad, how shall I know the best? </l>
+          <l>Stay; I may hap so worke with Caesar now, </l>
+          <l>That hee may yeeld him to restore thy right. </l>
+          <l>Goe; Caesar neuer will consent that thou </l>
+          <l>So neere in blood, shalt bee so great in might. </l>
+          <l>Then take him Roden, goe my sonne fare-well. </l>
+          <l>But stay; ther's something els that I would say: </l>
+          <l>Yet nothing now, but ô God speed thee well, </l>
+          <l>Least saying more, that more may make thee stay. </l>
+          <l>Yet let mee speake: It may be tis the last </l>
+          <l>That euer I shall speake to thee my Sonne. </l>
+          <l>Doe Mothers vse to parte in such post-hast? </l>
+          <l>What, must I ende when I haue scarce begun? </l>
+          <l>Ah no (deere hart,) tis no such slender twine </l>
+          <l>Where-with the knot is tyde twixt thee and mee. </l>
+          <l>That blood within thy vaines came out of mine, </l>
+          <l>Parting from thee, I part from part of mee: </l>
+          <l>And therefore I must speake. Yet what? O sonne. </l>
+          <l>Here more she wold, when more she could not say. </l>
+          <pb xml:id="A19816-081-b"/>
+          <l>Sorrow rebounding backe whence it begun, </l>
+          <l>Fild vp the passage, and quite stopt the way: </l>
+          <l>When sweet Caesario with a princely sp'rite, </l>
+          <l>(Though comfortlesse himselfe) did comfort giue; </l>
+          <l>With mildest words, perswading her to beare it. </l>
+          <l>And as for him, shee should not neede to grieue. </l>
+          <l>And I (with protestations of my part,) </l>
+          <l>Swore by that faith, (which sworne I did deceaue) </l>
+          <l>That I would vse all care, all wit and arte </l>
+          <l>To see hym safe; And so we tooke our leaue. </l>
+          <l>Scarce had wee trauail'd to our iourneyes end, </l>
+          <l>When Caesar hauing knowledge of our way, </l>
+          <l>His Agents after vs with speed doth send </l>
+          <l>To labour mee, Caesario to betray. </l>
+          <l>Who-with rewards, and promises so large. </l>
+          <l>Assaild mee then, that I grew soone content; </l>
+          <l>And backe to Rhodes dyd reconuay my charge, </l>
+          <l>Pretending that Octauius for him sent, </l>
+          <l>To make hym King of Egipt presently. </l>
+          <l>And thither come, seeing himselfe betrayd, </l>
+          <l>And in the hands of death through trecherie, </l>
+          <l>Wayling his state, thus to himselfe he sayd. </l>
+          <l>Loe heere brought back by subtile traine to death, </l>
+          <l>Betrayde by Tutors fayth, or Traytors rather: </l>
+          <pb xml:id="A19816-082-a"/>
+          <l>My faulte my blood, and mine offence my birth, </l>
+          <l>For beeing sonne of such a mightie Father. </l>
+          <l>From INDIA, (whither sent by Mothers care, </l>
+          <l>To be reseru'd from Egypts common wracke,) </l>
+          <l>To Rhodes, (so long the armes of Tyrants are,) </l>
+          <l>I am by Caesars subtile reach brought back. </l>
+          <l>Heere to be made th' oblation for his feares, (him: </l>
+          <l>Who doubts the poore reuenge these handes may doe </l>
+          <l>Respecting neyther blood, nor youth, nor yeeres, </l>
+          <l>Or how small safety can my death be to him. </l>
+          <l>And is this all the good of beeing borne great? </l>
+          <l>Then wretched greatnes, proud ritch misery, </l>
+          <l>Pompous distresse, glittering calamity. </l>
+          <l>Is it for this th'ambitious Fathers sweat, </l>
+          <l>To purchase blood and death for them and theirs? </l>
+          <l>Is this the issue that theyr glories get, </l>
+          <l>To leaue a sure destruction to theyr heyres? </l>
+          <l>O how farre better had it beene for mee, </l>
+          <l>From low discent, deriu'd of humble birth, </l>
+          <l>To' haue eate the sweet-sowre bread of pouerty, </l>
+          <l>And drunke of Nilus streame in Nilus earth: </l>
+          <l>Vnder the cou'ring of some quiet Cottage, </l>
+          <l>Free from the wrath of heauen, secure in minde, </l>
+          <l>Vntoucht when sad euents of Princes dotage, </l>
+          <pb xml:id="A19816-082-b"/>
+          <l>Confounds what euer mighty it dooth find. </l>
+          <l>And not t'haue stoode in theyr way, whose condition, </l>
+          <l>Is to haue all made deere, and all thing plaine, </l>
+          <l>Betweene them and the marke of theyr ambition, </l>
+          <l>That nothing let the full sight of theyr raigne. </l>
+          <l>Where nothing stands, that stands not in submission; </l>
+          <l>Where greatnes must all in it selfe containe. </l>
+          <l>Kings will be alone, Competitors must downe, </l>
+          <l>Neere death he stands, that stands too neer a Crowne. </l>
+          <l>Such is my case, for Caesar will haue all: </l>
+          <l>My blood must seale th'assurance of his state: </l>
+          <l>Yet ah weake state that blood assure him shall, </l>
+          <l>Whose wrongfull shedding, Gods and men do hate. </l>
+          <l>Iniustice neuer scapes vnpunisht still, </l>
+          <l>Though men reuenge not, yet the heauens will. </l>
+          <l>And thou Augustus that with bloody hand, </l>
+          <l>Curt'st off succession from anothers race, </l>
+          <l>Maist find the heauens thy vowes so to withstand. </l>
+          <l>That others may depriue thine in like case. </l>
+          <l>When thou maist see thy proude contentious bed </l>
+          <l>Yeelding thee none of thine that may inherite: </l>
+          <l>Subuert thy blood, place others in theyr sted, </l>
+          <l>To pay this thy iniustice her due merite. </l>
+          <l>If it be true, (as who can that deny </l>
+          <pb xml:id="A19816-083-a"/>
+          <l>Which sacred Priests of Memphis doe fore-say,) </l>
+          <l>Some of the of-spring yet of Anthony, </l>
+          <l>Shall all the rule of this whole Empire sway. </l>
+          <l>And then Augustus, what is it thou gainest </l>
+          <l>By poore Antillus blood, or this of mine? </l>
+          <l>Nothing but thys thy victory thou stainest, </l>
+          <l>And pull'st the wrath of heauen on thee and thine. </l>
+          <l>In vaine doth man contende against the starrs, </l>
+          <l>For what hee seekes to make, his wisdom marrs. </l>
+          <l>Yet in the mean-time we whom Fates reserue, </l>
+          <l>The bloody sacrifices of ambition, </l>
+          <l>We feele the smart what euer they deserue, </l>
+          <l>And wee indure the present times condition. </l>
+          <l>The iustice of the heauens reuenging thus, </l>
+          <l>Doth onely sacrifice it selfe, not vs. </l>
+          <l>Yet tis a pleasing comfort that dooth ease </l>
+          <l>Affliction in so great extreamitie. </l>
+          <l>To thinke theyr like destruction shall appease </l>
+          <l>Our ghostes, who did procure our misery. </l>
+          <l>But dead we are, vncertaine what shall bee, </l>
+          <l>And lyuing, wee are sure to feele the wrong: </l>
+          <l>Our certaine ruine wee our selues doe see. </l>
+          <l>They ioy the while, and wee know not how long. </l>
+          <l>But yet Caesario, thou must die content, </l>
+          <pb xml:id="A19816-083-b"/>
+          <l>For men will mone, &amp; God reuenge th'innocent. </l>
+          <l>Thus he complain'd, &amp; thus thou hear'st my shame. </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e112750">
+          <speaker>Sel. </speaker>
+          <l>But how hath Caesar now rewarded thee? </l>
+        </sp>
+        <sp who="A19816-A19816" xml:id="A19816-e112770">
+          <speaker>Rod. </speaker>
+          <l>As hee hath thee. And I expect the same </l>
+          <l>As fell to Theodor to fall to mee: </l>
+          <l>For he (one of my coate) hauing betrayd </l>
+          <l>The young Antillus, sonne of Anthony, </l>
+          <l>And at his death from of his necke conuayd </l>
+          <l>A iewell: which be'ing askt, he did deny: </l>
+          <l>Caesar occasion tooke to hang him straight. </l>
+          <l>Such instruments with Princes liue not long. </l>
+          <l>Although they neede vs, (actors of deceit,) </l>
+          <l>Yet still our sight seemes to vpbrayd their wrong; </l>
+          <l>And therefore we must needes this danger runne, </l>
+          <l>And in the net of our owne guile be caught: </l>
+          <l>Wee must not liue to bray what we haue done, </l>
+          <l>For what is done, must not appeare theyr fault. </l>
+          <l>But heere comes Cleopatra, wofull Queene, </l>
+          <l>And our shame will not that we should be seene. </l>
+          <stage xml:id="A19816-e112940">Exeunt. </stage>
+        </sp>
+        <div type="speech" xml:id="A19816-e112950">
+          <pb xml:id="A19816-084-a"/>
+          <head>CLEOPATRA. </head>
+          <lg>
+            <l>WHat, hath my face yet powre to win a Louer? </l>
+            <l>Can this torne remnant serue to grace me so, </l>
+            <l>That it can Caesars secrete plots discouer </l>
+            <l>What he intends with mee and mine to do? </l>
+            <l>Why then poore Beautie thou hast doone thy last, </l>
+            <l>And best good seruice thou could'st doe vnto mee. </l>
+            <l>For now the time of death reueal'd thou hast, </l>
+            <l>Which in my life didst serue but to vndoe mee. </l>
+          </lg>
+          <lg>
+            <l>Heere Dolabella far forsooth in loue, </l>
+            <l>Writes, how that Caesar meanes forthwith, to send </l>
+            <l>Both mee and mine, th' ayre of Rome to proue: </l>
+            <l>There his Tryumphant Chariot to attend. </l>
+            <l>I thanke the man, both for his loue and letter; </l>
+            <l>Th'one comes fit to warne mee thus before, </l>
+            <l>But for th'other, I must die his debter, </l>
+            <l>For Cleopatra now can loue no more. </l>
+          </lg>
+          <lg>
+            <l>But hauing leaue, I must goe take my leaue </l>
+            <l>And last farewell of my dead Anthony: </l>
+            <l>Whose deerely honour'd Tom be must heere receaue </l>
+            <l>This sacrifice, the last before I dye. </l>
+          </lg>
+          <lg>
+            <pb xml:id="A19816-084-b"/>
+            <l>O sacred euer-memorable Stone, </l>
+            <l>That hast without my teares, within my flame, </l>
+            <l>Receiue th'oblation of the wofull'st mone </l>
+            <l>That euer yet from sad affliction came. </l>
+            <l>And you deere reliques of my Lord and Loue, </l>
+            <l>(The sweetest parcells of the faithfull'st liuer,) </l>
+            <l>O let no impious hand dare to remoue </l>
+            <l>You out from hence, but rest you heere for euer. </l>
+            <l>Let Egypt now giue peace vnto you dead, </l>
+            <l>That lyuing, gaue you trouble and turmoyle: </l>
+            <l>Sleepe quiet in this euer-lasting bed, </l>
+            <l>In forraine land preferr'd before your soyle. </l>
+            <l>And ô, if that the sp'rits of men remaine </l>
+            <l>After their bodies, and doe neuer die, </l>
+            <l>Then heare thy Ghost thy captiue Spouse complaine, </l>
+            <l>And be attentiue to her misery. </l>
+            <l>But if that laborsome mortalitie, </l>
+            <l>Found this sweet error, onely to confine </l>
+            <l>The curious search of idle vanity, </l>
+            <l>That would the deapth of darknes vndermine: </l>
+            <l>Or rather, to giue rest vnto the thought </l>
+            <l>Of wretched man, with th'after-comming ioy </l>
+            <l>Of those conceiued fieldes whereon we dote, </l>
+            <l>To pacifie the present worlds anoy. </l>
+            <pb xml:id="A19816-085-a"/>
+            <l>If it be so, why speake I then to th'ayre? </l>
+            <l>But tis not so, my Anthony doth heare: </l>
+            <l>His euer-liuing ghost attends my prayer, </l>
+            <l>And I doe know his houering sp'rite is neere. </l>
+            <l>And I will speake, and pray, and mourne to thee, </l>
+            <l>O pure immortall loue that daign'st to heare: </l>
+            <l>I feele thou aunswer'st my credulitie </l>
+            <l>With touch of comfort, finding none elswhere. </l>
+            <l>Thou know'st these hands entomb'd thee heer of late, </l>
+            <l>Free and vnforst, which now must seruile be, </l>
+            <l>Reseru'd for bands to grace proude Caesars state, </l>
+            <l>Who seekes in mee to tryumph ouer thee. </l>
+            <l>O if in life we could not seuerd be, </l>
+            <l>Shall Death deuide our bodies now a sunder? </l>
+            <l>Must thine in Egypt, mine in Italie, </l>
+            <l>Be kept the Monuments of Fortunes wonder? </l>
+            <l>If any powres be there where as thou art, </l>
+            <l>(Sith our owne Country Gods betray our case,) </l>
+            <l>O worke they may theyr gracious helpe impart, </l>
+            <l>To saue thy wofull wife from such disgrace. </l>
+            <l>Doe not permit shee should in tryumph shew </l>
+            <l>The blush of her reproch, ioyn'd with thy shame: </l>
+            <l>But (rather) let that hatefull Tyrant know, </l>
+            <l>That thou and I had powre t'auoyde the same. </l>
+            <pb xml:id="A19816-085-b"/>
+            <l>But what doe I spend breath and idle winde, </l>
+            <l>In vaine invoking a conceiued ayde? </l>
+            <l>Why doe I not my selfe occasion find </l>
+            <l>To breake the bounds wherein my selfe am stayd? </l>
+            <l>Words are for them that can complaine and lyue, </l>
+            <l>Whose melting harts compos'd of baser frame, </l>
+            <l>Can to theyr sorrowes time and leysure gyue, </l>
+            <l>But Cleopatra may not doe the same. </l>
+            <l>No Anthony, thy loue requireth more. </l>
+            <l>A lingring death, with thee deserues no merit, </l>
+            <l>I must my selfe force open wide a dore </l>
+            <l>To let out life, and so vnhouse my spirit. </l>
+            <l>These hands must breake the prison of my soule </l>
+            <l>To come to thee, there to enioy like state, </l>
+            <l>As doth the long-pent solitary Foule, </l>
+            <l>That hath escapt her cage, and found her mate. </l>
+            <l>This Sacrifice to sacrifize my life, </l>
+            <l>Is that true incense that doth best beseeme: </l>
+            <l>These rites may serue a life-desiring wife, </l>
+            <l>Who dooing them, t'haue done enough doth deeme. </l>
+            <l>My hart blood should the purple flowers haue beene, </l>
+            <l>Which heere vpon thy Tombe to thee are offred, </l>
+            <l>No smoake but dying breath should heere been seene, </l>
+            <l>And this it had beene to, had I beene suffred. </l>
+            <pb xml:id="A19816-086-a"/>
+            <l>But what haue I saue these bare hands to doe it? </l>
+            <l>And these weake fingers are not yron-poynted: </l>
+            <l>They cannot peirce the flesh be'ing put vnto it, </l>
+            <l>And I of all meanes els am disapoynted. </l>
+            <l>But yet I must a way and meanes seeke, how </l>
+            <l>To come vnto thee, what so ere I doo. </l>
+            <l>O Death, art thou so hard to come by now, </l>
+            <l>That wee must pray, intreate, and seeke thee too? </l>
+            <l>But I will finde thee where so ere thou lye, </l>
+            <l>For who can stay a minde resolu'd to die? </l>
+          </lg>
+          <lg>
+            <l>And now I goe to worke th'effect in deede, </l>
+            <l>Ile neuer send more words or sighes to thee: </l>
+            <l>Ile bring my soule my selfe, and that with speed, </l>
+            <l>My selfe will bring my soule to Anthony. </l>
+            <l>Come goe my Maydes, my fortunes sole attenders, </l>
+            <l>That minister to misery and sorrow: </l>
+            <l>Your Mistres you vnto your freedom renders, </l>
+            <l>And quits you from all charge yet ere to morrow. </l>
+          </lg>
+          <lg>
+            <l>And now by this, I thinke the man I sent, </l>
+            <l>Is neere return'd that brings mee my dispatch. </l>
+            <l>God graunt his cunning sort to good euent, </l>
+            <l>And that his skill may well beguile my watch. </l>
+            <l>So shall I shun disgrace, leaue to be sorie, </l>
+            <l>Fly to my loue, scape my foe, free my soule; </l>
+            <pb xml:id="A19816-086-b"/>
+            <l>So shall I act the last act of my glory, </l>
+            <l>Dye like a Queene, and rest without controule. </l>
+            <l>Exit. </l>
+          </lg>
+        </div>
+        <div type="chorus" xml:id="A19816-e114210">
+          <head>CHORVS. </head>
+          <lg>
+            <l>MIsterious Egipt, wonder breeder, strict religions strange obseruer, </l>
+            <l>State-ordrer Zeale, the best rule-keeper, fostring still in feruor: </l>
+            <l>O how cam'st thou to lose so wholy all religion, law and order? </l>
+            <l>And thus become the most vnholy of all Lands that Nylus border? </l>
+            <l>How could confus'd Disorder enter where sterne Law sate so seuerely? </l>
+            <l>How durst weake lust and ryot venter th' eye of Iustice looking neerely? </l>
+            <l>Could not those means that made thee great, Be still the meanes to keepe thy state? </l>
+          </lg>
+          <lg>
+            <l>Ah no, the course of things requireth change and alteration euer: </l>
+            <l>That same continuaunce man desireth, <pb xml:id="A19816-087-a"/>th vnconstant world yeeldeth neuer. </l>
+            <l>Wee in our counsels must be blinded, and not see what dooth import vs: </l>
+            <l>And often-times the thing least minded, is the thing that most must hurt vs. </l>
+            <l>Yet they that haue the stearne in guiding, tis their fault that should preuent it, </l>
+            <l>For oft they seeing their Country slyding, take their ease, as though contented. </l>
+            <l>Wee imitate the greater powres, </l>
+            <l>The Princes manners fashion ours. </l>
+          </lg>
+          <lg>
+            <l>Th'example of their light regarding, vulgar loosenes much incences: </l>
+            <l>Vice vncontrould, growes wide inlarging, </l>
+            <l>Kings small faults, be great offences. </l>
+            <l>And this hath set the window open vnto lycence, lust and ryot: </l>
+            <l>This way Confusion first found broken, whereby entred our disquiet. </l>
+            <l>Those lawes that Zoroaster founded, and the Ptolomies obserued, </l>
+            <l>Heereby first came to be confounded, which our state so long preserued. </l>
+            <pb xml:id="A19816-087-b"/>
+            <l>The wanton luxurie of Court, </l>
+            <l>Dyd forme the people of like sort. </l>
+          </lg>
+          <lg>
+            <l>For all (respecting priuate pleasure,) vniuersally consenting </l>
+            <l>To abuse theyr time, theyr treasure, in theyr owne delights contenting: </l>
+            <l>And future dangers nought respecting, whereby, (O howe easie matter </l>
+            <l>Made this so generall neglecting, </l>
+            <l>Confus'd weakenes to disaster?) </l>
+            <l>Caesar found th' effect true tryed, in his easie entrance making: </l>
+            <l>Who at the sight of armes, discryed all our people, all forsaking. </l>
+            <l>For ryot (worse then warre,) so sore </l>
+            <l>Had wasted all our strength before. </l>
+          </lg>
+          <lg>
+            <l>And thus is Egipt seruile rendred, to the insolent destroyer: </l>
+            <l>And all their sumptuous treasure tendred, all her wealth that did betray her. </l>
+            <l>Which poyson (O if heauens be rightfull,) may so far infect their sences, </l>
+            <pb xml:id="A19816-088-a"/>
+            <l>That Egipts pleasures so delightfull, may breed them the like offences. </l>
+            <l>And Romans learne our way of weaknes, be instructed in our vices: </l>
+            <l>That our spoyles may spoyle your greatnes, ouercome with our deuises. </l>
+            <l>Fill full your hands, and carry home Inough from vs to ruine Rome. </l>
+          </lg>
+        </div>
+      </div>
+      <div type="act" xml:id="A19816-e114670">
+        <head>ACTVS QVINTVS. </head>
+        <div type="scene" xml:id="A19816-e114680">
+          <list>
+            <item>DOLABELLA, </item>
+            <item>TITIVS. </item>
+          </list>
+          <sp who="A19816-A19816" xml:id="A19816-e114720">
+            <speaker>Dol. </speaker>
+            <l>COme tell mee Titius eu'ry circumstaunce </l>
+            <l>How Cleopatra did receiue my newes: </l>
+            <l>Tell eu'ry looke, each gesture, countenaunce, </l>
+            <l>That shee did in my Letters reading vse. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e114770">
+            <speaker>Tit. </speaker>
+            <l>I shall my Lord so farre as I could note, </l>
+            <l>Or my conceite obserue in any wise. </l>
+            <l>It was the time when as shee hauing got </l>
+            <l>Leaue to her Deerest dead to sacrifize; </l>
+            <l>And now was issuing out the Monument, </l>
+            <pb xml:id="A19816-088-b"/>
+            <l>With Odors, Incense, Garlands in her hand, </l>
+            <l>When I approcht (as one from Caesar sent,) </l>
+            <l>And did her close thy message t'vnderstand. </l>
+            <l>Shee turnes her backe, and with her takes mee in, </l>
+            <l>Reades in thy lynes thy strange vnlookt for tale: </l>
+            <l>And reades, and smyles, and stayes, and doth begin </l>
+            <l>Againe to reade, then blusht, and then was pale. </l>
+            <l>And hauing ended with a sigh, refoldes </l>
+            <l>Thy Letter vp: and with a fixed eye, </l>
+            <l>(Which stedfast her imagination holds) </l>
+            <l>Shee mus'd a while, standing confusedly. </l>
+            <l>At length. Ah friend, (saith shee,) tell thy good Lord, </l>
+            <l>How deere I hold his pittying of my case: </l>
+            <l>That out of his sweet nature can afford, </l>
+            <l>A miserable woman so much grace. </l>
+            <l>Tell him how much my heauy soule doth grieue </l>
+            <l>Mercilesse Caesar should so deale with mee: </l>
+            <l>Pray him that he would all the counsell giue, </l>
+            <l>That might diuert him from such crueltie. </l>
+            <l>As for my loue, say Anthony hath all, </l>
+            <l>Say that my hart is gone into the graue </l>
+            <l>With him, in whom it rests and euer shall: </l>
+            <l>I haue it not my selfe, nor cannot haue. </l>
+            <l>Yet tell him, he shall more commaund of mee </l>
+            <pb xml:id="A19816-089-a"/>
+            <l>Then any, whosoeuer lyuing, can. </l>
+            <l>Hee that so friendly shewes himselfe to be </l>
+            <l>A right kind Roman, and a Gentleman. </l>
+            <l>Although his Nation (fatall vnto mee,) </l>
+            <l>Haue had mine age a spoyle, my youth a pray, </l>
+            <l>Yet his affection must accepted be, </l>
+            <l>That fauours one distrest in such decay. </l>
+            <l>Ah, hee was worthy then to haue been lou'd, </l>
+            <l>Of Cleopatra whiles her glory lasted; </l>
+            <l>Before shee had declyning fortune prou'd, </l>
+            <l>Or scene her honor wrackt, her flower blasted. </l>
+            <l>Now there is nothing left her but disgrace, </l>
+            <l>Nothing but her affliction that can moue: </l>
+            <l>Tell Dolabella, one that's in her case, </l>
+            <l>(Poore soule,) needes rather pitty now then loue. </l>
+            <l>But shortly shall thy Lord heare more of mee. </l>
+            <l>And ending so her speech, no longer stayd, </l>
+            <l>But hasted to the Tombe of Anthony. </l>
+            <l>And this was all shee did, and all shee said. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e115260">
+            <speaker>Dol. </speaker>
+            <l>Ah sweet distressed Lady. What hard hart </l>
+            <l>Could chuse but pitty thee, and loue thee too? </l>
+            <l>Thy worthines, the state wherein thou art </l>
+            <l>Requireth both, and both I vow to doo. </l>
+            <l>Although ambition lets not Caesar see </l>
+            <pb xml:id="A19816-089-b"/>
+            <l>The wrong hee doth thy Maiestie and sweetnes, </l>
+            <l>Which makes him now exact so much of thee, </l>
+            <l>To add vnto his pride, to grace his greatnes. </l>
+            <l>Hee knowes thou canst no hurt procure vs now, </l>
+            <l>Sith all thy strength is ceaz'd into our hands: </l>
+            <l>Nor feares hee that, but rather labours how </l>
+            <l>Hee might shew Rome so great a Queene in bands. </l>
+            <l>That our great Ladies (enuying thee so much </l>
+            <l>That stain'd them all, &amp; hell'd them in such wonder,) </l>
+            <l>Might ioy to see thee, and thy fortune such, </l>
+            <l>Thereby extolling him that brought thee vnder. </l>
+            <l>But I will seeke to stay it what I may; </l>
+            <l>I am but one, yet one that Caesar loues, </l>
+            <l>And ô if now I could doe more then pray, </l>
+            <l>Then should'st thou know how far affection moues. </l>
+            <l>But what my powre and prayer may preuaile, </l>
+            <l>Ile ioyne them both, to hinder thy disgrace: </l>
+            <l>And euen this present day I will not fayle </l>
+            <l>To doe my best with Caesar in this case. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e115510">
+            <speaker>Tit. </speaker>
+            <l>And Sir, euen now her selfe hath Letters sent, </l>
+            <l>I met her messenger as I came hither, </l>
+            <l>With a dispatch as hee to Caesar went, </l>
+            <l>But knowes not what imports her sending thither. </l>
+            <l>Yet this hee told, how Cleopatra late </l>
+            <pb xml:id="A19816-090-a"/>
+            <l>Was come from sacrifice. How ritchly clad </l>
+            <l>Was seru'd to dinner in most sumptuous state, </l>
+            <l>With all the brauest ornaments shee had. </l>
+            <l>How hauing dyn'd, shee writes, and sends away </l>
+            <l>Him straight to Caesar, and commaunded than </l>
+            <l>All should depart the Tombe, and none to stay </l>
+            <l>But her two maides, and one poore Countryman. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e115640">
+            <speaker>Dol. </speaker>
+            <l>Why then I know, she sends t'haue audience now, </l>
+            <l>And meanes t'experience what her state can doe: </l>
+            <l>To see if Maiestie will make him bow </l>
+            <l>To what affliction could not moue him to. </l>
+            <l>And ô, if now shee could but bring a view </l>
+            <l>Of that fresh beauty shee in youth possest, </l>
+            <l>(The argument where-with shee ouer-threw </l>
+            <l>The wit of Iulius Caesar, and the rest,) </l>
+            <l>Then happily Augustus might relent, </l>
+            <l>Whilst powrefull Loue, (far stronger than ambition) </l>
+            <l>Might worke in him, a mind to be content </l>
+            <l>To graunt her asking, in the best condition. </l>
+            <l>But beeing as shee is, yet doth she merite </l>
+            <l>To be respected, for what shee hath been: </l>
+            <l>The wonder of her kinde, of rarest spirit, </l>
+            <l>A glorious Lady, and a mighty Queene. </l>
+            <l>And now, but by a little weakenes falling </l>
+            <pb xml:id="A19816-090-b"/>
+            <l>To doe that which perhaps sh'was forst to doe: </l>
+            <l>Alas, an error past, is past recalling, </l>
+            <l>Take away weakenes, and take wemen too. </l>
+            <l>But now I goe to be thy Aduocate, </l>
+            <l>Sweet Cleopatra, now Ile vse mine arte. </l>
+            <l>Thy presence will mee greatly animate, </l>
+            <l>Thy face will teach my tongue, thy loue my hart. </l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="A19816-e115890">
+          <head>SCENA SECVNDA. </head>
+          <list>
+            <item>NVNTIVS. </item>
+          </list>
+          <l>AM I ordaind the carefull Messenger, </l>
+          <l>And sad newes-bringer of the strangest death, </l>
+          <l>Which selfe hand did vpon it selfe infer, </l>
+          <l>To free a captiue soule from seruile breath? </l>
+          <l>Must I the lamentable wonder shew, </l>
+          <l>Which all the world must grieue and meruaile at? </l>
+          <l>The rarest forme of death in earth below, </l>
+          <l>That euer pitty, glory, wonder gat. </l>
+          <sp who="A19816-A19816" xml:id="A19816-e116000">
+            <speaker>Chor. </speaker>
+            <l>What newes bring'st thou, can Egipt yet yeeld more </l>
+            <l>Of sorrow then it hath? what can it add </l>
+            <l>To th'already ouer-flowing store </l>
+            <l>Of sad affliction, matter yet more sad? </l>
+            <pb subtype="duplicate" type="blank" xml:id="A19816-091-a"/>
+            <pb subtype="duplicate" type="blank" xml:id="A19816-091-b"/>
+            <pb xml:id="A19816-092-a"/>
+            <l>Haue wee not seene the worst of our calamitie? </l>
+            <l>Is there behind yet something of distresse </l>
+            <l>Vnseene, vnknowne? Tell if that greater misery </l>
+            <l>There be, that we waile not that which is lesse. </l>
+            <l>Tell vs what so it be, and tell at fyrst, </l>
+            <l>For sorrow euer longs to heare her worst. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116110">
+            <speaker>Nun. </speaker>
+            <l>Well then, the strangest thing relate I will, </l>
+            <l>That euer eye of mortall man hath seene. </l>
+            <l>I (as you know) euen from my youth, haue stil </l>
+            <l>Attended on the person of the Queene. </l>
+            <l>And euer in all fortunes good or ill, </l>
+            <l>With her as one of chiefest trust haue beene. </l>
+            <l>And now in these so great extreamities, </l>
+            <l>That euer could to Maiestie befall, </l>
+            <l>I did my best in what I could deuise, </l>
+            <l>And left her not, till now shee left vs all. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116220">
+            <speaker>Chor. </speaker>
+            <l>What is shee gone. Hath Caesar forst her so? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116240">
+            <speaker>Nun. </speaker>
+            <l>Yea, shee is gone, and hath deceiu'd him to. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116260">
+            <speaker>Chor. </speaker>
+            <l>What, fled to INDIA, to goe find her sonne? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116280">
+            <speaker>Nun. </speaker>
+            <l>No, not to INDIA, but to find her sonne. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116300">
+            <speaker>Chor. </speaker>
+            <l>Why then there's hope she may her state recouer. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116320">
+            <speaker>Nun. </speaker>
+            <l>Her state? nay rather honor, and her Louer. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116340">
+            <speaker>Chor. </speaker>
+            <l>Her Louer? him shee cannot haue againe. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116360">
+            <speaker>Nun. </speaker>
+            <l>Well, him shee hath, with him she doth remaine. </l>
+          </sp>
+          <pb xml:id="A19816-092-b"/>
+          <sp who="A19816-A19816" xml:id="A19816-e116380">
+            <speaker>Cho. </speaker>
+            <l>Why then she's dead. Ist so? why speak'st not thou? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e116400">
+            <speaker>Nun. </speaker>
+            <l>You gesse aright, and I will tell you how. </l>
+            <l>When she perceiu'd al hope was cleane bereft her, </l>
+            <l>That Caesar meant to send her straight away, </l>
+            <l>And saw no meanes of reconcilement left her, </l>
+            <l>Work what she could, she could not work to stay. </l>
+            <l>Shee calls mee to her, and she thus began. </l>
+            <l>O thou whose trust hath euer beene the same </l>
+            <l>And one in all my fortunes, faithfull man, </l>
+            <l>Alone content t'attend disgrace and shame. </l>
+            <l>Thou, whom the fearefull ruine of my fall, </l>
+            <l>Neuer deterrd to leaue calamitie: </l>
+            <l>As did those other smooth state-pleasers all, </l>
+            <l>Who followed but my fortune, and not me. </l>
+            <l>Tis thou must doe a seruice for thy Queene, </l>
+            <l>Wherein thy faith and skill must doe their best: </l>
+            <l>Thy honest care and duty shall be seene </l>
+            <l>Performing this, more then in all the rest. </l>
+            <l>For all what thou hast done, may die with thee, </l>
+            <l>Although tis pitty that such faith should die. </l>
+            <l>But this shall euer-more remembred be, </l>
+            <l>A rare example to posterity. </l>
+            <l>And looke how long as Cleopatra shall </l>
+            <l>In after ages liue in memory, </l>
+            <pb xml:id="A19816-093-a"/>
+            <l>So long shall thy cleere fame endure withall, </l>
+            <l>And therefore thou must not my sute deny; </l>
+            <l>Nor contradict my will. For what I will </l>
+            <l>I am resolu'd: and this tis thou must doe mee: </l>
+            <l>Goe finde mee out with all thy arte and skill </l>
+            <l>To Aspicqs, and conuay them close vnto mee. </l>
+            <l>I haue a worke to doe with them in hand, </l>
+            <l>Enquire not what, for thou shalt soone see what, </l>
+            <l>If the heauens doe not my disseignes withstand, </l>
+            <l>But doe thy charge, and let mee shyft with that. </l>
+            <l>Beeing thus coniur'd, by her t'whom I'had vow'd </l>
+            <l>My true perpetuall seruice, forth I went, </l>
+            <l>Deuising how my close attempt to shrowde, </l>
+            <l>So that there might no arte my arte preuent. </l>
+            <l>And so disguis'd in habite as you see, </l>
+            <l>Hauing foūnd out the thing for which I went, </l>
+            <l>I soone return'd againe, and brought with mee </l>
+            <l>The Aspicqs, in a basket closely pent. </l>
+            <l>Which I had fill'd with figges, and leaues vpon. </l>
+            <l>And comming to the Guarde that kept the dore, </l>
+            <l>What hast thou there? said they, and lookt thereon. </l>
+            <l>Seeing the figgs, they deem'd of nothing more, </l>
+            <l>But sayd, they were the fairest they had seene. </l>
+            <l>Taste some, said I, for they are good and pleasant. </l>
+            <pb xml:id="A19816-093-b"/>
+            <l>No, no, sayd they, goe beare them to thy Queene. </l>
+            <l>Thinking mee some poore man that brought a Present. </l>
+            <l>Well, in I went, where brighter then the Sunne, </l>
+            <l>Glittering in all her pompous ritch aray, </l>
+            <l>Great Cleopatra sate; as if she' had wonne </l>
+            <l>Caesar and all the world beside this day. </l>
+            <l>Euen as shee was when on thy cristall streames, </l>
+            <l>O CYDNOS shee did shew what earth could shew. </l>
+            <l>When Asia all amaz'd in wonder, deemes </l>
+            <l>VENVS from heauen was come on earth below. </l>
+            <l>Euen as shee went at first to meete her Loue, </l>
+            <l>So goes shee now at last againe to finde him. </l>
+            <l>But that first, did her greatnes onely proue. </l>
+            <l>This last her loue, that could not liue behind him. </l>
+            <l>Yet as shee sate, the doubt of my good speed, </l>
+            <l>Detracts much from the sweetnes of her looke: </l>
+            <l>Cheere-marrer Care, did then such passions breed, </l>
+            <l>That made her eye bewray the care shee tooke. </l>
+            <l>But shee no sooner sees mee in the place, </l>
+            <l>But straight her sorrow-clowded brow shee cleeres, </l>
+            <l>Lightning a smile from out a stormy face, </l>
+            <l>Which all her tempest-beaten sences cheeres. </l>
+            <l>Looke how a stray'd perplexed trauailer, </l>
+            <l>When chas'd by thieues, and euen at poynt of taking, </l>
+            <pb xml:id="A19816-094-a"/>
+            <l>Discrying suddainly some towne not far, </l>
+            <l>Or some vnlookt-for ayde to him-ward making; </l>
+            <l>Cheeres vp his tired sp'rits, thrusts forth his strength </l>
+            <l>To meete that good, that comes in so good houre: </l>
+            <l>Such was her ioy, perceiuing now at length, </l>
+            <l>Her honor was t'escape so proude a powre. </l>
+            <l>Foorth from her seate shee hastes to meet the present, </l>
+            <l>And as one ouer-ioyd, shee caught it straight. </l>
+            <l>And with a smyling cheere in action pleasant, </l>
+            <l>Looking among the figges, findes the deceite. </l>
+            <l>And seeing there the vgly venemous beast, </l>
+            <l>Nothing dismayde, shee stayes and viewes it well. </l>
+            <l>At length, th'extreamest of her passion ceast, </l>
+            <l>When shee began with words her ioy to tell. </l>
+            <l>O rarest Beast (sayth shee) that Affrick breedes, </l>
+            <l>How deerely welcome art thou vnto mee? </l>
+            <l>The fayrest creature that faire Nylus feedes </l>
+            <l>Mee thinks I see, in now beholding thee. </l>
+            <l>What though the euer-erring world doth deeme </l>
+            <l>That angred Nature fram'd thee but in spight: </l>
+            <l>Little they know what they so light esteeme, </l>
+            <l>That neuer learn'd the wonder of thy might. </l>
+            <l>Better then Death, Deathes office thou dischargest, </l>
+            <l>That with one gentle touch canst free our breath: </l>
+            <pb xml:id="A19816-094-b"/>
+            <l>And in a pleasing sleepe our soule inlargest, </l>
+            <l>Making our selues not priuie to our death. </l>
+            <l>If Nature err'd, ô then how happy error, </l>
+            <l>Thinking to make thee worst, shee made thee best: </l>
+            <l>Sith thou best freest vs from our liues worst terror, </l>
+            <l>In sweetly bringing soules to quiet rest. </l>
+            <l>When that inexorable Monster Death </l>
+            <l>That followes Fortune, flyes the poore distressed, </l>
+            <l>Tortures our bodies ere hee takes our breath, </l>
+            <l>And loades with paines th'already weake oppressed. </l>
+            <l>How oft haue I begg'd, prayd, intreated him </l>
+            <l>To take my life, and yet could neuer get him? </l>
+            <l>And when he comes, he comes so vgly grim, </l>
+            <l>That who is he (if he could chuse) would let him? </l>
+            <l>Therefore come thou, of wonders wonder chiefe, </l>
+            <l>That open canst with such an easie key </l>
+            <l>The dore of life, come gentle cunning thiefe, </l>
+            <l>That from our selues so steal'st our selues away. </l>
+            <l>Well did our Priests discerne something diuine </l>
+            <l>Shadow'd in thee, and therefore first they did </l>
+            <l>Offrings and worshyps due to thee assigne, </l>
+            <l>In whom they found such misteries were hid. </l>
+            <l>Comparing thy sweet motion to the Sunne, </l>
+            <l>That mou'st without the instruments that moue: </l>
+            <pb xml:id="A19816-095-a"/>
+            <l>And neuer waxing old, but alwaies one, </l>
+            <l>Doost sure thy strange diuinitie approue. </l>
+            <l>And therefore to, the rather vnto thee </l>
+            <l>In zeale I make the offring of my blood, </l>
+            <l>Calamitie confirming now in mee </l>
+            <l>A sure beliefe that pietie makes good. </l>
+            <l>Which happy men neglect, or hold ambiguous, </l>
+            <l>And onely the afflicted are religious. </l>
+            <l>And heere I sacrifize these armes to Death, </l>
+            <l>That Lust late dedicated to Delights: </l>
+            <l>Offring vp for my last, this last of breath, </l>
+            <l>The complement of my loues deerest rites. </l>
+            <l>With that shee bares her arme, and offer makes </l>
+            <l>To touch her death, yet at the touch with-drawes, </l>
+            <l>And seeming more to speake, occasion takes, </l>
+            <l>Willing to die, and willing to to pause. </l>
+            <l>Looke how a Mother at her sonnes departing </l>
+            <l>For some far voyage, bent to get him fame, </l>
+            <l>Doth intertaine him with an idle parling. </l>
+            <l>And still doth speake, and still speakes but the same; </l>
+            <l>Now bids farewell, and now recalls him back, </l>
+            <l>Tells what was told, and bids againe fare-well, </l>
+            <l>And yet againe recalls; for still doth lack </l>
+            <l>Something that loue would faine and cannot tell. </l>
+            <pb xml:id="A19816-095-b"/>
+            <l>Pleas'd hee should goe, yet cannot let him goe. </l>
+            <l>So shee, although shee knew there was no way </l>
+            <l>But this, yet this shee could not handle so </l>
+            <l>But shee must shew that life desir'd delay. </l>
+            <l>Faine would shee entertaine the time as now, </l>
+            <l>And now would faine that Death would seaze vpon her. </l>
+            <l>Whilst I might see presented in her brow, </l>
+            <l>The doubtfull combat tryde twixt Life and Honor. </l>
+            <l>Life bringing Legions of fresh hopes with her, </l>
+            <l>Arm'd with the proose of Time, which yeelds we say </l>
+            <l>Comfort and Help, to such as doe refer </l>
+            <l>All vnto him, and can admit delay. </l>
+            <l>But Honor scorning Life, loe forth leades he </l>
+            <l>Bright Immortalitie in shyning armour: </l>
+            <l>Thorow the rayes of whose cleere glory, shee </l>
+            <l>Might see Lifes basenes, how much it might harm her. </l>
+            <l>Besides, shee saw whole Armies of Reproches, </l>
+            <l>And base Disgraces, Furies fearefull sad, </l>
+            <l>Marching with Life, and Shame that still incroches </l>
+            <l>Vppon her face, in bloody collours clad. </l>
+            <l>Which representments seeing worse then death </l>
+            <l>Shee deem'd to yeeld to Life, and therfore chose </l>
+            <l>To render all to Honour, hart and breath; </l>
+            <l>And that with speede, least that her inward foes </l>
+            <pb xml:id="A19816-096-a"/>
+            <l>False flesh and blood, ioyning with lyfe and hope, </l>
+            <l>Should mutinie against resolution. </l>
+            <l>And to the end shee would not giue them scope, </l>
+            <l>Shee presently proceeds to th'execution. </l>
+            <l>And sharply blaming of her rebell powres, </l>
+            <l>False flesh, (sayth shee,) and what dost thou conspire </l>
+            <l>With Caesar to, as thou wert none of ours, </l>
+            <l>To worke my shame, and hinder my desire? </l>
+            <l>Wilt thou retaine in closure of thy vaines, </l>
+            <l>That enemy Base life, to let my good? </l>
+            <l>No, know there is a greater powre constraines </l>
+            <l>Then can be countercheckt with fearefull blood. </l>
+            <l>For to the minde that's great, nothing seemes great. </l>
+            <l>And seeing death to be the last of woes, </l>
+            <l>And life lasting disgrace, which I shall get, </l>
+            <l>What doe I lose, that haue but life to lose? </l>
+            <l>This hauing said, strengthned in her owne hart, </l>
+            <l>And vnion of her selfe sences in one </l>
+            <l>Charging together, shee performes that part </l>
+            <l>That hath so great a part of glory wonne. </l>
+            <l>And so receiues the deadly poysning touch. </l>
+            <l>That touch that tryde the gold of her loue pure, </l>
+            <l>And hath confirm'd her honor to be such, </l>
+            <l>As must a wonder to all worlds endure. </l>
+            <l>Now not an yeelding shrinke or touch of feare. </l>
+            <l>Consented to bewray least sence of paine: </l>
+            <pb xml:id="A19816-096-b"/>
+            <l>But still in one same sweete vnaltred cheere, </l>
+            <l>Her honor did her dying thoughts retaine. </l>
+            <l>Well, now this work is done (saith she,) here ends </l>
+            <l>This act of life, that part of Fates assign'd mee: </l>
+            <l>What glory or disgrace heere this world lends, </l>
+            <l>Both haue I had, and both I leaue behinde mee. </l>
+            <l>And now ô Earth, the Theater where I </l>
+            <l>Haue acted this, witnes I dye vnforst. </l>
+            <l>Witnes my soule parts free to Anthony, </l>
+            <l>And now proude Tyrant Caesar doe thy worst. </l>
+            <l>This sayd, shee stayes, and makes a suddaine pause, </l>
+            <l>As twere to feele whither the poyson wrought: </l>
+            <l>Or rather els the working might be cause </l>
+            <l>That made her stay, as likewise may be thought. </l>
+            <l>For in that instant I might well perceiue, </l>
+            <l>The drowsie humor in her falling brow: </l>
+            <l>And how each powre, each part opprest did leaue </l>
+            <l>Theyr former office, and did sencelesse grow. </l>
+            <l>Looke how a new-pluckt branch against the Sunne, </l>
+            <l>Declynes his fading leaues in feeble sort, </l>
+            <l>So her disioyned ioyntures as vndonne. </l>
+            <l>Let fall her weake dissolued limmes support. </l>
+            <pb xml:id="A19816-097-a"/>
+            <l>Yet loe that face the wonder of her life, </l>
+            <l>Retaines in death, a grace that graceth death, </l>
+            <l>Couller so liuely, cheere so louely rife, </l>
+            <l>That none wold think such beauty could want breath. </l>
+            <l>And in that cheere, th'impression of a smile </l>
+            <l>Did seeme to shew shee scorned Death and Caesar, </l>
+            <l>As glorying that shee could them both beguile, </l>
+            <l>And telling death how much her death did please her. </l>
+            <l>Wonder it was to see how soone shee went, </l>
+            <l>Shee went with such a will, and did so haste it, </l>
+            <l>That sure I thinke shee did her paine preuent, </l>
+            <l>Fore-going paine, or staying not to taste it. </l>
+            <l>And sencelesse, in her sinking downe shee wryes </l>
+            <l>The Diadem which on her head shee wore, </l>
+            <l>Which Charmion (poore weake feeble mayd) espyes, </l>
+            <l>And hastes to right it as it was before. </l>
+            <l>For Eras now was dead, and Charmion too </l>
+            <l>Euen at the poynt, for both would imitate </l>
+            <l>Theyr Mistres glory, striuing like to doo. </l>
+            <l>But Charmion would in this exceede her mate, </l>
+            <l>For shee would haue this honour to be last, </l>
+            <l>That should adorne that head that must be seene </l>
+            <l>To weare a Crowne in death, that life held fast, </l>
+            <l>That all the world might know shee dyde a Queene. </l>
+            <pb xml:id="A19816-097-b"/>
+            <l>And as shee stood setting if fitly on, </l>
+            <l>Lo in rush Caesars Messengers in haste, </l>
+            <l>Thinking to haue preuented what was doone, </l>
+            <l>But yet they came too late, for all was past. </l>
+            <l>For there they found stretch'd on a bed of gold, </l>
+            <l>Dead Cleopatra, and that proudly dead, </l>
+            <l>In all the riche attyre procure shee could, </l>
+            <l>And dying Charmion trymming of her head. </l>
+            <l>And Eras at her feete, dead in like case. </l>
+            <l>Charmion, is this well doone? said one of them. </l>
+            <l>Yea, well sayd shee, and her that from the race </l>
+            <l>Of so great Kings discends, doth best become. </l>
+            <l>And with that word, yeelds too her faithful breath, </l>
+            <l>To passe th'assurance of her loue with death. </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e118940">
+            <speaker>Chor. </speaker>
+            <l>But how knew Caesar of her close intent? </l>
+          </sp>
+          <sp who="A19816-A19816" xml:id="A19816-e118960">
+            <speaker>Nun. </speaker>
+            <l>By Letters which before to him shee sent. </l>
+            <l>For when shee had procur'd this meanes to die, </l>
+            <l>Shee writes, and earnestly intreates, shee might </l>
+            <l>Be buried in one Tombe with Anthony. </l>
+            <l>Whereby then Caesar gess'd all went not right. </l>
+            <l>And forth-with sends, yet ere the message came </l>
+            <l>Shee was dispatcht, he crost in his intent, </l>
+            <l>Her prouidence had ordred so the same </l>
+            <l>That shee was sure none should her plot preuent. </l>
+          </sp>
+        </div>
+        <div type="chorus" xml:id="A19816-e119060">
+          <pb xml:id="A19816-098-a"/>
+          <head>CHORVS. </head>
+          <lg>
+            <l>THen thus we haue beheld </l>
+            <l>Th'accomplishment of woes, </l>
+            <l>The full of ruine, and </l>
+            <l>The worst of worst of ills. </l>
+            <l>And seene all hope expeld, </l>
+            <l>That euer sweet repose </l>
+            <l>Shall re-possess: the Land </l>
+            <l>That Desolations fills, </l>
+            <l>And where Ambition spills </l>
+            <l>With vncontrouled hand, </l>
+            <l>All th'issue of all those, </l>
+            <l>That so long rule haue hell'd: </l>
+            <l>To make vs no more vs, </l>
+            <l>But cleane confound vs thus. </l>
+          </lg>
+          <lg>
+            <l>And canst O Nylus thou, </l>
+            <l>Father of floods indure, </l>
+            <l>That yellow Tyber should </l>
+            <l>With sandy streames rule thee? </l>
+            <l>Wilt thou be pleas'd to bow </l>
+            <l>To him those feete so pure, </l>
+            <pb xml:id="A19816-098-b"/>
+            <l>Whose vnknowne head we hold </l>
+            <l>A powre diuine to bee? </l>
+            <l>Thou that didst euer see </l>
+            <l>Thy free banks vncontroul'd </l>
+            <l>Liue vnder thine owne care: </l>
+            <l>Ah wilt thou beare it now? </l>
+            <l>And now wilt yeeld thy streams </l>
+            <l>A pray to other Reames? </l>
+          </lg>
+          <lg>
+            <l>Draw backe thy waters floe </l>
+            <l>To thy concealed head: </l>
+            <l>Rockes strangle vp thy waues, </l>
+            <l>Stop Cataractes thy fall. </l>
+            <l>And turne thy courses so, </l>
+            <l>That sandy Dezarts dead, </l>
+            <l>(The world of dust that craues </l>
+            <l>To swallow thee vp all,) </l>
+            <l>May drinke so much as shall </l>
+            <l>Reuiue from vastie graues </l>
+            <l>A lyuing greene, which spredd </l>
+            <l>Far florshing, may gro </l>
+            <l>On that wide face of Death. </l>
+            <l>Where nothing now drawes breath. </l>
+          </lg>
+          <lg>
+            <pb xml:id="A19816-099-a"/>
+            <l>Fatten some people there, </l>
+            <l>Euen as thou vs hast doone, </l>
+            <l>With plenties wanton store, </l>
+            <l>And feeble luxurie: </l>
+            <l>And them as vs prepare </l>
+            <l>Fit for the day of mone </l>
+            <l>Respected not before. </l>
+            <l>Leaue leuell'd Egipt dry, </l>
+            <l>A barraine pray to lye, </l>
+            <l>Wasted for euer-more. </l>
+            <l>Of plenties yeelding none </l>
+            <l>To recompence the care </l>
+            <l>Of Victors greedy lust, </l>
+            <l>And bring forth nought but dust. </l>
+          </lg>
+          <lg>
+            <l>And so O leaue to bee, </l>
+            <l>Sith thou art what thou art: </l>
+            <l>Let not our race possess </l>
+            <l>Th'inheritance of shame, </l>
+            <l>The fee of sin, that wee </l>
+            <l>Haue left them for theyr part: </l>
+            <l>The yoke of whose distress </l>
+            <l>Must still vpbraid our blame, </l>
+            <l>Telling from whom it came. </l>
+            <pb xml:id="A19816-099-b"/>
+            <l>Our weight of wantonnes, </l>
+            <l>Lyes heauy on their hart, </l>
+            <l>Who neuer-more shall see </l>
+            <l>The glory of that worth </l>
+            <l>They left who brought vs forth. </l>
+          </lg>
+          <lg>
+            <l>O thou all seeing light, </l>
+            <l>High President of heauen, </l>
+            <l>You Magistrates the starres </l>
+            <l>Of that eternall court </l>
+            <l>Of Prouidence and Right, </l>
+            <l>Are these the bounds y'haue giuen </l>
+            <l>Th' vntranspassable barres, </l>
+            <l>That limit pride so short, </l>
+            <l>Is greatnes of this sort, </l>
+            <l>That greatnes greatnes marres, </l>
+            <l>And wracks it selfe, selfe driuen </l>
+            <l>On Rocks of her owne might? </l>
+            <l>Doth Order order so </l>
+            <l>Disorders ouer-thro? </l>
+          </lg>
+        </div>
+        <trailer>FINIS. </trailer>
+      </div>
+    </body>
+    <back>
+      <div type="colophon" xml:id="A19816-e119990">
+        <pb xml:id="A19816-100-a"/>
+        <p>AT LONDON, Printed by Iames Roberts, and Edward Allde, for Simon Waterson. </p>
+        <p>1594. </p>
+        <pb xml:id="A19816-100-b"/>
+      </div>
+      <div type="machine-generated_castlist">
+        <head>Machine-generated castlist</head>
+        <list n="159-A19816_03">
+          <item n="13">
+            <seg type="character_name">A19816_03-caesar</seg>
+            <seg type="speech_count">13</seg>
+          </item>
+          <item n="7">
+            <seg type="character_name">A19816_03-proculeius</seg>
+            <seg type="speech_count">7</seg>
+          </item>
+          <item n="7">
+            <seg type="character_name">A19816_03-chorus</seg>
+            <seg type="speech_count">7</seg>
+          </item>
+          <item n="7">
+            <seg type="character_name">A19816_03-nuntius</seg>
+            <seg type="speech_count">7</seg>
+          </item>
+          <item n="6">
+            <seg type="character_name">A19816_03-arius</seg>
+            <seg type="speech_count">6</seg>
+          </item>
+          <item n="5">
+            <seg type="character_name">A19816_03-philosopher</seg>
+            <seg type="speech_count">5</seg>
+          </item>
+          <item n="5">
+            <seg type="character_name">A19816_03-cleopatra</seg>
+            <seg type="speech_count">5</seg>
+          </item>
+          <item n="4">
+            <seg type="character_name">A19816_03-dolabella</seg>
+            <seg type="speech_count">4</seg>
+          </item>
+          <item n="4">
+            <seg type="character_name">A19816_03-seleucus</seg>
+            <seg type="speech_count">4</seg>
+          </item>
+          <item n="3">
+            <seg type="character_name">A19816_03-rodon</seg>
+            <seg type="speech_count">3</seg>
+          </item>
+          <item n="2">
+            <seg type="character_name">A19816_03-titius</seg>
+            <seg type="speech_count">2</seg>
+          </item>
+          <item n="1">
+            <seg type="character_name">A19816_03-missing</seg>
+            <seg type="speech_count">1</seg>
+          </item>
+        </list>
+      </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
+        <note target="A19816-057-a-0190">
+          <label>A19816_03-057-a-0190</label>
+          <sic>loudl'd</sic>
+          <seg>must then be knowne , VVhen Wilton lyes low</seg>
+          <corr>leuel'd</corr>
+          <seg>with the ground : And this is that which</seg>
+        </note>
+        <note target="A19816-057-a-2120">
+          <label>A19816_03-057-a-2120</label>
+          <sic>vs.</sic>
+          <seg>Land , That they might all admire and honour</seg>
+          <corr>vs</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A19816-059-b-0090">
+          <label>A19816_03-059-b-0090</label>
+          <sic>contayuing</sic>
+          <seg>ended , shee dispatched Letters to Caesar ,</seg>
+          <corr>contayning</corr>
+          <seg>great lamentations : with an earnest supplication</seg>
+        </note>
+        <note target="A19816-060-a-0200">
+          <label>A19816_03-060-a-0200</label>
+          <sic>Scruaunt</sic>
+          <seg>TITIVS ,</seg>
+          <corr>seruant</corr>
+          <seg>to DOLABELLA .</seg>
+        </note>
+        <note target="A19816-061-a-0770">
+          <label>A19816_03-061-a-0770</label>
+          <sic>lufts</sic>
+          <seg>world , borne but for Fortunes foile , My</seg>
+          <corr>lusts</corr>
+          <seg>haue fram'd a Tombe for mee to lie , Euen</seg>
+        </note>
+        <note target="A19816-061-a-1760">
+          <label>A19816_03-061-a-1760</label>
+          <sic>A dorn'd</sic>
+          <seg>Am I the woman , whose inuentiue pride , (</seg>
+          <corr>Adorn'd</corr>
+          <seg>like Isis , ) scornd mortalitie ? Ist I</seg>
+        </note>
+        <note target="A19816-062-a-2240">
+          <label>A19816_03-062-a-2240</label>
+          <sic>crasty</sic>
+          <seg>pleasure , Calamitie heerein hath made me</seg>
+          <corr>crafty</corr>
+          <seg>. But tis not long , Ile see what may be</seg>
+        </note>
+        <note target="A19816-064-a-0650">
+          <label>A19816_03-064-a-0650</label>
+          <sic>Antumne</sic>
+          <seg>Anthony , ) that best deseru'dst it better Thys</seg>
+          <corr>Autumne</corr>
+          <seg>of my beauty bought so deerely , For which</seg>
+        </note>
+        <note target="A19816-064-b-0050">
+          <label>A19816_03-064-b-0050</label>
+          <sic>Furtes</sic>
+          <seg>BEhold what</seg>
+          <corr>Furies</corr>
+          <seg>still Torment their tortur'd brest . Who</seg>
+        </note>
+        <note target="A19816-066-b-2370">
+          <label>A19816_03-066-b-2370</label>
+          <sic>knift</sic>
+          <seg>that the Queene raught frō her side her</seg>
+          <corr>knife</corr>
+          <seg>, And euen in acte to stab her martred brest</seg>
+        </note>
+        <note target="A19816-067-a-0060">
+          <label>A19816_03-067-a-0060</label>
+          <sic>slab</sic>
+          <seg>her side her knife , And euen in acte to</seg>
+          <corr>stab</corr>
+          <seg>her martred brest , I stept with speed ,</seg>
+        </note>
+        <note target="A19816-067-a-0380">
+          <label>A19816_03-067-a-0380</label>
+          <sic>should'is</sic>
+          <seg>the blade did wrest . Ah Cleopatra , why</seg>
+          <corr>should'st</corr>
+          <seg>thou ( said I , ) Both iniurie thy selfe</seg>
+        </note>
+        <note target="A19816-069-b-0790">
+          <label>A19816_03-069-b-0790</label>
+          <sic>mindel</sic>
+          <seg>what thou hast , thou still doost lacke : O</seg>
+          <corr>minde's</corr>
+          <seg>tormentor , bodies wracke , Vaine promiser</seg>
+        </note>
+        <note target="A19816-071-a-0440">
+          <label>A19816_03-071-a-0440</label>
+          <sic>seele</sic>
+          <seg>liue , we care not how we liue : So deepe we</seg>
+          <corr>feel</corr>
+          <seg>impressed in our blood , That touch which</seg>
+        </note>
+        <note target="A19816-073-b-0810">
+          <label>A19816_03-073-b-0810</label>
+          <sic>ab horring</sic>
+          <seg>chose : But that my ' oppressed thoughts</seg>
+          <corr>abhorring</corr>
+          <seg>light , Like best in darknes , my disgrace</seg>
+        </note>
+        <note target="A19816-075-a-1570">
+          <label>A19816_03-075-a-1570</label>
+          <sic>vng greateful</sic>
+          <seg>What vile</seg>
+          <corr>vngreateful</corr>
+          <seg>wretch , dar'st thou cōtroule Thy Queene</seg>
+        </note>
+        <note target="A19816-077-b-0850">
+          <label>A19816_03-077-b-0850</label>
+          <sic>punishs</sic>
+          <seg>multitude , For great mens faults should</seg>
+          <corr>punisht</corr>
+          <seg>be , And to destruction thus pursude . O</seg>
+        </note>
+        <note target="A19816-078-b-1830">
+          <label>A19816_03-078-b-1830</label>
+          <sic>slowne</sic>
+          <seg>meane to climbe , And fled the wretched ,</seg>
+          <corr>flowne</corr>
+          <seg>vnto the great , ( Follow'ing the fortune</seg>
+        </note>
+        <note target="A19816-082-b-1800">
+          <label>A19816_03-082-b-1800</label>
+          <sic>rhou</sic>
+          <seg>others may depriue thine in like case . When</seg>
+          <corr>thou</corr>
+          <seg>maist see thy proude contentious bed Yeelding</seg>
+        </note>
+        <note target="A19816-087-b-0610">
+          <label>A19816_03-087-b-0610</label>
+          <sic>diseater</sic>
+          <seg>generall neglecting , Confus'd weakenes to</seg>
+          <corr>disaster</corr>
+          <seg>? ) Caesar found th' effect true tryed ,</seg>
+        </note>
+        <note target="A19816-092-a-2570">
+          <label>A19816_03-092-a-2570</label>
+          <sic>w</sic>
+          <seg>VVell , him shee hath ,</seg>
+          <corr>with</corr>
+          <seg>him she doth remaine .</seg>
+        </note>
+        <note target="A19816-093-b-0510">
+          <label>A19816_03-093-b-0510</label>
+          <sic>she'had</sic>
+          <seg>ritch aray , Great Cleopatra sate ; as if</seg>
+          <corr>she' had</corr>
+          <seg>wonne Caesar and all the world beside</seg>
+        </note>
+        <note target="A19816-095-a-0800">
+          <label>A19816_03-095-a-0800</label>
+          <sic>Offling</sic>
+          <seg>, That Lust late dedicated to Delights :</seg>
+          <corr>Offring</corr>
+          <seg>vp for my last , this last of breath , The</seg>
+        </note>
+        <note target="A19816-096-a-0140">
+          <label>A19816_03-096-a-0140</label>
+          <sic>againsther</sic>
+          <seg>ioyning with lyfe and hope , Should mutinie</seg>
+          <corr>against</corr>
+          <seg>resolution . And to the end shee would not</seg>
+        </note>
+        <note target="A19816-098-a-0150">
+          <label>A19816_03-098-a-0150</label>
+          <sic>rutne</sic>
+          <seg>beheld Th'accomplishment of woes , The full of</seg>
+          <corr>ruine</corr>
+          <seg>, and The worst of worst of ills . And seene</seg>
+        </note>
+        <note target="A19816-099-a-0020">
+          <label>A19816_03-099-a-0020</label>
+          <sic>somepeople</sic>
+          <seg>Fatten</seg>
+          <corr>some people</corr>
+          <seg>there , Euen as thou vs hast doone</seg>
+        </note>
+        <note target="A19816-099-a-0960">
+          <label>A19816_03-099-a-0960</label>
+          <sic>see</sic>
+          <seg>race possess Th'inheritance of shame , The</seg>
+          <corr>fee</corr>
+          <seg>of sin , that wee Haue left them for theyr</seg>
+        </note>
+        <note target="A19816-099-b-0580">
+          <label>A19816_03-099-b-0580</label>
+          <sic>Th'vntr</sic>
+          <seg>Right , Are these the bounds y'haue giuen</seg>
+          <corr>Th'</corr>
+          <seg>vntranspassable barres , That limit pride</seg>
+        </note>
+        <note target="A19816-099-b-0590">
+          <label>A19816_03-099-b-0590</label>
+          <sic>anspassable</sic>
+          <seg>Right , Are these the bounds y'haue giuen Th'</seg>
+          <corr>vntranspassable</corr>
+          <seg>barres , That limit pride so short , Is</seg>
+        </note>
+      </div>
+    </back>
+  </text>
+</TEI>
