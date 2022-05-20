@@ -1,2 +1,2 @@
-# engdracor (better: endracor?)
+# engdracor
 English Drama Corpus
