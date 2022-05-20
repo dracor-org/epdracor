@@ -176,32 +176,49 @@
   </xsl:template>
 
   <xsl:template name="authors">
-    <xsl:for-each select="//tei:xenoData/ep:epHeader/ep:author">
-      <!-- match author name with authors.xml -->
-      <xsl:variable name="name" select="ep:name"/>
-      <xsl:variable name="match" select="$authors//author/match[. eq $name]/parent::*"/>
-      <xsl:choose>
-        <xsl:when test="$match">
-          <xsl:copy select="$match/tei:author">
+    <xsl:variable
+      name="author-elems"
+      select="$authors//author/play[. eq $tcpid]/parent::*"/>
+    <xsl:choose>
+      <xsl:when test="$author-elems">
+        <xsl:for-each select="$author-elems">
+          <xsl:copy select="./tei:author">
             <xsl:apply-templates/>
           </xsl:copy>
-        </xsl:when>
-        <xsl:otherwise>
-          <author>
-            <xsl:comment select="normalize-space(.)"/>
-            <xsl:variable name="parts" select="tokenize(normalize-space(.), ', *')"/>
-            <persName>
-              <forename>
-                <xsl:value-of select="$parts[2]"/>
-              </forename>
-              <surname>
-                <xsl:value-of select="$parts[1]"/>
-              </surname>
-            </persName>
-          </author>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:for-each>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:for-each select="//tei:xenoData/ep:epHeader/ep:author">
+          <!-- match author name with authors.xml -->
+          <xsl:variable name="name" select="ep:name"/>
+          <xsl:variable
+            name="match"
+            select="$authors//author/match[. eq $name]/parent::*"/>
+          <xsl:choose>
+            <xsl:when test="$match">
+              <xsl:copy select="$match/tei:author">
+                <xsl:apply-templates/>
+              </xsl:copy>
+            </xsl:when>
+            <xsl:otherwise>
+              <author>
+                <xsl:comment select="normalize-space(.)"/>
+                <xsl:variable
+                  name="parts" select="tokenize(normalize-space(.), ', *')"/>
+                <persName>
+                  <forename>
+                    <xsl:value-of select="$parts[2]"/>
+                  </forename>
+                  <surname>
+                    <xsl:value-of select="$parts[1]"/>
+                  </surname>
+                </persName>
+              </author>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="publicationStmt">
