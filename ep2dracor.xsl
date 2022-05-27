@@ -4,8 +4,9 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:ep="http://earlyprint.org/ns/1.0"
   xmlns:d="http://dracor.org/ns/1.0"
+  xmlns:fn="http://www.w3.org/2005/xpath-functions"
   xmlns="http://www.tei-c.org/ns/1.0"
-  exclude-result-prefixes="ep d tei"
+  exclude-result-prefixes="ep d tei fn"
   version="3.0">
 
   <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="yes" indent="yes"/>
@@ -20,13 +21,39 @@
     select="replace(tokenize(document-uri(.), '/')[last()], '.xml', '')"/>
   <xsl:variable name="meta" select="$index//item[@sourceid eq $tcpid]"/>
 
+  <!--
+    In some documents (e.g. A16527_01.xml) only the main part of the TCP ID
+    before the number suffix (_01) is used to prefix the xml:ids while in others
+    (e.g. A04632_09.xml) the entire ID is used. Here we try to figure out which
+    prefix is used.
+  -->
+  <xsl:variable name="idprefix">
+    <xsl:choose>
+      <xsl:when test="count(//@xml:id[starts-with(., $tcpid || '-')]) > 1">
+        <xsl:value-of select="$tcpid"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="tokenize($tcpid, '_')[1]"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+
+  <xsl:function name="d:id-to-name">
+    <xsl:param name="id"/>
+    <xsl:sequence select="
+      fn:string-join(
+        tokenize(replace($id, $idprefix || '-', ''), '[-_]')
+         ! concat(upper-case(substring(., 1, 1)), substring(., 2)), ' ')"
+    />
+  </xsl:function>
+
   <xsl:template match="/">
     <xsl:choose>
       <xsl:when test="$meta">
         <xsl:variable
           name="target"
           select="concat($outputdirectory, '/', $meta/@slug, '.xml')"/>
-        <xsl:message select="$target"/>
+        <xsl:message select="$tcpid || ' (' || $idprefix || '): ' || $target"/>
         <xsl:result-document href="{$target}">
           <xsl:apply-templates select="tei:TEI"/>
         </xsl:result-document>
@@ -173,8 +200,22 @@
   <!-- strip @xml:id except for div, sp and stage -->
   <xsl:template match="@xml:id"/>
   <xsl:template match="(tei:div|tei:sp|tei:stage|tei:pb)/@xml:id">
-    <xsl:attribute name="xml:id" select="replace(., $tcpid, $meta/@id)"/>
+    <xsl:attribute name="xml:id" select="replace(., $idprefix, $meta/@id)"/>
   </xsl:template>
+
+  <!-- fix @who references -->
+  <xsl:template match="tei:sp/@who">
+    <xsl:attribute
+      name="who"
+      select="tokenize(., ' ') ! concat('#', replace(., $idprefix, $meta/@id))"
+    />
+  </xsl:template>
+
+  <!-- strip machine generated castlist -->
+  <xsl:template match="tei:div[@type='machine-generated_castlist']" />
+
+  <!-- strip textual notes -->
+  <xsl:template match="tei:div[@type='textual_notes']" />
 
   <xsl:template name="authors">
     <xsl:variable
@@ -262,16 +303,18 @@
   </xsl:template>
 
   <xsl:template name="profileDesc">
-    <!-- FIXME: generate particDesc -->
     <profileDesc>
+      <xsl:if test="//tei:sp/@who">
+        <xsl:call-template name="particDesc"/>
+      </xsl:if>
       <xsl:call-template name="textClass"/>
     </profileDesc>
   </xsl:template>
 
   <xsl:template name="textClass">
-    <textClass>
-      <xsl:variable name="subgenre" select="//tei:xenoData/ep:epHeader/ep:subgenre"/>
-      <xsl:if test="$subgenre = ('comedy', 'tragedy', 'tragicomedy')">
+    <xsl:variable name="subgenre" select="//tei:xenoData/ep:epHeader/ep:subgenre"/>
+    <xsl:if test="$subgenre = ('comedy', 'tragedy', 'tragicomedy')">
+      <textClass>
         <classCode scheme="http://www.wikidata.org/entity/">
           <xsl:choose>
             <xsl:when test="$subgenre = ('comedy')">
@@ -285,8 +328,21 @@
             </xsl:when>
           </xsl:choose>
         </classCode>
-      </xsl:if>
-    </textClass>
+      </textClass>
+    </xsl:if>
   </xsl:template>
 
+  <xsl:template name="particDesc">
+    <particDesc>
+      <listPerson>
+        <xsl:for-each select="distinct-values(//tei:sp/@who/tokenize(., ' '))">
+          <person xml:id="{replace(., $idprefix, $meta/@id)}">
+            <persName>
+              <xsl:value-of select="d:id-to-name(.)"/>
+            </persName>
+          </person>
+        </xsl:for-each>
+      </listPerson>
+    </particDesc>
+  </xsl:template>
 </xsl:stylesheet>
