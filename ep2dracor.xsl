@@ -242,7 +242,11 @@
     <sourceDesc>
       <bibl type="digitalSource">
         <name>EarlyPrint Project</name>
-        <idno type="URL">https://earlyprint.org</idno>
+        <idno type="URL">
+          <xsl:text>https://texts.earlyprint.org/works/</xsl:text>
+          <xsl:value-of select="$tcpid"/>
+          <xsl:text>.xml</xsl:text>
+        </idno>
         <!-- FIXME: add source URL (Bitbucket or website?) -->
         <availability>
           <!-- FIXME? -->
