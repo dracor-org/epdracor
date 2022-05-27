@@ -137,6 +137,7 @@
         </titleStmt>
         <xsl:call-template name="publicationStmt"/>
         <xsl:call-template name="sourceDesc"/>
+        <xsl:call-template name="profileDesc"/>
       </fileDesc>
     </teiHeader>
     <standOff>
@@ -262,6 +263,30 @@
 
   <xsl:template name="profileDesc">
     <!-- FIXME: generate particDesc -->
+    <profileDesc>
+      <xsl:call-template name="textClass"/>
+    </profileDesc>
+  </xsl:template>
+
+  <xsl:template name="textClass">
+    <textClass>
+      <xsl:variable name="subgenre" select="//tei:xenoData/ep:epHeader/ep:subgenre"/>
+      <xsl:if test="$subgenre = ('comedy', 'tragedy', 'tragicomedy')">
+        <classCode scheme="http://www.wikidata.org/entity/">
+          <xsl:choose>
+            <xsl:when test="$subgenre = ('comedy')">
+              <xsl:text>Q40831</xsl:text>
+            </xsl:when>
+            <xsl:when test="$subgenre = ('tragedy')">
+              <xsl:text>Q80930</xsl:text>
+            </xsl:when>
+            <xsl:when test="$subgenre = ('tragicomedy')">
+              <xsl:text>Q192881</xsl:text>
+            </xsl:when>
+          </xsl:choose>
+        </classCode>
+      </xsl:if>
+    </textClass>
   </xsl:template>
 
 </xsl:stylesheet>
