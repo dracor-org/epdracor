@@ -88,6 +88,54 @@
           </bibl>
         </bibl>
       </sourceDesc>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000352-elvira">
+              <persName>Elvira</persName>
+            </person>
+            <person xml:id="ep000352-count">
+              <persName>Count</persName>
+            </person>
+            <person xml:id="ep000352-cimena">
+              <persName>Cimena</persName>
+            </person>
+            <person xml:id="ep000352-infanta">
+              <persName>Infanta</persName>
+            </person>
+            <person xml:id="ep000352-leonora">
+              <persName>Leonora</persName>
+            </person>
+            <person xml:id="ep000352-page">
+              <persName>Page</persName>
+            </person>
+            <person xml:id="ep000352-diego">
+              <persName>Diego</persName>
+            </person>
+            <person xml:id="ep000352-roderigo">
+              <persName>Roderigo</persName>
+            </person>
+            <person xml:id="ep000352-arias">
+              <persName>Arias</persName>
+            </person>
+            <person xml:id="ep000352-boy">
+              <persName>Boy</persName>
+            </person>
+            <person xml:id="ep000352-king">
+              <persName>King</persName>
+            </person>
+            <person xml:id="ep000352-sancho">
+              <persName>Sancho</persName>
+            </person>
+            <person xml:id="ep000352-alonso">
+              <persName>Alonso</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+        <textClass>
+          <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+        </textClass>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -173,7 +221,7 @@
           <div n="1" type="scene" xml:id="ep000352-e100430">
             <head>ACT I. SCENE I. </head>
             <stage xml:id="ep000352-e100440">COUNT. ELVIRA. </stage>
-            <sp who="A19346-elvira" xml:id="ep000352-e100450">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e100450">
               <speaker>ELVIRA. </speaker>
               <l>MOngst all the youthfull lovers which adore </l>
               <l>Your daughters beauty, and implore my aid, </l>
@@ -185,7 +233,7 @@
               <l>Or adde ought to their hopes, but still expects </l>
               <l>A husband from your choice alone design'd. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e100550">
+            <sp who="#ep000352-count" xml:id="ep000352-e100550">
               <speaker>COUNT. </speaker>
               <l>She does her duty, both of them deserve her, </l>
               <l>Both sprung from brave and noble families, </l>
@@ -216,32 +264,32 @@
           <div n="2" type="scene" xml:id="ep000352-e100790">
             <head>SCENE II. </head>
             <stage xml:id="ep000352-e100800">ELVIRA. CIMENA. </stage>
-            <sp who="A19346-elvira" xml:id="ep000352-e100810">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e100810">
               <speaker>ELVIRA. </speaker>
               <l>HOw welcome newes will this be to our lovers? </l>
               <l>How fortune has provided, that all things </l>
               <l>Should sort to their contentment? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e100850">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e100850">
               <speaker>CIMENA. </speaker>
               <l>How now Elvira? </l>
               <l>What in conclusion must I hope or feare? </l>
               <l>What must become of me? what sayes my father? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e100890">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e100890">
               <speaker>ELVIRA. </speaker>
               <l>Onely two words, enough to charme your senses, </l>
               <l>You cannot love Roderigo, more than he </l>
               <pb xml:id="ep000352-007-b"/>
               <l>Does value him. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e100930">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e100930">
               <speaker>CIMENA. </speaker>
               <l>Prithee speake truth Elvira, </l>
               <l>Th' excesse of this my happiness does stagger </l>
               <l>My faith in it; may I beleeve thy words? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e100970">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e100970">
               <speaker>ELVIRA. </speaker>
               <l>Nay he went farther, he approves his love, </l>
               <l>And will command you meet with his desires, </l>
@@ -250,7 +298,7 @@
               <l>Fit for his purpose, shall propose the businesse; </l>
               <l>Feare not but your desires will be contented. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e101040">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e101040">
               <speaker>CIMENA. </speaker>
               <l>I cannot tell, but yet me thinks my soule </l>
               <l>Does not receive this joy; but all confounded </l>
@@ -258,12 +306,12 @@
               <l>A divers face from this my happinesse, </l>
               <l>And crosse my present fortune. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e101100">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e101100">
               <speaker>ELVIRA. </speaker>
               <l>You will finde </l>
               <l>This feare of yours most happily deceiv'd. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e101130">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e101130">
               <speaker>CIMENA. </speaker>
               <l>Well, let us goe then, and attend the issue. </l>
             </sp>
@@ -271,20 +319,20 @@
           <div n="3" type="scene" xml:id="ep000352-e101150">
             <head>SCENE III. </head>
             <stage xml:id="ep000352-e101160">INFANTA. LEONORA. PAGE. </stage>
-            <sp who="A19346-infanta" xml:id="ep000352-e101170">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e101170">
               <speaker>INFANTA. </speaker>
               <l>GOe boy, looke out Cimena, and from me </l>
               <l>Tell her, her presence was expected sooner, </l>
               <l>My friendship must complaine of this her sloth. </l>
             </sp>
             <pb xml:id="ep000352-008-a"/>
-            <sp who="A19346-leonora" xml:id="ep000352-e101210">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e101210">
               <speaker>LEONORA. </speaker>
               <l>I perceive, Madame, that all dayes alike </l>
               <l>You're sad and pensive, and the same desire </l>
               <l>To know how her love goes, still presses you. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e101250">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e101250">
               <speaker>INFANTA. </speaker>
               <l>How should it not? when I my selfe have made her </l>
               <l>Receive the hurt wherewith her soule is wounded, </l>
@@ -293,7 +341,7 @@
               <l>Then since to take 'um I have laid the snare, </l>
               <l>To free 'um unto me belongs the care. </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e101320">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e101320">
               <speaker>LEONORA. </speaker>
               <l>And yet i'th midst of all their good successe </l>
               <l>One may perceive in you a kinde of sorrow; </l>
@@ -303,7 +351,7 @@
               <l>Make you unhappy, when themselves are blest? </l>
               <l>But I'me too forward, and grow indiscreet. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e101400">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e101400">
               <speaker>INFANTA. </speaker>
               <l>To stifle it increases more my griefe! </l>
               <l>Leonora, thou shalt know it, and now heare </l>
@@ -313,17 +361,17 @@
               <l>As will spare none, this Gentleman, this lover </l>
               <l>Which I've bestow'd on her, I love my selfe. </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e101480">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e101480">
               <speaker>LEONORA. </speaker>
               <l>You Madame? </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e101500">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e101500">
               <speaker>INFANTA. </speaker>
               <l>Lay thy hand upon my heart </l>
               <l>And feele now how it pants at th' hearing of </l>
               <l>The name of its owne Conquerour. </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e101540">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e101540">
               <speaker>LEONORA. </speaker>
               <l>Pardon me, Madam, </l>
               <l>If blaming of your love, I doe forget </l>
@@ -334,7 +382,7 @@
               <l>Whose child you are? what will the King say, think you? </l>
               <l>Doe you remember, Madam, whose you are? </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e101620">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e101620">
               <speaker>INFANTA. </speaker>
               <l>Yes, yes, Leonora, and will rather die </l>
               <l>Than doe a thing unworthy of my birth: </l>
@@ -373,7 +421,7 @@
               <l>So many baits my love and honour have, </l>
               <l>In stead of comfort I must finde a grave. </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e101980">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e101980">
               <speaker>LEONORA. </speaker>
               <l>After this, Madam, I have nought to say, </l>
               <l>Unlesse it be to grieve for your misfortunes, </l>
@@ -386,23 +434,23 @@
               <l>Cast your firm hope on heaven, which has more justice </l>
               <l>Than to let virtue be a sufferer long. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e102090">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e102090">
               <speaker>INFANTA. </speaker>
               <l>My best of hopes is to cast off all hope. </l>
             </sp>
-            <sp who="A19346-page" xml:id="ep000352-e102110">
+            <sp who="#ep000352-page" xml:id="ep000352-e102110">
               <speaker>PAGE. </speaker>
               <l>Madam, Cimena's come, as you commanded. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e102130">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e102130">
               <speaker>INFANTA. </speaker>
               <l>Goe, entertaine her in the Gallery. </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e102150">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e102150">
               <speaker>LEONORA. </speaker>
               <l>But will you still remaine in these sad fancies? </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e102170">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e102170">
               <speaker>INFANTA. </speaker>
               <l>No, I will 'spight of all my griefe, put on </l>
               <l>A face of gladnesse. Goe, I'le follow you. </l>
@@ -419,19 +467,19 @@
             <pb xml:id="ep000352-009-b"/>
             <head>SCENE IV. </head>
             <stage xml:id="ep000352-e102280">COUNT de GORMAS. D. DIEGO. </stage>
-            <sp who="A19346-count" xml:id="ep000352-e102290">
+            <sp who="#ep000352-count" xml:id="ep000352-e102290">
               <speaker>COUNT. </speaker>
               <l>WEll sir, you have got the day, the Kings high favour </l>
               <l>Has lifted you to that which was my due, </l>
               <l>H' has made you governour to the Prince of Castile. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e102330">
+            <sp who="#ep000352-diego" xml:id="ep000352-e102330">
               <speaker>D. DIEGO. </speaker>
               <l>This honour which he has done my family, </l>
               <l>Shewes he is just, and knowes well how to pay </l>
               <l>With recompence, past services. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e102370">
+            <sp who="#ep000352-count" xml:id="ep000352-e102370">
               <speaker>COUNT. </speaker>
               <l>Though Kings </l>
               <l>Be great, they are like us, and as much subject </l>
@@ -439,7 +487,7 @@
               <l>Makes us (which are his servants) see, how ill </l>
               <l>He recompences present services. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e102430">
+            <sp who="#ep000352-diego" xml:id="ep000352-e102430">
               <speaker>D. DIEGO. </speaker>
               <l>Pray let's no more of this: perhaps t' advance </l>
               <l>My businesse, favour did as much as merit: </l>
@@ -452,7 +500,7 @@
               <l>The chiefest object of's affections, </l>
               <l>Give your consent, and take him for your sonne. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e102540">
+            <sp who="#ep000352-count" xml:id="ep000352-e102540">
               <speaker>COUNT. </speaker>
               <l>O Sir, Roderigo must looke higher now, </l>
               <pb xml:id="ep000352-010-a"/>
@@ -472,7 +520,7 @@
               <l>Shew him this by example, and remember </l>
               <l>You ought to represent what you would teach. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e102710">
+            <sp who="#ep000352-diego" xml:id="ep000352-e102710">
               <speaker>D. DIEGO. </speaker>
               <l>To instruct him by example, this I'le say </l>
               <l>In spight of envie, let him read my life, </l>
@@ -480,7 +528,7 @@
               <l>To set on any place, to range an Army, </l>
               <l>And lay his ground of honour on his actions. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e102770">
+            <sp who="#ep000352-count" xml:id="ep000352-e102770">
               <speaker>COUNT. </speaker>
               <l>Living examples move more forcibly </l>
               <l>Than books, in which a Prince scarce learnes his duty: </l>
@@ -500,7 +548,7 @@
               <l>(Though to my valour they're prefer'd by some) </l>
               <l>In seeing my actions, how to overcome. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e102940">
+            <sp who="#ep000352-diego" xml:id="ep000352-e102940">
               <speaker>D. DIEGO. </speaker>
               <l>In vaine you tell me that I know already, </l>
               <l>I've seene you fight, and under me command. </l>
@@ -510,65 +558,65 @@
               <l>You are what I was once, and yet the King </l>
               <l>'Twixt our deserts has put a difference. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103020">
+            <sp who="#ep000352-count" xml:id="ep000352-e103020">
               <speaker>COUNT. </speaker>
               <l>That which was my desert, you have obtain'd. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103040">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103040">
               <speaker>D. DIEGO. </speaker>
               <l>He that has got it, sure has best deserv'd it. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103060">
+            <sp who="#ep000352-count" xml:id="ep000352-e103060">
               <speaker>COUNT. </speaker>
               <l>He that can best discharge it, best deserves it. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103080">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103080">
               <speaker>D. DIEGO. </speaker>
               <l>'Tis no good signe though to be put beside it. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103100">
+            <sp who="#ep000352-count" xml:id="ep000352-e103100">
               <speaker>COUNT. </speaker>
               <l>Like an old Courtier, by much suit you got it. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103120">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103120">
               <speaker>D. DIEGO. </speaker>
               <l>My honourable actions stood for me. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103140">
+            <sp who="#ep000352-count" xml:id="ep000352-e103140">
               <speaker>COUNT. </speaker>
               <l>Come, come, the King thus honour'd your gray hairs </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103160">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103160">
               <speaker>D. DIEGO. </speaker>
               <l>He priz'd my valour, when he gave it me. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103180">
+            <sp who="#ep000352-count" xml:id="ep000352-e103180">
               <speaker>COUNT. </speaker>
               <l>If so, the honour had beene mine, not yours. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103200">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103200">
               <speaker>D. DIEGO. </speaker>
               <l>He that could not obtain't, did not deserve it. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103220">
+            <sp who="#ep000352-count" xml:id="ep000352-e103220">
               <speaker>COUNT. </speaker>
               <l>Not I deserve it, meane you? </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103240">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103240">
               <speaker>D. DIEGO. </speaker>
               <l>No, not you. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103260">
+            <sp who="#ep000352-count" xml:id="ep000352-e103260">
               <speaker>COUNT. </speaker>
               <l>Take that, rash Dotard, for thy impudence. </l>
             </sp>
             <pb xml:id="ep000352-011-a"/>
-            <sp who="A19346-diego" xml:id="ep000352-e103280">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103280">
               <speaker>D. DIEGO. </speaker>
               <l>Nay make it up, and after this affront. </l>
               <l>Take my life too. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103310">
+            <sp who="#ep000352-count" xml:id="ep000352-e103310">
               <speaker>COUNT. </speaker>
               <l>What dost thou hope to doe thou feeble foole, </l>
               <l>Thy sword is mine, but yet I scorne to take it, </l>
@@ -577,25 +625,25 @@
               <l>In which hee'le finde the just revenge I take </l>
               <l>Of this thine insolence, a faire example. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103380">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103380">
               <speaker>D. DIEGO. </speaker>
               <l>Will you then spare my life? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103400">
+            <sp who="#ep000352-count" xml:id="ep000352-e103400">
               <speaker>COUNT. </speaker>
               <l>I'me satisfied; </l>
               <l>Mine eyes cry shame unto mine hands for this. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103430">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103430">
               <speaker>D. DIEGO. </speaker>
               <l>Then you doe scorne to take it. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e103450">
+            <sp who="#ep000352-count" xml:id="ep000352-e103450">
               <speaker>COUNT. </speaker>
               <l>If I should, </l>
               <l>I did but cut the threed of three dayes lasting. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103480">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103480">
               <speaker>D. DIEGO. </speaker>
               <l>Rage and despaire! must I needs live thus long, </l>
               <l>To see this, one day of my infamy </l>
@@ -624,12 +672,12 @@
           <div n="5" type="scene" xml:id="ep000352-e103700">
             <head>SCENE V. </head>
             <stage xml:id="ep000352-e103710">RODERIGO. DIEGO. </stage>
-            <sp who="A19346-roderigo" xml:id="ep000352-e103720">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e103720">
               <speaker>RODERIGO. </speaker>
               <l>ANy man but my father </l>
               <l>Should quickly finde I have. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103750">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103750">
               <speaker>DIEGO. </speaker>
               <l>Well said, my boy, </l>
               <l>I nowe perceive my bloud runnes in thy veines, </l>
@@ -637,11 +685,11 @@
               <l>My youth revives in me from this thy heat. </l>
               <l>Thou shalt revenge me sonne. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e103810">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e103810">
               <speaker>RODERIGO. </speaker>
               <l>Of what, or whom? </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103830">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103830">
               <speaker>DIEGO. </speaker>
               <l>Of an affront so cruell, that our honours </l>
               <l>Suffer together in it. 'Twas, Roderigo, </l>
@@ -658,29 +706,29 @@
               <l>All on a goare, in midst of a fought battell, </l>
               <l>Making himselfe a Rampire of slaine men. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e103970">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e103970">
               <speaker>RODERIGO. </speaker>
               <l>Pray Sir his Name, let him be what he will. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e103990">
+            <sp who="#ep000352-diego" xml:id="ep000352-e103990">
               <speaker>D. DIEGO. </speaker>
               <l>To tell thee more then; besides that he is </l>
               <l>The bravest souldier, and the best Commander </l>
               <l>That I have seene; he is— </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e104030">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e104030">
               <speaker>RODERIGO. </speaker>
               <l>For heavens sake what? </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e104050">
+            <sp who="#ep000352-diego" xml:id="ep000352-e104050">
               <speaker>D. DIEGO. </speaker>
               <l>The father to Cimena. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e104070">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e104070">
               <speaker>RODERIGO. </speaker>
               <l>The? </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e104090">
+            <sp who="#ep000352-diego" xml:id="ep000352-e104090">
               <speaker>D. DIEGO. </speaker>
               <l>Reply not, </l>
               <l>I know thy love, but yet remember sonne, </l>
@@ -696,7 +744,7 @@
           </div>
           <div n="6" type="scene" xml:id="ep000352-e104200">
             <head>SCENE VI. </head>
-            <sp who="A19346-roderigo" xml:id="ep000352-e104210">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e104210">
               <speaker>RODERIGO </speaker>
               <stage xml:id="ep000352-e104220">alone. </stage>
               <l>STrooke to the very heart, with a blow as fatall </l>
@@ -723,14 +771,14 @@
           <div n="1" type="scene" xml:id="ep000352-e104400">
             <head>ACT II. SCENE I. </head>
             <stage xml:id="ep000352-e104410">Don ARIAS. The COUNT of Gormas. </stage>
-            <sp who="A19346-count" xml:id="ep000352-e104420">
+            <sp who="#ep000352-count" xml:id="ep000352-e104420">
               <speaker>COUNT. </speaker>
               <l>I Must needs say, when I did give th' affront </l>
               <l>My bloud was over-heated, and my hand </l>
               <l>Somewhat too ready, but now who can help it? </l>
               <l>Since it is done, it cannot be recall'd. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104470">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104470">
               <speaker>D. ARIAS. </speaker>
               <l>Faith, Let your courage stoope to the Kings will, </l>
               <l>He takes the businesse much to heart, and being </l>
@@ -743,24 +791,24 @@
               <l>These will require of you, my Lord, submissions </l>
               <l>Beyond all ordinary satisfaction. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104570">
+            <sp who="#ep000352-count" xml:id="ep000352-e104570">
               <speaker>COUNT. </speaker>
               <l>Then let him take my life, 'tis in his power. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104590">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104590">
               <speaker>D. ARIAS. </speaker>
               <l>Abate some of your heat, and heare what's reason, </l>
               <l>Will you not seeke to appease a Prince that loves you </l>
               <l>He sayes, I'le ha' this done, will not you doe it? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104630">
+            <sp who="#ep000352-count" xml:id="ep000352-e104630">
               <speaker>COUNT. </speaker>
               <l>Sir, to preserve my honour, I cannot thinke </l>
               <l>'Tis such a crime, somewhat to disobey, </l>
               <l>But were it greater, what I've done for him, </l>
               <l>Would be more than enough to make my excuse. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104680">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104680">
               <speaker>D. ARIAS. </speaker>
               <l>Suppose you've done all that a man can thinke </l>
               <l>In the Kings service: is he bound to thanke you? </l>
@@ -769,25 +817,25 @@
               <l>He that best serves his King does but his duty, </l>
               <l>If you thinke otherwise, you are undone. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104750">
+            <sp who="#ep000352-count" xml:id="ep000352-e104750">
               <speaker>COUNT. </speaker>
               <l>I shall beleeve you when I finde it so. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104770">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104770">
               <speaker>D. ARIAS. </speaker>
               <l>Yout can't but feare the power of the King. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104790">
+            <sp who="#ep000352-count" xml:id="ep000352-e104790">
               <speaker>COUNT. </speaker>
               <l>One day destroyes not such a man as I am. </l>
               <l>Let him arme all his power to punish me, </l>
               <l>The state shall rather perish, than I suffer. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104830">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104830">
               <speaker>D. ARIAS. </speaker>
               <l>Doe you so little feare the soveraigne power? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104850">
+            <sp who="#ep000352-count" xml:id="ep000352-e104850">
               <speaker>COUNT. </speaker>
               <l>What? of that Scepter? which if not for me </l>
               <l>Had ere now falne out of his hand: my person </l>
@@ -795,49 +843,49 @@
               <l>Is Sir, of so much consequence to the King, </l>
               <l>That if my head fall, his crowne cannot stand. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104900">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104900">
               <speaker>D. ARIAS. </speaker>
               <l>My Lord, give reason leave to settle you, </l>
               <l>Thinke on't a little. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104930">
+            <sp who="#ep000352-count" xml:id="ep000352-e104930">
               <speaker>COUNT. </speaker>
               <l>The thought's already taken. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e104950">
+            <sp who="#ep000352-arias" xml:id="ep000352-e104950">
               <speaker>D. ARIAS. </speaker>
               <l>What shall I say then? I must give him an account. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e104970">
+            <sp who="#ep000352-count" xml:id="ep000352-e104970">
               <speaker>COUNT. </speaker>
               <l>This: that I know not how to give consent </l>
               <l>To mine owne shame. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e105000">
+            <sp who="#ep000352-arias" xml:id="ep000352-e105000">
               <speaker>D. ARIAS. </speaker>
               <l>But my Lord imagine, </l>
               <l>Kings will be absolute. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105030">
+            <sp who="#ep000352-count" xml:id="ep000352-e105030">
               <speaker>COUNT. </speaker>
               <l>Let 'um be so, </l>
               <l>The Die is cast Sir, let's talke no more on't. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e105060">
+            <sp who="#ep000352-arias" xml:id="ep000352-e105060">
               <speaker>D. ARIAS. </speaker>
               <l>Then I must take my leave, since my perswasions </l>
               <l>Can doe no good: though you be cover'd o're </l>
               <l>with lawrels, yet my Lord, take heed of thunder. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105100">
+            <sp who="#ep000352-count" xml:id="ep000352-e105100">
               <speaker>COUNT. </speaker>
               <l>I'le wait it without feare. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e105120">
+            <sp who="#ep000352-arias" xml:id="ep000352-e105120">
               <speaker>D. ARIAS. </speaker>
               <l>It will come home. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105140">
+            <sp who="#ep000352-count" xml:id="ep000352-e105140">
               <speaker>COUNT. </speaker>
               <l>If it doe, D. Diego's satisfied. </l>
               <l>How little am I scar'd with these poore threats? </l>
@@ -850,64 +898,64 @@
             <pb xml:id="ep000352-014-a"/>
             <head>SCENE II. </head>
             <stage xml:id="ep000352-e105210">RODERIGO. COUNT de GORMAS. </stage>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105220">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105220">
               <speaker>RODERIGO. </speaker>
               <l>MY Lord a word. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105240">
+            <sp who="#ep000352-count" xml:id="ep000352-e105240">
               <speaker>COUNT. </speaker>
               <l>Speake. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105260">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105260">
               <speaker>RODERIGO. </speaker>
               <l>Resolve me of a doubt, doe you know </l>
               <l>Don Diego well? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105290">
+            <sp who="#ep000352-count" xml:id="ep000352-e105290">
               <speaker>COUNT. </speaker>
               <l>I doe. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105310">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105310">
               <speaker>RODERIGO. </speaker>
               <l>And that he was </l>
               <l>The spirit and the glory of his time, </l>
               <l>Doe you know this? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105350">
+            <sp who="#ep000352-count" xml:id="ep000352-e105350">
               <speaker>COUNT. </speaker>
               <l>Perhaps he might be so. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105370">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105370">
               <speaker>RODERIGO. </speaker>
               <l>And that this ardor which mine eyes doe beare, </l>
               <l>Doe you know it is his bloud it represents? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105400">
+            <sp who="#ep000352-count" xml:id="ep000352-e105400">
               <speaker>COUNT. </speaker>
               <l>What's that to me? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105420">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105420">
               <speaker>RODERIGO. </speaker>
               <l>Some distance from this place </l>
               <l>I'le make you know it. </l>
             </sp>
             <pb xml:id="ep000352-014-b"/>
-            <sp who="A19346-count" xml:id="ep000352-e105450">
+            <sp who="#ep000352-count" xml:id="ep000352-e105450">
               <speaker>COUNT. </speaker>
               <l>Presumptuous boy! </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105470">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105470">
               <speaker>RODERIGO. </speaker>
               <l>Be not so hot, I know I'me young, but yet </l>
               <l>In noble soules, valour prevents their yeares. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105500">
+            <sp who="#ep000352-count" xml:id="ep000352-e105500">
               <speaker>COUNT. </speaker>
               <l>But who has led thee to that vanity? </l>
               <l>To set thee upon me, thou that did'st never </l>
               <l>Beare armes, perhaps thou know'st not who I am. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105540">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105540">
               <speaker>RODERIGO. </speaker>
               <l>Yes: and I know a stouter man than I </l>
               <l>Would tremble at the hearing of thy name. </l>
@@ -919,7 +967,7 @@
               <l>Or if I should, wearing my fathers cause </l>
               <l>Upon my sword and arme, they cannot faile me. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105640">
+            <sp who="#ep000352-count" xml:id="ep000352-e105640">
               <speaker>COUNT. </speaker>
               <l>This courage which appeares in thy discourse, </l>
               <l>I have beene long acquainted with, and hoping </l>
@@ -942,30 +990,30 @@
               <l>To have with ease beene ruin'd, and my selfe </l>
               <l>Shall alone feele the griefe that I have done it. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105840">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105840">
               <speaker>RODERIGO. </speaker>
               <l>Th' hast seconded th' affront thou gav'st my father, </l>
               <l>With a pity worse than that, dar'st thou deprive me </l>
               <l>Of my honour, and yet fear'st to take my life? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105880">
+            <sp who="#ep000352-count" xml:id="ep000352-e105880">
               <speaker>COUNT. </speaker>
               <l>Leave me good youth. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105900">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105900">
               <speaker>RODERIGO. </speaker>
               <l>Let's goe, and talke no more on't. </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105920">
+            <sp who="#ep000352-count" xml:id="ep000352-e105920">
               <speaker>COUNT. </speaker>
               <l>Art thou so weary of thy life? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e105940">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e105940">
               <speaker>RODERIGO. </speaker>
               <l>Art thou </l>
               <l>So afraid to die? </l>
             </sp>
-            <sp who="A19346-count" xml:id="ep000352-e105970">
+            <sp who="#ep000352-count" xml:id="ep000352-e105970">
               <speaker>COUNT. </speaker>
               <l>Come then, thou do'st no more </l>
               <l>Than is thy duty, he's a degenerate sonne </l>
@@ -975,7 +1023,7 @@
           <div n="3" type="scene" xml:id="ep000352-e106010">
             <head>SCENE III. </head>
             <stage xml:id="ep000352-e106020">INFANTA. CIMENA. </stage>
-            <sp who="A19346-infanta" xml:id="ep000352-e106030">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106030">
               <speaker>INFANTA. </speaker>
               <l>BE not so griev'd, Cimena, dry thine eyes, </l>
               <l>Use now thy constancie in this misfortune, </l>
@@ -984,7 +1032,7 @@
               <l>Thy happinesse is but clouded for a while, </l>
               <l>And some small time will make thee no great loser. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106090">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106090">
               <speaker>CIMENA. </speaker>
               <l>What can I hope now, but continuall troubles, </l>
               <l>A storme so sudden comming o're this calme </l>
@@ -999,7 +1047,7 @@
               <l>Doe ever suffer: how many teares and sighs </l>
               <l>Must I pay for you? </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106220">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106220">
               <speaker>INFANTA. </speaker>
               <l>Thou hast no reason </l>
               <l>To feare their quarrell, which on a sudden borne, </l>
@@ -1007,7 +1055,7 @@
               <l>To let it live. The King shall take it up, </l>
               <l>And for thy sake I'le see't shall goe no farther. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106280">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106280">
               <speaker>CIMENA. </speaker>
               <l>This businesse will admit no composition, </l>
               <l>Th' affronts to honour never are repair'd, </l>
@@ -1016,14 +1064,14 @@
               <l>And stifled hate nourishes secret fires </l>
               <l>Within the brest, but such as burne more fiercely. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106350">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106350">
               <speaker>INFANTA. </speaker>
               <l>But th' holy knot which shall once joyne Cimena </l>
               <l>To Roderigo, will dissolve the hatred </l>
               <l>Of both their fathers, and the bonds of love, </l>
               <l>As being more strong, will quickly stop their discord. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106400">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106400">
               <speaker>CIMENA. </speaker>
               <l>rather doe desire, than hope it, Madam, </l>
               <pb xml:id="ep000352-016-a"/>
@@ -1032,29 +1080,29 @@
               <l>I feele my teares runne, which I would retaine: </l>
               <l>What's past, torments me, and I feare the sequell. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106460">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106460">
               <speaker>INFANTA. </speaker>
               <l>Do'st thou feare what a weake old man can doe? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106480">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106480">
               <speaker>CIMENA. </speaker>
               <l>Roderigo is not weake. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106500">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106500">
               <speaker>INFANTA. </speaker>
               <l>But he's too young. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106520">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106520">
               <speaker>CIMENA. </speaker>
               <l>Valiant young men are ever very sudden. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106540">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106540">
               <speaker>INFANTA. </speaker>
               <l>But that thou need'st not feare. He loves thee too well </l>
               <l>To anger or displease thee, one poore word </l>
               <l>Out of thy mouth, will quickly stay his heat. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106580">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106580">
               <speaker>CIMENA. </speaker>
               <l>If he doe not obey, how great's my griefe? </l>
               <l>And if he doe, what will men say of him, </l>
@@ -1064,7 +1112,7 @@
               <l>I cannot but be troubled, or asham'd </l>
               <l>At his too much respect, or just deniall. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106660">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106660">
               <speaker>INFANTA. </speaker>
               <l>Cimena's generous, and though she be </l>
               <l>Ingag'd, she cannot suffer a base thought. </l>
@@ -1072,44 +1120,44 @@
               <l>Untill this businesse be tane up betwixt them, </l>
               <l>Will not your love turne into jealousie? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106720">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106720">
               <speaker>CIMENA. </speaker>
               <l>Ah, Madam, in this case I have no such thought. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106740">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106740">
               <speaker>INFANTA. </speaker>
               <l>Boy, looke out Roderigo, bring him hither. </l>
             </sp>
             <pb xml:id="ep000352-016-b"/>
-            <sp who="A19346-boy" xml:id="ep000352-e106760">
+            <sp who="#ep000352-boy" xml:id="ep000352-e106760">
               <speaker>BOY. </speaker>
               <l>He, and the Count of Gormas </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106780">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106780">
               <speaker>CIMENA. </speaker>
               <l>Good God, I tremble! </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106800">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106800">
               <speaker>INFANTA. </speaker>
               <l>Speake. </l>
             </sp>
-            <sp who="A19346-boy" xml:id="ep000352-e106820">
+            <sp who="#ep000352-boy" xml:id="ep000352-e106820">
               <speaker>BOY. </speaker>
               <l>Went out together. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106840">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106840">
               <speaker>INFANTA. </speaker>
               <l>Alone? </l>
             </sp>
-            <sp who="A19346-boy" xml:id="ep000352-e106860">
+            <sp who="#ep000352-boy" xml:id="ep000352-e106860">
               <speaker>BOY. </speaker>
               <l>Alone, and as it seem'd, they went to quarell. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e106880">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e106880">
               <speaker>CIMENA. </speaker>
               <l>Ay me, my fear's, they're fighting by this time. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e106900">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e106900">
               <speaker>INFANTA. </speaker>
               <l>Let's spend no more time then, but goe looke um out. </l>
             </sp>
@@ -1117,17 +1165,17 @@
           <div n="4" type="scene" xml:id="ep000352-e106920">
             <head>SCENE IV. </head>
             <stage xml:id="ep000352-e106930">KING. D. ARIAS. D. ALONSO. D. SANCHO. </stage>
-            <sp who="A19346-king" xml:id="ep000352-e106940">
+            <sp who="#ep000352-king" xml:id="ep000352-e106940">
               <speaker>KING. </speaker>
               <l>IS he so vaine, has he so little reason, </l>
               <l>That he dares thinke his crime yet pardonable? </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e106970">
+            <sp who="#ep000352-arias" xml:id="ep000352-e106970">
               <speaker>D. ARIAS. </speaker>
               <l>I treated long with him on your behalfe, </l>
               <l>I did (Sir) my devoir, but obtain'd nothing. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107000">
+            <sp who="#ep000352-king" xml:id="ep000352-e107000">
               <speaker>KING. </speaker>
               <l>Just heaven! can a subject be so rash </l>
               <pb xml:id="ep000352-017-a"/>
@@ -1141,7 +1189,7 @@
               <l>Goe some of you and looke him out, and whether </l>
               <l>He doe resist, or not, make sure of him. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e107110">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e107110">
               <speaker>D. SANCHO. </speaker>
               <l>Perhaps some little time will bring him in. </l>
               <l>He was taken boiling in his choller, Sir, </l>
@@ -1151,21 +1199,21 @@
               <l>But yet so high a spirit is not brought </l>
               <l>At first so easily to confesse his fault. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107190">
+            <sp who="#ep000352-king" xml:id="ep000352-e107190">
               <speaker>KING. </speaker>
               <l>Don Sancho, hold your peace, and let me tell you, </l>
               <l>He that shall take his part is alike faulty. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e107220">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e107220">
               <speaker>D. SANCHO. </speaker>
               <l>I obey Sir, and am silent, but with favour, </l>
               <l>A word in his defence. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107250">
+            <sp who="#ep000352-king" xml:id="ep000352-e107250">
               <speaker>KING. </speaker>
               <l>What can you say? </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e107270">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e107270">
               <speaker>D. SANCHO. </speaker>
               <l>Sir, that a soule accustom'd to great actions, </l>
               <l>Cannot abase it selfe to low submissions. </l>
@@ -1178,7 +1226,7 @@
               <l>I'le undertake he shall make satisfaction. </l>
             </sp>
             <pb xml:id="ep000352-017-b"/>
-            <sp who="A19346-king" xml:id="ep000352-e107370">
+            <sp who="#ep000352-king" xml:id="ep000352-e107370">
               <speaker>KING. </speaker>
               <l>You are too bold Sir, but your age I pardon, </l>
               <l>Thinking it to proceed from heat of youth. </l>
@@ -1198,23 +1246,23 @@
               <l>Don Arias, by an advice of late receiv'd, </l>
               <l>I heare the Moores meane shortly to supprise us. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e107550">
+            <sp who="#ep000352-arias" xml:id="ep000352-e107550">
               <speaker>D. ARIAS. </speaker>
               <l>Dare the Moores stirre? </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107570">
+            <sp who="#ep000352-king" xml:id="ep000352-e107570">
               <speaker>KING. </speaker>
               <l>Their vessels are discover'd </l>
               <l>At the Rivers mouth, and you know how easily </l>
               <l>At a full Sea they may come up. </l>
             </sp>
-            <sp who="A19346-arias" xml:id="ep000352-e107610">
+            <sp who="#ep000352-arias" xml:id="ep000352-e107610">
               <speaker>D. ARIAS. </speaker>
               <l>The battailes </l>
               <l>They've lost already, should make 'um loose the heart </l>
               <l>To set on such a Conquerour as you. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107650">
+            <sp who="#ep000352-king" xml:id="ep000352-e107650">
               <speaker>KING. </speaker>
               <l>They cannot but with Jealouzy looke on, </l>
               <l>Seeing me rule in Andalouzia, </l>
@@ -1225,14 +1273,14 @@
               <l>To meet with their attempts. </l>
             </sp>
             <pb xml:id="ep000352-018-a"/>
-            <sp who="A19346-arias" xml:id="ep000352-e107730">
+            <sp who="#ep000352-arias" xml:id="ep000352-e107730">
               <speaker>D. ARIAS. </speaker>
               <l>Sir, they have learnt, </l>
               <l>At the great charge of their owne heads by this time, </l>
               <l>How much your presence does assure your conquest, </l>
               <l>Y' have nothing Sir, to feare. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107780">
+            <sp who="#ep000352-king" xml:id="ep000352-e107780">
               <speaker>KING. </speaker>
               <l>Nor to neglect: </l>
               <l>Too much assurance still drawes danger with it: </l>
@@ -1245,23 +1293,23 @@
               <l>Let the haven be well guarded, and the wals, </l>
               <l>And for this night it shall suffice. </l>
             </sp>
-            <sp who="A19346-alonso" xml:id="ep000352-e107890">
+            <sp who="#ep000352-alonso" xml:id="ep000352-e107890">
               <speaker>D. ALONSO </speaker>
               <stage xml:id="ep000352-e107900">enters againe. </stage>
               <l>Sir, the Count is dead, </l>
               <l>Roderigo's hand has satisfied his father. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107930">
+            <sp who="#ep000352-king" xml:id="ep000352-e107930">
               <speaker>KING. </speaker>
               <l>I divin'd what would follow, when I first </l>
               <l>Heard of th' affront, and would ha' then prevented it. </l>
             </sp>
-            <sp who="A19346-alonso" xml:id="ep000352-e107960">
+            <sp who="#ep000352-alonso" xml:id="ep000352-e107960">
               <speaker>D. ALONSO. </speaker>
               <l>Sir, here's Cimena, who presents her griefe </l>
               <l>Upon her knees, with teares demanding justice. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e107990">
+            <sp who="#ep000352-king" xml:id="ep000352-e107990">
               <speaker>KING. </speaker>
               <l>Although my soule suffer with his misfortunes, </l>
               <l>Th' affront he did, deserv'd the punishment, </l>
@@ -1273,53 +1321,53 @@
             <pb xml:id="ep000352-018-b"/>
             <head>SCENE V. </head>
             <stage xml:id="ep000352-e108050">KING. D. ARIAS. D. DIEGO. CIMENA. D. SANCHO. D. ALONSO. </stage>
-            <sp who="A19346-cimena" xml:id="ep000352-e108060">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108060">
               <speaker>CIMENA. </speaker>
               <l>Justice, Sir, Justice, I aske it on my knees. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e108080">
+            <sp who="#ep000352-diego" xml:id="ep000352-e108080">
               <speaker>D. DIEGO. </speaker>
               <l>O Sir give eare to my defence. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e108100">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108100">
               <speaker>CIMENA. </speaker>
               <l>Revenge my fathers death. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e108120">
+            <sp who="#ep000352-diego" xml:id="ep000352-e108120">
               <speaker>D. DIEGO. </speaker>
               <l>Of him that punisht the highest insolence. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e108140">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108140">
               <speaker>CIMENA. </speaker>
               <l>Roderigo, Sir, </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e108160">
+            <sp who="#ep000352-diego" xml:id="ep000352-e108160">
               <speaker>D. DIEGO. </speaker>
               <l>Has done the office of an honest man. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e108180">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108180">
               <speaker>CIMENA. </speaker>
               <l>Has kill'd my father. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e108200">
+            <sp who="#ep000352-diego" xml:id="ep000352-e108200">
               <speaker>D. DIEGO. </speaker>
               <l>Has reveng'd his owne. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e108220">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108220">
               <speaker>CIMENA. </speaker>
               <l>A King owes justice to his subjects bloud. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e108240">
+            <sp who="#ep000352-diego" xml:id="ep000352-e108240">
               <speaker>D. DIEGO. </speaker>
               <l>A just revenge can feare no punishment. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e108260">
+            <sp who="#ep000352-king" xml:id="ep000352-e108260">
               <speaker>KING. </speaker>
               <l>Rise both of you, and speake without disturbance, </l>
               <l>I beare a part, Cimena, in thy sufferings. </l>
               <l>Trouble her not, when she has done, I'le heare you. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e108300">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108300">
               <speaker>CIMENA. </speaker>
               <l>My father's slaine, Sir, and these eyes have seene </l>
               <pb xml:id="ep000352-019-a"/>
@@ -1335,12 +1383,12 @@
               <l>And found him dead! Dead! pardon Sir, my griefe, </l>
               <l>My voyce does faile mee, let my teares speake the rest. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e108430">
+            <sp who="#ep000352-king" xml:id="ep000352-e108430">
               <speaker>KING. </speaker>
               <l>Daughter, take comfort, and be confident </l>
               <l>Thou hast a King will be a Father to thee. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e108460">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e108460">
               <speaker>CIMENA. </speaker>
               <l>You'ave done my miseries, Sir, too much honour. </l>
               <l>Thither I came amaz'd, and found him dead, </l>
@@ -1365,11 +1413,11 @@
               <l>For my dead Father? </l>
             </sp>
             <pb xml:id="ep000352-019-b"/>
-            <sp who="A19346-king" xml:id="ep000352-e108680">
+            <sp who="#ep000352-king" xml:id="ep000352-e108680">
               <speaker>KING. </speaker>
               <l>D. Diego answer. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e108700">
+            <sp who="#ep000352-diego" xml:id="ep000352-e108700">
               <speaker>D. DIEGO. </speaker>
               <l>How happy is the man Sir? </l>
               <l>Who parts no sooner with his strength than life, </l>
@@ -1409,7 +1457,7 @@
               <l>That dying with mine honour, I shall die </l>
               <l>Withou t regret. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e109070">
+            <sp who="#ep000352-king" xml:id="ep000352-e109070">
               <speaker>KING. </speaker>
               <l>Th' affaire is of importance, </l>
               <l>And merits to be heard in a full Counsell. </l>
@@ -1417,15 +1465,15 @@
               <l>Don Diego's word shall be his surety. </l>
               <l>Let his sonne be lookt out. I'le doe you justice. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e109130">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e109130">
               <speaker>CIMENA. </speaker>
               <l>'Tis just great Sir to cut off murderers. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e109150">
+            <sp who="#ep000352-king" xml:id="ep000352-e109150">
               <speaker>KING. </speaker>
               <l>Daughter, take truce a little with your griefes. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e109170">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e109170">
               <speaker>CIMENA. </speaker>
               <l>To give them truce, is to increase them more. </l>
             </sp>
@@ -1435,15 +1483,15 @@
           <div n="1" type="scene" xml:id="ep000352-e109200">
             <head>ACT III. SCENE I. </head>
             <stage xml:id="ep000352-e109210">D. RODERIGO. ELVIRA. </stage>
-            <sp who="A19346-elvira" xml:id="ep000352-e109220">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e109220">
               <speaker>ELVIRA. </speaker>
               <l>WHat meane you Roderigo? whither would you? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e109240">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e109240">
               <speaker>RODERIGO. </speaker>
               <l>I would pursue the course of my sad fortune. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e109260">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e109260">
               <speaker>ELVIRA. </speaker>
               <l>But this is a strange boldnesse, to appeare </l>
               <l>In the same place which you have fill'd with mourning, </l>
@@ -1451,17 +1499,17 @@
               <l>Have not you slaine him? </l>
             </sp>
             <pb xml:id="ep000352-020-b"/>
-            <sp who="A19346-roderigo" xml:id="ep000352-e109310">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e109310">
               <speaker>RODERIGO. </speaker>
               <l>His life was my disgrace, </l>
               <l>Mine honour at my hands requir'd dis death. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e109340">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e109340">
               <speaker>ELVIRA. </speaker>
               <l>But in the house of death to looke for refuge, </l>
               <l>Did ever homicide make that his Asilum? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e109370">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e109370">
               <speaker>RODERIGO. </speaker>
               <l>Did never any murderer present </l>
               <l>Himselfe unto his Judge? ne're wonder at me, </l>
@@ -1471,20 +1519,20 @@
               <l>And for that cause I stand here to receive </l>
               <l>My sentence from her mouth, death from her hand. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e109450">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e109450">
               <speaker>ELVIRA. </speaker>
               <l>Flie rather from her sight, and doe not meet </l>
               <l>With the first motions of her griefe and anger, </l>
               <l>Why, would you more enflame her present passion? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e109490">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e109490">
               <speaker>RODERIGO. </speaker>
               <l>No, that deare object which I durst displease, </l>
               <l>To punish me cannot have too much passion; </l>
               <l>I should be happy if I could augment it, </l>
               <l>And hasten so my death from her faire hand. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e109540">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e109540">
               <speaker>ELVIRA. </speaker>
               <l>Cimena's at the Court, bath'd in her teares, </l>
               <l>And will returne thence with much company. </l>
@@ -1500,7 +1548,7 @@
             <pb xml:id="ep000352-021-a"/>
             <head>SCENE II. </head>
             <stage xml:id="ep000352-e109640">D. SANCHO. CIMENA. ELVIRA. </stage>
-            <sp who="A19346-sancho" xml:id="ep000352-e109650">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e109650">
               <speaker>D. SANCHO. </speaker>
               <l>I Madame, never thinke of any other </l>
               <l>But bloudy sacrifices: your anger's just </l>
@@ -1511,20 +1559,20 @@
               <l>To cut out your revenge; from your commands </l>
               <l>My heart takes courage, and my arme its strength. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e109740">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e109740">
               <speaker>CIMENA. </speaker>
               <l>O me unfortunate! </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e109760">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e109760">
               <speaker>D. SANCHO. </speaker>
               <l>Madame accept my service. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e109780">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e109780">
               <speaker>CIMENA. </speaker>
               <l>I shall offend the King then who has promis'd </l>
               <l>To doe me Justice. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e109810">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e109810">
               <speaker>D. SANCHO. </speaker>
               <l>But you know, justice </l>
               <l>Is so slow pac'd and languishing, that seldome </l>
@@ -1532,7 +1580,7 @@
               <l>By th'sword, then let a Cavalier revenge it </l>
               <l>By the sword againe: It is the readiest way. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e109870">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e109870">
               <speaker>CIMENA. </speaker>
               <l>'Tis the last remedy, but if it must </l>
               <l>Arive at that, and this your noble pitty </l>
@@ -1540,7 +1588,7 @@
               <l>I shall then give you the freedom you desire. </l>
             </sp>
             <pb xml:id="ep000352-021-b"/>
-            <sp who="A19346-sancho" xml:id="ep000352-e109920">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e109920">
               <speaker>D. SANCHO. </speaker>
               <l>It is the onely happinesse I wish, </l>
               <l>So having hopes to see't, I take my leave. </l>
@@ -1549,7 +1597,7 @@
           <div n="3" type="scene" xml:id="ep000352-e109950">
             <head>SCENE III. </head>
             <stage xml:id="ep000352-e109960">CIMENA. ELVIRA. </stage>
-            <sp who="A19346-cimena" xml:id="ep000352-e109970">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e109970">
               <speaker>CIMENA. </speaker>
               <l>AT length I find I'me free to open to thee </l>
               <l>The sadnesse of my soule, and to give way </l>
@@ -1561,11 +1609,11 @@
               <l>And ty's me to revenge on what is left, </l>
               <l>That part of which by this I am bereft. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e110070">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110070">
               <speaker>ELVIRA. </speaker>
               <l>Quiet your selfe, sweet Madame. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110090">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110090">
               <speaker>CIMENA. </speaker>
               <l>How unfitly </l>
               <l>Thou bid'st me to be quiet, when at once </l>
@@ -1574,11 +1622,11 @@
               <l>But torments, neere to be redres'd by time, </l>
               <l>If loving th' Author, I pursue the crime. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e110160">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110160">
               <speaker>ELVIRA. </speaker>
               <l>Can you then love the man that kill'd your Father? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110180">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110180">
               <speaker>CIMENA. </speaker>
               <l>Love him, Eluira? more than that I adore him, </l>
               <l>My love stands up against the sense, I should have </l>
@@ -1593,23 +1641,23 @@
               <l>My heart would take his part, but then my honour </l>
               <l>Tels me I had a father, which he slew. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e110300">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110300">
               <speaker>ELVIRA. </speaker>
               <l>But doe you meane to prosecute him, Madam? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110320">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110320">
               <speaker>CIMENA. </speaker>
               <l>O cruell meaning! cruell prosecution! </l>
               <l>To which I'me forc'd. I aske his head, and yet </l>
               <l>Feare to obtaine it. I would ha him punish'd, </l>
               <l>And yet my death, I know, must wait on his. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e110370">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110370">
               <speaker>ELVIRA. </speaker>
               <l>Fie, Madam, quit this tragicall designe, </l>
               <l>Be not so cruell to your selfe. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110400">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110400">
               <speaker>CIMENA. </speaker>
               <l>Shall I see </l>
               <l>My father die betweene my armes? his bloud </l>
@@ -1619,7 +1667,7 @@
               <l>But childish teares? or shall I suffer love </l>
               <l>To steale into my heart, and thrust out honour? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e110480">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110480">
               <speaker>ELVIRA. </speaker>
               <l>Beleeve me, Madam, you may well be pardon'd, </l>
               <l>If you preserve unto your selfe a man </l>
@@ -1627,26 +1675,26 @@
               <l>Y'have done enough to ha' beene with the King, </l>
               <l>Ne're presse it farther, be not obstinate. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110540">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110540">
               <speaker>CIMENA. </speaker>
               <l>Then is my glory lost; no, it behoves </l>
               <l>I be reveng'd. </l>
             </sp>
             <pb xml:id="ep000352-022-b"/>
-            <sp who="A19346-elvira" xml:id="ep000352-e110570">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110570">
               <speaker>ELVIRA. </speaker>
               <l>But you love Roderigo, </l>
               <l>He can't displease you. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110600">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110600">
               <speaker>CIMENA. </speaker>
               <l>No I'le sweare he can't. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e110620">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e110620">
               <speaker>ELVIRA. </speaker>
               <l>These things consider'd, Madam, what can you doe? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110640">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110640">
               <speaker>CIMENA. </speaker>
               <l>To save mine honour, and to put an end </l>
               <l>To all my griefes at once, I am resolv'd </l>
@@ -1657,76 +1705,76 @@
           <div n="4" type="scene" xml:id="ep000352-e110690">
             <head>SCENE IV. </head>
             <stage xml:id="ep000352-e110700">RODERIGO to them. </stage>
-            <sp who="A19346-roderigo" xml:id="ep000352-e110710">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e110710">
               <speaker>RODERIGO. </speaker>
               <l>TO save the trouble of </l>
               <l>Pursuing me, behold I'me here before you, </l>
               <l>Glut your selfe with the pleasure of my death. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110750">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110750">
               <speaker>CIMENA. </speaker>
               <l>What place is this, Elvira? who is this? </l>
               <l>Roderigo in my house! before my face! </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e110780">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e110780">
               <speaker>RODERIGO. </speaker>
               <l>Spare not my bloud, but taste the sweetnesse of </l>
               <l>My death, and your revenge, without resistance. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110810">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110810">
               <speaker>CIMENA. </speaker>
               <l>Aye me! </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e110830">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e110830">
               <speaker>RODERIGO. </speaker>
               <l>Heare me Cimena. </l>
             </sp>
             <pb xml:id="ep000352-023-a"/>
-            <sp who="A19346-cimena" xml:id="ep000352-e110850">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110850">
               <speaker>CIMENA. </speaker>
               <l>I dye. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e110870">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e110870">
               <speaker>RODERIGO. </speaker>
               <l>A word </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110890">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110890">
               <speaker>CIMENA. </speaker>
               <l>Away and let me dye. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e110910">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e110910">
               <speaker>RODERIGO. </speaker>
               <l>And afterwards </l>
               <l>Make me no answer but with this my sword. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110940">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110940">
               <speaker>CIMENA. </speaker>
               <l>That sword be smear'd with th' bloud of my dead father. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e110960">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e110960">
               <speaker>RODERIGO. </speaker>
               <l>My Cimena </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e110980">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e110980">
               <speaker>CIMENA. </speaker>
               <l>Fye, take away that object </l>
               <l>Which to myne eyes upbraids thy crime, and life. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e111010">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e111010">
               <speaker>RODERIGO. </speaker>
               <l>Looke on it rather to increase thy hate </l>
               <l>T'excite thine anger, and to speed my death. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e111040">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e111040">
               <speaker>CIMENA. </speaker>
               <l>'Tis dy'd in my owne bloud. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e111060">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e111060">
               <speaker>RODERIGO. </speaker>
               <l>Plunge it in mine, </l>
               <l>And make it lose the colour so of thine. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e111090">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e111090">
               <speaker>CIMENA. </speaker>
               <l>What cruelty is this, which in one day </l>
               <l>Father and daughter both deprives of life, </l>
@@ -1734,7 +1782,7 @@
               <l>Remove that object of my hate, thy sword, </l>
               <l>Thou would'st be heard of her thou mean'st to kill. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e111150">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e111150">
               <speaker>RODERIGO. </speaker>
               <l>I doe obey, yet with the same desire </l>
               <l>To dye by thee. For from my affection </l>
@@ -1768,7 +1816,7 @@
               <l>Here, offer to the blood already shed </l>
               <l>The blood of him, that glories to have shed it, </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e111460">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e111460">
               <speaker>CIMENA. </speaker>
               <l>True Roderigo, (though thine enemy) </l>
               <l>That thou did'st shun disgrace, I cannot blame thee, </l>
@@ -1797,7 +1845,7 @@
               <l>Thou in my wrong shewd'st thy selfe worthy me, </l>
               <l>I in thy death will appeare worthy thee. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e111720">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e111720">
               <speaker>RODERIGO. </speaker>
               <l>Never deferre then longer what your honour </l>
               <l>Requires of you. It demands my head, </l>
@@ -1805,14 +1853,14 @@
               <l>As well your glory, as my punishment. </l>
               <l>I shall die happy, dying by your hand. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e111780">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e111780">
               <speaker>CIMENA. </speaker>
               <l>Away, I'me thy accuser, not thy heads-man, </l>
               <l>Is't fit for me to take the head thou offer'st? </l>
               <l>'Tis of another that I must obtaine it; </l>
               <l>I must pursue thy crime, not punish it. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e111830">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e111830">
               <speaker>RODERIGO. </speaker>
               <l>Though love speake to thee in my favour, yet </l>
               <l>The brav'ry of thy minde ought to answer mine, </l>
@@ -1821,7 +1869,7 @@
               <l>For my revenge I us'd none but my owne, </l>
               <l>And thou for thine, must use thy hand alone. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e111900">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e111900">
               <speaker>CIMENA. </speaker>
               <l>Cruell! to be so obstinate in this, </l>
               <l>If without helpe thou did'st revenge thy selfe, </l>
@@ -1832,7 +1880,7 @@
               <l>Mine, or my fathers honour stoop so low </l>
               <l>As to thy love, or thy despaire to owe. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e111980">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e111980">
               <speaker>RODERIGO. </speaker>
               <l>Hard point of honour! can I by no way </l>
               <l>Obtaine this grace? punish me in the name </l>
@@ -1841,19 +1889,19 @@
               <l>'Twill to thy lover prove a gentler fate, </l>
               <l>To die thus by thy hand, than to live with thy hate. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112050">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112050">
               <speaker>CIMENA. </speaker>
               <l>Away, I hate thee not. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112070">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112070">
               <speaker>RODERIGO. </speaker>
               <l>Thou ought'st to hate me. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112090">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112090">
               <speaker>CIMENA. </speaker>
               <l>I can't. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112110">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112110">
               <speaker>RODERIGO. </speaker>
               <l>But fear'st thou not the blame and scandall </l>
               <l>Which men will raise, when they shall know my crime, </l>
@@ -1861,7 +1909,7 @@
               <l>Force 'um to silence, and without more words, </l>
               <l>By my death give thy reputation life. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112170">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112170">
               <speaker>CIMENA. </speaker>
               <l>It will live better, if I let thee live; </l>
               <l>I'le ha' the voice of the most blacke mouth'd envie </l>
@@ -1873,20 +1921,20 @@
               <l>A greater hazzard, than if men shall know </l>
               <l>That I have kept thee company so long. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112270">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112270">
               <speaker>RODERIGO. </speaker>
               <l>'Tis death to heare this. </l>
             </sp>
             <pb xml:id="ep000352-025-a"/>
-            <sp who="A19346-cimena" xml:id="ep000352-e112290">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112290">
               <speaker>CIMENA. </speaker>
               <l>Away. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112310">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112310">
               <speaker>RODERIGO. </speaker>
               <l>But what, are you resolv'd to doe. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112330">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112330">
               <speaker>CIMENA. </speaker>
               <l>Spight of this loving fire which would restraine </l>
               <l>That of my anger, I shall doe my best </l>
@@ -1894,48 +1942,48 @@
               <l>And yet in spight of this so cruell honor, </l>
               <l>My desire is to have my desires crost. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112390">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112390">
               <speaker>RODERIGO. </speaker>
               <l>O miracle of love! </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112410">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112410">
               <speaker>CIMENA. </speaker>
               <l>But heap'd with griefes. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112430">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112430">
               <speaker>RODERIGO. </speaker>
               <l>How many teares will these our fathers cost us? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112450">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112450">
               <speaker>CIMENA. </speaker>
               <l>Who would ha' thought it Roderigo? </l>
               <l>Who </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112480">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112480">
               <speaker>RODERIGO. </speaker>
               <l>Cimena would ha' said it? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112500">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112500">
               <speaker>CIMENA. </speaker>
               <l>That our joyes </l>
               <l>Should be so nigh us and so quickly lost. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112530">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112530">
               <speaker>RODERIGO. </speaker>
               <l>And that so neere the Port a suddaine storme </l>
               <l>Should shipwrack all our hopes. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112560">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112560">
               <speaker>CIMENA. </speaker>
               <l>Goe Roderigo, </l>
               <l>And thinke I cannot, dare not, heare thee longer. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112590">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112590">
               <speaker>RODERIGO. </speaker>
               <l>I goe then to draw out a dying life, </l>
               <l>Till thy pursuit shall bring it to an end. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e112620">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e112620">
               <speaker>CIMENA. </speaker>
               <l>If I obtaine th' effect, I sadly vow </l>
               <l>Not to draw breath one minute after thee, </l>
@@ -1946,18 +1994,18 @@
             <pb xml:id="ep000352-025-b"/>
             <head>SCENE V. </head>
             <stage xml:id="ep000352-e112670">D. DIEGO. D. RODERIGO. </stage>
-            <sp who="A19346-diego" xml:id="ep000352-e112680">
+            <sp who="#ep000352-diego" xml:id="ep000352-e112680">
               <speaker>D. DIEGO. </speaker>
               <l>AT length I see what all my industry </l>
               <l>Could not effect, chance offers to me, this </l>
               <l>Must be my Sonne. Roderigo, blest be Heaven </l>
               <l>That gives me leave to see thee. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112730">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112730">
               <speaker>RODERIGO. </speaker>
               <l>Ay me! </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e112750">
+            <sp who="#ep000352-diego" xml:id="ep000352-e112750">
               <speaker>D. DIEGO. </speaker>
               <l>Doe not confound my joyes with these sad accents, </l>
               <l>But give me leave to praise thy early Valour, </l>
@@ -1970,7 +2018,7 @@
               <l>Come kisse this cheeke; and view the place which thou </l>
               <l>Being affronted, rescud'st from disgrace. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e112860">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e112860">
               <speaker>RODERIGO. </speaker>
               <l>The honor's due to you, heaven be my witnesse </l>
               <l>That comming from you, I could doe no lesse, </l>
@@ -1983,22 +2031,22 @@
               <l>Give me leave to despaire; 'tis all I aske. </l>
               <l>Let not your praise flatter me out of that. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e112960">
+            <sp who="#ep000352-diego" xml:id="ep000352-e112960">
               <speaker>D. DIEGO. </speaker>
               <l>By, from so brave a heart banish this weaknesse, </l>
               <l>Thinke there are Mistrisses enough ith' world, </l>
               <l>But no more than one honour; love, is but </l>
               <l>A little pleasure, honour is a duty. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e113010">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e113010">
               <speaker>RODERIGO. </speaker>
               <l>What say you, Sir? </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e113030">
+            <sp who="#ep000352-diego" xml:id="ep000352-e113030">
               <speaker>D. DIEGO. </speaker>
               <l>That which thou ought'st to know. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e113050">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e113050">
               <speaker>RODERIGO. </speaker>
               <l>Would you then shame me with inconstancy, </l>
               <l>A coward Souldier, and a perjur'd Lover, </l>
@@ -2009,7 +2057,7 @@
               <l>And since I can nor have, nor leave my love, </l>
               <l>The death I meane to seeke is my best comfort. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e113140">
+            <sp who="#ep000352-diego" xml:id="ep000352-e113140">
               <speaker>D. DIEGO. </speaker>
               <l>This is no time to seeke out death. Thy King, </l>
               <l>Thy Country needs thy aid, the Fleet wee fear'd </l>
@@ -2045,11 +2093,11 @@
           <div n="1" type="scene" xml:id="ep000352-e113420">
             <head>ACT IV. SCENE I. </head>
             <stage xml:id="ep000352-e113430">CIMENA. ELVIRA. </stage>
-            <sp who="A19346-cimena" xml:id="ep000352-e113440">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e113440">
               <speaker>CIMENA. </speaker>
               <l>BUt is this true, Elvira? art thou sure on't? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e113460">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e113460">
               <speaker>ELVIRA. </speaker>
               <l>How hard it is to beget faith in you, </l>
               <l>When every man extoll's the glorious actions </l>
@@ -2061,29 +2109,29 @@
               <l>Could meet with nothing durst stand in its way. </l>
             </sp>
             <pb xml:id="ep000352-027-a"/>
-            <sp who="A19346-cimena" xml:id="ep000352-e113550">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e113550">
               <speaker>CIMENA. </speaker>
               <l>And was't Roderigo's hand that did these wonders. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e113570">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e113570">
               <speaker>ELVIRA. </speaker>
               <l>The two Kings which he vanquish'd are his prize. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e113590">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e113590">
               <speaker>CIMENA. </speaker>
               <l>Whence could'st thou gather this strange news, Elvira? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e113610">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e113610">
               <speaker>ELVIRA. </speaker>
               <l>From those who sound his praises up and downe, </l>
               <l>The people, who with one voice doe salute him </l>
               <l>Their Guardian Angell, saver of their Countrey. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e113650">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e113650">
               <speaker>CIMENA. </speaker>
               <l>How does the King looke, upon this his valour? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e113670">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e113670">
               <speaker>ELVIRA. </speaker>
               <l>Roderigo dares not yet appeare in Court, </l>
               <l>But Don Diego, in the Conquerours name, </l>
@@ -2091,16 +2139,16 @@
               <l>And all he does demand, is, that the King </l>
               <l>Would daigne to see the hand that freed his Country. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e113730">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e113730">
               <speaker>CIMENA. </speaker>
               <l>But has he got no wound? </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e113750">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e113750">
               <speaker>ELVIRA. </speaker>
               <l>I know not that. </l>
               <l>Why change you colour so? resume your spirits. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e113780">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e113780">
               <speaker>CIMENA. </speaker>
               <l>Let me resume my anger, which my love </l>
               <l>Has so enfeebled; must my care for him </l>
@@ -2118,7 +2166,7 @@
               <l>Shall get the power of me, tell my heart </l>
               <l>I owe a duty to a Father slaine. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e113930">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e113930">
               <speaker>ELVIRA. </speaker>
               <l>Be not transported so: The Infanta's here. </l>
             </sp>
@@ -2126,13 +2174,13 @@
           <div n="2" type="scene" xml:id="ep000352-e113950">
             <head>SCENE II. </head>
             <stage xml:id="ep000352-e113960">INFANTA. CIMENA. LEONORA. ELVIRA. </stage>
-            <sp who="A19346-infanta" xml:id="ep000352-e113970">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e113970">
               <speaker>INFANTA. </speaker>
               <l>I Come not here, Cimena, with faint comforts </l>
               <l>To plead against thy griefe, but with sad sighs </l>
               <l>To mingle with thy teares. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e114010">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e114010">
               <speaker>CIMENA. </speaker>
               <l>Nay rather, Madame, </l>
               <l>Share in the common joy, and fully taste </l>
@@ -2144,27 +2192,27 @@
               <l>'Tis he has sav'd the Citty, serv'd his King, </l>
               <l>And onely ruin'd me. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e114110">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e114110">
               <speaker>INFANTA. </speaker>
               <l>'Tis true, Cimena, </l>
               <l>He has done wonders. </l>
             </sp>
             <pb xml:id="ep000352-028-a"/>
-            <sp who="A19346-cimena" xml:id="ep000352-e114140">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e114140">
               <speaker>CIMENA. </speaker>
               <l>Yes the unwelcome newes, </l>
               <l>Has pierc'd my eares already, I can heare </l>
               <l>How the voyce goes, and that hee's fam'd no lesse </l>
               <l>A Valiant Souldier, than a lucklesse lover. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e114190">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e114190">
               <speaker>INFANTA. </speaker>
               <l>How comes this newes to be unwelcome to you? </l>
               <l>Was not the man they prais'd your servant once? </l>
               <l>And had not he your heart? in honouring him </l>
               <l>They honour much your choise. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e114240">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e114240">
               <speaker>CIMENA. </speaker>
               <l>I needs must say </l>
               <l>His honours are but due, and yet to me </l>
@@ -2176,16 +2224,16 @@
               <l>And spight of my affection puts me on </l>
               <l>To prosecute his crime. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e114340">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e114340">
               <speaker>INFANTA. </speaker>
               <l>But will you, Madam, </l>
               <l>Beleeve the counsell of a faithfull friend. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e114370">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e114370">
               <speaker>CIMENA. </speaker>
               <l>Not to obey you were a sin unpardonable. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e114390">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e114390">
               <speaker>INFANTA. </speaker>
               <l>Though yesterday pursuing your revenge, </l>
               <l>You did so much that all the Court admir'd </l>
@@ -2206,7 +2254,7 @@
               <l>You should avoid that envy, and deprive </l>
               <l>Him of your love, but not us of his life. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e114570">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e114570">
               <speaker>CIMENA. </speaker>
               <l>Ah, Madam, give my spirit its full course, </l>
               <l>Though my heart make a faction against me, </l>
@@ -2214,7 +2262,7 @@
               <l>Though he be compass'd with the stoutest Souldiers, </l>
               <l>He overwhelme his Laurell, with my Cipresse. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e114630">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e114630">
               <speaker>INFANTA. </speaker>
               <l>I must confesse, it is a marke of spirit </l>
               <l>To prosecute the life you lov'd so dearely, </l>
@@ -2227,12 +2275,12 @@
               <l>Requires this, besides you must not thinke </l>
               <l>The King should grant you your request. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e114740">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e114740">
               <speaker>CIMENA. </speaker>
               <l>He may. </l>
               <l>Refuse me if he please, but I must speake. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e114770">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e114770">
               <speaker>INFANTA. </speaker>
               <l>Consider well, Cimena, what it is </l>
               <l>You goe about, and thinke of it at leasure. </l>
@@ -2242,7 +2290,7 @@
             <pb xml:id="ep000352-029-a"/>
             <head>SCENE III. </head>
             <stage xml:id="ep000352-e114810">KING. D. DIEGO. D. ARIAS. D. RODERIGO. </stage>
-            <sp who="A19346-king" xml:id="ep000352-e114820">
+            <sp who="#ep000352-king" xml:id="ep000352-e114820">
               <speaker>KING. </speaker>
               <l>THou brave descendent of a noble race, </l>
               <l>Who have been still supporters of my kingdome, </l>
@@ -2261,7 +2309,7 @@
               <l>And that my Subjects hearing it may know </l>
               <l>Thy value, and how much to thee I owe. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e114990">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e114990">
               <speaker>RODERIGO. </speaker>
               <l>Let not your Majesty confound your servant </l>
               <l>With too much shame, to set so high a prise </l>
@@ -2273,14 +2321,14 @@
               <l>And when I lose 'um for so faire an object, </l>
               <l>I doe, Sir, but the duty of a Subject. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e115080">
+            <sp who="#ep000352-king" xml:id="ep000352-e115080">
               <speaker>KING. </speaker>
               <l>Few of those whom their duty binds to serve me, </l>
               <l>Can so acquit themselves, as thou hast done, </l>
               <l>Suffer then thy just praises, and at full </l>
               <l>Relate the story of thy Victory. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e115130">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e115130">
               <speaker>RODERIGO. </speaker>
               <l>Sir, you have heard how in this urgent danger, </l>
               <l>Which put the City in so great a tumult, </l>
@@ -2294,7 +2342,7 @@
               <l>My life in the defence of the whole State, </l>
               <l>Than give it up unto Cimena's plaints. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e115250">
+            <sp who="#ep000352-king" xml:id="ep000352-e115250">
               <speaker>KING. </speaker>
               <l>I must excuse the heat of thy revenge, </l>
               <l>The State defended speakes in thy defence, </l>
@@ -2302,7 +2350,7 @@
               <l>Whom if I heare 'tis but to give her comfort; </l>
               <l>But on with your relation. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e115310">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e115310">
               <speaker>RODERIGO. </speaker>
               <l>Under me </l>
               <l>This troop advanc'd with such a confidence, </l>
@@ -2374,11 +2422,11 @@
               <l>And thus, Sir, when we are about your service </l>
             </sp>
             <stage xml:id="ep000352-e115980">To them D. ALONSO. </stage>
-            <sp who="A19346-alonso" xml:id="ep000352-e115990">
+            <sp who="#ep000352-alonso" xml:id="ep000352-e115990">
               <speaker>D. ALONSO. </speaker>
               <l>Sir, here's Cimena come to aske you justice. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e116010">
+            <sp who="#ep000352-king" xml:id="ep000352-e116010">
               <speaker>KING. </speaker>
               <l>What shall I doe? I would not have her see thee, </l>
               <pb xml:id="ep000352-031-a"/>
@@ -2386,12 +2434,12 @@
               <l>But ere thou leav'st the Court, returne againe </l>
               <l>Unto thy Kings embraces. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e116060">
+            <sp who="#ep000352-diego" xml:id="ep000352-e116060">
               <speaker>D. DIEGO. </speaker>
               <l>'Tis strange, she should </l>
               <l>Pursue the man thus, whom she faine would save. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e116090">
+            <sp who="#ep000352-king" xml:id="ep000352-e116090">
               <speaker>KING. </speaker>
               <l>I'me told she is in love with him. I'le try, </l>
               <stage xml:id="ep000352-e116110">Cimena ent. </stage>
@@ -2403,29 +2451,29 @@
               <l>Give thankes to heaven that has given you vengeance; </l>
               <l>Her colour's chang'd already. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e116190">
+            <sp who="#ep000352-diego" xml:id="ep000352-e116190">
               <speaker>D. DIEGO. </speaker>
               <l>But, Sir, marke </l>
               <l>Her swoundings, and by them how she betrayes </l>
               <l>The secrets of her Soule, surely she loves him. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e116230">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e116230">
               <speaker>CIMENA. </speaker>
               <l>Is Roderigo dead then? </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e116250">
+            <sp who="#ep000352-king" xml:id="ep000352-e116250">
               <speaker>KING. </speaker>
               <l>No, no, he lives, </l>
               <l>And still remaines thy true, and constant lover, </l>
               <l>Thou shalt enjoy him, take thy mirth againe. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e116290">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e116290">
               <speaker>CIMENA. </speaker>
               <l>Sir, we as often faint with joy as sadnesse, </l>
               <l>And when excesse of that surprizes us, </l>
               <l>It soone confounds our senses. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e116330">
+            <sp who="#ep000352-king" xml:id="ep000352-e116330">
               <speaker>KING. </speaker>
               <l>Thou would'st faine </l>
               <pb xml:id="ep000352-031-b"/>
@@ -2433,7 +2481,7 @@
               <l>Beleeve impossibles; but here thy sadnesse </l>
               <l>Has shew'd it selfe too plain. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e116380">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e116380">
               <speaker>CIMENA. </speaker>
               <l>Well, Sir, you may </l>
               <l>Adde this too, if you please, to my misfortunes, </l>
@@ -2461,7 +2509,7 @@
               <l>A Trophee to the Victors crimes; Whilest I </l>
               <l>Amongst the rest, adorne his victory. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e116640">
+            <sp who="#ep000352-king" xml:id="ep000352-e116640">
               <speaker>KING. </speaker>
               <l>Sweet heart y'are too much hurri'd with your passions. </l>
               <l>We, when we render Justice use to cast </l>
@@ -2474,7 +2522,7 @@
               <l>I'me sure thy love, secretly thankes thy King, </l>
               <l>Whose favour keepes so brave a Lover for thee. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e116740">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e116740">
               <speaker>CIMENA. </speaker>
               <l>For me! my Enemy the Author of </l>
               <l>My miscries, the murderer of my father. </l>
@@ -2490,7 +2538,7 @@
               <l>This, I beseech your Majesty may be publish'd </l>
               <l>By your authority. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e116880">
+            <sp who="#ep000352-king" xml:id="ep000352-e116880">
               <speaker>KING. </speaker>
               <l>This Countries custome, </l>
               <l>More ancient than good, under the colour </l>
@@ -2504,7 +2552,7 @@
               <l>Forc'd him to doe an outrage, yet in freeing </l>
               <l>His Country from the Moores, h'has freed himselfe. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e117000">
+            <sp who="#ep000352-diego" xml:id="ep000352-e117000">
               <speaker>D. DIEGO. </speaker>
               <l>How, Sir, for him must you reverse your lawes, </l>
               <pb xml:id="ep000352-032-b"/>
@@ -2517,7 +2565,7 @@
               <l>The Count durst doe a wrong, my Sonne durst punish, </l>
               <l>Let him maintaine the honour hee has won. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e117100">
+            <sp who="#ep000352-king" xml:id="ep000352-e117100">
               <speaker>KING. </speaker>
               <l>Since you will have it so, let it be done, </l>
               <l>But if Roderigo be expos'd to all </l>
@@ -2527,41 +2575,41 @@
               <l>Choose whom you will, Cimena, and choose wisely, </l>
               <l>But after this, urge me to nothing farther. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e117180">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e117180">
               <speaker>D. SANCHO. </speaker>
               <l>An't please your Majesty to let the lists </l>
               <l>Be opened, I shall be th' undertaker; </l>
               <l>Madam, you know your promise, I beseech you </l>
               <l>Let me obtaine the grace to be your Champion. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e117230">
+            <sp who="#ep000352-king" xml:id="ep000352-e117230">
               <speaker>KING. </speaker>
               <l>What say you, Cimena, shall he be the Man? </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e117250">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e117250">
               <speaker>CIMENA. </speaker>
               <l>Sir, I have promised him. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e117270">
+            <sp who="#ep000352-king" xml:id="ep000352-e117270">
               <speaker>KING. </speaker>
               <l>Be ready than to morrow. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e117290">
+            <sp who="#ep000352-diego" xml:id="ep000352-e117290">
               <speaker>D. DIEGO. </speaker>
               <l>Defer it not so long, Sir; </l>
               <l>A man of courage is at all times ready. </l>
             </sp>
             <pb xml:id="ep000352-033-a"/>
-            <sp who="A19346-king" xml:id="ep000352-e117320">
+            <sp who="#ep000352-king" xml:id="ep000352-e117320">
               <speaker>KING. </speaker>
               <l>Shall he no sooner be returned from one, </l>
               <l>But he must enter on another fight? </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e117350">
+            <sp who="#ep000352-diego" xml:id="ep000352-e117350">
               <speaker>D. DIEGO. </speaker>
               <l>He has tane breath, Sir, in recounting it. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e117370">
+            <sp who="#ep000352-king" xml:id="ep000352-e117370">
               <speaker>KING. </speaker>
               <l>How ere, an houre or two let him repose, </l>
               <l>But lest I should be thought to countenance </l>
@@ -2572,11 +2620,11 @@
               <l>The Combat done, bring me the Conquerour, </l>
               <l>I meane my selfe to give him to Cimena. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e117460">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e117460">
               <speaker>CIMENA. </speaker>
               <l>That were t'impose too hard a law upon me. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e117480">
+            <sp who="#ep000352-king" xml:id="ep000352-e117480">
               <speaker>KING. </speaker>
               <l>Thy love dares not avow this thy complaint, </l>
               <l>If Roderigo conquer, thou must have him, </l>
@@ -2590,29 +2638,29 @@
             <pb xml:id="ep000352-033-b"/>
             <head>ACT. V. SCENE I. </head>
             <stage xml:id="ep000352-e117550">D. RODERIGO. CIMENA. </stage>
-            <sp who="A19346-cimena" xml:id="ep000352-e117560">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e117560">
               <speaker>CIMENA. </speaker>
               <l>WHat Roderigo, in the open day! </l>
               <l>Whence comes this boldnesse? doe you meane t'undoe </l>
               <l>Mee, and mine honour? Fy, retire your selfe. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e117600">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e117600">
               <speaker>RODERIGO. </speaker>
               <l>Madame, I goe to dye, and therefore come </l>
               <l>Before my death, to take my last farewell, </l>
               <l>My love does owe you this: and my thrall'd heart </l>
               <l>Dares not depart your Kingdome without leave. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e117650">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e117650">
               <speaker>CIMENA. </speaker>
               <l>You goe to dye? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e117670">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e117670">
               <speaker>RODERIGO. </speaker>
               <l>Nay, more, I run; as soone </l>
               <l>As I have tane my leave, the Count's reveng'd. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e117700">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e117700">
               <speaker>CIMENA. </speaker>
               <l>You goe to dye! And is Don Sancho then </l>
               <l>A man so terrible, that you need feare him? </l>
@@ -2624,7 +2672,7 @@
               <l>Don Sancho, trembles at it. Does your spirit </l>
               <l>Fayle you at greatest need? </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e117790">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e117790">
               <speaker>RODERIGO. </speaker>
               <l>'Tis not to the Combat </l>
               <l>That I goe now, but to my punishment. </l>
@@ -2648,7 +2696,7 @@
               <l>I'le open him my brest, in his, adoring </l>
               <l>Your hand, from which I'le welcome my destruction. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e118010">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e118010">
               <speaker>CIMENA. </speaker>
               <l>If the just violence of a fatall duty, </l>
               <l>Which makes me to pursue thee 'gainst my will, </l>
@@ -2673,7 +2721,7 @@
               <l>Your selfe to any hand. No Roderigo </l>
               <l>Defend thy honor, though thou slight thy life. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e118230">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e118230">
               <speaker>RODERIGO. </speaker>
               <l>Mine honor cannot need any defence </l>
               <l>More than it has already. He that could </l>
@@ -2696,7 +2744,7 @@
               <l>Could for the wrong done to you satisfy. </l>
             </sp>
             <pb xml:id="ep000352-035-a"/>
-            <sp who="A19346-cimena" xml:id="ep000352-e118430">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e118430">
               <speaker>CIMENA. </speaker>
               <l>Since nor thy love, nor honour can prevaile </l>
               <l>To hold thee from thy ruine, deare Roderigo, </l>
@@ -2709,7 +2757,7 @@
               <l>Be Victor where Cimena is the price, </l>
               <l>Adieu! this last word makes me blush for shame. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e118540">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e118540">
               <speaker>RODERIGO. </speaker>
               <l>Is there an Enemy now, that I can feare? </l>
               <l>Moores, and Castilians, or what ere you be, </l>
@@ -2723,21 +2771,21 @@
             <pb xml:id="ep000352-035-b"/>
             <head>SCENE II. </head>
             <stage xml:id="ep000352-e118620">INFANTA. LEONORA. </stage>
-            <sp who="A19346-infanta" xml:id="ep000352-e118630">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e118630">
               <speaker>INFANTA. </speaker>
               <l>IS it to me you come now Leonora? </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e118650">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e118650">
               <speaker>LEONORA. </speaker>
               <l>Madame, I come to testifie the joy </l>
               <l>I feele, to see your heart at rest. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e118680">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e118680">
               <speaker>INFANTA. </speaker>
               <l>My heart? </l>
               <l>Can rest come to a heart that's fill'd with griefes? </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e118710">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e118710">
               <speaker>LEONORA. </speaker>
               <l>If love doe live on hope, and dye with it, </l>
               <l>Roderigo cannot trouble you any longer, </l>
@@ -2746,7 +2794,7 @@
               <l>Or be her husband, but what ever happen, </l>
               <l>Whether he live, or dye, your hope is dead. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e118780">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e118780">
               <speaker>INFANTA. </speaker>
               <l>But how canst thou assure me it is dead, </l>
               <l>If upon these conditions Roderigo </l>
@@ -2756,7 +2804,7 @@
               <l>Love the sweet Author of my punishment, </l>
               <l>Can teach the wits of lovers many slights. </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e118850">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e118850">
               <speaker>LEONORA. </speaker>
               <l>Hope you to breed a discontent between'um, </l>
               <l>Which a Fathers death cannot. Cimena shewes </l>
@@ -2772,18 +2820,18 @@
               <l>As might enforce her duty to be silent, </l>
               <l>And yet assure Roderigo's conquest. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e118990">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e118990">
               <speaker>INFANTA. </speaker>
               <l>I see it well enough, and yet my heart </l>
               <l>Strives with Cimena's, who shal most adore him, </l>
               <l>What had I best resolve on, Leonora? </l>
             </sp>
-            <sp who="A19346-leonora" xml:id="ep000352-e119030">
+            <sp who="#ep000352-leonora" xml:id="ep000352-e119030">
               <speaker>LEONORA. </speaker>
               <l>Madam, bethink your selfe of whom y'are borne, </l>
               <l>A King, heav'n owes you, and you love a subject. </l>
             </sp>
-            <sp who="A19346-infanta" xml:id="ep000352-e119060">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e119060">
               <speaker>INFANTA. </speaker>
               <l>No, no, my thoughts are off from their first object, </l>
               <l>I love not Roderigo as a Gentleman, </l>
@@ -2803,7 +2851,7 @@
           <div n="3" type="scene" xml:id="ep000352-e119190">
             <head>SCENE III. </head>
             <stage xml:id="ep000352-e119200">CIMENA. ELVIRA. </stage>
-            <sp who="A19346-cimena" xml:id="ep000352-e119210">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e119210">
               <speaker>CIMENA. </speaker>
               <l>WHat shall I doe Elvira? all my hopes </l>
               <l>Are lost, and I have nothing left but feares, </l>
@@ -2813,14 +2861,14 @@
               <l>For thinke the best, I can of fate obtaine, </l>
               <l>My Father's unreveng'd or lover slaine. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e119290">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e119290">
               <speaker>ELVIRA. </speaker>
               <l>From both sides you will find reason of comfort, </l>
               <l>Either you have revenge or Roderigo </l>
               <l>How ever destiny disposes of you </l>
               <l>It saves your honour, and provides y'a husband. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e119340">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e119340">
               <speaker>CIMENA. </speaker>
               <l>What? the object of my hate, or of my anger? </l>
               <l>Roderigo's, or my Fathers murderer, </l>
@@ -2835,7 +2883,7 @@
               <l>This Combat equally, without advantage, </l>
               <l>That neither be the Victor, or the Vanquisht. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e119460">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e119460">
               <speaker>ELVIRA. </speaker>
               <l>That were to handle you with too much cruelty, </l>
               <l>If when the fight were done, you should be bound </l>
@@ -2846,7 +2894,7 @@
               <l>And that the King, according to his law </l>
               <l>Should force you to comply with your owne wishes. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e119550">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e119550">
               <speaker>CIMENA. </speaker>
               <l>Doest thinke though he be Conquerour that I will </l>
               <l>Yeeld my selfe his? my duty is too strong, </l>
@@ -2857,7 +2905,7 @@
               <l>Mine honour, (rather than I'le be his prize) </l>
               <l>Shall raise him up a thousand enemies. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e119640">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e119640">
               <speaker>ELVIRA. </speaker>
               <l>Take heed, lest heav'n for this strange pride of yours </l>
               <l>Suffer you not to be reveng'd at all. </l>
@@ -2873,7 +2921,7 @@
               <pb xml:id="ep000352-037-b"/>
               <l>In stead of him, will wed you to Don Sancho. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e119770">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e119770">
               <speaker>CIMENA. </speaker>
               <l>The griefes Elvira, I sustaine already, </l>
               <l>Need not thy fatall augury to augment 'um, </l>
@@ -2888,11 +2936,11 @@
           <div n="4" type="scene" xml:id="ep000352-e119860">
             <head>SCENE IV. </head>
             <stage xml:id="ep000352-e119870">D. SANCHO. CIMENA. ELVIRA. </stage>
-            <sp who="A19346-sancho" xml:id="ep000352-e119880">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e119880">
               <speaker>D. SANCHO. </speaker>
               <l>AT your feet, Madame, I present this sword. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e119900">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e119900">
               <speaker>CIMENA. </speaker>
               <l>What that yet reaking with Roderigo's bloud? </l>
               <l>Traytor, how dar'st thou come into my sight, </l>
@@ -2902,11 +2950,11 @@
               <l>has to mine honour giv'n security, </l>
               <l>To my soule despaire, to my love liberty. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e119980">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e119980">
               <speaker>D. SANCHO. </speaker>
               <l>Heare me with better temper. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e120000">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e120000">
               <speaker>CIMENA. </speaker>
               <l>Dar'st thou yet </l>
               <pb xml:id="ep000352-038-a"/>
@@ -2915,11 +2963,11 @@
               <l>Perfidiously, for otherwise that man </l>
               <l>Could never fall by such a hand as thine. </l>
             </sp>
-            <sp who="A19346-elvira" xml:id="ep000352-e120060">
+            <sp who="#ep000352-elvira" xml:id="ep000352-e120060">
               <speaker>ELVIRA. </speaker>
               <l>But heare him, Madame. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e120080">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e120080">
               <speaker>CIMENA. </speaker>
               <l>What wouldst thou have me heare? </l>
               <l>Can I doubt, when my eyes are satisfied, </l>
@@ -2936,11 +2984,11 @@
               <l>Hope nothing at my hands. Thou hast done me </l>
               <l>No service, onely hastned on my death. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e120230">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e120230">
               <speaker>D. SANCHO. </speaker>
               <l>'Tis a strange passion will not give me hearing. </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e120250">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e120250">
               <speaker>CIMENA. </speaker>
               <l>What would'st thou have me heare thee, whilst with boasting </l>
               <l>Thou paint'st out to me my owne fatall crime, </l>
@@ -2951,7 +2999,7 @@
             </sp>
             <stage xml:id="ep000352-e120320">
               <pb xml:id="ep000352-038-b"/>To them The KING. D. DIEGO. D. ARIAS. D. ALONSO. </stage>
-            <sp who="A19346-cimena" xml:id="ep000352-e120330">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e120330">
               <speaker>CIMENA. </speaker>
               <l>SIr, I need not now dissemble any longer </l>
               <l>What never art of mine could hide from you </l>
@@ -2974,18 +3022,18 @@
               <l>I may bewaile (the time I have to live) </l>
               <l>My Father, and my Lover, in a Cloister. </l>
             </sp>
-            <sp who="A19346-diego" xml:id="ep000352-e120540">
+            <sp who="#ep000352-diego" xml:id="ep000352-e120540">
               <speaker>D. DIEGO. </speaker>
               <l>Now you perceive she loves, Sir, and not thinkes </l>
               <l>'Tis such a crime t' a vow her lawfull love. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e120570">
+            <sp who="#ep000352-king" xml:id="ep000352-e120570">
               <speaker>KING. </speaker>
               <l>Sweet heart mistake not, Roderigo lives </l>
               <pb xml:id="ep000352-039-a"/>
               <l>Don Sancho has made thee a false report. </l>
             </sp>
-            <sp who="A19346-sancho" xml:id="ep000352-e120600">
+            <sp who="#ep000352-sancho" xml:id="ep000352-e120600">
               <speaker>D. SANCHO. </speaker>
               <l>Sir, not by me, but by her too much heat </l>
               <l>Shee was deceiv'd: For had she given me leave; </l>
@@ -3008,7 +3056,7 @@
               <l>To be a gainer, loving my distresse </l>
               <l>Which brings so faire a flame, so good successe. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e120810">
+            <sp who="#ep000352-king" xml:id="ep000352-e120810">
               <speaker>KING. </speaker>
               <l>You must not be asham'd of such a love </l>
               <l>Cimena, or seeke meanes to disavow it, </l>
@@ -3023,13 +3071,13 @@
             </sp>
             <stage xml:id="ep000352-e120920">
               <pb xml:id="ep000352-039-b"/>To them INFANTA. RODERIGO. LEONORA. </stage>
-            <sp who="A19346-infanta" xml:id="ep000352-e120930">
+            <sp who="#ep000352-infanta" xml:id="ep000352-e120930">
               <speaker>INFANTA. </speaker>
               <l>COme Cimena, </l>
               <l>Drye thy eyes: And receive with a glad heart </l>
               <l>This noble Conquerour, from thy Princesse's hand. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e120970">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e120970">
               <speaker>RODERIGO. </speaker>
               <l>Great Sir, be not offended if before you, </l>
               <l>The duty which I owe to love, doe cast me </l>
@@ -3055,7 +3103,7 @@
               <l>If any time you call to mind my paine </l>
               <l>Had he not lov'd me, he had not been slaine, </l>
             </sp>
-            <sp who="A19346-cimena" xml:id="ep000352-e121200">
+            <sp who="#ep000352-cimena" xml:id="ep000352-e121200">
               <speaker>CIMENA. </speaker>
               <l>Rise Roderigo. Sir, I must needs say </l>
               <l>My love has shew'd it selfe too much, for me </l>
@@ -3070,7 +3118,7 @@
               <l>That were to hold intelligence with's murtherer, </l>
               <l>And soyle my honour with eternall shame. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e121330">
+            <sp who="#ep000352-king" xml:id="ep000352-e121330">
               <speaker>KING. </speaker>
               <l>Time often makes that lawfull, which at present </l>
               <l>Seemes not to be so. Roderigo, has won thee, </l>
@@ -3091,14 +3139,14 @@
               <l>And let thy deeds set such a price upon thee, </l>
               <l>That she may court thy Marriage as an honour. </l>
             </sp>
-            <sp who="A19346-roderigo" xml:id="ep000352-e121510">
+            <sp who="#ep000352-roderigo" xml:id="ep000352-e121510">
               <speaker>RODERIGO. </speaker>
               <l>For my Cimena, Sir, and for your service, </l>
               <l>What can you bid me doe I won't accomplish? </l>
               <l>And though I hardly can endure her absence, </l>
               <l>Yet are the hopes you give sufficient happinesse. </l>
             </sp>
-            <sp who="A19346-king" xml:id="ep000352-e121560">
+            <sp who="#ep000352-king" xml:id="ep000352-e121560">
               <speaker>KING. </speaker>
               <l>Rely upon thy valour and my promise, </l>
               <l>And now thou hast thy Mistresse heart already, </l>
@@ -3148,249 +3196,6 @@
           </figure>
         </p>
         <pb xml:id="ep000352-042-b"/>
-      </div>
-      <div type="machine-generated_castlist">
-        <head>Machine-generated castlist</head>
-        <list n="163-A19346">
-          <item n="87">
-            <seg type="character_name">A19346-cimena</seg>
-            <seg type="speech_count">87</seg>
-          </item>
-          <item n="55">
-            <seg type="character_name">A19346-roderigo</seg>
-            <seg type="speech_count">55</seg>
-          </item>
-          <item n="36">
-            <seg type="character_name">A19346-count</seg>
-            <seg type="speech_count">36</seg>
-          </item>
-          <item n="36">
-            <seg type="character_name">A19346-diego</seg>
-            <seg type="speech_count">36</seg>
-          </item>
-          <item n="34">
-            <seg type="character_name">A19346-king</seg>
-            <seg type="speech_count">34</seg>
-          </item>
-          <item n="32">
-            <seg type="character_name">A19346-infanta</seg>
-            <seg type="speech_count">32</seg>
-          </item>
-          <item n="27">
-            <seg type="character_name">A19346-elvira</seg>
-            <seg type="speech_count">27</seg>
-          </item>
-          <item n="14">
-            <seg type="character_name">A19346-arias</seg>
-            <seg type="speech_count">14</seg>
-          </item>
-          <item n="12">
-            <seg type="character_name">A19346-sancho</seg>
-            <seg type="speech_count">12</seg>
-          </item>
-          <item n="10">
-            <seg type="character_name">A19346-leonora</seg>
-            <seg type="speech_count">10</seg>
-          </item>
-          <item n="3">
-            <seg type="character_name">A19346-alonso</seg>
-            <seg type="speech_count">3</seg>
-          </item>
-          <item n="3">
-            <seg type="character_name">A19346-boy</seg>
-            <seg type="speech_count">3</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A19346-page</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-        </list>
-      </div>
-      <div type="textual_notes">
-        <head>Textual Notes</head>
-        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
-        <note target="A19346-002-b-0030">
-          <label>c3csh-002-b-0030</label>
-          <sic>RIGGT</sic>
-          <seg>TO THE</seg>
-          <corr>RIGHT</corr>
-          <seg>HONOVRABLE , my singular good Lord and Master</seg>
-        </note>
-        <note target="A19346-002-b-0910">
-          <label>c3csh-002-b-0910</label>
-          <sic>con●●deration</sic>
-          <seg>which else despaire of performance , or the</seg>
-          <corr>consideration</corr>
-          <seg>to whom it must be presented , would ave</seg>
-        </note>
-        <note target="A19346-002-b-1110">
-          <label>c3csh-002-b-1110</label>
-          <sic>●ope</sic>
-          <seg>stifled in its first birth . For how could I</seg>
-          <corr>hope</corr>
-          <seg>any thing from mine owne sufficiencie ,</seg>
-        </note>
-        <note target="A19346-002-b-1190">
-          <label>c3csh-002-b-1190</label>
-          <sic>●eing</sic>
-          <seg>hope any thing from mine owne sufficiencie ,</seg>
-          <corr>being</corr>
-          <seg>little exercised in the French tongue ,</seg>
-        </note>
-        <note target="A19346-003-a-0460">
-          <label>c3csh-003-a-0460</label>
-          <sic>w●</sic>
-          <seg>speaker of both languages . So that what</seg>
-          <corr>we</corr>
-          <seg>with much labour compasse , is your daily</seg>
-        </note>
-        <note target="A19346-003-a-2400">
-          <label>c3csh-003-a-2400</label>
-          <sic>yo●</sic>
-          <seg>life has held some proportion , for like him</seg>
-          <corr>you</corr>
-          <seg>have ever preferr'd your honour to your</seg>
-        </note>
-        <note target="A19346-003-b-0970">
-          <label>c3csh-003-b-0970</label>
-          <sic>setvice</sic>
-          <seg>time , I must account it upon your Lordships</seg>
-          <corr>service</corr>
-          <seg>, from whom I have received all I have ,</seg>
-        </note>
-        <note target="A19346-005-a-0240">
-          <label>c3csh-005-a-0240</label>
-          <sic>●ua</sic>
-          <seg>Sen. Rhet.</seg>
-          <corr>sua</corr>
-          <seg>1. sub ●●nem .</seg>
-        </note>
-        <note target="A19346-005-a-0270">
-          <label>c3csh-005-a-0270</label>
-          <sic>●●nem</sic>
-          <seg>Sen. Rhet. ●ua 1. sub</seg>
-          <corr>finem</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A19346-010-a-2990">
-          <label>c3csh-010-a-2990</label>
-          <sic>Princeto</sic>
-          <seg>glory , Has pil'd up victory on victory . The</seg>
-          <corr>Prince to</corr>
-          <seg>set an edge upon his valour , Marching</seg>
-        </note>
-        <note target="A19346-015-b-2860">
-          <label>c3csh-015-b-2860</label>
-          <sic>rath e r</sic>
-          <seg/>
-          <corr>rather</corr>
-          <seg>doe desire , than hope it , Madam , Don</seg>
-        </note>
-        <note target="A19346-016-a-1730">
-          <label>c3csh-016-a-1730</label>
-          <sic>orasham'd</sic>
-          <seg>his affection , I cannot but be troubled ,</seg>
-          <corr>or asham'd</corr>
-          <seg>At his too much respect , or just</seg>
-        </note>
-        <note target="A19346-017-b-2130">
-          <label>c3csh-017-b-2130</label>
-          <sic>Tthey've</sic>
-          <seg>The battailes</seg>
-          <corr>They've</corr>
-          <seg>lost already , should make 'um loose the</seg>
-        </note>
-        <note target="A19346-019-b-2030">
-          <label>c3csh-019-b-2030</label>
-          <sic>revonge</sic>
-          <seg>shew courage , and a sense of wrong , If to</seg>
-          <corr>revenge</corr>
-          <seg>a blow o'th face deserve Severely to be</seg>
-        </note>
-        <note target="A19346-021-b-0020">
-          <label>c3csh-021-b-0020</label>
-          <sic>SANGHO</sic>
-          <seg>D.</seg>
-          <corr>SANCHO</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A19346-021-b-0420">
-          <label>c3csh-021-b-0420</label>
-          <sic>fadnesse</sic>
-          <seg>length I find I'me free to open to thee The</seg>
-          <corr>sadnesse</corr>
-          <seg>of my soule , and to give way to my deep</seg>
-        </note>
-        <note target="A19346-023-a-0380">
-          <label>c3csh-023-a-0380</label>
-          <sic>fmear'd</sic>
-          <seg>That sword be</seg>
-          <corr>smear'd</corr>
-          <seg>with th' bloud of my dead father .</seg>
-        </note>
-        <note target="A19346-023-b-2970">
-          <label>c3csh-023-b-2970</label>
-          <sic>t'aught'st</sic>
-          <seg>Thou did'st thy duty but in doeing it Thou</seg>
-          <corr>taught'st</corr>
-          <seg>me mine . The same regard thou had'st To</seg>
-        </note>
-        <note target="A19346-027-b-1080">
-          <label>c3csh-027-b-1080</label>
-          <sic>Rodcrigo's</sic>
-          <seg>the dangers From which y' are rescu'd by</seg>
-          <corr>Roderigo's</corr>
-          <seg>hand , And all your safeties purchas'd by</seg>
-        </note>
-        <note target="A19346-028-a-0920">
-          <label>c3csh-028-a-0920</label>
-          <sic>p raise</sic>
-          <seg>honours are but due , and yet to me Each</seg>
-          <corr>praise</corr>
-          <seg>of him , is a new punishment , For I can't</seg>
-        </note>
-        <note target="A19346-028-a-1840">
-          <label>c3csh-028-a-1840</label>
-          <sic>purfuing</sic>
-          <seg>Though yesterday</seg>
-          <corr>pursuing</corr>
-          <seg>your revenge , You did so much that all</seg>
-        </note>
-        <note target="A19346-032-a-2340">
-          <label>c3csh-032-a-2340</label>
-          <sic>flightly</sic>
-          <seg>bloud , It is more pretious to me , than so</seg>
-          <corr>slightly</corr>
-          <seg>To be expos'd to hazard , though his spirit</seg>
-        </note>
-        <note target="A19346-032-b-1080">
-          <label>c3csh-032-b-1080</label>
-          <sic>▪</sic>
-          <seg>That will come in to fight for such a prize</seg>
-          <corr>,</corr>
-          <seg>He must be sure to want no enemies . I will</seg>
-        </note>
-        <note target="A19346-037-b-1680">
-          <label>c3csh-037-b-1680</label>
-          <sic>●as</sic>
-          <seg>My Father's satisfi'd . One onely blow ,</seg>
-          <corr>has</corr>
-          <seg>to mine honour giv'n security , To my soule</seg>
-        </note>
-        <note target="A19346-039-a-0950">
-          <label>c3csh-039-a-0950</label>
-          <sic>Ooe</sic>
-          <seg>Am by my duty call'd to attend the King ,</seg>
-          <corr>Goe</corr>
-          <seg>you and entertaine her in my stead , And</seg>
-        </note>
-        <note target="A19346-039-a-2530">
-          <label>c3csh-039-a-2530</label>
-          <sic>hea ven</sic>
-          <seg>still put Roderigo in new danger , You see</seg>
-          <corr>heaven</corr>
-          <seg>otherwise disposes of him . And since that</seg>
-        </note>
       </div>
     </back>
   </text>

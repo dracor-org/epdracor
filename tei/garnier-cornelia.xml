@@ -94,6 +94,45 @@
           </bibl>
         </bibl>
       </sourceDesc>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000023-cicero">
+              <persName>Cicero</persName>
+            </person>
+            <person xml:id="ep000023-chorus">
+              <persName>Chorus</persName>
+            </person>
+            <person xml:id="ep000023-multiple">
+              <persName>Multiple</persName>
+            </person>
+            <person xml:id="ep000023-cornelia">
+              <persName>Cornelia</persName>
+            </person>
+            <person xml:id="ep000023-philip">
+              <persName>Philip</persName>
+            </person>
+            <person xml:id="ep000023-brutus">
+              <persName>Brutus</persName>
+            </person>
+            <person xml:id="ep000023-cassius">
+              <persName>Cassius</persName>
+            </person>
+            <person xml:id="ep000023-caesar">
+              <persName>Caesar</persName>
+            </person>
+            <person xml:id="ep000023-antony">
+              <persName>Antony</persName>
+            </person>
+            <person xml:id="ep000023-messenger">
+              <persName>Messenger</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+        <textClass>
+          <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+        </textClass>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -152,7 +191,7 @@
         <pb xml:id="ep000023-005-b"/>CORNELIA. </head>
       <div n="1" type="act" xml:id="ep000023-e100300">
         <head>ACTVS. PRIMVS. </head>
-        <sp who="A01500-cicero" xml:id="ep000023-e100310">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e100310">
           <speaker>CICERO. </speaker>
           <l>VOuchsafe Immortals, and (aboue the rest) </l>
           <l>Great Iupiter, our Citties sole Protector, </l>
@@ -319,7 +358,7 @@
           <l>"In vertues choyse, and vices needfull chace </l>
           <l>" Farre from our harts, for stayning of our face. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e101900">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e101900">
           <speaker>CHORVS. </speaker>
           <l>VPpon thy backe (where miserie doth sit) </l>
           <l>O Rome, the heauens with their wrathful hand, </l>
@@ -391,7 +430,7 @@
       </div>
       <div n="2" type="act" xml:id="ep000023-e102540">
         <head>ACTVS SECVNDVS. </head>
-        <sp who="A01500-multiple" xml:id="ep000023-e102550">
+        <sp who="#ep000023-multiple" xml:id="ep000023-e102550">
           <speaker>Cornelia. and Cicero. </speaker>
           <l>AND wil ye needs bedew my dead-grown ioyes, </l>
           <l>And nourish sorrow with eternall teares? </l>
@@ -513,14 +552,14 @@
           <l>Hence-forth wilt thou inhabite, where thy hap, </l>
           <l>None others hopes, with mischiefe may entrap. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e103710">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e103710">
           <speaker>Cicero. </speaker>
           <l>What end (O race of Scipio,) will the Fates </l>
           <l>Afford your teares? Will that day neuer come </l>
           <l>That your desastrous griefes shall turne to ioy, </l>
           <l>And we haue time to burie our annoy? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e103760">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e103760">
           <speaker>
             <pb xml:id="ep000023-012-b"/>Cornelia. </speaker>
           <l>Ne're shall I see that day, for Heauen and Time, </l>
@@ -528,7 +567,7 @@
           <l>Nor can they (should they pittie my complaints) </l>
           <l>Once ease my life, but with the pangs of death. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e103810">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e103810">
           <speaker>Cicero. </speaker>
           <l>"The wide worlds accidents are apt to change. </l>
           <l>" And tickle Fortune staies not in a place. </l>
@@ -566,14 +605,14 @@
           <l>Leauing our Cittie, where so long agoe, </l>
           <l>Heauens did theyr fauors lauishly bestow. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e104160">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e104160">
           <speaker>Cornelia. </speaker>
           <l>T'is true, the Heauens (at least-wise if they please) </l>
           <l>May giue poore Rome her former libertie. </l>
           <l>But (though they would,) I know they cannot giue </l>
           <l>A second life to Pompey, that is slaine. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e104210">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e104210">
           <speaker>Cicero. </speaker>
           <l>Mourne not for Pompey, Pompey could not die </l>
           <l>A better death, then for his Countries weale. </l>
@@ -586,7 +625,7 @@
           <l>Brauely he died, and (haplie) takes it ill, </l>
           <l>That (enuious) we repine at heauens will. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e104310">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e104310">
           <speaker>Cornelia. </speaker>
           <l>Alas, my sorrow would be so much lesse, </l>
           <l>If he had died (his fauchin in his fist.) </l>
@@ -633,7 +672,7 @@
           <l>Must I my selfe be forc'd to ope the way, </l>
           <l>Whereat my soule in wounds may sally forth? </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e104750">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e104750">
           <speaker>Cicero. </speaker>
           <l>Madam, you must not thus transpose your selfe. </l>
           <l>We see your sorrow, but who sorrowes not? </l>
@@ -645,49 +684,49 @@
           <l>What one he is that in this broile hath bin </l>
           <l>And mourneth not for some man of his kin? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e104840">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e104840">
           <speaker>Cornelia. </speaker>
           <l>If all the world were in the like distresse, </l>
           <l>My sorrow yet would neuer seeme the lesse. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e104870">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e104870">
           <speaker>Cicero. </speaker>
           <l>"O, but men beare mis-fortunes with more ease, </l>
           <l>" The more indifferently that they fall, </l>
           <l>"And nothing more (in vprores) men can please, </l>
           <l>" Then when they see their woes not worst of all. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e104920">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e104920">
           <speaker>Cornelia. </speaker>
           <l>"Our friendes mis-fortune dooth increase our owne. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e104940">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e104940">
           <speaker>Cicero. </speaker>
           <l>"But ours of others will not be acknowne. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e104960">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e104960">
           <speaker>Cornelia. </speaker>
           <l>"Yet one mans sorrow will another tutch. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e104980">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e104980">
           <speaker>Cicero. </speaker>
           <l>"I when himselfe will entertaine none such. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105000">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105000">
           <speaker>Cornelia. </speaker>
           <l>"Anothers teares, draw teares fro forth our eyes. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105020">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105020">
           <speaker>Cicero. </speaker>
           <l>"And choyce of streames the greatest Riuer dryes. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105040">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105040">
           <speaker>Cornelia. </speaker>
           <l>When sand within a Whirle-poole lyes vnwet, </l>
           <pb xml:id="ep000023-015-a"/>
           <l>My teares shall dry, and I my griefe forget. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105070">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105070">
           <speaker>Cicero. </speaker>
           <l>What boote your teares, or what auailes your sorrow </l>
           <l>Against th'ineuitable dart of Death? </l>
@@ -698,7 +737,7 @@
           <l>"No, no, Cornelia, Caron takes not paine, </l>
           <l>" To ferry those that must be fetcht againe. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105160">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105160">
           <speaker>Cornelia. </speaker>
           <l>Proserpina indeed neglects my plaints, </l>
           <l>And hell it selfe is deafe to my laments; </l>
@@ -709,7 +748,7 @@
           <l>Great losses, greatly are to be deplor'd, </l>
           <l>The losse is great that cannot be restor'd. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105250">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105250">
           <speaker>Cicero. </speaker>
           <l>"Nought is immortall vnderneath the Sunne, </l>
           <l>" All things are subiect to Deaths tiranny: </l>
@@ -744,7 +783,7 @@
           <l>"With brandisht dart, doth make the passage free; </l>
           <l>" And timeles doth our soules to Pluto send. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105570">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105570">
           <speaker>
             <pb xml:id="ep000023-016-a"/>Cornelia. </speaker>
           <l>Would Death had steept his date in Lerna-s blood, </l>
@@ -753,67 +792,67 @@
           <l>A match more equall neuer could be made, </l>
           <l>Then I, and Pompey, in th'Elisian shade. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105630">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105630">
           <speaker>Cicero. </speaker>
           <l>"Death's alwaies ready, and our time is knowne </l>
           <l>" To be at heauens dispose, and not our owne. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105660">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105660">
           <speaker>Cornelia. </speaker>
           <l>Can wee be ouer-hastie to good hap? </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105680">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105680">
           <speaker>Cicero. </speaker>
           <l>What good expect wee in a fiery gap? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105700">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105700">
           <speaker>Cornelia. </speaker>
           <l>To scape the feares that followes Fortunes glaunces. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105720">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105720">
           <speaker>Cicero. </speaker>
           <l>"A noble minde doth neuer feare mischaunces. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105740">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105740">
           <speaker>Cornelia. </speaker>
           <l>"A noble minde disdaineth seruitude. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105760">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105760">
           <speaker>Cicero. </speaker>
           <l>Can bondage true nobility exclude? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105780">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105780">
           <speaker>Cornelia. </speaker>
           <l>How if I doe, or suffer that I would not? </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105800">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105800">
           <speaker>Cicero. </speaker>
           <l>"True noblesse neuer doth the thing it should not. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105820">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105820">
           <speaker>
             <pb xml:id="ep000023-016-b"/>Cornelia. </speaker>
           <l>Then must I dye. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105840">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105840">
           <speaker>Cicero. </speaker>
           <l>Yet dying thinke this stil; </l>
           <l>"No feare of death should force vs to doe ill. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105870">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105870">
           <speaker>Cornelia. </speaker>
           <l>If death be such, why is your feare so rife? </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105890">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105890">
           <speaker>Cicero. </speaker>
           <l>My works will shew I neuer feard my life. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e105910">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e105910">
           <speaker>Cornelia. </speaker>
           <l>And yet you will not that (in our distresse,) </l>
           <l>We aske Deaths ayde to end lifes wretchednes. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e105940">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e105940">
           <speaker>Cicero. </speaker>
           <l>"We neither ought to vrge nor aske a thing, </l>
           <l>" Wherein we see so much assuraunce lyes. </l>
@@ -826,7 +865,7 @@
           <l>"Then t'is (for feare) that we our selues doe kill, </l>
           <l>" So fond we are to feare the worlds disgrace. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e106050">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e106050">
           <speaker>Cornelia. </speaker>
           <l>T'is not for frailtie or faint cowardize, </l>
           <l>That men (to shunne mischaunces) seeke for death. </l>
@@ -842,7 +881,7 @@
           <l>Then let me die my libertie to saue, </l>
           <l>For t'is a death to lyue a Tyrants slaue. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e106180">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e106180">
           <speaker>Cicero. </speaker>
           <l>Daughter, beware how you prouoke the heauens, </l>
           <l>Which in our bodies (as a tower of strength) </l>
@@ -857,7 +896,7 @@
           <l>" For as they lent vs life to doe vs pleasure, </l>
           <l>"So looke they for returne of such a treasure. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e106310">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e106310">
           <speaker>
             <pb xml:id="ep000023-017-b"/>CHORVS. </speaker>
           <l>" WHat e're the massie Earth hath fraight, </l>
@@ -939,7 +978,7 @@
       <div n="3" type="act" xml:id="ep000023-e107040">
         <pb xml:id="ep000023-019-a"/>
         <head>ACTVS TERTIVS. </head>
-        <sp who="A01500-multiple" xml:id="ep000023-e107050">
+        <sp who="#ep000023-multiple" xml:id="ep000023-e107050">
           <speaker>Cornelia. and Chorus. </speaker>
           <l>THE cheerefull Cock (the sad nights comforter,) </l>
           <l>Wayting vpon the rysing of the Sunne, </l>
@@ -967,17 +1006,17 @@
           <l>Say gentle sisters, tell me, and belieue </l>
           <l>It grieues me that I know not why you grieue. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107300">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107300">
           <speaker>Chorus. </speaker>
           <l>O poore Cornelia, haue not we good cause, </l>
           <l>For former wrongs to furnish vs with teares? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107330">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107330">
           <speaker>Cornelia. </speaker>
           <l>O but I feare that Fortune seekes new flawes, </l>
           <l>And stil (vnsatisfide) more hatred beares. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107360">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107360">
           <speaker>Chorus. </speaker>
           <l>Wherein can Fortune further iniure vs, </l>
           <l>Now we haue lost our conquered libertie, </l>
@@ -988,7 +1027,7 @@
           <l>(Lyke exil'd vs) from fertill Italy, </l>
           <l>To proudest Spayne, or poorest Getulie. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107450">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107450">
           <speaker>Cornelia. </speaker>
           <l>And will the heauens that haue so oft defended </l>
           <l>Our Romaine walls, from fury of fierce kings, </l>
@@ -1010,61 +1049,61 @@
           <l>The selfe-same style by conquest may continue. </l>
           <l>But wretched that I am, alas I feare. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107640">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107640">
           <speaker>Chorus. </speaker>
           <l>What feare you Madam? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107660">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107660">
           <speaker>Cornelia. </speaker>
           <l>That the frowning heauens, </l>
           <l>Oppose themselues against vs in theyr wrath. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107690">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107690">
           <speaker>Chorus. </speaker>
           <l>Our losse (I hope) hath satis-fide theyr ire. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107710">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107710">
           <speaker>Cornelia. </speaker>
           <l>O no, our losse lyfts Caesars fortunes hyer. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107730">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107730">
           <speaker>Chorus. </speaker>
           <l>Fortune is fickle. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107750">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107750">
           <speaker>Cornelia. </speaker>
           <l>But hath fayld him neuer. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107770">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107770">
           <speaker>Chorus. </speaker>
           <l>The more vnlike she should continue euer. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107790">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107790">
           <speaker>
             <pb xml:id="ep000023-020-b"/>Cornelia. </speaker>
           <l>My fearefull dreames doe my despairs redouble. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107810">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107810">
           <speaker>Chorus. </speaker>
           <l>Why suffer you vayne dreames your heade to trouble? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107830">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107830">
           <speaker>Cornelia. </speaker>
           <l>Who is not troubled with strange visions? </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107850">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107850">
           <speaker>Chorus. </speaker>
           <l>That of our spyrit are but illusions. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107870">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107870">
           <speaker>Cornelia. </speaker>
           <l>God graunt these dreames, to good effect bee brought. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e107890">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e107890">
           <speaker>Chorus. </speaker>
           <l>We dreame by night what we by day haue thought. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e107910">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e107910">
           <speaker>Cornelia. </speaker>
           <l>The silent Night that long had soiurned, </l>
           <l>Now gan to cast her sable mantle off, </l>
@@ -1118,13 +1157,13 @@
           <l>That lou'd our liberty and follow'd him, </l>
           <l>Be so discomfited? O would it were but an illusion. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e108410">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e108410">
           <speaker>Cho. </speaker>
           <l>Madam neuer feare. </l>
           <l>Nor let a senceles Idol of the nyght, </l>
           <l>Encrease a more then needfull feare in you. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e108450">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e108450">
           <speaker>Cor. </speaker>
           <l>My feare proceeds not of an idle dreame, </l>
           <l>For t'is a trueth that hath astonisht me. </l>
@@ -1136,7 +1175,7 @@
           <l>Howbe-it I cannot tuch him, for he slides </l>
           <l>More swiftly from mee then the Ocean glydes. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e108550">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e108550">
           <speaker>Chorus. </speaker>
           <l>"These are vaine thoughts, or melancholie showes, </l>
           <l>" That wont to haunt and trace by cloistred tombes: </l>
@@ -1160,7 +1199,7 @@
           <l>"And therefore thinke not it was Pompeys spryte, </l>
           <l>" But some false Daemon that beguild your sight. </l>
         </sp>
-        <sp who="A01500-cicero" xml:id="ep000023-e108760">
+        <sp who="#ep000023-cicero" xml:id="ep000023-e108760">
           <speaker>Cicero. </speaker>
           <l>Then O worlds Queene, O towne that didst extend </l>
           <l>Thy conquering armes beyond the Ocean, </l>
@@ -1247,7 +1286,7 @@
           <l>And thy dismembred body (stab'd and torne,) </l>
           <l>Dragd through the streets, disdained to bee borne. </l>
         </sp>
-        <sp who="A01500-philip A01500-cornelia" xml:id="ep000023-e109580">
+        <sp who="#ep000023-philip #ep000023-cornelia" xml:id="ep000023-e109580">
           <speaker>Phillip. and Cornelia. </speaker>
           <l>Amongst the rest of mine extreame mishaps, </l>
           <l>I finde my fortune not the least in this, </l>
@@ -1274,16 +1313,16 @@
           <l>I bring to faire Cornelia to interr </l>
           <l>Within his Elders Tombe that honoured her. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e109820">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e109820">
           <speaker>Cornelia. </speaker>
           <l>Ayh-me, what see I? </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e109840">
+        <sp who="#ep000023-philip" xml:id="ep000023-e109840">
           <speaker>Phil. </speaker>
           <l>Pompeys tender bones, </l>
           <l>which (in extreames) an earthen Vrne containeth. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e109870">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e109870">
           <speaker>Corn. </speaker>
           <l>O sweet, deere, deplorable cynders, </l>
           <l>O myserable woman, lyuing dying. </l>
@@ -1312,40 +1351,40 @@
           <l>A hatefull race, mongst whom there dooth abide </l>
           <l>All treason, luxurie, and homicide: </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110130">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110130">
           <speaker>Phillip. </speaker>
           <l>Cease these laments. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110150">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110150">
           <speaker>Corn. </speaker>
           <l>I doe but what I ought to mourne his death: </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110170">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110170">
           <speaker>Phil. </speaker>
           <l>Alas that profits nought. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110190">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110190">
           <speaker>
             <pb xml:id="ep000023-025-a"/>Cor. </speaker>
           <l>Will heauen let treason be vnpunished? </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110210">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110210">
           <speaker>Phil. </speaker>
           <l>Heauens will performe what they haue promised. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110230">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110230">
           <speaker>Cor. </speaker>
           <l>I feare the heauens will not heare our prayer. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110250">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110250">
           <speaker>Phil. </speaker>
           <l>The plaints of men opprest, doe pierce the ayre. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110270">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110270">
           <speaker>Cor. </speaker>
           <l>Yet Caesar liueth still. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110290">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110290">
           <speaker>Phil. </speaker>
           <l>"Due punishment </l>
           <l>" Succeedes not alwaies after an offence. </l>
@@ -1354,7 +1393,7 @@
           <l>"That when they list, they may with vsurie, </l>
           <l>" For all misdeeds pay home the penaltie. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110360">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110360">
           <speaker>Cor. </speaker>
           <l>This is the hope that feeds my haples daies, </l>
           <l>Els had my life beene long agoe expired. </l>
@@ -1373,20 +1412,20 @@
           <l>Pompey may not reuiue, (and Pompey dead) </l>
           <l>Let me but see the murdrer murdered. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110530">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110530">
           <speaker>
             <pb xml:id="ep000023-025-b"/>Phil. </speaker>
           <l>Caesar bewail'd his death. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110550">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110550">
           <speaker>Corn. </speaker>
           <l>His death hee mournd, whom while hee lyu'd, to lyue lyke him hee scorne. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110570">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110570">
           <speaker>Phil. </speaker>
           <l>Hee punished his murdrers. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110590">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110590">
           <speaker>Corn. </speaker>
           <l>Who murdred hym but hee that followd Pompey with the sword? </l>
           <l>He murdred Pompey that pursu'd his death, </l>
@@ -1395,54 +1434,54 @@
           <l>Whose fell ambition (founded first in blood) </l>
           <l>By nought but Pompeys lyfe could be with-stood. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110660">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110660">
           <speaker>Phil. </speaker>
           <l>Photis and false Achillas he beheadded. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110680">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110680">
           <speaker>Corn. </speaker>
           <l>That was, because that Pompey being theyr freend, they had determin'd once of Caesars end. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110700">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110700">
           <speaker>Phil. </speaker>
           <l>What got he by his death? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110720">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110720">
           <speaker>Cor. </speaker>
           <l>Supremacie. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110740">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110740">
           <speaker>Phil. </speaker>
           <l>Yet Caesar speakes of Pompey honourablie. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110760">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110760">
           <speaker>Corn. </speaker>
           <l>Words are but winde, nor meant he what he spoke. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110780">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110780">
           <speaker>Phil. </speaker>
           <l>He will not let his statues be broke. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110800">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110800">
           <speaker>Cor. </speaker>
           <l>By which disguise( what ere he doth pretend) </l>
           <l>His owne from beeing broke he doth defend. </l>
           <l>And by the traynes where-with he vs allures, </l>
           <l>His owne estate more firmely he assures. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110850">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110850">
           <speaker>Phil. </speaker>
           <l>He tooke no pleasure in his death you see. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110870">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110870">
           <speaker>Corn. </speaker>
           <l>Because hymselfe of life did not bereaue him. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e110890">
+        <sp who="#ep000023-philip" xml:id="ep000023-e110890">
           <speaker>Phil. </speaker>
           <l>Nay, he was mou'd with former amitie. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e110910">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e110910">
           <speaker>
             <pb xml:id="ep000023-026-a"/>Corn. </speaker>
           <l>He neuer trusted him but to deceiue him. </l>
@@ -1458,19 +1497,19 @@
           <l>" All these, nor any thing we can deuise, </l>
           <l>"Can stoope the hart resolu'd to tyrannize. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111040">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111040">
           <speaker>Phil. </speaker>
           <l>I feare your griefes increase with thys discourse. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111060">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111060">
           <speaker>Corn. </speaker>
           <l>My griefes are such, as hardly can be worse. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111080">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111080">
           <speaker>Phil. </speaker>
           <l>"Tyme calmeth all things. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111100">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111100">
           <speaker>Corn. </speaker>
           <l>No tyme quallifies my dolefull spyrits endles myseries. </l>
           <l>My griefe is lyke a Rock, whence (ceaseles) strayne </l>
@@ -1481,52 +1520,52 @@
           <l>Yet herewithall my passion neither dyes, </l>
           <l>Nor dryes the heate the moysture of mine eyes. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111190">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111190">
           <speaker>Phil. </speaker>
           <l>Can nothing then recure these endlesse teares? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111210">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111210">
           <speaker>Corn. </speaker>
           <l>Yes, newes of Caesars death that medcyn beares. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111230">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111230">
           <speaker>
             <pb xml:id="ep000023-026-b"/>Phil. </speaker>
           <l>Madam, beware, for should hee heare of thys, his wrath against you t'will exasperate. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111250">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111250">
           <speaker>Corn. </speaker>
           <l>I neither stand in feare of him nor his. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111270">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111270">
           <speaker>Phil. </speaker>
           <l>T'is pollicie to feare a powrefull hate. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111290">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111290">
           <speaker>Corn. </speaker>
           <l>What can he doe? </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111310">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111310">
           <speaker>Phil. </speaker>
           <l>Madam what cannot men that haue the powre to doe what pleaseth them? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111330">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111330">
           <speaker>Corn. </speaker>
           <l>He can doe mee no mischiefe that I dread. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111350">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111350">
           <speaker>Phil. </speaker>
           <l>Yes, cause your death. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111370">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111370">
           <speaker>Corn. </speaker>
           <l>Thrise happy were I dead. </l>
         </sp>
-        <sp who="A01500-philip" xml:id="ep000023-e111390">
+        <sp who="#ep000023-philip" xml:id="ep000023-e111390">
           <speaker>Phil. </speaker>
           <l>With rigorous torments. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e111410">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e111410">
           <speaker>Corn. </speaker>
           <l>Let him torture mee. </l>
           <l>Pull me in peeces, famish, fire mee vp, </l>
@@ -1540,7 +1579,7 @@
           <l>Saue that I lyue in hope to see ere long, </l>
           <l>That Caesars death shall satisfie his wrong. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e111530">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e111530">
           <speaker>CHORVS. </speaker>
           <l>"FOrtune in powre imperious, </l>
           <l>" Vs'd ore the world and worldlings thus </l>
@@ -1625,7 +1664,7 @@
       <div n="4" type="act" xml:id="ep000023-e112290">
         <pb xml:id="ep000023-028-b"/>
         <head>ACTVS QVARTVS. </head>
-        <sp who="A01500-multiple" xml:id="ep000023-e112300">
+        <sp who="#ep000023-multiple" xml:id="ep000023-e112300">
           <speaker>Cassius, Decim and Brutus. </speaker>
           <l>ACcursed Rome, that arm'st against thy selfe </l>
           <l>A Tyrants rage, and mak'st a wretch thy King. </l>
@@ -1675,7 +1714,7 @@
           <l>And rather chuse (vnarm'd) to serue with shame, </l>
           <l>Then (arm'd) to saue their freedom and their fame. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e112770">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e112770">
           <speaker>Brutus. </speaker>
           <l>I sweare by heauen, th'Immortals highest throne, </l>
           <pb xml:id="ep000023-029-b"/>
@@ -1699,7 +1738,7 @@
           <l>"Exceeds all loues, and deerer is by farre </l>
           <l>" Our Countries loue, then friends or chyldren are. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e112980">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e112980">
           <speaker>Cassius. </speaker>
           <l>If this braue care be nourisht in your blood, </l>
           <l>Or if so franck a will your soule possesse, </l>
@@ -1713,13 +1752,13 @@
           <l>To theyrs, whom (subtilly) he for Monarchie, </l>
           <l>Made fight to death with show of liberty. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113090">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113090">
           <speaker>Bru. </speaker>
           <l>Yet haply he (as Sylla whylom dyd,) </l>
           <l>When he hath rooted ciuill warre from Rome, </l>
           <l>Will there-withall discharge the powre he hath. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113130">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113130">
           <speaker>Cass. </speaker>
           <l>Caesar and Sylla, Brutus be not like. </l>
           <l>Sylla (assaulted by the enemie) </l>
@@ -1744,21 +1783,21 @@
           <l>Belieue it not, he bought it deere you know, </l>
           <l>And traueled too farre to leaue it so. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113350">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113350">
           <speaker>Brut. </speaker>
           <l>But Cassius, Caesar is not yet a King. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113370">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113370">
           <speaker>Cas. </speaker>
           <l>No, but Dictator, in effect as much. </l>
           <l>He doth what pleaseth hym, (a princely thing,) </l>
           <l>And wherein differ they whose powre is such? </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113410">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113410">
           <speaker>Brutus. </speaker>
           <l>Hee is not bloody. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113430">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113430">
           <speaker>Cassius. </speaker>
           <l>But by bloody iarres </l>
           <l>he hath vnpeopled most part of the earth. </l>
@@ -1772,36 +1811,36 @@
           <l>Who (monster-like) wyth his ambition, </l>
           <l>Hath left more Tombes then ground to lay them on. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113550">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113550">
           <speaker>Brut. </speaker>
           <l>Souldiers with such reproch should not be blam'd. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113570">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113570">
           <speaker>Cass. </speaker>
           <l>He with his souldiers hath himselfe defam'd. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113590">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113590">
           <speaker>Bru. </speaker>
           <l>Why then you thinke there is no praise in war. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113610">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113610">
           <speaker>Cass. </speaker>
           <l>Yes, where the causes reasonable are. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113630">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113630">
           <speaker>Bru. </speaker>
           <l>He hath enricht the Empire with newe states. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113650">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113650">
           <speaker>Cass. </speaker>
           <l>Which with ambition now he ruinates. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113670">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113670">
           <speaker>Bru. </speaker>
           <l>He hath reueng'd the Gaules old iniurie, </l>
           <l>And made them subiect to our Romaine Lawes. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113700">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113700">
           <speaker>
             <pb xml:id="ep000023-031-a"/>Cassius. </speaker>
           <l>The restfull Almaynes with his crueltie, </l>
@@ -1824,12 +1863,12 @@
           <l>Teaching a people hating seruitude, </l>
           <l>To fight for that that did theyr deaths conclude. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e113900">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e113900">
           <speaker>Bru. </speaker>
           <l>The warrs once ended, we shall quickly know, </l>
           <l>Whether he will restore the state or no. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e113930">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e113930">
           <speaker>Cas. </speaker>
           <l>No Brutus, neuer looke to see that day, </l>
           <l>For Caesar holdeth signiorie too deere. </l>
@@ -1839,12 +1878,12 @@
           <l>What reck I death to doe so many good, </l>
           <l>In spite of Caesar, Cassius will be free. </l>
         </sp>
-        <sp who="A01500-brutus" xml:id="ep000023-e114000">
+        <sp who="#ep000023-brutus" xml:id="ep000023-e114000">
           <speaker>Bru. </speaker>
           <l>A generous or true enobled spirit, </l>
           <l>Detests to learne what tasts of seruitude. </l>
         </sp>
-        <sp who="A01500-cassius" xml:id="ep000023-e114030">
+        <sp who="#ep000023-cassius" xml:id="ep000023-e114030">
           <speaker>Cass. </speaker>
           <l>Brutus I cannot serue nor see Rome yok'd, </l>
           <l>No, let me rather dye a thousand deaths. </l>
@@ -1881,7 +1920,7 @@
           <l>A thousand waies, and weapons to represse, </l>
           <l>Or kill out-right this cause of our distresse. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e114370">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e114370">
           <speaker>Chorus. </speaker>
           <l>"WHo prodigally spends his blood, </l>
           <l>" Brauely to doe his country good, </l>
@@ -1954,7 +1993,7 @@
           <l>"While gazing eyes at crownes grow dim. </l>
         </sp>
         <stage xml:id="ep000023-e115040">Caesar. Mar. Anthonie. </stage>
-        <sp who="A01500-caesar" xml:id="ep000023-e115050">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e115050">
           <speaker>Caesar. </speaker>
           <l>O Rome that with thy pryde dost ouer-peare, </l>
           <l>The worthiest Citties of the conquered world. </l>
@@ -2036,7 +2075,7 @@
           <l>For brideling those that dyd maligne our glory, </l>
           <l>Lets to the Capitoll. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e115820">
+        <sp who="#ep000023-antony" xml:id="ep000023-e115820">
           <speaker>Anth. </speaker>
           <l>Come on braue Caesar, </l>
           <l>And crowne thy head, and mount thy Chariot. </l>
@@ -2045,7 +2084,7 @@
           <l>To see theyr Caesar after dangers past, </l>
           <l>Made Conqueror and Emperor at last. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e115890">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e115890">
           <speaker>Caesar. </speaker>
           <l>I call to witnes heauens great Thunderer, </l>
           <l>That gainst my will I haue maintaind this warre, </l>
@@ -2054,7 +2093,7 @@
           <l>But through my selfe-wild enemies despight, </l>
           <l>And Romains wrong, was I constraind to fight. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e115960">
+        <sp who="#ep000023-antony" xml:id="ep000023-e115960">
           <speaker>Anth. </speaker>
           <l>They sought t'eclipse thy fame, but destinie </l>
           <l>Reuers'd th'effect of theyr ambition. </l>
@@ -2062,7 +2101,7 @@
           <l>That reckt not of his vertuous deeds: But thus </l>
           <l>We see it fareth with the enuious. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116020">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116020">
           <speaker>Caesar. </speaker>
           <l>I neuer had the thought to iniure them. </l>
           <l>Howbeit I neuer meant my greatnes should, </l>
@@ -2071,14 +2110,14 @@
           <l>For as I am inferior to none, </l>
           <l>So can I suffer no Superiors. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116080">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116080">
           <speaker>Anth. </speaker>
           <l>Well Caesar, now they are discomfited, </l>
           <l>And Crowes are feasted with theyr carcases. </l>
           <l>And yet I feare you haue too kindly sau'd </l>
           <l>Those, that your kindnes hardly will requite. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116130">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116130">
           <speaker>Caes. </speaker>
           <l>Why Anthony, what would you wish mee doe? </l>
           <l>Now shall you see that they will pack to Spaine, </l>
@@ -2086,105 +2125,105 @@
           <l>Vntill th'ill spyrit that doth them defend, </l>
           <l>Doe bring their treasons to a bloody end. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116190">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116190">
           <speaker>Anth. </speaker>
           <l>I feare not those that to theyr weapons flye, </l>
           <l>And keepe theyr state in Spaine, in Spaine to die. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116220">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116220">
           <speaker>Caes. </speaker>
           <l>Whom fear'st thou then Mark Anthony? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116240">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116240">
           <speaker>Anth. </speaker>
           <l>The hatefull crue, </l>
           <l>That wanting powre in fielde to conquer you, </l>
           <l>Haue in theyr coward soules deuised snares </l>
           <l>To murder thee, and take thee at vnwares. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116290">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116290">
           <speaker>Caesar. </speaker>
           <l>Will those conspire my death that liue by mee? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116310">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116310">
           <speaker>Anth. </speaker>
           <l>In conquered foes what credite can there be? </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116330">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116330">
           <speaker>Caesar. </speaker>
           <l>Besides theyr liues, I did theyr goods restore. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116350">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116350">
           <speaker>Anth. </speaker>
           <l>O but theyr Countries good concerns them more. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116370">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116370">
           <speaker>Caesar. </speaker>
           <l>What, thinke they mee to be their Countries foe? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116390">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116390">
           <speaker>Anth. </speaker>
           <l>No, but that thou vsurp'st the right they owe. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116410">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116410">
           <speaker>Caesar. </speaker>
           <l>To Rome haue I submitted mighty things. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116430">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116430">
           <speaker>Anth. </speaker>
           <l>Yet Rome endures not the commaund of Kings. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116450">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116450">
           <speaker>
             <pb xml:id="ep000023-036-a"/>Caes. </speaker>
           <l>Who dares to contradict our empery? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116470">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116470">
           <speaker>Anth. </speaker>
           <l>Those whom thy rule hath rob'd of liberty. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116490">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116490">
           <speaker>Caes. </speaker>
           <l>I feare them not whose death is but deferd. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116510">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116510">
           <speaker>Anth. </speaker>
           <l>I feare my foe vntill he be interd. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116530">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116530">
           <speaker>Caes. </speaker>
           <l>A man may make his foe his friend you know. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116550">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116550">
           <speaker>Anth. </speaker>
           <l>A man may easier make his friend his foe. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116570">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116570">
           <speaker>Caes. </speaker>
           <l>Good deeds the cruelst hart to kindnes bring, </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116590">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116590">
           <speaker>Anth. </speaker>
           <l>But resolution is a deadly thing. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116610">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116610">
           <speaker>Caes. </speaker>
           <l>If Cittizens my kindnes haue forgot, </l>
           <l>whom shall I then not feare? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116640">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116640">
           <speaker>Anth. </speaker>
           <l>Those that are not. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116660">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116660">
           <speaker>Caes. </speaker>
           <l>What, shall I slay them all that I suspect? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116680">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116680">
           <speaker>Anth. </speaker>
           <l>Els cannot Caesars Empery endure. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116700">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116700">
           <speaker>Caes. </speaker>
           <l>Rather I will my lyfe and all neglect. </l>
           <l>Nor labour I my vaine life to assure. </l>
@@ -2197,7 +2236,7 @@
           <l>No Anthony, Death cannot iniure vs, </l>
           <l>'For he liues long that dyes victorious. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116810">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116810">
           <speaker>Anthony. </speaker>
           <l>Thy prayses show thy life is long enough, </l>
           <l>But for thy friends and Country all too-short. </l>
@@ -2205,50 +2244,50 @@
           <l>Should Caesar lyue as long as Nestor dyd, </l>
           <l>Yet Rome may wish his life eternized. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116860">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116860">
           <speaker>Caesar. </speaker>
           <l>Heauen sets our time, with heauen may nought dispence. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116880">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116880">
           <speaker>Anth. </speaker>
           <l>But we may shorten time with negligence. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116900">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116900">
           <speaker>Caes. </speaker>
           <l>But Fortune and the heauens haue care of vs. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116920">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116920">
           <speaker>Anth. </speaker>
           <l>Fortune is fickle, Heauen imperious. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116940">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116940">
           <speaker>Caes. </speaker>
           <l>What shall I then doe? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e116960">
+        <sp who="#ep000023-antony" xml:id="ep000023-e116960">
           <speaker>Anth. </speaker>
           <l>As befits your state, </l>
           <l>Maintaine a watchfull guard about your gate. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e116990">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e116990">
           <speaker>Caes. </speaker>
           <l>What more assurance may our state defend </l>
           <l>Then loue of those that doe on vs attend? </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e117020">
+        <sp who="#ep000023-antony" xml:id="ep000023-e117020">
           <speaker>Anth. </speaker>
           <l>There is no hatred more if it be mou'd, </l>
           <l>Then theirs whom we offend, and once belou'd. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e117050">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e117050">
           <speaker>Caes. </speaker>
           <l>Better it is to die then be suspitious. </l>
         </sp>
-        <sp who="A01500-antony" xml:id="ep000023-e117070">
+        <sp who="#ep000023-antony" xml:id="ep000023-e117070">
           <speaker>Anth. </speaker>
           <l>T'is wisdom yet not to be credulous. </l>
         </sp>
-        <sp who="A01500-caesar" xml:id="ep000023-e117090">
+        <sp who="#ep000023-caesar" xml:id="ep000023-e117090">
           <speaker>Caesar. </speaker>
           <l>The quiet life that carelesly is ledd, </l>
           <l>Is not alonely happy in this world, </l>
@@ -2261,7 +2300,7 @@
           <l>Then th'euill it selfe, though it be nere so sore. </l>
         </sp>
         <pb xml:id="ep000023-037-a"/>
-        <sp who="A01500-chorus" xml:id="ep000023-e117190">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e117190">
           <speaker>A Chorus of Caesars friends. </speaker>
           <lg>
             <l>O Faire Sunne that gentlie smiles, </l>
@@ -2385,7 +2424,7 @@
       <div n="5" type="act" xml:id="ep000023-e118150">
         <head>ACTVS QVINTVS. </head>
         <stage xml:id="ep000023-e118160">The Messenger. Cornelia. Chorus. </stage>
-        <sp who="A01500-messenger" xml:id="ep000023-e118170">
+        <sp who="#ep000023-messenger" xml:id="ep000023-e118170">
           <speaker>Messenger. </speaker>
           <l>VNhappy man, amongst so many wracks </l>
           <l>As I haue suffred both by Land and Sea, </l>
@@ -2402,33 +2441,33 @@
           <l>And Death that sees the Nobles blood so rife, </l>
           <l>Full-gorged triumphes, and disdaines my lyfe. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118310">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118310">
           <speaker>Corn. </speaker>
           <l>We are vndone. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e118330">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e118330">
           <speaker>Chor. </speaker>
           <l>Scipio hath lost the day. </l>
           <l>But hope the best, and harken to his newes. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118360">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118360">
           <speaker>Corn. </speaker>
           <l>O cruell fortune. </l>
         </sp>
-        <sp who="A01500-messenger" xml:id="ep000023-e118380">
+        <sp who="#ep000023-messenger" xml:id="ep000023-e118380">
           <speaker>Mess. </speaker>
           <l>These misfortunes yet </l>
           <l>must I report to sad Cornelia. </l>
           <l>Whose cease les griefe (which I am sorry for) </l>
           <l>Will agrauate my former misery. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118430">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118430">
           <speaker>Corn. </speaker>
           <l>Wretch that I am, why leaue I not the world? </l>
           <l>Or wherefore am I not already dead? </l>
           <l>O world, O wretch. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e118470">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e118470">
           <speaker>Chor. </speaker>
           <l>Is this th'vndaunted hart </l>
           <l>that is required in extremities? </l>
@@ -2437,27 +2476,27 @@
           <l>Haply the newes is better then the noyse, </l>
           <l>Let's heare him speake. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118540">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118540">
           <speaker>Corn. </speaker>
           <l>O no, for all is lost. </l>
           <l>Farwell deere Father. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e118570">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e118570">
           <speaker>
             <pb xml:id="ep000023-039-b"/>Chor. </speaker>
           <l>Hee is sau'd perhaps. </l>
         </sp>
-        <sp who="A01500-messenger" xml:id="ep000023-e118590">
+        <sp who="#ep000023-messenger" xml:id="ep000023-e118590">
           <speaker>Mess. </speaker>
           <l>Me thinks I heare my Maisters daughter speake. </l>
           <l>What sighes, what sobs, what plaints, what passions </l>
           <l>haue we endurde Cornelia for your sake? </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118630">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118630">
           <speaker>Corn. </speaker>
           <l>Where is thine Emperor? </l>
         </sp>
-        <sp who="A01500-messenger" xml:id="ep000023-e118650">
+        <sp who="#ep000023-messenger" xml:id="ep000023-e118650">
           <speaker>Mess. </speaker>
           <l>Where our Captaines are. </l>
           <l>Where are our Legions? Where our men at Armes? </l>
@@ -2465,19 +2504,19 @@
           <l>The earth, the sea, the vultures and the Crowes, </l>
           <l>Lyons and Beares are theyr best Sepulchers. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118710">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118710">
           <speaker>Corn. </speaker>
           <l>O miserable. </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e118730">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e118730">
           <speaker>Chor. </speaker>
           <l>Now I see the heauens, are heapt with rage and horror gainst this house. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118750">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118750">
           <speaker>Corn. </speaker>
           <l>O earth, why op'st thou not? </l>
         </sp>
-        <sp who="A01500-chorus" xml:id="ep000023-e118770">
+        <sp who="#ep000023-chorus" xml:id="ep000023-e118770">
           <speaker>Chor. </speaker>
           <l>Why waile you so? </l>
           <l>Assure your selfe that Scipio brauely dyed, </l>
@@ -2485,13 +2524,13 @@
           <l>Say Messenger, </l>
           <l>The manner of his end will haply comfort this your discontent. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e118830">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e118830">
           <speaker>Corn. </speaker>
           <l>Discourse the manner of his hard mishap, </l>
           <l>And what disastrous accident did breake, </l>
           <l>So many people bent so much to fight. </l>
         </sp>
-        <sp who="A01500-messenger" xml:id="ep000023-e118870">
+        <sp who="#ep000023-messenger" xml:id="ep000023-e118870">
           <speaker>Messenger. </speaker>
           <l>Caesar, that wisely knewe his souldiers harts, </l>
           <l>And their desire to be approou'd in Armes, </l>
@@ -2698,11 +2737,11 @@
           <l>Make forth amongst the flock, that scattered flyes </l>
           <l>Before the Shepheard, that resistles lyes. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e120840">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e120840">
           <speaker>Corn. </speaker>
           <l>O cruell fortune. </l>
         </sp>
-        <sp who="A01500-messenger" xml:id="ep000023-e120860">
+        <sp who="#ep000023-messenger" xml:id="ep000023-e120860">
           <speaker>Mess. </speaker>
           <l>None resisting now, </l>
           <l>the field was fild with all confusion, </l>
@@ -2796,7 +2835,7 @@
           <l>Crawld to the Deck, and lyfe with death to ease, </l>
           <l>Headlong he threw himselfe into the seas. </l>
         </sp>
-        <sp who="A01500-cornelia" xml:id="ep000023-e121750">
+        <sp who="#ep000023-cornelia" xml:id="ep000023-e121750">
           <speaker>
             <pb xml:id="ep000023-045-b"/>CORNELIA. </speaker>
           <l>O cruell Gods, O heauen, O direfull Fates, </l>
@@ -2948,151 +2987,6 @@
         <pb xml:id="ep000023-048-b"/>
       </div>
     </body>
-    <back>
-      <div type="machine-generated_castlist">
-        <head>Machine-generated castlist</head>
-        <list n="159-A01500">
-          <item n="61">
-            <seg type="character_name">A01500-cornelia</seg>
-            <seg type="speech_count">61</seg>
-          </item>
-          <item n="22">
-            <seg type="character_name">A01500-caesar</seg>
-            <seg type="speech_count">22</seg>
-          </item>
-          <item n="22">
-            <seg type="character_name">A01500-philip</seg>
-            <seg type="speech_count">22</seg>
-          </item>
-          <item n="21">
-            <seg type="character_name">A01500-antony</seg>
-            <seg type="speech_count">21</seg>
-          </item>
-          <item n="21">
-            <seg type="character_name">A01500-chorus</seg>
-            <seg type="speech_count">21</seg>
-          </item>
-          <item n="21">
-            <seg type="character_name">A01500-cicero</seg>
-            <seg type="speech_count">21</seg>
-          </item>
-          <item n="10">
-            <seg type="character_name">A01500-cassius</seg>
-            <seg type="speech_count">10</seg>
-          </item>
-          <item n="10">
-            <seg type="character_name">A01500-brutus</seg>
-            <seg type="speech_count">10</seg>
-          </item>
-          <item n="6">
-            <seg type="character_name">A01500-messenger</seg>
-            <seg type="speech_count">6</seg>
-          </item>
-          <item n="3">
-            <seg type="character_name">A01500-multiple</seg>
-            <seg type="speech_count">3</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A01500_multiple</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-        </list>
-      </div>
-      <div type="textual_notes">
-        <head>Textual Notes</head>
-        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
-        <note target="A01500-002-b-1050">
-          <label>b9axt-002-b-1050</label>
-          <sic>hercick</sic>
-          <seg>beeing well instructed in your noble and</seg>
-          <corr>heroick</corr>
-          <seg>dispositions , and perfectly assur'd of</seg>
-        </note>
-        <note target="A01500-012-a-0190">
-          <label>b9axt-012-a-0190</label>
-          <sic>●las</sic>
-          <seg>T'attend thy mercy in this morneful state ?</seg>
-          <corr>Alas</corr>
-          <seg>and here-withall , what holpe it thee ,</seg>
-        </note>
-        <note target="A01500-012-a-1040">
-          <label>b9axt-012-a-1040</label>
-          <sic>●y</sic>
-          <seg>Enuious of all thine honors ) gaue thee mee .</seg>
-          <corr>By</corr>
-          <seg>whom the former course of thy faire deeds</seg>
-        </note>
-        <note target="A01500-014-a-0130">
-          <label>b9axt-014-a-0130</label>
-          <sic>Insolitary</sic>
-          <seg>Enlarg'd , ) to drowne the payne it did abide ,</seg>
-          <corr>In solitary</corr>
-          <seg>Lethes sleepie tyde . Thrice (</seg>
-        </note>
-        <note target="A01500-023-a-1210">
-          <label>b9axt-023-a-1210</label>
-          <sic>offoes</sic>
-          <seg>walls , And feareles kept vs from th'assault</seg>
-          <corr>of foes</corr>
-          <seg>. Great Iupiter , to whom our Capitol</seg>
-        </note>
-        <note target="A01500-024-a-1520">
-          <label>b9axt-024-a-1520</label>
-          <sic>asshi●</sic>
-          <seg>And sadly cloz'd within an earthen Vrne The</seg>
-          <corr>ashie</corr>
-          <seg>reliques of his haples bones . Which hauing</seg>
-        </note>
-        <note target="A01500-029-a-2120">
-          <label>b9axt-029-a-2120</label>
-          <sic>〈◊〉</sic>
-          <seg/>
-          <corr>I</corr>
-          <seg>sweare by heauen , th'Immortals highest</seg>
-        </note>
-        <note target="A01500-037-a-0070">
-          <label>b9axt-037-a-0070</label>
-          <sic>OFaire</sic>
-          <seg/>
-          <corr>O Faire</corr>
-          <seg>Sunne that gentlie smiles , From the</seg>
-        </note>
-        <note target="A01500-037-a-0970">
-          <label>b9axt-037-a-0970</label>
-          <sic>●irce</sic>
-          <seg>new begun , To expell fro forth the Land ,</seg>
-          <corr>Firce</corr>
-          <seg>warrs quenchles fire-brand .</seg>
-        </note>
-        <note target="A01500-038-a-1370">
-          <label>b9axt-038-a-1370</label>
-          <sic>bumor</sic>
-          <seg>Mirth , or what so-e're it be , " VVith their</seg>
-          <corr>humor</corr>
-          <seg>can agree .</seg>
-        </note>
-        <note target="A01500-040-b-0690">
-          <label>b9axt-040-b-0690</label>
-          <sic>fally</sic>
-          <seg>it should retyre . Another while we softly</seg>
-          <corr>sally</corr>
-          <seg>foorth . And wakefull Caesar that doth watch</seg>
-        </note>
-        <note target="A01500-040-b-2360">
-          <label>b9axt-040-b-2360</label>
-          <sic>orflight</sic>
-          <seg>disordered . Them that already dream'd of death</seg>
-          <corr>or flight</corr>
-          <seg>. That tyer'd , would nere hold out</seg>
-        </note>
-        <note target="A01500-046-b-0840">
-          <label>b9axt-046-b-0840</label>
-          <sic>forsa ken</sic>
-          <seg>thy husband did reuiue the lights Of thy</seg>
-          <corr>forsaken</corr>
-          <seg>bed ; ( Vnworthely ) Opposing of thy freatfull</seg>
-        </note>
-      </div>
-    </back>
+    <back></back>
   </text>
 </TEI>

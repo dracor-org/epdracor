@@ -91,6 +91,21 @@
           </bibl>
         </bibl>
       </sourceDesc>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000366-concord">
+              <persName>Concord</persName>
+            </person>
+            <person xml:id="ep000366-genius">
+              <persName>Genius</persName>
+            </person>
+            <person xml:id="ep000366-both">
+              <persName>Both</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -187,44 +202,44 @@
           <body>
             <div type="song" xml:id="ep000366-e100690">
               <head>I. Song. Good Genius of Great Britaine, Concord. </head>
-              <sp who="A19880-concord" xml:id="ep000366-e100700">
+              <sp who="#ep000366-concord" xml:id="ep000366-e100700">
                 <speaker>Concord. </speaker>
                 <l>WHy should I hasten hither, since the good </l>
                 <l>I bring to men is slowly understood? </l>
               </sp>
               <pb xml:id="ep000366-006-b"/>
-              <sp who="A19880-genius" xml:id="ep000366-e100730">
+              <sp who="#ep000366-genius" xml:id="ep000366-e100730">
                 <speaker>Genius. </speaker>
                 <l>I know it is the Peoples vice, </l>
                 <l>To lay too meane, too cheape a price </l>
                 <l>On ev'ry blessing they possesse </l>
                 <l>Th'injoying makes them thinke it lesse. </l>
               </sp>
-              <sp who="A19880-concord" xml:id="ep000366-e100780">
+              <sp who="#ep000366-concord" xml:id="ep000366-e100780">
                 <speaker>Concord. </speaker>
                 <l>If then, the need of what is good, </l>
                 <l>Doth make it lov'd, or understood, </l>
                 <l>Or tis by absence better knowne </l>
                 <l>I shall be valew'd, when I'm gonne. </l>
               </sp>
-              <sp who="A19880-genius" xml:id="ep000366-e100830">
+              <sp who="#ep000366-genius" xml:id="ep000366-e100830">
                 <speaker>Genius. </speaker>
                 <l>Yet stay! O stay! if but to please </l>
                 <l>The great and wise Philogenes. </l>
               </sp>
-              <sp who="A19880-concord" xml:id="ep000366-e100860">
+              <sp who="#ep000366-concord" xml:id="ep000366-e100860">
                 <speaker>Concord. </speaker>
                 <l>Should dewes not fall, the Sunne forbeare </l>
                 <l>His course, or I my visits here; </l>
                 <l>Alike from these defects would cease </l>
                 <l>The power and hope, of all increase. </l>
               </sp>
-              <sp who="A19880-genius" xml:id="ep000366-e100910">
+              <sp who="#ep000366-genius" xml:id="ep000366-e100910">
                 <speaker>Genius. </speaker>
                 <l>Stay then! O stay! If but to ease </l>
                 <l>The cares of wise Philogenes. </l>
               </sp>
-              <sp who="A19880-concord" xml:id="ep000366-e100940">
+              <sp who="#ep000366-concord" xml:id="ep000366-e100940">
                 <speaker>Concord. </speaker>
                 <l>I will! and much I grieve, that though the best </l>
                 <l>Of Kingly science, harbours in his brest, </l>
@@ -236,7 +251,7 @@
         </floatingText>
         <pb xml:id="ep000366-007-a"/>
         <p>Being arrived at the Earth, and descended from the Chariot, they sing this short Dialogue, and then departed severall wayes to incite the beloved people to honest pleasures and recreations which have ever beene peculiar to this Nation. </p>
-        <sp who="A19880-both" xml:id="ep000366-e101000">
+        <sp who="#ep000366-both" xml:id="ep000366-e101000">
           <speaker>Both. </speaker>
           <l>O who but he, could thus endure </l>
           <l>To live, and governe in a sulleine age, </l>
@@ -615,42 +630,6 @@
         <pb xml:id="ep000366-014-b"/>
       </div>
     </body>
-    <back>
-      <div type="machine-generated_castlist">
-        <head>Machine-generated castlist</head>
-        <list n="164-A19880">
-          <item n="4">
-            <seg type="character_name">A19880-concord</seg>
-            <seg type="speech_count">4</seg>
-          </item>
-          <item n="3">
-            <seg type="character_name">A19880-genius</seg>
-            <seg type="speech_count">3</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A19880-both</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-        </list>
-      </div>
-      <div type="textual_notes">
-        <head>Textual Notes</head>
-        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
-        <note target="A19880-005-a-2920">
-          <label>c4akw-005-a-2920</label>
-          <sic>a Scanse</sic>
-          <seg>she brandisht a sable Torch , and looking</seg>
-          <corr>aScanse</corr>
-          <seg>with hollow envious eyes came downe</seg>
-        </note>
-        <note target="A19880-011-b-0060">
-          <label>c4akw-011-b-0060</label>
-          <sic>▪</sic>
-          <seg>such as the Gods are feigned to descend in</seg>
-          <corr>:</corr>
-          <seg>in the most eminent place of which , her</seg>
-        </note>
-      </div>
-    </back>
+    <back></back>
   </text>
 </TEI>
