@@ -84,6 +84,87 @@
           </bibl>
         </bibl>
       </sourceDesc>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000209-master">
+              <persName>Master</persName>
+            </person>
+            <person xml:id="ep000209-mate">
+              <persName>Mate</persName>
+            </person>
+            <person xml:id="ep000209-boy">
+              <persName>Boy</persName>
+            </person>
+            <person xml:id="ep000209-britannia">
+              <persName>Britannia</persName>
+            </person>
+            <person xml:id="ep000209-brute">
+              <persName>Brute</persName>
+            </person>
+            <person xml:id="ep000209-loegria">
+              <persName>Loegria</persName>
+            </person>
+            <person xml:id="ep000209-cambria">
+              <persName>Cambria</persName>
+            </person>
+            <person xml:id="ep000209-albania">
+              <persName>Albania</persName>
+            </person>
+            <person xml:id="ep000209-locrine">
+              <persName>Locrine</persName>
+            </person>
+            <person xml:id="ep000209-camber">
+              <persName>Camber</persName>
+            </person>
+            <person xml:id="ep000209-albanact">
+              <persName>Albanact</persName>
+            </person>
+            <person xml:id="ep000209-troya_nova">
+              <persName>Troya Nova</persName>
+            </person>
+            <person xml:id="ep000209-thamesis">
+              <persName>Thamesis</persName>
+            </person>
+            <person xml:id="ep000209-savarne">
+              <persName>Savarne</persName>
+            </person>
+            <person xml:id="ep000209-humber">
+              <persName>Humber</persName>
+            </person>
+            <person xml:id="ep000209-pheme">
+              <persName>Pheme</persName>
+            </person>
+            <person xml:id="ep000209-unassigned">
+              <persName>Unassigned</persName>
+            </person>
+            <person xml:id="ep000209-eros">
+              <persName>Eros</persName>
+            </person>
+            <person xml:id="ep000209-eleutheriotes">
+              <persName>Eleutheriotes</persName>
+            </person>
+            <person xml:id="ep000209-sophrosyne">
+              <persName>Sophrosyne</persName>
+            </person>
+            <person xml:id="ep000209-agnites">
+              <persName>Agnites</persName>
+            </person>
+            <person xml:id="ep000209-hypomone">
+              <persName>Hypomone</persName>
+            </person>
+            <person xml:id="ep000209-epimeleia">
+              <persName>Epimeleia</persName>
+            </person>
+            <person xml:id="ep000209-neptune">
+              <persName>Neptune</persName>
+            </person>
+            <person xml:id="ep000209-amphitrita">
+              <persName>Amphitrita</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -128,7 +209,7 @@
         <div type="part" xml:id="ep000209-e100250">
           <pb xml:id="ep000209-005-a"/>
           <head>The Shippe called the Royall EXCHANGE. </head>
-          <sp who="A07907-master" xml:id="ep000209-e100260">
+          <sp who="#ep000209-master" xml:id="ep000209-e100260">
             <speaker>Maister. </speaker>
             <l>All hayle faire London, to behold thy Towers, </l>
             <l>After our voyage long and dangerous: </l>
@@ -139,12 +220,12 @@
             <l>Our wines that for our absence long did mourne, </l>
             <l>Now find release from all their former woe. </l>
           </sp>
-          <sp who="A07907-mate" xml:id="ep000209-e100350">
+          <sp who="#ep000209-mate" xml:id="ep000209-e100350">
             <speaker>Mate. </speaker>
             <l>Maister good newes, our Owner, as I heare, </l>
             <l>Is this day sworne in Londons Maioralty: </l>
           </sp>
-          <sp who="A07907-boy" xml:id="ep000209-e100380">
+          <sp who="#ep000209-boy" xml:id="ep000209-e100380">
             <speaker>Boy. </speaker>
             <l>Maister tis true, for, see what troupes appeare, </l>
             <l>Of Cittizens, to beare him company. </l>
@@ -153,7 +234,7 @@
             <l>Shall we do nothing, but be idle found, </l>
             <l>On such a generall mirthfull Holyday? </l>
           </sp>
-          <sp who="A07907-master" xml:id="ep000209-e100450">
+          <sp who="#ep000209-master" xml:id="ep000209-e100450">
             <speaker>Maister. </speaker>
             <l>Take of our Pepper, of our Cloues and Mace, </l>
             <l>And liberally bestow them round about, </l>
@@ -182,7 +263,7 @@
             <pb xml:id="ep000209-007-a"/>What further may be required, to expresse Britaniaes triumph more perfectly to the life, with al the other personages her seruants and attendantes, is more at large let downe in the seuerall speeches, which I haue hereto annexed as most meet &amp; conuenient. </p>
           <div type="subpart" xml:id="ep000209-e100640">
             <head>The speeches deliuered by the seuerall children, according to their degrees of seating in the PAGEANT. </head>
-            <sp who="A07907-britannia" xml:id="ep000209-e100650">
+            <sp who="#ep000209-britannia" xml:id="ep000209-e100650">
               <speaker>Britannia. </speaker>
               <l>I that sometime was termed Albion, </l>
               <l>After the name of Neptunes valiant Sonne: </l>
@@ -194,7 +275,7 @@
               </l>
               <l>Crownd me thy virgin Queene Britania. </l>
             </sp>
-            <sp who="A07907-brute" xml:id="ep000209-e100740">
+            <sp who="#ep000209-brute" xml:id="ep000209-e100740">
               <speaker>BRVTE. </speaker>
               <lg>
                 <l>Wherein, recount thy height of happinesse, </l>
@@ -225,7 +306,7 @@
                 <l>Each namde his seat, and each did weare a Crowne. </l>
               </lg>
             </sp>
-            <sp who="A07907-loegria" xml:id="ep000209-e100990">
+            <sp who="#ep000209-loegria" xml:id="ep000209-e100990">
               <speaker>LOEGRIA. </speaker>
               <l>But she whom thou hadst made one Monarchy </l>
               <l>To be so seuerd, to thy sonnes might shew </l>
@@ -235,7 +316,7 @@
               <l>And so proou'd that deuision of the land, </l>
               <l>It brought in warie that hellish fierbrand. </l>
             </sp>
-            <sp who="A07907-cambria" xml:id="ep000209-e101070">
+            <sp who="#ep000209-cambria" xml:id="ep000209-e101070">
               <speaker>CAMBRIA. </speaker>
               <l>The king of Hunnes entred Albania, </l>
               <l>Slew Albanact thy Sonne, and there bare sway, </l>
@@ -245,7 +326,7 @@
               <l>And made that Riuer beare the proud kings name, </l>
               <l>That thus intruded, drownd him in the same. </l>
             </sp>
-            <sp who="A07907-albania" xml:id="ep000209-e101150">
+            <sp who="#ep000209-albania" xml:id="ep000209-e101150">
               <speaker>ALBANIA. </speaker>
               <l>Faire Elstrid taken in that fatall fight, </l>
               <l>And Locrines loue to her, wrong to his wife, </l>
@@ -255,7 +336,7 @@
               <l>Of all which heauy haps there had bin none, </l>
               <l>Had Brute left me one gouernor alone. </l>
             </sp>
-            <sp who="A07907-brute" xml:id="ep000209-e101230">
+            <sp who="#ep000209-brute" xml:id="ep000209-e101230">
               <speaker>BRVTE. </speaker>
               <lg>
                 <l>See, after so long slumbring in our toombes </l>
@@ -307,7 +388,7 @@
                 <l>And praise high heauen for that most happy day. </l>
               </lg>
             </sp>
-            <sp who="A07907-locrine" xml:id="ep000209-e101650">
+            <sp who="#ep000209-locrine" xml:id="ep000209-e101650">
               <speaker>LOCRINE. </speaker>
               <l>England, that first was cald Loegria, </l>
               <l>After my name, when I commanded heere: </l>
@@ -317,14 +398,14 @@
               <l>Wishing my brethren in like sort resigne, </l>
               <l>A sacred vnion once more to combine. </l>
             </sp>
-            <sp who="A07907-camber" xml:id="ep000209-e101730">
+            <sp who="#ep000209-camber" xml:id="ep000209-e101730">
               <speaker>CAMBER. </speaker>
               <l>I yeelded long ago, and dyd in heart, </l>
               <l>Allow Britanniaes first created name, </l>
               <l>My true borne Brutes haue euer tooke her part </l>
               <l>And to their last houre will maintaine the same. </l>
             </sp>
-            <sp who="A07907-albanact" xml:id="ep000209-e101780">
+            <sp who="#ep000209-albanact" xml:id="ep000209-e101780">
               <speaker>ALBANACT. </speaker>
               <l>It is no meruaile though you gladly yeeld, </l>
               <l>When the all-ruling power doth so commaund, </l>
@@ -335,7 +416,7 @@
               <l>It was Britanniaes happy Holi-day. </l>
             </sp>
             <pb xml:id="ep000209-009-a"/>
-            <sp who="A07907-troya_nova" xml:id="ep000209-e101860">
+            <sp who="#ep000209-troya_nova" xml:id="ep000209-e101860">
               <speaker>Troya Nova. </speaker>
               <l>Then you faire Swans in Thamesis that swim, </l>
               <l>And you chose o●se Nimphes that do delight to plaie </l>
@@ -345,7 +426,7 @@
               <l>And in one tuneful, harmonie lets sing, </l>
               <l>Welcome King Iames, welcome bright Britaines King. </l>
             </sp>
-            <sp who="A07907-thamesis" xml:id="ep000209-e101940">
+            <sp who="#ep000209-thamesis" xml:id="ep000209-e101940">
               <speaker>Thamesis. </speaker>
               <l>I that am Queene of all Britanniaes streames, </l>
               <l>The Oceans darling and endeard delight, </l>
@@ -355,7 +436,7 @@
               <l>Vnto my second Brute shall homelie sing, </l>
               <l>Welcome King Iames, welcome great Britaines King. </l>
             </sp>
-            <sp who="A07907-savarne" xml:id="ep000209-e102020">
+            <sp who="#ep000209-savarne" xml:id="ep000209-e102020">
               <speaker>Savarne. </speaker>
               <l>Faire Elstrids and Sabrinaes fatall graue, </l>
               <l>(Whereby the name of Sauerne fell to me:) </l>
@@ -365,7 +446,7 @@
               <l>Vnto my second Brute do likewise sing, </l>
               <l>Welcome King Iames, welcome great Britaines King. </l>
             </sp>
-            <sp who="A07907-humber" xml:id="ep000209-e102100">
+            <sp who="#ep000209-humber" xml:id="ep000209-e102100">
               <speaker>HVMBER. </speaker>
               <l>Proud Scithians Humber that slew Albanact, </l>
               <l>Whose brethren forest him to a shamefull flight, </l>
@@ -381,7 +462,7 @@
         <div type="part" xml:id="ep000209-e102190">
           <pb xml:id="ep000209-009-b"/>
           <head>The Chariot. </head>
-          <sp who="A07907-pheme" xml:id="ep000209-e102200">
+          <sp who="#ep000209-pheme" xml:id="ep000209-e102200">
             <speaker>Pheme </speaker>
             <stage xml:id="ep000209-e102210">Riding before it. </stage>
             <lg>
@@ -412,7 +493,7 @@
               <l>What further fortunes Time did them bequeath. </l>
             </lg>
           </sp>
-          <sp who="A07907-unassigned" xml:id="ep000209-e102460">
+          <sp who="#ep000209-unassigned" xml:id="ep000209-e102460">
             <speaker>Tapesnotes. </speaker>
             <l>EDward the third, whose Noble name I beare, </l>
             <l>Hearing the Loue and royall amity, </l>
@@ -423,7 +504,7 @@
             <l>He gaue this Charter to confirme their Guilde: </l>
             <l>And they inioyd it, as his Highnesse wilde. </l>
           </sp>
-          <sp who="A07907-eros" xml:id="ep000209-e102540">
+          <sp who="#ep000209-eros" xml:id="ep000209-e102540">
             <speaker>EROS. </speaker>
             <l>To build this body on a stronger frame, </l>
             <l>Richard the second gaue authoritie, </l>
@@ -433,7 +514,7 @@
             <l>and hold a Feast on saint Iohn Baptist day, </l>
             <l>Yearelie for euer, as they do and may. </l>
           </sp>
-          <sp who="A07907-eleutheriotes" xml:id="ep000209-e102620">
+          <sp who="#ep000209-eleutheriotes" xml:id="ep000209-e102620">
             <speaker>Eleutheriotes. </speaker>
             <l>To fortifie a worke so well begun, </l>
             <l>Henrie the fourth did liberally create: </l>
@@ -443,12 +524,12 @@
             <l>To weare the Clothing of the Companie, </l>
             <l>A most Maiestike royall courtesie. </l>
           </sp>
-          <sp who="A07907-sophrosyne" xml:id="ep000209-e102700">
+          <sp who="#ep000209-sophrosyne" xml:id="ep000209-e102700">
             <speaker>Sophrosyne. </speaker>
             <l>Henry the fift my war-like Lord maintainde </l>
             <l>His fathers loue to this socyetie, </l>
           </sp>
-          <sp who="A07907-agnites" xml:id="ep000209-e102730">
+          <sp who="#ep000209-agnites" xml:id="ep000209-e102730">
             <speaker>AGNITES. </speaker>
             <l>Of my sixt Henry they as freely gainde, </l>
             <l>all former graunts in self-same qualitie, </l>
@@ -457,14 +538,14 @@
             <l>In beeing affable, it addes to Maiesty. </l>
           </sp>
           <pb xml:id="ep000209-010-b"/>
-          <sp who="A07907-hypomone" xml:id="ep000209-e102790">
+          <sp who="#ep000209-hypomone" xml:id="ep000209-e102790">
             <speaker>Hypomone. </speaker>
             <l>Thus long a Mayster and foure keepers stood. </l>
             <l>Till my fourth Edward changde the keepers name </l>
             <l>To Wardens: for the strength of Brother-hood, </l>
             <l>And thus at first Mayster and Wardens came. </l>
           </sp>
-          <sp who="A07907-epimeleia" xml:id="ep000209-e102840">
+          <sp who="#ep000209-epimeleia" xml:id="ep000209-e102840">
             <speaker>Epimeleia. </speaker>
             <l>And for they traded, as no men did more, </l>
             <l>With forren Realmes, by clothes and Merchandize, </l>
@@ -474,21 +555,21 @@
             <l>To Merchant-Taylors did exchange their name: </l>
             <l>Since when, with credite they haue kept the same. </l>
           </sp>
-          <sp who="A07907-pheme" xml:id="ep000209-e102920">
+          <sp who="#ep000209-pheme" xml:id="ep000209-e102920">
             <speaker>PHEME. </speaker>
             <l>But sacred Lady, deigne me so much grace, </l>
             <l>As tell me, why that seat is vnsupplied, </l>
             <l>Being the most eminent and chiefest place, </l>
             <l>With State, with Crowne and Scepter dignified? </l>
           </sp>
-          <sp who="A07907-epimeleia" xml:id="ep000209-e102970">
+          <sp who="#ep000209-epimeleia" xml:id="ep000209-e102970">
             <speaker>Epimeleia. </speaker>
             <l>Haue our discourses (Pheme) let thee know, </l>
             <l>That seauen Kings haue borne free brethrens name, </l>
             <l>Of this Societie, and may not time bestow </l>
             <l>an eight, when Heauen shall so appoint the same? </l>
           </sp>
-          <sp who="A07907-pheme" xml:id="ep000209-e103020">
+          <sp who="#ep000209-pheme" xml:id="ep000209-e103020">
             <speaker>PHEME. </speaker>
             <lg>
               <l>I finde recorded in my Register, </l>
@@ -526,7 +607,7 @@
             </lg>
           </sp>
           <pb xml:id="ep000209-011-b"/>
-          <sp who="A07907-neptune" xml:id="ep000209-e103310">
+          <sp who="#ep000209-neptune" xml:id="ep000209-e103310">
             <speaker>Neptune on the Lyon. </speaker>
             <lg>
               <l>MY borrowed name of Neptune now I leaue, </l>
@@ -547,7 +628,7 @@
               <l>God saue king Iames: Oh twas a happie daie. </l>
             </lg>
           </sp>
-          <sp who="A07907-amphitrita" xml:id="ep000209-e103480">
+          <sp who="#ep000209-amphitrita" xml:id="ep000209-e103480">
             <speaker>Amphitrita. </speaker>
             <lg>
               <l>OVr latest Phaenix whose dead cinders shine, </l>
@@ -566,7 +647,7 @@
             </lg>
           </sp>
           <pb xml:id="ep000209-012-a"/>
-          <sp who="A07907-neptune" xml:id="ep000209-e103620">
+          <sp who="#ep000209-neptune" xml:id="ep000209-e103620">
             <speaker>Neptune. </speaker>
             <lg>
               <l>Sir Leonard Holiday, now vnto thee, </l>
@@ -634,367 +715,6 @@
         <div corresp="A07907-e100090" xml:id="ep000209-e100090-n">
           <head>Notes for div A07907-e100090</head>
         </div>
-      </div>
-      <div type="machine-generated_castlist">
-        <head>Machine-generated castlist</head>
-        <list n="160-A07907">
-          <item n="3">
-            <seg type="character_name">A07907-pheme</seg>
-            <seg type="speech_count">3</seg>
-          </item>
-          <item n="2">
-            <seg type="character_name">A07907-master</seg>
-            <seg type="speech_count">2</seg>
-          </item>
-          <item n="2">
-            <seg type="character_name">A07907-brute</seg>
-            <seg type="speech_count">2</seg>
-          </item>
-          <item n="2">
-            <seg type="character_name">A07907-epimeleia</seg>
-            <seg type="speech_count">2</seg>
-          </item>
-          <item n="2">
-            <seg type="character_name">A07907-neptune</seg>
-            <seg type="speech_count">2</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-eleutheriotes</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-troya_nova</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-albanact</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-hypomone</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-amphitrita</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-camber</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-agnites</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-thamesis</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-unassigned</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-albania</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-humber</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-locrine</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-savarne</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-loegria</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-cambria</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-boy</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-britannia</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-sophrosyne</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-mate</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07907-eros</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-        </list>
-      </div>
-      <div type="textual_notes">
-        <head>Textual Notes</head>
-        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
-        <note target="A07907-002-b-0230">
-          <label>c0bod-002-b-0230</label>
-          <sic>●indes</sic>
-          <seg>antiquitie of Brytaine , which ( in many</seg>
-          <corr>mindes</corr>
-          <seg>) hath carried as many and variable opinions</seg>
-        </note>
-        <note target="A07907-003-a-1730">
-          <label>c0bod-003-a-1730</label>
-          <sic>quifortes</sic>
-          <seg>According to Lucane . lib. 1. Vos quoque</seg>
-          <corr>qui fortes</corr>
-          <seg>animas belloque peremptas , Laudius</seg>
-        </note>
-        <note target="A07907-003-a-2380">
-          <label>c0bod-003-a-2380</label>
-          <sic>Plenid●us</sic>
-          <seg>Britans , before the birth of Christ , as</seg>
-          <corr>Plenidius</corr>
-          <seg>and Oronius . Since then , Thalestine ,</seg>
-        </note>
-        <note target="A07907-003-a-2090">
-          <label>c0bod-003-a-2090</label>
-          <sic>P●●se</sic>
-          <seg>I. Bale script . Brit cent 2 I</seg>
-          <corr>Prise</corr>
-          <seg>. defēs hist . Brit. Ca 〈…〉 de ant Cant</seg>
-        </note>
-        <note target="A07907-003-a-2160">
-          <label>c0bod-003-a-2160</label>
-          <sic>〈…〉</sic>
-          <seg>Brit cent 2 I Prise . defēs hist . Brit. Ca</seg>
-          <corr>Caius</corr>
-          <seg>de ant Cant lib. 1 John Leland 〈…〉 . ant</seg>
-        </note>
-        <note target="A07907-003-a-2190">
-          <label>c0bod-003-a-2190</label>
-          <sic>●ant</sic>
-          <seg>P●●se . defēs hist . Brit. Ca 〈…〉 de ant</seg>
-          <corr>Cant</corr>
-          <seg>lib. 1 John Leland 〈…〉 . ant ▪ dict .</seg>
-        </note>
-        <note target="A07907-003-a-2250">
-          <label>c0bod-003-a-2250</label>
-          <sic>〈…〉</sic>
-          <seg>Brit. Ca 〈…〉 de ant Cant lib. 1 John Leland</seg>
-          <corr>filla</corr>
-          <seg>. ant . dict .</seg>
-        </note>
-        <note target="A07907-003-a-2280">
-          <label>c0bod-003-a-2280</label>
-          <sic>▪</sic>
-          <seg>de ant Cant lib. 1 John Leland 〈…〉 . ant</seg>
-          <corr>.</corr>
-          <seg>dict .</seg>
-        </note>
-        <note target="A07907-003-a-2290">
-          <label>c0bod-003-a-2290</label>
-          <sic>di●t</sic>
-          <seg>ant Cant lib. 1 John Leland 〈…〉 . ant ▪</seg>
-          <corr>dict</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A07907-003-a-3050">
-          <label>c0bod-003-a-3050</label>
-          <sic>call●d</sic>
-          <seg>Neptune for his many ships</seg>
-          <corr>called</corr>
-          <seg>king or god of the Seas , and in regard</seg>
-        </note>
-        <note target="A07907-004-a-0850">
-          <label>c0bod-004-a-0850</label>
-          <sic>aiter</sic>
-          <seg>part ) were descended . Now beganne he to</seg>
-          <corr>alter</corr>
-          <seg>the name of the Iland , and according to</seg>
-        </note>
-        <note target="A07907-004-a-2270">
-          <label>c0bod-004-a-2270</label>
-          <sic>demded</sic>
-          <seg>Wales , called Cambria after his name , and</seg>
-          <corr>deuided</corr>
-          <seg>from Loegria by the riuer of Sauerne . To</seg>
-        </note>
-        <note target="A07907-004-a-0470">
-          <label>c0bod-004-a-0470</label>
-          <sic>G●l</sic>
-          <seg/>
-          <corr>Gal</corr>
-          <seg>. Mon.</seg>
-        </note>
-        <note target="A07907-004-b-1640">
-          <label>c0bod-004-b-1640</label>
-          <sic>〈…〉</sic>
-          <seg>comprehended vnder the name of Saxons , beca</seg>
-          <corr>because</corr>
-          <seg>of Hengist the Saxon and his company , that</seg>
-        </note>
-        <note target="A07907-005-b-1880">
-          <label>c0bod-005-b-1880</label>
-          <sic>s●eme</sic>
-          <seg>fetterd vnto it in chaines of golde , they</seg>
-          <corr>seeme</corr>
-          <seg>( as it were ) to drawe the whole frame</seg>
-        </note>
-        <note target="A07907-006-b-0920">
-          <label>c0bod-006-b-0920</label>
-          <sic>L●crine</sic>
-          <seg>ioy of which sacred Vnion and combination ,</seg>
-          <corr>Locrine</corr>
-          <seg>, Camber , and Albanact , figured there</seg>
-        </note>
-        <note target="A07907-007-b-2250">
-          <label>c0bod-007-b-2250</label>
-          <sic>●eft</sic>
-          <seg>Corineus daughter , deare delight , That</seg>
-          <corr>reft</corr>
-          <seg>both her and Locrine of his life , Opened</seg>
-        </note>
-        <note target="A07907-008-a-0660">
-          <label>c0bod-008-a-0660</label>
-          <sic>proph 〈…〉 d</sic>
-          <seg>Merlyn , who</seg>
-          <corr>propheted</corr>
-          <seg>herof long agoe .</seg>
-        </note>
-        <note target="A07907-008-a-0850">
-          <label>c0bod-008-a-0850</label>
-          <sic>●andie</sic>
-          <seg>dispose . Hath run his course thorough times</seg>
-          <corr>sandie</corr>
-          <seg>glasse , And brought the former happines</seg>
-        </note>
-        <note target="A07907-009-a-0180">
-          <label>c0bod-009-a-0180</label>
-          <sic>N●mphes</sic>
-          <seg>in Thamesis that swim , And you c 〈…〉 o●se</seg>
-          <corr>Nimphes</corr>
-          <seg>that do delight to plaie On Humber and 〈…〉</seg>
-        </note>
-        <note target="A07907-009-a-0270">
-          <label>c0bod-009-a-0270</label>
-          <sic>〈…〉</sic>
-          <seg>Nimphes that do delight to plaie On Humber and</seg>
-          <corr>faire</corr>
-          <seg>e Sauverne , welcome him In Canz 〈…〉 〈…〉</seg>
-        </note>
-        <note target="A07907-009-a-0290">
-          <label>c0bod-009-a-0290</label>
-          <sic>Saue●ne</sic>
-          <seg>that do delight to plaie On Humber and 〈…〉 e</seg>
-          <corr>Sauerne</corr>
-          <seg>, welcome him In Canz 〈…〉 〈…〉 gges and many</seg>
-        </note>
-        <note target="A07907-009-a-0350">
-          <label>c0bod-009-a-0350</label>
-          <sic>〈…〉</sic>
-          <seg>and 〈…〉 e Sauverne , welcome him In Canz</seg>
-          <corr>Canzons,</corr>
-          <seg>〈…〉 gges and many a Roun-delay that from</seg>
-        </note>
-        <note target="A07907-009-a-0360">
-          <label>c0bod-009-a-0360</label>
-          <sic>〈…〉</sic>
-          <seg>〈…〉 e Sauverne , welcome him In Canz 〈…〉</seg>
-          <corr>Iigges</corr>
-          <seg>gges and many a Roun-delay that from the</seg>
-        </note>
-        <note target="A07907-009-b-0720">
-          <label>c0bod-009-b-0720</label>
-          <sic>Tayiors</sic>
-          <seg>were first a Guilde , and bare the stile Of</seg>
-          <corr>Taylors</corr>
-          <seg>, and of Armorers beside Of the Linnen armorie</seg>
-        </note>
-        <note target="A07907-009-b-1040">
-          <label>c0bod-009-b-1040</label>
-          <sic>soe-mens</sic>
-          <seg>prouide , Those coats of armes that quaild our</seg>
-          <corr>foe-mens</corr>
-          <seg>pride When Englands bent-Bow , and the gray-goos</seg>
-        </note>
-        <note target="A07907-009-b-1810">
-          <label>c0bod-009-b-1810</label>
-          <sic>Tape●notes</sic>
-          <seg/>
-          <corr>Tapesnotes</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A07907-010-a-0340">
-          <label>c0bod-010-a-0340</label>
-          <sic>〈…〉 oyd</sic>
-          <seg>Charter to confirme their Guilde : And they</seg>
-          <corr>inioyd</corr>
-          <seg>it , as his Highnesse wilde .</seg>
-        </note>
-        <note target="A07907-010-a-1250">
-          <label>c0bod-010-a-1250</label>
-          <sic>fouours</sic>
-          <seg>did liberally create : ( Beside the former</seg>
-          <corr>fauours</corr>
-          <seg>to them doone , ) Their Guilde a Brother-hood</seg>
-        </note>
-        <note target="A07907-010-b-1230">
-          <label>c0bod-010-b-1230</label>
-          <sic>▪</sic>
-          <seg>As tell me , why that seat is vnsupplied</seg>
-          <corr>,</corr>
-          <seg>Being the most eminent and chiefest place</seg>
-        </note>
-        <note target="A07907-011-a-1140">
-          <label>c0bod-011-a-1140</label>
-          <sic>Ros●</sic>
-          <seg>Holland , Earle of Huntingdon . Iohn , Lord</seg>
-          <corr>Rose</corr>
-          <seg>. Rafe Lord Nevill . Thomas L. Furniuall</seg>
-        </note>
-        <note target="A07907-011-a-2090">
-          <label>c0bod-011-a-2090</label>
-          <sic>▪</sic>
-          <seg>, to those before , ( Not spoke in vaunt</seg>
-          <corr>,</corr>
-          <seg>or any spirit of pride ) My Records could</seg>
-        </note>
-        <note target="A07907-011-a-2230">
-          <label>c0bod-011-a-2230</label>
-          <sic>▪</sic>
-          <seg>pride ) My Records could affoord as many more</seg>
-          <corr>,</corr>
-          <seg>All Brethren , Marchant-Taylors signified</seg>
-        </note>
-        <note target="A07907-012-a-0210">
-          <label>c0bod-012-a-0210</label>
-          <sic>S●nce</sic>
-          <seg>loue in some meane measure let me shew ,</seg>
-          <corr>Since</corr>
-          <seg>heauen hath cald thee to this dignity ,</seg>
-        </note>
-        <note target="A07907-012-a-0390">
-          <label>c0bod-012-a-0390</label>
-          <sic>〈…〉</sic>
-          <seg>Which ( then my selfe ) farre better thou d</seg>
-          <corr>doest</corr>
-          <seg>est know , I make no doubt thou wilt thy</seg>
-        </note>
-        <note target="A07907-012-a-0540">
-          <label>c0bod-012-a-0540</label>
-          <sic>〈…〉</sic>
-          <seg>make no doubt thou wilt thy time bestow , A</seg>
-          <corr>fits</corr>
-          <seg>s so great a Subiects place as this , To</seg>
-        </note>
       </div>
     </back>
   </text>

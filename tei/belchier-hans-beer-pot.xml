@@ -92,6 +92,45 @@
           </bibl>
         </bibl>
       </sourceDesc>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000203-hans">
+              <persName>Hans</persName>
+            </person>
+            <person xml:id="ep000203-hannecke">
+              <persName>Hannecke</persName>
+            </person>
+            <person xml:id="ep000203-cornelius">
+              <persName>Cornelius</persName>
+            </person>
+            <person xml:id="ep000203-pasquil">
+              <persName>Pasquil</persName>
+            </person>
+            <person xml:id="ep000203-garland">
+              <persName>Garland</persName>
+            </person>
+            <person xml:id="ep000203-servant">
+              <persName>Servant</persName>
+            </person>
+            <person xml:id="ep000203-yonker">
+              <persName>Yonker</persName>
+            </person>
+            <person xml:id="ep000203-sentinel">
+              <persName>Sentinel</persName>
+            </person>
+            <person xml:id="ep000203-flutterkin">
+              <persName>Flutterkin</persName>
+            </person>
+            <person xml:id="ep000203-both">
+              <persName>Both</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+        <textClass>
+          <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+        </textClass>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -199,13 +238,13 @@
         <l>And then the ouerplus. </l>
         <stage xml:id="ep000203-e100790">Cornelius within. </stage>
         <l>What Hans, Come heere. </l>
-        <sp who="A07637-hans" xml:id="ep000203-e100810">
+        <sp who="#ep000203-hans" xml:id="ep000203-e100810">
           <speaker>Hans. </speaker>
           <p>My Master calles, and I must needes be gone. <stage xml:id="ep000203-e100830">Exit. </stage>
           </p>
         </sp>
         <stage xml:id="ep000203-e100840">Enter Hanneke sola. </stage>
-        <sp who="A07637-hannecke" xml:id="ep000203-e100850">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e100850">
           <speaker>Han. </speaker>
           <l>As God doth blesse the earth with great encrease, </l>
           <l>And in great measure sends vs ten for one: </l>
@@ -243,13 +282,13 @@
           <l>Your seruant at commaund, </l>
           <l>To runne, to ride, to goe by day or night. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e101200">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e101200">
           <speaker>Han. </speaker>
           <l>How now sir sauce, your tong so early glyb; </l>
           <l>What though the dayes be short, theres time enough </l>
           <l>Ere night to make your pate ring noone. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e101240">
+        <sp who="#ep000203-hans" xml:id="ep000203-e101240">
           <speaker>Hans. </speaker>
           <l>Indeed, </l>
           <l>Madame, you neuer saw me drunke as yet, </l>
@@ -257,25 +296,25 @@
           <pb xml:id="ep000203-006-b"/>
           <l>I owe your seruice. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e101290">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e101290">
           <speaker>Han. </speaker>
           <l>Well sir, then be gone, </l>
           <l>Make haste, dispatch, and get you to the towne; </l>
           <l>Looke to your businesse, what you buy and sell; </l>
           <l>But ere you goe, take that and giue my sonne. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e101340">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e101340">
           <speaker>Han. </speaker>
           <l>The heauens blesse you mistresse, that fayre hand, </l>
           <l>Once more for the Serieant. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e101370">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e101370">
           <speaker>Hann. </speaker>
           <l>Away you Knaue, </l>
           <l>Take that Dutch shilling, drinke mongst your Comrades. </l>
         </sp>
         <stage xml:id="ep000203-e101400">Exit. </stage>
-        <sp who="A07637-hans" xml:id="ep000203-e101410">
+        <sp who="#ep000203-hans" xml:id="ep000203-e101410">
           <speaker>Hans. </speaker>
           <l>Shees gone, the best that euer trode on shooe: </l>
           <l>I would not change my life to be Lord Mayor </l>
@@ -323,7 +362,7 @@
           <l>I can bestride, a bouncing Gennet still, </l>
           <l>And with mine arme to frush a sturdie launce. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e101850">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e101850">
           <speaker>Hann. </speaker>
           <l>Talke you no more of martiall exercise, </l>
           <l>Good Sir, but take you to your Country Farme, </l>
@@ -332,12 +371,12 @@
           <l>And proue his fortune mongst those armed troupes, </l>
           <l>I am contented, God his will be done. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e101920">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e101920">
           <speaker>Corn. </speaker>
           <l>I thinke deere wife thou speakst more then thou thinkst. </l>
           <l>Thou wouldst be loath to aduenture him so much. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e101950">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e101950">
           <speaker>Hann. </speaker>
           <l>Not I sweet Sir, for God is God at sea, </l>
           <l>And land, a God alwayes omnipotent; </l>
@@ -347,20 +386,20 @@
           <l>Yet if he die, ti's honours lofty bedde </l>
           <l>That shall entombe him, then I care the lesse. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102030">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102030">
           <speaker>Cor. </speaker>
           <l>Well spoke, braue Lasse, I thinke faire Pallas shine, </l>
           <l>Begirt thy temples with her glorious rayes, </l>
           <l>At thy dayes birth, the wonder of thy sexe. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102070">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102070">
           <speaker>Hann. </speaker>
           <l>How now my Loue, what do you Court mee still? </l>
           <pb xml:id="ep000203-007-b"/>
           <l>This Phrase befits not, twixt a man and wife, </l>
           <l>Tis time for you to leaue such courting tearmes, </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102110">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102110">
           <speaker>Cor. </speaker>
           <l>What courting calst thou them, thou rubst me vp, </l>
           <l>To thinke vpon the times forepast, I saw </l>
@@ -377,7 +416,7 @@
           <l>That now doe liue in noble fame and name; </l>
           <l>Whom Ile ore-passe, for feare I should offend. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102260">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102260">
           <speaker>Hann. </speaker>
           <l>Offend not then (my Spouse) I counsell you, </l>
           <l>But leaue the mighty to their best contents, </l>
@@ -385,7 +424,7 @@
           <l>Let vs not meddle with the Magistrate, </l>
           <l>But see, vnseene, and hope for whats the best. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102320">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102320">
           <speaker>Cor. </speaker>
           <l>What hath Apollos sacred Oracle </l>
           <l>Infusde thy Soule with high Diuinity, </l>
@@ -395,13 +434,13 @@
           <l>Where I not doubt but I shall find your sonne </l>
           <l>A drinking, not at's booke. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102400">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102400">
           <speaker>Hann. </speaker>
           <l>What if you doe? </l>
           <l>The elder Priest forgets that he was Clerke, </l>
           <l>When you were young, you did as he now does. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102440">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102440">
           <speaker>Cor. </speaker>
           <l>Tis true indeed, but yet Ile tell thee what, </l>
           <l>Twas strange to see a younker once but drunke </l>
@@ -418,18 +457,18 @@
           <l>Gentlemen are sicke, and Parsons ill at ease, </l>
           <l>But Seruing men are drunke, and all haue one disease. </l>
         </quote>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102550">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102550">
           <speaker>Han. </speaker>
           <l>God blesse my son from such base foolerie, </l>
           <l>As to delight in drinke, a beastly sinne, </l>
           <l>Yet with a friend, to drinke a cuppe or more, </l>
           <l>Ile not finde fault, the times are now growne such. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102600">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102600">
           <speaker>Cor. </speaker>
           <p>Well wife, giue but an inch, hee takes an elne. </p>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102620">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102620">
           <speaker>Han. </speaker>
           <l>What then? his nature, education, </l>
           <l>Composde him otherwise, you did your part </l>
@@ -440,32 +479,32 @@
           <l>As in him lyes, I heard't with comfort too, </l>
           <l>Else would I not. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102710">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102710">
           <speaker>Cor, </speaker>
           <l>My deare, what would you doe, </l>
           <l>Or not doe, Womens witlesse wilfull will, </l>
           <l>Is strange sometimes, with reason limitlesse. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102750">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102750">
           <speaker>Hann </speaker>
           <p>I will not tell you. </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102770">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102770">
           <speaker>Cor. </speaker>
           <p>Why? </p>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102790">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102790">
           <speaker>Hann. </speaker>
           <p>Because I will not. </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e102810">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e102810">
           <speaker>Cor. </speaker>
           <l>A reason reasonlesse, Women, </l>
           <l>Haue oft such reason, for their wilfulnesse, </l>
           <l>When as they ouerthwart their too kind husbands </l>
           <l>In things not meere indifferent, else </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e102860">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e102860">
           <speaker>Hann. </speaker>
           <l>What else? </l>
           <l>Somtimes we know more then our husbands think, </l>
@@ -482,7 +521,7 @@
           <l>And she whom former times nere paraleld, </l>
           <l>She whom you namde but now. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e103000">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e103000">
           <speaker>Cor. </speaker>
           <l>O stay, my wife, </l>
           <l>Your mouth runs ore, she makes all women proud; </l>
@@ -510,7 +549,7 @@
           <l>Good morrow Pasquill, where's my brother, where's </l>
           <l>That Younker? and the Serieant Goodfellow. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103260">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103260">
           <speaker>Pas. </speaker>
           <l>You are welcome sir, what M. Garland? </l>
           <pb xml:id="ep000203-010-a"/>
@@ -518,50 +557,50 @@
           <l>Since yesternight I haue not had one drinke; </l>
           <l>I am so colde. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103310">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103310">
           <speaker>Gar. </speaker>
           <p>Why dost not answere me? </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103330">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103330">
           <speaker>Pas. </speaker>
           <l>What did you say? sure I remember not; </l>
           <l>My wits want freshing. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103360">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103360">
           <speaker>Gar. </speaker>
           <l>I will thrash them streight </l>
           <l>With good strong Beere, one cup will do no harm. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103390">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103390">
           <speaker>Pas. </speaker>
           <p>Will driue cold out, and keep my belly warm. </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103410">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103410">
           <speaker>Gar. </speaker>
           <l>What riming so earely, and thine eyes not </l>
           <l>Washed yet: but where is Younger Harmants? </l>
           <l>Where's his Companion, Serieant Goodfellow? </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103450">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103450">
           <speaker>Pas </speaker>
           <l>Fast a sleepe, his troubled head is so vext </l>
           <l>With this worlds cares. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103480">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103480">
           <speaker>Gar. </speaker>
           <p>What both. </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103500">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103500">
           <speaker>Pasq. </speaker>
           <l>The Serieant, him </l>
           <l>Lonely meane, lyes sleeping yet within; </l>
           <l>Ile call him to you, if you will goe drinke. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103540">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103540">
           <speaker>Gar. </speaker>
           <p>Not else. </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103560">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103560">
           <speaker>Pas. </speaker>
           <l>Yes that I will, and more then that; </l>
           <l>Ile doe for you, or for your Brothers sake; </l>
@@ -569,11 +608,11 @@
           <l>And run through thicke or thin, at noon or night: </l>
           <l>If you commaund, poore Pasquill will obey. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103620">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103620">
           <speaker>Gar. </speaker>
           <p>Where didst thou learn such high stilde complements? </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103640">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103640">
           <speaker>Pas. </speaker>
           <l>Out from the smoaking of my Musquets mouth </l>
           <l>Fetcht from the fragments of some Poetrie: </l>
@@ -583,24 +622,24 @@
           <l>And gentle Zephir, glads the Seamans heart; </l>
           <l>Driuing his shippe, crosse Neptunes foaming front. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103720">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103720">
           <speaker>Gar. </speaker>
           <l>How now turnde Poet, or turnde Coniurer; </l>
           <l>Stares not mine hayre: shall I be scarred hence: </l>
           <l>Ile make a circle least Hobgoblin come, </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103760">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103760">
           <speaker>Pas. </speaker>
           <l>You are disposde to iest M. Ganland. </l>
           <pb xml:id="ep000203-010-b"/>
           <l>I haue many such conceites without booke. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e103790">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103790">
           <speaker>Gar. </speaker>
           <l>Of thine owne making sure, they doe so well </l>
           <l>Concurre in sweetest Diapason. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103820">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103820">
           <speaker>Pasq. </speaker>
           <l>Die a pace on sir: whats that? </l>
           <l>That's quite past </l>
@@ -614,12 +653,12 @@
           <l>With riff raffe, roaring, thwick, thwack, </l>
           <l>Thurlerie bouncing. </l>
         </quote>
-        <sp who="A07637-garland" xml:id="ep000203-e103930">
+        <sp who="#ep000203-garland" xml:id="ep000203-e103930">
           <speaker>Ga. </speaker>
           <l>O Heauens! why made you night to couer sin? </l>
           <l>Had it been day, such things had neuer beene. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e103960">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e103960">
           <speaker>Pas. </speaker>
           <l>Once more with patience, silence, &amp; be still: </l>
           <l>You shall haue Rhetoricke gainst your will. </l>
@@ -630,7 +669,7 @@
           <l>Disroabde his Podex, white as Iuorie, </l>
           <l>And through the Welkin thundered all aloud. </l>
         </quote>
-        <sp who="A07637-garland" xml:id="ep000203-e104040">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104040">
           <speaker>Gar. </speaker>
           <l>Reade thou my riddle, &amp; take thou my fidle </l>
           <l>I met a man that wept and wailde, </l>
@@ -638,19 +677,19 @@
           <l>He fared strangely, in such taking; </l>
           <l>He said he was not of Gods making. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e104100">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e104100">
           <speaker>Pasq. </speaker>
           <l>The Cuckow sings not worth a groat, </l>
           <l>Because she neuer changeth note: </l>
           <l>The man you speake of, young or olde, </l>
           <l>Indeed he is a plaine Cucquolde. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104150">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104150">
           <speaker>Gar. </speaker>
           <l>O brains of a Burbate, wooll of an Owle: </l>
           <l>Where hadst thou so much wit? now tell me thine. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e104180">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e104180">
           <speaker>Pas. </speaker>
           <l>My Grandame taught me, &amp; I learnt by heart </l>
           <pb xml:id="ep000203-011-a"/>
@@ -658,23 +697,23 @@
           <l>But here me Sir, you know that honest man </l>
           <l>M. Flutterkin our Iouiall Hoast. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104230">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104230">
           <speaker>Gar. </speaker>
           <l>Goe seeke my brother out, and then I will, </l>
           <l>Shew thee the way, and giue thee thy desire. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e104260">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e104260">
           <speaker>Pasq. </speaker>
           <l>I must not stirre without my Corporall </l>
           <l>Giues his consent, I must not so offend </l>
           <l>For feare the varuels catch me by the feet. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104300">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104300">
           <speaker>Gar. </speaker>
           <l>Goe to the Serieant, I dare warrant thee, </l>
           <l>And tell him that I stay to speake with him. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e104330">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e104330">
           <speaker>Pa. </speaker>
           <l>Swifter then thought, your errand shal be done </l>
           <stage xml:id="ep000203-e104350">Exit. </stage>
@@ -685,23 +724,23 @@
           <l>By gisse I sweare, were I so fayrely wedde, </l>
           <l>This houre yet would I haue kept my bed. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104420">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104420">
           <speaker>Ga. </speaker>
           <l>Good morrow Serieant, dreaming, yet not wakt </l>
           <l>You are mistaken man, you see not well, </l>
           <l>Such ware's not daintie, though you thinke it deere, </l>
           <l>Where is enough, and market all the yeere. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e104470">
+        <sp who="#ep000203-servant" xml:id="ep000203-e104470">
           <speaker>Ser. </speaker>
           <l>I am glad to see you in so pleasant vaine; </l>
           <l>I hope we shall haue a merry day on't. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104500">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104500">
           <speaker>Gar. </speaker>
           <p>Deed, Pasquill and I haue beene riming. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e104520">
+        <sp who="#ep000203-servant" xml:id="ep000203-e104520">
           <speaker>Ser. </speaker>
           <l>What? </l>
           <l>That prety Stripling, that mad Pastie-crust, </l>
@@ -715,11 +754,11 @@
           <l>Which seruice was best on horsebacke, or on foot: </l>
           <l>But what say you? </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104630">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104630">
           <speaker>Gar. </speaker>
           <p>For Horsemen tooth and nayle. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e104650">
+        <sp who="#ep000203-servant" xml:id="ep000203-e104650">
           <speaker>Ser. </speaker>
           <l>He calde me asse, but since one predicament </l>
           <l>Containes vs both, I care not Ile not yeeld; </l>
@@ -727,25 +766,25 @@
           <l>Ide make him fret, and stampe, and scratch his head; </l>
           <l>Doe you but second me, ile vexe him yet. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e104710">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e104710">
           <speaker>Pas. </speaker>
           <p>While you do talke, then I am sure of drinke. </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104730">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104730">
           <speaker>Gar. </speaker>
           <p>Let Pasquill seeke him. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e104750">
+        <sp who="#ep000203-servant" xml:id="ep000203-e104750">
           <speaker>Ser. </speaker>
           <l>Sirra, make haste, runne; </l>
           <l>My Captaine calde him, when I went to sleepe. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e104780">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e104780">
           <speaker>Pas. </speaker>
           <l>I goe, I runne, I haste, I skippe, I flye; </l>
           <l>With nimbler heeles then ere did Mercurie. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e104810">
+        <sp who="#ep000203-servant" xml:id="ep000203-e104810">
           <speaker>Ser. </speaker>
           <l>Ah poti maia sitis, how fast he </l>
           <l>Runnes for the liquours sake; now thinkes he, </l>
@@ -764,14 +803,14 @@
           <l>What? doe you foole me, flout me to my face; </l>
           <l>Is that for my good will? why then farewell. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e104980">
+        <sp who="#ep000203-garland" xml:id="ep000203-e104980">
           <speaker>Gar. </speaker>
           <l>Be not so angry brother, I protest, </l>
           <l>I laugh not at you, but at Pasquill, what </l>
           <l>Sayde he to you, what message did he bring? </l>
         </sp>
         <pb xml:id="ep000203-012-a"/>
-        <sp who="A07637-yonker" xml:id="ep000203-e105020">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105020">
           <speaker>Youn. </speaker>
           <l>The foole comes gaping, sets vp such a throate, </l>
           <l>Staring so madly, as if foule Cerberus </l>
@@ -792,11 +831,11 @@
           <l>Faring so ghastly, that we both did thinke, </l>
           <l>Him worse then mad. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e105210">
+        <sp who="#ep000203-garland" xml:id="ep000203-e105210">
           <speaker>Gar. </speaker>
           <p>But whether is he gone? </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105230">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105230">
           <speaker>Youn. </speaker>
           <l>Ile tell you, as we crost the market place, </l>
           <l>He spyes my Fathers man, and then from me, </l>
@@ -808,17 +847,17 @@
           <l>In at next Tap-house, round as Iuglers boxe, </l>
           <l>Went they two first, and then two Souldiers more. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e105330">
+        <sp who="#ep000203-garland" xml:id="ep000203-e105330">
           <speaker>Ga. </speaker>
           <l>Why then your Captains piece is half consumd </l>
           <l>By this; if he haue got such company. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105360">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105360">
           <speaker>Youn. </speaker>
           <l>Twill not belong, I am sure, befort be drownde, </l>
           <l>Foure men foure Cans, whats that, but foure faire draughts. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105390">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105390">
           <speaker>Ser. </speaker>
           <l>Yea for a Brewers horse, not for his man: </l>
           <l>Oh my rumbling guts doe ake to thinke ont; </l>
@@ -832,7 +871,7 @@
           <l>One ciuill glasse or two, that warms my bloud, </l>
           <l>It is enough, me thinkes. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105500">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105500">
           <speaker>Younk. </speaker>
           <l>Why? now I know, </l>
           <l>Thou art not tong-tyde Serieant, els I thought </l>
@@ -840,97 +879,97 @@
           <l>Ile buy a Calues tongue for foure, thats good meate </l>
           <l>For them that loue it. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105560">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105560">
           <speaker>Ser. </speaker>
           <l>Why? theres none but Calues </l>
           <l>Refuse good meat, or offered curtesies, </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105590">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105590">
           <speaker>Yon. </speaker>
           <p>Why? how now Serieant, do you cal me calfe? </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105610">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105610">
           <speaker>Ser. </speaker>
           <l>No sir, not I, but by chance speake of them, </l>
           <l>As by the way you light vpon their tongues. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e105640">
+        <sp who="#ep000203-garland" xml:id="ep000203-e105640">
           <speaker>Gar. </speaker>
           <l>So now the game begins: flie to him, giue </l>
           <l>Him not one ynche, let him weare gold that winnes </l>
           <l>It first: shrinke backe, I will neuer owne thee </l>
           <l>For a Serieant. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105690">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105690">
           <speaker>Ser. </speaker>
           <l>Now we are two to one, </l>
           <l>I care not. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105720">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105720">
           <speaker>Younk. </speaker>
           <l>What sayst, thou speakst Ebrew, Greeke, </l>
           <l>Or English, Welsh, I know not what thou meanst. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105750">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105750">
           <speaker>Ser. </speaker>
           <p>Sauf vostre grace, vous estes bien venuz. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105770">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105770">
           <speaker>Youn. </speaker>
           <l>Hangs the French Ideon at thy tongs end too </l>
           <l>Speake two words more, ile make thee Port-enseigne </l>
           <l>Si ce iemais aduient, en ma puissance. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105810">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105810">
           <speaker>Ser. </speaker>
           <p>Perform your words, and then I sweare, I wil. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105830">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105830">
           <speaker>Younk. </speaker>
           <p>I will. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105850">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105850">
           <speaker>Ser. </speaker>
           <p>Sweare first, ile not beleeue you else. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105870">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105870">
           <speaker>Younk. </speaker>
           <p>Without an oath I will. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e105890">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105890">
           <speaker>Ser. </speaker>
           <l>Why, heare you then; </l>
           <l>Admiranda canunt, sed non credenda Poetae. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e105920">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e105920">
           <speaker>Younk. </speaker>
           <p>Thats Latine Serieant, wiseman, thats not French. </p>
         </sp>
         <pb xml:id="ep000203-013-a"/>
-        <sp who="A07637-servant" xml:id="ep000203-e105940">
+        <sp who="#ep000203-servant" xml:id="ep000203-e105940">
           <speaker>Ser. </speaker>
           <l>You namde no language, bid me speake two wordes, </l>
           <l>And you would doo't, Ile be iudgde by all </l>
           <l>Here present, if the wager be not wonne. </l>
           <l>Ile get a staffe, the colours they are mine. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e105990">
+        <sp who="#ep000203-garland" xml:id="ep000203-e105990">
           <speaker>Gar. </speaker>
           <l>Tis well sayde Serieant, I am on thy side, </l>
           <l>Ile beare thee witnesse they are thine by right. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106020">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106020">
           <speaker>Youn. </speaker>
           <l>Though I meant French, yet will I yeeld, I lost; </l>
           <l>Take thou the colours, I bestow them free, </l>
           <l>In my conceit, as ere did Emperour, </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106060">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106060">
           <speaker>Ser. </speaker>
           <l>I thanke your greatnesse in conceit, </l>
           <l>I doe enioy them, and I rest content. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e106090">
+        <sp who="#ep000203-garland" xml:id="ep000203-e106090">
           <speaker>Gar. </speaker>
           <l>A good conceit, for now me thinks I see, </l>
           <l>The Serieant Enseigne, onely in conceit </l>
@@ -938,7 +977,7 @@
           <l>I see, but see not, what I hope to see; </l>
           <l>That once performde which now is but conceit. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106150">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106150">
           <speaker>Ser. </speaker>
           <l>I thanke you M. Garland, your good word, </l>
           <l>Is euer prest to doe an honest man good, </l>
@@ -946,7 +985,7 @@
           <l>A score of pounds; or so, wert come to that, </l>
           <l>Rather then I should fayle. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e106210">
+        <sp who="#ep000203-garland" xml:id="ep000203-e106210">
           <speaker>Gar. </speaker>
           <l>Sure that I would; </l>
           <l>Thou shouldst not want to furnish thy conceites; </l>
@@ -955,17 +994,17 @@
           <l>Get thou a place, trie thy friends, thou shalt see </l>
           <l>What I will doe. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106280">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106280">
           <speaker>Ser. </speaker>
           <l>I thanke God and friends, tis done; </l>
           <l>I haue bethought me, you shall see ere long </l>
           <l>A Metamorphosis of me reformde. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106320">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106320">
           <speaker>Younk. </speaker>
           <p>Transformde, thou wouldst say. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106340">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106340">
           <speaker>Ser. </speaker>
           <l>Call you it transformde; </l>
           <l>Transformde, reformde; or call it how you will: </l>
@@ -976,7 +1015,7 @@
           <l>Corpora Dij caeptis, nam vos mutastis &amp; illas, </l>
           <l>Aspirate meis. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e106420">
+        <sp who="#ep000203-garland" xml:id="ep000203-e106420">
           <speaker>Gar. </speaker>
           <l>Let thee alone Serieant, thou wilt be like </l>
           <l>To Pasquill, wilde as a Bucke, or Liueret </l>
@@ -984,60 +1023,60 @@
           <l>When thy braines flow with skilfull Poesie; </l>
           <l>Hast thou forgot what we came hither for. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106480">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106480">
           <speaker>Youn. </speaker>
           <l>I like thee Serieant, when thou bringst out paires </l>
           <l>Of Verses; one and singles alone is not </l>
           <l>So good; as when by two and two in rankes, </l>
           <l>They march in order: then they please mine eares. </l>
         </sp>
-        <sp who="A07637-sentinel" xml:id="ep000203-e106530">
+        <sp who="#ep000203-sentinel" xml:id="ep000203-e106530">
           <speaker>Se. </speaker>
           <l>You want a fellow to my tother verse, </l>
           <l>Doe you not. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106560">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106560">
           <speaker>Youn. </speaker>
           <l>Yes marry doe I, make but one </l>
           <l>To wipe my mouth, like to the first, I sweare, </l>
           <l>Ile giue thee a payre of good stagges leather gloues. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106600">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106600">
           <speaker>Ser. </speaker>
           <l>A match tis done, ile fit you presently; </l>
           <l>M. Garland will you see it performde? </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e106630">
+        <sp who="#ep000203-garland" xml:id="ep000203-e106630">
           <speaker>Gar. </speaker>
           <p>Vpon mine honest word, I will. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106650">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106650">
           <speaker>Ser. </speaker>
           <l>Why then, </l>
           <l>I haue it by this time: since your mouth is cleane; </l>
           <l>My noble Younker, wipe your nose with this; </l>
           <l>Sic faciunt stulti, quos gloria vexat inanis. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106700">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106700">
           <speaker>Youn. </speaker>
           <l>You haue hit me home with your Rhinoceros </l>
           <l>Did neere make that, that famous learned Knight, </l>
           <l>Sir Philip Sidney, Scholers, souldiers pride </l>
           <l>Was his, not yours. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106750">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106750">
           <speaker>Ser. </speaker>
           <l>What, though he made that verse, </l>
           <l>Those words were made before, he made them not; </l>
           <l>Twas well I hapt on his inuentions. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106790">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106790">
           <speaker>Youn. </speaker>
           <l>Good wits doe iumpe, good witty, witles sir: </l>
           <l>You hatch those egges that other birds haue layde: </l>
           <l>I bid you make me one, by your owne wit. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106830">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106830">
           <speaker>Ser. </speaker>
           <l>Why so I did, that which sir Philip made, </l>
           <l>Is now grown olde, and like my Fathers gowne, </l>
@@ -1050,13 +1089,13 @@
           <l>A marchants word, no price set downe, ile haue </l>
           <l>Them richly made, with golde and silken fringe. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e106930">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e106930">
           <speaker>Younk. </speaker>
           <l>I think the Serieant is grown Mountebancke </l>
           <l>To cling by shifts, hey passe, passe, </l>
           <l>Italian grown; a sharking Charlatan. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e106970">
+        <sp who="#ep000203-servant" xml:id="ep000203-e106970">
           <speaker>Ser. </speaker>
           <l>Italian, Spanish, English, Dutch, or French; </l>
           <l>Sharke what you will, you shall not sharke me out </l>
@@ -1068,26 +1107,26 @@
           <l>You'l keepe it sure, a marchant breake his word, </l>
           <l>His credits gone, no not for twice so much. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e107070">
+        <sp who="#ep000203-garland" xml:id="ep000203-e107070">
           <speaker>Gar. </speaker>
           <l>Go fetch thy gloues, ile see the Glouer payde: </l>
           <l>Brother, tis lost, you shall pay me againe. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107100">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107100">
           <speaker>Younk. </speaker>
           <l>Vpon condition I will be content, </l>
           <l>So he will make me but one true French verse. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107130">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107130">
           <speaker>Ser. </speaker>
           <p>I will and if I can. </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e107150">
+        <sp who="#ep000203-garland" xml:id="ep000203-e107150">
           <speaker>Gar. </speaker>
           <l>Yea, thats well sayd; </l>
           <l>That can was well. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107180">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107180">
           <speaker>Ser. </speaker>
           <l>I can and will; not for nought; </l>
           <l>My learning cost me something; and my wit </l>
@@ -1097,75 +1136,75 @@
           <l>Set but a prize, auferre gloriam </l>
           <l>Infuseth spirit to a working braine, </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e107260">
+        <sp who="#ep000203-garland" xml:id="ep000203-e107260">
           <speaker>Gar. </speaker>
           <p>It shall be done, what ist? </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107280">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107280">
           <speaker>Ser. </speaker>
           <p>Why what you will. </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e107300">
+        <sp who="#ep000203-garland" xml:id="ep000203-e107300">
           <speaker>Gar. </speaker>
           <p>A payre of Garters. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107320">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107320">
           <speaker>Ser. </speaker>
           <l>Garters? yea content. </l>
           <pb xml:id="ep000203-014-b"/>
           <l>I want a payre; What gloues and garters too, </l>
           <l>I rose on the right side to day I am sure. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107360">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107360">
           <speaker>Yo. </speaker>
           <p>What time, a bargain wisely made's halfe won. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107380">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107380">
           <speaker>Ser. </speaker>
           <l>Ere you can go to Flutterkins mine Hoast, </l>
           <l>And come againe, or else ile leese two faunes, </l>
           <l>Or Beere, or Claret wine, or Spanish wine. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107420">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107420">
           <speaker>Youn. </speaker>
           <p>Beere, what Beere, Scar-Beere? </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107440">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107440">
           <speaker>Ser. </speaker>
           <p>No of English Beere. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107460">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107460">
           <speaker>Youn. </speaker>
           <l>Ile not goe thither, I was there too late, </l>
           <l>Ere I can tell threescore distinctly: say </l>
           <l>A match; Ile tell them plainely, one by one. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107500">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107500">
           <speaker>Ser. </speaker>
           <p>Agreed, begin. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107520">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107520">
           <speaker>Youn. </speaker>
           <p>Ile tell then, shall I? </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107540">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107540">
           <speaker>Ser. </speaker>
           <p>Yes. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107560">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107560">
           <speaker>Young. </speaker>
           <p>One, two, three, foure. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107580">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107580">
           <speaker>Ser. </speaker>
           <p>Iesuis. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107600">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107600">
           <speaker>Youn. </speaker>
           <l>Seuen, eight. </l>
           <l>Nine, ten, eleuen, twelue, thirteen, foureteen, fifteene. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107630">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107630">
           <speaker>Ser. </speaker>
           <l>Soft, you are too hasty for a parish Priest, </l>
           <l>I am sure of your good word; fiue and sixe </l>
@@ -1173,48 +1212,48 @@
           <l>And do your worst: some honest French man lend </l>
           <l>Me but one hansome word or two. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107690">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107690">
           <speaker>Younk. </speaker>
           <p>Thirty. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107710">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107710">
           <speaker>Ser. </speaker>
           <l>I. </l>
           <l>Gods me, halfe out, but two words yet, Vostre. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e107740">
+        <sp who="#ep000203-garland" xml:id="ep000203-e107740">
           <speaker>Gar. </speaker>
           <p>Thou make a verse, then ile bake in a well. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107760">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107760">
           <speaker>Ser. </speaker>
           <p>There's one word more, humble, nay treshumble </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107780">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107780">
           <speaker>Younk. </speaker>
           <p>Fifty. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107800">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107800">
           <speaker>Ser. </speaker>
           <l>Seruiteur, life of my life, tis out: </l>
           <l>Be it what it will, stand on thine euen feet; </l>
           <l>Then gloues and garters both are quickly wonne. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107840">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107840">
           <speaker>Youn. </speaker>
           <p>Brother, you haue lost. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107860">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107860">
           <speaker>Ser. </speaker>
           <p>Then know I who must winne. </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e107880">
+        <sp who="#ep000203-garland" xml:id="ep000203-e107880">
           <speaker>Gar. </speaker>
           <l>Ile not beleeue you, I will haue it scande, </l>
           <pb xml:id="ep000203-015-a"/>
           <l>Let them that know speake true: is it good French. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e107910">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e107910">
           <speaker>Youn. </speaker>
           <l>Ie suis vostre treshumble seruiteur. </l>
           <l>The verse is true, consisting of fiue feet; </l>
@@ -1222,7 +1261,7 @@
           <l>Can saue you: Serieant thou hast won; the garters </l>
           <l>They are thine. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e107970">
+        <sp who="#ep000203-servant" xml:id="ep000203-e107970">
           <speaker>Ser. </speaker>
           <l>Younker, tis well; and your gloues too; </l>
           <l>Both gloues and garters, they are fayrely wonne; </l>
@@ -1230,25 +1269,25 @@
           <l>At most; Come let vs in to Flutterkins, </l>
           <l>A cuppe and toste will doe me now no hurt. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e108030">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e108030">
           <speaker>Younk. </speaker>
           <l>Why then farewell, I care not I for Beere, </l>
           <l>My Captaine gaue me some Canarie wine: </l>
           <l>The Churle he shall not ride the Gentleman. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e108070">
+        <sp who="#ep000203-servant" xml:id="ep000203-e108070">
           <speaker>Ser. </speaker>
           <l>You shall not flinch, if that your cap be wool, </l>
           <l>You shall along; What, would you leaue vs so; </l>
           <l>Turnde Micher, that were not tollerable. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e108110">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e108110">
           <speaker>Younk. </speaker>
           <l>I will goe with thee, doe but promise mee, </l>
           <l>Rightly to construe those lines of Ouids, </l>
           <l>Which thou readst but now. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e108150">
+        <sp who="#ep000203-servant" xml:id="ep000203-e108150">
           <speaker>Ser. </speaker>
           <l>I will, then let vs hence; </l>
           <l>I thanke great Ioue that blest me so this day; </l>
@@ -1256,7 +1295,7 @@
         </sp>
         <stage xml:id="ep000203-e108190">Exeunt. </stage>
         <stage xml:id="ep000203-e108200">Enter Hans and Pasquill. </stage>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108210">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108210">
           <speaker>Pas. </speaker>
           <l>This way he went, and here they were ere while, </l>
           <l>But now they are fledde like birds that cut the ayre, </l>
@@ -1266,7 +1305,7 @@
           <l>Whose smelling sence was better then their sight. </l>
           <l>I cannot see, but smell where they are gone. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108290">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108290">
           <speaker>Hans. </speaker>
           <l>Whether dost thou thinke? streight to Flutterkins, </l>
           <pb xml:id="ep000203-015-b"/>
@@ -1275,18 +1314,18 @@
           <l>I soone despatcht, solde all my corne at once, </l>
           <l>And bought my meate. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108350">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108350">
           <speaker>Pasq. </speaker>
           <l>As streight as Circes wande, </l>
           <l>Not looking backe, as oft Meander doth, </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108380">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108380">
           <speaker>Hans. </speaker>
           <l>What of Meander? now my things be done, </l>
           <l>I care not, ile goe where thou wilt; lets on; </l>
           <l>But whats Meander? man, or mayde, or wife. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108420">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108420">
           <speaker>Pasq. </speaker>
           <l>A riuer foole, didst neuer see a play, </l>
           <l>Or heare these verses which I haue by heart. </l>
@@ -1295,20 +1334,20 @@
           <l>Ile downe from hence and scoure the Stygian lake: </l>
           <l>To raise a fiend shall make his soule to quake. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108490">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108490">
           <speaker>Hans. </speaker>
           <l>O terrible, my Mistresse sent you that, </l>
           <l>And bid you drinke it, not to hoorde it vp. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108520">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108520">
           <speaker>Pas. </speaker>
           <p>An English shilling: hey; did she indeed? </p>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108540">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108540">
           <speaker>Hans. </speaker>
           <p>Why Widgin, thinkst thou I would giue thee't else? </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108560">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108560">
           <speaker>Pas. </speaker>
           <l>Ile drinke her health vpon my bended knees, </l>
           <l>Vntill the Welkin roare, and ground lookes blew; </l>
@@ -1317,17 +1356,17 @@
           <l>This dayes mine owne. </l>
         </sp>
         <stage xml:id="ep000203-e108620">He skippes, or capers. </stage>
-        <sp who="A07637-hans" xml:id="ep000203-e108630">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108630">
           <speaker>Hans. </speaker>
           <l>Take heed, your supple ioynts </l>
           <l>Are tender, Bones are soone thrust out: a wrinch </l>
           <l>Comes quickly. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108670">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108670">
           <speaker>Pasq. </speaker>
           <l>I am free from poxe, good face. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108690">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108690">
           <speaker>Hans. </speaker>
           <l>If they be free from thee, it skils the lesse: </l>
           <l>Doe you remember, how you serude me once, </l>
@@ -1339,23 +1378,23 @@
           <pb xml:id="ep000203-016-a"/>
           <l>Neere blush for shame. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108780">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108780">
           <speaker>Pasq. </speaker>
           <l>Twas for thine honesty; </l>
           <l>Now its on record, tis prooud, tis past the tutch. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108810">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108810">
           <speaker>Hans. </speaker>
           <l>Can you accuse me? no, and speake but true. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e108830">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e108830">
           <speaker>Pas. </speaker>
           <l>I saw no hurt, Ile sayt, and sweare it too: </l>
           <l>But good cause why; thou couldst nor go, nor stand </l>
           <l>Thou wert so drunke: vnfit for Venus game, </l>
           <l>A cart became thee better then a Coach. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e108880">
+        <sp who="#ep000203-hans" xml:id="ep000203-e108880">
           <speaker>Hans. </speaker>
           <l>Why thou telst all, thou mightst haue hid some part, </l>
           <l>And no I haue shamde me so fore company, </l>
@@ -1369,11 +1408,11 @@
           <l>Fell on a Sutlers hut a fortnights space, </l>
           <l>I had no legs, nor could I quit that place. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e109000">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e109000">
           <speaker>Pasq. </speaker>
           <l>What wert thou shot? </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e109020">
+        <sp who="#ep000203-hans" xml:id="ep000203-e109020">
           <speaker>Hans. </speaker>
           <l>And lamde: you know too well, </l>
           <l>The grieuous moane our Alips made for me, </l>
@@ -1382,37 +1421,37 @@
           <l>Poor Beere-pot had been squasht, these hansom lims </l>
           <l>Had flowne in pieces, nor splinter left vnbroke. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e109090">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e109090">
           <speaker>Pas. </speaker>
           <l>That had been pitty, which way went the shot </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e109110">
+        <sp who="#ep000203-hans" xml:id="ep000203-e109110">
           <speaker>Hans, </speaker>
           <l>To Callais as I thinke, or further off, </l>
           <l>I scapt I am sure, that dreadfull malling knocke. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e109140">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e109140">
           <speaker>Pas. </speaker>
           <l>O hold my head my thumbe begins to ake, </l>
           <l>From hence to France if this be not a lye. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e109170">
+        <sp who="#ep000203-hans" xml:id="ep000203-e109170">
           <speaker>Hans. </speaker>
           <l>Is that good manners for to take my tale, </l>
           <l>Out of my mouth, before I make an end. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e109200">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e109200">
           <speaker>Pas. </speaker>
           <l>I haue no manners: had I such an one </l>
           <l>As Amptill is, to which seuen Parkes belong, </l>
           <l>I would keepe thee to be my worships foole. </l>
         </sp>
         <pb xml:id="ep000203-016-b"/>
-        <sp who="A07637-hans" xml:id="ep000203-e109240">
+        <sp who="#ep000203-hans" xml:id="ep000203-e109240">
           <speaker>Hans. </speaker>
           <p>Why? where is Amptill. </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e109260">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e109260">
           <speaker>Pas. </speaker>
           <l>In the Fayery land. </l>
           <l>Where men eate mutton, pigge, and goose, and beefe, </l>
@@ -1421,19 +1460,19 @@
           <l>And strong March Beere, of fiue or sixe yeeres old, </l>
           <l>But on with thy tale. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e109330">
+        <sp who="#ep000203-hans" xml:id="ep000203-e109330">
           <speaker>Hans. </speaker>
           <l>Ile hang thee first, </l>
           <l>The Fayery land, wheres that? I am with child, </l>
           <l>Good Pasquill tell me quickely, else I die; </l>
           <l>My mind is rauisht from this lower Orbe, </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e109380">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e109380">
           <speaker>Pas. </speaker>
           <l>Tis not farre of, weele goe to Flutterkins, </l>
           <l>And talke more on't. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e109410">
+        <sp who="#ep000203-hans" xml:id="ep000203-e109410">
           <speaker>Hans, </speaker>
           <l>Why then thou winst my heart, </l>
           <l>I long to seet, to taste such wine, such cheere, </l>
@@ -1493,12 +1532,12 @@
           <l>Yet hath ynough. </l>
         </sp>
         <stage xml:id="ep000203-e109960">Enter Younker. Marchant, and the Serieant. </stage>
-        <sp who="A07637-yonker" xml:id="ep000203-e109970">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e109970">
           <speaker>Younk. </speaker>
           <l>Mine Hoast, what all alone? </l>
           <l>And market day, why this is wondrous strange. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e110000">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e110000">
           <speaker>Flut. </speaker>
           <l>My noble Younker: Welcome Gentlemen, </l>
           <l>I want such guests, heeres beere was neuer drunke, </l>
@@ -1507,16 +1546,16 @@
           <l>More cleare then amber, or faire orient pearle, </l>
           <l>Fetcht from the farthest Inde, </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110070">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110070">
           <speaker>Younk. </speaker>
           <p>How now mine Hoste? </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e110090">
+        <sp who="#ep000203-garland" xml:id="ep000203-e110090">
           <speaker>Gar. </speaker>
           <l>Spare so much curtesie, lest we suspect </l>
           <l>Some hidden craft. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e110120">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e110120">
           <speaker>Flut. </speaker>
           <l>In me? you know me well, </l>
           <l>Plaine Flutterkin, a downe, right dealing man, </l>
@@ -1524,40 +1563,40 @@
           <l>But what I thinke I speake, and freely too, </l>
           <l>Without deceit or simulation. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e110180">
+        <sp who="#ep000203-garland" xml:id="ep000203-e110180">
           <speaker>Ga. </speaker>
           <p>Why then two cans of your best English beere </p>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e110200">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e110200">
           <speaker>Flut. </speaker>
           <p>It shall be done with much celerity. </p>
         </sp>
         <stage xml:id="ep000203-e110220">He goeth out for Beere. </stage>
-        <sp who="A07637-yonker" xml:id="ep000203-e110230">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110230">
           <speaker>Youn. </speaker>
           <l>Come Serieant, I must haue construction </l>
           <l>Of Ouids verses, ile not bate an ace </l>
           <l>Before you drinke, I will not stay so long. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e110270">
+        <sp who="#ep000203-servant" xml:id="ep000203-e110270">
           <speaker>Ser. </speaker>
           <l>You are too hasty, spare me yet a while, </l>
           <l>And then ile fit you. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110300">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110300">
           <speaker>Younk. </speaker>
           <l>Pray thee quicke, dispatch, </l>
           <l>I haue some businesse calls me soone from hence. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e110330">
+        <sp who="#ep000203-servant" xml:id="ep000203-e110330">
           <speaker>Ser. </speaker>
           <p>Thinke you I cannot, am I such a foole? </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110350">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110350">
           <speaker>Younk. </speaker>
           <p>I know not truly, but I loue to learne, </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e110370">
+        <sp who="#ep000203-servant" xml:id="ep000203-e110370">
           <speaker>Ser. </speaker>
           <l>Why then giue eare, take heed, &amp; marke me well, </l>
           <pb xml:id="ep000203-018-a"/>
@@ -1572,106 +1611,106 @@
           <l>Those bodyes strangely; yea and altered sore </l>
           <l>Their shapes to that they neuer had before. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110490">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110490">
           <speaker>Youn. </speaker>
           <l>That same addition, addes life to the rest, </l>
           <l>And wipes poore Priscians head, thats fouly broke: </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e110520">
+        <sp who="#ep000203-servant" xml:id="ep000203-e110520">
           <speaker>Ser. </speaker>
           <p>Why, ist not right? </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110540">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110540">
           <speaker>Younk. </speaker>
           <p>Yes, there's none can mend it. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e110560">
+        <sp who="#ep000203-servant" xml:id="ep000203-e110560">
           <speaker>Ser. </speaker>
           <l>And now sir, for our other argument, </l>
           <l>Ile not giue of, before I am satisfied. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e110590">
+        <sp who="#ep000203-garland" xml:id="ep000203-e110590">
           <speaker>Gar. </speaker>
           <l>Flye to him Serieant, I will take thy part, </l>
           <l>To serue on horsebacke, is best seruice still, </l>
           <l>I will maintaine it, while I liue one day. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110630">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110630">
           <speaker>Yon. </speaker>
           <l>Gainst him and you, but giue me leaue to speak, </l>
           <l>Ile shew my reasons what I thinke are fit. </l>
         </sp>
         <stage xml:id="ep000203-e110660">Enter Pasquill and Hans, and Flutterkin followes them with a Canne of Beere in eyther hand. </stage>
-        <sp who="A07637-pasquil" xml:id="ep000203-e110670">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e110670">
           <speaker>Pasq. </speaker>
           <p>They are here before vs. </p>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e110690">
+        <sp who="#ep000203-hans" xml:id="ep000203-e110690">
           <speaker>Hans. </speaker>
           <l>We come in time, </l>
           <l>Here comes mine hoast propt vp between two cans. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e110720">
+        <sp who="#ep000203-hans" xml:id="ep000203-e110720">
           <speaker>Hans. </speaker>
           <p>Tha't's well, all good. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110740">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110740">
           <speaker>Youn. </speaker>
           <l>A payre of prety youthes; </l>
           <l>Shew me but one sixe pence Pasquill, then Ile say, </l>
           <l>Thoul't quickly thriue. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e110780">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e110780">
           <speaker>Pasq. </speaker>
           <l>Why, that I can, see there. </l>
           <l>There's foure, and all vnspent. beleeue your eyes. </l>
         </sp>
         <pb xml:id="ep000203-018-b"/>
-        <sp who="A07637-yonker" xml:id="ep000203-e110810">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110810">
           <speaker>Youn. </speaker>
           <l>God blesse mine eyes, but Hans what newes at home. </l>
           <l>How fares my Parents, are they both in health? </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e110840">
+        <sp who="#ep000203-hans" xml:id="ep000203-e110840">
           <speaker>Hans. </speaker>
           <l>They send their blessing, but your mothers, it </l>
           <l>Is to be felt: tis leaquer on de tangde, </l>
           <l>It cleaues fast to your palmes: nay sir, tis gold, </l>
           <l>The purest mettall that the earth affoords. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e110890">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e110890">
           <speaker>Youn. </speaker>
           <p>Fill out some Beere mine Hoast. </p>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e110910">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e110910">
           <speaker>Flut. </speaker>
           <l>Heeres to that hand; </l>
           <l>That blest you so with crosses of that kind. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e110940">
+        <sp who="#ep000203-servant" xml:id="ep000203-e110940">
           <speaker>Ser. </speaker>
           <p>It shall be pledgde. </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e110960">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e110960">
           <speaker>Pas. </speaker>
           <p>Hang him sayes nay. </p>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e110980">
+        <sp who="#ep000203-hans" xml:id="ep000203-e110980">
           <speaker>Hans. </speaker>
           <p>Not I. </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e111000">
+        <sp who="#ep000203-garland" xml:id="ep000203-e111000">
           <speaker>Gar. </speaker>
           <l>Nor I, nor hee, but with as good a will, </l>
           <l>As ere I came from Schoole, with leaue to play. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e111030">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e111030">
           <speaker>Flut. </speaker>
           <l>Then giue me leaue I will begin this round; </l>
           <l>This swelling cuppe I will drinke liuely out, </l>
           <l>Not one word more, before I seet about. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e111070">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e111070">
           <speaker>Youn. </speaker>
           <l>In this ile please you, but ile drinke no more. </l>
           <stage xml:id="ep000203-e111090">They drinke round, the Younker and Serieant rise from the Table, </stage>
@@ -1694,7 +1733,7 @@
           <l>What can they doe against a stand of Pykes, </l>
           <l>Well linde with shot in such vantageous place. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e111270">
+        <sp who="#ep000203-servant" xml:id="ep000203-e111270">
           <speaker>Ser. </speaker>
           <l>But what say you vnto that Persian Prince </l>
           <l>That beat the Turke with thirty thousand horse, </l>
@@ -1702,7 +1741,7 @@
           <l>Of all his race; who brought into the field </l>
           <l>Two hundred thousand strong of horse and foot. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e111330">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e111330">
           <speaker>Youn. </speaker>
           <l>Indeed you touch me now, that history, </l>
           <l>Makes much for you, that Sophy Ismael, </l>
@@ -1712,26 +1751,26 @@
           <l>But as an anker he stucke in his throat; </l>
           <l>And made him kecke and shrinke, to quit himselfe. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e111410">
+        <sp who="#ep000203-garland" xml:id="ep000203-e111410">
           <speaker>Gar. </speaker>
           <l>As how good brother, I desire to heare: </l>
           <l>This likes me well: mine host I drinke to you. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e111440">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e111440">
           <speaker>Flut. </speaker>
           <l>I thanke you sir, you shall not go vnpledgde: </l>
           <l>Here Pasquill, Hans, you two shall haue your shares: </l>
         </sp>
-        <sp who="A07637-both" xml:id="ep000203-e111470">
+        <sp who="#ep000203-both" xml:id="ep000203-e111470">
           <speaker>Both. </speaker>
           <p>We thanke you both, we mean not to refuse. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e111490">
+        <sp who="#ep000203-servant" xml:id="ep000203-e111490">
           <speaker>Ser. </speaker>
           <l>Yea, toot and spare not, it will be your owne, </l>
           <l>Good drink breeds blood, &amp; bloud makes able men </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e111520">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e111520">
           <speaker>Youn. </speaker>
           <l>This warlike Prince diuides his troups in two </l>
           <l>The right hand battle he himselfe did leade, </l>
@@ -1763,25 +1802,25 @@
           <l>In this I yeelde, the worlds best seruice knowne </l>
           <l>That euer Horsemen did, themselues alone. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e111810">
+        <sp who="#ep000203-servant" xml:id="ep000203-e111810">
           <speaker>Ser. </speaker>
           <l>Well Younker, haue I catcht you. I am glad </l>
           <l>Of any thing, wherewith to stop your mouth. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e111840">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e111840">
           <speaker>Youn. </speaker>
           <l>Nay soft, good Serieant, what can Horsemen doe, </l>
           <l>Before a towne, when we beleaguer it. </l>
           <l>They'l scale the walles, passe trenches, giue assaults, </l>
           <l>Or enter breaches, yes I warrant you. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e111890">
+        <sp who="#ep000203-servant" xml:id="ep000203-e111890">
           <speaker>Ser. </speaker>
           <l>They scoure the Countrey, bring rich booties in, </l>
           <l>While we lye staruing here, they liue at ease, </l>
           <l>Eate, drinke and sleepe. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e111930">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e111930">
           <speaker>Youn. </speaker>
           <l>The more they answere for: </l>
           <l>When they ride strugling forth for lawlesse spoyle, </l>
@@ -1790,11 +1829,11 @@
           <l>Nor rauisht mayde, for lost Virginity, </l>
           <l>Nor wronged wife for forc't dishonesty. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e112000">
+        <sp who="#ep000203-garland" xml:id="ep000203-e112000">
           <speaker>Gar. </speaker>
           <p>What? would you haue no Horsemen then, </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112020">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112020">
           <speaker>Younk. </speaker>
           <l>Not so. </l>
           <l>Mistake me not, but ile not yeeld them chiefe, </l>
@@ -1807,12 +1846,12 @@
           <l>The heart commaunds, the members execute; </l>
           <l>So they to vs, not we to them giue way. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e112120">
+        <sp who="#ep000203-servant" xml:id="ep000203-e112120">
           <speaker>Ser. </speaker>
           <l>But where they are alone, all absolute: </l>
           <l>What they can doe, against your selfe you proude. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112150">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112150">
           <speaker>Youn. </speaker>
           <l>Why thats Barbarian, and not Christian-like, </l>
           <l>Where multitude preuayles, not discipline, </l>
@@ -1833,11 +1872,11 @@
           <l>Of bodies dead: match, poulder, bullets spent </l>
           <l>This light did glimmer, flasht, and so went out. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e112340">
+        <sp who="#ep000203-garland" xml:id="ep000203-e112340">
           <speaker>Gar. </speaker>
           <p>What did the horsmen there, did none escape? </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112360">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112360">
           <speaker>Yon. </speaker>
           <l>They quit their horse, and made them as a wal </l>
           <l>For their defence, and fought it out on foot, </l>
@@ -1847,88 +1886,88 @@
           <l>The halfe beat conquering Turks had all enough, </l>
           <l>Stood still and gazde, and glad to see him gone. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e112440">
+        <sp who="#ep000203-servant" xml:id="ep000203-e112440">
           <speaker>Ser. </speaker>
           <l>Was not the Seigneur proude, ons victory, </l>
           <pb xml:id="ep000203-020-b"/>
           <l>Reioycing much at his Hungarian spoyles. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112470">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112470">
           <speaker>Youn </speaker>
           <l>So proude, he mournd: was sicke with griefe and hate, </l>
           <l>Of this his Conquest, at so deare a rate. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e112500">
+        <sp who="#ep000203-garland" xml:id="ep000203-e112500">
           <speaker>Gar. </speaker>
           <l>This likes me well, but ere you doe proceed, </l>
           <l>Ile drinke to you: now am I for the foot, </l>
           <l>Heeres to you all, my noble Fantassines. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e112540">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e112540">
           <speaker>Pasq. </speaker>
           <l>Sir, one health more, your Fathers health, I meane, </l>
           <l>That good olde man, he must not be forgot. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112570">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112570">
           <speaker>Youn. </speaker>
           <p>Drink't out I pray thee, I will haue no more. </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e112590">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e112590">
           <speaker>Pas. </speaker>
           <l>Were you a Younker, made of beaten golde, </l>
           <l>You should haue this; What nor your Fathers health? </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112620">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112620">
           <speaker>Youn. </speaker>
           <l>No, not his health, to drinke away mine owne. </l>
           <l>But drinke to Hans, I see by his lips hee's drie; </l>
           <l>He wants it, I doe not, heele drinke for me, </l>
           <l>Or to the Serieant, he can get no drinke. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e112670">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e112670">
           <speaker>Pasq. </speaker>
           <l>Nor him, nor he, ile drinke to none but you, </l>
           <l>Ile keepe my man, I learn't that tricke at Schoole. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112700">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112700">
           <speaker>Youn. </speaker>
           <l>Am I your man, god Bacchus, tossepot Knight, </l>
           <l>Would glasse and drinke were both besides thy guts; </l>
           <l>I tell thee, ile no more. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e112740">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e112740">
           <speaker>Flutt. </speaker>
           <l>Come Pasquill, I </l>
           <l>Will pledge thee, I can yet hold out, two cups, </l>
           <l>Two slashes on the legs will not be felt. </l>
           <l>I am as strong as Hercules neere out. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e112790">
+        <sp who="#ep000203-servant" xml:id="ep000203-e112790">
           <speaker>Ser. </speaker>
           <l>Why how now Hans? what Planet strucke? quite mute, </l>
           <l>Or Bagge-pype-like, not speake before thou art full, </l>
           <l>Not one wise word; why, where is all thy mirth. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e112830">
+        <sp who="#ep000203-hans" xml:id="ep000203-e112830">
           <speaker>Hans. </speaker>
           <l>Nor so, nor so, I can speake yet, if neede, </l>
           <l>I heare, I see, yet nothing say at all: </l>
           <l>Mine Hoast hath learn't, to play at Foxe mine hoast; </l>
           <l>He will grow kind, we shall haue drinke inough. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e112880">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e112880">
           <speaker>Flutt. </speaker>
           <l>Enough my Ladde, wilt drinke an Ocean? </l>
           <l>Me thinks a Whirle-poole cannot ore drinke me. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e112910">
+        <sp who="#ep000203-servant" xml:id="ep000203-e112910">
           <speaker>Ser. </speaker>
           <l>Yet am I still for horse a Kingly fight. </l>
           <l>Oh finely mounted, what a pleasure tis </l>
           <pb xml:id="ep000203-021-a"/>
           <l>A troupe of braue Launcers, a stately shew, </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e112950">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e112950">
           <speaker>Youn. </speaker>
           <l>More shew then seruice, for our good Dragons, </l>
           <l>Doe wheele about vntoucht, and gall their sides, </l>
@@ -1945,22 +1984,22 @@
           <l>Witnes that battell was at Varna fought, </l>
           <l>A shame to Christians for their breach of truce. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e113100">
+        <sp who="#ep000203-servant" xml:id="ep000203-e113100">
           <speaker>Ser. </speaker>
           <p>Why? what was that? twixt whom, what was there done? </p>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e113120">
+        <sp who="#ep000203-garland" xml:id="ep000203-e113120">
           <speaker>Gar. </speaker>
           <l>He payes you Serieant now, you'r well most gone. </l>
           <l>Come Ile goe home, Ile stay no longer here. </l>
           <l>This Beere hath pepper, it beginnes to bite. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e113160">
+        <sp who="#ep000203-servant" xml:id="ep000203-e113160">
           <speaker>Ser. </speaker>
           <l>Yet stay a while, and Ile waite on you home, </l>
           <l>I must needs heare an end of this discourse. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e113190">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e113190">
           <speaker>Younk. </speaker>
           <l>The Cardinall Iulian mooude this lucklesse Warre, </l>
           <l>Causing the King and States of Hungarie </l>
@@ -1995,11 +2034,11 @@
           <l>Here dyes the periurde King, the lucklesse Priest </l>
           <l>Falls in a ditch, and there was choakt with mudde. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e113510">
+        <sp who="#ep000203-servant" xml:id="ep000203-e113510">
           <speaker>Ser. </speaker>
           <p>Where was the Generall? what did he this while? </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e113530">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e113530">
           <speaker>Youn. </speaker>
           <l>His warlike troupes, stood firme both horse and foote: </l>
           <l>Helde on his chace, none durst gainst him make head: </l>
@@ -2007,30 +2046,30 @@
           <l>True signals of his griefe, all safe retirde, </l>
           <l>And watcht the Seigneur till he left those bounds. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e113590">
+        <sp who="#ep000203-garland" xml:id="ep000203-e113590">
           <speaker>Gar. </speaker>
           <l>Why, this was strange, Oh fie on periury, </l>
           <l>Ile not beleeue spensations of the Pope, </l>
           <l>Had that foule Cardinall, choakt in's mothers wombe, </l>
           <l>This shamefull losse had scaped Christendome. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e113640">
+        <sp who="#ep000203-servant" xml:id="ep000203-e113640">
           <speaker>Ser. </speaker>
           <l>Thats true sir, pray drinke one cup to me, </l>
           <l>Deed I am drye. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e113670">
+        <sp who="#ep000203-garland" xml:id="ep000203-e113670">
           <speaker>Gar. </speaker>
           <l>I care not, soes not I. </l>
           <l>Filt vp, drinkte out, you are an honest man. </l>
           <l>How dost Pasquill, perceiu'st thou nothing yet. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e113710">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e113710">
           <speaker>Pas. </speaker>
           <l>All well sit; nothing: I am pretily well, </l>
           <l>And soes mine hoast, I thinke his braines doe crow. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e113740">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e113740">
           <speaker>Youn. </speaker>
           <l>But leauing these to come neere to our times, </l>
           <pb xml:id="ep000203-022-a"/>
@@ -2051,28 +2090,28 @@
           <stage xml:id="ep000203-e113900">Cornelius discouers himselfe. His man creepes behind mine Hoast Flutterkin. and slippes out behind him. </stage>
           <l>Why whats the matter there? </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e113920">
+        <sp who="#ep000203-servant" xml:id="ep000203-e113920">
           <speaker>Ser. </speaker>
           <l>Well Younker well, I will with you dispence, </l>
           <l>Ile yeeld the foot the chiefe preheminence. </l>
         </sp>
         <stage xml:id="ep000203-e113950">Enter Cornelius. He reeles against him. </stage>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e113960">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e113960">
           <speaker>Flut. </speaker>
           <p>Your Worships welcome, you do grace mine house. </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e113980">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e113980">
           <speaker>Corn. </speaker>
           <l>Thanks, good mine Hoast, is Phoebus past his height, </l>
           <l>Or be times changde, ist Noone beforte be night? </l>
           <l>Your house is altered, its growne a Schoole </l>
           <l>Of good discourse; of martiall discipline. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e114030">
+        <sp who="#ep000203-servant" xml:id="ep000203-e114030">
           <speaker>Ser. </speaker>
           <p>Wilt please you sir to drinke? </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114050">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114050">
           <speaker>Corn. </speaker>
           <l>Some Claret Wine; </l>
           <l>No Beere, I seldome vse to drinke twixt meales, </l>
@@ -2087,12 +2126,12 @@
           <l>And priuate quarrels, haue deuourde more men </l>
           <l>Then haue the wars of late. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e114170">
+        <sp who="#ep000203-servant" xml:id="ep000203-e114170">
           <speaker>Ser. </speaker>
           <l>Sir, heeres a Chayre, </l>
           <l>Please you to sit and take Tobaccho with vs. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114200">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114200">
           <speaker>Cor. </speaker>
           <l>Not I good Serieant, Ile no Trinidade, </l>
           <l>My nose shall not be reeyde, nor guts dyde blacke, </l>
@@ -2100,11 +2139,11 @@
           <l>Makes fulsome smell: a dying hound would choake </l>
           <l>With Belgicke fire, and with Spanish smoake. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e114260">
+        <sp who="#ep000203-garland" xml:id="ep000203-e114260">
           <speaker>Gar. </speaker>
           <p>You can endure the smell sir? </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114280">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114280">
           <speaker>Corn. </speaker>
           <l>Wondrous well, </l>
           <l>But not to take it; It doth purge mine head, </l>
@@ -2123,79 +2162,79 @@
           <l>The onely drinke. </l>
         </sp>
         <stage xml:id="ep000203-e114440">He drinkes. </stage>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114450">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114450">
           <speaker>Cor. </speaker>
           <l>Drinkt out.— I thanke you kindly. </l>
           <pb xml:id="ep000203-023-a"/>
           <l>To drinke one hearty draught, will doe me good. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e114480">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e114480">
           <speaker>Flut. </speaker>
           <l>Yea twenty, if you will, heeres Wine enough. </l>
           <l>The towne is full, good lyquor wais it round, </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114510">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114510">
           <speaker>Cor. </speaker>
           <l>The Moate thou meanest; thou speakst in Metaphors: </l>
           <l>You haue been busie, I perceyue the cuppe </l>
           <l>Workes his reuenge, for ioaling it so oft. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e114550">
+        <sp who="#ep000203-servant" xml:id="ep000203-e114550">
           <speaker>Ser. </speaker>
           <p>A little sir, one ciuill cuppe or two. </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114570">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114570">
           <speaker>Cor. </speaker>
           <l>That ciuill cup breedes inciuility. </l>
           <l>When wine somtimes makes men be not themselus </l>
           <l>How dost thou Pasquill, I am glad thou art well? </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e114610">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e114610">
           <speaker>Pas. </speaker>
           <p>I thanke you sir, I want but Holydayes. </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114630">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114630">
           <speaker>Cor. </speaker>
           <p>What dost thou worke so hard? </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e114650">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e114650">
           <speaker>Pas. </speaker>
           <l>Pay-dayes I meane, </l>
           <l>To make one meet another, and shake hands, </l>
           <l>On euen termes, is all that I care for. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114690">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114690">
           <speaker>Cor. </speaker>
           <p>Tis well thou leadest a merry life. </p>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e114710">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e114710">
           <speaker>Pasq. </speaker>
           <l>Thanke God. </l>
           <l>My Mistresse, and you sir: you are my friends </l>
           <l>You make me drinke, when others will not doot. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114750">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114750">
           <speaker>Cor. </speaker>
           <l>What news mine host, I like your humor wel </l>
           <l>Tis merry harmeles, free without offence: </l>
           <l>But wheres my man, was not he here to day. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e114790">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e114790">
           <speaker>Pas. </speaker>
           <l>He was indeed, but went before you came </l>
           <l>About his businesse. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114820">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114820">
           <speaker>Cor. </speaker>
           <l>Since you might haue sayd; </l>
           <l>I saw him when he slinkte behind mine hoast </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e114850">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e114850">
           <speaker>Pas. </speaker>
           <l>Gods blessing on your hart, what ere you thinke </l>
           <l>You find no fault. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e114880">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e114880">
           <speaker>Flut. </speaker>
           <l>What newes sir? did you aske? </l>
           <l>Here is small newes: our Church-men disagree </l>
@@ -2207,7 +2246,7 @@
           <pb xml:id="ep000203-023-b"/>
           <l>I will beleeue them, otherwise ile chuse. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e114970">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e114970">
           <speaker>Cor. </speaker>
           <l>Why thats wel said, indeed those deep disputes </l>
           <l>Are fitter for the Vniuersities </l>
@@ -2229,17 +2268,17 @@
           <l>Let not my sonne score high: for if you doe </l>
           <l>Tis lost for me, Ile not pay one penny. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e115170">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e115170">
           <speaker>Flut. </speaker>
           <l>No sir, he does not, needs not, will not sir; </l>
           <l>I will not misse you, if it shall please God </l>
           <l>Nothing shall stay me, nought shall keepe me backe. </l>
         </sp>
-        <sp who="A07637-pasquil" xml:id="ep000203-e115210">
+        <sp who="#ep000203-pasquil" xml:id="ep000203-e115210">
           <speaker>Pas. </speaker>
           <p>And Ile come too, and though I goe on foote. </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e115230">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e115230">
           <speaker>Co. </speaker>
           <l>Why come &amp; welcom, thats your chiefest cheare </l>
           <l>I keepe no feast, but what lasts all the yeare. </l>
@@ -2279,7 +2318,7 @@
           <l>Into a tappe-house, there to spend his time, </l>
           <l>And money both. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e115600">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e115600">
           <speaker>Hann. </speaker>
           <l>Why not? tis recreation, </l>
           <l>Sometimes for company, alwayes at home; </l>
@@ -2289,13 +2328,13 @@
           <l>For others sakes. </l>
         </sp>
         <pb xml:id="ep000203-024-b"/>
-        <sp who="A07637-cornelius" xml:id="ep000203-e115670">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e115670">
           <speaker>Cor. </speaker>
           <l>Well: you will still excuse, </l>
           <l>Your sonne, this giues too much encouragement </l>
           <l>To his amisse. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e115710">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e115710">
           <speaker>Hann. </speaker>
           <l>I speake not fore his face, </l>
           <l>Nor doe I like in him, what you dislike: </l>
@@ -2306,32 +2345,32 @@
           <l>But if I crosse you, though it be not much, </l>
           <l>I heare more of you, sometimes learne more witte. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e115800">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e115800">
           <speaker>Cor. </speaker>
           <l>Your answeres sharpe, it cutteth razor like, </l>
           <l>A womans witte is quicke, as quicke her tongue, </l>
           <l>As Aspin leaues, some say it is the last </l>
           <l>Part of a woman dyes. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e115850">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e115850">
           <speaker>Han. </speaker>
           <l>Alasse poore soules, we women must beare all </l>
           <l>We weaker vessels must abide your frumpes: </l>
           <l>But tis no matter, while they breake no skinne, </l>
           <l>Our backs were made to beare. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e115900">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e115900">
           <speaker>Cor. </speaker>
           <p>Your bellye's full, </p>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e115920">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e115920">
           <speaker>Han. </speaker>
           <l>Our children do you mean? thats Gyptian like: </l>
           <l>For so they beare them, in their slats or sheetes; </l>
           <l>If otherwise, my modest cheekes would blush </l>
           <l>To answere you. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e115970">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e115970">
           <speaker>Cor. </speaker>
           <l>Better and better still; </l>
           <l>Your apprehension takes like tutch; its hard </l>
@@ -2341,11 +2380,11 @@
           <l>And grieues my soule to heare a scoulding queane, </l>
           <l>That sets her husbands night-cap on with hornes. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e116050">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e116050">
           <speaker>Hann. </speaker>
           <p>Be there such women? </p>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e116070">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e116070">
           <speaker>Cor. </speaker>
           <l>No, there should not be, </l>
           <l>I doe not say there are; I know none such; </l>
@@ -2355,7 +2394,7 @@
           <l>Nor bring more children, so thy planet sayes, </l>
           <l>I found it, casting thy Natiuity. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e116140">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e116140">
           <speaker>Hann. </speaker>
           <l>Oh sir, those studies are but fopperies, </l>
           <l>They are coniectures, theres no certainety, </l>
@@ -2363,7 +2402,7 @@
           <l>Yet Schollers vse them, if not good, the more, </l>
           <l>Their fault, my fancie telles me so. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e116200">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e116200">
           <speaker>Cor. </speaker>
           <l>Tis true: </l>
           <l>The art is lawfull, tis Astrologie, </l>
@@ -2378,7 +2417,7 @@
           <l>Which men may guesse at, none knows til tis past; </l>
           <l>Therefore I holde them idle vanity. </l>
         </sp>
-        <sp who="A07637-hannecke" xml:id="ep000203-e116330">
+        <sp who="#ep000203-hannecke" xml:id="ep000203-e116330">
           <speaker>Han </speaker>
           <l>Now sir, you are welcom home, this idle chat </l>
           <l>Hath shortned our way: Ile to my Dayerie; </l>
@@ -2445,7 +2484,7 @@
         </sp>
         <stage xml:id="ep000203-e116940">Sing another Song, and goe out. </stage>
         <stage xml:id="ep000203-e116950">Enter the Younker, the Marchant and the Serieant. </stage>
-        <sp who="A07637-servant" xml:id="ep000203-e116960">
+        <sp who="#ep000203-servant" xml:id="ep000203-e116960">
           <speaker>Ser. </speaker>
           <l>I thank you both, for you haue made me fine; </l>
           <l>These gloues and gartars they were quickly won: </l>
@@ -2453,21 +2492,21 @@
           <l>Blest be my Grandame brought me vp at Schoole </l>
           <l>Where I learn't wit, more then you thought I had. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e117020">
+        <sp who="#ep000203-garland" xml:id="ep000203-e117020">
           <speaker>Gar. </speaker>
           <l>He hath drild vs both, &amp; mocks vs to our teeth </l>
           <l>What shall we do with him? weel 'canuase him. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117050">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117050">
           <speaker>Ser. </speaker>
           <p>I am too bigge. </p>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e117070">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e117070">
           <speaker>Youn. </speaker>
           <l>Wee'l fling him in the graffe, </l>
           <l>T'wil coole him sweetly; oh t'will doe him good. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117100">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117100">
           <speaker>Ser. </speaker>
           <l>Were I an Anabaptist, you might doo't, </l>
           <l>And witnes for me that I were baptizde; </l>
@@ -2475,38 +2514,38 @@
           <pb xml:id="ep000203-026-b"/>
           <l>Ere eight dayes olde, I doe remember't yet. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e117150">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e117150">
           <speaker>Youn. </speaker>
           <l>O monstrous, fie, thy mouth is fouly torne, </l>
           <l>Art not asham'd? </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117180">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117180">
           <speaker>Ser. </speaker>
           <l>As well I sweare, </l>
           <l>As the first smocke that ere my Father weare. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e117210">
+        <sp who="#ep000203-garland" xml:id="ep000203-e117210">
           <speaker>Gar. </speaker>
           <p>Let him alone &amp; hee'l maintain't with oths. </p>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117230">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117230">
           <speaker>Ser. </speaker>
           <l>See, see how you are deceiu'd, you thought I lyde, </l>
           <l>There's no such matter, altered is the case, </l>
           <l>As surely as I liue, and walking in this place. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e117270">
+        <sp who="#ep000203-garland" xml:id="ep000203-e117270">
           <speaker>Gar. </speaker>
           <l>Riming againe, Ile deale no more with you; </l>
           <l>I had enough of late, I payde too deare </l>
           <l>For your conceites, Ile haue no more of them. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117310">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117310">
           <speaker>Ser. </speaker>
           <l>As often as you will, you know the price; </l>
           <l>And for my skill I passe not, am not nice. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e117340">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e117340">
           <speaker>Youn. </speaker>
           <l>Well to him Serieant, now ile take thy part </l>
           <l>Gainst him, as he did thine before gainst me; </l>
@@ -2514,33 +2553,33 @@
           <l>I maruell much where's Master Flutterkin? </l>
           <l>He stayes so long I thinke he hath forgot himselfe. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117400">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117400">
           <speaker>Ser. </speaker>
           <l>O here he is, his guts they are so stuft, </l>
           <l>With his fat liquor he can scarcely runne. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e117430">
+        <sp who="#ep000203-garland" xml:id="ep000203-e117430">
           <speaker>Gar. </speaker>
           <l>Scarce runne, scarce goe, this barreld Sturgeon </l>
           <l>Is out of breath, his greace begins to melt. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e117460">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e117460">
           <speaker>Flut. </speaker>
           <l>Mocke on my Gallants, see what will come on't, </l>
           <l>A shame on Lurchers, you haue kilde me vp. </l>
           <l>I ranne so fast, ere I could oretake you. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e117500">
+        <sp who="#ep000203-garland" xml:id="ep000203-e117500">
           <speaker>Gar. </speaker>
           <l>A child of two yeare old would runne as fast. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e117520">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e117520">
           <speaker>Flut. </speaker>
           <l>Then Ile be hang'd, good sir, how can that runne? </l>
           <l>That doth but dade, can hardly goe or stand. </l>
           <l>Wheres Pasquill is he gone? </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117560">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117560">
           <speaker>Ser. </speaker>
           <l>Hee's there by this? </l>
           <l>I saw him at the Ports, that Gentleman </l>
@@ -2550,18 +2589,18 @@
           <pb xml:id="ep000203-027-a"/>
           <l>Drinkes when he list, and so he sets it downe. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e117630">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e117630">
           <speaker>Flut. </speaker>
           <l>Would I were with him in such aequipage; </l>
           <l>Or he were here, for I am almost choak't. </l>
         </sp>
         <stage xml:id="ep000203-e117660">Draw out the Aqua vitae pottle and drinkes. </stage>
-        <sp who="A07637-garland" xml:id="ep000203-e117670">
+        <sp who="#ep000203-garland" xml:id="ep000203-e117670">
           <speaker>Gar. </speaker>
           <l>Why, how Flutterkin, at your Brande-wine? </l>
           <l>I pray thee giue me some. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e117700">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e117700">
           <speaker>Flut. </speaker>
           <l>Not the least droppe. </l>
           <stage xml:id="ep000203-e117720">Drinke againe. </stage>
@@ -2573,37 +2612,37 @@
           <l>So now I am well, can walke a mile or two, </l>
           <l>As lustique as a Boore, and neere complaine. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e117800">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e117800">
           <speaker>Youn. </speaker>
           <p>My fathers yonder, he comes here to meet's. </p>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e117820">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e117820">
           <speaker>Flut. </speaker>
           <l>So nigh already; Oh, I see the house; </l>
           <l>I smell the Kitchen, see the Chimneis smoake. </l>
           <l>Come Serieant; put the better legge before; </l>
           <l>You shall speake first, if well, Ile second you. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e117870">
+        <sp who="#ep000203-servant" xml:id="ep000203-e117870">
           <speaker>Ser. </speaker>
           <l>Thanks good mine Host, your wit would help me much </l>
           <l>For good conceites your wholesome guts haue hatcht, </l>
           <l>When sodde in sacke, your braines beginne to flow. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e117910">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e117910">
           <speaker>Flut. </speaker>
           <l>Out from the horrour of infernall deepes; </l>
           <l>Passe forwards on; for I must stay behind: </l>
           <l>Some small occasion biddes me stand aside. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e117950">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e117950">
           <speaker>Cor. </speaker>
           <l>Its 'well your come, for I did thinke you long: </l>
           <l>And that you had forgot to keepe your words. </l>
           <l>I bid you welcome to my Country farme; </l>
           <l>Take that for all, Ile vse no ceremonie. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e118000">
+        <sp who="#ep000203-servant" xml:id="ep000203-e118000">
           <speaker>Ser. </speaker>
           <l>Ile warrant you sir, we did not meane to fayle, </l>
           <l>To stay at home, and misse so good a feast, </l>
@@ -2616,7 +2655,7 @@
           <l>He hath prouided to preserue his health; </l>
           <l>Brande-Wine a creuse, which he drinks out himselfe. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e118100">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e118100">
           <speaker>Flut. </speaker>
           <l>I heare you Serieant, I can beare your mocks: </l>
           <l>You neuer knew fat men but honest yet; </l>
@@ -2624,12 +2663,12 @@
           <l>Leane iades cast off, lye staruing in a ditch; </l>
           <l>When plumper steeds are steemde among the rich. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e118160">
+        <sp who="#ep000203-servant" xml:id="ep000203-e118160">
           <speaker>Ser. </speaker>
           <l>Are you so nigh, I thought you had been lost: </l>
           <l>By your leaue sir; Ile welcome here mine Hoast. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e118190">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e118190">
           <speaker>Cor, </speaker>
           <l>Ha Serieant I haue known thee to serue long, </l>
           <l>And yet thou stick'st, belike thou lik'st thy game: </l>
@@ -2637,7 +2676,7 @@
           <l>To make thee higher on preferments steppe; </l>
           <l>Stand not on thornes: aduenture, draw a carde. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e118250">
+        <sp who="#ep000203-servant" xml:id="ep000203-e118250">
           <speaker>Ser. </speaker>
           <l>So may I draw, and draw my selfe quite out: </l>
           <l>And striuing to get more, loose that I haue. </l>
@@ -2654,7 +2693,7 @@
           <l>He that mounts now, he doth not as of olde; </l>
           <l>Rise by his vertues, but helpt vp with gold. </l>
         </sp>
-        <sp who="A07637-yonker" xml:id="ep000203-e118400">
+        <sp who="#ep000203-yonker" xml:id="ep000203-e118400">
           <speaker>Youn. </speaker>
           <l>With leaue and reuerence may I speake my mind; </l>
           <l>What though my friends be rich? it grieues me much </l>
@@ -2678,7 +2717,7 @@
           <l>Some climbe too fast, and climbing catch a fall; </l>
           <l>If please God he can helpe it, he helpes all. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e118610">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e118610">
           <speaker>Cor. </speaker>
           <l>The Romans vsd to make their Worthies knowne, </l>
           <l>By honourde titles, and with ornaments, </l>
@@ -2701,7 +2740,7 @@
           <pb xml:id="ep000203-028-b"/>
           <l>That some refuse it, which are counted wise. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e118810">
+        <sp who="#ep000203-garland" xml:id="ep000203-e118810">
           <speaker>Gar. </speaker>
           <l>But heere's the difference; for we vse to say, </l>
           <l>Is such one Knighted? he deserude it well; </l>
@@ -2722,14 +2761,14 @@
           <l>Well may'te become him, he becomes not it: </l>
           <l>More then an Asse, a rich caparison. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e119000">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e119000">
           <speaker>Cor. </speaker>
           <l>You are two bitter son, you speake too townsman like, </l>
           <l>As one that enuies Country Gentlemen: </l>
           <l>He that doth rayse his house, although a Clowne, </l>
           <l>Is happier farre, then he that puls it downe. </l>
         </sp>
-        <sp who="A07637-garland" xml:id="ep000203-e119050">
+        <sp who="#ep000203-garland" xml:id="ep000203-e119050">
           <speaker>Gar. </speaker>
           <l>Indeed thats true, for he may haue a Sonne, </l>
           <l>Whose better breeding may helpe those defects, </l>
@@ -2738,7 +2777,7 @@
           <l>Raiseth his house and name, sets it higher, </l>
           <l>Writes second Knight, a Iustice, or Esquier. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e119120">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e119120">
           <speaker>Cor. </speaker>
           <l>When I was in my flowre of youth, and liu'de </l>
           <l>In Englands Court, that swarmde with Martialists, </l>
@@ -2762,7 +2801,7 @@
           <l>Some liuing yet, some foulded vp in lead, </l>
           <l>That dyde in honours lappe; sleepe in her bed. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e119330">
+        <sp who="#ep000203-servant" xml:id="ep000203-e119330">
           <speaker>Ser. </speaker>
           <l>Then was a time that souldiers were esteemd, </l>
           <l>And if they liude they had preferment sure, </l>
@@ -2785,7 +2824,7 @@
           <l>When happy Bourbon got those lillyes three; </l>
           <l>Began their peace: did end that misery. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e119540">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e119540">
           <speaker>Cor. </speaker>
           <l>I saw those warres, and saw that nauall fight </l>
           <pb xml:id="ep000203-029-b"/>
@@ -2810,7 +2849,7 @@
           <l>Blest be that hand which brought this blessed peace; </l>
           <l>And blest be those that pray it neuer cease. </l>
         </sp>
-        <sp who="A07637-flutterkin" xml:id="ep000203-e119760">
+        <sp who="#ep000203-flutterkin" xml:id="ep000203-e119760">
           <speaker>Flut. </speaker>
           <l>O happy you, that so did spend your time, </l>
           <l>In dangers great abroad, by sea and land, </l>
@@ -2819,7 +2858,7 @@
           <l>And after all, now leade a Country life, </l>
           <l>Amongst your neighbours with a vertuous wife. </l>
         </sp>
-        <sp who="A07637-servant" xml:id="ep000203-e119830">
+        <sp who="#ep000203-servant" xml:id="ep000203-e119830">
           <speaker>Ser. </speaker>
           <l>Why thats a comfort, farre beyond compare. </l>
           <l>This happy life cannot be paragonde, </l>
@@ -2836,17 +2875,17 @@
           <l>Then Gods sweet peace: the loue of Common-wealth; </l>
           <l>His mindes desires and bodies perfect health. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e119970">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e119970">
           <speaker>Cor. </speaker>
           <l>Here comes my wife, and Pasquill with my man, </l>
           <l>Thinke Dinners ready, we will leaue discourse. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e120000">
+        <sp who="#ep000203-hans" xml:id="ep000203-e120000">
           <speaker>Hans. </speaker>
           <l>Please you come in, your meat is taking vp, </l>
           <l>And you may talke as well by th'fire side. </l>
         </sp>
-        <sp who="A07637-cornelius" xml:id="ep000203-e120030">
+        <sp who="#ep000203-cornelius" xml:id="ep000203-e120030">
           <speaker>Cor. </speaker>
           <l>We come sweet wife, come giue me thy fayre hand; </l>
           <l>Weele walke in couples one turne round about. </l>
@@ -2868,7 +2907,7 @@
           <l>You would but cannot, thanke you good Sir Hans, </l>
           <l>If I be drunke, your selfe shall leade the dance. </l>
         </sp>
-        <sp who="A07637-hans" xml:id="ep000203-e120230">
+        <sp who="#ep000203-hans" xml:id="ep000203-e120230">
           <speaker>Hans. </speaker>
           <l>What? did he heare me? now this bargaines made; </l>
           <l>Once warnde, halfe armde, so doth the Prouerbe say. </l>
@@ -2975,175 +3014,6 @@
         <pb xml:id="ep000203-032-b"/>
       </div>
     </body>
-    <back>
-      <div type="machine-generated_castlist">
-        <head>Machine-generated castlist</head>
-        <list n="161-A07637">
-          <item n="76">
-            <seg type="character_name">A07637-servant</seg>
-            <seg type="speech_count">76</seg>
-          </item>
-          <item n="62">
-            <seg type="character_name">A07637-yonker</seg>
-            <seg type="speech_count">62</seg>
-          </item>
-          <item n="52">
-            <seg type="character_name">A07637-garland</seg>
-            <seg type="speech_count">52</seg>
-          </item>
-          <item n="43">
-            <seg type="character_name">A07637-pasquil</seg>
-            <seg type="speech_count">43</seg>
-          </item>
-          <item n="37">
-            <seg type="character_name">A07637-cornelius</seg>
-            <seg type="speech_count">37</seg>
-          </item>
-          <item n="24">
-            <seg type="character_name">A07637-hans</seg>
-            <seg type="speech_count">24</seg>
-          </item>
-          <item n="22">
-            <seg type="character_name">A07637-hannecke</seg>
-            <seg type="speech_count">22</seg>
-          </item>
-          <item n="20">
-            <seg type="character_name">A07637-flutterkin</seg>
-            <seg type="speech_count">20</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07637-sentinel</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-          <item n="1">
-            <seg type="character_name">A07637-both</seg>
-            <seg type="speech_count">1</seg>
-          </item>
-        </list>
-      </div>
-      <div type="textual_notes">
-        <head>Textual Notes</head>
-        <p>The textual notes below aim at making textual corrections readable in their immediate context and facilitating access to the source text. A five-digit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber. A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a keyword in context.</p>
-        <note target="A07637-001-b-0330">
-          <label>c1cqn-001-b-0330</label>
-          <sic>miscuitvtile</sic>
-          <seg>Omne tulit punctum qui</seg>
-          <corr>miscuit utile</corr>
-          <seg>dulci.</seg>
-        </note>
-        <note target="A07637-004-a-1340">
-          <label>c1cqn-004-a-1340</label>
-          <sic>inconstanstancy</sic>
-          <seg>In the Moore , a man that had tasted the</seg>
-          <corr>inconstancy</corr>
-          <seg>of Fortune , one that bare his crosses brauely</seg>
-        </note>
-        <note target="A07637-006-b-0660">
-          <label>c1cqn-006-b-0660</label>
-          <sic>Se●ieant</sic>
-          <seg>mistresse , that sayre hand , Once more for the</seg>
-          <corr>Serieant</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A07637-006-b-0860">
-          <label>c1cqn-006-b-0860</label>
-          <sic>Han●</sic>
-          <seg/>
-          <corr>Hans</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A07637-009-a-2390">
-          <label>c1cqn-009-a-2390</label>
-          <sic>ouerth wart</sic>
-          <seg>reason , for their wilfulnesse , When as they</seg>
-          <corr>ouerthwart</corr>
-          <seg>their too kind husbands In things not meere</seg>
-        </note>
-        <note target="A07637-010-b-1860">
-          <label>c1cqn-010-b-1860</label>
-          <sic>fidle●●</sic>
-          <seg>Reade thou my riddle , &amp; take thou my</seg>
-          <corr>fidle</corr>
-          <seg>I met a man that wept and wailde , I greeu'd</seg>
-        </note>
-        <note target="A07637-012-b-0890">
-          <label>c1cqn-012-b-0890</label>
-          <sic>pawndith</sic>
-          <seg>tong-tyde Serieant , els I thought It had been</seg>
-          <corr>pawnd ith</corr>
-          <seg>Lumbard for two doytes : Ile buy a Calues</seg>
-        </note>
-        <note target="A07637-014-b-2620">
-          <label>c1cqn-014-b-2620</label>
-          <sic>There , s</sic>
-          <seg/>
-          <corr>There's</corr>
-          <seg>one word more , humble , nay treshumble</seg>
-        </note>
-        <note target="A07637-019-b-0270">
-          <label>c1cqn-019-b-0270</label>
-          <sic>●anizars</sic>
-          <seg>was free , He onward flings , amongst the</seg>
-          <corr>Ianizars</corr>
-          <seg>, The chiefest guard that this grand Seigneur</seg>
-        </note>
-        <note target="A07637-020-a-1200">
-          <label>c1cqn-020-a-1200</label>
-          <sic>Cosso●as</sic>
-          <seg>maintaind gainst mighty Amurath The second : in</seg>
-          <corr>Cossouas</corr>
-          <seg>fatall plaines . He kept an hill with thirty</seg>
-        </note>
-        <note target="A07637-021-a-1560">
-          <label>c1cqn-021-a-1560</label>
-          <sic>don●</sic>
-          <seg>what was that ? twixt whom , what was there</seg>
-          <corr>done?</corr>
-          <seg>?</seg>
-        </note>
-        <note target="A07637-024-b-1890">
-          <label>c1cqn-024-b-1890</label>
-          <sic>bellyesfull</sic>
-          <seg>Your</seg>
-          <corr>bellyes full</corr>
-          <seg>,</seg>
-        </note>
-        <note target="A07637-025-b-2540">
-          <label>c1cqn-025-b-2540</label>
-          <sic>eorroborate</sic>
-          <seg>then I am sure To nogge him soundly ; Ile</seg>
-          <corr>corroborate</corr>
-          <seg>My Beare-pot brauely ; Ile buffticulate</seg>
-        </note>
-        <note target="A07637-025-b-2560">
-          <label>c1cqn-025-b-2560</label>
-          <sic>Peare-pot</sic>
-          <seg>To nogge him soundly ; Ile corroborate My</seg>
-          <corr>Beare-pot</corr>
-          <seg>brauely ; Ile buffticulate , And counter-ieere</seg>
-        </note>
-        <note target="A07637-031-a-0410">
-          <label>c1cqn-031-a-0410</label>
-          <sic>Abeauteous</sic>
-          <seg>abiding . Here as I stayde , I saw a mayde .</seg>
-          <corr>A beauteous</corr>
-          <seg>louely creature , VVith Angels</seg>
-        </note>
-        <note target="A07637-031-b-1190">
-          <label>c1cqn-031-b-1190</label>
-          <sic>offendit</sic>
-          <seg>, for euer be , That seekes with shame to</seg>
-          <corr>offend it</corr>
-          <seg>.</seg>
-        </note>
-        <note target="A07637-032-a-0360">
-          <label>c1cqn-032-a-0360</label>
-          <sic>Regnau●</sic>
-          <seg>now constrainde to serue my masters man ;</seg>
-          <corr>Regnaus</corr>
-          <seg>, regno , regnabo , sum sine regno : She</seg>
-        </note>
-      </div>
-    </back>
+    <back></back>
   </text>
 </TEI>
