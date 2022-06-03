@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000151" xml:lang="eng">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,7 +14,6 @@
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org/</idno>
-        <idno type="dracor" xml:base="https://dracor.org/id/">ep000151</idno>
         <availability>
           <licence>
             <ab>CC0 1.0</ab>
@@ -235,12 +234,16 @@
     </fileDesc>
   </teiHeader>
   <standOff>
-    <link type="wikidata" target="http://www.wikidata.org/entity/Q195219"/>
     <listEvent>
       <event type="written" when="1592">
         <desc/>
       </event>
     </listEvent>
+    <listRelation>
+      <relation name="wikidata"
+                   active="https://dracor.org/entity/ep000151"
+                   passive="http://www.wikidata.org/entity/Q195219"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
