@@ -149,7 +149,7 @@
   </xsl:template>
 
   <xsl:template match="tei:TEI">
-    <TEI xml:lang="eng">
+    <TEI xml:id="{$meta/@id}" xml:lang="eng">
       <xsl:apply-templates/>
     </TEI>
   </xsl:template>
@@ -267,9 +267,6 @@
     <publicationStmt>
       <publisher xml:id="dracor">DraCor</publisher>
       <idno type="URL">https://dracor.org/</idno>
-      <idno type="dracor" xml:base="https://dracor.org/id/">
-        <xsl:value-of select="$meta/@id"/>
-      </idno>
       <availability>
         <licence>
           <ab>CC0 1.0</ab>
