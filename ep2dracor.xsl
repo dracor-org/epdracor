@@ -168,14 +168,6 @@
       </fileDesc>
     </teiHeader>
     <standOff>
-      <xsl:if test="$meta/@wikidata">
-        <link type="wikidata">
-          <xsl:attribute name="target">
-            <xsl:text>http://www.wikidata.org/entity/</xsl:text>
-            <xsl:value-of select="$meta/@wikidata"/>
-          </xsl:attribute>
-        </link>
-      </xsl:if>
       <xsl:if test="//tei:xenoData/ep:epHeader/ep:creationYear">
         <!--
           FIXME: is ep:creationYear reliably the year of writing and can we use
@@ -190,6 +182,20 @@
             </event>
           </xsl:if>
         </listEvent>
+      </xsl:if>
+      <xsl:if test="$meta/@wikidata">
+        <listRelation>
+          <relation name="wikidata">
+            <xsl:attribute name="active">
+              <xsl:text>https://dracor.org/entity/</xsl:text>
+              <xsl:value-of select="$meta/@id"/>
+            </xsl:attribute>
+            <xsl:attribute name="passive">
+              <xsl:text>http://www.wikidata.org/entity/</xsl:text>
+              <xsl:value-of select="$meta/@wikidata"/>
+            </xsl:attribute>
+          </relation>
+        </listRelation>
       </xsl:if>
     </standOff>
   </xsl:template>
