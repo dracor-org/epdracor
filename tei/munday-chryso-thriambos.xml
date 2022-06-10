@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000204" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000204" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +57,24 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000204-faringdon">
+              <persName>Faringdon</persName>
+            </person>
+            <person xml:id="ep000204-leofslane">
+              <persName>Leofslane</persName>
+            </person>
+            <person xml:id="ep000204-time">
+              <persName>Time</persName>
+            </person>
+            <person xml:id="ep000204-leofstane">
+              <persName>Leofstane</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -108,15 +126,15 @@
         <div type="part" xml:id="ep000204-e750">
           <pb xml:id="ep000204-006-a"/>
           <head>The speeches at the Toombe. </head>
-          <sp xml:id="ep000204-e770">
+          <sp who="ep000204-time" xml:id="ep000204-e770">
             <speaker>Time. </speaker>
             <l>Leofstane, I charge thee stay. </l>
           </sp>
-          <sp xml:id="ep000204-e810">
+          <sp who="ep000204-leofstane" xml:id="ep000204-e810">
             <speaker>Leofstane. </speaker>
             <l>What art thou, that dar'st bar me of my way? </l>
           </sp>
-          <sp xml:id="ep000204-e840">
+          <sp who="ep000204-time" xml:id="ep000204-e840">
             <speaker>Time. </speaker>
             <l>He that suruaies what euer deedes are done, </l>
             <l>Abridges, or giues scope, as likes me best; </l>
@@ -126,7 +144,7 @@
             <l>At Bermondsey, raisd thee to see this day: </l>
             <l>Leofstane; tis he, that dares compell thy stay. </l>
           </sp>
-          <sp xml:id="ep000204-e950">
+          <sp who="ep000204-leofstane" xml:id="ep000204-e950">
             <speaker>Leofstane. </speaker>
             <l>See in how short a while a quiet Soule, </l>
             <l>Hid from this world fiue hundred years and more, </l>
@@ -139,7 +157,7 @@
             <l>needs must these gaudier daies yeild greater crime, </l>
             <l>When long gran'd Ghosts dare thus contend with Time. </l>
           </sp>
-          <sp xml:id="ep000204-e1080">
+          <sp who="ep000204-time" xml:id="ep000204-e1080">
             <speaker>Time. </speaker>
             <l>Enough, no more; Now honourable Lord, </l>
             <l>For whose instalment in this Dignity, </l>
@@ -215,7 +233,7 @@
         </div>
         <div type="part" xml:id="ep000204-e1880">
           <head>Time striketh on the Tombe with his Siluer wand, and then Faringdon ariseth. </head>
-          <sp xml:id="ep000204-e1900">
+          <sp who="ep000204-faringdon" xml:id="ep000204-e1900">
             <speaker>Faringdon. </speaker>
             <l>AStonishment and frightful wonder, </l>
             <l>Shakes and splits my soule in sunder. </l>
@@ -227,13 +245,13 @@
             <l>They count their quiet slumber hlest, </l>
             <l>Free from disturbance, and vnrest. </l>
           </sp>
-          <sp xml:id="ep000204-e2000">
+          <sp who="ep000204-time" xml:id="ep000204-e2000">
             <speaker>Time </speaker>
             <l>I know it well good man. Yet looke about, </l>
             <l>And recollect thy spirits free from feare, </l>
             <l>Note what thou seest. </l>
           </sp>
-          <sp xml:id="ep000204-e2050">
+          <sp who="ep000204-faringdon" xml:id="ep000204-e2050">
             <speaker>Faringdon. </speaker>
             <l>How? Whence? or where </l>
             <l>May I suppose my selfe? Well I wot, </l>
@@ -262,7 +280,7 @@
             <l>Good Time, resolue him, what is he, </l>
             <l>Grac'd with this day of Dignitie? </l>
           </sp>
-          <sp xml:id="ep000204-e2360">
+          <sp who="ep000204-time" xml:id="ep000204-e2360">
             <speaker>Time. </speaker>
             <l>A Brother of the Gold-Smiths Company, </l>
             <l>Whose vertues, worth, and speciall loue of all, </l>
@@ -279,7 +297,7 @@
             <l>How can thy Ghost then, but reioyce to see: </l>
             <l>This honour of thine owne Society? </l>
           </sp>
-          <sp xml:id="ep000204-e2520">
+          <sp who="ep000204-faringdon" xml:id="ep000204-e2520">
             <speaker>Faringdon. </speaker>
             <l>Ioy and gladsome iouissance, </l>
             <l>Doth old Faringdon in-trance, </l>
@@ -302,7 +320,7 @@
             <l>And doe what seruice else I may; </l>
             <l>Were Time but pleasde that I might stay. </l>
           </sp>
-          <sp xml:id="ep000204-e2760">
+          <sp who="ep000204-leofstane" xml:id="ep000204-e2760">
             <speaker>Leofstane. </speaker>
             <l>Time, that in this daies honour raisde vs both, </l>
             <l>Meanes not (I trust) so soone to sunder vs: </l>
@@ -311,7 +329,7 @@
             <l>That we may waite vpon this worthy man: </l>
             <l>And do him yet what seruice else we can. </l>
           </sp>
-          <sp xml:id="ep000204-e2850">
+          <sp who="ep000204-time" xml:id="ep000204-e2850">
             <speaker>Time. </speaker>
             <l>You haue your owne desires. Goe Faringdon, </l>
             <l>There in that Chariot is thy place preparde: </l>
@@ -324,12 +342,12 @@
         <div type="part" xml:id="ep000204-e2940">
           <head>Leofstans speech at S. Lawrance Lane. </head>
           <p>HEere, my Lord, my charge was limited, to describe this rich and beautious Monument vnto yee, with all relations thereto appertaining. But Time hath told me, that Guests of great State and Honour are come to feast with you, and the least delay now, may be both offensiue and troublesom; therefore it is referred to more apt conueniency, when wee (with much better leysure) may attend yee. </p>
-          <sp xml:id="ep000204-e2970">
+          <sp who="ep000204-leofslane" xml:id="ep000204-e2970">
             <pb xml:id="ep000204-009-a"/>
             <speaker>Leofslane. </speaker>
             <p>THis Orferie, so styled by the auncient Epithite of your Companies profession, or Gold-Smithery, doth speake it selfe vnto your honor in this manner. Heere doe the Miners and Pioners delue into the Earths entrailes, to gaine the Oare, both of Gold and Siluer; and hauing attained thereunto in plentifull measure, the ingenious Fyner purgeth him from his first Nature, and shapes him into to Ingots of variable forme, according as his Art best guids and enstructs him. From him, these precious Mettals descend to diuers other dexterious Artezans; as the Mint-Maister, his Coyners, and diuers others, who make them to serue in publike passage for generall benefit, both in Coyne, Plate, and Iewels, as occasion best discouereth the iust necessitie. Beeing brought into these variant substances, to preserue those pure refined bodies from base adulterating, the Essay-Maister or absolute Tryer of eythers vertue, makes proofe of them in his Furnaces, and of their true worth or value. So are they commended to Soueraigne Iustice, attended by her gracious Daughters, Golde and Siluer, who bountifully hurle abroad their Mothers treasures, after she hath (yet once againe) tried them, by the Touch of vndeceiueable perfection. The rest, that do sufficiently speake themselues in their distinguished places, as the Ieweller, Lapidarie, Pearle-Driller, Golde-Smith, and such like, your <pb xml:id="ep000204-009-b"/>eye of heedefull obseruation may spare their further relating. Onely I may not omit these two vertuous Ladies, Antiquity and Memory, who, present (in apt place) <hi>Graue Iudgement </hi>or Experience in the Golde-Smiths ancient facultie, by the supposed shape of venerable Dunstane, a man, sometime very practique, &amp; so well skild in Gold-Smithery, as (notwithstanding his more Diuine profession) being Bishop of <hi>Worcester, London</hi>, and lastly Arch-Bishop of Canterbury, delighted therein to his vtmost date of life. </p>
           </sp>
-          <sp xml:id="ep000204-e3190">
+          <sp who="ep000204-time" xml:id="ep000204-e3190">
             <speaker>Time. </speaker>
             <l>So much for that; There Leofstane make a pause, </l>
             <l>Till Time haue certified this honoured Lord </l>
@@ -361,7 +379,7 @@
             <l>Then Peters Keies, with Dauids Cup of Golde: </l>
             <l>May freely march together, vncontroulde. </l>
           </sp>
-          <sp xml:id="ep000204-e3540">
+          <sp who="ep000204-faringdon" xml:id="ep000204-e3540">
             <speaker>Faringdon. </speaker>
             <l>Now, as custome wils it so, </l>
             <l>On to Paules Church must ye goe, </l>
@@ -375,7 +393,7 @@
         </div>
         <div type="part" xml:id="ep000204-e3650">
           <head>At night at my Lords Gate. </head>
-          <sp xml:id="ep000204-e3670">
+          <sp who="ep000204-leofstane" xml:id="ep000204-e3670">
             <speaker>Leofstane. </speaker>
             <p>THus (honoured Lord) haue wee dutiously attended ye, till Time appointeth our departing, who hath tutourd Leofstanes tongue how to take his leaue, with some remarkeable obseruations, not altogether vnfitting your attention. First, the day of your Election, falling out in such strange manner as it did, exceeded the memory of Man to speake the like. And yet, notwithstanding, so great a Snow, Sleete, and rough winde; at the very instant of your choyce, the Sunne did as readily <pb xml:id="ep000204-010-b"/>thrust foorth his Golden beames, to guilde the instant of your Inauguration, as harts and hands did cheerefully applaud it with free and full confirmation. Next, three Names, all of equall sillables and sound, to happen in the immediate choice; is a matter deseruing regard, and (from the Maioralties first beginning) neuer was the like. <hi>Pemberton, Swynnerton and Middleton</hi>, Names of three most worthy Gentlemen, but of much greater worth in sence and significancie, as your own (my Lord, for breuitie) may yeilde an instance. Pemberton deriues it selfe from the auncient <hi>Brittish, Saxon</hi>, and eldest English, each Sillable suted with his apt meaning. Pem, implyeth the head, cheefe or most eminent part of any thing; Bert, beareth the Charracter of bright shining and radiant splendour; and Tun, hath continued the long knowne Word for any Towne or Citty, as most Shires in England (to this day) dooth deliuer the expression of their Townes; As London, sometime tearmed Ludstun, or Luds-Towne, may serue as an example. A bright head of this famous Citty, interpreting it selfe in the Name of Pemberton, and he being enstaulled in the gouernment, to bee her bright-shining Head vnder his Soueraigne, Leofstanes desire is; </p>
             <l>Since Pemberton doth beare so bright a Name, </l>
@@ -383,7 +401,7 @@
             <l>His deedes may prooue to be like burnisht Golde: </l>
             <l>By no dim darknesse any way controulde. </l>
           </sp>
-          <sp xml:id="ep000204-e3890">
+          <sp who="ep000204-time" xml:id="ep000204-e3890">
             <pb xml:id="ep000204-011-a"/>
             <speaker>Time. </speaker>
             <l>Well hast thou wisht, therein Time ioynes with thee, </l>
@@ -415,7 +433,7 @@
             <l>That Pemberton, and Smithes, may both be, </l>
             <l>An endlesse honour to their Company. </l>
           </sp>
-          <sp xml:id="ep000204-e4260">
+          <sp who="ep000204-faringdon" xml:id="ep000204-e4260">
             <pb xml:id="ep000204-011-b"/>
             <speaker>Faringdon. </speaker>
             <l>So wish I too, with all my hart, </l>

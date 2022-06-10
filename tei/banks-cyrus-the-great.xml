@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000475" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000475" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +55,99 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000475-thomy">
+              <persName>Thomy</persName>
+            </person>
+            <person xml:id="ep000475-cyax">
+              <persName>Cyax</persName>
+            </person>
+            <person xml:id="ep000475-craes">
+              <persName>Craes</persName>
+            </person>
+            <person xml:id="ep000475-girl">
+              <persName>Girl</persName>
+            </person>
+            <person xml:id="ep000475-1witch">
+              <persName>1 Witch</persName>
+            </person>
+            <person xml:id="ep000475-abra">
+              <persName>Abra</persName>
+            </person>
+            <person xml:id="ep000475-deadcark">
+              <persName>Dead Cark</persName>
+            </person>
+            <person xml:id="ep000475-hyst">
+              <persName>Hyst</persName>
+            </person>
+            <person xml:id="ep000475-abrad">
+              <persName>Abrad</persName>
+            </person>
+            <person xml:id="ep000475-3witch">
+              <persName>3 Witch</persName>
+            </person>
+            <person xml:id="ep000475-offic">
+              <persName>Offic</persName>
+            </person>
+            <person xml:id="ep000475-laus">
+              <persName>Laus</persName>
+            </person>
+            <person xml:id="ep000475-crae">
+              <persName>Crae</persName>
+            </person>
+            <person xml:id="ep000475-4witch">
+              <persName>4 Witch</persName>
+            </person>
+            <person xml:id="ep000475-cyr">
+              <persName>Cyr,</persName>
+            </person>
+            <person xml:id="ep000475-pan">
+              <persName>Pan</persName>
+            </person>
+            <person xml:id="ep000475-arta">
+              <persName>Arta</persName>
+            </person>
+            <person xml:id="ep000475-ghost">
+              <persName>Ghost</persName>
+            </person>
+            <person xml:id="ep000475-pant">
+              <persName>Pant</persName>
+            </person>
+            <person xml:id="ep000475-panth">
+              <persName>Panth</persName>
+            </person>
+            <person xml:id="ep000475-sold">
+              <persName>Sold</persName>
+            </person>
+            <person xml:id="ep000475-chorus">
+              <persName>CHORUS</persName>
+            </person>
+            <person xml:id="ep000475-art">
+              <persName>Art</persName>
+            </person>
+            <person xml:id="ep000475-wom">
+              <persName>Wom</persName>
+            </person>
+            <person xml:id="ep000475-boy">
+              <persName>Boy</persName>
+            </person>
+            <person xml:id="ep000475-hystasp">
+              <persName>Hystasp</persName>
+            </person>
+            <person xml:id="ep000475-capt">
+              <persName>Capt</persName>
+            </person>
+            <person xml:id="ep000475-thom">
+              <persName>Thom</persName>
+            </person>
+            <person xml:id="ep000475-2witch">
+              <persName>2 Witch</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -183,16 +276,16 @@
           <head>Actus Primus. Scaena Prima. </head>
           <stage xml:id="ep000475-e1360">The Scene a wide spacious Land, ruinous and almost cover'd with dead Bodies, suppos'd to be after a great Battel, wherein Cyrus had Overthrown Croesus. </stage>
           <stage xml:id="ep000475-e1390">Enter <hi>Cyaxares, Artabasus</hi>, Officers and Attendants. </stage>
-          <sp xml:id="ep000475-e1410">
+          <sp who="ep000475-cyax" xml:id="ep000475-e1410">
             <speaker>Cyax. </speaker>
             <l>STAND. </l>
           </sp>
-          <sp xml:id="ep000475-e1440">
+          <sp who="ep000475-arta" xml:id="ep000475-e1440">
             <speaker>Arta. </speaker>
             <l>Stand— 'Tis the King's Pleasure each Commander </l>
             <l>Draw up his Men, and close upon this Heath. </l>
           </sp>
-          <sp xml:id="ep000475-e1480">
+          <sp who="ep000475-cyax" xml:id="ep000475-e1480">
             <speaker>Cyax. </speaker>
             <l>How far have we to Cyrus's Camp from hence? </l>
             <l>And how far distant do th' Assyrians lie? </l>
@@ -203,7 +296,7 @@
             <l>So Proud, so Vain, and Awful was she once, </l>
             <l>She almost reach'd the Heavens with her Tow'rs. </l>
           </sp>
-          <sp xml:id="ep000475-e1610">
+          <sp who="ep000475-art" xml:id="ep000475-e1610">
             <speaker>Art. </speaker>
             <l>Just from th' ascent of that small rising Hill, </l>
             <l>And but a few Miles distant, you may see </l>
@@ -218,14 +311,14 @@
             <l>These are ordain'd to hold the World in Chains, </l>
             <l>With Cyrus, God-like Cyrus at their Head. </l>
           </sp>
-          <sp xml:id="ep000475-e1830">
+          <sp who="ep000475-cyax" xml:id="ep000475-e1830">
             <pb n="2" xml:id="ep000475-006-a"/>
             <speaker>Cyax. </speaker>
             <l>Cyrus! Thou speak'st as if thou ne'er hadst knewn </l>
             <l>Astyages, or wert thy self no Mede— </l>
             <l>Answer me not, but as you did, go on. </l>
           </sp>
-          <sp xml:id="ep000475-e1910">
+          <sp who="ep000475-arta" xml:id="ep000475-e1910">
             <speaker>Arta. </speaker>
             <l>Distant from Cyrus's Camp, some twenty Furlongs, </l>
             <l>And just as many from the Imperial Town, </l>
@@ -241,14 +334,14 @@
             <l>Were, till this great decision, set at Stake, </l>
             <l>To come in Triumph to the Victor's Arms. </l>
           </sp>
-          <sp xml:id="ep000475-e2100">
+          <sp who="ep000475-offic" xml:id="ep000475-e2100">
             <speaker>Offic. </speaker>
             <l>Her Spires and Temples so with Beauty shine, </l>
             <l>Did not the Smoak which from both Armies rise, </l>
             <l>Eclipse the Light, you might with wonder see </l>
             <l>She than the Sun wou'd make a brighter Day. </l>
           </sp>
-          <sp xml:id="ep000475-e2160">
+          <sp who="ep000475-cyax" xml:id="ep000475-e2160">
             <speaker>Cyax. </speaker>
             <l>A brave Reward, more worth than is the danger! </l>
             <l>But I unmanly come to share the Spoil, </l>
@@ -266,7 +359,7 @@
             <l>His Scale of Fortune now that lies so low, </l>
             <l>Gives Cyrus leave to mount and touch the Sky. </l>
           </sp>
-          <sp xml:id="ep000475-e2360">
+          <sp who="ep000475-arta" xml:id="ep000475-e2360">
             <speaker>Arta. </speaker>
             <l>A fatal Glory fires ambitious Man, </l>
             <l>That is for ever with destruction gotten, </l>
@@ -276,21 +369,21 @@
             <l>But near and distant Plains all harras'd o'er, </l>
             <l>And great and beauteous Palaces unveil'd. </l>
           </sp>
-          <sp xml:id="ep000475-e2450">
+          <sp who="ep000475-cyax" xml:id="ep000475-e2450">
             <speaker>Cyax. </speaker>
             <l>No Corn does here inrich the bloody Field, </l>
             <l>Nor Grass adorn the Meads with wanton Green; </l>
             <l>The Trees, the Earth's tall Sons, are all cut off, </l>
             <l>All Places mourn where Cyrus Horse has trod. </l>
           </sp>
-          <sp xml:id="ep000475-e2520">
+          <sp who="ep000475-offic" xml:id="ep000475-e2520">
             <speaker>Offic. </speaker>
             <l>The poor and plunder'd Peasants peep abroad </l>
             <pb n="3" xml:id="ep000475-006-b"/>
             <l>With piteous Eyes and Hands lift up to Heav'n, </l>
             <l>To see their Labour turn'd to dismal Spoil, </l>
           </sp>
-          <sp xml:id="ep000475-e2570">
+          <sp who="ep000475-arta" xml:id="ep000475-e2570">
             <speaker>Arta. </speaker>
             <l>So Shipwrack'd Passengers cast on the Shore, </l>
             <l>That but a few past moments saw themselves </l>
@@ -305,7 +398,7 @@
             <l>Wond'ring as they behold such monstrous Greatness, </l>
             <l>How they so lavishly decreed. </l>
           </sp>
-          <sp xml:id="ep000475-e2710">
+          <sp who="ep000475-cyax" xml:id="ep000475-e2710">
             <speaker>Cyax. </speaker>
             <l>No more, get thee to Cyrus back, </l>
             <l>Do, and forget what late thou wert, when first </l>
@@ -317,14 +410,14 @@
             <l>Cou'd scarcely comprehend the meanest Star, </l>
             <l>Dropt from the Sphere where all my Deeds are written. </l>
           </sp>
-          <sp xml:id="ep000475-e2840">
+          <sp who="ep000475-arta" xml:id="ep000475-e2840">
             <speaker>Arta. </speaker>
             <l>O pardon, Royal Sir, my Love to Cyrus </l>
             <l>Is but what you out of excess may spare; </l>
             <l>It runs to him in narrow, shallow Streams, </l>
             <l>But never ceases to o'erflow the Fountain. </l>
           </sp>
-          <sp xml:id="ep000475-e2910">
+          <sp who="ep000475-cyax" xml:id="ep000475-e2910">
             <speaker>Cyax. </speaker>
             <l>Ah! Artabasus, wert not thou to blame, </l>
             <l>To counsel me to give the Reins to Cyrus, </l>
@@ -338,11 +431,11 @@
             <l>Bane to my Bliss, and my Renown for ever! </l>
             <l>How canst thou answer this?— </l>
           </sp>
-          <sp xml:id="ep000475-e3060">
+          <sp who="ep000475-arta" xml:id="ep000475-e3060">
             <speaker>Arta. </speaker>
             <l>If you will hear— </l>
           </sp>
-          <sp xml:id="ep000475-e3090">
+          <sp who="ep000475-cyax" xml:id="ep000475-e3090">
             <speaker>Cyax. </speaker>
             <l>Why Father, great Astyages, did not </l>
             <l>Thy Martial Ghost affright me in this Slumber? </l>
@@ -370,7 +463,7 @@
             <stage xml:id="ep000475-e3350">Thunder and Lightning, Darkness seems to cover the Field. </stage>
             <l>Heark, heark— A horrid Thunder sounds at distance. </l>
           </sp>
-          <sp xml:id="ep000475-e3370">
+          <sp who="ep000475-arta" xml:id="ep000475-e3370">
             <speaker>Arta. </speaker>
             <l>Now here it answers with a Force as dreadful— </l>
             <l>A sudden Darkness seems to spread the Field— </l>
@@ -379,12 +472,12 @@
             <l>And to my wond'ring Eyes discovers Swarms </l>
             <l>Of hellish Insects flying in the Air. </l>
           </sp>
-          <sp xml:id="ep000475-e3450">
+          <sp who="ep000475-cyax" xml:id="ep000475-e3450">
             <speaker>Cyax. </speaker>
             <l>The Gods are sportive sure, and seem to mock </l>
             <l>At what bold Cyrus has perform'd below. </l>
           </sp>
-          <sp xml:id="ep000475-e3500">
+          <sp who="ep000475-arta" xml:id="ep000475-e3500">
             <speaker>Arta. </speaker>
             <l>The Scene of Horrour yet discloses further— </l>
             <l>My Sight deceives me if I do not see </l>
@@ -392,14 +485,14 @@
             <l>Again, and the dead Bodies slain by Cyrus </l>
             <l>Begin to move. </l>
           </sp>
-          <sp xml:id="ep000475-e3580">
+          <sp who="ep000475-cyax" xml:id="ep000475-e3580">
             <speaker>Cyax. </speaker>
             <l>Something does tread the Ground— </l>
             <l>Look, Artabasus, see, what monstrous things </l>
             <l>Betwixt a Mortal and a Devil's Shape, </l>
             <l>Are those? </l>
           </sp>
-          <sp xml:id="ep000475-e3650">
+          <sp who="ep000475-arta" xml:id="ep000475-e3650">
             <speaker>Arta. </speaker>
             <l>I see distinctly now, and I'll </l>
             <l>Release you from your Wonder— These are Witches, </l>
@@ -423,7 +516,7 @@
           </sp>
           <stage xml:id="ep000475-e3860">[Dance of Wizards. </stage>
           <stage xml:id="ep000475-e3870">Witches SONG. </stage>
-          <sp xml:id="ep000475-e3880">
+          <sp who="ep000475-1witch" xml:id="ep000475-e3880">
             <speaker>1 Witch. </speaker>
             <l>Sisters, Whilst I thus wave my Wand, </l>
             <l>Charming the Ground on which we stand; </l>
@@ -432,38 +525,38 @@
             <l>Some of Deucalion's Seeds I've found, </l>
             <l>That rais'd Mankind when all was drown'd. </l>
           </sp>
-          <sp xml:id="ep000475-e3970">
+          <sp who="ep000475-2witch" xml:id="ep000475-e3970">
             <speaker>2 Witch. </speaker>
             <l>Mummy with Cats Blood did I boil, </l>
             <l>I'll chafe his Temples with the Oil. </l>
           </sp>
-          <sp xml:id="ep000475-e4010">
+          <sp who="ep000475-3witch" xml:id="ep000475-e4010">
             <speaker>3 Witch. </speaker>
             <l>To fume his Nostrils, lo, I bring </l>
             <l>A Feather from the Phoenix Wing. </l>
           </sp>
-          <sp xml:id="ep000475-e4050">
+          <sp who="ep000475-4witch" xml:id="ep000475-e4050">
             <speaker>4 Witch. </speaker>
             <l>I'll wash his Ioints with Liquor brought </l>
             <l>From Aeson's Bath, which Wonders wrought. </l>
           </sp>
-          <sp xml:id="ep000475-e4100">
+          <sp who="ep000475-chorus" xml:id="ep000475-e4100">
             <speaker>CHORUS. </speaker>
             <l>He stirs, he stirs; Rise and foretell </l>
             <l>This list'ning Monarch's Fate from Hell. </l>
           </sp>
-          <sp xml:id="ep000475-e4140">
+          <sp who="ep000475-cyax" xml:id="ep000475-e4140">
             <speaker>Cyax. </speaker>
             <l>Behold— Look yonder— Is not that a Man, </l>
             <l>That rises from amongst the Heaps of slain, </l>
             <l>And with an awful March comes steady towards us? </l>
           </sp>
           <stage xml:id="ep000475-e4190">A dead Carkass of one of the slain rises, and comes to them upon the Stage. </stage>
-          <sp xml:id="ep000475-e4200">
+          <sp who="ep000475-arta" xml:id="ep000475-e4200">
             <speaker>Arta. </speaker>
             <l>Fear't not, my Lord— See, it wou'd speak. </l>
           </sp>
-          <sp xml:id="ep000475-e4230">
+          <sp who="ep000475-deadcark" xml:id="ep000475-e4230">
             <speaker>Dead Cark. </speaker>
             <l>From the dark Region of Eternal Night, </l>
             <l>Where numerous Souls in mingled Tortures live, </l>
@@ -497,18 +590,18 @@
             <l>To drive me into Torments back again. </l>
           </sp>
           <stage xml:id="ep000475-e4600">[Falls down again. </stage>
-          <sp xml:id="ep000475-e4610">
+          <sp who="ep000475-cyax" xml:id="ep000475-e4610">
             <speaker>Cyax. </speaker>
             <l>Ha! Art thou fall'n! Stay, speak, who sent thee, Soldier? </l>
             <l>What greater Devil lurking here on Earth </l>
             <l>Made the black God obey his threatning Summons, </l>
             <l>And charm'd the Powers of Hell to my Destruction? </l>
           </sp>
-          <sp xml:id="ep000475-e4670">
+          <sp who="ep000475-arta" xml:id="ep000475-e4670">
             <speaker>Arta. </speaker>
             <l>A meer cold Clod, a bloody mangl'd Coarse. </l>
           </sp>
-          <sp xml:id="ep000475-e4700">
+          <sp who="ep000475-cyax" xml:id="ep000475-e4700">
             <speaker>Cyax. </speaker>
             <l>Here, take this hellish Carkass, </l>
             <l>And throw it to wild Beasts to be devour'd— </l>
@@ -521,7 +614,7 @@
             <l>To hurry me from Earth like Mortal damn'd, </l>
             <l>I'd through 'em all to meet thee, daring Boy. </l>
           </sp>
-          <sp xml:id="ep000475-e4840">
+          <sp who="ep000475-arta" xml:id="ep000475-e4840">
             <speaker>Arta. </speaker>
             <l>Recall your Temper, Sir, and blame not Cyrus, </l>
             <l>Who, bating his Ambition, still is Virtuous. </l>
@@ -540,7 +633,7 @@
             <l>Then as Hell's Malice only this esteem. </l>
           </sp>
           <stage xml:id="ep000475-e5020">[Noises of singing within. </stage>
-          <sp xml:id="ep000475-e5030">
+          <sp who="ep000475-cyax" xml:id="ep000475-e5030">
             <speaker>Cyax. </speaker>
             <l>Whence comes this Sound of Musick, and of Voices? </l>
             <stage xml:id="ep000475-e5060">[Captain goes off. </stage>
@@ -548,7 +641,7 @@
             <l>That we have seen, or that we now do hear? </l>
           </sp>
           <stage xml:id="ep000475-e5110">[Captain re-enters. </stage>
-          <sp xml:id="ep000475-e5130">
+          <sp who="ep000475-capt" xml:id="ep000475-e5130">
             <speaker>Capt. </speaker>
             <l>The brave Hystaspes, Sir, is just arriv'd, </l>
             <l>With Presents from his Royal Master Cyrus </l>
@@ -583,7 +676,7 @@
             <l>Such is the Force of Love! the Great, the Brave, </l>
             <l>All must submit, sometime put on the Slave. </l>
           </lg>
-          <sp xml:id="ep000475-e5480">
+          <sp who="ep000475-cyax" xml:id="ep000475-e5480">
             <speaker>Cyax. </speaker>
             <l>Blest Sight! and happy Cyrus much more blest, </l>
             <l>That in thy boundless Prodigality, </l>
@@ -592,7 +685,7 @@
           </sp>
           <stage xml:id="ep000475-e5550">[Panthea and her Maids weep. </stage>
           <stage xml:id="ep000475-e5570">[Hystaspes kneels. </stage>
-          <sp xml:id="ep000475-e5590">
+          <sp who="ep000475-hyst" xml:id="ep000475-e5590">
             <pb n="8" xml:id="ep000475-009-a"/>
             <speaker>Hyst. </speaker>
             <l>The Great, the Valiant, and the faithful Cyrus, </l>
@@ -613,7 +706,7 @@
             <l>With the least sight of what they so much long'd for, </l>
             <l>Lest they shou'd Rivals prove to Cyaxares. </l>
           </sp>
-          <sp xml:id="ep000475-e5820">
+          <sp who="ep000475-cyax" xml:id="ep000475-e5820">
             <speaker>Cyax. </speaker>
             <l>Are these, O Love, Rewards of Victory! </l>
             <l>Or the blest Consorts of the Gods themselves, </l>
@@ -627,7 +720,7 @@
             <l>Speak thou more fair than finest thought can form, </l>
             <l>Or but thy self, the Sun did ever see. </l>
           </sp>
-          <sp xml:id="ep000475-e5970">
+          <sp who="ep000475-hyst" xml:id="ep000475-e5970">
             <speaker>Hyst. </speaker>
             <l>God's! Was Hystaspes born to be your hatred! </l>
             <l>Is it her Griefs, or what, that makes this change </l>
@@ -635,7 +728,7 @@
             <l>O Cyrus, had'st thou view'd these dangerous Beauties, </l>
             <l>Thou hadst not mark'd thy Friend out to be wretched. </l>
           </sp>
-          <sp xml:id="ep000475-e6060">
+          <sp who="ep000475-cyax" xml:id="ep000475-e6060">
             <speaker>Cyax. </speaker>
             <l>What, not a Word t'inrich thy humble Creature? </l>
             <l>There is no Goddess that can speak like thee— </l>
@@ -647,12 +740,12 @@
             <l>Never before made known to mortal sence, </l>
             <l>And thou the Goddess of that happy Place. </l>
           </sp>
-          <sp xml:id="ep000475-e6170">
+          <sp who="ep000475-hyst" xml:id="ep000475-e6170">
             <speaker>Hyst. </speaker>
             <l>Sir, she's Panthea. </l>
             <l>The fam'd fair Daughter of the Scythian Queen. </l>
           </sp>
-          <sp xml:id="ep000475-e6230">
+          <sp who="ep000475-panth" xml:id="ep000475-e6230">
             <speaker>Panth. </speaker>
             <l>O! yes, tell all my Woes too if thou canst, </l>
             <l>And tell 'em with a Grace, that I may sooth </l>
@@ -665,11 +758,11 @@
             <l>Call to my Aid my Sex's feeble temper, </l>
             <l>And draw the fallen Vapour into Tears. </l>
           </sp>
-          <sp xml:id="ep000475-e6340">
+          <sp who="ep000475-cyax" xml:id="ep000475-e6340">
             <speaker>Cyax. </speaker>
             <l>Divine Panthea— </l>
           </sp>
-          <sp xml:id="ep000475-e6380">
+          <sp who="ep000475-panth" xml:id="ep000475-e6380">
             <speaker>Panth. </speaker>
             <l>Call me what I am, </l>
             <l>Tell me not what I was— I was Panthea, </l>
@@ -686,7 +779,7 @@
             <l>And till this day, of all my Age accurst, </l>
             <l>I never knew what a worse Moment was. </l>
           </sp>
-          <sp xml:id="ep000475-e6560">
+          <sp who="ep000475-hyst" xml:id="ep000475-e6560">
             <speaker>Hyst. </speaker>
             <l>O thou art lost, undone Hystaspes quite, </l>
             <l>The Glory of the Battel owes to thee, </l>
@@ -695,12 +788,12 @@
             <l>If Cyrus will not grant her Liberty, </l>
             <l>I'll do't my self, with forfeit of my Life. </l>
           </sp>
-          <sp xml:id="ep000475-e6660">
+          <sp who="ep000475-cyax" xml:id="ep000475-e6660">
             <speaker>Cyax. </speaker>
             <l>Go on, go on, thou charming Creature, do, </l>
             <l>Each Word leaves Bliss and Wonder in my Soul. </l>
           </sp>
-          <sp xml:id="ep000475-e6700">
+          <sp who="ep000475-panth" xml:id="ep000475-e6700">
             <speaker>Panth. </speaker>
             <l>But oh! now to repeat the Summ of all, </l>
             <l>That which methinks shou'd strike the Hearers dead. </l>
@@ -727,7 +820,7 @@
             <l>I went, nor waking from that wretched Slumber, </l>
             <l>Till I was brought a Prisoner to Hystaspes. </l>
           </sp>
-          <sp xml:id="ep000475-e7010">
+          <sp who="ep000475-cyax" xml:id="ep000475-e7010">
             <speaker>Cyax. </speaker>
             <l>Ah sweet Panthea! if thy Sorrows move so, </l>
             <l>What canst thou do, dispersing Smiles around thee? </l>
@@ -751,19 +844,19 @@
             <l>She came— Bid Cyrus do the like— Begone, </l>
             <l>Quickly, least I shou'd wish to look again. </l>
           </sp>
-          <sp xml:id="ep000475-e7310">
+          <sp who="ep000475-pan" xml:id="ep000475-e7310">
             <speaker>Pan. </speaker>
             <l>Ten thousand Glories crown your Head for this. </l>
             <l>May this brave Action make your Name and Bliss </l>
             <l>Renown'd on Earth, as is the God of War, </l>
             <l>And when in Heav'n, a bright shining Star. </l>
           </sp>
-          <sp xml:id="ep000475-e7370">
+          <sp who="ep000475-hyst" xml:id="ep000475-e7370">
             <speaker>Hyst. </speaker>
             <l>I am amaz'd— Can this be real, Sir? </l>
             <l>I dare not tell the King of your refusal. </l>
           </sp>
-          <sp xml:id="ep000475-e7410">
+          <sp who="ep000475-cyax" xml:id="ep000475-e7410">
             <speaker>Cyax. </speaker>
             <l>Do it, I charge thee, and inform him too, </l>
             <l>That Cyaxares comes to meet him straight, </l>
@@ -774,16 +867,16 @@
             <l>Remove those gay bright Syrens that forerun </l>
             <l>A Storm. </l>
           </sp>
-          <sp xml:id="ep000475-e7550">
+          <sp who="ep000475-hyst" xml:id="ep000475-e7550">
             <speaker>Hyst. </speaker>
             <l>Come Madam. </l>
           </sp>
-          <sp xml:id="ep000475-e7580">
+          <sp who="ep000475-panth" xml:id="ep000475-e7580">
             <speaker>Panth. </speaker>
             <l>To kind Death, I hope— </l>
             <l>Brave Cyaxares. </l>
           </sp>
-          <sp xml:id="ep000475-e7630">
+          <sp who="ep000475-cyax" xml:id="ep000475-e7630">
             <speaker>Cyax. </speaker>
             <l>O speak no more— Thou conqu'ring Beauty go— </l>
             <l>There lies your Path— We must take several ways; </l>
@@ -796,7 +889,7 @@
           <pb n="11" xml:id="ep000475-010-b"/>
           <head>Actus Secundus, Scaena Prima. </head>
           <stage xml:id="ep000475-e7720">Cyrus discovered upon his Throne in Triumph amongst his Captains and Soldiers. Craesus bound ready for Execution. </stage>
-          <sp xml:id="ep000475-e7750">
+          <sp who="ep000475-cyr" xml:id="ep000475-e7750">
             <speaker>Cyr. </speaker>
             <l>ENough— These splendid Vanities I loath, </l>
             <stage xml:id="ep000475-e7780">[Sounds of Triumphs. </stage>
@@ -823,18 +916,18 @@
             <l>In Flames— Quick, take him hence— </l>
           </sp>
           <stage xml:id="ep000475-e8030">[As they are carrying off Craesus to Execution, Cyrus calls him back. </stage>
-          <sp xml:id="ep000475-e8060">
+          <sp who="ep000475-craes" xml:id="ep000475-e8060">
             <speaker>Craes. </speaker>
             <l>O Solon! Solon! Solon! </l>
           </sp>
-          <sp xml:id="ep000475-e8100">
+          <sp who="ep000475-cyr" xml:id="ep000475-e8100">
             <speaker>Cyr. </speaker>
             <l>Stay, bring him back, say, What does Craesus mean? </l>
             <l>I did expect thou shouldst have ask'd thy Life, </l>
             <l>And thou in scorn of me call'st loud for Solon— </l>
             <l>Can Solon save thee from the Wrath of Cyrus? </l>
           </sp>
-          <sp xml:id="ep000475-e8200">
+          <sp who="ep000475-craes" xml:id="ep000475-e8200">
             <speaker>Craes. </speaker>
             <l>No, 'tis too late, but that which made me call </l>
             <l>On Solon was, to my remembrance came </l>
@@ -862,13 +955,13 @@
             <l>In his own Pale grew all his Sustenance, </l>
             <l>And in his Bosom all the World's content. </l>
           </sp>
-          <sp xml:id="ep000475-e8520">
+          <sp who="ep000475-cyr" xml:id="ep000475-e8520">
             <speaker>Cyr. </speaker>
             <l>How brook you then your fall'n and lost Estate? </l>
             <l>Methinks with brave Contempt you bear your Chains, </l>
             <l>And Craesus looks as if he spurn'd his Fate. </l>
           </sp>
-          <sp xml:id="ep000475-e8580">
+          <sp who="ep000475-craes" xml:id="ep000475-e8580">
             <speaker>Craes. </speaker>
             <l>So much my Mind does soar above my Fortune, </l>
             <l>That I behold with greater scorn these Bonds, </l>
@@ -876,7 +969,7 @@
             <l>Look'st down on me that am thy Slave— Yet in </l>
             <l>Despite of all thou canst, I'm Craesus still. </l>
           </sp>
-          <sp xml:id="ep000475-e8660">
+          <sp who="ep000475-cyr" xml:id="ep000475-e8660">
             <speaker>Cyr. </speaker>
             <l>'Tis bravely said, and spoken like a King— </l>
             <l>I have been told, that in thy spring of Glory </l>
@@ -887,20 +980,20 @@
             <l>Might make a Ransom wou'd restore the World, </l>
             <l>Were't threatn'd to be ruin'd by the Gods. </l>
           </sp>
-          <sp xml:id="ep000475-e8780">
+          <sp who="ep000475-craes" xml:id="ep000475-e8780">
             <speaker>Craes. </speaker>
             <l>All this, nay more, the God did heap upon me, </l>
             <l>My Children, Friends, and Kingdoms so increas'd, </l>
             <l>That Europe cou'd not bound my spreading Empire, </l>
             <l>Nor Asian Cities number out my Wealth. </l>
           </sp>
-          <sp xml:id="ep000475-e8860">
+          <sp who="ep000475-cyr" xml:id="ep000475-e8860">
             <speaker>Cyr. </speaker>
             <l>The God was grateful to thee for a while: </l>
             <l>But by what wonderful neglect of thine </l>
             <l>Hast thou since lost the Merit of his Bounty? </l>
           </sp>
-          <sp xml:id="ep000475-e8910">
+          <sp who="ep000475-craes" xml:id="ep000475-e8910">
             <speaker>Craes. </speaker>
             <l>I'll tell thee all with a prodigious Patience— </l>
             <l>Having at length tir'd out th' relenting God </l>
@@ -918,13 +1011,13 @@
             <l>No Vision was so calm as was my Life; </l>
             <l>Elisium envy'd my strange Bliss, and wonder'd. </l>
           </sp>
-          <sp xml:id="ep000475-e9110">
+          <sp who="ep000475-cyr" xml:id="ep000475-e9110">
             <speaker>Cyr. </speaker>
             <l>Now by the Gods, thy Blessings were so rare, </l>
             <l>So very sensible thy Losses move, </l>
             <l>That my stout Heart begins to pity thee. </l>
           </sp>
-          <sp xml:id="ep000475-e9160">
+          <sp who="ep000475-craes" xml:id="ep000475-e9160">
             <speaker>Craes. </speaker>
             <l>Look to thy self, thy Fortunes reach their highest, </l>
             <l>Mine touch the Ground, and can no lower be; </l>
@@ -936,7 +1029,7 @@
             <l>Hast let the Ocean in on Craesus Glories, </l>
             <l>And left him poor, bereft of all, but what thou seest. </l>
           </sp>
-          <sp xml:id="ep000475-e9280">
+          <sp who="ep000475-cyr" xml:id="ep000475-e9280">
             <speaker>Cyr. </speaker>
             <l>Despair not, Craesus, thou art still the same; </l>
             <l>What Solon and the Gods have said is true, </l>
@@ -955,7 +1048,7 @@
             <l>And shew me how to be a King indeed, </l>
             <l>Solon taught thee, and thou shalt teach thy Cyrus. </l>
           </sp>
-          <sp xml:id="ep000475-e9530">
+          <sp who="ep000475-craes" xml:id="ep000475-e9530">
             <speaker>Craes. </speaker>
             <l>O mighty Prince! Thou much more God than Man! </l>
             <l>My emulating Soul flaggs at thy Sight, </l>
@@ -963,7 +1056,7 @@
             <l>And all the Virtues of Mankind together </l>
             <l>Make but dimm Light before thy beauteous Presence. </l>
           </sp>
-          <sp xml:id="ep000475-e9600">
+          <sp who="ep000475-cyr" xml:id="ep000475-e9600">
             <speaker>Cyr. </speaker>
             <l>Your Children, and your Wives receive again, </l>
             <l>With all those Kindoms you by Right were born to. </l>
@@ -975,7 +1068,7 @@
             <l>From Expectations of so great a Ruine; </l>
             <l>Then Craesus dwell for ever in my Breast. </l>
           </sp>
-          <sp xml:id="ep000475-e9730">
+          <sp who="ep000475-craes" xml:id="ep000475-e9730">
             <speaker>Craes. </speaker>
             <l>My Thanks are too too great to be express'd, </l>
             <l>I can no more then hoard 'em in my Thoughts, </l>
@@ -985,7 +1078,7 @@
             <l>Forsakes his Prince, and leaves to follow Cyrus. </l>
           </sp>
           <stage xml:id="ep000475-e9840">Enter Lausaria attended. </stage>
-          <sp xml:id="ep000475-e9860">
+          <sp who="ep000475-laus" xml:id="ep000475-e9860">
             <speaker>Laus. </speaker>
             <l>Where's this Divine, this Miracle of Virtue; </l>
             <l>This Rival to the Merciful above? </l>
@@ -996,16 +1089,16 @@
             <l>Let me adore the Ground his Steps have bless'd, </l>
             <l>And kiss the Feet of the Immortal Cyrus. </l>
           </sp>
-          <sp xml:id="ep000475-e9970">
+          <sp who="ep000475-craes" xml:id="ep000475-e9970">
             <speaker>Craes. </speaker>
             <l>Great Prince, my Daughter, and your meanest Handmaid, </l>
           </sp>
-          <sp xml:id="ep000475-e10000">
+          <sp who="ep000475-cyr" xml:id="ep000475-e10000">
             <speaker>Cyr. </speaker>
             <l>How, Craesus! Now by th' sacred Sun she's fair— </l>
             <l>Rise, or I blush at this unseemly Posture. </l>
           </sp>
-          <sp xml:id="ep000475-e10050">
+          <sp who="ep000475-laus" xml:id="ep000475-e10050">
             <speaker>Laus. </speaker>
             <l>Here let me fix— You shou'd be thus ador'd, </l>
             <l>Thou Blessing of all Eyes, thou Heavenly Wonder— </l>
@@ -1017,7 +1110,7 @@
             <l>As I do now; so much you do excell </l>
             <l>The little World that I have still been bred in. </l>
           </sp>
-          <sp xml:id="ep000475-e10160">
+          <sp who="ep000475-cyr" xml:id="ep000475-e10160">
             <speaker>Cyr. </speaker>
             <l>Thou pretty'st Innocence as ever talk'd, </l>
             <l>Look back upon thy self, disperse these Clouds, </l>
@@ -1031,12 +1124,12 @@
             <l>Rise in a Form Divine, and bless thy Beauties. </l>
           </sp>
           <stage xml:id="ep000475-e10300">[Enter Officer. </stage>
-          <sp xml:id="ep000475-e10320">
+          <sp who="ep000475-offic" xml:id="ep000475-e10320">
             <speaker>Offic. </speaker>
             <l>Hystaspes is return'd, and brings with him </l>
             <l>The Newes of Cyaxares his approach. </l>
           </sp>
-          <sp xml:id="ep000475-e10380">
+          <sp who="ep000475-laus" xml:id="ep000475-e10380">
             <speaker>Laus. </speaker>
             <l>Go on; whilst I retire to pray, </l>
             <l>Lausaria's Guardian-Deity you are; </l>
@@ -1051,7 +1144,7 @@
             <l>Save, save, (that God) his precious Life and Love. </l>
             <stage xml:id="ep000475-e10530">[Ex. Laus. attended. </stage>
           </sp>
-          <sp xml:id="ep000475-e10550">
+          <sp who="ep000475-cyr" xml:id="ep000475-e10550">
             <speaker>Cyr. </speaker>
             <l>Craesus, let nothing be refus'd that may </l>
             <l>Increase her Welcome as becomes thy Daughter, </l>
@@ -1060,7 +1153,7 @@
             <stage xml:id="ep000475-e10630">Enter to them <hi>Hystaspes, Panthea</hi>, and Women. </stage>
             <l>When comes the Royal Cyaxares? </l>
           </sp>
-          <sp xml:id="ep000475-e10670">
+          <sp who="ep000475-hyst" xml:id="ep000475-e10670">
             <speaker>Hyst. </speaker>
             <l>To his worst of Rage abandon'd, </l>
             <l>And in proud Envy of your growing Conquests, </l>
@@ -1069,17 +1162,17 @@
             <l>Said he, I will be with the haughty Cyrus </l>
             <l>‛ Ere thou canst bring my Message to the Boy. </l>
           </sp>
-          <sp xml:id="ep000475-e10760">
+          <sp who="ep000475-cyr" xml:id="ep000475-e10760">
             <speaker>Cyr. </speaker>
             <l>What, did he scorn the Proffer of my Duty, </l>
             <l>Return the Presents which I sent him, say'st thou? </l>
             <l>O Gods! it cannot be; thou dost abuse my Unkle. </l>
           </sp>
-          <sp xml:id="ep000475-e10810">
+          <sp who="ep000475-hyst" xml:id="ep000475-e10810">
             <speaker>Hyst. </speaker>
             <l>Sir, all that I have said— </l>
           </sp>
-          <sp xml:id="ep000475-e10840">
+          <sp who="ep000475-cyr" xml:id="ep000475-e10840">
             <speaker>Cyr. </speaker>
             <l>No more, Hystaspes. </l>
             <l>By my immortal Fame, and sacred Crowns, </l>
@@ -1087,22 +1180,22 @@
             <l>Ha! what do I behold! More Wonders still!— </l>
             <l>What Lady's that? What weeping Lady's that? </l>
           </sp>
-          <sp xml:id="ep000475-e10920">
+          <sp who="ep000475-hyst" xml:id="ep000475-e10920">
             <speaker>Hyst. </speaker>
             <l>Panthea, Sir. </l>
           </sp>
-          <sp xml:id="ep000475-e10960">
+          <sp who="ep000475-cyr" xml:id="ep000475-e10960">
             <speaker>Cyr. </speaker>
             <l>Panthea, Sir— What, what, Panthea? </l>
           </sp>
-          <sp xml:id="ep000475-e11010">
+          <sp who="ep000475-hyst" xml:id="ep000475-e11010">
             <speaker>Hyst. </speaker>
             <l>Thomyris Daughter, the brave Scythian Queen, </l>
             <l>And the fair Captive whom you did command </l>
             <l>Me to present to Cyaxares, yet </l>
             <l>I fear to tell he did refuse her too. </l>
           </sp>
-          <sp xml:id="ep000475-e11100">
+          <sp who="ep000475-cyr" xml:id="ep000475-e11100">
             <speaker>Cyr. </speaker>
             <l>Refuse her, say'st thou! Gods, did he refuse her! </l>
             <l>Was I so lavish, say? What Right had I </l>
@@ -1113,11 +1206,11 @@
             <l>Without their feeble Aid to light the Globe, </l>
             <l>And make eternal Day— </l>
           </sp>
-          <sp xml:id="ep000475-e11200">
+          <sp who="ep000475-hyst" xml:id="ep000475-e11200">
             <speaker>Hyst. </speaker>
             <l>Sir— </l>
           </sp>
-          <sp xml:id="ep000475-e11230">
+          <sp who="ep000475-cyr" xml:id="ep000475-e11230">
             <speaker>Cyr. </speaker>
             <l>Thus Prodigal like, </l>
             <l>Not thinking of the Vastness of the Gift, </l>
@@ -1127,12 +1220,12 @@
             <l>Thou should'st have plaid the faithful Steward, and, </l>
             <l>Restrain'd thy Master's wild destroying Bounty. </l>
           </sp>
-          <sp xml:id="ep000475-e11320">
+          <sp who="ep000475-hyst" xml:id="ep000475-e11320">
             <speaker>Hyst. </speaker>
             <l>O pardon, mighty Sir, who cou'd but hear </l>
             <l>Your dread Commands, and not obey you straight. </l>
           </sp>
-          <sp xml:id="ep000475-e11360">
+          <sp who="ep000475-cyr" xml:id="ep000475-e11360">
             <pb n="16" xml:id="ep000475-013-a"/>
             <speaker>Cyr. </speaker>
             <l>What shall I say? Tell me, Hystaspes, do </l>
@@ -1148,11 +1241,11 @@
             <l>Nay, what the Gods through Miracles have wrought, </l>
             <l>Lies panting now, and gasping at the Danger. </l>
           </sp>
-          <sp xml:id="ep000475-e11520">
+          <sp who="ep000475-hyst" xml:id="ep000475-e11520">
             <speaker>Hyst. </speaker>
             <l>Madam— </l>
           </sp>
-          <sp xml:id="ep000475-e11550">
+          <sp who="ep000475-cyr" xml:id="ep000475-e11550">
             <speaker>Cyr. </speaker>
             <l>Hold off thy sacrilegious Hands, </l>
             <l>Shrines and their Deities may be approach'd </l>
@@ -1161,14 +1254,14 @@
             <l>O tell me that, and teach my Tongue to say it, </l>
             <l>That I may call thee what the Gods have nam'd thee. </l>
           </sp>
-          <sp xml:id="ep000475-e11640">
+          <sp who="ep000475-panth" xml:id="ep000475-e11640">
             <speaker>Panth. </speaker>
             <l>O Cyrus! you forget your self, and me; </l>
             <l>I'm no such thing, no Creature to be prais'd, </l>
             <l>A Wretch forsaken of the World, and Heav'n, </l>
             <l>Your Prisoner, you shou'd pity, not admire me. </l>
           </sp>
-          <sp xml:id="ep000475-e11710">
+          <sp who="ep000475-cyr" xml:id="ep000475-e11710">
             <speaker>Cyr. </speaker>
             <l>O say not so— Forsaken say'st thou! No, </l>
             <l>Rather the World and Heav'n are left by thee— </l>
@@ -1178,7 +1271,7 @@
             <l>Quick as the Lightning from thy killing Eyes, </l>
             <l>And Cyrus is thy Slave to execute. </l>
           </sp>
-          <sp xml:id="ep000475-e11810">
+          <sp who="ep000475-panth" xml:id="ep000475-e11810">
             <speaker>Panth. </speaker>
             <l>I have no Power, no Charms but Grief about me, </l>
             <l>That may move Pity, but can ne'er cause Love. </l>
@@ -1187,7 +1280,7 @@
             <l>You sent me late a Slave to be abus'd: </l>
             <l>But this is worse than when I was refus'd. </l>
           </sp>
-          <sp xml:id="ep000475-e11890">
+          <sp who="ep000475-cyr" xml:id="ep000475-e11890">
             <speaker>Cyr. </speaker>
             <l>Pardon, thou Saint, a Man in Love untaught, </l>
             <l>I have been us'd in Battels from my Youth, </l>
@@ -1199,7 +1292,7 @@
             <l>And all my Passion, like a Storm quite spent, </l>
             <l>Lies hush'd, and silent as an Evenings Breeze. </l>
           </sp>
-          <sp xml:id="ep000475-e12000">
+          <sp who="ep000475-panth" xml:id="ep000475-e12000">
             <speaker>Panth. </speaker>
             <l>Hold, mighty Cyrus, spare my tortur'd Bosom. </l>
             <l>Play not the Tyrant with so great Misfortunes, </l>
@@ -1211,7 +1304,7 @@
             <l>'Twixt me and Joy: For nothing yet can prove </l>
             <l>So great a Misery to me as Love. </l>
           </sp>
-          <sp xml:id="ep000475-e12100">
+          <sp who="ep000475-cyr" xml:id="ep000475-e12100">
             <speaker>Cyr. </speaker>
             <l>O let me catch that Sigh before it goes— </l>
             <l>'Tis gone, 'tis gone, and each officious Wind </l>
@@ -1224,7 +1317,7 @@
             <l>Rich as from thence, we Southern Breezes find, </l>
             <l>When Trees of Spice had gently fann'd the Wind. </l>
           </sp>
-          <sp xml:id="ep000475-e12230">
+          <sp who="ep000475-hyst" xml:id="ep000475-e12230">
             <speaker>Hyst. </speaker>
             <l>Awake Hystaspes from this horrid Slumber— </l>
             <l>Shall I see ravish'd from me all my Right, </l>
@@ -1241,7 +1334,7 @@
             <l>If that's too great a Fame for him to Challenge, </l>
             <l>Thus I implore it as your humblest Vassal. </l>
           </sp>
-          <sp xml:id="ep000475-e12420">
+          <sp who="ep000475-cyr" xml:id="ep000475-e12420">
             <speaker>Cyr. </speaker>
             <l>O Gods! He's Jealous, Jealous on my Life— </l>
             <l>O thou most mighty Iove, hadst thou at once </l>
@@ -1253,17 +1346,17 @@
             <l>Before my Face to own so proud a Guilt, </l>
             <l>And mix his haughty Love with mine— Traytor— </l>
           </sp>
-          <sp xml:id="ep000475-e12550">
+          <sp who="ep000475-craes" xml:id="ep000475-e12550">
             <speaker>Craes. </speaker>
             <l>Hold gallant <hi>Cyrus, Craesus </hi>bids thee hold. </l>
           </sp>
-          <sp xml:id="ep000475-e12590">
+          <sp who="ep000475-cyr" xml:id="ep000475-e12590">
             <speaker>Cyr. </speaker>
             <l>O Craesus say, Cou'd Solon suffer this? </l>
             <l>Is there a Rule in all Philosophy </l>
             <l>To teach me Patience now?— O tell it me— </l>
           </sp>
-          <sp xml:id="ep000475-e12660">
+          <sp who="ep000475-pant" xml:id="ep000475-e12660">
             <speaker>Pant. </speaker>
             <l>Cyrus no more. </l>
             <l>In vain are all this Rage and Jealousies— </l>
@@ -1271,7 +1364,7 @@
             <l>Prison and Absence will be both your Cures: </l>
             <l>I am no more his Prisoner now but yours: </l>
           </sp>
-          <sp xml:id="ep000475-e12740">
+          <sp who="ep000475-cyr" xml:id="ep000475-e12740">
             <speaker>Cyr. </speaker>
             <l>A Prisoner: ha! Conduct her to my Tent. </l>
             <pb n="18" xml:id="ep000475-014-a"/>
@@ -1285,7 +1378,7 @@
             <l>And let an hundred thousand Hero's Hearts </l>
             <l>Be Sacrific'd each Morning to her rising— </l>
           </sp>
-          <sp xml:id="ep000475-e12890">
+          <sp who="ep000475-panth" xml:id="ep000475-e12890">
             <speaker>Panth. </speaker>
             <l>Hold Cyrus: Cease this unwelcome strife. </l>
             <l>What tho' y'have in your Power my Death or Life, </l>
@@ -1303,20 +1396,20 @@
             <stage xml:id="ep000475-e13080">Enter to them an Officer. </stage>
             <l>The News? </l>
           </sp>
-          <sp xml:id="ep000475-e13100">
+          <sp who="ep000475-offic" xml:id="ep000475-e13100">
             <speaker>Offic. </speaker>
             <l>Great Cyaxares is arriv'd. </l>
           </sp>
-          <sp xml:id="ep000475-e13140">
+          <sp who="ep000475-cyr" xml:id="ep000475-e13140">
             <speaker>Cyr. </speaker>
             <l>'Tis well— Have you inclos'd the way he comes, </l>
             <l>With Persian Homotyms, and Median Horse? </l>
           </sp>
-          <sp xml:id="ep000475-e13200">
+          <sp who="ep000475-offic" xml:id="ep000475-e13200">
             <speaker>Offic. </speaker>
             <l>Most mighty Cyrus 'tis already done. </l>
           </sp>
-          <sp xml:id="ep000475-e13240">
+          <sp who="ep000475-cyr" xml:id="ep000475-e13240">
             <speaker>Cyr. </speaker>
             <l>His Drums and Trumpets answer you more loud, </l>
             <l>And as he passes thro' your noble Ranks, </l>
@@ -1330,7 +1423,7 @@
             <l>And sigh as if my Eyes were Bassalisks, </l>
             <l>Or Breath shot Venome— Ha! what means my Unkle! </l>
           </sp>
-          <sp xml:id="ep000475-e13430">
+          <sp who="ep000475-cyax" xml:id="ep000475-e13430">
             <speaker>Cyax. </speaker>
             <l>The meaning is too plain, 'tis Shame, and Coward— </l>
             <l>Do you not see 'em written in my Forehead? </l>
@@ -1345,7 +1438,7 @@
             <l>And mount the Throne of all the Universe— </l>
             <l>Ingrateful Cyrus! </l>
           </sp>
-          <sp xml:id="ep000475-e13590">
+          <sp who="ep000475-cyr" xml:id="ep000475-e13590">
             <speaker>Cyr. </speaker>
             <l>Hold— O cease dear Uncle— </l>
             <l>Let not our Passions here be made a sport </l>
@@ -1357,20 +1450,20 @@
             <l>Speak, and I'll glew my Ears to ev'ry Word </l>
             <l>Your voice shall utter. </l>
           </sp>
-          <sp xml:id="ep000475-e13730">
+          <sp who="ep000475-cyax" xml:id="ep000475-e13730">
             <speaker>Cyax. </speaker>
             <l>God's that I were Dumb! </l>
             <l>That ever I shou'd speak, when what I say </l>
             <l>Recounts my loss, and my eternal Shame, </l>
             <l>With Cyrus false Ingratitude. </l>
           </sp>
-          <sp xml:id="ep000475-e13800">
+          <sp who="ep000475-cyr" xml:id="ep000475-e13800">
             <speaker>Cyr. </speaker>
             <l>Still, still </l>
             <l>You touch the same harsh String— Tell't out,— </l>
             <l>What is't that hangs upon your troubled Brow? </l>
           </sp>
-          <sp xml:id="ep000475-e13850">
+          <sp who="ep000475-cyax" xml:id="ep000475-e13850">
             <speaker>Cyax. </speaker>
             <l>O this it is </l>
             <l>The Man that I have nourish'd in my Bosom, </l>
@@ -1382,20 +1475,20 @@
             <l>Wind thy self round my guardless Breast, </l>
             <l>Then watch thy time, and Poyson thy Preserver. </l>
           </sp>
-          <sp xml:id="ep000475-e13980">
+          <sp who="ep000475-cyr" xml:id="ep000475-e13980">
             <speaker>Cyr. </speaker>
             <l>Go on, go on— I hear you patiently. </l>
           </sp>
-          <sp xml:id="ep000475-e14010">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14010">
             <speaker>Cyax. </speaker>
             <l>Nay, give me leave to put it to thy Conscience, </l>
             <l>And answer me as thou believ'st it true. </l>
           </sp>
-          <sp xml:id="ep000475-e14050">
+          <sp who="ep000475-cyr" xml:id="ep000475-e14050">
             <speaker>Cyr. </speaker>
             <l>I will. </l>
           </sp>
-          <sp xml:id="ep000475-e14080">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14080">
             <speaker>Cyax. </speaker>
             <l>Did I not save thee in thy Cradle? </l>
             <l>No sooner had Mandana brought thee to </l>
@@ -1404,11 +1497,11 @@
             <l>Deliver'd to be slain by Harpagus— </l>
             <l>Have you not heard this oft for truth? </l>
           </sp>
-          <sp xml:id="ep000475-e14190">
+          <sp who="ep000475-cyr" xml:id="ep000475-e14190">
             <speaker>Cyr. </speaker>
             <l>I have. </l>
           </sp>
-          <sp xml:id="ep000475-e14220">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14220">
             <speaker>Cyax. </speaker>
             <l>Have you not heard too how I ventur'd 'twixt </l>
             <l>My Father's Wrath and Pity, to preserve </l>
@@ -1416,11 +1509,11 @@
             <l>At my request, in private to be Nurst, </l>
             <l>Telling the King that thou wert surely dead. </l>
           </sp>
-          <sp xml:id="ep000475-e14300">
+          <sp who="ep000475-cyr" xml:id="ep000475-e14300">
             <speaker>Cyr. </speaker>
             <l>This I have oft been told too. </l>
           </sp>
-          <sp xml:id="ep000475-e14330">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14330">
             <speaker>Cyax. </speaker>
             <l>Did I not, </l>
             <pb n="20" xml:id="ep000475-015-a"/>
@@ -1434,11 +1527,11 @@
             <l>The Life of Harpagus— Then streight wert thou </l>
             <l>Sent for to Court, and this thou well rememberst. </l>
           </sp>
-          <sp xml:id="ep000475-e14460">
+          <sp who="ep000475-cyr" xml:id="ep000475-e14460">
             <speaker>Cyr. </speaker>
             <l>I do. </l>
           </sp>
-          <sp xml:id="ep000475-e14490">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14490">
             <speaker>Cyax. </speaker>
             <l>This did I, though 'twas Prophecy'd </l>
             <l>That thou shou'dst quite subvert the Median Empire, </l>
@@ -1453,11 +1546,11 @@
             <l>Leaving the Savage gasping at thy Feet; </l>
             <l>And this thou art well witness of thy self. </l>
           </sp>
-          <sp xml:id="ep000475-e14650">
+          <sp who="ep000475-cyr" xml:id="ep000475-e14650">
             <speaker>Cyr. </speaker>
             <l>All this, and more you bring to my remembrance. </l>
           </sp>
-          <sp xml:id="ep000475-e14680">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14680">
             <speaker>Cyax. </speaker>
             <l>Is't possible, thou hast not then forgot! </l>
             <l>Is this a kind return for all my Love! </l>
@@ -1473,7 +1566,7 @@
             <l>Pity me Gods; for sure I am become </l>
             <l>But the poor Shadow of the thing I was. </l>
           </sp>
-          <sp xml:id="ep000475-e14840">
+          <sp who="ep000475-cyr" xml:id="ep000475-e14840">
             <speaker>Cyr. </speaker>
             <l>O Unkle, hold: For I can hear no more. </l>
             <l>What wicked Man has poison'd thus your Ear? </l>
@@ -1487,11 +1580,11 @@
             <l>If I your Cyrus am the least to blame </l>
             <l>In what you have accus'd me. </l>
           </sp>
-          <sp xml:id="ep000475-e14980">
+          <sp who="ep000475-cyax" xml:id="ep000475-e14980">
             <speaker>Cyax. </speaker>
             <l>Well, I've done. </l>
           </sp>
-          <sp xml:id="ep000475-e15010">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15010">
             <pb n="21" xml:id="ep000475-015-b"/>
             <speaker>Cyr. </speaker>
             <l>Have I worn out my Youth, at home, your Subject, </l>
@@ -1505,11 +1598,11 @@
             <l>Your trembling Courtiers spill their brimming Bowls, </l>
             <l>And with the Palsie life 'em to their Mouths. </l>
           </sp>
-          <sp xml:id="ep000475-e15130">
+          <sp who="ep000475-cyax" xml:id="ep000475-e15130">
             <speaker>Cyax. </speaker>
             <l>No more, my Cyrus. </l>
           </sp>
-          <sp xml:id="ep000475-e15170">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15170">
             <speaker>Cyr. </speaker>
             <l>And have I not augmented all the Kingdoms </l>
             <l>Of great Astyages, with Hazard of </l>
@@ -1520,23 +1613,23 @@
             <l>Is it for this I have so ill deserv'd </l>
             <l>My Unkle's Envy, and unjust Suspicion! </l>
           </sp>
-          <sp xml:id="ep000475-e15280">
+          <sp who="ep000475-cyax" xml:id="ep000475-e15280">
             <speaker>Cyax. </speaker>
             <l>Enough, my Cyrus. </l>
           </sp>
-          <sp xml:id="ep000475-e15320">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15320">
             <speaker>Cyr. </speaker>
             <l>Will you then embrace me? </l>
           </sp>
-          <sp xml:id="ep000475-e15350">
+          <sp who="ep000475-cyax" xml:id="ep000475-e15350">
             <speaker>Cyax. </speaker>
             <l>I will. </l>
           </sp>
-          <sp xml:id="ep000475-e15380">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15380">
             <speaker>Cyr. </speaker>
             <l>And let me kiss your Cheek? </l>
           </sp>
-          <sp xml:id="ep000475-e15410">
+          <sp who="ep000475-cyax" xml:id="ep000475-e15410">
             <speaker>Cyax. </speaker>
             <l>Thou shalt— </l>
             <l>O Cyrus! Thou hast conquer'd me, my Cyrus— </l>
@@ -1553,7 +1646,7 @@
             <l>And I will die the sooner to make Room </l>
             <l>For thee. </l>
           </sp>
-          <sp xml:id="ep000475-e15600">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15600">
             <speaker>Cyr. </speaker>
             <l>O my dear Father, say not so— </l>
             <l>To morrow brings the Empire of the World, </l>
@@ -1572,21 +1665,21 @@
           <pb n="22" xml:id="ep000475-016-a"/>
           <head>Actus Tertius. Scaena Prima. </head>
           <stage xml:id="ep000475-e15770">Enter Cyrus with Guards; Cyaxares, with Hystaspes meeting him. </stage>
-          <sp xml:id="ep000475-e15810">
+          <sp who="ep000475-cyax" xml:id="ep000475-e15810">
             <speaker>Cyax. </speaker>
             <l>I'VE a Request to beg of you, my Cyrus. </l>
           </sp>
-          <sp xml:id="ep000475-e15850">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15850">
             <speaker>Cyr. </speaker>
             <l>What, is't my Royal Unkle? speak, yet not, </l>
             <l>'Tis granted 'ere 'tis nam'd. </l>
           </sp>
-          <sp xml:id="ep000475-e15890">
+          <sp who="ep000475-cyax" xml:id="ep000475-e15890">
             <speaker>Cyax. </speaker>
             <l>'Tis that you wou'd forgive the brave Hystaspes, </l>
             <l>And here restore him to your wonted Favours. </l>
           </sp>
-          <sp xml:id="ep000475-e15940">
+          <sp who="ep000475-cyr" xml:id="ep000475-e15940">
             <speaker>Cyr. </speaker>
             <l>O 'tis the thing that I with Joy intended, </l>
             <l>And now he's doubly fix'd— Rise, my Hystaspes, </l>
@@ -1605,21 +1698,21 @@
             <l>And clear'd my Way through Clusters to the Town— </l>
             <l>This, this with Joy I do remember still. </l>
           </sp>
-          <sp xml:id="ep000475-e16150">
+          <sp who="ep000475-hyst" xml:id="ep000475-e16150">
             <speaker>Hyst. </speaker>
             <l>Your Royal Grace extends too far above </l>
             <l>The Merits of Hystaspes— O I grieve </l>
             <l>When I look back on my Offence to you, </l>
             <l>The bravest Master, and the best of Kings— </l>
           </sp>
-          <sp xml:id="ep000475-e16220">
+          <sp who="ep000475-cyr" xml:id="ep000475-e16220">
             <speaker>Cyr. </speaker>
             <l>No more, Hystaspes, welcome to thy Prince, </l>
             <l>More dear to him than penitent Children are </l>
             <l>To Parents, or than Martyrs to the Gods, </l>
             <l>And like them too I will reward thee— </l>
           </sp>
-          <sp xml:id="ep000475-e16290">
+          <sp who="ep000475-hyst" xml:id="ep000475-e16290">
             <speaker>Hyst. </speaker>
             <l>O I know y'are liberal, </l>
             <l>Can disperse Crowns and Sceptres as you please, </l>
@@ -1627,7 +1720,7 @@
             <l>But Pardon's the rich, only thing I beg, </l>
             <l>And is from Cyrlls more than I can merit. </l>
           </sp>
-          <sp xml:id="ep000475-e16360">
+          <sp who="ep000475-cyr" xml:id="ep000475-e16360">
             <speaker>Cyr. </speaker>
             <l>Enough, Hystaspes; thou shalt see I love thee, </l>
             <l>When I bestow upon thee such a Treasure. </l>
@@ -1640,18 +1733,18 @@
             <l>Thy Wife brought such a Daughter to the World </l>
             <l>To be so well bestow'd— Go fetch her, Craesus. </l>
           </sp>
-          <sp xml:id="ep000475-e16500">
+          <sp who="ep000475-craes" xml:id="ep000475-e16500">
             <speaker>Craes. </speaker>
             <l>O happy Girl, Lausaria! he does </l>
             <l>Intend sure to bestow himself upon her. </l>
             <stage xml:id="ep000475-e16550">[Exit Craesus. </stage>
           </sp>
-          <sp xml:id="ep000475-e16570">
+          <sp who="ep000475-hyst" xml:id="ep000475-e16570">
             <speaker>Hyst. </speaker>
             <l>O Gods! I dream— Can there be such a Thought! </l>
             <l>Has he resolv'd to give Panthea to me! </l>
           </sp>
-          <sp xml:id="ep000475-e16620">
+          <sp who="ep000475-cyr" xml:id="ep000475-e16620">
             <speaker>Cyr. </speaker>
             <l>Prepare, Hystaspes, now to meet such Joys, </l>
             <l>Which if thy Sences are not all Immortal, </l>
@@ -1660,14 +1753,14 @@
             <l>Behold the brightest Star that gilds the World, </l>
             <l>And makes that Bosom Heav'n where e'er she shines. </l>
           </sp>
-          <sp xml:id="ep000475-e16730">
+          <sp who="ep000475-hyst" xml:id="ep000475-e16730">
             <speaker>Hyst. </speaker>
             <l>Is this the Prize of all my flatt'ring Hopes! </l>
             <l>Now I perceive the Gulf that lies before me, </l>
             <l>Yet I run on, and cannot stop my self; </l>
             <l>This Mortal Disobedience stabs me quite. </l>
           </sp>
-          <sp xml:id="ep000475-e16790">
+          <sp who="ep000475-laus" xml:id="ep000475-e16790">
             <speaker>Laus. </speaker>
             <l>Now all you gentle Powers that pity Love, </l>
             <l>And thou, Diana, from the Stars look down, </l>
@@ -1677,7 +1770,7 @@
             <l>I'm to be rais'd this Moment to the Skies, </l>
             <l>Or flung into the bottom of Despair. </l>
           </sp>
-          <sp xml:id="ep000475-e16890">
+          <sp who="ep000475-cyr" xml:id="ep000475-e16890">
             <speaker>Cyr. </speaker>
             <l>Assist me, Iove; and all you that disperse </l>
             <l>Rich Blessings from the Skies— Lend me your Aid; </l>
@@ -1693,11 +1786,11 @@
             <l>A Colour there to set at Enmity </l>
             <l>The Lilly and the Rose— Draw near, Hystaspes— </l>
           </sp>
-          <sp xml:id="ep000475-e17060">
+          <sp who="ep000475-laus" xml:id="ep000475-e17060">
             <speaker>Laus. </speaker>
             <l>O Gods, your Help! what does he mean to do! </l>
           </sp>
-          <sp xml:id="ep000475-e17090">
+          <sp who="ep000475-cyr" xml:id="ep000475-e17090">
             <speaker>Cyr, </speaker>
             <l>Give me your Hand— what now? what means the Man? </l>
             <l>Give me your Hand, I say— I did expect </l>
@@ -1707,7 +1800,7 @@
             <l>Thy Raptures should have been— 〈…〉— </l>
             <l>Why holds Lausaria back?— You both draw back. </l>
           </sp>
-          <sp xml:id="ep000475-e17180">
+          <sp who="ep000475-hyst" xml:id="ep000475-e17180">
             <speaker>Hyst. </speaker>
             <l>Your Pardon, Royal Sir, if my Offence </l>
             <l>Be not too great to challenge any Mercy. </l>
@@ -1716,12 +1809,12 @@
             <l>And therefore to approach it as I ought, </l>
             <l>O give me time to study how to bear it. </l>
           </sp>
-          <sp xml:id="ep000475-e17260">
+          <sp who="ep000475-cyr" xml:id="ep000475-e17260">
             <speaker>Cyr. </speaker>
             <l>Away; I've heard too much— I'll talk with you </l>
             <l>Anon— What means Lausaria? Rise, my Charge. </l>
           </sp>
-          <sp xml:id="ep000475-e17310">
+          <sp who="ep000475-laus" xml:id="ep000475-e17310">
             <speaker>Laus. </speaker>
             <l>Ah, why d'you kill with such a Look of Anger? </l>
             <l>Now your strange Beauties are so awful grown, </l>
@@ -1734,7 +1827,7 @@
             <l>For lo, I think so meanly of my self, </l>
             <l>That I can live to be refus'd by him. </l>
           </sp>
-          <sp xml:id="ep000475-e17440">
+          <sp who="ep000475-cyr" xml:id="ep000475-e17440">
             <speaker>Cyr. </speaker>
             <l>Rise, or you press my yielding Heart to Death— </l>
             <l>This hurls me on the more to thy Revenge— </l>
@@ -1742,20 +1835,20 @@
             <l>To Exile let him go, and not be seen </l>
             <l>So near as Asia does her spreading Empire bound. </l>
           </sp>
-          <sp xml:id="ep000475-e17520">
+          <sp who="ep000475-laus" xml:id="ep000475-e17520">
             <speaker>Laus. </speaker>
             <l>O let me beg you wou'd recall your Doom. </l>
           </sp>
-          <sp xml:id="ep000475-e17550">
+          <sp who="ep000475-cyax" xml:id="ep000475-e17550">
             <speaker>Cyax. </speaker>
             <l>Nephew. </l>
           </sp>
-          <sp xml:id="ep000475-e17580">
+          <sp who="ep000475-craes" xml:id="ep000475-e17580">
             <speaker>Craes. </speaker>
             <l>O Cyrus! </l>
             <l>Mighty Prince, but hear us. </l>
           </sp>
-          <sp xml:id="ep000475-e17630">
+          <sp who="ep000475-cyr" xml:id="ep000475-e17630">
             <speaker>Cyr. </speaker>
             <l>Keep off, and give me Breath, you stifle me— </l>
             <l>Why, Unkle, Craesus, King of Lydia, I've decreed it, </l>
@@ -1763,7 +1856,7 @@
             <l>Away with him— A thousand Basilisks </l>
             <l>Are in his Eyes. </l>
           </sp>
-          <sp xml:id="ep000475-e17720">
+          <sp who="ep000475-hyst" xml:id="ep000475-e17720">
             <speaker>Hyst. </speaker>
             <l>With haste I will obey you. </l>
             <l>Thus on my Knees I take your gentle Doom; I go </l>
@@ -1775,23 +1868,23 @@
             <l>Adorn the Head of the most God like Cyrus. </l>
             <stage xml:id="ep000475-e17830">[Exit Hystaspes. </stage>
           </sp>
-          <sp xml:id="ep000475-e17850">
+          <sp who="ep000475-craes" xml:id="ep000475-e17850">
             <speaker>Craes. </speaker>
             <l>He's gone, and see the King looks discontent, </l>
           </sp>
-          <sp xml:id="ep000475-e17880">
+          <sp who="ep000475-cyax" xml:id="ep000475-e17880">
             <speaker>Cyax. </speaker>
             <l>Why, Nephew, Cyrus, you are mov'd. </l>
           </sp>
-          <sp xml:id="ep000475-e17920">
+          <sp who="ep000475-laus" xml:id="ep000475-e17920">
             <speaker>Laus. </speaker>
             <l>O Cyrus! </l>
           </sp>
-          <sp xml:id="ep000475-e17960">
+          <sp who="ep000475-cyr" xml:id="ep000475-e17960">
             <speaker>Cyr. </speaker>
             <l>What says the bright the wrong'd Lausaria? </l>
           </sp>
-          <sp xml:id="ep000475-e18000">
+          <sp who="ep000475-laus" xml:id="ep000475-e18000">
             <speaker>Laus. </speaker>
             <l>Why have you banish'd from your sight Hystaspes? </l>
             <pb n="25" xml:id="ep000475-017-b"/>
@@ -1807,11 +1900,11 @@
             <l>Of all the World, the greatest, bravest Soul </l>
             <l>As e'er the Gods put in a mortal Body. </l>
           </sp>
-          <sp xml:id="ep000475-e18170">
+          <sp who="ep000475-cyr" xml:id="ep000475-e18170">
             <speaker>Cyr. </speaker>
             <l>Alas! What's this I hear! </l>
           </sp>
-          <sp xml:id="ep000475-e18200">
+          <sp who="ep000475-laus" xml:id="ep000475-e18200">
             <speaker>Laus. </speaker>
             <l>Now judge by what I've said, if I cou'd e'er </l>
             <l>Descend to love another— I have done— </l>
@@ -1820,20 +1913,20 @@
             <l>This mortal Secret you have wrack'd from me </l>
             <l>Will kill Lausaria: </l>
           </sp>
-          <sp xml:id="ep000475-e18290">
+          <sp who="ep000475-craes" xml:id="ep000475-e18290">
             <speaker>Craes. </speaker>
             <l>Unhappy Girl. </l>
           </sp>
-          <sp xml:id="ep000475-e18320">
+          <sp who="ep000475-laus" xml:id="ep000475-e18320">
             <speaker>Laus. </speaker>
             <l>Give me a Vail: And now the World farewel. </l>
           </sp>
-          <sp xml:id="ep000475-e18350">
+          <sp who="ep000475-cyr" xml:id="ep000475-e18350">
             <speaker>Cyr. </speaker>
             <l>What means the bright, the wrong'd Lausaria? </l>
             <l>Why dost thou hide thy Charming Face from Cyrus? </l>
           </sp>
-          <sp xml:id="ep000475-e18410">
+          <sp who="ep000475-laus" xml:id="ep000475-e18410">
             <speaker>Laus. </speaker>
             <l>'Tis just, after a Confidence so new, </l>
             <l>It shou'd for ever thus be shut from you. </l>
@@ -1845,12 +1938,12 @@
             <l>To drown my Flames, and quench me now I burn. </l>
             <stage xml:id="ep000475-e18530">[Exit Laus. </stage>
           </sp>
-          <sp xml:id="ep000475-e18550">
+          <sp who="ep000475-cyax" xml:id="ep000475-e18550">
             <speaker>Cyax. </speaker>
             <l>What, does not this start Pity from your Eyes </l>
             <l>And Heart? </l>
           </sp>
-          <sp xml:id="ep000475-e18590">
+          <sp who="ep000475-cyr" xml:id="ep000475-e18590">
             <speaker>Cyr. </speaker>
             <l>Tell me, instruct me what to do— </l>
             <l>O Cyaxares, lend me thy dear Breast, </l>
@@ -1865,7 +1958,7 @@
             <stage xml:id="ep000475-e18740">Enter to them Artabasus. </stage>
             <l>What means this Trumpet's formal sound?— The News? </l>
           </sp>
-          <sp xml:id="ep000475-e18770">
+          <sp who="ep000475-arta" xml:id="ep000475-e18770">
             <speaker>Arta. </speaker>
             <l>It is a Herauld from th' Assyrian Camp, </l>
             <l>That says, the Scythian Queen, the brave Thomyris, </l>
@@ -1873,13 +1966,13 @@
             <pb n="26" xml:id="ep000475-018-a"/>
             <l>Attend to ask a moments Parley with you. </l>
           </sp>
-          <sp xml:id="ep000475-e18880">
+          <sp who="ep000475-cyr" xml:id="ep000475-e18880">
             <speaker>Cyr. </speaker>
             <l>Then we shall see this wonder of her Sex— </l>
             <l>Craesus, thou knowst her— Is she then so Brave, </l>
             <l>So Great, and Valiant as the World reports her? </l>
           </sp>
-          <sp xml:id="ep000475-e18940">
+          <sp who="ep000475-craes" xml:id="ep000475-e18940">
             <speaker>Craes. </speaker>
             <l>She is indeed a Woman of such Spirit </l>
             <l>As you have heard of Iuno, of such Honour, </l>
@@ -1892,11 +1985,11 @@
             <l>But heark, she comes,— this Trumpet speaks her Entrance. </l>
           </sp>
           <stage xml:id="ep000475-e19060">Enter to them <hi>Thomyris, Abradatus</hi>, Women and Attendance, in State, Scythian Guards. </stage>
-          <sp xml:id="ep000475-e19080">
+          <sp who="ep000475-cyr" xml:id="ep000475-e19080">
             <speaker>Cyr. </speaker>
             <l>She is indeed of admirable Presence. </l>
           </sp>
-          <sp xml:id="ep000475-e19110">
+          <sp who="ep000475-thom" xml:id="ep000475-e19110">
             <speaker>Thom. </speaker>
             <l>There cannot be a Wonder on the Earth </l>
             <l>So Great as Cyrus is: If thou art he, </l>
@@ -1911,13 +2004,13 @@
             <l>Something which makes great Souls so near ally'd, </l>
             <l>Tells me you are that excellent brave Man. </l>
           </sp>
-          <sp xml:id="ep000475-e19280">
+          <sp who="ep000475-cyr" xml:id="ep000475-e19280">
             <speaker>Cyr. </speaker>
             <l>I am that most unworthy Cyrus— </l>
             <l>What wou'd the Great, th' most famous in the World </l>
             <l>The Scythian Queen? </l>
           </sp>
-          <sp xml:id="ep000475-e19350">
+          <sp who="ep000475-thom" xml:id="ep000475-e19350">
             <speaker>Thom. </speaker>
             <l>Hear me, Divinest King— </l>
             <l>Curse me, you Powers, and languish all my Fame, </l>
@@ -1939,11 +2032,11 @@
             <l>And Cyrus cannot stoop to do a thing </l>
             <l>That is not brave. </l>
           </sp>
-          <sp xml:id="ep000475-e19580">
+          <sp who="ep000475-cyr" xml:id="ep000475-e19580">
             <speaker>Cyr. </speaker>
             <l>Go on, bright Queen. </l>
           </sp>
-          <sp xml:id="ep000475-e19610">
+          <sp who="ep000475-thomy" xml:id="ep000475-e19610">
             <speaker>Thomy. </speaker>
             <l>Long hearing of thy vast and proud Successe; </l>
             <l>O'er all Mankind. In pity of the World, </l>
@@ -1953,7 +2046,7 @@
             <l>And with brave Cyrus make immortal League, </l>
             <l>If he'll restore the sad Panthea to us. </l>
           </sp>
-          <sp xml:id="ep000475-e19720">
+          <sp who="ep000475-cyr" xml:id="ep000475-e19720">
             <speaker>Cyr. </speaker>
             <l>Now blest be all those Deities that saw </l>
             <l>The solemn Rites performing 'gainst their Wills, </l>
@@ -1965,7 +2058,7 @@
             <l>For they are not so dear, nor half so sacred, </l>
             <l>Nor look so bright in all the World's esteem. </l>
           </sp>
-          <sp xml:id="ep000475-e19830">
+          <sp who="ep000475-abra" xml:id="ep000475-e19830">
             <speaker>Abra. </speaker>
             <l>O I am ruin'd— Hell is in my Bosom— </l>
             <l>Panthea's lost, undone, inconstant, ha! </l>
@@ -1973,14 +2066,14 @@
             <l>Curse on this feeble Arm that cou'd nor guard her, </l>
             <l>Nor had the Courage to assault my Breast. </l>
           </sp>
-          <sp xml:id="ep000475-e19910">
+          <sp who="ep000475-cyax" xml:id="ep000475-e19910">
             <speaker>Cyax. </speaker>
             <l>It is apparent that the Gods were all </l>
             <l>Displeas'd, and meant those Nuptials shou'd not be, </l>
             <l>When at the very Altar, like a Dove </l>
             <l>From the fierce Vultures Claws they rescu'd her. </l>
           </sp>
-          <sp xml:id="ep000475-e19970">
+          <sp who="ep000475-abra" xml:id="ep000475-e19970">
             <speaker>Abra. </speaker>
             <l>O King of an Immortal Fame! </l>
             <l>Dread Cyrus, thou art Great, above the World: </l>
@@ -2002,7 +2095,7 @@
             <pb n="28" xml:id="ep000475-019-a"/>
             <l>To kill this great Disturber of the World. </l>
           </sp>
-          <sp xml:id="ep000475-e20220">
+          <sp who="ep000475-thom" xml:id="ep000475-e20220">
             <speaker>Thom. </speaker>
             <l>Spoke like thy self, my Valiant Abradatus, </l>
             <l>Thou hast a Scythian's Courage in thy Breast— </l>
@@ -2014,14 +2107,14 @@
             <l>To thy eternal Shame and Infamy, </l>
             <l>A Woman conquer'd thee. </l>
           </sp>
-          <sp xml:id="ep000475-e20370">
+          <sp who="ep000475-cyr" xml:id="ep000475-e20370">
             <speaker>Cyr. </speaker>
             <l>Proud Queen, retreat least we profane the Truce, </l>
             <l>The nicest Law of Arms can ne'er indure </l>
             <l>Such daring Provocations. </l>
           </sp>
           <stage xml:id="ep000475-e20420">Enter Panthea attended. </stage>
-          <sp xml:id="ep000475-e20440">
+          <sp who="ep000475-panth" xml:id="ep000475-e20440">
             <speaker>Panth. </speaker>
             <l>My Abradatas. </l>
             <l>Soul of my Love, and Lord of my Desires, </l>
@@ -2030,7 +2123,7 @@
             <l>Save me from Fears, from Prison, and from Harms, </l>
             <l>And lock me safe within these tender Arms. </l>
           </sp>
-          <sp xml:id="ep000475-e20530">
+          <sp who="ep000475-abra" xml:id="ep000475-e20530">
             <speaker>Abra. </speaker>
             <l>O my Panthea! Let me hold thee fast, </l>
             <l>Hoard all my numberless and breathless Kisses, </l>
@@ -2038,7 +2131,7 @@
             <l>This Pleasure is too great and rich to last— </l>
             <l>O stir not from me. </l>
           </sp>
-          <sp xml:id="ep000475-e20610">
+          <sp who="ep000475-panth" xml:id="ep000475-e20610">
             <speaker>Panth. </speaker>
             <l>No, we'll never part— </l>
             <l>Our Loves shall here incorp'rate us like Air; </l>
@@ -2048,7 +2141,7 @@
             <l>Nay, Cyrus is too Brave, too Good to see </l>
             <l>Such faithful Lovers languish any longer. </l>
           </sp>
-          <sp xml:id="ep000475-e20730">
+          <sp who="ep000475-cyr" xml:id="ep000475-e20730">
             <speaker>Cyr. </speaker>
             <l>O I am struck!— A thousand Stings dart all </l>
             <l>At once their pointed Venom in my Eyes, </l>
@@ -2063,7 +2156,7 @@
             <l>Prince, from this fatal Extasie retire, </l>
             <l>This sight will mortal be to one of us. </l>
           </sp>
-          <sp xml:id="ep000475-e20880">
+          <sp who="ep000475-abra" xml:id="ep000475-e20880">
             <pb n="29" xml:id="ep000475-019-b"/>
             <speaker>Abra. </speaker>
             <l>Thou shalt not stirr— I will not move without her, </l>
@@ -2073,13 +2166,13 @@
             <l>Oh Mother! let me lose this hated Life: </l>
             <l>First let me dye before I part with her. </l>
           </sp>
-          <sp xml:id="ep000475-e20970">
+          <sp who="ep000475-panth" xml:id="ep000475-e20970">
             <speaker>Panth. </speaker>
             <l>Think not of Death, my Abradatas, loe, </l>
             <l>The Gallant Monarch melts, and says it too; </l>
             <l>Our Lives shall be immortal as our Loves. </l>
           </sp>
-          <sp xml:id="ep000475-e21030">
+          <sp who="ep000475-thom" xml:id="ep000475-e21030">
             <speaker>Thom. </speaker>
             <l>Cyrus has reach'd the utmost brink of Greatness— </l>
             <l>The Gods no longer will dispute thy Fate, </l>
@@ -2095,7 +2188,7 @@
             <l>Shall lead this once brave Man a Captive-Slave, </l>
             <l>This empty Form of his departed Greatness. </l>
           </sp>
-          <sp xml:id="ep000475-e21210">
+          <sp who="ep000475-panth" xml:id="ep000475-e21210">
             <speaker>Panth. </speaker>
             <l>O Royal Mother! </l>
             <l>Why d'you mistake? You wrong the God-like Cyrus. </l>
@@ -2105,7 +2198,7 @@
             <l>As Conqu'rour of the World, and you shall see </l>
             <l>No God can be so lavish, nor so kind. </l>
           </sp>
-          <sp xml:id="ep000475-e21310">
+          <sp who="ep000475-abra" xml:id="ep000475-e21310">
             <speaker>Abra. </speaker>
             <l>My dear Panthea, why d'you thus proceed? </l>
             <l>Unless you wish to make me worse than Woman— </l>
@@ -2115,7 +2208,7 @@
             <l>That I can take, to morrow I will bring </l>
             <l>Thy Abradatas to thee, live or dead. </l>
           </sp>
-          <sp xml:id="ep000475-e21420">
+          <sp who="ep000475-panth" xml:id="ep000475-e21420">
             <speaker>Panth. </speaker>
             <l>No, say not so— Thus kneel with thy Panthea, </l>
             <l>My Hand close lock'd in thine, my Abradatas, </l>
@@ -2125,7 +2218,7 @@
             <l>And may your Arms, and Fame increase in Wars, </l>
             <l>As you to Love, are pityful and kind. </l>
           </sp>
-          <sp xml:id="ep000475-e21530">
+          <sp who="ep000475-abra" xml:id="ep000475-e21530">
             <speaker>Abra. </speaker>
             <l>Now, God-like Cyrus, from thy Rage look down, </l>
             <l>By all those Virtues that have made thee shine, </l>
@@ -2139,13 +2232,13 @@
             <l>Pity me then, and give Panthea to me: </l>
             <l>O give her to these Arms! </l>
           </sp>
-          <sp xml:id="ep000475-e21680">
+          <sp who="ep000475-panth" xml:id="ep000475-e21680">
             <speaker>Panth. </speaker>
             <l>Mighty Cyrus, </l>
             <l>Give Abradatas to my thousand Wishes, </l>
             <l>And Oh, restore his lov'd Panthea to him! </l>
           </sp>
-          <sp xml:id="ep000475-e21760">
+          <sp who="ep000475-cyr" xml:id="ep000475-e21760">
             <speaker>Cyr. </speaker>
             <l>They kneel— She kneels— </l>
             <l>See, see, my valiant Friends, </l>
@@ -2156,14 +2249,14 @@
             <l>Thou art more cruel to thy Cyrus far </l>
             <l>Than he can be to thee. </l>
           </sp>
-          <sp xml:id="ep000475-e21870">
+          <sp who="ep000475-panth" xml:id="ep000475-e21870">
             <speaker>Panth. </speaker>
             <l>Here we will grow, </l>
             <l>Thus ever fix'd, thus rooted as you see us, </l>
             <l>Till from the noblest Breath of all the World, </l>
             <l>We hear the Sentence of our Death or Life. </l>
           </sp>
-          <sp xml:id="ep000475-e21930">
+          <sp who="ep000475-cyr" xml:id="ep000475-e21930">
             <speaker>Cyr. </speaker>
             <l>Oh Friends! I feel a War within my Breast. </l>
             <l>The horrid Sound of Fights, and parting Ghosts </l>
@@ -2180,7 +2273,7 @@
             <l>And I can fly from nothing but this Sight. </l>
             <stage xml:id="ep000475-e22090">[Exit Cyrus. </stage>
           </sp>
-          <sp xml:id="ep000475-e22110">
+          <sp who="ep000475-abra" xml:id="ep000475-e22110">
             <speaker>Abra. </speaker>
             <l>Now, now I curse my Tameness, and these Knees, </l>
             <l>That made me stoop so low to beg ev'n thee— </l>
@@ -2189,7 +2282,7 @@
             <l>With Curses, whilst thy Abradatas shall </l>
             <l>Prepare to fight, and pour 'em all upon him. </l>
           </sp>
-          <sp xml:id="ep000475-e22210">
+          <sp who="ep000475-thom" xml:id="ep000475-e22210">
             <speaker>Thom. </speaker>
             <l>Go, we must leave thee in thy Prison again, </l>
             <l>But in the Morning thou shalt rise from thence, </l>
@@ -2197,7 +2290,7 @@
             <l>And see thy self as free— Go, whilst we stay, </l>
             <l>Revenge grows tame, and we forget thy Wrongs. </l>
           </sp>
-          <sp xml:id="ep000475-e22280">
+          <sp who="ep000475-panth" xml:id="ep000475-e22280">
             <speaker>Panth. </speaker>
             <l>Then must we part! Yet I'm to blame— Begone, </l>
             <l>Go, whilst my Woman's Soul can give thee leave, </l>
@@ -2205,11 +2298,11 @@
             <pb n="31" xml:id="ep000475-020-b"/>
             <l>A faithful, tender Wife's kind Thoughts attend thee. </l>
           </sp>
-          <sp xml:id="ep000475-e22340">
+          <sp who="ep000475-abra" xml:id="ep000475-e22340">
             <speaker>Abra. </speaker>
             <l>O my Panthea! </l>
           </sp>
-          <sp xml:id="ep000475-e22380">
+          <sp who="ep000475-panth" xml:id="ep000475-e22380">
             <speaker>Panth. </speaker>
             <l>And to inspire thee more, call to thy Mind </l>
             <l>Our Infant Loves, the soft, and precious Vows </l>
@@ -2220,7 +2313,7 @@
             <l>But Oh, regard— Regard that precious Life, </l>
             <l>By which both live, and all the Gods protect thee, </l>
           </sp>
-          <sp xml:id="ep000475-e22480">
+          <sp who="ep000475-abra" xml:id="ep000475-e22480">
             <speaker>Abra. </speaker>
             <l>The Thoughts of thee shall still enrich my Mind </l>
             <l>With all the Pleasures that are yet to come, </l>
@@ -2229,48 +2322,48 @@
             <l>Till the pale Empress of the Night grew weary, </l>
             <l>And sate to rest behind a silken Cloud. </l>
           </sp>
-          <sp xml:id="ep000475-e22560">
+          <sp who="ep000475-thom" xml:id="ep000475-e22560">
             <speaker>Thom. </speaker>
             <l>Have done, or I must act the Part of Cyrus, </l>
             <l>And tear you from each others Arms. </l>
           </sp>
-          <sp xml:id="ep000475-e22610">
+          <sp who="ep000475-abra" xml:id="ep000475-e22610">
             <speaker>Abra. </speaker>
             <l>This Kiss, and then we part— Farewell— It comes, </l>
             <l>Methinks already the fierce Storm begins, </l>
             <l>And bears thee from me o'er a thousand Billows. </l>
           </sp>
-          <sp xml:id="ep000475-e22660">
+          <sp who="ep000475-panth" xml:id="ep000475-e22660">
             <speaker>Panth. </speaker>
             <l>Thee, like a Rock, I fain wou'd hold but cannot. </l>
             <l>But Oh! rough Horrour like a desperate Sea, </l>
             <l>Throws me from off Love's Fortress and from thee. </l>
           </sp>
-          <sp xml:id="ep000475-e22710">
+          <sp who="ep000475-abra" xml:id="ep000475-e22710">
             <speaker>Abra. </speaker>
             <l>Weep not, my Soul— Who knows but that 'ere long, </l>
             <l>Our weary'd Barks may meet, the Storm o'er-blown. </l>
             <l>Trust till to morrow what the Gods can do. </l>
           </sp>
           <stage xml:id="ep000475-e22760">[Exeunt <hi>Thomyris, Abradatas</hi>, and their Attendants, at one Door; and Panthea weeping with her Maids, at another. Manent <hi>Cyaxares, Craesus, Artabasus</hi>, and Guards. </stage>
-          <sp xml:id="ep000475-e22800">
+          <sp who="ep000475-cyax" xml:id="ep000475-e22800">
             <speaker>Cyax. </speaker>
             <l>Let a strong Guard attend the Scythian Queen, </l>
             <l>Till she is safe arriv'd within her Camp. </l>
           </sp>
           <stage xml:id="ep000475-e22850">Re-Enter Cyrus. </stage>
-          <sp xml:id="ep000475-e22870">
+          <sp who="ep000475-cyr" xml:id="ep000475-e22870">
             <speaker>Cyr. </speaker>
             <l>Tell me, kind Unkle, tell thy Cyrus quickly, </l>
             <l>How bore the sad Panthea her Departure? </l>
           </sp>
-          <sp xml:id="ep000475-e22930">
+          <sp who="ep000475-cyax" xml:id="ep000475-e22930">
             <speaker>Cyax. </speaker>
             <l>As silent as the Day gives way to Night, </l>
             <l>And patient as the Spirit of a Saint </l>
             <l>Dying, and leaving all the World behind him. </l>
           </sp>
-          <sp xml:id="ep000475-e22980">
+          <sp who="ep000475-cyr" xml:id="ep000475-e22980">
             <speaker>Cyr. </speaker>
             <l>Run, Artabasus, run, and kneel before her, </l>
             <l>Tell her, what Kingdom in the World can buy </l>
@@ -2289,16 +2382,16 @@
             <l>Thy Eloquence has clear'd the Delphick Riddles, </l>
             <l>O charm my Goddess as thou charm'st the God— </l>
           </sp>
-          <sp xml:id="ep000475-e23200">
+          <sp who="ep000475-craes" xml:id="ep000475-e23200">
             <speaker>Craes. </speaker>
             <l>Else may I fall a Sacrifice to Cyrus— </l>
           </sp>
-          <sp xml:id="ep000475-e23240">
+          <sp who="ep000475-cyax" xml:id="ep000475-e23240">
             <speaker>Cyax. </speaker>
             <l>Rejoice, my Cyrus, doubt not thy Success; </l>
             <l>That needs must move, which tortures all our Pity. </l>
           </sp>
-          <sp xml:id="ep000475-e23290">
+          <sp who="ep000475-cyr" xml:id="ep000475-e23290">
             <speaker>Cyr. </speaker>
             <l>'Tis she must pity, you forgive my Passion— </l>
             <l>Lend me a Dagger one of you, or kill me; </l>
@@ -2316,13 +2409,13 @@
         <div n="4" type="act_and_scene" xml:id="ep000475-e23430">
           <head>Actus Quartus, Scaena Prima. </head>
           <stage xml:id="ep000475-e23450">Scene draws, and discovers Cyrus, and Cyaxares; They come forwards. </stage>
-          <sp xml:id="ep000475-e23480">
+          <sp who="ep000475-cyr" xml:id="ep000475-e23480">
             <speaker>Cyr. </speaker>
             <l>YET more! Have I not said enough, dear Unkle? </l>
             <l>And have you not already seen and heard </l>
             <l>With blushing, too much of your Cyrus Frailties? </l>
           </sp>
-          <sp xml:id="ep000475-e23540">
+          <sp who="ep000475-cyax" xml:id="ep000475-e23540">
             <speaker>Cyax. </speaker>
             <l>Tell me, my Cyrus, when you have disclos'd </l>
             <l>The heavy Load that lies upon your Soul, </l>
@@ -2330,7 +2423,7 @@
             <l>These Strugglings of the Nobler Passions shew </l>
             <l>The most Heroick Mind that ever was. </l>
           </sp>
-          <sp xml:id="ep000475-e23620">
+          <sp who="ep000475-cyr" xml:id="ep000475-e23620">
             <speaker>Cyr. </speaker>
             <l>O Cyaxares! I'm all Guilt, all Stain, </l>
             <l>Ev'n I that rid the foremost in the World, </l>
@@ -2344,7 +2437,7 @@
             <l>My matchless Glories with my self are sunk, </l>
             <l>In the false footing of a Woman's smile. </l>
           </sp>
-          <sp xml:id="ep000475-e23750">
+          <sp who="ep000475-cyax" xml:id="ep000475-e23750">
             <speaker>Cyax. </speaker>
             <l>You are Impartial to a fault, my Cyrus. </l>
             <l>Whose Love is guided by the Rays of Vertue— </l>
@@ -2357,7 +2450,7 @@
             <l>Nay, Solon has confess'd, </l>
             <l>That he himself was once a Slave to Love. </l>
           </sp>
-          <sp xml:id="ep000475-e23900">
+          <sp who="ep000475-cyr" xml:id="ep000475-e23900">
             <speaker>Cyr. </speaker>
             <l>Solon! had Solon that to lose as I have? </l>
             <l>Had he the business of the World to fill </l>
@@ -2370,7 +2463,7 @@
             <l>Achilles, when a Boy, did never handle </l>
             <l>And ply the Distaff with such Female Skill. </l>
           </sp>
-          <sp xml:id="ep000475-e24060">
+          <sp who="ep000475-cyax" xml:id="ep000475-e24060">
             <speaker>Cyax. </speaker>
             <l>Still you run on, are too severe a Judge </l>
             <l>Ev'n to your self, your Honour is too nice, </l>
@@ -2381,7 +2474,7 @@
             <l>'Tis Mortal-like to be the Aim of Vice, </l>
             <l>But it is God-like to resist its Fury. </l>
           </sp>
-          <sp xml:id="ep000475-e24160">
+          <sp who="ep000475-cyr" xml:id="ep000475-e24160">
             <speaker>Cyr. </speaker>
             <l>Teach me, dear Unkle, teach me how to do so: </l>
             <l>I feel my Vertue now begins to tire, </l>
@@ -2390,19 +2483,19 @@
             <l>O then I wish the pleasant grief to keep. </l>
           </sp>
           <stage xml:id="ep000475-e24230">Enter to them Hystaspes. </stage>
-          <sp xml:id="ep000475-e24250">
+          <sp who="ep000475-hyst" xml:id="ep000475-e24250">
             <speaker>Hyst. </speaker>
             <l>Thus low Hystaspes falls beneath your Feet, </l>
             <l>And comes to know his Monarch's joyful Doom. </l>
           </sp>
-          <sp xml:id="ep000475-e24300">
+          <sp who="ep000475-cyr" xml:id="ep000475-e24300">
             <speaker>Cyr. </speaker>
             <l>Welcome, Hystaspes, once more to my Arms, </l>
             <l>And from this time for ever to my Breast; </l>
             <l>No Love, nor Jealousie shall henceforth throw </l>
             <l>Suspitions 'twixt my Friend and me. </l>
           </sp>
-          <sp xml:id="ep000475-e24370">
+          <sp who="ep000475-hyst" xml:id="ep000475-e24370">
             <speaker>Hyst. </speaker>
             <l>Then 'tis </l>
             <l>Above the Malice of Fiends in Hell, </l>
@@ -2413,7 +2506,7 @@
             <l>But oh! forgive, forgive your Soldier's Crimes, </l>
             <l>Led by his Frailties. </l>
           </sp>
-          <sp xml:id="ep000475-e24470">
+          <sp who="ep000475-cyr" xml:id="ep000475-e24470">
             <speaker>Cyr. </speaker>
             <l>Thou art good Hystaspes; </l>
             <l>'Tis thou hast cause to blame thy Cyrus's Temper, </l>
@@ -2425,32 +2518,32 @@
             <l>My Eyes, I will behold hurtless as shadows, </l>
             <l>Or as Iove's Bird the Eagle does the Sun. </l>
           </sp>
-          <sp xml:id="ep000475-e24630">
+          <sp who="ep000475-hyst" xml:id="ep000475-e24630">
             <speaker>Hyst. </speaker>
             <l>O my lov'd Lord, persue your gallant Hopes, </l>
             <l>She shall be yours by all the Powers above; </l>
             <l>My self shall hold your Hymen's Torch— O Sir </l>
             <l>She's too Divine for all the World but you. </l>
           </sp>
-          <sp xml:id="ep000475-e24700">
+          <sp who="ep000475-cyr" xml:id="ep000475-e24700">
             <speaker>Cyr. </speaker>
             <l>No more, Hystaspes— There is something in </l>
             <l>Thy Face that shews thou art not yet well pleas'd— </l>
             <l>Tell me— why look'st thou still upon us with </l>
             <l>A troubled Brow? </l>
           </sp>
-          <sp xml:id="ep000475-e24770">
+          <sp who="ep000475-hyst" xml:id="ep000475-e24770">
             <speaker>Hyst. </speaker>
             <l>I came from such a sight </l>
             <l>Wou'd strike Compassion from obdurate Rocks, </l>
             <l>And make soft Pity flow from Hearts of Steel, </l>
             <l>The Courage of your Soldiers flags to tell it. </l>
           </sp>
-          <sp xml:id="ep000475-e24830">
+          <sp who="ep000475-cyr" xml:id="ep000475-e24830">
             <speaker>Cyr. </speaker>
             <l>Out with it, tho', let it be ne're so dreadful. </l>
           </sp>
-          <sp xml:id="ep000475-e24860">
+          <sp who="ep000475-hyst" xml:id="ep000475-e24860">
             <speaker>Hyst. </speaker>
             <l>The Fair, th' unhappy, Innocent Lausaria </l>
             <l>Is grown distracted by a violent Grief; </l>
@@ -2459,19 +2552,19 @@
             <l>Fled to the Gods that gave them, and, no doubt, </l>
             <l>E're long will draw the lovely Body after. </l>
           </sp>
-          <sp xml:id="ep000475-e24950">
+          <sp who="ep000475-cyax" xml:id="ep000475-e24950">
             <speaker>Cyax. </speaker>
             <l>Ha! what say'st thou? </l>
           </sp>
-          <sp xml:id="ep000475-e24980">
+          <sp who="ep000475-cyr" xml:id="ep000475-e24980">
             <speaker>Cyr. </speaker>
             <l>Can this be true, Hystaspes? </l>
           </sp>
-          <sp xml:id="ep000475-e25020">
+          <sp who="ep000475-cyax" xml:id="ep000475-e25020">
             <speaker>Cyax. </speaker>
             <l>The Cause? </l>
           </sp>
-          <sp xml:id="ep000475-e25050">
+          <sp who="ep000475-hyst" xml:id="ep000475-e25050">
             <speaker>Hyst. </speaker>
             <l>Do you not guess it, since she own'd </l>
             <l>A Passion for the Great, and Famous Cyrus? </l>
@@ -2488,13 +2581,13 @@
             <l>From Cyrus's sight— O! Cyrus follows me; </l>
             <l>He mocks me— Hide me from his scornful Eyes. </l>
           </sp>
-          <sp xml:id="ep000475-e25230">
+          <sp who="ep000475-cyr" xml:id="ep000475-e25230">
             <speaker>Cyr. </speaker>
             <l>Hold, hold, Hystaspes give me strength to hear thee; </l>
             <l>Thou pour'st ill News too fast upon my Soul— </l>
             <l>So— But go on. </l>
           </sp>
-          <sp xml:id="ep000475-e25290">
+          <sp who="ep000475-hyst" xml:id="ep000475-e25290">
             <speaker>Hyst. </speaker>
             <l>This for some Minutes held her, </l>
             <l>Till from the Fatal Extasie, she rose, </l>
@@ -2505,11 +2598,11 @@
             <l>That we too soon the Fatal Meaning knew, </l>
             <l>Through all their dark and ridled Sense. </l>
           </sp>
-          <sp xml:id="ep000475-e25400">
+          <sp who="ep000475-cyr" xml:id="ep000475-e25400">
             <speaker>Cyr. </speaker>
             <l>Pry'thee, what said she?— Say, did she not Curse me? </l>
           </sp>
-          <sp xml:id="ep000475-e25430">
+          <sp who="ep000475-hyst" xml:id="ep000475-e25430">
             <speaker>Hyst. </speaker>
             <l>Thus she wou'd talk— </l>
             <l>Where's Cyrus, where? Has he not heard I love him— </l>
@@ -2529,7 +2622,7 @@
             <l>As not t'adore so excellent a Man? </l>
           </sp>
           <stage xml:id="ep000475-e25680">Enter to them Craesus weeping. </stage>
-          <sp xml:id="ep000475-e25700">
+          <sp who="ep000475-crae" xml:id="ep000475-e25700">
             <speaker>Crae. </speaker>
             <l>O Cyrus, I perceive the Gods ordain </l>
             <l>Thy Friends and Foes to fall alike by thee, </l>
@@ -2541,7 +2634,7 @@
             <l>In Love as well as War, has made amongst </l>
             <l>Lausariar's Beauties. </l>
           </sp>
-          <sp xml:id="ep000475-e25830">
+          <sp who="ep000475-cyr" xml:id="ep000475-e25830">
             <speaker>Cyr. </speaker>
             <l>When, when ye Gods will all these mischiefs cease, </l>
             <l>Or grow to such a Bulk will sink me quite!— </l>
@@ -2552,7 +2645,7 @@
             <l>And save the greatest miracle of Love. </l>
           </sp>
           <stage xml:id="ep000475-e25920">[Exeunt Cyrus and Craesus. </stage>
-          <sp xml:id="ep000475-e25950">
+          <sp who="ep000475-cyax" xml:id="ep000475-e25950">
             <speaker>Cyax. </speaker>
             <l>Why, why ye Gods, has Cyrus so deserv'd! </l>
             <l>That almost at the Race's end of Glory, </l>
@@ -2566,7 +2659,7 @@
             <l>Hystaspes, when does Balthazar intend </l>
             <l>To give us Battel? </l>
           </sp>
-          <sp xml:id="ep000475-e26120">
+          <sp who="ep000475-hyst" xml:id="ep000475-e26120">
             <speaker>Hyst. </speaker>
             <l>Early this next Morning; </l>
             <l>I understood it by a Slave of mine, </l>
@@ -2583,7 +2676,7 @@
             <l>Scorning the Gods, the Fates, and thinks them poor, </l>
             <l>And all besides his boasted Power but mean. </l>
           </sp>
-          <sp xml:id="ep000475-e26300">
+          <sp who="ep000475-cyax" xml:id="ep000475-e26300">
             <speaker>Cyax. </speaker>
             <l>Wou'd it were now, Hystaspes, wou'd the Fight </l>
             <l>Were now beginning, and the Trumpets call </l>
@@ -2593,21 +2686,21 @@
             <l>His Breast lay'd open to the poysonous Darts </l>
             <l>Of Cruel Beauty. </l>
           </sp>
-          <sp xml:id="ep000475-e26410">
+          <sp who="ep000475-hyst" xml:id="ep000475-e26410">
             <speaker>Hyst. </speaker>
             <l>O the Happy time! </l>
             <l>Thy Rage soft Tyranous Love shall then have End, </l>
             <l>When Cyrus kindles once again the Heat </l>
             <l>That first inspir'd his Noble Breast with Glory. </l>
           </sp>
-          <sp xml:id="ep000475-e26480">
+          <sp who="ep000475-cyax" xml:id="ep000475-e26480">
             <speaker>Cyax. </speaker>
             <l>I hear sudden noise of Clashing Swords— </l>
             <stage xml:id="ep000475-e26510">[Noise of Fighting within. </stage>
             <l>Look out, Hystaspes, go and see the matter. </l>
           </sp>
           <stage xml:id="ep000475-e26540">[As Histaspes is going off, enter in haste Artabasus with his Sword Drawn. </stage>
-          <sp xml:id="ep000475-e26570">
+          <sp who="ep000475-arta" xml:id="ep000475-e26570">
             <speaker>Arta. </speaker>
             <l>Where's Cyrus? where's the King?— Great Cyaxares, </l>
             <l>Pity the bravest Valour in the World— </l>
@@ -2620,11 +2713,11 @@
             <l>Strange Numbers of the stoutest Ranks, whose Valour </l>
             <l>Pusht 'em first on to meet his daring Blows. </l>
           </sp>
-          <sp xml:id="ep000475-e26710">
+          <sp who="ep000475-cyax" xml:id="ep000475-e26710">
             <speaker>Cyax. </speaker>
             <l>What madness forc'd him thus to his Destruction! </l>
           </sp>
-          <sp xml:id="ep000475-e26740">
+          <sp who="ep000475-arta" xml:id="ep000475-e26740">
             <speaker>Arta. </speaker>
             <l>His desperate Love led him so boldly on; </l>
             <l>For with a Troop, compos'd of all his best </l>
@@ -2635,13 +2728,13 @@
             <l>Yet still he ventures on, and calls for Cyrus— </l>
             <l>But hark, they this way come— </l>
           </sp>
-          <sp xml:id="ep000475-e26850">
+          <sp who="ep000475-cyax" xml:id="ep000475-e26850">
             <speaker>Cyax. </speaker>
             <l>Follow Hystaspes— </l>
             <stage xml:id="ep000475-e26890">[As Cyaxares, and the rest are going off, Enters Abradatas fighting against a great many, Cyaxares and the rest joyn against him and his followers. </stage>
             <l>Brave Abradatas yield, whilst you are safe. </l>
           </sp>
-          <sp xml:id="ep000475-e26950">
+          <sp who="ep000475-abra" xml:id="ep000475-e26950">
             <speaker>Abra. </speaker>
             <l>Yield! By the Gods that hated Breath I scorn— </l>
             <l>The Spirits of my murder'd Friends around me </l>
@@ -2657,55 +2750,55 @@
             <l>Wou'd I had Cyrus now but in thy Place; </l>
             <l>Thus wou'd I do, thus use my hated Rival. </l>
           </sp>
-          <sp xml:id="ep000475-e27110">
+          <sp who="ep000475-hyst" xml:id="ep000475-e27110">
             <speaker>Hyst. </speaker>
             <l>Kill, kill the raging Prince, if he'l be still </l>
             <l>Thus Obstinate. </l>
           </sp>
-          <sp xml:id="ep000475-e27150">
+          <sp who="ep000475-cyax" xml:id="ep000475-e27150">
             <speaker>Cyax. </speaker>
             <l>I charge you ev'ry Man </l>
             <l>To save him, and with speed take him alive. </l>
           </sp>
           <stage xml:id="ep000475-e27190">[They Fight, Cyaxares in the Skirmish is mortally Wounded, Abradatas is taken Prisoner, and Disarm'd. </stage>
-          <sp xml:id="ep000475-e27220">
+          <sp who="ep000475-abra" xml:id="ep000475-e27220">
             <speaker>Abra. </speaker>
             <l>Base Villains! Choak'd I am with Multitudes— </l>
             <l>O that I want the Fierceness of a Lyon </l>
             <l>To chace this Herd of Slaves and Cowards from me. </l>
           </sp>
-          <sp xml:id="ep000475-e27270">
+          <sp who="ep000475-hyst" xml:id="ep000475-e27270">
             <speaker>Hyst. </speaker>
             <l>What ail you, Sir? O Cursed sight, you Bleed! </l>
           </sp>
-          <sp xml:id="ep000475-e27300">
+          <sp who="ep000475-cyax" xml:id="ep000475-e27300">
             <speaker>Cyax. </speaker>
             <l>I fear I've bin too rash— </l>
             <l>And feel I'm wounded in my Mortal'st part. </l>
           </sp>
           <stage xml:id="ep000475-e27340">Re-enter to them Cyrus in haste. </stage>
-          <sp xml:id="ep000475-e27360">
+          <sp who="ep000475-hyst" xml:id="ep000475-e27360">
             <speaker>Hyst. </speaker>
             <l>The Gods forbid— O Sir, retired, and view not </l>
             <l>This sad Mischance. </l>
           </sp>
-          <sp xml:id="ep000475-e27400">
+          <sp who="ep000475-cyr" xml:id="ep000475-e27400">
             <pb n="38" xml:id="ep000475-024-a"/>
             <speaker>Cyr. </speaker>
             <l>Ha! </l>
           </sp>
-          <sp xml:id="ep000475-e27430">
+          <sp who="ep000475-craes" xml:id="ep000475-e27430">
             <speaker>Craes. </speaker>
             <l>Hystaspes, how came this to pass? </l>
           </sp>
-          <sp xml:id="ep000475-e27470">
+          <sp who="ep000475-cyr" xml:id="ep000475-e27470">
             <speaker>Cyr. </speaker>
             <l>Blast me, you Vitious Planets of my Birth; </l>
             <l>Fall on me all the wrath of Heav'n at once, </l>
             <l>Can this be true what here my Eyes behold— </l>
             <l>My Unkle wounded! 'Tis not much, I hope? </l>
           </sp>
-          <sp xml:id="ep000475-e27530">
+          <sp who="ep000475-cyax" xml:id="ep000475-e27530">
             <speaker>Cyax. </speaker>
             <l>Yes, 'tis to Death, and by my fleeting Soul </l>
             <l>I am not sorry for't— But why grieve you? </l>
@@ -2715,12 +2808,12 @@
             <l>Dividing all the while Ambition with thee, </l>
             <l>Shall share with thee, and of thy Hopes no more. </l>
           </sp>
-          <sp xml:id="ep000475-e27620">
+          <sp who="ep000475-cyr" xml:id="ep000475-e27620">
             <speaker>Cyr. </speaker>
             <l>Fetch my Physitians— Run for Artists straight, </l>
             <l>A Kingdom shall be his that Cures his Hurt. </l>
           </sp>
-          <sp xml:id="ep000475-e27660">
+          <sp who="ep000475-cyax" xml:id="ep000475-e27660">
             <speaker>Cyax. </speaker>
             <l>Stir not, I charge you— 'Tis beyond all Art </l>
             <l>To save my Life— I've but a Moment's Breath </l>
@@ -2729,7 +2822,7 @@
             <l>Commit my only Daughter to thy Care, </l>
             <l>She's young, and may in time grow up thy Wife. </l>
           </sp>
-          <sp xml:id="ep000475-e27750">
+          <sp who="ep000475-cyr" xml:id="ep000475-e27750">
             <speaker>Cyr. </speaker>
             <l>Curst Abradatas— Curst-be all the Fates </l>
             <l>That led thee thus to Triumph still upon me, </l>
@@ -2741,27 +2834,27 @@
             <l>Yes, though ten Thousand Cupids on their Knees, </l>
             <l>And Venus weeping Eyes shou'd beg to save thee. </l>
           </sp>
-          <sp xml:id="ep000475-e27910">
+          <sp who="ep000475-abra" xml:id="ep000475-e27910">
             <speaker>Abra. </speaker>
             <l>I kill'd him bravely, by the Gods I did, </l>
             <l>Kill'd him as I wou'd thee, hadst thou bin there. </l>
           </sp>
-          <sp xml:id="ep000475-e27950">
+          <sp who="ep000475-cyr" xml:id="ep000475-e27950">
             <speaker>Cyr. </speaker>
             <l>Away with him to speedy Death, I charge you. </l>
           </sp>
-          <sp xml:id="ep000475-e27980">
+          <sp who="ep000475-cyax" xml:id="ep000475-e27980">
             <speaker>Cyax. </speaker>
             <l>Hold, Cyrus, hold, the Gallant Prince says true; </l>
             <l>Let me not be the cause of his hard Fate, </l>
             <l>It was my Fortune, and the Chance of War. </l>
           </sp>
-          <sp xml:id="ep000475-e28040">
+          <sp who="ep000475-cyr" xml:id="ep000475-e28040">
             <speaker>Cyr. </speaker>
             <l>Torture me not with the Request; I vow </l>
             <l>It is the only thing I cannot grant you. </l>
           </sp>
-          <sp xml:id="ep000475-e28080">
+          <sp who="ep000475-cyax" xml:id="ep000475-e28080">
             <speaker>Cyax. </speaker>
             <l>You must— O my Dear Cyrus; I have bin </l>
             <l>To blame, my Envy of thy gallant Deeds </l>
@@ -2777,7 +2870,7 @@
             <l>Cyrus farewel— Kiss me, and then I go. </l>
           </sp>
           <stage xml:id="ep000475-e28290">[dyes. </stage>
-          <sp xml:id="ep000475-e28300">
+          <sp who="ep000475-cyr" xml:id="ep000475-e28300">
             <speaker>Cyr. </speaker>
             <l>He's fled, the kindest, dearest, bravest Man </l>
             <l>That ever blest the World, is gone— Dry up </l>
@@ -2793,7 +2886,7 @@
             <l>To Tortures, Chains, Imprisonment— Away. </l>
           </sp>
           <stage xml:id="ep000475-e28450">Enter to them Running, and Weeping, Panthea attended, as Abradatas is carrying off. </stage>
-          <sp xml:id="ep000475-e28480">
+          <sp who="ep000475-panth" xml:id="ep000475-e28480">
             <speaker>Panth. </speaker>
             <l>Hold, whither is my Abradatas going?— </l>
             <l>Brave Cyrus stay, real your dread Commands— </l>
@@ -2805,7 +2898,7 @@
             <l>Your certain Ruin; Cruel as you are, </l>
             <l>More Cruel to your self and me than Cyrus far. </l>
           </sp>
-          <sp xml:id="ep000475-e28630">
+          <sp who="ep000475-cyr" xml:id="ep000475-e28630">
             <speaker>Cyr. </speaker>
             <l>Still does she come to brave my little Power, </l>
             <l>And chain my weak Resolves— She knows her strength, </l>
@@ -2814,7 +2907,7 @@
             <l>The mind— Perhaps anon I may forget </l>
             <l>I bid you— Do, and part 'em now for ever. </l>
           </sp>
-          <sp xml:id="ep000475-e28710">
+          <sp who="ep000475-abra" xml:id="ep000475-e28710">
             <speaker>Abra. </speaker>
             <l>You urge in vain, the Tyrant must b'obey'd— </l>
             <l>Farewel, our Loves shall shine amongst the Stars, </l>
@@ -2823,7 +2916,7 @@
             <l>Causing 'em ev'ry one to shed their worst, </l>
             <l>And mortal'st Venom on his Cursed Head. </l>
           </sp>
-          <sp xml:id="ep000475-e28790">
+          <sp who="ep000475-panth" xml:id="ep000475-e28790">
             <speaker>Panth. </speaker>
             <l>Ah no, you wrong the brave and God-like Cyrus, </l>
             <l>He is more mild than tender Mothers are; </l>
@@ -2834,7 +2927,7 @@
             <l>Can you behold me kneel, and hear me beg,. </l>
             <l>In vain, who once you said was Beautiful, and lov'd? </l>
           </sp>
-          <sp xml:id="ep000475-e28910">
+          <sp who="ep000475-cyr" xml:id="ep000475-e28910">
             <speaker>Cyr. </speaker>
             <l>Panthea rise, I cannot see you bend— </l>
             <l>There's something in those Eyes wou'd cheat me still, </l>
@@ -2847,7 +2940,7 @@
             <l>See, see, the silent everlasting Cause </l>
             <l>Of Abradatas Fate. </l>
           </sp>
-          <sp xml:id="ep000475-e29050">
+          <sp who="ep000475-panth" xml:id="ep000475-e29050">
             <speaker>Panth. </speaker>
             <l>Ah me, the sight </l>
             <l>Is dreadful, but you must forget it— </l>
@@ -2856,7 +2949,7 @@
             <l>The gallant Cyrus wou'd have done as much, </l>
             <l>Had he bin urg'd, or had the like Occasion. </l>
           </sp>
-          <sp xml:id="ep000475-e29140">
+          <sp who="ep000475-cyr" xml:id="ep000475-e29140">
             <speaker>Cyr. </speaker>
             <l>Away Panthea, hence, thou plead'st against </l>
             <l>Thy self, and hast recall'd each wandering Spark </l>
@@ -2865,13 +2958,13 @@
             <l>Away with him, I say— Death to you all </l>
             <l>That disobey a Moment— </l>
           </sp>
-          <sp xml:id="ep000475-e29230">
+          <sp who="ep000475-abrad" xml:id="ep000475-e29230">
             <speaker>Abrad. </speaker>
             <l>I Court that Death, and cannot wish to live </l>
             <l>A life so mean that's in thy power to give; </l>
             <l>But ah, Panthea! </l>
           </sp>
-          <sp xml:id="ep000475-e29290">
+          <sp who="ep000475-panth" xml:id="ep000475-e29290">
             <speaker>Panth. </speaker>
             <l>Stay, for we must live </l>
             <l>Or dye together Cyrus, take thy Choice— </l>
@@ -2891,15 +2984,15 @@
             <l>And my lost Hand shall hold him still thus fast, </l>
             <l>And Perish with him as the Body wou'd. </l>
           </sp>
-          <sp xml:id="ep000475-e29520">
+          <sp who="ep000475-craes" xml:id="ep000475-e29520">
             <speaker>Craes. </speaker>
             <l>Behold, do not the Gods look down, and wonder? </l>
           </sp>
-          <sp xml:id="ep000475-e29550">
+          <sp who="ep000475-cyr" xml:id="ep000475-e29550">
             <speaker>Cyr. </speaker>
             <l>What shall I do? Craesus advise me straight. </l>
           </sp>
-          <sp xml:id="ep000475-e29590">
+          <sp who="ep000475-craes" xml:id="ep000475-e29590">
             <speaker>Craes. </speaker>
             <l>I am beyond all Sence, the Miracle </l>
             <l>Has almost struck me dumb— Yet you had best </l>
@@ -2908,7 +3001,7 @@
             <l>But send these rare and faithful Lovers home, </l>
             <l>To be the Wonder of all Worlds to come. </l>
           </sp>
-          <sp xml:id="ep000475-e29670">
+          <sp who="ep000475-cyr" xml:id="ep000475-e29670">
             <speaker>Cyr. </speaker>
             <l>O how shall I begin! Craesus, I'll do it, </l>
             <l>I am resolv'd, yet cannot though I wou'd; </l>
@@ -2920,7 +3013,7 @@
             <l>Assist me Gods, and guide my sickly Virtue. </l>
           </sp>
           <stage xml:id="ep000475-e29770">Enter to them Lausaria Distracted, drest like a Cupid, with a Bow and Quiver, follow'd by her Women. </stage>
-          <sp xml:id="ep000475-e29790">
+          <sp who="ep000475-laus" xml:id="ep000475-e29790">
             <speaker>Laus. </speaker>
             <l>Ye daring Mortals, wou'd ye hinder me?— </l>
             <l>Let me alone, I say— Prepare my Chariot; </l>
@@ -2930,11 +3023,11 @@
             <l>Or Raceing Clouds— The Stars shall be my Guides, </l>
             <l>And in a Moment I will reach the Gods. </l>
           </sp>
-          <sp xml:id="ep000475-e29890">
+          <sp who="ep000475-craes" xml:id="ep000475-e29890">
             <speaker>Craes. </speaker>
             <l>O Dismal sight! </l>
           </sp>
-          <sp xml:id="ep000475-e29920">
+          <sp who="ep000475-laus" xml:id="ep000475-e29920">
             <speaker>Laus. </speaker>
             <l>— My Father weeps: If tears cou'd quench thee! </l>
           </sp>
@@ -2947,14 +3040,14 @@
             <l>For there is Fire, there is shame </l>
             <l>Enough to set the World on flame. </l>
           </lg>
-          <sp xml:id="ep000475-e30040">
+          <sp who="ep000475-craes" xml:id="ep000475-e30040">
             <speaker>Craes. </speaker>
             <l>Hear me Lausaria, thou hadst once a Brother </l>
             <l>Doom'd by the Gods to want the gift of Speech, </l>
             <l>And yet his Dumbness could not so afflict me, </l>
             <l>As these wild words torment thy Father's Soul. </l>
           </sp>
-          <sp xml:id="ep000475-e30110">
+          <sp who="ep000475-laus" xml:id="ep000475-e30110">
             <speaker>Laus. </speaker>
             <l>This Bow and Quiver were a wanton Cupid's; </l>
             <l>I watch'd the Boy, as he lay down to sleep, </l>
@@ -2977,12 +3070,12 @@
             <l>This Shaft I will draw to the Head, </l>
             <l>And shoot the great Archer dead. </l>
           </lg>
-          <sp xml:id="ep000475-e30340">
+          <sp who="ep000475-cyr" xml:id="ep000475-e30340">
             <speaker>Cyr. </speaker>
             <l>Her Sence is out of Tune, her Wits not well, </l>
             <l>But yet, alas! her Tongue is Charming still. </l>
           </sp>
-          <sp xml:id="ep000475-e30380">
+          <sp who="ep000475-laus" xml:id="ep000475-e30380">
             <speaker>Laus. </speaker>
             <l>Here is a Dart by Limping Vulcan made, </l>
             <l>Tip'd with the Clippings of a red hot Star; </l>
@@ -2993,7 +3086,7 @@
             <l>I think I've struck thee, Cruel Flint, I have. </l>
           </sp>
           <stage xml:id="ep000475-e30510">[She shoots and hits Cyrus. </stage>
-          <sp xml:id="ep000475-e30530">
+          <sp who="ep000475-cyr" xml:id="ep000475-e30530">
             <speaker>Cyr. </speaker>
             <l>Thou hast indeed, and touch'd me to the quick; </l>
             <l>I thank the Gods there wanted but this sight </l>
@@ -3001,7 +3094,7 @@
             <l>Th'ast pierc'd my rocky Heart, and see it melts. </l>
           </sp>
           <stage xml:id="ep000475-e30600">[Cyrus Weeps. </stage>
-          <sp xml:id="ep000475-e30610">
+          <sp who="ep000475-laus" xml:id="ep000475-e30610">
             <speaker>Laus. </speaker>
             <l>Ha! have I hurt him! Curst was I to do so— </l>
             <l>Look how the Blood runs trickling down his Face— </l>
@@ -3012,12 +3105,12 @@
             <l>And with my sighs disturb the endless Ocean. </l>
           </sp>
           <stage xml:id="ep000475-e30720">[Weeps. </stage>
-          <sp xml:id="ep000475-e30730">
+          <sp who="ep000475-craes" xml:id="ep000475-e30730">
             <speaker>Craes. </speaker>
             <l>Poor Girl! She tires her self with her Wild Thoughts— </l>
             <l>When will her roving Fancy get some rest? </l>
           </sp>
-          <sp xml:id="ep000475-e30770">
+          <sp who="ep000475-laus" xml:id="ep000475-e30770">
             <speaker>Laus. </speaker>
             <l>Go, go; you are a pair of Constant Fools, </l>
             <stage xml:id="ep000475-e30800">[To Panthea, &amp;c. </stage>
@@ -3036,11 +3129,11 @@
             <l>And I will follow you so soon as e're </l>
             <l>I can— Hey hoe!— I have a mind to sleen— </l>
           </sp>
-          <sp xml:id="ep000475-e30970">
+          <sp who="ep000475-craes" xml:id="ep000475-e30970">
             <speaker>Craes. </speaker>
             <l>Come, lead her gently to her Bed. </l>
           </sp>
-          <sp xml:id="ep000475-e31000">
+          <sp who="ep000475-laus" xml:id="ep000475-e31000">
             <speaker>Laus. </speaker>
             <l>Well let me make my Will, since Love must dye, </l>
             <l>And leave to every one a Legacy: </l>
@@ -3063,11 +3156,11 @@
             <l>Scorn to the Brave, and all my Love to Fools. </l>
             <stage xml:id="ep000475-e31210">[Exit. </stage>
           </sp>
-          <sp xml:id="ep000475-e31220">
+          <sp who="ep000475-craes" xml:id="ep000475-e31220">
             <speaker>Craes. </speaker>
             <l>What say you now? How feel you now your self? </l>
           </sp>
-          <sp xml:id="ep000475-e31250">
+          <sp who="ep000475-cyr" xml:id="ep000475-e31250">
             <speaker>Cyr. </speaker>
             <l>Just like a Man fast ty'd upon the Rack, </l>
             <l>When, feeling the fierce pain too great to bear, </l>
@@ -3078,11 +3171,11 @@
             <l>And like the hunted Deer, rush through the Thicket </l>
             <l>That once I fear'd, and hung by ev'ry Bough— </l>
           </sp>
-          <sp xml:id="ep000475-e31350">
+          <sp who="ep000475-craes" xml:id="ep000475-e31350">
             <speaker>Craes. </speaker>
             <l>— Bravely resolv'd and like the Godlike Cyrus. </l>
           </sp>
-          <sp xml:id="ep000475-e31390">
+          <sp who="ep000475-cyr" xml:id="ep000475-e31390">
             <speaker>Cyr. </speaker>
             <l>— Hence, hence my Torment— All fond thoughts of Love </l>
             <l>Away, and vanish into slender Air, </l>
@@ -3102,7 +3195,7 @@
             <l>Fir'd with each Kisses heat, that thou shalt blush </l>
             <l>To see what Beauties happiest Man can do. </l>
           </sp>
-          <sp xml:id="ep000475-e31610">
+          <sp who="ep000475-cyr" xml:id="ep000475-e31610">
             <speaker>Cyr. </speaker>
             <l>Ye Gods! To Morrow! Did I say to Morrow? </l>
             <l>To day, this hour, a Moment is too long— </l>
@@ -3113,25 +3206,25 @@
             <l>Swift as the Winds that drive behind thy Back. </l>
           </sp>
           <stage xml:id="ep000475-e31700">Re-enter to them Craesus. </stage>
-          <sp xml:id="ep000475-e31720">
+          <sp who="ep000475-craes" xml:id="ep000475-e31720">
             <speaker>Craes. </speaker>
             <l>
               <hi>O Cyrus</hi>, your sad Craesus Daughter's Dead. </l>
           </sp>
-          <sp xml:id="ep000475-e31770">
+          <sp who="ep000475-cyr" xml:id="ep000475-e31770">
             <speaker>Cyr. </speaker>
             <l>Dead is she then. Poor Innocent Lausaria! </l>
             <l>But hold, I have more griefs to spend for thee </l>
             <l>Hereafter— </l>
           </sp>
-          <sp xml:id="ep000475-e31830">
+          <sp who="ep000475-panth" xml:id="ep000475-e31830">
             <speaker>Panth. </speaker>
             <l>These sad Disasters make me move but flow, </l>
             <l>And stir unwillingly to meet my Joys— </l>
             <l>I go, but still to pray for Cyrus Life— </l>
             <l>Thou generous, great, unhappy Man, farewell. </l>
           </sp>
-          <sp xml:id="ep000475-e31900">
+          <sp who="ep000475-cyr" xml:id="ep000475-e31900">
             <speaker>Cyr. </speaker>
             <l>Farewell— And sinee the Gods have so decreed, </l>
             <l>May this Divorce so happy be to prove </l>
@@ -3144,7 +3237,7 @@
           <div n="1" type="scene" xml:id="ep000475-e31980">
             <head>Actus Quintus, SCENA Prima. </head>
             <stage xml:id="ep000475-e32000">Enter Thomyris, Women, Guards, and Soldiers. </stage>
-            <sp xml:id="ep000475-e32020">
+            <sp who="ep000475-thom" xml:id="ep000475-e32020">
               <speaker>Thom </speaker>
               <l>COme, my brave Friends, I see you are resolv'd </l>
               <l>To follow me, and share your Queens worst Fate. </l>
@@ -3166,17 +3259,17 @@
               <l>Cou'd do. </l>
             </sp>
             <stage xml:id="ep000475-e32260">Enter to them Abradatas, and <hi>Panthea, Hystaspes</hi>, and Guards. </stage>
-            <sp xml:id="ep000475-e32290">
+            <sp who="ep000475-panth" xml:id="ep000475-e32290">
               <speaker>Panth. </speaker>
               <l>O Sacred joy!— Cou'd I have thought once more </l>
               <l>To kneel before you, and have in these Arms </l>
               <l>The kindest Mother, and the best of Queens? </l>
             </sp>
-            <sp xml:id="ep000475-e32340">
+            <sp who="ep000475-abrad" xml:id="ep000475-e32340">
               <speaker>Abrad. </speaker>
               <l>O blest Panthea's Mother, Godlike Thomyris! </l>
             </sp>
-            <sp xml:id="ep000475-e32390">
+            <sp who="ep000475-thomy" xml:id="ep000475-e32390">
               <speaker>Thomy. </speaker>
               <l>Rise, dear Children, </l>
               <l>Bend only to the Gods, and not to me, </l>
@@ -3184,7 +3277,7 @@
               <l>This gallant Action from my feeble Arm, </l>
               <l>And only wou'd ingross the glorious Deed. </l>
             </sp>
-            <sp xml:id="ep000475-e32460">
+            <sp who="ep000475-panth" xml:id="ep000475-e32460">
               <speaker>Panth. </speaker>
               <l>That God was Cyrus; who, alas! Tormented </l>
               <l>With Jealousy, the worst of all Loves Tortures, </l>
@@ -3197,7 +3290,7 @@
               <l>He has restor'd Panthea to her wishes, </l>
               <l>And a lov'd Rival to his Mistress Arms. </l>
             </sp>
-            <sp xml:id="ep000475-e32620">
+            <sp who="ep000475-abrad" xml:id="ep000475-e32620">
               <speaker>Abrad. </speaker>
               <l>But we forget how soon th' assault begins, </l>
               <l>Spite, and ambitious Rage have lent him Wings, </l>
@@ -3205,7 +3298,7 @@
               <l>Rushing to overtake us with more speed, </l>
               <l>Than falling Torrents, or the swiftest Tyde. </l>
             </sp>
-            <sp xml:id="ep000475-e32690">
+            <sp who="ep000475-hyst" xml:id="ep000475-e32690">
               <speaker>Hyst. </speaker>
               <l>With Balthazar he now intends to fight— </l>
               <l>Love that so long mis-led his Warlike Genius, </l>
@@ -3217,7 +3310,7 @@
               <l>Betwixt both Camps, he forms his mighty Battel. </l>
             </sp>
             <stage xml:id="ep000475-e32810">[Cyr. Trumpets within. </stage>
-            <sp xml:id="ep000475-e32830">
+            <sp who="ep000475-thomy" xml:id="ep000475-e32830">
               <speaker>Thomy. </speaker>
               <l>Now, now methinks I feel the noble Fire </l>
               <l>That first inspir'd our Amazonian Chief, </l>
@@ -3236,18 +3329,18 @@
               <l>Whilst their carv'd Limbs, and mangled Bodies drop, </l>
               <l>Like Fields of Corn before the Reapers Hand. </l>
             </sp>
-            <sp xml:id="ep000475-e33030">
+            <sp who="ep000475-hyst" xml:id="ep000475-e33030">
               <speaker>Hyst. </speaker>
               <l>I have Commands to wait you to the Camp, </l>
               <l>Thence to return with all the faithfulst speed, </l>
               <l>And meet my Master in Bellonias Arms. </l>
             </sp>
-            <sp xml:id="ep000475-e33090">
+            <sp who="ep000475-abrad" xml:id="ep000475-e33090">
               <speaker>Abrad. </speaker>
               <l>Away, let's rouze the sleepy Balthazar, </l>
               <l>Fierce as a Lyon, waking to revenge. </l>
             </sp>
-            <sp xml:id="ep000475-e33140">
+            <sp who="ep000475-panth" xml:id="ep000475-e33140">
               <speaker>Panth. </speaker>
               <l>Come, Abradatas, see what Love has for thee, </l>
               <l>Which take as Presents from Panthea's hand; </l>
@@ -3257,14 +3350,14 @@
               <l>And never rise till thou Victorious be, </l>
               <l>Thinking of nothing but the Gods, and thee. </l>
             </sp>
-            <sp xml:id="ep000475-e33280">
+            <sp who="ep000475-abrad" xml:id="ep000475-e33280">
               <speaker>Abrad. </speaker>
               <l>Prepare my Soldiers— Hear you what he says? </l>
               <l>Panthea calls, Panthea is the Word. </l>
             </sp>
             <stage xml:id="ep000475-e33340">[Exeunt. </stage>
             <stage xml:id="ep000475-e33350">As they are going off, enter on the other side, <hi>Cyrus, Craesus, Artabasus</hi>, Soldiers, Guards, Sound of a March. </stage>
-            <sp xml:id="ep000475-e33370">
+            <sp who="ep000475-cyr" xml:id="ep000475-e33370">
               <speaker>Cyr. </speaker>
               <l>Something, my fellow Soldiers, I would say— </l>
               <l>The Gods have often prov'd by your success </l>
@@ -3291,7 +3384,7 @@
               <l>Upon so many gallant Heroes at </l>
               <l>One time, and blest an Army made of Kings. </l>
             </sp>
-            <sp xml:id="ep000475-e33650">
+            <sp who="ep000475-craes" xml:id="ep000475-e33650">
               <speaker>Craes. </speaker>
               <l>Haste, for I long to face this Cursed Tyrant, </l>
               <l>'Till he has let out from the Heart of Craesus </l>
@@ -3299,7 +3392,7 @@
               <l>Here in my heart— She calls on me to go </l>
               <l>And end my Miseries where they first had being. </l>
             </sp>
-            <sp xml:id="ep000475-e33730">
+            <sp who="ep000475-cyr" xml:id="ep000475-e33730">
               <speaker>Cyr. </speaker>
               <l>O Craesus wound her not again, she's here, </l>
               <l>The weight hangs heavier on me than thou seest— </l>
@@ -3328,7 +3421,7 @@
               <l>Built to the Skye, shall all be Dwarfs beneath it— </l>
               <l>This shall the Gods and I bequeath to thy Lausaria. </l>
             </sp>
-            <sp xml:id="ep000475-e34050">
+            <sp who="ep000475-craes" xml:id="ep000475-e34050">
               <speaker>Craes. </speaker>
               <l>On then, thou Glorious Conqueror— </l>
               <l>Fate like a Cloud hangs o're th' Assyrians heads, </l>
@@ -3337,11 +3430,11 @@
               <l>Has call'd thee by a Miracle to be </l>
               <l>The King of this Great Empire, and the World. </l>
             </sp>
-            <sp xml:id="ep000475-e34160">
+            <sp who="ep000475-cyr" xml:id="ep000475-e34160">
               <speaker>Cyr. </speaker>
               <l>If the wise God shew ought of me, declare it. </l>
             </sp>
-            <sp xml:id="ep000475-e34190">
+            <sp who="ep000475-craes" xml:id="ep000475-e34190">
               <speaker>Craes. </speaker>
               <l>Last Night the Drunken Balthazar Carous'd </l>
               <pb n="48" xml:id="ep000475-029-a"/>
@@ -3355,12 +3448,12 @@
               <l>And its scorn'd Power committed such a Rape </l>
               <l>Upon the Richest Shrine of all the World. </l>
             </sp>
-            <sp xml:id="ep000475-e34330">
+            <sp who="ep000475-cyr" xml:id="ep000475-e34330">
               <speaker>Cyr. </speaker>
               <l>What but the wrath of Heaven, and dreadful Ruine </l>
               <l>Cou'd follow such a Sacriledge! </l>
             </sp>
-            <sp xml:id="ep000475-e34370">
+            <sp who="ep000475-craes" xml:id="ep000475-e34370">
               <speaker>Craes. </speaker>
               <l>This horrid Deed drew awful Thunder from </l>
               <l>Th' impatient hand of the wrong'd Deity, </l>
@@ -3381,7 +3474,7 @@
               <l>That you should be the Assertor of his God, </l>
               <l>Who gave Assyria to the Medes and Persians. </l>
             </sp>
-            <sp xml:id="ep000475-e34620">
+            <sp who="ep000475-cyr" xml:id="ep000475-e34620">
               <speaker>Cyr. </speaker>
               <l>O my dark Soul! Is there a Mighty God! </l>
               <l>(As sure there must) in whose admir'd Belief </l>
@@ -3396,7 +3489,7 @@
               <l>To be the Man this Miracle has meant. </l>
             </sp>
             <stage xml:id="ep000475-e34750">Enter to them Hystaspes, and Guards. </stage>
-            <sp xml:id="ep000475-e34770">
+            <sp who="ep000475-hystasp" xml:id="ep000475-e34770">
               <speaker>Hystasp. </speaker>
               <l>Make ready, Sir, th' Assyrians are approaching, </l>
               <l>Pusht on at length by your indulgent Fate, </l>
@@ -3413,12 +3506,12 @@
               <l>Whether to her, as Challeng'd by such Virtue, </l>
               <l>Or Crown your Brave, and still Triumphant Brow. </l>
             </sp>
-            <sp xml:id="ep000475-e34980">
+            <sp who="ep000475-cyr" xml:id="ep000475-e34980">
               <speaker>Cyr. </speaker>
               <l>What sayst— My Soul stands listning at my Ears, </l>
               <l>And fain I wou'd hear something of Panthea. </l>
             </sp>
-            <sp xml:id="ep000475-e35030">
+            <sp who="ep000475-hyst" xml:id="ep000475-e35030">
               <speaker>Hyst. </speaker>
               <l>Fierce Abradatas she her self saw mounted, </l>
               <l>Clad in an Armour far more Rich and Noble, </l>
@@ -3437,7 +3530,7 @@
               <l>Swift as an Arrow from a Scythian Bow, </l>
               <l>And left her senseless, clinging to the ground. </l>
             </sp>
-            <sp xml:id="ep000475-e35240">
+            <sp who="ep000475-cyr" xml:id="ep000475-e35240">
               <speaker>Cyr. </speaker>
               <l>Enough, th'ast said too much— Sound, Sound a Charge, </l>
               <l>I'll shut my loitering Soul close in her Home, </l>
@@ -3446,11 +3539,11 @@
               <l>One Truant Thought abroad, not the least glance, </l>
               <l>Or secret with after forbidden Love. </l>
             </sp>
-            <sp xml:id="ep000475-e35320">
+            <sp who="ep000475-craes" xml:id="ep000475-e35320">
               <speaker>Craes. </speaker>
               <l>Lead us to Victory that the Gods have shewn thee. </l>
             </sp>
-            <sp xml:id="ep000475-e35350">
+            <sp who="ep000475-cyr" xml:id="ep000475-e35350">
               <speaker>Cyr. </speaker>
               <l>Yes Craesus, yes— We come, dear slaughter'd Unkle, </l>
               <l>To give an Army to thy Funeral Pomp— </l>
@@ -3462,7 +3555,7 @@
             <stage xml:id="ep000475-e35470">[Exeunt Omnes. </stage>
             <stage xml:id="ep000475-e35480">
               <pb n="50" xml:id="ep000475-030-a"/>Scene draws, and discovers a great Battle between both Armies: <hi>Cyrus, Balthazar</hi>, and Thomyris seen Fighting at their Heads. Battle over, a Retreat is sounded, Scene shuts, and then Enter <hi>Cyrus, Craesus</hi>, and Guards. </stage>
-            <sp xml:id="ep000475-e35520">
+            <sp who="ep000475-cyr" xml:id="ep000475-e35520">
               <speaker>Cyr. </speaker>
               <l>Now, Craesus, the Assyrian War is over </l>
               <l>And Balthazar is Slain— Thou seest him drop, </l>
@@ -3472,7 +3565,7 @@
               <l>That e'er my Sword yet won. </l>
             </sp>
             <stage xml:id="ep000475-e35630">Re-enter Artabasus. </stage>
-            <sp xml:id="ep000475-e35650">
+            <sp who="ep000475-arta" xml:id="ep000475-e35650">
               <speaker>Arta. </speaker>
               <l>Greatest of Kings, </l>
               <l>Immortal may'st thou live, and ever Reign— </l>
@@ -3481,17 +3574,17 @@
               <l>With the bold Scythians make a quick Retreat. </l>
             </sp>
             <stage xml:id="ep000475-e35730">Re-enter and Hystaspes. </stage>
-            <sp xml:id="ep000475-e35750">
+            <sp who="ep000475-craes" xml:id="ep000475-e35750">
               <speaker>Craes. </speaker>
               <l>Kings, Senates, and the World obey thee, Cyrus; </l>
               <l>For lo the Gods did never at a time </l>
               <l>Heap so much Greatness on one Man before. </l>
             </sp>
-            <sp xml:id="ep000475-e35810">
+            <sp who="ep000475-cyr" xml:id="ep000475-e35810">
               <speaker>Cyr. </speaker>
               <l>What is become of Valiant Abradatas? </l>
             </sp>
-            <sp xml:id="ep000475-e35850">
+            <sp who="ep000475-hyst" xml:id="ep000475-e35850">
               <speaker>Hyst. </speaker>
               <l>Something to his misfortune we must owe: </l>
               <l>For with a Drove of hooked Chariots which </l>
@@ -3505,7 +3598,7 @@
               <l>So Abradatas is by all Men thought </l>
               <l>From his fierce Chariot to be hurl'd and torn. </l>
             </sp>
-            <sp xml:id="ep000475-e35990">
+            <sp who="ep000475-craes" xml:id="ep000475-e35990">
               <pb n="51" xml:id="ep000475-030-b"/>
               <speaker>Craes. </speaker>
               <l>But the Brave Scythian Queen retreating fights </l>
@@ -3516,18 +3609,18 @@
               <l>So in their flight, the Scythians send huge showers </l>
               <l>Of Mortal Arrows on the Conquerours Faces. </l>
             </sp>
-            <sp xml:id="ep000475-e36110">
+            <sp who="ep000475-cyr" xml:id="ep000475-e36110">
               <speaker>Cyr. </speaker>
               <l>My self will haste with the Cadusian Archers, </l>
               <l>And gaul their backs with much more dreadful Flights. </l>
             </sp>
-            <sp xml:id="ep000475-e36160">
+            <sp who="ep000475-craes" xml:id="ep000475-e36160">
               <speaker>Craes. </speaker>
               <l>Mingle not Sir, in the unruly Chace— </l>
               <l>We beg you wou'd retire into the Camp, </l>
               <l>Your Wounds, and Labour ask some quick relief. </l>
             </sp>
-            <sp xml:id="ep000475-e36210">
+            <sp who="ep000475-cyr" xml:id="ep000475-e36210">
               <speaker>Cyr. </speaker>
               <l>Fly then, Hystaspes, to the Homotyms, </l>
               <l>Bid 'em their vain and eager Chace give o're; </l>
@@ -3535,12 +3628,12 @@
               <l>Wheel round about 'em with your Lydian Horse, </l>
               <l>And beat 'em in their Front. </l>
             </sp>
-            <sp xml:id="ep000475-e36320">
+            <sp who="ep000475-craes" xml:id="ep000475-e36320">
               <speaker>Craes. </speaker>
               <l>It shall be done— </l>
               <l>Expect my Death, or the brave Queen a Prisoner. </l>
             </sp>
-            <sp xml:id="ep000475-e36360">
+            <sp who="ep000475-cyr" xml:id="ep000475-e36360">
               <speaker>Cyr. </speaker>
               <l>Attend me but at Distance for a Moment. </l>
               <stage xml:id="ep000475-e36390">[Exeunt Cresus and Hystaspes. </stage>
@@ -3556,12 +3649,12 @@
               <l>But ha! if this shoud prove a Dream, </l>
               <l>Thou look'st quite thro' me, speak, if thou art Lausaria! </l>
             </sp>
-            <sp xml:id="ep000475-e36560">
+            <sp who="ep000475-ghost" xml:id="ep000475-e36560">
               <speaker>Ghost. </speaker>
               <l>O Cyrus, I am come from far to blame thee, </l>
               <l>To chide my Love, and stand 'twixt him and Ruin. </l>
             </sp>
-            <sp xml:id="ep000475-e36610">
+            <sp who="ep000475-cyr" xml:id="ep000475-e36610">
               <speaker>Cyr. </speaker>
               <l>Thou art alive then! ha! and thou canst talk too— </l>
               <l>O sacred joy!— Who told me thou wert dead? </l>
@@ -3573,7 +3666,7 @@
               <l>As in a mist, thou dazelest every Sense, </l>
               <l>And mak'st thy Cyrus giddy to behold thee. </l>
             </sp>
-            <sp xml:id="ep000475-e36740">
+            <sp who="ep000475-ghost" xml:id="ep000475-e36740">
               <speaker>Ghost. </speaker>
               <l>Ah! Cyrus, </l>
               <l>Thou may'st as well grasp Water, or fleet Air, </l>
@@ -3585,7 +3678,7 @@
               <l>By secret Charms thou call'st me from my quiet, </l>
               <l>And givest my Soul no rest below, nor Peace above. </l>
             </sp>
-            <sp xml:id="ep000475-e36870">
+            <sp who="ep000475-cyr" xml:id="ep000475-e36870">
               <speaker>Cyr. </speaker>
               <l>A cold and sudden damp sits on me round, </l>
               <l>Thy Eyes run pointed with thy wrongs, and shoot </l>
@@ -3596,7 +3689,7 @@
               <l>Immortal— </l>
               <l>Speak, awful Shade, what brings thee from thy Rest? </l>
             </sp>
-            <sp xml:id="ep000475-e36970">
+            <sp who="ep000475-ghost" xml:id="ep000475-e36970">
               <speaker>Ghost. </speaker>
               <l>When I had pass'd the Lake that leads to Bliss, </l>
               <l>(Bliss so unjustly term'd by Mortals here,) </l>
@@ -3615,7 +3708,7 @@
               <l>Shall Cure thy Breast of all Love's Wounds for ever. </l>
               <l>Hold, stay, and take my Ghost along with thee. </l>
             </sp>
-            <sp xml:id="ep000475-e37170">
+            <sp who="ep000475-ghost" xml:id="ep000475-e37170">
               <speaker>Ghost. </speaker>
               <l>O Live, I charge you— </l>
               <l>Live happy as a God on Earth, live ever; </l>
@@ -3627,16 +3720,16 @@
               <l>By all the pity once you pay'd my Love, </l>
               <l>By all the Love you owe my Memory. </l>
             </sp>
-            <sp xml:id="ep000475-e37280">
+            <sp who="ep000475-cyr" xml:id="ep000475-e37280">
               <speaker>Cyr. </speaker>
               <l>Lead then the way, thou brightest Angel Guide, </l>
               <l>Conduct me quickly to thy blest Abode. </l>
             </sp>
-            <sp xml:id="ep000475-e37320">
+            <sp who="ep000475-ghost" xml:id="ep000475-e37320">
               <speaker>Ghost. </speaker>
               <l>The Minute's come— This way, thou gallant Cyrus. </l>
             </sp>
-            <sp xml:id="ep000475-e37360">
+            <sp who="ep000475-cyr" xml:id="ep000475-e37360">
               <speaker>Cyr. </speaker>
               <l>I follow thee, and if my Body proves too heavy, </l>
               <l>I'll throw it off, and mount all Soul to reach thee. </l>
@@ -3645,7 +3738,7 @@
           <div n="2" type="scene" xml:id="ep000475-e37400">
             <pb n="53" xml:id="ep000475-031-b"/>
             <stage xml:id="ep000475-e37410">Scene Draws, and discovers Panthea with her Women weeping o're the mangled Body of Abradatas, whose Limbs she had seemingly fix'd to his Body, a Dagger in her hand. </stage>
-            <sp xml:id="ep000475-e37440">
+            <sp who="ep000475-panth" xml:id="ep000475-e37440">
               <speaker>Panth. </speaker>
               <l>I charge you live— Live to excuse my Fault, </l>
               <l>And sooth the sorrows of the sad Thomyris; </l>
@@ -3661,11 +3754,11 @@
               <l>All Fiction, Painting, or dumb shew of Horrour </l>
               <l>That ever Ears yet heard, or Eyes beheld— </l>
             </sp>
-            <sp xml:id="ep000475-e37610">
+            <sp who="ep000475-wom" xml:id="ep000475-e37610">
               <speaker>Wom. </speaker>
               <l>O cast that Weapon from you— </l>
             </sp>
-            <sp xml:id="ep000475-e37640">
+            <sp who="ep000475-panth" xml:id="ep000475-e37640">
               <speaker>Panth. </speaker>
               <l>Vex me not— </l>
               <l>What, can't I be obey'd in Death— Now, now, </l>
@@ -3673,11 +3766,11 @@
               <l>Look back as thou art in the Milky Road to Bliss, </l>
               <l>And take thy lov'd Panthea with thee. </l>
             </sp>
-            <sp xml:id="ep000475-e37720">
+            <sp who="ep000475-wom" xml:id="ep000475-e37720">
               <speaker>Wom. </speaker>
               <l>Still you advance that dreadful Weapon. </l>
             </sp>
-            <sp xml:id="ep000475-e37750">
+            <sp who="ep000475-panth" xml:id="ep000475-e37750">
               <speaker>Panth. </speaker>
               <l>No more— These Hands and Feet which the sharp Scythes </l>
               <l>Mow'd from thy lovely Body, I have try'd </l>
@@ -3700,7 +3793,7 @@
               <l>To Life, unless my heart's warm blood can do it. </l>
             </sp>
             <stage xml:id="ep000475-e37950">Panthea Stabs her self, and just as she gave the Wound Cyrus Enters, led in by the Ghost, the Ghost vanisheth. </stage>
-            <sp xml:id="ep000475-e37980">
+            <sp who="ep000475-cyr" xml:id="ep000475-e37980">
               <speaker>Cyr. </speaker>
               <l>Ah! cruel, spiteful— yet thou lovely Spirit </l>
               <l>Coud'st thou not bring me one half moment sooner? </l>
@@ -3709,7 +3802,7 @@
               <l>And reak it in my own; revenge thy wrongs, </l>
               <l>And please Lausaria's Ghost, whose shadow haunts me— </l>
             </sp>
-            <sp xml:id="ep000475-e38070">
+            <sp who="ep000475-panth" xml:id="ep000475-e38070">
               <speaker>Panth. </speaker>
               <l>This Weapon I'll not part with— </l>
               <l>This Glorious Relique here that sets me free; </l>
@@ -3720,7 +3813,7 @@
               <l>Love that will ne'er be stop'd, but have its Course, </l>
               <l>Or overflow to drowning with the least resistance. </l>
             </sp>
-            <sp xml:id="ep000475-e38180">
+            <sp who="ep000475-cyr" xml:id="ep000475-e38180">
               <speaker>Cyr. </speaker>
               <l>O forgive me, blest Panthea; </l>
               <l>And the same time thou leav'st thy lovely Body, </l>
@@ -3733,7 +3826,7 @@
               <l>His pardon thus— Ha! Horror! Worse than Horror. </l>
             </sp>
             <stage xml:id="ep000475-e38300">[Cyrus taking Abradata's hand, offering to put it to his mouth, it comes from the Body; Panthea places it again.] </stage>
-            <sp xml:id="ep000475-e38340">
+            <sp who="ep000475-panth" xml:id="ep000475-e38340">
               <speaker>Panth. </speaker>
               <l>What have you done? Why touch you him so rudely? </l>
               <l>Give me this Hand back to my Lips again— </l>
@@ -3752,14 +3845,14 @@
               <l>Lay me— O lay me gently by my Lord. </l>
             </sp>
             <stage xml:id="ep000475-e38500">[Dies. </stage>
-            <sp xml:id="ep000475-e38510">
+            <sp who="ep000475-cyr" xml:id="ep000475-e38510">
               <speaker>Cyr. </speaker>
               <l>Die all that's good— die Sacred Love and Friendship. </l>
               <l>Let none presume to say that Virtue lives, </l>
               <l>That Beauty gilds the World, now she is dead. </l>
             </sp>
             <stage xml:id="ep000475-e38560">Enter to <hi>Cyrus, Thomyris</hi>, Women and Soldiers, as persu'd. </stage>
-            <sp xml:id="ep000475-e38580">
+            <sp who="ep000475-thom" xml:id="ep000475-e38580">
               <speaker>Thom. </speaker>
               <l>There, there's the dreadful summ of all our Woes; </l>
               <l>Look there, my Friends— What, Cyrus Mourning o're 'em! </l>
@@ -3768,13 +3861,13 @@
               <l>Prevent you— Hold— And shall 'a dye by Slaves!— </l>
               <l>There is some Pity to his Vertue due. </l>
             </sp>
-            <sp xml:id="ep000475-e38670">
+            <sp who="ep000475-cyr" xml:id="ep000475-e38670">
               <speaker>Cyr. </speaker>
               <l>Ha! Am I then surpriz'd— I was to blame— </l>
               <l>Though I abhor to live, yet loth I am </l>
               <l>To dye by Treachery, and Cowards Hands. </l>
             </sp>
-            <sp xml:id="ep000475-e38720">
+            <sp who="ep000475-thom" xml:id="ep000475-e38720">
               <speaker>Thom. </speaker>
               <l>Look, Cyrus, look, I am thy Mortallest Foe— </l>
               <l>Thou dwell'st o're the sad Ruines there, which I </l>
@@ -3786,12 +3879,12 @@
               <l>And send a thousand winged Deaths to seize him— </l>
               <l>Yet hold— My self the glorious deed will do. </l>
             </sp>
-            <sp xml:id="ep000475-e38850">
+            <sp who="ep000475-cyr" xml:id="ep000475-e38850">
               <speaker>Cyr. </speaker>
               <l>Thou dar'st not, sure!— Naught but thy Womans Spleen </l>
               <l>Cou'd be Seducer to such base Revenge. </l>
             </sp>
-            <sp xml:id="ep000475-e38890">
+            <sp who="ep000475-thom" xml:id="ep000475-e38890">
               <speaker>Thom. </speaker>
               <l>Talkest thou!— Now to thy Heart this pointed Justice. </l>
               <stage xml:id="ep000475-e38920">[As she is ready to shoot at him, Lausaria's Ghost rises up betwixt them, and stands before Cyrus, and Faces Thomyris. </stage>
@@ -3806,11 +3899,11 @@
               <l>My Sinews slack, and Nature at this Sight </l>
               <l>Shrinks back to her first feeble Infancy. </l>
             </sp>
-            <sp xml:id="ep000475-e39060">
+            <sp who="ep000475-sold" xml:id="ep000475-e39060">
               <speaker>Sold. </speaker>
               <l>You stand amaz'd— Let's kill him whilst we may. </l>
             </sp>
-            <sp xml:id="ep000475-e39090">
+            <sp who="ep000475-thom" xml:id="ep000475-e39090">
               <speaker>Thom. </speaker>
               <l>Hold, Villains— What, through her Immortal Body! </l>
               <l>Your Darts would all turn Heads against your selves; </l>
@@ -3821,16 +3914,16 @@
               <l>That all the World is destin'd to Obey. </l>
             </sp>
             <stage xml:id="ep000475-e39180">Re-enter <hi>Craesus, Hystaspes, Gobrias</hi>, and Artabasus, shouting, Ghost vanishes. </stage>
-            <sp xml:id="ep000475-e39210">
+            <sp who="ep000475-craes" xml:id="ep000475-e39210">
               <speaker>Craes. </speaker>
               <l>He lives, is safe; thanks to the Immortal Powers. </l>
             </sp>
-            <sp xml:id="ep000475-e39240">
+            <sp who="ep000475-cyr" xml:id="ep000475-e39240">
               <speaker>Cyr. </speaker>
               <l>I charge you on your Lives, none touch the Queen, </l>
               <l>And hurt no man but such as shall resist. </l>
             </sp>
-            <sp xml:id="ep000475-e39280">
+            <sp who="ep000475-thom" xml:id="ep000475-e39280">
               <speaker>Thom. </speaker>
               <l>'Twas never known, that any Scythian yet </l>
               <l>Did yield his Person, or his Weapon up. </l>
@@ -3841,7 +3934,7 @@
               <l>Then undisturb'd, let us forsake this place, </l>
               <l>Of all the World the fatallest to Thomyris. </l>
             </sp>
-            <sp xml:id="ep000475-e39440">
+            <sp who="ep000475-cyr" xml:id="ep000475-e39440">
               <speaker>Cyr. </speaker>
               <l>'Tis granted, and you may with safety go— </l>
               <l>Cyrus can do no less to such a Queen, </l>
@@ -3858,7 +3951,7 @@
               <l>All the vast City shall indead appear, </l>
               <l>But one wide spatious Room fill'd full of Sorrow. </l>
             </sp>
-            <sp xml:id="ep000475-e39630">
+            <sp who="ep000475-thomy" xml:id="ep000475-e39630">
               <speaker>Thomy. </speaker>
               <l>No, no, cover the Bodies from their Eyes, </l>
               <l>Then in a Mourning Chariot place the Bridgroom, </l>
@@ -3871,7 +3964,7 @@
               <l>And naught be heard but Horrour and despair. </l>
             </sp>
             <stage xml:id="ep000475-e39750">[Exeunt Thomyris, and all her Party, bearing away the Bodies of Panthea, and Abradatas. Dead March Sounds. </stage>
-            <sp xml:id="ep000475-e39790">
+            <sp who="ep000475-hyst" xml:id="ep000475-e39790">
               <speaker>Hyst. </speaker>
               <l>Live happy as a God, and o're past miseries </l>
               <l>Rejoyce— Fate is your slave, and puts and End </l>
@@ -3887,7 +3980,7 @@
               <l>Still grow upon you, and with fresher Charms </l>
               <l>Supply your Soul, and make your joys Immortal. </l>
             </sp>
-            <sp xml:id="ep000475-e39960">
+            <sp who="ep000475-cyr" xml:id="ep000475-e39960">
               <speaker>Cyr. </speaker>
               <l>Come, Fellow Souldiers, let's to Babylon, </l>
               <l>Empress of Nations, and great Queen of Cities— </l>
@@ -3913,30 +4006,30 @@
         <pb xml:id="ep000475-034-a"/>
         <head>EPILOGUE, Spoken by the Boy and Girl, by way of Dialogue. </head>
         <stage xml:id="ep000475-e40180">Curtain falls. </stage>
-        <sp xml:id="ep000475-e40190">
+        <sp who="ep000475-girl" xml:id="ep000475-e40190">
           <speaker>Girl. </speaker>
           <l>HOLD, hold, is the Play done? </l>
         </sp>
-        <sp xml:id="ep000475-e40220">
+        <sp who="ep000475-boy" xml:id="ep000475-e40220">
           <speaker>Boy. </speaker>
           <l>Ay, pretty Rogue. </l>
         </sp>
-        <sp xml:id="ep000475-e40250">
+        <sp who="ep000475-girl" xml:id="ep000475-e40250">
           <speaker>Girl. </speaker>
           <l>What a New PLAY without an Epilogue? </l>
         </sp>
-        <sp xml:id="ep000475-e40290">
+        <sp who="ep000475-boy" xml:id="ep000475-e40290">
           <speaker>Boy. </speaker>
           <l>Lausaria's dead, Panthea too is slain, </l>
           <l>And wou'd you have dead Bodies rise again? </l>
           <l>That were indeed a very pretty Fact, </l>
           <l>You had enough of that in the First Act. </l>
         </sp>
-        <sp xml:id="ep000475-e40370">
+        <sp who="ep000475-girl" xml:id="ep000475-e40370">
           <speaker>Girl. </speaker>
           <l>Why, what d' you make of Mr. Betterton? </l>
         </sp>
-        <sp xml:id="ep000475-e40410">
+        <sp who="ep000475-boy" xml:id="ep000475-e40410">
           <speaker>Boy. </speaker>
           <l>The Curtain's dropt, and he is glad he's gone; </l>
           <l>The Poet too, has loaded him so sore, </l>
@@ -3946,13 +4039,13 @@
           <l>What if we did; to cover such a Blot, </l>
           <l>Address our selves toth' Audience? </l>
         </sp>
-        <sp xml:id="ep000475-e40500">
+        <sp who="ep000475-girl" xml:id="ep000475-e40500">
           <speaker>Girl. </speaker>
           <l>That's well thought, </l>
           <l>And since we must say something, pray begin, </l>
           <l>You to the Ladies, I the Gentlemen. </l>
         </sp>
-        <sp xml:id="ep000475-e40550">
+        <sp who="ep000475-boy" xml:id="ep000475-e40550">
           <speaker>Boy. </speaker>
           <l>Ladies, if you will to our PLAY be kind, </l>
           <l>May every one, their dear last Wishes find; </l>
@@ -3962,7 +4055,7 @@
           <l>At Bassert may your Good Luck so continue, </l>
           <l>And win the Gamester's Heart, as well as Guiney. </l>
         </sp>
-        <sp xml:id="ep000475-e40650">
+        <sp who="ep000475-girl" xml:id="ep000475-e40650">
           <speaker>Girl. </speaker>
           <l>And Gentlemen, if you will like our PLAY, </l>
           <l>May this good Fate attend you ev'ry day. </l>
@@ -3973,16 +4066,16 @@
           <l>May nothing bring you out of humour hither, </l>
           <l>Nor Hackney-Coach be wanting in wet weather. </l>
         </sp>
-        <sp xml:id="ep000475-e40780">
+        <sp who="ep000475-boy" xml:id="ep000475-e40780">
           <speaker>Boy. </speaker>
           <l>Ladies, w'are almost sure of your good Natures, </l>
           <l>'Twere Cruel to deny such Little Creatures. </l>
         </sp>
-        <sp xml:id="ep000475-e40820">
+        <sp who="ep000475-girl" xml:id="ep000475-e40820">
           <speaker>Girl. </speaker>
           <l>And if the Men mislike, or make a puther, </l>
         </sp>
-        <sp xml:id="ep000475-e40850">
+        <sp who="ep000475-boy" xml:id="ep000475-e40850">
           <speaker>Boy. </speaker>
           <l>Evads we'll fit 'em for't one way or other. </l>
           <l>'Tis a wise Child that knows its Father, Sirs </l>

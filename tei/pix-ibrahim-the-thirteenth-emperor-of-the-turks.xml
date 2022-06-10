@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000674" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000674" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +54,105 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000674-ach">
+              <persName>Ach</persName>
+            </person>
+            <person xml:id="ep000674-he">
+              <persName>He</persName>
+            </person>
+            <person xml:id="ep000674-she">
+              <persName>She</persName>
+            </person>
+            <person xml:id="ep000674-guard">
+              <persName>Guard</persName>
+            </person>
+            <person xml:id="ep000674-amur">
+              <persName>Amur</persName>
+            </person>
+            <person xml:id="ep000674-vis">
+              <persName>Vis</persName>
+            </person>
+            <person xml:id="ep000674-sheck">
+              <persName>Sheck</persName>
+            </person>
+            <person xml:id="ep000674-achaside">
+              <persName>Ach. Aside</persName>
+            </person>
+            <person xml:id="ep000674-mor">
+              <persName>Mor</persName>
+            </person>
+            <person xml:id="ep000674-zaida">
+              <persName>Zaida</persName>
+            </person>
+            <person xml:id="ep000674-mess">
+              <persName>Mess</persName>
+            </person>
+            <person xml:id="ep000674-ib">
+              <persName>Ib</persName>
+            </person>
+            <person xml:id="ep000674-ibra">
+              <persName>Ibra</persName>
+            </person>
+            <person xml:id="ep000674-mufti">
+              <persName>Mufti</persName>
+            </person>
+            <person xml:id="ep000674-mir">
+              <persName>Mir</persName>
+            </person>
+            <person xml:id="ep000674-shek">
+              <persName>Shek:</persName>
+            </person>
+            <person xml:id="ep000674-soly">
+              <persName>Soly</persName>
+            </person>
+            <person xml:id="ep000674-skek">
+              <persName>Skek</persName>
+            </person>
+            <person xml:id="ep000674-sheker">
+              <persName>Sheker</persName>
+            </person>
+            <person xml:id="ep000674-ibr">
+              <persName>Ibr</persName>
+            </person>
+            <person xml:id="ep000674-am">
+              <persName>Am</persName>
+            </person>
+            <person xml:id="ep000674-must">
+              <persName>Must</persName>
+            </person>
+            <person xml:id="ep000674-visier">
+              <persName>Visier</persName>
+            </person>
+            <person xml:id="ep000674-ibrah">
+              <persName>Ibrah</persName>
+            </person>
+            <person xml:id="ep000674-sult">
+              <persName>Sult</persName>
+            </person>
+            <person xml:id="ep000674-achm">
+              <persName>Achm</persName>
+            </person>
+            <person xml:id="ep000674-shekarkneeling">
+              <persName>Shekar kneeling</persName>
+            </person>
+            <person xml:id="ep000674-omnes">
+              <persName>Omnes</persName>
+            </person>
+            <person xml:id="ep000674-muft">
+              <persName>Muft</persName>
+            </person>
+            <person xml:id="ep000674-zayd">
+              <persName>Zayd</persName>
+            </person>
+            <person xml:id="ep000674-serv">
+              <persName>Serv</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -167,7 +266,7 @@
           <stage xml:id="ep000674-e1240">
             <hi>At a distance: The </hi>Mufti and Mustapha appear. </stage>
           <stage xml:id="ep000674-e1280">Near the Audience Achmet and several Eunuchs Enter. </stage>
-          <sp xml:id="ep000674-e1300">
+          <sp who="ep000674-ach" xml:id="ep000674-e1300">
             <speaker>Ach. </speaker>
             <l>HAste each Attendant to perform his several charge </l>
             <l>With strictest diligence, and most observant care; </l>
@@ -183,7 +282,7 @@
           </sp>
           <stage xml:id="ep000674-e1460">[Exit Achmet, the Eunuchs follow. </stage>
           <stage xml:id="ep000674-e1480">The Mufti and Mustapha come forward. </stage>
-          <sp xml:id="ep000674-e1510">
+          <sp who="ep000674-mufti" xml:id="ep000674-e1510">
             <speaker>Mufti. </speaker>
             <l>Now, by our Prophet, what's all this but gaudy Pageantry, </l>
             <l>Ill acted Scenes of Pomp and show, instead of real greatness: </l>
@@ -206,7 +305,7 @@
             <l>The Pander Visier winks, whilst the poor Owner </l>
             <l>Waits in vain for Answer or Redress. </l>
           </sp>
-          <sp xml:id="ep000674-e1760">
+          <sp who="ep000674-must" xml:id="ep000674-e1760">
             <speaker>Must. </speaker>
             <l>Most just Observer, as well as Teacher of our Laws, </l>
             <l>By me in Friendship like a Brother lov'd, </l>
@@ -216,7 +315,7 @@
             <l>Alas, avail not, our Lord hates us his faithful Servants, </l>
             <l>And whatever we shou'd offer, wou'd certainly despise. </l>
           </sp>
-          <sp xml:id="ep000674-e1850">
+          <sp who="ep000674-muft" xml:id="ep000674-e1850">
             <speaker>Muft. </speaker>
             <l>You are too good, my Must. to be a Favourite here, </l>
             <l>Though so long Married to the Royal Sister of our Emperour; </l>
@@ -231,14 +330,14 @@
             <l>O 'tis Nobler far a Crown to Merit, than a Crown </l>
             <l>To wear. </l>
           </sp>
-          <sp xml:id="ep000674-e2010">
+          <sp who="ep000674-must" xml:id="ep000674-e2010">
             <speaker>Must. </speaker>
             <l>Happy's my Son in such a Patron, </l>
             <l>Who never ceases to oblige; I know your kind Attendance </l>
             <l>Now is on his behalf, to speak his Actions </l>
             <l>In the Sultans Ear, so as may obtain his Royal favour. </l>
           </sp>
-          <sp xml:id="ep000674-e2070">
+          <sp who="ep000674-muft" xml:id="ep000674-e2070">
             <speaker>Muft. </speaker>
             <l>It is indeed my chief design— </l>
             <l>But oh! Manly Vertue, Courage unequall'd, </l>
@@ -248,45 +347,45 @@
             <l>Beauty charms into a sleep too sound </l>
             <l>For the Report of Noble Deeds to wake. </l>
           </sp>
-          <sp xml:id="ep000674-e2180">
+          <sp who="ep000674-must" xml:id="ep000674-e2180">
             <speaker>Must. </speaker>
             <l>The Visier is the Minion </l>
             <l>Hangs the darling of his heart, </l>
             <l>And with ill Counsel poysons </l>
             <l>Every design that tends towards Vertue. </l>
           </sp>
-          <sp xml:id="ep000674-e2240">
+          <sp who="ep000674-muft" xml:id="ep000674-e2240">
             <speaker>Muft. </speaker>
             <l>Then that vile Woman, to whom </l>
             <l>He hath given the sweet Name </l>
             <l>Of <hi>Sheker Para</hi>, she, with the Visier, </l>
             <l>Joins to ruin Ibrahim— </l>
           </sp>
-          <sp xml:id="ep000674-e2320">
+          <sp who="ep000674-must" xml:id="ep000674-e2320">
             <speaker>Must. </speaker>
             <l>Whilst he, contrary to our Countries Laws, </l>
             <l>Exposes her to publick view, lets her converse </l>
             <pb n="3" xml:id="ep000674-006-b"/>
             <l>With Visier, Bashaws, or whom she pleases. </l>
           </sp>
-          <sp xml:id="ep000674-e2370">
+          <sp who="ep000674-muft" xml:id="ep000674-e2370">
             <speaker>Muft. </speaker>
             <l>But that I have a Daughter, </l>
             <l>Whose early Vertue and sincere Obedience, </l>
             <l>Ties my Soul to dote upon: </l>
             <l>I for my Countries sake wou'd Curse the Sex. </l>
           </sp>
-          <sp xml:id="ep000674-e2430">
+          <sp who="ep000674-must" xml:id="ep000674-e2430">
             <speaker>Must. </speaker>
             <l>That Daughter— </l>
           </sp>
-          <sp xml:id="ep000674-e2460">
+          <sp who="ep000674-muft" xml:id="ep000674-e2460">
             <speaker>Muft. </speaker>
             <l>No more, the Emperours Guards appear, </l>
             <l>And see the Visier, and the Woman at his Elbow. </l>
           </sp>
           <stage xml:id="ep000674-e2500">Enter Ibrahim, the Grand Visier, Sheker Para, Achmet, <hi>and several Attendants</hi>. </stage>
-          <sp xml:id="ep000674-e2540">
+          <sp who="ep000674-ibrah" xml:id="ep000674-e2540">
             <speaker>Ibrah. </speaker>
             <l>I say the Bashaw's Treason is plain, </l>
             <l>Therefore Morat, attend him with the Bow-string, </l>
@@ -294,7 +393,7 @@
             <l>He surrender Life for his Ill-gotten Wealth. </l>
             <l>'Tis thine, my faithful, vigilant Azema. </l>
           </sp>
-          <sp xml:id="ep000674-e2630">
+          <sp who="ep000674-vis" xml:id="ep000674-e2630">
             <speaker>Vis. </speaker>
             <l>O sacred Sir, whose Justice is Divine, </l>
             <l>And 'twould be Impious to affirm </l>
@@ -304,36 +403,36 @@
             <l>Besides, I have many Enemies, and these high favours </l>
             <l>Will I fear create me more. </l>
           </sp>
-          <sp xml:id="ep000674-e2730">
+          <sp who="ep000674-ibrah" xml:id="ep000674-e2730">
             <speaker>Ibrah. </speaker>
             <l>Who dares to be thy Enemy? No, Visier, </l>
             <l>Whilst I protect thee, Kings shall for thy Friendship sue; </l>
             <l>And let thy Foes remember what I commanded last. </l>
           </sp>
-          <sp xml:id="ep000674-e2780">
+          <sp who="ep000674-vis" xml:id="ep000674-e2780">
             <speaker>Vis. </speaker>
             <l>O let me throw my self beneath your Royal Feet, </l>
             <l>And kissing your honour'd Robes, disclose </l>
             <l>The Adoration that my heart is full of. </l>
           </sp>
-          <sp xml:id="ep000674-e2830">
+          <sp who="ep000674-muft" xml:id="ep000674-e2830">
             <speaker>Muft. </speaker>
             <l>Fawning Sycophant! </l>
           </sp>
           <stage xml:id="ep000674-e2860">[Aside. </stage>
-          <sp xml:id="ep000674-e2870">
+          <sp who="ep000674-ibra" xml:id="ep000674-e2870">
             <speaker>Ibra. </speaker>
             <l>Rise, good Azema! no more! </l>
           </sp>
-          <sp xml:id="ep000674-e2910">
+          <sp who="ep000674-muft" xml:id="ep000674-e2910">
             <speaker>Muft. </speaker>
             <l>Great Sir, I have a Suit to you. </l>
           </sp>
-          <sp xml:id="ep000674-e2940">
+          <sp who="ep000674-ibra" xml:id="ep000674-e2940">
             <speaker>Ibra. </speaker>
             <l>What is't, my Religious Councellor? </l>
           </sp>
-          <sp xml:id="ep000674-e2970">
+          <sp who="ep000674-muft" xml:id="ep000674-e2970">
             <speaker>Muft. </speaker>
             <l>Not for my self, but one much more deserving, </l>
             <l>Your Godlike General Amurat, who brings </l>
@@ -346,7 +445,7 @@
             <l>That this Winter he may remain </l>
             <l>At his own Palace here in Constantinople. </l>
           </sp>
-          <sp xml:id="ep000674-e3130">
+          <sp who="ep000674-ibra" xml:id="ep000674-e3130">
             <speaker>Ibra. </speaker>
             <l>I'll consider his desires— but at this time </l>
             <l>Let all, except my Eunuchs, and my <hi>Sheker Para</hi>, </l>
@@ -358,7 +457,7 @@
             <l>Have ruffled from its own Sphere of </l>
             <l>Ease and Pleasure— </l>
           </sp>
-          <sp xml:id="ep000674-e3260">
+          <sp who="ep000674-shek" xml:id="ep000674-e3260">
             <speaker>Shek. </speaker>
             <l>To charm my Monarch is the only study and </l>
             <l>Business of your Slave, and to that end, </l>
@@ -366,7 +465,7 @@
             <l>I have pick'd and chosen from a thousand, </l>
             <l>And set in order for your view. </l>
           </sp>
-          <sp xml:id="ep000674-e3330">
+          <sp who="ep000674-ibra" xml:id="ep000674-e3330">
             <speaker>Ibra. </speaker>
             <l>Thanks my good Girl, 'tis by these obliging turns </l>
             <l>That thou secur'st the heart of Ibrahim. </l>
@@ -378,7 +477,7 @@
             <l>I but tast of them, my solid part, </l>
             <l>My Friendship that remains with thee. </l>
           </sp>
-          <sp xml:id="ep000674-e3450">
+          <sp who="ep000674-ach" xml:id="ep000674-e3450">
             <speaker>Ach. </speaker>
             <l>Now let each Ambitious Maid disclose the Gifts </l>
             <l>Of Art and Nature, whether in Voice, or </l>
@@ -387,29 +486,29 @@
             <l>To charm the Worlds great Lord. </l>
             <stage xml:id="ep000674-e3520">The Scene draws and discovers the Ladies set in Order for the Sultans Choice, who takes out his Handkerchief, and walks round them; whilst <hi>Sheker Para </hi>talks to Achmet. </stage>
           </sp>
-          <sp xml:id="ep000674-e3550">
+          <sp who="ep000674-sheker" xml:id="ep000674-e3550">
             <speaker>Sheker. </speaker>
             <l>How different, Achmet, is this from the European stories; </l>
             <l>I have read there, twenty Heroes for the Ladies </l>
             <l>Burn and die, here twenty Ladies for the Hero. </l>
           </sp>
-          <sp xml:id="ep000674-e3620">
+          <sp who="ep000674-ach" xml:id="ep000674-e3620">
             <speaker>Ach. </speaker>
             <l>It shows that Mankind maintains his Charter </l>
             <l>Better here, yet loses sure the sweetness </l>
             <l>Of submissive love; see, he seems sixt. </l>
           </sp>
-          <sp xml:id="ep000674-e3670">
+          <sp who="ep000674-shek" xml:id="ep000674-e3670">
             <speaker>Shek. </speaker>
             <l>No— the Handkerchief is not dropt yet, </l>
             <l>And she's left to use her own. </l>
           </sp>
-          <sp xml:id="ep000674-e3710">
+          <sp who="ep000674-ach" xml:id="ep000674-e3710">
             <speaker>Ach. </speaker>
             <l>Now 'tis resolved— </l>
           </sp>
           <stage xml:id="ep000674-e3740">[The Sultan drops his Handkerchief, which the Lady falling prostrate, kisses, and takes up, and is led off by two Eunuchs; the Sultan following, the Scene shuts upon the rest. </stage>
-          <sp xml:id="ep000674-e3750">
+          <sp who="ep000674-shek" xml:id="ep000674-e3750">
             <speaker>Shek. </speaker>
             <l>Oh Achmet! O my faithful Slave! </l>
             <l>If e'er thou lov'st thy generous Mistress </l>
@@ -424,7 +523,7 @@
             <l>All this, I say, thou know'st, and yet bringst No </l>
             <l>Remedy. </l>
           </sp>
-          <sp xml:id="ep000674-e3890">
+          <sp who="ep000674-ach" xml:id="ep000674-e3890">
             <speaker>Ach. </speaker>
             <l>True, when these Convulsive Fits are on ye, </l>
             <l>I from your ravings learn you love the General Amurat, </l>
@@ -433,7 +532,7 @@
             <l>But the Physician that pretends to administer a Cure, </l>
             <l>Must each particular of the Distemper know. </l>
           </sp>
-          <sp xml:id="ep000674-e3980">
+          <sp who="ep000674-shek" xml:id="ep000674-e3980">
             <speaker>Shek. </speaker>
             <l>O! I have told thee, o'er and o'er. </l>
             <l>Repetition wrecks my Soul— </l>
@@ -443,11 +542,11 @@
             <l>That has undone me, for there I have seen </l>
             <l>This Robber of my rest, this cruel charming Amurat. </l>
           </sp>
-          <sp xml:id="ep000674-e4080">
+          <sp who="ep000674-ach" xml:id="ep000674-e4080">
             <speaker>Ach. </speaker>
             <l>Knows he his Happyness? </l>
           </sp>
-          <sp xml:id="ep000674-e4110">
+          <sp who="ep000674-sheck" xml:id="ep000674-e4110">
             <speaker>Sheck. </speaker>
             <l>Yes, Yes, for I have stole a thousand burning Glances, </l>
             <l>And sent them to his heart </l>
@@ -459,13 +558,13 @@
             <l>But turns his own another way— </l>
             <l>Or else looks guilty down. </l>
           </sp>
-          <sp xml:id="ep000674-e4220">
+          <sp who="ep000674-ach" xml:id="ep000674-e4220">
             <speaker>Ach. </speaker>
             <l>What stoick vertue rules in his cold Icy Veins, </l>
             <l>And gives him power to resist those Eyes? </l>
             <l>Or has another gain'd his heart? </l>
           </sp>
-          <sp xml:id="ep000674-e4270">
+          <sp who="ep000674-shek" xml:id="ep000674-e4270">
             <speaker>Shek. </speaker>
             <l>Cou'd I find out that, revenge wou'd take the place </l>
             <l>Of Injur'd Love, and I shou'd weep no more; </l>
@@ -480,20 +579,20 @@
             <l>How wou'd I wrack her, how glut me </l>
             <l>With the ruine of their Loves, and them! </l>
           </sp>
-          <sp xml:id="ep000674-e4420">
+          <sp who="ep000674-ach" xml:id="ep000674-e4420">
             <speaker>Ach. </speaker>
             <l>This I have observ'd, that since his Incamping near </l>
             <l>He often in disguise repairs to this great Town; </l>
             <l>But whether Ambition or Love bring him, I know </l>
             <l>Not, for I cou'd never learn his Counsels. </l>
           </sp>
-          <sp xml:id="ep000674-e4480">
+          <sp who="ep000674-shek" xml:id="ep000674-e4480">
             <speaker>Shek. </speaker>
             <l>That, dear Achmet, be thy future care, </l>
             <l>And name thy own reward. But how canst thou effect it, </l>
             <l>Hath thy prolifick brain yet laid a form? </l>
           </sp>
-          <sp xml:id="ep000674-e4540">
+          <sp who="ep000674-ach" xml:id="ep000674-e4540">
             <pb n="6" xml:id="ep000674-008-a"/>
             <speaker>Ach. </speaker>
             <l>Yes, thus— </l>
@@ -505,7 +604,7 @@
             <l>Him will I draw aside, knock out his brains, </l>
             <l>And in his habit watch the Princes Motions. </l>
           </sp>
-          <sp xml:id="ep000674-e4640">
+          <sp who="ep000674-shek" xml:id="ep000674-e4640">
             <speaker>Shek. </speaker>
             <l>Now! Amurat— Excellent! </l>
             <l>The time draws near to quench these raging fires, </l>
@@ -517,7 +616,7 @@
         <div n="2" type="act" xml:id="ep000674-e4720">
           <head>ACT II. </head>
           <stage xml:id="ep000674-e4740">Enter Amurat, Solyman. </stage>
-          <sp xml:id="ep000674-e4760">
+          <sp who="ep000674-soly" xml:id="ep000674-e4760">
             <speaker>Soly. </speaker>
             <l>THis is not sure that Amurat </l>
             <l>Who foremost scaled the Walls of Babylon, </l>
@@ -526,7 +625,7 @@
             <l>Stops, turns pale, and seems to grow upon the </l>
             <l>Earth he treads. </l>
           </sp>
-          <sp xml:id="ep000674-e4860">
+          <sp who="ep000674-am" xml:id="ep000674-e4860">
             <speaker>Am. </speaker>
             <l>Thou art no judge, my Friend, you never loved, </l>
             <l>Nor sure none ever loved like me, </l>
@@ -534,13 +633,13 @@
             <l>That she might not despise me— </l>
             <l>Nor have I more to do if she is lost. </l>
           </sp>
-          <sp xml:id="ep000674-e4940">
+          <sp who="ep000674-soly" xml:id="ep000674-e4940">
             <speaker>Soly. </speaker>
             <l>You terrify your self with groundless fears, </l>
             <l>Nor can I from the Mufti's Letter </l>
             <l>Discern a danger threatning towards your love </l>
           </sp>
-          <sp xml:id="ep000674-e5000">
+          <sp who="ep000674-am" xml:id="ep000674-e5000">
             <speaker>Am. </speaker>
             <l>Oh Solyman! forgive the frailty of your Friend, </l>
             <l>Forgive the follies that Imperious love creates, </l>
@@ -552,12 +651,12 @@
             <l>A thousand wracks, she'd tread the rigid paths of Duty, </l>
             <l>And let me die, rather than forfeit her obedience. </l>
           </sp>
-          <sp xml:id="ep000674-e5130">
+          <sp who="ep000674-soly" xml:id="ep000674-e5130">
             <speaker>Soly. </speaker>
             <l>The Guard our Country lays on that fair charming Sex </l>
             <l>Causes my wonder, how you have lov'd thus long conceal'd. </l>
           </sp>
-          <sp xml:id="ep000674-e5170">
+          <sp who="ep000674-am" xml:id="ep000674-e5170">
             <speaker>Am. </speaker>
             <l>Kind Heav'n who saw my faithful suffering heart, </l>
             <l>In pity thus disposed it, a trusty Slave at the </l>
@@ -584,39 +683,39 @@
             <l>The Effects of grief; and I shou'd fall a Victim </l>
             <l>At her feet. </l>
           </sp>
-          <sp xml:id="ep000674-e5430">
+          <sp who="ep000674-soly" xml:id="ep000674-e5430">
             <speaker>Soly. </speaker>
             <l>Where Heaven gives the greatest hearts </l>
             <l>We still the greatest Passions find, </l>
             <l>And 'tis the brave alone love most and best. </l>
           </sp>
-          <sp xml:id="ep000674-e5480">
+          <sp who="ep000674-am" xml:id="ep000674-e5480">
             <speaker>Am. </speaker>
             <l>My Dear Indulgent Friend, farewel, </l>
             <l>At the usual Rendezvouz I'll be </l>
             <l>Within few hours; and we'll return </l>
             <l>Together to the Camp. </l>
           </sp>
-          <sp xml:id="ep000674-e5540">
+          <sp who="ep000674-soly" xml:id="ep000674-e5540">
             <speaker>Soly. </speaker>
             <l>Prosperity attend your Wishes. </l>
           </sp>
           <stage xml:id="ep000674-e5570">[Exeunt severally. </stage>
           <stage xml:id="ep000674-e5580">
             <hi>Enter the </hi>Mufti, and Mustapha, Amurat <hi>meets them attended, amongst his Attendants </hi>Achmet. </stage>
-          <sp xml:id="ep000674-e5620">
+          <sp who="ep000674-muft" xml:id="ep000674-e5620">
             <speaker>Muft. </speaker>
             <l>Welcome Noble Youth, you're most welcome here, </l>
             <l>Nor is your request forgot, though not obtain'd, </l>
             <l>For your appearing publickly. </l>
           </sp>
-          <sp xml:id="ep000674-e5670">
+          <sp who="ep000674-am" xml:id="ep000674-e5670">
             <speaker>Am. </speaker>
             <l>Where shall I pay my duty first? </l>
             <l>Or which way Kneel? each is a Father, </l>
             <l>And each too good for Amurat. </l>
           </sp>
-          <sp xml:id="ep000674-e5730">
+          <sp who="ep000674-must" xml:id="ep000674-e5730">
             <speaker>Must. </speaker>
             <l>Most sure my Son, you never can </l>
             <l>Enough acknowledge the bounties </l>
@@ -627,7 +726,7 @@
             <l>Still render'd thee as now thou standest, </l>
             <l>Favourite to the Prince, and People. </l>
           </sp>
-          <sp xml:id="ep000674-e5830">
+          <sp who="ep000674-muft" xml:id="ep000674-e5830">
             <pb n="8" xml:id="ep000674-009-a"/>
             <speaker>Muft. </speaker>
             <l>My Friends, ye over-rate my Endeavours </l>
@@ -642,11 +741,11 @@
             <l>In my power, which equal to a Crown you'll prize. </l>
           </sp>
           <stage xml:id="ep000674-e5960">Morena Entering. </stage>
-          <sp xml:id="ep000674-e5980">
+          <sp who="ep000674-am" xml:id="ep000674-e5980">
             <speaker>Am. </speaker>
             <l>Ha!— </l>
           </sp>
-          <sp xml:id="ep000674-e6010">
+          <sp who="ep000674-muft" xml:id="ep000674-e6010">
             <speaker>Muft. </speaker>
             <l>Come forth, Morena, my Ages Darling, </l>
             <l>And my hearts delight; Joy of my Eyes, </l>
@@ -654,7 +753,7 @@
             <l>Lend me thy hand, and smile upon thy Father </l>
             <l>When he gives thee to thy Wishes. </l>
           </sp>
-          <sp xml:id="ep000674-e6090">
+          <sp who="ep000674-am" xml:id="ep000674-e6090">
             <speaker>Am. </speaker>
             <l>Where am I? </l>
             <l>Thou transporting Image that dances thus </l>
@@ -662,37 +761,37 @@
             <l>Oh! that at the emptying half my Veins, </l>
             <l>I were convinc'd this is no Dream. </l>
           </sp>
-          <sp xml:id="ep000674-e6160">
+          <sp who="ep000674-muft" xml:id="ep000674-e6160">
             <speaker>Muft. </speaker>
             <l>I saw your secret Love, watch'd the kindling fires, </l>
             <l>And blest 'em as they sprang. Had I disapprov'd </l>
             <l>They had been prevented e'er risen to a mutual flame, </l>
             <l>But take her, Son, and Eternal Blessings Crown ye both. </l>
           </sp>
-          <sp xml:id="ep000674-e6220">
+          <sp who="ep000674-must" xml:id="ep000674-e6220">
             <speaker>Must. </speaker>
             <l>He is already blest, what Monarch wou'd not forego </l>
             <l>An universal sway for such a charming Maid? </l>
           </sp>
-          <sp xml:id="ep000674-e6260">
+          <sp who="ep000674-am" xml:id="ep000674-e6260">
             <speaker>Am. </speaker>
             <l>Speak Goddess, speak! Angel, speak! </l>
             <l>Let your sweet Voice confirm my Happiness, </l>
             <l>That my beating heart may force its passage </l>
             <l>Through my Breast, and fly to yours! </l>
           </sp>
-          <sp xml:id="ep000674-e6320">
+          <sp who="ep000674-mor" xml:id="ep000674-e6320">
             <speaker>Mor. </speaker>
             <l>
               <hi>O Amurat</hi>! spare my Tongue and Cheeks </l>
             <l>The shame of owning what my Soul is full of; </l>
             <l>And by my past Love, judge my present Joy! </l>
           </sp>
-          <sp xml:id="ep000674-e6380">
+          <sp who="ep000674-achaside" xml:id="ep000674-e6380">
             <speaker>Ach. Aside. </speaker>
             <l>Thy future Misery I can read. </l>
           </sp>
-          <sp xml:id="ep000674-e6410">
+          <sp who="ep000674-am" xml:id="ep000674-e6410">
             <speaker>Am. </speaker>
             <l>'Tis so, and I am blest above all humane kind: </l>
             <l>Reign, reign, ye unenvy'd Monarchs! </l>
@@ -707,13 +806,13 @@
             <pb n="9" xml:id="ep000674-009-b"/>
             <l>Than a fancy'd God. </l>
           </sp>
-          <sp xml:id="ep000674-e6560">
+          <sp who="ep000674-mor" xml:id="ep000674-e6560">
             <speaker>Mor. </speaker>
             <l>Cease these transports, my lov'd Lord, </l>
             <l>Least fate grow angry at our Joys Excess, </l>
             <l>And Dash them with Eternal Woes. </l>
           </sp>
-          <sp xml:id="ep000674-e6610">
+          <sp who="ep000674-muft" xml:id="ep000674-e6610">
             <speaker>Muft. </speaker>
             <l>Make hast, my Son, in your return </l>
             <l>To the Camp, for fear the Emperour </l>
@@ -724,7 +823,7 @@
             <l>Into yours! </l>
           </sp>
           <stage xml:id="ep000674-e6710">[Exeunt Mufti and Mustapha. </stage>
-          <sp xml:id="ep000674-e6740">
+          <sp who="ep000674-am" xml:id="ep000674-e6740">
             <speaker>Am. </speaker>
             <l>Oh Morena! my Morena, Now </l>
             <l>Permit me to approach, and swear </l>
@@ -733,7 +832,7 @@
             <l>I've thaw'd thy Virgin Icy Heart, </l>
             <l>And made it burn like mine. </l>
           </sp>
-          <sp xml:id="ep000674-e6840">
+          <sp who="ep000674-mor" xml:id="ep000674-e6840">
             <speaker>Mor. </speaker>
             <l>What Maid can hear, and be unmov'd, </l>
             <l>The Man she loves talk at this charming rate; </l>
@@ -743,7 +842,7 @@
             <l>Will hereafter be, perhaps, Word for Word </l>
             <l>Repeated to another. </l>
           </sp>
-          <sp xml:id="ep000674-e6930">
+          <sp who="ep000674-am" xml:id="ep000674-e6930">
             <speaker>Am. </speaker>
             <l>Never, Morena, never. </l>
             <l>No, here kneeling in the Face of Heaven </l>
@@ -756,7 +855,7 @@
             <l>Let our great Master be Spectator of my Infamy, </l>
             <l>And after that let me live. </l>
           </sp>
-          <sp xml:id="ep000674-e7060">
+          <sp who="ep000674-mor" xml:id="ep000674-e7060">
             <speaker>Mor. </speaker>
             <l>Hold, my dear Lord, fain wou'd I say something too </l>
             <l>To answer all this wondrous love, </l>
@@ -765,7 +864,7 @@
             <l>Be torn in thousand pieces, rather than </l>
             <l>Break my Plighted Faith. </l>
           </sp>
-          <sp xml:id="ep000674-e7150">
+          <sp who="ep000674-am" xml:id="ep000674-e7150">
             <speaker>Am. </speaker>
             <l>No more my Life, what need of Oaths </l>
             <l>When Love Cements our Hearts, </l>
@@ -773,7 +872,7 @@
             <l>The sweet memory of which </l>
             <l>Win wing my swift return. </l>
           </sp>
-          <sp xml:id="ep000674-e7220">
+          <sp who="ep000674-mor" xml:id="ep000674-e7220">
             <speaker>Mor. </speaker>
             <l>What mean these tremblings here? </l>
             <l>Why come these sighs uncall'd? </l>
@@ -781,7 +880,7 @@
             <l>I know— I think I know </l>
             <l>You wonnot break your Vow. </l>
           </sp>
-          <sp xml:id="ep000674-e7280">
+          <sp who="ep000674-am" xml:id="ep000674-e7280">
             <speaker>Am. </speaker>
             <l>Shall I swear again, </l>
             <l>Never yet closer to thy heart. </l>
@@ -804,7 +903,7 @@
           </sp>
           <stage xml:id="ep000674-e7500">[Exeunt. </stage>
           <stage xml:id="ep000674-e7510">Enter <hi>Sheker Para</hi>, and Mirva her Slave. </stage>
-          <sp xml:id="ep000674-e7550">
+          <sp who="ep000674-shek" xml:id="ep000674-e7550">
             <speaker>Shek. </speaker>
             <l>Now is fate at work for me: </l>
             <l>Achmet the busy Engine, that darling useful Eunuch, </l>
@@ -820,7 +919,7 @@
             <l>The glorious quarry, for though cast in a Coelestial Mould </l>
             <l>How cou'd a Nymph Divine resist him? </l>
           </sp>
-          <sp xml:id="ep000674-e7720">
+          <sp who="ep000674-mir" xml:id="ep000674-e7720">
             <speaker>Mir. </speaker>
             <l>Madam whilst you talk as if in dreams </l>
             <l>Of Heavenly, and Imaginary Beauty, </l>
@@ -832,7 +931,7 @@
             <l>Than aiming at a Mistress possess'd, </l>
             <l>And valu'd by the mighty Ibrahim. </l>
           </sp>
-          <sp xml:id="ep000674-e7840">
+          <sp who="ep000674-shek" xml:id="ep000674-e7840">
             <speaker>Shek. </speaker>
             <l>True, Mirva, I have charm'd the wandring God </l>
             <l>More variable than the Heathens Jove, </l>
@@ -847,12 +946,12 @@
             <l>I look down on the Sultana Queens, despise </l>
             <l>Their Pregnancy, and want of power. </l>
           </sp>
-          <sp xml:id="ep000674-e8000">
+          <sp who="ep000674-mir" xml:id="ep000674-e8000">
             <speaker>Mir. </speaker>
             <l>The Astonish'd World sees your amazing height, </l>
             <l>And justly pays to you their Adoration. </l>
           </sp>
-          <sp xml:id="ep000674-e8040">
+          <sp who="ep000674-shek" xml:id="ep000674-e8040">
             <speaker>Shek. </speaker>
             <l>Ah Flatterer, to what hast thou betray'd me, </l>
             <l>Whilst my boasting tongue swells with this </l>
@@ -863,7 +962,7 @@
             <l>Discover thy Faith and Diligence— Oh </l>
             <l>Quickly ease my tortur'd Soul! </l>
           </sp>
-          <sp xml:id="ep000674-e8160">
+          <sp who="ep000674-ach" xml:id="ep000674-e8160">
             <speaker>Ach. </speaker>
             <l>Madam, your last and Chief desire was </l>
             <l>To see the Prince: if that's Effected </l>
@@ -874,46 +973,46 @@
             <l>Shortens your walk, and you may </l>
             <l>Meet him in the open space. </l>
           </sp>
-          <sp xml:id="ep000674-e8270">
+          <sp who="ep000674-shek" xml:id="ep000674-e8270">
             <speaker>Shek. </speaker>
             <l>Fly Achmet, to my Cabinet, and shift thee there </l>
             <l>Then wait till my return— </l>
             <l>I dare not ask thee— is he a Lover? </l>
           </sp>
-          <sp xml:id="ep000674-e8330">
+          <sp who="ep000674-ach" xml:id="ep000674-e8330">
             <speaker>Ach. </speaker>
             <l>Madam, he is; if you stay to hear more </l>
             <l>You cannot see him. </l>
           </sp>
-          <sp xml:id="ep000674-e8370">
+          <sp who="ep000674-shek" xml:id="ep000674-e8370">
             <speaker>Shek. </speaker>
             <l>Yes, I will see him; though ten thousand's ruine </l>
             <l>Hung upon the fatal Interview! </l>
           </sp>
           <stage xml:id="ep000674-e8410">[Exit. </stage>
           <stage xml:id="ep000674-e8420">The Scene changes to the prospect of the Sea. Enter Amurat Mufled in his Robe. </stage>
-          <sp xml:id="ep000674-e8440">
+          <sp who="ep000674-am" xml:id="ep000674-e8440">
             <speaker>Am. </speaker>
             <l>to one Attend. <hi>See here abouts for </hi>Solyman. </l>
             <stage xml:id="ep000674-e8480">[Sheker Para, <hi>meets him</hi>. </stage>
             <l>Curst accident— how shall I avoid her. </l>
           </sp>
-          <sp xml:id="ep000674-e8510">
+          <sp who="ep000674-shek" xml:id="ep000674-e8510">
             <speaker>Shek. </speaker>
             <l>Ha! Mirva? is not that our Coelebrated General? </l>
           </sp>
-          <sp xml:id="ep000674-e8550">
+          <sp who="ep000674-mir" xml:id="ep000674-e8550">
             <speaker>Mir. </speaker>
             <l>Doubtless, Madam, his very motion shews him </l>
             <l>He cannot shroud his Glories. </l>
           </sp>
-          <sp xml:id="ep000674-e8590">
+          <sp who="ep000674-am" xml:id="ep000674-e8590">
             <speaker>Am. </speaker>
             <l>Excuse me Ladies; a business </l>
             <l>Relating only to my self, call'd me for some </l>
             <l>Moments hither, without our Lords Permission. </l>
           </sp>
-          <sp xml:id="ep000674-e8640">
+          <sp who="ep000674-shek" xml:id="ep000674-e8640">
             <speaker>Shek. </speaker>
             <l>And is this the way we receive our Conquerours? </l>
             <pb n="12" xml:id="ep000674-011-a"/>
@@ -929,13 +1028,13 @@
             <l>Fam'd Caesar, or her darling Pompey, cou'd </l>
             <l>Be more admir'd, esteem'd, or lov'd. </l>
           </sp>
-          <sp xml:id="ep000674-e8830">
+          <sp who="ep000674-am" xml:id="ep000674-e8830">
             <speaker>Am. </speaker>
             <l>When a Lady praises, I am Dumb. </l>
             <l>Shou'd a Man say this, I must call it </l>
             <l>Flattery, and I'll resent it. </l>
           </sp>
-          <sp xml:id="ep000674-e8880">
+          <sp who="ep000674-shek" xml:id="ep000674-e8880">
             <speaker>Shek. </speaker>
             <l>Fames Trumpet blows aloud, I </l>
             <l>Catch but the Echo, and repeat it faintly, </l>
@@ -946,21 +1045,21 @@
             <l>The lifted Arm of fate, and in my Breast </l>
             <l>Receive some wound design'd for you. </l>
           </sp>
-          <sp xml:id="ep000674-e8980">
+          <sp who="ep000674-am" xml:id="ep000674-e8980">
             <speaker>Am. </speaker>
             <l>War, with its rough Idea, ought not Madam, </l>
             <l>To Disturb your gentler mind, by varying </l>
             <l>Nature order'd the sweet mansion of love </l>
             <l>And soft desires. </l>
           </sp>
-          <sp xml:id="ep000674-e9040">
+          <sp who="ep000674-shek" xml:id="ep000674-e9040">
             <speaker>Shek. </speaker>
             <l>But Almighty Nature sometimes sills </l>
             <l>Our Souls with both: as I Ambitious </l>
             <l>Look up to War, so you methinks, </l>
             <l>Too Godlike Hero, might look down to love. </l>
           </sp>
-          <sp xml:id="ep000674-e9100">
+          <sp who="ep000674-am" xml:id="ep000674-e9100">
             <speaker>Am. </speaker>
             <l>'Tis looking upwards, Madam, surely </l>
             <l>When we think of love; for beauty </l>
@@ -971,20 +1070,20 @@
             <l>Return's exprest. </l>
           </sp>
           <stage xml:id="ep000674-e9190">[Is going. </stage>
-          <sp xml:id="ep000674-e9200">
+          <sp who="ep000674-shek" xml:id="ep000674-e9200">
             <speaker>Shek. </speaker>
             <l>Fly not with such unwelcome hast. </l>
             <l>If you are pleased with any thing </l>
             <l>That I can say, I'll take care for </l>
             <l>Your excuse, or stay. </l>
           </sp>
-          <sp xml:id="ep000674-e9260">
+          <sp who="ep000674-am" xml:id="ep000674-e9260">
             <speaker>Am. </speaker>
             <l>Madam, I have left the Army without </l>
             <l>Their necessary Orders, I cannot now </l>
             <l>Accept your offer'd favour. </l>
           </sp>
-          <sp xml:id="ep000674-e9310">
+          <sp who="ep000674-shek" xml:id="ep000674-e9310">
             <speaker>Shek. </speaker>
             <l>Let Confusion be Instead of Order </l>
             <l>If your heart's like mine; for mine is all </l>
@@ -996,14 +1095,14 @@
             <l>But know Visier Bashaws, the greatest </l>
             <l>Of our Port, in vain have beg'd a smile. </l>
           </sp>
-          <sp xml:id="ep000674-e9410">
+          <sp who="ep000674-am" xml:id="ep000674-e9410">
             <speaker>Am. </speaker>
             <l>To the greatest in the Port, and World; </l>
             <l>Your smiles are due, and I injure him </l>
             <l>When I hear this. Farewel. </l>
           </sp>
           <stage xml:id="ep000674-e9460">[Exit. </stage>
-          <sp xml:id="ep000674-e9470">
+          <sp who="ep000674-shek" xml:id="ep000674-e9470">
             <speaker>Shek. </speaker>
             <l>Gone! O Devil! </l>
             <l>Keep down, thou swelling Heart! </l>
@@ -1030,7 +1129,7 @@
         <div n="3" type="act" xml:id="ep000674-e9710">
           <head>ACT III. </head>
           <stage xml:id="ep000674-e9730">Enter Sheker Para, <hi>followed by </hi>Achmet. </stage>
-          <sp xml:id="ep000674-e9760">
+          <sp who="ep000674-shek" xml:id="ep000674-e9760">
             <speaker>Shek. </speaker>
             <l>ENough, Oh <hi>Achmet!</hi>— Hold! for I can bear no more, </l>
             <l>And yet the Inquisitive Soul, set on mischief, </l>
@@ -1040,7 +1139,7 @@
             <l>For of her Beauty, you have nothing said; </l>
             <l>Or else I left that part unheeded. </l>
           </sp>
-          <sp xml:id="ep000674-e9860">
+          <sp who="ep000674-achm" xml:id="ep000674-e9860">
             <speaker>Achm. </speaker>
             <l>Fair!— not opening Flowers, </l>
             <l>Not the first streaks of rising Day, </l>
@@ -1051,7 +1150,7 @@
             <l>Is in her Voice; which touches every vital, </l>
             <l>And teaches hearts to dance. </l>
           </sp>
-          <sp xml:id="ep000674-e9950">
+          <sp who="ep000674-shek" xml:id="ep000674-e9950">
             <speaker>Shek. </speaker>
             <l>I have it now! Her Beauty then be her destruction; </l>
             <l>But— Creat Talkers seldom Act, and mighty words </l>
@@ -1061,12 +1160,12 @@
             <l>Revolves, and then performs— </l>
             <l>Where's the Sultan and the Visier? </l>
           </sp>
-          <sp xml:id="ep000674-e10040">
+          <sp who="ep000674-achm" xml:id="ep000674-e10040">
             <speaker>Achm. </speaker>
             <l>The Sultan's retir'd to his Repose; </l>
             <l>The Visier in his Apartment alone. </l>
           </sp>
-          <sp xml:id="ep000674-e10080">
+          <sp who="ep000674-shek" xml:id="ep000674-e10080">
             <speaker>Shek. </speaker>
             <l>Faithful Achmet! take this Jewel— </l>
             <l>And think thy wretched Mistress loves thee, </l>
@@ -1079,7 +1178,7 @@
             <l>To draw Morena down, that Saint above, </l>
             <l>To my black Region of Despair! </l>
           </sp>
-          <sp xml:id="ep000674-e10220">
+          <sp who="ep000674-achm" xml:id="ep000674-e10220">
             <speaker>Achm. </speaker>
             <l>Though she has Charms, wou'd stop the fury </l>
             <l>Of our Barbarous Troops, when they take </l>
@@ -1087,7 +1186,7 @@
             <l>With my Keen Dagger; extinguish those </l>
             <l>Shining Lights, her Eyes, to Revenge my Patroness! </l>
           </sp>
-          <sp xml:id="ep000674-e10290">
+          <sp who="ep000674-shek" xml:id="ep000674-e10290">
             <speaker>Shek. </speaker>
             <l>Yes, Rival!— </l>
             <l>Of thy Vow'd Constancy, I'll tryal make; </l>
@@ -1098,7 +1197,7 @@
             <l>And tear Thy Heart, as thou hast tortur'd mine! </l>
           </sp>
           <stage xml:id="ep000674-e10390">The Visier sitting by a Table, whereon lie Books of Account, Riser. </stage>
-          <sp xml:id="ep000674-e10400">
+          <sp who="ep000674-vis" xml:id="ep000674-e10400">
             <speaker>Vis. </speaker>
             <l>What is't to amass these mighty sums of Wealth, </l>
             <l>To be daily crowded with presents from European Kings, </l>
@@ -1121,7 +1220,7 @@
             <l>And on these I'll be reveng'd— </l>
           </sp>
           <stage xml:id="ep000674-e10670">Enter <hi>Sheker Para </hi>behind him. </stage>
-          <sp xml:id="ep000674-e10690">
+          <sp who="ep000674-shek" xml:id="ep000674-e10690">
             <speaker>Shek. </speaker>
             <l>On whom is't thou art studying revenge, </l>
             <l>Old Statesman! would'st thou have it bitter, </l>
@@ -1130,25 +1229,25 @@
             <l>Still take a Woman's Counsel! But— </l>
             <l>Say, Azem, who is mark'd for Vengeance? </l>
           </sp>
-          <sp xml:id="ep000674-e10780">
+          <sp who="ep000674-vis" xml:id="ep000674-e10780">
             <speaker>Vis. </speaker>
             <l>To you, I think, I may disclose— For </l>
             <l>All your Foes are mine, and mine are yours— </l>
             <l>The Mufti and Mustapha look awry on our Actions, </l>
             <l>Sowing Sedition instead of wholsome Doctrine. </l>
           </sp>
-          <sp xml:id="ep000674-e10860">
+          <sp who="ep000674-shek" xml:id="ep000674-e10860">
             <speaker>Shek. </speaker>
             <l>By Heaven! The very same these are, </l>
             <l>Those I wou'd destroy— And for that purpose </l>
             <l>Sought you now— I've laid a Train— </l>
             <l>Which wants but your assistance to o'erthrow 'em all. </l>
           </sp>
-          <sp xml:id="ep000674-e10920">
+          <sp who="ep000674-vis" xml:id="ep000674-e10920">
             <speaker>Vis. </speaker>
             <l>Name it, fair Charmer, quickly! </l>
           </sp>
-          <sp xml:id="ep000674-e10950">
+          <sp who="ep000674-shek" xml:id="ep000674-e10950">
             <speaker>Shek. </speaker>
             <l>This old Crafty Priest conceals a Daughter, </l>
             <l>Whose Beauty, I am told, without the help of Flattery, </l>
@@ -1156,13 +1255,13 @@
             <l>The Charming wonders I'll relate! </l>
             <l>And set his Amorous Soul on Fire. </l>
           </sp>
-          <sp xml:id="ep000674-e11030">
+          <sp who="ep000674-vis" xml:id="ep000674-e11030">
             <speaker>Vis. </speaker>
             <l>Hold Madam! have you consider'd what you say? </l>
             <l>— Is this the vow'd Revenge— to make </l>
             <l>His Daughter a Sultana Queen? </l>
           </sp>
-          <sp xml:id="ep000674-e11080">
+          <sp who="ep000674-shek" xml:id="ep000674-e11080">
             <speaker>Shek. </speaker>
             <l>Short Sighted Politician!— </l>
             <l>Had he design'd her for our Lord, why was she </l>
@@ -1177,12 +1276,12 @@
             <l>Weigh'd as soon he'd give his Daughter </l>
             <l>To a Brothel, as the Sultans Arms. </l>
           </sp>
-          <sp xml:id="ep000674-e11230">
+          <sp who="ep000674-vis" xml:id="ep000674-e11230">
             <speaker>Vis. </speaker>
             <l>I yield.— Let it but provoke him, or his Friends </l>
             <l>To Murmur, and I'll strangle Rebellion in their Throats. </l>
           </sp>
-          <sp xml:id="ep000674-e11270">
+          <sp who="ep000674-shek" xml:id="ep000674-e11270">
             <speaker>Shek. </speaker>
             <l>Come with me, and attend the Sultan; </l>
             <pb n="16" xml:id="ep000674-013-a"/>
@@ -1190,13 +1289,13 @@
             <l>This Contrivance reaches the Aga, and his Son, </l>
             <l>Breaking all their Measures. </l>
           </sp>
-          <sp xml:id="ep000674-e11330">
+          <sp who="ep000674-vis" xml:id="ep000674-e11330">
             <speaker>Vis. </speaker>
             <l>I wait upon you. </l>
           </sp>
           <stage xml:id="ep000674-e11360">[Exeunt. </stage>
           <stage xml:id="ep000674-e11370">[The Sultan upon a Couch, Achmet by him. </stage>
-          <sp xml:id="ep000674-e11390">
+          <sp who="ep000674-ibra" xml:id="ep000674-e11390">
             <speaker>Ibra. </speaker>
             <l>From troubl'd Dreams my tortur'd Fancy Starts: </l>
             <l>Sleep, meant nature's refreshing Friend, sits heavy </l>
@@ -1204,13 +1303,13 @@
             <l>Achmet! my faithful Boy! art thou there! </l>
           </sp>
           <stage xml:id="ep000674-e11460">[See Achmet. </stage>
-          <sp xml:id="ep000674-e11480">
+          <sp who="ep000674-achm" xml:id="ep000674-e11480">
             <speaker>Achm. </speaker>
             <l>Dread Sir the Musick waits without! </l>
             <l>Prepar'd by the Italian Masters— Their Melody </l>
             <l>May Chase these Melancholy Fumes away. </l>
           </sp>
-          <sp xml:id="ep000674-e11530">
+          <sp who="ep000674-ibr" xml:id="ep000674-e11530">
             <speaker>Ibr. </speaker>
             <l>Admit 'em. </l>
           </sp>
@@ -1234,20 +1333,20 @@
               <div type="song" xml:id="ep000674-e11730">
                 <head>A Dialogue Song. <hi>Suppos'd to be between an Eunuch Boy and a Virgin. </hi>Made for Boyn and Mrs. Crosse. </head>
                 <byline>Written by Mr. D'URFEY. </byline>
-                <sp xml:id="ep000674-e11800">
+                <sp who="ep000674-she" xml:id="ep000674-e11800">
                   <speaker>She </speaker>
                   <l>FLY from my Sight, fly far away; </l>
                   <l>My Scorn thou'lt only purchase by thy Stay, </l>
                   <l>Away, Fond Fool, away </l>
                 </sp>
-                <sp xml:id="ep000674-e11850">
+                <sp who="ep000674-he" xml:id="ep000674-e11850">
                   <speaker>He </speaker>
                   <l>Dear Angel no,— no no no no, </l>
                   <l>Here on this Place I'll rooted grow. </l>
                   <l>Those Pretty Eyes have Charm'd me so: </l>
                   <l>I cannot Stir, I cannot go. </l>
                 </sp>
-                <sp xml:id="ep000674-e11910">
+                <sp who="ep000674-she" xml:id="ep000674-e11910">
                   <pb n="17" xml:id="ep000674-013-b"/>
                   <speaker>She </speaker>
                   <l>Thou Silly Creature, be advis'd </l>
@@ -1255,25 +1354,25 @@
                   <l>By all my Actions thou may'st see </l>
                   <l>My Heart can spare no room for thee. </l>
                 </sp>
-                <sp xml:id="ep000674-e11970">
+                <sp who="ep000674-he" xml:id="ep000674-e11970">
                   <speaker>He </speaker>
                   <l>Why do'st thou hate me, Ah confess: </l>
                   <l>Thou sweet disposer poser of my Joys? </l>
                 </sp>
-                <sp xml:id="ep000674-e12010">
+                <sp who="ep000674-she" xml:id="ep000674-e12010">
                   <speaker>She </speaker>
                   <l>The Reason is, I only guess, </l>
                   <l>By something in thy Face and Voice, </l>
                   <l>That thou art not made like other Boys. </l>
                 </sp>
-                <sp xml:id="ep000674-e12060">
+                <sp who="ep000674-he" xml:id="ep000674-e12060">
                   <speaker>He </speaker>
                   <l>Why, I can Kiss, and I can Play, </l>
                   <l>And tell a Thousand Pretty Tales; </l>
                   <l>And I can Sing the livelong Day; </l>
                   <l>If any other Talent fails </l>
                 </sp>
-                <sp xml:id="ep000674-e12120">
+                <sp who="ep000674-she" xml:id="ep000674-e12120">
                   <speaker>She </speaker>
                   <l>Boast not thy Musick, for I fear </l>
                   <l>That Singing Gift has cost thee dear, </l>
@@ -1283,43 +1382,43 @@
                   <l>As they can Sing, so they can Love. </l>
                 </sp>
                 <stage xml:id="ep000674-e12200">Chorus of Both. </stage>
-                <sp xml:id="ep000674-e12220">
+                <sp who="ep000674-he" xml:id="ep000674-e12220">
                   <speaker>He </speaker>
                   <l>Why so can I: </l>
                 </sp>
-                <sp xml:id="ep000674-e12250">
+                <sp who="ep000674-she" xml:id="ep000674-e12250">
                   <speaker>She </speaker>
                   <l>No no, poor Boy. </l>
                 </sp>
-                <sp xml:id="ep000674-e12280">
+                <sp who="ep000674-he" xml:id="ep000674-e12280">
                   <speaker>He </speaker>
                   <l>And tast Love's Joy. </l>
                 </sp>
-                <sp xml:id="ep000674-e12310">
+                <sp who="ep000674-she" xml:id="ep000674-e12310">
                   <speaker>She </speaker>
                   <l>No no, poor Boy. </l>
                 </sp>
-                <sp xml:id="ep000674-e12340">
+                <sp who="ep000674-he" xml:id="ep000674-e12340">
                   <speaker>He </speaker>
                   <l>Why cannot I? </l>
                 </sp>
-                <sp xml:id="ep000674-e12370">
+                <sp who="ep000674-she" xml:id="ep000674-e12370">
                   <speaker>She </speaker>
                   <l>Pish pish— Oh Fye! </l>
                 </sp>
-                <sp xml:id="ep000674-e12400">
+                <sp who="ep000674-he" xml:id="ep000674-e12400">
                   <speaker>He </speaker>
                   <l>Pray do but try? </l>
                 </sp>
-                <sp xml:id="ep000674-e12430">
+                <sp who="ep000674-she" xml:id="ep000674-e12430">
                   <speaker>She </speaker>
                   <l>No no, not 1. </l>
                 </sp>
-                <sp xml:id="ep000674-e12460">
+                <sp who="ep000674-he" xml:id="ep000674-e12460">
                   <speaker>He </speaker>
                   <l>I know, I know, no reason why? </l>
                 </sp>
-                <sp xml:id="ep000674-e12490">
+                <sp who="ep000674-she" xml:id="ep000674-e12490">
                   <speaker>She </speaker>
                   <l>You know, you know, you know You lye. </l>
                 </sp>
@@ -1327,7 +1426,7 @@
             </body>
           </floatingText>
           <stage xml:id="ep000674-e12520">Enter Visier and Shekar Para. </stage>
-          <sp xml:id="ep000674-e12550">
+          <sp who="ep000674-shekarkneeling" xml:id="ep000674-e12550">
             <speaker>Shekar kneeling. </speaker>
             <l>— Health to the Ruler of the World; </l>
             <l>Success attend his Armies: whilst </l>
@@ -1335,14 +1434,14 @@
             <l>Are ever Crown'd; and long Life proves </l>
             <l>A Seraphick Cordial, without Alloy or Dregs. </l>
           </sp>
-          <sp xml:id="ep000674-e12630">
+          <sp who="ep000674-visier" xml:id="ep000674-e12630">
             <speaker>Visier. </speaker>
             <l>May all the mighty Ibrahims, and </l>
             <l>Our Prophet's Foes fall beneath his Feet; </l>
             <l>And every Slave bear a Heart— </l>
             <l>Obedient and Fond as mine </l>
           </sp>
-          <sp xml:id="ep000674-e12700">
+          <sp who="ep000674-sult" xml:id="ep000674-e12700">
             <speaker>Sult </speaker>
             <l>As Heaven hath given me a Despotick </l>
             <l>And unbounded Power: so shall my Pleasures be. </l>
@@ -1359,7 +1458,7 @@
             <l>And tho' my Paths lie all thro' Paradise: </l>
             <l>Yet being still the self same Road, I grow uneasie. </l>
           </sp>
-          <sp xml:id="ep000674-e12850">
+          <sp who="ep000674-shek" xml:id="ep000674-e12850">
             <speaker>Shek. </speaker>
             <l>Alas! Dread Sir! we've been mistaken; </l>
             <l>In vain we've search'd Persia, and </l>
@@ -1378,22 +1477,22 @@
             <l>With becoming Pride, and taking Sweetness. </l>
           </sp>
           <stage xml:id="ep000674-e13070">The Sultan Rises hastily </stage>
-          <sp xml:id="ep000674-e13090">
+          <sp who="ep000674-sult" xml:id="ep000674-e13090">
             <speaker>Sult. </speaker>
             <l>— Here in our Pallace— impossible </l>
             <l>— Of what Name? what Quality?— </l>
           </sp>
-          <sp xml:id="ep000674-e13130">
+          <sp who="ep000674-shek" xml:id="ep000674-e13130">
             <speaker>Shek. </speaker>
             <l>Morena, only Daughter to the Mufti— But </l>
             <l>For what cause conceal'd I am ignorant. </l>
           </sp>
-          <sp xml:id="ep000674-e13190">
+          <sp who="ep000674-vis" xml:id="ep000674-e13190">
             <speaker>Vis. </speaker>
             <l>Had I Daughter, or Wife, whose Attractions </l>
             <l>Cou'd draw the Sultan's Eyes; how quickly shou'd she be offer'd! </l>
           </sp>
-          <sp xml:id="ep000674-e13240">
+          <sp who="ep000674-sult" xml:id="ep000674-e13240">
             <speaker>Sult. </speaker>
             <l>By Heaven! I'll see her, see her this very moment; </l>
             <l>And if she answers your Description, </l>
@@ -1402,12 +1501,12 @@
             <l>He soon shall find that Prayers are </l>
             <l>Needless, when Power is Insinite. </l>
           </sp>
-          <sp xml:id="ep000674-e13320">
+          <sp who="ep000674-vis" xml:id="ep000674-e13320">
             <speaker>Vis. </speaker>
             <l>I humbly beg to be excus'd, because </l>
             <l>The Mufti bears me mortal bate. </l>
           </sp>
-          <sp xml:id="ep000674-e13370">
+          <sp who="ep000674-sult" xml:id="ep000674-e13370">
             <speaker>Sult. </speaker>
             <l>Come thou, my <hi>Shekar, Para</hi>, </l>
             <l>Thy Eloquence may be useful, </l>
@@ -1417,28 +1516,28 @@
           <stage xml:id="ep000674-e13440">Exeunt Attended. </stage>
           <stage xml:id="ep000674-e13450">The Scene changes to the Mufti's Apartment: He sits Reading. </stage>
           <stage xml:id="ep000674-e13470">A Servant Enters hastily. </stage>
-          <sp xml:id="ep000674-e13480">
+          <sp who="ep000674-serv" xml:id="ep000674-e13480">
             <speaker>Serv. </speaker>
             <l>Oh! Sir— I saw the Sultan pass the Long Gallery. </l>
             <l>That parts the Old Seraglio from the New; </l>
             <pb n="19" xml:id="ep000674-014-b"/>
             <l>And bend his steps directly hither— He's ' een at my Heels! </l>
           </sp>
-          <sp xml:id="ep000674-e13550">
+          <sp who="ep000674-muft" xml:id="ep000674-e13550">
             <speaker>Muft. </speaker>
             <l>What can this visit mean? </l>
             <l>But I am arm'd with Innocence </l>
             <l>And therefore know no fear. </l>
           </sp>
           <stage xml:id="ep000674-e13600">Enter Ibrahim, Sheker Para Achmet, <hi>and several Attendants</hi>. </stage>
-          <sp xml:id="ep000674-e13630">
+          <sp who="ep000674-muft" xml:id="ep000674-e13630">
             <speaker>Muft. </speaker>
             <l>Sacred Sir! I am amazed— </l>
             <l>At these unwonted Honours; and if I fail </l>
             <l>In the expressions of my Joy; let my </l>
             <l>Confusion plead my excuse. </l>
           </sp>
-          <sp xml:id="ep000674-e13690">
+          <sp who="ep000674-ibr" xml:id="ep000674-e13690">
             <speaker>Ibr. </speaker>
             <l>'Tis all well, and the visit meant in kindness: </l>
             <l>I think when last I saw you, </l>
@@ -1447,13 +1546,13 @@
             <l>And tell the Youth he shall be Welcome </l>
             <l>There as soon as he pleases. </l>
           </sp>
-          <sp xml:id="ep000674-e13790">
+          <sp who="ep000674-muft" xml:id="ep000674-e13790">
             <speaker>Muft. </speaker>
             <l>Let me kiss your Sacred Robe, </l>
             <l>In thankfulness.— Oh! mighty Sultan, </l>
             <l>Who daigns thus to oblige his Vassals. </l>
           </sp>
-          <sp xml:id="ep000674-e13850">
+          <sp who="ep000674-ibr" xml:id="ep000674-e13850">
             <speaker>Ibr. </speaker>
             <l>Mufti— I hear thou hast a Daughter— </l>
             <l>Why dost thou start, Old Man?— </l>
@@ -1461,7 +1560,7 @@
             <l>To own the Beautious Maid— </l>
             <l>Send for her hither, for I will see her. </l>
           </sp>
-          <sp xml:id="ep000674-e13930">
+          <sp who="ep000674-muft" xml:id="ep000674-e13930">
             <speaker>Muft. </speaker>
             <l>Oh! Pardon me Emperour, the Girl is most unfit </l>
             <l>For you to see, Bred up in Cells, and Grotto's: </l>
@@ -1473,13 +1572,13 @@
             <l>And will appear like a neglected Villager </l>
             <l>To those bright Beauties that attend the happy Port. </l>
           </sp>
-          <sp xml:id="ep000674-e14040">
+          <sp who="ep000674-ibr" xml:id="ep000674-e14040">
             <speaker>Ibr. </speaker>
             <l>Ha! Is this our entertainment— to be deny'd </l>
             <l>What we desire! go some of you and fetch the Maid. </l>
           </sp>
           <stage xml:id="ep000674-e14080">Exeunt two Eunuchs. </stage>
-          <sp xml:id="ep000674-e14100">
+          <sp who="ep000674-muft" xml:id="ep000674-e14100">
             <speaker>Muft. </speaker>
             <l>Tho' you are Lord of all, and may without controul </l>
             <l>Command, yet Emperor, Remember, </l>
@@ -1490,11 +1589,11 @@
             <l>Falls heavy, if you proceed to Violation. </l>
           </sp>
           <stage xml:id="ep000674-e14190">Enter Morena Veil'd. </stage>
-          <sp xml:id="ep000674-e14210">
+          <sp who="ep000674-muft" xml:id="ep000674-e14210">
             <speaker>Muft. </speaker>
             <l>Kneel Daughter, to the Commander of the World. </l>
           </sp>
-          <sp xml:id="ep000674-e14240">
+          <sp who="ep000674-ibr" xml:id="ep000674-e14240">
             <speaker>Ibr. </speaker>
             <l>Take off her Veil— by Heavens— </l>
             <pb n="20" xml:id="ep000674-015-a"/>
@@ -1511,7 +1610,7 @@
             <l>Farther consult of this Important business. </l>
           </sp>
           <stage xml:id="ep000674-e14390">Exeunt the <hi>Sultan Mufti </hi>and Eunuchs: except Achmet. </stage>
-          <sp xml:id="ep000674-e14420">
+          <sp who="ep000674-shek" xml:id="ep000674-e14420">
             <speaker>Shek. </speaker>
             <l>Hail! Happy Maid! whom Fate has blest; </l>
             <l>Whose Illustrious Eyes have caught </l>
@@ -1525,7 +1624,7 @@
             <l>The Motions of your eyes, and e're you form </l>
             <l>Your breath into command, 'tis done. </l>
           </sp>
-          <sp xml:id="ep000674-e14570">
+          <sp who="ep000674-mor" xml:id="ep000674-e14570">
             <speaker>Mor. </speaker>
             <l>Cease Madam, you use your Eloquence in vain, </l>
             <l>Menaces, Prayers, and Promises are lost on me. </l>
@@ -1537,13 +1636,13 @@
             <l>Like waves against a Rock, will dash themselves, </l>
             <l>But stir not my Foundation. </l>
           </sp>
-          <sp xml:id="ep000674-e14680">
+          <sp who="ep000674-shek" xml:id="ep000674-e14680">
             <speaker>Shek. </speaker>
             <l>Why do ye view me with that haughty </l>
             <l>Regardless Air, as if I were your Enemy? </l>
             <l>When I so long! to be your Friend. </l>
           </sp>
-          <sp xml:id="ep000674-e14730">
+          <sp who="ep000674-mor" xml:id="ep000674-e14730">
             <speaker>Mor. </speaker>
             <l>Oh! mistake me not,— If my looks </l>
             <l>Carry a disdain, 'tis on the Crowns you offer; </l>
@@ -1553,14 +1652,14 @@
             <l>The secret pleasing cause that will, I am sure, </l>
             <l>Inspire me rather to dye than yield. </l>
           </sp>
-          <sp xml:id="ep000674-e14820">
+          <sp who="ep000674-shek" xml:id="ep000674-e14820">
             <speaker>Shek </speaker>
             <l>(aside) Too well I know it! </l>
             <l>— If I cou'd assist, tho' your desires are strange, </l>
             <l>Yet, you have something so ingaging, </l>
             <l>If I cou'd, I say, I wou'd. </l>
           </sp>
-          <sp xml:id="ep000674-e14880">
+          <sp who="ep000674-mor" xml:id="ep000674-e14880">
             <speaker>Mor. </speaker>
             <l>Oh! 'tis greatly in your power— </l>
             <l>Tell the Sultan you have discovered, </l>
@@ -1569,19 +1668,19 @@
             <l>That I am sickly, peevish, ill Bred, and </l>
             <l>Of a hateful disposition.— </l>
           </sp>
-          <sp xml:id="ep000674-e14960">
+          <sp who="ep000674-shek" xml:id="ep000674-e14960">
             <speaker>Shek. </speaker>
             <l>I cannot so deny your Excellencies; </l>
             <l>But I will do my best, that you shall hear of this no more. </l>
           </sp>
-          <sp xml:id="ep000674-e15000">
+          <sp who="ep000674-mor" xml:id="ep000674-e15000">
             <speaker>Mor. </speaker>
             <l>And now, fair Oratrix, </l>
             <l>Who plead'st too well for such a cause; </l>
             <l>Apply thy Rhetorick to Ibrahim; </l>
             <l>And defend Morena's Life and Honour. </l>
           </sp>
-          <sp xml:id="ep000674-e15090">
+          <sp who="ep000674-shek" xml:id="ep000674-e15090">
             <speaker>Shek. </speaker>
             <l>Rest secur'd, I am wholly yours, </l>
             <l>Retire fair Innocence, for I see </l>
@@ -1596,11 +1695,11 @@
             <l>I'll prove a constant one. </l>
             <l>Achmet!— </l>
           </sp>
-          <sp xml:id="ep000674-e15240">
+          <sp who="ep000674-ach" xml:id="ep000674-e15240">
             <speaker>Ach. </speaker>
             <l>Madam. </l>
           </sp>
-          <sp xml:id="ep000674-e15270">
+          <sp who="ep000674-shek" xml:id="ep000674-e15270">
             <speaker>Shek. </speaker>
             <l>I go to seek the Sultan, chuse some </l>
             <l>Of the Eunuchs you command, and fetch </l>
@@ -1613,12 +1712,12 @@
             <l>Make haste, her Father is not yet returned, </l>
             <l>And you may do it with much ease </l>
           </sp>
-          <sp xml:id="ep000674-e15420">
+          <sp who="ep000674-ach" xml:id="ep000674-e15420">
             <speaker>Ach </speaker>
             <l>It shall be done e're you have time to think the consequence. </l>
           </sp>
           <stage xml:id="ep000674-e15450">Exit </stage>
-          <sp xml:id="ep000674-e15460">
+          <sp who="ep000674-shek" xml:id="ep000674-e15460">
             <speaker>Shek. </speaker>
             <l>Revenge! how quick and lively are thy Joys? </l>
             <l>Love is a sweetness, that but tasted cloys; </l>
@@ -1627,7 +1726,7 @@
           </sp>
           <stage xml:id="ep000674-e15520">Exit. </stage>
           <stage xml:id="ep000674-e15530">The Sultan Enters; the Visier following him; </stage>
-          <sp xml:id="ep000674-e15560">
+          <sp who="ep000674-sult" xml:id="ep000674-e15560">
             <speaker>Sult. </speaker>
             <l>Wou'dst thou believe it Azema— </l>
             <l>This crabbed Priest do's in effect </l>
@@ -1635,14 +1734,14 @@
             <l>If I compel her will, and seems </l>
             <l>To know she 'll prove unwilling. </l>
           </sp>
-          <sp xml:id="ep000674-e15640">
+          <sp who="ep000674-vis" xml:id="ep000674-e15640">
             <speaker>Vis. </speaker>
             <l>In this his disloyalty too plain appears </l>
             <l>What other Grandee o'th' happy Port </l>
             <l>But with open arms wou'd embrace the honour </l>
             <l>And lay his Daughter prostrate at your Royal feet. </l>
           </sp>
-          <sp xml:id="ep000674-e15700">
+          <sp who="ep000674-sult" xml:id="ep000674-e15700">
             <pb n="22" xml:id="ep000674-016-a"/>
             <speaker>Sult. </speaker>
             <l>True, therefore we'll on and fathom </l>
@@ -1653,19 +1752,19 @@
             </stage>
             <l>What News, my Sheker, hast thou brought her? </l>
           </sp>
-          <sp xml:id="ep000674-e15800">
+          <sp who="ep000674-shek" xml:id="ep000674-e15800">
             <speaker>Shek. </speaker>
             <l>O no! with Roman Courage, and most </l>
             <l>Unequall'd Resolution she repuls'd </l>
             <l>Whatever I cou'd offer, nor wou'd a Diadem, </l>
             <l>Or the Crown Imperial tempt her. </l>
           </sp>
-          <sp xml:id="ep000674-e15870">
+          <sp who="ep000674-sult" xml:id="ep000674-e15870">
             <speaker>Sult. </speaker>
             <l>How comes the lovely Maid to bear a Heart </l>
             <l>Thus stubborn! and look so sweetly mild? </l>
           </sp>
-          <sp xml:id="ep000674-e15910">
+          <sp who="ep000674-vis" xml:id="ep000674-e15910">
             <speaker>Vis. </speaker>
             <l>'Tis her Father who has transferr'd </l>
             <l>His own traiterous Principles to her, </l>
@@ -1673,7 +1772,7 @@
             <l>(That I live to speak it!) </l>
             <l>Taught her to abhor your Royal Person. </l>
           </sp>
-          <sp xml:id="ep000674-e15980">
+          <sp who="ep000674-shek" xml:id="ep000674-e15980">
             <speaker>Shek. </speaker>
             <l>But your Majesty now may mould her as you please, </l>
             <l>Within a moment she'll be here; </l>
@@ -1681,7 +1780,7 @@
             <l>And order'd Achmet, with his Fellows, to bring </l>
             <l>Her hither. </l>
           </sp>
-          <sp xml:id="ep000674-e16060">
+          <sp who="ep000674-sult" xml:id="ep000674-e16060">
             <speaker>Sult. </speaker>
             <l>You have done well, </l>
             <l>Shall my almighty Will </l>
@@ -1689,18 +1788,18 @@
             <l>Without dispute be contradicted </l>
             <l>By a Woman? </l>
           </sp>
-          <sp xml:id="ep000674-e16130">
+          <sp who="ep000674-shek" xml:id="ep000674-e16130">
             <speaker>Shek. </speaker>
             <l>I hear 'em coming </l>
           </sp>
           <stage xml:id="ep000674-e16160">Achmet brings Morena, <hi>who speaks entring</hi>. </stage>
-          <sp xml:id="ep000674-e16190">
+          <sp who="ep000674-mor" xml:id="ep000674-e16190">
             <speaker>Mor. </speaker>
             <l>Whither? Ah! Whither? </l>
             <l>Do ye drag me, Audacious Slaves </l>
             <l>Am I to be thus used? </l>
           </sp>
-          <sp xml:id="ep000674-e16240">
+          <sp who="ep000674-vis" xml:id="ep000674-e16240">
             <speaker>Vis. </speaker>
             <l>Madam, silence and awe best becomes </l>
             <l>This place which the dread Majesty of all the World contains, </l>
@@ -1708,7 +1807,7 @@
             <l>That an outragious Noise near the Sacred presence </l>
             <l>Is punish'd with immediate Death. </l>
           </sp>
-          <sp xml:id="ep000674-e16310">
+          <sp who="ep000674-mor" xml:id="ep000674-e16310">
             <speaker>Mor. </speaker>
             <l>Death I despise as I do thee, </l>
             <l>Who art not worth my answering, </l>
@@ -1730,7 +1829,7 @@
             <l>Will with Joy, Embrace those favours </l>
             <l>I must ever fly— </l>
           </sp>
-          <sp xml:id="ep000674-e16520">
+          <sp who="ep000674-ibr" xml:id="ep000674-e16520">
             <speaker>Ibr. </speaker>
             <l>If thou hast vow'd, I cancel it, </l>
             <l>My Subjects are my slaves, who er'e </l>
@@ -1740,7 +1839,7 @@
             <l>To your own happiness— </l>
             <l>— Achmet— </l>
           </sp>
-          <sp xml:id="ep000674-e16610">
+          <sp who="ep000674-mor" xml:id="ep000674-e16610">
             <speaker>Mor. </speaker>
             <l>O spare me Emperor! spare me! </l>
             <l>And all my future life I'll spend </l>
@@ -1752,11 +1851,11 @@
             <l>Ought of life enjoy, before I have pray'd for </l>
             <l>And after praised our Lord! </l>
           </sp>
-          <sp xml:id="ep000674-e16730">
+          <sp who="ep000674-ibr" xml:id="ep000674-e16730">
             <speaker>Ibr. </speaker>
             <l>Achmet— bear her to the royal bed. </l>
           </sp>
-          <sp xml:id="ep000674-e16770">
+          <sp who="ep000674-mor" xml:id="ep000674-e16770">
             <speaker>Mor. </speaker>
             <l>Hold! yet a moment— hold! </l>
             <l>I have one thing more to say </l>
@@ -1776,11 +1875,11 @@
             <l>Fulfil the bitterst curse— Release, </l>
             <l>And bear me to your bed! </l>
           </sp>
-          <sp xml:id="ep000674-e16970">
+          <sp who="ep000674-shek" xml:id="ep000674-e16970">
             <speaker>Shek. </speaker>
             <l>Speak Visier, he stands confounded. </l>
           </sp>
-          <sp xml:id="ep000674-e17010">
+          <sp who="ep000674-vis" xml:id="ep000674-e17010">
             <speaker>Vis. </speaker>
             <l>Dread Sir, what stops your wishes? </l>
             <l>This is nothing but a gust of Passion, </l>
@@ -1792,7 +1891,7 @@
             <l>This beauteous Maid resists: and all </l>
             <l>You ever had before, were willing. </l>
           </sp>
-          <sp xml:id="ep000674-e17110">
+          <sp who="ep000674-ibr" xml:id="ep000674-e17110">
             <speaker>Ibr. </speaker>
             <l>And there may be a new unknown delight </l>
             <l>To conquer all these struglings, </l>
@@ -1804,36 +1903,36 @@
             <l>Earth's bounds, to find another, </l>
             <l>That might please as well. </l>
           </sp>
-          <sp xml:id="ep000674-e17230">
+          <sp who="ep000674-ibr" xml:id="ep000674-e17230">
             <speaker>Ibr. </speaker>
             <l>Taught by my Slave! </l>
             <l>Take that, presuming fool. </l>
           </sp>
           <stage xml:id="ep000674-e17270">Stabs him. </stage>
-          <sp xml:id="ep000674-e17280">
+          <sp who="ep000674-mor" xml:id="ep000674-e17280">
             <speaker>Mor. </speaker>
             <l>Murder, and Rapine! </l>
             <l>What a horrid place is here! </l>
             <l>My turn is next— </l>
           </sp>
           <stage xml:id="ep000674-e17330">She catches hold of the Sultans naked Scimiter. </stage>
-          <sp xml:id="ep000674-e17350">
+          <sp who="ep000674-ibr" xml:id="ep000674-e17350">
             <speaker>Ibr. </speaker>
             <l>Let go rash Maid,— </l>
             <l>Or I shall hurt thee. </l>
           </sp>
-          <sp xml:id="ep000674-e17390">
+          <sp who="ep000674-mor" xml:id="ep000674-e17390">
             <speaker>Mor. </speaker>
             <l>Never, never, I'll leap, and </l>
             <l>Fix it to my breast, while some kind God </l>
             <l>That sees the anguish of my Soul </l>
             <l>Shall help my weakness, and send it to my heart! </l>
           </sp>
-          <sp xml:id="ep000674-e17450">
+          <sp who="ep000674-ibr" xml:id="ep000674-e17450">
             <speaker>Ibr. </speaker>
             <l>Some of you unlose her hold— </l>
           </sp>
-          <sp xml:id="ep000674-e17480">
+          <sp who="ep000674-mor" xml:id="ep000674-e17480">
             <speaker>Mor. </speaker>
             <l>Then thus I quit it. </l>
             <stage xml:id="ep000674-e17510">Draws it thro' her hands. </stage>
@@ -1843,14 +1942,14 @@
             <l>Thousand doors; Sure Morena, curst Morena </l>
             <l>May find out one— </l>
           </sp>
-          <sp xml:id="ep000674-e17590">
+          <sp who="ep000674-ibr" xml:id="ep000674-e17590">
             <speaker>Ibr. </speaker>
             <l>Slaves, why dally ye thus? </l>
             <l>By Heaven rage is mixt with love, </l>
             <l>And I am all on fire! </l>
             <l>Drag her to yond Apartments! </l>
           </sp>
-          <sp xml:id="ep000674-e17650">
+          <sp who="ep000674-mor" xml:id="ep000674-e17650">
             <speaker>Mor. </speaker>
             <l>Do Tyrant! but 'tis thy last of mischiefs </l>
             <l>If thou dost not kill me— </l>
@@ -1858,11 +1957,11 @@
             <l>These bloody hands, I'll run thro' all thy Guards </l>
             <l>And! Camp, whilst my just complaints, compel rebellion! </l>
           </sp>
-          <sp xml:id="ep000674-e17720">
+          <sp who="ep000674-vis" xml:id="ep000674-e17720">
             <speaker>Vis. </speaker>
             <l>Yet here! force her way! </l>
           </sp>
-          <sp xml:id="ep000674-e17750">
+          <sp who="ep000674-mor" xml:id="ep000674-e17750">
             <speaker>Mor. </speaker>
             <l>I will not stir, sixt upon Earth, </l>
             <l>I'll rend obdurate Heaven with piercing </l>
@@ -1875,13 +1974,13 @@
             <l>Where art thou? and where (alas) am I? </l>
           </sp>
           <stage xml:id="ep000674-e17860">Swoons. </stage>
-          <sp xml:id="ep000674-e17870">
+          <sp who="ep000674-vis" xml:id="ep000674-e17870">
             <speaker>Vis. </speaker>
             <l>She faints, convey her quickly in, </l>
             <l>Your Majesty has </l>
             <l>Will soon revive her. </l>
           </sp>
-          <sp xml:id="ep000674-e17920">
+          <sp who="ep000674-ibr" xml:id="ep000674-e17920">
             <speaker>Ibr. </speaker>
             <l>Threatning Danger shall never bar my way, </l>
             <l>I'll rush thro' all, and seize the trembling prey: </l>
@@ -1894,7 +1993,7 @@
           <head>ACT IV. </head>
           <stage xml:id="ep000674-e18010">The Muft. Apartment. </stage>
           <stage xml:id="ep000674-e18030">Enter Muft. and Mustap. </stage>
-          <sp xml:id="ep000674-e18060">
+          <sp who="ep000674-muft" xml:id="ep000674-e18060">
             <speaker>Muft. </speaker>
             <l>IN vain you sooth me with these promises, </l>
             <l>I'll tear my sacred Vestments; make bare </l>
@@ -1903,7 +2002,7 @@
             <l>In all this mighty Empire, chast, and must </l>
             <l>The Licentious Tyrant seize her? </l>
           </sp>
-          <sp xml:id="ep000674-e18150">
+          <sp who="ep000674-must" xml:id="ep000674-e18150">
             <speaker>Must. </speaker>
             <l>I have not flatter'd ye— the Janizaries </l>
             <l>As one man, are bent to right your wrongs </l>
@@ -1913,14 +2012,14 @@
             <l>— Ha— see where the lovely Mourner comes. </l>
           </sp>
           <stage xml:id="ep000674-e18250">Enter Morena led by Achmet, her hair down, and much disorder'd in her dress. </stage>
-          <sp xml:id="ep000674-e18280">
+          <sp who="ep000674-ach" xml:id="ep000674-e18280">
             <speaker>Ach. </speaker>
             <l>The Emperour hath sent your Daughter back, </l>
             <l>You must tutor her better, teach her </l>
             <l>A more complying Nature, then </l>
             <l>Perhaps he may again receive her. </l>
           </sp>
-          <sp xml:id="ep000674-e18340">
+          <sp who="ep000674-muft" xml:id="ep000674-e18340">
             <speaker>Muft. </speaker>
             <l>I lence Pandar! accurst by Heaven, </l>
             <l>Hence! left (tho' unarm'd) with </l>
@@ -1931,27 +2030,27 @@
             <l>And he shall hear it loud! </l>
           </sp>
           <stage xml:id="ep000674-e18440">Exit Achmet. </stage>
-          <sp xml:id="ep000674-e18460">
+          <sp who="ep000674-mor" xml:id="ep000674-e18460">
             <pb n="26" xml:id="ep000674-018-a"/>
             <speaker>Mor. </speaker>
             <l>Oh Sir!— </l>
           </sp>
-          <sp xml:id="ep000674-e18490">
+          <sp who="ep000674-muft" xml:id="ep000674-e18490">
             <speaker>Muft. </speaker>
             <l>My poor Girl!— </l>
           </sp>
-          <sp xml:id="ep000674-e18520">
+          <sp who="ep000674-must" xml:id="ep000674-e18520">
             <speaker>Must. </speaker>
             <l>Cease Daughter, cease to mourn! </l>
             <l>Here are your Friends— Friends </l>
             <l>That will revenge ye— </l>
           </sp>
-          <sp xml:id="ep000674-e18570">
+          <sp who="ep000674-mor" xml:id="ep000674-e18570">
             <speaker>Mor. </speaker>
             <l>O violated Honour! </l>
             <l>Ruine, Despair, and Death's my Lot, </l>
           </sp>
-          <sp xml:id="ep000674-e18610">
+          <sp who="ep000674-must" xml:id="ep000674-e18610">
             <speaker>Must. </speaker>
             <l>No Morena, No, thy Fame's secur'd! </l>
             <l>And succeeding Ages shall as a Miracle </l>
@@ -1961,25 +2060,25 @@
             <l>Thou, the brightest Star, that </l>
             <l>Ever grac'd the East! </l>
           </sp>
-          <sp xml:id="ep000674-e18710">
+          <sp who="ep000674-muft" xml:id="ep000674-e18710">
             <speaker>Muft. </speaker>
             <l>Answer me Prophet, Author of our Law, </l>
             <l>What have I done, what horrid crimes committed, </l>
             <l>That my aching Eyes are punishd </l>
             <l>With this doleful sight! </l>
           </sp>
-          <sp xml:id="ep000674-e18770">
+          <sp who="ep000674-mor" xml:id="ep000674-e18770">
             <speaker>Mor. </speaker>
             <l>The Grave will hide me, Sir! </l>
             <l>Then you shall see this Wretch no more! </l>
           </sp>
-          <sp xml:id="ep000674-e18810">
+          <sp who="ep000674-muft" xml:id="ep000674-e18810">
             <speaker>Muft. </speaker>
             <l>Live my belov'd unfortunate! </l>
             <l>Let death and ruine fall upon </l>
             <l>Those Feinds that thus have wrong'd thee. </l>
           </sp>
-          <sp xml:id="ep000674-e18860">
+          <sp who="ep000674-mor" xml:id="ep000674-e18860">
             <speaker>Mor. </speaker>
             <l>The Visier, (my Father) </l>
             <l>The Devil-Visier— when my piercing prayers, </l>
@@ -1988,7 +2087,7 @@
             <l>And with his poisonous breath </l>
             <l>Urged the satal act.— </l>
           </sp>
-          <sp xml:id="ep000674-e18940">
+          <sp who="ep000674-must" xml:id="ep000674-e18940">
             <speaker>Must </speaker>
             <l>We'll drag the Infernal Dog thro' the City </l>
             <l>While, in Howling, he surrender his hated life, </l>
@@ -2005,18 +2104,18 @@
             <l>Come in, my Dear, and I will instruct </l>
             <l>Thee to receive him— </l>
           </sp>
-          <sp xml:id="ep000674-e19120">
+          <sp who="ep000674-mor" xml:id="ep000674-e19120">
             <speaker>Mor. </speaker>
             <l>Oh!— </l>
           </sp>
-          <sp xml:id="ep000674-e19150">
+          <sp who="ep000674-must" xml:id="ep000674-e19150">
             <speaker>Must. </speaker>
             <l>Why dost thou sigh? my Son knows </l>
             <l>The Heroick virtue of thy spotless Soul, </l>
             <pb n="27" xml:id="ep000674-018-b"/>
             <l>And will, I'm sure, to death adore thee. </l>
           </sp>
-          <sp xml:id="ep000674-e19200">
+          <sp who="ep000674-mor" xml:id="ep000674-e19200">
             <speaker>Mor. </speaker>
             <l>Lend me your hands, for I am weak </l>
             <l>And want support: let me look up </l>
@@ -2027,13 +2126,13 @@
           </sp>
           <stage xml:id="ep000674-e19280">Exit led. </stage>
           <stage xml:id="ep000674-e19300">Enter <hi>Amurat, Solyman</hi>, Attendants. </stage>
-          <sp xml:id="ep000674-e19320">
+          <sp who="ep000674-soly" xml:id="ep000674-e19320">
             <speaker>Soly. </speaker>
             <l>A Bridegroom's haste is in your steps, </l>
             <l>And in your Eyes a Bridegroom's joy. </l>
             <l>Now— we've reach'd the happy place! </l>
           </sp>
-          <sp xml:id="ep000674-e19370">
+          <sp who="ep000674-amur" xml:id="ep000674-e19370">
             <speaker>Amur. </speaker>
             <l>The Sultan received me with a Noble </l>
             <l>Condescension, yet <hi>Skeker Para </hi>
@@ -2052,7 +2151,7 @@
             <l>That the Earth contains— </l>
             <l>How fares my Goddess? </l>
           </sp>
-          <sp xml:id="ep000674-e19560">
+          <sp who="ep000674-muft" xml:id="ep000674-e19560">
             <speaker>Muft. </speaker>
             <l>Oh! wondrous well! </l>
             <l>— Young man— I think th'Ambition </l>
@@ -2061,7 +2160,7 @@
             <l>Nor wou'd offer'd Crowns tempt thee </l>
             <l>To a Disloyal act— </l>
           </sp>
-          <sp xml:id="ep000674-e19640">
+          <sp who="ep000674-am" xml:id="ep000674-e19640">
             <speaker>Am. </speaker>
             <l>My Father! to merit this discourse, </l>
             <l>What have I done? by all my hopes </l>
@@ -2075,7 +2174,7 @@
             <l>Oh! I know not whether I, the Sultan </l>
             <l>Most Revere, or my Morena Love? </l>
           </sp>
-          <sp xml:id="ep000674-e19800">
+          <sp who="ep000674-muft" xml:id="ep000674-e19800">
             <speaker>Muft. </speaker>
             <l>'Tis well:— suppose then </l>
             <pb n="28" xml:id="ep000674-019-a"/>
@@ -2096,7 +2195,7 @@
             <l>Then— (horrour on horrour!) </l>
             <l>On her breathless body perpetrate the fact. </l>
           </sp>
-          <sp xml:id="ep000674-e20000">
+          <sp who="ep000674-am" xml:id="ep000674-e20000">
             <speaker>Am. </speaker>
             <l>What alteration's here? </l>
             <l>Chilling Tremblings seize throughout, </l>
@@ -2110,12 +2209,12 @@
             <l>Poison, wou'd equal half my Wracks. </l>
             <stage xml:id="ep000674-e20120">The Scene draws, and discovers Morena upon the ground disorder'd as before. </stage>
           </sp>
-          <sp xml:id="ep000674-e20140">
+          <sp who="ep000674-muft" xml:id="ep000674-e20140">
             <speaker>Muft. </speaker>
             <l>Cast thy Eyes that way, and there behold </l>
             <l>Thy wretched Fate and mine! </l>
           </sp>
-          <sp xml:id="ep000674-e20180">
+          <sp who="ep000674-am" xml:id="ep000674-e20180">
             <speaker>Am. </speaker>
             <l>Oh! Friend! Is this the sight </l>
             <l>I promis'd— are these my </l>
@@ -2129,12 +2228,12 @@
             <l>Because I had 'em in thy service? </l>
             <l>— And am I thus rewarded?— </l>
           </sp>
-          <sp xml:id="ep000674-e20310">
+          <sp who="ep000674-soly" xml:id="ep000674-e20310">
             <speaker>Soly. </speaker>
             <l>At this Scene the Souldier leaves my heart </l>
             <l>And I feel the Woman in my Eyes! </l>
           </sp>
-          <sp xml:id="ep000674-e20350">
+          <sp who="ep000674-am" xml:id="ep000674-e20350">
             <speaker>Am. </speaker>
             <l>Compassion is a grief of little note, </l>
             <pb n="29" xml:id="ep000674-019-b"/>
@@ -2147,7 +2246,7 @@
             <l>I with a Devotion pure as that we pay </l>
             <l>To Heaven, have ever worship'd? </l>
           </sp>
-          <sp xml:id="ep000674-e20460">
+          <sp who="ep000674-mor" xml:id="ep000674-e20460">
             <speaker>Mor. </speaker>
             <l>Oh Prince! No Tongue, no Language, </l>
             <l>Not severest sorrow, whose broken accents </l>
@@ -2172,12 +2271,12 @@
             <l>To lull my sorrows, or some desperate compound </l>
             <l>That may turn my brain— </l>
           </sp>
-          <sp xml:id="ep000674-e20720">
+          <sp who="ep000674-zaida" xml:id="ep000674-e20720">
             <speaker>Zaida. </speaker>
             <l>Heaven calm these sad disquiets, and give </l>
             <l>The Best of Women Peace— </l>
           </sp>
-          <sp xml:id="ep000674-e20760">
+          <sp who="ep000674-mor" xml:id="ep000674-e20760">
             <speaker>Mor. </speaker>
             <l>Your Pardon, Reverend Sir, and thine I ask </l>
             <l>Thou illustrious Figure of unseign'd Despair, </l>
@@ -2194,7 +2293,7 @@
           </sp>
           <stage xml:id="ep000674-e20910">Exit. </stage>
           <stage xml:id="ep000674-e20920">The Scene shuts upon her. </stage>
-          <sp xml:id="ep000674-e20930">
+          <sp who="ep000674-am" xml:id="ep000674-e20930">
             <pb n="30" xml:id="ep000674-020-a"/>
             <speaker>Am. </speaker>
             <l>Revenge thee! yes— we'll set </l>
@@ -2206,13 +2305,13 @@
             <l>The World I— wilt </l>
             <l>Thou not assist me, Friend? </l>
           </sp>
-          <sp xml:id="ep000674-e21030">
+          <sp who="ep000674-soly" xml:id="ep000674-e21030">
             <speaker>Soly. </speaker>
             <l>Whilst I wear this— Nor </l>
             <l>Shall I fear to purge the contagious </l>
             <l>Veins of Majesty in such a cause. </l>
           </sp>
-          <sp xml:id="ep000674-e21080">
+          <sp who="ep000674-must" xml:id="ep000674-e21080">
             <speaker>Must. </speaker>
             <l>'Tis not by Raving we accomplish </l>
             <l>Our Designs; if, for my constant </l>
@@ -2223,7 +2322,7 @@
             <l>Who were the hateful Wretches, that set </l>
             <l>The Sultan on to do this fatal mischief. </l>
           </sp>
-          <sp xml:id="ep000674-e21180">
+          <sp who="ep000674-am" xml:id="ep000674-e21180">
             <speaker>Am </speaker>
             <l>I go <hi>— Solyman</hi>, fly to the Camp, </l>
             <l>And bring from thence my select Troops, </l>
@@ -2238,17 +2337,17 @@
             <stage xml:id="ep000674-e21310">Exeunt. </stage>
             <stage xml:id="ep000674-e21320">Enter Ibrahim, the <hi>Visier, Sheker Para, Achmet, </hi>who seems talking to the Sultan. </stage>
           </sp>
-          <sp xml:id="ep000674-e21350">
+          <sp who="ep000674-ach" xml:id="ep000674-e21350">
             <speaker>Ach. </speaker>
             <l>He threatned me with Death, </l>
             <l>And said, he'd tell his Wrongs aloud, </l>
             <l>Till Neighbouring Nations heard 'em. </l>
           </sp>
-          <sp xml:id="ep000674-e21400">
+          <sp who="ep000674-ib" xml:id="ep000674-e21400">
             <speaker>Ib. </speaker>
             <l>Saucy— and Arrogant! </l>
           </sp>
-          <sp xml:id="ep000674-e21430">
+          <sp who="ep000674-skek" xml:id="ep000674-e21430">
             <speaker>Skek. </speaker>
             <l>How long shall the Imperial Race, </l>
             <l>Whilst the mistaken World deems them </l>
@@ -2259,11 +2358,11 @@
             <l>Send the Executing Mutes, and </l>
             <l>Strangle this Ambitious Mufti. </l>
           </sp>
-          <sp xml:id="ep000674-e21540">
+          <sp who="ep000674-vis" xml:id="ep000674-e21540">
             <speaker>Vis. </speaker>
             <l>Strangle the Mufti! Oh horrour! </l>
           </sp>
-          <sp xml:id="ep000674-e21580">
+          <sp who="ep000674-ibr" xml:id="ep000674-e21580">
             <pb n="31" xml:id="ep000674-020-b"/>
             <speaker>Ibr. </speaker>
             <l>Why thou Viper, whom my breast </l>
@@ -2284,7 +2383,7 @@
             <l>For should it grow too high; thou art </l>
             <l>The fittest Sacrifice to attone the Popular Fury. </l>
           </sp>
-          <sp xml:id="ep000674-e21770">
+          <sp who="ep000674-vis" xml:id="ep000674-e21770">
             <speaker>Vis. </speaker>
             <l>Sacred Sir, you cannot mean the </l>
             <l>Cruel thing you say— must </l>
@@ -2292,17 +2391,17 @@
             <l>To your Royal Will? </l>
           </sp>
           <stage xml:id="ep000674-e21830">Enter one of the Guard. </stage>
-          <sp xml:id="ep000674-e21840">
+          <sp who="ep000674-guard" xml:id="ep000674-e21840">
             <speaker>Guard. </speaker>
             <l>A Messenger from the Divan </l>
             <l>Rudely presses to your Presence. </l>
           </sp>
-          <sp xml:id="ep000674-e21880">
+          <sp who="ep000674-ibr" xml:id="ep000674-e21880">
             <speaker>Ibr. </speaker>
             <l>Admit him— </l>
           </sp>
           <stage xml:id="ep000674-e21910">Enter Messenger. </stage>
-          <sp xml:id="ep000674-e21920">
+          <sp who="ep000674-mess" xml:id="ep000674-e21920">
             <speaker>Mess. </speaker>
             <l>
               <hi>Sultan!</hi>— the Mufti and the </l>
@@ -2312,7 +2411,7 @@
             <l>The breach our Holy Law has suffered, </l>
             <l>In violating Morena, A Free-born Maid. </l>
           </sp>
-          <sp xml:id="ep000674-e22020">
+          <sp who="ep000674-ibr" xml:id="ep000674-e22020">
             <speaker>Ibr. </speaker>
             <l>Is then the Mufti the Dervises, and </l>
             <l>All the canting Tribe together met </l>
@@ -2332,11 +2431,11 @@
             <l>Such a one; take hence the Villain, </l>
             <l>And strange him immediately. </l>
           </sp>
-          <sp xml:id="ep000674-e22210">
+          <sp who="ep000674-mess" xml:id="ep000674-e22210">
             <speaker>Mess. </speaker>
             <l>Oh! Mercy! Mercy! </l>
           </sp>
-          <sp xml:id="ep000674-e22240">
+          <sp who="ep000674-ibr" xml:id="ep000674-e22240">
             <speaker>Ibr. </speaker>
             <l>Away with him!— </l>
             <l>Visier, Double our Guards, and </l>
@@ -2358,19 +2457,19 @@
         <div n="5" type="act" xml:id="ep000674-e22420">
           <head>ACT V. </head>
           <stage xml:id="ep000674-e22440">Enter Ibrahim, Visier, Sheker Para, Attendants. </stage>
-          <sp xml:id="ep000674-e22470">
+          <sp who="ep000674-ibr" xml:id="ep000674-e22470">
             <speaker>Ibr. </speaker>
             <l>WHY Coward dost thou creep thus near me, </l>
             <l>Still leaving my Orders unperform'd? </l>
           </sp>
-          <sp xml:id="ep000674-e22510">
+          <sp who="ep000674-vis" xml:id="ep000674-e22510">
             <speaker>Vis. </speaker>
             <l>Oh! Sacred Sir! The Mutinous Janizaries </l>
             <l>Bar each Gate o'th' Palace, nor can I </l>
             <l>Pass with Life! </l>
           </sp>
           <stage xml:id="ep000674-e22570">Enter Achmet. </stage>
-          <sp xml:id="ep000674-e22590">
+          <sp who="ep000674-ach" xml:id="ep000674-e22590">
             <speaker>Ach. </speaker>
             <l>Our woes redouble with the coming Night, </l>
             <l>The Impetuous Janizaries pour on us </l>
@@ -2379,7 +2478,7 @@
             <l>Aloud they curse the Visier, and </l>
             <l>Unanimously swear his ruine.— </l>
           </sp>
-          <sp xml:id="ep000674-e22690">
+          <sp who="ep000674-ibr" xml:id="ep000674-e22690">
             <speaker>Ibr. </speaker>
             <l>Poor trembling Wizard— if thou hast </l>
             <l>Raised a Storm beyond thy Magick Power </l>
@@ -2388,22 +2487,22 @@
             <l>The Baited Prey; and let 'em gorge </l>
             <l>Their revengefull Maws. </l>
           </sp>
-          <sp xml:id="ep000674-e22770">
+          <sp who="ep000674-vis" xml:id="ep000674-e22770">
             <pb n="33" xml:id="ep000674-021-b"/>
             <speaker>Vis. </speaker>
             <l>Hah! </l>
           </sp>
-          <sp xml:id="ep000674-e22800">
+          <sp who="ep000674-ibr" xml:id="ep000674-e22800">
             <speaker>Ibr. </speaker>
             <l>Stop his mouth, and bear him off. </l>
           </sp>
-          <sp xml:id="ep000674-e22830">
+          <sp who="ep000674-vis" xml:id="ep000674-e22830">
             <speaker>Vis. </speaker>
             <l>Sultan, Ibrahim— </l>
             <l>Cruel Lord! Wilt thou not hear me! </l>
           </sp>
           <stage xml:id="ep000674-e22880">forc'd off. </stage>
-          <sp xml:id="ep000674-e22890">
+          <sp who="ep000674-ibr" xml:id="ep000674-e22890">
             <speaker>Ibr. </speaker>
             <l>I, stand next the mark of fate! </l>
             <l>Evil Councellors the plausible pretence </l>
@@ -2414,12 +2513,12 @@
             <l>Hark how the Bloodhounds ring his Death! </l>
           </sp>
           <stage xml:id="ep000674-e22980">A shout without. </stage>
-          <sp xml:id="ep000674-e22990">
+          <sp who="ep000674-shek" xml:id="ep000674-e22990">
             <speaker>Shek. </speaker>
             <l>Oh! That I were a Man to face </l>
             <l>These Devils, and save my Lord! </l>
           </sp>
-          <sp xml:id="ep000674-e23030">
+          <sp who="ep000674-ach" xml:id="ep000674-e23030">
             <speaker>Ach. </speaker>
             <l>Retire Dear Sir, to some more remote </l>
             <l>Apartment, whilst I together draw </l>
@@ -2427,7 +2526,7 @@
             <l>Or Promises can engage, to save </l>
             <l>Your precious Life, tho' I loose my own. </l>
           </sp>
-          <sp xml:id="ep000674-e23100">
+          <sp who="ep000674-ibr" xml:id="ep000674-e23100">
             <speaker>Ibr. </speaker>
             <l>Faithful Achmet! I, who </l>
             <l>But yesterday commanded Armies, </l>
@@ -2439,7 +2538,7 @@
           </sp>
           <stage xml:id="ep000674-e23200">Exeunt. </stage>
           <stage xml:id="ep000674-e23210">Enter Solyman and Souldiers. </stage>
-          <sp xml:id="ep000674-e23230">
+          <sp who="ep000674-soly" xml:id="ep000674-e23230">
             <speaker>Soly. </speaker>
             <l>Where is this Barbarous Prince— </l>
             <l>I warrant Fellow-Souldiers;— Hid </l>
@@ -2452,7 +2551,7 @@
           </sp>
           <stage xml:id="ep000674-e23330">Exeunt. </stage>
           <stage xml:id="ep000674-e23340">Ibrahim, and Sheker Para. </stage>
-          <sp xml:id="ep000674-e23360">
+          <sp who="ep000674-ibr" xml:id="ep000674-e23360">
             <speaker>Ibr. </speaker>
             <l>Flatterers, that curse of Courts have </l>
             <l>Ruined me!— thro' their false </l>
@@ -2470,33 +2569,33 @@
             <l>— Go wretched Woman— Herd amongst </l>
             <l>Thy Sex, and let that protect thee! </l>
           </sp>
-          <sp xml:id="ep000674-e23520">
+          <sp who="ep000674-shek" xml:id="ep000674-e23520">
             <speaker>Shek </speaker>
             <l>I will a while retire; watch this fear'd event, </l>
             <l>And if you fall;— boldly come forth and dye. </l>
           </sp>
           <stage xml:id="ep000674-e23560">Exit. </stage>
           <stage xml:id="ep000674-e23570">Enter Solyman driving in Achmet. </stage>
-          <sp xml:id="ep000674-e23600">
+          <sp who="ep000674-soly" xml:id="ep000674-e23600">
             <speaker>Soly. </speaker>
             <l>
               <hi>Eunuch! Pander</hi>! dar'st thou stop my way? </l>
             <l>That for thy impudence— that for the poor Morena! </l>
           </sp>
-          <sp xml:id="ep000674-e23660">
+          <sp who="ep000674-ach" xml:id="ep000674-e23660">
             <speaker>Ach. </speaker>
             <l>O Sultan! our Prophet guard thee, </l>
             <l>I can no more </l>
           </sp>
           <stage xml:id="ep000674-e23700">Dyes. </stage>
-          <sp xml:id="ep000674-e23710">
+          <sp who="ep000674-ibr" xml:id="ep000674-e23710">
             <speaker>Ibr. </speaker>
             <l>What bold slave art thou, who </l>
             <l>Throwing off the Sacred ties of Duty, </l>
             <l>Allegiance, darst with offensive </l>
             <l>Arms approach thy lawful Prince! </l>
           </sp>
-          <sp xml:id="ep000674-e23770">
+          <sp who="ep000674-soly" xml:id="ep000674-e23770">
             <speaker>Soly. </speaker>
             <l>My Prince!— </l>
             <l>Id'e sooner serve a Russian Bear, </l>
@@ -2512,14 +2611,14 @@
             <l>Thou wouldst turn thy wounded ears away! </l>
             <l>And beg me use my Sword; but talk no more. </l>
           </sp>
-          <sp xml:id="ep000674-e23930">
+          <sp who="ep000674-ibr" xml:id="ep000674-e23930">
             <speaker>Ibr. </speaker>
             <l>Traytors are ever loud— </l>
             <l>And to colour their own detested sin </l>
             <l>Rebellion; with impudence, and calumnies </l>
             <l>Bespatter the Throne, they dare attack. </l>
           </sp>
-          <sp xml:id="ep000674-e23990">
+          <sp who="ep000674-soly" xml:id="ep000674-e23990">
             <speaker>Soly. </speaker>
             <l>Was there a Slave throughout thy wide </l>
             <l>Dominions, whom blind fate had cursed </l>
@@ -2543,12 +2642,12 @@
             <l>But that her Lion Resolution made your </l>
             <l>Coward Heart shrink back. </l>
           </sp>
-          <sp xml:id="ep000674-e24220">
+          <sp who="ep000674-ibr" xml:id="ep000674-e24220">
             <speaker>Ibr. </speaker>
             <l>What!— ho!— </l>
             <l>Is there none to secure this Traitor? </l>
           </sp>
-          <sp xml:id="ep000674-e24260">
+          <sp who="ep000674-soly" xml:id="ep000674-e24260">
             <speaker>Soly </speaker>
             <l>I tell thee, Lost degenerate King, </l>
             <l>There's not a Soul will move a Tongue </l>
@@ -2561,7 +2660,7 @@
             <l>Horrours must remain for thee; who bend'st </l>
             <l>Beneath the weight of thousand thousand Ills? </l>
           </sp>
-          <sp xml:id="ep000674-e24390">
+          <sp who="ep000674-ibr" xml:id="ep000674-e24390">
             <speaker>Ibr. </speaker>
             <l>Come on, thou Rebel!— </l>
             <l>No Souldier sure thou art! </l>
@@ -2573,24 +2672,24 @@
             <l>Detest'd, to the honest World; as thou </l>
             <l>Hast Represented mine! </l>
           </sp>
-          <sp xml:id="ep000674-e24510">
+          <sp who="ep000674-soly" xml:id="ep000674-e24510">
             <speaker>Soly. </speaker>
             <l>My injur'd Friend, and that unhappy Beauty </l>
             <l>Whom thy Lust hast ruin'd, gives Iustice to </l>
             <l>My Javelin's point, and sends it to thy heart! </l>
           </sp>
           <stage xml:id="ep000674-e24560">Fight. </stage>
-          <sp xml:id="ep000674-e24570">
+          <sp who="ep000674-ibr" xml:id="ep000674-e24570">
             <speaker>Ibr. </speaker>
             <l>'T has reach'd it too, nor am I far from thine. </l>
           </sp>
-          <sp xml:id="ep000674-e24600">
+          <sp who="ep000674-soly" xml:id="ep000674-e24600">
             <speaker>Soly. </speaker>
             <l>Oh feeble Arm! Oh Amurat! </l>
             <stage xml:id="ep000674-e24640">Both fall. </stage>
             <l>Cou'd I do no more for thee! </l>
           </sp>
-          <sp xml:id="ep000674-e24660">
+          <sp who="ep000674-ibr" xml:id="ep000674-e24660">
             <speaker>Ibr. </speaker>
             <l>I am no longer now the sport of Fate, </l>
             <l>This Atom which our unseen Rulers </l>
@@ -2611,7 +2710,7 @@
           </sp>
           <stage xml:id="ep000674-e24830">Dyes. </stage>
           <stage xml:id="ep000674-e24840">Enter Amurat, who speaks to his followers Entering. </stage>
-          <sp xml:id="ep000674-e24860">
+          <sp who="ep000674-am" xml:id="ep000674-e24860">
             <speaker>Am </speaker>
             <l>Sheath all your Swords, here </l>
             <l>Let Murder cease; and whilst in sad complainings </l>
@@ -2621,7 +2720,7 @@
             <l>My Friend! hast thou done this? </l>
           </sp>
           <stage xml:id="ep000674-e24940">Sees 'em. </stage>
-          <sp xml:id="ep000674-e24950">
+          <sp who="ep000674-soly" xml:id="ep000674-e24950">
             <speaker>Soly. </speaker>
             <l>To higher Judges I am summon'd to appeal, </l>
             <l>Where I reward or punishment shall find </l>
@@ -2631,7 +2730,7 @@
             <l>Remember all my faults, and Death. </l>
           </sp>
           <stage xml:id="ep000674-e25030">Dyes. </stage>
-          <sp xml:id="ep000674-e25040">
+          <sp who="ep000674-am" xml:id="ep000674-e25040">
             <speaker>Am. </speaker>
             <l>Ye inauspicious Planets! which at my birth. </l>
             <l>Shot your intermingl'd Rays; and on my Infant </l>
@@ -2647,16 +2746,16 @@
             <l>See Fathers, see the fatal end of </l>
             <l>Our Commotions! </l>
           </lg>
-          <sp xml:id="ep000674-e25210">
+          <sp who="ep000674-muft" xml:id="ep000674-e25210">
             <speaker>Muft. </speaker>
             <l>'T was Heavens will, and therefore grieve no more; </l>
           </sp>
-          <sp xml:id="ep000674-e25240">
+          <sp who="ep000674-must" xml:id="ep000674-e25240">
             <speaker>Must. </speaker>
             <l>All Eyes are sixt on you, nor doth the </l>
             <l>Empire yield an honour, which you may not claim. </l>
           </sp>
-          <sp xml:id="ep000674-e25280">
+          <sp who="ep000674-am" xml:id="ep000674-e25280">
             <speaker>Am. </speaker>
             <l>Oh! mistake not the heart of Amurat! </l>
             <l>Think not Ambition led me on! no; </l>
@@ -2674,12 +2773,12 @@
             <l>The Acclamation— Long live Mahomet </l>
             <l>The Fourth! Emperour of the true Believers! </l>
           </sp>
-          <sp xml:id="ep000674-e25480">
+          <sp who="ep000674-omnes" xml:id="ep000674-e25480">
             <speaker>Omnes. </speaker>
             <l>Long live Mahomet the Fourth, &amp;c. </l>
             <l>Amurat our great Deliverer! </l>
           </sp>
-          <sp xml:id="ep000674-e25540">
+          <sp who="ep000674-muft" xml:id="ep000674-e25540">
             <speaker>Muft. </speaker>
             <l>Bear the Body to the Royal Mosque, whilst I, </l>
             <l>With Mustapha, wait on the Sultana Queens; </l>
@@ -2688,7 +2787,7 @@
           </sp>
           <stage xml:id="ep000674-e25620">Exeunt Muft. and Mustaphia. </stage>
           <stage xml:id="ep000674-e25650">Enter Sheker, Para. </stage>
-          <sp xml:id="ep000674-e25670">
+          <sp who="ep000674-shek" xml:id="ep000674-e25670">
             <speaker>Shek. </speaker>
             <l>Turn, Traitor, Turn! and here behold </l>
             <l>Thy Fate!— 'Twas J disclos'd the </l>
@@ -2698,7 +2797,7 @@
             <l>On me your Vengeance; and strike </l>
             <l>Your Ponyard to my Heart! </l>
           </sp>
-          <sp xml:id="ep000674-e25770">
+          <sp who="ep000674-amur" xml:id="ep000674-e25770">
             <speaker>Amur. </speaker>
             <l>There are things, which by Antipathy </l>
             <l>We hate; and such wert ever thou. </l>
@@ -2713,7 +2812,7 @@
             <l>And shunn'd by all, whoever heard </l>
             <l>The Name of Goodness! </l>
           </sp>
-          <sp xml:id="ep000674-e25920">
+          <sp who="ep000674-shek" xml:id="ep000674-e25920">
             <speaker>Shek: </speaker>
             <l>Look back! and see! how vain thy Curses are! </l>
             <l>Thus!— I defie thy Malice! </l>
@@ -2723,7 +2822,7 @@
             <l>Lo she comes— Disdaining Life </l>
             <l>When thou art gone! </l>
           </sp>
-          <sp xml:id="ep000674-e26030">
+          <sp who="ep000674-amur" xml:id="ep000674-e26030">
             <speaker>Amur. </speaker>
             <l>Bear the polluted Wretch away, </l>
             <l>Whist I seek my afflicted Fair: </l>
@@ -2731,7 +2830,7 @@
           </sp>
           <stage xml:id="ep000674-e26080">Exeunt. </stage>
           <stage xml:id="ep000674-e26090">Enter Morena Drest in White. </stage>
-          <sp xml:id="ep000674-e26110">
+          <sp who="ep000674-mor" xml:id="ep000674-e26110">
             <speaker>Mor. </speaker>
             <l>Drest in these Robes of Innocence, </l>
             <l>Fain wou'd I believe my Virgin Purity remains; </l>
@@ -2747,7 +2846,7 @@
             <l>The Horrours, thy poor Mistriss has, </l>
             <l>Thou woud'st have left to fear! </l>
           </sp>
-          <sp xml:id="ep000674-e26270">
+          <sp who="ep000674-zayd" xml:id="ep000674-e26270">
             <speaker>Zayd. </speaker>
             <l>Who can express the Terrours of this dismal Night! </l>
             <l>The mad Janizaries up, and raging for Revenge, </l>
@@ -2761,7 +2860,7 @@
             <l>We still were taught to pray; even </l>
             <l>The mighty Ibrahim is no more! </l>
           </sp>
-          <sp xml:id="ep000674-e26430">
+          <sp who="ep000674-mor" xml:id="ep000674-e26430">
             <speaker>Mor. </speaker>
             <l>Is Ibrahim dead?— Oh Amurat! </l>
             <l>I fear thou hast gone too far; and lest </l>
@@ -2793,7 +2892,7 @@
           </sp>
           <stage xml:id="ep000674-e26790">Drinks the Poyson. </stage>
           <stage xml:id="ep000674-e26800">Enter Amurat. </stage>
-          <sp xml:id="ep000674-e26820">
+          <sp who="ep000674-amur" xml:id="ep000674-e26820">
             <speaker>Amur. </speaker>
             <l>Hail my belov'd and charming fair! </l>
             <l>Oh! I have bin, where Blood and Desolation Reign'd, </l>
@@ -2803,15 +2902,15 @@
             <l>Long'd for sight Calms the rough Tempests </l>
             <l>Of my Soul, and tunes my Heart to Joy! </l>
           </sp>
-          <sp xml:id="ep000674-e26910">
+          <sp who="ep000674-mor" xml:id="ep000674-e26910">
             <speaker>Mor. </speaker>
             <l>That thou hadst stay'd, some moments longer. </l>
           </sp>
-          <sp xml:id="ep000674-e26940">
+          <sp who="ep000674-amur" xml:id="ep000674-e26940">
             <speaker>Amur </speaker>
             <l>Why! My lov'd dear one! </l>
           </sp>
-          <sp xml:id="ep000674-e26970">
+          <sp who="ep000674-mor" xml:id="ep000674-e26970">
             <speaker>Mor. </speaker>
             <l>I shame to cast my eyes towards thine </l>
             <l>Wherewith such pleasure I was wont to steal </l>
@@ -2819,7 +2918,7 @@
             <l>I know it, and am yet alive— </l>
             <l>Lucretia dy'd before! </l>
           </sp>
-          <sp xml:id="ep000674-e27050">
+          <sp who="ep000674-amur" xml:id="ep000674-e27050">
             <speaker>Amur. </speaker>
             <l>Inhuman fair! </l>
             <l>Death in the Person of my Friend! </l>
@@ -2828,7 +2927,7 @@
             <l>Cruelly you talk of yours! </l>
           </sp>
           <stage xml:id="ep000674-e27120">Enter the <hi>Mufti, Mustapha </hi>and several others. </stage>
-          <sp xml:id="ep000674-e27140">
+          <sp who="ep000674-muft" xml:id="ep000674-e27140">
             <speaker>Muft. </speaker>
             <l>The wrongs that Tyrrannick Ibrahim </l>
             <l>Had heap'd on the Sultana Queens </l>
@@ -2847,13 +2946,13 @@
             <l>With the sweets of Love, I am, what </l>
             <l>They please, else nothing. </l>
           </sp>
-          <sp xml:id="ep000674-e27340">
+          <sp who="ep000674-mor" xml:id="ep000674-e27340">
             <speaker>Mor. </speaker>
             <l>Can the great Amurat submit so low, </l>
             <l>To talk of Fruition when 'tis past, </l>
             <l>Or to his Arms receive pollution? </l>
           </sp>
-          <sp xml:id="ep000674-e27400">
+          <sp who="ep000674-amur" xml:id="ep000674-e27400">
             <speaker>Amur. </speaker>
             <l>Name it no more! The Royal Blood </l>
             <l>Of the ossender hath cleansed and washed out </l>
@@ -2865,14 +2964,14 @@
             <l>Has quencht his Thirst? No! The </l>
             <l>Spring, thy Virgin Mind was pure! </l>
           </sp>
-          <sp xml:id="ep000674-e27500">
+          <sp who="ep000674-mor" xml:id="ep000674-e27500">
             <speaker>Mor. </speaker>
             <l>Talk on, methinks I taste of Heaven, </l>
             <l>To hear thee! Let thy kind Breath </l>
             <l>Proceed: Waft me from one Paradice </l>
             <l>To another! </l>
           </sp>
-          <sp xml:id="ep000674-e27560">
+          <sp who="ep000674-amur" xml:id="ep000674-e27560">
             <speaker>Amur. </speaker>
             <l>Distraction seize me! Either </l>
             <l>My sight deceives me; or my Love </l>
@@ -2881,16 +2980,16 @@
             <l>The Wretch you form'd to the Blasphemous </l>
             <l>Sins Dispair may utter! </l>
           </sp>
-          <sp xml:id="ep000674-e27640">
+          <sp who="ep000674-must" xml:id="ep000674-e27640">
             <speaker>Must. </speaker>
             <l>My Daughter! what hast thou done! </l>
           </sp>
-          <sp xml:id="ep000674-e27670">
+          <sp who="ep000674-zayd" xml:id="ep000674-e27670">
             <speaker>Zayd. </speaker>
             <l>Oh! my unhappy Mistriss! </l>
             <l>I fear that fatal Cordial! </l>
           </sp>
-          <sp xml:id="ep000674-e27710">
+          <sp who="ep000674-amur" xml:id="ep000674-e27710">
             <speaker>Amur. </speaker>
             <l>Inveterate Stars! Now ye've stretcht </l>
             <l>Your power to the last degree, and </l>
@@ -2904,7 +3003,7 @@
             <l>A punishment? Morena! unkind! </l>
             <l>Cruel! unkind! </l>
           </sp>
-          <sp xml:id="ep000674-e27860">
+          <sp who="ep000674-mor" xml:id="ep000674-e27860">
             <speaker>Mor. </speaker>
             <l>My Father! draw near; forgive this </l>
             <l>First last act of Disobedience! </l>
@@ -2918,14 +3017,14 @@
             <l>Will prove too strong! Antidote the Poison, </l>
             <l>And let me live! </l>
           </sp>
-          <sp xml:id="ep000674-e28000">
+          <sp who="ep000674-amur" xml:id="ep000674-e28000">
             <speaker>Amur. </speaker>
             <l>Thou shalt live! since this Barbarous </l>
             <l>Climate has wrong'd such worth; </l>
             <l>I'le Raise another Empire large as this, </l>
             <l>And fix thee there!— </l>
           </sp>
-          <sp xml:id="ep000674-e28060">
+          <sp who="ep000674-mor" xml:id="ep000674-e28060">
             <speaker>Mor. </speaker>
             <l>Fix me in thy Heart! more dear to me </l>
             <l>Than gaudielt Thrones! Be that </l>
@@ -2936,7 +3035,7 @@
             <l>Oh! Farewel!— </l>
             <stage xml:id="ep000674-e28150">[Dier. </stage>
           </sp>
-          <sp xml:id="ep000674-e28160">
+          <sp who="ep000674-amur" xml:id="ep000674-e28160">
             <speaker>Amur. </speaker>
             <l>Oh! speak! speak once again!— </l>
             <l>Open those rosy Doors! Dart from </l>
@@ -2946,18 +3045,18 @@
             <l>A Dungeon, Galley, Bedlam, can </l>
             <l>Produce ought so miserable as Amurat! </l>
           </sp>
-          <sp xml:id="ep000674-e28260">
+          <sp who="ep000674-must" xml:id="ep000674-e28260">
             <speaker>Must. </speaker>
             <l>Dead, my lov'd Daughter!— </l>
             <l>Angry Prophet! when will thy vengeance cease! </l>
           </sp>
-          <sp xml:id="ep000674-e28300">
+          <sp who="ep000674-amur" xml:id="ep000674-e28300">
             <speaker>Amur. </speaker>
             <l>Oh! never let it! now let </l>
             <l>Earthquakes shake the Basis of this Foundation, </l>
             <l>And whirlwinds drive us like dust about! </l>
           </sp>
-          <sp xml:id="ep000674-e28350">
+          <sp who="ep000674-must" xml:id="ep000674-e28350">
             <speaker>Must. </speaker>
             <l>Have Patience, Son! Honour was </l>
             <l>The Mistress of thy Youth! Fair </l>
@@ -2966,7 +3065,7 @@
             <l>Now let the great Business of the Empire </l>
             <l>Divert thy Sorrow?— </l>
           </sp>
-          <sp xml:id="ep000674-e28440">
+          <sp who="ep000674-amur" xml:id="ep000674-e28440">
             <speaker>Amur. </speaker>
             <l>Ye say I am Visier, Guardian to the </l>
             <l>Infant King; with Power unlimitted </l>
@@ -2982,15 +3081,15 @@
             <l>Slighting all offers here I prostrately; </l>
             <l>No life so happy, as with thee to die! </l>
           </sp>
-          <sp xml:id="ep000674-e28610">
+          <sp who="ep000674-must" xml:id="ep000674-e28610">
             <speaker>Must. </speaker>
             <l>Oh! fatal deed! </l>
           </sp>
-          <sp xml:id="ep000674-e28640">
+          <sp who="ep000674-muft" xml:id="ep000674-e28640">
             <speaker>Muft. </speaker>
             <l>Rash Act! </l>
           </sp>
-          <sp xml:id="ep000674-e28670">
+          <sp who="ep000674-must" xml:id="ep000674-e28670">
             <speaker>Must. </speaker>
             <l>Where shall I hide me from </l>
             <l>This Scene of Woe!— No sorrow </l>
@@ -2998,7 +3097,7 @@
             <l>Because there's no Room left for </l>
             <l>Hope of Friend! </l>
           </sp>
-          <sp xml:id="ep000674-e28740">
+          <sp who="ep000674-muft" xml:id="ep000674-e28740">
             <speaker>Muft. </speaker>
             <l>Let's not through grief neglect the publick care </l>
             <l>Since in the change we had so large a share; </l>

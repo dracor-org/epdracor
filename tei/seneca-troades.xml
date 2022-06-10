@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000708" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000708" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +58,54 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000708-ulysses">
+              <persName>Ulysses</persName>
+            </person>
+            <person xml:id="ep000708-agamemnon">
+              <persName>Agamemnon</persName>
+            </person>
+            <person xml:id="ep000708-talthibius">
+              <persName>Talthibius</persName>
+            </person>
+            <person xml:id="ep000708-calchas">
+              <persName>Calchas</persName>
+            </person>
+            <person xml:id="ep000708-astyanax">
+              <persName>Astyanax</persName>
+            </person>
+            <person xml:id="ep000708-helen">
+              <persName>Helen</persName>
+            </person>
+            <person xml:id="ep000708-helena">
+              <persName>Helena</persName>
+            </person>
+            <person xml:id="ep000708-nuncius">
+              <persName>Nuncius</persName>
+            </person>
+            <person xml:id="ep000708-andromache">
+              <persName>Andromache</persName>
+            </person>
+            <person xml:id="ep000708-chorusofcaptivetrojanladies">
+              <persName>CHORUS Of Captive Trojan Ladies</persName>
+            </person>
+            <person xml:id="ep000708-pyrrhus">
+              <persName>Pyrrhus</persName>
+            </person>
+            <person xml:id="ep000708-hecuba">
+              <persName>Hecuba</persName>
+            </person>
+            <person xml:id="ep000708-senex">
+              <persName>Senex</persName>
+            </person>
+            <person xml:id="ep000708-chorus">
+              <persName>CHORUS</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -246,7 +294,7 @@
               <l>And Troy's sad Obsequies perform: Now round </l>
               <l>Ide, that dire Judge's Fatal Seat, resound. </l>
             </lg>
-            <sp xml:id="ep000708-e4960">
+            <sp who="ep000708-chorusofcaptivetrojanladies" xml:id="ep000708-e4960">
               <speaker>CHORUS Of Captive Trojan Ladies. </speaker>
               <lg>
                 <l>No rude Crew un-inur'd to Tears </l>
@@ -278,7 +326,7 @@
                 <l>Skill'd in our Parts, do follow Thee. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e6070">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e6070">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>You faithful Consorts of our Woe </l>
@@ -300,7 +348,7 @@
                 <l>'Tis Hector whom We now lament! </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e6300">
+            <sp who="ep000708-chorus" xml:id="ep000708-e6300">
               <speaker>CHORUS. </speaker>
               <lg>
                 <l>
@@ -312,7 +360,7 @@
                   <note corresp="A59189-e6530-a" n="x" place="bottom">x <hi>Ashes strown</hi>.] This likewise was frequent in the funeral Ceremonies, among the ancient Greeks and Romans, as well as among the Iews; of which the fore-cited Authors afford sufficient testimonies. </note>Ashes strown. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e6580">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e6580">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>Fill then your Hands; From Troy this yet </l>
@@ -337,7 +385,7 @@
                 <l>'Tis Hector whom We now lament. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e6950">
+            <sp who="ep000708-chorus" xml:id="ep000708-e6950">
               <speaker>CHORUS. </speaker>
               <lg>
                 <l>For Thee our Arms We beat, and Blows </l>
@@ -364,14 +412,14 @@
                 <l>To Hector and his Country gave. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e7270">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e7270">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>Turn now your Plaints; Let Priam too </l>
                 <l>Be wept for: Hector hath his Due. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e7340">
+            <sp who="ep000708-chorus" xml:id="ep000708-e7340">
               <speaker>CHORUS. </speaker>
               <lg>
                 <l>Receive our Tears <ref target="A59189-e7380-b">a </ref>
@@ -393,7 +441,7 @@
                   </note>Headless Trunk sustain. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e7970">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e7970">
               <pb n="16" xml:id="ep000708-012-a"/>
               <speaker>Hecuba. </speaker>
               <lg>
@@ -421,7 +469,7 @@
                 <l>In Pomp through proud Mycenae. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e8410">
+            <sp who="ep000708-chorus" xml:id="ep000708-e8410">
               <speaker>CHORUS. </speaker>
               <lg>
                 <l>All </l>
@@ -465,7 +513,7 @@
               <item>Talthibius, and </item>
               <item>Chorus <hi>of old </hi>Trojans. </item>
             </list>
-            <sp xml:id="ep000708-e9370">
+            <sp who="ep000708-talthibius" xml:id="ep000708-e9370">
               <speaker>Talthibius. </speaker>
               <lg>
                 <l>HOw <ref target="A59189-e9410-b">i </ref>
@@ -473,14 +521,14 @@
                 <l>When War they seek, or for their Homes prepare! </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e9540">
+            <sp who="ep000708-chorus" xml:id="ep000708-e9540">
               <speaker>CHORUS. </speaker>
               <lg>
                 <l>The Cause declare them and their Fleet detains, </l>
                 <l>What God it is that their Return restrains. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e9590">
+            <sp who="ep000708-talthibius" xml:id="ep000708-e9590">
               <speaker>Talthibius. </speaker>
               <lg>
                 <l>Amazement strikes my Soul; a trembling Cold </l>
@@ -563,7 +611,7 @@
               <item>PYRRHUS, </item>
               <item>AGAMEMNON. </item>
             </list>
-            <sp xml:id="ep000708-e11170">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e11170">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>WHen Home you thought to Sail, full Fraught with Joy, </l>
@@ -686,7 +734,7 @@
                 <l>For what even Precedent allows, We plead. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e15420">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e15420">
               <speaker>Agamemnon. </speaker>
               <lg>
                 <l>
@@ -784,11 +832,11 @@
                 <l>" Who ought, yet not forbids Ill, bids the same. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e17170">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e17170">
               <speaker>Pyrrhus. </speaker>
               <p>Shall then Achilles Ghost due Honours want? </p>
             </sp>
-            <sp xml:id="ep000708-e17210">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e17210">
               <speaker>Agamemnon. </speaker>
               <lg>
                 <l>Dues it shall have, and every Tongue shall chant </l>
@@ -806,7 +854,7 @@
                 <l>Should such dire Rites be to his Honour due. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e17540">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e17540">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>Thou insolently Haughty in Success, </l>
@@ -823,7 +871,7 @@
                 <l>Have a King's bear it Company. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e17720">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e17720">
               <speaker>Agamemnon. </speaker>
               <lg>
                 <l>'Tis true; </l>
@@ -834,7 +882,7 @@
                   <note corresp="A59189-e17810-a" n="q" place="bottom">q <hi>Spar'd when his Suppliant</hi>.] Coming to implore the redemption of Hector's Corps, of which see the relation in Homer's Iliad 24. </note>Spar'd when his Suppliant. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e17860">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e17860">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>'Tis Truth entire; </l>
@@ -853,7 +901,7 @@
                 <l>Whilst you lay sculking, and kept close for fear. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e18130">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18130">
               <pb n="39" xml:id="ep000708-023-b"/>
               <speaker>Agamemnon. </speaker>
               <lg>
@@ -865,7 +913,7 @@
                   <note corresp="A59189-e18210-a" n="s" place="bottom">s <hi>Upon his Lute</hi>.] Achilles, besides his Martial Arts, was train'd up by Chyron, in Physic, and Music, Vocal and Instrumental, in which he became an excellent Proficient, and for which he is celebrated by the ancient Poets. This Lute, or Lyre of his, is said to have been that of Mercury's, which Corybas, the Son of <hi>Iasion▪ </hi>and Nephew of Dardanus, is reported (according to <hi>Diodorus Siculus, l. </hi>5.) to have left at Lymessus, and which Achilles, when he took that Town, sound, and carried away with him. From this yet <hi>Homer, (Iliad. 9.) </hi>dissents, telling us, that when the Embassadors sent from Agamemnon came to him, they found him playing upon a Silver-neck'd Lute, curiously wrought, which, among other spoils, he brought from the sack of <hi>Eetionean Thebes</hi>. </note>Upon his Lute nimble Division. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e18350">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18350">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>Yet was great Hector, who your Arms despis'd, </l>
@@ -874,73 +922,73 @@
                 <l>His Navy yet in peaceful Quiet lay. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e18430">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18430">
               <speaker>Agamemnon. </speaker>
               <p>Yes, the same Navy Priam durst to board. </p>
             </sp>
-            <sp xml:id="ep000708-e18470">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18470">
               <pb n="40" xml:id="ep000708-024-a"/>
               <speaker>Pyrrhus. </speaker>
               <p>" 'Tis Kingly to a King Life to afford. </p>
             </sp>
-            <sp xml:id="ep000708-e18500">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18500">
               <speaker>Agamemnon. </speaker>
               <p>Then why a King did you deprive of Breath? </p>
             </sp>
-            <sp xml:id="ep000708-e18530">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18530">
               <speaker>Pyrrhus. </speaker>
               <p>" There's Mercy sometimes shown in giving Death. </p>
             </sp>
-            <sp xml:id="ep000708-e18560">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18560">
               <speaker>Agamemnon. </speaker>
               <p>So you'd in Mercy Sacrifice a Maid? </p>
             </sp>
-            <sp xml:id="ep000708-e18590">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18590">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>And such a Sacrifice can you dissuade, </l>
                 <l>Who offer'd your own Child? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e18640">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18640">
               <speaker>Agamemnon. </speaker>
               <lg>
                 <l>" Their Kingdom's Good </l>
                 <l>" Kings should prefer before their Childrens Blood. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e18690">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18690">
               <speaker>Pyrrhus. </speaker>
               <p>Forbid a Captiv's Death no Law e're did. </p>
             </sp>
-            <sp xml:id="ep000708-e18720">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18720">
               <pb n="41" xml:id="ep000708-024-b"/>
               <speaker>Agamemnon. </speaker>
               <p>" What the Law does not, is by Shame forbid. </p>
             </sp>
-            <sp xml:id="ep000708-e18750">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18750">
               <speaker>Pyrrhus. </speaker>
               <p>" What likes, is lawful, by All Victors thought. </p>
             </sp>
-            <sp xml:id="ep000708-e18780">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18780">
               <speaker>Agamemnon. </speaker>
               <p>" T' whom much is lawful, to <hi>like, little </hi>ought. </p>
             </sp>
-            <sp xml:id="ep000708-e18840">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e18840">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>'Fore these thus vant'st thou, who by Pyrrhus are </l>
                 <l>Freed from the Bondage of a Ten Years War? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e18900">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e18900">
               <speaker>Agamemnon. </speaker>
               <p>Breeds <ref target="A59189-e18930-b">t </ref>
                 <note corresp="A59189-e18930-a" n="t" place="bottom">t Breeds Scyrus <hi>such high Blood.</hi>] The Poet perhaps alludes to the Proverb, or common by-word, <hi>Scyrius Principatus</hi>, which is meant of a mean, and low Principality, as Suidas testifies, <hi>in voce </hi>
                   <seg xml:lang="unk">〈◊〉 〈◊〉 〈◊〉 〈◊〉 〈◊〉</seg>, in regard the Island is stony and unfruitful; whence, according to <hi>Bochartus (in Canaan, l. </hi>1. c. 12.) the name seems to be deriv'd. See likewise <hi>Erasmus, in Adag. Scyrius Principatus. </hi>
                 </note>Scyrus such high Blood? </p>
             </sp>
-            <sp xml:id="ep000708-e19040">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e19040">
               <pb n="42" xml:id="ep000708-025-a"/>
               <speaker>Pyrrhus. </speaker>
               <lg>
@@ -950,11 +998,11 @@
                   <note corresp="A59189-e19100-a" n="v" place="bottom">v— <hi>Which knows No Brothers Sins</hi>. As Mycenae and Argos were guilty of. For Atreus and Thyestes, the Sons of Pelops, by Hippodamia, were first guilty of the Murther of their Brother-in-law Chrysippus, whom Pelops begat on Axioche, his Concubine. Afterward, Thyestes, by the help of Aerope, the Wife of Atreus, whom he had seduc'd to play the Adulteress, became Master of his Brother's Golden-Fleec'd Ram (which was the fatal Ornament of his Kingdom) upon which Atreus, to be reveng'd, kills three of Thyestes his Children, then Hostages in his Court, and inviting Thyestes to a Treatment of seeming reconcillation, feasts him with the Flesh and Blood of his Children. From the sight of which horrid Banquet, the Sun is said to have withdrawn his light. See <hi>Hyginus, De Fabul, Pausani●…, in 〈◊〉. </hi>and the Tragedy of Thyestes, among those which go under the name of Seneca's. </note>No Brothers Sins. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e19300">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e19300">
               <speaker>Agamemnon. </speaker>
               <p>Which strait'ning Seas inclose. </p>
             </sp>
-            <sp xml:id="ep000708-e19330">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e19330">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>Yes, Seas that owe us a Relation; </l>
@@ -963,7 +1011,7 @@
                 <l>Great Atreus too. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e19940">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e19940">
               <pb n="43" xml:id="ep000708-025-b"/>
               <speaker>Agamemnon. </speaker>
               <lg>
@@ -971,7 +1019,7 @@
                 <l>Got by Achilles, when scarce Man. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e20000">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e20000">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>Achilles, who to the whole World ally'd </l>
@@ -983,18 +1031,18 @@
                 <l>To Hell by Aeacus, to Heav'n by Iove. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e20490">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e20490">
               <speaker>Agamemnon. </speaker>
               <p>Yes, He who fell by Paris feeble Hand. </p>
             </sp>
-            <sp xml:id="ep000708-e20530">
+            <sp who="ep000708-pyrrhus" xml:id="ep000708-e20530">
               <speaker>Pyrrhus. </speaker>
               <lg>
                 <l>Whom yet not any of the Gods durst stand </l>
                 <l>In open fight. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e20580">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e20580">
               <pb n="45" xml:id="ep000708-026-b"/>
               <speaker>Agamemnon. </speaker>
               <lg>
@@ -1007,7 +1055,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000708-e20680">Enter Calchas. </stage>
-            <sp xml:id="ep000708-e20700">
+            <sp who="ep000708-agamemnon" xml:id="ep000708-e20700">
               <speaker>Agamemnon. </speaker>
               <lg>
                 <l>Thou Sacred Minister, who loos'dst the Bar </l>
@@ -1020,7 +1068,7 @@
                 <l>And this our Strife, let thy grave Counsel end. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e20820">
+            <sp who="ep000708-calchas" xml:id="ep000708-e20820">
               <speaker>Calchas. </speaker>
               <lg>
                 <l>The usual means, Fates of Return afford </l>
@@ -1040,7 +1088,7 @@
                 </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e21140">
+            <sp who="ep000708-chorus" xml:id="ep000708-e21140">
               <pb n="47" xml:id="ep000708-027-b"/>
               <speaker>CHORUS. </speaker>
               <lg>
@@ -1172,7 +1220,7 @@
               <item>Senex, </item>
               <item>Astyanax mute. </item>
             </list>
-            <sp xml:id="ep000708-e22860">
+            <sp who="ep000708-andromache" xml:id="ep000708-e22860">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>WHy tear you thus your Hair, and weeping beat </l>
@@ -1200,22 +1248,22 @@
                 <l>" When Hope hath left us, is the worst of Ill. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e23180">
+            <sp who="ep000708-senex" xml:id="ep000708-e23180">
               <speaker>Senex. </speaker>
               <p>What sudden Fear does thy sad Mind surprize? </p>
             </sp>
-            <sp xml:id="ep000708-e23210">
+            <sp who="ep000708-andromache" xml:id="ep000708-e23210">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>From our great Ills still greater Ills arise. </l>
                 <l>Nor yet can Iliums fatal Woes have end. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e23270">
+            <sp who="ep000708-senex" xml:id="ep000708-e23270">
               <speaker>Senex. </speaker>
               <p>What further Miseries does Heaven intend? </p>
             </sp>
-            <sp xml:id="ep000708-e23300">
+            <sp who="ep000708-andromache" xml:id="ep000708-e23300">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Hell's open'd; and our Foes, that we might n'ere </l>
@@ -1226,11 +1274,11 @@
                 <l>But my sad Dream doth me alone oppress. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e23410">
+            <sp who="ep000708-senex" xml:id="ep000708-e23410">
               <speaker>Senex. </speaker>
               <p>Declare, what did thy dreadful Dream present? </p>
             </sp>
-            <sp xml:id="ep000708-e23440">
+            <sp who="ep000708-andromache" xml:id="ep000708-e23440">
               <pb n="54" xml:id="ep000708-031-a"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -1312,7 +1360,7 @@
                 <l>And dreads the omen of the dismal place. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e24930">
+            <sp who="ep000708-senex" xml:id="ep000708-e24930">
               <speaker>Senex. </speaker>
               <lg>
                 <l>" Oft a suppos'd Destruction (in this case) </l>
@@ -1322,52 +1370,52 @@
                 <l>The Greatness of his own Nobility. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25010">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25010">
               <speaker>Andromache. </speaker>
               <p>Pray Heav'n no one discover or betray him. </p>
             </sp>
-            <sp xml:id="ep000708-e25040">
+            <sp who="ep000708-senex" xml:id="ep000708-e25040">
               <speaker>Senex. </speaker>
               <p>Let there be none to witness where you lay him. </p>
             </sp>
-            <sp xml:id="ep000708-e25070">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25070">
               <pb n="58" xml:id="ep000708-033-a"/>
               <speaker>Andromache. </speaker>
               <p>How if the Enemy demand the Boy? </p>
             </sp>
-            <sp xml:id="ep000708-e25100">
+            <sp who="ep000708-senex" xml:id="ep000708-e25100">
               <speaker>Senex. </speaker>
               <p>Say, He was murder'd in subverted Troy. </p>
             </sp>
-            <sp xml:id="ep000708-e25140">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25140">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>What boot's it to lie hid a while, that past, </l>
                 <l>To fall into their cruel Hands at last? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25190">
+            <sp who="ep000708-senex" xml:id="ep000708-e25190">
               <speaker>Senex. </speaker>
               <lg>
                 <l>Despair not, hope for better Fate:" The first </l>
                 <l>" Charge of the Victors Fury is the worst. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25240">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25240">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Alas what should we hope, if he can ne're </l>
                 <l>Be kept conceal'd without apparent Fear? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25290">
+            <sp who="ep000708-senex" xml:id="ep000708-e25290">
               <speaker>Senex. </speaker>
               <lg>
                 <l>" Choice of their Safety the Secure may make, </l>
                 <l>" Those in distress must hold of any take. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25340">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25340">
               <pb n="59" xml:id="ep000708-033-b"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -1389,21 +1437,21 @@
                 <l>Thou'lt Safety find; if Death they give, a Grave. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25550">
+            <sp who="ep000708-senex" xml:id="ep000708-e25550">
               <speaker>Senex. </speaker>
               <lg>
                 <l>He's hid: but lest thy Fears should him betray, </l>
                 <l>Remove some distance hence another way. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25600">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25600">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>" The nearer that we fear, we fear the less: </l>
                 <l>But if you please let's withdraw— </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25650">
+            <sp who="ep000708-senex" xml:id="ep000708-e25650">
               <pb n="60" xml:id="ep000708-034-a"/>
               <speaker>Senex. </speaker>
               <lg>
@@ -1413,7 +1461,7 @@
                   <note corresp="A59189-e25710-a" n="o" place="bottom">o <hi>The Cephalenian Prince</hi>.] Ulysses, from Cephalenia, an Island in the 〈◊〉 Sea, 120 miles in compass, distant about 20 miles from Zant, of which he was Lord. The Island had anciently four Cities, denominated from the four Sons of <hi>Cephalus, Pro●…esus, Samus, Peleus, </hi>and Cra●…s. Now onely one, of the same Name with the Island, remains, with some Villages, and a Port called Argostol●…, six miles from Cephalenia Southwards. See <hi>〈◊〉▪ in Ferrarli Lexic●…</hi>. It was heretofore called Sam●… or Samus, and (according to some, says Ortelius) Tap●…s; at present by the <hi>Italians Cefalonia</hi>, and is under the Dominion of the Venetians. </note>Cephalenian Prince this way does bend. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e25890">
+            <sp who="ep000708-andromache" xml:id="ep000708-e25890">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Cleave, Earth! and thou, dear Spouse, rend up the Ground </l>
@@ -1427,7 +1475,7 @@
             <pb n="61" xml:id="ep000708-034-b"/>
             <head>SCENE II. </head>
             <stage xml:id="ep000708-e25980">Enter Ulysses. </stage>
-            <sp xml:id="ep000708-e26000">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e26000">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>THe Minister of a severe Decree </l>
@@ -1444,14 +1492,14 @@
                 <l>As thy Son lives, Andromache. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e26190">
+            <sp who="ep000708-andromache" xml:id="ep000708-e26190">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>This Song </l>
                 <l>Does Calchas your great Prophet sing? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e26250">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e26250">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Although </l>
@@ -1489,7 +1537,7 @@
                 <l>Then suffer what the Victors self hath done. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e26750">
+            <sp who="ep000708-andromache" xml:id="ep000708-e26750">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Would God, dear Child, I had thee in my Hand, </l>
@@ -1508,7 +1556,7 @@
                 <l>Slain, do thy Limbs Idaean Vultures feast? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e26950">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e26950">
               <pb n="64" xml:id="ep000708-036-a"/>
               <speaker>Ulysses. </speaker>
               <lg>
@@ -1520,14 +1568,14 @@
                 <l>With these vain shifts, and where thy Son is, say. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27100">
+            <sp who="ep000708-andromache" xml:id="ep000708-e27100">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Where's <hi>Hector? Priam</hi>? all the Trojans? You </l>
                 <l>For one ask, I for all. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27170">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e27170">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Torture shall scrue, </l>
@@ -1535,7 +1583,7 @@
                 <l>A forc'd Confession from thee. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27230">
+            <sp who="ep000708-andromache" xml:id="ep000708-e27230">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Alas she </l>
@@ -1543,19 +1591,19 @@
                 <l>That die not onely can, but ought, and will. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27290">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e27290">
               <pb n="65" xml:id="ep000708-036-b"/>
               <speaker>Ulysses. </speaker>
               <p>These Boasts at Deaths approach will quickly fly. </p>
             </sp>
-            <sp xml:id="ep000708-e27320">
+            <sp who="ep000708-andromache" xml:id="ep000708-e27320">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>No, Ithacus; if me thou'dst terrifie, </l>
                 <l>Threaten me Life, for Death's my wish. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27380">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e27380">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Fire, Blows, </l>
@@ -1564,7 +1612,7 @@
                 <l>" Severity works more than Lenity. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27450">
+            <sp who="ep000708-andromache" xml:id="ep000708-e27450">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Doom me to Flames, dissect with Wounds, and try </l>
@@ -1579,7 +1627,7 @@
                 <l>Nor Terrors daunt my stout Maternal Brest. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27590">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e27590">
               <pb n="66" xml:id="ep000708-037-a"/>
               <speaker>Ulysses. </speaker>
               <lg>
@@ -1592,7 +1640,7 @@
                   <note corresp="A59189-e27700-a" n="r" place="bottom">r <hi>My Telemachus</hi>.] Telemachus was the Son of Ulysses and Penelope, born a little before he went to the Trojan War, who therefore (according to Eustathius in ●…. Odyss.) at his parting gave him that Name, as desiring he might lead his Life <seg xml:lang="unk">〈◊〉 〈◊〉 〈◊〉 〈◊〉 〈◊〉</seg>, far from the hazards of War and Battels, which he himself was unfortunately enforc'd then to undergo. </note>Telemachus. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27800">
+            <sp who="ep000708-andromache" xml:id="ep000708-e27800">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>And must I comfort then afford my Foes </l>
@@ -1602,11 +1650,11 @@
                 <l>Of happy News, Great Hector's Son is dead. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e27910">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e27910">
               <speaker>Ulysses. </speaker>
               <p>Where be the Proofs may make this credited? </p>
             </sp>
-            <sp xml:id="ep000708-e27940">
+            <sp who="ep000708-andromache" xml:id="ep000708-e27940">
               <pb n="67" xml:id="ep000708-037-b"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -1619,7 +1667,7 @@
                 <l>The dues of Funeral. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e28060">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e28060">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Fate's in his Fate </l>
@@ -1647,14 +1695,14 @@
                 <l>Remains of Troy was destin'd to be thrown. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e28350">
+            <sp who="ep000708-andromache" xml:id="ep000708-e28350">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>My Heart faints, Fear shakes all my Joynts, a cold </l>
                 <l>Congealing Frost upon my Bloud lays hold. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e28400">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e28400">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>See, see, she trembles; this must be the way. </l>
@@ -1667,7 +1715,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000708-e28510">To himself. </stage>
-            <sp xml:id="ep000708-e28520">
+            <sp who="ep000708-andromache" xml:id="ep000708-e28520">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Would God this Fear from present grounds did rise; </l>
@@ -1675,7 +1723,7 @@
                 <l>" From what it long hath learnt is late declin'd. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e28580">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e28580">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Since thy Sons better Fate prevented hath </l>
@@ -1689,7 +1737,7 @@
                 <l>We must exact it from his Father's Tomb. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e28710">
+            <sp who="ep000708-andromache" xml:id="ep000708-e28710">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>What shall I do? my Mind a double Fear </l>
@@ -1718,7 +1766,7 @@
                 <l>To save him yet whom most the Grecians fear. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29050">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e29050">
               <pb n="70" xml:id="ep000708-039-a"/>
               <speaker>Ulysses. </speaker>
               <lg>
@@ -1726,18 +1774,18 @@
                 <l>I will demolish. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29100">
+            <sp who="ep000708-andromache" xml:id="ep000708-e29100">
               <speaker>Andromache. </speaker>
               <p>Which ye Sold- </p>
             </sp>
-            <sp xml:id="ep000708-e29130">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e29130">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Deface </l>
                 <l>The Monument. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29180">
+            <sp who="ep000708-andromache" xml:id="ep000708-e29180">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>The Faith of Gods and thee, </l>
@@ -1745,14 +1793,14 @@
                 <l>Thy <hi>Father's Gift made good</hi>. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29270">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e29270">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Down it shall go, </l>
                 <l>And with its Ruines the wide Champain strow. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29320">
+            <sp who="ep000708-andromache" xml:id="ep000708-e29320">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>No Wickedness ye Greeks have you refrain'd, </l>
@@ -1771,14 +1819,14 @@
                 <l>Defending bear his Ashes company. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29630">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e29630">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>What does a Womans passion move your hearts, </l>
                 <l>And vainer Cries? On Slaves, and ply your parts. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29680">
+            <sp who="ep000708-andromache" xml:id="ep000708-e29680">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>First by your bloudy hands let me be slain. </l>
@@ -1790,12 +1838,12 @@
                 <l>That see him onely? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e29810">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e29810">
               <pb n="72" xml:id="ep000708-040-a"/>
               <speaker>Ulysses. </speaker>
               <p>Down with't to the Ground. </p>
             </sp>
-            <sp xml:id="ep000708-e29840">
+            <sp who="ep000708-andromache" xml:id="ep000708-e29840">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>What dost? wilt see one Ruine then confound </l>
@@ -1828,7 +1876,7 @@
                 <l>O pity! all my comfort's in this Boy. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e30360">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e30360">
               <speaker>Ulysses. </speaker>
               <p>Produce him first, then what you ask enjoy. </p>
             </sp>
@@ -1841,7 +1889,7 @@
               <item>Andromache, </item>
               <item>Astyanax. </item>
             </list>
-            <sp xml:id="ep000708-e30450">
+            <sp who="ep000708-andromache" xml:id="ep000708-e30450">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>FOrth from the hollow Entrals of the Tomb </l>
@@ -1878,7 +1926,7 @@
                 <l>He leaves to Fortune and the will of Fate. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31050">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e31050">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Trust me the Mothers Sorrow moves me much, </l>
@@ -1886,7 +1934,7 @@
                 <l>To whose no little Grief this Child aspires. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31120">
+            <sp who="ep000708-andromache" xml:id="ep000708-e31120">
               <pb n="76" xml:id="ep000708-042-a"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -1905,11 +1953,11 @@
                 <l>His Mind to serve. This who'll deny a King? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31340">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e31340">
               <speaker>Ulysses. </speaker>
               <p>Not we, but Calchas this denies to thee. </p>
             </sp>
-            <sp xml:id="ep000708-e31380">
+            <sp who="ep000708-andromache" xml:id="ep000708-e31380">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>O thou damn'd Author of all Villany! </l>
@@ -1924,7 +1972,7 @@
                 <l>Thou hast dar'd something yet in open day. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31510">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e31510">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Enough the Greeks, too well the Trojans, know </l>
@@ -1932,7 +1980,7 @@
                 <l>Spend in vain talk. The Fleet does Anchor weigh. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31600">
+            <sp who="ep000708-andromache" xml:id="ep000708-e31600">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Yet so much time afford us, as to pay </l>
@@ -1941,7 +1989,7 @@
                 <l>My greedy Sorrows. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31670">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e31670">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Would our power could give </l>
@@ -1950,7 +1998,7 @@
                 <l>To part and weep." Tears Sorrow's burthen ease. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e31740">
+            <sp who="ep000708-andromache" xml:id="ep000708-e31740">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>O thou sweet Pledge of all my hopes! the Grace </l>
@@ -1982,7 +2030,7 @@
                 <l>More woful yet than Hector dragg'd. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e32480">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e32480">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>Here close </l>
@@ -1990,7 +2038,7 @@
                 <l>No bounds. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e32540">
+            <sp who="ep000708-andromache" xml:id="ep000708-e32540">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>The time we for our Tears demand </l>
@@ -2002,11 +2050,11 @@
                 <l>Go, and in freedom thy free Trojans see. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e32650">
+            <sp who="ep000708-astyanax" xml:id="ep000708-e32650">
               <speaker>Astyanax. </speaker>
               <p>O pity, Mother! </p>
             </sp>
-            <sp xml:id="ep000708-e32680">
+            <sp who="ep000708-andromache" xml:id="ep000708-e32680">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>'Las, why dost thou wring </l>
@@ -2036,14 +2084,14 @@
                 <l>Of their lov'd Dust, yet unshook off, appear. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e33000">
+            <sp who="ep000708-ulysses" xml:id="ep000708-e33000">
               <speaker>Ulysses. </speaker>
               <lg>
                 <l>She'll ne're have done;—" Grief knows not what is fit. </l>
                 <l>Bear hence this stop of the Argolic Fleet. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e33050">
+            <sp who="ep000708-chorus" xml:id="ep000708-e33050">
               <speaker>CHORUS. </speaker>
               <lg>
                 <l>WHat Seats shall We poor Captives find? </l>
@@ -2247,7 +2295,7 @@
               <item>HECUBA, </item>
               <item>POLYXENA. </item>
             </list>
-            <sp xml:id="ep000708-e42860">
+            <sp who="ep000708-helena" xml:id="ep000708-e42860">
               <speaker>Helena. </speaker>
               <lg>
                 <l>WHere ever Hymen is unfortunate, </l>
@@ -2288,7 +2336,7 @@
                 <l>" Captivity hath made some Fortunate. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e43790">
+            <sp who="ep000708-andromache" xml:id="ep000708-e43790">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>Was this then only wanting to our Woes? </l>
@@ -2314,7 +2362,7 @@
                 <l>As they deserve; that is, with tears and cryes. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e44220">
+            <sp who="ep000708-helen" xml:id="ep000708-e44220">
               <speaker>Helen. </speaker>
               <lg>
                 <l>Though mighty Grief no curb, no reason knows, </l>
@@ -2348,7 +2396,7 @@
                 <l>I scarce can hold from Tears.— </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e44640">
+            <sp who="ep000708-andromache" xml:id="ep000708-e44640">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>The thing is sad </l>
@@ -2368,7 +2416,7 @@
                   <hi>To be deceiv'd</hi>. To dye, w'are All prepar'd. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e44890">
+            <sp who="ep000708-helen" xml:id="ep000708-e44890">
               <speaker>Helen. </speaker>
               <lg>
                 <l>Would Heav'n, the Gods Interpreter had doom'd </l>
@@ -2380,7 +2428,7 @@
                 <l>Demands for Spouse in the Elysian shade. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e45030">
+            <sp who="ep000708-andromache" xml:id="ep000708-e45030">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>See how great joy does her high soul express </l>
@@ -2397,7 +2445,7 @@
                 <l>Death to the Miserable is unkind. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e45230">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e45230">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>Yet lives Achilles to the Phrygians Woe? </l>
@@ -2423,7 +2471,7 @@
                 <l>Gladly Cassandra thus espous'd would be. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e45530">
+            <sp who="ep000708-andromache" xml:id="ep000708-e45530">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>We, We poor Wretches, Hecuba, are most </l>
@@ -2450,7 +2498,7 @@
                 <l>In her own native Land. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e45850">
+            <sp who="ep000708-helen" xml:id="ep000708-e45850">
               <pb n="105" xml:id="ep000708-056-b"/>
               <speaker>Helen. </speaker>
               <lg>
@@ -2458,23 +2506,23 @@
                 <l>Did you but know what Lot's for you in store. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e45900">
+            <sp who="ep000708-andromache" xml:id="ep000708-e45900">
               <speaker>Andromache. </speaker>
               <p>Is of my Woes yet any Part unknown? </p>
             </sp>
-            <sp xml:id="ep000708-e45930">
+            <sp who="ep000708-helen" xml:id="ep000708-e45930">
               <speaker>Helen. </speaker>
               <p>The Captives Dooms th'impartial Urn hath shown. </p>
             </sp>
-            <sp xml:id="ep000708-e45960">
+            <sp who="ep000708-andromache" xml:id="ep000708-e45960">
               <speaker>Andromache. </speaker>
               <p>Whose Slave am I? Whom must I Master call? </p>
             </sp>
-            <sp xml:id="ep000708-e45990">
+            <sp who="ep000708-helen" xml:id="ep000708-e45990">
               <speaker>Helen. </speaker>
               <p>Unto the Scyrian Youth, by Lot you fall. </p>
             </sp>
-            <sp xml:id="ep000708-e46030">
+            <sp who="ep000708-andromache" xml:id="ep000708-e46030">
               <pb n="106" xml:id="ep000708-057-a"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -2482,25 +2530,25 @@
                 <l>And Phoebus from the Lot does disengage. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e46100">
+            <sp who="ep000708-helen" xml:id="ep000708-e46100">
               <speaker>Helen. </speaker>
               <p>She's Agamemnon's Prize. </p>
             </sp>
-            <sp xml:id="ep000708-e46140">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e46140">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>Is Hecuba </l>
                 <l>By any sought for? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e46200">
+            <sp who="ep000708-helen" xml:id="ep000708-e46200">
               <speaker>Helen. </speaker>
               <lg>
                 <l>You a short-liv'd Prey </l>
                 <l>Are to Ulysses, 'gainst his will, become. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e46260">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e46260">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>O who could be Dispenser of a Doom </l>
@@ -2547,7 +2595,7 @@
                 <l>Fall, I wish that shall carry me, or Worse. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e46790">
+            <sp who="ep000708-chorus" xml:id="ep000708-e46790">
               <pb n="108" xml:id="ep000708-058-a"/>
               <speaker>CHORUS. </speaker>
               <lg>
@@ -2636,7 +2684,7 @@
               <item>ANDROMACHE, </item>
               <item>HECUBA. </item>
             </list>
-            <sp xml:id="ep000708-e47770">
+            <sp who="ep000708-nuncius" xml:id="ep000708-e47770">
               <speaker>Nuncius. </speaker>
               <lg>
                 <l>O Horrid, cruel, cursed Fates! What Crime </l>
@@ -2645,7 +2693,7 @@
                 <l>With your Woes, Madam? Or yours, Aged Queen? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e47850">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e47850">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>Whose Woes soe're you tell, they're mine; each Breast </l>
@@ -2654,14 +2702,14 @@
                 <l>He's wretched, but he's such to Hecuba. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e47930">
+            <sp who="ep000708-nuncius" xml:id="ep000708-e47930">
               <speaker>Nuncius. </speaker>
               <lg>
                 <l>The Virgin's sacrific'd; and the Youth cast </l>
                 <l>From the Tow'rs height: Both brave yet at the last. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e47980">
+            <sp who="ep000708-andromache" xml:id="ep000708-e47980">
               <pb n="112" xml:id="ep000708-060-a"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -2671,7 +2719,7 @@
                 <l>The entire complement of all my Woe. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e48050">
+            <sp who="ep000708-nuncius" xml:id="ep000708-e48050">
               <speaker>Nuncius </speaker>
               <lg>
                 <l>A Tow'r yet stands; <ref target="A59189-e48090-b"/>
@@ -2722,7 +2770,7 @@
                 <l>Amid'st the Ruin's of his State and Town. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e48840">
+            <sp who="ep000708-andromache" xml:id="ep000708-e48840">
               <speaker>Andromache. </speaker>
               <lg>
                 <l>What Colchian, or what wandring Scythian, </l>
@@ -2736,7 +2784,7 @@
                 <l>who'l take thy Limbs, and give them Funeral? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e49010">
+            <sp who="ep000708-nuncius" xml:id="ep000708-e49010">
               <speaker>Nuncius. </speaker>
               <lg>
                 <l>What Limbs could there be left by such a Fall? </l>
@@ -2749,7 +2797,7 @@
                 <l>Nought but a shapeless Trunk he lay. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e49120">
+            <sp who="ep000708-andromache" xml:id="ep000708-e49120">
               <pb n="115" xml:id="ep000708-061-b"/>
               <speaker>Andromache. </speaker>
               <lg>
@@ -2757,7 +2805,7 @@
                 <l>Too like his Father. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e49170">
+            <sp who="ep000708-nuncius" xml:id="ep000708-e49170">
               <speaker>Nuncius. </speaker>
               <lg>
                 <l>From this Scene of Woe </l>
@@ -2823,7 +2871,7 @@
                 <l>The thirsty Grave soon drunk up all the Flood. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e50110">
+            <sp who="ep000708-hecuba" xml:id="ep000708-e50110">
               <speaker>Hecuba. </speaker>
               <lg>
                 <l>Go, go ye Greeks! now seek your Homes again, </l>
@@ -2846,7 +2894,7 @@
                 <l>To thee, yet (Priam!) when thou fell'st, stood I? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000708-e50350">
+            <sp who="ep000708-nuncius" xml:id="ep000708-e50350">
               <speaker>Nuncius. </speaker>
               <lg>
                 <l>Away to Sea, ye Captives! now unmor'd </l>

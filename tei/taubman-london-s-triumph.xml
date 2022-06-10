@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000776" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000776" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +57,18 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000776-devil">
+              <persName>Devil</persName>
+            </person>
+            <person xml:id="ep000776-stdunstan">
+              <persName>St. Dunstan</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -225,12 +237,12 @@
                 <l>I'll take the angry Sultan by the Beard. </l>
                 <l>Nay, should the Devil intrude amongst your Foes, <stage xml:id="ep000776-e2510">Enter Devil. </stage>
                 </l>
-                <sp xml:id="ep000776-e2530">
+                <sp who="ep000776-devil" xml:id="ep000776-e2530">
                   <speaker>Devil. </speaker>
                   <p>
                     <hi>What then</hi>? </p>
                 </sp>
-                <sp xml:id="ep000776-e2570">
+                <sp who="ep000776-stdunstan" xml:id="ep000776-e2570">
                   <speaker>St. Dunstan. </speaker>
                   <p>— <hi>Snap, thus, I have him by the Nose. </hi>
                   </p>

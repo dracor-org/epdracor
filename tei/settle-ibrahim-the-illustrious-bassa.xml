@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000718" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000718" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -58,7 +59,81 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000718-solym">
+              <persName>Solym</persName>
+            </person>
+            <person xml:id="ep000718-isabel">
+              <persName>Isabel</persName>
+            </person>
+            <person xml:id="ep000718-roxola">
+              <persName>Roxola</persName>
+            </person>
+            <person xml:id="ep000718-ulama">
+              <persName>Ulama</persName>
+            </person>
+            <person xml:id="ep000718-mirv">
+              <persName>Mirv</persName>
+            </person>
+            <person xml:id="ep000718-ibrah">
+              <persName>Ibrah</persName>
+            </person>
+            <person xml:id="ep000718-muft">
+              <persName>Muft</persName>
+            </person>
+            <person xml:id="ep000718-dor">
+              <persName>Dor</persName>
+            </person>
+            <person xml:id="ep000718-ibrahim">
+              <persName>Ibrahim</persName>
+            </person>
+            <person xml:id="ep000718-bassa">
+              <persName>Bassa</persName>
+            </person>
+            <person xml:id="ep000718-morat">
+              <persName>Morat</persName>
+            </person>
+            <person xml:id="ep000718-2lady">
+              <persName>2. Lady</persName>
+            </person>
+            <person xml:id="ep000718-ulam">
+              <persName>Ulam</persName>
+            </person>
+            <person xml:id="ep000718-mor">
+              <persName>Mor</persName>
+            </person>
+            <person xml:id="ep000718-roxolan">
+              <persName>Roxolan</persName>
+            </person>
+            <person xml:id="ep000718-isab">
+              <persName>Isab</persName>
+            </person>
+            <person xml:id="ep000718-aster">
+              <persName>Aster</persName>
+            </person>
+            <person xml:id="ep000718-mirva">
+              <persName>Mirva</persName>
+            </person>
+            <person xml:id="ep000718-rox">
+              <persName>Rox</persName>
+            </person>
+            <person xml:id="ep000718-solom">
+              <persName>Solom</persName>
+            </person>
+            <person xml:id="ep000718-roxol">
+              <persName>Roxol</persName>
+            </person>
+            <person xml:id="ep000718-sultan">
+              <persName>Sultan</persName>
+            </person>
+            <person xml:id="ep000718-ibrha">
+              <persName>Ibrha</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -183,7 +258,7 @@
         <head>ACT the FIRST. </head>
         <head>The SCENE, the Seraglio. </head>
         <stage xml:id="ep000718-e1590">Enter <hi>Roxolana, Mirva</hi>, Guards, and Ladies. </stage>
-        <sp xml:id="ep000718-e1610">
+        <sp who="ep000718-mirva" xml:id="ep000718-e1610">
           <speaker>Mirva. </speaker>
           <l>THe Turkish pow'r was absolute till now: </l>
           <l>All knees, all hearts did to the Sultan bow. </l>
@@ -192,7 +267,7 @@
           <l>The world was searcht, and busie Nations strove </l>
           <l>To find out Martyrs for a Tyrants Love. </l>
         </sp>
-        <sp xml:id="ep000718-e1700">
+        <sp who="ep000718-2lady" xml:id="ep000718-e1700">
           <speaker>2. Lady. </speaker>
           <l>Even Daughters by their Parents were betray'd, </l>
           <l>Who their fair race a willing Victim made; </l>
@@ -201,7 +276,7 @@
           <l>Till Roxolana the long Bondage broke, </l>
           <l>And by her Influence shook off the yoke. </l>
         </sp>
-        <sp xml:id="ep000718-e1790">
+        <sp who="ep000718-mirva" xml:id="ep000718-e1790">
           <pb n="2" xml:id="ep000718-006-a"/>
           <speaker>Mirva. </speaker>
           <l>Yes, Royal Madam, 'twas your Eyes alone, </l>
@@ -211,7 +286,7 @@
           <l>The glorious Sun shines by himself most bright, </l>
           <l>When crowds, like Stars, make but a feeble light▪ </l>
         </sp>
-        <sp xml:id="ep000718-e1880">
+        <sp who="ep000718-roxolan" xml:id="ep000718-e1880">
           <speaker>Roxolan. </speaker>
           <l>And Mirva, to confirm the Chains I gave, </l>
           <l>By Sacred Rites I've bound my Royal Slave. </l>
@@ -229,7 +304,7 @@
           <l>Did God's maintain their Altars, as I mine. </l>
         </sp>
         <stage xml:id="ep000718-e2050">Enter Asteria attended. </stage>
-        <sp xml:id="ep000718-e2070">
+        <sp who="ep000718-aster" xml:id="ep000718-e2070">
           <speaker>Aster. </speaker>
           <l>I come to lay new Honours at your Feet, </l>
           <l>In your returning Lord a Conqu'rour meet. </l>
@@ -238,7 +313,7 @@
           <l>By what the Arms of Solyman have won, </l>
           <l>The Turkish Moon Eclips'd the Persian Sun. </l>
         </sp>
-        <sp xml:id="ep000718-e2180">
+        <sp who="ep000718-roxol" xml:id="ep000718-e2180">
           <speaker>Roxol. </speaker>
           <l>Your Father, dear Asteria, has in you, </l>
           <l>A pious Herauld sound, and just one too. </l>
@@ -249,12 +324,12 @@
           <l>(To whose success the Sultans glory's due) </l>
           <l>Extort some silent Veneration too? </l>
         </sp>
-        <sp xml:id="ep000718-e2320">
+        <sp who="ep000718-aster" xml:id="ep000718-e2320">
           <speaker>Aster. </speaker>
           <l>I cannot but with blushes own his pow'r. </l>
           <l>Ibrahim is every where a Conquerour. </l>
         </sp>
-        <sp xml:id="ep000718-e2370">
+        <sp who="ep000718-roxol" xml:id="ep000718-e2370">
           <speaker>Roxol. </speaker>
           <l>Nay! Blush no more! His Victories remove </l>
           <l>That Barr, which has so long conceal'd your Love: </l>
@@ -266,13 +341,13 @@
           <l>He, and his Conquests your Creations are. </l>
           <l>To you he owes them, and shall pay 'em here. </l>
         </sp>
-        <sp xml:id="ep000718-e2480">
+        <sp who="ep000718-aster" xml:id="ep000718-e2480">
           <speaker>Aster. </speaker>
           <l>Grant this, and Heav'n, H'e make no other pray'r. </l>
           <l>If the kind Destinies this wish fulfil, </l>
           <l>Let all their other works of Fate stand still. </l>
         </sp>
-        <sp xml:id="ep000718-e2530">
+        <sp who="ep000718-roxol" xml:id="ep000718-e2530">
           <speaker>Roxol. </speaker>
           <l>By my Commands, you have conceal'd your flame, </l>
           <l>Till his illustrious Deeds had rais'd his Fame, </l>
@@ -285,7 +360,7 @@
           <l>Love like Religion in a mighty mind, </l>
           <l>Should build those Temples which it does not find. </l>
         </sp>
-        <sp xml:id="ep000718-e2650">
+        <sp who="ep000718-aster" xml:id="ep000718-e2650">
           <speaker>Aster. </speaker>
           <l>My Breast thus long has my Loves Jailour been, </l>
           <l>And kept by force the strugling Prisoner in. </l>
@@ -293,7 +368,7 @@
           <l>When you pronounce the tiresome Slaves Release. </l>
         </sp>
         <stage xml:id="ep000718-e2710">Enter Solyman, Ibrahim, Ulama, Dorea, Bassas, and Janizaries. </stage>
-        <sp xml:id="ep000718-e2740">
+        <sp who="ep000718-solym" xml:id="ep000718-e2740">
           <speaker>Solym. </speaker>
           <l>Be this days Pomp your care, in th' Aga's room, </l>
           <stage xml:id="ep000718-e2770">to Dorea▪ </stage>
@@ -304,14 +379,14 @@
           <l>As fits the Triumph which we celebrate. </l>
         </sp>
         <stage xml:id="ep000718-e2860">Here Solyman approaches and discovers Roxolana. </stage>
-        <sp xml:id="ep000718-e2890">
+        <sp who="ep000718-roxol" xml:id="ep000718-e2890">
           <speaker>Roxol. </speaker>
           <l>Welcome the Worlds great Conqueror &amp; mine; </l>
           <l>Enough before did your bright Luster shine. </l>
           <l>You needed not new Victories, new Charms, </l>
           <l>To welcome you to Roxolana's Arms. </l>
         </sp>
-        <sp xml:id="ep000718-e2960">
+        <sp who="ep000718-solym" xml:id="ep000718-e2960">
           <speaker>Solym. </speaker>
           <l>Yes; I need all my glories, when you're near, </l>
           <l>I bring my Trophies as a Tribute here. </l>
@@ -321,7 +396,7 @@
           <l>Betwixt Loves pow'r and Majesty's this odds; </l>
           <l>The Vows men pay to Saints, Saints pay their Gods. </l>
         </sp>
-        <sp xml:id="ep000718-e3040">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e3040">
           <speaker>Ibrah. </speaker>
           <l>Yes, Dorea, goe; raise this Triumphant Seat. </l>
           <stage xml:id="ep000718-e3080">[to Dorea. </stage>
@@ -332,17 +407,17 @@
           <l>To him alone, you must with Homage bow: </l>
           <l>Obey him as my Sovereign, not my Friend. </l>
         </sp>
-        <sp xml:id="ep000718-e3160">
+        <sp who="ep000718-ulam" xml:id="ep000718-e3160">
           <speaker>Ulam. </speaker>
           <l>Oh Ulama, thy heart, thy heart defend. </l>
         </sp>
         <stage xml:id="ep000718-e3200">[Gazing on Roxolana. </stage>
-        <sp xml:id="ep000718-e3220">
+        <sp who="ep000718-roxol" xml:id="ep000718-e3220">
           <speaker>Roxol. </speaker>
           <l>Great and Victorious you must ever prove, </l>
           <l>Be but your Stars thus constant as your Love. </l>
         </sp>
-        <sp xml:id="ep000718-e3260">
+        <sp who="ep000718-solym" xml:id="ep000718-e3260">
           <speaker>Solym. </speaker>
           <l>Their influence is secure; I cannot fear </l>
           <l>Success nor Conquest whilst this Arm makes War. </l>
@@ -360,7 +435,7 @@
           <l>His Wondrous Arm such Miracles had done, </l>
           <l>I came but to behold the Fields he won. </l>
         </sp>
-        <sp xml:id="ep000718-e3480">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e3480">
           <speaker>Ibrah. </speaker>
           <l>The Sultans pleasure is, that shining things, </l>
           <l>Should only be the Favourites of Kings. </l>
@@ -368,7 +443,7 @@
           <l>And shews his God-like Bounty when he takes </l>
           <l>Delight t'adorn the Creatures which he makes. </l>
         </sp>
-        <sp xml:id="ep000718-e3560">
+        <sp who="ep000718-solym" xml:id="ep000718-e3560">
           <speaker>Solym. </speaker>
           <l>Though Crowns and Empires have his Tryumphs been, </l>
           <l>There was one Trophy left for me to win, </l>
@@ -380,7 +455,7 @@
           <l>I have, to shew what to your Beauty's due, </l>
           <l>Brought the great Sophies Son to wait on you. </l>
         </sp>
-        <sp xml:id="ep000718-e3710">
+        <sp who="ep000718-ulama" xml:id="ep000718-e3710">
           <speaker>Ulama. </speaker>
           <l>Your generous Lord such favours does confer </l>
           <l>On Ulama his Ibrahims Prisoner. </l>
@@ -389,12 +464,12 @@
           <l>My overthrow I must Heav'ns blessings call, </l>
           <l>Who owe this Resurrection to my fall. </l>
         </sp>
-        <sp xml:id="ep000718-e3820">
+        <sp who="ep000718-roxola" xml:id="ep000718-e3820">
           <speaker>Roxola. </speaker>
           <l>His favours Solyman does not id'ly place, </l>
           <l>No doubt he found you merited that Grace. </l>
         </sp>
-        <sp xml:id="ep000718-e3870">
+        <sp who="ep000718-ulama" xml:id="ep000718-e3870">
           <speaker>Ulama. </speaker>
           <l>So eminent your Sultans Vertues are; </l>
           <l>I wonder not at his success in War. </l>
@@ -408,7 +483,7 @@
           <l>My Eyes are more ambitious than thy Armes! </l>
         </sp>
         <stage xml:id="ep000718-e4020">Aside. </stage>
-        <sp xml:id="ep000718-e4030">
+        <sp who="ep000718-solym" xml:id="ep000718-e4030">
           <speaker>Solym. </speaker>
           <l>But my dear Ibrahim, now is the time, </l>
           <l>I must accuse a Conquerour of a Crime: </l>
@@ -417,12 +492,12 @@
           <l>In Deeds that ought to make the Actor proud, </l>
           <l>On your dark Brow you wear a sullen Cloud. </l>
         </sp>
-        <sp xml:id="ep000718-e4120">
+        <sp who="ep000718-roxol" xml:id="ep000718-e4120">
           <speaker>Roxol. </speaker>
           <l>I have observ'd him with the same surprize, </l>
           <l>And markt a killing sorrow in his Eyes. </l>
         </sp>
-        <sp xml:id="ep000718-e4160">
+        <sp who="ep000718-solym" xml:id="ep000718-e4160">
           <speaker>Solym. </speaker>
           <l>In this dejected look </l>
           <l>There's something more then modesty: Your Friend </l>
@@ -430,7 +505,7 @@
           <l>Do you repine at the loud Fame you get? </l>
           <l>Or is't unwillingly you make me great? </l>
         </sp>
-        <sp xml:id="ep000718-e4230">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e4230">
           <speaker>Ibrah. </speaker>
           <l>Unwillingly! Forbear that killing sound; </l>
           <l>Give not a Loyal heart so deep a wound. </l>
@@ -440,12 +515,12 @@
           <l>Or Martyrs Heav'n, with half the joy, that I </l>
           <l>Can in your Cause, subdue, obey, or dye. </l>
         </sp>
-        <sp xml:id="ep000718-e4310">
+        <sp who="ep000718-aster" xml:id="ep000718-e4310">
           <speaker>Aster. </speaker>
           <l>My life shall pay for one ill thought in Him, </l>
           <l>I'le answer for the Loyal Ibrahim. </l>
         </sp>
-        <sp xml:id="ep000718-e4360">
+        <sp who="ep000718-solym" xml:id="ep000718-e4360">
           <speaker>Solym. </speaker>
           <l>But, my best Ibrahim, your griefs declare; </l>
           <l>Can you have Sorrows, which I must not share? </l>
@@ -457,7 +532,7 @@
           <l>'Tis not too late to expiate that sin. </l>
           <l>Crowns thou shalt have— </l>
         </sp>
-        <sp xml:id="ep000718-e4500">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e4500">
           <speaker>Ibrah. </speaker>
           <l>Oh Royal Sir, no more; </l>
           <l>Bounty was never Cruelty before. </l>
@@ -468,23 +543,23 @@
           <l>My thoughts from a more just Ambition spring, </l>
           <l>'Tis all my Pride; Unbrib'd to serve my King. </l>
         </sp>
-        <sp xml:id="ep000718-e4610">
+        <sp who="ep000718-solym" xml:id="ep000718-e4610">
           <speaker>Solym. </speaker>
           <l>Then tell me— </l>
         </sp>
-        <sp xml:id="ep000718-e4640">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e4640">
           <speaker>Ibrah. </speaker>
           <l>Oh the secret must not out— </l>
         </sp>
         <stage xml:id="ep000718-e4670">[Aside. </stage>
-        <sp xml:id="ep000718-e4680">
+        <sp who="ep000718-roxol" xml:id="ep000718-e4680">
           <speaker>Roxol. </speaker>
           <l>If not his kindness, then his pow'r you doubt: </l>
           <l>Can there be any thing disturbs your rest, </l>
           <l>As cannot be by Solyman redrest? </l>
           <l>Think you his power's so little?— </l>
         </sp>
-        <sp xml:id="ep000718-e4750">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e4750">
           <speaker>Ibrah. </speaker>
           <l>No, so great— </l>
           <l>When yours joyns too, to make that pow'r compleat, </l>
@@ -492,14 +567,14 @@
           <l>Where light and Saints their endless glories place: </l>
           <l>Within it all things, and beyond it nothing. </l>
         </sp>
-        <sp xml:id="ep000718-e4820">
+        <sp who="ep000718-solym" xml:id="ep000718-e4820">
           <speaker>Solym. </speaker>
           <l>Say then, from whence does all this darkness come? </l>
           <l>Have I done injury to Christendom? </l>
           <l>Have any of my forreign pow'rs by steel, </l>
           <l>Or Rapine, wrong'd those Altars where you kneel? </l>
         </sp>
-        <sp xml:id="ep000718-e4880">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e4880">
           <speaker>Ibrah. </speaker>
           <l>Love pardon dutys sin, when I reveal </l>
           <l>My lesser sorrows, but the great conceal! </l>
@@ -526,7 +601,7 @@
           <l>'Tis that strikes horrour through my staggering sence: </l>
           <l>No Torture like mistaken Innocence. </l>
         </sp>
-        <sp xml:id="ep000718-e5160">
+        <sp who="ep000718-solym" xml:id="ep000718-e5160">
           <speaker>Solym. </speaker>
           <l>I thought to you I'had made my breast so clear; </l>
           <l>That you had nothing left to wish or fear. </l>
@@ -537,22 +612,22 @@
           <l>Whilst Solyman Lives, his Ibrahim shall not dye </l>
           <l>By any violent death. </l>
         </sp>
-        <sp xml:id="ep000718-e5290">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e5290">
           <speaker>Ibrah. </speaker>
           <l>Your favours are so high— </l>
         </sp>
-        <sp xml:id="ep000718-e5320">
+        <sp who="ep000718-solym" xml:id="ep000718-e5320">
           <speaker>Solym. </speaker>
           <l>Forbear your thanks, 'tis only what I owe; </l>
           <l>Men thanks for Gifts, and not for Debts bestow. </l>
         </sp>
-        <sp xml:id="ep000718-e5360">
+        <sp who="ep000718-roxol" xml:id="ep000718-e5360">
           <speaker>Roxol. </speaker>
           <l>No Sir, your constancy he cannot doubt; </l>
           <l>He knows his Prince too well for such a thought. </l>
           <l>Why this disguise?— </l>
         </sp>
-        <sp xml:id="ep000718-e5410">
+        <sp who="ep000718-solym" xml:id="ep000718-e5410">
           <speaker>Solym. </speaker>
           <l>I'le take this surer way; </l>
           <l>Though Friendship have no influence, Love may. </l>
@@ -560,30 +635,30 @@
           <l>I call you Friend, and she shall call you Lord. </l>
         </sp>
         <stage xml:id="ep000718-e5470">[Gives him Asteria. </stage>
-        <sp xml:id="ep000718-e5490">
+        <sp who="ep000718-aster" xml:id="ep000718-e5490">
           <speaker>Aster. </speaker>
           <l>That word my ravish'd sence does overcome: </l>
           <l>I feel my joys too mighty to be dumb. </l>
         </sp>
         <stage xml:id="ep000718-e5530">Aside. </stage>
-        <sp xml:id="ep000718-e5540">
+        <sp who="ep000718-solym" xml:id="ep000718-e5540">
           <pb n="8" xml:id="ep000718-009-a"/>
           <speaker>Solym. </speaker>
           <l>Be to my blood, as to my soul ally'd: </l>
           <l>Now have you thoughts, you from your King can hide? </l>
           <l>Have I not bought 'em yet? </l>
         </sp>
-        <sp xml:id="ep000718-e5590">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e5590">
           <speaker>Ibrah. </speaker>
           <l>What shall I say? </l>
         </sp>
         <stage xml:id="ep000718-e5620">[Aside. </stage>
-        <sp xml:id="ep000718-e5630">
+        <sp who="ep000718-aster" xml:id="ep000718-e5630">
           <speaker>Aster. </speaker>
           <l>My Bliss was never perfect till this day. </l>
         </sp>
         <stage xml:id="ep000718-e5660">[Aside. </stage>
-        <sp xml:id="ep000718-e5670">
+        <sp who="ep000718-rox" xml:id="ep000718-e5670">
           <speaker>Rox. </speaker>
           <l>This Lady, whom in Chains you could subdue, </l>
           <l>Admir'd by all, deserv'd By none but you; </l>
@@ -592,7 +667,7 @@
           <l>Meets you with all the kindness souls e're shar'd; </l>
           <l>Your Glories prize, your Loyalties reward. </l>
         </sp>
-        <sp xml:id="ep000718-e5760">
+        <sp who="ep000718-aster" xml:id="ep000718-e5760">
           <speaker>Aster. </speaker>
           <l>Do not too high her little Merit raise, </l>
           <l>Who blushes but too much without this praise; </l>
@@ -608,22 +683,22 @@
           <l>A Love which could not be by force expell'd; </l>
           <l>And now wants pow'r to keep its joyes conceal'd. </l>
         </sp>
-        <sp xml:id="ep000718-e5920">
+        <sp who="ep000718-solym" xml:id="ep000718-e5920">
           <speaker>Solym. </speaker>
           <l>To make her yet more worthy— </l>
         </sp>
-        <sp xml:id="ep000718-e5950">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e5950">
           <speaker>Ibrah. </speaker>
           <l>Great Sir, hold— </l>
           <l>Let me alone this Beauties worth unfold: </l>
           <l>'Tis I can best describe such excellence. </l>
         </sp>
-        <sp xml:id="ep000718-e6000">
+        <sp who="ep000718-aster" xml:id="ep000718-e6000">
           <speaker>Aster. </speaker>
           <l>I feel new raptures in my softn'd sence! </l>
         </sp>
         <stage xml:id="ep000718-e6030">[Aside. </stage>
-        <sp xml:id="ep000718-e6040">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e6040">
           <speaker>Ibrah. </speaker>
           <l>Some Heroe whom Imperial Crowns adorn, </l>
           <l>To greatness rais'd, and as much greatness born. </l>
@@ -632,17 +707,17 @@
           <l>'Tis such a one should meet Asteria's charms; </l>
           <l>But I the most unworthy of her Armes— </l>
         </sp>
-        <sp xml:id="ep000718-e6140">
+        <sp who="ep000718-roxol" xml:id="ep000718-e6140">
           <speaker>Roxol. </speaker>
           <l>Where will this end? </l>
         </sp>
         <stage xml:id="ep000718-e6170">[Aside. </stage>
-        <sp xml:id="ep000718-e6180">
+        <sp who="ep000718-aster" xml:id="ep000718-e6180">
           <speaker>Aster. </speaker>
           <l>Some God that pitty's Love, divert my fear. </l>
         </sp>
         <stage xml:id="ep000718-e6210">[Aside. </stage>
-        <sp xml:id="ep000718-e6220">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e6220">
           <speaker>Ibrah. </speaker>
           <l>So little pow'r of Gratitude dwells here! </l>
           <stage xml:id="ep000718-e6250">[points to his Breast. </stage>
@@ -654,11 +729,11 @@
           <l>To give me back my Chains, would be too kind; </l>
           <l>Let me in Death, Yours, and his Justice find. </l>
         </sp>
-        <sp xml:id="ep000718-e6320">
+        <sp who="ep000718-solym" xml:id="ep000718-e6320">
           <speaker>Solym. </speaker>
           <l>Has Ibrahim crimes make him deserve to dye? </l>
         </sp>
-        <sp xml:id="ep000718-e6360">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e6360">
           <speaker>Ibrah. </speaker>
           <l>I Criminal! Oh none so much as I. </l>
           <l>I am below the state of Infidels: </l>
@@ -671,19 +746,19 @@
           <l>The founder of my Fame, all I enjoy; </l>
           <l>Th'ungrateful Creature of your smiles destroy. </l>
         </sp>
-        <sp xml:id="ep000718-e6480">
+        <sp who="ep000718-roxol" xml:id="ep000718-e6480">
           <speaker>Roxol. </speaker>
           <l>Are Solymans favours and his blood abus'd? </l>
           <l>And so much Love thus barbarously us'd? </l>
         </sp>
-        <sp xml:id="ep000718-e6530">
+        <sp who="ep000718-solym" xml:id="ep000718-e6530">
           <speaker>Solym. </speaker>
           <l>Ibrahim! I am unwilling to believe, </l>
           <l>Such Disrespect I can from Man receive; </l>
           <l>Much less from Favourites; say then, what is </l>
           <l>That Pow'r has destin'd me to suffer this? </l>
         </sp>
-        <sp xml:id="ep000718-e6600">
+        <sp who="ep000718-aster" xml:id="ep000718-e6600">
           <speaker>Aster. </speaker>
           <l>Ask not the reason of his disrespect, </l>
           <l>Let her describe the Cause, who feels th'effect. </l>
@@ -704,11 +779,11 @@
           <l>I cannot hide my Love, nor my Despair. </l>
         </sp>
         <stage xml:id="ep000718-e6800">[offers to go. </stage>
-        <sp xml:id="ep000718-e6810">
+        <sp who="ep000718-roxol" xml:id="ep000718-e6810">
           <speaker>Roxol. </speaker>
           <l>What do I live to hear! Asteria, stay— </l>
         </sp>
-        <sp xml:id="ep000718-e6850">
+        <sp who="ep000718-aster" xml:id="ep000718-e6850">
           <speaker>Aster. </speaker>
           <l>No! let me take my hated sight away: </l>
           <pb n="10" xml:id="ep000718-010-a"/>
@@ -716,7 +791,7 @@
           <l>In Crowds the Prosperous, not the Wretched live: </l>
           <stage xml:id="ep000718-e6910">[Exit Asteria. </stage>
         </sp>
-        <sp xml:id="ep000718-e6930">
+        <sp who="ep000718-roxol" xml:id="ep000718-e6930">
           <speaker>Roxol. </speaker>
           <l>Who is that pow'rful Rival, for whose sake, </l>
           <l>Your stubborn heart her Beauty cannot shake. </l>
@@ -728,7 +803,7 @@
           <l>Then all your Victories oblig'd before. </l>
           <stage xml:id="ep000718-e7050">[Exit. </stage>
         </sp>
-        <sp xml:id="ep000718-e7060">
+        <sp who="ep000718-solym" xml:id="ep000718-e7060">
           <speaker>Solym. </speaker>
           <l>Go tryumph in her suff'rings and my shame, </l>
           <l>And add this one proud Title to your Fame; </l>
@@ -736,7 +811,7 @@
           <l>You are the first disturb'd my peace, and liv'd. </l>
         </sp>
         <stage xml:id="ep000718-e7120">[Exit with his Train, all but Ibrahim. </stage>
-        <sp xml:id="ep000718-e7140">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e7140">
           <speaker>Ibrah. </speaker>
           <l>Ruin'd at once so sure! Fate has made haste. </l>
           <l>Who could believe that so few hours are past, </l>
@@ -759,14 +834,14 @@
         <head>ACT the SECOND. </head>
         <head>The SCENE, the Scraglio. </head>
         <stage xml:id="ep000718-e7370">Enter Ibrahim, and Ulama, </stage>
-        <sp xml:id="ep000718-e7400">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e7400">
           <speaker>Ibrah. </speaker>
           <l>HAs my refusal made no change at all? </l>
           <l>Does she not yet her wandering sence recall? </l>
           <l>Tell me, she hates; she does— she must: how can </l>
           <l>Such goodness love so barbarous a Man? </l>
         </sp>
-        <sp xml:id="ep000718-e7460">
+        <sp who="ep000718-ulam" xml:id="ep000718-e7460">
           <speaker>Ulam. </speaker>
           <l>Your Tyranny shakes not your Empire there; </l>
           <l>The lost Asteria Loves you in despair: </l>
@@ -778,14 +853,14 @@
           <l>Not bleeding Saints for Martyrdom design'd, </l>
           <l>Are to their Executioners more kind. </l>
         </sp>
-        <sp xml:id="ep000718-e7580">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e7580">
           <speaker>Ibrah. </speaker>
           <l>Unhappy Maid, and more unhappy I, </l>
           <l>The Author of such killing Cruelty: </l>
           <l>Who see that Innocence such pains endure, </l>
           <l>And make those wounds which I must never cure. </l>
         </sp>
-        <sp xml:id="ep000718-e7640">
+        <sp who="ep000718-ulama" xml:id="ep000718-e7640">
           <speaker>Ulama. </speaker>
           <l>But whilst so long you Solymans heart possest, </l>
           <l>Why was your Love a Stranger to his breast? </l>
@@ -794,7 +869,7 @@
           <l>And so great pow'r as his might have prevail'd, </l>
           <l>T'obtain that suit where your own interest fail'd. </l>
         </sp>
-        <sp xml:id="ep000718-e7740">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e7740">
           <speaker>Ibrah. </speaker>
           <l>Even Solyman's pow'r had been a weak defence; </l>
           <l>For know, she's Daughter to a Christian Prince: </l>
@@ -812,14 +887,14 @@
           <l>And taken Prisoner by the Algereens, </l>
           <l>I to that Voyage owed my Turkish chains. </l>
         </sp>
-        <sp xml:id="ep000718-e7940">
+        <sp who="ep000718-ulam" xml:id="ep000718-e7940">
           <speaker>Ulam. </speaker>
           <l>Your Births being equal, 'twas unjustly done, </l>
           <l>He did not then embrace you for his Son; </l>
           <l>When th'happy tye had made your Families cease </l>
           <l>Their hate, and reconcil'd a Nations peace. </l>
         </sp>
-        <sp xml:id="ep000718-e8000">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e8000">
           <speaker>Ibrah. </speaker>
           <l>'Tis true, he might have been so just, but know, </l>
           <l>Hate thinks none equals, much less makes 'em so. </l>
@@ -828,11 +903,11 @@
           <l>Least my just King concern'd at my ill Fate, </l>
           <l>In kindness might have prov'd my Advocate. </l>
         </sp>
-        <sp xml:id="ep000718-e8090">
+        <sp who="ep000718-ulam" xml:id="ep000718-e8090">
           <speaker>Ulam. </speaker>
           <l>What danger could that cause? </l>
         </sp>
-        <sp xml:id="ep000718-e8120">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e8120">
           <speaker>Ibrah. </speaker>
           <l>I fear'd that He </l>
           <l>Might for my sake have been deny'd like me. </l>
@@ -845,14 +920,14 @@
           <l>More I could bear, and greater wrongs o'recome, </l>
           <l>To be the Champion-Friend of Christendom. </l>
         </sp>
-        <sp xml:id="ep000718-e8240">
+        <sp who="ep000718-ulam" xml:id="ep000718-e8240">
           <speaker>Ulam. </speaker>
           <l>With this just Love, to Solyman I'le go, </l>
           <l>And try what Reason, joyn'd with Pray'rs can do. </l>
           <stage xml:id="ep000718-e8290">[Ex. Ulama. </stage>
         </sp>
         <stage xml:id="ep000718-e8310">Enter Dorea. </stage>
-        <sp xml:id="ep000718-e8330">
+        <sp who="ep000718-dor" xml:id="ep000718-e8330">
           <speaker>Dor. </speaker>
           <l>Great Sir, a Bassa, newly come on shore, </l>
           <l>In Rustans name admittance does implore; </l>
@@ -860,7 +935,7 @@
           <l>Your kind acceptance of some Christian Slaves. </l>
           <stage xml:id="ep000718-e8410">[Exit Dorea. </stage>
         </sp>
-        <sp xml:id="ep000718-e8430">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e8430">
           <speaker>Ibrah. </speaker>
           <l>From Rustan! Go admit him. </l>
           <l>I've been by long and fawning Courtship prest, </l>
@@ -885,18 +960,18 @@
           <l>How have you past the Mountains, Rocks, and Sea, </l>
           <l>Which so long parted my fair World and me? </l>
         </sp>
-        <sp xml:id="ep000718-e8720">
+        <sp who="ep000718-isabel" xml:id="ep000718-e8720">
           <speaker>Isabel. </speaker>
           <l>My Fate is in such mysteries involv'd, </l>
           <l>The riddle is not easily resolv'd: </l>
           <l>Stolne from my Court, forc'd almost from the Tomb </l>
           <l>Of my dead Father— </l>
         </sp>
-        <sp xml:id="ep000718-e8780">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e8780">
           <speaker>Ibrah. </speaker>
           <l>Her Father dead! </l>
         </sp>
-        <sp xml:id="ep000718-e8810">
+        <sp who="ep000718-isabel" xml:id="ep000718-e8810">
           <speaker>Isabel. </speaker>
           <l>And after that become </l>
           <l>A prey to one unknown, rob'd of my peace, </l>
@@ -907,25 +982,25 @@
           <l>But now I think my Sanctuary near, </l>
           <l>My Ibrahims presence does dispel my fear. </l>
         </sp>
-        <sp xml:id="ep000718-e8920">
+        <sp who="ep000718-bassa" xml:id="ep000718-e8920">
           <speaker>Bassa. </speaker>
           <l>Those actions her mistaken Innocence, </l>
           <l>Has render'd such a Capital offence; </l>
           <l>Kind Rustan, Sir, did boldly for your sake, </l>
           <l>And for your preservation undertake. </l>
         </sp>
-        <sp xml:id="ep000718-e8990">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e8990">
           <speaker>Ibrah. </speaker>
           <l>For mine! </l>
         </sp>
-        <sp xml:id="ep000718-e9020">
+        <sp who="ep000718-isabel" xml:id="ep000718-e9020">
           <speaker>Isabel. </speaker>
           <l>For his! Oh let me hear no more. </l>
           <l>If all this rudeness was on Ibrahim's score; </l>
           <l>And by your order I th' Abuse receive, </l>
           <l>I've heard much more than I can e're forgive. </l>
         </sp>
-        <sp xml:id="ep000718-e9090">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e9090">
           <pb n="14" xml:id="ep000718-012-a"/>
           <speaker>Ibrah. </speaker>
           <l>Can you believe me guilty but in thought </l>
@@ -933,7 +1008,7 @@
           <l>Tho she's a Treasure I esteem Divine, </l>
           <l>By Sacriledge I would not make her mine. </l>
         </sp>
-        <sp xml:id="ep000718-e9160">
+        <sp who="ep000718-bassa" xml:id="ep000718-e9160">
           <speaker>Bassa. </speaker>
           <l>The Vizier may all these excuses spare, </l>
           <l>For in this Rape, he, Madam, had no share. </l>
@@ -952,21 +1027,21 @@
           <l>And hopes that act may not a Crime appear, </l>
           <l>Which saves your Life, and cures a Kingdoms fear. </l>
         </sp>
-        <sp xml:id="ep000718-e9380">
+        <sp who="ep000718-isabel" xml:id="ep000718-e9380">
           <speaker>Isabel. </speaker>
           <l>But since my Fate has brought me to this place, </l>
           <l>Where I once more behold my Ibrahims Face; </l>
           <l>And safe in Duty, and in Honour live, </l>
           <l>Tell him a Crime so kind I can forgive. </l>
         </sp>
-        <sp xml:id="ep000718-e9450">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e9450">
           <speaker>Ibrah. </speaker>
           <l>But say you saw your Ibrahim in Chains, </l>
           <l>Bound, during Life, to bear the worst of pains; </l>
           <l>Rifl'd of all his Honours, Pomp, and Pow'rs, </l>
           <l>Could you in some dark Dungeon call him Yours? </l>
         </sp>
-        <sp xml:id="ep000718-e9520">
+        <sp who="ep000718-isabel" xml:id="ep000718-e9520">
           <speaker>Isabel. </speaker>
           <l>Why Sir this cruel question? Can distress </l>
           <l>And change of Fortune make my Passion less? </l>
@@ -974,7 +1049,7 @@
           <l>But who dares load with Chains the Sultans Friend, </l>
           <l>Can humain pow'r oppress what hee'l defend? </l>
         </sp>
-        <sp xml:id="ep000718-e9590">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e9590">
           <speaker>Ibrah. </speaker>
           <l>Alas that friendship which once shin'd on me, </l>
           <l>Is set for ever: Call't not Vanity; </l>
@@ -985,20 +1060,20 @@
           <l>Which Grace refus'd, too plainly I fore-see, </l>
           <l>The dire effects of slighted Majesty. </l>
         </sp>
-        <sp xml:id="ep000718-e9710">
+        <sp who="ep000718-isabel" xml:id="ep000718-e9710">
           <pb n="15" xml:id="ep000718-012-b"/>
           <speaker>Isabel. </speaker>
           <l>And will my Ibrahim bear all this for me? </l>
           <l>Will he for me provoke the Sultans frowns, </l>
           <l>And for my sake neglect Life, Pow'r, and Crowns? </l>
         </sp>
-        <sp xml:id="ep000718-e9770">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e9770">
           <speaker>Ibrah. </speaker>
           <l>I could for you the worst of Fates sustain. </l>
           <l>Death were my Pride, and if't had any pain, </l>
           <l>'Twould be to part so long to meet so late again. </l>
         </sp>
-        <sp xml:id="ep000718-e9820">
+        <sp who="ep000718-isabel" xml:id="ep000718-e9820">
           <speaker>Isabel. </speaker>
           <l>Kings are unlike their sacred pattern, Heav'n; </l>
           <l>If their offenders cannot be forgiven. </l>
@@ -1014,7 +1089,7 @@
           <l>With greater pomp and state wee'l meet the wound, </l>
           <l>Then Victims that were led to Altars crown'd. </l>
         </sp>
-        <sp xml:id="ep000718-e9970">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e9970">
           <speaker>Ibrah. </speaker>
           <l>But see the mighty Solyman draws nigh. </l>
           <stage xml:id="ep000718-e10010">Enter Solyman, Ulama, Morat. and Guards. </stage>
@@ -1023,19 +1098,19 @@
           <l>That he who steals from Heav'n to make a gift </l>
           <l>Of homage there, may justifie the theft. </l>
         </sp>
-        <sp xml:id="ep000718-e10080">
+        <sp who="ep000718-solym" xml:id="ep000718-e10080">
           <speaker>Solym. </speaker>
           <l>Do you not tremble when you see me here? </l>
         </sp>
-        <sp xml:id="ep000718-e10110">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e10110">
           <speaker>Ibrah. </speaker>
           <l>No Sultan, I have reverence, but no fear. </l>
         </sp>
-        <sp xml:id="ep000718-e10150">
+        <sp who="ep000718-solym" xml:id="ep000718-e10150">
           <speaker>Solym. </speaker>
           <l>And does not shame your guilty Conscience touch? </l>
         </sp>
-        <sp xml:id="ep000718-e10180">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e10180">
           <speaker>Ibrah. </speaker>
           <l>Though Solyman in Thunder should approach, </l>
           <l>Still the same charming Majesty he wears; </l>
@@ -1043,25 +1118,25 @@
           <l>To those that meet his Frowns, and tread on Graves; </l>
           <l>How God-like is He when he Smiles and Saves? </l>
         </sp>
-        <sp xml:id="ep000718-e10260">
+        <sp who="ep000718-solym" xml:id="ep000718-e10260">
           <speaker>Solym. </speaker>
           <l>Ibrahim! What Guardian Angel have you here? </l>
           <l>My Furies vanish when such charms appear: </l>
           <l>What Lady's that? </l>
         </sp>
-        <sp xml:id="ep000718-e10320">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e10320">
           <speaker>Ibrah. </speaker>
           <l>One, for whose sake I can </l>
           <l>Meet Death, and stand the Frowns of Solyman. </l>
         </sp>
-        <sp xml:id="ep000718-e10370">
+        <sp who="ep000718-solym" xml:id="ep000718-e10370">
           <pb n="16" xml:id="ep000718-013-a"/>
           <speaker>Solym. </speaker>
           <l>Thy Love is bold! </l>
           <l>But in her cause I can't admire thy Pride. </l>
           <l>What unknown Nation did that Beauty hide? </l>
         </sp>
-        <sp xml:id="ep000718-e10420">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e10420">
           <speaker>Ibrah. </speaker>
           <l>Sir, to my torment she ' has been hid too long; </l>
           <l>Too fierce her Jaylor, and her Jayl too strong. </l>
@@ -1070,7 +1145,7 @@
           <l>Heav'n this fair Mourner sent t'attend my Grave, </l>
           <l>To see your bleeding Victim in her Slave. </l>
         </sp>
-        <sp xml:id="ep000718-e10500">
+        <sp who="ep000718-solym" xml:id="ep000718-e10500">
           <speaker>Solym. </speaker>
           <l>No Ibrahim; you could not dye before: </l>
           <l>For Solyman, your Lifes protection swore. </l>
@@ -1088,18 +1163,18 @@
           <l>I should unjustly, in a Subject chide </l>
           <l>That Constancy, which is a Monarchs Pride. </l>
         </sp>
-        <sp xml:id="ep000718-e10710">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e10710">
           <speaker>Ibrah. </speaker>
           <l>By your surprizing goodness overcome, </l>
           <l>Thus let his Duty speak, whom wonder has struck dumb. </l>
         </sp>
         <stage xml:id="ep000718-e10750">[Kneels, </stage>
-        <sp xml:id="ep000718-e10760">
+        <sp who="ep000718-solym" xml:id="ep000718-e10760">
           <speaker>Solym. </speaker>
           <l>Rise Ibrahim; is Justice in a King </l>
           <l>So strange, and so astonishing a thing? </l>
         </sp>
-        <sp xml:id="ep000718-e10810">
+        <sp who="ep000718-isabel" xml:id="ep000718-e10810">
           <speaker>Isabel. </speaker>
           <l>Is this the Dungeon? These the Chains? false fear, </l>
           <l>That could suspect such Cruelty raign'd there! </l>
@@ -1107,19 +1182,19 @@
           <stage xml:id="ep000718-e10860">[to Ibrah. </stage>
           <l>Who find such vertue out of Christendom. </l>
         </sp>
-        <sp xml:id="ep000718-e10890">
+        <sp who="ep000718-solym" xml:id="ep000718-e10890">
           <speaker>Solym. </speaker>
           <l>Justice and Nature here shall end their strife: </l>
           <l>Rich in those Charms enjoy a happy Life. </l>
         </sp>
-        <sp xml:id="ep000718-e10930">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e10930">
           <speaker>Ibrah. </speaker>
           <l>So vast a gift by so much mercy given! </l>
           <l>If Monarchs in their actions coppy Heav'n, </l>
           <l>Your glory in that List must be the chief: </l>
           <l>Never was coppy yet so near the Life. </l>
         </sp>
-        <sp xml:id="ep000718-e10990">
+        <sp who="ep000718-solym" xml:id="ep000718-e10990">
           <speaker>Solym. </speaker>
           <l>Tho Fate for this commanding Beauty's sake, </l>
           <l>Will not permit you should my blood partake, </l>
@@ -1127,11 +1202,11 @@
           <l>I will not be by Destiny out-done: </l>
           <l>I in a Friend will still possess a Son. </l>
         </sp>
-        <sp xml:id="ep000718-e11050">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e11050">
           <speaker>Ibrah. </speaker>
           <l>What means my King? </l>
         </sp>
-        <sp xml:id="ep000718-e11080">
+        <sp who="ep000718-solym" xml:id="ep000718-e11080">
           <speaker>Solym. </speaker>
           <l>All kindness to that Name. </l>
           <l>What ever envy'd Monarch does lay claim </l>
@@ -1142,7 +1217,7 @@
           <l>That ever did or can attend my Race, </l>
           <l>You shall in Her a Sultaness embrace. </l>
         </sp>
-        <sp xml:id="ep000718-e11180">
+        <sp who="ep000718-isabel" xml:id="ep000718-e11180">
           <speaker>Isabel. </speaker>
           <l>Forgive me, sleeping Father, when I must </l>
           <l>Thy Honours steal, and rob thy Sacred Dust, </l>
@@ -1154,7 +1229,7 @@
           <l>And fall before a Royal Fathers feet. </l>
         </sp>
         <stage xml:id="ep000718-e11290">[Kneels. </stage>
-        <sp xml:id="ep000718-e11300">
+        <sp who="ep000718-solym" xml:id="ep000718-e11300">
           <speaker>Solym. </speaker>
           <l>Rise, and accept </l>
           <l>Not on my Bounty, but your merits score </l>
@@ -1167,14 +1242,14 @@
           <l>And yet the Lawless wandring lights gaze on. </l>
         </sp>
         <stage xml:id="ep000718-e11410">Aside. </stage>
-        <sp xml:id="ep000718-e11420">
+        <sp who="ep000718-isabel" xml:id="ep000718-e11420">
           <speaker>Isabel. </speaker>
           <l>Those numerous Trophies you've in Battle wone, </l>
           <l>Gain you less Fame than this one act has done. </l>
           <l>Your Valour there but Nations overthrew; </l>
           <l>Here Solyman does Solyman subdue. </l>
         </sp>
-        <sp xml:id="ep000718-e11500">
+        <sp who="ep000718-solym" xml:id="ep000718-e11500">
           <speaker>Solym. </speaker>
           <l>At first I thought I gaz'd without a sin: </l>
           <l>Friendship and Honour kept the Traytor in. </l>
@@ -1182,7 +1257,7 @@
           <l>To praise my Conquests, she a greater makes. </l>
         </sp>
         <stage xml:id="ep000718-e11560">Aside. </stage>
-        <sp xml:id="ep000718-e11570">
+        <sp who="ep000718-isabel" xml:id="ep000718-e11570">
           <speaker>Isabel. </speaker>
           <l>How faintly Fame does Solyman present </l>
           <l>In those weak name, Great and Magnificent. </l>
@@ -1192,7 +1267,7 @@
           <l>If who but hear your goodness give no less, </l>
           <l>What must she pay whom it vouchsafes to bless? </l>
         </sp>
-        <sp xml:id="ep000718-e11680">
+        <sp who="ep000718-solym" xml:id="ep000718-e11680">
           <speaker>Solym. </speaker>
           <l>What must you pay? </l>
           <l>O that strange word! might I prescribe the way, </l>
@@ -1204,11 +1279,11 @@
           <stage xml:id="ep000718-e11770">Aside. </stage>
           <l>Fair Creature— </l>
         </sp>
-        <sp xml:id="ep000718-e11790">
+        <sp who="ep000718-isabel" xml:id="ep000718-e11790">
           <speaker>Isabel. </speaker>
           <l>Generous Sir— </l>
         </sp>
-        <sp xml:id="ep000718-e11820">
+        <sp who="ep000718-solym" xml:id="ep000718-e11820">
           <speaker>Solym. </speaker>
           <l>No more! </l>
           <l>Think I've oblig'd you less, or if I had done </l>
@@ -1219,28 +1294,28 @@
           <l>'Tis torturing of me to enlarge the wound. </l>
         </sp>
         <stage xml:id="ep000718-e11910">Aside. </stage>
-        <sp xml:id="ep000718-e11920">
+        <sp who="ep000718-isabel" xml:id="ep000718-e11920">
           <speaker>Isabel. </speaker>
           <l>Then what I must not, my whole Sex shall pay. </l>
           <l>For the strange wonders of our Nuptial day; </l>
           <l>Lovers shall in their Temples sing your praise, </l>
           <l>And add their Mirtle Chaplets to your Bayes. </l>
         </sp>
-        <sp xml:id="ep000718-e11980">
+        <sp who="ep000718-solym" xml:id="ep000718-e11980">
           <speaker>Solym. </speaker>
           <l>Fair excellence, no more: Here Ibrahim, haste, </l>
           <stage xml:id="ep000718-e12020">[Gives her to Ibrahim. </stage>
           <l>Begone, and hold that Beautious Treasure fast. </l>
           <l>Be gone, whilst I have power to bid you goe. </l>
         </sp>
-        <sp xml:id="ep000718-e12060">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e12060">
           <speaker>Ibrah. </speaker>
           <l>We have receiv'd his Royal Grace too slow. </l>
           <l>His Daughters struggling wrongs resume their pow'rs: </l>
           <stage xml:id="ep000718-e12100">[To Isabel. </stage>
           <l>Let us retire whilst the blest minute's ours. </l>
         </sp>
-        <sp xml:id="ep000718-e12130">
+        <sp who="ep000718-solym" xml:id="ep000718-e12130">
           <speaker>Solym. </speaker>
           <l>Quick, flye with your rich prize, lest you delay, </l>
           <l>Till that storm rise, will drown you if you stay. </l>
@@ -1262,12 +1337,12 @@
           <l>Where once so bright an Orbe of glory was; </l>
           <l>Torments and Hell fill up the empty space. </l>
         </sp>
-        <sp xml:id="ep000718-e12390">
+        <sp who="ep000718-ulam" xml:id="ep000718-e12390">
           <speaker>Ulam. </speaker>
           <l>Those thoughts, whence this disorder'd language grew, </l>
           <l>Have some great cause: </l>
         </sp>
-        <sp xml:id="ep000718-e12430">
+        <sp who="ep000718-solym" xml:id="ep000718-e12430">
           <speaker>Solym. </speaker>
           <l>Yes, and a strange one too. </l>
           <l>I'm practising the Gyants War agen: </l>
@@ -1275,7 +1350,7 @@
           <l>In one mean act, my Honour I Dethrone: </l>
           <l>From Ibrahim's Friend, I am his Rival grown. </l>
         </sp>
-        <sp xml:id="ep000718-e12510">
+        <sp who="ep000718-ulam" xml:id="ep000718-e12510">
           <speaker>Ulam. </speaker>
           <l>For his, for hers, for your own glories sake, </l>
           <l>Some care of your declining Friendship take. </l>
@@ -1286,7 +1361,7 @@
           <l>That he who once made trembling Nations shake, </l>
           <l>Will at his own surprizing Image quake. </l>
         </sp>
-        <sp xml:id="ep000718-e12610">
+        <sp who="ep000718-solym" xml:id="ep000718-e12610">
           <speaker>Solym. </speaker>
           <l>These reasons my Conversion might have wrought, </l>
           <l>Were I not too much harden'd in my fault. </l>
@@ -1300,7 +1375,7 @@
           <l>Hide all those stains that make it an offence, </l>
           <l>And cheat me with a glimpse of Innocence. </l>
         </sp>
-        <sp xml:id="ep000718-e12750">
+        <sp who="ep000718-morat" xml:id="ep000718-e12750">
           <speaker>Morat. </speaker>
           <l>What need of Cheats? Is there a happiness </l>
           <l>That the Worlds Lord should wish, and not possess? </l>
@@ -1318,14 +1393,14 @@
           <l>To let their Monarch languish; why to Heav'n, </l>
           <l>Thus to refuse what th'High decrees have giv'n? </l>
         </sp>
-        <sp xml:id="ep000718-e12910">
+        <sp who="ep000718-solym" xml:id="ep000718-e12910">
           <speaker>Solym. </speaker>
           <l>No, Kind Morat; our Prophet does ordain, </l>
           <l>Monarchs with Honour should their Joys obtain: </l>
           <l>And when that Rock stops our forbidden way, </l>
           <l>Pow'r must not climb where Vertue bids us stay. </l>
         </sp>
-        <sp xml:id="ep000718-e12980">
+        <sp who="ep000718-mor" xml:id="ep000718-e12980">
           <speaker>Mor. </speaker>
           <l>Honour and Friendship safe, with all her charms, </l>
           <l>That Beauty shall be lodg'd within your armes. </l>
@@ -1337,23 +1412,23 @@
           <l>To guard his King from such a threat'ning storm? </l>
           <l>By Heav'n he will present her on his knees. </l>
         </sp>
-        <sp xml:id="ep000718-e13090">
+        <sp who="ep000718-solym" xml:id="ep000718-e13090">
           <speaker>Solym. </speaker>
           <l>Love ne're makes guifts so Prodigal as these. </l>
         </sp>
-        <sp xml:id="ep000718-e13120">
+        <sp who="ep000718-mor" xml:id="ep000718-e13120">
           <speaker>Mor. </speaker>
           <l>Be not deceiv'd, your pow'rful influence try. </l>
         </sp>
-        <sp xml:id="ep000718-e13150">
+        <sp who="ep000718-solym" xml:id="ep000718-e13150">
           <speaker>Solym. </speaker>
           <l>How, not deceiv'd! Yes, you deceive me. </l>
         </sp>
-        <sp xml:id="ep000718-e13180">
+        <sp who="ep000718-mor" xml:id="ep000718-e13180">
           <speaker>Mor. </speaker>
           <l>I! </l>
         </sp>
-        <sp xml:id="ep000718-e13210">
+        <sp who="ep000718-solym" xml:id="ep000718-e13210">
           <speaker>Solym. </speaker>
           <l>Yes! and I thank you for the Courtefie. </l>
           <l>Though all that you have said in my defence, </l>
@@ -1363,7 +1438,7 @@
           <l>Love, when thy pow'rs distracted fancies seize, </l>
           <l>Hope in all formes, tho ne're so false can please. </l>
         </sp>
-        <sp xml:id="ep000718-e13300">
+        <sp who="ep000718-ulam" xml:id="ep000718-e13300">
           <speaker>Ulam. </speaker>
           <l>Recall your wandering thoughts from such false dreams, </l>
           <l>And free your self from all these wil'd extreams: </l>
@@ -1372,7 +1447,7 @@
           <l>Think of that dazling form, so far above </l>
           <l>Natures less lights, your Roxolana's Love. </l>
         </sp>
-        <sp xml:id="ep000718-e13390">
+        <sp who="ep000718-solym" xml:id="ep000718-e13390">
           <speaker>Solym. </speaker>
           <l>There! Oh 'tis there I'm lost! that only Name, </l>
           <l>Brands my inconstancy with guilt and shame. </l>
@@ -1387,7 +1462,7 @@
           <l>To a new Saint I a new Temple raise. </l>
         </sp>
         <stage xml:id="ep000718-e13510">Ex. Sol. &amp; Mor. </stage>
-        <sp xml:id="ep000718-e13530">
+        <sp who="ep000718-ulam" xml:id="ep000718-e13530">
           <speaker>Ulam. </speaker>
           <l>This secret must to Roxolana; she </l>
           <l>Must hear her faithless Lords Apostacy. </l>
@@ -1416,20 +1491,20 @@
           <l>I'le watch the favour of a private hour. </l>
           <stage xml:id="ep000718-e13850">[Exit. </stage>
         </sp>
-        <sp xml:id="ep000718-e13860">
+        <sp who="ep000718-rox" xml:id="ep000718-e13860">
           <speaker>Rox. </speaker>
           <l>There was a time when my commands had pow'r. </l>
         </sp>
-        <sp xml:id="ep000718-e13890">
+        <sp who="ep000718-aster" xml:id="ep000718-e13890">
           <speaker>Aster. </speaker>
           <l>Have they not still? </l>
         </sp>
-        <sp xml:id="ep000718-e13920">
+        <sp who="ep000718-roxol" xml:id="ep000718-e13920">
           <speaker>Roxol. </speaker>
           <l>Then Love that Traytor less; </l>
           <l>And your obedience in your scorn express. </l>
         </sp>
-        <sp xml:id="ep000718-e13960">
+        <sp who="ep000718-aster" xml:id="ep000718-e13960">
           <speaker>Aster. </speaker>
           <l>Love, once by your consent my Breast did rule; </l>
           <l>And can your Councels change, and not my Soul? </l>
@@ -1441,29 +1516,29 @@
           <l>Thoughts more refin'd, and words of gentler sence, </l>
           <l>Should be the Precepts of such Excellence. </l>
         </sp>
-        <sp xml:id="ep000718-e14060">
+        <sp who="ep000718-roxol" xml:id="ep000718-e14060">
           <speaker>Roxol. </speaker>
           <l>Poor Innocence, abuse your self no more; </l>
           <l>Think of Revenge, and those fond tears give o're. </l>
         </sp>
-        <sp xml:id="ep000718-e14100">
+        <sp who="ep000718-aster" xml:id="ep000718-e14100">
           <speaker>Aster. </speaker>
           <l>Has Ibrahim deserv'd so ill of me? </l>
         </sp>
-        <sp xml:id="ep000718-e14140">
+        <sp who="ep000718-roxol" xml:id="ep000718-e14140">
           <speaker>Roxol. </speaker>
           <l>Can such apparent Crimes disputed be? </l>
           <l>Such injuries, though by th'Offenders Fate, </l>
           <l>You may Revenge, you ne're can expiate. </l>
         </sp>
-        <sp xml:id="ep000718-e14190">
+        <sp who="ep000718-aster" xml:id="ep000718-e14190">
           <speaker>Aster. </speaker>
           <l>Talk not of punishing so brave a Man. </l>
           <l>Though hopeless I, his Love must never gain; </l>
           <l>Call it his Fate, not Cruelty, when I </l>
           <l>Must for some more deserving Beauty dye. </l>
         </sp>
-        <sp xml:id="ep000718-e14250">
+        <sp who="ep000718-roxol" xml:id="ep000718-e14250">
           <speaker>Roxol. </speaker>
           <l>Your anger and disdain should swell the more, </l>
           <l>For being injur'd on a Rivals score. </l>
@@ -1472,7 +1547,7 @@
           <l>Of Solyman; a man so base and rude, </l>
           <l>You ought to scorn for his ingratitude. </l>
         </sp>
-        <sp xml:id="ep000718-e14340">
+        <sp who="ep000718-aster" xml:id="ep000718-e14340">
           <speaker>Aster. </speaker>
           <l>Ah Royal Madam, do not lay a Crime </l>
           <l>Upon the just and guiltless Ibrahim. </l>
@@ -1483,14 +1558,14 @@
           <l>As against Heav'n and Nature to repine, </l>
           <l>Because they have made Eyes more bright than mine? </l>
         </sp>
-        <sp xml:id="ep000718-e14450">
+        <sp who="ep000718-roxol" xml:id="ep000718-e14450">
           <speaker>Roxol. </speaker>
           <l>If Love, the payment of his heart withstood, </l>
           <l>His Honour should have paid you with his blood. </l>
           <l>But since he guilty lives, abhor his Name; </l>
           <l>If justice can't convert you, then let shame. </l>
         </sp>
-        <sp xml:id="ep000718-e14510">
+        <sp who="ep000718-aster" xml:id="ep000718-e14510">
           <speaker>Aster. </speaker>
           <l>No more; already you too much have said, </l>
           <l>When your commands can never be obey'd: </l>
@@ -1501,7 +1576,7 @@
           <l>Yet me thinks Death I would not wish too near; </l>
           <l>I would not go to Heav'n 〈◊〉 comes there. </l>
         </sp>
-        <sp xml:id="ep000718-e14630">
+        <sp who="ep000718-roxol" xml:id="ep000718-e14630">
           <pb n="23" xml:id="ep000718-016-b"/>
           <speaker>Roxol. </speaker>
           <l>Leave me Asteria; how can I endure </l>
@@ -1509,7 +1584,7 @@
         </sp>
         <stage xml:id="ep000718-e14680">[Ex. Asteria. </stage>
         <stage xml:id="ep000718-e14700">Enter Ulama. </stage>
-        <sp xml:id="ep000718-e14720">
+        <sp who="ep000718-ulam" xml:id="ep000718-e14720">
           <speaker>Ulam. </speaker>
           <l>Pride of the World, in Beauty, Power, and Love, </l>
           <l>Great here below, and no less great above: </l>
@@ -1522,12 +1597,12 @@
           <l>Whilst th' Emperors wishes in a prize so rare, </l>
           <l>Met all the Worlds delight, and center'd there. </l>
         </sp>
-        <sp xml:id="ep000718-e14850">
+        <sp who="ep000718-roxol" xml:id="ep000718-e14850">
           <speaker>Roxol. </speaker>
           <l>How Ulama! Is Roxolana's power </l>
           <l>Disputed, that it wants an Orator? </l>
         </sp>
-        <sp xml:id="ep000718-e14910">
+        <sp who="ep000718-ulam" xml:id="ep000718-e14910">
           <speaker>Ulam. </speaker>
           <l>No, Madam, there, where Empire's absolute, </l>
           <l>Your pow'r all should obey, and none dispute. </l>
@@ -1543,11 +1618,11 @@
           <l>The Turkish Crescents were Triumphant there; </l>
           <l>But their great Leader is a Captive here. </l>
         </sp>
-        <sp xml:id="ep000718-e15070">
+        <sp who="ep000718-roxol" xml:id="ep000718-e15070">
           <speaker>Roxol. </speaker>
           <l>Go on— </l>
         </sp>
-        <sp xml:id="ep000718-e15100">
+        <sp who="ep000718-ulam" xml:id="ep000718-e15100">
           <speaker>Ulam. </speaker>
           <l>And that which does his pains increase, </l>
           <l>Is, that this fair Invader of his peace </l>
@@ -1565,7 +1640,7 @@
           <l>Such thoughts that He, that's blest by your fair eyes, </l>
           <l>And Lord of such a Treasure, should despise. </l>
         </sp>
-        <sp xml:id="ep000718-e15290">
+        <sp who="ep000718-rox" xml:id="ep000718-e15290">
           <speaker>Rox. </speaker>
           <l>And are your Conquer'd fortunes sunk so far, </l>
           <l>That to revenge the injuries of War, </l>
@@ -1585,19 +1660,19 @@
           <l>Seize that Traytor. </l>
         </sp>
         <stage xml:id="ep000718-e15470">[Guards, seize Ulama. </stage>
-        <sp xml:id="ep000718-e15490">
+        <sp who="ep000718-ulam" xml:id="ep000718-e15490">
           <speaker>Ulam. </speaker>
           <l>A command </l>
           <l>From you, I should not ev'n in Death withstand: </l>
           <l>But for some minutes grant him a Reprieve, </l>
           <l>Who only for your service beggs to live. </l>
         </sp>
-        <sp xml:id="ep000718-e15550">
+        <sp who="ep000718-rox" xml:id="ep000718-e15550">
           <speaker>Rox. </speaker>
           <l>Serv'd by such Treachery! Yes thy Canker'd heart </l>
           <l>Deserves that glory, Traytor as thou art. </l>
         </sp>
-        <sp xml:id="ep000718-e15590">
+        <sp who="ep000718-ulam" xml:id="ep000718-e15590">
           <speaker>Ulam. </speaker>
           <l>He who dares falsly stain your Sultans Fame, </l>
           <l>And impiously profane that Mighty Name; </l>
@@ -1614,24 +1689,24 @@
           <l>He who from your displeasure meets his Doom, </l>
           <l>Needs no more weight to crush him to his Tomb. </l>
         </sp>
-        <sp xml:id="ep000718-e15770">
+        <sp who="ep000718-rox" xml:id="ep000718-e15770">
           <speaker>Rox. </speaker>
           <l>Call Solyman perjur'd, and have a pretence, </l>
           <l>After that word to talk of Innocence: </l>
         </sp>
-        <sp xml:id="ep000718-e15820">
+        <sp who="ep000718-ulam" xml:id="ep000718-e15820">
           <pb n="25" xml:id="ep000718-017-b"/>
           <speaker>Ulam. </speaker>
           <l>But Madam— </l>
         </sp>
-        <sp xml:id="ep000718-e15850">
+        <sp who="ep000718-roxol" xml:id="ep000718-e15850">
           <speaker>Roxol. </speaker>
           <l>Falsehood in Solyman! were't writ i'th'Stars, </l>
           <l>I'd not believe it: Through those Characters </l>
           <l>Of Night, I should Heaven's spite and malice see, </l>
           <l>And call their twinkling lights as false as thee. </l>
         </sp>
-        <sp xml:id="ep000718-e15920">
+        <sp who="ep000718-ulam" xml:id="ep000718-e15920">
           <speaker>Ulam. </speaker>
           <l>Would all I've said were false, and I that black </l>
           <l>And monstrous thing your anger does mistake: </l>
@@ -1641,7 +1716,7 @@
           <l>I wish by Death I could her troubles cease, </l>
           <l>And be that Traytor to secure her peace. </l>
         </sp>
-        <sp xml:id="ep000718-e16020">
+        <sp who="ep000718-roxol" xml:id="ep000718-e16020">
           <speaker>Roxol. </speaker>
           <l>Your forfeit Head— but live— for should you dye </l>
           <l>By Death you would but end your Insamy. </l>
@@ -1649,14 +1724,14 @@
           <l>Live branded with my hate, and your own guilt. </l>
         </sp>
         <stage xml:id="ep000718-e16080">Enter Asteria. </stage>
-        <sp xml:id="ep000718-e16100">
+        <sp who="ep000718-aster" xml:id="ep000718-e16100">
           <speaker>Aster. </speaker>
           <l>Madam, my happy Rival is arriv'd, </l>
           <l>And with such pomp by Solyman receiv'd; </l>
           <l>With so much joy, as if the smiles he gave, </l>
           <l>Shou'd build a Monument o're a Daughters Grave. </l>
         </sp>
-        <sp xml:id="ep000718-e16170">
+        <sp who="ep000718-roxol" xml:id="ep000718-e16170">
           <speaker>Roxol. </speaker>
           <l>What do I hear? half he has said is true. </l>
           <l>Release him. </l>
@@ -1670,7 +1745,7 @@
           <l>What will the truth be then; if but the fear be death? </l>
         </sp>
         <stage xml:id="ep000718-e16300">[Ex. all but Ulama. </stage>
-        <sp xml:id="ep000718-e16320">
+        <sp who="ep000718-ulam" xml:id="ep000718-e16320">
           <speaker>Ulam. </speaker>
           <l>Are scorn and hate my Services reward? </l>
           <l>Death with my Love compar'd's a task less hard. </l>
@@ -1689,7 +1764,7 @@
         <head>ACT the THIRD. </head>
         <head>The SCENE, a Room of State. </head>
         <stage xml:id="ep000718-e16480">Enter Ibrahim and Isabella with Women-Attendants. </stage>
-        <sp xml:id="ep000718-e16510">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e16510">
           <speaker>Ibrah. </speaker>
           <l>HIs generous Friendship that unites us now, </l>
           <l>Was that which did so long divide us too. </l>
@@ -1706,7 +1781,7 @@
           <l>By my success, to Solyman I grew </l>
           <l>Still more endear'd, and more remov'd from you. </l>
         </sp>
-        <sp xml:id="ep000718-e16680">
+        <sp who="ep000718-isab" xml:id="ep000718-e16680">
           <speaker>Isab. </speaker>
           <l>So much this Justice merits my Applause, </l>
           <l>That had you quitted such a Monarchs Cause </l>
@@ -1714,7 +1789,7 @@
           <l>Had made me share the wrongs of Solyman. </l>
         </sp>
         <stage xml:id="ep000718-e16750">Enter Solyman and Morat. </stage>
-        <sp xml:id="ep000718-e16780">
+        <sp who="ep000718-solym" xml:id="ep000718-e16780">
           <speaker>Solym. </speaker>
           <l>Natolia up in Armes! I wish no more. </l>
           <stage xml:id="ep000718-e16820">[to Morat. </stage>
@@ -1740,7 +1815,7 @@
           <l>And though a while he does his Joys delay, </l>
           <l>Hee'l come more glorious to his Nuptial day. </l>
         </sp>
-        <sp xml:id="ep000718-e17090">
+        <sp who="ep000718-isabel" xml:id="ep000718-e17090">
           <speaker>Isabel. </speaker>
           <l>When Solyman's Honour, or his Dangers call, </l>
           <l>My Right's so little, and my power so small: </l>
@@ -1754,25 +1829,25 @@
           <l>Him rather dye for you, than live for me. </l>
         </sp>
         <stage xml:id="ep000718-e17230">to Solym. </stage>
-        <sp xml:id="ep000718-e17250">
+        <sp who="ep000718-solym" xml:id="ep000718-e17250">
           <speaker>Solym. </speaker>
           <l>Illustrious Maid, fear not his safe return. </l>
           <l>Heav'n for your merit must have such concern, </l>
           <l>That if his own yet matchless courage cou'd </l>
           <l>Not bring him safely back, your wishes wou'd </l>
         </sp>
-        <sp xml:id="ep000718-e17310">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e17310">
           <speaker>Ibrah. </speaker>
           <l>My Pride, and my Devotion shou'd embrace </l>
           <l>That glorious task, which your Imperial Grace, </l>
           <l>Upon your Creature, and your Slave confers, </l>
           <l>But thus t'assert your Fame wou'd ruine Hers: </l>
         </sp>
-        <sp xml:id="ep000718-e17370">
+        <sp who="ep000718-solym" xml:id="ep000718-e17370">
           <speaker>Solym. </speaker>
           <l>How Ibrahim. </l>
         </sp>
-        <sp xml:id="ep000718-e17410">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e17410">
           <speaker>Ibrah. </speaker>
           <l>Great Sir, the very sound </l>
           <l>Of a Seraglio will her Honour wound. </l>
@@ -1789,7 +1864,7 @@
           <l>Adding the thoughts of one days bliss below, </l>
           <l>To that Eternity to which I goe. </l>
         </sp>
-        <sp xml:id="ep000718-e17600">
+        <sp who="ep000718-solom" xml:id="ep000718-e17600">
           <speaker>Solom. </speaker>
           <l>I can forgive thy fear, though 'tis unjust. </l>
           <l>My well-known Virtue checks that vain distrust: </l>
@@ -1803,17 +1878,17 @@
           <l>That the o're-hasty Cause which calls you hence, </l>
           <l>Does too few hours for that great work dispence. </l>
         </sp>
-        <sp xml:id="ep000718-e17740">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e17740">
           <speaker>Ibrah. </speaker>
           <l>Our Nuptials with less State— </l>
         </sp>
-        <sp xml:id="ep000718-e17770">
+        <sp who="ep000718-solym" xml:id="ep000718-e17770">
           <speaker>Solym. </speaker>
           <l>It is unkind </l>
           <l>To think so ill of what's so well design'd: </l>
           <l>You slight my favours when you treat me so. </l>
         </sp>
-        <sp xml:id="ep000718-e17820">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e17820">
           <speaker>Ibrah. </speaker>
           <l>That word has silenc'd me. If I must go, </l>
           <l>And go, e're I the Sacred Tye can bind, </l>
@@ -1824,7 +1899,7 @@
           <l>To my great Lord her safety I resign: </l>
           <l>Whilst I subdue your World, do you guard mine. </l>
         </sp>
-        <sp xml:id="ep000718-e17940">
+        <sp who="ep000718-solym" xml:id="ep000718-e17940">
           <speaker>Solym. </speaker>
           <l>Guard her! that charge not her best Angels can. </l>
           <l>Perform, with half the Zeal of Solyman. </l>
@@ -1847,7 +1922,7 @@
         </sp>
         <stage xml:id="ep000718-e18170">Aside. </stage>
         <stage xml:id="ep000718-e18180">[Exit Solym. and Morat. </stage>
-        <sp xml:id="ep000718-e18210">
+        <sp who="ep000718-isabel" xml:id="ep000718-e18210">
           <speaker>Isabel. </speaker>
           <l>I bid you go; but guard your precious Life; </l>
           <l>For endless, if you dye, will be my grief. </l>
@@ -1857,14 +1932,14 @@
           <l>Nay worse; left in a World, not worth my care </l>
           <l>Or thought, when once my Ibrahim's not there. </l>
         </sp>
-        <sp xml:id="ep000718-e18300">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e18300">
           <speaker>Ibrah. </speaker>
           <l>Beauty and Love so fair a Seat ne're held. </l>
           <l>Were not the Constant Sultan's bosom seal'd; </l>
           <l>Were not his Heart, his Roxoland's prize, </l>
           <l>I should suspect the Magick of your Eyes. </l>
         </sp>
-        <sp xml:id="ep000718-e18380">
+        <sp who="ep000718-isabel" xml:id="ep000718-e18380">
           <speaker>Isabel. </speaker>
           <l>Could Solyman be false, and by my pow'r, </l>
           <l>Though absent, nay, though dead, yet rest secure: </l>
@@ -1875,7 +1950,7 @@
           <l>He'l find, when you are absent, in these Eyes, </l>
           <l>More to move pitty, than gain Victories. </l>
         </sp>
-        <sp xml:id="ep000718-e18500">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e18500">
           <speaker>Ibrah. </speaker>
           <l>Surprizing Vertue; so much Extasy </l>
           <l>In our next happy meeting I fore-see: </l>
@@ -1884,7 +1959,7 @@
           <l>But if the distant prospect is so clear, </l>
           <l>How dazling will the bliss be when 'tis near? </l>
         </sp>
-        <sp xml:id="ep000718-e18580">
+        <sp who="ep000718-isabel" xml:id="ep000718-e18580">
           <speaker>Isabel. </speaker>
           <l>When you are gone, as 'tis resolv'd you mast: </l>
           <l>My tears in solitude will be so just; </l>
@@ -1895,7 +1970,7 @@
           <l>From Courts, and from the tiresome world I'le flye, </l>
           <l>And your just mourner in a Cloyster dye. </l>
         </sp>
-        <sp xml:id="ep000718-e18680">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e18680">
           <speaker>Ibrah. </speaker>
           <l>Oh matchless Faith! They who would search about </l>
           <l>The World, to find thy Vertues equal out: </l>
@@ -1904,12 +1979,12 @@
           <stage xml:id="ep000718-e18740">[Enter Asteria. </stage>
           <l>Asteria here! </l>
         </sp>
-        <sp xml:id="ep000718-e18780">
+        <sp who="ep000718-isabel" xml:id="ep000718-e18780">
           <speaker>Isabel. </speaker>
           <l>Do I my Rival see? </l>
           <l>Is this the Beauty you refus'd for me? </l>
         </sp>
-        <sp xml:id="ep000718-e18820">
+        <sp who="ep000718-aster" xml:id="ep000718-e18820">
           <speaker>Aster. </speaker>
           <l>Fair envy'd Maid! 'Tis not enough that you </l>
           <l>Should only Conquer, you must Tryumph too. </l>
@@ -1921,7 +1996,7 @@
           <l>Mrs. of more than all the World can boast; </l>
           <l>Mrs. of all Asteria's hopes have lost. </l>
         </sp>
-        <sp xml:id="ep000718-e18930">
+        <sp who="ep000718-isabel" xml:id="ep000718-e18930">
           <speaker>Isabel. </speaker>
           <l>Can so much Beauty mourn? If there's that Breast </l>
           <l>That can the force of those fair Eyes resist, </l>
@@ -1932,7 +2007,7 @@
           <l>But am I safe against such charms? I view </l>
           <l>Fresh dangers in the Wonders lodg'd in you. </l>
         </sp>
-        <sp xml:id="ep000718-e19030">
+        <sp who="ep000718-aster" xml:id="ep000718-e19030">
           <speaker>Aster. </speaker>
           <l>O do not fear that I'd invade your right: </l>
           <l>I would not make him wretched, if I might: </l>
@@ -1945,34 +2020,34 @@
           <l>But know I'd ne're cloud him to make me shine; </l>
           <l>I would not shake his peace, though to crown mine. </l>
         </sp>
-        <sp xml:id="ep000718-e19150">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e19150">
           <speaker>Ibrah. </speaker>
           <l>Mirrour of Vertue! stop those Tears, and treat </l>
           <l>Ingratitude at a much juster rate: </l>
           <l>Your hate and scorn shou'd my deserts repay, </l>
           <l>Cast not so ill those sacred Pearl away. </l>
         </sp>
-        <sp xml:id="ep000718-e19210">
+        <sp who="ep000718-aster" xml:id="ep000718-e19210">
           <speaker>Aster. </speaker>
           <l>Not mourn for Ibrahim! yes! and dye▪ but if </l>
           <l>Fate for a while protects my weary Life, </l>
           <l>'Tis only lent me to be kind to you:— </l>
         </sp>
-        <sp xml:id="ep000718-e19270">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e19270">
           <speaker>Ibrah. </speaker>
           <l>No longer this astonishing theam pursue. </l>
         </sp>
-        <sp xml:id="ep000718-e19300">
+        <sp who="ep000718-aster" xml:id="ep000718-e19300">
           <speaker>Aster. </speaker>
           <l>O Sir, there hangs a Comet o're your head, </l>
           <l>A threatning Star in gloomy horrors spread. </l>
         </sp>
-        <sp xml:id="ep000718-e19340">
+        <sp who="ep000718-isabel" xml:id="ep000718-e19340">
           <speaker>Isabel. </speaker>
           <l>Say, Madam, what's that Ruine that's so near; </l>
           <l>Dangers are his Familiars, but not fear. </l>
         </sp>
-        <sp xml:id="ep000718-e19380">
+        <sp who="ep000718-aster" xml:id="ep000718-e19380">
           <speaker>Aster. </speaker>
           <l>My Cruel Father— oh that Sacred Name! </l>
           <l>None but a Daughter to pronounce his shame! </l>
@@ -1982,11 +2057,11 @@
           <l>And in that black degenerate disguise, </l>
           <l>Has seen his Ibrahim's Saint with impious eyes. </l>
         </sp>
-        <sp xml:id="ep000718-e19470">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e19470">
           <speaker>Ibrah. </speaker>
           <l>Tortures and Hell! </l>
         </sp>
-        <sp xml:id="ep000718-e19500">
+        <sp who="ep000718-isabel" xml:id="ep000718-e19500">
           <speaker>Isabel. </speaker>
           <l>Oh would this sound of Death, </l>
           <l>Had found a passage from some Villains breath; </l>
@@ -1995,14 +2070,14 @@
           <l>Had been abus'd, and some brib'd Traitor spoke; </l>
           <l>But there's too great Credentials in that look. </l>
         </sp>
-        <sp xml:id="ep000718-e19580">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e19580">
           <speaker>Ibrah. </speaker>
           <l>Quick, quick, dear Madam, Kill apace; go on. </l>
           <l>Say, what black hour this Cruelty begun? </l>
           <l>How fatally the sudden Tempest rise, </l>
           <l>That would put out my light, and Ecclipse his. </l>
         </sp>
-        <sp xml:id="ep000718-e19640">
+        <sp who="ep000718-aster" xml:id="ep000718-e19640">
           <speaker>Aster. </speaker>
           <l>To Ulama he has reveal'd his shame, </l>
           <l>'Tis from his Mouth, the fatal secret came: </l>
@@ -2025,12 +2100,12 @@
           <l>Will make your Joys the loss of Crowns supply, </l>
           <l>If you but love him half so well as I. </l>
         </sp>
-        <sp xml:id="ep000718-e19880">
+        <sp who="ep000718-isabel" xml:id="ep000718-e19880">
           <speaker>Isabel. </speaker>
           <l>Great Solyman has found an early Heir; </l>
           <l>Vertue has left his breast t'inhabit here. </l>
         </sp>
-        <sp xml:id="ep000718-e19930">
+        <sp who="ep000718-aster" xml:id="ep000718-e19930">
           <speaker>Aster. </speaker>
           <l>But when I bid you flye, and from all harms, </l>
           <l>Remove you to be safe in Ibrahims Armes: </l>
@@ -2039,7 +2114,7 @@
           <l>Forc'd by my Piety and Love, I must </l>
           <l>A Rival bless to make a Father just: </l>
         </sp>
-        <sp xml:id="ep000718-e20020">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e20020">
           <pb n="32" xml:id="ep000718-021-a"/>
           <speaker>Ibrah. </speaker>
           <l>But Madam, when she's safe, safe in my pow'r, </l>
@@ -2047,19 +2122,19 @@
           <l>Then what requital can I make, who owe </l>
           <l>My Life, and all that makes Life dear to you. </l>
         </sp>
-        <sp xml:id="ep000718-e20080">
+        <sp who="ep000718-aster" xml:id="ep000718-e20080">
           <speaker>Aster. </speaker>
           <l>The payment I shall ask, will easie be; </l>
           <l>Only remember you were sav'd by me: </l>
           <l>And if my Memory be worth your care, </l>
           <l>Then I'm o're paid for all my favours here. </l>
         </sp>
-        <sp xml:id="ep000718-e20140">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e20140">
           <speaker>Ibrah. </speaker>
           <l>Fear not my payment then if that be all, </l>
           <l>On you, as on my Tutelar Saint I'le call. </l>
         </sp>
-        <sp xml:id="ep000718-e20180">
+        <sp who="ep000718-aster" xml:id="ep000718-e20180">
           <speaker>Aster. </speaker>
           <l>What you resolve, must instantly be done, </l>
           <l>Whilst we discourse the precious minutes run. </l>
@@ -2067,11 +2142,11 @@
           <l>And ev'n her Guards already watch her round. </l>
           <l>But for her safety I have found the way. </l>
         </sp>
-        <sp xml:id="ep000718-e20260">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e20260">
           <speaker>Ibrah. </speaker>
           <l>Speak Author of my Heav'n, and I'le obey. </l>
         </sp>
-        <sp xml:id="ep000718-e20290">
+        <sp who="ep000718-aster" xml:id="ep000718-e20290">
           <speaker>Aster. </speaker>
           <l>You know what Turkish custom </l>
           <l>Has with th'Imperial Daughters long prevail'd; </l>
@@ -2083,34 +2158,34 @@
           <l>To keep the Cheat from all discovery, </l>
           <l>Till she's gone safe; I will her place supply. </l>
         </sp>
-        <sp xml:id="ep000718-e20400">
+        <sp who="ep000718-isabel" xml:id="ep000718-e20400">
           <speaker>Isabel. </speaker>
           <l>I must not buy my freedom at that rate, </l>
           <l>Expose you to incur your Fathers hate. </l>
           <l>Have I no other way t'attain my bliss? </l>
         </sp>
-        <sp xml:id="ep000718-e20450">
+        <sp who="ep000718-aster" xml:id="ep000718-e20450">
           <speaker>Aster. </speaker>
           <l>What other way? or where's the fault in this? </l>
         </sp>
-        <sp xml:id="ep000718-e20480">
+        <sp who="ep000718-isabel" xml:id="ep000718-e20480">
           <speaker>Isabel. </speaker>
           <l>If on no other ground my safety's built, </l>
           <l>I must refuse that Bliss t'avoid this Guilt. </l>
         </sp>
-        <sp xml:id="ep000718-e20520">
+        <sp who="ep000718-aster" xml:id="ep000718-e20520">
           <speaker>Aster. </speaker>
           <l>Were I to flye with Ibrahim, I should find, </l>
           <l>Not half these Arguments to stay behind. </l>
         </sp>
-        <sp xml:id="ep000718-e20570">
+        <sp who="ep000718-isabel" xml:id="ep000718-e20570">
           <speaker>Isabel. </speaker>
           <l>Rather than let my Guardian be undone, </l>
           <l>I'le perish by that storm I must not shun: </l>
           <l>Tortures and Death's the worst, and those I'le bear, </l>
           <l>Rather than sin against my Honour here. </l>
         </sp>
-        <sp xml:id="ep000718-e20630">
+        <sp who="ep000718-aster" xml:id="ep000718-e20630">
           <speaker>Aster. </speaker>
           <l>I am his Daughter, and have pow'r t'asswage, </l>
           <l>With a few Tears an angry Fathers rage: </l>
@@ -2118,51 +2193,51 @@
           <l>But you he Loves, Loves with a lawless flame, </l>
           <l>And no small pow'r can violent passions tame. </l>
         </sp>
-        <sp xml:id="ep000718-e20690">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e20690">
           <speaker>Ibrah. </speaker>
           <l>Madam, the kind Sultana's gift embrace; </l>
           <l>Stop not the Torrent of her Royal Grace. </l>
         </sp>
-        <sp xml:id="ep000718-e20740">
+        <sp who="ep000718-isabel" xml:id="ep000718-e20740">
           <speaker>Isabel. </speaker>
           <l>Must she then stay to suffer in my place? </l>
           <l>Must I requite her with returns so rude, </l>
           <l>And buy my safety with ingratitude? </l>
         </sp>
-        <sp xml:id="ep000718-e20790">
+        <sp who="ep000718-aster" xml:id="ep000718-e20790">
           <speaker>Aster. </speaker>
           <l>Oh flye Sir, I conjure you do not stay; </l>
           <l>Will you not once, not once my will obey: </l>
           <l>You'l pay a Life's obedience to her pow'r, </l>
           <l>And shall not I command you for an hour? </l>
         </sp>
-        <sp xml:id="ep000718-e20850">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e20850">
           <speaker>Ibrah. </speaker>
           <l>Let not her soft entreaties be withstood, </l>
           <l>Since she like Heav'n is pleas'd with doing good: </l>
           <l>To her a Father cannot be unkind; </l>
           <l>The breach your absence makes, her prayers may bind. </l>
         </sp>
-        <sp xml:id="ep000718-e20910">
+        <sp who="ep000718-isabel" xml:id="ep000718-e20910">
           <speaker>Isabel. </speaker>
           <l>Were I assur'd her dangers were not great: </l>
           <l>'Twere hard when she commands, and you entreat; </l>
           <l>T'oppose such force— </l>
         </sp>
-        <sp xml:id="ep000718-e20960">
+        <sp who="ep000718-aster" xml:id="ep000718-e20960">
           <speaker>Aster. </speaker>
           <l>Have I the Conquest won? </l>
           <l>Now all my bus'ness in the World is done: </l>
           <l>I cannot fall more low, nor raise you higher. </l>
         </sp>
-        <sp xml:id="ep000718-e21010">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e21010">
           <speaker>Ibrah. </speaker>
           <l>Farewell! </l>
           <l>And generous excellence, when we retire, </l>
           <l>Oblig'd by goodness as this vast excess, </l>
           <l>We're happy. but must blush at Happiness— </l>
         </sp>
-        <sp xml:id="ep000718-e21070">
+        <sp who="ep000718-aster" xml:id="ep000718-e21070">
           <speaker>Aster. </speaker>
           <l>Stay yet: If I must never see you more, </l>
           <l>One favour let my breaking heart implore: </l>
@@ -2172,18 +2247,18 @@
           <l>Amidst your scenes of Joy shall Ibrahim be </l>
           <l>Permitted but to steal one sigh for me? </l>
         </sp>
-        <sp xml:id="ep000718-e21180">
+        <sp who="ep000718-isabel" xml:id="ep000718-e21180">
           <speaker>Isabel. </speaker>
           <l>Permit his Sighs, yes, and command'em too: </l>
           <l>By my Commission he shall pay that due. </l>
         </sp>
-        <sp xml:id="ep000718-e21220">
+        <sp who="ep000718-aster" xml:id="ep000718-e21220">
           <speaker>Aster. </speaker>
           <l>And when I'm dead— (but I shall ask too far!) </l>
           <l>Shall He </l>
           <l>At poor Asteria's Name let fall a Tear? </l>
         </sp>
-        <sp xml:id="ep000718-e21280">
+        <sp who="ep000718-isabel" xml:id="ep000718-e21280">
           <speaker>Isabel. </speaker>
           <l>A thousand! But be far that hour remov'd: </l>
           <l>Such vertue must of Heav'n be more belov'd; </l>
@@ -2195,19 +2270,19 @@
           <l>Each Sigh he takes, each Tear he sheds shall warm </l>
           <l>My Breast, and to our Loves be a fresh charm. </l>
         </sp>
-        <sp xml:id="ep000718-e21390">
+        <sp who="ep000718-aster" xml:id="ep000718-e21390">
           <speaker>Aster. </speaker>
           <l>And will you do all this? </l>
         </sp>
         <stage xml:id="ep000718-e21420">[to Ibrah. </stage>
-        <sp xml:id="ep000718-e21440">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e21440">
           <speaker>Ibrah. </speaker>
           <l>Do't, with as true </l>
           <l>A Zeal, as the fam'd Vestals ever knew: </l>
           <l>With Piety more constant and entire </l>
           <l>Your ashes I'le adore, than they their fire. </l>
         </sp>
-        <sp xml:id="ep000718-e21500">
+        <sp who="ep000718-aster" xml:id="ep000718-e21500">
           <speaker>Aster. </speaker>
           <l>Now I have all my wishes dare implore: </l>
           <l>You cannot grant, nor must I ask you more: </l>
@@ -2240,7 +2315,7 @@
           <l>Fair Celia wonder not to see </l>
           <l>Thy Vassal as disguis'd and as transform'd as he. </l>
         </lg>
-        <sp xml:id="ep000718-e21850">
+        <sp who="ep000718-aster" xml:id="ep000718-e21850">
           <speaker>Aster. </speaker>
           <l>Oh! now I find the mystery! 'tis plain. </l>
           <l>This entertainment came from Solyman. </l>
@@ -2256,7 +2331,7 @@
           <l>Can his wild passion brook no longer stay? </l>
         </sp>
         <stage xml:id="ep000718-e22010">[Absconds her self amongst Isabella's Women. </stage>
-        <sp xml:id="ep000718-e22030">
+        <sp who="ep000718-solym" xml:id="ep000718-e22030">
           <speaker>Solym. </speaker>
           <l>th'ascent is dang'rous, and no common care, </l>
           <l>Nor hasty steps can make approaches there: </l>
@@ -2269,47 +2344,47 @@
           <l>Oh my fear!— </l>
         </sp>
         <stage xml:id="ep000718-e22160">[Aside. </stage>
-        <sp xml:id="ep000718-e22170">
+        <sp who="ep000718-aster" xml:id="ep000718-e22170">
           <speaker>Aster. </speaker>
           <l>Your Pardon Royal Sir. </l>
         </sp>
-        <sp xml:id="ep000718-e22200">
+        <sp who="ep000718-solym" xml:id="ep000718-e22200">
           <speaker>Solym. </speaker>
           <l>My Love's disclos'd! </l>
           <l>And all my Guilt and Infamy expos'd. </l>
           <stage xml:id="ep000718-e22240">[Aside. </stage>
           <l>Where is she? </l>
         </sp>
-        <sp xml:id="ep000718-e22260">
+        <sp who="ep000718-aster" xml:id="ep000718-e22260">
           <speaker>Aster. </speaker>
           <l>Pardon an act of Piety and Love, </l>
           <l>When I to guard your Honour, durst remove </l>
           <l>A threaten'd Rival. </l>
         </sp>
-        <sp xml:id="ep000718-e22310">
+        <sp who="ep000718-solym" xml:id="ep000718-e22310">
           <speaker>Solym. </speaker>
           <l>Ravish'd from my pow'r! </l>
           <l>And my own Daughter a Conspirator— </l>
           <stage xml:id="ep000718-e22350">[Aside. </stage>
           <l>Effeminate Vertue, hence; flye from my sight. </l>
         </sp>
-        <sp xml:id="ep000718-e22370">
+        <sp who="ep000718-aster" xml:id="ep000718-e22370">
           <speaker>Aster. </speaker>
           <l>Can Solyman in Cruelty delight? </l>
           <l>No, be as just as I. </l>
         </sp>
-        <sp xml:id="ep000718-e22420">
+        <sp who="ep000718-solym" xml:id="ep000718-e22420">
           <speaker>Solym. </speaker>
           <l>Cease thy fond grief; </l>
           <l>Be gone, and to thy absence owe thy Life. </l>
         </sp>
-        <sp xml:id="ep000718-e22460">
+        <sp who="ep000718-aster" xml:id="ep000718-e22460">
           <speaker>Aster. </speaker>
           <l>Then I retire: Not for the fear of Death; </l>
           <l>That I can bear, but not your angry breath— </l>
           <stage xml:id="ep000718-e22500">[Ex. Aster. </stage>
         </sp>
-        <sp xml:id="ep000718-e22520">
+        <sp who="ep000718-solym" xml:id="ep000718-e22520">
           <speaker>Solym. </speaker>
           <l>This fatal story must take Aire from you: </l>
           <stage xml:id="ep000718-e22550">[To Mor. </stage>
@@ -2318,18 +2393,18 @@
           <l>Thou hadst better had thy soul as deep in Hell, </l>
           <l>As I'm beneath the Stars, than speak that word. </l>
         </sp>
-        <sp xml:id="ep000718-e22610">
+        <sp who="ep000718-mor" xml:id="ep000718-e22610">
           <pb n="36" xml:id="ep000718-023-a"/>
           <speaker>Mor. </speaker>
           <l>I tell the Secrets of my Sacred Lord! </l>
           <l>By all that's good to Heaven, I'm not so true, </l>
           <l>Not half so constant to my pray'rs as you. </l>
         </sp>
-        <sp xml:id="ep000718-e22660">
+        <sp who="ep000718-solym" xml:id="ep000718-e22660">
           <speaker>Solym. </speaker>
           <l>How got she hence? where is she? </l>
         </sp>
-        <sp xml:id="ep000718-e22690">
+        <sp who="ep000718-mor" xml:id="ep000718-e22690">
           <speaker>Mor. </speaker>
           <l>To me, it no less Riddle did appear, </l>
           <l>To find her gone; than see Asteria here: </l>
@@ -2337,7 +2412,7 @@
           <l>I saw this very Lady part from hence; </l>
           <l>And led by Ibrahim— </l>
         </sp>
-        <sp xml:id="ep000718-e22780">
+        <sp who="ep000718-solym" xml:id="ep000718-e22780">
           <speaker>Solym. </speaker>
           <l>Then she has made escape </l>
           <l>By the assistance of Asteria's shape: </l>
@@ -2348,51 +2423,51 @@
           <l>My Guards are thine: </l>
           <l>Shew me that Face agen, or ne're see mine. </l>
         </sp>
-        <sp xml:id="ep000718-e22910">
+        <sp who="ep000718-roxol" xml:id="ep000718-e22910">
           <speaker>Roxol. </speaker>
           <l>You were discoursing: Royal Sir; go on: </l>
           <l>I will be silent till my Lord has done. </l>
           <l>For Monarchs sure should speak such Sacred things, </l>
           <l>That all shou'd listen to the Voyce of Kings. </l>
         </sp>
-        <sp xml:id="ep000718-e22970">
+        <sp who="ep000718-solym" xml:id="ep000718-e22970">
           <speaker>Solym. </speaker>
           <l>Am I with shame on every side beset; </l>
           <l>This Face I till this hour with pleasure met. </l>
         </sp>
         <stage xml:id="ep000718-e23010">[Aside. </stage>
-        <sp xml:id="ep000718-e23020">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23020">
           <speaker>Roxol. </speaker>
           <l>I durst not, Sir, have ventur'd to appear </l>
           <l>Within this place, were the fair Christian here: </l>
           <l>But in her absence I am bolder grown, </l>
           <l>The meanest Star looks out when the Sun's gone. </l>
         </sp>
-        <sp xml:id="ep000718-e23080">
+        <sp who="ep000718-solym" xml:id="ep000718-e23080">
           <speaker>Solym. </speaker>
           <l>Is it your Wit or Anger makes you thus </l>
           <l>Severe, against our Christian Guest, and us? </l>
         </sp>
-        <sp xml:id="ep000718-e23120">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23120">
           <speaker>Roxol. </speaker>
           <l>Sultan, it is my Ruin brings me here, </l>
           <l>The Evening of my glorious Day draws near. </l>
           <l>From all my long blest hours and shining light, </l>
           <l>I take the prospect of Eternal Night. </l>
         </sp>
-        <sp xml:id="ep000718-e23190">
+        <sp who="ep000718-solym" xml:id="ep000718-e23190">
           <speaker>Solym. </speaker>
           <l>Whence Roxolana should this fear proceed? </l>
           <l>And by what Fate is this black Change decreed? </l>
         </sp>
-        <sp xml:id="ep000718-e23240">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23240">
           <speaker>Roxol. </speaker>
           <l>How Sultan! Can you Kill me, and not know </l>
           <l>The cruel hand that gives the fatal blow? </l>
           <l>Th'effect is but too sure, too plain the cause, </l>
           <l>When his kind smiles my alter'd Lord with-draws. </l>
         </sp>
-        <sp xml:id="ep000718-e23310">
+        <sp who="ep000718-solym" xml:id="ep000718-e23310">
           <speaker>Solym. </speaker>
           <l>Why to your self will you such pains contract, </l>
           <l>And fear those injuries I scorn to act? </l>
@@ -2400,7 +2475,7 @@
           <l>If from my Smiles your greatness takes its Fate, </l>
           <l>I will Smile on, since that supports your State. </l>
         </sp>
-        <sp xml:id="ep000718-e23370">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23370">
           <speaker>Roxol. </speaker>
           <l>Nay then I feel my certain Destiny: </l>
           <l>Are empty Smiles all you have left for me? </l>
@@ -2410,16 +2485,16 @@
           <l>Christian, thou hast perform'd a Tyrants part, </l>
           <l>To make this change in my dear Sultan's heart. </l>
         </sp>
-        <sp xml:id="ep000718-e23490">
+        <sp who="ep000718-solym" xml:id="ep000718-e23490">
           <speaker>Solym. </speaker>
           <l>Well Empress! Since such pow'rful Tears I find, </l>
           <l>To mourning Roxolana I'le be kind. </l>
         </sp>
-        <sp xml:id="ep000718-e23540">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23540">
           <speaker>Roxol. </speaker>
           <l>O my faint hopes! </l>
         </sp>
-        <sp xml:id="ep000718-e23570">
+        <sp who="ep000718-solym" xml:id="ep000718-e23570">
           <speaker>Solym. </speaker>
           <l>Dissembling in a King, </l>
           <l>Would be too abject and too base a thing. </l>
@@ -2427,18 +2502,18 @@
           <l>I'le give you the true Picture of my Heart: </l>
           <l>I Love that Princess— </l>
         </sp>
-        <sp xml:id="ep000718-e23640">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23640">
           <speaker>Roxol. </speaker>
           <l>O my Death! </l>
         </sp>
-        <sp xml:id="ep000718-e23670">
+        <sp who="ep000718-solym" xml:id="ep000718-e23670">
           <speaker>Solym. </speaker>
           <l>And to that height that nothing can remove, </l>
           <l>My resolution to pursue my Love: </l>
           <l>I'le prosecute all the long-practis'd Arts </l>
           <l>That Majesty e're found to conquer Hearts. </l>
         </sp>
-        <sp xml:id="ep000718-e23730">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23730">
           <speaker>Roxol. </speaker>
           <l>Nay, now you are more Cruel than before. </l>
           <l>Was't not enough I did your Loss deplore? </l>
@@ -2447,7 +2522,7 @@
           <l>'T had been enough t'have met a silent Doom. </l>
           <l>Must the black Cloud have Thunder in its Womb? </l>
         </sp>
-        <sp xml:id="ep000718-e23810">
+        <sp who="ep000718-solym" xml:id="ep000718-e23810">
           <speaker>Solym. </speaker>
           <l>Why is your Fall and Death by Solyman wrought? </l>
           <l>By Heav'n I've no such mallice in my thought. </l>
@@ -2458,7 +2533,7 @@
           <l>But from its pow'r its Innocence does hold, </l>
           <l>As th'Acts of Heav'n are good, because they're uncontroul'd. </l>
         </sp>
-        <sp xml:id="ep000718-e23920">
+        <sp who="ep000718-roxol" xml:id="ep000718-e23920">
           <speaker>Roxol. </speaker>
           <l>There was a Time! (but oh </l>
           <l>That Roxolana lives to speak that word!) </l>
@@ -2476,7 +2551,7 @@
           <l>Why does not Nature your Confusion share? </l>
           <l>Is Solymans World more constant than its Lord? </l>
         </sp>
-        <sp xml:id="ep000718-e24100">
+        <sp who="ep000718-solym" xml:id="ep000718-e24100">
           <speaker>Solym. </speaker>
           <l>'Tis true: I gave you my imperial word </l>
           <l>To Love you, and have done it to the height: </l>
@@ -2484,7 +2559,7 @@
           <l>A Nuptiall Tye, and sharer in a Throne, </l>
           <l>To all my Predecessors was unknown. </l>
         </sp>
-        <sp xml:id="ep000718-e24170">
+        <sp who="ep000718-roxol" xml:id="ep000718-e24170">
           <speaker>Roxol. </speaker>
           <l>Yes Sir; you rais'd me to a Crown, forsook </l>
           <l>The rude delights your wilde Fore-fathers took. </l>
@@ -2495,14 +2570,14 @@
           <l>To that I ow'd my Happiness; but know, </l>
           <l>'Tis to that too, I do my Ruine owe. </l>
         </sp>
-        <sp xml:id="ep000718-e24280">
+        <sp who="ep000718-solym" xml:id="ep000718-e24280">
           <speaker>Solym. </speaker>
           <l>Death; how she tortures me? Is this </l>
           <l>Diversion for a Lover in my pain? </l>
           <stage xml:id="ep000718-e24320">[aside. </stage>
           <l>No news of Isabella here again? </l>
         </sp>
-        <sp xml:id="ep000718-e24350">
+        <sp who="ep000718-roxol" xml:id="ep000718-e24350">
           <speaker>Roxol. </speaker>
           <l>Had Solyman lov'd like other Turkish Kings, </l>
           <l>And I been one of those same suffering things, </l>
@@ -2513,7 +2588,7 @@
           <l>My infinite Knowledge makes my pains excess: </l>
           <l>Remembrance is the Plague of Greatness in distress. </l>
         </sp>
-        <sp xml:id="ep000718-e24470">
+        <sp who="ep000718-solym" xml:id="ep000718-e24470">
           <speaker>Solym. </speaker>
           <l>When to those eyes I swore I would be true, </l>
           <l>'Twas to the Worlds Variety in you. </l>
@@ -2526,7 +2601,7 @@
           <l>Who greater charmes in Isabella find— </l>
           <stage xml:id="ep000718-e24580">[Ex. Solym. </stage>
         </sp>
-        <sp xml:id="ep000718-e24600">
+        <sp who="ep000718-roxol" xml:id="ep000718-e24600">
           <speaker>Roxol. </speaker>
           <l>Neglected was too much! but slighted too! </l>
           <l>Who could expect these barbrous wrongs from you? </l>
@@ -2538,7 +2613,7 @@
           <l>Do't, as your Honour and your Pow'rs divine: </l>
           <l>Prove your own Greatness by your care of mine. </l>
         </sp>
-        <sp xml:id="ep000718-e24720">
+        <sp who="ep000718-mirv" xml:id="ep000718-e24720">
           <speaker>Mirv. </speaker>
           <l>Doubt not th'Immortal Justice in your Cause. </l>
           <l>Since your Apostate Lord his heart with-draws; </l>
@@ -2547,13 +2622,13 @@
           <l>Then th'offence; to hold so rich, so bright </l>
           <l>A Treasure, and want sence to value it. </l>
         </sp>
-        <sp xml:id="ep000718-e24800">
+        <sp who="ep000718-roxol" xml:id="ep000718-e24800">
           <speaker>Roxol. </speaker>
           <l>False though he is— </l>
           <l>So much respect is to his greatness due, </l>
           <l>I may impeach his Treasons, but not you. </l>
         </sp>
-        <sp xml:id="ep000718-e24850">
+        <sp who="ep000718-mirv" xml:id="ep000718-e24850">
           <speaker>Mirv. </speaker>
           <l>But say the World could yield as great a Man </l>
           <l>In Birth, in Love, more great than Solyman; </l>
@@ -2563,17 +2638,17 @@
           <l>Than his fair Murderers pitty of his pain. </l>
           <l>Could you permit— </l>
         </sp>
-        <sp xml:id="ep000718-e24960">
+        <sp who="ep000718-roxol" xml:id="ep000718-e24960">
           <speaker>Roxol. </speaker>
           <l>That He should tell me so? </l>
         </sp>
-        <sp xml:id="ep000718-e24990">
+        <sp who="ep000718-mirv" xml:id="ep000718-e24990">
           <speaker>Mirv. </speaker>
           <l>Only to ease your grief, and let you know </l>
           <l>Your Love is not unfortunate alone: </l>
           <l>Since there are miseries beyond your own. </l>
         </sp>
-        <sp xml:id="ep000718-e25040">
+        <sp who="ep000718-roxol" xml:id="ep000718-e25040">
           <speaker>Roxol. </speaker>
           <l>If such a Traytor to my Fame there be, </l>
           <l>That thinks Love Innocent, when spoke to me: </l>
@@ -2586,13 +2661,13 @@
         </sp>
         <stage xml:id="ep000718-e25140">
           <pb n="40" xml:id="ep000718-025-a"/>Enter Ulama. </stage>
-        <sp xml:id="ep000718-e25160">
+        <sp who="ep000718-mirv" xml:id="ep000718-e25160">
           <speaker>Mirv. </speaker>
           <l>Take heed, Great Sir, suppress your dang'rous flame, </l>
           <l>There's Death and Ruine in the very Name: </l>
         </sp>
         <stage xml:id="ep000718-e25200">[aside to Ulam. </stage>
-        <sp xml:id="ep000718-e25220">
+        <sp who="ep000718-ulam" xml:id="ep000718-e25220">
           <speaker>Ulam. </speaker>
           <l>Fair Empress, They, who so much Beauty meet, </l>
           <l>Ought to strow Flow'rs and Laurels at your Feet. </l>
@@ -2605,11 +2680,11 @@
           <l>With Cruelty!) by his wild passion led, </l>
           <l>Has seiz'd the Christian Princess as she fled: </l>
         </sp>
-        <sp xml:id="ep000718-e25340">
+        <sp who="ep000718-roxol" xml:id="ep000718-e25340">
           <speaker>Roxol. </speaker>
           <l>More weight to my destruction!— </l>
         </sp>
-        <sp xml:id="ep000718-e25370">
+        <sp who="ep000718-ulam" xml:id="ep000718-e25370">
           <speaker>Ulam. </speaker>
           <l>How much this accident, may his fierce rage, </l>
           <l>'Gainst an Offending Rivals Life engage, </l>
@@ -2626,7 +2701,7 @@
           <l>As high as Heav'n, and no less glorious too. </l>
           <l>Not all these thoughts can guild my fears for you. </l>
         </sp>
-        <sp xml:id="ep000718-e25540">
+        <sp who="ep000718-roxol" xml:id="ep000718-e25540">
           <speaker>Roxol. </speaker>
           <l>Obliging Prince; so great has been your sence, </l>
           <l>Both of my Wrongs, and of my Innocence; </l>
@@ -2640,7 +2715,7 @@
           <l>And perishes by that which he adores. </l>
           <stage xml:id="ep000718-e25670">[Exit. </stage>
         </sp>
-        <sp xml:id="ep000718-e25680">
+        <sp who="ep000718-ulam" xml:id="ep000718-e25680">
           <speaker>Ulam. </speaker>
           <l>How mortal would this sound of horror be </l>
           <l>To one that Loved, unless he Lov'd like me? </l>
@@ -2648,14 +2723,14 @@
           <l>Her Vertue to her Beauty lends new fire, </l>
           <l>And both their charms I equally admire. </l>
         </sp>
-        <sp xml:id="ep000718-e25740">
+        <sp who="ep000718-mirv" xml:id="ep000718-e25740">
           <speaker>Mirv. </speaker>
           <l>I've us'd my pow'r; but your vain hopes forbear. </l>
           <l>Should but the name of Love reach her chaste ear, </l>
           <l>Her pride &amp; scorn would into Vengeance flye— </l>
           <stage xml:id="ep000718-e25790">[Ex. </stage>
         </sp>
-        <sp xml:id="ep000718-e25800">
+        <sp who="ep000718-ulam" xml:id="ep000718-e25800">
           <speaker>Ulam. </speaker>
           <l>I thank her for so just a Cruelty. </l>
           <l>And blush to think I durst her Vertue try. </l>
@@ -2679,27 +2754,27 @@
         <head>ACT the FOURTH. </head>
         <head>The SCENE, the Seraglio. </head>
         <stage xml:id="ep000718-e26010">Enter Isabella Guarded by Morat and other Attendants. </stage>
-        <sp xml:id="ep000718-e26040">
+        <sp who="ep000718-morat" xml:id="ep000718-e26040">
           <speaker>Morat. </speaker>
           <l>PArdon an act of Violence from his Hand, </l>
           <l>Who only Executes his Kings Command. </l>
         </sp>
         <stage xml:id="ep000718-e26080">Enter Solyman. </stage>
-        <sp xml:id="ep000718-e26100">
+        <sp who="ep000718-solym" xml:id="ep000718-e26100">
           <speaker>Solym. </speaker>
           <l>Fair Cruelty! how cou'd you flye from him, </l>
           <l>Whose only fault was Love, and that's a Crime, </l>
           <l>The Gods must pardon, for they practise it. </l>
           <l>Love ev'n in Paradice does Tryumphant sit. </l>
         </sp>
-        <sp xml:id="ep000718-e26160">
+        <sp who="ep000718-isabel" xml:id="ep000718-e26160">
           <speaker>Isabel. </speaker>
           <l>How can you thus the name of Love profane? </l>
           <l>Give no more breath to words of such a strain, </l>
           <pb n="42" xml:id="ep000718-026-a"/>
           <l>Then you would lend a Tongue to Blasphemy. </l>
         </sp>
-        <sp xml:id="ep000718-e26210">
+        <sp who="ep000718-solym" xml:id="ep000718-e26210">
           <speaker>Solym. </speaker>
           <l>Can you make wounds so deep you start to see? </l>
           <l>And wilfully be deaf to all my pain: </l>
@@ -2709,7 +2784,7 @@
           <l>The Gods are only to the Damn'd so strict, </l>
           <l>To shut their Ears'gainst Torments they inflict. </l>
         </sp>
-        <sp xml:id="ep000718-e26300">
+        <sp who="ep000718-isabel" xml:id="ep000718-e26300">
           <speaker>Isabel. </speaker>
           <l>Is this a Fathers Voyce? Is this a Friend </l>
           <l>To Ibrahim? Can Majesty descend </l>
@@ -2718,7 +2793,7 @@
           <l>He call'd your Son, and I your Daughter made, </l>
           <l>Only to be more cruelly betray'd! </l>
         </sp>
-        <sp xml:id="ep000718-e26390">
+        <sp who="ep000718-solym" xml:id="ep000718-e26390">
           <speaker>Solym. </speaker>
           <l>'Tis true, I gave him all I had pow'r to give, </l>
           <l>I bid him happy in your favour live: </l>
@@ -2729,19 +2804,19 @@
           <l>My fancy painted all the joyes of life in you; </l>
           <l>And in your loss ten thousand horrors drew. </l>
         </sp>
-        <sp xml:id="ep000718-e26490">
+        <sp who="ep000718-isabel" xml:id="ep000718-e26490">
           <speaker>Isabel. </speaker>
           <l>Oh Cruel King! how can you wound my ear </l>
           <l>With those dire sounds I scarce have life to hear: </l>
           <l>When the most sacred Vows you dare invade, </l>
           <l>That Heav'n e're heard, or Lovers ever made! </l>
         </sp>
-        <sp xml:id="ep000718-e26550">
+        <sp who="ep000718-solym" xml:id="ep000718-e26550">
           <speaker>Solym. </speaker>
           <l>How Merciless can you your pow'r disguise, </l>
           <l>Can you that question ask, and wear those Eyes? </l>
         </sp>
-        <sp xml:id="ep000718-e26590">
+        <sp who="ep000718-isabel" xml:id="ep000718-e26590">
           <speaker>Isabel. </speaker>
           <l>If from their Influence your guilt arise: </l>
           <l>Wou'd'I had been born of some black Aethiop-race, </l>
@@ -2756,7 +2831,7 @@
           <l>We had lived safe from Tortures and despair, </l>
           <l>Not wrong'd by th'Great, nor envy'd by the Fair. </l>
         </sp>
-        <sp xml:id="ep000718-e26750">
+        <sp who="ep000718-solym" xml:id="ep000718-e26750">
           <pb n="43" xml:id="ep000718-026-b"/>
           <speaker>Solym. </speaker>
           <l>Are you so faithful then to Ibrahim, </l>
@@ -2766,7 +2841,7 @@
           <l>Then Crowns and Empires might my peace have bought, </l>
           <l>And a wide World had fill'd my bounded thought. </l>
         </sp>
-        <sp xml:id="ep000718-e26840">
+        <sp who="ep000718-isabel" xml:id="ep000718-e26840">
           <speaker>Isabel. </speaker>
           <l>Oh hold! this too unkind discourse give o're— </l>
           <l>My Ibrahim's dear, but my bright Honour more. </l>
@@ -2775,31 +2850,31 @@
           <l>But whilst I'm forc'd to hear the frightful name, </l>
           <l>Of Impious Love, you wound my tender Fame. </l>
         </sp>
-        <sp xml:id="ep000718-e26940">
+        <sp who="ep000718-solym" xml:id="ep000718-e26940">
           <speaker>Solym. </speaker>
           <l>If of your Honour you so tender prove, </l>
           <l>Express it by your scorn of Ibrahim's Love. </l>
           <l>You only wrong your Fame in loving him, </l>
           <l>(Unworthy as he is)— but end that Crime. </l>
         </sp>
-        <sp xml:id="ep000718-e27010">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27010">
           <speaker>Isabel. </speaker>
           <l>Oh Heav'n! what do I hear? </l>
         </sp>
-        <sp xml:id="ep000718-e27040">
+        <sp who="ep000718-solym" xml:id="ep000718-e27040">
           <speaker>Solym. </speaker>
           <l>He is a Thief! </l>
           <l>A Traytor! for a mean and base reliefe, </l>
           <l>Against my dang'rous Love, he stole you hence. </l>
         </sp>
-        <sp xml:id="ep000718-e27090">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27090">
           <speaker>Isabel. </speaker>
           <l>If that's a Crime, 'Twas mine, not his offence. </l>
           <l>Your black designs had made me dread your sight </l>
           <l>So much, I used not only Prayers t'invite, </l>
           <l>But my Commands to make him aid my flight. </l>
         </sp>
-        <sp xml:id="ep000718-e27150">
+        <sp who="ep000718-solym" xml:id="ep000718-e27150">
           <speaker>Solym. </speaker>
           <l>Fair Torturer of my soul, since you could be </l>
           <l>So kind to him, and so severe to me; </l>
@@ -2814,7 +2889,7 @@
           <l>My Passion for that Beauty is so high, </l>
           <l>This I resolve, this I must do, or dye. </l>
         </sp>
-        <sp xml:id="ep000718-e27290">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27290">
           <speaker>Isabel. </speaker>
           <l>In vain you threaten me with Ibrahims Death. </l>
           <l>Think not my long inviolable Faith, </l>
@@ -2828,13 +2903,13 @@
           <l>As Man-kind e're possest, or Heav'n e're gave; </l>
           <l>Yet even his Life I wou'd not basely save. </l>
         </sp>
-        <sp xml:id="ep000718-e27430">
+        <sp who="ep000718-solym" xml:id="ep000718-e27430">
           <speaker>Solym. </speaker>
           <l>Gods! must I find </l>
           <l>A Heart so fixt, and Vertue so sublime: </l>
           <l>Has my bold Love such craggy way to climbe? </l>
         </sp>
-        <sp xml:id="ep000718-e27480">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27480">
           <speaker>Isabel. </speaker>
           <l>Hope not t'assault me there, rather than he </l>
           <l>Should live to see me perjur'd, I would see </l>
@@ -2843,11 +2918,11 @@
           <l>Nor think this Doom in cruelty design'd; </l>
           <l>No; His just Love wou'd rather call it kind. </l>
         </sp>
-        <sp xml:id="ep000718-e27560">
+        <sp who="ep000718-solym" xml:id="ep000718-e27560">
           <speaker>Solym. </speaker>
           <l>Oh my distraction! </l>
         </sp>
-        <sp xml:id="ep000718-e27590">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27590">
           <speaker>Isabel. </speaker>
           <l>But whilst I stay </l>
           <l>To prove my Vertue, I my Vertue wrong, </l>
@@ -2856,15 +2931,15 @@
           <stage xml:id="ep000718-e27650">[to Mo●. </stage>
           <l>Now you may act a welcome violence. </l>
         </sp>
-        <sp xml:id="ep000718-e27680">
+        <sp who="ep000718-solym" xml:id="ep000718-e27680">
           <speaker>Solym. </speaker>
           <l>Stay Madam! </l>
         </sp>
-        <sp xml:id="ep000718-e27710">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27710">
           <speaker>Isabel. </speaker>
           <l>I can hear no more, in vain— </l>
         </sp>
-        <sp xml:id="ep000718-e27740">
+        <sp who="ep000718-solym" xml:id="ep000718-e27740">
           <speaker>Solym. </speaker>
           <l>Oh Madam! stay one minute, and t'obtain </l>
           <l>That favour, Ibrahim shall live, and live </l>
@@ -2884,7 +2959,7 @@
           <l>Till his compassion does my life defend, </l>
           <l>And quit a Mistress to preserve a Friend. </l>
         </sp>
-        <sp xml:id="ep000718-e27940">
+        <sp who="ep000718-isabel" xml:id="ep000718-e27940">
           <pb n="45" xml:id="ep000718-027-b"/>
           <speaker>Isabel. </speaker>
           <l>Do not his Constancy so much mistake; </l>
@@ -2895,31 +2970,31 @@
           <l>Your Honour and your Nuptial Vows forget, </l>
           <l>I cannot— </l>
         </sp>
-        <sp xml:id="ep000718-e28030">
+        <sp who="ep000718-solym" xml:id="ep000718-e28030">
           <speaker>Solym. </speaker>
           <l>Is Religion then my Foe? </l>
           <l>And does my Marry'd state my hopes o'rethrow? </l>
           <l>That shall not cloud the glories of your life. </l>
           <l>You shall be mine, a Christian, and a Wife. </l>
         </sp>
-        <sp xml:id="ep000718-e28090">
+        <sp who="ep000718-isabel" xml:id="ep000718-e28090">
           <speaker>Isabel. </speaker>
           <l>Defend me Heav'n! what's this? </l>
         </sp>
-        <sp xml:id="ep000718-e28120">
+        <sp who="ep000718-solym" xml:id="ep000718-e28120">
           <speaker>Solym. </speaker>
           <l>You shall in state be to a Temple led; </l>
           <l>I'le take the Crown from Roxolana's Head. </l>
           <l>Thus, you shall meet my Love— </l>
         </sp>
-        <sp xml:id="ep000718-e28180">
+        <sp who="ep000718-isabel" xml:id="ep000718-e28180">
           <speaker>Isabel. </speaker>
           <l>'Twas too much crime alone </l>
           <l>T'oppose my Vows: wou'd you deface your own? </l>
           <l>Break your long Faith to Roxolana given, </l>
           <l>And by your rage thus doubly injure Heav'n? </l>
         </sp>
-        <sp xml:id="ep000718-e28250">
+        <sp who="ep000718-solym" xml:id="ep000718-e28250">
           <speaker>Solym. </speaker>
           <l>I injure Heav'n; no, you mistake me now; </l>
           <l>I am pious, not profane in what I doe. </l>
@@ -2927,19 +3002,19 @@
           <l>Then with Imperial Crowns t'adorn the Head </l>
           <l>Of the Divinest Creature it e're made. </l>
         </sp>
-        <sp xml:id="ep000718-e28320">
+        <sp who="ep000718-isabel" xml:id="ep000718-e28320">
           <speaker>Isabel. </speaker>
           <l>Oh! let me go! this place of horror flye, </l>
           <l>Send me t'a dungeon, to a Grave, to dye, </l>
           <l>Rather then stay to heighten your impiety. </l>
         </sp>
-        <sp xml:id="ep000718-e28370">
+        <sp who="ep000718-solym" xml:id="ep000718-e28370">
           <speaker>Solym. </speaker>
           <l>Retire then, since my presence is a sin, </l>
           <l>But Cruel, Fair, when we shall meet agen, </l>
           <l>Assume a mercy that befits that brow. </l>
         </sp>
-        <sp xml:id="ep000718-e28420">
+        <sp who="ep000718-isabel" xml:id="ep000718-e28420">
           <speaker>Isabel. </speaker>
           <l>If I must find you as I leave you now, </l>
           <l>Meet me no more; nor time, nor force employ, </l>
@@ -2950,11 +3025,11 @@
           <l>None but just Lovers, love enough to dye. </l>
         </sp>
         <stage xml:id="ep000718-e28510">[Exit Guarded. </stage>
-        <sp xml:id="ep000718-e28520">
+        <sp who="ep000718-solym" xml:id="ep000718-e28520">
           <speaker>Solym. </speaker>
           <l>Was ever scorn so high? or King, so low? </l>
         </sp>
-        <sp xml:id="ep000718-e28550">
+        <sp who="ep000718-mor" xml:id="ep000718-e28550">
           <speaker>Mor. </speaker>
           <l>To Constancy you all this rudeness owe. </l>
           <pb n="46" xml:id="ep000718-028-a"/>
@@ -2970,15 +3045,15 @@
           <l>Marriage and Crowns will tempt her Christian Faith. </l>
           <l>This only course your desperate Love secures— </l>
         </sp>
-        <sp xml:id="ep000718-e28710">
+        <sp who="ep000718-solym" xml:id="ep000718-e28710">
           <speaker>Solym. </speaker>
           <l>And this dark course I'le take. </l>
         </sp>
-        <sp xml:id="ep000718-e28740">
+        <sp who="ep000718-mor" xml:id="ep000718-e28740">
           <speaker>Mor. </speaker>
           <l>Do: and She's yours. </l>
         </sp>
-        <sp xml:id="ep000718-e28770">
+        <sp who="ep000718-solym" xml:id="ep000718-e28770">
           <speaker>Solym. </speaker>
           <l>For Love o'recomes, and I must kill or dye. </l>
           <l>Let it be done e're I think how, or why. </l>
@@ -2994,13 +3069,13 @@
           <l>I have by Alla sworne </l>
           <l>That he shall never bleed whilst Solyman lives. </l>
         </sp>
-        <sp xml:id="ep000718-e28970">
+        <sp who="ep000718-mor" xml:id="ep000718-e28970">
           <speaker>Mor. </speaker>
           <l>Is it the voyce of Majesty Reprieves </l>
           <l>An Enemy, a destroyer of your peace? </l>
           <l>Can humble penitence great Spirits seize? </l>
         </sp>
-        <sp xml:id="ep000718-e29020">
+        <sp who="ep000718-solym" xml:id="ep000718-e29020">
           <speaker>Solym. </speaker>
           <l>No: I would have him still destroy'd, but if </l>
           <l>I must be Perjur'd when I take his Life, </l>
@@ -3008,17 +3083,17 @@
           <l>Though Love can yield to any lesser sin: </l>
           <l>That Oath I must not; no, I cannot break. </l>
         </sp>
-        <sp xml:id="ep000718-e29090">
+        <sp who="ep000718-mor" xml:id="ep000718-e29090">
           <speaker>Mor. </speaker>
           <l>Your Oath is strong, when your resolves are weak. </l>
         </sp>
-        <sp xml:id="ep000718-e29120">
+        <sp who="ep000718-solym" xml:id="ep000718-e29120">
           <speaker>Solym. </speaker>
           <l>Had I by Alla sworne to quit my Crown, </l>
           <l>So bound, I ought to lay my Scepter down; </l>
           <l>And yield a Throne without a sigh— </l>
         </sp>
-        <sp xml:id="ep000718-e29180">
+        <sp who="ep000718-mor" xml:id="ep000718-e29180">
           <speaker>Mor. </speaker>
           <l>But Sir.— </l>
           <l>Even Kings themselves sometimes may chance to erre; </l>
@@ -3032,7 +3107,7 @@
           <l>Or shew at least some safe, though distant means, </l>
           <l>To gain your quiet, and remove your pains. </l>
         </sp>
-        <sp xml:id="ep000718-e29310">
+        <sp who="ep000718-solym" xml:id="ep000718-e29310">
           <speaker>Solym. </speaker>
           <l>Send for him, though I fear 'tis all in vain; </l>
           <l>Do any thing to bring my peace again. </l>
@@ -3041,7 +3116,7 @@
           <l>After your mean suspition, with what face, </l>
           <l>False Ibrahim, dare you approach this place. </l>
         </sp>
-        <sp xml:id="ep000718-e29420">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e29420">
           <speaker>Ibrah. </speaker>
           <l>Sir, I approach you as I ought to do; </l>
           <l>As one who'has lost all hopes in loosing you, </l>
@@ -3050,12 +3125,12 @@
           <l>My happiness in this Tempest sinks and drowns, </l>
           <l>I knew your smiles too well to bear your frowns. </l>
         </sp>
-        <sp xml:id="ep000718-e29500">
+        <sp who="ep000718-solym" xml:id="ep000718-e29500">
           <speaker>Solym. </speaker>
           <l>How can I think you priz'd my smiles so high, </l>
           <l>When you could forfeit them so wilfully? </l>
         </sp>
-        <sp xml:id="ep000718-e29540">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e29540">
           <speaker>Ibrah. </speaker>
           <l>If the protection of my Love's a sin, </l>
           <l>Then condemn'd Ibrahim has guilty been. </l>
@@ -3066,7 +3141,7 @@
           <l>Since her firm Vows no force could e're destroy, </l>
           <l>I rob'd you of a Torment, not a Joy. </l>
         </sp>
-        <sp xml:id="ep000718-e29660">
+        <sp who="ep000718-solym" xml:id="ep000718-e29660">
           <speaker>Solym. </speaker>
           <l>Was ever Arrogance so high, to dare </l>
           <l>Thus insolently brave me with Despair! </l>
@@ -3075,7 +3150,7 @@
           <l>Though you can think so meanly of my State, </l>
           <l>It is unkind t' upbraid me with my Fate. </l>
         </sp>
-        <sp xml:id="ep000718-e29740">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e29740">
           <speaker>Ibrah. </speaker>
           <l>No, Sultan, call it by another Name, </l>
           <l>A subjects Zeal to Guard his Soveraignes Fame. </l>
@@ -3085,7 +3160,7 @@
           <l>In Thoughts that soar'd above an Eagles Flight, </l>
           <l>Now humbly stoops t' invade his Vassals right. </l>
         </sp>
-        <sp xml:id="ep000718-e29850">
+        <sp who="ep000718-solym" xml:id="ep000718-e29850">
           <pb n="48" xml:id="ep000718-029-a"/>
           <speaker>Solym. </speaker>
           <l>Is it so humble to adore that Face? </l>
@@ -3098,11 +3173,11 @@
           <l>All Beauteous things for Soveraignty were made. </l>
           <l>Is not Love Kingly then, when thus my Breast it fils? </l>
         </sp>
-        <sp xml:id="ep000718-e29960">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e29960">
           <speaker>Ibrah. </speaker>
           <l>So Thunder's heavenly, but that Thunder Kills. </l>
         </sp>
-        <sp xml:id="ep000718-e29990">
+        <sp who="ep000718-solym" xml:id="ep000718-e29990">
           <speaker>Solym. </speaker>
           <l>Why should you think Il'e take so rough a Course; </l>
           <l>Il'e vanquish by Entreaty not by Force. </l>
@@ -3112,18 +3187,18 @@
           <l>Fame, so long Courted, now be Kind, and Wed. </l>
           <l>That glorious Race so well begun persue. </l>
         </sp>
-        <sp xml:id="ep000718-e30080">
+        <sp who="ep000718-ibrha" xml:id="ep000718-e30080">
           <speaker>Ibrha. </speaker>
           <l>But Sir, cannot I Conquer, and Love too? </l>
         </sp>
-        <sp xml:id="ep000718-e30110">
+        <sp who="ep000718-solym" xml:id="ep000718-e30110">
           <speaker>Solym. </speaker>
           <l>Can nothing but my ruin satisfie? </l>
           <l>Are there not charms enow in Victory? </l>
           <l>Take all my Forces, half my World be thine: </l>
           <l>And in exchange, let that one Prize be mine. </l>
         </sp>
-        <sp xml:id="ep000718-e30170">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e30170">
           <speaker>Ibrah. </speaker>
           <l>Oh, now you ask what I can ne're resign. </l>
           <l>Loves that can cease, are Feavourish desires, </l>
@@ -3131,7 +3206,7 @@
           <l>My heart unchangeably her Image weares; </l>
           <l>Meteors may be extinguisht, but not Stars. </l>
         </sp>
-        <sp xml:id="ep000718-e30240">
+        <sp who="ep000718-solym" xml:id="ep000718-e30240">
           <speaker>Solym. </speaker>
           <l>Of Roxolana, I was once as fond, </l>
           <l>And loves as much; yet time has broke that Bond. </l>
@@ -3146,7 +3221,7 @@
           <l>And what my nobler Nature ought to shun, </l>
           <l>You force me to repeat what I have done? </l>
         </sp>
-        <sp xml:id="ep000718-e30390">
+        <sp who="ep000718-ibrahim" xml:id="ep000718-e30390">
           <pb n="49" xml:id="ep000718-029-b"/>
           <speaker>Ibrahim. </speaker>
           <l>Those favours, Sir, your Vassal blushing took; </l>
@@ -3154,11 +3229,11 @@
           <l>With humble Veneration did adore </l>
           <l>Great Jove descending in a Royal showre. </l>
         </sp>
-        <sp xml:id="ep000718-e30450">
+        <sp who="ep000718-solym" xml:id="ep000718-e30450">
           <speaker>Solym. </speaker>
           <l>And now that Veneration is her due. </l>
         </sp>
-        <sp xml:id="ep000718-e30480">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e30480">
           <speaker>Ibrah. </speaker>
           <l>To worship her, I'le never steal from you; </l>
           <l>No, to acknowledge what your smiles have done, </l>
@@ -3173,13 +3248,13 @@
           <l>Try me like Hercules, and I shall be, </l>
           <l>If not as great, as little tir'd as He. </l>
         </sp>
-        <sp xml:id="ep000718-e30640">
+        <sp who="ep000718-solym" xml:id="ep000718-e30640">
           <speaker>Solym. </speaker>
           <l>My stock of same already is so large, </l>
           <l>That Victories would be a mean discharge. </l>
           <l>Her heart would th'only pleasing payment make. </l>
         </sp>
-        <sp xml:id="ep000718-e30690">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e30690">
           <speaker>Ibrah. </speaker>
           <l>And can I yield my Princess to forsake? </l>
           <l>Since I want power to pay that vast demand, </l>
@@ -3189,11 +3264,11 @@
           <l>And by my Death let all your Troubles cease; </l>
           <l>I've liv'd too long, when I disturb your Peace. </l>
         </sp>
-        <sp xml:id="ep000718-e30780">
+        <sp who="ep000718-solym" xml:id="ep000718-e30780">
           <speaker>Solym. </speaker>
           <l>And that long life 'tis I can shorter make. </l>
         </sp>
-        <sp xml:id="ep000718-e30810">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e30810">
           <speaker>Ibrah. </speaker>
           <l>Oh, take it Sir: I wear it for your sake: </l>
           <l>Though I can never yield to quit my Love; </l>
@@ -3201,12 +3276,12 @@
           <l>And when to Death I go, hear my last pray'r; </l>
           <l>May Solymans Life, Heav'n, take up all your care. </l>
         </sp>
-        <sp xml:id="ep000718-e30890">
+        <sp who="ep000718-solym" xml:id="ep000718-e30890">
           <speaker>Solym. </speaker>
           <l>Can Ibrahim so patiently receive </l>
           <l>His Doom, and with such ease his Judge forgive? </l>
         </sp>
-        <sp xml:id="ep000718-e30940">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e30940">
           <speaker>Ibrah. </speaker>
           <l>Forgive you? where's your sin? Alas your hand </l>
           <l>Takes but that Life you justly may demand. </l>
@@ -3216,7 +3291,7 @@
           <l>My ador'd King, even my last breath should rule; </l>
           <l>Not one ill thought should touch my parting soul. </l>
         </sp>
-        <sp xml:id="ep000718-e31020">
+        <sp who="ep000718-solym" xml:id="ep000718-e31020">
           <speaker>Solym. </speaker>
           <l>Hold, generous Prince! Know what great Love can do; </l>
           <l>And hear a Resolution Strange, but True. </l>
@@ -3236,60 +3311,60 @@
           <l>To what ill deeds is desperate passion led? </l>
         </sp>
         <stage xml:id="ep000718-e31220">Enter Morat and Mufti. </stage>
-        <sp xml:id="ep000718-e31250">
+        <sp who="ep000718-mor" xml:id="ep000718-e31250">
           <speaker>Mor. </speaker>
           <l>The Mufti, Sir, your pleasure does attend. </l>
         </sp>
-        <sp xml:id="ep000718-e31290">
+        <sp who="ep000718-solym" xml:id="ep000718-e31290">
           <speaker>Solym. </speaker>
           <l>Priest, for thy Councel, and thy Aid I send. </l>
           <l>A Ravisher has rob'd me of my Peace, </l>
           <l>And I want power to make my torment cease. </l>
         </sp>
-        <sp xml:id="ep000718-e31340">
+        <sp who="ep000718-muft" xml:id="ep000718-e31340">
           <speaker>Muft. </speaker>
           <l>Who is that Ravisher, and what that Chain </l>
           <l>Which binds your Arm, and does your pow'r restrain? </l>
           <l>Can ought rebate the Sword of Solyman? </l>
         </sp>
-        <sp xml:id="ep000718-e31400">
+        <sp who="ep000718-solym" xml:id="ep000718-e31400">
           <speaker>Solym. </speaker>
           <l>My Faith, my Vows, and my Religion can: </l>
           <l>By Alla bound, I've made this solemn tye, </l>
           <l>Whilst Solyman Lives, my Vizier shall not dye. </l>
           <l>And by his Death, I must my Peace retrieve. </l>
         </sp>
-        <sp xml:id="ep000718-e31480">
+        <sp who="ep000718-muft" xml:id="ep000718-e31480">
           <speaker>Muft. </speaker>
           <l>Sir, he may dye when Solyman does not live. </l>
         </sp>
-        <sp xml:id="ep000718-e31530">
+        <sp who="ep000718-solym" xml:id="ep000718-e31530">
           <speaker>Solym. </speaker>
           <l>Did I for this thy Wise advice request, </l>
           <l>For satisfaction in my Grave? dull Priest, </l>
           <l>I'd live to be reveng'd. </l>
         </sp>
-        <sp xml:id="ep000718-e31580">
+        <sp who="ep000718-muft" xml:id="ep000718-e31580">
           <speaker>Muft. </speaker>
           <l>Yes Sir, you shall— think not my Councels bring </l>
           <l>Such tardy Vengeance to an Injur'd King. </l>
           <l>Death should flye quick as Light'ning from your frown. </l>
           <l>Sir, he may set before to morrow's Sun. </l>
         </sp>
-        <sp xml:id="ep000718-e31640">
+        <sp who="ep000718-solym" xml:id="ep000718-e31640">
           <speaker>Solym. </speaker>
           <l>How! may he dye to morrow? </l>
         </sp>
-        <sp xml:id="ep000718-e31670">
+        <sp who="ep000718-muft" xml:id="ep000718-e31670">
           <pb n="51" xml:id="ep000718-030-b"/>
           <speaker>Muft. </speaker>
           <l>Yes; to Night. </l>
         </sp>
-        <sp xml:id="ep000718-e31700">
+        <sp who="ep000718-solym" xml:id="ep000718-e31700">
           <speaker>Solym. </speaker>
           <l>My Faith unstain'd? </l>
         </sp>
-        <sp xml:id="ep000718-e31730">
+        <sp who="ep000718-muft" xml:id="ep000718-e31730">
           <speaker>Muft. </speaker>
           <l>Unsully'd, as the Light— </l>
           <l>You are not by this promise bound to give </l>
@@ -3298,11 +3373,11 @@
           <l>But there are hours each day in which you dye. </l>
           <l>Sir! whilst you sleep you are not living. </l>
         </sp>
-        <sp xml:id="ep000718-e31810">
+        <sp who="ep000718-solym" xml:id="ep000718-e31810">
           <speaker>Solym. </speaker>
           <l>How? </l>
         </sp>
-        <sp xml:id="ep000718-e31840">
+        <sp who="ep000718-muft" xml:id="ep000718-e31840">
           <speaker>Muft. </speaker>
           <l>To Sence and Reason man his Life does owe; </l>
           <l>And when Sleep dams them up, they cease to flow. </l>
@@ -3317,16 +3392,16 @@
           <l>If then whilst you are sleeping, he receives </l>
           <l>The blow, he does not dye whilst Solyman lives. </l>
         </sp>
-        <sp xml:id="ep000718-e31990">
+        <sp who="ep000718-solym" xml:id="ep000718-e31990">
           <speaker>Solym. </speaker>
           <l>And will our Prophet this Revenge maintain, </l>
           <l>And the Immortal Name take off all stain? </l>
         </sp>
-        <sp xml:id="ep000718-e32030">
+        <sp who="ep000718-muft" xml:id="ep000718-e32030">
           <speaker>Muft. </speaker>
           <l>So just a cause he does, and must defend. </l>
         </sp>
-        <sp xml:id="ep000718-e32060">
+        <sp who="ep000718-solym" xml:id="ep000718-e32060">
           <speaker>Solym. </speaker>
           <l>Then dear Religion, thou'rt a Lovers Friend: </l>
           <l>Kind Priest, my judgment does with thine conspire: </l>
@@ -3340,17 +3415,17 @@
           <l>To Paradice. There be as blest above, </l>
           <l>As thou wer't here in Isabella's Love. </l>
         </sp>
-        <sp xml:id="ep000718-e32230">
+        <sp who="ep000718-aster" xml:id="ep000718-e32230">
           <speaker>Aster. </speaker>
           <l>Oh Cruelty! who's he that in one breath </l>
           <l>Can talk of Paradice and Ibrahim's Death? </l>
         </sp>
-        <sp xml:id="ep000718-e32280">
+        <sp who="ep000718-mor" xml:id="ep000718-e32280">
           <speaker>Mor. </speaker>
           <l>I do not like her presence.— </l>
         </sp>
         <stage xml:id="ep000718-e32310">[Aside. </stage>
-        <sp xml:id="ep000718-e32320">
+        <sp who="ep000718-aster" xml:id="ep000718-e32320">
           <pb n="52" xml:id="ep000718-031-a"/>
           <speaker>Aster. </speaker>
           <l>Royal Sir, </l>
@@ -3359,11 +3434,11 @@
           <l>For you were always just, and God like good. </l>
           <l>Is it your pleasure Ibrahim should dye? </l>
         </sp>
-        <sp xml:id="ep000718-e32400">
+        <sp who="ep000718-solym" xml:id="ep000718-e32400">
           <speaker>Solym. </speaker>
           <l>My Injuries give him his Death, not I. </l>
         </sp>
-        <sp xml:id="ep000718-e32430">
+        <sp who="ep000718-aster" xml:id="ep000718-e32430">
           <speaker>Aster. </speaker>
           <l>Can you speak Death agen? a Crime so great, </l>
           <l>Twice in one day, one hour, one voyce repeat? </l>
@@ -3374,13 +3449,13 @@
           <l>I would my reason and my sence distrust; </l>
           <l>Rather than think that you can be unjust. </l>
         </sp>
-        <sp xml:id="ep000718-e32540">
+        <sp who="ep000718-solym" xml:id="ep000718-e32540">
           <speaker>Solym. </speaker>
           <l>False to thy blood, thus to oppose my will; </l>
           <l>Whence comes that heat that does these tears distill, </l>
           <l>Which fall when I a Criminals doom decree? </l>
         </sp>
-        <sp xml:id="ep000718-e32590">
+        <sp who="ep000718-aster" xml:id="ep000718-e32590">
           <speaker>Aster. </speaker>
           <l>Your Passion is that Criminal, not he. </l>
           <l>Oh Sultan! call your glories to your aide; </l>
@@ -3388,35 +3463,35 @@
           <l>Stains in your brightness will too monstrous shew. </l>
           <l>You were not rais'd so high, to fall so low, </l>
         </sp>
-        <sp xml:id="ep000718-e32670">
+        <sp who="ep000718-solym" xml:id="ep000718-e32670">
           <speaker>Solym. </speaker>
           <l>Heavens! Have I Crimes a Daughter dares impeach. </l>
           <l>Obey that will, you are too bold to teach. </l>
         </sp>
-        <sp xml:id="ep000718-e32710">
+        <sp who="ep000718-aster" xml:id="ep000718-e32710">
           <speaker>Aster. </speaker>
           <l>Save Ibrahim; and be as far obey'd </l>
           <l>As the Sun sees, and Natures limits spread. </l>
           <l>Repeal his Doom, speak but that one dear word, </l>
           <l>And be by all obey'd; by all ador'd. </l>
         </sp>
-        <sp xml:id="ep000718-e32780">
+        <sp who="ep000718-solym" xml:id="ep000718-e32780">
           <speaker>Solym. </speaker>
           <l>Can you that mercy for his Life implore; </l>
           <l>Whom his Ingratitude bids you abhor? </l>
         </sp>
-        <sp xml:id="ep000718-e32820">
+        <sp who="ep000718-aster" xml:id="ep000718-e32820">
           <speaker>Aster. </speaker>
           <l>O calm the rage of your Tempestuous will, </l>
           <l>And be a good and gracious Father still. </l>
         </sp>
-        <sp xml:id="ep000718-e32860">
+        <sp who="ep000718-solym" xml:id="ep000718-e32860">
           <speaker>Solym. </speaker>
           <l>Stand from my Arm, fond Girl; expect no more </l>
           <l>T'obtain his life than you can life restore. </l>
           <l>But hence— know my displeasure and retire. </l>
         </sp>
-        <sp xml:id="ep000718-e32910">
+        <sp who="ep000718-aster" xml:id="ep000718-e32910">
           <speaker>Aster. </speaker>
           <l>If you are Angry, raise your anger higher: </l>
           <l>For if my dearest Ibrahim must not live, </l>
@@ -3424,13 +3499,13 @@
           <l>Let me your Frowns, your Hate, your Curses have, </l>
           <l>All helps are kind that bring me near my Grave. </l>
         </sp>
-        <sp xml:id="ep000718-e32990">
+        <sp who="ep000718-solym" xml:id="ep000718-e32990">
           <pb n="53" xml:id="ep000718-031-b"/>
           <speaker>Solym. </speaker>
           <l>Hence with thy Pitty from my Anger flye: </l>
           <l>This wandring fire shall out; for he shall dye. </l>
         </sp>
-        <sp xml:id="ep000718-e33030">
+        <sp who="ep000718-aster" xml:id="ep000718-e33030">
           <speaker>Aster. </speaker>
           <l>Since I with Tears and Prayers in vain implore; </l>
           <l>Hear me but once, and I will speak no more. </l>
@@ -3449,7 +3524,7 @@
           <l>Where are you? stay! why have you made it Night? </l>
         </sp>
         <stage xml:id="ep000718-e33240">[Swounds away. </stage>
-        <sp xml:id="ep000718-e33250">
+        <sp who="ep000718-solym" xml:id="ep000718-e33250">
           <speaker>Solym. </speaker>
           <l>Fond Girl, thou hast my pitty— But— </l>
           <l>Remove her! and her stragling sence recall. </l>
@@ -3464,7 +3539,7 @@
         </sp>
         <stage xml:id="ep000718-e33370">[Is going. </stage>
         <stage xml:id="ep000718-e33380">Enter Roxolana. </stage>
-        <sp xml:id="ep000718-e33400">
+        <sp who="ep000718-roxol" xml:id="ep000718-e33400">
           <speaker>Roxol. </speaker>
           <l>Stay Sultan, stay. If Perjury you think, </l>
           <l>Is a mean crime at which the Gods can wink; </l>
@@ -3477,7 +3552,7 @@
           <l>Since on the Christian you my Crown bestow: </l>
           <l>I come to give the head that wore it too. </l>
         </sp>
-        <sp xml:id="ep000718-e33530">
+        <sp who="ep000718-solym" xml:id="ep000718-e33530">
           <speaker>Solym. </speaker>
           <l>Since the fair Christian then has been so kind, </l>
           <l>To tell you what my pleasure has design'd; </l>
@@ -3485,7 +3560,7 @@
           <l>Her word's your Fate; I Love her not so ill, </l>
           <l>To make her Voyce less than an Oracle. </l>
         </sp>
-        <sp xml:id="ep000718-e33590">
+        <sp who="ep000718-roxol" xml:id="ep000718-e33590">
           <speaker>Roxol. </speaker>
           <l>Your falsehood is not whisper'd at that rate, </l>
           <l>That I need learn your Crimes from her I hate. </l>
@@ -3494,14 +3569,14 @@
           <l>The prospect of my fall so open lyes, </l>
           <l>That I'm too well prepar'd for a surprize. </l>
         </sp>
-        <sp xml:id="ep000718-e33670">
+        <sp who="ep000718-solym" xml:id="ep000718-e33670">
           <speaker>Solym. </speaker>
           <l>Do not so highly, and so ill resent </l>
           <l>The loss of that which was not given, but lent. </l>
           <l>And when I take that which I lent before, </l>
           <l>I but my glories to their sourse restore. </l>
         </sp>
-        <sp xml:id="ep000718-e33730">
+        <sp who="ep000718-roxol" xml:id="ep000718-e33730">
           <speaker>Roxol. </speaker>
           <l>Can you plead reason for your Guilts defence? </l>
           <l>And thus Usurp the name of Innocence? </l>
@@ -3513,12 +3588,12 @@
           <l>Then I could bear my loss, and love you less. </l>
         </sp>
         <stage xml:id="ep000718-e33840">weeps </stage>
-        <sp xml:id="ep000718-e33850">
+        <sp who="ep000718-solym" xml:id="ep000718-e33850">
           <speaker>Solym. </speaker>
           <l>How tiresome does unwelcome kindness prove? </l>
           <l>Is there a Blessing, or a Plague like Love? </l>
         </sp>
-        <sp xml:id="ep000718-e33890">
+        <sp who="ep000718-roxol" xml:id="ep000718-e33890">
           <speaker>Roxol. </speaker>
           <l>Oh Treacherous eyes what has your weakness done? </l>
           <l>Can an Effiminate soft Tear run down </l>
@@ -3532,12 +3607,12 @@
           <l>Her great despair such glorious fury felt, </l>
           <l>As burst that heart which was too proud to melt. </l>
         </sp>
-        <sp xml:id="ep000718-e34030">
+        <sp who="ep000718-solym" xml:id="ep000718-e34030">
           <speaker>Solym. </speaker>
           <l>Hence from my sight: Take your vain Threats away: </l>
           <l>Know my fixt Resolution, and obey. </l>
         </sp>
-        <sp xml:id="ep000718-e34070">
+        <sp who="ep000718-roxol" xml:id="ep000718-e34070">
           <speaker>Roxol. </speaker>
           <l>Threaten'd to silence, and commanded hence! </l>
           <l>Ye Gods, must I be taught Obedience? </l>
@@ -3551,7 +3626,7 @@
           <l>Since empty greatness has this fading state, </l>
           <l>Why have I dreamt so long, or wak'd so late? </l>
         </sp>
-        <sp xml:id="ep000718-e34190">
+        <sp who="ep000718-solym" xml:id="ep000718-e34190">
           <speaker>Solym. </speaker>
           <l>What though you've rul'd an Age? The Sun and Stars, </l>
           <l>Tho' they have shin'd so many thousand years, </l>
@@ -3564,7 +3639,7 @@
           <l>So when this Universe in Dust shall lye, </l>
           <l>The Gods will be no more unjust than I. </l>
         </sp>
-        <sp xml:id="ep000718-e34310">
+        <sp who="ep000718-roxol" xml:id="ep000718-e34310">
           <speaker>Roxol. </speaker>
           <l>In that great day, Heav'n its Revenge will take; </l>
           <l>The World must burn for wicked Man kind's sake: </l>
@@ -3573,12 +3648,12 @@
           <l>Because't has shined too long on such as You. </l>
           <l>Then Perjury will meet it's last just due. </l>
         </sp>
-        <sp xml:id="ep000718-e34390">
+        <sp who="ep000718-solym" xml:id="ep000718-e34390">
           <speaker>Solym. </speaker>
           <l>This growing storm no longer I'le endure: </l>
           <l>Her Violent Rage must have a Violent Cure. </l>
         </sp>
-        <sp xml:id="ep000718-e34430">
+        <sp who="ep000718-roxol" xml:id="ep000718-e34430">
           <speaker>Roxol. </speaker>
           <l>But since the faithful Roxolana must </l>
           <l>Be Sacrific'd to please a Tyrants Lust: </l>
@@ -3597,22 +3672,22 @@
           <l>In all the mortal stroaks great Hearts sustain, </l>
           <l>Honour's the only part that bleeds with pain. </l>
         </sp>
-        <sp xml:id="ep000718-e34620">
+        <sp who="ep000718-solym" xml:id="ep000718-e34620">
           <pb n="56" xml:id="ep000718-033-a"/>
           <speaker>Solym. </speaker>
           <l>Take her away— I'le hear no more— </l>
         </sp>
         <stage xml:id="ep000718-e34650">[to Morat. </stage>
-        <sp xml:id="ep000718-e34670">
+        <sp who="ep000718-roxol" xml:id="ep000718-e34670">
           <speaker>Roxol. </speaker>
           <l>Bold Slave. </l>
         </sp>
         <stage xml:id="ep000718-e34700">[to Morat. </stage>
-        <sp xml:id="ep000718-e34720">
+        <sp who="ep000718-solym" xml:id="ep000718-e34720">
           <speaker>Solym. </speaker>
           <l>Begon! I will no longer hear her Rave. </l>
         </sp>
-        <sp xml:id="ep000718-e34750">
+        <sp who="ep000718-roxol" xml:id="ep000718-e34750">
           <speaker>Roxol. </speaker>
           <l>Villain! forbear. </l>
           <stage xml:id="ep000718-e34780">[to Morat. Draws a Dagger. </stage>
@@ -3624,7 +3699,7 @@
           <l>Approach me but with one bold look, and dye. </l>
         </sp>
         <stage xml:id="ep000718-e34870">Enter Ulama. </stage>
-        <sp xml:id="ep000718-e34890">
+        <sp who="ep000718-ulam" xml:id="ep000718-e34890">
           <speaker>Ulam. </speaker>
           <l>Hold Irreligious Slave. </l>
           <stage xml:id="ep000718-e34920">[to Morat. </stage>
@@ -3633,13 +3708,13 @@
           <l>And Madam, stay your hand: give not that blow </l>
           <l>For him too glorious, and for you too low. </l>
         </sp>
-        <sp xml:id="ep000718-e34980">
+        <sp who="ep000718-roxol" xml:id="ep000718-e34980">
           <speaker>Roxol. </speaker>
           <l>I thank you for the favour you have done; </l>
           <stage xml:id="ep000718-e35010">[Gives Ulama the Dagger, which he takes on his Knees. </stage>
           <l>You've Reason, but my Griefs have left me none. </l>
         </sp>
-        <sp xml:id="ep000718-e35040">
+        <sp who="ep000718-ulam" xml:id="ep000718-e35040">
           <speaker>Ulam. </speaker>
           <l>Sultan, I am unwilling to believe </l>
           <l>'Tis in Fates pow'r to make such Beauty grieve. </l>
@@ -3650,11 +3725,11 @@
           <l>Consider but how much of Heav'n dwells there, </l>
           <l>And call your self our Prophets Son and Heir. </l>
         </sp>
-        <sp xml:id="ep000718-e35150">
+        <sp who="ep000718-solym" xml:id="ep000718-e35150">
           <speaker>Solym. </speaker>
           <l>How Ulama! </l>
         </sp>
-        <sp xml:id="ep000718-e35190">
+        <sp who="ep000718-ulam" xml:id="ep000718-e35190">
           <speaker>Ulam. </speaker>
           <l>I am your Vertues Friend; </l>
           <l>And with my Blood that Vertue wou'd defend: </l>
@@ -3666,7 +3741,7 @@
           <l>Such influence lodges in that Heav'nly Frame, </l>
           <l>Her Smiles can deifie, and her Wrongs can damne. </l>
         </sp>
-        <sp xml:id="ep000718-e35300">
+        <sp who="ep000718-solym" xml:id="ep000718-e35300">
           <speaker>Solym. </speaker>
           <l>Persian! the World had never yet so bold </l>
           <l>A Man, as durst my pleasure have controul'd? </l>
@@ -3675,7 +3750,7 @@
           <l>To win thy Persian Crown, that durst have said </l>
           <l>Half this, their Lives for th' Insolence had paid. </l>
         </sp>
-        <sp xml:id="ep000718-e35390">
+        <sp who="ep000718-ulam" xml:id="ep000718-e35390">
           <speaker>Ulam. </speaker>
           <l>If all should dye that do abhor your Sin, </l>
           <l>The Massacre would make your Empire thin: </l>
@@ -3687,7 +3762,7 @@
           <l>Be just to her, that Heav'n may be appeas'd, </l>
           <l>And the afflicted groaning World be eas'd. </l>
         </sp>
-        <sp xml:id="ep000718-e35500">
+        <sp who="ep000718-solym" xml:id="ep000718-e35500">
           <speaker>Solym. </speaker>
           <l>Rash, desperate Sir, though you dare rage so high, </l>
           <l>My Charity's too great to let you dye. </l>
@@ -3696,7 +3771,7 @@
           <l>Your petulant Frenzy with your Chains I'le tame, </l>
           <l>And shrink you to that shade from whence you came. </l>
         </sp>
-        <sp xml:id="ep000718-e35580">
+        <sp who="ep000718-roxol" xml:id="ep000718-e35580">
           <speaker>Roxol. </speaker>
           <l>Hold generous Persian, you presume too high, </l>
           <l>If in my Cause, first ask my leave to dye. </l>
@@ -3707,7 +3782,7 @@
           <l>Sultan, no guiltless soul with mine shall flye: </l>
           <l>I'le quit my state, and singly glorious dye. </l>
         </sp>
-        <sp xml:id="ep000718-e35710">
+        <sp who="ep000718-ulam" xml:id="ep000718-e35710">
           <speaker>Ulam. </speaker>
           <l>Do not oppose me in so just a Cause: </l>
           <l>When he breaks Nature, Heav'n and Honours Laws </l>
@@ -3728,7 +3803,7 @@
           <l>To tell thee thou hast done a deed so damn'd, </l>
           <l>That thou hast made th'infernal Fiends asham'd. </l>
         </sp>
-        <sp xml:id="ep000718-e35910">
+        <sp who="ep000718-solym" xml:id="ep000718-e35910">
           <speaker>Solym. </speaker>
           <l>Bold man, thy blood— but 'tis too base to shed— </l>
           <l>Thy baseness from my arm protects thy head. </l>
@@ -3740,13 +3815,13 @@
           <l>And on the Wings of Fame I see thee born; </l>
           <l>Be worthy my Anger then; till then, my Scorn. </l>
         </sp>
-        <sp xml:id="ep000718-e36030">
+        <sp who="ep000718-ulam" xml:id="ep000718-e36030">
           <speaker>Ulam. </speaker>
           <l>I'le meet thee, land thy power Undaunted stand; </l>
           <l>Though thy Victorious Arms the World command, </l>
           <l>Thy Sword's grown weak, plac'd in a guilty hand. </l>
         </sp>
-        <sp xml:id="ep000718-e36080">
+        <sp who="ep000718-solym" xml:id="ep000718-e36080">
           <speaker>Solym. </speaker>
           <l>T'increase your Courage, think it weaker yet, </l>
           <l>And to chastise thy rudeness when we meet: </l>
@@ -3754,7 +3829,7 @@
           <l>I'le tell thee then thou art fit to fall by Me. </l>
         </sp>
         <stage xml:id="ep000718-e36140">[Exit Solym. </stage>
-        <sp xml:id="ep000718-e36160">
+        <sp who="ep000718-roxol" xml:id="ep000718-e36160">
           <speaker>Roxol. </speaker>
           <l>When Empress of the World, I stood on hallow'd ground, </l>
           <l>With all my pomp and greatness circl'd round; </l>
@@ -3768,7 +3843,7 @@
           <l>But in my Fall, where's that Devotion gone? </l>
           <l>Of all those thousands, Fate has left but one. </l>
         </sp>
-        <sp xml:id="ep000718-e36290">
+        <sp who="ep000718-ulam" xml:id="ep000718-e36290">
           <speaker>Ulam. </speaker>
           <l>So great your Merit, and your Slaves so few? </l>
           <l>Those thousands lost, be God-like, and raise new: </l>
@@ -3781,7 +3856,7 @@
           <l>Here at his Gates I will his Guilt defie: </l>
           <l>I, and my Persia, nay, the Gods and I— </l>
         </sp>
-        <sp xml:id="ep000718-e36420">
+        <sp who="ep000718-roxol" xml:id="ep000718-e36420">
           <pb n="59" xml:id="ep000718-034-b"/>
           <speaker>Roxol. </speaker>
           <l>Hold Angry Prince; your Zeal in my just Cause, </l>
@@ -3794,7 +3869,7 @@
           <l>His Foe is Roxolana's Enemy. </l>
           <stage xml:id="ep000718-e36530">[Exit Roxol. </stage>
         </sp>
-        <sp xml:id="ep000718-e36550">
+        <sp who="ep000718-ulam" xml:id="ep000718-e36550">
           <speaker>Ulam. </speaker>
           <l>Fool that I was to ask her, her consent; </l>
           <l>Without her leave, her ruin I'le prevent. </l>
@@ -3814,7 +3889,7 @@
         <head>ACT the FIFTH. </head>
         <head>The SCENE, a Chamber. </head>
         <stage xml:id="ep000718-e36740">Enter Ibrahim meeting Isabella and Morat. </stage>
-        <sp xml:id="ep000718-e36780">
+        <sp who="ep000718-morat" xml:id="ep000718-e36780">
           <speaker>Morat. </speaker>
           <l>SIr, from the Sultan I am hither sent, </l>
           <l>To Councel you your ruin to prevent. </l>
@@ -3824,16 +3899,16 @@
           <l>You have an hour allow'd for your reply. </l>
           <stage xml:id="ep000718-e36870">[Ex. Morat. </stage>
         </sp>
-        <sp xml:id="ep000718-e36890">
+        <sp who="ep000718-isabel" xml:id="ep000718-e36890">
           <speaker>Isabel. </speaker>
           <l>'Tis a hard choyce, you must be false, or dye! </l>
           <l>To save your Life, what is't I would not give? </l>
         </sp>
-        <sp xml:id="ep000718-e36930">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e36930">
           <speaker>Ibrah. </speaker>
           <l>What would you have me quit your Love, &amp; Live! </l>
         </sp>
-        <sp xml:id="ep000718-e36960">
+        <sp who="ep000718-isabel" xml:id="ep000718-e36960">
           <speaker>Isabel. </speaker>
           <l>No; though I value you so high, above </l>
           <l>My Ibrahims Life, I prize my Ibrahims Love. </l>
@@ -3846,7 +3921,7 @@
           <l>Weak are his Threats, and vain his subtlest Art; </l>
           <l>His Tyranny may all but Lovers part. </l>
         </sp>
-        <sp xml:id="ep000718-e37090">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e37090">
           <speaker>Ibrah. </speaker>
           <l>Do I not dye to seal my Faith to you? </l>
           <l>What juster act, what braver can I do? </l>
@@ -3859,7 +3934,7 @@
           <l>And we who Beauties infinite pow'r adore, </l>
           <l>For great Almighty Love can do no more. </l>
         </sp>
-        <sp xml:id="ep000718-e37210">
+        <sp who="ep000718-isabel" xml:id="ep000718-e37210">
           <speaker>Isabel. </speaker>
           <l>But can I say I love, and bid you dye? </l>
           <l>No! for your safety this one Art I'le try; </l>
@@ -3876,7 +3951,7 @@
           <l>Leave Death to me, and think my Life well given, </l>
           <l>At once in saying you, and serving Heav'n. </l>
         </sp>
-        <sp xml:id="ep000718-e37400">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e37400">
           <speaker>Ibrah. </speaker>
           <l>These melting sounds all sence of Death destroy; </l>
           <l>Who wou'd not choose my Fate, for half my Joy? </l>
@@ -3886,7 +3961,7 @@
           <l>Will make him dare to shed your precious blood; </l>
           <l>No; my best life, he must not, if he cou'd. </l>
         </sp>
-        <sp xml:id="ep000718-e37490">
+        <sp who="ep000718-isabel" xml:id="ep000718-e37490">
           <speaker>Isabel. </speaker>
           <l>Must I so tamely then behold your Fall? </l>
           <l>No, 'gainst your Murderer I'le muster all </l>
@@ -3900,21 +3975,21 @@
           <l>Kind Heav'n, let but this span of Life be blest, </l>
           <l>Love reign this hour, and horror all the rest. </l>
         </sp>
-        <sp xml:id="ep000718-e37610">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e37610">
           <speaker>Ibrah. </speaker>
           <l>Best of thy Sex! </l>
           <stage xml:id="ep000718-e37640">[Embracing her. </stage>
           <l>But I in vain shall this short Tryumph boast, </l>
           <l>Gazing on what must be for ever lost. </l>
         </sp>
-        <sp xml:id="ep000718-e37670">
+        <sp who="ep000718-isabel" xml:id="ep000718-e37670">
           <speaker>Isabel. </speaker>
           <l>For ever? why! can death destroy our Love? </l>
           <l>Shall we not meet, and be as blest above? </l>
           <l>Cease Sir, oh cease this too unkind despair, </l>
           <l>Are there all Joys in Heav'n, and Love not there? </l>
         </sp>
-        <sp xml:id="ep000718-e37730">
+        <sp who="ep000718-ibrahim" xml:id="ep000718-e37730">
           <speaker>Ibrahim. </speaker>
           <l>Fill'd with that hope, I'le my short time improve, </l>
           <l>And sum an Ages bliss in one hours Love. </l>
@@ -3933,12 +4008,12 @@
           <l>That such another look will make me grow </l>
           <l>Too fond of Life ever to let you go. </l>
         </sp>
-        <sp xml:id="ep000718-e37910">
+        <sp who="ep000718-isabel" xml:id="ep000718-e37910">
           <speaker>Isabel. </speaker>
           <l>Great blessings like swift torrents always run </l>
           <l>Too rapid to stay long. </l>
         </sp>
-        <sp xml:id="ep000718-e37950">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e37950">
           <speaker>Ibrah. </speaker>
           <l>What have I done? </l>
           <l>Restore those pleasing looks, give me your hand agen, </l>
@@ -3953,13 +4028,13 @@
         </sp>
         <stage xml:id="ep000718-e38070">
           <pb n="62" xml:id="ep000718-036-a"/>Enter Asteria, Mirva, and Morat. </stage>
-        <sp xml:id="ep000718-e38100">
+        <sp who="ep000718-aster" xml:id="ep000718-e38100">
           <speaker>Aster. </speaker>
           <l>So close, so kind! how happy should I be. </l>
           <stage xml:id="ep000718-e38130">[aside entring. </stage>
           <l>Were half this dear Devotion paid to me? </l>
         </sp>
-        <sp xml:id="ep000718-e38150">
+        <sp who="ep000718-mor" xml:id="ep000718-e38150">
           <speaker>Mor. </speaker>
           <l>Madam, the Sultans orders were severe, </l>
           <l>But Solymans command admits you here, </l>
@@ -3972,20 +4047,20 @@
           <l>The Sultans hopes be Crown'd the gentler way. </l>
           <stage xml:id="ep000718-e38310">[Exit. </stage>
         </sp>
-        <sp xml:id="ep000718-e38320">
+        <sp who="ep000718-aster" xml:id="ep000718-e38320">
           <speaker>Aster. </speaker>
           <l>Though life and happiness must ne're be mine, </l>
           <l>Yet I'le take care that I'le secure 'em thine. </l>
           <l>Accept that! </l>
         </sp>
         <stage xml:id="ep000718-e38370">Mirva gives him a Sword. </stage>
-        <sp xml:id="ep000718-e38390">
+        <sp who="ep000718-mirv" xml:id="ep000718-e38390">
           <speaker>Mirv. </speaker>
           <l>Sent from Roxolana's hand. </l>
           <l>This Princess Love conspires with her command. </l>
           <l>They've both design'd your freedom to redeem. </l>
         </sp>
-        <sp xml:id="ep000718-e38450">
+        <sp who="ep000718-aster" xml:id="ep000718-e38450">
           <speaker>Aster. </speaker>
           <l>Which to effect, we've found this Stratagem. </l>
           <l>Though of your Fate, this is th'appointed Scene, </l>
@@ -3993,13 +4068,13 @@
           <l>His Friend and Vizier, you're allow'd this Grace; </l>
           <l>None but Morat has entrance to this place. </l>
         </sp>
-        <sp xml:id="ep000718-e38530">
+        <sp who="ep000718-mirv" xml:id="ep000718-e38530">
           <speaker>Mirv. </speaker>
           <l>The Mutes, th'intended Murderers, wait all </l>
           <l>Without, at distance, and beyond his call; </l>
           <l>And but approach that minute when you fall. </l>
         </sp>
-        <sp xml:id="ep000718-e38580">
+        <sp who="ep000718-aster" xml:id="ep000718-e38580">
           <speaker>Aster. </speaker>
           <l>When False Morat returns to take her hence; </l>
           <l>Produce this Weapon as your last defence. </l>
@@ -4010,14 +4085,14 @@
           <l>The Guards too, not suspecting an escape, </l>
           <l>Will let you pass deluded by that shape. </l>
         </sp>
-        <sp xml:id="ep000718-e38690">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e38690">
           <speaker>Ibrah. </speaker>
           <l>Alas! I was before a Bankrupt made, </l>
           <l>And owed too much where I'had so little paid: </l>
           <l>But now your goodness swells the Debt so high, </l>
           <l>That I with shame must Live— </l>
         </sp>
-        <sp xml:id="ep000718-e38750">
+        <sp who="ep000718-aster" xml:id="ep000718-e38750">
           <speaker>Aster. </speaker>
           <l>Shame! Dear Sir, why? </l>
           <l>You owe me nothing: By Religious tyes, </l>
@@ -4026,7 +4101,7 @@
           <l>Its rescue and defence should be the care </l>
           <l>Of all Man kind; and that's my bus'ness here. </l>
         </sp>
-        <sp xml:id="ep000718-e38820">
+        <sp who="ep000718-isabel" xml:id="ep000718-e38820">
           <speaker>Isabel. </speaker>
           <l>Thou art so excellently good, thou best </l>
           <l>Of Rivals, so much Heav'n dwells in thy Breast. </l>
@@ -4034,30 +4109,30 @@
           <l>All my best thoughts, and half my prayers are thine. </l>
         </sp>
         <stage xml:id="ep000718-e38880">Enter Morat. </stage>
-        <sp xml:id="ep000718-e38900">
+        <sp who="ep000718-mor" xml:id="ep000718-e38900">
           <speaker>Mor. </speaker>
           <l>I come to tell you that your hour is past! ha </l>
         </sp>
         <stage xml:id="ep000718-e38930">[starts. </stage>
-        <sp xml:id="ep000718-e38940">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e38940">
           <speaker>Ibrah. </speaker>
           <l>Keep in thy tongue, or speaking speak thy last. </l>
         </sp>
-        <sp xml:id="ep000718-e38970">
+        <sp who="ep000718-morat" xml:id="ep000718-e38970">
           <speaker>Morat. </speaker>
           <l>How came you by that Sword? </l>
         </sp>
         <stage xml:id="ep000718-e39000">[Ibrah. gets between him and the Door. </stage>
-        <sp xml:id="ep000718-e39020">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39020">
           <speaker>Ibrah. </speaker>
           <l>No matter how; </l>
           <l>Jaylor, my Flight must be contriv'd by you. </l>
         </sp>
-        <sp xml:id="ep000718-e39060">
+        <sp who="ep000718-morat" xml:id="ep000718-e39060">
           <speaker>Morat. </speaker>
           <l>Your Flight! </l>
         </sp>
-        <sp xml:id="ep000718-e39090">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39090">
           <speaker>Ibrah. </speaker>
           <l>'Tis a proposal may seem strange: </l>
           <l>But Sir, we two our habits must exchange, </l>
@@ -4065,48 +4140,48 @@
           <l>Till by your shape we move t'a safer ground. </l>
           <l>If at this price you'l buy your Life, you may. </l>
         </sp>
-        <sp xml:id="ep000718-e39160">
+        <sp who="ep000718-morat" xml:id="ep000718-e39160">
           <speaker>Morat. </speaker>
           <l>What do you think to frighten me to play </l>
           <l>The Traytor? </l>
         </sp>
-        <sp xml:id="ep000718-e39200">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39200">
           <speaker>Ibrah. </speaker>
           <l>Know, 'tis Death to disobey— </l>
         </sp>
-        <sp xml:id="ep000718-e39230">
+        <sp who="ep000718-morat" xml:id="ep000718-e39230">
           <speaker>Morat. </speaker>
           <l>Submit to save my Life for one hours time, </l>
           <l>To dye the next by tortures for my Crime! </l>
           <l>No; though your Arm is so renown'd, I'le try </l>
           <l>My chance for Life.— </l>
         </sp>
-        <sp xml:id="ep000718-e39290">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39290">
           <speaker>Ibrah. </speaker>
           <l>Then take thy choyce and dye. </l>
         </sp>
         <stage xml:id="ep000718-e39320">[they fight. </stage>
-        <sp xml:id="ep000718-e39330">
+        <sp who="ep000718-aster" xml:id="ep000718-e39330">
           <speaker>Aster. </speaker>
           <l>Hold Villain, hold! how dare you lift an arm </l>
           <l>Against his Life. </l>
         </sp>
         <stage xml:id="ep000718-e39370">[Interposing. </stage>
-        <sp xml:id="ep000718-e39380">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39380">
           <speaker>Ibrah. </speaker>
           <l>Dear Madam! fear no harm. </l>
         </sp>
-        <sp xml:id="ep000718-e39410">
+        <sp who="ep000718-mor" xml:id="ep000718-e39410">
           <speaker>Mor. </speaker>
           <l>How dare you Save what Solyman Condemnes? </l>
         </sp>
         <stage xml:id="ep000718-e39450">[to Aster, </stage>
-        <sp xml:id="ep000718-e39460">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39460">
           <speaker>Ibrah. </speaker>
           <l>Do not dispute her goodness, nor my Crimes, </l>
           <l>But yield and Live— </l>
         </sp>
-        <sp xml:id="ep000718-e39500">
+        <sp who="ep000718-mor" xml:id="ep000718-e39500">
           <speaker>Mor. </speaker>
           <l>Yield! no, at thy false heart; </l>
           <stage xml:id="ep000718-e39530">[fights agen. </stage>
@@ -4115,21 +4190,21 @@
           <l>In all my hopes, all my Ambition crost! </l>
           <l>By a fond foolish Girl betray'd and lost. </l>
         </sp>
-        <sp xml:id="ep000718-e39580">
+        <sp who="ep000718-aster" xml:id="ep000718-e39580">
           <speaker>Aster. </speaker>
           <l>You are not wounded? </l>
         </sp>
-        <sp xml:id="ep000718-e39610">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39610">
           <pb n="64" xml:id="ep000718-037-a"/>
           <speaker>Ibrah. </speaker>
           <l>No! you Genius was my guard. </l>
         </sp>
-        <sp xml:id="ep000718-e39640">
+        <sp who="ep000718-mor" xml:id="ep000718-e39640">
           <speaker>Mor. </speaker>
           <l>Thou Treacherous Fool, take that for thy reward. </l>
         </sp>
         <stage xml:id="ep000718-e39670">[Kills <hi>Aster. </hi>and falls. </stage>
-        <sp xml:id="ep000718-e39690">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39690">
           <speaker>Ibrah. </speaker>
           <l>Down to thy Hell, and there in torments howl: </l>
           <stage xml:id="ep000718-e39720">[Sticking him to the ground. </stage>
@@ -4138,20 +4213,20 @@
           <l>Then to ordain your Fate from such a hand, </l>
           <l>Say you're not hurt? </l>
         </sp>
-        <sp xml:id="ep000718-e39770">
+        <sp who="ep000718-aster" xml:id="ep000718-e39770">
           <speaker>Aster. </speaker>
           <l>No! let your trouble cease! </l>
           <l>He has only sent a wretched thing to peace. </l>
         </sp>
-        <sp xml:id="ep000718-e39810">
+        <sp who="ep000718-isabel" xml:id="ep000718-e39810">
           <speaker>Isabel. </speaker>
           <l>She bleeds, she bleeds! </l>
         </sp>
-        <sp xml:id="ep000718-e39840">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39840">
           <speaker>Ibrah. </speaker>
           <l>Oh! this detested hour! </l>
         </sp>
-        <sp xml:id="ep000718-e39870">
+        <sp who="ep000718-aster" xml:id="ep000718-e39870">
           <speaker>Aster. </speaker>
           <l>Alas Sir! I was dying long before. </l>
           <l>Deaths cold hand strook me when I first lost you, </l>
@@ -4159,60 +4234,60 @@
           <l>Then do not Sir this happy stroke deplore, </l>
           <l>That ends a tedious Journey in an hour. </l>
         </sp>
-        <sp xml:id="ep000718-e39940">
+        <sp who="ep000718-isabel" xml:id="ep000718-e39940">
           <speaker>Isabel. </speaker>
           <l>A Lovers absence, and a Fathers hate, </l>
           <l>My three years pains were easie to this weight. </l>
           <l>Horror ne're seiz'd me in this dismal shape. </l>
         </sp>
-        <sp xml:id="ep000718-e39990">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e39990">
           <speaker>Ibrah. </speaker>
           <l>Infernal Dog! </l>
         </sp>
-        <sp xml:id="ep000718-e40020">
+        <sp who="ep000718-aster" xml:id="ep000718-e40020">
           <speaker>Aster. </speaker>
           <l>Think, think of your escape. </l>
         </sp>
-        <sp xml:id="ep000718-e40050">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40050">
           <speaker>Ibrah. </speaker>
           <l>Is an escape a fit reward for him, </l>
           <l>Who bears the weight of my accursed Crime? </l>
         </sp>
-        <sp xml:id="ep000718-e40090">
+        <sp who="ep000718-aster" xml:id="ep000718-e40090">
           <speaker>Aster. </speaker>
           <l>My Death is not your Crime. Kind dear Sir, flye; </l>
           <l>Oh do not stay! leave me alone to dye. </l>
         </sp>
-        <sp xml:id="ep000718-e40130">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40130">
           <speaker>Ibrah. </speaker>
           <l>Desert you! </l>
         </sp>
-        <sp xml:id="ep000718-e40160">
+        <sp who="ep000718-aster" xml:id="ep000718-e40160">
           <speaker>Aster. </speaker>
           <l>I conjure you do not stay. </l>
           <l>I'th path to Heav'n the Good can never stray; </l>
           <l>I need no help to guide me in my way. </l>
         </sp>
-        <sp xml:id="ep000718-e40210">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40210">
           <speaker>Ibrah. </speaker>
           <l>How can I flye? </l>
         </sp>
-        <sp xml:id="ep000718-e40240">
+        <sp who="ep000718-aster" xml:id="ep000718-e40240">
           <speaker>Aster. </speaker>
           <l>This unkind language cease; </l>
           <l>Fly as you'd have my Soul in Heav'n find peace. </l>
         </sp>
-        <sp xml:id="ep000718-e40280">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40280">
           <speaker>Ibrah. </speaker>
           <l>How can I promise you? </l>
         </sp>
-        <sp xml:id="ep000718-e40310">
+        <sp who="ep000718-aster" xml:id="ep000718-e40310">
           <speaker>Aster. </speaker>
           <l>Oh Sir! you must. </l>
           <l>Will you deny me Rest when I am Dust? </l>
           <l>Is saving of your Life so hard? </l>
         </sp>
-        <sp xml:id="ep000718-e40360">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40360">
           <speaker>Ibrah. </speaker>
           <l>Is leaving you </l>
           <l>So easie? basely to desert you now: </l>
@@ -4220,18 +4295,18 @@
           <l>And guard my forfeit blood when I have been </l>
           <l>A fatal instrument in shedding thine? </l>
         </sp>
-        <sp xml:id="ep000718-e40420">
+        <sp who="ep000718-aster" xml:id="ep000718-e40420">
           <speaker>Aster. </speaker>
           <l>Nay, then I'm destin'd to dye wretched; all </l>
           <l>I beg'd of Heaven, was to divert your fall. </l>
           <l>My saving Ibrahim's Life was all my pride: </l>
           <l>And must that only blessing be deny'd? </l>
         </sp>
-        <sp xml:id="ep000718-e40490">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40490">
           <speaker>Ibrah. </speaker>
           <l>Well Madam! I'le submit to any thing. </l>
         </sp>
-        <sp xml:id="ep000718-e40520">
+        <sp who="ep000718-aster" xml:id="ep000718-e40520">
           <speaker>Aster. </speaker>
           <l>Now with an Angels voyce I hear you speak; </l>
           <l>And at that word my heart-strings gently break. </l>
@@ -4243,14 +4318,14 @@
           <l>But, oh, my Joy's too violent to last. </l>
         </sp>
         <stage xml:id="ep000718-e40640">[dies. </stage>
-        <sp xml:id="ep000718-e40650">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40650">
           <speaker>Ibrah. </speaker>
           <l>She's gone! Yes, generous Saint, I'le do thee right, </l>
           <l>But if I flye, my Death must be my flight. </l>
           <l>I'm too much loaded with my shame and grief, </l>
           <l>To leave this killing fight to save a life. </l>
         </sp>
-        <sp xml:id="ep000718-e40710">
+        <sp who="ep000718-isabel" xml:id="ep000718-e40710">
           <speaker>Isabel. </speaker>
           <l>Farewell unhappy Maid, sure there must be </l>
           <l>No common joys above reserv'd for thee; </l>
@@ -4258,57 +4333,57 @@
           <l>Heav'ns debts are certain, though the payment's slow. </l>
         </sp>
         <stage xml:id="ep000718-e40770">Enter a Bassa, as sent from Solyman. </stage>
-        <sp xml:id="ep000718-e40800">
+        <sp who="ep000718-bassa" xml:id="ep000718-e40800">
           <speaker>Bassa. </speaker>
           <l>Morat stays long: What's here! Guards, Guards. </l>
         </sp>
         <stage xml:id="ep000718-e40840">[Exit Bassa retreating at the same door he enterd. </stage>
-        <sp xml:id="ep000718-e40860">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40860">
           <speaker>Ibrah. </speaker>
           <l>Stay! stay! </l>
           <l>I am your Prisoner, and your pow'r obey: </l>
           <l>Alas! there needs no Crowds to take me now. </l>
         </sp>
         <stage xml:id="ep000718-e40910">Re-enter the Bassa with Guards. </stage>
-        <sp xml:id="ep000718-e40930">
+        <sp who="ep000718-bassa" xml:id="ep000718-e40930">
           <speaker>Bassa. </speaker>
           <l>Seize him. </l>
         </sp>
         <stage xml:id="ep000718-e40960">[Guards seize him. </stage>
-        <sp xml:id="ep000718-e40980">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e40980">
           <speaker>Ibrah. </speaker>
           <l>It is the kindest office you can do. </l>
         </sp>
-        <sp xml:id="ep000718-e41010">
+        <sp who="ep000718-bassa" xml:id="ep000718-e41010">
           <speaker>Bassa. </speaker>
           <l>Remove the Bodys hence, </l>
           <l>And keep those Prisoners safe till my return; </l>
           <l>Till from the Sultan's will their Fates I learn. </l>
         </sp>
         <stage xml:id="ep000718-e41070">[Exit Ibrahim and Isabel. led in by Guards; part of the Guards carry off Morat and Asteria, and the Bassa returns at the same door he entred at. <hi>Manet, Mirva</hi>. </stage>
-        <sp xml:id="ep000718-e41140">
+        <sp who="ep000718-mirv" xml:id="ep000718-e41140">
           <speaker>Mirv. </speaker>
           <l>How dismally to Roxolana's ear </l>
           <l>Will this strange story sound. But see, she's here. </l>
         </sp>
         <stage xml:id="ep000718-e41190">
           <pb n="66" xml:id="ep000718-038-a"/>Enter Roxolana. </stage>
-        <sp xml:id="ep000718-e41210">
+        <sp who="ep000718-roxol" xml:id="ep000718-e41210">
           <speaker>Roxol. </speaker>
           <l>Have I success? Is Isabella fled? </l>
           <l>Has that dire Planet hid its threatning head? </l>
           <l>I fear thy Answer will not be so kind: </l>
           <l>An Ominous load hangs on my burden'd mind. </l>
         </sp>
-        <sp xml:id="ep000718-e41280">
+        <sp who="ep000718-mirv" xml:id="ep000718-e41280">
           <speaker>Mirv. </speaker>
           <l>Let me in silence my Allegiance pay. </l>
         </sp>
-        <sp xml:id="ep000718-e41310">
+        <sp who="ep000718-roxol" xml:id="ep000718-e41310">
           <speaker>Roxol. </speaker>
           <l>No, Mirva: speak the worst thou hast to say. </l>
         </sp>
-        <sp xml:id="ep000718-e41350">
+        <sp who="ep000718-mirv" xml:id="ep000718-e41350">
           <speaker>Mirv. </speaker>
           <l>The fair Asteria's dead, kill'd by Morat: </l>
           <l>But in revenge of her unhappy Fate; </l>
@@ -4317,7 +4392,7 @@
           <l>Let it suffice, they're kept in stricter chains; </l>
           <l>And now no hope of liberty remains. </l>
         </sp>
-        <sp xml:id="ep000718-e41460">
+        <sp who="ep000718-roxol" xml:id="ep000718-e41460">
           <speaker>Roxol. </speaker>
           <l>Poor Innocence! </l>
           <l>What Tears would thy unhappy Mother pay, </l>
@@ -4335,11 +4410,11 @@
           <l>Zarma, the Cup. </l>
           <l>This, this my Guard shall be. </l>
         </sp>
-        <sp xml:id="ep000718-e41690">
+        <sp who="ep000718-mirv" xml:id="ep000718-e41690">
           <speaker>Mirv. </speaker>
           <l>Oh Madam, what do you design? </l>
         </sp>
-        <sp xml:id="ep000718-e41720">
+        <sp who="ep000718-roxol" xml:id="ep000718-e41720">
           <speaker>Roxol. </speaker>
           <l>To dye! </l>
           <l>From scorn and shame, to peace and Heav'n I'le flye. </l>
@@ -4348,7 +4423,7 @@
         </sp>
         <stage xml:id="ep000718-e41780">Drinks the Poyson. </stage>
         <stage xml:id="ep000718-e41790">Enter Ulama. </stage>
-        <sp xml:id="ep000718-e41810">
+        <sp who="ep000718-ulam" xml:id="ep000718-e41810">
           <speaker>Ulam. </speaker>
           <l>I'le try what Vengeance joyn'd with Love can do; </l>
           <l>'Tis th'only glorious path that's left me now. </l>
@@ -4363,7 +4438,7 @@
           <l>Oh pardon what my duty does create, </l>
           <l>A Tribute due to Roxolana's Fate. </l>
         </sp>
-        <sp xml:id="ep000718-e41980">
+        <sp who="ep000718-roxol" xml:id="ep000718-e41980">
           <speaker>Roxol. </speaker>
           <l>You are my Friend, and, Sir, to treat you so, </l>
           <l>Take my last secret with you when you go. </l>
@@ -4372,25 +4447,25 @@
           <l>No wicked hand shall snatch my Diadem now, </l>
           <l>My Guardian Angel hovers round my brow. </l>
         </sp>
-        <sp xml:id="ep000718-e42060">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42060">
           <speaker>Ulam. </speaker>
           <l>Oh Madam, speak agen; </l>
           <l>Say, has your Beauty his Conversion wrought? </l>
           <l>Is his new Love that Meteor-light put out? </l>
           <l>And have your brighter looks restor'd the day? </l>
         </sp>
-        <sp xml:id="ep000718-e42120">
+        <sp who="ep000718-roxol" xml:id="ep000718-e42120">
           <speaker>Roxol. </speaker>
           <l>No, my protection comes a safer way. </l>
           <l>A draught of Poyson I have took: I scorn </l>
           <l>To have my glories from my Temples torne, </l>
           <l>And Roman-like do my own Fate command. </l>
         </sp>
-        <sp xml:id="ep000718-e42180">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42180">
           <speaker>Ulam. </speaker>
           <l>Poyson'd! and by that fair, but fatal hand! </l>
         </sp>
-        <sp xml:id="ep000718-e42210">
+        <sp who="ep000718-roxol" xml:id="ep000718-e42210">
           <speaker>Roxol. </speaker>
           <l>Yet though my death's so sure determin'd, I </l>
           <l>Have still one hour of Life before I dye. </l>
@@ -4398,12 +4473,12 @@
           <l>To my false King that parting story tell, </l>
           <l>Shall sting his Soul! </l>
         </sp>
-        <sp xml:id="ep000718-e42280">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42280">
           <speaker>Ulam. </speaker>
           <l>What has your fury done? </l>
           <l>Through those soft Veins must th'impious Poyson run? </l>
         </sp>
-        <sp xml:id="ep000718-e42320">
+        <sp who="ep000718-roxol" xml:id="ep000718-e42320">
           <speaker>Roxol. </speaker>
           <l>Impious! no, Sacred was the word you meant; </l>
           <l>An act so pious might become a Saint. </l>
@@ -4411,7 +4486,7 @@
           <l>I like a Pilot see the rising storm; </l>
           <l>And wisely take my threaten'd glorys in. </l>
         </sp>
-        <sp xml:id="ep000718-e42390">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42390">
           <speaker>Ulam. </speaker>
           <l>Must all Man kind be punisht for his sin? </l>
           <l>The World's a sufferer in your Tragick Fate; </l>
@@ -4424,7 +4499,7 @@
           <l>Which that bright frame of Warring Elements built? </l>
           <l>Such goodness in your eyes, and in your hand such guilt. </l>
         </sp>
-        <sp xml:id="ep000718-e42500">
+        <sp who="ep000718-roxol" xml:id="ep000718-e42500">
           <speaker>Roxol. </speaker>
           <l>How! is't a torment to you, to behold </l>
           <l>My greatness unconfin'd and uncontroll'd; </l>
@@ -4434,11 +4509,11 @@
           <l>And can thy narrow Soul this Councel give, </l>
           <l>That Roxolana should her pow'r out-live? </l>
         </sp>
-        <sp xml:id="ep000718-e42600">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42600">
           <speaker>Ulam. </speaker>
           <l>Madam, no more. </l>
         </sp>
-        <sp xml:id="ep000718-e42630">
+        <sp who="ep000718-roxol" xml:id="ep000718-e42630">
           <speaker>Roxol. </speaker>
           <l>When for an act so great </l>
           <l>The crowding Gods their Royal Guest shall meet; </l>
@@ -4448,12 +4523,12 @@
           <l>From my bright Constellation I'le look down, </l>
           <l>And all my Stars shall blast thee when I frown. </l>
         </sp>
-        <sp xml:id="ep000718-e42720">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42720">
           <speaker>Ulam. </speaker>
           <l>Oh cease your Anger, rather then I'le bring </l>
           <l>That Curse upon me, I'le say any thing. </l>
         </sp>
-        <sp xml:id="ep000718-e42760">
+        <sp who="ep000718-roxol" xml:id="ep000718-e42760">
           <speaker>Roxol. </speaker>
           <l>Have I no more applause! mistaken Prince, </l>
           <l>For once I'le stoop, thy Error to convince. </l>
@@ -4468,7 +4543,7 @@
           <l>All Earthly glory does perfection want: </l>
           <l>Here 'tis but glass; in Heaven 'tis Adamant. </l>
         </sp>
-        <sp xml:id="ep000718-e42910">
+        <sp who="ep000718-ulam" xml:id="ep000718-e42910">
           <speaker>Ulam. </speaker>
           <l>Hold Madam! I'm a Convert, and must own </l>
           <l>th'Impoverish'D World so bravely you've undone, </l>
@@ -4485,7 +4560,7 @@
           <l>Hide not those Eyes! do not my Heav'n remove: </l>
           <l>Now I with Innocence may own I Love. </l>
         </sp>
-        <sp xml:id="ep000718-e43060">
+        <sp who="ep000718-roxol" xml:id="ep000718-e43060">
           <speaker>Roxol. </speaker>
           <l>Because my Death's so near, </l>
           <l>Dare you thus rudely Roxolana treat; </l>
@@ -4493,7 +4568,7 @@
           <l>I've still the Pride to scorn a Slave so bold, </l>
           <l>In my last spark of life I still my lightning hold. </l>
         </sp>
-        <sp xml:id="ep000718-e43140">
+        <sp who="ep000718-ulam" xml:id="ep000718-e43140">
           <speaker>Ulam. </speaker>
           <l>Oh do not think that I durst ever frame </l>
           <l>One thought or wish against your Sacred Name. </l>
@@ -4505,13 +4580,13 @@
           <l>I fear you less? No, now you stand more high; </l>
           <l>Your greatness points like Mountains tow'rds the sky. </l>
         </sp>
-        <sp xml:id="ep000718-e43250">
+        <sp who="ep000718-roxol" xml:id="ep000718-e43250">
           <speaker>Roxol. </speaker>
           <l>If with such silence you your pains receiv'd, </l>
           <l>How dare you dye more guilty than you liv'd? </l>
           <l>How came you now to find a Tongue? </l>
         </sp>
-        <sp xml:id="ep000718-e43300">
+        <sp who="ep000718-ulam" xml:id="ep000718-e43300">
           <speaker>Ulam. </speaker>
           <l>Oh now </l>
           <l>My love runs pure when my last blood streams too. </l>
@@ -4527,29 +4602,29 @@
           <l>One blessing let my parting sighs implore. </l>
           <l>That little step let my Ambition climb. </l>
         </sp>
-        <sp xml:id="ep000718-e43450">
+        <sp who="ep000718-roxol" xml:id="ep000718-e43450">
           <speaker>Roxol. </speaker>
           <l>Well Sir, you have my pardon for your Crime. </l>
         </sp>
-        <sp xml:id="ep000718-e43480">
+        <sp who="ep000718-ulam" xml:id="ep000718-e43480">
           <speaker>Ulam. </speaker>
           <l>And is my Pardon all? a little higher </l>
           <l>Let your poor humble dying Slave aspire. </l>
         </sp>
-        <sp xml:id="ep000718-e43520">
+        <sp who="ep000718-roxol" xml:id="ep000718-e43520">
           <speaker>Roxol. </speaker>
           <l>Then Prince— </l>
         </sp>
-        <sp xml:id="ep000718-e43550">
+        <sp who="ep000718-ulam" xml:id="ep000718-e43550">
           <speaker>Ulam. </speaker>
           <l>Oh speak! </l>
         </sp>
-        <sp xml:id="ep000718-e43580">
+        <sp who="ep000718-roxol" xml:id="ep000718-e43580">
           <pb n="70" xml:id="ep000718-040-a"/>
           <speaker>Roxol. </speaker>
           <l>You have my pitty too. </l>
         </sp>
-        <sp xml:id="ep000718-e43610">
+        <sp who="ep000718-ulam" xml:id="ep000718-e43610">
           <speaker>Ulam. </speaker>
           <l>Dear divine Excellence, you've rais'd me now </l>
           <l>To all the joyes e're fill'd a Lovers breast; </l>
@@ -4559,14 +4634,14 @@
           <stage xml:id="ep000718-e43680">Enter Solyman and the former Bassa. </stage>
           <l>Her Tyrant here! </l>
         </sp>
-        <sp xml:id="ep000718-e43720">
+        <sp who="ep000718-solym" xml:id="ep000718-e43720">
           <speaker>Solym. </speaker>
           <l>My Daughter kill'd in Ibrahim's defence; </l>
           <l>How strangely am I crost by Providence! </l>
           <l>Yet no ill Fate can drive my Princess Image hence. </l>
           <l>My Vizier still must dye, and Love will have it so. </l>
         </sp>
-        <sp xml:id="ep000718-e43790">
+        <sp who="ep000718-ulam" xml:id="ep000718-e43790">
           <speaker>Ulam. </speaker>
           <l>Turn Tyrant, turn; see what your guilt dares do. </l>
           <l>That Beauteous form has not an hour of Life, </l>
@@ -4585,7 +4660,7 @@
           <l>I will pursue my never dying Love. </l>
         </sp>
         <stage xml:id="ep000718-e43960">[dyes. </stage>
-        <sp xml:id="ep000718-e43970">
+        <sp who="ep000718-roxol" xml:id="ep000718-e43970">
           <speaker>Roxol. </speaker>
           <l>Oh Sultan! what reward does falsehood bring; </l>
           <l>What judgments persecute a Perjur'd King? </l>
@@ -4594,7 +4669,7 @@
           <l>Of th'unjust torments I have undergone, </l>
           <l>Heav'n has a sence, though Solyman has none. </l>
         </sp>
-        <sp xml:id="ep000718-e44070">
+        <sp who="ep000718-solym" xml:id="ep000718-e44070">
           <speaker>Solym. </speaker>
           <l>Why foolish Woman, have you vext the Gods, </l>
           <l>And set your Prophet and your King at odds? </l>
@@ -4603,13 +4678,13 @@
           <l>You might have liv'd, and liv'd uninjur'd still; </l>
           <l>Your greatness safe, and unconfin'd your will. </l>
         </sp>
-        <sp xml:id="ep000718-e44150">
+        <sp who="ep000718-roxol" xml:id="ep000718-e44150">
           <pb n="71" xml:id="ep000718-040-b"/>
           <speaker>Roxol. </speaker>
           <l>Yes Sir, I might have liv'd, and liv'd t'have been </l>
           <l>An humble Vassal to your Christian Queen. </l>
         </sp>
-        <sp xml:id="ep000718-e44190">
+        <sp who="ep000718-solym" xml:id="ep000718-e44190">
           <speaker>Solym. </speaker>
           <l>Why will your Frenzy still thus blindly erre? </l>
           <l>What if t'a Throne the Christian I prefer, </l>
@@ -4619,7 +4694,7 @@
           <l>I should not lessen you; but give her pow'r, </l>
           <l>As your Companion, not your Successor. </l>
         </sp>
-        <sp xml:id="ep000718-e44280">
+        <sp who="ep000718-roxol" xml:id="ep000718-e44280">
           <speaker>Roxol. </speaker>
           <l>Do not these wild and vain excuses feign, </l>
           <l>Seek not such Coverts when your guilt's too plain. </l>
@@ -4630,12 +4705,12 @@
           <l>Could we in Crowns, in that we cannot share, </l>
           <l>There's no dividing of an Empire there. </l>
         </sp>
-        <sp xml:id="ep000718-e44390">
+        <sp who="ep000718-solym" xml:id="ep000718-e44390">
           <speaker>Solym. </speaker>
           <l>What-ever Charms I in her Eyes descry, </l>
           <l>I love you still too well to see you dye. </l>
         </sp>
-        <sp xml:id="ep000718-e44430">
+        <sp who="ep000718-roxol" xml:id="ep000718-e44430">
           <speaker>Roxol. </speaker>
           <l>You loved me not enough t'avert my Fate, </l>
           <l>Your Kindness and my Life have but one Date: </l>
@@ -4644,7 +4719,7 @@
           <l>I Lived so glorious, and I Lov'd so well, </l>
           <l>That all beneath my Paradice was Hell. </l>
         </sp>
-        <sp xml:id="ep000718-e44510">
+        <sp who="ep000718-sultan" xml:id="ep000718-e44510">
           <speaker>Sultan. </speaker>
           <l>No more! If I am guilty, you have been </l>
           <l>My Punisher, rash and unhappy Queen! </l>
@@ -4653,7 +4728,7 @@
           <l>I have this sence of Roxolana's Fate, </l>
           <l>I will in tears deplore her wretched state. </l>
         </sp>
-        <sp xml:id="ep000718-e44600">
+        <sp who="ep000718-roxol" xml:id="ep000718-e44600">
           <speaker>Roxol. </speaker>
           <l>'Twill to my Sufferings be some relief, </l>
           <l>If Roxolana's Fall can cause your grief. </l>
@@ -4666,12 +4741,12 @@
           <pb n="72" xml:id="ep000718-041-a"/>
           <l>And treat you with the pleasures of my life. </l>
         </sp>
-        <sp xml:id="ep000718-e44720">
+        <sp who="ep000718-solym" xml:id="ep000718-e44720">
           <speaker>Solym. </speaker>
           <l>Oh how she sets my Crimes before my sight, </l>
           <l>And holds the mirrour at too fierce a light. </l>
         </sp>
-        <sp xml:id="ep000718-e44760">
+        <sp who="ep000718-roxol" xml:id="ep000718-e44760">
           <speaker>Roxol. </speaker>
           <l>When I was made the Mighty Sultan's Bride, </l>
           <l>Led to the Temple in my Royal pride, </l>
@@ -4692,14 +4767,14 @@
           <l>You claspt me thus, and leaning on my Breast </l>
           <l>Your languishing soft looks spoke out the rest. </l>
         </sp>
-        <sp xml:id="ep000718-e44990">
+        <sp who="ep000718-solym" xml:id="ep000718-e44990">
           <speaker>Solym. </speaker>
           <l>If she proceeds at this bewitching rate, </l>
           <l>By Heav'n she'l make me grow Effeminate. </l>
           <l>Such Eloquence have Lovers when they dye; </l>
           <l>And thus we value Treasures when they flye. </l>
         </sp>
-        <sp xml:id="ep000718-e45050">
+        <sp who="ep000718-roxol" xml:id="ep000718-e45050">
           <speaker>Roxol. </speaker>
           <l>Nor had I passion less than Solyman, </l>
           <l>Through every Vein the pleasing Feavour ran; </l>
@@ -4710,14 +4785,14 @@
           <l>My hopes, my tears, my prayers were all for you; </l>
           <l>You will scarce find a second Love so true. </l>
         </sp>
-        <sp xml:id="ep000718-e45160">
+        <sp who="ep000718-solym" xml:id="ep000718-e45160">
           <speaker>Solym. </speaker>
           <l>What suddain alteration do I find? </l>
           <l>Vertue returns that Stranger to my mind. </l>
           <l>Once more its long lost right has repossest: </l>
           <l>Keep, keep thy seat, thou dear Celestial guest. </l>
         </sp>
-        <sp xml:id="ep000718-e45220">
+        <sp who="ep000718-roxol" xml:id="ep000718-e45220">
           <speaker>Roxol. </speaker>
           <l>Your Christian Favourite sees not with my Eyes: </l>
           <l>She hates you, and your kind embraces flyes. </l>
@@ -4729,7 +4804,7 @@
           <l>Her grief will never my despair pursue; </l>
           <l>She will not dye to loose you as I do. </l>
         </sp>
-        <sp xml:id="ep000718-e45330">
+        <sp who="ep000718-solym" xml:id="ep000718-e45330">
           <speaker>Solym. </speaker>
           <l>Kind Roxolana, thou hast made me good, </l>
           <l>Thou hast wrought a Cure in my distemper'd blood: </l>
@@ -4740,12 +4815,12 @@
           <l>And shall not Heav'n my wandering sence recall, </l>
           <l>Warn'd by a Daughters, and an Empress fall? </l>
         </sp>
-        <sp xml:id="ep000718-e45450">
+        <sp who="ep000718-roxol" xml:id="ep000718-e45450">
           <speaker>Roxol. </speaker>
           <l>And do I live once more to call you mine? </l>
           <l>What Divine change is this? </l>
         </sp>
-        <sp xml:id="ep000718-e45490">
+        <sp who="ep000718-solym" xml:id="ep000718-e45490">
           <speaker>Solym. </speaker>
           <l>Yes; 'tis Divine: </l>
           <l>My long benighted Soul is with new light array'd. </l>
@@ -4760,12 +4835,12 @@
           <l>Had made me just, without this violence. </l>
           <l>Wou'd you had try'd. </l>
         </sp>
-        <sp xml:id="ep000718-e45640">
+        <sp who="ep000718-roxol" xml:id="ep000718-e45640">
           <speaker>Roxol. </speaker>
           <l>All gentler means, you know, I try'd before, </l>
           <l>But Tears and Prayers had both too little pow'r. </l>
         </sp>
-        <sp xml:id="ep000718-e45680">
+        <sp who="ep000718-solym" xml:id="ep000718-e45680">
           <speaker>Solym. </speaker>
           <l>Yes, they'd too little; oh my torturing pain, </l>
           <l>Now I remember how you wept in vain; </l>
@@ -4778,14 +4853,14 @@
           <l>But my more Hellish rage obdurate prov'd, </l>
           <l>By Tears unmelted, and by Pray'rs unmov'd. </l>
         </sp>
-        <sp xml:id="ep000718-e45810">
+        <sp who="ep000718-roxol" xml:id="ep000718-e45810">
           <speaker>Roxol. </speaker>
           <l>Be not disturb'd; what though I wonted pow'r </l>
           <l>To make you just, till in this latest hour, </l>
           <pb n="74" xml:id="ep000718-042-a"/>
           <l>I'm pleas'd in Death to have your Conquest wronght. </l>
         </sp>
-        <sp xml:id="ep000718-e45860">
+        <sp who="ep000718-solym" xml:id="ep000718-e45860">
           <speaker>Solym. </speaker>
           <l>It is a Victory too dearly bought. </l>
           <l>Bid that Inchantress and her Favourite, </l>
@@ -4798,7 +4873,7 @@
           <l>I'd not converse so much as with her Fame, </l>
           <l>Nor live within the hearing of her Name. </l>
         </sp>
-        <sp xml:id="ep000718-e46000">
+        <sp who="ep000718-roxol" xml:id="ep000718-e46000">
           <speaker>Roxol. </speaker>
           <l>Oh I'm all fire. </l>
           <l>The raging Poyson does my heart-strings seize, </l>
@@ -4811,13 +4886,13 @@
           <l>Prepare ye Gods, for Roxolana Dyes. </l>
         </sp>
         <stage xml:id="ep000718-e46140">[Dyes. </stage>
-        <sp xml:id="ep000718-e46150">
+        <sp who="ep000718-solym" xml:id="ep000718-e46150">
           <speaker>Solym. </speaker>
           <l>Prepare ye Gods! To grace your Stars, she's gone. </l>
           <l>A brighter Saint ne're fill'd a Heav'nly Throne. </l>
         </sp>
         <stage xml:id="ep000718-e46190">Enter Ibrahim and Isabella. </stage>
-        <sp xml:id="ep000718-e46220">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e46220">
           <speaker>Ibrah. </speaker>
           <l>Great Sir, though you've restor'd my Princess, given </l>
           <l>Me all the wealth I cou'd have beg'd of Heav'n. </l>
@@ -4826,22 +4901,22 @@
           <l>That from great Solyman I cannot part, </l>
           <l>Till at his feet I lay a bleeding heart. </l>
         </sp>
-        <sp xml:id="ep000718-e46310">
+        <sp who="ep000718-solym" xml:id="ep000718-e46310">
           <speaker>Solym. </speaker>
           <l>Draw nearer Ibrahim, and blast thine eyes, </l>
         </sp>
-        <sp xml:id="ep000718-e46350">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e46350">
           <speaker>Ibrah. </speaker>
           <l>Here cruel Fate, the mighty Victim lyes, </l>
           <l>My happy Love can little Tryumph boast, </l>
           <l>Gaining so much when you so much have lost. </l>
         </sp>
-        <sp xml:id="ep000718-e46400">
+        <sp who="ep000718-solym" xml:id="ep000718-e46400">
           <speaker>Solym. </speaker>
           <l>For this kind loyal pitty thou hast shown, </l>
           <l>In all my Kingdoms choose thy self a Throne. </l>
         </sp>
-        <sp xml:id="ep000718-e46440">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e46440">
           <speaker>Ibrah. </speaker>
           <l>Sir! for that proffer'd Throne thus low I bow, </l>
           <l>But must refuse the Royal gift; For now </l>
@@ -4849,7 +4924,7 @@
           <l>There I'le be happy, if I can be so, </l>
           <l>Leaving my King a Mourner when I go, </l>
         </sp>
-        <sp xml:id="ep000718-e46510">
+        <sp who="ep000718-isabel" xml:id="ep000718-e46510">
           <pb n="75" xml:id="ep000718-042-b"/>
           <speaker>Isabel. </speaker>
           <l>Is this great Roxolana was so fair </l>
@@ -4861,14 +4936,14 @@
           <l>By what you've lost in this unhappy stroke, </l>
           <l>Heav'n at one blow a full revenge has took. </l>
         </sp>
-        <sp xml:id="ep000718-e46620">
+        <sp who="ep000718-solym" xml:id="ep000718-e46620">
           <speaker>Solym. </speaker>
           <l>Speak not a word, not cast one look this way, </l>
           <l>I wou'd not have thee lead one thought astray. </l>
           <l>Thou fatal Cause— but ev'n to speak's a sin, </l>
           <l>Thine Roxolana, now I'le be all Thine. </l>
         </sp>
-        <sp xml:id="ep000718-e46690">
+        <sp who="ep000718-ibrah" xml:id="ep000718-e46690">
           <speaker>Ibrah. </speaker>
           <l>Success at last our mutual wishes win, </l>
           <l>But by such Scenes of horror usher'd in. </l>
@@ -4876,7 +4951,7 @@
           <l>The roughest path leads to the greatest bliss. </l>
         </sp>
         <stage xml:id="ep000718-e46750">[Exeunt Ibrahim and Isabella. </stage>
-        <sp xml:id="ep000718-e46780">
+        <sp who="ep000718-solym" xml:id="ep000718-e46780">
           <speaker>Solym. </speaker>
           <l>Since Loves soft pleasures in thy Fall must end, </l>
           <l>In Wars my last remains of life I'le spend: </l>

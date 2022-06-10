@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000625" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000625" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,7 +53,78 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000625-han">
+              <persName>Han</persName>
+            </person>
+            <person xml:id="ep000625-men">
+              <persName>Men,</persName>
+            </person>
+            <person xml:id="ep000625-treb">
+              <persName>Treb</persName>
+            </person>
+            <person xml:id="ep000625-rez">
+              <persName>Rez</persName>
+            </person>
+            <person xml:id="ep000625-mern">
+              <persName>Mern</persName>
+            </person>
+            <person xml:id="ep000625-mer">
+              <persName>Mer</persName>
+            </person>
+            <person xml:id="ep000625-seph">
+              <persName>Seph</persName>
+            </person>
+            <person xml:id="ep000625-scip">
+              <persName>Scip</persName>
+            </person>
+            <person xml:id="ep000625-man">
+              <persName>Man</persName>
+            </person>
+            <person xml:id="ep000625-mah">
+              <persName>Mah,</persName>
+            </person>
+            <person xml:id="ep000625-mas">
+              <persName>Mas</persName>
+            </person>
+            <person xml:id="ep000625-kmass">
+              <persName>K. Mass</persName>
+            </person>
+            <person xml:id="ep000625-bom">
+              <persName>Bom</persName>
+            </person>
+            <person xml:id="ep000625-var">
+              <persName>Var</persName>
+            </person>
+            <person xml:id="ep000625-agla">
+              <persName>Agla</persName>
+            </person>
+            <person xml:id="ep000625-kmas">
+              <persName>K. Mas</persName>
+            </person>
+            <person xml:id="ep000625-km">
+              <persName>K. M</persName>
+            </person>
+            <person xml:id="ep000625-cum">
+              <persName>Cum</persName>
+            </person>
+            <person xml:id="ep000625-lel">
+              <persName>Lel</persName>
+            </person>
+            <person xml:id="ep000625-ros">
+              <persName>Ros</persName>
+            </person>
+            <person xml:id="ep000625-soph">
+              <persName>Soph</persName>
+            </person>
+            <person xml:id="ep000625-mass">
+              <persName>Mass</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -161,7 +233,7 @@
         <head>THE TRAGEDY OF SOPHONISBA; OR HANNIBALS OVERTHROW. </head>
         <head>ACT. I. Scaen. I. </head>
         <stage xml:id="ep000625-e1140">Enter <hi>Hannibal, Maherbal, Bomilcar</hi>. Guards and Attendants. </stage>
-        <sp xml:id="ep000625-e1160">
+        <sp who="ep000625-han" xml:id="ep000625-e1160">
           <speaker>Han. </speaker>
           <l>COnquest with Laurels has our arms adorn'd, </l>
           <l>And Rome in Tears of blood our anger mourn'd. </l>
@@ -183,7 +255,7 @@
           <l>Wars tedious toils, our Blood and spirits spent, </l>
           <l>And all the stock of health which bounteous Nature lent. </l>
         </sp>
-        <sp xml:id="ep000625-e1400">
+        <sp who="ep000625-mah" xml:id="ep000625-e1400">
           <speaker>Mah. </speaker>
           <l>But what return has that slow City made? </l>
           <l>Admir'd by foes you were by friends betray'd. </l>
@@ -194,7 +266,7 @@
           <l>That did the Carthaginians strength declare </l>
           <l>Which way they past, and what their numbers were. </l>
         </sp>
-        <sp xml:id="ep000625-e1530">
+        <sp who="ep000625-bom" xml:id="ep000625-e1530">
           <speaker>Bom. </speaker>
           <l>By his design your Brothers death was wrought, </l>
           <l>When he apart from you with Nero fought. </l>
@@ -207,7 +279,7 @@
           <l>How fatally did his curst Plots succed? </l>
           <l>When with your Brother all his Troops did bleed. </l>
         </sp>
-        <sp xml:id="ep000625-e1690">
+        <sp who="ep000625-han" xml:id="ep000625-e1690">
           <speaker>Han </speaker>
           <l>Great Statesmen Kings shou'd watch while they employ </l>
           <l>Least what they build, those underhand destroy, </l>
@@ -218,7 +290,7 @@
           <l>Now all the Feinds those Traytors drag to Hell, </l>
           <l>Who for Revenge or Gold; their Country sell. </l>
         </sp>
-        <sp xml:id="ep000625-e1800">
+        <sp who="ep000625-han" xml:id="ep000625-e1800">
           <speaker>Han. </speaker>
           <l>How wou'd the Slaves have quak'd had they but seen </l>
           <l>The flights of Trebia or Thrasimen? </l>
@@ -226,14 +298,14 @@
           <l>Where the dire Sisters bit the Roman Looms </l>
           <l>As if their hands were tyr'd with cutting dooms. </l>
         </sp>
-        <sp xml:id="ep000625-e1910">
+        <sp who="ep000625-bom" xml:id="ep000625-e1910">
           <pb n="3" xml:id="ep000625-005-b"/>
           <speaker>Bom. </speaker>
           <l>Where fourscore valiant Senators we kill'd, </l>
           <l>The blood of seventy thousand Souldiers spill'd, </l>
           <l>And great Emilius death our Conquest swell'd. </l>
         </sp>
-        <sp xml:id="ep000625-e1970">
+        <sp who="ep000625-han" xml:id="ep000625-e1970">
           <speaker>Han. </speaker>
           <l>When all with crimson slaughter cover'd o're, </l>
           <l>We urg'd our Horses through a flood of Gore; </l>
@@ -242,14 +314,14 @@
           <l>Mourning to see so many thousands fall, </l>
           <l>And then look'd pale, to see us look so red. </l>
         </sp>
-        <sp xml:id="ep000625-e2050">
+        <sp who="ep000625-mah" xml:id="ep000625-e2050">
           <speaker>Mah. </speaker>
           <l>That was a Time worthy severest Fate, </l>
           <l>When victory on Hills of Heroes sat, </l>
           <l>And turn'd her eyes all blood-shot on the fray, </l>
           <l>And laugh'd, and clapp'd her wings, and blest the day. </l>
         </sp>
-        <sp xml:id="ep000625-e2110">
+        <sp who="ep000625-han" xml:id="ep000625-e2110">
           <speaker>Han. </speaker>
           <l>And are we thus at last rewarded then? </l>
           <l>Dare they review our dangers with disdain? </l>
@@ -261,17 +333,17 @@
           <l>Melt all their hoarded Treasures down, and pour </l>
           <l>Into their thirsty Throats the scalding o're. </l>
         </sp>
-        <sp xml:id="ep000625-e2240">
+        <sp who="ep000625-bom" xml:id="ep000625-e2240">
           <speaker>Bom. </speaker>
           <l>Go on great Sir, their rusty Coffers burn, </l>
           <l>Their Towring pride to desolation turn. </l>
         </sp>
-        <sp xml:id="ep000625-e2280">
+        <sp who="ep000625-mah" xml:id="ep000625-e2280">
           <speaker>Mah. </speaker>
           <l>How I shou'd laugh to see their Ermins smoak, </l>
           <l>May sulph'rous flames their gorged vitals choak. </l>
         </sp>
-        <sp xml:id="ep000625-e2320">
+        <sp who="ep000625-han" xml:id="ep000625-e2320">
           <speaker>Han. </speaker>
           <l>Maherbal stay, though Carthage us'd me ill, </l>
           <l>Spight of my wrongs, she is my Country still: </l>
@@ -284,7 +356,7 @@
           <l>Till her bright fame should shrink into a shade, </l>
           <l>And all her golden Spires in dust were laid. </l>
         </sp>
-        <sp xml:id="ep000625-e2480">
+        <sp who="ep000625-bom" xml:id="ep000625-e2480">
           <speaker>Bom. </speaker>
           <l>Carthage, and Rome, which did so long divide </l>
           <l>The troubl'd World, to prop their weighty pride, </l>
@@ -294,7 +366,7 @@
           <l>Since such Majestick Power to both is given, </l>
           <l>As each might take up all the care of Heaven. </l>
         </sp>
-        <sp xml:id="ep000625-e2580">
+        <sp who="ep000625-mah" xml:id="ep000625-e2580">
           <speaker>Mah. </speaker>
           <l>Besides the natural hate to Rome you bear, </l>
           <l>With Scipio, love obliges you to War, </l>
@@ -302,7 +374,7 @@
           <l>Heavens! shall he dare to keep your Love in bands? </l>
           <l>Beauty like hers, Swords, Hands, and Hearts commands. </l>
         </sp>
-        <sp xml:id="ep000625-e2680">
+        <sp who="ep000625-han" xml:id="ep000625-e2680">
           <speaker>Han. </speaker>
           <l>O my, Maherbal, thou wert alwayes kind, </l>
           <l>See'st all my good, but to my ills art blind: </l>
@@ -314,14 +386,14 @@
           <l>Melting at Capua I'm pleasures lay, </l>
           <l>And for a Mistriss gave the World away. </l>
         </sp>
-        <sp xml:id="ep000625-e2830">
+        <sp who="ep000625-mah" xml:id="ep000625-e2830">
           <speaker>Mah. </speaker>
           <l>Grudge you the World? cou'd I such hearts subdue, </l>
           <l>Were I great Iove himself I'd give Heaven too. </l>
           <l>But I am rough, and not for Women made, </l>
           <l>In Natures coursest mold by Fortune laid. </l>
         </sp>
-        <sp xml:id="ep000625-e2900">
+        <sp who="ep000625-han" xml:id="ep000625-e2900">
           <speaker>Han. </speaker>
           <l>Hast to the Roman Camp, Bomilcar fly, </l>
           <l>Take Scouts along, unseen as Spirits pry, </l>
@@ -332,7 +404,7 @@
           <l>As after Conquest thou woud'st seek for spoil. </l>
         </sp>
         <stage xml:id="ep000625-e3020">The SCENE drawn, discovers a pleasant Grotto, King <hi>Massinissa, Massina</hi>, and Menander sitting upon a Bank: Soft Musick is heard. </stage>
-        <sp xml:id="ep000625-e3060">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3060">
           <speaker>K. Mas. </speaker>
           <l>Since Love, the brighest Jewel of a Crown, </l>
           <l>That fires Anbition, and adorns Renown; </l>
@@ -342,7 +414,7 @@
           <l>Since this great Trophies lost, quite lost to me, </l>
           <l>What wretched things must fame, and Empire be? </l>
         </sp>
-        <sp xml:id="ep000625-e3140">
+        <sp who="ep000625-men" xml:id="ep000625-e3140">
           <speaker>Men. </speaker>
           <l>Yet once your Soul was of another strain, </l>
           <l>And still you talk'd how God-like 'twas to Reign; </l>
@@ -352,15 +424,15 @@
           <l>And smiling wou'd your Fathers Scepter hold, </l>
           <l>And talk'd when young, how you wou'd rule when old. </l>
         </sp>
-        <sp xml:id="ep000625-e3230">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3230">
           <speaker>K. Mas. </speaker>
           <l>Ambition then I lov'd, but now abhor. </l>
         </sp>
-        <sp xml:id="ep000625-e3260">
+        <sp who="ep000625-mass" xml:id="ep000625-e3260">
           <speaker>Mass. </speaker>
           <l>What is ambition, Sir? </l>
         </sp>
-        <sp xml:id="ep000625-e3290">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3290">
           <speaker>K. Mas. </speaker>
           <l>The lust of Power, </l>
           <l>Like glory Boy, it licenses to kill, </l>
@@ -370,14 +442,14 @@
           <l>For when to death we make the conquer'd yield, </l>
           <l>What are we, but the Murd'rers of the Field? </l>
         </sp>
-        <sp xml:id="ep000625-e3380">
+        <sp who="ep000625-men" xml:id="ep000625-e3380">
           <speaker>Men. </speaker>
           <l>In gallant souls Ambition is no more, </l>
           <l>The Bawd of Empire, or the lust of Pow'r, </l>
           <l>Then lawful Mirth is lewdness in a Bride, </l>
           <l>Or neatness in a Vestal Virgin Pride. </l>
         </sp>
-        <sp xml:id="ep000625-e3440">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3440">
           <speaker>K. Mas. </speaker>
           <l>Then be it so, yet I will out no more, </l>
           <l>Since Love has wrack'd me on the long'd for shore; </l>
@@ -389,16 +461,16 @@
           <l>With Love's each blast, I like a Bull-rush bow: </l>
           <l>Am I not alter'd much of late? </l>
         </sp>
-        <sp xml:id="ep000625-e3590">
+        <sp who="ep000625-mass" xml:id="ep000625-e3590">
           <speaker>Mass. </speaker>
           <l>Alas! </l>
           <l>You look like wither'd Flowers, or Mountain grass. </l>
         </sp>
-        <sp xml:id="ep000625-e3630">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3630">
           <speaker>K. Mas. </speaker>
           <l>O Sophonisba, oh! </l>
         </sp>
-        <sp xml:id="ep000625-e3670">
+        <sp who="ep000625-mass" xml:id="ep000625-e3670">
           <speaker>Mass. </speaker>
           <l>Why sighs my Lord? </l>
           <l>Speak, for I will revenge you with my Sword, </l>
@@ -410,16 +482,16 @@
           <l>Who is it that these killing griefs has wrought, </l>
           <l>That bends your brow, and turns you into thought? </l>
         </sp>
-        <sp xml:id="ep000625-e3770">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3770">
           <speaker>K. Mas. </speaker>
           <l>My sorrows load alass! thou canst not bear. </l>
         </sp>
-        <sp xml:id="ep000625-e3800">
+        <sp who="ep000625-mass" xml:id="ep000625-e3800">
           <speaker>Mass. </speaker>
           <l>Think you my Soul is capable of fear; </l>
           <l>What is it, for your sake, I cou'd not bear. </l>
         </sp>
-        <sp xml:id="ep000625-e3840">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3840">
           <speaker>K. Mas. </speaker>
           <l>Massina, thou art all that I wou'd have; </l>
           <l>There's nothing after thee, but a low grave: </l>
@@ -429,11 +501,11 @@
           <l>Pale as wrong'd Lovers Ghosts, that sighs below; </l>
           <l>Then learn to curse the Author of my Fate. </l>
         </sp>
-        <sp xml:id="ep000625-e3940">
+        <sp who="ep000625-mass" xml:id="ep000625-e3940">
           <speaker>Mass. </speaker>
           <l>What horrid things are these, which you relate? </l>
         </sp>
-        <sp xml:id="ep000625-e3970">
+        <sp who="ep000625-kmas" xml:id="ep000625-e3970">
           <speaker>K. Mas. </speaker>
           <l>Thee from thy Childhood I have train'd with care, </l>
           <l>I'th' painful Discipline of tedious War: </l>
@@ -445,7 +517,7 @@
           <l>And forc'd to plunge into the rapid Flood, </l>
           <l>Thou leap'st in after me. </l>
         </sp>
-        <sp xml:id="ep000625-e4090">
+        <sp who="ep000625-mass" xml:id="ep000625-e4090">
           <speaker>Mass. </speaker>
           <l>I did, my Lord: </l>
           <l>But you forget the whirl-pool in the ford, </l>
@@ -454,13 +526,13 @@
           <l>So through the <hi>Hellespont Europa </hi>rod, </l>
           <l>Half dead with fear, though mounted on a God. </l>
         </sp>
-        <sp xml:id="ep000625-e4180">
+        <sp who="ep000625-kmas" xml:id="ep000625-e4180">
           <speaker>K. Mas. </speaker>
           <l>But my Massina, there's one danger more, </l>
           <l>More dreadful then all those we past before. </l>
           <l>Vile Women. </l>
         </sp>
-        <sp xml:id="ep000625-e4240">
+        <sp who="ep000625-mass" xml:id="ep000625-e4240">
           <speaker>Mass. </speaker>
           <l>Women, Sir, I oft have seen, </l>
           <l>Dancing with Timbrels on the flowry Green, </l>
@@ -470,7 +542,7 @@
           <l>I know they are all black, have rowling eyes, </l>
           <l>Thick lips, flat noses, breasts of mighty size. </l>
         </sp>
-        <sp xml:id="ep000625-e4320">
+        <sp who="ep000625-kmas" xml:id="ep000625-e4320">
           <speaker>K. Mas. </speaker>
           <l>Thou never yet in shining Courts hast been, </l>
           <l>Nor the fair part of Woman kind hast seen, </l>
@@ -479,12 +551,12 @@
           <l>To whom compar'd these seem all hideous night, </l>
           <l>But those like Cinthia's Silver Crescent, bright. </l>
         </sp>
-        <sp xml:id="ep000625-e4420">
+        <sp who="ep000625-mass" xml:id="ep000625-e4420">
           <speaker>Mass. </speaker>
           <l>Is it a sin to be acquainted, Sir, </l>
           <l>With those white Maids, that are so fine, and fair? </l>
         </sp>
-        <sp xml:id="ep000625-e4460">
+        <sp who="ep000625-kmas" xml:id="ep000625-e4460">
           <speaker>K. Mas. </speaker>
           <l>Shun'em Massina, as thou wou'dst thy Fate, </l>
           <l>As things which by Antipathy we hate: </l>
@@ -501,22 +573,22 @@
           <l>Her Soul is blacker then the skin of Moores; </l>
           <l>For fraud with Beauty do's his Lodging take. </l>
         </sp>
-        <sp xml:id="ep000625-e4640">
+        <sp who="ep000625-mass" xml:id="ep000625-e4640">
           <speaker>Mass. </speaker>
           <l>Then Beauties breast is like a bank of Flowers, </l>
           <l>That fairly hides a foul, and ugly Snake. </l>
         </sp>
-        <sp xml:id="ep000625-e4680">
+        <sp who="ep000625-kmas" xml:id="ep000625-e4680">
           <speaker>K. Mas. </speaker>
           <l>There not one safe, and fair— all Seas of sin, </l>
           <l>Shou'dst thou be us'd alas! as I have bin, </l>
           <l>'Twould make thee gray, hear not my Story told. </l>
         </sp>
-        <sp xml:id="ep000625-e4730">
+        <sp who="ep000625-mass" xml:id="ep000625-e4730">
           <speaker>Mass. </speaker>
           <l>Will Women, if they use me, make me old? </l>
         </sp>
-        <sp xml:id="ep000625-e4760">
+        <sp who="ep000625-kmas" xml:id="ep000625-e4760">
           <speaker>K. Mas. </speaker>
           <l>I had a Mistriss once, </l>
           <l>For her I fought, and did her cause maintain </l>
@@ -529,7 +601,7 @@
           <l>All this in Publick; but from sight remov'd, </l>
           <l>Fierce were our Joyes, and with a loose we lov'd: </l>
         </sp>
-        <sp xml:id="ep000625-e4870">
+        <sp who="ep000625-mass" xml:id="ep000625-e4870">
           <speaker>Mass. </speaker>
           <l>You may remember, Sir, that I was by, </l>
           <l>Call'd as a witness to the secret tye: </l>
@@ -537,7 +609,7 @@
           <l>With rich Sabaean scents, perfum'd the Air </l>
           <l>And utter'd sacred vows, and binding prayer. </l>
         </sp>
-        <sp xml:id="ep000625-e4940">
+        <sp who="ep000625-kmas" xml:id="ep000625-e4940">
           <speaker>K. Mas. </speaker>
           <l>When you were gone, </l>
           <l>And none but I left with that charming Maid, </l>
@@ -547,12 +619,12 @@
           <l>Like light and heat, incorporate we lay, </l>
           <l>We blest the night, and curst the coming day. </l>
         </sp>
-        <sp xml:id="ep000625-e5030">
+        <sp who="ep000625-mass" xml:id="ep000625-e5030">
           <speaker>Mass. </speaker>
           <l>Now as I love bright Arms, the Story's fine; </l>
           <l>Tell it all night, my Lord, the Stars will shine. </l>
         </sp>
-        <sp xml:id="ep000625-e5070">
+        <sp who="ep000625-km" xml:id="ep000625-e5070">
           <speaker>K. M. </speaker>
           <l>Soon as the Birds did on the morning call, </l>
           <l>Her brighter eyes a show'r of tears let fall. </l>
@@ -562,11 +634,11 @@
           <l>She sigh'd; but will you for ever be mine? </l>
           <l>Will you be true?— and then our lips did join. </l>
         </sp>
-        <sp xml:id="ep000625-e5160">
+        <sp who="ep000625-mass" xml:id="ep000625-e5160">
           <speaker>Mass. </speaker>
           <l>Kind pretty heart. </l>
         </sp>
-        <sp xml:id="ep000625-e5190">
+        <sp who="ep000625-kmas" xml:id="ep000625-e5190">
           <speaker>K. Mas. </speaker>
           <l>Her last words were, </l>
           <l>Hear me ye Gods, may I be never blest, </l>
@@ -578,7 +650,7 @@
           <l>Resign'd her self up to anothers arms. </l>
         </sp>
         <stage xml:id="ep000625-e5310">Enter Lelius, and Varro. </stage>
-        <sp xml:id="ep000625-e5340">
+        <sp who="ep000625-lel" xml:id="ep000625-e5340">
           <speaker>Lel. </speaker>
           <l>At length he's found: rise Massinissa, rise, </l>
           <l>Shake off these Clouds that hang about your eyes: </l>
@@ -586,14 +658,14 @@
           <pb n="9" xml:id="ep000625-008-b"/>
           <l>New storms of War like Hail around us fall. </l>
         </sp>
-        <sp xml:id="ep000625-e5410">
+        <sp who="ep000625-var" xml:id="ep000625-e5410">
           <speaker>Var. </speaker>
           <l>Fury that sat at home, on massie Shields </l>
           <l>Now heaves'em up, and ranges through the Fields; </l>
           <l>With all her hundred whips of wire she comes, </l>
           <l>And drives despairing Monarchs to their Tombes. </l>
         </sp>
-        <sp xml:id="ep000625-e5470">
+        <sp who="ep000625-lel" xml:id="ep000625-e5470">
           <speaker>Lel. </speaker>
           <l>Syphax and Asdrubal their forces join </l>
           <l>With Armes the Mountains, and the Vallies shine: </l>
@@ -602,7 +674,7 @@
           <l>That from the dusty Field you thus retire, </l>
           <l>And seek cool shades, when all the World's on fire? </l>
         </sp>
-        <sp xml:id="ep000625-e5570">
+        <sp who="ep000625-var" xml:id="ep000625-e5570">
           <speaker>Var. </speaker>
           <l>Kings cast their Silks, and Armour, make their Robe </l>
           <l>Instead of Lutes, shrill Trumpets charm the Globe; </l>
@@ -611,12 +683,12 @@
           <l>Why shou'd you Sophonisba's loss bemoan, </l>
           <l>When Syphax, who enjoyes her, cries come on? </l>
         </sp>
-        <sp xml:id="ep000625-e5670">
+        <sp who="ep000625-kmas" xml:id="ep000625-e5670">
           <speaker>K. Mas. </speaker>
           <l>Ha! that the base Usurper did but dare </l>
           <l>T'meet me alone, without his crowds of War. </l>
         </sp>
-        <sp xml:id="ep000625-e5710">
+        <sp who="ep000625-lel" xml:id="ep000625-e5710">
           <speaker>Lel. </speaker>
           <l>If you dye here so silently, you'l fall, </l>
           <l>As if Fate knew not of your Funeral; </l>
@@ -627,7 +699,7 @@
           <l>Some studious Youth, who do's the Heav'ns survey, </l>
           <l>And in dull science fools his life away. </l>
         </sp>
-        <sp xml:id="ep000625-e5820">
+        <sp who="ep000625-kmas" xml:id="ep000625-e5820">
           <speaker>K. Mas. </speaker>
           <l>Awake! where hast thou been my drowsy Soul, </l>
           <l>In Lethae steep'd, or freezing near the Pole? </l>
@@ -646,17 +718,17 @@
           <l>Wing'd with our Glory, Come my Friends, let's fly, </l>
           <l>To conquer bravely, or as bravely dye. </l>
         </sp>
-        <sp xml:id="ep000625-e6020">
+        <sp who="ep000625-lel" xml:id="ep000625-e6020">
           <speaker>Lel. </speaker>
           <l>Spoke like your self, thus we our hommage pay; </l>
           <l>So look'd Achilles when Troy lost the day. </l>
         </sp>
-        <sp xml:id="ep000625-e6080">
+        <sp who="ep000625-var" xml:id="ep000625-e6080">
           <speaker>Var. </speaker>
           <l>Fierce and majestick as young Mars you stand: </l>
           <l>'Tis fit that look, this Africk should command. </l>
         </sp>
-        <sp xml:id="ep000625-e6140">
+        <sp who="ep000625-kmas" xml:id="ep000625-e6140">
           <speaker>K. Mas. </speaker>
           <l>As Lovers, big with expectation, burn </l>
           <l>My Soul to Battle, do's all fiery turn, </l>
@@ -665,13 +737,13 @@
           <l>Yet stay, methinks I am uneasie still; </l>
           <l>What real pleasure can it be to kill? </l>
         </sp>
-        <sp xml:id="ep000625-e6220">
+        <sp who="ep000625-lel" xml:id="ep000625-e6220">
           <speaker>Lel. </speaker>
           <l>Frail Prince! how wavering all his actions be, </l>
           <l>By passions toss'd in Love's tempestuous Sea? </l>
           <l>War fires the brave. </l>
         </sp>
-        <sp xml:id="ep000625-e6270">
+        <sp who="ep000625-kmas" xml:id="ep000625-e6270">
           <speaker>K. Mas. </speaker>
           <l>Yet War contracts a guilt, </l>
           <l>And the brave grieve when many lives are spilt: </l>
@@ -688,16 +760,16 @@
         <pb n="11" xml:id="ep000625-009-b"/>
         <head>ACT. II. Scen. I. </head>
         <stage xml:id="ep000625-e6400">Enter <hi>Scipio, K. Massinissa, Massina, Menander, Lelius </hi>and Varro. </stage>
-        <sp xml:id="ep000625-e6430">
+        <sp who="ep000625-scip" xml:id="ep000625-e6430">
           <speaker>Scip. </speaker>
           <l>THe Scouts of Hannibal, have they survey'd </l>
           <l>The Camp? </l>
         </sp>
-        <sp xml:id="ep000625-e6480">
+        <sp who="ep000625-lel" xml:id="ep000625-e6480">
           <speaker>Lel. </speaker>
           <l>Your will exactly was obey'd. </l>
         </sp>
-        <sp xml:id="ep000625-e6510">
+        <sp who="ep000625-scip" xml:id="ep000625-e6510">
           <speaker>Scip. </speaker>
           <l>I hear my gallant Friend, and grieve to hear, </l>
           <l>That you the Chaines of Sophonisba wear; </l>
@@ -710,7 +782,7 @@
           <l>Truant to all the Honour that you had, </l>
           <l>Drunk with love's tears, with smiles of Beauty mad. </l>
         </sp>
-        <sp xml:id="ep000625-e6640">
+        <sp who="ep000625-kmas" xml:id="ep000625-e6640">
           <speaker>K. Mas. </speaker>
           <l>I strove, Sir, by your great atchievments taught, </l>
           <l>To drive this Beauty from my lab'ring thought; </l>
@@ -719,28 +791,28 @@
           <l>Like those with fatal fires, she gilds my way, </l>
           <l>And leads me on, that I may further stray. </l>
         </sp>
-        <sp xml:id="ep000625-e6720">
+        <sp who="ep000625-scip" xml:id="ep000625-e6720">
           <speaker>Scip. </speaker>
           <l>Then I must angry grow, since you are frail, </l>
           <l>And Corrosives apply where Cordials fail: </l>
           <l>To me prove civil, for your self be wise, </l>
           <l>You have my friendship, therefore I advise. </l>
         </sp>
-        <sp xml:id="ep000625-e6780">
+        <sp who="ep000625-kmas" xml:id="ep000625-e6780">
           <speaker>K. Mas. </speaker>
           <l>Mean you, my Lord, not Sophonisba love? </l>
         </sp>
-        <sp xml:id="ep000625-e6820">
+        <sp who="ep000625-scip" xml:id="ep000625-e6820">
           <speaker>Scip. </speaker>
           <l>As she's the Foe of Rome, I disapprove </l>
           <l>All Treaties with her, shake her off in time, </l>
           <l>Or against Honour you commit a Crime. </l>
         </sp>
-        <sp xml:id="ep000625-e6880">
+        <sp who="ep000625-kmas" xml:id="ep000625-e6880">
           <speaker>K. Mas. </speaker>
           <l>And wou'd you have me live? </l>
         </sp>
-        <sp xml:id="ep000625-e6910">
+        <sp who="ep000625-scip" xml:id="ep000625-e6910">
           <speaker>Scip. </speaker>
           <l>When she is dead: </l>
           <pb n="12" xml:id="ep000625-010-a"/>
@@ -750,7 +822,7 @@
           <l>By Heaven I swear, if she my Captive be, </l>
           <l>I'll use her as the Romans Enemy. </l>
         </sp>
-        <sp xml:id="ep000625-e7020">
+        <sp who="ep000625-kmas" xml:id="ep000625-e7020">
           <speaker>K. Mas. </speaker>
           <l>You'd have me shake her off, and live; I'de know, </l>
           <l>Whether this flesh you wear you can forgo, </l>
@@ -759,12 +831,12 @@
           <l>When your steel smoaks with my hearts reeking Gore, </l>
           <l>Bid me be well as e're I was before. </l>
         </sp>
-        <sp xml:id="ep000625-e7100">
+        <sp who="ep000625-scip" xml:id="ep000625-e7100">
           <speaker>Scip. </speaker>
           <l>You are resolv'd it seems to cross my will, </l>
           <l>But from a Friend I'll construe nothing ill. </l>
         </sp>
-        <sp xml:id="ep000625-e7140">
+        <sp who="ep000625-kmas" xml:id="ep000625-e7140">
           <speaker>K. Mas. </speaker>
           <l>O then endure yet more, and let me speak, </l>
           <l>Without some vent my lab'ring heart will break; </l>
@@ -777,14 +849,14 @@
           <l>And justify the words that you have said, </l>
           <l>By the Immortal Powers I'll strike him dead. </l>
         </sp>
-        <sp xml:id="ep000625-e7280">
+        <sp who="ep000625-lel" xml:id="ep000625-e7280">
           <speaker>Lel. </speaker>
           <l>My Lord. <stage xml:id="ep000625-e7310">
               <hi>As the King moves forward</hi>, Lelius <hi>lays his hand on his sword. </hi>
             </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e7340">
+        <sp who="ep000625-scip" xml:id="ep000625-e7340">
           <speaker>Scip. </speaker>
           <l>Your gen'rous temper Lelius hold, </l>
           <l>He shall be hotter yet to be more cold, </l>
@@ -793,7 +865,7 @@
           <l>Since a Request so small you can deny, </l>
           <l>From greater proofs how wou'd your friendship fly? </l>
         </sp>
-        <sp xml:id="ep000625-e7430">
+        <sp who="ep000625-kmas" xml:id="ep000625-e7430">
           <speaker>K. Mas. </speaker>
           <l>Try me, my Lord, but any other way, </l>
           <l>Heavens! with what readiness would I obey; </l>
@@ -811,7 +883,7 @@
           <l>With cheerful toil the business shall be done, </l>
           <l>Give me but Sophonisba for my Crown. </l>
         </sp>
-        <sp xml:id="ep000625-e7620">
+        <sp who="ep000625-scip" xml:id="ep000625-e7620">
           <speaker>Scip. </speaker>
           <l>To conquer Enemies abroad's no more, </l>
           <l>Then every Tribune here has done before: </l>
@@ -821,7 +893,7 @@
           <l>At my command Lelius would you refuse </l>
           <l>To dye? </l>
         </sp>
-        <sp xml:id="ep000625-e7720">
+        <sp who="ep000625-lel" xml:id="ep000625-e7720">
           <speaker>Lel. </speaker>
           <l>My Fate for Empire I'd not loose, </l>
           <l>At thy Command, Temples and Shrines shou'd blaze; </l>
@@ -829,7 +901,7 @@
           <l>And with my fury mak'em dread thee more, </l>
           <l>Then I fear them when all their thunders roar. </l>
         </sp>
-        <sp xml:id="ep000625-e7790">
+        <sp who="ep000625-scip" xml:id="ep000625-e7790">
           <speaker>Scip. </speaker>
           <l>To Conquer Kingdoms, and on Scepters tread, </l>
           <l>Is but to imitate great Heroes dead: </l>
@@ -843,21 +915,21 @@
           <l>The World may truly term you rash, unjust; </l>
           <l>And when you perish, say, he dy'd for lust. </l>
         </sp>
-        <sp xml:id="ep000625-e7940">
+        <sp who="ep000625-kmas" xml:id="ep000625-e7940">
           <speaker>K. Mas. </speaker>
           <l>You tax me, Sir, with Crimes I do not know; </l>
           <l>But urge me not too far, for I may grow </l>
           <l>Beyond all limits, just revenge pursue, </l>
           <l>And blinded by my rage let fly at you. </l>
         </sp>
-        <sp xml:id="ep000625-e8000">
+        <sp who="ep000625-scip" xml:id="ep000625-e8000">
           <speaker>Scip. </speaker>
           <l>Unhand him.— By the Gods your worst I dare, </l>
           <l>A single arm Rome's Consul cannot fear: </l>
           <l>I shine above thee like a Star fix'd higher, </l>
           <l>Whom though you cannot reach, you may admire. </l>
         </sp>
-        <sp xml:id="ep000625-e8070">
+        <sp who="ep000625-kmas" xml:id="ep000625-e8070">
           <pb n="14" xml:id="ep000625-011-a"/>
           <speaker>K. Mas. </speaker>
           <l>Like Meteors rather you false glory take, </l>
@@ -865,7 +937,7 @@
           <l>Yet since with fancyed fires you fill the Skie, </l>
           <l>Shall not one Prince at your dread aspect dye. </l>
         </sp>
-        <sp xml:id="ep000625-e8140">
+        <sp who="ep000625-scip" xml:id="ep000625-e8140">
           <speaker>Scip. </speaker>
           <l>How have I err'd? your Tryall's at an end, </l>
           <l>Heaven! That I e're should call this man my Friend; </l>
@@ -887,7 +959,7 @@
           <l>They most deceive us, who most trusted are. </l>
         </sp>
         <stage xml:id="ep000625-e8370">The Consul <hi>turns away</hi>. </stage>
-        <sp xml:id="ep000625-e8400">
+        <sp who="ep000625-kmas" xml:id="ep000625-e8400">
           <speaker>K. Mas. </speaker>
           <l>Stay Consul, stay my Friend, my noble Lord; </l>
           <l>Cou'd you then cast me off for one rash word? </l>
@@ -900,12 +972,12 @@
           <l>Yet it had bin more friendly and more kind, </l>
           <l>Not to have met the Tempest of my mind. </l>
         </sp>
-        <sp xml:id="ep000625-e8540">
+        <sp who="ep000625-scip" xml:id="ep000625-e8540">
           <speaker>Scip. </speaker>
           <l>But was it possible in this our strife? </l>
           <l>That Massinissa should attempt my life. </l>
         </sp>
-        <sp xml:id="ep000625-e8590">
+        <sp who="ep000625-kmas" xml:id="ep000625-e8590">
           <speaker>K. Mas. </speaker>
           <l>Pronounce my death, cut off these cursed hands, </l>
           <l>Send me to Syphax, bound with shameful bands. </l>
@@ -913,13 +985,13 @@
           <l>That I may all the subtlest torments bear, </l>
           <l>And after death no more reproaches hear. </l>
         </sp>
-        <sp xml:id="ep000625-e8660">
+        <sp who="ep000625-scip" xml:id="ep000625-e8660">
           <speaker>Scip. </speaker>
           <l>By this return of virtue I am made, </l>
           <l>For ever yours— say do I now upbraid? </l>
           <l>Are these reproaches? </l>
         </sp>
-        <sp xml:id="ep000625-e8710">
+        <sp who="ep000625-kmass" xml:id="ep000625-e8710">
           <speaker>K. Mass. </speaker>
           <l>O ye powers look down, </l>
           <l>And hear me swear by your eternal Throne. </l>
@@ -927,7 +999,7 @@
           <l>Though Sophonisba from my trembling hand, </l>
           <l>I will obey— or curse me where I stand. </l>
         </sp>
-        <sp xml:id="ep000625-e8790">
+        <sp who="ep000625-scip" xml:id="ep000625-e8790">
           <speaker>Scip. </speaker>
           <l>As your first Trial strait to Crita fly, </l>
           <l>And perjur'd Syphax at his Gates defie. </l>
@@ -936,27 +1008,27 @@
           <l>Whose subtile working Wit wrought all this care, </l>
           <l>And with her beautious griefs renew'd the War. </l>
         </sp>
-        <sp xml:id="ep000625-e8890">
+        <sp who="ep000625-kmass" xml:id="ep000625-e8890">
           <speaker>K. Mass. </speaker>
           <l>This youth, my Kinsman, as a pledge I leave </l>
           <l>My all, the darling of my Soul receive. </l>
           <l>As I in War shall false or faithful be, </l>
           <l>So may Just Heaven do both to him and me. </l>
         </sp>
-        <sp xml:id="ep000625-e8950">
+        <sp who="ep000625-mass" xml:id="ep000625-e8950">
           <speaker>Mass. </speaker>
           <l>Ah! if I am that darling of your Heart, </l>
           <l>How can you leave me thus forlorn behind? </l>
           <l>Take me along, or I shall think 'twas Art </l>
           <l>That made you seem so pittiful and kind. </l>
         </sp>
-        <sp xml:id="ep000625-e9010">
+        <sp who="ep000625-kmass" xml:id="ep000625-e9010">
           <speaker>K. Mass. </speaker>
           <l>Now all the Gods thy precious life defend, </l>
           <l>Something that's fatal sure these Tears portend; </l>
           <l>I was not us'd to weep. </l>
         </sp>
-        <sp xml:id="ep000625-e9060">
+        <sp who="ep000625-scip" xml:id="ep000625-e9060">
           <speaker>Scip. </speaker>
           <l>Nor must not now. </l>
           <l>At your return we will to Zama go, </l>
@@ -965,7 +1037,7 @@
           <l>And keep that famous Conquerour in awe, </l>
           <l>That talk'd of giving Laws i'th' Capitoll. </l>
         </sp>
-        <sp xml:id="ep000625-e9170">
+        <sp who="ep000625-kmas" xml:id="ep000625-e9170">
           <speaker>K. Mas. </speaker>
           <l>My Blood boils in my Veins, and catchesfire; </l>
           <l>Such words, such courage would the Dead inspire: </l>
@@ -973,12 +1045,12 @@
           <l>Yes we will fight, my Lord, with Hannibal. </l>
           <l>To bloody ' count his boasted valour call. </l>
         </sp>
-        <sp xml:id="ep000625-e9240">
+        <sp who="ep000625-scip" xml:id="ep000625-e9240">
           <speaker>Scip. </speaker>
           <l>Like some vast ill built Tower, so high he grows; </l>
           <l>He Marble-front nods with each blast that blows. </l>
         </sp>
-        <sp xml:id="ep000625-e9280">
+        <sp who="ep000625-kmas" xml:id="ep000625-e9280">
           <speaker>K. Mas. </speaker>
           <l>Our Arms like Thunder levell'd at his Crown, </l>
           <l>Shall all at once hurl'd by our rage, rush on, </l>
@@ -990,45 +1062,45 @@
           <l>As if my Soul did not out-go my Years. </l>
         </sp>
         <stage xml:id="ep000625-e9400">Enter Rosolinda. </stage>
-        <sp xml:id="ep000625-e9420">
+        <sp who="ep000625-ros" xml:id="ep000625-e9420">
           <speaker>Ros. </speaker>
           <l>I've scap'd with much ado the Tribune's Hands; </l>
           <l>But 'tis the Consul who must break my Bands, </l>
           <l>And send me with a pass-port back.— Who's there? </l>
           <l>What are you? </l>
         </sp>
-        <sp xml:id="ep000625-e9480">
+        <sp who="ep000625-mas" xml:id="ep000625-e9480">
           <speaker>Mas. </speaker>
           <l>First instruct me what you are. </l>
           <l>And how you came to be thus Heavenly fair: </l>
           <l>What is it makes your Cheeks so fresh and bright, </l>
           <l>The Red of Roses, or the Lillies White. </l>
         </sp>
-        <sp xml:id="ep000625-e9540">
+        <sp who="ep000625-ros" xml:id="ep000625-e9540">
           <speaker>Ros. </speaker>
           <l>Were you ne're thus before? </l>
         </sp>
-        <sp xml:id="ep000625-e9570">
+        <sp who="ep000625-mas" xml:id="ep000625-e9570">
           <speaker>Mas. </speaker>
           <l>I never knew </l>
           <l>Such Agues in my Blood, and Feavers too. </l>
         </sp>
-        <sp xml:id="ep000625-e9610">
+        <sp who="ep000625-ros" xml:id="ep000625-e9610">
           <speaker>Ros. </speaker>
           <l>I'le leave you, Sir. </l>
         </sp>
-        <sp xml:id="ep000625-e9640">
+        <sp who="ep000625-mas" xml:id="ep000625-e9640">
           <speaker>Mas. </speaker>
           <l>You cannot if you wou'd, </l>
           <l>You may as easily forgo your Blood. </l>
           <l>Like that I'le blushing creep about you still. </l>
           <l>And my sick thoughts with silent pleasures fill. </l>
         </sp>
-        <sp xml:id="ep000625-e9700">
+        <sp who="ep000625-ros" xml:id="ep000625-e9700">
           <speaker>Ros. </speaker>
           <l>What is't you'd have? </l>
         </sp>
-        <sp xml:id="ep000625-e9730">
+        <sp who="ep000625-mas" xml:id="ep000625-e9730">
           <speaker>Mas. </speaker>
           <l>Alas, I do not know; </l>
           <l>Something there is which Nature will not show: </l>
@@ -1037,20 +1109,20 @@
           <l>Like Quick-silver it moves so cold and fast; </l>
           <l>Then my Eyes twinkle as they'd look their last. </l>
         </sp>
-        <sp xml:id="ep000625-e9810">
+        <sp who="ep000625-ros" xml:id="ep000625-e9810">
           <pb n="17" xml:id="ep000625-012-b"/>
           <speaker>Ros. </speaker>
           <l>It shews like Love, but in its birth destroy </l>
           <l>A passion which scarce pitty can enjoy. </l>
         </sp>
-        <sp xml:id="ep000625-e9850">
+        <sp who="ep000625-mass" xml:id="ep000625-e9850">
           <speaker>Mass. </speaker>
           <l>Perhaps you think me born of Common Race; </l>
           <l>But Royal Blood does my high Lineage grace: </l>
           <l>Ah! do not then put out this harmless flame, </l>
           <l>Since from your Eyes the tingling torment came. </l>
         </sp>
-        <sp xml:id="ep000625-e9910">
+        <sp who="ep000625-ros" xml:id="ep000625-e9910">
           <speaker>Ros. </speaker>
           <l>In vain your passion's ardour you alledge, </l>
           <l>The Fort's impregnable, break up your Siege; </l>
@@ -1059,7 +1131,7 @@
           <l>The haughtiest, bravest, foremost Man on Earth, </l>
           <l>Who from the Blood of Gods derives his Birth. </l>
         </sp>
-        <sp xml:id="ep000625-e9990">
+        <sp who="ep000625-mass" xml:id="ep000625-e9990">
           <speaker>Mass. </speaker>
           <l>To his Immortal Kindred leave him then, </l>
           <l>You may be better plac'd with blood of Men: </l>
@@ -1068,33 +1140,33 @@
           <l>May chance take pet as you in Love engage, </l>
           <l>And thunder you to pieces in his rage. </l>
         </sp>
-        <sp xml:id="ep000625-e10070">
+        <sp who="ep000625-ros" xml:id="ep000625-e10070">
           <speaker>Ros. </speaker>
           <l>'Tis true, in War most dreadful he appears, </l>
           <l>All Cruel, Glorious, dangers thick he wears: </l>
           <l>Not to amuse you, when I have nam'd all </l>
           <l>That's great, and lovely, think on Hannibal. </l>
         </sp>
-        <sp xml:id="ep000625-e10140">
+        <sp who="ep000625-mas" xml:id="ep000625-e10140">
           <speaker>Mas. </speaker>
           <l>Is't possible! </l>
           <l>In Age can beauty ought that's lovely spy, </l>
           <l>Can dreams of glory waking youth supply? </l>
         </sp>
-        <sp xml:id="ep000625-e10190">
+        <sp who="ep000625-ros" xml:id="ep000625-e10190">
           <speaker>Ros. </speaker>
           <l>Though his blood mov'd like freezing Currents slow; </l>
           <l>Were his head whiter then the Alpine snow, </l>
           <l>My youth his age into one piece should grow. </l>
         </sp>
-        <sp xml:id="ep000625-e10250">
+        <sp who="ep000625-mas" xml:id="ep000625-e10250">
           <speaker>Mas. </speaker>
           <l>All you have said, I know in jest was spoke; </l>
           <l>What should you do with such a sapless Oak? </l>
           <l>When a young pleasant Vine so near you stands, </l>
           <l>And bows with all his Clusters to your hands. </l>
         </sp>
-        <sp xml:id="ep000625-e10310">
+        <sp who="ep000625-ros" xml:id="ep000625-e10310">
           <speaker>Ros. </speaker>
           <l>Honour to youth, and beauty I prefer, </l>
           <l>I'm for the best and bravest Man in War; </l>
@@ -1108,7 +1180,7 @@
           <l>And have my name on his high Tomb engrav'd, </l>
           <l>This, this is she who Hannibal enslav'd. </l>
         </sp>
-        <sp xml:id="ep000625-e10440">
+        <sp who="ep000625-mass" xml:id="ep000625-e10440">
           <speaker>Mass. </speaker>
           <l>Though I no dawn of comfort can descry, </l>
           <l>Yet in this hopeless Love I will engage, </l>
@@ -1119,7 +1191,7 @@
           <l>Give a kind look, and I will prize the bliss </l>
           <l>Above those hopes which the Ambitious bear. </l>
         </sp>
-        <sp xml:id="ep000625-e10540">
+        <sp who="ep000625-ros" xml:id="ep000625-e10540">
           <speaker>Ros. </speaker>
           <l>Since then you are resolv'd a while to wait, </l>
           <l>As your first task shew me the Consul strait: </l>
@@ -1131,7 +1203,7 @@
         <stage xml:id="ep000625-e10620">SCENE The Carthaginian Camp. </stage>
         <stage xml:id="ep000625-e10640">Hannibal <hi>is discover'd in his Tent, sitting at a Table with lights. </hi>
         </stage>
-        <sp xml:id="ep000625-e10660">
+        <sp who="ep000625-han" xml:id="ep000625-e10660">
           <speaker>Han. </speaker>
           <l>How great's the care, the toil and lingring pain, </l>
           <l>That racks a General's breast, and breaks his brain: </l>
@@ -1159,16 +1231,16 @@
           <l>Bomilcar here? so suddenly return'd? </l>
           <l>You look as if your journey you had mourn'd. </l>
         </sp>
-        <sp xml:id="ep000625-e10980">
+        <sp who="ep000625-bom" xml:id="ep000625-e10980">
           <speaker>Bom. </speaker>
           <l>My Lord, we were discover'd. </l>
         </sp>
-        <sp xml:id="ep000625-e11010">
+        <sp who="ep000625-han" xml:id="ep000625-e11010">
           <speaker>Han. </speaker>
           <l>Ha! how then? </l>
           <l>Was your lost freedom given you agen? </l>
         </sp>
-        <sp xml:id="ep000625-e11050">
+        <sp who="ep000625-bom" xml:id="ep000625-e11050">
           <speaker>Bom. </speaker>
           <l>The gen'rous Consul knowing who we were, </l>
           <l>Commanded us to dissipate our fear: </l>
@@ -1176,18 +1248,18 @@
           <l>To let us take a view of every Band; </l>
           <l>But such brave Men, and such strict discipline! </l>
         </sp>
-        <sp xml:id="ep000625-e11120">
+        <sp who="ep000625-han" xml:id="ep000625-e11120">
           <speaker>Han. </speaker>
           <l>You speak, Bomilcar, as you knew not mine. </l>
         </sp>
-        <sp xml:id="ep000625-e11160">
+        <sp who="ep000625-bom" xml:id="ep000625-e11160">
           <speaker>Bom. </speaker>
           <l>My Lord, your pardon if I say, these eyes </l>
           <l>Ne're yet beheld such gallant Enemies. </l>
           <l>When we had seen what might less Spirits damp, </l>
           <l>He generously dismiss'd us from the Camp. </l>
         </sp>
-        <sp xml:id="ep000625-e11220">
+        <sp who="ep000625-han" xml:id="ep000625-e11220">
           <speaker>Han. </speaker>
           <l>This Civil brav'ry has oblidg'd me so, </l>
           <l>I shall to Battle with half fury go: </l>
@@ -1197,12 +1269,12 @@
           <l>Is she alive? how I that answer dread! </l>
           <l>Or is it possible she can be dead? </l>
         </sp>
-        <sp xml:id="ep000625-e11310">
+        <sp who="ep000625-bom" xml:id="ep000625-e11310">
           <speaker>Bom. </speaker>
           <l>Though in the search our utmost wit essay'd, </l>
           <l>We nought cou'd hear of that Illustrious Maid. </l>
         </sp>
-        <sp xml:id="ep000625-e11350">
+        <sp who="ep000625-han" xml:id="ep000625-e11350">
           <speaker>Han. </speaker>
           <l>Perhaps his heart for temp'rance so renown'd, </l>
           <l>From her all conquering eyes might take a wound, </l>
@@ -1212,14 +1284,14 @@
           <l>Yes, we will instantly our bodies join, </l>
           <l>The World's at stake, let it be his or mine. </l>
         </sp>
-        <sp xml:id="ep000625-e11430">
+        <sp who="ep000625-bom" xml:id="ep000625-e11430">
           <speaker>Bom. </speaker>
           <l>Throw boldly at the sum which the Gods set, </l>
           <l>A hundred thousand lives at once are met, </l>
           <l>That on your side will all their fortunes bet. </l>
         </sp>
         <stage xml:id="ep000625-e11480">Enter Maherbal. </stage>
-        <sp xml:id="ep000625-e11500">
+        <sp who="ep000625-mah" xml:id="ep000625-e11500">
           <speaker>Mah. </speaker>
           <l>Come forth my Lord, hast from your Tent, behold </l>
           <l>Sights that may chill the fiery, dant the bold; </l>
@@ -1236,11 +1308,11 @@
           <l>Helmets, and Shields of Diamonds they wear, </l>
           <l>And Spears with Stars of value set, they bear. </l>
         </sp>
-        <sp xml:id="ep000625-e11660">
+        <sp who="ep000625-han" xml:id="ep000625-e11660">
           <speaker>Han. </speaker>
           <l>The end of all things sure is drawing nigh. </l>
         </sp>
-        <sp xml:id="ep000625-e11690">
+        <sp who="ep000625-mah" xml:id="ep000625-e11690">
           <speaker>Mah. </speaker>
           <l>Through the void place swift Darts obliquely fly; </l>
           <l>Black swarthy Demons hold a hollow Cloud, </l>
@@ -1258,7 +1330,7 @@
           <l>Till satiated with blood the Monsters fled, </l>
           <l>Vanish'd from sight, and in dark Forrests hid. </l>
         </sp>
-        <sp xml:id="ep000625-e11860">
+        <sp who="ep000625-han" xml:id="ep000625-e11860">
           <pb n="21" xml:id="ep000625-014-b"/>
           <speaker>Han. </speaker>
           <l>Lead to the place, from whence we may descry </l>
@@ -1269,19 +1341,19 @@
         </sp>
         <stage xml:id="ep000625-e11930">The SCENE drawn, discovers a Heaven of blood, two Suns, Spirits in Battle, Arrows shot to and fro in the Air: Cryes of yielding Persons, &amp;c. Cryes of Carthage is fal'n, Carthage, &amp;c. </stage>
         <stage xml:id="ep000625-e11980">Re-enter Hannibal, Maherbal, Bomilcar. </stage>
-        <sp xml:id="ep000625-e12000">
+        <sp who="ep000625-han" xml:id="ep000625-e12000">
           <speaker>Han. </speaker>
           <l>What means the Gods by these phantastick forms? </l>
           <l>And unprovok'd, why do they raise such storms? </l>
         </sp>
-        <sp xml:id="ep000625-e12040">
+        <sp who="ep000625-mah" xml:id="ep000625-e12040">
           <speaker>Mah. </speaker>
           <l>When dreadful Prodigies like these appear, </l>
           <l>The sure destruction of some State is near. </l>
           <l>Our General's mov'd, his angry looks dart fire, </l>
           <l>And noble rage does his griev'd Soul inspire. </l>
         </sp>
-        <sp xml:id="ep000625-e12100">
+        <sp who="ep000625-han" xml:id="ep000625-e12100">
           <speaker>Han. </speaker>
           <l>Can this be true? Answer ye Powers Divine, </l>
           <l>Shall in our death the Roman glory shine? </l>
@@ -1306,35 +1378,35 @@
         <head>ACT. III. Scen. I. </head>
         <stage xml:id="ep000625-e12350">A Roman Camp. </stage>
         <stage xml:id="ep000625-e12360">Enter <hi>Scipio, Lelius</hi>, Attendants, Varro, Guard. </stage>
-        <sp xml:id="ep000625-e12390">
+        <sp who="ep000625-scip" xml:id="ep000625-e12390">
           <speaker>Scip. </speaker>
           <l>'TIs strange that we no News from Cirta hear; </l>
           <l>No Souldier thence? </l>
         </sp>
-        <sp xml:id="ep000625-e12440">
+        <sp who="ep000625-lel" xml:id="ep000625-e12440">
           <speaker>Lel. </speaker>
           <l>None, Sir, does yet appear. </l>
         </sp>
-        <sp xml:id="ep000625-e12470">
+        <sp who="ep000625-scip" xml:id="ep000625-e12470">
           <speaker>Scip. </speaker>
           <l>'Twere fit some Tribune with our Horse should go, </l>
           <l>And the intents of Massinissa know. </l>
         </sp>
         <stage xml:id="ep000625-e12520">Enter Rosalinda, and Massina. </stage>
-        <sp xml:id="ep000625-e12550">
+        <sp who="ep000625-ros" xml:id="ep000625-e12550">
           <speaker>Ros. </speaker>
           <l>Where is the General? By your Majesty, </l>
           <l>And august Garb, you should the Consul be: </l>
           <l>If such you are, I charge you set me free. </l>
         </sp>
-        <sp xml:id="ep000625-e12600">
+        <sp who="ep000625-scip" xml:id="ep000625-e12600">
           <speaker>Scip. </speaker>
           <l>Your strict Commands are told in such a way, </l>
           <l>The Consul doubts, whether he should obey; </l>
           <l>Nor know I Fair one, what or whose you are, </l>
           <l>Wrongfully held, or Prisoner of War. </l>
         </sp>
-        <sp xml:id="ep000625-e12660">
+        <sp who="ep000625-ros" xml:id="ep000625-e12660">
           <speaker>Ros. </speaker>
           <l>By right or wrong, when Beauty pleads like mine, </l>
           <l>'Tis fit you strait my liberty enjoyn; </l>
@@ -1342,14 +1414,14 @@
           <l>Since I to Hannibal the Great belong: </l>
           <l>Dare you detain what's his? </l>
         </sp>
-        <sp xml:id="ep000625-e12740">
+        <sp who="ep000625-scip" xml:id="ep000625-e12740">
           <speaker>Scip. </speaker>
           <l>We all things dare, </l>
           <l>But would not willingly offend the Fair; </l>
           <l>None shall presume your freedom to deny, </l>
           <l>If with the gift we may your friendship buy. </l>
         </sp>
-        <sp xml:id="ep000625-e12800">
+        <sp who="ep000625-ros" xml:id="ep000625-e12800">
           <speaker>Ros. </speaker>
           <l>My friendship? No to death I hate you all, </l>
           <l>All that bear Arms against my Hannibal; </l>
@@ -1361,7 +1433,7 @@
           <l>Rome! she's not fit, though she her head lay down, </l>
           <l>To be his Foot-stool, when he mounts a Throne. </l>
         </sp>
-        <sp xml:id="ep000625-e12930">
+        <sp who="ep000625-scip" xml:id="ep000625-e12930">
           <speaker>Scip. </speaker>
           <l>My yet unshaken Soul with vertue bound, </l>
           <l>No force of War, or Love cou'd ever wound: </l>
@@ -1371,7 +1443,7 @@
           <l>And all within I feel the fatal smart. </l>
           <l>Away with her, she is a Sorceress, go. </l>
         </sp>
-        <sp xml:id="ep000625-e13040">
+        <sp who="ep000625-mass" xml:id="ep000625-e13040">
           <speaker>Mass. </speaker>
           <l>Stay, stay, my Lord, remember she's your Foe; </l>
           <l>Besides I love her, and if she depart, </l>
@@ -1383,31 +1455,31 @@
           <l>With Gold, and Jewels sent me home again, </l>
           <l>And hung about my neck a Diamond Chain. </l>
         </sp>
-        <sp xml:id="ep000625-e13170">
+        <sp who="ep000625-scip" xml:id="ep000625-e13170">
           <speaker>Scip. </speaker>
           <l>At your Request, she shall not go, but stay </l>
           <l>With me. </l>
         </sp>
-        <sp xml:id="ep000625-e13210">
+        <sp who="ep000625-mass" xml:id="ep000625-e13210">
           <speaker>Mass. </speaker>
           <l>With you? Dispatch her, Sir, away, </l>
           <l>A Rival in my Love I cannot bear: </l>
           <l>Love toyes, my Lord, below your greatness are, </l>
           <l>They'l take you of the business off the War. </l>
         </sp>
-        <sp xml:id="ep000625-e13270">
+        <sp who="ep000625-scip" xml:id="ep000625-e13270">
           <speaker>Scip. </speaker>
           <l>Though War usurp the day, Love claims the night; </l>
           <l>At least we'l try this Am'rous new delight. </l>
         </sp>
-        <sp xml:id="ep000625-e13310">
+        <sp who="ep000625-mass" xml:id="ep000625-e13310">
           <speaker>Mass. </speaker>
           <l>Yes, you may try, but ne're can please like me; </l>
           <l>You'l still be dreaming, Sir, of Victory, </l>
           <l>Of storming Forts, and digging Trenches deep, </l>
           <l>And call for Arms, and break your Mistress's sleep. </l>
         </sp>
-        <sp xml:id="ep000625-e13370">
+        <sp who="ep000625-ros" xml:id="ep000625-e13370">
           <speaker>Ros. </speaker>
           <l>The serious trifles of your love adjourn, </l>
           <l>For know I view you both with equal scorn. </l>
@@ -1415,14 +1487,14 @@
           <l>This loyal heart shall never be but thine; </l>
           <l>How little these compar'd to thee? how low! </l>
         </sp>
-        <sp xml:id="ep000625-e13450">
+        <sp who="ep000625-scip" xml:id="ep000625-e13450">
           <pb n="24" xml:id="ep000625-016-a"/>
           <speaker>Scip. </speaker>
           <l>Trophees as great, and Conquests we can show, </l>
           <l>Noble as those which his fam'd Arms adorn, </l>
           <l>From as dire dangers Victory have torn. </l>
         </sp>
-        <sp xml:id="ep000625-e13500">
+        <sp who="ep000625-ros" xml:id="ep000625-e13500">
           <speaker>Ros. </speaker>
           <l>'Tis true, some Glory you atchiev'd in Spain, </l>
           <l>And Carthagina by surprize did gain; </l>
@@ -1441,7 +1513,7 @@
           <l>While your tame Legions, like the smaller fry, </l>
           <l>Glide silent on, and only twinkle by. </l>
         </sp>
-        <sp xml:id="ep000625-e13720">
+        <sp who="ep000625-scip" xml:id="ep000625-e13720">
           <speaker>Scip. </speaker>
           <l>Take her Massina, bear her from my Tent, </l>
           <l>To Freedom, Chains, to Death, or Banishment: </l>
@@ -1456,7 +1528,7 @@
           <stage xml:id="ep000625-e13860">Enter Maherbal. </stage>
           <l>What art thou? 'Tis the Consul speaks. </l>
         </sp>
-        <sp xml:id="ep000625-e13890">
+        <sp who="ep000625-mah" xml:id="ep000625-e13890">
           <speaker>Mah. </speaker>
           <l>From Hannibal I come, with you to treat, </l>
           <l>E're Fortune half the frighted World defeat: </l>
@@ -1467,11 +1539,11 @@
           <l>Since War is to the dreadful upshot come, </l>
           <l>Would hold discourse with you of the Earth's doom. </l>
         </sp>
-        <sp xml:id="ep000625-e14000">
+        <sp who="ep000625-scip" xml:id="ep000625-e14000">
           <speaker>Scip. </speaker>
           <l>'Tis granted; where's the place? </l>
         </sp>
-        <sp xml:id="ep000625-e14030">
+        <sp who="ep000625-mah" xml:id="ep000625-e14030">
           <speaker>Mah. </speaker>
           <l>On Zama's Plain, </l>
           <l>Attended only with five hundred Men; </l>
@@ -1479,24 +1551,24 @@
           <l>Expect the terrour of your Armies there. <stage xml:id="ep000625-e14100">Exit. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e14110">
+        <sp who="ep000625-scip" xml:id="ep000625-e14110">
           <speaker>Scip. </speaker>
           <l>Wou'd it were done, the great decision made; </l>
           <l>Rome crown'd, and in the dust great Carthage laid. </l>
         </sp>
         <stage xml:id="ep000625-e14170">Enter Trebellius. </stage>
-        <sp xml:id="ep000625-e14190">
+        <sp who="ep000625-treb" xml:id="ep000625-e14190">
           <speaker>Treb. </speaker>
           <l>Laurels, and all the Trophees conquest yields, </l>
           <l>Colours and Standards, bought with blood in fields, </l>
           <l>King Massinissa does to Scipio send, </l>
           <l>His Godlike Master, and his Warlike Friend. </l>
         </sp>
-        <sp xml:id="ep000625-e14270">
+        <sp who="ep000625-scip" xml:id="ep000625-e14270">
           <speaker>Scip. </speaker>
           <l>Relate in brief the progress of his Arms. </l>
         </sp>
-        <sp xml:id="ep000625-e14300">
+        <sp who="ep000625-treb" xml:id="ep000625-e14300">
           <speaker>Treb. </speaker>
           <l>Soon as King Syphax heard our dread alarms, </l>
           <l>He sent some Troops of Horse abroad to scout; </l>
@@ -1510,12 +1582,12 @@
           <l>And with his overflowing valour clear'd </l>
           <l>Those mighty odds which first our Souldiers tear'd. </l>
         </sp>
-        <sp xml:id="ep000625-e14450">
+        <sp who="ep000625-scip" xml:id="ep000625-e14450">
           <speaker>Scip. </speaker>
           <l>Some wond'rous Act of fortitude was shown, </l>
           <l>Which could re-settle Troops half overthrown. </l>
         </sp>
-        <sp xml:id="ep000625-e14490">
+        <sp who="ep000625-treb" xml:id="ep000625-e14490">
           <speaker>Treb. </speaker>
           <l>Where e're our General turn'd, death mark'd his look, </l>
           <l>And whom he ey'd with his cold Arrow strook; </l>
@@ -1531,19 +1603,19 @@
           <l>Which seen, with one consent the Souldiers fled, </l>
           <l>As if all hopes were with their Monarch dead. </l>
         </sp>
-        <sp xml:id="ep000625-e14640">
+        <sp who="ep000625-scip" xml:id="ep000625-e14640">
           <speaker>Scip. </speaker>
           <l>Cirta should after such a loss in course, </l>
           <l>Surrender to the Victor's dreaded force. </l>
         </sp>
-        <sp xml:id="ep000625-e14690">
+        <sp who="ep000625-treb" xml:id="ep000625-e14690">
           <speaker>Treb. </speaker>
           <l>It did, great Sir: To Massinissa now </l>
           <l>The gravest Lords with willing homage bow; </l>
           <l>Whereas I did amongst the formost ride, </l>
           <l>'Twas wish'd the Queen might prove the Victor's Bride. </l>
         </sp>
-        <sp xml:id="ep000625-e14760">
+        <sp who="ep000625-scip" xml:id="ep000625-e14760">
           <speaker>Scip. </speaker>
           <l>I rather wish thou cou'dst not Conquest boast, </l>
           <l>And that the King were with the Battail lost. </l>
@@ -1554,14 +1626,14 @@
           </l>
         </sp>
         <stage xml:id="ep000625-e14870">Maherbal, Enter Hannibal, and Bomilcar. </stage>
-        <sp xml:id="ep000625-e14900">
+        <sp who="ep000625-han" xml:id="ep000625-e14900">
           <speaker>Han. </speaker>
           <l>My Rosalinda freed, and in my Tent? </l>
           <l>But wherefore was that Stranger with her sent? </l>
           <l>Thou hast a Tempest rais'd within my mind; </l>
           <l>Speak, was this Youth so fair, and she so kind? </l>
         </sp>
-        <sp xml:id="ep000625-e14970">
+        <sp who="ep000625-bom" xml:id="ep000625-e14970">
           <speaker>Bom. </speaker>
           <l>Your Rosalinda's beauty did appear, </l>
           <l>Bright as Noon day all piercing, sprightly clear: </l>
@@ -1570,11 +1642,11 @@
           <l>And tears his blushing Cheeks did so adorn, </l>
           <l>Me thought the Sun came usher'd by the Morn. </l>
         </sp>
-        <sp xml:id="ep000625-e15060">
+        <sp who="ep000625-han" xml:id="ep000625-e15060">
           <speaker>Han. </speaker>
           <l>Cease thy unwelcom praise; what did she say? </l>
         </sp>
-        <sp xml:id="ep000625-e15090">
+        <sp who="ep000625-bom" xml:id="ep000625-e15090">
           <speaker>Bom. </speaker>
           <l>That she would there for your appearance stay: </l>
           <l>I bow'd, and went; but being curious grown, </l>
@@ -1584,7 +1656,7 @@
           <l>Be gone, be gone, if Hannibal should come, </l>
           <l>And but suspect— death were your certain doom. </l>
         </sp>
-        <sp xml:id="ep000625-e15190">
+        <sp who="ep000625-han" xml:id="ep000625-e15190">
           <pb n="27" xml:id="ep000625-017-b"/>
           <speaker>Han. </speaker>
           <l>Peace, Harbenger of Fate, with Ravens dwell, </l>
@@ -1602,18 +1674,18 @@
           </l>
         </sp>
         <stage xml:id="ep000625-e15350">Enter Rosalinda, and Massina. </stage>
-        <sp xml:id="ep000625-e15380">
+        <sp who="ep000625-ros" xml:id="ep000625-e15380">
           <speaker>Ros. </speaker>
           <l>Why will you stay? If you did ever love, </l>
           <l>Let me conjure you, from this place remove. </l>
         </sp>
-        <sp xml:id="ep000625-e15420">
+        <sp who="ep000625-mass" xml:id="ep000625-e15420">
           <speaker>Mass. </speaker>
           <l>Permit me as your Menial Servant stay, </l>
           <l>And near your Person sigh my life away: </l>
           <l>Is that so much? </l>
         </sp>
-        <sp xml:id="ep000625-e15470">
+        <sp who="ep000625-ros" xml:id="ep000625-e15470">
           <speaker>Ros. </speaker>
           <l>It cannot, must not be, </l>
           <l>That you should idly spend your hours with me: </l>
@@ -1622,7 +1694,7 @@
           <l>A generous pity does my heart subdue, </l>
           <l>Which bids you now eternally Adieu. </l>
         </sp>
-        <sp xml:id="ep000625-e15550">
+        <sp who="ep000625-mass" xml:id="ep000625-e15550">
           <speaker>Mass. </speaker>
           <l>Say, your disdain.— Alas! how can I part? </l>
           <l>Me thinks I go as if I had no heart: </l>
@@ -1632,11 +1704,11 @@
           <l>My tears shall swell'em up that I will drown. </l>
         </sp>
         <stage xml:id="ep000625-e15630">Enter Hannibal, Bomilcar, Asper. </stage>
-        <sp xml:id="ep000625-e15650">
+        <sp who="ep000625-ros" xml:id="ep000625-e15650">
           <speaker>Ros. </speaker>
           <l>Massina stay; I strictly charge you live. </l>
         </sp>
-        <sp xml:id="ep000625-e15690">
+        <sp who="ep000625-han" xml:id="ep000625-e15690">
           <speaker>Han. </speaker>
           <l>Not Heaven, nor Earth can grant him a reprieve, </l>
           <pb n="28" xml:id="ep000625-018-a"/>
@@ -1647,14 +1719,14 @@
           <l>Is it for this at last we meet again? </l>
           <l>Wou'd thou hadst still the Consul's Captive been. </l>
         </sp>
-        <sp xml:id="ep000625-e15810">
+        <sp who="ep000625-ros" xml:id="ep000625-e15810">
           <speaker>Ros. </speaker>
           <l>Oh Hannibal! can you resist my tears? </l>
           <l>What change is this your stormy temper wears? </l>
           <l>He shall not die: <hi>Bomilcar, Asper</hi>, stay, </l>
           <l>'Tis I command you; dare you disobey? </l>
         </sp>
-        <sp xml:id="ep000625-e15890">
+        <sp who="ep000625-han" xml:id="ep000625-e15890">
           <speaker>Han. </speaker>
           <l>Be gone, he dyes who listens to her pray'r; </l>
           <l>Pull off his Bracelets, let him shackles wear, </l>
@@ -1662,7 +1734,7 @@
           <l>Too light a pennance for so foul a sin. <stage xml:id="ep000625-e15950">Massina <hi>is taken away</hi>. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e15970">
+        <sp who="ep000625-ros" xml:id="ep000625-e15970">
           <speaker>Ros. </speaker>
           <l>If Rosalinda yet has any part <stage xml:id="ep000625-e16010">Kneels. </stage>
           </l>
@@ -1670,38 +1742,38 @@
           <l>This Stranger's freedom instantly enjoyn, </l>
           <l>And you shall ever be the Lord of mine. </l>
         </sp>
-        <sp xml:id="ep000625-e16050">
+        <sp who="ep000625-han" xml:id="ep000625-e16050">
           <speaker>Han. </speaker>
           <l>How darst thou plead for him, false as you are? </l>
           <l>Falser, if possible, then thou art fair: </l>
           <l>In his behalf no Intercession make, </l>
           <l>His torments shall be doubled for thy sake. </l>
         </sp>
-        <sp xml:id="ep000625-e16110">
+        <sp who="ep000625-ros" xml:id="ep000625-e16110">
           <speaker>Ros. </speaker>
           <l>Henceforth wrong'd Innocence from Courts retreat, </l>
           <l>Thou best, but rare Companion of the great: </l>
           <l>Since thus abus'd, ah! visit them no more, </l>
           <l>But rest thy sorrows at some Shepard's door. </l>
         </sp>
-        <sp xml:id="ep000625-e16170">
+        <sp who="ep000625-han" xml:id="ep000625-e16170">
           <speaker>Han. </speaker>
           <l>Oh guilt! canst thou to Innocence appeal? </l>
           <l>Who to this Youth such kindness did reveal? </l>
         </sp>
-        <sp xml:id="ep000625-e16210">
+        <sp who="ep000625-ros" xml:id="ep000625-e16210">
           <speaker>Ros. </speaker>
           <l>If pitty kindness be, I was most kind, </l>
           <l>Who all my softness to his griefs resign'd; </l>
           <l>And what, but Marble hearts cou'd see him mourn, </l>
           <l>Yet so much sweetness with such sorrows scorn? </l>
         </sp>
-        <sp xml:id="ep000625-e16270">
+        <sp who="ep000625-han" xml:id="ep000625-e16270">
           <speaker>Han. </speaker>
           <l>Pity like yours, that does so swiftly move, </l>
           <l>Is the fore-runner of approaching Love. </l>
         </sp>
-        <sp xml:id="ep000625-e16310">
+        <sp who="ep000625-ros" xml:id="ep000625-e16310">
           <speaker>Ros. </speaker>
           <l>Unworthy of the honour you possess, </l>
           <l>My passions great wou'd I cou'd make it less: </l>
@@ -1715,26 +1787,26 @@
           <l>The frost, which long had bound his heart, did melt, </l>
           <l>And Love like Sun-shine thaw'd his Ice away. </l>
         </sp>
-        <sp xml:id="ep000625-e16430">
+        <sp who="ep000625-han" xml:id="ep000625-e16430">
           <speaker>Han. </speaker>
           <l>Your looks, me thinks, have quite another Air; </l>
           <l>Nor doubt I but your Beauty has been try'd, </l>
           <l>So faint loves Colours in your face appear, </l>
           <l>Like Silks that loose their gloss with being dy'd. </l>
         </sp>
-        <sp xml:id="ep000625-e16490">
+        <sp who="ep000625-ros" xml:id="ep000625-e16490">
           <speaker>Ros. </speaker>
           <l>That Scipio, nor this Prince, whom cruel you </l>
           <l>Have bound, cou'd nothing on my heart prevail, </l>
           <l>Is as Heaven's high Decree most justly true; </l>
           <l>And I am Innocent, as thou art frail. </l>
         </sp>
-        <sp xml:id="ep000625-e16560">
+        <sp who="ep000625-han" xml:id="ep000625-e16560">
           <speaker>Han. </speaker>
           <l>Alas! 'twas Innocence, to say, begone, </l>
           <l>If Hannibal should but suspect, you'r dead. </l>
         </sp>
-        <sp xml:id="ep000625-e16610">
+        <sp who="ep000625-ros" xml:id="ep000625-e16610">
           <speaker>Ros. </speaker>
           <l>Compassion, for a Love, I could not own, </l>
           <l>Urg'd me to speak; what you have heard was said, </l>
@@ -1745,7 +1817,7 @@
           <l>Nor may your Arms in War be fortunate, </l>
           <l>Nor Rosalinda but with frowns be seen. </l>
         </sp>
-        <sp xml:id="ep000625-e16720">
+        <sp who="ep000625-han" xml:id="ep000625-e16720">
           <speaker>Han. </speaker>
           <l>Stay, Madam.— Hast, the Captive Prince unbind; </l>
           <l>My heart to others rough, the Souldiers crime, </l>
@@ -1757,16 +1829,16 @@
           <l>And pointed Beauty through my Armour ran; </l>
           <l>Can you forgive the rudeness of my mind? </l>
         </sp>
-        <sp xml:id="ep000625-e16830">
+        <sp who="ep000625-ros" xml:id="ep000625-e16830">
           <speaker>Ros. </speaker>
           <l>Forgo your jealousie, and I'le be kind. </l>
         </sp>
         <stage xml:id="ep000625-e16860">Enter Massina unbound. </stage>
-        <sp xml:id="ep000625-e16890">
+        <sp who="ep000625-han" xml:id="ep000625-e16890">
           <speaker>Han. </speaker>
           <l>May a rash Man, wrong'd Prince, your pardon crave? </l>
         </sp>
-        <sp xml:id="ep000625-e16920">
+        <sp who="ep000625-mass" xml:id="ep000625-e16920">
           <speaker>Mass. </speaker>
           <l>No, Sir, my pardon you shall never have; </l>
           <pb n="30" xml:id="ep000625-019-a"/>
@@ -1781,19 +1853,19 @@
           <l>Yet I could live for Rosalinda's sake: </l>
           <l>Speak, Hannibal, wilt thou thy share resign? </l>
         </sp>
-        <sp xml:id="ep000625-e17080">
+        <sp who="ep000625-ros" xml:id="ep000625-e17080">
           <speaker>Ros. </speaker>
           <l>He may, but I can never part with mine. </l>
         </sp>
-        <sp xml:id="ep000625-e17110">
+        <sp who="ep000625-mass" xml:id="ep000625-e17110">
           <speaker>Mass. </speaker>
           <l>How never? </l>
         </sp>
-        <sp xml:id="ep000625-e17140">
+        <sp who="ep000625-ros" xml:id="ep000625-e17140">
           <speaker>Ros. </speaker>
           <l>Never. </l>
         </sp>
-        <sp xml:id="ep000625-e17170">
+        <sp who="ep000625-mass" xml:id="ep000625-e17170">
           <speaker>Mass. </speaker>
           <l>O unkind hard heart! </l>
           <l>Love when he shot me, sure mistook his dart, </l>
@@ -1801,19 +1873,19 @@
           <l>Thus drinks my blood, thus with a full deep draught. </l>
         </sp>
         <stage xml:id="ep000625-e17230">Stabs himself. </stage>
-        <sp xml:id="ep000625-e17240">
+        <sp who="ep000625-ros" xml:id="ep000625-e17240">
           <speaker>Ros. </speaker>
           <l>Hold, cruel Prince; the Dagger from him wrest. </l>
         </sp>
-        <sp xml:id="ep000625-e17270">
+        <sp who="ep000625-han" xml:id="ep000625-e17270">
           <speaker>Han. </speaker>
           <l>Too late, alas! I drew it from his breast. </l>
         </sp>
-        <sp xml:id="ep000625-e17300">
+        <sp who="ep000625-ros" xml:id="ep000625-e17300">
           <speaker>Ros. </speaker>
           <l>What have you done? </l>
         </sp>
-        <sp xml:id="ep000625-e17330">
+        <sp who="ep000625-mass" xml:id="ep000625-e17330">
           <speaker>Mass. </speaker>
           <l>Only my Body areyn'd </l>
           <l>Of that sick blood, which Hannibal had stain'd: </l>
@@ -1822,7 +1894,7 @@
           <l>Now you may take him, take him to you all, </l>
           <l>This cruel, haughty, happy Hannibal. </l>
         </sp>
-        <sp xml:id="ep000625-e17430">
+        <sp who="ep000625-han" xml:id="ep000625-e17430">
           <speaker>Han. </speaker>
           <l>The bus'ness of our life's a senseless thing; </l>
           <l>Why burns th'Ambitious Man to be a King? </l>
@@ -1832,7 +1904,7 @@
           <l>As Boyes blow watry bubbles in the Air. </l>
           <l>My help!— </l>
         </sp>
-        <sp xml:id="ep000625-e17520">
+        <sp who="ep000625-mass" xml:id="ep000625-e17520">
           <speaker>Mass. </speaker>
           <l>Ah let me not be touch'd by thee, </l>
           <l>If Foes may capable of pity be. </l>
@@ -1842,7 +1914,7 @@
           <l>Within my dark and dusty Dungeon lye. <stage xml:id="ep000625-e17590">dies. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e17600">
+        <sp who="ep000625-han" xml:id="ep000625-e17600">
           <speaker>Han. </speaker>
           <l>Crowds of ill boading thoughts my Soul dismay </l>
           <l>His body to the Roman Campe convey. </l>
@@ -1850,7 +1922,7 @@
           <l>And look so sad that they may think you dead. </l>
         </sp>
         <stage xml:id="ep000625-e17660">They bear off the Body. </stage>
-        <sp xml:id="ep000625-e17670">
+        <sp who="ep000625-ros" xml:id="ep000625-e17670">
           <speaker>Ros. </speaker>
           <l>This your suspition of my honour was: </l>
           <l>See the effects where Jealousy's the cause. </l>
@@ -1863,7 +1935,7 @@
           <l>But all the business of the World is done. <stage xml:id="ep000625-e17790">Exit. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e17800">
+        <sp who="ep000625-han" xml:id="ep000625-e17800">
           <speaker>Han. </speaker>
           <l>Oh that my heart her future State cou'd find: </l>
           <l>Know to what good or ill this lifes design'd. </l>
@@ -1879,7 +1951,7 @@
         <stage xml:id="ep000625-e17920">The SCENE the City of Cirta. </stage>
         <stage xml:id="ep000625-e17950">Enter King Massinissa and Menander. </stage>
         <stage xml:id="ep000625-e17980">Trumpets sound a lofty March. </stage>
-        <sp xml:id="ep000625-e17990">
+        <sp who="ep000625-kmas" xml:id="ep000625-e17990">
           <speaker>K. Mas. </speaker>
           <l>Was ever victory so swiftly won: </l>
           <l>We scarce had leisure to demand the Town. </l>
@@ -1887,21 +1959,21 @@
           <l>Their Gates they opened with such hast and fear, </l>
           <l>As if our Conquering Swords Enchanted were. </l>
         </sp>
-        <sp xml:id="ep000625-e18050">
+        <sp who="ep000625-men" xml:id="ep000625-e18050">
           <speaker>Men. </speaker>
           <l>Syphax the great Usurper of your Throne: </l>
           <l>Is to revenging Furies downwards gone. </l>
           <l>In hells low valleys grown the darkest Weed, </l>
           <l>And feels the stings that make Ambition bleed. </l>
         </sp>
-        <sp xml:id="ep000625-e18120">
+        <sp who="ep000625-kmas" xml:id="ep000625-e18120">
           <speaker>K. Mas. </speaker>
           <l>Straight to the Palace bid our Forces turn, </l>
           <l>Where Sophonisba does her losses mourn. </l>
           <l>We'll visit that forsworne Illustrious faire, </l>
           <l>To let her see how unconcern'd we are. </l>
         </sp>
-        <sp xml:id="ep000625-e18190">
+        <sp who="ep000625-men" xml:id="ep000625-e18190">
           <speaker>Men, </speaker>
           <l>Since you have promised that you would forsake: </l>
           <l>Why should your vertue need less tryalls make. </l>
@@ -1910,7 +1982,7 @@
           <l>Like he at which stifled in some closer space, </l>
           <l>If any Air gets in, fires all the place. </l>
         </sp>
-        <sp xml:id="ep000625-e18270">
+        <sp who="ep000625-kmas" xml:id="ep000625-e18270">
           <speaker>K. Mas. </speaker>
           <l>Darst thou suspect? I say it cannot be: </l>
           <l>Has Air or its wing'd ranger liberty. </l>
@@ -1920,12 +1992,12 @@
           <l>Braving her Eyes, her falshood I'll upbraid. </l>
           <l>For those rude wrongs she on my vertue layd. </l>
         </sp>
-        <sp xml:id="ep000625-e18370">
+        <sp who="ep000625-man" xml:id="ep000625-e18370">
           <speaker>Man. </speaker>
           <l>Your Majesty best knows what's fit to chuse: </l>
           <l>I humbly offer'd what you may refuse. </l>
         </sp>
-        <sp xml:id="ep000625-e18410">
+        <sp who="ep000625-kmas" xml:id="ep000625-e18410">
           <speaker>K. Mas. </speaker>
           <l>Perhaps my present rage I may not keep; </l>
           <l>For she has word would make the Cruel weep. </l>
@@ -1939,7 +2011,7 @@
         <stage xml:id="ep000625-e18520">
           <pb n="33" xml:id="ep000625-020-b"/>SCENE, The Palace. </stage>
         <stage xml:id="ep000625-e18540">Enter Sephonisba Rezambe and Merna. </stage>
-        <sp xml:id="ep000625-e18570">
+        <sp who="ep000625-seph" xml:id="ep000625-e18570">
           <speaker>Seph. </speaker>
           <l>Rome and the World against my life combine, </l>
           <l>Methinks I'me still a Queen whilst this is mine. </l>
@@ -1952,11 +2024,11 @@
           <l>Merna, if I have ought from thee deserv'd, </l>
           <l>Be grateful thus, and thou hast nobly serv'd. </l>
         </sp>
-        <sp xml:id="ep000625-e18730">
+        <sp who="ep000625-mer" xml:id="ep000625-e18730">
           <speaker>Mer. </speaker>
           <l>Not for the World. </l>
         </sp>
-        <sp xml:id="ep000625-e18760">
+        <sp who="ep000625-soph" xml:id="ep000625-e18760">
           <speaker>Soph. </speaker>
           <l>Rezambe thou art brave, </l>
           <l>Strike, and the Carthaginian glory save. </l>
@@ -1966,7 +2038,7 @@
           <l>And free thy Country with one desperate Blow. </l>
           <l>A deed that will even Hannibal out do. </l>
         </sp>
-        <sp xml:id="ep000625-e18880">
+        <sp who="ep000625-rez" xml:id="ep000625-e18880">
           <speaker>Rez. </speaker>
           <l>Rather then I would live to see those hands: </l>
           <l>Which Kings have kissed fetter'd with Roman Bands. </l>
@@ -1976,7 +2048,7 @@
           <l>I'd bath this Dagger in your lives warm flood: </l>
           <l>Till the haft reek'd with your hearts Royal blood. </l>
         </sp>
-        <sp xml:id="ep000625-e18970">
+        <sp who="ep000625-soph" xml:id="ep000625-e18970">
           <speaker>Soph. </speaker>
           <l>O thou most noble Martial worthy Maid, </l>
           <l>If by thy eyes my soul could be survey'd. </l>
@@ -1987,7 +2059,7 @@
           <l>Now stricke, and bravely Act thy Tragick part: </l>
           <l>Just here, strike through, and through this wretched heart. </l>
         </sp>
-        <sp xml:id="ep000625-e19080">
+        <sp who="ep000625-rez" xml:id="ep000625-e19080">
           <pb n="34" xml:id="ep000625-021-a"/>
           <speaker>Rez. </speaker>
           <l>Deaths our last remedy as 'tis the worst. </l>
@@ -1997,35 +2069,35 @@
           <l>Blow it into a flame, try all your Charms: </l>
           <l>Love laughs at Brandish'd swords and glitt'ring Arms. </l>
         </sp>
-        <sp xml:id="ep000625-e19170">
+        <sp who="ep000625-mer" xml:id="ep000625-e19170">
           <speaker>Mer. </speaker>
           <l>Never was man like Massinissa kind; </l>
           <l>By nature mild, and amerously inclin'd. </l>
           <l>Not vanquish'd Syphax dying fell so low, </l>
           <l>As this Charm'd Prince will to your beauty bow. </l>
         </sp>
-        <sp xml:id="ep000625-e19250">
+        <sp who="ep000625-rez" xml:id="ep000625-e19250">
           <speaker>Rez. </speaker>
           <l>Imputed Trechery you ought to clear, </l>
           <l>Let guilt shrink back, and Innocence appear, </l>
           <l>I'll hide the Ponyard in my Robe, if he </l>
           <l>Dooms you a slave, this gives you liberty. </l>
         </sp>
-        <sp xml:id="ep000625-e19310">
+        <sp who="ep000625-soph" xml:id="ep000625-e19310">
           <speaker>Soph. </speaker>
           <l>When breach of faith joyn'd hearts does disingage, </l>
           <l>The Calmest temper turnes to wildest Rage. </l>
           <l>He thinks me false, though I have been most true: </l>
           <l>And thinking so what may his fury doe? </l>
         </sp>
-        <sp xml:id="ep000625-e19370">
+        <sp who="ep000625-rez" xml:id="ep000625-e19370">
           <speaker>Rez. </speaker>
           <l>His Trumpets Clangors make the Palace ring; </l>
           <l>Here wait your fate, and this victorious King. </l>
         </sp>
         <stage xml:id="ep000625-e19410">
           <hi>Enter King </hi>Massinissa Menander attendents. </stage>
-        <sp xml:id="ep000625-e19440">
+        <sp who="ep000625-kmass" xml:id="ep000625-e19440">
           <speaker>K. Mass. </speaker>
           <l>Madam I come to tell you that you are </l>
           <l>No more a Queen, but Prisoner of War. </l>
@@ -2036,14 +2108,14 @@
           <l>You in the War have bin unfortunate; </l>
           <l>Not but your cause deserv'd a better fate. </l>
         </sp>
-        <sp xml:id="ep000625-e19540">
+        <sp who="ep000625-soph" xml:id="ep000625-e19540">
           <speaker>Soph. </speaker>
           <l>Of Empire's joyes to you a gift I make, </l>
           <l>More willingly then I did ever take. </l>
           <l>Freely as ever Syphax made it mine. </l>
           <l>To Massinissa I my Crown resign. </l>
         </sp>
-        <sp xml:id="ep000625-e19620">
+        <sp who="ep000625-kmas" xml:id="ep000625-e19620">
           <speaker>K. Mas. </speaker>
           <l>Not as your gift, Crowns I should then despise. </l>
           <l>But as my right by Birth and valours prize. </l>
@@ -2051,43 +2123,43 @@
           <l>My father Galla's Diadem i'le bear, </l>
           <l>And all the Royalties of Circa wear. </l>
         </sp>
-        <sp xml:id="ep000625-e19700">
+        <sp who="ep000625-soph" xml:id="ep000625-e19700">
           <speaker>Soph. </speaker>
           <l>These springs of grief unkindness now supplies. </l>
         </sp>
-        <sp xml:id="ep000625-e19730">
+        <sp who="ep000625-kmas" xml:id="ep000625-e19730">
           <speaker>K. Mas. </speaker>
           <l>Syphax deserv'd that tribute from your Eyes. </l>
         </sp>
-        <sp xml:id="ep000625-e19770">
+        <sp who="ep000625-soph" xml:id="ep000625-e19770">
           <speaker>Soph. </speaker>
           <l>There is a cause more worthy of these tears. </l>
         </sp>
-        <sp xml:id="ep000625-e19800">
+        <sp who="ep000625-kmas" xml:id="ep000625-e19800">
           <speaker>K. Mas. </speaker>
           <l>More worthy? what then Syphax? for your sake: </l>
           <l>Did he not fame and Empire victims make. </l>
           <l>Gving love over measure, when at last, </l>
           <l>He threw his life up for you as a Cast. </l>
         </sp>
-        <sp xml:id="ep000625-e19870">
+        <sp who="ep000625-soph" xml:id="ep000625-e19870">
           <speaker>Soph. </speaker>
           <l>If what I speak might kindly be receiv'd; </l>
           <l>But misery can never be believ'd. </l>
         </sp>
-        <sp xml:id="ep000625-e19910">
+        <sp who="ep000625-kmas" xml:id="ep000625-e19910">
           <speaker>K. Mas. </speaker>
           <l>Not you believ'd? O Gods is it clear day, </l>
           <l>So manifest are all things that you say. </l>
           <l>Not you believed? what hardned Infidel: </l>
           <l>Shall dare to doubt the Oracles you tell? </l>
         </sp>
-        <sp xml:id="ep000625-e19970">
+        <sp who="ep000625-soph" xml:id="ep000625-e19970">
           <speaker>Soph. </speaker>
           <l>I will when sorrow shall permit me speak: </l>
           <l>But sure my heart must with unkindness break, </l>
         </sp>
-        <sp xml:id="ep000625-e20010">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20010">
           <speaker>K. Mas. </speaker>
           <l>'Tis possible, yet Madam e're I go; </l>
           <l>Express your will for I have much to do. </l>
@@ -2095,41 +2167,41 @@
           <l>We have not fill'd, I must, I must begone. </l>
           <l>Menander do we triumph. </l>
         </sp>
-        <sp xml:id="ep000625-e20090">
+        <sp who="ep000625-men" xml:id="ep000625-e20090">
           <speaker>Men. </speaker>
           <l>Bravely Sir, </l>
           <l>All like your self, and more then Conquerour. </l>
         </sp>
-        <sp xml:id="ep000625-e20130">
+        <sp who="ep000625-rez" xml:id="ep000625-e20130">
           <speaker>Rez. </speaker>
           <l>Merna we're lost with what a haughty scorn, </l>
           <l>He turns away and smiles to see her mourn. </l>
         </sp>
-        <sp xml:id="ep000625-e20180">
+        <sp who="ep000625-soph" xml:id="ep000625-e20180">
           <speaker>Soph. </speaker>
           <l>Are you not Massinissa call'd? </l>
         </sp>
-        <sp xml:id="ep000625-e20220">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20220">
           <speaker>K. Mas. </speaker>
           <l>I am. </l>
         </sp>
-        <sp xml:id="ep000625-e20250">
+        <sp who="ep000625-soph" xml:id="ep000625-e20250">
           <speaker>Soph. </speaker>
           <l>Have you not heard of Sophinisba's name? </l>
           <l>She who unmov'd your high disdain endures; </l>
           <l>Yet Sophonisba who was always yours. </l>
         </sp>
-        <sp xml:id="ep000625-e20320">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20320">
           <speaker>K. Mas. </speaker>
           <l>Oh heavens! </l>
         </sp>
-        <sp xml:id="ep000625-e20350">
+        <sp who="ep000625-soph" xml:id="ep000625-e20350">
           <speaker>Soph. </speaker>
           <l>Whom wasting cares did all the day devour, </l>
           <l>Who watch'd all night, counting each tedious hour: </l>
           <l>And never found that there were joyes in power. </l>
         </sp>
-        <sp xml:id="ep000625-e20400">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20400">
           <speaker>K. Mas. </speaker>
           <l>Ha! Sophonisba! yes I knew her well; </l>
           <l>That Angel fair, and lov'd her er'e she fell. </l>
@@ -2144,24 +2216,24 @@
           <l>As when we lanch into the Sea, the land </l>
           <l>Goes backward with the trees, and all the neighbouring strand. </l>
         </sp>
-        <sp xml:id="ep000625-e20560">
+        <sp who="ep000625-men" xml:id="ep000625-e20560">
           <speaker>Men. </speaker>
           <l>Be gone my Lord, you're rnined if you stay. </l>
         </sp>
-        <sp xml:id="ep000625-e20590">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20590">
           <speaker>K. Mas. </speaker>
           <l>What from the vanquish'd shall we run away. </l>
         </sp>
-        <sp xml:id="ep000625-e20620">
+        <sp who="ep000625-mern" xml:id="ep000625-e20620">
           <speaker>Mern. </speaker>
           <l>Still there's some hopes, since at her name he shook, </l>
           <l>And now he eyes her with a kindling look. </l>
         </sp>
-        <sp xml:id="ep000625-e20660">
+        <sp who="ep000625-rez" xml:id="ep000625-e20660">
           <speaker>Rez. </speaker>
           <l>With that last Glance methought love shot him there. </l>
         </sp>
-        <sp xml:id="ep000625-e20690">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20690">
           <speaker>K. Mas. </speaker>
           <l>Yes Madam this is Massinissa here: </l>
           <l>I am (to thy Confusion be it kuown.) </l>
@@ -2176,36 +2248,36 @@
           <l>Till thou fair Murd'ress didst like lightning fall. </l>
           <l>And blasted blossoms, branches, root, and all. </l>
         </sp>
-        <sp xml:id="ep000625-e20840">
+        <sp who="ep000625-soph" xml:id="ep000625-e20840">
           <speaker>Soph. </speaker>
           <l>O Massinissa hear I this from thee? </l>
         </sp>
-        <sp xml:id="ep000625-e20880">
+        <sp who="ep000625-kmas" xml:id="ep000625-e20880">
           <speaker>K. Mas. </speaker>
           <l>'Tis equally a truth from him or me; </l>
           <l>Or any here— why Madam not from me. </l>
           <l>But if my presence should a trouble prove, </l>
           <l>I will for ever from your sight remove. </l>
         </sp>
-        <sp xml:id="ep000625-e20940">
+        <sp who="ep000625-soph" xml:id="ep000625-e20940">
           <speaker>Soph. </speaker>
           <l>Stay, Massinissa, stay, my life, my soul; </l>
           <l>Why do your eyes with such strange motion roul? </l>
           <l>Your fury in this heart that loves you hide. </l>
         </sp>
-        <sp xml:id="ep000625-e21000">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21000">
           <speaker>K. Mas. </speaker>
           <l>Where does that searcher of the soul recide: </l>
           <l>Who through blind tracks finds out a womans heart? </l>
           <l>Loe here's a bar, a stop to all his Art, </l>
           <l>Who wou'd not swear that such a love was true? </l>
         </sp>
-        <sp xml:id="ep000625-e21060">
+        <sp who="ep000625-soph" xml:id="ep000625-e21060">
           <pb n="37" xml:id="ep000625-022-b"/>
           <speaker>Soph. </speaker>
           <l>Do I not love you? By the Gods I do. </l>
         </sp>
-        <sp xml:id="ep000625-e21090">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21090">
           <speaker>K. Mas. </speaker>
           <l>Oh thou dissembler! once this wou'd have done, </l>
           <l>But all thy practis'd wiles at last are known. </l>
@@ -2214,7 +2286,7 @@
           <l>Gods If I stay, I shall believe again, </l>
           <l>Farewell thou greatest pleasure, greatest pain. </l>
         </sp>
-        <sp xml:id="ep000625-e21180">
+        <sp who="ep000625-soph" xml:id="ep000625-e21180">
           <speaker>Soph. </speaker>
           <l>By all our loves, this cannot, must not be; </l>
           <l>Those cruel words could not be meant to me. </l>
@@ -2225,11 +2297,11 @@
           <l>The treasure I would hoord, my only wealth: </l>
           <l>Take not that from me. </l>
         </sp>
-        <sp xml:id="ep000625-e21280">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21280">
           <speaker>K. Mas. </speaker>
           <l>'Tis but vain delay. </l>
         </sp>
-        <sp xml:id="ep000625-e21320">
+        <sp who="ep000625-soph" xml:id="ep000625-e21320">
           <speaker>Soph. </speaker>
           <l>Unkindly urg'd why do you turn away? <stage xml:id="ep000625-e21350">kneels. </stage>
           </l>
@@ -2241,19 +2313,19 @@
           <l>And thou dread God of love trie every dart: </l>
           <l>You shannot stir. </l>
         </sp>
-        <sp xml:id="ep000625-e21430">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21430">
           <speaker>K. Mas. </speaker>
           <l>What means this rising flood. <stage xml:id="ep000625-e21470">weeps. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e21480">
+        <sp who="ep000625-soph" xml:id="ep000625-e21480">
           <speaker>Soph. </speaker>
           <l>Nature will start at such ingratitude: </l>
           <l>Revenge on after ages this disgrace, </l>
           <l>And only Monsters make of humane race: </l>
           <l>Inhumane thou. </l>
         </sp>
-        <sp xml:id="ep000625-e21540">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21540">
           <speaker>K. Mas. </speaker>
           <l>She shall not, yet she shall; </l>
           <l>She grasps my heart, and cryes she'l have it all. </l>
@@ -2262,18 +2334,18 @@
           <l>Rise Madam, rise, each sigh, each softning glance; </l>
           <l>Lulls my loud wrongs, I'm hush'd, and in a trance. </l>
         </sp>
-        <sp xml:id="ep000625-e21620">
+        <sp who="ep000625-men" xml:id="ep000625-e21620">
           <speaker>Men. </speaker>
           <l>His sighs flow from him with so strong a Gale, </l>
           <l>As if his soul would through his lipsexhale. </l>
         </sp>
-        <sp xml:id="ep000625-e21660">
+        <sp who="ep000625-soph" xml:id="ep000625-e21660">
           <pb n="38" xml:id="ep000625-023-a"/>
           <speaker>Soph. </speaker>
           <l>Cou'd you be thus? on your poor Mistriss frown, </l>
           <l>What was my fault, alas what have I done? </l>
         </sp>
-        <sp xml:id="ep000625-e21700">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21700">
           <speaker>K. Mas. </speaker>
           <l>Nothing, why nothing, only this thou art, </l>
           <l>My life, my soul, my spirits blood and heart. </l>
@@ -2284,12 +2356,12 @@
           <l>But thou art soft, and sweet, and silent all, </l>
           <l>As births of Roses or as blossoms fall. </l>
         </sp>
-        <sp xml:id="ep000625-e21810">
+        <sp who="ep000625-soph" xml:id="ep000625-e21810">
           <speaker>Soph. </speaker>
           <l>This Rose that sticks so near your heart will fade, </l>
           <l>When planted by your hand in death's cold shade. </l>
         </sp>
-        <sp xml:id="ep000625-e21850">
+        <sp who="ep000625-kmas" xml:id="ep000625-e21850">
           <speaker>K. Mas. </speaker>
           <l>By mine? Not savages would harm thy breast; </l>
           <l>On whose refreshing pillowes, Iove might rest: </l>
@@ -2297,7 +2369,7 @@
           <l>So fair 'tis well thou art not faithful too; </l>
           <l>I cou'd not bear my bliss if thou wert true. </l>
         </sp>
-        <sp xml:id="ep000625-e21940">
+        <sp who="ep000625-soph" xml:id="ep000625-e21940">
           <speaker>Soph. </speaker>
           <l>Think me not false though I did Syphax wed, </l>
           <l>Who ever was a stranger to my bed. </l>
@@ -2306,7 +2378,7 @@
           <l>Heaven curse me if I ever granted more, </l>
           <l>Cou'd I be his having bin yours before? </l>
         </sp>
-        <sp xml:id="ep000625-e22030">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22030">
           <speaker>K. Mas. </speaker>
           <l>Why do you stop? still as statue lo, </l>
           <l>I stand, nor shall the wind presume to blow. </l>
@@ -2314,19 +2386,19 @@
           <l>To sigh though on the Rack he tortured were, </l>
           <l>Nor for his soul whisper a dying prayer. </l>
         </sp>
-        <sp xml:id="ep000625-e22110">
+        <sp who="ep000625-soph" xml:id="ep000625-e22110">
           <speaker>Soph. </speaker>
           <l>Make your love long, and let it burn less fast, </l>
           <l>These sudden raptures are to hot to last. </l>
         </sp>
-        <sp xml:id="ep000625-e22150">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22150">
           <speaker>K. Mas. </speaker>
           <l>Right Madam long if we such joyes should feel: </l>
           <l>The furious transports of delight would kill. </l>
           <l>Menander to the Temple lead away, </l>
           <l>By my clear fame this is our Marriage day. </l>
         </sp>
-        <sp xml:id="ep000625-e22230">
+        <sp who="ep000625-soph" xml:id="ep000625-e22230">
           <speaker>Soph. </speaker>
           <l>Your fame does far above all Censure sir, </l>
           <l>Free from the taunts of low repining Wi't. </l>
@@ -2336,32 +2408,32 @@
           <l>What will the World report of such a Bride, </l>
           <l>Who married the same day her Husband dy'd. </l>
         </sp>
-        <sp xml:id="ep000625-e22310">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22310">
           <speaker>K. Mas. </speaker>
           <l>Since Scipio is your mortal Enemy; </l>
           <l>It must be so upon necessity. </l>
           <l>Who yet will not molest you being mine. </l>
         </sp>
-        <sp xml:id="ep000625-e22380">
+        <sp who="ep000625-soph" xml:id="ep000625-e22380">
           <speaker>Soph. </speaker>
           <l>Then to the Gods let me my breath resigne. </l>
         </sp>
-        <sp xml:id="ep000625-e22410">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22410">
           <speaker>K. Mas. </speaker>
           <l>Can you consent rather then be my wife, </l>
           <l>To hazard honour liberty and life. </l>
         </sp>
-        <sp xml:id="ep000625-e22460">
+        <sp who="ep000625-soph" xml:id="ep000625-e22460">
           <speaker>Soph. </speaker>
           <l>But sir. </l>
         </sp>
-        <sp xml:id="ep000625-e22490">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22490">
           <speaker>K. Mas. </speaker>
           <l>But Madam say what you can say; </l>
           <l>You ought not, must not, and I cannot stay, </l>
           <l>One minute more casts both our lives away. </l>
         </sp>
-        <sp xml:id="ep000625-e22550">
+        <sp who="ep000625-soph" xml:id="ep000625-e22550">
           <speaker>Soph. </speaker>
           <l>Know mighty Prince I was, and am the same, </l>
           <l>And thongh the world this Act may justly blame, </l>
@@ -2371,18 +2443,18 @@
           <l>That you some fatal token will present, </l>
           <l>To free me from Inglorious punishment. </l>
         </sp>
-        <sp xml:id="ep000625-e22650">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22650">
           <speaker>K. Mas. </speaker>
           <l>I swear by Heaven, by Glory, and by Arms, </l>
           <l>By somthing more, and by your own conquering Charms. </l>
           <l>You shall be ever from the Romans free; </l>
           <l>Or I by death will give you liberty. </l>
         </sp>
-        <sp xml:id="ep000625-e22720">
+        <sp who="ep000625-soph" xml:id="ep000625-e22720">
           <speaker>Soph. </speaker>
           <l>Now lead me where you please. </l>
         </sp>
-        <sp xml:id="ep000625-e22750">
+        <sp who="ep000625-kmas" xml:id="ep000625-e22750">
           <speaker>K. Mas. </speaker>
           <l>A tast of bliss. </l>
           <l>The God of marriage seal our vowes with this, <stage xml:id="ep000625-e22800">kisses her </stage>
@@ -2407,14 +2479,14 @@
         <stage xml:id="ep000625-e22990">
           <hi>An Altar is shown, with a Souldier lying upon it, arm'd all but his head: </hi>Aglave, Cumana, <hi>standing each upon a Tripos, with Daggers in their right hands, and Cencers in their left. </hi>
         </stage>
-        <sp xml:id="ep000625-e23020">
+        <sp who="ep000625-agla" xml:id="ep000625-e23020">
           <speaker>Agla. </speaker>
           <l>E'Re we our solemn rites begin, </l>
           <l>The sacred Cavern purge from sin. </l>
           <l>About the dreadful Alter go; </l>
           <l>About it Inchantations blow. </l>
         </sp>
-        <sp xml:id="ep000625-e23080">
+        <sp who="ep000625-cum" xml:id="ep000625-e23080">
           <speaker>Cum. </speaker>
           <l>The dire oblation thus we drain, </l>
           <l>And with his blood our Temples staine. </l>
@@ -2423,7 +2495,7 @@
           <l>Gash him deep, and suck his blood, </l>
           <l>Prepare his frighted ghost a shrowd. </l>
         </sp>
-        <sp xml:id="ep000625-e23160">
+        <sp who="ep000625-agla" xml:id="ep000625-e23160">
           <speaker>Agla. </speaker>
           <l>Rise ye sulphrous flames, arise, </l>
           <l>Consume the baleful sacrifice. </l>
@@ -2431,7 +2503,7 @@
           <l>And clotted Cinders with 'em rake, </l>
           <l>And Viands for Bellona make. </l>
         </sp>
-        <sp xml:id="ep000625-e23240">
+        <sp who="ep000625-cum" xml:id="ep000625-e23240">
           <speaker>Cum. </speaker>
           <l>Our Goddess smil'd, 'tis done, 'tis done, </l>
           <l>The Romans have the Battle won. </l>
@@ -2442,7 +2514,7 @@
           <l>He puts their General to rout; </l>
           <l>And drives 'em like a storm about. </l>
         </sp>
-        <sp xml:id="ep000625-e23350">
+        <sp who="ep000625-agla" xml:id="ep000625-e23350">
           <speaker>Agla. </speaker>
           <l>Our Goddess shall have death enough, </l>
           <l>Her shrine with fat of thousands stuff. </l>
@@ -2451,7 +2523,7 @@
           <l>And Tuns of blood upon 'em spill. </l>
         </sp>
         <stage xml:id="ep000625-e23410">Enter Hannibal Maherbal, Bomiloar. </stage>
-        <sp xml:id="ep000625-e23430">
+        <sp who="ep000625-cum" xml:id="ep000625-e23430">
           <speaker>Cum. </speaker>
           <l>But loe who comes, what, what are these, </l>
           <l>That pry into our misteryes? </l>
@@ -2462,11 +2534,11 @@
           <l>And sacred horrours swell my mind. <stage xml:id="ep000625-e23530">Exit. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e23540">
+        <sp who="ep000625-agla" xml:id="ep000625-e23540">
           <speaker>Agla. </speaker>
           <l>What are you? and what is it you would know? </l>
         </sp>
-        <sp xml:id="ep000625-e23570">
+        <sp who="ep000625-han" xml:id="ep000625-e23570">
           <speaker>Han. </speaker>
           <l>Men call me <hi>Hannibal, Rome's </hi>dreadful foe. </l>
           <l>Who after many Battles lost and won, </l>
@@ -2475,7 +2547,7 @@
           <l>But what the Gods and that great day provide, </l>
           <l>We wish to know who dare the worst abide. </l>
         </sp>
-        <sp xml:id="ep000625-e23660">
+        <sp who="ep000625-agla" xml:id="ep000625-e23660">
           <speaker>Agla. </speaker>
           <l>Cumana to the sacred Tunnel cleaves, </l>
           <l>Her breast enlarg'd the Goddess now receives. </l>
@@ -2537,7 +2609,7 @@
           <l>When will thy Godhead let me rest, </l>
           <l>Too mighty for a mortal breast. </l>
         </sp>
-        <sp xml:id="ep000625-e24310">
+        <sp who="ep000625-agla" xml:id="ep000625-e24310">
           <speaker>Agla. </speaker>
           <l>Cumana to a period hast: </l>
           <l>You shall have ease when you have done; </l>
@@ -2545,7 +2617,7 @@
           <l>Upon the Borders of the Moon. </l>
         </sp>
         <stage xml:id="ep000625-e24380">A Dance of Spirits. </stage>
-        <sp xml:id="ep000625-e24390">
+        <sp who="ep000625-cum" xml:id="ep000625-e24390">
           <speaker>Cum. </speaker>
           <l>Lo, afar off the curst Bythinian Band, </l>
           <l>A poyson'd General rules upon the sand. </l>
@@ -2553,7 +2625,7 @@
           <l>Death from the Pummel of his Sword he took. <stage xml:id="ep000625-e24460">Exit. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e24470">
+        <sp who="ep000625-han" xml:id="ep000625-e24470">
           <speaker>Han. </speaker>
           <l>Shall Romans fall by Carthaginian Swords, </l>
           <l>And Carthage sinke? what mean these mistick words? </l>
@@ -2564,7 +2636,7 @@
           <l>May Scipio in the dust our glory soyl, </l>
           <l>Wee'l bear the frowns of Mars if Cupid smile, </l>
         </sp>
-        <sp xml:id="ep000625-e24640">
+        <sp who="ep000625-agla" xml:id="ep000625-e24640">
           <speaker>Agla. </speaker>
           <l>Too curious mortal, seek not what once known, </l>
           <l>May snatch your sleep, and make you ever groan. </l>
@@ -2577,19 +2649,19 @@
           <l>Till urg'd too far, a face all pale and sad, </l>
           <l>Turns quick upon him, and the fool runs mad. </l>
         </sp>
-        <sp xml:id="ep000625-e24760">
+        <sp who="ep000625-bom" xml:id="ep000625-e24760">
           <speaker>Bom. </speaker>
           <l>Let's go my Lord, I am not us'd to fear, </l>
           <l>And yet methinks I dread to tarry here. </l>
         </sp>
-        <sp xml:id="ep000625-e24800">
+        <sp who="ep000625-mah" xml:id="ep000625-e24800">
           <speaker>Mah. </speaker>
           <l>Heaps of the slain I often have beheld, </l>
           <l>And with my Battle-ax, have hundreds fell'd. </l>
           <l>Yet here I'm shaken the objects too funest, </l>
           <l>I'd rather see a Javelin at my breast. </l>
         </sp>
-        <sp xml:id="ep000625-e24860">
+        <sp who="ep000625-han" xml:id="ep000625-e24860">
           <pb n="44" xml:id="ep000625-026-a"/>
           <speaker>Han. </speaker>
           <l>Aglave, by your Goddess Armes I swear, </l>
@@ -2602,7 +2674,7 @@
           <l>Fathom the depth of desting below, </l>
           <l>And all the terrours of your Magick showe. </l>
         </sp>
-        <sp xml:id="ep000625-e24980">
+        <sp who="ep000625-agla" xml:id="ep000625-e24980">
           <speaker>Agla. </speaker>
           <l>Beneath those burd'ned branches stand, </l>
           <l>Safe from the spirit I command. </l>
@@ -2611,7 +2683,7 @@
         </sp>
         <stage xml:id="ep000625-e25040">Rosalinda <hi>rises in a Chaire pale with a wound on her breast, two Cupids descend and hang weeping over her. </hi>
         </stage>
-        <sp xml:id="ep000625-e25060">
+        <sp who="ep000625-han" xml:id="ep000625-e25060">
           <speaker>Han. </speaker>
           <l>Shall Rosalinda then untimely dye, </l>
           <l>'Tis false and all these damn'd deceivers lye. </l>
@@ -2625,19 +2697,19 @@
           <l>Spight of opposing hell and war's worst harmes, </l>
           <l>So will I bear my love upon my Armes. </l>
         </sp>
-        <sp xml:id="ep000625-e25240">
+        <sp who="ep000625-bom" xml:id="ep000625-e25240">
           <speaker>Bom. </speaker>
           <l>To horse my Lord, and leave this cursed place, </l>
           <l>Lets go and instantly the Consul face. </l>
         </sp>
-        <sp xml:id="ep000625-e25280">
+        <sp who="ep000625-mah" xml:id="ep000625-e25280">
           <speaker>Mah. </speaker>
           <l>No more in this damn'd sorceress confide, </l>
           <l>Permit my Sword her body to divide. </l>
           <l>Or from her Corps cut her enchanted Head, </l>
           <l>And her black braines upon the Altar shed. </l>
         </sp>
-        <sp xml:id="ep000625-e25340">
+        <sp who="ep000625-han" xml:id="ep000625-e25340">
           <speaker>Han. </speaker>
           <l>Wee'le go Maherbal with to morrow's dawn. </l>
           <l>On the vast plain our squadrons shall be drawn. </l>
@@ -2647,17 +2719,17 @@
           <l>And if on equal terms a peace may be, </l>
           <l>For Carthage sake I'le court my Enemy. </l>
         </sp>
-        <sp xml:id="ep000625-e25440">
+        <sp who="ep000625-bom" xml:id="ep000625-e25440">
           <speaker>Bom. </speaker>
           <l>Tis just you should deliberation take, </l>
           <l>With caution deal, and mannage the last stake. </l>
         </sp>
-        <sp xml:id="ep000625-e25480">
+        <sp who="ep000625-mah" xml:id="ep000625-e25480">
           <speaker>Mah. </speaker>
           <l>You Armies are the Cards which both must play, </l>
           <l>At least come off a saver if you may. </l>
         </sp>
-        <sp xml:id="ep000625-e25520">
+        <sp who="ep000625-han" xml:id="ep000625-e25520">
           <speaker>Han. </speaker>
           <l>But like Sols off-spring swell'd with dangerous fires, </l>
           <l>He to the management of all as pires. </l>
@@ -2673,11 +2745,11 @@
           </l>
         </sp>
         <stage xml:id="ep000625-e25670">Trebellius, Enter Scipio, meeting Lelius disarmed, Varro. </stage>
-        <sp xml:id="ep000625-e25710">
+        <sp who="ep000625-scip" xml:id="ep000625-e25710">
           <speaker>Scip. </speaker>
           <l>Lelius return'd and said tell the Event. </l>
         </sp>
-        <sp xml:id="ep000625-e25760">
+        <sp who="ep000625-lel" xml:id="ep000625-e25760">
           <speaker>Lel. </speaker>
           <l>Too late my Lord, I was to Cirta sent. </l>
           <l>For e're some thousand paces got from hence, </l>
@@ -2689,12 +2761,12 @@
           <l>And Sophonisba leaning on his breast, </l>
           <l>Like Venus with her wanton Hunts man blest. </l>
         </sp>
-        <sp xml:id="ep000625-e25930">
+        <sp who="ep000625-scip" xml:id="ep000625-e25930">
           <speaker>Scip. </speaker>
           <l>Are these his vowes? some new way we must try, </l>
           <l>Rather then live dishonour'd, he shall dye. </l>
         </sp>
-        <sp xml:id="ep000625-e25970">
+        <sp who="ep000625-lel" xml:id="ep000625-e25970">
           <speaker>Lel. </speaker>
           <l>Soon as the Tyrant Syphax was or'e thrown, </l>
           <l>With Menaces he forc'd the frighted Town. </l>
@@ -2707,7 +2779,7 @@
           <l>They are arriv'd and now upon the Plain, </l>
           <l>In a Pavilion Royal both remain. </l>
         </sp>
-        <sp xml:id="ep000625-e26090">
+        <sp who="ep000625-scip" xml:id="ep000625-e26090">
           <speaker>Scip. </speaker>
           <l>Trebellius go, this subtile Charmer bring; </l>
           <l>Take all our Guards to assist against the King. </l>
@@ -2719,7 +2791,7 @@
         </sp>
         <stage xml:id="ep000625-e26200">
           <hi>Enter King </hi>Massinissa, Sophonisba: </stage>
-        <sp xml:id="ep000625-e26220">
+        <sp who="ep000625-kmas" xml:id="ep000625-e26220">
           <speaker>K. Mas. </speaker>
           <l>Let him Arm all his pow'r against this breast. </l>
           <l>My heart unmov'd shall stand the mighty Test. </l>
@@ -2731,7 +2803,7 @@
           <l>Why dost thou tremble? let no sawoy fear, </l>
           <l>Make thy heart pant, or cause thee shed a tear. </l>
         </sp>
-        <sp xml:id="ep000625-e26330">
+        <sp who="ep000625-soph" xml:id="ep000625-e26330">
           <speaker>Soph. </speaker>
           <l>Alas my Lord 'twere better I were dead, </l>
           <l>In my cold grave safe from these troubles laid. </l>
@@ -2740,7 +2812,7 @@
           <l>'Tis true that you have deeply sworn you wou'd: </l>
           <l>Defend me. </l>
         </sp>
-        <sp xml:id="ep000625-e26420">
+        <sp who="ep000625-kmas" xml:id="ep000625-e26420">
           <speaker>K. Mas. </speaker>
           <l>To my hearts last drop of blood. </l>
           <l>Or may I by some Coward mangled lie, </l>
@@ -2752,21 +2824,21 @@
           <l>And shall not I for thee wast all this blood, </l>
           <l>Thou softest blessing, and the sweetest good. </l>
         </sp>
-        <sp xml:id="ep000625-e26530">
+        <sp who="ep000625-soph" xml:id="ep000625-e26530">
           <speaker>Soph. </speaker>
           <l>I know not what the Gods for you intend, </l>
           <l>But 'tis most certan I am near my end. </l>
           <l>Not that deaths darkest horrour I can fear. </l>
           <l>But Bondage is a load I cannot bear. </l>
         </sp>
-        <sp xml:id="ep000625-e26590">
+        <sp who="ep000625-kmas" xml:id="ep000625-e26590">
           <pb n="47" xml:id="ep000625-027-b"/>
           <speaker>K. Mas. </speaker>
           <l>Quit all those fancies that disturb thy rest, </l>
           <l>And cast thy Melancholly on this breast: </l>
           <l>This heart is ever thine. </l>
         </sp>
-        <sp xml:id="ep000625-e26640">
+        <sp who="ep000625-soph" xml:id="ep000625-e26640">
           <speaker>Soph. </speaker>
           <l>O my lov'd Lord, </l>
           <l>If you shou'd break— but you will keep your word. </l>
@@ -2778,12 +2850,12 @@
           <l>None e're will love you sure, as I have lov'd. </l>
         </sp>
         <stage xml:id="ep000625-e26740">Enter Trebellius. </stage>
-        <sp xml:id="ep000625-e26760">
+        <sp who="ep000625-treb" xml:id="ep000625-e26760">
           <speaker>Treb. </speaker>
           <l>Guards wait without— My Lord, you must resign, </l>
           <l>The Queen whom I have order to confine. </l>
         </sp>
-        <sp xml:id="ep000625-e26800">
+        <sp who="ep000625-kmas" xml:id="ep000625-e26800">
           <speaker>K. Mas. </speaker>
           <l>Touch her not for thy life, but straight retire, </l>
           <l>Safer thou mayst with thunder play, kiss fire. </l>
@@ -2791,7 +2863,7 @@
           <l>With all his fatal Purple pomp array'd. </l>
         </sp>
         <stage xml:id="ep000625-e26860">Trebellius <hi>goes to seize her</hi>, Massinissa <hi>kills him</hi>. </stage>
-        <sp xml:id="ep000625-e26890">
+        <sp who="ep000625-treb" xml:id="ep000625-e26890">
           <speaker>Treb. </speaker>
           <l>Cut off in my full growth, curse on your strife, </l>
           <l>To dye thus when I business had for life. </l>
@@ -2799,7 +2871,7 @@
           <l>I feel I'm going, though I know not where. <stage xml:id="ep000625-e26960">Dies. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e26970">
+        <sp who="ep000625-kmas" xml:id="ep000625-e26970">
           <speaker>K. Mas. </speaker>
           <l>Nought but thy blood cou'd wash thy guilt away, </l>
           <l>Who durst the rancour of thy heart display. </l>
@@ -2820,14 +2892,14 @@
           </l>
         </sp>
         <stage xml:id="ep000625-e27150">Enter Scipio, Lelius, Varro, Guards. </stage>
-        <sp xml:id="ep000625-e27180">
+        <sp who="ep000625-lel" xml:id="ep000625-e27180">
           <speaker>Lel. </speaker>
           <l>Trebellius slain, and in a woman's cause, </l>
           <l>Shame to our Armes, disgrace to honour's Laws. </l>
           <l>What flames of mischiefe from this sparke might rise, </l>
           <l>'Tis just with rigour you his fault chastise. </l>
         </sp>
-        <sp xml:id="ep000625-e27250">
+        <sp who="ep000625-scip" xml:id="ep000625-e27250">
           <speaker>Scip. </speaker>
           <l>Yet Massinissa thou shalt dearly buy, </l>
           <l>Thy ill got love and fatal Gallantry. </l>
@@ -2835,14 +2907,14 @@
           <l>By Mars she is a victim to our Arms. </l>
         </sp>
         <stage xml:id="ep000625-e27330">K. Mass. <hi>meets him</hi>. </stage>
-        <sp xml:id="ep000625-e27360">
+        <sp who="ep000625-kmas" xml:id="ep000625-e27360">
           <speaker>K. Mas. </speaker>
           <l>Your high displeasure in your face I spy. </l>
           <l>When the great Scipio frowns, great dangers nigh. </l>
           <l>The fact I must confess done in defence, </l>
           <l>Of beauty wrong'd, and helpless Innocence. </l>
         </sp>
-        <sp xml:id="ep000625-e27430">
+        <sp who="ep000625-scip" xml:id="ep000625-e27430">
           <speaker>Scip. </speaker>
           <l>Where is that fair incendiary fled, </l>
           <l>Er'e to extreamest rigour we proceed. </l>
@@ -2850,12 +2922,12 @@
           <l>Or on thy person I will vengeance take, </l>
           <l>And thou shalt perish for thy Mistriss's sake. </l>
         </sp>
-        <sp xml:id="ep000625-e27500">
+        <sp who="ep000625-kmas" xml:id="ep000625-e27500">
           <speaker>K. Mas. </speaker>
           <l>With greedy joy I offer you my life, </l>
           <l>If by the Go●● you swear to free my wife. </l>
         </sp>
-        <sp xml:id="ep000625-e27540">
+        <sp who="ep000625-scip" xml:id="ep000625-e27540">
           <speaker>Scip. </speaker>
           <l>Yo●●●all not for her sake have leave to dy, </l>
           <l>Nor will I give her life or liberty. </l>
@@ -2864,7 +2936,7 @@
           <l>Therefore whatever Towns or Captives fall, </l>
           <l>Into our hands, they are the Romans all. </l>
         </sp>
-        <sp xml:id="ep000625-e27640">
+        <sp who="ep000625-kmas" xml:id="ep000625-e27640">
           <speaker>K. Mas. </speaker>
           <l>Then thus I draw, think it not insolence; </l>
           <l>For it's not meant, Sir, in my own defence, </l>
@@ -2875,14 +2947,14 @@
           <l>Beneath a Cause so just I cannot fall, </l>
           <l>I, and the Gods will fight it with you all. </l>
         </sp>
-        <sp xml:id="ep000625-e27730">
+        <sp who="ep000625-scip" xml:id="ep000625-e27730">
           <speaker>Scip. </speaker>
           <l>Thou deem'st thy lust an Action great and good, </l>
           <l>Death ought to cool this feaver in thy blood. </l>
           <l>With me contending against fate you strive, </l>
           <l>Yet I will pity show, take him alive. </l>
         </sp>
-        <sp xml:id="ep000625-e27790">
+        <sp who="ep000625-kmas" xml:id="ep000625-e27790">
           <speaker>K. Mas. </speaker>
           <l>Ingloriously you have a Conquest made, </l>
           <l>That breast my tim'rous arm durst not invade. </l>
@@ -2896,20 +2968,20 @@
         </sp>
         <stage xml:id="ep000625-e27900">
           <hi>Trumpets within, enter </hi>Menander. </stage>
-        <sp xml:id="ep000625-e27920">
+        <sp who="ep000625-scip" xml:id="ep000625-e27920">
           <speaker>Scip. </speaker>
           <l>What means this mournful noise, whose Tragick sound, </l>
           <l>With solemn horrour does my thoughts confound? </l>
         </sp>
-        <sp xml:id="ep000625-e27960">
+        <sp who="ep000625-men" xml:id="ep000625-e27960">
           <speaker>Men. </speaker>
           <l>O sacred Sir. </l>
         </sp>
-        <sp xml:id="ep000625-e27990">
+        <sp who="ep000625-scip" xml:id="ep000625-e27990">
           <speaker>Scip. </speaker>
           <l>What Souldier, all in tears? </l>
         </sp>
-        <sp xml:id="ep000625-e28020">
+        <sp who="ep000625-men" xml:id="ep000625-e28020">
           <speaker>Men. </speaker>
           <l>Sorrow her self close mourner now appears; </l>
           <l>The Prince Massina slain, see blasted there, </l>
@@ -2925,7 +2997,7 @@
           <l>A ponyard from his Robe unmark'd he took, </l>
           <l>And to his heart the deadly weapon strook. </l>
         </sp>
-        <sp xml:id="ep000625-e28200">
+        <sp who="ep000625-scip" xml:id="ep000625-e28200">
           <speaker>Scip. </speaker>
           <l>Behold, of furious love the dire Event. </l>
           <l>Yet Massinissa wilt thou not repent. </l>
@@ -2933,14 +3005,14 @@
           <l>Behold the pledge you left for your default, </l>
           <l>By heavens high Justice to perdition brought. </l>
         </sp>
-        <sp xml:id="ep000625-e28270">
+        <sp who="ep000625-kmas" xml:id="ep000625-e28270">
           <speaker>K. Mas. </speaker>
           <l>Was ever man thus wretched and durst live, </l>
           <l>Yet will I not one tear to nature give. </l>
           <l>Least Bankrupt like I lavish what's not mine, </l>
           <l>Since all my stock of sorrow love is thine. </l>
         </sp>
-        <sp xml:id="ep000625-e28330">
+        <sp who="ep000625-scip" xml:id="ep000625-e28330">
           <speaker>Scip. </speaker>
           <l>Remove the Princes body from his sight, </l>
           <l>Least too much grief should to distraction fright. </l>
@@ -2951,44 +3023,44 @@
           <l>Thy pile of honour this right hand shall build: </l>
           <l>Why dost thou weep? </l>
         </sp>
-        <sp xml:id="ep000625-e28430">
+        <sp who="ep000625-kmas" xml:id="ep000625-e28430">
           <speaker>K. Mas. </speaker>
           <l>Because I dare not yield; </l>
           <l>No Sir, my love I never can betray, </l>
           <l>Though you have touch'd me in the noblest way. </l>
         </sp>
-        <sp xml:id="ep000625-e28480">
+        <sp who="ep000625-scip" xml:id="ep000625-e28480">
           <speaker>Scip. </speaker>
           <l>Can'st thou both promises and threats refuse? </l>
         </sp>
-        <sp xml:id="ep000625-e28510">
+        <sp who="ep000625-kmas" xml:id="ep000625-e28510">
           <speaker>K. Mas. </speaker>
           <l>Death, and what's worse you only bid me chuse. </l>
         </sp>
-        <sp xml:id="ep000625-e28540">
+        <sp who="ep000625-scip" xml:id="ep000625-e28540">
           <speaker>Scip. </speaker>
           <l>Bring forth thy love and life, thou shalt enjoy, </l>
         </sp>
-        <sp xml:id="ep000625-e28570">
+        <sp who="ep000625-kmas" xml:id="ep000625-e28570">
           <speaker>K. Mas. </speaker>
           <l>Is that a life your purpose act destroy. </l>
           <l>Turn all your Javelins points against this breast, </l>
           <l>But let it not of love be dispossest. </l>
         </sp>
-        <sp xml:id="ep000625-e28620">
+        <sp who="ep000625-scip" xml:id="ep000625-e28620">
           <speaker>Scip. </speaker>
           <l>Must I who can Command thus vainly sue. </l>
         </sp>
-        <sp xml:id="ep000625-e28650">
+        <sp who="ep000625-kmas" xml:id="ep000625-e28650">
           <speaker>K. Mas. </speaker>
           <l>My stubborn heart death only can subdue. </l>
         </sp>
-        <sp xml:id="ep000625-e28680">
+        <sp who="ep000625-scip" xml:id="ep000625-e28680">
           <speaker>Scip. </speaker>
           <l>Then take that death which you so little dread. </l>
         </sp>
         <stage xml:id="ep000625-e28710">Enter Sophonisba. </stage>
-        <sp xml:id="ep000625-e28730">
+        <sp who="ep000625-soph" xml:id="ep000625-e28730">
           <speaker>Soph. </speaker>
           <l>Stay, Tirant hold, first thou shalt strike me dead; </l>
           <l>Come on with thy brave sword rip up my brest, </l>
@@ -3004,7 +3076,7 @@
           <l>What words his hearts fierce grandeur can display, </l>
           <l>In heat of blood he durst a woman slay. </l>
         </sp>
-        <sp xml:id="ep000625-e28880">
+        <sp who="ep000625-scip" xml:id="ep000625-e28880">
           <speaker>Scip. </speaker>
           <l>When Ladies rail, a Souldier should be mute: </l>
           <l>Besides I have no leisure to dispute. </l>
@@ -3015,7 +3087,7 @@
           <l>Spight of your pride you shall to Rome be led, </l>
           <l>And there for all your Witchcrafts loose your head. </l>
         </sp>
-        <sp xml:id="ep000625-e29010">
+        <sp who="ep000625-soph" xml:id="ep000625-e29010">
           <speaker>Soph. </speaker>
           <l>On with thy threats thy violent course pursue, </l>
           <l>Enjoy thy bloody wishes Tyger, do, </l>
@@ -3026,17 +3098,17 @@
           <l>Gorge thy self, Saturn, make my flesh thy food, </l>
           <l>And laugh when thou art drunk with a Queens blood. </l>
         </sp>
-        <sp xml:id="ep000625-e29130">
+        <sp who="ep000625-kmas" xml:id="ep000625-e29130">
           <speaker>K. Mas. </speaker>
           <l>All will be well fair excellence retire, </l>
           <l>Add not fresh fewel to the dying fire. </l>
         </sp>
-        <sp xml:id="ep000625-e29170">
+        <sp who="ep000625-soph" xml:id="ep000625-e29170">
           <speaker>Soph. </speaker>
           <l>To you and heaven my heart must ever bow, </l>
           <l>Consul with thee I am not angry now. </l>
         </sp>
-        <sp xml:id="ep000625-e29210">
+        <sp who="ep000625-scip" xml:id="ep000625-e29210">
           <speaker>Scip. </speaker>
           <l>Observe ungovern'd Prince with how much ease, </l>
           <l>This Royal foe we if we would might seize. </l>
@@ -3048,23 +3120,23 @@
           <l>And set your heart from that curst Charmer free. <stage xml:id="ep000625-e29320">Exit. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e29330">
+        <sp who="ep000625-kmas" xml:id="ep000625-e29330">
           <speaker>K. Mas. </speaker>
           <l>O rigid honour must we separate then! </l>
           <l>Loose all the sweets of life to purchase pain. </l>
         </sp>
-        <sp xml:id="ep000625-e29380">
+        <sp who="ep000625-men" xml:id="ep000625-e29380">
           <speaker>Men. </speaker>
           <l>If she were dead your glory were secure. </l>
         </sp>
-        <sp xml:id="ep000625-e29410">
+        <sp who="ep000625-kmas" xml:id="ep000625-e29410">
           <speaker>K. Mas. </speaker>
           <l>But could I then this wretched life endure? </l>
           <l>Without her live? it's fatal to refuse, </l>
           <l>And glory ruines me if love I chuse. </l>
           <l>What help Menander? </l>
         </sp>
-        <sp xml:id="ep000625-e29480">
+        <sp who="ep000625-men" xml:id="ep000625-e29480">
           <pb n="52" xml:id="ep000625-030-a"/>
           <speaker>Men. </speaker>
           <l>'Tis the sport of heaven, </l>
@@ -3072,7 +3144,7 @@
           <l>Having through thousand stormy dangers past, </l>
           <l>In prospect of your bliss you're wrack'd at last. </l>
         </sp>
-        <sp xml:id="ep000625-e29540">
+        <sp who="ep000625-kmas" xml:id="ep000625-e29540">
           <speaker>K. Mas. </speaker>
           <l>Like one who having scap't the waves, arrives, </l>
           <l>To some lone Rock, and there more wretched lives. </l>
@@ -3088,15 +3160,15 @@
       <div n="5" type="act" xml:id="ep000625-e29660">
         <head>ACT. V. Scen. I. </head>
         <stage xml:id="ep000625-e29680">Hannibal and Scipio. </stage>
-        <sp xml:id="ep000625-e29710">
+        <sp who="ep000625-han" xml:id="ep000625-e29710">
           <speaker>Han. </speaker>
           <l>ARt thou the Chief whom men fam'd Scipio call? </l>
         </sp>
-        <sp xml:id="ep000625-e29750">
+        <sp who="ep000625-scip" xml:id="ep000625-e29750">
           <speaker>Scip. </speaker>
           <l>Art thou the much more famous Hannibal? </l>
         </sp>
-        <sp xml:id="ep000625-e29790">
+        <sp who="ep000625-han" xml:id="ep000625-e29790">
           <speaker>Han. </speaker>
           <l>Since by our partial fate it is ordain'd; </l>
           <l>That I who have such dreadful Battles gain'd. </l>
@@ -3106,14 +3178,14 @@
           <l>I thank the Gods that they have chosen you, </l>
           <l>To reap that honour by this Interview. </l>
         </sp>
-        <sp xml:id="ep000625-e29890">
+        <sp who="ep000625-scip" xml:id="ep000625-e29890">
           <speaker>Scip. </speaker>
           <l>In civil praise, and from so brave a foe. </l>
           <l>True courage may a sense of pleasure show. </l>
           <l>Thy words inspire me with such vast delight, </l>
           <l>'Twill scarce be more to vanquish thee in fight. </l>
         </sp>
-        <sp xml:id="ep000625-e29950">
+        <sp who="ep000625-han" xml:id="ep000625-e29950">
           <speaker>Han. </speaker>
           <l>'Twas much the Gods to our fore-fathers gave, </l>
           <l>That you should Italy, we Africk have. </l>
@@ -3133,7 +3205,7 @@
           <l>Grasp not at Scepters which may turh to rods, </l>
           <l>To Day is yours, to morrow is the Gods. </l>
         </sp>
-        <sp xml:id="ep000625-e30230">
+        <sp who="ep000625-scip" xml:id="ep000625-e30230">
           <speaker>Scip. </speaker>
           <l>That your late landing upon Leptis Coast, </l>
           <l>Restor'd those hopes which drooping Carthage lost. </l>
@@ -3155,7 +3227,7 @@
           <l>It rests at last we should our fortune try; </l>
           <l>Let one victorious be, the other dye. </l>
         </sp>
-        <sp xml:id="ep000625-e30480">
+        <sp who="ep000625-han" xml:id="ep000625-e30480">
           <speaker>Han. </speaker>
           <l>Gods, that the glorious Hannibal should bow! </l>
           <l>To be refus'd— It shall be battle now, </l>
@@ -3171,18 +3243,18 @@
           <l>With Seas of goar wee'l drown the neighbouring Wood, </l>
           <l>And yonder sun shall set in Roman blood. </l>
         </sp>
-        <sp xml:id="ep000625-e30710">
+        <sp who="ep000625-scip" xml:id="ep000625-e30710">
           <pb n="54" xml:id="ep000625-031-a"/>
           <speaker>Scip. </speaker>
           <l>Prepare to hear thy last, thy last alarms. </l>
         </sp>
-        <sp xml:id="ep000625-e30740">
+        <sp who="ep000625-han" xml:id="ep000625-e30740">
           <speaker>Han. </speaker>
           <l>In Battle we shall meet, to arms, to arms. <stage xml:id="ep000625-e30770">Exeunt. </stage>
           </l>
         </sp>
         <stage xml:id="ep000625-e30780">Enter Rosalinda <hi>in man's Apparel</hi>. </stage>
-        <sp xml:id="ep000625-e30810">
+        <sp who="ep000625-ros" xml:id="ep000625-e30810">
           <speaker>Ros. </speaker>
           <l>Thus drest, and with this war-like weapon drawn, </l>
           <l>What hinders but an Army, I lead on. </l>
@@ -3197,7 +3269,7 @@
         </sp>
         <stage xml:id="ep000625-e30950">
           <hi>Alarms, enter </hi>Hannibal, Maherbal, Bomilcar. </stage>
-        <sp xml:id="ep000625-e30970">
+        <sp who="ep000625-han" xml:id="ep000625-e30970">
           <speaker>Han. </speaker>
           <l>Both wings are lost, the Carthaginians yield, </l>
           <l>Fierce <hi>Caius Lelius </hi>drives 'em through the field. </l>
@@ -3206,14 +3278,14 @@
           <l>With such swift force his Arms our Troops assayl, </l>
           <l>As hurricans toss showers, and scatter hail. </l>
         </sp>
-        <sp xml:id="ep000625-e31100">
+        <sp who="ep000625-bom" xml:id="ep000625-e31100">
           <speaker>Bom. </speaker>
           <l>Wild as our Elephants about he raves, </l>
           <l>And tramples on those mercenary slaves. </l>
           <l>Who scouring through the field avoyd his strok, </l>
           <l>And fly like flocks of Doves before a Hawke. </l>
         </sp>
-        <sp xml:id="ep000625-e31160">
+        <sp who="ep000625-mah" xml:id="ep000625-e31160">
           <speaker>Mah. </speaker>
           <l>Your valiant old Italian Troops stand fast, </l>
           <l>Resolv'd to fight your Battle to the last. </l>
@@ -3222,7 +3294,7 @@
           <l>The Hastati and Triarij this way comes, </l>
           <l>With Trumpets sounding and with beat of Drums. </l>
         </sp>
-        <sp xml:id="ep000625-e31270">
+        <sp who="ep000625-han" xml:id="ep000625-e31270">
           <speaker>Han. </speaker>
           <l>Auspicious Iuno, thou that didst e're while, </l>
           <l>Favour our cause, and on our Carthage smile. </l>
@@ -3235,7 +3307,7 @@
         <stage xml:id="ep000625-e31380">
           <pb n="55" xml:id="ep000625-031-b"/>
           <hi>Enter K. </hi>Massinissa, Leluis. </stage>
-        <sp xml:id="ep000625-e31400">
+        <sp who="ep000625-kmas" xml:id="ep000625-e31400">
           <speaker>K. Mas. </speaker>
           <l>Their flight has wing'd the Cowards, let 'em fly, </l>
           <l>Not worthy by such Conquering swords to die. </l>
@@ -3243,7 +3315,7 @@
           <l>Rejoyne our forces and conclude the war. </l>
         </sp>
         <stage xml:id="ep000625-e31460">SCENE of Hannibal and Scipio fighting, the Consul gives ground: Enter K. Mas. and Lel. and beat Han. off. </stage>
-        <sp xml:id="ep000625-e31530">
+        <sp who="ep000625-scip" xml:id="ep000625-e31530">
           <speaker>Scip. </speaker>
           <l>Gods, what prodigious valour have you sent, </l>
           <l>And what rewards are worthy to present! </l>
@@ -3251,14 +3323,14 @@
           <l>With what impetuous swiftness fortunes wheel, </l>
           <l>Turn'd with thy stroaks how did the valiant reel? </l>
         </sp>
-        <sp xml:id="ep000625-e31610">
+        <sp who="ep000625-lel" xml:id="ep000625-e31610">
           <speaker>Lel. </speaker>
           <l>As when some distant lab'rer hews an Oak, </l>
           <l>We see his Arm rais'd for a second stroak, </l>
           <l>Er'e the first blow's report can reach our ear, </l>
           <l>So flagged our sense; nor could it reach him there. </l>
         </sp>
-        <sp xml:id="ep000625-e31670">
+        <sp who="ep000625-scip" xml:id="ep000625-e31670">
           <speaker>Scip. </speaker>
           <l>Th' Italian Troops shrunk from his Marshal fire, </l>
           <l>But Hannibal himself did last retire. </l>
@@ -3274,7 +3346,7 @@
         </sp>
         <stage xml:id="ep000625-e31820">
           <hi>Enter Souldiers skirmishing</hi>, Rosalinda falls. </stage>
-        <sp xml:id="ep000625-e31850">
+        <sp who="ep000625-ros" xml:id="ep000625-e31850">
           <speaker>Ros. </speaker>
           <l>Heaven thou hast done thy worst there needs no more: </l>
           <l>Bold with my overthrow, I brave thy power, </l>
@@ -3288,7 +3360,7 @@
           <l>The brave should bleed for loss of victory. </l>
         </sp>
         <stage xml:id="ep000625-e31980">Enter Hannibal, Maherbal, Bomilcar. </stage>
-        <sp xml:id="ep000625-e32000">
+        <sp who="ep000625-han" xml:id="ep000625-e32000">
           <speaker>Han. </speaker>
           <l>Carthage is lost, and Hannibal or'ethrown, </l>
           <l>What is there left that we may call our own? </l>
@@ -3297,45 +3369,45 @@
           <l>Yet spight of fate our length of earth we have, </l>
           <l>Thus vanquish'd glory shrowd thee in a Grave, </l>
         </sp>
-        <sp xml:id="ep000625-e32110">
+        <sp who="ep000625-bom" xml:id="ep000625-e32110">
           <speaker>Bom. </speaker>
           <l>Hold General the Gods your deaths forbid, </l>
           <l>Vengeance is due, first let false Hanno bleed, </l>
           <l>Who cut the wings of Conquest till she fell, </l>
         </sp>
-        <sp xml:id="ep000625-e32170">
+        <sp who="ep000625-mah" xml:id="ep000625-e32170">
           <speaker>Mah. </speaker>
           <l>By me he shall be headlong sent to hell. </l>
           <l>Where Fiends for Treason kindle double fire: </l>
           <l>Then let the famous Hannibal expire. </l>
         </sp>
-        <sp xml:id="ep000625-e32230">
+        <sp who="ep000625-ros" xml:id="ep000625-e32230">
           <speaker>Ros. </speaker>
           <l>Sure I the name of Hannibal did hear, </l>
           <l>Maherbal, tell me, is the General there? </l>
         </sp>
-        <sp xml:id="ep000625-e32290">
+        <sp who="ep000625-mah" xml:id="ep000625-e32290">
           <speaker>Mah, </speaker>
           <l>Approach my Lord, view well this wounded fair: </l>
           <l>Sure in your Capuan Mistress I have seen, </l>
           <l>The same Majestick Air, and charming meen. </l>
         </sp>
-        <sp xml:id="ep000625-e32340">
+        <sp who="ep000625-han" xml:id="ep000625-e32340">
           <speaker>Han. </speaker>
           <l>Ha! thou hast rows'd a thought that wracks me more, </l>
           <l>Then all the losses I in Battle bore. </l>
           <l>Either I dream or in this closing eye, </l>
           <l>My dazled sences Rosalinda spie. </l>
         </sp>
-        <sp xml:id="ep000625-e32410">
+        <sp who="ep000625-ros" xml:id="ep000625-e32410">
           <speaker>Ros. </speaker>
           <l>Where do th' ambitious rest? <hi>O Hannibal</hi>! </l>
         </sp>
-        <sp xml:id="ep000625-e32450">
+        <sp who="ep000625-han" xml:id="ep000625-e32450">
           <speaker>Han. </speaker>
           <l>What art that, dost upon the wretched call? </l>
         </sp>
-        <sp xml:id="ep000625-e32480">
+        <sp who="ep000625-ros" xml:id="ep000625-e32480">
           <speaker>Ros. </speaker>
           <l>One that's more wretched and more rash then thou, </l>
           <l>That wou'd to fate, and not to Scipio bow. </l>
@@ -3343,7 +3415,7 @@
           <l>Who mourns in death thy loss of victory: </l>
           <l>That last disgrace. </l>
         </sp>
-        <sp xml:id="ep000625-e32570">
+        <sp who="ep000625-han" xml:id="ep000625-e32570">
           <speaker>Han. </speaker>
           <l>Dire Goddess of war, </l>
           <l>Too true I find all thy presages are: </l>
@@ -3352,40 +3424,40 @@
           <l>Stretch'd in the field this loss I had not known, </l>
           <l>Nor should my tortur'd soul thy ruin moan. </l>
         </sp>
-        <sp xml:id="ep000625-e32650">
+        <sp who="ep000625-ros" xml:id="ep000625-e32650">
           <pb n="57" xml:id="ep000625-032-b"/>
           <speaker>Ros. </speaker>
           <l>Is it so hard our wishes to obtain? </l>
           <l>Sad hearts with bleeding loose love's burning pain. </l>
         </sp>
-        <sp xml:id="ep000625-e32690">
+        <sp who="ep000625-han" xml:id="ep000625-e32690">
           <speaker>Han. </speaker>
           <l>O dying fair look up, revive a while, </l>
           <l>With one short joy eternal care beguile. </l>
           <l>The setting sun all curtain'd round with night, </l>
           <l>At his departure gives a larger light. </l>
         </sp>
-        <sp xml:id="ep000625-e32750">
+        <sp who="ep000625-ros" xml:id="ep000625-e32750">
           <speaker>Ros. </speaker>
           <l>Flow faster blood, It will not be I fear, </l>
           <l>The wound's so small, death cannot enter here. </l>
           <l>But shall I stay behind when honour's fled; </l>
         </sp>
-        <sp xml:id="ep000625-e32800">
+        <sp who="ep000625-han" xml:id="ep000625-e32800">
           <speaker>Han. </speaker>
           <l>Live, and I'le raise that honour from the dead. </l>
         </sp>
-        <sp xml:id="ep000625-e32830">
+        <sp who="ep000625-ros" xml:id="ep000625-e32830">
           <speaker>Ros. </speaker>
           <l>Renown runson like time but nere turns back. </l>
         </sp>
-        <sp xml:id="ep000625-e32860">
+        <sp who="ep000625-han" xml:id="ep000625-e32860">
           <speaker>Han. </speaker>
           <l>Then we that swift renown will overtake: </l>
           <l>Wee'l hast where glory baits to every hold, </l>
           <l>And mount new fame till we outstrip the old. </l>
         </sp>
-        <sp xml:id="ep000625-e32910">
+        <sp who="ep000625-ros" xml:id="ep000625-e32910">
           <speaker>Ros. </speaker>
           <l>Dear Hannibal, alas I wish I cou'd: </l>
           <l>But 'twill not be, life trembling takes the flood, </l>
@@ -3397,7 +3469,7 @@
           <l>'Tis the last present that I now can make. <stage xml:id="ep000625-e33030">dies. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e33040">
+        <sp who="ep000625-han" xml:id="ep000625-e33040">
           <speaker>Han. </speaker>
           <l>For ever gone, all her sweet stock of breath, </l>
           <l>Spent in one sigh, the riot of rich death. </l>
@@ -3407,21 +3479,21 @@
           <l>As far surpass'd the Mannors of their sky. </l>
           <l>Dead Rosalinda.— </l>
         </sp>
-        <sp xml:id="ep000625-e33140">
+        <sp who="ep000625-bom" xml:id="ep000625-e33140">
           <speaker>Bom. </speaker>
           <l>Raise you from the ground, </l>
           <l>And let not love your vertue's force confound, </l>
           <l>Where is that heat and haughty courage gone, </l>
           <l>Which against nature's lets your Troops led on? </l>
         </sp>
-        <sp xml:id="ep000625-e33200">
+        <sp who="ep000625-mah" xml:id="ep000625-e33200">
           <speaker>Mah. </speaker>
           <l>Think you for naught the Gods such valour gave, </l>
           <l>You should prop Thrones, and falling Kingdoms save. </l>
           <l>Buried in thought, and deaf to honour's call, </l>
           <l>Your soul beneath her mighty pitch does fall. </l>
         </sp>
-        <sp xml:id="ep000625-e33260">
+        <sp who="ep000625-han" xml:id="ep000625-e33260">
           <speaker>Han. </speaker>
           <l>Maherbal no, astonish'd thou shalt be, </l>
           <l>We dare be brave in spight of destiny. </l>
@@ -3437,18 +3509,18 @@
           <l>'Twas noble grief that lately chang'd my form, </l>
           <l>But I am ruffled now into a storm. </l>
         </sp>
-        <sp xml:id="ep000625-e33410">
+        <sp who="ep000625-bom" xml:id="ep000625-e33410">
           <speaker>Bom. </speaker>
           <l>Your Mistress body hence we will convey, </l>
           <l>And in some hallowed Vault her relicks lay. </l>
         </sp>
-        <sp xml:id="ep000625-e33450">
+        <sp who="ep000625-mah" xml:id="ep000625-e33450">
           <speaker>Mah. </speaker>
           <l>Like Pilgrims once a year wee'l mourning go, </l>
           <l>And on her Urne sad yiew with Cypress throw; </l>
           <l>And all our stock of tears and sighs bestow. </l>
         </sp>
-        <sp xml:id="ep000625-e33500">
+        <sp who="ep000625-han" xml:id="ep000625-e33500">
           <speaker>Han. </speaker>
           <l>Forever brightest of thy kind farewel, </l>
           <l>Who wert too worthy, therefore early fell. </l>
@@ -3457,12 +3529,12 @@
           <l>So in fames houses shalt thou honour'd be, </l>
           <l>And every God shall have a grain of thee. </l>
         </sp>
-        <sp xml:id="ep000625-e33580">
+        <sp who="ep000625-mah" xml:id="ep000625-e33580">
           <speaker>Mah. </speaker>
           <l>Since glory with her last breath she profest, </l>
           <l>May wish'd Dominion widen all your breast. </l>
         </sp>
-        <sp xml:id="ep000625-e33620">
+        <sp who="ep000625-han" xml:id="ep000625-e33620">
           <speaker>Han. </speaker>
           <l>Hast, hast Maherbal, and fresh levies make, </l>
           <l>Honour that did but now calm slumbers take: </l>
@@ -3476,12 +3548,12 @@
           </l>
         </sp>
         <stage xml:id="ep000625-e33810">Scipio, K. Massinissa, Lelius, &amp;c. </stage>
-        <sp xml:id="ep000625-e33840">
+        <sp who="ep000625-scip" xml:id="ep000625-e33840">
           <speaker>Scip. </speaker>
           <l>I grieve brave Prince so often to deny, </l>
           <l>She must a Captive be, or she must die. </l>
         </sp>
-        <sp xml:id="ep000625-e33880">
+        <sp who="ep000625-kmas" xml:id="ep000625-e33880">
           <speaker>K. Mas. </speaker>
           <l>I know she must, if you will have it so, </l>
           <l>But pardon may be granted to a fo. </l>
@@ -3489,7 +3561,7 @@
           <l>O spare her then as you wou'd be forgiven, </l>
           <l>At your last hour, when you prepare for Heaven. </l>
         </sp>
-        <sp xml:id="ep000625-e33940">
+        <sp who="ep000625-scip" xml:id="ep000625-e33940">
           <speaker>Scip. </speaker>
           <l>Learn to ask blessings? those you shall not want, </l>
           <l>This is a curse which I can never grant. </l>
@@ -3498,7 +3570,7 @@
           <l>I like a wise Physitian thwart your will, </l>
           <l>And vanquish your distemper with my skill. </l>
         </sp>
-        <sp xml:id="ep000625-e34020">
+        <sp who="ep000625-kmas" xml:id="ep000625-e34020">
           <speaker>K. Mas. </speaker>
           <l>For the God's sake, for friendship, glory, love, </l>
           <l>By all that's good below, or blest above. </l>
@@ -3511,7 +3583,7 @@
           <l>Lo at your knees, behold a Monarch fall. </l>
           <l>Yet more your friend, and then I have said all. </l>
         </sp>
-        <sp xml:id="ep000625-e34150">
+        <sp who="ep000625-scip" xml:id="ep000625-e34150">
           <speaker>Scip. </speaker>
           <l>Let not your passion Royalty degrade, </l>
           <l>Rise valiant Prince, I've thought of what you said. </l>
@@ -3520,11 +3592,11 @@
           <l>Curse Roman Tyrany, and wish you were. </l>
           <l>Forever Joyn'd with that unhappy fair. </l>
         </sp>
-        <sp xml:id="ep000625-e34240">
+        <sp who="ep000625-kmas" xml:id="ep000625-e34240">
           <speaker>K. Mas. </speaker>
           <l>Oh you have blest me! </l>
         </sp>
-        <sp xml:id="ep000625-e34270">
+        <sp who="ep000625-scip" xml:id="ep000625-e34270">
           <speaker>Scip. </speaker>
           <l>Massinissa stay, </l>
           <l>You only heard what friendship bid me say. </l>
@@ -3533,7 +3605,7 @@
           <l>Unless the view to her may fatal be, </l>
           <l>This is my last immutable decree. </l>
         </sp>
-        <sp xml:id="ep000625-e34370">
+        <sp who="ep000625-kmas" xml:id="ep000625-e34370">
           <speaker>K. Mas. </speaker>
           <l>Is your feign'd pity come to this, your tears? </l>
           <l>Falser then those which Egypts Monster wears. </l>
@@ -3546,11 +3618,11 @@
           <l>So mark'd with fate that I appear'd one wound, </l>
           <l>Yet rais'd thy bleeding Eagles from the ground. </l>
         </sp>
-        <sp xml:id="ep000625-e34500">
+        <sp who="ep000625-scip" xml:id="ep000625-e34500">
           <speaker>Scip. </speaker>
           <l>Think no more on't her memory forget. </l>
         </sp>
-        <sp xml:id="ep000625-e34530">
+        <sp who="ep000625-kmas" xml:id="ep000625-e34530">
           <speaker>K. Mas. </speaker>
           <l>Cut me to Atoms, tear my soul out, yet, </l>
           <l>In every smallest particle of me, </l>
@@ -3558,11 +3630,11 @@
           <l>All like my soul, and all in every part; </l>
           <l>Bath'd in my eyes, and bleeding in my heart. </l>
         </sp>
-        <sp xml:id="ep000625-e34610">
+        <sp who="ep000625-scip" xml:id="ep000625-e34610">
           <speaker>Scip. </speaker>
           <l>Lelius secure the Queen. </l>
         </sp>
-        <sp xml:id="ep000625-e34650">
+        <sp who="ep000625-kmas" xml:id="ep000625-e34650">
           <speaker>K. Mas. </speaker>
           <l>Stay Lelius, stay; </l>
           <l>I've done my Lord, and will your power obey. </l>
@@ -3570,7 +3642,7 @@
           <l>She must a victim for the Empire fall. </l>
           <l>How am I now? </l>
         </sp>
-        <sp xml:id="ep000625-e34730">
+        <sp who="ep000625-scip" xml:id="ep000625-e34730">
           <speaker>Scip. </speaker>
           <l>For Sophonisba's loss, </l>
           <l>Your Arms Numidia's Empire shall engross. </l>
@@ -3582,7 +3654,7 @@
           <l>Let all the beauties of the Earth be scorn'd. <stage xml:id="ep000625-e34870">Exit. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e34880">
+        <sp who="ep000625-kmas" xml:id="ep000625-e34880">
           <speaker>K. Mas. </speaker>
           <l>Scorn'd be your glory more, and Roman pride, </l>
           <l>While I in winding-sheets embrace my Bride. </l>
@@ -3592,56 +3664,56 @@
           <l>Born on a Cloud in view of fate I'le lie: </l>
           <l>And press her soul while Gods stand wishing by. </l>
         </sp>
-        <sp xml:id="ep000625-e34980">
+        <sp who="ep000625-men" xml:id="ep000625-e34980">
           <speaker>Men. </speaker>
           <l>My Lord, if you would hear. </l>
         </sp>
-        <sp xml:id="ep000625-e35010">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35010">
           <speaker>K. Mas. </speaker>
           <l>What canst thou say? </l>
         </sp>
-        <sp xml:id="ep000625-e35050">
+        <sp who="ep000625-men" xml:id="ep000625-e35050">
           <speaker>Men. </speaker>
           <l>Reason's a Rebel when high passions sway. </l>
         </sp>
-        <sp xml:id="ep000625-e35080">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35080">
           <speaker>K. Mas. </speaker>
           <l>And such art thou, yet speak, what shall I do; </l>
           <l>Instruct me to be greatly false or true. </l>
         </sp>
-        <sp xml:id="ep000625-e35120">
+        <sp who="ep000625-men" xml:id="ep000625-e35120">
           <speaker>Men. </speaker>
           <l>The Queen must die. </l>
         </sp>
-        <sp xml:id="ep000625-e35150">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35150">
           <speaker>K. Mas. </speaker>
           <l>Ha must? no more. </l>
         </sp>
-        <sp xml:id="ep000625-e35180">
+        <sp who="ep000625-men" xml:id="ep000625-e35180">
           <speaker>Men. </speaker>
           <l>She to the Gods: is given or Roman power. </l>
         </sp>
-        <sp xml:id="ep000625-e35220">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35220">
           <pb n="61" xml:id="ep000625-034-b"/>
           <speaker>K. Mas. </speaker>
           <l>Neither, she shall not die, nor shall she live, </l>
           <l>The Romans slave, I'le give her a reprieve. </l>
         </sp>
-        <sp xml:id="ep000625-e35270">
+        <sp who="ep000625-men" xml:id="ep000625-e35270">
           <speaker>Men. </speaker>
           <l>But how? </l>
         </sp>
-        <sp xml:id="ep000625-e35300">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35300">
           <speaker>K. Mas. </speaker>
           <l>Why thus, I'le kill my self, kill thee, </l>
           <l>
             <hi>Rome, Carthage</hi>, all the world, and then she shall live free. </l>
         </sp>
-        <sp xml:id="ep000625-e35350">
+        <sp who="ep000625-men" xml:id="ep000625-e35350">
           <speaker>Men. </speaker>
           <l>Glory or beauty 'tis ordained you lose; </l>
         </sp>
-        <sp xml:id="ep000625-e35380">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35380">
           <speaker>K. Mas. </speaker>
           <l>O Rome! Oh Heaven! both equally my foes: </l>
           <l>Was ever heart thus miserably torn, </l>
@@ -3652,7 +3724,7 @@
           <l>Damp the wish'd joyes of a young Bridal pair, </l>
           <l>Yet then I shall have more then man can bear. </l>
         </sp>
-        <sp xml:id="ep000625-e35490">
+        <sp who="ep000625-men" xml:id="ep000625-e35490">
           <speaker>Men. </speaker>
           <l>When vertue thus oppress'd, mankind does see, </l>
           <l>What fearful dreaming fool will pious be. </l>
@@ -3660,7 +3732,7 @@
           <l>Nor dying wit, life, but to on desire, </l>
           <l>To murder Priests, and Temples set on fire. </l>
         </sp>
-        <sp xml:id="ep000625-e35560">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35560">
           <speaker>K. Mas. </speaker>
           <l>Why, why, ye Immortal Gods is all this care. </l>
           <l>Why do you drive your Creatures to despair? </l>
@@ -3673,20 +3745,20 @@
           <l>Menander hast two bowles with poyson fill, </l>
           <l>And when I call, like fate come forth and kill. </l>
         </sp>
-        <sp xml:id="ep000625-e35690">
+        <sp who="ep000625-men" xml:id="ep000625-e35690">
           <speaker>Men. </speaker>
           <l>'Tis a dread deed to which you urge my hand. </l>
         </sp>
-        <sp xml:id="ep000625-e35720">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35720">
           <speaker>K. Mas. </speaker>
           <l>It's glorious too: dispute not my command. </l>
         </sp>
-        <sp xml:id="ep000625-e35750">
+        <sp who="ep000625-men" xml:id="ep000625-e35750">
           <speaker>Men. </speaker>
           <l>I'le not presume to fathom your deep thought, </l>
           <l>But straight your will shall by your slave be wrought. </l>
         </sp>
-        <sp xml:id="ep000625-e35790">
+        <sp who="ep000625-kmas" xml:id="ep000625-e35790">
           <speaker>K. Mas. </speaker>
           <l>Love and ambition have their utmost done, </l>
           <l>'Twas love allur'd, ambition led me on. </l>
@@ -3702,7 +3774,7 @@
           </l>
         </sp>
         <stage xml:id="ep000625-e35920">Enter Sophonisba. </stage>
-        <sp xml:id="ep000625-e35940">
+        <sp who="ep000625-soph" xml:id="ep000625-e35940">
           <speaker>Soph. </speaker>
           <l>The Consul is return'd with conquest Crown'd; </l>
           <l>Triumphant voices rend the Eccahoing ground, </l>
@@ -3722,7 +3794,7 @@
           <l>Oh my lov'd Lord, are you then come at last? </l>
           <l>Are you alive? and do I hold you fast? </l>
         </sp>
-        <sp xml:id="ep000625-e36170">
+        <sp who="ep000625-kmas" xml:id="ep000625-e36170">
           <speaker>K. Mas. </speaker>
           <l>Best of thy sex, and dearer then my life, </l>
           <l>The fairest Mistriss, and the Gentlest wife. </l>
@@ -3733,7 +3805,7 @@
           <l>Torments of hell, and Racks of destiny, </l>
           <l>Thou must, oh that I live to speak it, die. </l>
         </sp>
-        <sp xml:id="ep000625-e36280">
+        <sp who="ep000625-soph" xml:id="ep000625-e36280">
           <speaker>Soph. </speaker>
           <l>Blest sound! we shall not then to Rome be led, </l>
           <l>But solemn Triumphs have in honours bed. </l>
@@ -3746,7 +3818,7 @@
           <l>Speak death again, my Guard and sure Defence, </l>
           <l>It bears a mighty sound and mighty sense. </l>
         </sp>
-        <sp xml:id="ep000625-e36400">
+        <sp who="ep000625-kmas" xml:id="ep000625-e36400">
           <speaker>K. Mas. </speaker>
           <l>O keep thee there now while thy vertues glow, </l>
           <l>And dart divinity: I'le give the blow. </l>
@@ -3756,11 +3828,11 @@
           <stage xml:id="ep000625-e36480">Enter Menander <hi>with two Bowls</hi>. </stage>
           <l>Give me the draught. </l>
         </sp>
-        <sp xml:id="ep000625-e36520">
+        <sp who="ep000625-soph" xml:id="ep000625-e36520">
           <speaker>Soph. </speaker>
           <l>What means my Royal love? </l>
         </sp>
-        <sp xml:id="ep000625-e36550">
+        <sp who="ep000625-kmas" xml:id="ep000625-e36550">
           <speaker>K. Mas. </speaker>
           <l>By your bright self, by all the powers above, </l>
           <l>No Angels Eloquence my soul shall move. </l>
@@ -3770,20 +3842,20 @@
           <l>Not but that in the agonies of breath, </l>
           <l>I tremble when I think upon thy death. </l>
         </sp>
-        <sp xml:id="ep000625-e36640">
+        <sp who="ep000625-soph" xml:id="ep000625-e36640">
           <speaker>Soph. </speaker>
           <l>Thon best of men whose fame where er'e it flyes, </l>
           <l>Shall draw up bleeding hearts and weeping Eyes. </l>
           <l>Let not your soul tremble for me, for I </l>
           <l>Can fear no torment but to see you die, </l>
         </sp>
-        <sp xml:id="ep000625-e36700">
+        <sp who="ep000625-kmas" xml:id="ep000625-e36700">
           <speaker>K. Mas. </speaker>
           <l>Then cheerfully let's go, here's to my love, </l>
           <l>And to our meeting with the blest above. <stage xml:id="ep000625-e36740">drinks. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e36750">
+        <sp who="ep000625-soph" xml:id="ep000625-e36750">
           <speaker>Soph. </speaker>
           <l>Give me the bowl, mark if my hand does shake, </l>
           <l>Or the fresh springing blood my Cheeks forsake. </l>
@@ -3791,7 +3863,7 @@
           <l>'Tis to my Lord, this is his Nuptial guift. <stage xml:id="ep000625-e36810">drinks. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e36820">
+        <sp who="ep000625-kmas" xml:id="ep000625-e36820">
           <speaker>K. Mas. </speaker>
           <l>Menander, faithful, confident, farewell, </l>
           <l>Hast, and our story to the Consul tell. </l>
@@ -3802,7 +3874,7 @@
           <l>The sweets of thousand springs are blowing here. </l>
           <l>All in thy sighs. </l>
         </sp>
-        <sp xml:id="ep000625-e36940">
+        <sp who="ep000625-soph" xml:id="ep000625-e36940">
           <speaker>Soph. </speaker>
           <l>Ah give your kindness o're, </l>
           <l>Or we shall live and feel the Roman power. </l>
@@ -3811,44 +3883,44 @@
           <l>But your warm kisses shot through every vein. </l>
           <l>A kinder heat, and kindled life again. </l>
         </sp>
-        <sp xml:id="ep000625-e37020">
+        <sp who="ep000625-kmas" xml:id="ep000625-e37020">
           <speaker>K. Mas. </speaker>
           <l>Thus let us launch into eternity. </l>
           <l>Sink in death's Bottomless and boundless sea. </l>
           <l>Like drowning friends link'd in Embraces fast, </l>
           <l>Our Arms love's Nets about each other cast. </l>
         </sp>
-        <sp xml:id="ep000625-e37080">
+        <sp who="ep000625-soph" xml:id="ep000625-e37080">
           <speaker>Soph. </speaker>
           <l>What could long life or Empire give like this? </l>
         </sp>
-        <sp xml:id="ep000625-e37110">
+        <sp who="ep000625-kmas" xml:id="ep000625-e37110">
           <speaker>K. Mas. </speaker>
           <l>Thy love is Empire and eternal bliss. </l>
         </sp>
-        <sp xml:id="ep000625-e37140">
+        <sp who="ep000625-soph" xml:id="ep000625-e37140">
           <speaker>Soph. </speaker>
           <l>I go, where shall we meet? <stage xml:id="ep000625-e37170">dies. </stage>
           </l>
         </sp>
-        <sp xml:id="ep000625-e37180">
+        <sp who="ep000625-kmas" xml:id="ep000625-e37180">
           <speaker>K. Mas. </speaker>
           <l>The Gods can tell. </l>
           <l>Heaven's peace, and golden slumbers with thee dwell. <stage xml:id="ep000625-e37220">dies </stage>
           </l>
         </sp>
         <stage xml:id="ep000625-e37230">Enter Scipio, Lelius, and Menander. </stage>
-        <sp xml:id="ep000625-e37260">
+        <sp who="ep000625-men" xml:id="ep000625-e37260">
           <speaker>Men. </speaker>
           <l>See there great Sir, the effects of your rash Doom, </l>
           <l>The victims you have offered up to Rome. </l>
         </sp>
-        <sp xml:id="ep000625-e37310">
+        <sp who="ep000625-lel" xml:id="ep000625-e37310">
           <speaker>Lel. </speaker>
           <l>What cruel eyes could pity here refrain, </l>
           <l>Beholding two such Royal lovers slain. </l>
         </sp>
-        <sp xml:id="ep000625-e37350">
+        <sp who="ep000625-scip" xml:id="ep000625-e37350">
           <speaker>Scip. </speaker>
           <l>These unexpected objects so amaze, </l>
           <l>My reason I could ever on 'em gaze. </l>

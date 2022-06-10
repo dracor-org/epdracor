@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000479" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000479" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +54,72 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000479-oroo">
+              <persName>Oroo</persName>
+            </person>
+            <person xml:id="ep000479-pre">
+              <persName>Pre</persName>
+            </person>
+            <person xml:id="ep000479-par">
+              <persName>Par</persName>
+            </person>
+            <person xml:id="ep000479-omnes">
+              <persName>Omnes</persName>
+            </person>
+            <person xml:id="ep000479-amb">
+              <persName>Amb</persName>
+            </person>
+            <person xml:id="ep000479-cap">
+              <persName>Cap</persName>
+            </person>
+            <person xml:id="ep000479-cass">
+              <persName>Cass</persName>
+            </person>
+            <person xml:id="ep000479-bag">
+              <persName>Bag</persName>
+            </person>
+            <person xml:id="ep000479-arax">
+              <persName>Arax</persName>
+            </person>
+            <person xml:id="ep000479-phil">
+              <persName>Phil</persName>
+            </person>
+            <person xml:id="ep000479-ara">
+              <persName>Ara</persName>
+            </person>
+            <person xml:id="ep000479-sta">
+              <persName>Sta</persName>
+            </person>
+            <person xml:id="ep000479-stat">
+              <persName>Stat</persName>
+            </person>
+            <person xml:id="ep000479-oroon">
+              <persName>Oroon</persName>
+            </person>
+            <person xml:id="ep000479-capt">
+              <persName>Capt</persName>
+            </person>
+            <person xml:id="ep000479-alex">
+              <persName>Alex</persName>
+            </person>
+            <person xml:id="ep000479-eph">
+              <persName>Eph</persName>
+            </person>
+            <person xml:id="ep000479-mel">
+              <persName>Mel</persName>
+            </person>
+            <person xml:id="ep000479-lys">
+              <persName>Lys</persName>
+            </person>
+            <person xml:id="ep000479-cas">
+              <persName>Cas</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -167,7 +233,7 @@
           <div n="1" type="scene" xml:id="ep000479-e1510">
             <head>Actus Primus, Scaena Prima. </head>
             <stage xml:id="ep000479-e1530">Enter as newly arriv'd <hi>Lysimachus, Cassander</hi>, Officers, and attendance, in State. </stage>
-            <sp xml:id="ep000479-e1550">
+            <sp who="ep000479-lys" xml:id="ep000479-e1550">
               <speaker>Lys. </speaker>
               <l>FROM Ganges, and beyond Nyle's secret Bed, </l>
               <l>Strange conquer'd Nations have Euphrates spread, </l>
@@ -182,7 +248,7 @@
               <l>To Alexander flowing, leave their Spring, </l>
               <l>And Aids from the remotest Places bring. </l>
             </sp>
-            <sp xml:id="ep000479-e1750">
+            <sp who="ep000479-cas" xml:id="ep000479-e1750">
               <speaker>Cas. </speaker>
               <l>We but appear like Day break after Night, </l>
               <l>Where e're He comes, he fills the Skye with light. </l>
@@ -191,7 +257,7 @@
               <l>He sends us forth, like Nylus in a Floud, </l>
               <l>To drown the World, and Court him with the good. </l>
             </sp>
-            <sp xml:id="ep000479-e1840">
+            <sp who="ep000479-lys" xml:id="ep000479-e1840">
               <speaker>Lys. </speaker>
               <l>Fill'd with success, he is luxurious grown, </l>
               <l>And gluts with Blood, his cruel wanton Throne. </l>
@@ -200,7 +266,7 @@
               <l>Is't possible! Repeat it yet again— </l>
               <l>Ye Gods! The Son of bold Parmenio slain! </l>
             </sp>
-            <sp xml:id="ep000479-e1940">
+            <sp who="ep000479-cas" xml:id="ep000479-e1940">
               <speaker>Cas. </speaker>
               <l>This News, the Great Parmenio as a Friend, </l>
               <l>T' Antipater my Father did commend: </l>
@@ -208,12 +274,12 @@
               <l>His fault was, he did Dymnus Treasure hide, </l>
               <l>So that for that he ne're believ'd he Dy'd. </l>
             </sp>
-            <sp xml:id="ep000479-e2030">
+            <sp who="ep000479-lys" xml:id="ep000479-e2030">
               <speaker>Lys. </speaker>
               <l>Of Dymnus fond conspiracy, I've heard, </l>
               <l>But never thought Phylotas so deserv'd. </l>
             </sp>
-            <sp xml:id="ep000479-e2090">
+            <sp who="ep000479-cas" xml:id="ep000479-e2090">
               <speaker>Cas. </speaker>
               <l>Had that been sought, Phylotas might have stood, </l>
               <l>Till his known Innocence had sav'd his Blood; </l>
@@ -228,12 +294,12 @@
               <l>I wish that I had Dy'd in Clytus place; </l>
               <l>I Travel with the Weight— </l>
             </sp>
-            <sp xml:id="ep000479-e2250">
+            <sp who="ep000479-lys" xml:id="ep000479-e2250">
               <speaker>Lys. </speaker>
               <l>Cassander hold— </l>
               <l>You were too blame, and Clytus was too bold. </l>
             </sp>
-            <sp xml:id="ep000479-e2310">
+            <sp who="ep000479-cas" xml:id="ep000479-e2310">
               <speaker>Cas. </speaker>
               <l>Have done Lysimachus, there is a smother'd shame, </l>
               <l>When thus fomented breaks into a flame; </l>
@@ -241,7 +307,7 @@
               <l>And cherish'd lightning in my vital blood. </l>
             </sp>
             <stage xml:id="ep000479-e2380">Enter to them Bagistanes. </stage>
-            <sp xml:id="ep000479-e2400">
+            <sp who="ep000479-bag" xml:id="ep000479-e2400">
               <speaker>Bag. </speaker>
               <l>Fresh News o'retake the former on the way, </l>
               <l>And all confirm the King will come to day. </l>
@@ -250,11 +316,11 @@
               <l>And near Euphrates, all their Trumpets sound, </l>
               <l>Slide down the Streams, and from our Walls rebound. </l>
             </sp>
-            <sp xml:id="ep000479-e2490">
+            <sp who="ep000479-lys" xml:id="ep000479-e2490">
               <speaker>Lys. </speaker>
               <l>The News is great, and welcome that we hear. </l>
             </sp>
-            <sp xml:id="ep000479-e2520">
+            <sp who="ep000479-bag" xml:id="ep000479-e2520">
               <speaker>Bag. </speaker>
               <l>But o're our Sun does a thick Cloud appear, </l>
               <l>That makes his glorious body shine less clear. </l>
@@ -263,38 +329,38 @@
               <l>Some single voice behind, does flagging lye, </l>
               <l>And Robs the whole, of it's full harmony.— </l>
             </sp>
-            <sp xml:id="ep000479-e2600">
+            <sp who="ep000479-lys" xml:id="ep000479-e2600">
               <speaker>Lys. </speaker>
               <l>I interrupt you— Is the King in health—? </l>
             </sp>
-            <sp xml:id="ep000479-e2630">
+            <sp who="ep000479-bag" xml:id="ep000479-e2630">
               <speaker>Bag. </speaker>
               <l>He is, but he ha's lost his greatest wealth, </l>
               <l>A treasure, that the Gods did envy him. </l>
             </sp>
-            <sp xml:id="ep000479-e2670">
+            <sp who="ep000479-lys" xml:id="ep000479-e2670">
               <speaker>Lys. </speaker>
               <l>If that be all, he will be rich again. </l>
             </sp>
-            <sp xml:id="ep000479-e2700">
+            <sp who="ep000479-bag" xml:id="ep000479-e2700">
               <speaker>Bag. </speaker>
               <l>Ah, but this loss, he never will redeem.— </l>
               <l>The Gen'ral of the World, Parmenio's slain. </l>
             </sp>
-            <sp xml:id="ep000479-e2750">
+            <sp who="ep000479-lys" xml:id="ep000479-e2750">
               <speaker>Lys. </speaker>
               <l>Parmenio dead!— </l>
             </sp>
-            <sp xml:id="ep000479-e2790">
+            <sp who="ep000479-cas" xml:id="ep000479-e2790">
               <speaker>Cas. </speaker>
               <l>What slain! By what bold man? </l>
             </sp>
-            <sp xml:id="ep000479-e2820">
+            <sp who="ep000479-bag" xml:id="ep000479-e2820">
               <pb n="3" xml:id="ep000479-007-b"/>
               <speaker>Bag. </speaker>
               <l>By that bold Man, that only dares, and can. </l>
             </sp>
-            <sp xml:id="ep000479-e2850">
+            <sp who="ep000479-lys" xml:id="ep000479-e2850">
               <speaker>Lys. </speaker>
               <l>Does Alexander thus transplant, to save </l>
               <l>His fading Lawrels on Parmenio's Grave? </l>
@@ -303,12 +369,12 @@
               <l>Nor hadst thy self of so much Power bereft, </l>
               <l>With thy right Arm to have cut off thy left. </l>
             </sp>
-            <sp xml:id="ep000479-e2970">
+            <sp who="ep000479-cas" xml:id="ep000479-e2970">
               <speaker>Cas. </speaker>
               <l>A man so great, that in his Fathers time, </l>
               <l>Winning too many Battels was his Crime. </l>
             </sp>
-            <sp xml:id="ep000479-e3010">
+            <sp who="ep000479-bag" xml:id="ep000479-e3010">
               <speaker>Bag. </speaker>
               <l>His trusty slave, who by this Act is freed. </l>
               <l>Is hither come, that saw Parmenio bleed, </l>
@@ -331,7 +397,7 @@
               <l>Thus the bold Lyon taken by surprize, </l>
               <l>Was like a Lamb offer'd to sacrifice. </l>
             </sp>
-            <sp xml:id="ep000479-e3250">
+            <sp who="ep000479-cas" xml:id="ep000479-e3250">
               <speaker>Cas. </speaker>
               <l>Why do ye Gods of Mans misfortunes boast? </l>
               <l>And make us Heroes at our own lives cost. </l>
@@ -342,7 +408,7 @@
               <l>Ingrateful Alexander, has now repaid </l>
               <l>Those many Fights, ne're won but by his Aid. </l>
             </sp>
-            <sp xml:id="ep000479-e3380">
+            <sp who="ep000479-lys" xml:id="ep000479-e3380">
               <speaker>Lys. </speaker>
               <l>Forbear Cassander, you o're reach your Sence, </l>
               <l>Whom the Gods own, pay him obedience. </l>
@@ -359,14 +425,14 @@
               <l>A greater far than Philip yet remains, </l>
               <l>Whose godlike arm shall hold the World in Chains. </l>
             </sp>
-            <sp xml:id="ep000479-e3590">
+            <sp who="ep000479-cass" xml:id="ep000479-e3590">
               <speaker>Cass. </speaker>
               <l>Were he a God he should have kept his Seat, </l>
               <l>Not grieve the World with his immortal weight. </l>
               <l>He from the Gods is like a Fury hurld, </l>
               <l>To glut their anger on the ravish'd World: </l>
             </sp>
-            <sp xml:id="ep000479-e3650">
+            <sp who="ep000479-lys" xml:id="ep000479-e3650">
               <speaker>Lys. </speaker>
               <l>Cease, You neglect the duty of your place.— </l>
               <l>Haste, and draw out the Horse I brought from Thrace, </l>
@@ -383,11 +449,11 @@
               <l>The purest love, Ith' strangest manner too; </l>
               <l>A birth so strange beyond the reach of Fame. </l>
             </sp>
-            <sp xml:id="ep000479-e3820">
+            <sp who="ep000479-bag" xml:id="ep000479-e3820">
               <speaker>Bag. </speaker>
               <l>I long to hear, that I may know her name. </l>
             </sp>
-            <sp xml:id="ep000479-e3850">
+            <sp who="ep000479-lys" xml:id="ep000479-e3850">
               <speaker>Lys. </speaker>
               <l>In the last fight in which the stronger side </l>
               <l>The World arraign'd, and in that Battle try'd; </l>
@@ -398,12 +464,12 @@
               <l>At last, as proud that she had seiz'd the Prey, </l>
               <l>Flew still before us, and proclaim'd the day. </l>
             </sp>
-            <sp xml:id="ep000479-e3950">
+            <sp who="ep000479-bag" xml:id="ep000479-e3950">
               <speaker>Bag. </speaker>
               <l>Too well I knew, what that days Act can boast, </l>
               <l>The Fame you won, and what Darius lost. </l>
             </sp>
-            <sp xml:id="ep000479-e4000">
+            <sp who="ep000479-lys" xml:id="ep000479-e4000">
               <speaker>Lys. </speaker>
               <l>The Battle done, by Alexander sent, </l>
               <l>I to Darius rich Pavilion went. </l>
@@ -429,11 +495,11 @@
               <l>Like the bright Taper, it did soon decay, </l>
               <l>That lost its splendor at the sight of day. </l>
             </sp>
-            <sp xml:id="ep000479-e4270">
+            <sp who="ep000479-bag" xml:id="ep000479-e4270">
               <speaker>Bag. </speaker>
               <l>What then you Gods, did you of her decree? </l>
             </sp>
-            <sp xml:id="ep000479-e4300">
+            <sp who="ep000479-lys" xml:id="ep000479-e4300">
               <speaker>Lys. </speaker>
               <l>Ask not of her, but what became of me? </l>
               <l>Thus, big with all the treasure of the Earth, </l>
@@ -455,16 +521,16 @@
               <l>If I han't need of such a Friend as you. </l>
             </sp>
             <stage xml:id="ep000479-e4530">Enter to them Parisatis and Melanthe: attended. </stage>
-            <sp xml:id="ep000479-e4560">
+            <sp who="ep000479-bag" xml:id="ep000479-e4560">
               <speaker>Bag. </speaker>
               <l>You shall command me, while I have a heart— </l>
             </sp>
-            <sp xml:id="ep000479-e4590">
+            <sp who="ep000479-lys" xml:id="ep000479-e4590">
               <speaker>Lys. </speaker>
               <l>See where she comes that makes my Manhood start, </l>
               <l>The fairest object in the World, I fear. </l>
             </sp>
-            <sp xml:id="ep000479-e4630">
+            <sp who="ep000479-par" xml:id="ep000479-e4630">
               <speaker>Par. </speaker>
               <l>Lysnnachus, with Bagistanes here! </l>
               <stage xml:id="ep000479-e4680">[aside. </stage>
@@ -473,12 +539,12 @@
               <l>My Sister, Bagistanes, thinks it fit, </l>
               <l>You'd see her e're you Alexander meet. </l>
             </sp>
-            <sp xml:id="ep000479-e4760">
+            <sp who="ep000479-bag" xml:id="ep000479-e4760">
               <speaker>Bag. </speaker>
               <l>I'le haste, and pay my duty at her feet. </l>
               <stage xml:id="ep000479-e4790">[Exit Bagistanes. </stage>
             </sp>
-            <sp xml:id="ep000479-e4810">
+            <sp who="ep000479-par" xml:id="ep000479-e4810">
               <speaker>Par. </speaker>
               <l>I am surpris'd; I know not what to say, </l>
               <l>I'me loath to go, and yet I should not stay. </l>
@@ -489,7 +555,7 @@
               <l>But welcome to Darius Daughter still. </l>
             </sp>
             <stage xml:id="ep000479-e4910">[Offers to go off. </stage>
-            <sp xml:id="ep000479-e4920">
+            <sp who="ep000479-lys" xml:id="ep000479-e4920">
               <speaker>Lys. </speaker>
               <l>Stay, Noble Princess, stay, my life to save; </l>
               <l>I have no merits, but to be your slave; </l>
@@ -499,7 +565,7 @@
               <l>If you your Fathers Crown, and Titles wore. </l>
               <l>Thus as a Saint does to the Altar bow. </l>
             </sp>
-            <sp xml:id="ep000479-e5000">
+            <sp who="ep000479-par" xml:id="ep000479-e5000">
               <speaker>Par. </speaker>
               <l>Rise, Gallant Souldier, and I'le hear you now. </l>
               <l>Since you Lysimachus so much have done, </l>
@@ -509,7 +575,7 @@
               <l>Talk any thing, but let me beg you then, </l>
               <l>Talk not of Love, when I must chide agen. </l>
             </sp>
-            <sp xml:id="ep000479-e5100">
+            <sp who="ep000479-lys" xml:id="ep000479-e5100">
               <speaker>Lys. </speaker>
               <l>How doubly wretched was my Love that time, </l>
               <l>Which up to you did on your ruin climb; </l>
@@ -519,7 +585,7 @@
               <l>Well may you then that fatal love despise, </l>
               <l>That sav'd your life for Alexanders prize. </l>
             </sp>
-            <sp xml:id="ep000479-e5210">
+            <sp who="ep000479-par" xml:id="ep000479-e5210">
               <speaker>Par. </speaker>
               <l>Lysimachus, I blame not what you did, </l>
               <l>But I cou'd wish you wou'd your Passion hide. </l>
@@ -533,7 +599,7 @@
               <l>In Alexanders chains I more demand, </l>
               <l>Than if all Persia were at my command. </l>
             </sp>
-            <sp xml:id="ep000479-e5380">
+            <sp who="ep000479-lys" xml:id="ep000479-e5380">
               <speaker>Lys. </speaker>
               <l>The Crown you mean you wont go far to take; </l>
               <l>'Twill be brought to you for Ephestion's sake. </l>
@@ -544,7 +610,7 @@
               <l>And then to make your happiness the more, </l>
               <l>He will all Persia to your wish restore. </l>
             </sp>
-            <sp xml:id="ep000479-e5530">
+            <sp who="ep000479-par" xml:id="ep000479-e5530">
               <speaker>Par. </speaker>
               <l>His proffer'd Kingdomes I should then despise, </l>
               <l>And scorn to take them, though at any Price; </l>
@@ -553,7 +619,7 @@
               <l>Though with that off'ring I a God should lose, </l>
               <l>A blessing so impos'd I would refuse. </l>
             </sp>
-            <sp xml:id="ep000479-e5610">
+            <sp who="ep000479-lys" xml:id="ep000479-e5610">
               <speaker>Lys. </speaker>
               <l>If not a God, he's of such flesh and blood </l>
               <l>Would tempt a Goddess to be soft and good, </l>
@@ -563,7 +629,7 @@
               <l>All the day long he'l bless you with his sight, </l>
               <l>And like the Hony-Suckle breath at night. </l>
             </sp>
-            <sp xml:id="ep000479-e5710">
+            <sp who="ep000479-par" xml:id="ep000479-e5710">
               <speaker>Par. </speaker>
               <l>This beauteous Animal, so like the Spring </l>
               <l>Will soon, like that, decay, and Winter bring— </l>
@@ -572,7 +638,7 @@
               <l>Let Gods possess his heavenly beauty then; </l>
               <l>We Women only were ordain'd for men. </l>
             </sp>
-            <sp xml:id="ep000479-e5790">
+            <sp who="ep000479-lys" xml:id="ep000479-e5790">
               <speaker>Lys. </speaker>
               <l>You've said enough to shew your noble mind; </l>
               <l>Yet greatest Courages may be confin'd. </l>
@@ -581,7 +647,7 @@
               <l>When you are lifted up to such a hight, </l>
               <l>I shew so little almost out of sight. </l>
             </sp>
-            <sp xml:id="ep000479-e5880">
+            <sp who="ep000479-par" xml:id="ep000479-e5880">
               <speaker>Par. </speaker>
               <l>Now y'are too blame Lysimacus. For know, </l>
               <l>That Parisatis, though she be so low, </l>
@@ -595,13 +661,13 @@
               <l>For he has wings, and then away he flies.— </l>
               <l>Haste, meet the Conquerour.— </l>
             </sp>
-            <sp xml:id="ep000479-e6030">
+            <sp who="ep000479-lys" xml:id="ep000479-e6030">
               <speaker>Lys. </speaker>
               <l>I go, I go— </l>
               <l>And all obedience to your will I'le shew. </l>
               <stage xml:id="ep000479-e6070">[Exit Lysimachus. </stage>
             </sp>
-            <sp xml:id="ep000479-e6090">
+            <sp who="ep000479-par" xml:id="ep000479-e6090">
               <speaker>Par. </speaker>
               <l>Chide me, Melanthe, Art not thou afraid, </l>
               <l>That I to shew my thanks too much have said; </l>
@@ -610,14 +676,14 @@
               <l>At this admir'd example thou wert by, </l>
               <l>When others fled, and with me chose to die. </l>
             </sp>
-            <sp xml:id="ep000479-e6180">
+            <sp who="ep000479-mel" xml:id="ep000479-e6180">
               <speaker>Mel. </speaker>
               <l>Had you but seen with what a gust'e came; </l>
               <l>How like a God he chas'd away the flame; </l>
               <l>You would have thought him after all was lost, </l>
               <l>Darius Genius, or his happy Ghost. </l>
             </sp>
-            <sp xml:id="ep000479-e6250">
+            <sp who="ep000479-par" xml:id="ep000479-e6250">
               <speaker>Par. </speaker>
               <l>Yet he was forc'd, by honour carry'd on, </l>
               <l>Which e're destroy'd ten thousand would have done. </l>
@@ -629,7 +695,7 @@
               <l>Good Gods! Is it Araxs I behold! </l>
               <l>How came you hither? How were ye so bold? </l>
             </sp>
-            <sp xml:id="ep000479-e6380">
+            <sp who="ep000479-arax" xml:id="ep000479-e6380">
               <pb n="8" xml:id="ep000479-010-a"/>
               <speaker>Arax. </speaker>
               <l>Ask not, since I am Oroondates slave, </l>
@@ -659,12 +725,12 @@
               <stage xml:id="ep000479-e6710">[Enter to them Oroondates. </stage>
               <l>See where this wretched Lover comes.— </l>
             </sp>
-            <sp xml:id="ep000479-e6740">
+            <sp who="ep000479-par" xml:id="ep000479-e6740">
               <speaker>Par. </speaker>
               <l>'Tis he!— </l>
               <l>I am amaz'd at what you told, and what I see. </l>
             </sp>
-            <sp xml:id="ep000479-e6780">
+            <sp who="ep000479-oroon" xml:id="ep000479-e6780">
               <speaker>Oroon. </speaker>
               <l>The Sun approaches, and a plot hath laid </l>
               <l>To cover Oroondates with his shade, </l>
@@ -674,12 +740,12 @@
               <l>And have the reason of the Gods requir'd: </l>
               <l>Ah whither is my angry Queen retir'd? </l>
             </sp>
-            <sp xml:id="ep000479-e6890">
+            <sp who="ep000479-par" xml:id="ep000479-e6890">
               <speaker>Par. </speaker>
               <l>Oh stay not; Alexanders Trumpets found, </l>
               <l>aste Oroondates, 'tis forbidden Ground. </l>
             </sp>
-            <sp xml:id="ep000479-e6950">
+            <sp who="ep000479-oroon" xml:id="ep000479-e6950">
               <speaker>Oroon. </speaker>
               <l>Let Cowards tremble at his mighty voice; </l>
               <l>My brain's too steddy to be turn'd with noise: </l>
@@ -688,7 +754,7 @@
               <l>On any ground where Alexander trod, </l>
               <l>And dare behold him, were he twice a God. </l>
             </sp>
-            <sp xml:id="ep000479-e7040">
+            <sp who="ep000479-par" xml:id="ep000479-e7040">
               <speaker>Par. </speaker>
               <l>Brave man, whose fault is, that thy soul's too great, </l>
               <l>That scorning fear, neglects it's mortal seat, </l>
@@ -698,27 +764,27 @@
               <l>Look back, from this unhappy place remove; </l>
               <l>Haste, and preserve the greatest stock of Love, </l>
             </sp>
-            <sp xml:id="ep000479-e7120">
+            <sp who="ep000479-oroon" xml:id="ep000479-e7120">
               <speaker>Oroon. </speaker>
               <l>I cannot till she does my burthen light; </l>
               <l>My Loves so great, I stagger with the weight. </l>
             </sp>
-            <sp xml:id="ep000479-e7160">
+            <sp who="ep000479-par" xml:id="ep000479-e7160">
               <speaker>Par. </speaker>
               <l>You stay too long, and do your fate suborn. </l>
             </sp>
-            <sp xml:id="ep000479-e7190">
+            <sp who="ep000479-oroon" xml:id="ep000479-e7190">
               <speaker>Oroon. </speaker>
               <l>I have no fate; no threatning but her scorn. </l>
             </sp>
-            <sp xml:id="ep000479-e7220">
+            <sp who="ep000479-par" xml:id="ep000479-e7220">
               <speaker>Par. </speaker>
               <l>Shoul'd I but let Statira know ye'are here, </l>
               <l>You wou'd be threatned by the scorn you fear; </l>
               <l>To save your Life, she wou'd with Love debate, </l>
               <l>And rather be unkind to you, then to your fate. </l>
             </sp>
-            <sp xml:id="ep000479-e7290">
+            <sp who="ep000479-oroon" xml:id="ep000479-e7290">
               <speaker>Oroon. </speaker>
               <l>Ah gentle half of my much better part, </l>
               <l>She cannot end my Life with greater smart: </l>
@@ -729,7 +795,7 @@
               <l>When Alexander Thunders with his Drums? </l>
               <l>Where will she find me when that Torrent comes? </l>
             </sp>
-            <sp xml:id="ep000479-e7400">
+            <sp who="ep000479-par" xml:id="ep000479-e7400">
               <speaker>Par. </speaker>
               <l>The Guards are set, and Bagistanes gone; </l>
               <l>She cannot now be seen with you alone. </l>
@@ -738,7 +804,7 @@
               <l>Go best of men, I dare no more be seen. </l>
             </sp>
             <stage xml:id="ep000479-e7480">[offers to go off. </stage>
-            <sp xml:id="ep000479-e7490">
+            <sp who="ep000479-oroon" xml:id="ep000479-e7490">
               <speaker>Oroon. </speaker>
               <l>Stay charming Sister of my beauteous Queen— </l>
               <l>If you go to her, tell her, I am driv'n </l>
@@ -752,23 +818,23 @@
               <l>That in kind feeling of the Tears I shed, </l>
               <l>She come like Thetis to my wat'ry Bed. </l>
             </sp>
-            <sp xml:id="ep000479-e7660">
+            <sp who="ep000479-par" xml:id="ep000479-e7660">
               <speaker>Par. </speaker>
               <l>All this, and more, my Tears from Yours shall plead: </l>
             </sp>
             <stage xml:id="ep000479-e7690">[Exeunt Parisatis and Melanthe. </stage>
-            <sp xml:id="ep000479-e7710">
+            <sp who="ep000479-oroon" xml:id="ep000479-e7710">
               <speaker>Oroon. </speaker>
               <l>The Gods renoun your Charitable deed. </l>
               <l>Araxis, come, my hopes of this dayes Fate, </l>
               <l>The business of my Life and Soul create. </l>
             </sp>
-            <sp xml:id="ep000479-e7770">
+            <sp who="ep000479-arax" xml:id="ep000479-e7770">
               <speaker>Arax. </speaker>
               <l>Let's watch it then, and mingle with the shew; </l>
               <l>Hid in the Croud, we unperceiv'd may go. </l>
             </sp>
-            <sp xml:id="ep000479-e7810">
+            <sp who="ep000479-oroon" xml:id="ep000479-e7810">
               <speaker>Oroon. </speaker>
               <l>Look down; O mighty Love; behold thy flame </l>
               <l>Swallow'd, and burri'd in the Conquerours Name: </l>
@@ -787,7 +853,7 @@
             <head>Actus Secundus, Scaena Prima. </head>
             <stage xml:id="ep000479-e7940">Alexander, Ephestion Lysimachus, Cassander, Philip, Bagistanes, <hi>and Captains in great State.</hi>
             </stage>
-            <sp xml:id="ep000479-e7960">
+            <sp who="ep000479-alex" xml:id="ep000479-e7960">
               <speaker>Alex. </speaker>
               <l>THUS far with Thirst of fame we have descry'd. </l>
               <l>The modest World that wou'd her secrets hide, </l>
@@ -805,7 +871,7 @@
               <l>Leaving behind them for the Victors gains, </l>
               <l>Famine, and Plagues, Rewards for fruitless pains. </l>
             </sp>
-            <sp xml:id="ep000479-e8130">
+            <sp who="ep000479-lys" xml:id="ep000479-e8130">
               <speaker>Lys. </speaker>
               <l>The Gods, Great Alexander, thought it fit </l>
               <l>The vanquish'd World shou'd to your Arms submit, </l>
@@ -814,7 +880,7 @@
               <l>This Fame told loudly to the amazed Earth, </l>
               <l>What they should look from such a wondrous birth. </l>
             </sp>
-            <sp xml:id="ep000479-e8230">
+            <sp who="ep000479-cas" xml:id="ep000479-e8230">
               <speaker>Cas. </speaker>
               <l>First haughty Greece, which Philip ne're cou'd Yoke, </l>
               <l>Her Proudest Cities Necks bends to your Stroke: </l>
@@ -829,7 +895,7 @@
               <l>And Mountains big with Woods we tumbled down, </l>
               <l>That frighted Neptune from his Royal Town. </l>
             </sp>
-            <sp xml:id="ep000479-e8440">
+            <sp who="ep000479-phil" xml:id="ep000479-e8440">
               <speaker>Phil. </speaker>
               <l>We sought fierce Nations, nourish'd up with damps, </l>
               <l>Whom Rocks of Ice immur'd in frozen Camps; </l>
@@ -839,7 +905,7 @@
               <l>Which soon Rebell'd, and us did onward lead </l>
               <l>To catch those Fish that on the Land did breed. </l>
             </sp>
-            <sp xml:id="ep000479-e8520">
+            <sp who="ep000479-lys" xml:id="ep000479-e8520">
               <speaker>Lys. </speaker>
               <l>From thence we pass'd to th' Suns beloved Soyl, </l>
               <l>To utmost India, and those Nations foyl, </l>
@@ -849,7 +915,7 @@
               <l>And make the World to come beleive, and shew </l>
               <l>The Souls were great that did those Bodies owe. </l>
             </sp>
-            <sp xml:id="ep000479-e8620">
+            <sp who="ep000479-cas" xml:id="ep000479-e8620">
               <speaker>Cas. </speaker>
               <l>Great Son of Philip, do not then begin </l>
               <l>Vain and imaginary Worlds to win; </l>
@@ -858,7 +924,7 @@
               <l>The Gods to you at thirty years have given, </l>
               <l>More then the greatest Heroes boast in Heaven. </l>
             </sp>
-            <sp xml:id="ep000479-e8720">
+            <sp who="ep000479-eph" xml:id="ep000479-e8720">
               <speaker>Eph. </speaker>
               <l>Forget not, Sir, the time you were so bold, </l>
               <l>When clad in Armour made of shining Gold, </l>
@@ -869,18 +935,18 @@
               <l>At awful distance stood the wandring Croud, </l>
               <l>Let fall their Arms, and call'd thee God aloud. </l>
             </sp>
-            <sp xml:id="ep000479-e8840">
+            <sp who="ep000479-phil" xml:id="ep000479-e8840">
               <speaker>Phil. </speaker>
               <l>Live then, great Sir, to dissipate our fears, </l>
               <l>And Chronicle your self a thousand years. </l>
               <l>No more in vain your precious minutes shed, </l>
               <l>Tempting the Fates to think y'ar Mortal bred </l>
             </sp>
-            <sp xml:id="ep000479-e8900">
+            <sp who="ep000479-capt" xml:id="ep000479-e8900">
               <speaker>Capt. </speaker>
               <l>Great Son of Iove— </l>
             </sp>
-            <sp xml:id="ep000479-e8940">
+            <sp who="ep000479-alex" xml:id="ep000479-e8940">
               <speaker>Alex. </speaker>
               <l>Confusion seize thy tongue— </l>
               <l>I'le hear no more of such a Syren's Song. </l>
@@ -899,7 +965,7 @@
               <l>If we do lye at ease at Babylon, </l>
               <l>And shrink at Glory e're we put it on. </l>
             </sp>
-            <sp xml:id="ep000479-e9170">
+            <sp who="ep000479-eph" xml:id="ep000479-e9170">
               <pb n="12" xml:id="ep000479-012-a"/>
               <speaker>Eph. </speaker>
               <l>I'll on, while your Example I behold </l>
@@ -907,7 +973,7 @@
               <l>Direct my wandring Youth, till I am Old, </l>
               <l>And guide my soul in peace, and Armes in War. </l>
             </sp>
-            <sp xml:id="ep000479-e9230">
+            <sp who="ep000479-alex" xml:id="ep000479-e9230">
               <speaker>Alex. </speaker>
               <l>Millions of pleasures on Euphrates lye, </l>
               <l>Swelling her Bankes with plagues of luxury; </l>
@@ -916,21 +982,21 @@
               <l>You see her guilded Tow'rs, and Turrets pride, </l>
               <l>But they come short of beauties that they hide. </l>
             </sp>
-            <sp xml:id="ep000479-e9320">
+            <sp who="ep000479-eph" xml:id="ep000479-e9320">
               <speaker>Eph. </speaker>
               <l>Beauty I've heard, the Gods did first ordain </l>
               <l>To cherish Valour and reward it's payn: </l>
               <l>This hea'ven-born Creature for your entrance stayes </l>
               <l>To deck with plumes of love your guilded Bayes. </l>
             </sp>
-            <sp xml:id="ep000479-e9390">
+            <sp who="ep000479-cass" xml:id="ep000479-e9390">
               <speaker>Cass. </speaker>
               <l>The Armyes all must on your Center more; </l>
               <l>This time is sacred both to you and love; </l>
               <l>When you lye downe 'tis fit that war shou'd cease, </l>
               <l>And treate you with an universal peace: </l>
             </sp>
-            <sp xml:id="ep000479-e9450">
+            <sp who="ep000479-bag" xml:id="ep000479-e9450">
               <speaker>Bag. </speaker>
               <l>Thus humbly I my mighty charge resigne, </l>
               <stage xml:id="ep000479-e9480">[Bag. kneells. </stage>
@@ -940,7 +1006,7 @@
               <l>The blest Statira does her self prepare, </l>
               <l>To weave you Chaplets of her Golden haire, </l>
             </sp>
-            <sp xml:id="ep000479-e9560">
+            <sp who="ep000479-alex" xml:id="ep000479-e9560">
               <speaker>Alex. </speaker>
               <l>Tell her I waite, and only for her stay </l>
               <l>To Crowne the Triumph of this happy day. </l>
@@ -948,7 +1014,7 @@
               <l>Now my Ephestion, guard thy tender Breast; </l>
               <l>I'll shew thee halfe wherewith my soul is blest. </l>
             </sp>
-            <sp xml:id="ep000479-e9640">
+            <sp who="ep000479-eph" xml:id="ep000479-e9640">
               <speaker>Eph. </speaker>
               <l>What need I shun whereof I am possest? </l>
               <l>In Athens late you nip'd my forward growth. </l>
@@ -964,14 +1030,14 @@
               <l>When on Statira's Picture you wou'd look, </l>
               <l>Faire Parisatis forme from you I tooke. </l>
             </sp>
-            <sp xml:id="ep000479-e9820">
+            <sp who="ep000479-alex" xml:id="ep000479-e9820">
               <speaker>Alex. </speaker>
               <l>What I then told thee did but breed desire, </l>
               <l>Which her bright Eyes will kindle into fire: </l>
               <l>Thou but indur'dst the skirmish of a Fight. </l>
               <l>I touch'd thy Breast, but she will kill thee quite: </l>
             </sp>
-            <sp xml:id="ep000479-e9880">
+            <sp who="ep000479-eph" xml:id="ep000479-e9880">
               <speaker>Eph. </speaker>
               <l>Wou'd she wou'd come: I long to be thus slayn; </l>
               <pb n="13" xml:id="ep000479-012-b"/>
@@ -979,24 +1045,24 @@
               <l>Yet if to be in love, so mortal be, </l>
               <l>What makes so many happy, that we see? </l>
             </sp>
-            <sp xml:id="ep000479-e9940">
+            <sp who="ep000479-alex" xml:id="ep000479-e9940">
               <speaker>Alex. </speaker>
               <l>Such are, whom love a kind acceptance showes, </l>
               <l>Your Fate by chance may make you one of those— </l>
               <l>Behold how these faire Goddesses appear! </l>
             </sp>
-            <sp xml:id="ep000479-e9990">
+            <sp who="ep000479-eph" xml:id="ep000479-e9990">
               <speaker>Eph. </speaker>
               <l>O Gods! But which is she that I must feare? </l>
             </sp>
             <stage xml:id="ep000479-e10020">Enter to them <hi>Statira, Parisatis</hi>, Women, Bagistanes and attendants at one door, and Oroondates, and Araxis, at another door, at some distance. </stage>
-            <sp xml:id="ep000479-e10070">
+            <sp who="ep000479-oroo" xml:id="ep000479-e10070">
               <speaker>Oroo. </speaker>
               <l>Here we will stand, and dare the worst of fate, </l>
               <stage xml:id="ep000479-e10100">[to Ar. aside. </stage>
               <l>She cannot find us in this throng of state, </l>
             </sp>
-            <sp xml:id="ep000479-e10120">
+            <sp who="ep000479-alex" xml:id="ep000479-e10120">
               <speaker>Alex. </speaker>
               <l>So Venus look'd, so Venus smote from far, </l>
               <l>The Iron bosome of the God of War; </l>
@@ -1010,7 +1076,7 @@
               <l>My Crimes of War have made me guilty come </l>
               <l>To choose from you a soft, and gentle doome. </l>
             </sp>
-            <sp xml:id="ep000479-e10250">
+            <sp who="ep000479-sta" xml:id="ep000479-e10250">
               <speaker>Sta. </speaker>
               <l>Hold Alexander, tempt me not in Vain;— </l>
               <l>Behold the blood that does your Ensignes stain. </l>
@@ -1021,7 +1087,7 @@
               <l>Crown'd with this purple horrour on thy head, </l>
               <l>Do I not blush to see thee looke so red? </l>
             </sp>
-            <sp xml:id="ep000479-e10390">
+            <sp who="ep000479-alex" xml:id="ep000479-e10390">
               <speaker>Alex. </speaker>
               <l>When first your Country felt my angry Armes, </l>
               <l>They straight were pleas'd at faire Statira's charmes, </l>
@@ -1030,19 +1096,19 @@
               <l>That for one Kingdom from Darius torne, </l>
               <l>I'll 〈◊〉 an hundred to your scorne. </l>
             </sp>
-            <sp xml:id="ep000479-e10490">
+            <sp who="ep000479-sta" xml:id="ep000479-e10490">
               <speaker>Sta. </speaker>
               <l>Those ner'e can come from petty Macedon; </l>
               <l>Thou bring'st and giv'st me, what is not thy owne; </l>
               <l>And all your borrow'd glory but appeares </l>
               <l>Deck'd with the Flaggs pull'd from my Fathers horse. </l>
             </sp>
-            <sp xml:id="ep000479-e10560">
+            <sp who="ep000479-alex" xml:id="ep000479-e10560">
               <speaker>Alex. </speaker>
               <l>What have I done, ye Gods? To see you frowne, </l>
               <l>Is more to me, than you to loose a Crowne. </l>
             </sp>
-            <sp xml:id="ep000479-e10600">
+            <sp who="ep000479-sta" xml:id="ep000479-e10600">
               <speaker>Sta. </speaker>
               <l>No fatal Monarch, still your Crimes persue. </l>
               <pb n="14" xml:id="ep000479-013-a"/>
@@ -1050,7 +1116,7 @@
               <l>They have Darius punish'd, and not you, </l>
               <l>And scourge the world for all the wrongs you act. </l>
             </sp>
-            <sp xml:id="ep000479-e10670">
+            <sp who="ep000479-eph" xml:id="ep000479-e10670">
               <speaker>Eph. </speaker>
               <l>Ah gentle Goddesse, be not angry now; </l>
               <l>Disperse the storm that hangs upon your brow, </l>
@@ -1061,7 +1127,7 @@
               <l>But let me beg you wou'd not be severe, </l>
               <l>And in her frownes, as you in Beauties share. </l>
             </sp>
-            <sp xml:id="ep000479-e10770">
+            <sp who="ep000479-alex" xml:id="ep000479-e10770">
               <speaker>Alex. </speaker>
               <l>Still I presume unhappy, to be kind, </l>
               <l>That Parisatis for my Friend design'd— </l>
@@ -1071,18 +1137,18 @@
               <l>More then a Crown he on his head shall bring, </l>
               <l>He is my Favourite, more than twice a King. </l>
             </sp>
-            <sp xml:id="ep000479-e10900">
+            <sp who="ep000479-par" xml:id="ep000479-e10900">
               <speaker>Par. </speaker>
               <l>I must beleive the Man y'are pleas'd to grace, </l>
               <l>May well deserve within my breast a place. </l>
             </sp>
-            <sp xml:id="ep000479-e10940">
+            <sp who="ep000479-lys" xml:id="ep000479-e10940">
               <speaker>Lys. </speaker>
               <l>O Gods! What discord was there in that Voice! </l>
               <l>She seemes to me as if she lik'd the choice. </l>
             </sp>
             <stage xml:id="ep000479-e10980">[aside, </stage>
-            <sp xml:id="ep000479-e10990">
+            <sp who="ep000479-sta" xml:id="ep000479-e10990">
               <speaker>Sta. </speaker>
               <l>You are Ambitious to dispose of Fate, </l>
               <l>And King for Love, and Love for Kings create; </l>
@@ -1091,7 +1157,7 @@
               <l>That you new Empires to the old might gain, </l>
               <l>You'd rule ore love, as you o're kingdomes raign. </l>
             </sp>
-            <sp xml:id="ep000479-e11070">
+            <sp who="ep000479-alex" xml:id="ep000479-e11070">
               <speaker>Alex. </speaker>
               <l>'Tis an Ambition that from you I take, </l>
               <l>To become great, and only for your sake. </l>
@@ -1100,7 +1166,7 @@
               <l>His Altars shall with blood of Kings run o're, </l>
               <l>And their lost Crowns, and Scepters fill his Store. </l>
             </sp>
-            <sp xml:id="ep000479-e11150">
+            <sp who="ep000479-sta" xml:id="ep000479-e11150">
               <speaker>Sta. </speaker>
               <l>You give so much, your self seemes but the less; </l>
               <l>You hide your Merits in this gawdy dress: </l>
@@ -1109,14 +1175,14 @@
               <l>Love is too rich a jewel to be bought, </l>
               <l>'Twill only be in ' its own likeness sought. </l>
             </sp>
-            <sp xml:id="ep000479-e11230">
+            <sp who="ep000479-alex" xml:id="ep000479-e11230">
               <speaker>Alex. </speaker>
               <l>Those Ornaments to Love are iustly due, </l>
               <l>Who gave them as rewards for loving you; </l>
               <l>As he that wins the Prize at publique Playes </l>
               <l>Offers his God the Garland of his Bayes. </l>
             </sp>
-            <sp xml:id="ep000479-e11290">
+            <sp who="ep000479-sta" xml:id="ep000479-e11290">
               <speaker>Sta. </speaker>
               <l>You seek your Love in great and horrid formes, </l>
               <l>As Sun shine dayes are met by dreadful stormes; </l>
@@ -1124,7 +1190,7 @@
               <pb n="15" xml:id="ep000479-013-b"/>
               <l>Like Birds of prey, to rob this Dove of peace; </l>
             </sp>
-            <sp xml:id="ep000479-e11350">
+            <sp who="ep000479-alex" xml:id="ep000479-e11350">
               <speaker>Alex. </speaker>
               <l>I'l scatter this Contagion, whilst it flies, </l>
               <l>Like Clouds of Insects driven before your Eyes: </l>
@@ -1135,7 +1201,7 @@
               <l>I'll give you all that's in my power to give, </l>
               <l>Yet after all, let Alexander live. </l>
             </sp>
-            <sp xml:id="ep000479-e11470">
+            <sp who="ep000479-sta" xml:id="ep000479-e11470">
               <speaker>Sta. </speaker>
               <l>Ah Monarch! Thou canst never end this strife, </l>
               <l>Till thou restor'st me to a Fathers life; </l>
@@ -1144,11 +1210,11 @@
               <l>Had not those Trophies on his Death began, </l>
               <l>I'de think the world has not a braver Man. </l>
             </sp>
-            <sp xml:id="ep000479-e11550">
+            <sp who="ep000479-oroo" xml:id="ep000479-e11550">
               <speaker>Oroo. </speaker>
               <l>O Gods Araxis, did you hear! </l>
             </sp>
-            <sp xml:id="ep000479-e11590">
+            <sp who="ep000479-alex" xml:id="ep000479-e11590">
               <speaker>Alex. </speaker>
               <l>That you may see, how much his Death I grieve, </l>
               <l>I'll Crown his head, as if he were alive, </l>
@@ -1156,7 +1222,7 @@
               <l>The world shall to his Golden Statue run, </l>
               <l>And pay more homage, then they do the Sun </l>
             </sp>
-            <sp xml:id="ep000479-e11670">
+            <sp who="ep000479-sta" xml:id="ep000479-e11670">
               <speaker>Sta. </speaker>
               <l>Desist that kindness; for 'tis only meant </l>
               <l>To make thy pride his fatal Monument, </l>
@@ -1166,7 +1232,7 @@
               <l>Cannot 〈…〉 serve thy turn? </l>
               <l>〈…〉 his silent Urne. </l>
             </sp>
-            <sp xml:id="ep000479-e11760">
+            <sp who="ep000479-alex" xml:id="ep000479-e11760">
               <speaker>Alex. </speaker>
               <l>All powers on Earth are subject still to Fate; </l>
               <l>Empires, as well as Men have sudden date. </l>
@@ -1175,7 +1241,7 @@
               <l>'Twas they, not I, your Fathers death decreed, </l>
               <l>And they ordain'd I shou'd in all succeed. </l>
             </sp>
-            <sp xml:id="ep000479-e11840">
+            <sp who="ep000479-sta" xml:id="ep000479-e11840">
               <speaker>Sta. </speaker>
               <l>The Gods have us'd thee but for punishment, </l>
               <l>And soon will end those plagnes themselves have sent. </l>
@@ -1189,7 +1255,7 @@
               <l>No Alexander, yet too low thou art, </l>
               <l>Mounted on all the world, to reach my heart. </l>
             </sp>
-            <sp xml:id="ep000479-e11990">
+            <sp who="ep000479-oroo" xml:id="ep000479-e11990">
               <speaker>Oroo, </speaker>
               <l>Great God of Love thou hast thy pity shown, </l>
               <stage xml:id="ep000479-e12020">[aside </stage>
@@ -1197,11 +1263,11 @@
                 <pb n="16" xml:id="ep000479-014-a"/>Exeunt <hi>Statira, Parisatis</hi>, and women, and Oroondates following at distance. Manent Alexander and the rest. </stage>
               <l>Araxis, waite you here— </l>
             </sp>
-            <sp xml:id="ep000479-e12090">
+            <sp who="ep000479-eph" xml:id="ep000479-e12090">
               <speaker>Eph. </speaker>
               <l>Will you be gone?— </l>
             </sp>
-            <sp xml:id="ep000479-e12120">
+            <sp who="ep000479-alex" xml:id="ep000479-e12120">
               <speaker>Alex. </speaker>
               <l>Persia had stood, had its tame Heroes been </l>
               <l>But blest with so much spirite as this Queen.— </l>
@@ -1210,20 +1276,20 @@
               <l>The skye is not so faire, nor downe so soft, </l>
               <l>But their hard hearts, are on the Anvile wrought. </l>
             </sp>
-            <sp xml:id="ep000479-e12220">
+            <sp who="ep000479-eph" xml:id="ep000479-e12220">
               <speaker>Eph. </speaker>
               <l>But Parisatis sure, is all divine, </l>
               <l>And cannot Sir, to cruelty incline; </l>
               <l>Yet I am sad, but 'tis not that I feare </l>
               <l>Her tender soul, but that she loves elswhere. </l>
             </sp>
-            <sp xml:id="ep000479-e12290">
+            <sp who="ep000479-alex" xml:id="ep000479-e12290">
               <speaker>Alex. </speaker>
               <l>You must not think she will at first obleige; </l>
               <l>Women, like Townes, hold out a longer siege. </l>
             </sp>
             <stage xml:id="ep000479-e12330">Enter one of the Captaines. </stage>
-            <sp xml:id="ep000479-e12340">
+            <sp who="ep000479-capt" xml:id="ep000479-e12340">
               <speaker>Capt. </speaker>
               <l>The world does to great Alexander send </l>
               <l>All Nations proud to be your slaves contend: </l>
@@ -1235,19 +1301,19 @@
               <l>That gallant Oroondates has been gone, </l>
               <l>They Offer you his rich, and mighty Throne, </l>
             </sp>
-            <sp xml:id="ep000479-e12490">
+            <sp who="ep000479-ara" xml:id="ep000479-e12490">
               <speaker>Ara. </speaker>
               <l>Ah fatall Newes!— </l>
             </sp>
             <stage xml:id="ep000479-e12520">[aside </stage>
-            <sp xml:id="ep000479-e12530">
+            <sp who="ep000479-alex" xml:id="ep000479-e12530">
               <speaker>Alex. </speaker>
               <l>That Prince if he be slain— </l>
               <l>There's not a Braver Heroe does remain, </l>
               <l>And I with sorrow must his Empire gain. </l>
             </sp>
             <stage xml:id="ep000479-e12580">Exeunt. Manet Araxis solus. </stage>
-            <sp xml:id="ep000479-e12600">
+            <sp who="ep000479-ara" xml:id="ep000479-e12600">
               <speaker>Ara. </speaker>
               <l>Go Oroondates now, and finde thy death; </l>
               <l>Thou hast no place, no Earth, no Aire to breath, </l>
@@ -1259,7 +1325,7 @@
               <l>He is return'd, for pity I'll refrain </l>
               <l>To till the news that will increase his pain. </l>
             </sp>
-            <sp xml:id="ep000479-e12740">
+            <sp who="ep000479-oroo" xml:id="ep000479-e12740">
               <speaker>Oroo. </speaker>
               <l>Araxis come, le'ts undermine our Foes, </l>
               <l>And follow Alexander where he goes; </l>
@@ -1267,7 +1333,7 @@
               <l>Till on Statira's Cheeks our Eyes do fight, </l>
             </sp>
             <stage xml:id="ep000479-e12830">[Oroo. offers to go off. </stage>
-            <sp xml:id="ep000479-e12850">
+            <sp who="ep000479-ara" xml:id="ep000479-e12850">
               <pb n="17" xml:id="ep000479-014-b"/>
               <speaker>Ara. </speaker>
               <l>Stay Oroondates, are you in a dream? </l>
@@ -1279,7 +1345,7 @@
               <l>For Alexander saw when you went out, </l>
               <l>And hater you he turn'd his Jealousie Eyes about. </l>
             </sp>
-            <sp xml:id="ep000479-e12970">
+            <sp who="ep000479-oroo" xml:id="ep000479-e12970">
               <speaker>Oroo. </speaker>
               <l>I have no soul, no Eyes, no thing that's sence; </l>
               <l>They all have left me with that excellence. </l>
@@ -1288,7 +1354,7 @@
               <l>I'l find her through the dark, and let her know't, </l>
               <l>T' releive my Body, as a light that's out. </l>
             </sp>
-            <sp xml:id="ep000479-e13050">
+            <sp who="ep000479-ara" xml:id="ep000479-e13050">
               <speaker>Ara. </speaker>
               <l>Now it is almost neer retreat of day, </l>
               <l>Whose hand-maid evening lookes so fresh, and gay, </l>
@@ -1297,7 +1363,7 @@
               <l>Thither we'll go, by th' secret way we came; </l>
               <l>There you may find, but here you'l lose your aim. </l>
             </sp>
-            <sp xml:id="ep000479-e13140">
+            <sp who="ep000479-oroo" xml:id="ep000479-e13140">
               <speaker>Oroo. </speaker>
               <l>I'll find my Rivall wrap'd in his delight, </l>
               <l>Who as the Globe, oft hides the Suns faire light </l>
@@ -1313,20 +1379,20 @@
               <l>And blush'd for greif, till he did understand, </l>
               <l>It was no shame, from Oroondates hand. </l>
             </sp>
-            <sp xml:id="ep000479-e13320">
+            <sp who="ep000479-ara" xml:id="ep000479-e13320">
               <speaker>Ara. </speaker>
               <l>The State retreats from the Kings private Room:— </l>
               <l>One of the Princesses does this way come— </l>
               <l>Retire into the Garden Sir, before w'are seen. </l>
             </sp>
-            <sp xml:id="ep000479-e13370">
+            <sp who="ep000479-oroo" xml:id="ep000479-e13370">
               <speaker>Oroo. </speaker>
               <l>Not stay!— I'll speak t'her, if it be my Queen. </l>
               <stage xml:id="ep000479-e13400">Enter to them <hi>Statira, Melanthe </hi>attended </stage>
               <l>So leaves of flowers, shut up in showers of Rain, </l>
               <l>Open their bosomes with the Sun again. </l>
             </sp>
-            <sp xml:id="ep000479-e13440">
+            <sp who="ep000479-sta" xml:id="ep000479-e13440">
               <speaker>Sta. </speaker>
               <l>Blesse me ye Gods! 'Tis Oroondates sure! </l>
               <l>What passions does my trembling heart indure! </l>
@@ -1338,7 +1404,7 @@
               <l>How durst you be so bold? Urg'd by what thought? </l>
               <l>Was't Jealousie, or Love your Person brought? </l>
             </sp>
-            <sp xml:id="ep000479-e13570">
+            <sp who="ep000479-oroon" xml:id="ep000479-e13570">
               <speaker>Oroon. </speaker>
               <l>Ah glorious Creature; Blest of all thy Sex, </l>
               <l>Urge not imputed Crimes my Soul to vex— </l>
@@ -1349,7 +1415,7 @@
               <l>I broak through all the stops, that Fate cou'd rear; </l>
               <l>Who can Love you, and be a slave to fear! </l>
             </sp>
-            <sp xml:id="ep000479-e13670">
+            <sp who="ep000479-sta" xml:id="ep000479-e13670">
               <speaker>Sta. </speaker>
               <l>Rise <hi>Oroondates. Alexander </hi>sees; </l>
               <l>The Gods do frown, and he on Earth decrees; </l>
@@ -1358,7 +1424,7 @@
               <l>That blazing Comet in the Skye beware, </l>
               <l>Who threatens me with Love, and you with War. </l>
             </sp>
-            <sp xml:id="ep000479-e13760">
+            <sp who="ep000479-oroon" xml:id="ep000479-e13760">
               <speaker>Oroon. </speaker>
               <l>He cannot gentle Creature, do us harm; </l>
               <l>True Love's Pow'r that all the Gods will charm, </l>
@@ -1369,7 +1435,7 @@
               <l>To see our Loves with all it's lustre vie, </l>
               <l>And drop with wonder from it's borrow'd Skye. </l>
             </sp>
-            <sp xml:id="ep000479-e13860">
+            <sp who="ep000479-sta" xml:id="ep000479-e13860">
               <speaker>Sta. </speaker>
               <l>The Gods to us are yet the more unkind. </l>
               <l>Where shall we then those pleasant minutes find, </l>
@@ -1379,7 +1445,7 @@
               <l>The Watchful Dragon here disturbs our peace, </l>
               <l>More strict, than that which kept the Golden Fleece. </l>
             </sp>
-            <sp xml:id="ep000479-e13960">
+            <sp who="ep000479-oroon" xml:id="ep000479-e13960">
               <speaker>Oroon. </speaker>
               <l>Since else y'are lost to Oroondates quite, </l>
               <l>I'le break your Chains, and with the Monster fight: </l>
@@ -1390,14 +1456,14 @@
               <l>Say but the word, and I'le at once remove </l>
               <l>The Scourge of Empires, and the plague of Love. </l>
             </sp>
-            <sp xml:id="ep000479-e14080">
+            <sp who="ep000479-sta" xml:id="ep000479-e14080">
               <speaker>Sta. </speaker>
               <l>No Oroondates, cease this vain design, </l>
               <l>He 's at his highest, and will soon decline. </l>
               <l>The Gods in time, in pity of our tears, </l>
               <l>Will rid the World and us of all it's fears, </l>
             </sp>
-            <sp xml:id="ep000479-e14150">
+            <sp who="ep000479-oroon" xml:id="ep000479-e14150">
               <speaker>Oroon. </speaker>
               <l>Never let's tarry, for in all that time. </l>
               <l>Our Love might reach, and up to Heav'n might climb; </l>
@@ -1415,7 +1481,7 @@
               <l>And each to other shall a Subject be, </l>
               <l>Living on Earth, like Sphere in Harmony. </l>
             </sp>
-            <sp xml:id="ep000479-e14320">
+            <sp who="ep000479-sta" xml:id="ep000479-e14320">
               <speaker>Sta. </speaker>
               <l>There at our Joyes will none with envy burn, </l>
               <l>Nor Alexander were he there, return; </l>
@@ -1428,7 +1494,7 @@
               <l>Dear Oroondates, spare your farther talk; </l>
               <l>See me to morrow i'the Cyprus walk. </l>
             </sp>
-            <sp xml:id="ep000479-e14470">
+            <sp who="ep000479-oroon" xml:id="ep000479-e14470">
               <speaker>Oroon. </speaker>
               <l>Go my propitious Goddess, thou that art </l>
               <l>The Heavenly excellence of all my heart;— </l>
@@ -1437,11 +1503,11 @@
               <l>That when the Conqu'rour comes to beg a Grace, </l>
               <l>Bend thy dark brow, and shoot it in his Face. </l>
             </sp>
-            <sp xml:id="ep000479-e14550">
+            <sp who="ep000479-sta" xml:id="ep000479-e14550">
               <speaker>Sta. </speaker>
               <l>Thou best of Men, all Joyes about thee dwell. </l>
             </sp>
-            <sp xml:id="ep000479-e14580">
+            <sp who="ep000479-oroon" xml:id="ep000479-e14580">
               <speaker>Oroon. </speaker>
               <l>Thou Soul of Love, and all that's good, Farewell. </l>
             </sp>
@@ -1455,7 +1521,7 @@
             <head>Actus Tertius, Scaena Prima. </head>
             <stage xml:id="ep000479-e14660">
               <hi>Parisatis. Melanthe</hi>, as in the Garden. Ephestion enters at a distance. </stage>
-            <sp xml:id="ep000479-e14690">
+            <sp who="ep000479-eph" xml:id="ep000479-e14690">
               <speaker>Eph. </speaker>
               <l>SEE where she Rests, or is't not I descry </l>
               <l>Some dazling Constellation from the Skye! </l>
@@ -1500,30 +1566,30 @@
               </body>
             </floatingText>
             <stage xml:id="ep000479-e15090">[Enter Lysimachus at the other a </stage>
-            <sp xml:id="ep000479-e15110">
+            <sp who="ep000479-lys" xml:id="ep000479-e15110">
               <speaker>Lys. </speaker>
               <l>A voice! To whom should this address belong </l>
               <l>O Gods! There's Parisatis listning to the Song! </l>
               <l>Ephestion too! O my prophetique Soul! </l>
               <l>What shall I do to keep my sences whole! </l>
             </sp>
-            <sp xml:id="ep000479-e15190">
+            <sp who="ep000479-eph" xml:id="ep000479-e15190">
               <pb n="21" xml:id="ep000479-016-b"/>
               <speaker>Eph. </speaker>
               <l>'Tis done— this was I fear some Rivals voice.— </l>
               <l>Lysimachus the man! Is he her choice! </l>
             </sp>
-            <sp xml:id="ep000479-e15240">
+            <sp who="ep000479-mel" xml:id="ep000479-e15240">
               <speaker>Mel. </speaker>
               <l>'Tis Oroondates sure, amongst the Trees; </l>
             </sp>
-            <sp xml:id="ep000479-e15280">
+            <sp who="ep000479-par" xml:id="ep000479-e15280">
               <speaker>Par. </speaker>
               <l>Cease wretched Lover, cease thy sad complaint; </l>
               <l>Whilest no kind friend thy banish'd person sees, </l>
               <l>With mournful tunes thou dost thy sorrows paint. </l>
             </sp>
-            <sp xml:id="ep000479-e15330">
+            <sp who="ep000479-lys" xml:id="ep000479-e15330">
               <speaker>Lys. </speaker>
               <l>See how'e sets his amorous looks this while! </l>
               <l>I'le overtake, and stab him in that smile. </l>
@@ -1532,12 +1598,12 @@
               <l>I shall turn mad to let my rage grow higher;— </l>
               <l>I will be patient, and unseen retire. </l>
             </sp>
-            <sp xml:id="ep000479-e15410">
+            <sp who="ep000479-par" xml:id="ep000479-e15410">
               <speaker>Par. </speaker>
               <l>I hear some coming; let's no longer stay. </l>
             </sp>
             <stage xml:id="ep000479-e15440">[Exit. <hi>Lysimachus, Parisatis </hi>and Mel. offer to go off. </stage>
-            <sp xml:id="ep000479-e15470">
+            <sp who="ep000479-eph" xml:id="ep000479-e15470">
               <speaker>Eph. </speaker>
               <l>See, she retires, and he does lead the way. </l>
               <l>Look back, O beauteous daughter of the spring, </l>
@@ -1545,21 +1611,21 @@
               <l>Makes chearful Birds with welcome Carrols sing, </l>
               <l>And drooping flowers hold up their grateful heads. </l>
             </sp>
-            <sp xml:id="ep000479-e15550">
+            <sp who="ep000479-par" xml:id="ep000479-e15550">
               <speaker>Par. </speaker>
               <l>What beauti's this of which Ephestion tells? </l>
               <l>Can she augment the Joyes with which he swells, </l>
               <l>That holds a richer, and more blest repose, </l>
               <l>In Alexanders bosome where he grows. </l>
             </sp>
-            <sp xml:id="ep000479-e15630">
+            <sp who="ep000479-eph" xml:id="ep000479-e15630">
               <speaker>Eph. </speaker>
               <l>In Alexanders Lawrels I have laid </l>
               <l>My head so long; that I forsake his shade, </l>
               <l>To dwell in your more comfortable sight, </l>
               <l>Whose brighter beams create a fresh delight, </l>
             </sp>
-            <sp xml:id="ep000479-e15700">
+            <sp who="ep000479-par" xml:id="ep000479-e15700">
               <speaker>Par. </speaker>
               <l>I have no beauty, Sir, that I can boast, </l>
               <l>Such as I had is all in sorrows lost, </l>
@@ -1569,7 +1635,7 @@
               <l>By fatal Alexander is undone, </l>
               <l>And quite eclip'st before it reach'd to noon. </l>
             </sp>
-            <sp xml:id="ep000479-e15800">
+            <sp who="ep000479-eph" xml:id="ep000479-e15800">
               <speaker>Eph. </speaker>
               <l>What Miracle is this! For who is he, </l>
               <l>That cannot grant, what you wou'd wish to be? </l>
@@ -1579,7 +1645,7 @@
               <l>Then all the incense, sacrifice of Gore, </l>
               <l>That they have had, ten thousand years before. </l>
             </sp>
-            <sp xml:id="ep000479-e15890">
+            <sp who="ep000479-par" xml:id="ep000479-e15890">
               <speaker>Par. </speaker>
               <l>You over vallue me; all will not do; </l>
               <l>I still am wretched, and more lost than you. </l>
@@ -1587,7 +1653,7 @@
               <l>Refrain, but punish Parisatis still. </l>
             </sp>
             <stage xml:id="ep000479-e15960">[Par. sighs. </stage>
-            <sp xml:id="ep000479-e15970">
+            <sp who="ep000479-eph" xml:id="ep000479-e15970">
               <speaker>Eph. </speaker>
               <l>Ah! why d'ye sigh, and waste that precious breath, </l>
               <pb n="22" xml:id="ep000479-017-a"/>
@@ -1601,14 +1667,14 @@
               <l>And on your brightness gaze with such an eye </l>
               <l>As mortals look with wonder up on high. </l>
             </sp>
-            <sp xml:id="ep000479-e16100">
+            <sp who="ep000479-par" xml:id="ep000479-e16100">
               <speaker>Par. </speaker>
               <l>I am no Deity, yet will not endure </l>
               <l>To be approach'd, but with a flame as pure. </l>
               <l>You say you love, yet for the time you live, </l>
               <l>Expect no more from me, than Heaven can give. </l>
             </sp>
-            <sp xml:id="ep000479-e16160">
+            <sp who="ep000479-eph" xml:id="ep000479-e16160">
               <speaker>Eph. </speaker>
               <l>Not to look thus; and sigh— how blest were I, </l>
               <l>Only to gaze upon you, till I dye; </l>
@@ -1617,7 +1683,7 @@
               <l>Where I'le your seat amongst the Gods prepare, </l>
               <l>And pine, and taste no Heav'n, till you come there. </l>
             </sp>
-            <sp xml:id="ep000479-e16240">
+            <sp who="ep000479-par" xml:id="ep000479-e16240">
               <speaker>Par. </speaker>
               <l>Still noble Youth, you cannot reach your bliss, </l>
               <l>With Love, as Heav'nly as your person is. </l>
@@ -1627,7 +1693,7 @@
               <l>With richest gratitude my Love is bought; </l>
               <l>I have no room for such another guest— </l>
             </sp>
-            <sp xml:id="ep000479-e16330">
+            <sp who="ep000479-eph" xml:id="ep000479-e16330">
               <speaker>Eph. </speaker>
               <l>The Gods forbid!— I dare not hear the rest— </l>
               <l>May not my hopes a fairer prospect view? </l>
@@ -1639,7 +1705,7 @@
               <l>You, and Statira, both contrive his end, </l>
               <l>She stabs him in his person, you in's Friend. </l>
             </sp>
-            <sp xml:id="ep000479-e16460">
+            <sp who="ep000479-par" xml:id="ep000479-e16460">
               <speaker>Par. </speaker>
               <l>Admire no more in what you call my charms, </l>
               <l>Shun 'em young Prince, their all but painted harms. </l>
@@ -1647,7 +1713,7 @@
               <l>None that can Love will be to you severe: </l>
               <l>I boast not of the Chains I make you were. </l>
             </sp>
-            <sp xml:id="ep000479-e16530">
+            <sp who="ep000479-eph" xml:id="ep000479-e16530">
               <speaker>Eph. </speaker>
               <l>Ah do not think my stedfast Love can shake; </l>
               <l>You can as well the Vowes you made forsake; </l>
@@ -1657,12 +1723,12 @@
               <l>If e're you call me home, there will be found, </l>
               <l>Fix'd on my breast, your sad immortal wound. </l>
             </sp>
-            <sp xml:id="ep000479-e16620">
+            <sp who="ep000479-par" xml:id="ep000479-e16620">
               <speaker>Par. </speaker>
               <l>I dare not hear— you wound my tender breast. </l>
             </sp>
             <stage xml:id="ep000479-e16650">[offers to go off. </stage>
-            <sp xml:id="ep000479-e16660">
+            <sp who="ep000479-eph" xml:id="ep000479-e16660">
               <pb n="23" xml:id="ep000479-017-b"/>
               <speaker>Eph. </speaker>
               <l>You shall be pitiful, and hear the rest— </l>
@@ -1672,14 +1738,14 @@
               <l>I guess my Rival, that your thoughts endure— </l>
               <l>But let me doubt still, rather than be sure. </l>
             </sp>
-            <sp xml:id="ep000479-e16750">
+            <sp who="ep000479-par" xml:id="ep000479-e16750">
               <speaker>Par. </speaker>
               <l>What tempted by the Object, you repeat, </l>
               <l>Your heart in time of absence may forget— </l>
               <l>I haste for pity, to remove the cause. </l>
             </sp>
             <stage xml:id="ep000479-e16800">[offers to be gone. </stage>
-            <sp xml:id="ep000479-e16810">
+            <sp who="ep000479-eph" xml:id="ep000479-e16810">
               <speaker>Eph. </speaker>
               <l>Pity forbids, but this my ruin drawes. </l>
               <l>If once a day, you don't your presence give, </l>
@@ -1689,12 +1755,12 @@
               <l>And whiles The Ocean of your Love he bears, </l>
               <l>I thirst in vain, and quench it with my tears; </l>
             </sp>
-            <sp xml:id="ep000479-e16900">
+            <sp who="ep000479-par" xml:id="ep000479-e16900">
               <speaker>Par. </speaker>
               <l>If it be so, then think no more of me; </l>
               <l>How can you choose but hate this cruel she? </l>
             </sp>
-            <sp xml:id="ep000479-e16940">
+            <sp who="ep000479-eph" xml:id="ep000479-e16940">
               <speaker>Eph. </speaker>
               <l>No, I'le retire into the shades below, </l>
               <l>Drest with a Willow Garland of dispair; </l>
@@ -1709,30 +1775,30 @@
               <l>With breath of Amber I perfumes will make, </l>
               <l>And dart in Glories with the rising Sun. </l>
             </sp>
-            <sp xml:id="ep000479-e17080">
+            <sp who="ep000479-par" xml:id="ep000479-e17080">
               <speaker>Par. </speaker>
               <l>If you say more I must in pity drown. </l>
             </sp>
             <stage xml:id="ep000479-e17110">[Exit Parisatis attended. </stage>
-            <sp xml:id="ep000479-e17130">
+            <sp who="ep000479-eph" xml:id="ep000479-e17130">
               <speaker>Eph. </speaker>
               <l>So the quick Sun; soon as his light is shewn, </l>
               <l>Leaving the World in darkness does go down. </l>
               <l>Go my divided Soul— </l>
             </sp>
             <stage xml:id="ep000479-e17180">Enter Lysimachus, and calls back Ephestion, who was going out at the other door. </stage>
-            <sp xml:id="ep000479-e17210">
+            <sp who="ep000479-lys" xml:id="ep000479-e17210">
               <speaker>Lys. </speaker>
               <l>Ephestion stay— </l>
               <l>You have commands from Alexander to obey. </l>
             </sp>
-            <sp xml:id="ep000479-e17270">
+            <sp who="ep000479-eph" xml:id="ep000479-e17270">
               <speaker>Eph. </speaker>
               <l>Why do you hinder me, and bid me stand? </l>
               <l>I know it was not by my Kings Command— </l>
               <l>I fear Lysimachus, you envious are. </l>
             </sp>
-            <sp xml:id="ep000479-e17330">
+            <sp who="ep000479-lys" xml:id="ep000479-e17330">
               <speaker>Lys. </speaker>
               <l>'Tis kindness bids Ephestion to beware; </l>
               <l>And as a Friend, I wish you to retreat, </l>
@@ -1742,7 +1808,7 @@
               <l>This passage leads to death's eternal bands! </l>
               <l>Preventless ruin at your entrance stands. </l>
             </sp>
-            <sp xml:id="ep000479-e17420">
+            <sp who="ep000479-eph" xml:id="ep000479-e17420">
               <speaker>Eph. </speaker>
               <l>What fate is this, you threaten with your breath, </l>
               <l>Nothing so fair as she can lead to death, </l>
@@ -1751,7 +1817,7 @@
               <l>Still where she goes, all deadly Forms she ties, </l>
               <l>And melting dangers drop before her eyes. </l>
             </sp>
-            <sp xml:id="ep000479-e17500">
+            <sp who="ep000479-lys" xml:id="ep000479-e17500">
               <speaker>Lys. </speaker>
               <l>You are too young, I see, and cannot find </l>
               <l>The vast intreigue, of fatal women kind. </l>
@@ -1760,14 +1826,14 @@
               <l>As poyson pleasant to the taste beguiles, </l>
               <l>So soon as drank, to deadly ruin turns. </l>
             </sp>
-            <sp xml:id="ep000479-e17580">
+            <sp who="ep000479-eph" xml:id="ep000479-e17580">
               <speaker>Eph. </speaker>
               <l>You speak indeed; as if you felt it so, </l>
               <l>But she ha's been to me the softest Foe. </l>
               <l>Her soul appears all glorious as her face, </l>
               <l>A shining Jewel in a Chrystal case. </l>
             </sp>
-            <sp xml:id="ep000479-e17640">
+            <sp who="ep000479-lys" xml:id="ep000479-e17640">
               <speaker>Lys. </speaker>
               <l>'Tis a false Light, that shewes like Heav'nly Fire. </l>
               <l>Leading misguided youth, so far astray, </l>
@@ -1780,17 +1846,17 @@
               <l>Then head long him into the Ocean leads, </l>
               <l>Where the next wave his giddy life devours. </l>
             </sp>
-            <sp xml:id="ep000479-e17760">
+            <sp who="ep000479-eph" xml:id="ep000479-e17760">
               <speaker>Eph. </speaker>
               <l>You shall not rail on Beauty I adore; </l>
               <l>'Tis an offence, and I will hear no more. </l>
             </sp>
-            <sp xml:id="ep000479-e17800">
+            <sp who="ep000479-lys" xml:id="ep000479-e17800">
               <speaker>Lys. </speaker>
               <l>You shall in ignorance no longer rove; </l>
               <l>Know then 'tis Parisatis that I Love. </l>
             </sp>
-            <sp xml:id="ep000479-e17850">
+            <sp who="ep000479-eph" xml:id="ep000479-e17850">
               <speaker>Eph. </speaker>
               <l>I see your kindness now; she is the shelf, </l>
               <l>You bid me shun, on which you'd spilt your self: </l>
@@ -1801,19 +1867,19 @@
               <l>'Twas Parisatis then that made you fly </l>
               <l>With wings of Love, and not of loyalty. </l>
             </sp>
-            <sp xml:id="ep000479-e17980">
+            <sp who="ep000479-lys" xml:id="ep000479-e17980">
               <speaker>Lys. </speaker>
               <l>'Twas in defence of Love: can he be blam'd, </l>
               <l>That sues for aid, when there is War proclaim'd; </l>
               <l>When you and Alexander lots did cast </l>
               <l>For all my hopes, 'twas time for me to haste. </l>
             </sp>
-            <sp xml:id="ep000479-e18050">
+            <sp who="ep000479-eph" xml:id="ep000479-e18050">
               <speaker>Eph. </speaker>
               <l>Y'are come too late, and you resist in vain, </l>
               <l>What Heav'n, and Alexander both ordain, </l>
             </sp>
-            <sp xml:id="ep000479-e18100">
+            <sp who="ep000479-lys" xml:id="ep000479-e18100">
               <pb n="25" xml:id="ep000479-018-b"/>
               <speaker>Lys. </speaker>
               <l>I first this Jewel in my heart did wear; </l>
@@ -1825,7 +1891,7 @@
               <l>Like one who all his life have toil'd for wealth, </l>
               <l>Spoil'd in a moment; and undone by stealth. </l>
             </sp>
-            <sp xml:id="ep000479-e18200">
+            <sp who="ep000479-eph" xml:id="ep000479-e18200">
               <speaker>Eph. </speaker>
               <l>Because you were born first, and first had sight, </l>
               <l>Must I in darkness live, and ne're see light, </l>
@@ -1834,7 +1900,7 @@
               <l>You may come short, unless you mend your pace; </l>
               <l>Who last sets out, may soonest win the race, </l>
             </sp>
-            <sp xml:id="ep000479-e18280">
+            <sp who="ep000479-lys" xml:id="ep000479-e18280">
               <speaker>Lys. </speaker>
               <l>Take heed; ill fate persues thee in the Chase: </l>
               <l>I, in the midst of thy Carreer, will stay, </l>
@@ -1844,7 +1910,7 @@
               <l>Or if it been't; I like a storm will rise, </l>
               <l>And in Eclipse convey it from thy Eyes. </l>
             </sp>
-            <sp xml:id="ep000479-e18380">
+            <sp who="ep000479-eph" xml:id="ep000479-e18380">
               <speaker>Eph. </speaker>
               <l>What then, you think, that I can be afraid?— </l>
               <l>I fear you not, though you my youth upbraid; </l>
@@ -1855,13 +1921,13 @@
               <l>Safe in his Magick Circle round my heart; </l>
               <l>Who bears Loves wounds, can fear no other smart. </l>
             </sp>
-            <sp xml:id="ep000479-e18480">
+            <sp who="ep000479-lys" xml:id="ep000479-e18480">
               <speaker>Lys. </speaker>
               <l>No more, when next thou seest her, thou shalt dy, </l>
               <l>Although that minute, you for refuge flye </l>
               <l>To Alexanders arms for Sanctuary. </l>
             </sp>
-            <sp xml:id="ep000479-e18540">
+            <sp who="ep000479-eph" xml:id="ep000479-e18540">
               <speaker>Eph. </speaker>
               <l>Thinkest thou, whom Alexander loves, to fright? </l>
               <l>No, then, to let you see, that I dare fight?— </l>
@@ -1874,7 +1940,7 @@
               <l>And on her Lips, leave my departing Soul. </l>
             </sp>
             <stage xml:id="ep000479-e18660">[offers to go out. </stage>
-            <sp xml:id="ep000479-e18670">
+            <sp who="ep000479-lys" xml:id="ep000479-e18670">
               <speaker>Lys. </speaker>
               <l>Come back again— What shall I do?— I will— </l>
               <l>But thou presumest on Alexander still. </l>
@@ -1883,47 +1949,47 @@
             </sp>
             <stage xml:id="ep000479-e18740">
               <pb n="26" xml:id="ep000479-019-a"/>As they begin to fight, enter Oroondates, and Araxis, at distance, which makes Lysimachus and Ephestion go out, and defer fighting. </stage>
-            <sp xml:id="ep000479-e18790">
+            <sp who="ep000479-lys" xml:id="ep000479-e18790">
               <speaker>Lys. </speaker>
               <l>Draw Sir— </l>
             </sp>
-            <sp xml:id="ep000479-e18820">
+            <sp who="ep000479-eph" xml:id="ep000479-e18820">
               <speaker>Eph. </speaker>
               <l>Behold, we cannot end our strife— </l>
             </sp>
-            <sp xml:id="ep000479-e18850">
+            <sp who="ep000479-lys" xml:id="ep000479-e18850">
               <speaker>Lys. </speaker>
               <l>Curst chance! This but prolongs thy sickly life. </l>
             </sp>
             <stage xml:id="ep000479-e18880">
               <hi>[Exeunt </hi>Lys. and Eph. Manent Oroon. and Araxis. </stage>
-            <sp xml:id="ep000479-e18930">
+            <sp who="ep000479-oroon" xml:id="ep000479-e18930">
               <speaker>Oroon. </speaker>
               <l>Ha! Lets retire; we cannot be alone, </l>
             </sp>
-            <sp xml:id="ep000479-e18960">
+            <sp who="ep000479-arax" xml:id="ep000479-e18960">
               <speaker>Arax. </speaker>
               <l>One is Lysimichus— See, they are gone. </l>
             </sp>
-            <sp xml:id="ep000479-e19000">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19000">
               <speaker>Oroon. </speaker>
               <l>Of all the Grecian Captains, I've been told, </l>
               <l>That he excells in Virtue, and is bold. </l>
               <l>Whoes the other?— </l>
             </sp>
-            <sp xml:id="ep000479-e19050">
+            <sp who="ep000479-arax" xml:id="ep000479-e19050">
               <speaker>Arax. </speaker>
               <l>I know not what he 's call'd; </l>
               <l>Both gracious with the King; but I admire, </l>
               <l>They seem'd surpris'd, and did from us retire. </l>
             </sp>
-            <sp xml:id="ep000479-e19100">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19100">
               <speaker>Oroon. </speaker>
               <l>This is the place, and this the blessed hour.— </l>
               <l>Leave me a while upon the long'd for shore;— </l>
               <l>Leave me.— </l>
             </sp>
-            <sp xml:id="ep000479-e19150">
+            <sp who="ep000479-arax" xml:id="ep000479-e19150">
               <speaker>Arax. </speaker>
               <l>See Sir, as when a storm is o're— </l>
               <l>Now y'are arriv'd, it scatters, and it clears, </l>
@@ -1932,16 +1998,16 @@
                 <hi>[Exit</hi>. Araxis </stage>
             </sp>
             <stage xml:id="ep000479-e19230">Enter to them <hi>Statira, Parisatis, Melanthe</hi>, and attendants. </stage>
-            <sp xml:id="ep000479-e19250">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19250">
               <speaker>Oroon. </speaker>
               <l>Now is the light just fallen from the Skyes. </l>
               <l>And blushes like the morn adorns those eyes. </l>
             </sp>
-            <sp xml:id="ep000479-e19290">
+            <sp who="ep000479-sta" xml:id="ep000479-e19290">
               <speaker>Sta. </speaker>
               <l>Ah Oroondates, grasp me not not so hard, </l>
             </sp>
-            <sp xml:id="ep000479-e19330">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19330">
               <speaker>Oroon. </speaker>
               <l>Deny me not this innocent reward, </l>
               <stage xml:id="ep000479-e19360">[kisses her Hand. </stage>
@@ -1952,12 +2018,12 @@
               <l>All those thick Joyes that lay conceal'd below, </l>
               <l>Swell o're the brink, and their long bounds o're flow. </l>
             </sp>
-            <sp xml:id="ep000479-e19430">
+            <sp who="ep000479-sta" xml:id="ep000479-e19430">
               <speaker>Sta. </speaker>
               <l>Ah Oroondates, I have newes to tell </l>
               <l>Will sink your Soul, and chain the Powers of Hell. </l>
             </sp>
-            <sp xml:id="ep000479-e19480">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19480">
               <speaker>Oroon. </speaker>
               <l>Think not Statira, that my breast can own </l>
               <l>A passion for the losing of my Throne, </l>
@@ -1971,56 +2037,56 @@
             </sp>
             <stage xml:id="ep000479-e19610">
               <pb n="27" xml:id="ep000479-019-b"/>Re-enter to them Araxis, in haste. </stage>
-            <sp xml:id="ep000479-e19630">
+            <sp who="ep000479-arax" xml:id="ep000479-e19630">
               <speaker>Arax. </speaker>
               <l>I haste, and yet I fear I come too slow; </l>
               <l>Like a huge Torrent that does overflow; </l>
               <l>The King is here, and ha's surpris'd you now. </l>
             </sp>
-            <sp xml:id="ep000479-e19680">
+            <sp who="ep000479-sta" xml:id="ep000479-e19680">
               <speaker>Sta. </speaker>
               <l>What shall we do?— </l>
             </sp>
-            <sp xml:id="ep000479-e19710">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19710">
               <speaker>Oroon. </speaker>
               <l>Heedless Araxis thou— </l>
             </sp>
-            <sp xml:id="ep000479-e19750">
+            <sp who="ep000479-par" xml:id="ep000479-e19750">
               <speaker>Par. </speaker>
               <l>Go you, leave Oroondates here with me. </l>
             </sp>
-            <sp xml:id="ep000479-e19790">
+            <sp who="ep000479-oroon" xml:id="ep000479-e19790">
               <speaker>Oroon. </speaker>
               <l>There is no shape that virtue fears to see:— </l>
               <l>Here I will stand in thy defence of Love, </l>
               <l>Like Iove himself, and dare this Son of Iove. </l>
             </sp>
-            <sp xml:id="ep000479-e19860">
+            <sp who="ep000479-sta" xml:id="ep000479-e19860">
               <speaker>Sta. </speaker>
               <l>Go, go, you put my soul upon the wrack!— </l>
               <l>Fly this unhappy ground— </l>
             </sp>
             <stage xml:id="ep000479-e19900">Enter to them <hi>Alexander, Cassander, Phillip, Bagistanes </hi>and Attendants. Guards. </stage>
-            <sp xml:id="ep000479-e19920">
+            <sp who="ep000479-alex" xml:id="ep000479-e19920">
               <speaker>Alex. </speaker>
               <l>Stay Sir; come back.— </l>
               <l>What art, that darest such saucy, Courtship shew? </l>
               <l>And bend to th' shrine, where I presume to bow. </l>
             </sp>
-            <sp xml:id="ep000479-e19970">
+            <sp who="ep000479-sta" xml:id="ep000479-e19970">
               <speaker>Sta. </speaker>
               <l>Retire Sir from the King; I'le undertake.— </l>
             </sp>
-            <sp xml:id="ep000479-e20000">
+            <sp who="ep000479-alex" xml:id="ep000479-e20000">
               <speaker>Alex. </speaker>
               <l>By all the Gods, he stirs not for your sake. </l>
             </sp>
-            <sp xml:id="ep000479-e20030">
+            <sp who="ep000479-oroon" xml:id="ep000479-e20030">
               <speaker>Oroon. </speaker>
               <l>Do not for me to the least doubt resign; </l>
               <l>Nought, but your fears can shake a heart like mine. </l>
             </sp>
-            <sp xml:id="ep000479-e20070">
+            <sp who="ep000479-alex" xml:id="ep000479-e20070">
               <speaker>Alex. </speaker>
               <l>Tell me great Iove, who cou'd suspect to see </l>
               <l>So false a soul, in such a shape as she? </l>
@@ -2035,51 +2101,51 @@
               <l>Convey away this upstart of my heart.— </l>
               <l>Yet I will know thee first— Say, what thou art? </l>
             </sp>
-            <sp xml:id="ep000479-e20220">
+            <sp who="ep000479-oroo" xml:id="ep000479-e20220">
               <speaker>Oroo. </speaker>
               <l>I turn to tell thee, that it was not fear; </l>
               <l>When you have known me, you'l confess I dare. </l>
               <l>I ne're was question'd, and deny'd my name,— </l>
               <l>Do you not know me then, nor who I am? </l>
             </sp>
-            <sp xml:id="ep000479-e20280">
+            <sp who="ep000479-sta" xml:id="ep000479-e20280">
               <speaker>Sta. </speaker>
               <l>Y'are mad, and wou'd your self in vain disclose: </l>
               <l>For Alexander none, but Princes knowes. </l>
             </sp>
-            <sp xml:id="ep000479-e20330">
+            <sp who="ep000479-alex" xml:id="ep000479-e20330">
               <speaker>Alex. </speaker>
               <l>You urge the more; I'le know him e're'e goes </l>
             </sp>
-            <sp xml:id="ep000479-e20360">
+            <sp who="ep000479-oroo" xml:id="ep000479-e20360">
               <speaker>Oroo. </speaker>
               <l>Behold; have you not seen this face in War? </l>
             </sp>
-            <sp xml:id="ep000479-e20390">
+            <sp who="ep000479-alex" xml:id="ep000479-e20390">
               <speaker>Alex. </speaker>
               <l>I think I might, then tell me who you are. </l>
             </sp>
-            <sp xml:id="ep000479-e20420">
+            <sp who="ep000479-sta" xml:id="ep000479-e20420">
               <speaker>Sta. </speaker>
               <l>I'le tell you who he is, let him be gone;— </l>
               <l>His person cannot merit to be known. </l>
             </sp>
-            <sp xml:id="ep000479-e20460">
+            <sp who="ep000479-oroo" xml:id="ep000479-e20460">
               <speaker>Oroo. </speaker>
               <l>Tis Oroondates that you see again. </l>
             </sp>
-            <sp xml:id="ep000479-e20500">
+            <sp who="ep000479-alex" xml:id="ep000479-e20500">
               <pb n="28" xml:id="ep000479-020-a"/>
               <speaker>Alex. </speaker>
               <l>What Oroondates, that we heard was slain! </l>
             </sp>
-            <sp xml:id="ep000479-e20540">
+            <sp who="ep000479-oroo" xml:id="ep000479-e20540">
               <speaker>Oroo. </speaker>
               <l>Yes Alexander, that unhappy Man, </l>
               <l>Whose Crown, and Empire to your fortunes ran, </l>
               <l>With base submission, which your Armes nere won, not can. </l>
             </sp>
-            <sp xml:id="ep000479-e20600">
+            <sp who="ep000479-alex" xml:id="ep000479-e20600">
               <speaker>Alex. </speaker>
               <l>If you somuch your single valour prize, </l>
               <l>How came you hither, in a tame disguise? </l>
@@ -2088,7 +2154,7 @@
               <l>Dealing unlike a Prince, in dark designes, </l>
               <l>And like a Coward, workes and undermines. </l>
             </sp>
-            <sp xml:id="ep000479-e20680">
+            <sp who="ep000479-oroo" xml:id="ep000479-e20680">
               <speaker>Oroo. </speaker>
               <l>Thus I wou'd shew, didst thou not hide my face▪ </l>
               <l>Stand from before me in this blessed place. </l>
@@ -2097,12 +2163,12 @@
               <l>Though like a flaming Beacon thou doest fright </l>
               <l>Tame Nations, Id'e look up, and shine as bright. </l>
             </sp>
-            <sp xml:id="ep000479-e20760">
+            <sp who="ep000479-alex" xml:id="ep000479-e20760">
               <speaker>Alex. </speaker>
               <l>Then you can boast of what she me deny'd </l>
               <l>And shew'd her scorne, I took for noble pride. </l>
             </sp>
-            <sp xml:id="ep000479-e20800">
+            <sp who="ep000479-sta" xml:id="ep000479-e20800">
               <speaker>Sta. </speaker>
               <l>If thou art gallant, Alexander, know, </l>
               <l>That I so much to Oroondates owe, </l>
@@ -2114,7 +2180,7 @@
               <l>Tygers, and Monsters wou'd forsake their kind, </l>
               <l>And melt, where so much gratitude they find. </l>
             </sp>
-            <sp xml:id="ep000479-e20940">
+            <sp who="ep000479-alex" xml:id="ep000479-e20940">
               <speaker>Alex. </speaker>
               <l>Women when pleas'd their eager loves to show, </l>
               <l>Swift with the stream of inclination go, </l>
@@ -2127,7 +2193,7 @@
               <l>More then the slave that to the Galli's ty'd, </l>
               <l>Who sweates, and labours, all for stripes and scorne. </l>
             </sp>
-            <sp xml:id="ep000479-e21060">
+            <sp who="ep000479-sta" xml:id="ep000479-e21060">
               <speaker>Sta. </speaker>
               <l>Your mind is toss'd; o're Seas of passion borne. </l>
               <l>Know that my soul, scorning the Pompe of life, </l>
@@ -2139,13 +2205,13 @@
               <l>And rather chose your Chaines, then let my soul </l>
               <l>By flight be stain'd with a reproach so foul. </l>
             </sp>
-            <sp xml:id="ep000479-e21170">
+            <sp who="ep000479-oroo" xml:id="ep000479-e21170">
               <pb n="29" xml:id="ep000479-020-b"/>
               <speaker>Oroo. </speaker>
               <l>Your cruel vertue, so severe inclin'd, </l>
               <l>Hath been to me and to your self unkind. </l>
             </sp>
-            <sp xml:id="ep000479-e21210">
+            <sp who="ep000479-alex" xml:id="ep000479-e21210">
               <speaker>Alex. </speaker>
               <l>Flatter thy self, but thou shalt never find </l>
               <l>One Jealous coward thought defame my mind, </l>
@@ -2153,7 +2219,7 @@
               <l>Contrary windes, and all less streams devours, </l>
               <l>Can ne're be Jealous, or afraid of yours. </l>
             </sp>
-            <sp xml:id="ep000479-e21280">
+            <sp who="ep000479-oroo" xml:id="ep000479-e21280">
               <speaker>Oroo. </speaker>
               <l>That fortune ne're had gain'd the Scythian State, </l>
               <l>Had Oroondates but suspected fate; </l>
@@ -2163,7 +2229,7 @@
               <l>Till it has gain'd i'ts highest State at noon, </l>
               <l>Then they forsake; and from its warmth they run. </l>
             </sp>
-            <sp xml:id="ep000479-e21380">
+            <sp who="ep000479-alex" xml:id="ep000479-e21380">
               <speaker>Alex. </speaker>
               <l>I did from conquest of your Crown retreat, </l>
               <l>Too little, to make Alexander great; </l>
@@ -2178,7 +2244,7 @@
               <l>And stoop to nothing, but the lure of love. </l>
               <l>You do my Rival then your self create. </l>
             </sp>
-            <sp xml:id="ep000479-e21530">
+            <sp who="ep000479-oroo" xml:id="ep000479-e21530">
               <speaker>Oroo. </speaker>
               <l>Witness ye Gods, I glory more in that, </l>
               <l>Than all the world can give, or th' smiles of fate. </l>
@@ -2188,7 +2254,7 @@
               <l>That like a Saint indures with zealous pain, </l>
               <l>Till heav'n he gets through stormes of sighs and tears like rain. </l>
             </sp>
-            <sp xml:id="ep000479-e21620">
+            <sp who="ep000479-alex" xml:id="ep000479-e21620">
               <speaker>Alex. </speaker>
               <l>That heav'n which you with such fair hopes persue, </l>
               <l>You may behold, but ne're to be injoy'd by you: </l>
@@ -2198,11 +2264,11 @@
               <l>Seeing that heav'n; which you can ne're enjoy.— </l>
               <l>Go where thou wilt, but never see her more. </l>
             </sp>
-            <sp xml:id="ep000479-e21710">
+            <sp who="ep000479-sta" xml:id="ep000479-e21710">
               <speaker>Sta. </speaker>
               <l>Go Oroondates, whom, the Gods restore. </l>
             </sp>
-            <sp xml:id="ep000479-e21750">
+            <sp who="ep000479-oroo" xml:id="ep000479-e21750">
               <speaker>Oroo. </speaker>
               <l>Go Oroondates!— Gods can you consent, </l>
               <l>That I shou'd dye for you in Banishment! </l>
@@ -2215,7 +2281,7 @@
               <l>Thou may'st as well part water and divide the light, </l>
               <l>As think my soul can live out of her sight. </l>
             </sp>
-            <sp xml:id="ep000479-e21870">
+            <sp who="ep000479-alex" xml:id="ep000479-e21870">
               <speaker>Alex. </speaker>
               <l>Thou shalt, and live to see me only blest, </l>
               <l>Crown'd with her Love, inthron'd within her Breast.— </l>
@@ -2223,7 +2289,7 @@
               <l>That thou shalt tremble, and not dare come near, </l>
               <l>But hide thy face, for envy, and for fear. </l>
             </sp>
-            <sp xml:id="ep000479-e21940">
+            <sp who="ep000479-oroo" xml:id="ep000479-e21940">
               <speaker>Oroo. </speaker>
               <l>Not dare come near!— Beware that fatal time, </l>
               <l>When I shall surely snatch thee in thy prime: </l>
@@ -2236,13 +2302,13 @@
               <l>Nay were it mortal, where thou send'st thy breath, </l>
               <l>My furious haste shou'd blunt thy threatning death. </l>
             </sp>
-            <sp xml:id="ep000479-e22060">
+            <sp who="ep000479-alex" xml:id="ep000479-e22060">
               <speaker>Alex. </speaker>
               <l>Livest thou to threaten whom the Gods defend?— </l>
               <l>Convey him straight to his eternal end— </l>
               <l>Death shall reward the valour you pretend. </l>
             </sp>
-            <sp xml:id="ep000479-e22110">
+            <sp who="ep000479-sta" xml:id="ep000479-e22110">
               <speaker>Sta. </speaker>
               <l>Hold Alexander, hold,— He shall not go; </l>
               <l>I ne're did beg of you, nor will I now; </l>
@@ -2251,7 +2317,7 @@
               <l>The life I brought in danger to be slain, </l>
               <l>I am oblig'd in honour to maintain. </l>
             </sp>
-            <sp xml:id="ep000479-e22200">
+            <sp who="ep000479-alex" xml:id="ep000479-e22200">
               <speaker>Alex. </speaker>
               <l>Gods. Did I ever yet resolve in vain! </l>
               <l>Where be thy Conquests now that fill'd the world, </l>
@@ -2263,24 +2329,24 @@
               <l>Cassander,— I will but his doom inlarge— </l>
               <l>Let Oroondates be your strictest Charge. </l>
             </sp>
-            <sp xml:id="ep000479-e22350">
+            <sp who="ep000479-oroo" xml:id="ep000479-e22350">
               <speaker>Oroo. </speaker>
               <l>Gods. How I hate this life you wou'd restore, </l>
               <l>That nor my freedome's justly in your power; </l>
               <l>Thy honour cannot let me be betray'd, </l>
               <l>I was thy Prisoner once, and ransome paid. </l>
             </sp>
-            <sp xml:id="ep000479-e22410">
+            <sp who="ep000479-alex" xml:id="ep000479-e22410">
               <speaker>Alex. </speaker>
               <l>If thou wert so, 'twas when thou wert 〈◊〉 </l>
               <l>Th'art Oroondates now, and claim'st a Crown.— </l>
               <l>Convey him hence— It is my last decree. </l>
             </sp>
-            <sp xml:id="ep000479-e22470">
+            <sp who="ep000479-oroo" xml:id="ep000479-e22470">
               <speaker>Oroo, </speaker>
               <l>They dare not do't, no, not thy Guards, nor thee. </l>
             </sp>
-            <sp xml:id="ep000479-e22500">
+            <sp who="ep000479-sta" xml:id="ep000479-e22500">
               <speaker>Sta. </speaker>
               <l>Bear Oroondates, what the Gods ordain; </l>
               <pb n="31" xml:id="ep000479-021-b"/>
@@ -2288,13 +2354,13 @@
               <l>Both heav'n, and Love will for our safeties joyn:— </l>
               <l>Are Chains so grevious in the sight of mine? </l>
             </sp>
-            <sp xml:id="ep000479-e22570">
+            <sp who="ep000479-alex" xml:id="ep000479-e22570">
               <speaker>Alex. </speaker>
               <l>Sure such a spirit did from heav'n descend. </l>
               <l>So great and true, we know not where 'twill bend. </l>
             </sp>
             <stage xml:id="ep000479-e22610">Exeunt Statira in anger, and Alexander attended, follows her. Manent <hi>Oroondates, Cassander, Araxis</hi>, Guards. </stage>
-            <sp xml:id="ep000479-e22650">
+            <sp who="ep000479-cass" xml:id="ep000479-e22650">
               <speaker>Cass. </speaker>
               <l>Methinks your looks such gallant rage do shew </l>
               <l>As sits upon an angry Lyons brow: </l>
@@ -2305,13 +2371,13 @@
               <l>Let me be heard, Sir, with your private ear. </l>
             </sp>
             <stage xml:id="ep000479-e22740">[to Oroondates </stage>
-            <sp xml:id="ep000479-e22760">
+            <sp who="ep000479-oroo" xml:id="ep000479-e22760">
               <speaker>Oroo. </speaker>
               <l>His presence Sir with mine you may indure: </l>
               <stage xml:id="ep000479-e22790">[meaning Araxis. </stage>
               <l>For all my secrets, in his Breast are sure. </l>
             </sp>
-            <sp xml:id="ep000479-e22820">
+            <sp who="ep000479-cass" xml:id="ep000479-e22820">
               <speaker>Cass. </speaker>
               <l>Fortune has set a man upon her wheel, </l>
               <l>That never sees, how it goes downward still. </l>
@@ -2323,12 +2389,12 @@
               <l>With all thy Scythian Glories dart upon, </l>
               <l>And shrink the world again to Macedon. </l>
             </sp>
-            <sp xml:id="ep000479-e22970">
+            <sp who="ep000479-oroo" xml:id="ep000479-e22970">
               <speaker>Oroo. </speaker>
               <l>Wherefore this great Civillity to me?— </l>
               <l>Your words have meaning too I cannot see. </l>
             </sp>
-            <sp xml:id="ep000479-e23010">
+            <sp who="ep000479-cass" xml:id="ep000479-e23010">
               <speaker>Cass. </speaker>
               <l>Look up, and never do the Cause inquire, </l>
               <l>But quench this Flame that sets the world on Fire; </l>
@@ -2336,7 +2402,7 @@
               <l>To ease Mankind of universal strife, </l>
               <l>Your Crown restore, and bless you with a wife. </l>
             </sp>
-            <sp xml:id="ep000479-e23090">
+            <sp who="ep000479-oroo" xml:id="ep000479-e23090">
               <speaker>Oroo. </speaker>
               <l>Were I releas'd, and from his Fetters freed, </l>
               <l>And had the possibility of such a deed; </l>
@@ -2348,7 +2414,7 @@
               <l>Ith' Face of Iove and in the clearest day; </l>
               <l>When heav'n that saw't, shou'd nothing have to say. </l>
             </sp>
-            <sp xml:id="ep000479-e23210">
+            <sp who="ep000479-cass" xml:id="ep000479-e23210">
               <speaker>Cass. </speaker>
               <l>In rules of virtue you are too sublime; </l>
               <l>Why shou'd it be to kill him such a Crime? </l>
@@ -2359,7 +2425,7 @@
               <pb n="23" xml:id="ep000479-022-a"/>
               <l>But fair Statira's Love I wou'd prefer. </l>
             </sp>
-            <sp xml:id="ep000479-e23310">
+            <sp who="ep000479-oroo" xml:id="ep000479-e23310">
               <speaker>Oroo. </speaker>
               <l>Convey me straight into the darkest hole; </l>
               <l>Let me live ever like a dungeon Mole. </l>
@@ -2367,7 +2433,7 @@
               <l>But thou that showest me this ignoble way, </l>
               <l>Art sent by him that wou'd my life betray. </l>
             </sp>
-            <sp xml:id="ep000479-e23380">
+            <sp who="ep000479-cass" xml:id="ep000479-e23380">
               <speaker>Cass. </speaker>
               <l>No by the Gods, from him it was not meant: </l>
               <l>I've try'd, and found you hard to honour bent: </l>
@@ -2381,7 +2447,7 @@
               <l>Accept the freedome that your soul does wear, </l>
               <l>And I the fault of your escape will bear. </l>
             </sp>
-            <sp xml:id="ep000479-e23510">
+            <sp who="ep000479-oroo" xml:id="ep000479-e23510">
               <speaker>Oroo. </speaker>
               <l>Thou tryest my mind, and yet doest think I fear. </l>
               <l>Go on, let me the ruggedst usage feel; </l>
@@ -2391,7 +2457,7 @@
               <l>So when I can, your kindness I'le restore. </l>
             </sp>
             <stage xml:id="ep000479-e23590">[Exit Oroo. with Guards </stage>
-            <sp xml:id="ep000479-e23610">
+            <sp who="ep000479-cass" xml:id="ep000479-e23610">
               <speaker>Cass. </speaker>
               <l>My words are thrown, like dust upon the shore. </l>
               <l>This Treason then my self will bear alone </l>
@@ -2408,11 +2474,11 @@
           <div n="1" type="scene" xml:id="ep000479-e23720">
             <head>Actus Quartus, Scaena Prima. </head>
             <stage xml:id="ep000479-e23740">Cassander, and Phillip severally. Cass. reading a Letter, </stage>
-            <sp xml:id="ep000479-e23780">
+            <sp who="ep000479-phil" xml:id="ep000479-e23780">
               <speaker>Phil. </speaker>
               <l>WWhat news Cassander, have you heard from home? </l>
             </sp>
-            <sp xml:id="ep000479-e23820">
+            <sp who="ep000479-cass" xml:id="ep000479-e23820">
               <speaker>Cass. </speaker>
               <l>News, Phillip, that concernes the mightyest doom; </l>
               <l>A sovereigne Balme for the sick world is come. </l>
@@ -2426,12 +2492,12 @@
               <l>My aged Father pours in every vein </l>
               <l>Fresh blood, and ha's begotten me again </l>
             </sp>
-            <sp xml:id="ep000479-e23960">
+            <sp who="ep000479-phil" xml:id="ep000479-e23960">
               <speaker>Phil. </speaker>
               <l>The King I left inrag'd, and in a Flame </l>
               <l>At Letters too that from my Father came. </l>
             </sp>
-            <sp xml:id="ep000479-e24000">
+            <sp who="ep000479-cass" xml:id="ep000479-e24000">
               <speaker>Cass. </speaker>
               <l>Let him be so, as long as 'tis his last; </l>
               <l>It is decre'd he cannot burn too 〈…〉 </l>
@@ -2446,7 +2512,7 @@
             </sp>
             <stage xml:id="ep000479-e24130">
               <hi>[Phillip </hi>takes and reads the Letter. </stage>
-            <sp xml:id="ep000479-e24150">
+            <sp who="ep000479-phil" xml:id="ep000479-e24150">
               <speaker>Phil. </speaker>
               <l>Antipater our Father does impart </l>
               <l>A secret found by Aristotles Art; </l>
@@ -2456,7 +2522,7 @@
               <l>This deadly poyson now from Greece is brought, </l>
               <l>To give to Alexander in a draught. </l>
             </sp>
-            <sp xml:id="ep000479-e24280">
+            <sp who="ep000479-cass" xml:id="ep000479-e24280">
               <speaker>Cass. </speaker>
               <l>Neer high Olympus'e Crown'd with lofty Wood, </l>
               <l>Under its shade, where mighty vapours brood; </l>
@@ -2471,7 +2537,7 @@
               <l>That to his heart who drinks, it flyes with speed, </l>
               <l>And in his death no sign of poyson's found! </l>
             </sp>
-            <sp xml:id="ep000479-e24430">
+            <sp who="ep000479-phil" xml:id="ep000479-e24430">
               <speaker>Phil. </speaker>
               <l>Can the Fates suffer that so base a thing </l>
               <l>Conspire the death of the worlds mighty King! </l>
@@ -2480,15 +2546,15 @@
               <l>But the most Coward, and ignoble Beast. </l>
               <l>But when; when shall be done this mighty deed? </l>
             </sp>
-            <sp xml:id="ep000479-e24510">
+            <sp who="ep000479-cass" xml:id="ep000479-e24510">
               <speaker>Cass. </speaker>
               <l>No longer then this day it is decreed. </l>
             </sp>
-            <sp xml:id="ep000479-e24540">
+            <sp who="ep000479-phil" xml:id="ep000479-e24540">
               <speaker>Phil. </speaker>
               <l>You bear the Cup, and you may do't with. </l>
             </sp>
-            <sp xml:id="ep000479-e24570">
+            <sp who="ep000479-cass" xml:id="ep000479-e24570">
               <speaker>Cass. </speaker>
               <l>By heav'n the thought does my 〈…〉 </l>
               <l>This night I'le do't, in his proud sacrifice, </l>
@@ -2497,11 +2563,11 @@
               <l>Oh how I burn, and how my Cheeks still glow! </l>
               <l>Since like a patient Boy I took that blow. </l>
             </sp>
-            <sp xml:id="ep000479-e24640">
+            <sp who="ep000479-phil" xml:id="ep000479-e24640">
               <speaker>Phil. </speaker>
               <l>I wish we were of Oroondates sure. </l>
             </sp>
-            <sp xml:id="ep000479-e24680">
+            <sp who="ep000479-cass" xml:id="ep000479-e24680">
               <speaker>Cass. </speaker>
               <l>Virtu's his guard, and holds him too secure; </l>
               <l>Only we two must all the brunt indure. </l>
@@ -2515,7 +2581,7 @@
               <l>Shall him suceed, o're Greece, and Macedon. </l>
             </sp>
             <stage xml:id="ep000479-e24840">Enter to them Bagistanes. </stage>
-            <sp xml:id="ep000479-e24860">
+            <sp who="ep000479-bag" xml:id="ep000479-e24860">
               <speaker>Bag. </speaker>
               <l>The King in hast does for your prisoner call; </l>
               <l>Such labouring Tempests toss his mighty soul, </l>
@@ -2524,7 +2590,7 @@
               <l>H'as for the Ambassadours of Scythia sent; </l>
               <l>The Gods yet only know what's his intent. </l>
             </sp>
-            <sp xml:id="ep000479-e24940">
+            <sp who="ep000479-cass" xml:id="ep000479-e24940">
               <speaker>Cass. </speaker>
               <l>I'le instantly his gallant Rival bring— </l>
               <l>Phillip make haste, and in my absence place </l>
@@ -2532,7 +2598,7 @@
             </sp>
             <stage xml:id="ep000479-e25000">Exeunt Cassander and Phillip 〈◊〉 Manet Bagistanes. </stage>
             <stage xml:id="ep000479-e25040">Enter to him Statira attended. </stage>
-            <sp xml:id="ep000479-e25060">
+            <sp who="ep000479-sta" xml:id="ep000479-e25060">
               <speaker>Sta. </speaker>
               <l>What change now weares the worlds inconstant Face? </l>
               <l>What can its Masters mighty mind displace? </l>
@@ -2545,7 +2611,7 @@
               <l>His rage in pompe does mighty pow'r attend; </l>
               <l>He means to sit in Triumph on his end. </l>
             </sp>
-            <sp xml:id="ep000479-e25200">
+            <sp who="ep000479-bag" xml:id="ep000479-e25200">
               <speaker>Bag. </speaker>
               <l>You only now can Guard his innocence; </l>
               <l>The Gods you serve have arm'd you with defence: </l>
@@ -2564,7 +2630,7 @@
               <l>I go to see how the Kings passion cleeres. </l>
               <stage xml:id="ep000479-e25380">[Exit Bagistanes. </stage>
             </sp>
-            <sp xml:id="ep000479-e25400">
+            <sp who="ep000479-oroo" xml:id="ep000479-e25400">
               <speaker>Oroo. </speaker>
               <l>What heav'n is this I meet with in the way? </l>
               <l>Nothing can prove unfortunate to day. </l>
@@ -2573,14 +2639,14 @@
               <l>The kindest Gods have sent thee from above, </l>
               <l>With their divinest pow'r to rescue Love. </l>
             </sp>
-            <sp xml:id="ep000479-e25480">
+            <sp who="ep000479-sta" xml:id="ep000479-e25480">
               <speaker>Sta. </speaker>
               <l>You Oroondates are your owne reward; </l>
               <l>'Tis your own virtue does it's person guard; </l>
               <l>●fall I have can your protection bear, </l>
               <l>You need not doubt to find your safety here. </l>
             </sp>
-            <sp xml:id="ep000479-e25550">
+            <sp who="ep000479-oroo" xml:id="ep000479-e25550">
               <speaker>Oroo. </speaker>
               <l>Brightness, and heav'n are dwelling in that Breast, </l>
               <l>None but a God shou'd with that seat be blest, </l>
@@ -2592,7 +2658,7 @@
               <l>The flame has purifi'd my breast so fine, </l>
               <l>You may behold my weeping soul within. </l>
             </sp>
-            <sp xml:id="ep000479-e25660">
+            <sp who="ep000479-sta" xml:id="ep000479-e25660">
               <speaker>Sta. </speaker>
               <l>My soul in vain lookes through it's mortal Cage, </l>
               <l>And spying yours, does mourne to disingage, </l>
@@ -2608,7 +2674,7 @@
               <l>And dwell where Alexander ne're shall go, </l>
               <l>There we wou'd raigne, and let him raign below. </l>
             </sp>
-            <sp xml:id="ep000479-e25830">
+            <sp who="ep000479-oroo" xml:id="ep000479-e25830">
               <speaker>Oroo. </speaker>
               <l>We'l chain this flesh, and our proud 〈…〉, </l>
               <l>Letting our souls out of their windowes fly. </l>
@@ -2622,7 +2688,7 @@
               <l>That when our soules, their cheifs, in parly joyn, </l>
               <l>They shall 〈…〉, or repine. </l>
             </sp>
-            <sp xml:id="ep000479-e25950">
+            <sp who="ep000479-sta" xml:id="ep000479-e25950">
               <speaker>Sta. </speaker>
               <l>Hold Oroondates cease this killing strife; </l>
               <l>Give me my soul again thou; </l>
@@ -2634,20 +2700,20 @@
               <l>And leave my tongue 〈…〉 </l>
             </sp>
             <stage xml:id="ep000479-e26070">Re-enter to them Cassander. </stage>
-            <sp xml:id="ep000479-e26090">
+            <sp who="ep000479-cass" xml:id="ep000479-e26090">
               <speaker>Cass. </speaker>
               <l>The mighty King of all the world possest, </l>
               <l>With all things, but the fair Statira, </l>
               <l>Calls for the Prince, and to this place drawes near; </l>
               <l>Like the gay seasons that adorne the year. </l>
             </sp>
-            <sp xml:id="ep000479-e26150">
+            <sp who="ep000479-sta" xml:id="ep000479-e26150">
               <speaker>Sta </speaker>
               <l>I'le frown, if he but dares to disobey, </l>
               <l>And blast him with a winters stormy day. </l>
             </sp>
             <stage xml:id="ep000479-e26190">Exit Statira attended. </stage>
-            <sp xml:id="ep000479-e26210">
+            <sp who="ep000479-oroo" xml:id="ep000479-e26210">
               <speaker>Oroo. </speaker>
               <l>Thus as a Curtain 〈…〉. </l>
               <l>Sh'as Snatch'd my sight, and I must. </l>
@@ -2659,16 +2725,16 @@
               <l>Over my grave thou wile more splendid rise. </l>
             </sp>
             <stage xml:id="ep000479-e26310">The Seene drawes, and at an Altar is discover'd <hi>Alexander, Ephestion, Statira, Parhatis, Lysimachus, Phillip, Bagistanes, Scythian </hi>Ambassadours, 〈…〉 and other attendants in great State, Preists, Statue 〈◊〉 <hi>Hamon, Alexander </hi>comes upon the Stage, reading Letters. </stage>
-            <sp xml:id="ep000479-e26340">
+            <sp who="ep000479-alex" xml:id="ep000479-e26340">
               <speaker>Alex. </speaker>
               <l>Cassander— </l>
             </sp>
-            <sp xml:id="ep000479-e26370">
+            <sp who="ep000479-cass" xml:id="ep000479-e26370">
               <speaker>Cass. </speaker>
               <l>Sir Ic●meat your Command— </l>
               <l>With joy approach, and at attention stand, </l>
             </sp>
-            <sp xml:id="ep000479-e26410">
+            <sp who="ep000479-alex" xml:id="ep000479-e26410">
               <speaker>Alex. </speaker>
               <l>Read these for from Alexander they came, </l>
               <l>That dares protest Olympia is to blame. </l>
@@ -2684,7 +2750,7 @@
               <l>And all in fears forsake the sacred Rail.— </l>
               <l>Give me the Bowl, and the Gods drink prepare. </l>
             </sp>
-            <sp xml:id="ep000479-e26610">
+            <sp who="ep000479-pre" xml:id="ep000479-e26610">
               <speaker>Pre. </speaker>
               <l>The mighty Iove's offended at our prayer: </l>
               <l>We had done all, we thought, that Heav'n could prise, </l>
@@ -2700,25 +2766,25 @@
               <l>A horrid darkness fill'd the Temple round, </l>
               <l>And of faint Groves was heard a dreadful sound. </l>
             </sp>
-            <sp xml:id="ep000479-e26770">
+            <sp who="ep000479-alex" xml:id="ep000479-e26770">
               <speaker>Alex. </speaker>
               <l>T'attone the Gods with all our power we'l strive, </l>
               <l>I have a Nobler sacrifice to give, </l>
               <l>And vow this hour the offering to make </l>
             </sp>
             <stage xml:id="ep000479-e26820">[Alex. <hi>looking towards </hi>Oroon. </stage>
-            <sp xml:id="ep000479-e26840">
+            <sp who="ep000479-oroo" xml:id="ep000479-e26840">
               <speaker>Oroo. </speaker>
               <l>Where is this sacrifice that you bespeak? </l>
               <l>Is all this Cerimony for my sake? </l>
               <l>Thinkest thou to fright me with this bloody deed, </l>
               <l>To be the sacrifice that here must bleed? </l>
             </sp>
-            <sp xml:id="ep000479-e26900">
+            <sp who="ep000479-sta" xml:id="ep000479-e26900">
               <speaker>Sta. </speaker>
               <l>The Gods protect the King from such a thought. </l>
             </sp>
-            <sp xml:id="ep000479-e26930">
+            <sp who="ep000479-oroo" xml:id="ep000479-e26930">
               <speaker>Oroo. </speaker>
               <l>Is mine the life that thy false Preists have bought? </l>
               <l>With shew of piety to cover fate, </l>
@@ -2726,7 +2792,7 @@
               <l>Swift vengeance have they for this Act in store. </l>
               <l>And after I am dead, they'l thunder more. </l>
             </sp>
-            <sp xml:id="ep000479-e27000">
+            <sp who="ep000479-alex" xml:id="ep000479-e27000">
               <speaker>Alex. </speaker>
               <l>I find that thou with groveling sense doest move, </l>
               <l>And canst not understand the Son of Iove: </l>
@@ -2739,7 +2805,7 @@
               <l>What Mercy, or what Justice wou'd you shower </l>
               <l>On such a one you held within your power? </l>
             </sp>
-            <sp xml:id="ep000479-e27160">
+            <sp who="ep000479-oroo" xml:id="ep000479-e27160">
               <speaker>Oroo. </speaker>
               <l>Were I the Monarch of the world thou art, </l>
               <l>I de look beneath me with a Godlike heart; </l>
@@ -2752,7 +2818,7 @@
               <l>That thy vast spirit shou'd into wonder shrink— </l>
               <l>I'de do; what thou hast not a soul to think. </l>
             </sp>
-            <sp xml:id="ep000479-e27270">
+            <sp who="ep000479-alex" xml:id="ep000479-e27270">
               <speaker>Alex. </speaker>
               <l>Brave as thou art, thou canst not yet come nigh; </l>
               <l>Thou shalt not have a thought to wish so high, </l>
@@ -2762,12 +2828,12 @@
               <l>That he may see how far above you shine, </l>
               <l>And with your sacred virtue rule his fate, and mine. </l>
             </sp>
-            <sp xml:id="ep000479-e27370">
+            <sp who="ep000479-oroo" xml:id="ep000479-e27370">
               <speaker>Oroo. </speaker>
               <l>Having so bright an Object thou must do </l>
               <l>What to her Beauty, and thy fame is due. </l>
             </sp>
-            <sp xml:id="ep000479-e27410">
+            <sp who="ep000479-alex" xml:id="ep000479-e27410">
               <speaker>Alex. </speaker>
               <l>I will not have my love prescrib'd by you; </l>
               <l>Yet I'le be both to Love and honour true.— </l>
@@ -2787,7 +2853,7 @@
               <l>If they're not pleas'd with blood already spill'd, </l>
               <l>They shall with thousands offer'd in the field, </l>
             </sp>
-            <sp xml:id="ep000479-e27630">
+            <sp who="ep000479-sta" xml:id="ep000479-e27630">
               <speaker>Sta. </speaker>
               <l>You have deserv'd, great Sir, and give us cause </l>
               <l>To think the world most happy in your lawes; </l>
@@ -2797,7 +2863,7 @@
               <l>It doth my thanks and admiration raise;— </l>
               <l>So great, tis undervalu'd by my praise. </l>
             </sp>
-            <sp xml:id="ep000479-e27730">
+            <sp who="ep000479-oroo" xml:id="ep000479-e27730">
               <speaker>Oroo. </speaker>
               <l>Though in this publique Act you have deserv'd, </l>
               <l>Virtu's not lost that has not been observ'd; </l>
@@ -2806,18 +2872,18 @@
               <l>I wou'd appear, but am eclips'd by you.— </l>
               <l>If thou art Noble still our hopes persue. </l>
             </sp>
-            <sp xml:id="ep000479-e27810">
+            <sp who="ep000479-alex" xml:id="ep000479-e27810">
               <pb n="39" xml:id="ep000479-025-b"/>
               <speaker>Alex. </speaker>
               <l>What wouldst thou have? What is there yet to do? </l>
             </sp>
-            <sp xml:id="ep000479-e27840">
+            <sp who="ep000479-sta" xml:id="ep000479-e27840">
               <speaker>Sta. </speaker>
               <l>Nothing, for you beyond just hopes aspire, </l>
               <l>And to do more is past the Gods desire. </l>
             </sp>
             <stage xml:id="ep000479-e27880">[Preist gives Cassander the bowl, he offers it Alexander on his knees. </stage>
-            <sp xml:id="ep000479-e27910">
+            <sp who="ep000479-cass" xml:id="ep000479-e27910">
               <speaker>Cass. </speaker>
               <l>The greatest God that you the world has giv'n, </l>
               <l>To rule on Earth, as he does rule in heav'n, </l>
@@ -2827,7 +2893,7 @@
               <l>Whiles Ioves imperial Son does sacrifice. </l>
             </sp>
             <stage xml:id="ep000479-e28000">Alex. takes the Cup, and bowes to the Altar. </stage>
-            <sp xml:id="ep000479-e28020">
+            <sp who="ep000479-alex" xml:id="ep000479-e28020">
               <speaker>Alex. </speaker>
               <l>Accept, great Ioves, the Son whom thou hast crown'd, </l>
               <l>Who was the first thy secret Temple found, </l>
@@ -2839,7 +2905,7 @@
               <l>And drink this Cup of Immortality, </l>
             </sp>
             <stage xml:id="ep000479-e28140">Whiles Alexander drinks, the Statue of <hi>Jupiter Hamon </hi>falls down, with thunder, and lightning and kills the <hi>Preists. Alex. </hi>lets fall the Bowl. </stage>
-            <sp xml:id="ep000479-e28180">
+            <sp who="ep000479-alex" xml:id="ep000479-e28180">
               <speaker>Alex. </speaker>
               <l>Ye. Gods what's wanting in such vowes as these, </l>
               <l>That can the soul of Iupiter displease? </l>
@@ -2848,7 +2914,7 @@
               <l>But I'le through fate this dreadful Riddle find. </l>
               <l>And know why Iove can be to me unkind. </l>
             </sp>
-            <sp xml:id="ep000479-e28280">
+            <sp who="ep000479-cass" xml:id="ep000479-e28280">
               <speaker>Cass. </speaker>
               <l>We are betrai'd by these base Prodigies, </l>
               <l>The Language of the tell-tale Deities; </l>
@@ -2858,7 +2924,7 @@
               <l>I charge ethee stay me not— </l>
             </sp>
             <stage xml:id="ep000479-e28370">[exit, Phillip offers to hold him. </stage>
-            <sp xml:id="ep000479-e28390">
+            <sp who="ep000479-eph" xml:id="ep000479-e28390">
               <speaker>Eph. </speaker>
               <l>Ah Sir, retire from this most horrid sight; </l>
               <l>I wish you had not sacrific'd to night: </l>
@@ -2871,7 +2937,7 @@
               <l>The Charriot gone that fill'd the place so bright, </l>
               <l>I felt no Ground and Ink in Darkness quite. </l>
             </sp>
-            <sp xml:id="ep000479-e28510">
+            <sp who="ep000479-alex" xml:id="ep000479-e28510">
               <pb n="40" xml:id="ep000479-026-a"/>
               <speaker>Alex. </speaker>
               <l>Let not such fears thy gentle thoughts divide; </l>
@@ -2885,14 +2951,14 @@
               <l>Mine and Ephestions marriage to behold, </l>
               <l>Then in this place the solemn Rites we'l hold. </l>
             </sp>
-            <sp xml:id="ep000479-e28650">
+            <sp who="ep000479-oroo" xml:id="ep000479-e28650">
               <speaker>Oroo. </speaker>
               <l>That sight wou'd cancel all that's due from me, </l>
               <l>And from this gen'rous Act wou'd set me free, </l>
               <l>When you take back the life that you did give, </l>
               <l>And in ten thousand Deaths wou'd make me live, </l>
             </sp>
-            <sp xml:id="ep000479-e28710">
+            <sp who="ep000479-alex" xml:id="ep000479-e28710">
               <speaker>Alex. </speaker>
               <l>Then your own time for your departure take; </l>
               <l>All shall be granted for Statira's sake; </l>
@@ -2900,16 +2966,16 @@
               <l>But henceforth, as a Star, above thy Sphere, </l>
               <l>Where she shall raign the Queen of all the world. </l>
             </sp>
-            <sp xml:id="ep000479-e28790">
+            <sp who="ep000479-oroo" xml:id="ep000479-e28790">
               <speaker>Oroo. </speaker>
               <l>First let my Soul be to the Furies hurld. </l>
             </sp>
-            <sp xml:id="ep000479-e28820">
+            <sp who="ep000479-lys" xml:id="ep000479-e28820">
               <speaker>Lys. </speaker>
               <l>Still in this Circle doest thou safe remain. </l>
             </sp>
             <stage xml:id="ep000479-e28850">to Ephession. [Exeunt Alexander leading <hi>Statira, Ephestion </hi>and Lysimachus striving both to lead Parisatis. Manent <hi>Oroondates, Araxis</hi>, and Scythian Ambassadours. </stage>
-            <sp xml:id="ep000479-e28920">
+            <sp who="ep000479-oroo" xml:id="ep000479-e28920">
               <speaker>Oroo: </speaker>
               <l>She's gone for ever, all my hopes are vain; </l>
               <l>I'me backwards dash'd upon the Sea again; </l>
@@ -2919,12 +2985,12 @@
               <l>Prepares his feet in hopes to touch the Ground, </l>
               <l>But finding none he straight is sunk, and drown'd. </l>
             </sp>
-            <sp xml:id="ep000479-e29010">
+            <sp who="ep000479-ara" xml:id="ep000479-e29010">
               <speaker>Ara. </speaker>
               <l>T'were fit you talk'd of some thing that procures </l>
               <l>A grateful peace with your Ambassadours. </l>
             </sp>
-            <sp xml:id="ep000479-e29050">
+            <sp who="ep000479-oroo" xml:id="ep000479-e29050">
               <speaker>Oroo. </speaker>
               <l>These are the furies of the peoples Brain, </l>
               <l>That dare to sit upon a Monarchs raign; </l>
@@ -2935,7 +3001,7 @@
               <l>On those above 'em look with Envies stings, </l>
               <l>And mad because they cannot all be Kings: </l>
             </sp>
-            <sp xml:id="ep000479-e29160">
+            <sp who="ep000479-ara" xml:id="ep000479-e29160">
               <speaker>Ara. </speaker>
               <l>At Kings they let their gorged stomachs fly, </l>
               <l>Belching out treason, sprung from Luxury, </l>
@@ -2943,7 +3009,7 @@
               <l>As base Astronomers look up and prey </l>
               <l>Into the Glorious Planets of the sky. </l>
             </sp>
-            <sp xml:id="ep000479-e29230">
+            <sp who="ep000479-oroo" xml:id="ep000479-e29230">
               <speaker>Oroo. </speaker>
               <l>Mercy the curse of Monarchs in this age, </l>
               <pb n="41" xml:id="ep000479-026-b"/>
@@ -2952,11 +3018,11 @@
               <l>And fright the Souls out of this Coward Herd, </l>
               <l>And make them put their Necks into their Yoaks— </l>
             </sp>
-            <sp xml:id="ep000479-e29300">
+            <sp who="ep000479-amb" xml:id="ep000479-e29300">
               <speaker>Amb. </speaker>
               <l>Great Prince— </l>
             </sp>
-            <sp xml:id="ep000479-e29330">
+            <sp who="ep000479-oroo" xml:id="ep000479-e29330">
               <speaker>Oroo. </speaker>
               <l>Be gone— You shall have your reward— </l>
               <l>You thought me dead, or els from pow'r debar'd;— </l>
@@ -2964,13 +3030,13 @@
               <l>With that reward you shall your Masters greet. </l>
             </sp>
             <stage xml:id="ep000479-e29390">[Exeunt Amb. bowing </stage>
-            <sp xml:id="ep000479-e29410">
+            <sp who="ep000479-ara" xml:id="ep000479-e29410">
               <speaker>Ara. </speaker>
               <l>What shall we do Sir? shall we go or sta </l>
               <l>To morrow is the great, and fatal day, </l>
               <l>That takes your Love, more than your life away </l>
             </sp>
-            <sp xml:id="ep000479-e29460">
+            <sp who="ep000479-oroo" xml:id="ep000479-e29460">
               <speaker>Oroo. </speaker>
               <l>I'le stay, and dare the worst till it be past, </l>
               <l>Till Love in spite has thrown his utmost cast; </l>
@@ -2984,17 +3050,17 @@
               <l>Through all Loves Charms that fence his heart about. </l>
             </sp>
             <stage xml:id="ep000479-e29580">Reenter to them Lysimachus. </stage>
-            <sp xml:id="ep000479-e29600">
+            <sp who="ep000479-lys" xml:id="ep000479-e29600">
               <speaker>Lys. </speaker>
               <l>When shall this breast be free from Jealous pain? </l>
               <l>Ye Gods! Am I prevented once again? </l>
             </sp>
-            <sp xml:id="ep000479-e29640">
+            <sp who="ep000479-oroo" xml:id="ep000479-e29640">
               <speaker>Oroo. </speaker>
               <l>My Eyes deceive me, if it be not true, </l>
               <l>You are Lysimachus, to whom all worth is due. </l>
             </sp>
-            <sp xml:id="ep000479-e29690">
+            <sp who="ep000479-lys" xml:id="ep000479-e29690">
               <speaker>Lys. </speaker>
               <l>The brave, and valiant Oroondates you, </l>
               <l>Whose mighty mind above the fates aspire; </l>
@@ -3002,12 +3068,12 @@
               <l>The greatest Lover, and the bravest Man, </l>
               <l>That dare doe more than Alexander can. </l>
             </sp>
-            <sp xml:id="ep000479-e29780">
+            <sp who="ep000479-oroo" xml:id="ep000479-e29780">
               <speaker>Oroo. </speaker>
               <l>You make me blush at what I can't deserve; </l>
               <l>Such praise my modesty must not observe. </l>
             </sp>
-            <sp xml:id="ep000479-e29820">
+            <sp who="ep000479-lys" xml:id="ep000479-e29820">
               <speaker>Lys. </speaker>
               <l>Cease Oroondates; mark the threatning shower </l>
               <l>That hangs o're us— To morrow brings the hour, </l>
@@ -3027,16 +3093,16 @@
               <stage xml:id="ep000479-e30040">Reenter to them Ephestion. </stage>
               <l>Look where this lov'd Ephestion does appear. </l>
             </sp>
-            <sp xml:id="ep000479-e30080">
+            <sp who="ep000479-oroo" xml:id="ep000479-e30080">
               <speaker>Oroo. </speaker>
               <l>Let him not see that we are talking here. </l>
             </sp>
-            <sp xml:id="ep000479-e30110">
+            <sp who="ep000479-lys" xml:id="ep000479-e30110">
               <speaker>Lys. </speaker>
               <l>This moment is an Age while you retire. </l>
             </sp>
             <stage xml:id="ep000479-e30140">Exeunt Oroondates, and Araxis. </stage>
-            <sp xml:id="ep000479-e30170">
+            <sp who="ep000479-eph" xml:id="ep000479-e30170">
               <speaker>Eph. </speaker>
               <l>Lysimachus, I come at your desire; </l>
               <l>I read your looks and understand your sign, </l>
@@ -3044,12 +3110,12 @@
               <l>Though you have call'd me from my only bliss, </l>
               <l>And greatest pleasure that on Earth there is. </l>
             </sp>
-            <sp xml:id="ep000479-e30250">
+            <sp who="ep000479-lys" xml:id="ep000479-e30250">
               <speaker>Lys. </speaker>
               <l>For all that I can say, it is decreed, </l>
               <l>That you'l run on, and Love with fatal speed. </l>
             </sp>
-            <sp xml:id="ep000479-e30290">
+            <sp who="ep000479-eph" xml:id="ep000479-e30290">
               <speaker>Eph. </speaker>
               <l>To morrow e're the Sun forsake the Morne, </l>
               <l>A bride shall be by Parisatis worne, </l>
@@ -3058,43 +3124,43 @@
               <l>And fill the Temple with delights above, </l>
               <l>To usher Alexander's, and Ephestion's Love. </l>
             </sp>
-            <sp xml:id="ep000479-e30400">
+            <sp who="ep000479-lys" xml:id="ep000479-e30400">
               <speaker>Lys. </speaker>
               <l>Tw'ere fit before, that you your self went there, </l>
               <l>And did in time this Heav'nly Masque prepare; </l>
               <l>'Twill ease the Gods of an important care </l>
               <l>Darest thou defend thy false, and treacherous flame? </l>
             </sp>
-            <sp xml:id="ep000479-e30460">
+            <sp who="ep000479-eph" xml:id="ep000479-e30460">
               <speaker>Eph. </speaker>
               <l>Against the Starres in Parisatis name. </l>
             </sp>
-            <sp xml:id="ep000479-e30500">
+            <sp who="ep000479-lys" xml:id="ep000479-e30500">
               <speaker>Lys. </speaker>
               <l>Those Starres are angry, and, thy life conspire; </l>
               <l>Therefore desist, and from her Love retire: </l>
               <l>Feed not thy youth with such a vain design; </l>
               <l>For by the Gods, she never shall be thine. </l>
             </sp>
-            <sp xml:id="ep000479-e30560">
+            <sp who="ep000479-eph" xml:id="ep000479-e30560">
               <speaker>Eph. </speaker>
               <l>The Gods are pleas'd and will in time fulfill, </l>
               <l>What they'v decreed in Alexander's will; </l>
               <l>But you are Mad; I'le give you leave to talk. </l>
             </sp>
-            <sp xml:id="ep000479-e30620">
+            <sp who="ep000479-lys" xml:id="ep000479-e30620">
               <speaker>Lys. </speaker>
               <l>Follow me then into the Cyprus walk. </l>
             </sp>
-            <sp xml:id="ep000479-e30660">
+            <sp who="ep000479-eph" xml:id="ep000479-e30660">
               <speaker>Eph. </speaker>
               <l>Go on; I fear not all thy strength, and ods. </l>
             </sp>
-            <sp xml:id="ep000479-e30690">
+            <sp who="ep000479-lys" xml:id="ep000479-e30690">
               <speaker>Lys. </speaker>
               <l>Nor I, wert thou the Minion of the Gods. </l>
             </sp>
-            <sp xml:id="ep000479-e30720">
+            <sp who="ep000479-eph" xml:id="ep000479-e30720">
               <speaker>Eph. </speaker>
               <l>I follow thee— May Parisatis charmes </l>
               <l>Crown but my Love, as Love shall Crown my Arms. </l>
@@ -3108,7 +3174,7 @@
             <pb n="43" xml:id="ep000479-027-b"/>
             <head>Actus Quintus, Scaena Prima. </head>
             <stage xml:id="ep000479-e30830">Alexander <hi>discover'd in torment</hi>, Statira, Bagistanes, And Captains. </stage>
-            <sp xml:id="ep000479-e30860">
+            <sp who="ep000479-alex" xml:id="ep000479-e30860">
               <speaker>Alex. </speaker>
               <l>O There it went, and struck through ev'ry part; </l>
               <l>The hand that from my Bosom pul'd a Dart </l>
@@ -3123,24 +3189,24 @@
               <l>The world turnes guiddy and begins to reel, </l>
               <l>Leans on one side, and shewes its fatal keel </l>
             </sp>
-            <sp xml:id="ep000479-e31020">
+            <sp who="ep000479-sta" xml:id="ep000479-e31020">
               <speaker>Sta. </speaker>
               <l>Heav'n keep the thought of treason from your mind; </l>
               <l>The Gods be to your noble life more kind; </l>
               <l>I wish by Methres I had bin your wife, </l>
               <l>Rather than you shou'd think I hate your life. </l>
             </sp>
-            <sp xml:id="ep000479-e31090">
+            <sp who="ep000479-alex" xml:id="ep000479-e31090">
               <speaker>Alex. </speaker>
               <l>Far be my soul from such a thought possest, </l>
               <l>That Sin should dwell in your Illustrious breast. </l>
             </sp>
-            <sp xml:id="ep000479-e31130">
+            <sp who="ep000479-sta" xml:id="ep000479-e31130">
               <speaker>Sta. </speaker>
               <l>Ah may you find more worlds, and them subdue, </l>
               <l>If you can be so kind to think me true. </l>
             </sp>
-            <sp xml:id="ep000479-e31170">
+            <sp who="ep000479-alex" xml:id="ep000479-e31170">
               <speaker>Alex. </speaker>
               <l>Most generous Princess, by the Gods I do: </l>
               <l>All that besides a God can feel, I'le bear, </l>
@@ -3150,25 +3216,25 @@
               <l>I'de pull back life, and wou'd that strength recall, </l>
               <l>Which held the world, and on his head wou'd let it fall. </l>
             </sp>
-            <sp xml:id="ep000479-e31260">
+            <sp who="ep000479-bag" xml:id="ep000479-e31260">
               <speaker>Bag. </speaker>
               <l>Send for Physitians Sir, to give you ease, </l>
               <l>That will consult, and find out your disease. </l>
             </sp>
-            <sp xml:id="ep000479-e31310">
+            <sp who="ep000479-alex" xml:id="ep000479-e31310">
               <speaker>Alex. </speaker>
               <l>That were to storm my life with greater force; </l>
               <l>Physitians were invented for a Curse, </l>
               <l>To plague Mankind, and make diseases worse. </l>
             </sp>
-            <sp xml:id="ep000479-e31370">
+            <sp who="ep000479-phil" xml:id="ep000479-e31370">
               <speaker>Phil. </speaker>
               <l>Who knowes; but your distemper is the same, </l>
               <l>When after bathing in cold Cydims blood, </l>
               <l>No sooner you out of the water came, </l>
               <l>But such unusual paines did seise your Blood. </l>
             </sp>
-            <sp xml:id="ep000479-e31440">
+            <sp who="ep000479-alex" xml:id="ep000479-e31440">
               <speaker>Alex. </speaker>
               <l>●h there it hit me with a fatal blow; </l>
               <l>That when I'de hold of life, it made me bow, </l>
@@ -3184,21 +3250,21 @@
               <l>O save those tears you shed, each pretious drop, </l>
               <l>The wealth thereof a sinking State wou'd prop. </l>
             </sp>
-            <sp xml:id="ep000479-e31630">
+            <sp who="ep000479-sta" xml:id="ep000479-e31630">
               <speaker>Sta. </speaker>
               <l>Weak, and defenceless my poor grief appears; </l>
               <l>Cou'd I but with these Floods your paines disperse; </l>
               <l>I'de melt my heart, and weep it out in tears,— </l>
             </sp>
-            <sp xml:id="ep000479-e31680">
+            <sp who="ep000479-alex" xml:id="ep000479-e31680">
               <speaker>Alex. </speaker>
               <l>My dear Ephestion I shall never find! </l>
             </sp>
-            <sp xml:id="ep000479-e31720">
+            <sp who="ep000479-sta" xml:id="ep000479-e31720">
               <speaker>Sta. </speaker>
               <l>How fares that heart, the greatest of Mankind? </l>
             </sp>
-            <sp xml:id="ep000479-e31750">
+            <sp who="ep000479-alex" xml:id="ep000479-e31750">
               <speaker>Alex. </speaker>
               <l>As he whose spirit does contemn his fate, </l>
               <l>Bearing a heavy burthen on his Back, </l>
@@ -3211,12 +3277,12 @@
               <l>That you behold so glorious, and so high, </l>
               <l>Drops on a sudain from your wondering Eye. </l>
             </sp>
-            <sp xml:id="ep000479-e31870">
+            <sp who="ep000479-sta" xml:id="ep000479-e31870">
               <speaker>Sta. </speaker>
               <l>Oh say not so, unless you take me too, </l>
               <l>Or stay you here and let me dy for you. </l>
             </sp>
-            <sp xml:id="ep000479-e31910">
+            <sp who="ep000479-alex" xml:id="ep000479-e31910">
               <speaker>Alex. </speaker>
               <l>I will not dy: You'l see that I can rise, </l>
               <l>Blest by your hand, and guided by your Eyes— </l>
@@ -3226,7 +3292,7 @@
               <l>Let loose the old and hunt it o're again. </l>
             </sp>
             <stage xml:id="ep000479-e32010">Enter to them Ephestion wounded, led in by Parisatis, and <hi>a Captain. Ephestion </hi>and Parisatis sit down on one side of Alexander, and Statira on the other </stage>
-            <sp xml:id="ep000479-e32080">
+            <sp who="ep000479-eph" xml:id="ep000479-e32080">
               <speaker>Eph. </speaker>
               <l>O bear me quickly; do not let me stay— </l>
               <l>But if you stir you take my life away. </l>
@@ -3237,7 +3303,7 @@
               <l>What ails the joy of Men, and Gods above? </l>
               <l>Speak dearest of my heart, dearer than Love. </l>
             </sp>
-            <sp xml:id="ep000479-e32220">
+            <sp who="ep000479-alex" xml:id="ep000479-e32220">
               <speaker>Alex. </speaker>
               <l>He's faint, and pale, and his poor heart does bleed— </l>
               <l>It streames— O Gods! Who did this bloody deed? </l>
@@ -3252,14 +3318,14 @@
               <l>Cassander, and my Bands of Macedon, </l>
               <l>I'le fetch my self, and kill 'em ev'ry one. </l>
             </sp>
-            <sp xml:id="ep000479-e32390">
+            <sp who="ep000479-eph" xml:id="ep000479-e32390">
               <speaker>Eph. </speaker>
               <l>Ah sit you still, and rest this Noble heart; </l>
               <l>You than my wounds do give a greater smart. </l>
               <l>Lysimachus I urg'd this wound to make, </l>
               <l>And we both fought for Parisatis sake. </l>
             </sp>
-            <sp xml:id="ep000479-e32470">
+            <sp who="ep000479-alex" xml:id="ep000479-e32470">
               <speaker>Alex. </speaker>
               <l>Lives'e ye Gods? Go fetch him instantly; </l>
               <l>Let me the pleasure have to see him dy, </l>
@@ -3270,7 +3336,7 @@
               <l>I'le live to have you all condemn'd and slain, </l>
               <l>If they will grant Ephestion's health again. </l>
             </sp>
-            <sp xml:id="ep000479-e32580">
+            <sp who="ep000479-eph" xml:id="ep000479-e32580">
               <speaker>Eph. </speaker>
               <l>Ah mind not mine, whiles you neglect your own; </l>
               <l>Long may you live, and Guide us like the Sun, </l>
@@ -3284,22 +3350,22 @@
               <l>The Gods should not have forc'd me from that place </l>
               <l>Had I been there— </l>
             </sp>
-            <sp xml:id="ep000479-e32720">
+            <sp who="ep000479-par" xml:id="ep000479-e32720">
               <speaker>Par. </speaker>
               <l>I'le pull him from my Breast,— </l>
               <l>And you shall dwell my soul's Eternal Guest. </l>
             </sp>
-            <sp xml:id="ep000479-e32760">
+            <sp who="ep000479-alex" xml:id="ep000479-e32760">
               <speaker>Alex. </speaker>
               <l>Statira! Oh Ephestion, how I burn! </l>
             </sp>
-            <sp xml:id="ep000479-e32810">
+            <sp who="ep000479-sta" xml:id="ep000479-e32810">
               <speaker>Sta. </speaker>
               <l>Ye Gods! Now all my griefes again return! </l>
               <l>I did not think there cou'd be yet a cross, </l>
               <l>That I cou'd mourn after Darius loss. </l>
             </sp>
-            <sp xml:id="ep000479-e32870">
+            <sp who="ep000479-eph" xml:id="ep000479-e32870">
               <speaker>Eph. </speaker>
               <l>Ah Parisatis!— </l>
               <l>It is in vain, the pity you impart; </l>
@@ -3320,7 +3386,7 @@
               <l>I wish ye Gods, 'twere Nectar to his smart. </l>
             </sp>
             <stage xml:id="ep000479-e33060">[fainting </stage>
-            <sp xml:id="ep000479-e33070">
+            <sp who="ep000479-alex" xml:id="ep000479-e33070">
               <speaker>Alex. </speaker>
               <l>He's gone— ●ee too the furious and rebellious Sun, </l>
               <l>Slave to the many Battails I have won, </l>
@@ -3334,7 +3400,7 @@
               <l>See Madam, see, above the blew pav'd sky, </l>
               <l>Do you not see my dear Ephestion fly? </l>
             </sp>
-            <sp xml:id="ep000479-e33220">
+            <sp who="ep000479-eph" xml:id="ep000479-e33220">
               <speaker>Eph. </speaker>
               <l>Lo dearest Son of Phillip, here am I: </l>
               <l>I'le rob once more this treasure of my health. </l>
@@ -3349,12 +3415,12 @@
               <l>Revive that heart, that does Ephestion Love; </l>
               <l>See I can never from this Center move. </l>
             </sp>
-            <sp xml:id="ep000479-e33410">
+            <sp who="ep000479-alex" xml:id="ep000479-e33410">
               <speaker>Alex. </speaker>
               <l>Ah my Ephestion, art thou yet alive! </l>
               <l>What sawcy Spirit told me thou wert dead? </l>
             </sp>
-            <sp xml:id="ep000479-e33460">
+            <sp who="ep000479-eph" xml:id="ep000479-e33460">
               <speaker>Eph. </speaker>
               <l>I will not dye if thou wilt cease to grieve, </l>
               <l>But live to see more Crowns adorn your head: </l>
@@ -3362,7 +3428,7 @@
               <l>That did the God-like Alexander harm. </l>
               <l>How fares my heart? How favours i'ts disease? </l>
             </sp>
-            <sp xml:id="ep000479-e33540">
+            <sp who="ep000479-alex" xml:id="ep000479-e33540">
               <speaker>Alex. </speaker>
               <l>Believe me Boy that I am all o're ease; </l>
               <l>The thoughts of this does ev'en deaths horrour please. </l>
@@ -3373,7 +3439,7 @@
               <l>Or who for these fair Queens, Darius loss regain? </l>
             </sp>
             <stage xml:id="ep000479-e33650">Enter to them Lysimachus threatning the Guards, who keep off. </stage>
-            <sp xml:id="ep000479-e33670">
+            <sp who="ep000479-lys" xml:id="ep000479-e33670">
               <speaker>Lys. </speaker>
               <l>Be gone— Who does not instantly depart, </l>
               <l>By all the Gods, this dagger's in his heart. </l>
@@ -3388,30 +3454,30 @@
               <l>I beg that I may suffer for the deed. </l>
             </sp>
             <stage xml:id="ep000479-e33800">[Lys. kneels </stage>
-            <sp xml:id="ep000479-e33820">
+            <sp who="ep000479-par" xml:id="ep000479-e33820">
               <speaker>Par. </speaker>
               <l>Thou mighty soul, look with a gracious Eye; </l>
               <stage xml:id="ep000479-e33850">[Sta. and Par. kneels </stage>
               <l>Ah pardon him, and be a God more high,— </l>
               <l>See who 'tis kneels, Statira 'tis and I. </l>
             </sp>
-            <sp xml:id="ep000479-e33910">
+            <sp who="ep000479-sta" xml:id="ep000479-e33910">
               <speaker>Sta. </speaker>
               <l>Breath life, thou great, and only God-like man. </l>
             </sp>
-            <sp xml:id="ep000479-e33940">
+            <sp who="ep000479-alex" xml:id="ep000479-e33940">
               <speaker>Alex. </speaker>
               <l>Spare him that style, who nothing does nor can. </l>
               <l>My mind indeed, that struggles with my fate, </l>
               <l>But holds my shatter'd purposes too late, </l>
               <l>Shews I am Alexander yet, but no more great. </l>
             </sp>
-            <sp xml:id="ep000479-e34010">
+            <sp who="ep000479-eph" xml:id="ep000479-e34010">
               <speaker>Eph. </speaker>
               <l>By all the dearest Love that dwelt in us, </l>
               <l>Forgive, forgive the brave Lysimachus. </l>
             </sp>
-            <sp xml:id="ep000479-e34060">
+            <sp who="ep000479-alex" xml:id="ep000479-e34060">
               <speaker>Alex. </speaker>
               <l>And doest thou beg his fatal lifes reprieve.— </l>
               <stage xml:id="ep000479-e34090">
@@ -3420,7 +3486,7 @@
             </sp>
             <stage xml:id="ep000479-e34130">
               <hi>[to </hi>Lys. </stage>
-            <sp xml:id="ep000479-e34150">
+            <sp who="ep000479-lys" xml:id="ep000479-e34150">
               <speaker>Lys. </speaker>
               <l>Still I am curst and have no right to breath, </l>
               <l>Nor wish to live till you are free from death; </l>
@@ -3429,22 +3495,22 @@
               <l>To see thee drop down from us like a falling Star. </l>
             </sp>
             <stage xml:id="ep000479-e34220">Enter to them Cassander supported by two of the Guards. </stage>
-            <sp xml:id="ep000479-e34240">
+            <sp who="ep000479-cass" xml:id="ep000479-e34240">
               <speaker>Cass, </speaker>
               <l>Quick, quickly bear me e're— </l>
               <l>I sink into the Concaves of the Earth. </l>
             </sp>
-            <sp xml:id="ep000479-e34280">
+            <sp who="ep000479-eph" xml:id="ep000479-e34280">
               <speaker>Eph. </speaker>
               <l>What horrid scene of death is this? What birth </l>
               <l>Has the base world in this one day of fate brought forth? </l>
             </sp>
-            <sp xml:id="ep000479-e34320">
+            <sp who="ep000479-alex" xml:id="ep000479-e34320">
               <speaker>Alex. </speaker>
               <l>Thou look'st as if this Tale thou woud'st unfold, </l>
               <l>Be breif Cassander, thou wert ever bold. </l>
             </sp>
-            <sp xml:id="ep000479-e34370">
+            <sp who="ep000479-cass" xml:id="ep000479-e34370">
               <speaker>Cass. </speaker>
               <l>I by the fury of thy fate am hurl'd, </l>
               <l>And sent to fetch thee to another world. </l>
@@ -3456,23 +3522,23 @@
               <l>By Iove, great Alexander thou art slain; </l>
               <l>Thou canst not live an hour— </l>
             </sp>
-            <sp xml:id="ep000479-e34500">
+            <sp who="ep000479-eph" xml:id="ep000479-e34500">
               <speaker>Eph. </speaker>
               <l>Forbid O heaven!— </l>
             </sp>
-            <sp xml:id="ep000479-e34530">
+            <sp who="ep000479-sta" xml:id="ep000479-e34530">
               <speaker>Sta. </speaker>
               <l>And the all mighty Sun.— </l>
             </sp>
-            <sp xml:id="ep000479-e34560">
+            <sp who="ep000479-eph" xml:id="ep000479-e34560">
               <speaker>Eph. </speaker>
               <l>Unsay what thou hast said.— </l>
             </sp>
-            <sp xml:id="ep000479-e34590">
+            <sp who="ep000479-alex" xml:id="ep000479-e34590">
               <speaker>Alex. </speaker>
               <l>Let him go on.— </l>
             </sp>
-            <sp xml:id="ep000479-e34620">
+            <sp who="ep000479-cass" xml:id="ep000479-e34620">
               <speaker>Cass. </speaker>
               <l>Hadst thou a thousand lives to guard thy soul, </l>
               <pb n="48" xml:id="ep000479-030-a"/>
@@ -3482,15 +3548,15 @@
               <l>Much for the world, but more for Macedon, </l>
               <l>For Clytus, brave Parmenio, and his Son. </l>
             </sp>
-            <sp xml:id="ep000479-e34740">
+            <sp who="ep000479-eph" xml:id="ep000479-e34740">
               <speaker>Eph. </speaker>
               <l>Where was this treason damn'd in Hell begot? </l>
             </sp>
-            <sp xml:id="ep000479-e34770">
+            <sp who="ep000479-alex" xml:id="ep000479-e34770">
               <speaker>Alex. </speaker>
               <l>Live, and discover who was in the plot. </l>
             </sp>
-            <sp xml:id="ep000479-e34800">
+            <sp who="ep000479-cass" xml:id="ep000479-e34800">
               <speaker>Cass. </speaker>
               <l>Tis he whose name shall never be forgot, </l>
               <l>But live, when by this deed his does expire </l>
@@ -3510,16 +3576,16 @@
               <l>Led by a whore, to gratifie thy lust, </l>
               <l>Didst turn the fam'd Persepolis to dust. </l>
             </sp>
-            <sp xml:id="ep000479-e35030">
+            <sp who="ep000479-lys" xml:id="ep000479-e35030">
               <speaker>Lys. </speaker>
               <l>Ah let me send him to eternall night. </l>
             </sp>
-            <sp xml:id="ep000479-e35060">
+            <sp who="ep000479-alex" xml:id="ep000479-e35060">
               <speaker>Alex. </speaker>
               <l>Still let him rail; I'le hear him with delight, </l>
               <l>And dare death, and the villaines utmost spite. </l>
             </sp>
-            <sp xml:id="ep000479-e35100">
+            <sp who="ep000479-cass" xml:id="ep000479-e35100">
               <speaker>Cass. </speaker>
               <l>Thou like a Plague wert through all Nations sent, </l>
               <l>Till the kind Gods in pity now relent, </l>
@@ -3531,7 +3597,7 @@
               <l>And this cou'd never be too dearly bought, </l>
               <l>Therefore my self has pledg'd thee in a larger draught. </l>
             </sp>
-            <sp xml:id="ep000479-e35210">
+            <sp who="ep000479-alex" xml:id="ep000479-e35210">
               <speaker>Alex. </speaker>
               <l>Base dog, thou in thy latest breath doest ly; </l>
               <l>I scorn to dy the death that you shalt dy.— </l>
@@ -3541,26 +3607,26 @@
               <l>An Age, till I from heav'n descend, and tell, </l>
               <l>What new found plagues shall scourge his soul in Hell. </l>
             </sp>
-            <sp xml:id="ep000479-e35300">
+            <sp who="ep000479-eph" xml:id="ep000479-e35300">
               <speaker>Eph. </speaker>
               <l>Ah where's the place from whence our soules do meet, </l>
               <l>I'le suck the poyson out, and call it sweet. </l>
             </sp>
             <stage xml:id="ep000479-e35340">[Whiles the Guards offer to seize Cass. he makes a motion to stab himself. </stage>
-            <sp xml:id="ep000479-e35360">
+            <sp who="ep000479-cass" xml:id="ep000479-e35360">
               <pb n="49" xml:id="ep000479-030-b"/>
               <speaker>Cass. </speaker>
               <l>It is in vain; for though my life be short, </l>
               <l>I'le hasten it, and o'pe another port. </l>
             </sp>
-            <sp xml:id="ep000479-e35400">
+            <sp who="ep000479-alex" xml:id="ep000479-e35400">
               <speaker>Alex. </speaker>
               <l>Guid my remaining strength, this darted Rod— </l>
               <l>Thus aim'd I, and thus struck I like a God, </l>
             </sp>
             <stage xml:id="ep000479-e35440">
               <hi>[Alex. </hi>throwes a dart, and kills Cassander. </stage>
-            <sp xml:id="ep000479-e35470">
+            <sp who="ep000479-cass" xml:id="ep000479-e35470">
               <speaker>Cass. </speaker>
               <l>Thou hast but spurr'd my life that else was free; </l>
               <l>This is the only stroak I car'd to see, </l>
@@ -3569,12 +3635,12 @@
               <l>For Alexander, and his fate are come. </l>
             </sp>
             <stage xml:id="ep000479-e35550">[Cassander dyes. </stage>
-            <sp xml:id="ep000479-e35570">
+            <sp who="ep000479-eph" xml:id="ep000479-e35570">
               <speaker>Eph. </speaker>
               <l>How clouded o're with guilt his soul does stye, </l>
               <l>Like gloomy night, and darkens all the sky </l>
             </sp>
-            <sp xml:id="ep000479-e35610">
+            <sp who="ep000479-alex" xml:id="ep000479-e35610">
               <speaker>Alex. </speaker>
               <l>The Villain has said true; I must depart. </l>
               <l>I sensibly perceive the poys'nous smart </l>
@@ -3582,7 +3648,7 @@
               <l>The cursed Juice will not it self confine, </l>
               <l>But in a moment more will break the mine. </l>
             </sp>
-            <sp xml:id="ep000479-e35680">
+            <sp who="ep000479-eph" xml:id="ep000479-e35680">
               <speaker>Eph. </speaker>
               <l>Your words like death through all my veins disperse; </l>
               <l>You kill me quite at what you do rehearse. </l>
@@ -3596,7 +3662,7 @@
               <l>Leave, let me go— To stay this threatning harm, </l>
               <l>And save the widow'd world, the Gods will arm. </l>
             </sp>
-            <sp xml:id="ep000479-e35820">
+            <sp who="ep000479-alex" xml:id="ep000479-e35820">
               <speaker>Alex. </speaker>
               <l>Ah spare more words, that speed thy parting breath; </l>
               <l>Thy Love augments the danger of thy death: </l>
@@ -3604,7 +3670,7 @@
               <l>Fate cannot either of our soules divide; </l>
               <l>Our lives together in one chain are ty'd. </l>
             </sp>
-            <sp xml:id="ep000479-e35900">
+            <sp who="ep000479-eph" xml:id="ep000479-e35900">
               <speaker>Eph. </speaker>
               <l>I will, I will, ev'n my last look afford; </l>
               <l>As long as I can live, I'le keep my word; </l>
@@ -3615,11 +3681,11 @@
               <l>The dark, and secret book of Fate I'le read, </l>
               <l>And know what of the world's great King's decreed. </l>
             </sp>
-            <sp xml:id="ep000479-e36000">
+            <sp who="ep000479-alex" xml:id="ep000479-e36000">
               <speaker>Alex. </speaker>
               <l>Now I begin to surfeit with the drink. </l>
             </sp>
-            <sp xml:id="ep000479-e36030">
+            <sp who="ep000479-eph" xml:id="ep000479-e36030">
               <speaker>Eph. </speaker>
               <l>Is there no aid? O speak, oh do, O think.— </l>
               <l>Chill death shall quickly freeze up all my veines, </l>
@@ -3632,7 +3698,7 @@
             </sp>
             <stage xml:id="ep000479-e36130">
               <hi>[Eph. </hi>begins to faint </stage>
-            <sp xml:id="ep000479-e36150">
+            <sp who="ep000479-alex" xml:id="ep000479-e36150">
               <speaker>Alex. </speaker>
               <l>Stay pretious Boy, another look restore; </l>
               <l>Spare but my happiness on moment more— </l>
@@ -3643,14 +3709,14 @@
               <l>I am not sick, my senses all are free, </l>
               <l>And feel no burning, but with Love of thee. </l>
             </sp>
-            <sp xml:id="ep000479-e36250">
+            <sp who="ep000479-eph" xml:id="ep000479-e36250">
               <speaker>Eph. </speaker>
               <l>Ah let me go before it be too late </l>
               <l>For heaven to punish thy unlucky fate— </l>
               <l>Happy Lysmachus, my Rival bee, </l>
               <l>In her, but him you must not envy me, </l>
             </sp>
-            <sp xml:id="ep000479-e36320">
+            <sp who="ep000479-alex" xml:id="ep000479-e36320">
               <speaker>Alex. </speaker>
               <l>A thousand Adders bask within my skul, </l>
               <l>With heat ingender, all my Braines are full— </l>
@@ -3659,12 +3725,12 @@
               <l>How I cou'd plunge, till I did melt it down, </l>
               <l>And make more havock than the scorching Sun. </l>
             </sp>
-            <sp xml:id="ep000479-e36410">
+            <sp who="ep000479-sta" xml:id="ep000479-e36410">
               <speaker>Sta. </speaker>
               <l>Ah say y'are well or make him so believe. </l>
               <l>For 'tis in search of you his senses grieve. </l>
             </sp>
-            <sp xml:id="ep000479-e36450">
+            <sp who="ep000479-alex" xml:id="ep000479-e36450">
               <speaker>Alex. </speaker>
               <l>See, see the Battailes Joyn— Beat, beat the Drumes, </l>
               <l>Bucephaelus inrag'd he champs and foames; </l>
@@ -3676,17 +3742,17 @@
               <l>Heark how they shout, and clap their hands for joy, </l>
               <l>The Gods have ravish'd my beloved Boy! </l>
             </sp>
-            <sp xml:id="ep000479-e36600">
+            <sp who="ep000479-eph" xml:id="ep000479-e36600">
               <speaker>Eph. </speaker>
               <l>Look dearest Alexander, yet I live— </l>
               <l>This is a greater stroak than death can give. </l>
             </sp>
-            <sp xml:id="ep000479-e36650">
+            <sp who="ep000479-lys" xml:id="ep000479-e36650">
               <speaker>Lys. </speaker>
               <l>Ah Royal Sir, stay till you have decreed, </l>
               <l>Who o're the mighty world shall you succeed. </l>
             </sp>
-            <sp xml:id="ep000479-e36690">
+            <sp who="ep000479-alex" xml:id="ep000479-e36690">
               <speaker>Alex. </speaker>
               <l>A deadly frost hath peirc'd my senses through; </l>
               <l>O! I am fall'n int'an Abysse of snow </l>
@@ -3699,7 +3765,7 @@
               <l>Be you of all your fathers Crownes possest, </l>
               <l>And be you too with Oroondates blest.— </l>
             </sp>
-            <sp xml:id="ep000479-e36840">
+            <sp who="ep000479-sta" xml:id="ep000479-e36840">
               <pb n="51" xml:id="ep000479-031-b"/>
               <speaker>Sta. </speaker>
               <l>Ah hold, with kindness now you wound me more, </l>
@@ -3707,21 +3773,21 @@
               <l>Witness ye Gods, to whom my soul is known, </l>
               <l>With how much sorrow I embrace my own. </l>
             </sp>
-            <sp xml:id="ep000479-e36900">
+            <sp who="ep000479-eph" xml:id="ep000479-e36900">
               <speaker>Eph. </speaker>
               <l>Now ends his roughness in a calm delight; </l>
               <l>As westerne windes are often laid at night: </l>
               <l>Thus silent falls the sweetest of mankind, </l>
               <l>Softer than blossomes carried by the wind! </l>
             </sp>
-            <sp xml:id="ep000479-e36960">
+            <sp who="ep000479-alex" xml:id="ep000479-e36960">
               <speaker>Alex. </speaker>
               <l>Now let us mount, and then for ever joyn, </l>
               <l>Like two twin-starres, that do together shine, </l>
               <l>Still guiding o're the world our heav'nly parts; </l>
               <l>Whilest I rule Monarchs, thou shalt govern hearts. </l>
             </sp>
-            <sp xml:id="ep000479-e37020">
+            <sp who="ep000479-eph" xml:id="ep000479-e37020">
               <speaker>Eph. </speaker>
               <l>Come Alexander then, if we must go, </l>
               <l>Let's Raign above, and make a glorious show. </l>
@@ -3732,7 +3798,7 @@
               <l>Whiles guarded so, by friendship, and by Love, </l>
               <l>We go prepar'd to meet the joyes above. </l>
             </sp>
-            <sp xml:id="ep000479-e37150">
+            <sp who="ep000479-alex" xml:id="ep000479-e37150">
               <speaker>Alex. </speaker>
               <l>Why wilt thou dy? with thee's all sweetness gone; </l>
               <l>More rare than Persia offers to i'ts Sun </l>
@@ -3740,13 +3806,13 @@
               <l>Or Phoenix burning it ' its spicey nest, </l>
               <l>Breath not so sweet anodour, as thy Breast. </l>
             </sp>
-            <sp xml:id="ep000479-e37240">
+            <sp who="ep000479-eph" xml:id="ep000479-e37240">
               <speaker>Eph. </speaker>
               <l>Now, now my spirit 'fore my Ey-sight sweepes— </l>
               <l>Let us begin our Journy on our Lipps. </l>
             </sp>
             <stage xml:id="ep000479-e37280">[they kisse. </stage>
-            <sp xml:id="ep000479-e37290">
+            <sp who="ep000479-alex" xml:id="ep000479-e37290">
               <speaker>Alex. </speaker>
               <l>This kisse in which thy latest Breath does fleet, </l>
               <l>No dew that falls from heav'n is half so sweet— </l>
@@ -3755,47 +3821,47 @@
               <l>Now, now I have thee just before my Ey;— </l>
               <l>Ephestion, now— </l>
             </sp>
-            <sp xml:id="ep000479-e37370">
+            <sp who="ep000479-eph" xml:id="ep000479-e37370">
               <speaker>Eph. </speaker>
               <l>Now let's together fly— </l>
             </sp>
             <stage xml:id="ep000479-e37400">[both dy </stage>
-            <sp xml:id="ep000479-e37410">
+            <sp who="ep000479-phil" xml:id="ep000479-e37410">
               <speaker>Phil. </speaker>
               <l>Now I am sure that the great deed is done, </l>
               <l>I'l haste and tell the news in Macedon. </l>
               <stage xml:id="ep000479-e37460">[exit </stage>
             </sp>
-            <sp xml:id="ep000479-e37470">
+            <sp who="ep000479-par" xml:id="ep000479-e37470">
               <speaker>Par. </speaker>
               <l>He's gone— </l>
             </sp>
-            <sp xml:id="ep000479-e37500">
+            <sp who="ep000479-sta" xml:id="ep000479-e37500">
               <speaker>Sta. </speaker>
               <l>He's gone, the life-spring of as all— </l>
               <l>A heav'nly Legion waits his soul in view. </l>
               <l>What miseries shall all mankind befall! </l>
             </sp>
-            <sp xml:id="ep000479-e37550">
+            <sp who="ep000479-lys" xml:id="ep000479-e37550">
               <speaker>Lys. </speaker>
               <l>Nature shou'd melt it self into a dew, </l>
               <l>And the whole world into disorder fall. </l>
               <l>And mourn in Chaos at thy funeral. </l>
             </sp>
-            <sp xml:id="ep000479-e37600">
+            <sp who="ep000479-stat" xml:id="ep000479-e37600">
               <speaker>Stat. </speaker>
               <l>He is not dead, or I am not alive— </l>
               <l>It cannot be— </l>
             </sp>
-            <sp xml:id="ep000479-e37640">
+            <sp who="ep000479-lys" xml:id="ep000479-e37640">
               <speaker>Lys. </speaker>
               <l>Cease Madam, cease to grieve— </l>
             </sp>
-            <sp xml:id="ep000479-e37670">
+            <sp who="ep000479-bag" xml:id="ep000479-e37670">
               <speaker>Bag. </speaker>
               <l>What shall we do? Ah, what is to be done? </l>
             </sp>
-            <sp xml:id="ep000479-e37700">
+            <sp who="ep000479-lys" xml:id="ep000479-e37700">
               <pb n="52" xml:id="ep000479-032-a"/>
               <speaker>Lys. </speaker>
               <l>Call all the Captaines, call'em every one; </l>
@@ -3811,7 +3877,7 @@
               <l>Ah Oroondates you are come too late— </l>
               <l>Behold the sad great Miracle of fate. </l>
             </sp>
-            <sp xml:id="ep000479-e37880">
+            <sp who="ep000479-oroo" xml:id="ep000479-e37880">
               <speaker>Oroo. </speaker>
               <l>Too soon I fear to such a dismal sight, </l>
               <l>The news whereof did my firme soul a fright; </l>
@@ -3835,32 +3901,32 @@
               <l>Instead of Alexander, heav'n does lend </l>
               <l>Lysimachus, our brave, and noble Friend. </l>
             </sp>
-            <sp xml:id="ep000479-e38140">
+            <sp who="ep000479-sta" xml:id="ep000479-e38140">
               <speaker>Sta. </speaker>
               <l>Who wou'd not shrink at such a day of doome? </l>
             </sp>
-            <sp xml:id="ep000479-e38170">
+            <sp who="ep000479-lys" xml:id="ep000479-e38170">
               <speaker>Lys. </speaker>
               <l>Spare Love a while, and when the Captaines come, </l>
               <l>We'l straight to Councel; then if I have power, </l>
               <l>To Parisatis I will Persia's Crown restore </l>
               <l>To give to whom she please— </l>
             </sp>
-            <sp xml:id="ep000479-e38250">
+            <sp who="ep000479-par" xml:id="ep000479-e38250">
               <speaker>Par. </speaker>
               <l>If this be true— </l>
               <l>I with my self, will give it back to you. </l>
             </sp>
-            <sp xml:id="ep000479-e38290">
+            <sp who="ep000479-lys" xml:id="ep000479-e38290">
               <speaker>Lys. </speaker>
               <l>You when you please, shall then to Scythia go, </l>
               <l>And bright Statira your lov'd Queen indow. </l>
             </sp>
-            <sp xml:id="ep000479-e38350">
+            <sp who="ep000479-oroo" xml:id="ep000479-e38350">
               <speaker>Oroo. </speaker>
               <l>Now I will call thee Brother— </l>
             </sp>
-            <sp xml:id="ep000479-e38380">
+            <sp who="ep000479-lys" xml:id="ep000479-e38380">
               <speaker>Lys. </speaker>
               <l>But how dear— </l>
               <stage xml:id="ep000479-e38410">[looking on the Bodyes </stage>
@@ -3869,28 +3935,28 @@
             <stage xml:id="ep000479-e38430">Re-enter to them Bagistanes with the Captaines, making a full stage. </stage>
             <stage xml:id="ep000479-e38450">
               <pb n="53" xml:id="ep000479-032-b"/>See Valiant, souldiers; look with wonder there. </stage>
-            <sp xml:id="ep000479-e38460">
+            <sp who="ep000479-omnes" xml:id="ep000479-e38460">
               <speaker>Omnes. </speaker>
               <l>O horrour! Plagues! Revenge!— </l>
             </sp>
-            <sp xml:id="ep000479-e38490">
+            <sp who="ep000479-cap" xml:id="ep000479-e38490">
               <speaker>Cap. </speaker>
               <l>H'as such a dread— </l>
               <l>We dare not look upon him now he's dead, </l>
               <l>But as on Gods with reverent surprise, </l>
               <l>And pay our Adorations from our Eyes. </l>
             </sp>
-            <sp xml:id="ep000479-e38550">
+            <sp who="ep000479-cap" xml:id="ep000479-e38550">
               <speaker>Cap. </speaker>
               <l>We hear Antipater has late rebell'd; </l>
               <l>And as all Greece his King, has took the field. </l>
             </sp>
-            <sp xml:id="ep000479-e38610">
+            <sp who="ep000479-cap" xml:id="ep000479-e38610">
               <speaker>Cap. </speaker>
               <l>Now all will out— Phillip they say is fled, </l>
               <l>And had a hand in this most horrid deed. </l>
             </sp>
-            <sp xml:id="ep000479-e38660">
+            <sp who="ep000479-lys" xml:id="ep000479-e38660">
               <speaker>Lys. </speaker>
               <l>I knew Cassander cou'd not this have done, </l>
               <l>Had not the Father joyn'd in treason with the son.— </l>

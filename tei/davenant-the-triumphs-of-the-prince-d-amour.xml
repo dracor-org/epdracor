@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000368" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000368" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +56,24 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000368-priestsofapollo">
+              <persName>Priests of Apollo</persName>
+            </person>
+            <person xml:id="ep000368-priestsofvenus">
+              <persName>Priests of Venus</persName>
+            </person>
+            <person xml:id="ep000368-chorusofall">
+              <persName>Chorus of all</persName>
+            </person>
+            <person xml:id="ep000368-priestsofmars">
+              <persName>Priests of Mars</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -385,7 +403,7 @@
           <p>Now descending from the Scene, appeares twelve men, wildly habited, Wastcotes of flesh color made them shew naked to the middle, their heads cover'd with greene leaves, their wastes girt with the like, and a greene Basis fring'd, reach'd to their knees, which did declare them Labourers on a Fruitfull Soyle; and what they carryed did demonstrate a Fruitfull Season. </p>
           <p>For moving downe in order towards the State, each supported in his Armes, a small square frame, the wood hidden with greene Boughes, and on that bore a Charger full of precious fruits, and cover'd with blossom'd twigs and flowers: Which being fix'd neere to the State, were so joyn'd together, that there was straight discovered a Table richly furnish'd with a Banquet, that look'd as it were hidden in a Grove: And whilst the Princes accepted of this entertainment, the Priests belonging to the three severall Deities sung this. </p>
           <p>The song of Valediction, after the Banquet. </p>
-          <sp xml:id="ep000368-e2880">
+          <sp who="ep000368-priestsofmars" xml:id="ep000368-e2880">
             <pb n="16" xml:id="ep000368-011-a"/>
             <speaker>Priests of Mars. </speaker>
             <l>The furious Steed, the Phyph and Drum </l>
@@ -393,21 +411,21 @@
             <l>Till you as glorious shall become </l>
             <l>On Earth as Mars, in Heaven as bright a Star. </l>
           </sp>
-          <sp xml:id="ep000368-e2960">
+          <sp who="ep000368-priestsofvenus" xml:id="ep000368-e2960">
             <speaker>Priests of Venus. </speaker>
             <l>The Balmes rich swet, the Myrrhs sweet teares </l>
             <l>Perfume your breath when you would Passion move: </l>
             <l>And may her heart, that you indeeres, </l>
             <l>the center be, her Eye the sphaere of Love! </l>
           </sp>
-          <sp xml:id="ep000368-e3030">
+          <sp who="ep000368-priestsofapollo" xml:id="ep000368-e3030">
             <speaker>Priests of Apollo. </speaker>
             <l>And may your Language be of force </l>
             <l>To body winds, and animate the Trees, </l>
             <l>So full of wonder your discourse, </l>
             <l>Till all your guesses shall be Prophecies. </l>
           </sp>
-          <sp xml:id="ep000368-e3100">
+          <sp who="ep000368-chorusofall" xml:id="ep000368-e3100">
             <speaker>Chorus of all. </speaker>
             <l>May our three Gods so long conjoyne, </l>
             <l>To raise your soule, and rarefie your sense, </l>

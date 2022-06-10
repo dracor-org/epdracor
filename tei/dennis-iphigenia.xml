@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000515" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000515" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +55,103 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000515-euphtoiph">
+              <persName>Euph. to Iph</persName>
+            </person>
+            <person xml:id="ep000515-1scyth">
+              <persName>1 Scyth</persName>
+            </person>
+            <person xml:id="ep000515-queen">
+              <persName>Queen,</persName>
+            </person>
+            <person xml:id="ep000515-or">
+              <persName>Or</persName>
+            </person>
+            <person xml:id="ep000515-1priest">
+              <persName>1 Priest</persName>
+            </person>
+            <person xml:id="ep000515-euph">
+              <persName>Euph</persName>
+            </person>
+            <person xml:id="ep000515-qutoiph">
+              <persName>Qu. to Iph</persName>
+            </person>
+            <person xml:id="ep000515-2priest">
+              <persName>2 Priest</persName>
+            </person>
+            <person xml:id="ep000515-2chor">
+              <persName>2 Chor</persName>
+            </person>
+            <person xml:id="ep000515-priest">
+              <persName>Priest</persName>
+            </person>
+            <person xml:id="ep000515-queentoor">
+              <persName>
+Queen▪ to Or</persName>
+            </person>
+            <person xml:id="ep000515-1pr">
+              <persName>1 Pr</persName>
+            </person>
+            <person xml:id="ep000515-iph">
+              <persName>Iph</persName>
+            </person>
+            <person xml:id="ep000515-phel">
+              <persName>Phel</persName>
+            </person>
+            <person xml:id="ep000515-3pr">
+              <persName>3 Pr</persName>
+            </person>
+            <person xml:id="ep000515-chor">
+              <persName>Chor</persName>
+            </person>
+            <person xml:id="ep000515-eup">
+              <persName>Eup</persName>
+            </person>
+            <person xml:id="ep000515-del">
+              <persName>Del</persName>
+            </person>
+            <person xml:id="ep000515-hel">
+              <persName>Hel</persName>
+            </person>
+            <person xml:id="ep000515-2pr">
+              <persName>2 Pr</persName>
+            </person>
+            <person xml:id="ep000515-ioh">
+              <persName>Ioh</persName>
+            </person>
+            <person xml:id="ep000515-pr">
+              <persName>Pr</persName>
+            </person>
+            <person xml:id="ep000515-qu">
+              <persName>Qu</persName>
+            </person>
+            <person xml:id="ep000515-scith">
+              <persName>Scith</persName>
+            </person>
+            <person xml:id="ep000515-mess">
+              <persName>Mess</persName>
+            </person>
+            <person xml:id="ep000515-queenaside">
+              <persName>Queen aside</persName>
+            </person>
+            <person xml:id="ep000515-allscyth">
+              <persName>All Scyth</persName>
+            </person>
+            <person xml:id="ep000515-chorus">
+              <persName>Chorus:</persName>
+            </person>
+            <person xml:id="ep000515-scyth">
+              <persName>Scyth</persName>
+            </person>
+            <person xml:id="ep000515-pil">
+              <persName>Pil</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -226,7 +323,7 @@
       <div n="1" type="act" xml:id="ep000515-e2490">
         <head>ACT I. Storm. </head>
         <stage xml:id="ep000515-e2520">Iphigenia. Euphrosine. </stage>
-        <sp xml:id="ep000515-e2530">
+        <sp who="ep000515-iph" xml:id="ep000515-e2530">
           <speaker>Iph. </speaker>
           <l>DEfend me, great Diana! </l>
           <l>Defend thy Iphigenia, thou bright Goddess, </l>
@@ -238,11 +335,11 @@
           <l>The restless 〈…〉 and the outrageous elements </l>
           <l>All 〈…〉 War. </l>
         </sp>
-        <sp xml:id="ep000515-e2670">
+        <sp who="ep000515-euph" xml:id="ep000515-e2670">
           <speaker>Euph. </speaker>
           <p>〈…〉 something surely above Nature in it. </p>
         </sp>
-        <sp xml:id="ep000515-e2700">
+        <sp who="ep000515-iph" xml:id="ep000515-e2700">
           <speaker>Iph. </speaker>
           <l>〈…〉 Storm's so terrible to us, </l>
           <l>How must it look, alas, to those poor Souls, </l>
@@ -256,26 +353,26 @@
           <l>No Pilot to conduct it but the Tempest, </l>
           <l>Before the foaming surges bounds along. </l>
         </sp>
-        <sp xml:id="ep000515-e2840">
+        <sp who="ep000515-euph" xml:id="ep000515-e2840">
           <speaker>Euph. </speaker>
           <l>Bless me, ye pow'rs! what god can save them sinking? </l>
           <l>Shou'd they scape foundring in the wild Abyss, </l>
           <l>Anon they run amain upon the Rocks </l>
           <l>Of this inhospitable shore. </l>
         </sp>
-        <sp xml:id="ep000515-e2900">
+        <sp who="ep000515-iph" xml:id="ep000515-e2900">
           <speaker>Iph. </speaker>
           <l>Or if by wondrous chance they avoid those Rocks, </l>
           <l>Something more dangerous than the Rocks or Seas, </l>
           <l>And rougher than the rudest of the Winds </l>
           <l>Attends them on the shore. </l>
         </sp>
-        <sp xml:id="ep000515-e2960">
+        <sp who="ep000515-euph" xml:id="ep000515-e2960">
           <speaker>Euph. </speaker>
           <l>If they are caught on Scythian ground they dye, </l>
           <l>And fall the Victims of these dreadful Altars. </l>
         </sp>
-        <sp xml:id="ep000515-e3010">
+        <sp who="ep000515-iph" xml:id="ep000515-e3010">
           <pb n="2" xml:id="ep000515-008-a"/>
           <speaker>Iph. </speaker>
           <l>They die, but by whose hands, Euphrosine? </l>
@@ -286,7 +383,7 @@
           <stage xml:id="ep000515-e3090">Enter Messenger. </stage>
           <l>Whence art thou? And to whom? </l>
         </sp>
-        <sp xml:id="ep000515-e3110">
+        <sp who="ep000515-mess" xml:id="ep000515-e3110">
           <speaker>Mess. </speaker>
           <l>From you uncultivated Eastern Plain, </l>
           <l>O're which our Roving Scythians drive </l>
@@ -295,7 +392,7 @@
           <l>If all things are prepar'd to solemnize </l>
           <l>Our great Diana's Annual Festival. </l>
         </sp>
-        <sp xml:id="ep000515-e3210">
+        <sp who="ep000515-iph" xml:id="ep000515-e3210">
           <speaker>Iph. </speaker>
           <l>Tell her they are. </l>
           <l>The Garlands are prepar'd the Victim's crown'd, </l>
@@ -303,12 +400,12 @@
           <l>And nothing but the Queen herself is wanting; </l>
           <l>For now the night, the fatal hour approaches. </l>
         </sp>
-        <sp xml:id="ep000515-e3280">
+        <sp who="ep000515-mess" xml:id="ep000515-e3280">
           <speaker>Mess. </speaker>
           <p>I fly to let her know it. </p>
         </sp>
         <stage xml:id="ep000515-e3310">Exit. </stage>
-        <sp xml:id="ep000515-e3320">
+        <sp who="ep000515-iph" xml:id="ep000515-e3320">
           <speaker>Iph. </speaker>
           <l>Ah woe, Euphrosine! But yesterday. </l>
           <l>This fatal office was conferr'd upon me, </l>
@@ -317,7 +414,7 @@
           <l>My Blood runs chill within me, at the thought </l>
           <l>Of executing this most horrid office. </l>
         </sp>
-        <sp xml:id="ep000515-e3410">
+        <sp who="ep000515-euph" xml:id="ep000515-e3410">
           <speaker>Euph. </speaker>
           <l>Yes, you're to plunge your Knife in human Blood; </l>
           <l>But 'tis the Blood of Strangers. </l>
@@ -333,7 +430,7 @@
           <l>Remember that your Father Agamemnon </l>
           <l>A Daughter wou'd have sacrific'd. </l>
         </sp>
-        <sp xml:id="ep000515-e3610">
+        <sp who="ep000515-iph" xml:id="ep000515-e3610">
           <speaker>Iph. </speaker>
           <l>O dire Original of all my woe! </l>
           <l>Why, my Euphrosine, wou'dst thou remind me of it? </l>
@@ -360,7 +457,7 @@
           <l>That quite dismay'd my Soul; my very Dreams </l>
           <l>All in this place, are like the Natives, dreadful. </l>
         </sp>
-        <sp xml:id="ep000515-e3900">
+        <sp who="ep000515-euph" xml:id="ep000515-e3900">
           <speaker>Euph. </speaker>
           <l>However, you exclaim against those Natives, </l>
           <l>To you, they are less barbarous than your Grecians, </l>
@@ -379,11 +476,11 @@
           <l>The loveliest product of the fertile year, </l>
           <l>Should sacrifice his Beauteous Iphigenia. </l>
         </sp>
-        <sp xml:id="ep000515-e4160">
+        <sp who="ep000515-iph" xml:id="ep000515-e4160">
           <speaker>Iph. </speaker>
           <p>Why wilt thou old Calamities renew? </p>
         </sp>
-        <sp xml:id="ep000515-e4190">
+        <sp who="ep000515-euph" xml:id="ep000515-e4190">
           <speaker>Euph. </speaker>
           <l>To reconcile you more to your misfortune, </l>
           <l>And shew you what great things the Gods have done for you, </l>
@@ -394,12 +491,12 @@
           <l>The subtle lure to draw you down from <hi>Argos▪ </hi>
           </l>
         </sp>
-        <sp xml:id="ep000515-e4300">
+        <sp who="ep000515-iph" xml:id="ep000515-e4300">
           <speaker>Iph. </speaker>
           <l>The fraud of Calchas and of dire Ulysses! </l>
           <l>False fatal Marriage▪ </l>
         </sp>
-        <sp xml:id="ep000515-e4360">
+        <sp who="ep000515-euph" xml:id="ep000515-e4360">
           <speaker>Euph. </speaker>
           <l>And tho true, untimely, </l>
           <l>Scarce had ten Springs then bloom'd upon your Cheek, </l>
@@ -410,11 +507,11 @@
           <l>And such a Heroe from a Goddess sprung </l>
           <l>Too soon consented to the fatal Journey. </l>
         </sp>
-        <sp xml:id="ep000515-e4460">
+        <sp who="ep000515-iph" xml:id="ep000515-e4460">
           <speaker>Iph. </speaker>
           <p>I wou'd not hear the rest. </p>
         </sp>
-        <sp xml:id="ep000515-e4490">
+        <sp who="ep000515-euph" xml:id="ep000515-e4490">
           <speaker>Euph. </speaker>
           <l>You must; at Aulis </l>
           <l>The subtle Clytemnestra found the Cheat, </l>
@@ -426,12 +523,12 @@
           <l>Till she at last prevail'd on his hard heart; </l>
           <l>So far she shook his fainting resolution. </l>
         </sp>
-        <sp xml:id="ep000515-e4620">
+        <sp who="ep000515-iph" xml:id="ep000515-e4620">
           <speaker>Iph. </speaker>
           <l>What canst thou mean by this sad repetition </l>
           <l>Of what I wou'd not hear? </l>
         </sp>
-        <sp xml:id="ep000515-e4660">
+        <sp who="ep000515-euph" xml:id="ep000515-e4660">
           <speaker>Euph. </speaker>
           <l>Once more, I tell you, </l>
           <l>To reconcile you to your Scythian Fate: </l>
@@ -450,13 +547,13 @@
           <l>In a long Veil should dye for Iphigenia; </l>
           <l>So you escap'd, and so all Greece was cheated. </l>
         </sp>
-        <sp xml:id="ep000515-e4910">
+        <sp who="ep000515-iph" xml:id="ep000515-e4910">
           <speaker>Iph. </speaker>
           <l>Unfortunate escape! for that which follows </l>
           <l>Was ten times worse than Death, and barely mention'd </l>
           <l>Strikes to my Heart like Fate, and shakes my Nature. </l>
         </sp>
-        <sp xml:id="ep000515-e4960">
+        <sp who="ep000515-euph" xml:id="ep000515-e4960">
           <speaker>Euph. </speaker>
           <l>Yet I must on; your peace of mind depends on it. </l>
           <l>That day it happen'd that there came to Aulis </l>
@@ -480,11 +577,11 @@
           <l>The Captain past by Thrace and the Propontis, </l>
           <l>Designing to transport us all to Tomos. </l>
         </sp>
-        <sp xml:id="ep000515-e5270">
+        <sp who="ep000515-iph" xml:id="ep000515-e5270">
           <speaker>Iph. </speaker>
           <p>Oh the Villain! </p>
         </sp>
-        <sp xml:id="ep000515-e5300">
+        <sp who="ep000515-euph" xml:id="ep000515-e5300">
           <speaker>Euph. </speaker>
           <l>As soon as in the Euxine, all the world </l>
           <l>Appear'd to be compos'd but of two Elements; </l>
@@ -503,14 +600,14 @@
           <l>Death in a thousand shapes at once appear'd, </l>
           <l>And each of them amazing. </l>
         </sp>
-        <sp xml:id="ep000515-e5500">
+        <sp who="ep000515-iph" xml:id="ep000515-e5500">
           <speaker>Iph. </speaker>
           <l>The very bare remembrance of that Storm </l>
           <l>Still strikes a thrilling Horror to my Heart, </l>
           <l>The terriblest I ever saw </l>
           <l>Before I saw this ev'ning. </l>
         </sp>
-        <sp xml:id="ep000515-e5560">
+        <sp who="ep000515-euph" xml:id="ep000515-e5560">
           <speaker>Euph. </speaker>
           <l>Yet 'twas by that that gracious Heav'n preserv'd us; </l>
           <l>For now the Vessel tumbling in the Abyss, </l>
@@ -529,7 +626,7 @@
           <l>We were preserv'd, and constituted part </l>
           <l>Of the bright train attendant on the Goddess. </l>
         </sp>
-        <sp xml:id="ep000515-e5760">
+        <sp who="ep000515-iph" xml:id="ep000515-e5760">
           <pb n="6" xml:id="ep000515-010-a"/>
           <speaker>Iph. </speaker>
           <l>See, thou hast talk'd this▪ Tempest over too; </l>
@@ -546,12 +643,12 @@
           <l>While two at distance with unequal pace </l>
           <l>Pursuing, pant behind them? </l>
         </sp>
-        <sp xml:id="ep000515-e5920">
+        <sp who="ep000515-euph" xml:id="ep000515-e5920">
           <speaker>Euph. </speaker>
           <l>The wretched Remnants of the Wreck, </l>
           <l>Who come to perish here. </l>
         </sp>
-        <sp xml:id="ep000515-e5960">
+        <sp who="ep000515-iph" xml:id="ep000515-e5960">
           <speaker>Iph. </speaker>
           <l>Strangers they by their garb appear, and Grecians; </l>
           <l>With what laborious toil they mount, </l>
@@ -559,13 +656,13 @@
           <l>They stop, and cast an eager eye </l>
           <l>Tow'rds these tremendous Altars! </l>
         </sp>
-        <sp xml:id="ep000515-e6040">
+        <sp who="ep000515-euph" xml:id="ep000515-e6040">
           <speaker>Euph. </speaker>
           <l>The foremost wears affliction in his aspect, </l>
           <l>And the black Cloud that lowrs upon his Brow </l>
           <l>Seems to declare strange wretchedness of sorrow. </l>
         </sp>
-        <sp xml:id="ep000515-e6090">
+        <sp who="ep000515-iph" xml:id="ep000515-e6090">
           <speaker>Iph. </speaker>
           <l>Yet sorrow on his Brow majestick sits, </l>
           <l>And shows that from no common cause it springs. </l>
@@ -577,11 +674,11 @@
           <l>These massy Gates, for lo they come, Euphrosine. </l>
         </sp>
         <stage xml:id="ep000515-e6210">Enter Orestes, Pilades, Helymus, Diores. </stage>
-        <sp xml:id="ep000515-e6230">
+        <sp who="ep000515-euph" xml:id="ep000515-e6230">
           <speaker>Euph. </speaker>
           <p>Shall we alarm the Guards? </p>
         </sp>
-        <sp xml:id="ep000515-e6260">
+        <sp who="ep000515-iph" xml:id="ep000515-e6260">
           <speaker>Iph. </speaker>
           <l>Not for thy life. </l>
           <l>My first request to great Diana, is, </l>
@@ -595,7 +692,7 @@
           <l>In those two Godlike Youths. </l>
         </sp>
         <stage xml:id="ep000515-e6390">Exeunt Iph. Euph. </stage>
-        <sp xml:id="ep000515-e6410">
+        <sp who="ep000515-or" xml:id="ep000515-e6410">
           <speaker>Or. </speaker>
           <l>You Helymus, and you Diores, </l>
           <l>Keep exact watch upon your several posts, </l>
@@ -608,12 +705,12 @@
           <l>But for my Friend, my Pilades, </l>
           <l>I cannot chuse but fear. </l>
         </sp>
-        <sp xml:id="ep000515-e6570">
+        <sp who="ep000515-pil" xml:id="ep000515-e6570">
           <speaker>Pil. </speaker>
           <l>I cannot fear with my Orestes near me, </l>
           <l>Not even for Orestes? </l>
         </sp>
-        <sp xml:id="ep000515-e6630">
+        <sp who="ep000515-or" xml:id="ep000515-e6630">
           <speaker>Or. </speaker>
           <l>Alas, you need not fear for me, </l>
           <l>I am so exquisitely miserable </l>
@@ -623,7 +720,7 @@
           <l>By Gods and men forsaken, </l>
           <l>And by the formidable Furies haunted. </l>
         </sp>
-        <sp xml:id="ep000515-e6730">
+        <sp who="ep000515-pil" xml:id="ep000515-e6730">
           <speaker>Pil. </speaker>
           <l>Now your long miseries must cease, take comfort, </l>
           <l>The Delphick God has said it. </l>
@@ -633,7 +730,7 @@
           <l>Your woes are at an end. </l>
           <l>So said Divine Apollo. </l>
         </sp>
-        <sp xml:id="ep000515-e6850">
+        <sp who="ep000515-or" xml:id="ep000515-e6850">
           <speaker>Or. </speaker>
           <l>See, where that Image sits, inthron'd in Horror, </l>
           <l>And on the Bloody Battlements behold </l>
@@ -644,7 +741,7 @@
           <l>For how can we approach this fatal Image, </l>
           <l>Or how can we transport it? </l>
         </sp>
-        <sp xml:id="ep000515-e6960">
+        <sp who="ep000515-pil" xml:id="ep000515-e6960">
           <speaker>Pil. </speaker>
           <l>When we despair, </l>
           <l>Great Love shall crown our action with success, </l>
@@ -653,7 +750,7 @@
           <l>Upon our Friendship firmly let's depend, </l>
           <l>Immortal Love ne're stirs a moment from us. </l>
         </sp>
-        <sp xml:id="ep000515-e7040">
+        <sp who="ep000515-or" xml:id="ep000515-e7040">
           <speaker>Or. </speaker>
           <l>Above the world, I swear I love my Pilades. </l>
           <l>Then let us to the Ship retire, </l>
@@ -668,7 +765,7 @@
           <l>What means that deep fetcht groan? Why does Despair </l>
           <l>Stare thro thy haggard eyes? </l>
         </sp>
-        <sp xml:id="ep000515-e7200">
+        <sp who="ep000515-hel" xml:id="ep000515-e7200">
           <speaker>Hel. </speaker>
           <l>My Lords defend your selves. </l>
           <l>For from the Brow of yonder neighb'ring Hill </l>
@@ -677,14 +774,14 @@
           <l>As they had Wings, and seem to bend their course </l>
           <l>Directly tow'rds the Temple. </l>
         </sp>
-        <sp xml:id="ep000515-e7290">
+        <sp who="ep000515-or" xml:id="ep000515-e7290">
           <speaker>Or. </speaker>
           <l>It is enough, my Pilades retire, </l>
           <l>In the good Ship thy refuge quickly take, </l>
           <l>While I with Helymus and good Diores </l>
           <l>Keep these inhumane Dogs that hunt for Blood at bay. </l>
         </sp>
-        <sp xml:id="ep000515-e7380">
+        <sp who="ep000515-pil" xml:id="ep000515-e7380">
           <speaker>Pil. </speaker>
           <l>Had I made that Request to my <hi>Orestes▪ </hi>
           </l>
@@ -715,7 +812,7 @@
           <l>While slumbring o're his young. </l>
         </sp>
         <stage xml:id="ep000515-e7720">Enter Queen of the Scythians, and Train. </stage>
-        <sp xml:id="ep000515-e7740">
+        <sp who="ep000515-queen" xml:id="ep000515-e7740">
           <speaker>Queen. </speaker>
           <l>Give orders that the Horse remain at distance, </l>
           <l>Let these on foot attend me to the Temple, </l>
@@ -748,60 +845,60 @@
           <l>And 〈…〉 </l>
           <l>〈…〉 that calls me Soveraign! </l>
         </sp>
-        <sp xml:id="ep000515-e8050">
+        <sp who="ep000515-or" xml:id="ep000515-e8050">
           <speaker>Or. </speaker>
           <l>〈…〉 at us, we are men, </l>
           <l>And 〈…〉 ne're saw before. </l>
         </sp>
-        <sp xml:id="ep000515-e8090">
+        <sp who="ep000515-queen" xml:id="ep000515-e8090">
           <speaker>Queen. </speaker>
           <p>Yes, I'm a woman, born to command men. </p>
         </sp>
-        <sp xml:id="ep000515-e8120">
+        <sp who="ep000515-pil" xml:id="ep000515-e8120">
           <speaker>Pil. </speaker>
           <p>No, to command Barbarians, we are Grecians </p>
         </sp>
-        <sp xml:id="ep000515-e8170">
+        <sp who="ep000515-queen" xml:id="ep000515-e8170">
           <speaker>Queen. </speaker>
           <l>By your exalted Speech and touring Meins, </l>
           <l>I took you to be Gods; </l>
           <l>But if you're Grecians, we shall find you mortal: </l>
           <l>For if you're Grecians, know that you must dye. </l>
         </sp>
-        <sp xml:id="ep000515-e8250">
+        <sp who="ep000515-or" xml:id="ep000515-e8250">
           <speaker>Or. </speaker>
           <l>Then know that we resolve to die like Grecians, </l>
           <l>Like two who know that we were born to die. </l>
         </sp>
-        <sp xml:id="ep000515-e8300">
+        <sp who="ep000515-pil" xml:id="ep000515-e8300">
           <speaker>Pil. </speaker>
           <p>That ev'ry brave mans business is to die. </p>
         </sp>
-        <sp xml:id="ep000515-e8330">
+        <sp who="ep000515-or" xml:id="ep000515-e8330">
           <speaker>Or. </speaker>
           <l>Th' Employment of your Scythians is to kill, </l>
           <l>But the whole business of a Grecians life </l>
           <l>Is like himself to die. </l>
         </sp>
-        <sp xml:id="ep000515-e8400">
+        <sp who="ep000515-pil" xml:id="ep000515-e8400">
           <speaker>Pil. </speaker>
           <l>For Death is only certain, all things else </l>
           <l>Depend on Fortune's Arbitrary freak, </l>
           <l>And may or may not happen, Death is Fate's, </l>
           <l>And only sure and common to us all. </l>
         </sp>
-        <sp xml:id="ep000515-e8460">
+        <sp who="ep000515-queen" xml:id="ep000515-e8460">
           <speaker>Queen. </speaker>
           <l>Gods how they talk! I'll see what they can do </l>
           <l>Fall on. </l>
         </sp>
-        <sp xml:id="ep000515-e8500">
+        <sp who="ep000515-or" xml:id="ep000515-e8500">
           <speaker>Or. </speaker>
           <p>Now the two friendly Brother Gods assist us. </p>
         </sp>
         <stage xml:id="ep000515-e8530">
           <hi>They beat off the </hi>Scythians. </stage>
-        <sp xml:id="ep000515-e8550">
+        <sp who="ep000515-queen" xml:id="ep000515-e8550">
           <pb n="10" xml:id="ep000515-012-a"/>
           <speaker>Queen. </speaker>
           <l>Gods! what have I beheld? with what a fury </l>
@@ -810,7 +907,7 @@
           <l>Protect me, great 〈…〉! </l>
           <l>Orestes, P●l●●●s▪ Helymus Di●●●s 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e8630">
+        <sp who="ep000515-or" xml:id="ep000515-e8630">
           <speaker>Or. </speaker>
           <l>Now Madam you may see, that th● we 〈…〉 </l>
           <l>Grecians, are yet as far after your 〈…〉 </l>
@@ -829,7 +926,7 @@
           <l>To shew more mercy to unhappy 〈…〉. </l>
           <l>Farewel. </l>
         </sp>
-        <sp xml:id="ep000515-e8820">
+        <sp who="ep000515-queen" xml:id="ep000515-e8820">
           <speaker>Queen. </speaker>
           <l>Gods! Have I liv'd to hear such 〈…〉 </l>
           <l>'Tis not the easie Conquers they obtain'd </l>
@@ -849,7 +946,7 @@
           <l>When twenty of you, with true Scythian Scimitars, </l>
           <l>Fled from four Greecian Swords. </l>
         </sp>
-        <sp xml:id="ep000515-e9030">
+        <sp who="ep000515-1scyth" xml:id="ep000515-e9030">
           <speaker>1 Scyth. </speaker>
           <l>Pardon, great Queen, we fled not from their Swords, </l>
           <l>Their eyes had something more than mortal in them; </l>
@@ -857,7 +954,7 @@
           <l>Pernicious Fire thro all our daring Souls, </l>
           <l>That in a moment blasted all our vigour. </l>
         </sp>
-        <sp xml:id="ep000515-e9110">
+        <sp who="ep000515-queen" xml:id="ep000515-e9110">
           <speaker>Queen. </speaker>
           <l>Give order, that the Horse immediately </l>
           <l>Fly down the Road that winds around the Cliff, </l>
@@ -905,45 +1002,45 @@
         <pb n="12" xml:id="ep000515-013-a"/>
         <head>ACT II. </head>
         <stage xml:id="ep000515-e9570">Iphigenia. Euphrosine. </stage>
-        <sp xml:id="ep000515-e9580">
+        <sp who="ep000515-iph" xml:id="ep000515-e9580">
           <speaker>Iph. </speaker>
           <p>HOw strangely she seem'd mov'd in the Relation. </p>
         </sp>
-        <sp xml:id="ep000515-e9610">
+        <sp who="ep000515-euph" xml:id="ep000515-e9610">
           <speaker>Euph. </speaker>
           <l>But how differently? </l>
           <l>Now quite transported with th' Heroick Action. </l>
         </sp>
-        <sp xml:id="ep000515-e9650">
+        <sp who="ep000515-iph" xml:id="ep000515-e9650">
           <speaker>Iph. </speaker>
           <l>Then at their Victory as much 〈…〉 </l>
           <l>And at their usage of her mortify'd. </l>
         </sp>
-        <sp xml:id="ep000515-e9690">
+        <sp who="ep000515-euph" xml:id="ep000515-e9690">
           <speaker>Euph. </speaker>
           <p>But pleas'd. </p>
         </sp>
-        <sp xml:id="ep000515-e9720">
+        <sp who="ep000515-iph" xml:id="ep000515-e9720">
           <speaker>Iph. </speaker>
           <p>Yet in the midst of joy disdaining to be pleas'd. </p>
         </sp>
-        <sp xml:id="ep000515-e9750">
+        <sp who="ep000515-euph" xml:id="ep000515-e9750">
           <speaker>Euph. </speaker>
           <l>Sollicitous about th' event, </l>
           <l>Impatient till 'tis known. </l>
         </sp>
-        <sp xml:id="ep000515-e9790">
+        <sp who="ep000515-iph" xml:id="ep000515-e9790">
           <speaker>Iph. </speaker>
           <l>So uncommanding of herself </l>
           <l>Till now I ne're observ'd her. </l>
         </sp>
-        <sp xml:id="ep000515-e9830">
+        <sp who="ep000515-euph" xml:id="ep000515-e9830">
           <speaker>Euph. </speaker>
           <l>Shou'd but her Scythians intercept the Grecians </l>
           <l>You'll find her show a passion still more impotent. </l>
         </sp>
         <stage xml:id="ep000515-e9890">A distant shout. </stage>
-        <sp xml:id="ep000515-e9900">
+        <sp who="ep000515-iph" xml:id="ep000515-e9900">
           <speaker>Iph. </speaker>
           <l>What dost thou mean? 'tis what her Soul desires. </l>
           <l>But the hoarse eccho of that distant shout </l>
@@ -967,7 +1064,7 @@
           <l>Alas, they'll murder them; turn, turn Euphrosine, </l>
           <l>My Soul this cruel prospect cannot bear. </l>
         </sp>
-        <sp xml:id="ep000515-e10170">
+        <sp who="ep000515-euph" xml:id="ep000515-e10170">
           <speaker>Euph. </speaker>
           <l>They dare not touch them, for perhaps the Queen, </l>
           <l>The Queen can less endure this sight than you. </l>
@@ -995,64 +1092,64 @@
           <l>That 〈…〉 held, and at the sight </l>
           <l>Her 〈…〉 Soul took speedy fire▪ </l>
         </sp>
-        <sp xml:id="ep000515-e10460">
+        <sp who="ep000515-iph" xml:id="ep000515-e10460">
           <speaker>Iph. </speaker>
           <p>〈…〉: ●● meet Imagination all. </p>
         </sp>
-        <sp xml:id="ep000515-e10490">
+        <sp who="ep000515-euph" xml:id="ep000515-e10490">
           <speaker>Euph. </speaker>
           <l>〈…〉 were ●● much concern'd to observe her nicely, </l>
           <l>Else had you plainly seen her words, her gestures, </l>
           <l>Her mien, her eyes, and all her soul declare it. </l>
         </sp>
         <stage xml:id="ep000515-e10540">Shout aloud. </stage>
-        <sp xml:id="ep000515-e10550">
+        <sp who="ep000515-iph" xml:id="ep000515-e10550">
           <speaker>Iph. </speaker>
           <l>But hark? </l>
           <l>Whence the rude noise of this audacious shout, </l>
           <l>So near this hallow'd place? </l>
         </sp>
         <stage xml:id="ep000515-e10600">Enter Scythian. </stage>
-        <sp xml:id="ep000515-e10620">
+        <sp who="ep000515-scyth" xml:id="ep000515-e10620">
           <speaker>Scyth. </speaker>
           <p>Where is the Queen? </p>
         </sp>
-        <sp xml:id="ep000515-e10650">
+        <sp who="ep000515-iph" xml:id="ep000515-e10650">
           <speaker>Iph. </speaker>
           <l>What would'st thou have? the Queen is in a place </l>
           <l>Where for thy life thou must not dare to approach. </l>
         </sp>
-        <sp xml:id="ep000515-e10690">
+        <sp who="ep000515-scyth" xml:id="ep000515-e10690">
           <speaker>Scyth. </speaker>
           <l>Of the four Grecians two are now her Captives, </l>
           <l>And with slow solemn march are guarded towards the Temple. </l>
         </sp>
-        <sp xml:id="ep000515-e10740">
+        <sp who="ep000515-iph" xml:id="ep000515-e10740">
           <speaker>Iph. </speaker>
           <p>What have I heard? </p>
         </sp>
-        <sp xml:id="ep000515-e10770">
+        <sp who="ep000515-euph" xml:id="ep000515-e10770">
           <speaker>Euph. </speaker>
           <p>What are they? </p>
         </sp>
-        <sp xml:id="ep000515-e10800">
+        <sp who="ep000515-scyth" xml:id="ep000515-e10800">
           <speaker>Scyth. </speaker>
           <p>Grecians, we know no more. </p>
         </sp>
-        <sp xml:id="ep000515-e10840">
+        <sp who="ep000515-euph" xml:id="ep000515-e10840">
           <speaker>Euph. </speaker>
           <p>Then heard you not their names? </p>
         </sp>
-        <sp xml:id="ep000515-e10870">
+        <sp who="ep000515-scith" xml:id="ep000515-e10870">
           <speaker>Scith. </speaker>
           <l>Their names by strictest Oaths they enjoyn'd each other </l>
           <l>Not to pronounce. </l>
         </sp>
-        <sp xml:id="ep000515-e10910">
+        <sp who="ep000515-euph" xml:id="ep000515-e10910">
           <speaker>Euph. </speaker>
           <p>What numbers of you took them? </p>
         </sp>
-        <sp xml:id="ep000515-e10940">
+        <sp who="ep000515-scyth" xml:id="ep000515-e10940">
           <speaker>Scyth. </speaker>
           <l>We took them not by advantage of our numbers, </l>
           <l>But by the powerful influence of our Goddess, </l>
@@ -1091,22 +1188,22 @@
           <l>Appears more dreadful than ten thousand furies! </l>
           <l>Oh 'tis my— </l>
         </sp>
-        <sp xml:id="ep000515-e11360">
+        <sp who="ep000515-euph" xml:id="ep000515-e11360">
           <speaker>Euph. </speaker>
           <p>What follow'd? </p>
         </sp>
-        <sp xml:id="ep000515-e11390">
+        <sp who="ep000515-scyth" xml:id="ep000515-e11390">
           <speaker>Scyth. </speaker>
           <l>The rest with hollow dying sounds, </l>
           <l>Imperfectly pronouncing. </l>
           <l>He foam'd, he inward rowl'd his ghastly eyes, </l>
           <l>And groaning, down he fell entranc'd before us </l>
         </sp>
-        <sp xml:id="ep000515-e11450">
+        <sp who="ep000515-iph" xml:id="ep000515-e11450">
           <speaker>Iph. </speaker>
           <p>Poor wretched man! how influenc'd this the rest? </p>
         </sp>
-        <sp xml:id="ep000515-e11480">
+        <sp who="ep000515-scyth" xml:id="ep000515-e11480">
           <speaker>Scyth. </speaker>
           <l>While with astonishment all eyes were fix'd </l>
           <l>On such a dreadful, such a wondrous object; </l>
@@ -1115,11 +1212,11 @@
           <l>Of numerous Rocks invironing the Bay, </l>
           <l>Were quickly in their winding mazes lost. </l>
         </sp>
-        <sp xml:id="ep000515-e11560">
+        <sp who="ep000515-euph" xml:id="ep000515-e11560">
           <speaker>Euph. </speaker>
           <p>What did the fourth in consequence of him? </p>
         </sp>
-        <sp xml:id="ep000515-e11590">
+        <sp who="ep000515-scyth" xml:id="ep000515-e11590">
           <speaker>Scyth. </speaker>
           <l>He, neither fled nor fought, nor yet submitted, </l>
           <pb n="15" xml:id="ep000515-014-b"/>
@@ -1133,18 +1230,18 @@
           <l>〈…〉 the 〈…〉 wretch, </l>
           <l>And made 〈…〉 of his Friend. </l>
         </sp>
-        <sp xml:id="ep000515-e11710">
+        <sp who="ep000515-euph" xml:id="ep000515-e11710">
           <speaker>Euph. </speaker>
           <p>〈…〉 eternal Time. </p>
         </sp>
-        <sp xml:id="ep000515-e11740">
+        <sp who="ep000515-iph" xml:id="ep000515-e11740">
           <speaker>Iph. </speaker>
           <l>〈…〉 </l>
           <l>〈…〉 </l>
           <l>〈…〉 </l>
           <l>〈…〉 even 〈…〉 hearts▪ </l>
         </sp>
-        <sp xml:id="ep000515-e11800">
+        <sp who="ep000515-scyth" xml:id="ep000515-e11800">
           <speaker>Scyth. </speaker>
           <l>〈…〉 but ravish them▪ </l>
           <l>The God like deed with general shout applauding, </l>
@@ -1159,17 +1256,17 @@
           <l>And to the Temple some conduct the Captives. </l>
           <l>But see they now draw near. </l>
         </sp>
-        <sp xml:id="ep000515-e11950">
+        <sp who="ep000515-iph" xml:id="ep000515-e11950">
           <speaker>Iph. </speaker>
           <l>Euphrosine, inform the Queen of this, </l>
           <l>While I receive the Grecians. </l>
         </sp>
-        <sp xml:id="ep000515-e12010">
+        <sp who="ep000515-euph" xml:id="ep000515-e12010">
           <speaker>Euph. </speaker>
           <l>Be wise, and come away. </l>
           <l>Why would you see a sight that would distract you? </l>
         </sp>
-        <sp xml:id="ep000515-e12050">
+        <sp who="ep000515-iph" xml:id="ep000515-e12050">
           <speaker>Iph. </speaker>
           <l>I would to Heaven it would, for that distraction </l>
           <l>Would drown a world of woe in sweet forgetfulness; </l>
@@ -1180,11 +1277,11 @@
           <l>How shall I there approach them? how shall I there— </l>
           <l>Let me not think of it, that thought has Daggers in it. </l>
         </sp>
-        <sp xml:id="ep000515-e12150">
+        <sp who="ep000515-euph" xml:id="ep000515-e12150">
           <speaker>Euph. </speaker>
           <p>Be wise, and come away. </p>
         </sp>
-        <sp xml:id="ep000515-e12180">
+        <sp who="ep000515-iph" xml:id="ep000515-e12180">
           <speaker>Iph. </speaker>
           <l>These noble youths bring news from <hi>Greece, Euphrosine</hi>. </l>
           <l>'Tis now five years since I beheld a Grecian; </l>
@@ -1193,11 +1290,11 @@
           <pb n="16" xml:id="ep000515-015-a"/>
           <l>I left a Father there. </l>
         </sp>
-        <sp xml:id="ep000515-e12280">
+        <sp who="ep000515-euph" xml:id="ep000515-e12280">
           <speaker>Euph. </speaker>
           <p>A cruel one. </p>
         </sp>
-        <sp xml:id="ep000515-e12310">
+        <sp who="ep000515-iph" xml:id="ep000515-e12310">
           <speaker>Iph. </speaker>
           <l>Let him be cruel, still I am his Daughter; </l>
           <l>I left a Mother there, she was not cruel. </l>
@@ -1225,7 +1322,7 @@
           <l>Ill-fated youths, the Sons of wretched Parents! </l>
           <l>Wretched your Brothers, and your Sisters miserable! </l>
         </sp>
-        <sp xml:id="ep000515-e12620">
+        <sp who="ep000515-or" xml:id="ep000515-e12620">
           <speaker>Or. </speaker>
           <l>Madam, we know we are your Victims, </l>
           <l>And come resolv'd to dye. </l>
@@ -1241,178 +1338,178 @@
           <l>Unshaken and undaunted as themselves, </l>
           <l>Amidst their high security. </l>
         </sp>
-        <sp xml:id="ep000515-e12780">
+        <sp who="ep000515-iph" xml:id="ep000515-e12780">
           <speaker>Iph. </speaker>
           <l>So high a mind in such a low condition! </l>
           <l>But from whence are you miserable men! </l>
           <l>How long have ye been wanderers from your Country! </l>
           <l>A long, long time 'twill be, e're you return to it. </l>
         </sp>
-        <sp xml:id="ep000515-e12840">
+        <sp who="ep000515-or" xml:id="ep000515-e12840">
           <speaker>Or. </speaker>
           <l>Seek not to soften us by vain inquiries, </l>
           <l>Nor to disturb us in our hour of Death. </l>
         </sp>
-        <sp xml:id="ep000515-e12880">
+        <sp who="ep000515-iph" xml:id="ep000515-e12880">
           <pb n="17" xml:id="ep000515-015-b"/>
           <speaker>Iph. </speaker>
           <l>Grecians! you are I see, but of what Province? </l>
           <l>I must be answer'd; my reasons are most urgent. </l>
         </sp>
-        <sp xml:id="ep000515-e12930">
+        <sp who="ep000515-or" xml:id="ep000515-e12930">
           <speaker>Or. </speaker>
           <p>How should our answers possibly concern you? </p>
         </sp>
-        <sp xml:id="ep000515-e12960">
+        <sp who="ep000515-iph" xml:id="ep000515-e12960">
           <speaker>Iph. </speaker>
           <p>Are you Brothers? </p>
         </sp>
-        <sp xml:id="ep000515-e12990">
+        <sp who="ep000515-or" xml:id="ep000515-e12990">
           <speaker>Or. </speaker>
           <p>We are not so near as Brothers, and yet nearer. </p>
         </sp>
-        <sp xml:id="ep000515-e13020">
+        <sp who="ep000515-iph" xml:id="ep000515-e13020">
           <speaker>Iph. </speaker>
           <l>Then you are Friends it seems: </l>
           <l>What may we call you? </l>
         </sp>
-        <sp xml:id="ep000515-e13060">
+        <sp who="ep000515-or" xml:id="ep000515-e13060">
           <speaker>Or. </speaker>
           <p>Miserable! </p>
         </sp>
-        <sp xml:id="ep000515-e13090">
+        <sp who="ep000515-iph" xml:id="ep000515-e13090">
           <speaker>Iph. </speaker>
           <l>That is the name which Fortune has bestow'd upon you: </l>
           <l>I ask not after that. </l>
         </sp>
-        <sp xml:id="ep000515-e13130">
+        <sp who="ep000515-or" xml:id="ep000515-e13130">
           <speaker>Or. </speaker>
           <l>The more we keep our names conceal'd </l>
           <l>The more we keep this shameful Fate conceal'd! </l>
           <l>This Fate so much unworthy of us. </l>
           <l>Tho our Hearts bleed, our Names shall never suffer. </l>
         </sp>
-        <sp xml:id="ep000515-e13190">
+        <sp who="ep000515-iph" xml:id="ep000515-e13190">
           <speaker>Iph. </speaker>
           <p>Say then, what State, what City gave you Birth? </p>
         </sp>
-        <sp xml:id="ep000515-e13220">
+        <sp who="ep000515-or" xml:id="ep000515-e13220">
           <speaker>Or. </speaker>
           <l>Madam, we came resolv'd to dye; </l>
           <l>And Death is now our business! </l>
         </sp>
-        <sp xml:id="ep000515-e13260">
+        <sp who="ep000515-iph" xml:id="ep000515-e13260">
           <speaker>Iph. </speaker>
           <l>There's time enough, alas, for Death, </l>
           <l>And long you will enjoy him. </l>
           <l>Answer me first; oblige me so far, Grecian. </l>
         </sp>
-        <sp xml:id="ep000515-e13320">
+        <sp who="ep000515-or" xml:id="ep000515-e13320">
           <speaker>Or. </speaker>
           <p>Argos, renown'd throughout the World's my Country. </p>
         </sp>
-        <sp xml:id="ep000515-e13360">
+        <sp who="ep000515-iph" xml:id="ep000515-e13360">
           <speaker>Iph. </speaker>
           <l>Ha! Argos! Is it possible? O Heav'ns! </l>
           <l>Tell me the truth, I here conjure thee, Grecian. </l>
         </sp>
-        <sp xml:id="ep000515-e13420">
+        <sp who="ep000515-or" xml:id="ep000515-e13420">
           <speaker>Or. </speaker>
           <l>Within Mycaenaes Walls I first saw light, </l>
           <l>Mycaenae, once the Towring Queen of Cities. </l>
         </sp>
-        <sp xml:id="ep000515-e13480">
+        <sp who="ep000515-iph" xml:id="ep000515-e13480">
           <speaker>Iph. </speaker>
           <p>And yet you left it for this dismal place. </p>
         </sp>
-        <sp xml:id="ep000515-e13510">
+        <sp who="ep000515-or" xml:id="ep000515-e13510">
           <speaker>Or. </speaker>
           <p>Ev'n so the gods would have it. </p>
         </sp>
-        <sp xml:id="ep000515-e13540">
+        <sp who="ep000515-iph" xml:id="ep000515-e13540">
           <speaker>Iph. </speaker>
           <p>They're welcome Guests to me who come from Argos. </p>
         </sp>
-        <sp xml:id="ep000515-e13580">
+        <sp who="ep000515-or" xml:id="ep000515-e13580">
           <speaker>Or. </speaker>
           <p>And Death's the hearty welcome we expect. </p>
         </sp>
-        <sp xml:id="ep000515-e13610">
+        <sp who="ep000515-iph" xml:id="ep000515-e13610">
           <speaker>Iph. </speaker>
           <l>Grecian, you may inform me of some things, </l>
           <l>Which most my impatient Soul desires to know. </l>
         </sp>
-        <sp xml:id="ep000515-e13660">
+        <sp who="ep000515-or" xml:id="ep000515-e13660">
           <speaker>Or. </speaker>
           <p>You will be answer'd, speak. </p>
         </sp>
-        <sp xml:id="ep000515-e13690">
+        <sp who="ep000515-iph" xml:id="ep000515-e13690">
           <speaker>Iph. </speaker>
           <p>You have heard of Troy, whose Fame has fill'd the Universe? </p>
         </sp>
-        <sp xml:id="ep000515-e13730">
+        <sp who="ep000515-or" xml:id="ep000515-e13730">
           <speaker>Or. </speaker>
           <l>Oh, would to Jove I ne're had heard of Troy, </l>
           <l>Not in my very Dreams! </l>
         </sp>
-        <sp xml:id="ep000515-e13790">
+        <sp who="ep000515-iph" xml:id="ep000515-e13790">
           <speaker>Iph. </speaker>
           <p>'Tis said it now by Fate of War lies low. </p>
         </sp>
-        <sp xml:id="ep000515-e13820">
+        <sp who="ep000515-or" xml:id="ep000515-e13820">
           <speaker>Or. </speaker>
           <l>But oh severely have its Heav'nly Founders </l>
           <l>Upon its Conquerors reveng'd its fall. </l>
         </sp>
-        <sp xml:id="ep000515-e13860">
+        <sp who="ep000515-iph" xml:id="ep000515-e13860">
           <speaker>Iph. </speaker>
           <p>Is Hellen at the last return'd? </p>
         </sp>
-        <sp xml:id="ep000515-e13900">
+        <sp who="ep000515-or" xml:id="ep000515-e13900">
           <speaker>Or. </speaker>
           <l>As fatally to some of mine, </l>
           <l>As ever she departed. </l>
         </sp>
-        <sp xml:id="ep000515-e13940">
+        <sp who="ep000515-iph" xml:id="ep000515-e13940">
           <speaker>Iph. </speaker>
           <p>She once had like t' have fatal prov'd to me too! </p>
         </sp>
-        <sp xml:id="ep000515-e13970">
+        <sp who="ep000515-or" xml:id="ep000515-e13970">
           <speaker>Or. </speaker>
           <p>My obligations to her are well known. </p>
         </sp>
-        <sp xml:id="ep000515-e14000">
+        <sp who="ep000515-iph" xml:id="ep000515-e14000">
           <speaker>Iph. </speaker>
           <l>The common hatred of all Grecians she. </l>
           <l>Say, are those Grecians yet come back? </l>
           <pb n="18" xml:id="ep000515-016-a"/>
           <l>Is Calchas yet return'd? </l>
         </sp>
-        <sp xml:id="ep000515-e14080">
+        <sp who="ep000515-or" xml:id="ep000515-e14080">
           <speaker>Or. </speaker>
           <p>The lying Prophet perish'd on th' Aegean. </p>
         </sp>
-        <sp xml:id="ep000515-e14120">
+        <sp who="ep000515-iph" xml:id="ep000515-e14120">
           <speaker>Iph. </speaker>
           <p>And Ulysses? </p>
         </sp>
-        <sp xml:id="ep000515-e14160">
+        <sp who="ep000515-or" xml:id="ep000515-e14160">
           <speaker>Or. </speaker>
           <l>A wanderer upon Earth and Sea, </l>
           <l>The outcast of the world▪ </l>
         </sp>
-        <sp xml:id="ep000515-e14200">
+        <sp who="ep000515-iph" xml:id="ep000515-e14200">
           <speaker>Iph. </speaker>
           <l>At length then halting vengeance has o'retaken them. </l>
           <l>And proud Achilles! lives he? </l>
         </sp>
-        <sp xml:id="ep000515-e14250">
+        <sp who="ep000515-or" xml:id="ep000515-e14250">
           <speaker>Or. </speaker>
           <l>In Fields, where once Troy stood, his Head lies low, </l>
           <l>And he in vain at Aulis was contracted </l>
           <l>To wretched Iphigenia. </l>
         </sp>
-        <sp xml:id="ep000515-e14330">
+        <sp who="ep000515-iph" xml:id="ep000515-e14330">
           <speaker>Iph. </speaker>
           <l>False fatal Marriage! </l>
           <l>The fraud of Calchas, and of dire Ulysses! </l>
@@ -1420,15 +1517,15 @@
             <stage xml:id="ep000515-e14400">aside. </stage>But run there any Rumours now in Greece, </l>
           <l>Touching the Fate of that unhappy Princess? </l>
         </sp>
-        <sp xml:id="ep000515-e14430">
+        <sp who="ep000515-or" xml:id="ep000515-e14430">
           <speaker>Or. </speaker>
           <p>She who was sacrific'd at Aulis? </p>
         </sp>
-        <sp xml:id="ep000515-e14470">
+        <sp who="ep000515-iph" xml:id="ep000515-e14470">
           <speaker>Iph. </speaker>
           <p>She. </p>
         </sp>
-        <sp xml:id="ep000515-e14500">
+        <sp who="ep000515-or" xml:id="ep000515-e14500">
           <speaker>Or. </speaker>
           <l>Alas! </l>
           <l>They talk of her as of a pleasing vision </l>
@@ -1437,62 +1534,62 @@
           <l>But, Madam, who are you, who here enquire </l>
           <l>Thus circumstantially of Grecian matters? </l>
         </sp>
-        <sp xml:id="ep000515-e14590">
+        <sp who="ep000515-iph" xml:id="ep000515-e14590">
           <speaker>Iph. </speaker>
           <l>I too was born in Greece, and young was torn from it. </l>
           <l>Should I proceed, my story is so strange, </l>
           <l>That it could ne're find credit with you. </l>
           <l>How bears the General his high Felicity? </l>
         </sp>
-        <sp xml:id="ep000515-e14660">
+        <sp who="ep000515-or" xml:id="ep000515-e14660">
           <speaker>Or. </speaker>
           <l>What General? I am grown an utter stranger, </l>
           <l>Ev'n to the very names of all the happy. </l>
         </sp>
-        <sp xml:id="ep000515-e14700">
+        <sp who="ep000515-iph" xml:id="ep000515-e14700">
           <speaker>Iph. </speaker>
           <p>The King of Kings, Imperial Agamemnon. </p>
         </sp>
-        <sp xml:id="ep000515-e14740">
+        <sp who="ep000515-or" xml:id="ep000515-e14740">
           <speaker>Or. </speaker>
           <p>I cannot, will not speak, enquire no further. </p>
         </sp>
-        <sp xml:id="ep000515-e14770">
+        <sp who="ep000515-iph" xml:id="ep000515-e14770">
           <speaker>Iph. </speaker>
           <l>Now by the Gods proceed, I here conjure you </l>
           <l>'Tis a long time since last my Soul knew comfort </l>
         </sp>
-        <sp xml:id="ep000515-e14810">
+        <sp who="ep000515-or" xml:id="ep000515-e14810">
           <speaker>Or. </speaker>
           <p>The King of Kings, is now but common clay. </p>
         </sp>
-        <sp xml:id="ep000515-e14840">
+        <sp who="ep000515-iph" xml:id="ep000515-e14840">
           <speaker>Iph. </speaker>
           <p>Then are his Children wretched; say, how died he? </p>
         </sp>
-        <sp xml:id="ep000515-e14870">
+        <sp who="ep000515-or" xml:id="ep000515-e14870">
           <speaker>Or. </speaker>
           <p>Most miserably, for himself and others? </p>
         </sp>
-        <sp xml:id="ep000515-e14900">
+        <sp who="ep000515-iph" xml:id="ep000515-e14900">
           <speaker>Iph. </speaker>
           <p>Alas! but, how? </p>
         </sp>
-        <sp xml:id="ep000515-e14930">
+        <sp who="ep000515-or" xml:id="ep000515-e14930">
           <speaker>Or. </speaker>
           <l>As Troy and Priam tumbled from their height, </l>
           <l>As all the Race of Tantalus has faln, </l>
           <l>So perish'd Agamemnon by a Woman. </l>
         </sp>
-        <sp xml:id="ep000515-e15020">
+        <sp who="ep000515-iph" xml:id="ep000515-e15020">
           <speaker>Iph. </speaker>
           <p>A wretched creature sure, whoe're she be. </p>
         </sp>
-        <sp xml:id="ep000515-e15050">
+        <sp who="ep000515-or" xml:id="ep000515-e15050">
           <speaker>Or. </speaker>
           <p>She weeps, by Heav'n; from whence these flowing tears? </p>
         </sp>
-        <sp xml:id="ep000515-e15080">
+        <sp who="ep000515-iph" xml:id="ep000515-e15080">
           <speaker>Iph. </speaker>
           <l>I mourn, reflecting on his former happiness, </l>
           <l>I mourn the sad vicissitudes of Fate, </l>
@@ -1501,95 +1598,95 @@
           <pb n="19" xml:id="ep000515-016-b"/>
           <l>My own forlorn estate. How bears the Queen?— </l>
         </sp>
-        <sp xml:id="ep000515-e15150">
+        <sp who="ep000515-or" xml:id="ep000515-e15150">
           <speaker>Or. </speaker>
           <l>Hold▪ by the Gods I here conjure you hold, </l>
           <l>By vain enquiry plague my Soul no more. </l>
         </sp>
-        <sp xml:id="ep000515-e15190">
+        <sp who="ep000515-iph" xml:id="ep000515-e15190">
           <speaker>Iph. </speaker>
           <l>Answer this once, and I have done for ever: </l>
           <l>How bears the Queen this terrible disaster. </l>
         </sp>
-        <sp xml:id="ep000515-e15230">
+        <sp who="ep000515-or" xml:id="ep000515-e15230">
           <speaker>Or. </speaker>
           <p>The Queen still met a more Tremendous Destiny. </p>
         </sp>
-        <sp xml:id="ep000515-e15260">
+        <sp who="ep000515-iph" xml:id="ep000515-e15260">
           <speaker>Iph. </speaker>
           <l>Dissolve me Gods into a flood of Tears. </l>
           <l>
             <stage xml:id="ep000515-e15300">aside: </stage>How fell she? </l>
         </sp>
-        <sp xml:id="ep000515-e15310">
+        <sp who="ep000515-or" xml:id="ep000515-e15310">
           <speaker>Or. </speaker>
           <l>Alas, 'tis terrible, it shakes my Nature▪ </l>
           <l>She fell by— </l>
         </sp>
-        <sp xml:id="ep000515-e15350">
+        <sp who="ep000515-iph" xml:id="ep000515-e15350">
           <speaker>Iph. </speaker>
           <p>Whom? </p>
         </sp>
-        <sp xml:id="ep000515-e15380">
+        <sp who="ep000515-or" xml:id="ep000515-e15380">
           <speaker>Or. </speaker>
           <p>By the curst wretch to whom she gave his Being. </p>
         </sp>
-        <sp xml:id="ep000515-e15410">
+        <sp who="ep000515-iph" xml:id="ep000515-e15410">
           <speaker>Iph. </speaker>
           <l>By her own Son? Astonishment of woe! </l>
           <l>Wherefore? </l>
         </sp>
-        <sp xml:id="ep000515-e15450">
+        <sp who="ep000515-or" xml:id="ep000515-e15450">
           <speaker>Or. </speaker>
           <l>His Royal Father he reveng'd, </l>
           <l>Whom barbarously she murder'd. </l>
         </sp>
-        <sp xml:id="ep000515-e15490">
+        <sp who="ep000515-iph" xml:id="ep000515-e15490">
           <speaker>Iph. </speaker>
           <l>Murder'd! </l>
           <l>O Horror upon Horror! Dismal Race, </l>
           <l>The true Descent of Torsalto! </l>
           <l>Deplorable the Crime, and dire the Vengeance! </l>
         </sp>
-        <sp xml:id="ep000515-e15560">
+        <sp who="ep000515-or" xml:id="ep000515-e15560">
           <speaker>Or. </speaker>
           <p>And direly have the Gods repaid him. </p>
         </sp>
-        <sp xml:id="ep000515-e15590">
+        <sp who="ep000515-iph" xml:id="ep000515-e15590">
           <speaker>Iph. </speaker>
           <p>〈◊〉 he now 〈◊〉 Arges? </p>
         </sp>
-        <sp xml:id="ep000515-e15630">
+        <sp who="ep000515-or" xml:id="ep000515-e15630">
           <speaker>Or. </speaker>
           <p>Everywhere, and no where. </p>
         </sp>
         <stage xml:id="ep000515-e15660">〈◊〉 Euphrosine▪ Iphigenia <hi>goes to her</hi>. </stage>
-        <sp xml:id="ep000515-e15690">
+        <sp who="ep000515-euph" xml:id="ep000515-e15690">
           <speaker>Euph. </speaker>
           <p>Madam, the Queen approaches. </p>
         </sp>
-        <sp xml:id="ep000515-e15720">
+        <sp who="ep000515-or" xml:id="ep000515-e15720">
           <speaker>Or. </speaker>
           <l>Hast thou observ'd that Lady well, my Friend, </l>
           <l>That's so acquainted with th' affairs of Greece? </l>
         </sp>
-        <sp xml:id="ep000515-e15770">
+        <sp who="ep000515-pil" xml:id="ep000515-e15770">
           <speaker>Pil. </speaker>
           <p>I have. </p>
         </sp>
-        <sp xml:id="ep000515-e15800">
+        <sp who="ep000515-or" xml:id="ep000515-e15800">
           <speaker>Or. </speaker>
           <p>Methinks there's much of Hellen in her form. </p>
         </sp>
-        <sp xml:id="ep000515-e15840">
+        <sp who="ep000515-pil" xml:id="ep000515-e15840">
           <speaker>Pil. </speaker>
           <p>I was about t' inform you that I thought so. </p>
         </sp>
-        <sp xml:id="ep000515-e15870">
+        <sp who="ep000515-or" xml:id="ep000515-e15870">
           <speaker>Or. </speaker>
           <p>That very Air that set the world on fire. </p>
         </sp>
-        <sp xml:id="ep000515-e15900">
+        <sp who="ep000515-pil" xml:id="ep000515-e15900">
           <speaker>Pil. </speaker>
           <l>As sweet, yet check'd by something that's severe. </l>
           <l>And see the very motion of that eye, </l>
@@ -1597,18 +1694,18 @@
           <l>That moves ev'n mine in this my lost condition. </l>
         </sp>
         <stage xml:id="ep000515-e15960">aside, </stage>
-        <sp xml:id="ep000515-e15970">
+        <sp who="ep000515-or" xml:id="ep000515-e15970">
           <speaker>Or. </speaker>
           <l>She is not only fair, my friend, she is good too, </l>
           <l>She pities our misfortunes, nay, she weeps for them. </l>
         </sp>
-        <sp xml:id="ep000515-e16010">
+        <sp who="ep000515-pil" xml:id="ep000515-e16010">
           <speaker>Pil. </speaker>
           <l>Pity's the Harbinger of Love, suppose </l>
           <l>That this should be the object which the god </l>
           <l>Foretold should be oblig'd by Love to assist us? </l>
         </sp>
-        <sp xml:id="ep000515-e16060">
+        <sp who="ep000515-or" xml:id="ep000515-e16060">
           <speaker>Or. </speaker>
           <l>I would to Heaven it were! O hopeless wish▪ </l>
           <l>For at the sight of her my Soul dilates itself, </l>
@@ -1617,7 +1714,7 @@
         </sp>
         <stage xml:id="ep000515-e16120">
           <pb n="20" xml:id="ep000515-017-a"/>Enter Queen. Guard. </stage>
-        <sp xml:id="ep000515-e16130">
+        <sp who="ep000515-queen" xml:id="ep000515-e16130">
           <speaker>Queen. </speaker>
           <l>At length our Scythians have redeem'd their Honour, </l>
           <l>And haughty Strangers you are in our pow'r. </l>
@@ -1627,7 +1724,7 @@
           <l>Strait to the Temple let him be conducted, </l>
           <l>And there expire the Victim of the Goddess. </l>
         </sp>
-        <sp xml:id="ep000515-e16240">
+        <sp who="ep000515-or" xml:id="ep000515-e16240">
           <speaker>Or. </speaker>
           <l>The very mercy of a Scythians cruelty; </l>
           <l>I gave you Life and Liberty, because. </l>
@@ -1637,18 +1734,18 @@
           <l>With my Friends Life and Liberty requite them, </l>
           <l>And let my Blood appease your cruel Goddess. </l>
         </sp>
-        <sp xml:id="ep000515-e16340">
+        <sp who="ep000515-queen" xml:id="ep000515-e16340">
           <speaker>Queen. </speaker>
           <l>Proud! Hast thou then disdain'd my proffer'd mercy? </l>
           <l>Know one of you is doom'd to die, and instantly: </l>
           <l>Determine which between you. </l>
         </sp>
-        <sp xml:id="ep000515-e16390">
+        <sp who="ep000515-pil" xml:id="ep000515-e16390">
           <speaker>Pil. </speaker>
           <p>Scythians, conduct your Prisoner. </p>
         </sp>
         <stage xml:id="ep000515-e16430">They are going. </stage>
-        <sp xml:id="ep000515-e16440">
+        <sp who="ep000515-or" xml:id="ep000515-e16440">
           <speaker>Or. </speaker>
           <l>Hold, you Barbarians, hold. </l>
           <l>By all that wondrous pow'r of Sacred Friendship, </l>
@@ -1667,32 +1764,32 @@
           <l>That I should proveso recreant to all goodness, </l>
           <l>To let you suffer here instead of me? </l>
         </sp>
-        <sp xml:id="ep000515-e16640">
+        <sp who="ep000515-pil" xml:id="ep000515-e16640">
           <speaker>Pil. </speaker>
           <p>Would you not have me suffer? </p>
         </sp>
-        <sp xml:id="ep000515-e16670">
+        <sp who="ep000515-or" xml:id="ep000515-e16670">
           <speaker>Or. </speaker>
           <l>Would I not have thee suffer? canst thou ask it? </l>
           <l>O my Friend! </l>
         </sp>
-        <sp xml:id="ep000515-e16710">
+        <sp who="ep000515-pil" xml:id="ep000515-e16710">
           <speaker>Pil. </speaker>
           <l>And yet you urge me to survive you, </l>
           <l>O contradiction! </l>
         </sp>
-        <sp xml:id="ep000515-e16750">
+        <sp who="ep000515-or" xml:id="ep000515-e16750">
           <speaker>Or. </speaker>
           <l>What hast thou done, which can deserve the death, </l>
           <l>Which fondly thus thou court'st? </l>
         </sp>
-        <sp xml:id="ep000515-e16790">
+        <sp who="ep000515-pil" xml:id="ep000515-e16790">
           <speaker>Pil. </speaker>
           <l>What have I done that I deserve to live </l>
           <l>After the only man of all the world </l>
           <l>That's fit to be my Friend? </l>
         </sp>
-        <sp xml:id="ep000515-e16840">
+        <sp who="ep000515-or" xml:id="ep000515-e16840">
           <speaker>Or. </speaker>
           <l>Thou hast no loss in me, or if thou had'st </l>
           <l>Thou hast a Soul that is above thy Fortune, </l>
@@ -1700,7 +1797,7 @@
           <l>Oh live my Friend, and shew this cursed Race </l>
           <l>What Grecians can endure! </l>
         </sp>
-        <sp xml:id="ep000515-e16910">
+        <sp who="ep000515-pil" xml:id="ep000515-e16910">
           <speaker>Pil. </speaker>
           <l>What live to see you here expire </l>
           <l>Before my very Face! </l>
@@ -1709,7 +1806,7 @@
           <l>Away, I always own'd my self a man, </l>
           <l>And own no Virtue of that barbarous nature! </l>
         </sp>
-        <sp xml:id="ep000515-e17000">
+        <sp who="ep000515-or" xml:id="ep000515-e17000">
           <speaker>Or. </speaker>
           <l>What will become of me? </l>
           <l>If 'tis so hard to thee to lose thy Friend, </l>
@@ -1721,23 +1818,23 @@
           <l>Of sorrow, which no Tongue of man can utter. </l>
           <l>O cursed sting of guilt that's insupportable! </l>
         </sp>
-        <sp xml:id="ep000515-e17110">
+        <sp who="ep000515-pil" xml:id="ep000515-e17110">
           <speaker>Pil. </speaker>
           <p>Thou hast no guilt, the Gods themselves declar'd it. </p>
         </sp>
-        <sp xml:id="ep000515-e17140">
+        <sp who="ep000515-or" xml:id="ep000515-e17140">
           <speaker>Or. </speaker>
           <p>Oh I have done a deed! </p>
         </sp>
-        <sp xml:id="ep000515-e17170">
+        <sp who="ep000515-pil" xml:id="ep000515-e17170">
           <speaker>Pil. </speaker>
           <p>The Gods commanded thee. </p>
         </sp>
-        <sp xml:id="ep000515-e17200">
+        <sp who="ep000515-or" xml:id="ep000515-e17200">
           <speaker>Or. </speaker>
           <p>Nature forbid me. </p>
         </sp>
-        <sp xml:id="ep000515-e17230">
+        <sp who="ep000515-pil" xml:id="ep000515-e17230">
           <speaker>Pil. </speaker>
           <l>Nature is theirs, and theirs are all her Laws, </l>
           <l>What their supream Authority has made, </l>
@@ -1745,7 +1842,7 @@
           <l>Thou could'st not help performing their commands, </l>
           <l>For what they will, is fate. </l>
         </sp>
-        <sp xml:id="ep000515-e17300">
+        <sp who="ep000515-or" xml:id="ep000515-e17300">
           <speaker>Or. </speaker>
           <l>Then why at my last need have they forsaken me, </l>
           <l>Why has the baser world disown'd this Fact, </l>
@@ -1770,7 +1867,7 @@
           <l>Ye formidable Goddesses ascend, </l>
           <l>And threefold madness to befriend me seize me. </l>
         </sp>
-        <sp xml:id="ep000515-e17530">
+        <sp who="ep000515-pil" xml:id="ep000515-e17530">
           <speaker>Pil. </speaker>
           <l>What shall I do? </l>
           <l>His fury wildly champs upon the Curb, </l>
@@ -1785,82 +1882,82 @@
           <l>And with a bleeding heart has heard </l>
           <l>Thy miserable plea. </l>
         </sp>
-        <sp xml:id="ep000515-e17670">
+        <sp who="ep000515-or" xml:id="ep000515-e17670">
           <speaker>Or. </speaker>
           <p>Is it not fitting then that I should bleed? </p>
         </sp>
-        <sp xml:id="ep000515-e17700">
+        <sp who="ep000515-pil" xml:id="ep000515-e17700">
           <speaker>Pil. </speaker>
           <p>Grant me but one Request, and thou shalt die. </p>
         </sp>
-        <sp xml:id="ep000515-e17730">
+        <sp who="ep000515-or" xml:id="ep000515-e17730">
           <speaker>Or. </speaker>
           <p>'Tis thine, whate're it be. </p>
         </sp>
-        <sp xml:id="ep000515-e17760">
+        <sp who="ep000515-pil" xml:id="ep000515-e17760">
           <speaker>Pil. </speaker>
           <p>But swear. </p>
         </sp>
-        <sp xml:id="ep000515-e17790">
+        <sp who="ep000515-or" xml:id="ep000515-e17790">
           <speaker>Or. </speaker>
           <l>Then by th' Almighty pow'r of our Jove, </l>
           <l>By all our great Progenitors, his Off-spring, </l>
           <l>I swear! </l>
         </sp>
-        <sp xml:id="ep000515-e17850">
+        <sp who="ep000515-pil" xml:id="ep000515-e17850">
           <speaker>Pil. </speaker>
           <l>That thou wilt die as thou hast liv'd, </l>
           <l>My Friend and my Companion. </l>
         </sp>
-        <sp xml:id="ep000515-e17890">
+        <sp who="ep000515-or" xml:id="ep000515-e17890">
           <speaker>Or. </speaker>
           <p>Couldst thou doubt that? How willingly I swear! </p>
         </sp>
-        <sp xml:id="ep000515-e17920">
+        <sp who="ep000515-pil" xml:id="ep000515-e17920">
           <speaker>Pil. </speaker>
           <p>Then hast thou sworn that I shall not survive thee. </p>
         </sp>
-        <sp xml:id="ep000515-e17950">
+        <sp who="ep000515-or" xml:id="ep000515-e17950">
           <speaker>Or. </speaker>
           <p>Nay, that my last Request.— </p>
         </sp>
-        <sp xml:id="ep000515-e17980">
+        <sp who="ep000515-pil" xml:id="ep000515-e17980">
           <speaker>Pil. </speaker>
           <l>Hold, by the Gods, to whom thou standst oblig'd </l>
           <l>By dreadful Oaths; hold, make not that request, </l>
           <l>And be not perjur'd in the hour of Death. </l>
         </sp>
-        <sp xml:id="ep000515-e18030">
+        <sp who="ep000515-or" xml:id="ep000515-e18030">
           <speaker>Or. </speaker>
           <l>Ha! </l>
           <l>Now Death is arm'd, and with a fearful Sting▪ </l>
         </sp>
-        <sp xml:id="ep000515-e18070">
+        <sp who="ep000515-queen" xml:id="ep000515-e18070">
           <speaker>Queen. </speaker>
           <p>Now, Grecians, who's the Victim? </p>
         </sp>
-        <sp xml:id="ep000515-e18110">
+        <sp who="ep000515-or" xml:id="ep000515-e18110">
           <speaker>Or. </speaker>
           <p>'Tis I. </p>
         </sp>
-        <sp xml:id="ep000515-e18140">
+        <sp who="ep000515-pil" xml:id="ep000515-e18140">
           <speaker>Pil. </speaker>
           <p>'Tis I. </p>
         </sp>
-        <sp xml:id="ep000515-e18170">
+        <sp who="ep000515-or" xml:id="ep000515-e18170">
           <speaker>Or. </speaker>
           <p>Pil. 'Tis both. </p>
         </sp>
-        <sp xml:id="ep000515-e18210">
+        <sp who="ep000515-queen" xml:id="ep000515-e18210">
           <speaker>Queen. </speaker>
           <l>But both it must not be, I here am absolute, </l>
           <l>But one shall fall a Victim to the Goddess. </l>
         </sp>
-        <sp xml:id="ep000515-e18250">
+        <sp who="ep000515-pil" xml:id="ep000515-e18250">
           <speaker>Pil. </speaker>
           <p>To holy Friendship t'other falls a sacrifice. </p>
         </sp>
-        <sp xml:id="ep000515-e18280">
+        <sp who="ep000515-queenaside" xml:id="ep000515-e18280">
           <speaker>Queen aside. </speaker>
           <l>These are, ye Gods, the works of your own hands, </l>
           <l>Your living Image. </l>
@@ -1872,53 +1969,53 @@
         </sp>
         <stage xml:id="ep000515-e18380">
           <hi>Exeunt Queen and Attendants. Manet </hi>Iphigenia, Euph. </stage>
-        <sp xml:id="ep000515-e18400">
+        <sp who="ep000515-iph" xml:id="ep000515-e18400">
           <pb n="23" xml:id="ep000515-018-b"/>
           <speaker>Iph. </speaker>
           <l>Stay, my Euphrosine, one moment stay, </l>
           <l>Hast thou observ'd that Godlike Youth, </l>
           <l>Who shew'd that noble sorrow? </l>
         </sp>
-        <sp xml:id="ep000515-e18460">
+        <sp who="ep000515-euph" xml:id="ep000515-e18460">
           <speaker>Euph. </speaker>
           <p>I have. </p>
         </sp>
-        <sp xml:id="ep000515-e18490">
+        <sp who="ep000515-iph" xml:id="ep000515-e18490">
           <speaker>Iph. </speaker>
           <l>Does he deserve the Death which we prepare for him? </l>
           <l>Does he not, say, Deserve to be Immortal? </l>
         </sp>
-        <sp xml:id="ep000515-e18530">
+        <sp who="ep000515-euph" xml:id="ep000515-e18530">
           <speaker>Euph. </speaker>
           <p>Yet he must die. </p>
         </sp>
-        <sp xml:id="ep000515-e18560">
+        <sp who="ep000515-iph" xml:id="ep000515-e18560">
           <speaker>Iph. </speaker>
           <p>Dye Nature first; he must not Dye, Euphrosine. </p>
         </sp>
-        <sp xml:id="ep000515-e18600">
+        <sp who="ep000515-euph" xml:id="ep000515-e18600">
           <speaker>Euph. </speaker>
           <p>Yes, in the Arms of a young Beauteous Queen. </p>
         </sp>
-        <sp xml:id="ep000515-e18630">
+        <sp who="ep000515-iph" xml:id="ep000515-e18630">
           <speaker>Iph. </speaker>
           <l>Ha! </l>
           <l>First let him bleed; no▪ let him live, ye pow'rs, </l>
           <l>Let Iphigenia Die. </l>
         </sp>
-        <sp xml:id="ep000515-e18690">
+        <sp who="ep000515-euph" xml:id="ep000515-e18690">
           <speaker>Euph. </speaker>
           <p>Amazement? What do I hear? </p>
         </sp>
-        <sp xml:id="ep000515-e18720">
+        <sp who="ep000515-iph" xml:id="ep000515-e18720">
           <speaker>Iph. </speaker>
           <p>What wilt thou say when thou hast heard the rest. </p>
         </sp>
-        <sp xml:id="ep000515-e18750">
+        <sp who="ep000515-euph" xml:id="ep000515-e18750">
           <speaker>Euph. </speaker>
           <p>The rest, oh Heav'ns! </p>
         </sp>
-        <sp xml:id="ep000515-e18780">
+        <sp who="ep000515-iph" xml:id="ep000515-e18780">
           <speaker>Iph. </speaker>
           <l>To my Apartment instantly let's go, </l>
           <l>There thou the secret of my Soul shalt know, </l>
@@ -1929,27 +2026,27 @@
       <div n="3" type="act" xml:id="ep000515-e18840">
         <head>ACT III. </head>
         <stage xml:id="ep000515-e18860">Iphigenia, Euphrosine. </stage>
-        <sp xml:id="ep000515-e18870">
+        <sp who="ep000515-iph" xml:id="ep000515-e18870">
           <speaker>Iph. </speaker>
           <p>WIlt thou betray me? </p>
         </sp>
-        <sp xml:id="ep000515-e18900">
+        <sp who="ep000515-euph" xml:id="ep000515-e18900">
           <speaker>Euph. </speaker>
           <p>I'll rather dye with you. </p>
         </sp>
-        <sp xml:id="ep000515-e18930">
+        <sp who="ep000515-iph" xml:id="ep000515-e18930">
           <speaker>Iph. </speaker>
           <l>Disswade me then no more; I am determin'd, </l>
           <l>And Fate crys out I must not lose a moment. </l>
           <l>Be gone then, fly, and send the unhappy Grecian to me. </l>
         </sp>
         <stage xml:id="ep000515-e18990">Enter Delia. </stage>
-        <sp xml:id="ep000515-e19010">
+        <sp who="ep000515-del" xml:id="ep000515-e19010">
           <speaker>Del. </speaker>
           <l>Madam, the Queen commands that both the strangers </l>
           <l>Without delay be brought into her presence. </l>
         </sp>
-        <sp xml:id="ep000515-e19050">
+        <sp who="ep000515-iph" xml:id="ep000515-e19050">
           <speaker>Iph. </speaker>
           <l>Unfortunate command that thus prevents me! </l>
           <l>I will not be prevented; inspire me thou, </l>
@@ -1975,7 +2072,7 @@
           <l>Preserve us, thou preserver of the Universe! </l>
         </sp>
         <stage xml:id="ep000515-e19320">Enter Orestes. </stage>
-        <sp xml:id="ep000515-e19340">
+        <sp who="ep000515-or" xml:id="ep000515-e19340">
           <speaker>Or. </speaker>
           <l>Here all alone! That pleases me: But why, </l>
           <l>Why I can gaze upon her unobserv'd, </l>
@@ -1993,23 +2090,23 @@
           <l>It was your pleasure that a dying wretch </l>
           <l>Should come and take his leave of you. </l>
         </sp>
-        <sp xml:id="ep000515-e19510">
+        <sp who="ep000515-iph" xml:id="ep000515-e19510">
           <speaker>Iph. </speaker>
           <l>Stranger, I sent for you to give you notice </l>
           <l>That th' Altar is adorn'd, the Steel prepar'd, </l>
           <l>And the next moment they expect the Victim. </l>
         </sp>
-        <sp xml:id="ep000515-e19560">
+        <sp who="ep000515-or" xml:id="ep000515-e19560">
           <speaker>Or. </speaker>
           <l>The Victim will attend them. </l>
           <l>But whose must be the executing arm? </l>
         </sp>
-        <sp xml:id="ep000515-e19600">
+        <sp who="ep000515-iph" xml:id="ep000515-e19600">
           <speaker>Iph. </speaker>
           <l>Look how it Trembles at the Dreadful Deed! </l>
           <l>Methinks with Horror, Stranger, you survey me. </l>
         </sp>
-        <sp xml:id="ep000515-e19640">
+        <sp who="ep000515-or" xml:id="ep000515-e19640">
           <speaker>Or. </speaker>
           <l>No, do but strike with that soft melting look, </l>
           <l>And my last breath shall Blessing pour my Soul on thee. </l>
@@ -2017,7 +2114,7 @@
           <l>That nought respires but Blood and horrid Murther. </l>
           <l>How long have you possess'd it? </l>
         </sp>
-        <sp xml:id="ep000515-e19710">
+        <sp who="ep000515-iph" xml:id="ep000515-e19710">
           <speaker>Iph. </speaker>
           <l>Last night the Scythians, threatning horrid Tortures, </l>
           <l>Compell'd me to accept of it; </l>
@@ -2025,77 +2122,77 @@
           <l>The fear of striking this accursed blow </l>
           <l>Has torn my heartin pieces. </l>
         </sp>
-        <sp xml:id="ep000515-e19790">
+        <sp who="ep000515-or" xml:id="ep000515-e19790">
           <speaker>Or. </speaker>
           <p>What object makes you start, and turn so pale? </p>
         </sp>
-        <sp xml:id="ep000515-e19820">
+        <sp who="ep000515-iph" xml:id="ep000515-e19820">
           <speaker>Iph. </speaker>
           <l>I sark! heard you not the Temple doors </l>
           <l>Upon their hinges turning! </l>
         </sp>
-        <sp xml:id="ep000515-e19860">
+        <sp who="ep000515-or" xml:id="ep000515-e19860">
           <pb n="25" xml:id="ep000515-019-b"/>
           <speaker>Or. </speaker>
           <l>No, Twas the hollow Breath of the Black North, </l>
           <l>That grumbles on the Mountain▪ </l>
         </sp>
-        <sp xml:id="ep000515-e19900">
+        <sp who="ep000515-iph" xml:id="ep000515-e19900">
           <speaker>Iph. </speaker>
           <l>My Apprehension every Moment murders me; </l>
           <l>Ah Gods! we must make haste, the fatal Time draws nigh. </l>
         </sp>
-        <sp xml:id="ep000515-e19940">
+        <sp who="ep000515-or" xml:id="ep000515-e19940">
           <speaker>Or. </speaker>
           <l>Yet something wou'd I whisper to your Soul, </l>
           <l>Wou'd you vouchsafe to hear me▪ </l>
         </sp>
-        <sp xml:id="ep000515-e19980">
+        <sp who="ep000515-iph" xml:id="ep000515-e19980">
           <speaker>Iph. </speaker>
           <l>Alas 'tis now too late, we must be gone. </l>
         </sp>
-        <sp xml:id="ep000515-e20010">
+        <sp who="ep000515-or" xml:id="ep000515-e20010">
           <speaker>Or. </speaker>
           <p>To Death, at your Command▪ this readily I run. </p>
         </sp>
         <stage xml:id="ep000515-e20040">Going towards the Temple. </stage>
-        <sp xml:id="ep000515-e20050">
+        <sp who="ep000515-iph" xml:id="ep000515-e20050">
           <speaker>Iph. </speaker>
           <l>Ah Gods! </l>
           <l>You run you know not whither; that's not the way. </l>
           <l>Suppose that now some pitying God persuades me </l>
           <l>Yet to preserve you from impending Fate. </l>
         </sp>
-        <sp xml:id="ep000515-e20110">
+        <sp who="ep000515-or" xml:id="ep000515-e20110">
           <speaker>Or. </speaker>
           <p>And my Friend too! </p>
         </sp>
-        <sp xml:id="ep000515-e20140">
+        <sp who="ep000515-iph" xml:id="ep000515-e20140">
           <speaker>Iph. </speaker>
           <p>And him too. </p>
         </sp>
-        <sp xml:id="ep000515-e20170">
+        <sp who="ep000515-or" xml:id="ep000515-e20170">
           <speaker>Or. </speaker>
           <p>To that propitious God my very self I'll sacrifice. </p>
         </sp>
-        <sp xml:id="ep000515-e20200">
+        <sp who="ep000515-iph" xml:id="ep000515-e20200">
           <speaker>Iph. </speaker>
           <p>Wou'd you take me the Partner of your Flight? </p>
         </sp>
-        <sp xml:id="ep000515-e20230">
+        <sp who="ep000515-or" xml:id="ep000515-e20230">
           <speaker>Or. </speaker>
           <l>The Partner! What a Whirl of Fate is here! </l>
           <l>Surprize and Joy distract me. </l>
         </sp>
-        <sp xml:id="ep000515-e20270">
+        <sp who="ep000515-iph" xml:id="ep000515-e20270">
           <speaker>Iph. </speaker>
           <p>Wou'd you? </p>
         </sp>
-        <sp xml:id="ep000515-e20300">
+        <sp who="ep000515-or" xml:id="ep000515-e20300">
           <speaker>Or. </speaker>
           <p>Or may I perish in it unlamented. </p>
         </sp>
-        <sp xml:id="ep000515-e20330">
+        <sp who="ep000515-iph" xml:id="ep000515-e20330">
           <speaker>Iph. </speaker>
           <l>No more. Near yonder Western Point there lies </l>
           <l>A leaky, Tempest-beaten, tatter'd Bark; </l>
@@ -2103,22 +2200,22 @@
           <l>To fit them for the Labours of the Day; </l>
           <l>That we must seize on, and must trust to that. </l>
         </sp>
-        <sp xml:id="ep000515-e20400">
+        <sp who="ep000515-or" xml:id="ep000515-e20400">
           <speaker>Or. </speaker>
           <l>Alas, we need not: Near you Eastern Point </l>
           <l>The Stout, the Strong-ribb'd Argosy attends us: </l>
           <l>A hundred daring Souls inclos'd in its huge Bulk, </l>
           <l>All waiting on my Nod. </l>
         </sp>
-        <sp xml:id="ep000515-e20470">
+        <sp who="ep000515-iph" xml:id="ep000515-e20470">
           <speaker>Iph. </speaker>
           <p>Were you not wreck'd then? </p>
         </sp>
-        <sp xml:id="ep000515-e20500">
+        <sp who="ep000515-or" xml:id="ep000515-e20500">
           <speaker>Or. </speaker>
           <p>Among the Rocks the Vestal rides conceal'd. </p>
         </sp>
-        <sp xml:id="ep000515-e20530">
+        <sp who="ep000515-iph" xml:id="ep000515-e20530">
           <speaker>Iph. </speaker>
           <l>What do I hear! nay then, the Gods regard us. </l>
           <l>Remove a little further to the Right, </l>
@@ -2126,39 +2223,39 @@
           <l>Thither I must return, and thence transport </l>
           <l>The Image of the Goddess, </l>
         </sp>
-        <sp xml:id="ep000515-e20600">
+        <sp who="ep000515-or" xml:id="ep000515-e20600">
           <speaker>Or. </speaker>
           <p>That in my Rapture I had quite forgot. </p>
         </sp>
         <stage xml:id="ep000515-e20630">Aside </stage>
-        <sp xml:id="ep000515-e20640">
+        <sp who="ep000515-iph" xml:id="ep000515-e20640">
           <speaker>Iph. </speaker>
           <l>So shall we still be under her Protection, </l>
           <l>And shall avoid the fierceness of her Anger. </l>
         </sp>
-        <sp xml:id="ep000515-e20680">
+        <sp who="ep000515-or" xml:id="ep000515-e20680">
           <speaker>Or. </speaker>
           <l>Alas! You've nam'd the very fatal Thing </l>
           <l>For which we touch'd on this accursed Shore. </l>
         </sp>
-        <sp xml:id="ep000515-e20720">
+        <sp who="ep000515-iph" xml:id="ep000515-e20720">
           <speaker>Iph. </speaker>
           <p>Then came you here by choice? </p>
         </sp>
-        <sp xml:id="ep000515-e20750">
+        <sp who="ep000515-or" xml:id="ep000515-e20750">
           <speaker>Or. </speaker>
           <p>To fetch this fatal Image of the Goddess. </p>
         </sp>
-        <sp xml:id="ep000515-e20780">
+        <sp who="ep000515-iph" xml:id="ep000515-e20780">
           <speaker>Iph. </speaker>
           <p>What mov'd you to it? </p>
         </sp>
-        <sp xml:id="ep000515-e20810">
+        <sp who="ep000515-or" xml:id="ep000515-e20810">
           <pb n="26" xml:id="ep000515-020-a"/>
           <speaker>Or. </speaker>
           <p>The Delphick God ordain'd it. </p>
         </sp>
-        <sp xml:id="ep000515-e20850">
+        <sp who="ep000515-iph" xml:id="ep000515-e20850">
           <speaker>Iph. </speaker>
           <l>Ha! </l>
           <l>How every thing I hear gives me new Life, </l>
@@ -2180,7 +2277,7 @@
           <l>So may you find the Happiness you wish for. </l>
         </sp>
         <stage xml:id="ep000515-e21060">Exit Iph. </stage>
-        <sp xml:id="ep000515-e21070">
+        <sp who="ep000515-or" xml:id="ep000515-e21070">
           <speaker>Or. </speaker>
           <l>Confirm that Wish, ye Heavens! </l>
           <l>Heark! Who comes there! A Man! Pray Heav'n a Friend! </l>
@@ -2196,32 +2293,32 @@
           <l>Now Fate beware a Counter-turn! </l>
           <l>Who comes here? </l>
         </sp>
-        <sp xml:id="ep000515-e21230">
+        <sp who="ep000515-pil" xml:id="ep000515-e21230">
           <speaker>Pil. </speaker>
           <p>A Friend </p>
         </sp>
-        <sp xml:id="ep000515-e21260">
+        <sp who="ep000515-or" xml:id="ep000515-e21260">
           <speaker>Or. </speaker>
           <p>My Pilades! </p>
         </sp>
-        <sp xml:id="ep000515-e21300">
+        <sp who="ep000515-pil" xml:id="ep000515-e21300">
           <speaker>Pil. </speaker>
           <p>The same. </p>
         </sp>
-        <sp xml:id="ep000515-e21330">
+        <sp who="ep000515-or" xml:id="ep000515-e21330">
           <speaker>Or. </speaker>
           <p>Speak lower. </p>
         </sp>
-        <sp xml:id="ep000515-e21360">
+        <sp who="ep000515-pil" xml:id="ep000515-e21360">
           <speaker>Pil. </speaker>
           <p>I cannot speak too loud, who bring thee Safety. </p>
         </sp>
-        <sp xml:id="ep000515-e21390">
+        <sp who="ep000515-or" xml:id="ep000515-e21390">
           <speaker>Or. </speaker>
           <l>Softly, I say: you know not what you do, </l>
           <l>Nor to what Danger you expose us both. </l>
         </sp>
-        <sp xml:id="ep000515-e21430">
+        <sp who="ep000515-pil" xml:id="ep000515-e21430">
           <speaker>Pil. </speaker>
           <l>The fear of Danger to the Winds deliver. </l>
           <l>I bring thee Life, and Health, and Joy, my Friend: </l>
@@ -2240,11 +2337,11 @@
           <l>Or, by attending on those cruel Altars, </l>
           <l>Appease the wrathful Goddess </l>
         </sp>
-        <sp xml:id="ep000515-e21650">
+        <sp who="ep000515-or" xml:id="ep000515-e21650">
           <speaker>Or. </speaker>
           <p>Proceed </p>
         </sp>
-        <sp xml:id="ep000515-e21680">
+        <sp who="ep000515-pil" xml:id="ep000515-e21680">
           <speaker>Pil. </speaker>
           <l>The Mistress she design'd for me the nam'd: </l>
           <l>The Name of yours she omitted; but she added, </l>
@@ -2252,167 +2349,167 @@
           <l>Upon your swift Compliance </l>
           <l>I, as your Friend, engage you shou'd comply. </l>
         </sp>
-        <sp xml:id="ep000515-e21750">
+        <sp who="ep000515-or" xml:id="ep000515-e21750">
           <speaker>Or. </speaker>
           <p>Why did you so? </p>
         </sp>
-        <sp xml:id="ep000515-e21780">
+        <sp who="ep000515-pil" xml:id="ep000515-e21780">
           <speaker>Pil. </speaker>
           <l>Because I found by what she said, </l>
           <l>And what she did not say, </l>
           <l>Her lovely Self's the Person she designs for thee! </l>
         </sp>
-        <sp xml:id="ep000515-e21830">
+        <sp who="ep000515-or" xml:id="ep000515-e21830">
           <speaker>Or. </speaker>
           <l>No matter. </l>
           <l>Without my Knowledge, why shou'd you engage? </l>
         </sp>
-        <sp xml:id="ep000515-e21870">
+        <sp who="ep000515-pil" xml:id="ep000515-e21870">
           <speaker>Pil. </speaker>
           <l>Why? </l>
           <l>Because I thought in this impending Danger </l>
           <l>You were in Reason bound, for your own sake, </l>
           <l>To make my Engagement good. </l>
         </sp>
-        <sp xml:id="ep000515-e21930">
+        <sp who="ep000515-or" xml:id="ep000515-e21930">
           <speaker>Or. </speaker>
           <p>For my own sake! I'll perish●ere comply. </p>
         </sp>
-        <sp xml:id="ep000515-e21960">
+        <sp who="ep000515-pil" xml:id="ep000515-e21960">
           <speaker>Pil. </speaker>
           <l>Then, as a Friend, I frankly must inform you, </l>
           <l>You stand oblig'd to make it good for mine. </l>
         </sp>
-        <sp xml:id="ep000515-e22000">
+        <sp who="ep000515-or" xml:id="ep000515-e22000">
           <speaker>Or. </speaker>
           <p>A meer imaginary Obligation? </p>
         </sp>
-        <sp xml:id="ep000515-e22030">
+        <sp who="ep000515-pil" xml:id="ep000515-e22030">
           <speaker>Pil. </speaker>
           <l>Imaginary? Will you force me then </l>
           <l>T' upbraid you? What wou'd I have done for you? </l>
         </sp>
-        <sp xml:id="ep000515-e22070">
+        <sp who="ep000515-or" xml:id="ep000515-e22070">
           <speaker>Or. </speaker>
           <p>You wou'd have died: and I wou'd bleed for Pilades. </p>
         </sp>
-        <sp xml:id="ep000515-e22110">
+        <sp who="ep000515-pil" xml:id="ep000515-e22110">
           <speaker>Pil. </speaker>
           <p>Dissembler. </p>
         </sp>
-        <sp xml:id="ep000515-e22140">
+        <sp who="ep000515-or" xml:id="ep000515-e22140">
           <speaker>Or. </speaker>
           <p>How! </p>
         </sp>
-        <sp xml:id="ep000515-e22170">
+        <sp who="ep000515-pil" xml:id="ep000515-e22170">
           <speaker>Pil. </speaker>
           <p>You talk of dying, and refuse me what's so very easie? </p>
         </sp>
-        <sp xml:id="ep000515-e22200">
+        <sp who="ep000515-or" xml:id="ep000515-e22200">
           <speaker>Or. </speaker>
           <p>Is then the doing a base thing so easie? </p>
         </sp>
-        <sp xml:id="ep000515-e22230">
+        <sp who="ep000515-pil" xml:id="ep000515-e22230">
           <speaker>Pil. </speaker>
           <p>Where is the Baseness in espousing her? </p>
         </sp>
-        <sp xml:id="ep000515-e22260">
+        <sp who="ep000515-or" xml:id="ep000515-e22260">
           <speaker>Or. </speaker>
           <l>Where is the Justice in espousing one, </l>
           <l>Whom I can never love? </l>
         </sp>
-        <sp xml:id="ep000515-e22300">
+        <sp who="ep000515-pil" xml:id="ep000515-e22300">
           <speaker>Pil. </speaker>
           <l>Come, come, your Friend is the unhappy Person </l>
           <l>Whom you cou'd never love. </l>
         </sp>
-        <sp xml:id="ep000515-e22340">
+        <sp who="ep000515-or" xml:id="ep000515-e22340">
           <speaker>Or. </speaker>
           <p>And yet you see I bear his bitterest Censures. </p>
         </sp>
-        <sp xml:id="ep000515-e22370">
+        <sp who="ep000515-pil" xml:id="ep000515-e22370">
           <speaker>Pil. </speaker>
           <l>Why can you never love her? </l>
           <pb n="28" xml:id="ep000515-021-a"/>
           <l>From whence proceeds the Aversion? </l>
         </sp>
-        <sp xml:id="ep000515-e22410">
+        <sp who="ep000515-or" xml:id="ep000515-e22410">
           <speaker>Or. </speaker>
           <l>Aversion I have none; for I esteem her: </l>
           <l>Nay, I admire her. </l>
         </sp>
-        <sp xml:id="ep000515-e22450">
+        <sp who="ep000515-pil" xml:id="ep000515-e22450">
           <speaker>Pil. </speaker>
           <p>Marry her then, and Love will soon succeed. </p>
         </sp>
-        <sp xml:id="ep000515-e22480">
+        <sp who="ep000515-or" xml:id="ep000515-e22480">
           <speaker>Or. </speaker>
           <p>Urge me no more. </p>
         </sp>
-        <sp xml:id="ep000515-e22510">
+        <sp who="ep000515-pil" xml:id="ep000515-e22510">
           <speaker>Pil. </speaker>
           <p>For your own sake, as well as mine, I must. </p>
         </sp>
-        <sp xml:id="ep000515-e22540">
+        <sp who="ep000515-or" xml:id="ep000515-e22540">
           <speaker>Or. </speaker>
           <p>Have but a little Patience. </p>
         </sp>
-        <sp xml:id="ep000515-e22570">
+        <sp who="ep000515-pil" xml:id="ep000515-e22570">
           <speaker>Pil. </speaker>
           <l>Were but my Life at Stake, I wou'd have Patience: </l>
           <l>But what I vaine more, much more than Life, </l>
           <l>My Love is lost, unless my Friend complies. </l>
         </sp>
-        <sp xml:id="ep000515-e22620">
+        <sp who="ep000515-or" xml:id="ep000515-e22620">
           <speaker>Or. </speaker>
           <p>Your Love? What Love? </p>
         </sp>
-        <sp xml:id="ep000515-e22650">
+        <sp who="ep000515-pil" xml:id="ep000515-e22650">
           <speaker>Pil. </speaker>
           <l>I told you that the Queen declar'd the Name </l>
           <l>Of her whom she design'd for me. </l>
         </sp>
-        <sp xml:id="ep000515-e22690">
+        <sp who="ep000515-or" xml:id="ep000515-e22690">
           <speaker>Or. </speaker>
           <p>And do you love her? </p>
         </sp>
-        <sp xml:id="ep000515-e22720">
+        <sp who="ep000515-pil" xml:id="ep000515-e22720">
           <speaker>Pil. </speaker>
           <l>●●●●er than Life, or what's more dear, than Peace; </l>
           <l>Unless she brings it to this wretched Breast. </l>
         </sp>
-        <sp xml:id="ep000515-e22760">
+        <sp who="ep000515-or" xml:id="ep000515-e22760">
           <speaker>Or. </speaker>
           <p>When cou'd you see her? </p>
         </sp>
-        <sp xml:id="ep000515-e22790">
+        <sp who="ep000515-pil" xml:id="ep000515-e22790">
           <speaker>Pil. </speaker>
           <p>At our Arrival. </p>
         </sp>
-        <sp xml:id="ep000515-e22820">
+        <sp who="ep000515-or" xml:id="ep000515-e22820">
           <speaker>Or. </speaker>
           <p>Ha! Where? </p>
         </sp>
-        <sp xml:id="ep000515-e22850">
+        <sp who="ep000515-pil" xml:id="ep000515-e22850">
           <speaker>Pil. </speaker>
           <p>Just on this very spot. </p>
         </sp>
-        <sp xml:id="ep000515-e22880">
+        <sp who="ep000515-or" xml:id="ep000515-e22880">
           <speaker>Or. </speaker>
           <p>Ha! on this Spot! saw whom! Gods, how I tremble! </p>
         </sp>
-        <sp xml:id="ep000515-e22910">
+        <sp who="ep000515-pil" xml:id="ep000515-e22910">
           <speaker>Pil. </speaker>
           <l>The Priestess, tho' I ne'er approach'd the Altar, </l>
           <l>Has with her pointed Weapon reach'd my Heart. </l>
         </sp>
-        <sp xml:id="ep000515-e22950">
+        <sp who="ep000515-or" xml:id="ep000515-e22950">
           <speaker>Or. </speaker>
           <l>Damnation! wonderful accursed Accident! </l>
           <l>Now Fate prepares her Counter-turn. You amaze me! </l>
           <l>Was that a time for Love to make Impressions? </l>
         </sp>
-        <sp xml:id="ep000515-e23000">
+        <sp who="ep000515-pil" xml:id="ep000515-e23000">
           <speaker>Pil. </speaker>
           <l>The force of Destiny wou'd surely have it so: </l>
           <l>And great Apollo's Oracle encourag'd me. </l>
@@ -2423,38 +2520,38 @@
           <l>She blew it into such a Flame, </l>
           <l>I must possess or die. </l>
         </sp>
-        <sp xml:id="ep000515-e23110">
+        <sp who="ep000515-or" xml:id="ep000515-e23110">
           <speaker>Or. </speaker>
           <p>How will relentless Heav'n dispose of me! </p>
         </sp>
         <stage xml:id="ep000515-e23140">Aside. </stage>
-        <sp xml:id="ep000515-e23150">
+        <sp who="ep000515-pil" xml:id="ep000515-e23150">
           <speaker>Pil. </speaker>
           <l>By that dear Love, and all my Hope of Happiness, </l>
           <l>Which lies in you, your faithful Friend entreats you. </l>
         </sp>
-        <sp xml:id="ep000515-e23190">
+        <sp who="ep000515-or" xml:id="ep000515-e23190">
           <speaker>Or. </speaker>
           <p>I'll hear no more, you know not what you ask. </p>
         </sp>
-        <sp xml:id="ep000515-e23220">
+        <sp who="ep000515-pil" xml:id="ep000515-e23220">
           <speaker>Pil. </speaker>
           <p>That you would do your Duty, that I ask. </p>
         </sp>
-        <sp xml:id="ep000515-e23250">
+        <sp who="ep000515-or" xml:id="ep000515-e23250">
           <speaker>Or. </speaker>
           <p>I am not to be taught my Duty here. </p>
         </sp>
-        <sp xml:id="ep000515-e23280">
+        <sp who="ep000515-pil" xml:id="ep000515-e23280">
           <speaker>Pil. </speaker>
           <l>Let it appear; </l>
           <l>Was ever Man deceiv'd as I have been? </l>
         </sp>
-        <sp xml:id="ep000515-e23320">
+        <sp who="ep000515-or" xml:id="ep000515-e23320">
           <speaker>Or. </speaker>
           <p>You deceive your self. </p>
         </sp>
-        <sp xml:id="ep000515-e23350">
+        <sp who="ep000515-pil" xml:id="ep000515-e23350">
           <speaker>Pil. </speaker>
           <l>I is one indeed deceives me, </l>
           <l>Whom I have long mistaken for my self, </l>
@@ -2465,11 +2562,11 @@
           <l>And cherish'd you more dearly than my Blood </l>
           <l>Than my Hearts Blood which I'm about to lose. </l>
         </sp>
-        <sp xml:id="ep000515-e23450">
+        <sp who="ep000515-or" xml:id="ep000515-e23450">
           <speaker>Or. </speaker>
           <p>You shall not lose a Drop. </p>
         </sp>
-        <sp xml:id="ep000515-e23480">
+        <sp who="ep000515-pil" xml:id="ep000515-e23480">
           <speaker>Pil. </speaker>
           <l>Comply then, and prevent it instantly▪ </l>
           <l>What can Orestes with such ease prevent it? </l>
@@ -2481,140 +2578,140 @@
           <l>Can you Resolve to see this Faithful Breast </l>
           <l>Rip'd up before your Eyes. </l>
         </sp>
-        <sp xml:id="ep000515-e23620">
+        <sp who="ep000515-or" xml:id="ep000515-e23620">
           <speaker>Or. </speaker>
           <p>Come I'll secure your life! </p>
         </sp>
-        <sp xml:id="ep000515-e23650">
+        <sp who="ep000515-pil" xml:id="ep000515-e23650">
           <speaker>Pil. </speaker>
           <p>Will you? </p>
         </sp>
-        <sp xml:id="ep000515-e23680">
+        <sp who="ep000515-or" xml:id="ep000515-e23680">
           <speaker>Or. </speaker>
           <p>I will by Heaven? </p>
         </sp>
-        <sp xml:id="ep000515-e23710">
+        <sp who="ep000515-pil" xml:id="ep000515-e23710">
           <speaker>Pil. </speaker>
           <p>And when? </p>
         </sp>
-        <sp xml:id="ep000515-e23740">
+        <sp who="ep000515-or" xml:id="ep000515-e23740">
           <speaker>Or. </speaker>
           <p>This very Moment. </p>
         </sp>
         <stage xml:id="ep000515-e23770">Enter two Priestesses cross the Stage, with the Image Delia following them. </stage>
-        <sp xml:id="ep000515-e23790">
+        <sp who="ep000515-pil" xml:id="ep000515-e23790">
           <speaker>Pil. </speaker>
           <p>Then art thou yet my Friend. </p>
         </sp>
-        <sp xml:id="ep000515-e23820">
+        <sp who="ep000515-del" xml:id="ep000515-e23820">
           <speaker>Del. </speaker>
           <l>Grecian, the Image is convey'd before </l>
           <l>Your Friends will follow strait, prepare t'attend them. </l>
         </sp>
         <stage xml:id="ep000515-e23870">To Or. </stage>
-        <sp xml:id="ep000515-e23880">
+        <sp who="ep000515-or" xml:id="ep000515-e23880">
           <speaker>Or. </speaker>
           <p>I am prepar'd (to Pil.) observe you that Procession? </p>
         </sp>
         <stage xml:id="ep000515-e23920">Ex. Del. </stage>
-        <sp xml:id="ep000515-e23930">
+        <sp who="ep000515-pil" xml:id="ep000515-e23930">
           <speaker>Pil. </speaker>
           <p>What means that Image, and that nightly Progress? </p>
         </sp>
-        <sp xml:id="ep000515-e23960">
+        <sp who="ep000515-or" xml:id="ep000515-e23960">
           <speaker>Or. </speaker>
           <l>Behold it well! </l>
           <l>That very fatal Image great Apollo </l>
           <l>Ordained us to transport. </l>
         </sp>
-        <sp xml:id="ep000515-e24020">
+        <sp who="ep000515-pil" xml:id="ep000515-e24020">
           <speaker>Pil. </speaker>
           <p>And whither do these Priestesses remove it? </p>
         </sp>
-        <sp xml:id="ep000515-e24050">
+        <sp who="ep000515-or" xml:id="ep000515-e24050">
           <speaker>Or. </speaker>
           <l>Where we without the least delay must follow; </l>
           <l>Come, Come along; we must embark this Moment. </l>
         </sp>
-        <sp xml:id="ep000515-e24090">
+        <sp who="ep000515-pil" xml:id="ep000515-e24090">
           <speaker>Pil. </speaker>
           <l>By Heaven my Head turns round, Is this a Miracle, </l>
           <l>Or have you palpably design'd t'abuse me? </l>
         </sp>
-        <sp xml:id="ep000515-e24130">
+        <sp who="ep000515-or" xml:id="ep000515-e24130">
           <speaker>Or. </speaker>
           <p>Thou hast heard a wonderous Truth! </p>
         </sp>
-        <sp xml:id="ep000515-e24160">
+        <sp who="ep000515-pil" xml:id="ep000515-e24160">
           <speaker>Pil. </speaker>
           <p>What God has wrought that wonder? </p>
         </sp>
-        <sp xml:id="ep000515-e24190">
+        <sp who="ep000515-or" xml:id="ep000515-e24190">
           <speaker>Or. </speaker>
           <p>Time's wanting now to tell thee. </p>
         </sp>
-        <sp xml:id="ep000515-e24220">
+        <sp who="ep000515-pil" xml:id="ep000515-e24220">
           <speaker>Pil. </speaker>
           <l>How basely I have censur'd thee! </l>
           <l>Canst thou forgive me? 'Tis my last request to thee. </l>
         </sp>
-        <sp xml:id="ep000515-e24260">
+        <sp who="ep000515-or" xml:id="ep000515-e24260">
           <speaker>Or. </speaker>
           <l>Come, Thou art still my best, my only Friend. </l>
           <l>Come, follow, by the glimmering of the Moon, </l>
           <l>I see our friends are coming. </l>
         </sp>
-        <sp xml:id="ep000515-e24310">
+        <sp who="ep000515-pil" xml:id="ep000515-e24310">
           <speaker>Pil. </speaker>
           <l>Our friends! Astonishment! What friends do you mean? </l>
           <pb n="30" xml:id="ep000515-022-a"/>
           <l>I'm more and more confounded. </l>
         </sp>
-        <sp xml:id="ep000515-e24350">
+        <sp who="ep000515-or" xml:id="ep000515-e24350">
           <speaker>Or. </speaker>
           <p>Come on. </p>
         </sp>
-        <sp xml:id="ep000515-e24380">
+        <sp who="ep000515-pil" xml:id="ep000515-e24380">
           <speaker>Pil. </speaker>
           <p>Farewel. </p>
         </sp>
-        <sp xml:id="ep000515-e24410">
+        <sp who="ep000515-or" xml:id="ep000515-e24410">
           <speaker>Or. </speaker>
           <p>What can my Pilades design? Come on I say. </p>
         </sp>
-        <sp xml:id="ep000515-e24450">
+        <sp who="ep000515-pil" xml:id="ep000515-e24450">
           <speaker>Pil. </speaker>
           <p>Never. </p>
         </sp>
-        <sp xml:id="ep000515-e24480">
+        <sp who="ep000515-or" xml:id="ep000515-e24480">
           <speaker>Or. </speaker>
           <p>Canst thou Desert me? </p>
         </sp>
-        <sp xml:id="ep000515-e24510">
+        <sp who="ep000515-pil" xml:id="ep000515-e24510">
           <speaker>Pil. </speaker>
           <l>The great design for which I came is executed, </l>
           <l>I've done my Duty, and behold you Happy. </l>
           <l>Your wretched Friend must never see you more. </l>
         </sp>
-        <sp xml:id="ep000515-e24560">
+        <sp who="ep000515-or" xml:id="ep000515-e24560">
           <speaker>Or. </speaker>
           <p>Why do'st thou talk so? </p>
         </sp>
-        <sp xml:id="ep000515-e24590">
+        <sp who="ep000515-pil" xml:id="ep000515-e24590">
           <speaker>Pil. </speaker>
           <l>My Life and Happiness are both confin'd, </l>
           <l>To this accursed Climate. </l>
         </sp>
-        <sp xml:id="ep000515-e24630">
+        <sp who="ep000515-or" xml:id="ep000515-e24630">
           <speaker>Or. </speaker>
           <p>The Priestess of Diana you will follow. </p>
         </sp>
-        <sp xml:id="ep000515-e24670">
+        <sp who="ep000515-pil" xml:id="ep000515-e24670">
           <speaker>Pil. </speaker>
           <p>Till my last groan sets freely afflicted Soul. </p>
         </sp>
         <stage xml:id="ep000515-e24700">Enter 〈◊〉. </stage>
-        <sp xml:id="ep000515-e24710">
+        <sp who="ep000515-euph" xml:id="ep000515-e24710">
           <speaker>Euph. </speaker>
           <l>Grecian, the Image is convey'd before us, </l>
           <l>Prepare to follow. </l>
@@ -2623,7 +2720,7 @@
           <l>Th' Associate of your flight. I go before, </l>
         </sp>
         <stage xml:id="ep000515-e24800">Exit. </stage>
-        <sp xml:id="ep000515-e24810">
+        <sp who="ep000515-pil" xml:id="ep000515-e24810">
           <speaker>Pil. </speaker>
           <l>What have I heard? Damnation! </l>
           <l>It must be illusion and enchantment all </l>
@@ -2633,32 +2730,32 @@
           <l>And for this reason you refus'd complyance </l>
           <l>To what the Queen Demanded? </l>
         </sp>
-        <sp xml:id="ep000515-e24900">
+        <sp who="ep000515-or" xml:id="ep000515-e24900">
           <speaker>Or. </speaker>
           <p>This was the very Reason? </p>
         </sp>
-        <sp xml:id="ep000515-e24930">
+        <sp who="ep000515-pil" xml:id="ep000515-e24930">
           <speaker>Pil. </speaker>
           <p>You Love this Priestess of Diana then? </p>
         </sp>
-        <sp xml:id="ep000515-e24970">
+        <sp who="ep000515-or" xml:id="ep000515-e24970">
           <speaker>Or. </speaker>
           <l>Thou art my self, my very self, my Pilades </l>
           <l>View thy own Heart and see Orestes there. </l>
         </sp>
-        <sp xml:id="ep000515-e25030">
+        <sp who="ep000515-pil" xml:id="ep000515-e25030">
           <speaker>Pil. </speaker>
           <p>A long and last farewel. </p>
         </sp>
-        <sp xml:id="ep000515-e25060">
+        <sp who="ep000515-or" xml:id="ep000515-e25060">
           <speaker>Or. </speaker>
           <p>Wilt thou betray me? </p>
         </sp>
-        <sp xml:id="ep000515-e25090">
+        <sp who="ep000515-pil" xml:id="ep000515-e25090">
           <speaker>Pil. </speaker>
           <p>Unkind t'insult thus o'er your dying Friend. </p>
         </sp>
-        <sp xml:id="ep000515-e25120">
+        <sp who="ep000515-or" xml:id="ep000515-e25120">
           <speaker>Or. </speaker>
           <l>To die is to Betray me! </l>
           <l>Nay dying you Betray both me and her. </l>
@@ -2668,12 +2765,12 @@
           <l>Can you affirm you love, and yet forsake her </l>
           <l>In this extream necessity? </l>
         </sp>
-        <sp xml:id="ep000515-e25210">
+        <sp who="ep000515-pil" xml:id="ep000515-e25210">
           <speaker>Pil. </speaker>
           <l>Can I affirm I Love, and yet behold her </l>
           <l>within anothers Arms? </l>
         </sp>
-        <sp xml:id="ep000515-e25250">
+        <sp who="ep000515-or" xml:id="ep000515-e25250">
           <speaker>Or. </speaker>
           <l>Who shall possess her lies in fate conceal'd. </l>
           <pb n="31" xml:id="ep000515-022-b"/>
@@ -2690,22 +2787,22 @@
           <l>Fame celebrates us Two 〈…〉 Friendship, </l>
           <l>And shall a Woman break the Noble Bond? </l>
         </sp>
-        <sp xml:id="ep000515-e25400">
+        <sp who="ep000515-pil" xml:id="ep000515-e25400">
           <speaker>Pil. </speaker>
           <p>Why? 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e25430">
+        <sp who="ep000515-or" xml:id="ep000515-e25430">
           <speaker>Or. </speaker>
           <p>〈…〉? Would you then against her will possess her? </p>
         </sp>
-        <sp xml:id="ep000515-e25460">
+        <sp who="ep000515-pil" xml:id="ep000515-e25460">
           <speaker>Pil. </speaker>
           <l>〈…〉 die, 〈◊〉, rather ●● contented </l>
           <l>To drag on life 〈…〉, </l>
           <l>And be my self a wretch most miserable, </l>
           <l>Than render her unhappy. </l>
         </sp>
-        <sp xml:id="ep000515-e25520">
+        <sp who="ep000515-or" xml:id="ep000515-e25520">
           <speaker>Or. </speaker>
           <l>'Tis spoken like a true and generous Lover, </l>
           <l>Wilt thou not shew thy self a generous Friend, </l>
@@ -2718,7 +2815,7 @@
           <l>Attend her, Help her, Save her, court her, gain her, </l>
           <l>Incline her Heart, and I'll release my claim. </l>
         </sp>
-        <sp xml:id="ep000515-e25660">
+        <sp who="ep000515-pil" xml:id="ep000515-e25660">
           <speaker>Pil. </speaker>
           <l>What shall I answer? Love and Shame Distract me; </l>
           <l>Must He surpass me thus in Godlike proofs </l>
@@ -2735,28 +2832,28 @@
           <l>It had been an easier Sacrifice. </l>
         </sp>
         <stage xml:id="ep000515-e25820">Enter Iph. </stage>
-        <sp xml:id="ep000515-e25840">
+        <sp who="ep000515-or" xml:id="ep000515-e25840">
           <speaker>Or. </speaker>
           <p>No more, she comes. </p>
         </sp>
-        <sp xml:id="ep000515-e25870">
+        <sp who="ep000515-iph" xml:id="ep000515-e25870">
           <speaker>Iph. </speaker>
           <p>Who's that? The Stranger? </p>
         </sp>
-        <sp xml:id="ep000515-e25900">
+        <sp who="ep000515-or" xml:id="ep000515-e25900">
           <pb n="32" xml:id="ep000515-023-a"/>
           <speaker>Or. </speaker>
           <p>The same. </p>
         </sp>
-        <sp xml:id="ep000515-e25930">
+        <sp who="ep000515-iph" xml:id="ep000515-e25930">
           <speaker>Iph. </speaker>
           <p>Is that your Friend? </p>
         </sp>
-        <sp xml:id="ep000515-e25960">
+        <sp who="ep000515-or" xml:id="ep000515-e25960">
           <speaker>Or. </speaker>
           <p>It is. </p>
         </sp>
-        <sp xml:id="ep000515-e25990">
+        <sp who="ep000515-iph" xml:id="ep000515-e25990">
           <speaker>Iph. </speaker>
           <l>Let us away, </l>
           <l>Now all our Interruptions are remov'd; </l>
@@ -2772,28 +2869,28 @@
           <l>I can no longer bear the Murdring thought. </l>
         </sp>
         <stage xml:id="ep000515-e26130">As they are going out, they are met by a party of Scythians, bringing back the four Priestesses, and the Image. </stage>
-        <sp xml:id="ep000515-e26150">
+        <sp who="ep000515-iph" xml:id="ep000515-e26150">
           <speaker>Iph. </speaker>
           <p>Ah! </p>
         </sp>
-        <sp xml:id="ep000515-e26180">
+        <sp who="ep000515-scyth" xml:id="ep000515-e26180">
           <speaker>Scyth. </speaker>
           <p>Here, Here are their Accomplices, fall on: </p>
         </sp>
-        <sp xml:id="ep000515-e26210">
+        <sp who="ep000515-or" xml:id="ep000515-e26210">
           <speaker>Or. </speaker>
           <p>Hold Savages, O Hold. </p>
         </sp>
-        <sp xml:id="ep000515-e26250">
+        <sp who="ep000515-pil" xml:id="ep000515-e26250">
           <speaker>Pil. </speaker>
           <p>Forbear, Forbear. </p>
         </sp>
-        <sp xml:id="ep000515-e26280">
+        <sp who="ep000515-or" xml:id="ep000515-e26280">
           <speaker>Or. </speaker>
           <l>As for us two, we yield our selves your Captives, </l>
           <l>Touch not with Impious Hands her Sacred Limbs. </l>
         </sp>
-        <sp xml:id="ep000515-e26320">
+        <sp who="ep000515-scyth" xml:id="ep000515-e26320">
           <speaker>Scyth. </speaker>
           <l>I had forgot, she is Dianas Priestess, </l>
           <l>Keep off your Hands, but guard her with your Eyes. </l>
@@ -2802,15 +2899,15 @@
           <l>I'll to the Queen Relate their black Design. </l>
         </sp>
         <stage xml:id="ep000515-e26400">Exit. </stage>
-        <sp xml:id="ep000515-e26410">
+        <sp who="ep000515-iph" xml:id="ep000515-e26410">
           <speaker>Iph. </speaker>
           <p>Ah wretched Men! by cruel God's betray'd. </p>
         </sp>
-        <sp xml:id="ep000515-e26440">
+        <sp who="ep000515-pil" xml:id="ep000515-e26440">
           <speaker>Pil. </speaker>
           <p>Pity thy self alas too lovely Maid. </p>
         </sp>
-        <sp xml:id="ep000515-e26470">
+        <sp who="ep000515-or" xml:id="ep000515-e26470">
           <speaker>Or. </speaker>
           <l>Death soon will put an end to all our woe, </l>
           <l>But Oh what pangs art thou to undergoe, </l>
@@ -2822,22 +2919,22 @@
         <pb n="33" xml:id="ep000515-023-b"/>
         <head>ACT IV. </head>
         <stage xml:id="ep000515-e26550">Enter Queen, and Scythian. </stage>
-        <sp xml:id="ep000515-e26580">
+        <sp who="ep000515-queen" xml:id="ep000515-e26580">
           <speaker>Queen. </speaker>
           <p>WHat have I heard! Arm'd Men upon the Breach! </p>
         </sp>
-        <sp xml:id="ep000515-e26610">
+        <sp who="ep000515-scyth" xml:id="ep000515-e26610">
           <speaker>Scyth. </speaker>
           <l>Above an hundred, all with Grecian Plumes, </l>
           <l>And Grecian Shields. </l>
         </sp>
-        <sp xml:id="ep000515-e26670">
+        <sp who="ep000515-queen" xml:id="ep000515-e26670">
           <speaker>Queen. </speaker>
           <l>Double the Guards around the Temple, </l>
           <l>And strongly guard the Passes. </l>
           <l>Who saw these Grecians? </l>
         </sp>
-        <sp xml:id="ep000515-e26730">
+        <sp who="ep000515-scyth" xml:id="ep000515-e26730">
           <speaker>Scyth. </speaker>
           <l>As we expecting lay for your Return, </l>
           <l>Upon the Summet of yon shaggie Mountain, </l>
@@ -2847,7 +2944,7 @@
           <l>And on the sight, dismounting all my Men, </l>
           <l>I brought them to defend your sacred Person. </l>
         </sp>
-        <sp xml:id="ep000515-e26830">
+        <sp who="ep000515-queen" xml:id="ep000515-e26830">
           <speaker>Queen. </speaker>
           <l>And so, upon your March at this dead Season, </l>
           <l>You took these Grecian Fugitives: 'Tis well; </l>
@@ -2856,11 +2953,11 @@
           <l>Is not already in my Presence? </l>
           <l>My severe Charge how dare they disobey? </l>
         </sp>
-        <sp xml:id="ep000515-e26920">
+        <sp who="ep000515-scyth" xml:id="ep000515-e26920">
           <speaker>Scyth. </speaker>
           <p>Behold, dread Queen, he comes. </p>
         </sp>
-        <sp xml:id="ep000515-e26950">
+        <sp who="ep000515-queen" xml:id="ep000515-e26950">
           <speaker>Queen. </speaker>
           <l>Then go and see my other Orders executed. </l>
           <stage xml:id="ep000515-e26980">Ex. Scyth. </stage>
@@ -2879,42 +2976,42 @@
           <l>How do'st thou dare, with that audacious Look, </l>
           <l>T' affront offended Majesty? </l>
         </sp>
-        <sp xml:id="ep000515-e27140">
+        <sp who="ep000515-pil" xml:id="ep000515-e27140">
           <speaker>Pil. </speaker>
           <p>I know no Mortal whom I ought to fear. </p>
         </sp>
-        <sp xml:id="ep000515-e27170">
+        <sp who="ep000515-queen" xml:id="ep000515-e27170">
           <pb n="34" xml:id="ep000515-024-a"/>
           <speaker>Queen. </speaker>
           <l>An Hypocrite, and not afraid! </l>
           <l>What makes Hypocrisie so very odious? </l>
           <l>Unless because 'tis Cowardice. </l>
         </sp>
-        <sp xml:id="ep000515-e27220">
+        <sp who="ep000515-pil" xml:id="ep000515-e27220">
           <speaker>Pil. </speaker>
           <l>Know, Queen, I scorn Hypocrisie, and know </l>
           <l>The basest of Hypocrisies is Slander. </l>
         </sp>
-        <sp xml:id="ep000515-e27260">
+        <sp who="ep000515-queen" xml:id="ep000515-e27260">
           <speaker>Queen. </speaker>
           <l>And am I then defi'd, presumptuous Grecian, </l>
           <l>And dar'd to prove my Charge? </l>
         </sp>
-        <sp xml:id="ep000515-e27310">
+        <sp who="ep000515-pil" xml:id="ep000515-e27310">
           <speaker>Pil. </speaker>
           <p>I dare ev'n Jove, who knows all Hearts, to pro●●●●t. </p>
         </sp>
-        <sp xml:id="ep000515-e27350">
+        <sp who="ep000515-queen" xml:id="ep000515-e27350">
           <speaker>Queen. </speaker>
           <l>Then, past Reply thou soon shalt stand convicted. </l>
           <l>When I in Mercy gave you Life and Liberty, </l>
           <l>Did you not own your self oblig'd? </l>
         </sp>
-        <sp xml:id="ep000515-e27400">
+        <sp who="ep000515-pil" xml:id="ep000515-e27400">
           <speaker>Pil. </speaker>
           <p>I own it. </p>
         </sp>
-        <sp xml:id="ep000515-e27430">
+        <sp who="ep000515-queen" xml:id="ep000515-e27430">
           <speaker>Queen. </speaker>
           <l>But when Diana's Priestess I bestow'd on you, </l>
           <l>Did not you seem transported? Answer me. </l>
@@ -2922,11 +3019,11 @@
           <l>Did you not swear, that I, of all the World, </l>
           <l>Was she who nearest had oblig'd your Soul? </l>
         </sp>
-        <sp xml:id="ep000515-e27510">
+        <sp who="ep000515-pil" xml:id="ep000515-e27510">
           <speaker>Pil. </speaker>
           <p>I said it, and I thought it. </p>
         </sp>
-        <sp xml:id="ep000515-e27540">
+        <sp who="ep000515-pil" xml:id="ep000515-e27540">
           <speaker>Pil. </speaker>
           <l>Did you not promise to reside in Scythia? </l>
           <l>And to engage your Friend to do the like? </l>
@@ -2934,17 +3031,17 @@
           <l>Return me, Thanks for the rich Present made you? </l>
           <l>Were not these very Words your own? </l>
         </sp>
-        <sp xml:id="ep000515-e27620">
+        <sp who="ep000515-pil" xml:id="ep000515-e27620">
           <speaker>Pil. </speaker>
           <p>They were. </p>
         </sp>
-        <sp xml:id="ep000515-e27650">
+        <sp who="ep000515-queen" xml:id="ep000515-e27650">
           <speaker>Queen. </speaker>
           <l>Then think of thy base Flight, if thou dar'st think of it, </l>
           <l>And say, thou art not a Hypocrite. </l>
           <l>What canst thou answer to thy just Accuser? </l>
         </sp>
-        <sp xml:id="ep000515-e27700">
+        <sp who="ep000515-pil" xml:id="ep000515-e27700">
           <speaker>Pil. </speaker>
           <l>That which will make my Accuser say, she wrongs me. </l>
           <l>You accuse me that I wou'd have fled: Indeed </l>
@@ -2958,58 +3055,58 @@
           <l>And any way was lawful to fair Liberty, </l>
           <l>Which we were born for, and for which we'll die. </l>
         </sp>
-        <sp xml:id="ep000515-e27830">
+        <sp who="ep000515-queen" xml:id="ep000515-e27830">
           <speaker>Queen. </speaker>
           <p>That very Moment I restor'd your Liberty. </p>
         </sp>
-        <sp xml:id="ep000515-e27860">
+        <sp who="ep000515-pil" xml:id="ep000515-e27860">
           <speaker>Pil. </speaker>
           <l>Indeed you did restore it, but on Terms </l>
           <l>Impossible to be perform'd by us. </l>
         </sp>
-        <sp xml:id="ep000515-e27900">
+        <sp who="ep000515-queen" xml:id="ep000515-e27900">
           <speaker>Queen. </speaker>
           <p>Why did you then approve them? </p>
         </sp>
-        <sp xml:id="ep000515-e27930">
+        <sp who="ep000515-phel" xml:id="ep000515-e27930">
           <speaker>Phel. </speaker>
           <p>I never knew them well till I had left you. </p>
         </sp>
-        <sp xml:id="ep000515-e27960">
+        <sp who="ep000515-queen" xml:id="ep000515-e27960">
           <speaker>Queen. </speaker>
           <l>A meer Pretence! Is Grecian Faith so known? </l>
           <l>Had not you giv'n that Faith to remain here? </l>
         </sp>
-        <sp xml:id="ep000515-e28010">
+        <sp who="ep000515-pil" xml:id="ep000515-e28010">
           <speaker>Pil. </speaker>
           <l>But then that Faith was on Conditions giv'n; </l>
           <pb n="35" xml:id="ep000515-024-b"/>
           <l>Which soon I found you never cou'd perform. </l>
         </sp>
-        <sp xml:id="ep000515-e28050">
+        <sp who="ep000515-queen" xml:id="ep000515-e28050">
           <speaker>Queen, </speaker>
           <p>Wherefore? </p>
         </sp>
-        <sp xml:id="ep000515-e28080">
+        <sp who="ep000515-pil" xml:id="ep000515-e28080">
           <speaker>Pil. </speaker>
           <p>Because the Gift you offer'd, was no Gift. </p>
         </sp>
-        <sp xml:id="ep000515-e28110">
+        <sp who="ep000515-queen" xml:id="ep000515-e28110">
           <speaker>Queen. </speaker>
           <p>What was no Gift? The Present which you priz'd so! </p>
         </sp>
-        <sp xml:id="ep000515-e28140">
+        <sp who="ep000515-pil" xml:id="ep000515-e28140">
           <speaker>Pil. </speaker>
           <l>Had it been real, it had been inestimable. </l>
           <l>You only gave me Words, and the vain Promise </l>
           <l>Of what the Gods had taken from your Pow'r. </l>
         </sp>
-        <sp xml:id="ep000515-e28190">
+        <sp who="ep000515-queen" xml:id="ep000515-e28190">
           <speaker>Queen. </speaker>
           <l>Surely thou ravest, </l>
           <l>Is not Diana's Priestess in my Pow'r? </l>
         </sp>
-        <sp xml:id="ep000515-e28240">
+        <sp who="ep000515-pil" xml:id="ep000515-e28240">
           <speaker>Pil. </speaker>
           <l>Her Body is; but tho' it be a glorious One </l>
           <l>Without her Soul, I wou'd refuse the Treasure: </l>
@@ -3017,60 +3114,60 @@
           <l>And, without leave obtain'd of you, </l>
           <l>The God had frankly done it. </l>
         </sp>
-        <sp xml:id="ep000515-e28310">
+        <sp who="ep000515-queen" xml:id="ep000515-e28310">
           <speaker>Queen. </speaker>
           <p>Ha! To whom! </p>
         </sp>
-        <sp xml:id="ep000515-e28340">
+        <sp who="ep000515-pil" xml:id="ep000515-e28340">
           <speaker>Pil. </speaker>
           <p>How fain you wou'd extort this Secret from me? </p>
         </sp>
-        <sp xml:id="ep000515-e28370">
+        <sp who="ep000515-queen" xml:id="ep000515-e28370">
           <speaker>Queen. </speaker>
           <p>How fain I wou'd? by Heav'n I will extort it. </p>
         </sp>
-        <sp xml:id="ep000515-e28400">
+        <sp who="ep000515-pil" xml:id="ep000515-e28400">
           <speaker>Pil. </speaker>
           <l>You never shall; I know I am to bleed, </l>
           <l>And with me too the fatal Truth shall die. </l>
         </sp>
-        <sp xml:id="ep000515-e28440">
+        <sp who="ep000515-queen" xml:id="ep000515-e28440">
           <speaker>Queen. </speaker>
           <l>Then 'tis no Truth, and thou wilt die a Villain: </l>
           <l>Die with the Brand of an ungrateful Traytor, </l>
           <l>An odious Hypocrite. </l>
         </sp>
-        <sp xml:id="ep000515-e28490">
+        <sp who="ep000515-pil" xml:id="ep000515-e28490">
           <speaker>Pil. </speaker>
           <l>To be reveng'd for these opprobrious Wrongs, </l>
           <l>I need but tell you what you ask, proud Princess. </l>
         </sp>
-        <sp xml:id="ep000515-e28530">
+        <sp who="ep000515-queen" xml:id="ep000515-e28530">
           <speaker>Queen. </speaker>
           <p>Do it then. </p>
         </sp>
-        <sp xml:id="ep000515-e28560">
+        <sp who="ep000515-pil" xml:id="ep000515-e28560">
           <speaker>Pil. </speaker>
           <p>Will you persist to urge me? </p>
         </sp>
-        <sp xml:id="ep000515-e28590">
+        <sp who="ep000515-queen" xml:id="ep000515-e28590">
           <speaker>Queen. </speaker>
           <p>I will. The Priestess! Who has touch'd her Heart? </p>
         </sp>
-        <sp xml:id="ep000515-e28620">
+        <sp who="ep000515-pil" xml:id="ep000515-e28620">
           <speaker>Pil. </speaker>
           <p>In your own Breast the fatal Secret's lodg'd. </p>
         </sp>
-        <sp xml:id="ep000515-e28650">
+        <sp who="ep000515-queen" xml:id="ep000515-e28650">
           <speaker>Queen. </speaker>
           <p>Lodg'd in my Breast! </p>
         </sp>
-        <sp xml:id="ep000515-e28680">
+        <sp who="ep000515-pil" xml:id="ep000515-e28680">
           <speaker>Pil. </speaker>
           <l>Ask, ask your self the Question, who is he </l>
           <l>Who finds the way of touching Scythian Hearts? </l>
         </sp>
-        <sp xml:id="ep000515-e28730">
+        <sp who="ep000515-queen" xml:id="ep000515-e28730">
           <speaker>Queen. </speaker>
           <l>Ha! Gods! That stings. </l>
           <stage xml:id="ep000515-e28760">Aside. </stage>
@@ -3104,75 +3201,75 @@
           <l>So; From whence come you? Ha! whence these Disorders? </l>
           <l>What makes you tremble? And what strikes you dumb? </l>
         </sp>
-        <sp xml:id="ep000515-e29080">
+        <sp who="ep000515-iph" xml:id="ep000515-e29080">
           <speaker>Iph. </speaker>
           <l>To such a haughty and insulting Look </l>
           <l>I have not learnt to answer. </l>
         </sp>
-        <sp xml:id="ep000515-e29120">
+        <sp who="ep000515-queen" xml:id="ep000515-e29120">
           <speaker>Queen. </speaker>
           <p>I look, as it becomes me, on my Slave. </p>
         </sp>
-        <sp xml:id="ep000515-e29150">
+        <sp who="ep000515-iph" xml:id="ep000515-e29150">
           <speaker>Iph. </speaker>
           <l>The sight of such a Slave shou'd make you humble, </l>
           <l>By shewing you to what excess of Wretchedness </l>
           <l>The Daughter of a mighty King may fall. </l>
         </sp>
-        <sp xml:id="ep000515-e29200">
+        <sp who="ep000515-queen" xml:id="ep000515-e29200">
           <speaker>Queen. </speaker>
           <p>Say, From whence come you? I command you answer. </p>
         </sp>
-        <sp xml:id="ep000515-e29230">
+        <sp who="ep000515-iph" xml:id="ep000515-e29230">
           <speaker>Iph. </speaker>
           <p>I have no Pow'r to speak. </p>
         </sp>
-        <sp xml:id="ep000515-e29260">
+        <sp who="ep000515-queen" xml:id="ep000515-e29260">
           <speaker>Queen. </speaker>
           <p>So hasty was your Flight? </p>
         </sp>
-        <sp xml:id="ep000515-e29290">
+        <sp who="ep000515-iph" xml:id="ep000515-e29290">
           <speaker>Iph. </speaker>
           <l>Who must not fly from acting Cruelties, </l>
           <l>At which Barbarity it self can melt? </l>
         </sp>
-        <sp xml:id="ep000515-e29330">
+        <sp who="ep000515-queen" xml:id="ep000515-e29330">
           <speaker>Queen. </speaker>
           <l>Oh, how those meek and melting Words </l>
           <l>Become the soft and tender Race of Tantalus! </l>
         </sp>
-        <sp xml:id="ep000515-e29380">
+        <sp who="ep000515-iph" xml:id="ep000515-e29380">
           <speaker>Iph. </speaker>
           <l>The Race of Tantalus has been revengeful: </l>
           <l>But yet it ne'er was bloody unprovok'd. </l>
           <l>What have these Grecians done to me? </l>
         </sp>
-        <sp xml:id="ep000515-e29450">
+        <sp who="ep000515-queen" xml:id="ep000515-e29450">
           <speaker>Queen. </speaker>
           <l>What hadst thou done t' assembled Greece at Aulis? </l>
           <l>What hadst thou done to thy own Father there? </l>
           <l>Who to thy Ruin, unprovok'd, consented; </l>
           <l>Nay, pressed it, urg'd it. </l>
         </sp>
-        <sp xml:id="ep000515-e29530">
+        <sp who="ep000515-iph" xml:id="ep000515-e29530">
           <speaker>Iph. </speaker>
           <l>My Mother urg'd it not. </l>
           <l>I from the Heroines of our Race have learnt </l>
           <l>To shew soft Pity. </l>
         </sp>
-        <sp xml:id="ep000515-e29580">
+        <sp who="ep000515-queen" xml:id="ep000515-e29580">
           <speaker>Queen. </speaker>
           <l>Thou from the Heroines of thy Race hast learnt, </l>
           <l>Thou hast, fond Maid, to shew a guiltier Passion. </l>
           <l>Oh, how their kind Reception of their Guests </l>
           <l>Had made their Names throughout the World renown'd! </l>
         </sp>
-        <sp xml:id="ep000515-e29640">
+        <sp who="ep000515-iph" xml:id="ep000515-e29640">
           <speaker>Iph. </speaker>
           <l>For an Example of such kind Reception, </l>
           <l>Perhaps I need not fly to Greece. </l>
         </sp>
-        <sp xml:id="ep000515-e29690">
+        <sp who="ep000515-queen" xml:id="ep000515-e29690">
           <speaker>Queen. </speaker>
           <l>I understand thee well. </l>
           <pb n="37" xml:id="ep000515-025-b"/>
@@ -3183,42 +3280,42 @@
           <l>Think of thy Gratitude to thy Preserver, </l>
           <l>And think what that deserves. </l>
         </sp>
-        <sp xml:id="ep000515-e29780">
+        <sp who="ep000515-iph" xml:id="ep000515-e29780">
           <speaker>Iph. </speaker>
           <p>My preserver! </p>
         </sp>
-        <sp xml:id="ep000515-e29810">
+        <sp who="ep000515-queen" xml:id="ep000515-e29810">
           <speaker>Queen. </speaker>
           <l>Was ever such audacious insolence? </l>
           <l>Who was it sav'd thee from immediate Death, </l>
           <l>At thy Arrival on the State of Tauris? </l>
         </sp>
-        <sp xml:id="ep000515-e29870">
+        <sp who="ep000515-iph" xml:id="ep000515-e29870">
           <speaker>Iph. </speaker>
           <l>Would I had been a Man at that Arrival, </l>
           <l>For then my Blood had stain'd your cruel Altars! </l>
         </sp>
-        <sp xml:id="ep000515-e29910">
+        <sp who="ep000515-queen" xml:id="ep000515-e29910">
           <speaker>Queen. </speaker>
           <l>O wretch, ingrateful to that black Degree, </l>
           <l>As to disown the mighty Obligation, </l>
           <l>By which thou liv'st to save thou art not oblig'd! </l>
           <l>Would'st thou insinuate that thy Sex preserv'd thee? </l>
         </sp>
-        <sp xml:id="ep000515-e29970">
+        <sp who="ep000515-iph" xml:id="ep000515-e29970">
           <speaker>Iph. </speaker>
           <p>Men are the Victims that your Goddess claims! </p>
         </sp>
-        <sp xml:id="ep000515-e30000">
+        <sp who="ep000515-queen" xml:id="ep000515-e30000">
           <speaker>Queen. </speaker>
           <p>Not always. </p>
         </sp>
-        <sp xml:id="ep000515-e30030">
+        <sp who="ep000515-iph" xml:id="ep000515-e30030">
           <speaker>Iph. </speaker>
           <l>Tradition says so, and your bloody Rites </l>
           <l>Are founded on Tradition. </l>
         </sp>
-        <sp xml:id="ep000515-e30070">
+        <sp who="ep000515-queen" xml:id="ep000515-e30070">
           <speaker>Queen. </speaker>
           <l>When she her self declares her awful Will, </l>
           <l>Tradition's of no force. </l>
@@ -3227,30 +3324,30 @@
           <l>Claim'd thee at Aulis her devoted Victim, </l>
           <l>At least so Calchas said. </l>
         </sp>
-        <sp xml:id="ep000515-e30170">
+        <sp who="ep000515-iph" xml:id="ep000515-e30170">
           <speaker>Iph. </speaker>
           <l>The fraud of Calchas plainly she Detected, </l>
           <l>By suffering me to evade th'inhuman Altar. </l>
         </sp>
-        <sp xml:id="ep000515-e30220">
+        <sp who="ep000515-queen" xml:id="ep000515-e30220">
           <speaker>Queen. </speaker>
           <l>'Twas Clytemnestra's Sacrilege preserv'd thee, </l>
           <l>And not the Goddess; </l>
           <l>Who wracking thee on this her sacred Shore, </l>
           <l>Strongly appears to Redemand her Fugitive. </l>
         </sp>
-        <sp xml:id="ep000515-e30290">
+        <sp who="ep000515-iph" xml:id="ep000515-e30290">
           <speaker>Iph. </speaker>
           <p>Before these Grecians came you had no such thoughts. </p>
         </sp>
-        <sp xml:id="ep000515-e30330">
+        <sp who="ep000515-queen" xml:id="ep000515-e30330">
           <speaker>Queen. </speaker>
           <l>No, thy soft graceful look, and seeming innocence, </l>
           <l>Inclin'd me to suspect the crafty Calchas. </l>
           <l>But thy black Guilt appearing with thy Ingratitude, </l>
           <l>Makes me repent of my mistaken pity. </l>
         </sp>
-        <sp xml:id="ep000515-e30400">
+        <sp who="ep000515-iph" xml:id="ep000515-e30400">
           <speaker>Iph. </speaker>
           <l>O fatal pity▪ Rightly term▪ d mistaken? </l>
           <l>True pity would have suffered me to bleed; </l>
@@ -3263,7 +3360,7 @@
           <pb n="38" xml:id="ep000515-026-a"/>
           <l>But all is always rueful Lamentation, </l>
         </sp>
-        <sp xml:id="ep000515-e30510">
+        <sp who="ep000515-queen" xml:id="ep000515-e30510">
           <speaker>Queen. </speaker>
           <l>If thuo'rt so sensible of this, </l>
           <l>Then know that there's a punishment preparing for thee, </l>
@@ -3274,11 +3371,11 @@
           <l>What must it be to one who has a Soul </l>
           <l>As soft as thine, as melting ev'n as Mercies, </l>
         </sp>
-        <sp xml:id="ep000515-e30610">
+        <sp who="ep000515-iph" xml:id="ep000515-e30610">
           <speaker>Iph. </speaker>
           <p>Ah miserable me! </p>
         </sp>
-        <sp xml:id="ep000515-e30640">
+        <sp who="ep000515-queen" xml:id="ep000515-e30640">
           <speaker>Queen. </speaker>
           <l>To act it, nay, and act it on a Grecian? </l>
           <l>One who himself has only tender thoughts, </l>
@@ -3286,11 +3383,11 @@
           <l>One who perhaps could die for thee, for whom </l>
           <l>Perhaps ev'n thou could'st die? </l>
         </sp>
-        <sp xml:id="ep000515-e30720">
+        <sp who="ep000515-iph" xml:id="ep000515-e30720">
           <speaker>Iph. </speaker>
           <p>Ah Gods! </p>
         </sp>
-        <sp xml:id="ep000515-e30750">
+        <sp who="ep000515-queen" xml:id="ep000515-e30750">
           <speaker>Queen. </speaker>
           <l>See how her Soul declares its weakness, </l>
           <l>And now unable to contain its grief, </l>
@@ -3318,7 +3415,7 @@
           <l>Guards! On your Lives, observe them at a distance. </l>
         </sp>
         <stage xml:id="ep000515-e31010">Ex. with Train. </stage>
-        <sp xml:id="ep000515-e31020">
+        <sp who="ep000515-iph" xml:id="ep000515-e31020">
           <speaker>Iph. </speaker>
           <l>Inhuman Queen! Must I not only lose him, </l>
           <l>But must I urge him to forsake me? No, </l>
@@ -3348,144 +3445,144 @@
           <l>Take care that I prevail to my undoing, </l>
           <l>And give me strength enough to court Despair. </l>
         </sp>
-        <sp xml:id="ep000515-e31310">
+        <sp who="ep000515-or" xml:id="ep000515-e31310">
           <speaker>Or. </speaker>
           <l>Madam, I come to hear your last Commands, </l>
           <l>Let them be what they will, yet I with Joy am come. </l>
           <l>But why upon this lovely Brow, </l>
           <l>So black a cloud of Sorrow? </l>
         </sp>
-        <sp xml:id="ep000515-e31370">
+        <sp who="ep000515-iph" xml:id="ep000515-e31370">
           <speaker>Iph. </speaker>
           <l>Oh could you see my Heart▪ and all the Horrour </l>
           <l>Which wildly rages there, how would you pity me? </l>
         </sp>
-        <sp xml:id="ep000515-e31410">
+        <sp who="ep000515-or" xml:id="ep000515-e31410">
           <speaker>Or. </speaker>
           <p>Alas! ev'n now I pity thee! </p>
         </sp>
-        <sp xml:id="ep000515-e31440">
+        <sp who="ep000515-iph" xml:id="ep000515-e31440">
           <speaker>Iph. </speaker>
           <p>Do you? </p>
         </sp>
-        <sp xml:id="ep000515-e31470">
+        <sp who="ep000515-or" xml:id="ep000515-e31470">
           <speaker>Or. </speaker>
           <l>Yes, from my very Soul, you cannot think </l>
           <l>How much Compassion tears my tortur'd Heart. </l>
         </sp>
-        <sp xml:id="ep000515-e31510">
+        <sp who="ep000515-iph" xml:id="ep000515-e31510">
           <speaker>Iph. </speaker>
           <l>Make hast then, and prevent the cursed Blow, </l>
           <l>That I'm compell'd to strike. </l>
         </sp>
-        <sp xml:id="ep000515-e31550">
+        <sp who="ep000515-or" xml:id="ep000515-e31550">
           <speaker>Or. </speaker>
           <p>Had I a Dagger, I would do it instantly. </p>
         </sp>
-        <sp xml:id="ep000515-e31580">
+        <sp who="ep000515-iph" xml:id="ep000515-e31580">
           <speaker>Iph. </speaker>
           <p>There is an easier way at least to you. </p>
         </sp>
-        <sp xml:id="ep000515-e31610">
+        <sp who="ep000515-or" xml:id="ep000515-e31610">
           <speaker>Or. </speaker>
           <p>Name it. </p>
         </sp>
-        <sp xml:id="ep000515-e31640">
+        <sp who="ep000515-iph" xml:id="ep000515-e31640">
           <speaker>Iph. </speaker>
           <p>I cannot. </p>
         </sp>
-        <sp xml:id="ep000515-e31670">
+        <sp who="ep000515-or" xml:id="ep000515-e31670">
           <speaker>Or. </speaker>
           <p>Why? </p>
         </sp>
-        <sp xml:id="ep000515-e31700">
+        <sp who="ep000515-iph" xml:id="ep000515-e31700">
           <speaker>Iph. </speaker>
           <l>Grecians abhor. </l>
           <l>That Virgins of Affairs like this should speak, </l>
           <pb xml:id="ep000515-027-a"/>
           <l>You have beheld 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e31760">
+        <sp who="ep000515-or" xml:id="ep000515-e31760">
           <speaker>Or. </speaker>
           <p>O 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e31790">
+        <sp who="ep000515-iph" xml:id="ep000515-e31790">
           <speaker>Iph. </speaker>
           <p>Wherefore 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e31820">
+        <sp who="ep000515-or" xml:id="ep000515-e31820">
           <speaker>Or. </speaker>
           <l>Too well 〈…〉 </l>
           <l>And would not 〈…〉 </l>
           <l>Which I can never 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e31870">
+        <sp who="ep000515-iph" xml:id="ep000515-e31870">
           <speaker>Iph. </speaker>
           <l>Then I am 〈…〉 </l>
           <l>But why should you 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e31910">
+        <sp who="ep000515-or" xml:id="ep000515-e31910">
           <speaker>Or. </speaker>
           <l>Reason and Justice 〈…〉 </l>
           <l>I love another. </l>
         </sp>
-        <sp xml:id="ep000515-e31950">
+        <sp who="ep000515-iph" xml:id="ep000515-e31950">
           <speaker>Iph. </speaker>
           <l>Ha! Then his fatal 〈…〉 </l>
           <l>What ground the Queen had for her strange suspicion. </l>
           <l>You love another? </l>
         </sp>
-        <sp xml:id="ep000515-e32000">
+        <sp who="ep000515-or" xml:id="ep000515-e32000">
           <speaker>Or. </speaker>
           <p>O more than Life, you see I love another. </p>
         </sp>
-        <sp xml:id="ep000515-e32030">
+        <sp who="ep000515-iph" xml:id="ep000515-e32030">
           <speaker>Iph. </speaker>
           <p>Whom? </p>
         </sp>
-        <sp xml:id="ep000515-e32060">
+        <sp who="ep000515-or" xml:id="ep000515-e32060">
           <speaker>Or. </speaker>
           <p>That let me Hide ev'n from 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e32090">
+        <sp who="ep000515-iph" xml:id="ep000515-e32090">
           <speaker>Iph. </speaker>
           <p>Ha! Why should you conceal it from her? </p>
         </sp>
-        <sp xml:id="ep000515-e32120">
+        <sp who="ep000515-or" xml:id="ep000515-e32120">
           <speaker>Or. </speaker>
           <p>Ask me no more. </p>
         </sp>
-        <sp xml:id="ep000515-e32150">
+        <sp who="ep000515-iph" xml:id="ep000515-e32150">
           <speaker>Iph. </speaker>
           <p>I must, and you must answer. </p>
         </sp>
-        <sp xml:id="ep000515-e32180">
+        <sp who="ep000515-or" xml:id="ep000515-e32180">
           <speaker>Or. </speaker>
           <p>She is my Mortal Enemy. </p>
         </sp>
-        <sp xml:id="ep000515-e32210">
+        <sp who="ep000515-iph" xml:id="ep000515-e32210">
           <speaker>Iph. </speaker>
           <l>Can any Woman prove a Mortal Enemy▪ </l>
           <l>To one who loves like you? </l>
           <l>Your passion known perhaps had made her kind. </l>
         </sp>
-        <sp xml:id="ep000515-e32260">
+        <sp who="ep000515-or" xml:id="ep000515-e32260">
           <speaker>Or. </speaker>
           <p>'Tis to avoid her kindness ● conceal it. </p>
         </sp>
-        <sp xml:id="ep000515-e32290">
+        <sp who="ep000515-iph" xml:id="ep000515-e32290">
           <speaker>Iph. </speaker>
           <p>T'avoid it? </p>
         </sp>
-        <sp xml:id="ep000515-e32320">
+        <sp who="ep000515-or" xml:id="ep000515-e32320">
           <speaker>Or. </speaker>
           <p>More than Ten Thousand Deaths I dread her kindness </p>
         </sp>
-        <sp xml:id="ep000515-e32350">
+        <sp who="ep000515-iph" xml:id="ep000515-e32350">
           <speaker>Iph. </speaker>
           <p>You love your Enemy, and dread her Kindness? </p>
         </sp>
-        <sp xml:id="ep000515-e32380">
+        <sp who="ep000515-or" xml:id="ep000515-e32380">
           <speaker>Or. </speaker>
           <l>She is by force, and 〈…〉 Choice my Enemy </l>
           <l>She pities me, ev'n from her 〈…〉 </l>
@@ -3494,28 +3591,28 @@
           <l>How much I suffer from 〈…〉 </l>
           <l>Than from her Cruelty 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e32460">
+        <sp who="ep000515-iph" xml:id="ep000515-e32460">
           <speaker>Iph. </speaker>
           <l>O Heaven and Earth, I tremble least the Queen </l>
           <l>Had but too just a ground for her suspicion. </l>
         </sp>
         <stage xml:id="ep000515-e32500">Aside▪ </stage>
-        <sp xml:id="ep000515-e32510">
+        <sp who="ep000515-or" xml:id="ep000515-e32510">
           <speaker>Or. </speaker>
           <l>Who can see her, he Loves in Grief, </l>
           <l>And bear an equal Mind? </l>
           <l>How might my Passion known, augment her Sorrow? </l>
         </sp>
-        <sp xml:id="ep000515-e32560">
+        <sp who="ep000515-iph" xml:id="ep000515-e32560">
           <speaker>Iph. </speaker>
           <l>But what can force her since she is so tender, </l>
           <l>T'appear your Mortal Enemy? </l>
         </sp>
-        <sp xml:id="ep000515-e32600">
+        <sp who="ep000515-or" xml:id="ep000515-e32600">
           <speaker>Or. </speaker>
           <p>Why should you ask! Your questions but disturb me! </p>
         </sp>
-        <sp xml:id="ep000515-e32630">
+        <sp who="ep000515-iph" xml:id="ep000515-e32630">
           <speaker>Iph. </speaker>
           <l>I ask to save you, and I must be answer'd; </l>
           <l>Speak, what can force her, since she is so tender, </l>
@@ -3532,11 +3629,11 @@
           <l>〈…〉 Fury that thou dream'st not of. </l>
           <l>〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e32770">
+        <sp who="ep000515-or" xml:id="ep000515-e32770">
           <speaker>Or. </speaker>
           <l>Never. </l>
         </sp>
-        <sp xml:id="ep000515-e32800">
+        <sp who="ep000515-iph" xml:id="ep000515-e32800">
           <speaker>Iph. </speaker>
           <l>Gods! Am I 〈…〉 who loves me! </l>
           <l>〈…〉 these Convulsions? </l>
@@ -3557,23 +3654,23 @@
           <p>〈…〉 </p>
           <p>〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33000">
+        <sp who="ep000515-or" xml:id="ep000515-e33000">
           <speaker>Or. </speaker>
           <p>〈◊〉, how that stings ●●▪ </p>
         </sp>
         <stage xml:id="ep000515-e33030">Aside. </stage>
-        <sp xml:id="ep000515-e33040">
+        <sp who="ep000515-iph" xml:id="ep000515-e33040">
           <speaker>Iph. </speaker>
           <l>Ha! what, you 〈◊〉 and tremble, and turn pale! </l>
           <l>When the bare mention works on you so terribly. </l>
           <l>Can I endure the thing? </l>
         </sp>
-        <sp xml:id="ep000515-e33090">
+        <sp who="ep000515-or" xml:id="ep000515-e33090">
           <speaker>Or. </speaker>
           <l>The Pow'r that you adore, and that commands it, </l>
           <l>Will calm, and will support you. </l>
         </sp>
-        <sp xml:id="ep000515-e33130">
+        <sp who="ep000515-iph" xml:id="ep000515-e33130">
           <speaker>Iph. </speaker>
           <l>What if one God commands the dreadful Deed? </l>
           <l>Perhaps another mightier Pow'r forbids it; </l>
@@ -3583,58 +3680,58 @@
           <l>Without Despair and 〈…〉 </l>
           <l>Which then shall I 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e33210">
+        <sp who="ep000515-or" xml:id="ep000515-e33210">
           <speaker>Or. </speaker>
           <p>Which of 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33240">
+        <sp who="ep000515-iph" xml:id="ep000515-e33240">
           <speaker>Iph. </speaker>
           <l>Thou ask'st 〈…〉 </l>
           <l>His awful Name's 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e33280">
+        <sp who="ep000515-or" xml:id="ep000515-e33280">
           <speaker>Or. </speaker>
           <p>When 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33310">
+        <sp who="ep000515-iph" xml:id="ep000515-e33310">
           <speaker>Iph. </speaker>
           <p>Ev'n now 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33340">
+        <sp who="ep000515-or" xml:id="ep000515-e33340">
           <speaker>Or. </speaker>
           <p>Where? </p>
         </sp>
-        <sp xml:id="ep000515-e33370">
+        <sp who="ep000515-iph" xml:id="ep000515-e33370">
           <speaker>Iph. </speaker>
           <p>Here, 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33400">
+        <sp who="ep000515-or" xml:id="ep000515-e33400">
           <speaker>Or. </speaker>
           <p>Here? </p>
         </sp>
-        <sp xml:id="ep000515-e33430">
+        <sp who="ep000515-iph" xml:id="ep000515-e33430">
           <speaker>Iph. </speaker>
           <p>Here, look 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33460">
+        <sp who="ep000515-or" xml:id="ep000515-e33460">
           <speaker>Or. </speaker>
           <p>Ha! </p>
         </sp>
-        <sp xml:id="ep000515-e33490">
+        <sp who="ep000515-iph" xml:id="ep000515-e33490">
           <speaker>Iph. </speaker>
           <p>Is ' he not manifest 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33520">
+        <sp who="ep000515-or" xml:id="ep000515-e33520">
           <speaker>Or. </speaker>
           <p>Oh astonishment! </p>
         </sp>
-        <sp xml:id="ep000515-e33550">
+        <sp who="ep000515-iph" xml:id="ep000515-e33550">
           <speaker>Iph. </speaker>
           <l>If thou art blind, 〈…〉 </l>
           <l>Know, that thou feel'st 〈…〉 </l>
           <l>And own'st his dreadful 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e33600">
+        <sp who="ep000515-or" xml:id="ep000515-e33600">
           <speaker>Or. </speaker>
           <l>Amasement! </l>
           <l>And canst thou be so infinitely 〈…〉 </l>
@@ -3643,48 +3740,48 @@
           <l>How this Disorder in thy 〈…〉 </l>
           <l>And quite destroys my 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e33680">
+        <sp who="ep000515-iph" xml:id="ep000515-e33680">
           <speaker>Iph. </speaker>
           <l>Cou'd you see all the 〈…〉 </l>
           <l>Cou'd you behold my Heart 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e33720">
+        <sp who="ep000515-or" xml:id="ep000515-e33720">
           <speaker>Or. </speaker>
           <l>I have been shewn 〈…〉 </l>
           <l>And in that Sight I saw a 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e33760">
+        <sp who="ep000515-iph" xml:id="ep000515-e33760">
           <speaker>Iph. </speaker>
           <p>Think what's to 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33790">
+        <sp who="ep000515-or" xml:id="ep000515-e33790">
           <speaker>Or. </speaker>
           <p>I do, I do, my Soul's 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33820">
+        <sp who="ep000515-iph" xml:id="ep000515-e33820">
           <speaker>Iph. </speaker>
           <p>Reflect upon my 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e33850">
+        <sp who="ep000515-or" xml:id="ep000515-e33850">
           <speaker>Or. </speaker>
           <l>Damnation! 〈…〉 </l>
           <l>And what must I endure! </l>
         </sp>
-        <sp xml:id="ep000515-e33890">
+        <sp who="ep000515-iph" xml:id="ep000515-e33890">
           <speaker>Iph. </speaker>
           <p>Have Mercy then upon yourself and me. </p>
         </sp>
-        <sp xml:id="ep000515-e33920">
+        <sp who="ep000515-or" xml:id="ep000515-e33920">
           <speaker>Or. </speaker>
           <l>O for a Dagger! </l>
           <l>That plunging it in my Heart's Blood, </l>
           <l>I might to both shew Mercy. </l>
         </sp>
-        <sp xml:id="ep000515-e33970">
+        <sp who="ep000515-iph" xml:id="ep000515-e33970">
           <speaker>Iph. </speaker>
           <p>That Thought's a Dagger; there's another way. </p>
         </sp>
-        <sp xml:id="ep000515-e34000">
+        <sp who="ep000515-or" xml:id="ep000515-e34000">
           <speaker>Or. </speaker>
           <l>No! </l>
           <l>My Heart, my Life, my very▪ Soul is yours: </l>
@@ -3705,12 +3802,12 @@
           <l>Then lead him where the Ministers expect him, </l>
           <l>To bind his Temples, and to veil his Eyes. </l>
         </sp>
-        <sp xml:id="ep000515-e34200">
+        <sp who="ep000515-or" xml:id="ep000515-e34200">
           <speaker>Or. </speaker>
           <l>Stay but one Moment, when a Wretch requires it, </l>
           <l>The only happy Moment I ere knew. </l>
         </sp>
-        <sp xml:id="ep000515-e34240">
+        <sp who="ep000515-1scyth" xml:id="ep000515-e34240">
           <speaker>1 Scyth. </speaker>
           <l>We dare not; for severely we're forbidden. </l>
           <l>The Grecians who were seen upon the Beach, </l>
@@ -3724,7 +3821,7 @@
           <l>Bind him, you Slaves 〈…〉 </l>
           <l>How dare you stand 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e34380">
+        <sp who="ep000515-or" xml:id="ep000515-e34380">
           <speaker>Or. </speaker>
           <l>My Grecians 〈…〉 </l>
           <l>I'd give the World 〈…〉 </l>
@@ -3741,7 +3838,7 @@
           <l>And grant, that at our next accursed meeting, </l>
           <l>Grant, cruel Gods, that mine be all the Pain. </l>
         </sp>
-        <sp xml:id="ep000515-e34540">
+        <sp who="ep000515-iph" xml:id="ep000515-e34540">
           <speaker>Iph. </speaker>
           <p>Break Heart, that we may never meet again. </p>
         </sp>
@@ -3751,43 +3848,43 @@
         <head>ACT. V. </head>
         <stage xml:id="ep000515-e34600">SCENE <hi>The Outward Temple</hi>. </stage>
         <stage xml:id="ep000515-e34620">Enter Queen, Priests and Priestesses. </stage>
-        <sp xml:id="ep000515-e34640">
+        <sp who="ep000515-1pr" xml:id="ep000515-e34640">
           <speaker>1 Pr. </speaker>
           <p>SAve us ye eternal Pow'rs that save the Just. </p>
         </sp>
-        <sp xml:id="ep000515-e34670">
+        <sp who="ep000515-2priest" xml:id="ep000515-e34670">
           <speaker>2 Priest. </speaker>
           <p>Protect us, great Diana! </p>
         </sp>
-        <sp xml:id="ep000515-e34720">
+        <sp who="ep000515-1priest" xml:id="ep000515-e34720">
           <speaker>1 Priest. </speaker>
           <p>What dismal Night is this? </p>
         </sp>
-        <sp xml:id="ep000515-e34760">
+        <sp who="ep000515-2pr" xml:id="ep000515-e34760">
           <speaker>2 Pr. </speaker>
           <p>A dreadful Night indeed! </p>
         </sp>
-        <sp xml:id="ep000515-e34800">
+        <sp who="ep000515-1pr" xml:id="ep000515-e34800">
           <speaker>1 Pr. </speaker>
           <p>Sure all the Elements will now be wrack'd, </p>
           <p>And 'tis the end of all things. </p>
         </sp>
-        <sp xml:id="ep000515-e34850">
+        <sp who="ep000515-queen" xml:id="ep000515-e34850">
           <speaker>Queen. </speaker>
           <l>Are you the Sacred Ministers of Heav'n, </l>
           <l>And yet afraid of Thunder? </l>
         </sp>
-        <sp xml:id="ep000515-e34890">
+        <sp who="ep000515-1pr" xml:id="ep000515-e34890">
           <speaker>1 Pr. </speaker>
           <p>When Jove's disturb'd, what Mortal dares be calm? </p>
         </sp>
-        <sp xml:id="ep000515-e34940">
+        <sp who="ep000515-queen" xml:id="ep000515-e34940">
           <speaker>Queen. </speaker>
           <l>I who am conscious of committing nothing, </l>
           <l>That may provoke his Anger. </l>
           <l>Are all things ready? </l>
         </sp>
-        <sp xml:id="ep000515-e34990">
+        <sp who="ep000515-pr" xml:id="ep000515-e34990">
           <speaker>Pr. </speaker>
           <l>They are, ev'n now th'adorn the fatal Image. </l>
           <pb xml:id="ep000515-029-b"/>
@@ -3822,11 +3919,11 @@
           <pb n="46" xml:id="ep000515-030-a"/>
           <l>When they behold Hell's Ghastly 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e35380">
+        <sp who="ep000515-queen" xml:id="ep000515-e35380">
           <speaker>Queen. </speaker>
           <p>Infamous Slaves 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e35410">
+        <sp who="ep000515-scyth" xml:id="ep000515-e35410">
           <speaker>Scyth. </speaker>
           <l>This front 〈…〉 </l>
           <l>Where I, great Queen, by 〈…〉 </l>
@@ -3836,11 +3933,11 @@
           <l>When in 〈…〉 </l>
           <l>I hurrying drag 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e35500">
+        <sp who="ep000515-queen" xml:id="ep000515-e35500">
           <speaker>Queen. </speaker>
           <p>And 〈…〉 </p>
         </sp>
-        <sp xml:id="ep000515-e35530">
+        <sp who="ep000515-scyth" xml:id="ep000515-e35530">
           <speaker>Scyth. </speaker>
           <l>Not I 〈…〉 </l>
           <l>As we were 〈…〉 </l>
@@ -3850,11 +3947,11 @@
           <l>Swift as the Lightning 〈…〉 </l>
           <l>And in a Moment, 〈…〉 </l>
         </sp>
-        <sp xml:id="ep000515-e35630">
+        <sp who="ep000515-queen" xml:id="ep000515-e35630">
           <speaker>Queen. </speaker>
           <p>And thou art alive to tell this▪ </p>
         </sp>
-        <sp xml:id="ep000515-e35660">
+        <sp who="ep000515-scyth" xml:id="ep000515-e35660">
           <speaker>Scyth. </speaker>
           <l>My Life was of Importance to your Service▪ </l>
           <l>And therefore I preserv'd it. </l>
@@ -3867,7 +3964,7 @@
           <l>When I withdrew to inform▪ you of your Danger, </l>
           <l>And know your further pleasure </l>
         </sp>
-        <sp xml:id="ep000515-e35780">
+        <sp who="ep000515-queen" xml:id="ep000515-e35780">
           <speaker>Queen. </speaker>
           <l>O Death to all my Hopes! [Aside] Return I charge 〈…〉 </l>
           <l>If thy 〈…〉 dear to thee, with speed Return; </l>
@@ -3883,15 +3980,15 @@
           <l>●ead in my Eyes the Rest, and fly to inform them. </l>
         </sp>
         <stage xml:id="ep000515-e35950">Ex. Scyth. </stage>
-        <sp xml:id="ep000515-e35970">
+        <sp who="ep000515-1pr" xml:id="ep000515-e35970">
           <speaker>1 Pr. </speaker>
           <p>The Gods apparently reject this Sacrifice. </p>
         </sp>
-        <sp xml:id="ep000515-e36010">
+        <sp who="ep000515-queen" xml:id="ep000515-e36010">
           <speaker>Queen. </speaker>
           <p>How durst thou think so? </p>
         </sp>
-        <sp xml:id="ep000515-e36040">
+        <sp who="ep000515-1pr" xml:id="ep000515-e36040">
           <speaker>1 Pr. </speaker>
           <l>The prodigies so lately seen confirm it. </l>
           <l>Scarce had the Night upon her Carr ascending, </l>
@@ -3908,19 +4005,19 @@
           <stage xml:id="ep000515-e36180">Enter 〈…〉 </stage>
           <l>Ha! Art thou then return'd▪ What do 〈…〉 Grecians? </l>
         </sp>
-        <sp xml:id="ep000515-e36210">
+        <sp who="ep000515-scyth" xml:id="ep000515-e36210">
           <speaker>Scyth. </speaker>
           <p>The Grecians make a surely slow Retreat. </p>
         </sp>
-        <sp xml:id="ep000515-e36250">
+        <sp who="ep000515-queen" xml:id="ep000515-e36250">
           <speaker>Queen. </speaker>
           <p>And where's the Victim? </p>
         </sp>
-        <sp xml:id="ep000515-e36280">
+        <sp who="ep000515-scyth" xml:id="ep000515-e36280">
           <speaker>Scyth. </speaker>
           <p>Look where the Scythians guard him towards the Altar. </p>
         </sp>
-        <sp xml:id="ep000515-e36320">
+        <sp who="ep000515-queen" xml:id="ep000515-e36320">
           <speaker>Queen. </speaker>
           <p>You are just ye pow'rs in all your ways! </p>
           <p>Now let the Rites begin. </p>
@@ -3931,32 +4028,32 @@
             <div type="ode" xml:id="ep000515-e36420">
               <stage xml:id="ep000515-e36430">Ode for the Sacrifice. Three Priests, Chorus of Priests and Priestesses. </stage>
               <div type="stanza" xml:id="ep000515-e36440">
-                <sp xml:id="ep000515-e36450">
+                <sp who="ep000515-1pr" xml:id="ep000515-e36450">
                   <speaker>1 Pr. </speaker>
                   <p>
                     <hi>HAil great </hi>Diana, <hi>●ear and s●●</hi>, </p>
                 </sp>
-                <sp xml:id="ep000515-e36500">
+                <sp who="ep000515-chor" xml:id="ep000515-e36500">
                   <speaker>Chor. </speaker>
                   <p>We Sacrifice thee. </p>
                 </sp>
-                <sp xml:id="ep000515-e36530">
+                <sp who="ep000515-2pr" xml:id="ep000515-e36530">
                   <speaker>2 Pr. </speaker>
                   <l>Hail Moon that with thy silver Light, </l>
                   <l>Govern'st the Empire of the Night, </l>
                   <l>Look down and see, </l>
                 </sp>
-                <sp xml:id="ep000515-e36580">
+                <sp who="ep000515-chor" xml:id="ep000515-e36580">
                   <speaker>Chor. </speaker>
                   <p>We Sacrifice to thee. </p>
                 </sp>
-                <sp xml:id="ep000515-e36610">
+                <sp who="ep000515-3pr" xml:id="ep000515-e36610">
                   <speaker>3 Pr. </speaker>
                   <l>And thou the Dreadfull'st of the three, </l>
                   <l>Hail Infernal Hecate! </l>
                   <l>Ascend and see! </l>
                 </sp>
-                <sp xml:id="ep000515-e36670">
+                <sp who="ep000515-chor" xml:id="ep000515-e36670">
                   <speaker>Chor. </speaker>
                   <p>We Sacrifice to thee. </p>
                 </sp>
@@ -3976,12 +4073,12 @@
               </div>
               <div n="3" type="stanza" xml:id="ep000515-e36830">
                 <head>III. </head>
-                <sp xml:id="ep000515-e36850">
+                <sp who="ep000515-chor" xml:id="ep000515-e36850">
                   <speaker>Chor. </speaker>
                   <l>Thee Goddess, thee, we all invoke </l>
                   <l>To see us strike the fatal stroke. </l>
                 </sp>
-                <sp xml:id="ep000515-e36890">
+                <sp who="ep000515-2pr" xml:id="ep000515-e36890">
                   <speaker>2 Pr. </speaker>
                   <l>Thou Moon that with thy Silver Light, </l>
                   <l>Govern'st the Empire of the Night; </l>
@@ -3994,7 +4091,7 @@
                   <l>Yet oft forsakes eternal Night </l>
                   <l>To revel in thy paler Day. </l>
                 </sp>
-                <sp xml:id="ep000515-e37010">
+                <sp who="ep000515-chor" xml:id="ep000515-e37010">
                   <speaker>Chor. </speaker>
                   <l>Thee, Goddess, Thee we next invoke, </l>
                   <l>Look down and see the fatal Stroke. </l>
@@ -4002,7 +4099,7 @@
               </div>
               <div n="4" type="stanza" xml:id="ep000515-e37050">
                 <head>IV. </head>
-                <sp xml:id="ep000515-e37070">
+                <sp who="ep000515-2chor" xml:id="ep000515-e37070">
                   <speaker>2 Chor. </speaker>
                   <l>She sees, she sees, a gloomy Red </l>
                   <l>Has half her glowing Face o'erspread. </l>
@@ -4019,7 +4116,7 @@
               </div>
               <div n="5" type="stanza" xml:id="ep000515-e37200">
                 <head>V. </head>
-                <sp xml:id="ep000515-e37220">
+                <sp who="ep000515-2pr" xml:id="ep000515-e37220">
                   <speaker>2 Pr. </speaker>
                   <l>But hold, till lastly thee, </l>
                   <l>〈◊〉 Hecate! </l>
@@ -4042,7 +4139,7 @@
                 <l>Her dire approach declare. </l>
               </div>
               <div type="stanza" xml:id="ep000515-e37420">
-                <sp xml:id="ep000515-e37430">
+                <sp who="ep000515-chorus" xml:id="ep000515-e37430">
                   <speaker>Chorus: </speaker>
                   <l>She's here, her Guard of Furies se●, </l>
                   <l>And Furies now as great are we, </l>
@@ -4060,7 +4157,7 @@
           </body>
         </floatingText>
         <stage xml:id="ep000515-e37550">A shout just as the Ode ends. </stage>
-        <sp xml:id="ep000515-e37560">
+        <sp who="ep000515-queen" xml:id="ep000515-e37560">
           <pb n="50" xml:id="ep000515-032-a"/>
           <speaker>Queen. </speaker>
           <l>Oh insolence, audacious, insupportable! </l>
@@ -4068,91 +4165,91 @@
           <l>The Execution of this dreadful Ceremony. </l>
         </sp>
         <stage xml:id="ep000515-e37610">Enter Messenger. </stage>
-        <sp xml:id="ep000515-e37620">
+        <sp who="ep000515-mess" xml:id="ep000515-e37620">
           <speaker>Mess. </speaker>
           <l>Great Queen, provide betimes for your security, </l>
           <l>The Greeks returning, bear down all before them, </l>
           <l>And the next moment will invest the Temple. </l>
         </sp>
-        <sp xml:id="ep000515-e37680">
+        <sp who="ep000515-queen" xml:id="ep000515-e37680">
           <speaker>Queen. </speaker>
           <p>Are all the Gates madefast? </p>
         </sp>
-        <sp xml:id="ep000515-e37710">
+        <sp who="ep000515-mess" xml:id="ep000515-e37710">
           <speaker>Mess. </speaker>
           <p>They'r all with Bars of solid Brass secur'd. </p>
         </sp>
-        <sp xml:id="ep000515-e37740">
+        <sp who="ep000515-queen" xml:id="ep000515-e37740">
           <speaker>Queen. </speaker>
           <p>Then I'll prevent them, Priestess do thy Duty. </p>
         </sp>
-        <sp xml:id="ep000515-e37770">
+        <sp who="ep000515-iph" xml:id="ep000515-e37770">
           <speaker>Iph. </speaker>
           <p>Goddess, look down, thy Priestess is thy Victim. </p>
         </sp>
         <stage xml:id="ep000515-e37800">Offers to stab herself, the Victim throws off his Veil, and 〈…〉 the Knife from her, discovering himself to be Pilades; 〈…〉 same time speaking as follows. </stage>
-        <sp xml:id="ep000515-e37820">
+        <sp who="ep000515-pil" xml:id="ep000515-e37820">
           <speaker>Pil. </speaker>
           <l>Oh hold, 'tis Sacrilege to strike that stroke, </l>
           <l>Thy Beauties are the Darling care of Heav'n; </l>
           <l>Look up, and see the Wonder it has wrought </l>
           <l>On purpose to preserve them. </l>
         </sp>
-        <sp xml:id="ep000515-e37880">
+        <sp who="ep000515-queen" xml:id="ep000515-e37880">
           <speaker>Queen. </speaker>
           <p>May I believe my Eyes! Amazing sight! </p>
         </sp>
-        <sp xml:id="ep000515-e37910">
+        <sp who="ep000515-euph" xml:id="ep000515-e37910">
           <speaker>Euph. </speaker>
           <p>Miraculous Events! </p>
         </sp>
-        <sp xml:id="ep000515-e37940">
+        <sp who="ep000515-pil" xml:id="ep000515-e37940">
           <speaker>Pil. </speaker>
           <l>Thou thought'st to die for the dear Man thou lov'st, </l>
           <l>And I, alas, am come to die for him. </l>
         </sp>
-        <sp xml:id="ep000515-e37980">
+        <sp who="ep000515-iph" xml:id="ep000515-e37980">
           <speaker>Iph. </speaker>
           <l>O all ye Pow'rs whose Wisdom rules the Universe, </l>
           <l>Let me adore the Wonders of your Providence! </l>
         </sp>
-        <sp xml:id="ep000515-e38020">
+        <sp who="ep000515-queen" xml:id="ep000515-e38020">
           <speaker>Queen. </speaker>
           <l>Revenge thy, injur'd Handmaid, great Diana! </l>
           <l>Revenge thy injur'd self, we're both betray'd, </l>
           <l>By my own faithless Subjects we're betray'd. </l>
         </sp>
-        <sp xml:id="ep000515-e38080">
+        <sp who="ep000515-pil" xml:id="ep000515-e38080">
           <speaker>Pil. </speaker>
           <l>No, cruel Queen, thou see'st I am come to die, </l>
           <l>And satisfie you both. </l>
         </sp>
-        <sp xml:id="ep000515-e38120">
+        <sp who="ep000515-queen" xml:id="ep000515-e38120">
           <speaker>Queen. </speaker>
           <p>Where is thy Friend? </p>
         </sp>
-        <sp xml:id="ep000515-e38150">
+        <sp who="ep000515-pil" xml:id="ep000515-e38150">
           <speaker>Pil. </speaker>
           <p>Where! at the Head of his Victorious Grecians. </p>
         </sp>
-        <sp xml:id="ep000515-e38190">
+        <sp who="ep000515-queen" xml:id="ep000515-e38190">
           <speaker>Queen. </speaker>
           <l>Oh, cursed Fate! </l>
           <l>What brought thee here, to suffer in his stead? </l>
         </sp>
-        <sp xml:id="ep000515-e38230">
+        <sp who="ep000515-pil" xml:id="ep000515-e38230">
           <speaker>Pil. </speaker>
           <l>Agreement with your Scythians, and desire </l>
           <l>To save the only Man of all the World, </l>
           <l>That's fit to be a Friend, by gaining time </l>
           <l>Enough for his Embarkment. </l>
         </sp>
-        <sp xml:id="ep000515-e38300">
+        <sp who="ep000515-queen" xml:id="ep000515-e38300">
           <speaker>Queen. </speaker>
           <l>What hast thou said? Agreement with my Scythians? </l>
           <l>Oh the vile Traitors! Why should they agree to it? </l>
         </sp>
-        <sp xml:id="ep000515-e38350">
+        <sp who="ep000515-pil" xml:id="ep000515-e38350">
           <speaker>Pil. </speaker>
           <l>To save themselves. </l>
           <l>After our Greeks had forced my God-like Friend from them, </l>
@@ -4168,11 +4265,11 @@
           <l>I 〈…〉 gain time for his Embarkment, </l>
           <l>〈…〉 and die for him. </l>
         </sp>
-        <sp xml:id="ep000515-e38500">
+        <sp who="ep000515-queen" xml:id="ep000515-e38500">
           <speaker>Queen. </speaker>
           <p>〈…〉 the Altar thus unbound? </p>
         </sp>
-        <sp xml:id="ep000515-e38530">
+        <sp who="ep000515-pil" xml:id="ep000515-e38530">
           <speaker>Pil. </speaker>
           <l>〈…〉 I agreed with them. </l>
           <l>Death 〈…〉 embrac'd, </l>
@@ -4199,107 +4296,107 @@
           <l>●ake thou the sacred Steel, and strike the Blow. </l>
         </sp>
         <stage xml:id="ep000515-e38800">To another Priestess. </stage>
-        <sp xml:id="ep000515-e38810">
+        <sp who="ep000515-scyth" xml:id="ep000515-e38810">
           <speaker>Scyth. </speaker>
           <p>Make way for the Elder of the Captives there, Make way. </p>
         </sp>
-        <sp xml:id="ep000515-e38840">
+        <sp who="ep000515-queen" xml:id="ep000515-e38840">
           <speaker>Queen. </speaker>
           <p>For the Elder of the Captives! </p>
         </sp>
         <stage xml:id="ep000515-e38870">As the other Priestess is going to strike, Orestes enters, runs between the Dagger and Pilades, and embraces him. </stage>
-        <sp xml:id="ep000515-e38900">
+        <sp who="ep000515-or" xml:id="ep000515-e38900">
           <speaker>Or. </speaker>
           <l>He lives, he lives, I have him in my Arms, </l>
           <l>This turn, ye Pow'rs, has made amends for all. </l>
         </sp>
-        <sp xml:id="ep000515-e38940">
+        <sp who="ep000515-queen" xml:id="ep000515-e38940">
           <speaker>Queen. </speaker>
           <l>Confusion! I am lost, the Greeks are here, </l>
           <l>Strike thro' them both. </l>
         </sp>
-        <sp xml:id="ep000515-e38990">
+        <sp who="ep000515-iph" xml:id="ep000515-e38990">
           <speaker>Iph. </speaker>
           <l>Ah, cruel fight! Ah, Gods! I cannot bear it. </l>
           <l>Thus, let me intercept the barbarous Blow. </l>
         </sp>
         <stage xml:id="ep000515-e39030">As the other Priestess goes to strike, Iphigenia interposes. </stage>
-        <sp xml:id="ep000515-e39050">
+        <sp who="ep000515-queen" xml:id="ep000515-e39050">
           <speaker>Queen. </speaker>
           <p>O Death and Vengeance! Her, her Heart transfix. </p>
         </sp>
-        <sp xml:id="ep000515-e39080">
+        <sp who="ep000515-priest" xml:id="ep000515-e39080">
           <speaker>Priest. </speaker>
           <p>Who's the chief Priestess? </p>
         </sp>
-        <sp xml:id="ep000515-e39110">
+        <sp who="ep000515-queen" xml:id="ep000515-e39110">
           <pb n="52" xml:id="ep000515-033-a"/>
           <speaker>Queen. </speaker>
           <l>Hers, lift thy executing Arm, haste, strike, </l>
           <l>I'm lost, undone, on every side betray'd, </l>
           <l>And the next moment we shall be prevented. </l>
         </sp>
-        <sp xml:id="ep000515-e39160">
+        <sp who="ep000515-or" xml:id="ep000515-e39160">
           <speaker>Or. </speaker>
           <l>O hurt not her, by Heav'n and Earth I adjure you▪ </l>
           <l>●o● I am come alone, and come to die. </l>
         </sp>
-        <sp xml:id="ep000515-e39200">
+        <sp who="ep000515-queen" xml:id="ep000515-e39200">
           <speaker>Queen. </speaker>
           <p>What say'st thou? 'Tis impossible. </p>
         </sp>
-        <sp xml:id="ep000515-e39230">
+        <sp who="ep000515-or" xml:id="ep000515-e39230">
           <speaker>Or. </speaker>
           <p>'Tis certain. </p>
         </sp>
-        <sp xml:id="ep000515-e39260">
+        <sp who="ep000515-queen" xml:id="ep000515-e39260">
           <speaker>Queen. </speaker>
           <p>Wert thou not Rescued by thy Friends? </p>
         </sp>
-        <sp xml:id="ep000515-e39290">
+        <sp who="ep000515-or" xml:id="ep000515-e39290">
           <speaker>Or. </speaker>
           <p>I was▪ </p>
         </sp>
-        <sp xml:id="ep000515-e39320">
+        <sp who="ep000515-queen" xml:id="ep000515-e39320">
           <speaker>Queen. </speaker>
           <p>Hast thou been retaken then by our Scythians? </p>
         </sp>
-        <sp xml:id="ep000515-e39360">
+        <sp who="ep000515-or" xml:id="ep000515-e39360">
           <speaker>Or. </speaker>
           <p>Your Scythians are dispers'd, and we are Victors. </p>
         </sp>
-        <sp xml:id="ep000515-e39400">
+        <sp who="ep000515-queen" xml:id="ep000515-e39400">
           <speaker>Queen. </speaker>
           <p>Where are thy Grecians then? </p>
         </sp>
-        <sp xml:id="ep000515-e39440">
+        <sp who="ep000515-or" xml:id="ep000515-e39440">
           <speaker>Or. </speaker>
           <p>Upon the horrid sommet of the Cliff, </p>
           <p>By my Command, obsequiously they wait. </p>
         </sp>
-        <sp xml:id="ep000515-e39480">
+        <sp who="ep000515-queen" xml:id="ep000515-e39480">
           <speaker>Queen. </speaker>
           <p>How got you entrance? </p>
         </sp>
-        <sp xml:id="ep000515-e39510">
+        <sp who="ep000515-or" xml:id="ep000515-e39510">
           <speaker>Or. </speaker>
           <l>At the Iron Wicket of the Postern, where </l>
           <l>Arm'd with a hundred Javelins, Death stands Centry, </l>
           <l>And none can there unlicens'd pass and live. </l>
         </sp>
-        <sp xml:id="ep000515-e39560">
+        <sp who="ep000515-queen" xml:id="ep000515-e39560">
           <speaker>Queen. </speaker>
           <p>What brought thee to this fatal place alone? </p>
         </sp>
-        <sp xml:id="ep000515-e39590">
+        <sp who="ep000515-or" xml:id="ep000515-e39590">
           <speaker>Or. </speaker>
           <p>I come to die. </p>
         </sp>
-        <sp xml:id="ep000515-e39620">
+        <sp who="ep000515-queen" xml:id="ep000515-e39620">
           <speaker>Queen. </speaker>
           <p>Thou com'st to die! the Conquerour comes to die! </p>
         </sp>
-        <sp xml:id="ep000515-e39650">
+        <sp who="ep000515-or" xml:id="ep000515-e39650">
           <speaker>Or. </speaker>
           <l>After our Greeks had forced me from your Scythians, </l>
           <l>And the short Fury of the Fight was past; </l>
@@ -4332,73 +4429,73 @@
           <l>My Friends unwilling▪ yet with Tears obey'd; </l>
           <l>And here alone the Conquerour's's come to die. </l>
         </sp>
-        <sp xml:id="ep000515-e39980">
+        <sp who="ep000515-queen" xml:id="ep000515-e39980">
           <speaker>Queen. </speaker>
           <p>Unheard of Friendship! </p>
         </sp>
-        <sp xml:id="ep000515-e40010">
+        <sp who="ep000515-euph" xml:id="ep000515-e40010">
           <speaker>Euph. </speaker>
           <p>Unexampled Faith! </p>
         </sp>
-        <sp xml:id="ep000515-e40040">
+        <sp who="ep000515-iph" xml:id="ep000515-e40040">
           <speaker>Iph. </speaker>
           <p>O Constancy Divine! </p>
         </sp>
-        <sp xml:id="ep000515-e40070">
+        <sp who="ep000515-queen" xml:id="ep000515-e40070">
           <speaker>Queen. </speaker>
           <l>Was 〈◊〉 ●●●n so great a sight </l>
           <l>Of glorious Woe before! </l>
         </sp>
-        <sp xml:id="ep000515-e40110">
+        <sp who="ep000515-euphtoiph" xml:id="ep000515-e40110">
           <speaker>Euph. to Iph. </speaker>
           <l>Courage, my Princess, for the Gods declare for us, </l>
           <l>They are here among us▪ they are manifest; </l>
           <l>For these are plainly more than Human Actions▪ </l>
         </sp>
-        <sp xml:id="ep000515-e40180">
+        <sp who="ep000515-queen" xml:id="ep000515-e40180">
           <speaker>Queen. </speaker>
           <l>I am o'recome, I yield y' Almighty Powers, </l>
           <l>To hurt such Virtue were to touch your selves, </l>
           <l>Such Virtue is Divinity. </l>
           <l>Here, set them free immediately. </l>
         </sp>
-        <sp xml:id="ep000515-e40240">
+        <sp who="ep000515-pr" xml:id="ep000515-e40240">
           <speaker>Pr. </speaker>
           <p>Whom? </p>
         </sp>
-        <sp xml:id="ep000515-e40270">
+        <sp who="ep000515-queen" xml:id="ep000515-e40270">
           <speaker>Queen. </speaker>
           <p>The Grecians. </p>
         </sp>
-        <sp xml:id="ep000515-e40310">
+        <sp who="ep000515-pr" xml:id="ep000515-e40310">
           <speaker>Pr. </speaker>
           <p>Both? </p>
         </sp>
-        <sp xml:id="ep000515-e40340">
+        <sp who="ep000515-queen" xml:id="ep000515-e40340">
           <speaker>Queen. </speaker>
           <p>Both. </p>
         </sp>
-        <sp xml:id="ep000515-e40370">
+        <sp who="ep000515-pr" xml:id="ep000515-e40370">
           <speaker>Pr. </speaker>
           <p>Then, where's the Victim for our Solemn Rites? </p>
         </sp>
-        <sp xml:id="ep000515-e40400">
+        <sp who="ep000515-queen" xml:id="ep000515-e40400">
           <speaker>Queen. </speaker>
           <p>The Goddess has herself declar'd her Victim. </p>
         </sp>
-        <sp xml:id="ep000515-e40430">
+        <sp who="ep000515-pr" xml:id="ep000515-e40430">
           <speaker>Pr. </speaker>
           <p>Whom? </p>
         </sp>
-        <sp xml:id="ep000515-e40460">
+        <sp who="ep000515-queen" xml:id="ep000515-e40460">
           <speaker>Queen. </speaker>
           <p>Enquire no more, but set thy Prisoners free. </p>
         </sp>
-        <sp xml:id="ep000515-e40490">
+        <sp who="ep000515-pr" xml:id="ep000515-e40490">
           <speaker>Pr. </speaker>
           <p>They are free. </p>
         </sp>
-        <sp xml:id="ep000515-e40520">
+        <sp who="ep000515-queentoor" xml:id="ep000515-e40520">
           <speaker>
             <hi>Queen▪ </hi>to Or. </speaker>
           <l>Grecian I need not be asham'd to own </l>
@@ -4409,11 +4506,11 @@
           <l>But since thou shew'st thou valuest not thy own, </l>
           <l>I here bestow thy Friends upon thee too. </l>
         </sp>
-        <sp xml:id="ep000515-e40640">
+        <sp who="ep000515-or" xml:id="ep000515-e40640">
           <speaker>Or. </speaker>
           <p>From my soul▪ I thank you. </p>
         </sp>
-        <sp xml:id="ep000515-e40670">
+        <sp who="ep000515-queen" xml:id="ep000515-e40670">
           <speaker>Queen. </speaker>
           <l>But Custom, which▪ 〈◊〉 Scythians Law▪ requires▪ </l>
           <l>That they whom my Prerogative▪ ●●●s free, </l>
@@ -4421,11 +4518,11 @@
           </l>
           <l>Or— </l>
         </sp>
-        <sp xml:id="ep000515-e40760">
+        <sp who="ep000515-or" xml:id="ep000515-e40760">
           <speaker>Or. </speaker>
           <p>But Liberty in that too will be necessary. </p>
         </sp>
-        <sp xml:id="ep000515-e40790">
+        <sp who="ep000515-queen" xml:id="ep000515-e40790">
           <speaker>Queen. </speaker>
           <l>As free as is the Wind shall be thy choice: </l>
           <l>Thou shalt be forc'd in nothing, yet permit me▪ </l>
@@ -4444,11 +4541,11 @@
           <l>Then I am lost again. </l>
         </sp>
         <stage xml:id="ep000515-e40980">Iph. aside. </stage>
-        <sp xml:id="ep000515-e40990">
+        <sp who="ep000515-pil" xml:id="ep000515-e40990">
           <speaker>Pil. </speaker>
           <p>Art thou not mov'd? </p>
         </sp>
-        <sp xml:id="ep000515-e41020">
+        <sp who="ep000515-or" xml:id="ep000515-e41020">
           <speaker>Or. </speaker>
           <l>Amaz'd, confounded, Gods! Are these the words </l>
           <l>Of a Barbarian, of a Savage Scythian? </l>
@@ -4456,12 +4553,12 @@
           <l>Such generous Passion I ne'r knew till now, </l>
           <l>No, not in Greece, but oh its Artful modesty! </l>
         </sp>
-        <sp xml:id="ep000515-e41110">
+        <sp who="ep000515-queen" xml:id="ep000515-e41110">
           <speaker>Queen. </speaker>
           <l>What, no reply? </l>
           <l>My Present sure deserves at least your Thanks. </l>
         </sp>
-        <sp xml:id="ep000515-e41150">
+        <sp who="ep000515-or" xml:id="ep000515-e41150">
           <speaker>Or. </speaker>
           <l>Oh! It deserves much more than I can pay! </l>
           <l>Oh! It deserves my Heart, my very Soul: </l>
@@ -4476,21 +4573,21 @@
           <l>Yet wants the power, nay wants the very will </l>
           <l>To pay th' Immense acknowledgment he owes. </l>
         </sp>
-        <sp xml:id="ep000515-e41290">
+        <sp who="ep000515-queen" xml:id="ep000515-e41290">
           <speaker>Queen. </speaker>
           <p>Suppose some God should free you from this Passion? </p>
         </sp>
-        <sp xml:id="ep000515-e41320">
+        <sp who="ep000515-or" xml:id="ep000515-e41320">
           <speaker>Or. </speaker>
           <p>I wish not to be free: </p>
         </sp>
-        <sp xml:id="ep000515-e41350">
+        <sp who="ep000515-queen" xml:id="ep000515-e41350">
           <speaker>Queen. </speaker>
           <l>Yet put the Case you were this moment free, </l>
           <l>Might I expect to find you grateful then? </l>
           <l>For Grecian, I am loth to think you hate me. </l>
         </sp>
-        <sp xml:id="ep000515-e41410">
+        <sp who="ep000515-or" xml:id="ep000515-e41410">
           <speaker>Or. </speaker>
           <l>Hate you! O Heaven! of all your lovely Sex </l>
           <l>You I esteem, and you I most admire, </l>
@@ -4505,33 +4602,33 @@
           <l>Prouder to obey your absolute Commands </l>
           <l>Than to Controul th' extended Plains of Tauris. </l>
         </sp>
-        <sp xml:id="ep000515-e41560">
+        <sp who="ep000515-queen" xml:id="ep000515-e41560">
           <speaker>Queen. </speaker>
           <p>May I believe thee? </p>
         </sp>
-        <sp xml:id="ep000515-e41590">
+        <sp who="ep000515-or" xml:id="ep000515-e41590">
           <speaker>Or. </speaker>
           <l>Yes, could I haue resolv'd to say what's false, </l>
           <l>You had heard a falshood that would more have pleas'd you. </l>
         </sp>
-        <sp xml:id="ep000515-e41630">
+        <sp who="ep000515-queen" xml:id="ep000515-e41630">
           <pb n="55" xml:id="ep000515-034-b"/>
           <speaker>Queen. </speaker>
           <p>But swear. </p>
         </sp>
-        <sp xml:id="ep000515-e41660">
+        <sp who="ep000515-or" xml:id="ep000515-e41660">
           <speaker>Or. </speaker>
           <p>Propose the Oath. </p>
         </sp>
-        <sp xml:id="ep000515-e41690">
+        <sp who="ep000515-queen" xml:id="ep000515-e41690">
           <speaker>Queen. </speaker>
           <p>Swear by the dreadful Altar you have escap'd. </p>
         </sp>
-        <sp xml:id="ep000515-e41720">
+        <sp who="ep000515-or" xml:id="ep000515-e41720">
           <speaker>Or. </speaker>
           <p>By this Tremendous Altar then I swear. </p>
         </sp>
-        <sp xml:id="ep000515-e41750">
+        <sp who="ep000515-queen" xml:id="ep000515-e41750">
           <speaker>Queen. </speaker>
           <l>This Altar then shall free that from a Passion </l>
           <l>That's so unworthy thee, 〈◊〉 like the Priestess, </l>
@@ -4540,44 +4637,44 @@
           <l>Here, take 〈◊〉, bind 〈◊〉 drag her to the Altar, </l>
           <l>And in her 〈◊〉 some plunge the Sacred Steel. </l>
         </sp>
-        <sp xml:id="ep000515-e41830">
+        <sp who="ep000515-pr" xml:id="ep000515-e41830">
           <speaker>Pr. </speaker>
           <p>O Heaven! The Priestess! </p>
         </sp>
-        <sp xml:id="ep000515-e41860">
+        <sp who="ep000515-or" xml:id="ep000515-e41860">
           <speaker>Or. </speaker>
           <p>Impious Proposal! </p>
         </sp>
-        <sp xml:id="ep000515-e41890">
+        <sp who="ep000515-pil" xml:id="ep000515-e41890">
           <speaker>Pil. </speaker>
           <p>Think not that we will e're endure that sight. </p>
         </sp>
-        <sp xml:id="ep000515-e41920">
+        <sp who="ep000515-queen" xml:id="ep000515-e41920">
           <speaker>Queen. </speaker>
           <l>Think not that you'll endure it! Think where you are. </l>
           <l>You both are in my power. </l>
         </sp>
-        <sp xml:id="ep000515-e41960">
+        <sp who="ep000515-pil" xml:id="ep000515-e41960">
           <speaker>Pil. </speaker>
           <l>They who dare die are always in their own. </l>
           <l>Our Breasts shall intercept th' accursed blow. </l>
         </sp>
-        <sp xml:id="ep000515-e42000">
+        <sp who="ep000515-queen" xml:id="ep000515-e42000">
           <speaker>Queen. </speaker>
           <p>Guards, 'tis your Duty to take care of that. </p>
         </sp>
-        <sp xml:id="ep000515-e42030">
+        <sp who="ep000515-or" xml:id="ep000515-e42030">
           <speaker>Or. </speaker>
           <p>No barbarous power can force us to survive her. </p>
         </sp>
-        <sp xml:id="ep000515-e42060">
+        <sp who="ep000515-queen" xml:id="ep000515-e42060">
           <speaker>Queen. </speaker>
           <l>Die then, and prove the Plagues which for the Perjur'd </l>
           <l>The direful Goddesses prepare below, </l>
           <l>As soon as she expires, thou to be mine </l>
           <l>Hast by th' inviolable Altar sworn. </l>
         </sp>
-        <sp xml:id="ep000515-e42120">
+        <sp who="ep000515-or" xml:id="ep000515-e42120">
           <speaker>Or. </speaker>
           <l>In what a Mase, O Fate, am I entangled! </l>
           <l>But think, reflect, by all the Gods I adjure you. </l>
@@ -4602,18 +4699,18 @@
           <l>Revenging with its utter extirpation, </l>
           <l>Her Priestess Murder'd, and here Shrine prophan'd. </l>
         </sp>
-        <sp xml:id="ep000515-e42360">
+        <sp who="ep000515-pr" xml:id="ep000515-e42360">
           <speaker>Pr. </speaker>
           <l>Scythians, 'tis true. </l>
           <l>These Judgments we must fearfully expect </l>
           <pb n="56" xml:id="ep000515-035-a"/>
           <l>If we lay impious Hands upon the Priestess. </l>
         </sp>
-        <sp xml:id="ep000515-e42420">
+        <sp who="ep000515-allscyth" xml:id="ep000515-e42420">
           <speaker>All Scyth. </speaker>
           <p>Unbind the Priestess, set her free immediately. </p>
         </sp>
-        <sp xml:id="ep000515-e42450">
+        <sp who="ep000515-queen" xml:id="ep000515-e42450">
           <speaker>Queen. </speaker>
           <l>Hear me first, Scythians, and you Grecians hear! </l>
           <l>Scythians, what slavish Doubt has seiz'd your Souls? </l>
@@ -4628,11 +4725,11 @@
           <l>And Heaven best knows how I have been rewarded. </l>
           <l>Now for you, Grecians, you too shall be satisfi'd. </l>
         </sp>
-        <sp xml:id="ep000515-e42630">
+        <sp who="ep000515-pil" xml:id="ep000515-e42630">
           <speaker>Pil. </speaker>
           <p>No, never, if she dies. </p>
         </sp>
-        <sp xml:id="ep000515-e42660">
+        <sp who="ep000515-queen" xml:id="ep000515-e42660">
           <speaker>Queen. </speaker>
           <l>Yes, though she dies, for when you know this Priestess </l>
           <l>You will your selves demand and urge her Fate. </l>
@@ -4643,31 +4740,31 @@
           <l>Nay her own Father to the Altar doom'd her, </l>
           <l>Because the severe Goddess had exacted her. </l>
         </sp>
-        <sp xml:id="ep000515-e42790">
+        <sp who="ep000515-pil" xml:id="ep000515-e42790">
           <speaker>Pil. </speaker>
           <p>May I believe my Sense? Am I awake! </p>
         </sp>
-        <sp xml:id="ep000515-e42820">
+        <sp who="ep000515-or" xml:id="ep000515-e42820">
           <speaker>Or. </speaker>
           <l>O all y' Immortal Powers! How am I tortur'd </l>
           <l>By the fierce pangs of wondrous Expectation! </l>
         </sp>
-        <sp xml:id="ep000515-e42860">
+        <sp who="ep000515-queen" xml:id="ep000515-e42860">
           <speaker>Queen. </speaker>
           <l>But Death by her Mothers Artifice she escap'd, </l>
           <l>While a young Lesbian Slave in Shape and Size </l>
           <l>And Age resembling hers, in a long Veil </l>
           <l>Was at the Altar offer'd in hear stead. </l>
         </sp>
-        <sp xml:id="ep000515-e42930">
+        <sp who="ep000515-or" xml:id="ep000515-e42930">
           <speaker>Or. </speaker>
           <p>Support me! Gods! Support me! </p>
         </sp>
-        <sp xml:id="ep000515-e42960">
+        <sp who="ep000515-queen" xml:id="ep000515-e42960">
           <speaker>Queen. </speaker>
           <p>Why dost thou thus exclaiming interrupt me? </p>
         </sp>
-        <sp xml:id="ep000515-e42990">
+        <sp who="ep000515-or" xml:id="ep000515-e42990">
           <speaker>Or. </speaker>
           <l>Oh! I have most amazing things to tell you! </l>
           <l>But first Important Questions I must ask. </l>
@@ -4675,22 +4772,22 @@
           <l>And Queen, assure thy self on what I say </l>
           <l>Thy Peace, thy lasting Happiness depends. </l>
         </sp>
-        <sp xml:id="ep000515-e43060">
+        <sp who="ep000515-queen" xml:id="ep000515-e43060">
           <speaker>Queen. </speaker>
           <p>Speak, but be short then, what are the Gods doing! </p>
         </sp>
-        <sp xml:id="ep000515-e43090">
+        <sp who="ep000515-or" xml:id="ep000515-e43090">
           <speaker>Or. </speaker>
           <l>Say then, poor, lost, abandon'd Virgin, say, </l>
           <l>Didst thou from bleeding at a Grecian Altar </l>
           <l>By thy fond Mothers Artifice escape! </l>
         </sp>
-        <sp xml:id="ep000515-e43150">
+        <sp who="ep000515-iph" xml:id="ep000515-e43150">
           <speaker>Iph. </speaker>
           <l>I did, and thank the Gods a thousand times for it; </l>
           <l>By that escape I have liv'd to dye for thee. </l>
         </sp>
-        <sp xml:id="ep000515-e43190">
+        <sp who="ep000515-or" xml:id="ep000515-e43190">
           <pb n="57" xml:id="ep000515-035-b"/>
           <speaker>Or. </speaker>
           <l>Talk not of Death, alas, but answer me, </l>
@@ -4699,22 +4796,22 @@
           <l>How comes it that thy strange Escape▪ in Greece </l>
           <l>Was never heard or talk'd of● </l>
         </sp>
-        <sp xml:id="ep000515-e43270">
+        <sp who="ep000515-iph" xml:id="ep000515-e43270">
           <speaker>Iph. </speaker>
           <l>Of 〈…〉 wretched Parents </l>
           <l>Were 〈…〉 it, 〈…〉 night inform'd me </l>
           <l>They sadly 〈…〉 by a 〈…〉. </l>
         </sp>
-        <sp xml:id="ep000515-e43320">
+        <sp who="ep000515-or" xml:id="ep000515-e43320">
           <speaker>Or. </speaker>
           <p>O Miracle of 〈…〉 O Transport▪ </p>
         </sp>
-        <sp xml:id="ep000515-e43350">
+        <sp who="ep000515-iph" xml:id="ep000515-e43350">
           <speaker>Iph. </speaker>
           <l>My Sisters both werein 〈…〉 Infancy, </l>
           <l>My Brother scarce had seen the 〈…〉. </l>
         </sp>
-        <sp xml:id="ep000515-e43390">
+        <sp who="ep000515-or" xml:id="ep000515-e43390">
           <speaker>Or. </speaker>
           <l>By Heav'n and Earth it can be none but 〈…〉, </l>
           <l>See Helens Form upon that lovely Front! </l>
@@ -4722,7 +4819,7 @@
           <l>Answer but one thing more, say from what Altar </l>
           <l>Didst thou escape, and by what Artifice? </l>
         </sp>
-        <sp xml:id="ep000515-e43470">
+        <sp who="ep000515-iph" xml:id="ep000515-e43470">
           <speaker>Iph. </speaker>
           <l>Alas 'tis a long Story, </l>
           <l>And my weak Spirits, by my Grief opprest, </l>
@@ -4731,32 +4828,32 @@
           <l>Yet grant me this, my first and last Request, </l>
           <l>To Greece transport the Writing. </l>
         </sp>
-        <sp xml:id="ep000515-e43560">
+        <sp who="ep000515-or" xml:id="ep000515-e43560">
           <speaker>Or. </speaker>
           <l>Talk not of Writings, Writings may be lost; </l>
           <l>But tell me in a word what I must say, </l>
           <l>What and to whom? </l>
         </sp>
-        <sp xml:id="ep000515-e43610">
+        <sp who="ep000515-iph" xml:id="ep000515-e43610">
           <speaker>Iph. </speaker>
           <l>Inform my Friends and Kindred then at Argos, </l>
           <l>That the forlorn abandon'd 〈…〉— </l>
         </sp>
-        <sp xml:id="ep000515-e43670">
+        <sp who="ep000515-or" xml:id="ep000515-e43670">
           <speaker>Or. </speaker>
           <p>O supreme Jove, whose Providence has wrought this! </p>
         </sp>
-        <sp xml:id="ep000515-e43710">
+        <sp who="ep000515-iph" xml:id="ep000515-e43710">
           <speaker>Iph. </speaker>
           <l>What makes you lift your 〈…〉 to Heaven, </l>
           <l>And starting thus exclaim? </l>
         </sp>
-        <sp xml:id="ep000515-e43750">
+        <sp who="ep000515-or" xml:id="ep000515-e43750">
           <speaker>Or. </speaker>
           <l>Was ever Vision of the Night so strange, </l>
           <l>So wonderful as this! Say on, say on. </l>
         </sp>
-        <sp xml:id="ep000515-e43790">
+        <sp who="ep000515-iph" xml:id="ep000515-e43790">
           <speaker>Iph. </speaker>
           <l>Tell them at Argos, that poor Iphigenia, </l>
           <l>Whom fondly they believ'd at 〈…〉 sacrific'd, </l>
@@ -4765,34 +4862,34 @@
           <l>And with, O wish my Brother, my Orestes, </l>
           <l>A much more gentle Fate! </l>
         </sp>
-        <sp xml:id="ep000515-e43920">
+        <sp who="ep000515-or" xml:id="ep000515-e43920">
           <speaker>Or. </speaker>
           <p>Thus, thus, thy Brother, thy Orestes thanks thee. </p>
         </sp>
         <stage xml:id="ep000515-e43960">Embraces. </stage>
-        <sp xml:id="ep000515-e43970">
+        <sp who="ep000515-iph" xml:id="ep000515-e43970">
           <speaker>Iph. </speaker>
           <p>My Brother! Oh! </p>
         </sp>
-        <sp xml:id="ep000515-e44000">
+        <sp who="ep000515-or" xml:id="ep000515-e44000">
           <speaker>Or. </speaker>
           <p>My dearest Sister! </p>
         </sp>
-        <sp xml:id="ep000515-e44030">
+        <sp who="ep000515-iph" xml:id="ep000515-e44030">
           <speaker>Iph. </speaker>
           <l>Can it be true! </l>
           <l>Or does my Sense, grown wild with Grief, delude me? </l>
         </sp>
-        <sp xml:id="ep000515-e44070">
+        <sp who="ep000515-qu" xml:id="ep000515-e44070">
           <speaker>Qu. </speaker>
           <p>Her Brother! is it possible! her Brother! </p>
         </sp>
-        <sp xml:id="ep000515-e44100">
+        <sp who="ep000515-eup" xml:id="ep000515-e44100">
           <speaker>Eup. </speaker>
           <p>Her Brother! and the powerful King of <hi>Argos▪ </hi>
           </p>
         </sp>
-        <sp xml:id="ep000515-e44140">
+        <sp who="ep000515-qu" xml:id="ep000515-e44140">
           <speaker>Qu. </speaker>
           <l>Is't possible! O the transporting Joy! </l>
           <l>Impetuous Flood of unexpected Rapture! </l>
@@ -4800,40 +4897,40 @@
           <l>Whether I live or no I cannot tell. </l>
           <l>Haste, Scythians, haste, upon your knees unbind her. </l>
         </sp>
-        <sp xml:id="ep000515-e44210">
+        <sp who="ep000515-pil" xml:id="ep000515-e44210">
           <speaker>Pil. </speaker>
           <l>Hold off your barbarous hands, presumptuous Slaves, </l>
           <l>And let a Prince be honour'd with that Task. </l>
         </sp>
         <stage xml:id="ep000515-e44250">unbinds her. </stage>
-        <sp xml:id="ep000515-e44260">
+        <sp who="ep000515-or" xml:id="ep000515-e44260">
           <speaker>Or. </speaker>
           <l>O Queen! O Friend! O Sister! </l>
           <l>Was ever Night like this! </l>
         </sp>
-        <sp xml:id="ep000515-e44300">
+        <sp who="ep000515-pil" xml:id="ep000515-e44300">
           <speaker>Pil. </speaker>
           <l>Thus to these lovely Limbs I Liberty restore. </l>
           <l>O would but the good Gods and she consent </l>
           <l>That I for ever might remain a Captive. </l>
         </sp>
-        <sp xml:id="ep000515-e44350">
+        <sp who="ep000515-qutoiph" xml:id="ep000515-e44350">
           <speaker>Qu. to Iph. </speaker>
           <l>Canst thou forgive me all this cruel Usage, </l>
           <l>Of which Love only could have made me guilty? </l>
           <l>Canst thou, thou tend'rest of all Humankind? </l>
         </sp>
-        <sp xml:id="ep000515-e44400">
+        <sp who="ep000515-ioh" xml:id="ep000515-e44400">
           <speaker>Ioh. </speaker>
           <l>Can you so much as ask it? all my Soul </l>
           <l>Is to transporting Tenderness resign'd. </l>
         </sp>
-        <sp xml:id="ep000515-e44440">
+        <sp who="ep000515-qu" xml:id="ep000515-e44440">
           <speaker>Qu. </speaker>
           <l>Thou art all Goodness; in this strict Embrace </l>
           <l>Let all Unkindness be forgot for ever. </l>
         </sp>
-        <sp xml:id="ep000515-e44480">
+        <sp who="ep000515-or" xml:id="ep000515-e44480">
           <speaker>Or. </speaker>
           <l>Now, how shall we pay equal Thanks to Heav'n, </l>
           <l>For this so great, so wonderful Deliverance? </l>
@@ -4850,7 +4947,7 @@
           <l>All the high Raptures thy fierce Passion promises▪ </l>
           <l>Thou answer'st not. </l>
         </sp>
-        <sp xml:id="ep000515-e44670">
+        <sp who="ep000515-pil" xml:id="ep000515-e44670">
           <speaker>Pil. </speaker>
           <l>Oh, I want Breath to speak, I die with Ecstasie! </l>
           <l>And my tumultuous Thoughts above all Words are rais'd▪ </l>
@@ -4858,7 +4955,7 @@
           <l>Here pour out the abundance of my Soul. </l>
         </sp>
         <stage xml:id="ep000515-e44730">Kissing her Hand. </stage>
-        <sp xml:id="ep000515-e44740">
+        <sp who="ep000515-or" xml:id="ep000515-e44740">
           <speaker>Or. </speaker>
           <l>And next to you, great Queen, I pay my Acknowledgments, </l>
           <l>And now with Joy accept this Realm of Tauris, </l>
@@ -4874,7 +4971,7 @@
           <l>Whose Image great Apollo's Delphic Oracle▪ </l>
           <l>Has with reiterated Voice demanded. </l>
         </sp>
-        <sp xml:id="ep000515-e44920">
+        <sp who="ep000515-qu" xml:id="ep000515-e44920">
           <pb n="59" xml:id="ep000515-036-b"/>
           <speaker>Qu. </speaker>
           <l>The Prodigies of this stupendous Night, </l>
@@ -4882,7 +4979,7 @@
           <l>With me the Goddess shall to Greece remove, </l>
           <l>And these inhumane Rites shall cease for ever. </l>
         </sp>
-        <sp xml:id="ep000515-e44990">
+        <sp who="ep000515-or" xml:id="ep000515-e44990">
           <speaker>Or. </speaker>
           <l>The Gods are good, and Lovers of Mankind, </l>
           <l>And that Religion that allows of Cruelty </l>

@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000774" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000774" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +54,39 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000774-humility">
+              <persName>Humility</persName>
+            </person>
+            <person xml:id="ep000774-integ">
+              <persName>Integ</persName>
+            </person>
+            <person xml:id="ep000774-omnes">
+              <persName>Omnes</persName>
+            </person>
+            <person xml:id="ep000774-humil">
+              <persName>Humil</persName>
+            </person>
+            <person xml:id="ep000774-magnanim">
+              <persName>Magnanim</persName>
+            </person>
+            <person xml:id="ep000774-magnanimity">
+              <persName>Magnanimity</persName>
+            </person>
+            <person xml:id="ep000774-magn">
+              <persName>Magn</persName>
+            </person>
+            <person xml:id="ep000774-integrity">
+              <persName>Integrity</persName>
+            </person>
+            <person xml:id="ep000774-honour">
+              <persName>Honour</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -411,57 +444,57 @@
         <div type="dialogue" xml:id="ep000774-e5540">
           <pb n="16" xml:id="ep000774-011-a"/>
           <head>EUGLOGUE. </head>
-          <sp xml:id="ep000774-e5560">
+          <sp who="ep000774-humility" xml:id="ep000774-e5560">
             <speaker>Humility. </speaker>
             <p>MY Lord— </p>
           </sp>
-          <sp xml:id="ep000774-e5590">
+          <sp who="ep000774-integrity" xml:id="ep000774-e5590">
             <speaker>Integrity. </speaker>
             <p>My Lord— </p>
           </sp>
-          <sp xml:id="ep000774-e5620">
+          <sp who="ep000774-magnanimity" xml:id="ep000774-e5620">
             <speaker>Magnanimity. </speaker>
             <p>My Lord— </p>
           </sp>
-          <sp xml:id="ep000774-e5650">
+          <sp who="ep000774-honour" xml:id="ep000774-e5650">
             <speaker>Honour. </speaker>
             <p>My Lord— </p>
           </sp>
-          <sp xml:id="ep000774-e5680">
+          <sp who="ep000774-humility" xml:id="ep000774-e5680">
             <speaker>Humility. </speaker>
             <lg>
               <l>Pray stay, </l>
               <l>'Tis fit Humility should lead the way, </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e5740">
+          <sp who="ep000774-integrity" xml:id="ep000774-e5740">
             <speaker>Integrity. </speaker>
             <p>Accompanied with pure Integrity, </p>
           </sp>
-          <sp xml:id="ep000774-e5780">
+          <sp who="ep000774-magnanimity" xml:id="ep000774-e5780">
             <speaker>Magnanimity. </speaker>
             <p>And the Minds Buckler Magnanimity; </p>
           </sp>
-          <sp xml:id="ep000774-e5830">
+          <sp who="ep000774-honour" xml:id="ep000774-e5830">
             <speaker>Honour. </speaker>
             <p>Honour to Crown the end, Merit rewards, </p>
           </sp>
-          <sp xml:id="ep000774-e5880">
+          <sp who="ep000774-humil" xml:id="ep000774-e5880">
             <speaker>Humil. </speaker>
             <p>And in that Sense Humility regards. </p>
           </sp>
-          <sp xml:id="ep000774-e5920">
+          <sp who="ep000774-integ" xml:id="ep000774-e5920">
             <speaker>Integ. </speaker>
             <p>Integrity is Heavens delight, </p>
           </sp>
-          <sp xml:id="ep000774-e5960">
+          <sp who="ep000774-magn" xml:id="ep000774-e5960">
             <speaker>Magn. </speaker>
             <lg>
               <l>And he, </l>
               <l>Dares reach at Stars has Magnanimity: </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6020">
+          <sp who="ep000774-humil" xml:id="ep000774-e6020">
             <speaker>Humil. </speaker>
             <lg>
               <l>Nor can his Breast lodge Virtue, that disdains </l>
@@ -472,7 +505,7 @@
               <l>To see the Poor have Work, not Starve and Dye. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6180">
+          <sp who="ep000774-integrity" xml:id="ep000774-e6180">
             <speaker>Integrity. </speaker>
             <lg>
               <l>By <hi>Patience, Constancy, Fidelity</hi>, </l>
@@ -482,7 +515,7 @@
               <l>'Gainst Schisme and Faction, for the Churches good. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6300">
+          <sp who="ep000774-honour" xml:id="ep000774-e6300">
             <speaker>Honour. </speaker>
             <lg>
               <l>Reason, though plain, takes Iudgement by the hand, </l>
@@ -494,7 +527,7 @@
               <l>They are the Splendour, though You are the Iem. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6540">
+          <sp who="ep000774-magnanim" xml:id="ep000774-e6540">
             <pb n="17" xml:id="ep000774-011-b"/>
             <speaker>Magnanim. </speaker>
             <lg>
@@ -504,44 +537,44 @@
               <l>Should Storms arise to shake his setled State. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6640">
+          <sp who="ep000774-honour" xml:id="ep000774-e6640">
             <speaker>Honour. </speaker>
             <lg>
               <l>There is no Vertue (Sir) Exempt in you, </l>
               <l>Receive then what deservedly's your due. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6700">
+          <sp who="ep000774-humility" xml:id="ep000774-e6700">
             <speaker>Humility. </speaker>
             <p>The Cities wishes, </p>
           </sp>
-          <sp xml:id="ep000774-e6730">
+          <sp who="ep000774-integrity" xml:id="ep000774-e6730">
             <speaker>Integrity. </speaker>
             <p>And your Companies. </p>
           </sp>
-          <sp xml:id="ep000774-e6760">
+          <sp who="ep000774-honour" xml:id="ep000774-e6760">
             <speaker>Honour. </speaker>
             <lg>
               <l>May you be ever in your Princes Eyes, </l>
               <l>His Favours Crown you. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6810">
+          <sp who="ep000774-magnanimity" xml:id="ep000774-e6810">
             <speaker>Magnanimity. </speaker>
             <lg>
               <l>And your honour'd Name </l>
               <l>In your Successors Breasts brave Deeds enflame. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000774-e6860">
+          <sp who="ep000774-integrity" xml:id="ep000774-e6860">
             <speaker>Integrity. </speaker>
             <p>Your Goodnesse with your Honours still encrease, </p>
           </sp>
-          <sp xml:id="ep000774-e6920">
+          <sp who="ep000774-humility" xml:id="ep000774-e6920">
             <speaker>Humility. </speaker>
             <p>And stifle those that smother would our Peace. </p>
           </sp>
-          <sp xml:id="ep000774-e6980">
+          <sp who="ep000774-omnes" xml:id="ep000774-e6980">
             <speaker>Omnes. </speaker>
             <lg>
               <l>Miriades of Blessings (Sir) your Life attend, </l>

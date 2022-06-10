@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000670" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000670" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,7 +52,105 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000670-pet">
+              <persName>Pet</persName>
+            </person>
+            <person xml:id="ep000670-tig">
+              <persName>Tig</persName>
+            </person>
+            <person xml:id="ep000670-mel">
+              <persName>Mel</persName>
+            </person>
+            <person xml:id="ep000670-cor">
+              <persName>Cor</persName>
+            </person>
+            <person xml:id="ep000670-ant">
+              <persName>Ant</persName>
+            </person>
+            <person xml:id="ep000670-epap">
+              <persName>Epap</persName>
+            </person>
+            <person xml:id="ep000670-boy">
+              <persName>Boy</persName>
+            </person>
+            <person xml:id="ep000670-1frie">
+              <persName>1 Frie</persName>
+            </person>
+            <person xml:id="ep000670-sce">
+              <persName>Sce</persName>
+            </person>
+            <person xml:id="ep000670-ner">
+              <persName>Ner</persName>
+            </person>
+            <person xml:id="ep000670-3rom">
+              <persName>3. Rom</persName>
+            </person>
+            <person xml:id="ep000670-1ro">
+              <persName>1 Ro</persName>
+            </person>
+            <person xml:id="ep000670-2ro">
+              <persName>2. Ro</persName>
+            </person>
+            <person xml:id="ep000670-flav">
+              <persName>Flav</persName>
+            </person>
+            <person xml:id="ep000670-mil">
+              <persName>Mil</persName>
+            </person>
+            <person xml:id="ep000670-2frie">
+              <persName>2 Frie</persName>
+            </person>
+            <person xml:id="ep000670-nim">
+              <persName>Nim</persName>
+            </person>
+            <person xml:id="ep000670-petronius">
+              <persName>Petronius</persName>
+            </person>
+            <person xml:id="ep000670-piso">
+              <persName>Piso</persName>
+            </person>
+            <person xml:id="ep000670-1rom">
+              <persName>1 Rom</persName>
+            </person>
+            <person xml:id="ep000670-rob">
+              <persName>Rob</persName>
+            </person>
+            <person xml:id="ep000670-neop">
+              <persName>Neop</persName>
+            </person>
+            <person xml:id="ep000670-3ro">
+              <persName>3. Ro</persName>
+            </person>
+            <person xml:id="ep000670-neoph">
+              <persName>Neoph</persName>
+            </person>
+            <person xml:id="ep000670-nero">
+              <persName>Nero</persName>
+            </person>
+            <person xml:id="ep000670-luc">
+              <persName>Luc</persName>
+            </person>
+            <person xml:id="ep000670-pis">
+              <persName>Pis</persName>
+            </person>
+            <person xml:id="ep000670-nimp">
+              <persName>Nimp</persName>
+            </person>
+            <person xml:id="ep000670-pop">
+              <persName>Pop</persName>
+            </person>
+            <person xml:id="ep000670-sen">
+              <persName>Sen</persName>
+            </person>
+            <person xml:id="ep000670-anto">
+              <persName>Anto</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -152,7 +251,7 @@
             </row>
             <row>
               <cell>Three Romans. </cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row>
               <cell>Poppea, </cell>
@@ -173,14 +272,14 @@
           <head>Piso's CONSPIRACY. </head>
           <head>ACTUS PRIMUS. </head>
           <stage xml:id="ep000670-e1250">Enter Petronius, and Antonius. </stage>
-          <sp xml:id="ep000670-e1280">
+          <sp who="ep000670-petronius" xml:id="ep000670-e1280">
             <speaker>Petronius. </speaker>
             <l>TAke the Wench </l>
             <l>I shew'd thee now, or else go seek some other. </l>
             <l>What, can your Choller no way be allay'd, </l>
             <l>But with Imperial Titles: </l>
           </sp>
-          <sp xml:id="ep000670-e1340">
+          <sp who="ep000670-anto" xml:id="ep000670-e1340">
             <speaker>Anto. </speaker>
             <l>Great are thy Fortunes Nero, great thy Power: </l>
             <l>Thy Empire Limited with Natures bounds; </l>
@@ -194,7 +293,7 @@
             <l>Whose Eye's more Worth, than all it looks upon, </l>
             <l>That are through the Wide Earth, or Heaven dispos'd. </l>
           </sp>
-          <sp xml:id="ep000670-e1480">
+          <sp who="ep000670-pet" xml:id="ep000670-e1480">
             <speaker>Pet. </speaker>
             <l>Indeed, she steals and robs each part oth'World, </l>
             <l>With borrow'd Beauties, to enflame the Eye; </l>
@@ -203,11 +302,11 @@
             <l>To Plume her Pride, the Birds do naked sing, </l>
             <l>When my Euanthe, in a Homely Gown— </l>
           </sp>
-          <sp xml:id="ep000670-e1570">
+          <sp who="ep000670-ant" xml:id="ep000670-e1570">
             <speaker>Ant. </speaker>
             <l>Homely, I Faith. </l>
           </sp>
-          <sp xml:id="ep000670-e1600">
+          <sp who="ep000670-pet" xml:id="ep000670-e1600">
             <speaker>Pet. </speaker>
             <l>I, Homely, in her Gown; </l>
             <l>But look upon her Face, and that's set out </l>
@@ -215,7 +314,7 @@
             <stage xml:id="ep000670-e1650">Enter Poppea, <hi>Royally Attended, who Passes over the Stage in State. </hi>
             </stage>
           </sp>
-          <sp xml:id="ep000670-e1680">
+          <sp who="ep000670-ant" xml:id="ep000670-e1680">
             <speaker>Ant. </speaker>
             <l>Great Queen, whom Nature made to be her Glory, </l>
             <l>Fortune got Eyes, and came to be thy Servant. </l>
@@ -224,7 +323,7 @@
             <l>So Bright, so Glorious is thy Majesty, </l>
             <l>That it beats down again my Climbing Thoughts. </l>
           </sp>
-          <sp xml:id="ep000670-e1760">
+          <sp who="ep000670-pet" xml:id="ep000670-e1760">
             <speaker>Pet. </speaker>
             <l>That's true; </l>
             <l>But give me a Wench, that will be easily had, </l>
@@ -233,12 +332,12 @@
             <l>Then Cleopatra she, or Lucrecis: </l>
             <l>I'le give her any Title. </l>
           </sp>
-          <sp xml:id="ep000670-e1860">
+          <sp who="ep000670-ant" xml:id="ep000670-e1860">
             <speaker>Ant. </speaker>
             <l>Yet not so much her Greatness and Estate. </l>
             <l>My Hopes dishearten, as her Chastity. </l>
           </sp>
-          <sp xml:id="ep000670-e1900">
+          <sp who="ep000670-pet" xml:id="ep000670-e1900">
             <speaker>Pet. </speaker>
             <l>Chastity! Fool, a word not known in Courts: </l>
             <l>Well may it lodge in Mean, and Country Homes, </l>
@@ -253,7 +352,7 @@
             <l>Make her as soon Contented with an Eye. </l>
             <stage xml:id="ep000670-e2030">Enter Nimphidius. </stage>
           </sp>
-          <sp xml:id="ep000670-e2050">
+          <sp who="ep000670-nim" xml:id="ep000670-e2050">
             <speaker>Nim. </speaker>
             <l>Whilst Nero, in the Streets his Pageants shews, </l>
             <l>I am sent for to his Fair Wife's Chamber: </l>
@@ -263,26 +362,26 @@
             <stage xml:id="ep000670-e2130">
               <hi>[Exit </hi>Nim. </stage>
           </sp>
-          <sp xml:id="ep000670-e2150">
+          <sp who="ep000670-ant" xml:id="ep000670-e2150">
             <speaker>Ant. </speaker>
             <l>How Sawcily you Fellow </l>
             <l>Enters the Empresse Chamber 1 </l>
           </sp>
-          <sp xml:id="ep000670-e2190">
+          <sp who="ep000670-pet" xml:id="ep000670-e2190">
             <speaker>Pet. </speaker>
             <l>I, and her too. Antonius, knowest thou him: </l>
           </sp>
-          <sp xml:id="ep000670-e2230">
+          <sp who="ep000670-ant" xml:id="ep000670-e2230">
             <speaker>Ant. </speaker>
             <l>What! know the only Favorite of the Court! </l>
             <l>Indeed, not many dayes ago, thou mightest </l>
             <l>Have not unlawfully Ask'd that Question. </l>
           </sp>
-          <sp xml:id="ep000670-e2280">
+          <sp who="ep000670-pet" xml:id="ep000670-e2280">
             <speaker>Pet. </speaker>
             <l>Why: Is he Rais'd; </l>
           </sp>
-          <sp xml:id="ep000670-e2310">
+          <sp who="ep000670-ant" xml:id="ep000670-e2310">
             <speaker>Ant. </speaker>
             <l>That I have sought in him; </l>
             <l>But never Piece of Good Desert could find: </l>
@@ -290,19 +389,19 @@
             <l>Which baseness to shake off he nothing has, </l>
             <l>But his own Pride. </l>
           </sp>
-          <sp xml:id="ep000670-e2390">
+          <sp who="ep000670-pet" xml:id="ep000670-e2390">
             <speaker>Pet. </speaker>
             <l>You remember, when <hi>Gallus, Celsus</hi>, </l>
             <l>And others too, though now forgotten, were </l>
             <l>Great in Poppea's Eyes. </l>
           </sp>
-          <sp xml:id="ep000670-e2460">
+          <sp who="ep000670-ant" xml:id="ep000670-e2460">
             <speaker>Ant. </speaker>
             <l>I do, and did interpret it in them </l>
             <l>An Honourable Favour she bore to Vertue, </l>
             <l>Or Parts like Vertue. </l>
           </sp>
-          <sp xml:id="ep000670-e2510">
+          <sp who="ep000670-pet" xml:id="ep000670-e2510">
             <speaker>Pet. </speaker>
             <l>Faith, </l>
             <l>'Tis my Opinion then the Fault was their's, </l>
@@ -321,7 +420,7 @@
             <stage xml:id="ep000670-e2660">
               <hi>Enter Three </hi>Romans. </stage>
           </sp>
-          <sp xml:id="ep000670-e2680">
+          <sp who="ep000670-3rom" xml:id="ep000670-e2680">
             <speaker>3. Rom. </speaker>
             <l>Whither go You? all's done I'th'Capitol; </l>
             <l>And Nero, having there his Tables hung, </l>
@@ -332,48 +431,48 @@
             <l>For several Victories, and the Place set down, </l>
             <l>Where, and in What, and Whom he Over came. </l>
           </sp>
-          <sp xml:id="ep000670-e2800">
+          <sp who="ep000670-2ro" xml:id="ep000670-e2800">
             <speaker>2 Ro. </speaker>
             <l>That was set down I'th'Tables, that were born </l>
             <l>Upon the Souldiers Spear's. </l>
           </sp>
-          <sp xml:id="ep000670-e2850">
+          <sp who="ep000670-1ro" xml:id="ep000670-e2850">
             <speaker>1 Ro. </speaker>
             <l>The Romans were once used for other Ends. </l>
             <l>But did he Win them all with Singing? </l>
           </sp>
-          <sp xml:id="ep000670-e2910">
+          <sp who="ep000670-3ro" xml:id="ep000670-e2910">
             <speaker>3 Ro. </speaker>
             <l>Faith, all with Singing, and with Stage-Playing. </l>
           </sp>
-          <sp xml:id="ep000670-e2950">
+          <sp who="ep000670-1ro" xml:id="ep000670-e2950">
             <speaker>1 Ro. </speaker>
             <l>So many Crowns got with a Song! </l>
           </sp>
-          <sp xml:id="ep000670-e2990">
+          <sp who="ep000670-3ro" xml:id="ep000670-e2990">
             <speaker>3 Ro. </speaker>
             <l>Had you been there, you had seen the Greek Musicians▪ </l>
             <l>Behind the Chariot, Hanging down their Heads; </l>
             <l>Sham'd, and o're-come in their Professions: </l>
             <l>O! Rome was never Honour'd so before! </l>
           </sp>
-          <sp xml:id="ep000670-e3080">
+          <sp who="ep000670-2ro" xml:id="ep000670-e3080">
             <speaker>2 Ro. </speaker>
             <l>But what was he that Rode I'th'Chariot with him? </l>
           </sp>
-          <sp xml:id="ep000670-e3120">
+          <sp who="ep000670-3ro" xml:id="ep000670-e3120">
             <speaker>3 Ro. </speaker>
             <l>That was Diodorus the Minstrel, that he favours. </l>
           </sp>
-          <sp xml:id="ep000670-e3170">
+          <sp who="ep000670-1ro" xml:id="ep000670-e3170">
             <speaker>1 Ro. </speaker>
             <l>Was there ever such a Prince? </l>
           </sp>
-          <sp xml:id="ep000670-e3210">
+          <sp who="ep000670-2ro" xml:id="ep000670-e3210">
             <speaker>2. Ro. </speaker>
             <l>O <hi>Nero Augustus</hi>, the true Augustus! </l>
           </sp>
-          <sp xml:id="ep000670-e3270">
+          <sp who="ep000670-3ro" xml:id="ep000670-e3270">
             <speaker>3. Ro. </speaker>
             <l>Nay, had you seen him as he Rode along, </l>
             <l>With an Olympick Crown upon his Head, </l>
@@ -381,7 +480,7 @@
             <l>Looking on one, he had Apollo seem'd: </l>
             <l>On th'other, Hercules, </l>
           </sp>
-          <sp xml:id="ep000670-e3390">
+          <sp who="ep000670-1ro" xml:id="ep000670-e3390">
             <speaker>1 Ro. </speaker>
             <l>I have heard my Father ost repeat the Triumphs, </l>
             <l>Which in <hi>Augustus Caesar's </hi>tlmes were shown </l>
@@ -389,16 +488,16 @@
             <pb n="5" xml:id="ep000670-005-b"/>
             <l>But it seems it was not like to this. </l>
           </sp>
-          <sp xml:id="ep000670-e3480">
+          <sp who="ep000670-3ro" xml:id="ep000670-e3480">
             <speaker>3 Ro. </speaker>
             <l>Push, it could nor be like this. </l>
           </sp>
-          <sp xml:id="ep000670-e3520">
+          <sp who="ep000670-2ro" xml:id="ep000670-e3520">
             <speaker>2 Ro. </speaker>
             <l>O <hi>Nero Apollo, Nero Hercules</hi>! </l>
             <stage xml:id="ep000670-e3570">[Exeunt, the 2. and 3. Rom. </stage>
           </sp>
-          <sp xml:id="ep000670-e3580">
+          <sp who="ep000670-1ro" xml:id="ep000670-e3580">
             <speaker>1 Ro. </speaker>
             <l>Whether Augustus Triumph Greater was </l>
             <l>I cannot tell; his Triumph's Cause I know </l>
@@ -413,7 +512,7 @@
         <div n="2" type="scene" xml:id="ep000670-e3700">
           <head>SCENE. the Second. </head>
           <stage xml:id="ep000670-e3720">Enter Nero, Poppea, Nimphidius, Tigellinus, Epaproditus, Neophylus, <hi>and Guards and Attendants</hi>. </stage>
-          <sp xml:id="ep000670-e3750">
+          <sp who="ep000670-ner" xml:id="ep000670-e3750">
             <speaker>Ner. </speaker>
             <l>Now Fair Poppea, see thy Nero shine </l>
             <l>In Bright Achaias Spoyls, and Rome in him. </l>
@@ -421,7 +520,7 @@
             <l>Than it was wont; not Spoyls with Blood bedew'd, </l>
             <l>Or the Unhappy Obsequies of Death. </l>
           </sp>
-          <sp xml:id="ep000670-e3860">
+          <sp who="ep000670-tig" xml:id="ep000670-e3860">
             <speaker>Tig. </speaker>
             <l>And in this Strise, the Glory's all your own; </l>
             <l>Your Tribunes cannot share this Praise with you; </l>
@@ -429,13 +528,13 @@
             <l>Bootless your Armies, and your Eagles were: </l>
             <l>No Navies helpt to bring away this Conquest. </l>
           </sp>
-          <sp xml:id="ep000670-e3930">
+          <sp who="ep000670-nim" xml:id="ep000670-e3930">
             <speaker>Nim. </speaker>
             <l>Even Fortunes self, Fortune the Queen of Kingdoms. </l>
             <l>(That Wars Grim Valour graceth with her Deeds) </l>
             <l>Will claim no Portion in this Victory. </l>
           </sp>
-          <sp xml:id="ep000670-e3980">
+          <sp who="ep000670-ner" xml:id="ep000670-e3980">
             <speaker>Ner. </speaker>
             <l>Not Bacchus drawn from Nisa down with Tygers </l>
             <l>So strook the amaz'd Indian's with wonder, </l>
@@ -446,7 +545,7 @@
             <l>And Prises of their Games. </l>
           </sp>
           <pb n="6" xml:id="ep000670-006-a"/>
-          <sp xml:id="ep000670-e4170">
+          <sp who="ep000670-pop" xml:id="ep000670-e4170">
             <speaker>Pop. </speaker>
             <l>Yet, in your Greekish Journey, we do hear </l>
             <l>Sparla, and Athens, the two Eyes of Greece, </l>
@@ -454,7 +553,7 @@
             <l>Whether, because they did afford no Games, </l>
             <l>Or for their too much Gravity. </l>
           </sp>
-          <sp xml:id="ep000670-e4280">
+          <sp who="ep000670-ner" xml:id="ep000670-e4280">
             <speaker>Ner. </speaker>
             <l>Why? what, </l>
             <l>Should I have seen in them? but in the One </l>
@@ -467,21 +566,21 @@
             <l>Those Spoyls, which never Roman could obtain: </l>
             <l>Spoyls won by Wit, and Trophys of his Skill. </l>
           </sp>
-          <sp xml:id="ep000670-e4430">
+          <sp who="ep000670-nim" xml:id="ep000670-e4430">
             <speaker>Nim. </speaker>
             <l>What a thing he makes it to be a Minstril </l>
             <stage xml:id="ep000670-e4460">[aside </stage>
           </sp>
-          <sp xml:id="ep000670-e4470">
+          <sp who="ep000670-pop" xml:id="ep000670-e4470">
             <speaker>Pop. </speaker>
             <l>I praise your Wit, my Lord, that Chose such safe </l>
             <l>Honours, safe Spoyls, won without Dust or Blood. </l>
           </sp>
-          <sp xml:id="ep000670-e4510">
+          <sp who="ep000670-ner" xml:id="ep000670-e4510">
             <speaker>Ner. </speaker>
             <l>What, do you Mock us Poppea? </l>
           </sp>
-          <sp xml:id="ep000670-e4550">
+          <sp who="ep000670-pop" xml:id="ep000670-e4550">
             <speaker>Pop. </speaker>
             <l>No, my good Lord, I speak in earnest, </l>
             <l>I hate that hardy, and Adventurous Crew, </l>
@@ -494,7 +593,7 @@
             <l>And so go Halting to Immortality: </l>
             <l>Such Fools I Love worse than they do their Lives. </l>
           </sp>
-          <sp xml:id="ep000670-e4670">
+          <sp who="ep000670-ner" xml:id="ep000670-e4670">
             <speaker>Ner. </speaker>
             <l>But now, Poppea, having lay'd apart </l>
             <l>Our boasted Spoyls, and Ornaments of Triumph, </l>
@@ -505,7 +604,7 @@
             <l>Shalt make him Proud such Beauties to enjoy. </l>
             <stage xml:id="ep000670-e4800">But Nimph. <hi>Exeunt all</hi>. </stage>
           </sp>
-          <sp xml:id="ep000670-e4830">
+          <sp who="ep000670-nim" xml:id="ep000670-e4830">
             <speaker>Nim. </speaker>
             <l>Such Beauties to injoy were Happiness, </l>
             <pb n="7" xml:id="ep000670-006-b"/>
@@ -534,7 +633,7 @@
         <div n="3" type="scene" xml:id="ep000670-e5120">
           <head>SCENE the Third. </head>
           <stage xml:id="ep000670-e5140">Enter Seneca, Scevinus, and Lucan. </stage>
-          <sp xml:id="ep000670-e5170">
+          <sp who="ep000670-sce" xml:id="ep000670-e5170">
             <speaker>Sce. </speaker>
             <l>His First beginning was his Father's Death, </l>
             <l>His Brother's Poysoning; and his Wife's Bloody End </l>
@@ -551,7 +650,7 @@
             <l>And tumbled on the Earth with Servise Hands. </l>
           </sp>
           <pb n="8" xml:id="ep000670-007-a"/>
-          <sp xml:id="ep000670-e5320">
+          <sp who="ep000670-sen" xml:id="ep000670-e5320">
             <speaker>Sen. </speaker>
             <l>He sometimes was trayn'd up in better Studies, </l>
             <l>And had a Child-Hood promis'd other hopes; </l>
@@ -561,7 +660,7 @@
             <l>O! Could not Rome, and Italy contain </l>
             <l>Thy Shame, But thou must Cross the Sea's to shew it? </l>
           </sp>
-          <sp xml:id="ep000670-e5430">
+          <sp who="ep000670-sce" xml:id="ep000670-e5430">
             <speaker>Sce. </speaker>
             <l>And make them, that had wont to see our Consuls </l>
             <l>With Conqu'ring Eagles waving in the Field, </l>
@@ -569,7 +668,7 @@
             <l>Playing on the Stage; and what else but to Name </l>
             <l>Were Infamy. </l>
           </sp>
-          <sp xml:id="ep000670-e5500">
+          <sp who="ep000670-luc" xml:id="ep000670-e5500">
             <speaker>Luc. </speaker>
             <l>O Mummius, O Flaminius; </l>
             <l>You, whom your Vertues have not made more Famous, </l>
@@ -580,7 +679,7 @@
             <l>O'●…e-came; having Minérvas stain'd Temples, </l>
             <l>And your Slain Ancestor's of Troy Reveng'd. </l>
           </sp>
-          <sp xml:id="ep000670-e5700">
+          <sp who="ep000670-sen" xml:id="ep000670-e5700">
             <speaker>Sen. </speaker>
             <l>They strove with Kings, and kind-like Adversaries, </l>
             <l>Were even in their Enemies made happy. </l>
@@ -591,31 +690,31 @@
             <l>
               <hi>Turpuus, Pammenes</hi>, and a Rout of Fidlers. </l>
           </sp>
-          <sp xml:id="ep000670-e5840">
+          <sp who="ep000670-sce" xml:id="ep000670-e5840">
             <speaker>Sce. </speaker>
             <l>Why all the begging Minstrills by the way </l>
             <l>He took along with him, and forc'd to Play, </l>
             <l>That he might over come; Imagining </l>
             <l>Himself Immortal by such Victories. </l>
           </sp>
-          <sp xml:id="ep000670-e5900">
+          <sp who="ep000670-luc" xml:id="ep000670-e5900">
             <speaker>Luc. </speaker>
             <l>The Men he carryed over were enough </l>
             <l>T'have put the Parthian to his Second Flight: </l>
             <l>Or the Proud Indian taught the Roman Yoke. </l>
           </sp>
-          <sp xml:id="ep000670-e5980">
+          <sp who="ep000670-sce" xml:id="ep000670-e5980">
             <speaker>Sce. </speaker>
             <l>But they were Nero's Men, like Nero Arm'd </l>
             <l>With Lutes, and Harps, and Pipes, and Fiddle-Cases; </l>
             <l>Souldiers to th' Shadow train'd, and not the Field. </l>
           </sp>
-          <sp xml:id="ep000670-e6050">
+          <sp who="ep000670-sen" xml:id="ep000670-e6050">
             <speaker>Sen. </speaker>
             <l>Therefore they brought home Spoyls fit for such Soldiers. </l>
           </sp>
           <pb n="9" xml:id="ep000670-007-b"/>
-          <sp xml:id="ep000670-e6080">
+          <sp who="ep000670-luc" xml:id="ep000670-e6080">
             <speaker>Luc. </speaker>
             <l>But to throw down the Walls and Gates of Rome, </l>
             <l>To make an Entrance for an Hobby-Horse; </l>
@@ -624,7 +723,7 @@
             <l>For having been the Worst of all the Singers, </l>
             <l>Is beyond Patience! </l>
           </sp>
-          <sp xml:id="ep000670-e6170">
+          <sp who="ep000670-sce" xml:id="ep000670-e6170">
             <speaker>Sce. </speaker>
             <l>I, and Anger too; </l>
             <l>Had you but seen him in his Chariot ride. </l>
@@ -636,7 +735,7 @@
             <l>O haile thou Pythian, and so fill'd the Sky </l>
             <l>With Shame, and Voices, Heaven would not have heard. </l>
           </sp>
-          <sp xml:id="ep000670-e6310">
+          <sp who="ep000670-sen" xml:id="ep000670-e6310">
             <speaker>Sen. </speaker>
             <l>I saw't, but turn'd away my Eyes and Ears, </l>
             <l>Angry they should be privy to such Objects: </l>
@@ -646,23 +745,23 @@
             <l>Me, my own Sorrow stops from further speaking. </l>
             <l>Nero, my Love doth make thy Fault, and my Grief greater. </l>
           </sp>
-          <sp xml:id="ep000670-e6410">
+          <sp who="ep000670-sce" xml:id="ep000670-e6410">
             <speaker>Sce. </speaker>
             <l>I do Commend thy Passion, Seneca; </l>
             <l>And yet methinks our Countrie's Miseries, </l>
             <l>Do at our Hands crave some what more than Tears. </l>
           </sp>
-          <sp xml:id="ep000670-e6470">
+          <sp who="ep000670-luc" xml:id="ep000670-e6470">
             <speaker>Luc. </speaker>
             <l>Let Children Weep, and Men seek Remedy. </l>
           </sp>
-          <sp xml:id="ep000670-e6500">
+          <sp who="ep000670-sce" xml:id="ep000670-e6500">
             <speaker>Sce. </speaker>
             <l>Stoutly spoke, and like a Souldier, Lucan. </l>
             <l>Yet to seek Remedy t'a Princes ill, </l>
             <l>Seldom, but it doth the Physitian kill. </l>
           </sp>
-          <sp xml:id="ep000670-e6560">
+          <sp who="ep000670-luc" xml:id="ep000670-e6560">
             <speaker>Luc. </speaker>
             <l>And if it do, Scevinus, it shall take </l>
             <l>But a Devoted Soul from Lucan; </l>
@@ -672,7 +771,7 @@
             <l>The doubtful hazard in Twelve Battels thrown, </l>
             <l>My Chance was Life. </l>
           </sp>
-          <sp xml:id="ep000670-e6680">
+          <sp who="ep000670-sce" xml:id="ep000670-e6680">
             <speaker>Sce. </speaker>
             <l>Nothing is hard to them that dare to dy. </l>
             <l>This Noble Resolution in you, Lords, </l>
@@ -680,28 +779,28 @@
             <l>Heartens me to disclose some Thoughts that I— </l>
             <l>The Matter is of Weight and Dangerous. </l>
           </sp>
-          <sp xml:id="ep000670-e6740">
+          <sp who="ep000670-luc" xml:id="ep000670-e6740">
             <speaker>Luc. </speaker>
             <l>I see you fear us Scevinus. </l>
           </sp>
-          <sp xml:id="ep000670-e6780">
+          <sp who="ep000670-sce" xml:id="ep000670-e6780">
             <speaker>Sce. </speaker>
             <l>No, no, although the thing be full of Fear.— </l>
           </sp>
-          <sp xml:id="ep000670-e6810">
+          <sp who="ep000670-sen" xml:id="ep000670-e6810">
             <speaker>Sen. </speaker>
             <l>Tell it to Faithful Ears, what e'r it be. </l>
           </sp>
-          <sp xml:id="ep000670-e6840">
+          <sp who="ep000670-sce" xml:id="ep000670-e6840">
             <speaker>Sce. </speaker>
             <l>Faith, let it go, it will but trouble us, </l>
             <l>Be hurtful to the Speaker, and the Hearer. </l>
           </sp>
-          <sp xml:id="ep000670-e6880">
+          <sp who="ep000670-luc" xml:id="ep000670-e6880">
             <speaker>Luc. </speaker>
             <l>If our Long Friendship, or the Opinion— </l>
           </sp>
-          <sp xml:id="ep000670-e6910">
+          <sp who="ep000670-sce" xml:id="ep000670-e6910">
             <speaker>Sce. </speaker>
             <l>Why should I fear to tell them? </l>
             <l>Why, is he not a Parricide, a Player? </l>
@@ -717,11 +816,11 @@
             <l>Aid that just Arm that's bent to Execute </l>
             <l>What you should do. </l>
           </sp>
-          <sp xml:id="ep000670-e7080">
+          <sp who="ep000670-luc" xml:id="ep000670-e7080">
             <speaker>Luc. </speaker>
             <l>Stay, you are carrried too much away, Scevinus. </l>
           </sp>
-          <sp xml:id="ep000670-e7120">
+          <sp who="ep000670-sce" xml:id="ep000670-e7120">
             <speaker>Sce. </speaker>
             <l>Why, Lucan, what will you say for him? has he not </l>
             <l>Sought to surpress your Poem? to bereave </l>
@@ -734,7 +833,7 @@
             <l>With Blood of Strangers to Imbrue his Jawes, </l>
             <l>Upbraids the Roman now with barbarousness. </l>
           </sp>
-          <sp xml:id="ep000670-e7290">
+          <sp who="ep000670-luc" xml:id="ep000670-e7290">
             <speaker>Luc. </speaker>
             <l>You are too Earnest, </l>
             <l>I neither can, nor will I speak for him: </l>
@@ -747,11 +846,11 @@
             <l>To shame the Seat: And in that hate, my Life </l>
             <l>And Blood I'le mingle on the Earth with yours. </l>
           </sp>
-          <sp xml:id="ep000670-e7430">
+          <sp who="ep000670-sen" xml:id="ep000670-e7430">
             <speaker>Sen. </speaker>
             <l>My Deeds Scevinus shall speak my Consent. </l>
           </sp>
-          <sp xml:id="ep000670-e7470">
+          <sp who="ep000670-sce" xml:id="ep000670-e7470">
             <speaker>Sce. </speaker>
             <l>'Tis answer'd, as I look'd for, Noble Poet, </l>
             <l>Worthy the double Lawrel, Lucan. </l>
@@ -767,7 +866,7 @@
         <div n="1" type="scene" xml:id="ep000670-e7580">
           <head>ACTUS SECUNDUS. Scene the First. </head>
           <stage xml:id="ep000670-e7600">Enter Petronius. </stage>
-          <sp xml:id="ep000670-e7620">
+          <sp who="ep000670-pet" xml:id="ep000670-e7620">
             <speaker>Pet. </speaker>
             <l>HEre waites Poppea he Nimphidius coming, </l>
             <l>And hath this Garden, and these Walls chose out, </l>
@@ -790,21 +889,21 @@
             <pb n="12" xml:id="ep000670-009-a"/>
             <stage xml:id="ep000670-e7860">Enter Poppea, and Antonius. </stage>
           </sp>
-          <sp xml:id="ep000670-e7890">
+          <sp who="ep000670-ant" xml:id="ep000670-e7890">
             <speaker>Ant. </speaker>
             <l>Seek not to grieve that Heart which is thy own●… </l>
             <l>In Love's sweet Fires let Heat of Rage burn out. </l>
             <l>These Browes could never yet to wrinkle Learn, </l>
             <l>Nor Anger out of such Fair Eyes proceed. </l>
           </sp>
-          <sp xml:id="ep000670-e7950">
+          <sp who="ep000670-pop" xml:id="ep000670-e7950">
             <speaker>Pop. </speaker>
             <l>You may sollicit your presumptuous Suits </l>
             <l>You Duty may and Shame too lay aside, </l>
             <l>Disturb my Privacies, and I, good Sir, </l>
             <l>Must be afear'd even to be angry at you. </l>
           </sp>
-          <sp xml:id="ep000670-e8010">
+          <sp who="ep000670-ant" xml:id="ep000670-e8010">
             <speaker>Ant. </speaker>
             <l>What Shame is't to be mast'red by such Beauties? </l>
             <l>Who but to serve you comes, how wants he Duty? </l>
@@ -818,11 +917,11 @@
             <l>We must not see your Face, nor hear your Speech: </l>
             <l>Now Whil'st you love forbid; you Love do teach. </l>
           </sp>
-          <sp xml:id="ep000670-e8140">
+          <sp who="ep000670-pet" xml:id="ep000670-e8140">
             <speaker>Pet. </speaker>
             <l>He do's better, than I thought he would. </l>
           </sp>
-          <sp xml:id="ep000670-e8170">
+          <sp who="ep000670-pop" xml:id="ep000670-e8170">
             <speaker>Pop. </speaker>
             <l>I will not learn my Beauties-worth of you; </l>
             <l>I know you neither are the First, nor Greatest, </l>
@@ -832,11 +931,11 @@
             <l>And not to reach at it with sawcy Hands: </l>
             <l>Fear is the Love that's due to Gods and Princes. </l>
           </sp>
-          <sp xml:id="ep000670-e8260">
+          <sp who="ep000670-pet" xml:id="ep000670-e8260">
             <speaker>Pet. </speaker>
             <l>All this is but to Edge his Appetite. </l>
           </sp>
-          <sp xml:id="ep000670-e8290">
+          <sp who="ep000670-ant" xml:id="ep000670-e8290">
             <speaker>Ant. </speaker>
             <l>O do not see thy Face in that False Glasse </l>
             <l>Os outward Difference: Look into my Heart, </l>
@@ -846,18 +945,18 @@
             <l>And Ceremony, with which we flatter Princes, </l>
             <l>That can to Love's true Duties be compar'd. </l>
           </sp>
-          <sp xml:id="ep000670-e8400">
+          <sp who="ep000670-pop" xml:id="ep000670-e8400">
             <speaker>Pop. </speaker>
             <l>Sir, let me go, or I'le make known your Love </l>
             <l>To them that shall requite it. </l>
           </sp>
           <pb n="13" xml:id="ep000670-009-b"/>
-          <sp xml:id="ep000670-e8440">
+          <sp who="ep000670-pet" xml:id="ep000670-e8440">
             <speaker>Pet. </speaker>
             <l>On, on thou hast the Goale, the Fo●…t is beaten. </l>
             <l>Women are won, when they begin to threaten. </l>
           </sp>
-          <sp xml:id="ep000670-e8480">
+          <sp who="ep000670-ant" xml:id="ep000670-e8480">
             <speaker>Ant. </speaker>
             <l>Your Nobleness do's warrant me for that; </l>
             <l>Nor need you others help to punish me: </l>
@@ -867,7 +966,7 @@
             <l>The wrong was done em: Love was my Offence, </l>
             <l>In that Revenge; in that seek Recompence. </l>
           </sp>
-          <sp xml:id="ep000670-e8570">
+          <sp who="ep000670-pop" xml:id="ep000670-e8570">
             <speaker>Pop. </speaker>
             <l>To answer further, will still cause Replies, </l>
             <l>And those as ill do please me as your self: </l>
@@ -875,7 +974,7 @@
             <l>I hate my self for being lov'd by you. </l>
             <stage xml:id="ep000670-e8630">[Exit: </stage>
           </sp>
-          <sp xml:id="ep000670-e8640">
+          <sp who="ep000670-pet" xml:id="ep000670-e8640">
             <speaker>Pet. </speaker>
             <l>What gone! but she will come again sure: No; </l>
             <l>It passes clean my Cunning, all my Rules; </l>
@@ -884,16 +983,16 @@
             <l>A Young and Brisk and Impudent Gallant too, </l>
             <l>To miss the Mark! hard Fates, 'tis very Cruel. </l>
           </sp>
-          <sp xml:id="ep000670-e8720">
+          <sp who="ep000670-ant" xml:id="ep000670-e8720">
             <speaker>Ant. </speaker>
             <l>O Unhappy Man! </l>
             <l>What Comfort have I now Petronius? </l>
           </sp>
-          <sp xml:id="ep000670-e8770">
+          <sp who="ep000670-pet" xml:id="ep000670-e8770">
             <speaker>Pet. </speaker>
             <l>Counsel your self, I'le Teach no more, but Learn. </l>
           </sp>
-          <sp xml:id="ep000670-e8800">
+          <sp who="ep000670-ant" xml:id="ep000670-e8800">
             <speaker>Ant. </speaker>
             <l>This Comfort yet, he shall not so escape, </l>
             <l>Who causeth this contempt, Nimphidius; </l>
@@ -905,7 +1004,7 @@
             <l>Yet, thus much shall it still prevaile in me, </l>
             <l>That I will hate Nimphidius for thee. </l>
           </sp>
-          <sp xml:id="ep000670-e8940">
+          <sp who="ep000670-pet" xml:id="ep000670-e8940">
             <speaker>Pet. </speaker>
             <l>Fare-well to her, to my Euanthe well-come, </l>
             <l>Who, now, will to my burning Kisses stoop; </l>
@@ -921,17 +1020,17 @@
           <pb n="14" xml:id="ep000670-010-a"/>
           <head>SCENE the Second, Nero's Palace. </head>
           <stage xml:id="ep000670-e9080">Enter Nero, Tigellinus, Epaphroditus, and Nimphidius. </stage>
-          <sp xml:id="ep000670-e9110">
+          <sp who="ep000670-ner" xml:id="ep000670-e9110">
             <speaker>Ner. </speaker>
             <l>Tigellinus, say'd the Villain Proculus </l>
             <l>I was thrown down in running? </l>
           </sp>
-          <sp xml:id="ep000670-e9170">
+          <sp who="ep000670-tig" xml:id="ep000670-e9170">
             <speaker>Tig. </speaker>
             <l>My Lord, he say'd, that you were Crown'd for that </l>
             <l>You could not do. </l>
           </sp>
-          <sp xml:id="ep000670-e9210">
+          <sp who="ep000670-ner" xml:id="ep000670-e9210">
             <speaker>Ner. </speaker>
             <l>For that I could not do? </l>
             <l>Why? Elis saw me do't, and do't with Wonder </l>
@@ -940,12 +1039,12 @@
             <l>Who did it better? I warrant you he say'd, </l>
             <l>I from the Chariot fell against my will. </l>
           </sp>
-          <sp xml:id="ep000670-e9300">
+          <sp who="ep000670-tig" xml:id="ep000670-e9300">
             <speaker>Tig. </speaker>
             <l>He said my Lord, you were thrown out of it, </l>
             <l>All crush't and maim'd, and almost bruis'd to Death. </l>
           </sp>
-          <sp xml:id="ep000670-e9340">
+          <sp who="ep000670-ner" xml:id="ep000670-e9340">
             <speaker>Ner. </speaker>
             <l>Malicious Rogue, when I fell willingly, </l>
             <l>To show of Purpose, with what little Hurt </l>
@@ -953,12 +1052,12 @@
             <l>How sayest thou, Tigellinus? I am sure </l>
             <l>Thou hast in Driving as much skill as he? </l>
           </sp>
-          <sp xml:id="ep000670-e9420">
+          <sp who="ep000670-tig" xml:id="ep000670-e9420">
             <speaker>Tig. </speaker>
             <l>My Lord, you greater Cunning shew'd in falling, </l>
             <l>Than had you sate. </l>
           </sp>
-          <sp xml:id="ep000670-e9460">
+          <sp who="ep000670-ner" xml:id="ep000670-e9460">
             <speaker>Ner. </speaker>
             <l>I know I'did; Bruis'd in my Fall? </l>
             <l>Hurt! I protest, I felt it not. </l>
@@ -984,11 +1083,11 @@
             <l>And Yet this Rogue say's, no, we have no skill. </l>
             <stage xml:id="ep000670-e9720">Enter Neophilus. </stage>
           </sp>
-          <sp xml:id="ep000670-e9740">
+          <sp who="ep000670-neop" xml:id="ep000670-e9740">
             <speaker>Neop. </speaker>
             <l>My Lord, the Stage and all the Furniture— </l>
           </sp>
-          <sp xml:id="ep000670-e9770">
+          <sp who="ep000670-ner" xml:id="ep000670-e9770">
             <speaker>Ner. </speaker>
             <l>I have no skill to drive a Chariot: </l>
             <l>Had he but rob'd me, broke my Treasury: </l>
@@ -999,29 +1098,29 @@
             <l>As well, no doubt, could he told how. </l>
             <stage xml:id="ep000670-e9880">Enter Tigellinus, and Executioner, with Proculus's Head. </stage>
           </sp>
-          <sp xml:id="ep000670-e9930">
+          <sp who="ep000670-neop" xml:id="ep000670-e9930">
             <speaker>Neop. </speaker>
             <l>My Lord, </l>
             <l>Tigellinus is come with Proculus Head. </l>
           </sp>
-          <sp xml:id="ep000670-e9990">
+          <sp who="ep000670-ner" xml:id="ep000670-e9990">
             <speaker>Ner. </speaker>
             <l>Give him Five Hund'red Sesterces for amends. </l>
             <l>Hast ' brought him, Tigellinus? </l>
           </sp>
-          <sp xml:id="ep000670-e10040">
+          <sp who="ep000670-tig" xml:id="ep000670-e10040">
             <speaker>Tig. </speaker>
             <l>Here's his Head, my Lord. </l>
           </sp>
-          <sp xml:id="ep000670-e10070">
+          <sp who="ep000670-ner" xml:id="ep000670-e10070">
             <speaker>Ner. </speaker>
             <l>His Tongue had been enough. </l>
           </sp>
-          <sp xml:id="ep000670-e10100">
+          <sp who="ep000670-tig" xml:id="ep000670-e10100">
             <speaker>Tig. </speaker>
             <l>I did as you commanded me, my Lord. </l>
           </sp>
-          <sp xml:id="ep000670-e10130">
+          <sp who="ep000670-ner" xml:id="ep000670-e10130">
             <speaker>Ner. </speaker>
             <l>Now are you quiet? </l>
             <l>This 'tis to be Commander of the World: </l>
@@ -1042,30 +1141,30 @@
             <l>But they must bear, and praise too what we will. </l>
             <stage xml:id="ep000670-e10310">Enter Cornutus. </stage>
           </sp>
-          <sp xml:id="ep000670-e10330">
+          <sp who="ep000670-neop" xml:id="ep000670-e10330">
             <speaker>Neop. </speaker>
             <l>My Lord, Cornutus, whom you sent for's, come. </l>
           </sp>
-          <sp xml:id="ep000670-e10370">
+          <sp who="ep000670-ner" xml:id="ep000670-e10370">
             <speaker>Ner. </speaker>
             <l>Well-come good Cornutus, </l>
             <l>Are all things ready for the Stage, </l>
             <l>As I gave Order? </l>
           </sp>
-          <sp xml:id="ep000670-e10430">
+          <sp who="ep000670-cor" xml:id="ep000670-e10430">
             <speaker>Cor. </speaker>
             <l>They only stay your Coming. </l>
           </sp>
-          <sp xml:id="ep000670-e10460">
+          <sp who="ep000670-ner" xml:id="ep000670-e10460">
             <speaker>Ner. </speaker>
             <l>Cornutus, I must Act to day Orestes. </l>
           </sp>
-          <sp xml:id="ep000670-e10510">
+          <sp who="ep000670-cor" xml:id="ep000670-e10510">
             <speaker>Cor. </speaker>
             <l>You have done that already; and too truly. </l>
             <stage xml:id="ep000670-e10540">[Aside. </stage>
           </sp>
-          <sp xml:id="ep000670-e10550">
+          <sp who="ep000670-ner" xml:id="ep000670-e10550">
             <speaker>Ner. </speaker>
             <l>And when our Scene is done, I mean besides, </l>
             <l>To Read some Compositions of my own: </l>
@@ -1073,11 +1172,11 @@
             <l>And Rome in General, of my Judgment has, </l>
             <l>Before I publish them I'le shew'em thee. </l>
           </sp>
-          <sp xml:id="ep000670-e10630">
+          <sp who="ep000670-cor" xml:id="ep000670-e10630">
             <speaker>Cor. </speaker>
             <l>My Lord, my Disabilities— </l>
           </sp>
-          <sp xml:id="ep000670-e10660">
+          <sp who="ep000670-ner" xml:id="ep000670-e10660">
             <speaker>Ner. </speaker>
             <l>I know thy Modesty; </l>
             <l>I'le only show thee now my Workes beginning: </l>
@@ -1090,20 +1189,20 @@
             <l>Them, that in Knowledge second him, than Power. </l>
             <l>Mark, with what Stile, and State, my Work begin's? </l>
           </sp>
-          <sp xml:id="ep000670-e10820">
+          <sp who="ep000670-cor" xml:id="ep000670-e10820">
             <speaker>Cor. </speaker>
             <l>Might not my Interruption offend, </l>
             <l>What's your Work's name, my Lord? what write you of? </l>
           </sp>
-          <sp xml:id="ep000670-e10860">
+          <sp who="ep000670-ner" xml:id="ep000670-e10860">
             <speaker>Ner. </speaker>
             <l>I mean to write the Deed's of all the Romans. </l>
           </sp>
-          <sp xml:id="ep000670-e10900">
+          <sp who="ep000670-cor" xml:id="ep000670-e10900">
             <speaker>Cor. </speaker>
             <l>Of all the Romans? a huge Argument! </l>
           </sp>
-          <sp xml:id="ep000670-e10940">
+          <sp who="ep000670-ner" xml:id="ep000670-e10940">
             <speaker>Ner. </speaker>
             <l>I have not yet bethought me of a Title. </l>
             <pb n="17" xml:id="ep000670-011-b"/>
@@ -1118,65 +1217,65 @@
             <l>Which Reparable Eccho do resound. </l>
             <l>How dost'thou like our Muse's pains, Catus </l>
           </sp>
-          <sp xml:id="ep000670-e11130">
+          <sp who="ep000670-cor" xml:id="ep000670-e11130">
             <speaker>Cor. </speaker>
             <l>The Verses have more in'em, than I see: </l>
             <l>Your Work, my Lord, I fear will be too long. </l>
           </sp>
-          <sp xml:id="ep000670-e11170">
+          <sp who="ep000670-ner" xml:id="ep000670-e11170">
             <speaker>Ner. </speaker>
             <l>Too long? </l>
           </sp>
-          <sp xml:id="ep000670-e11200">
+          <sp who="ep000670-tig" xml:id="ep000670-e11200">
             <speaker>Tig. </speaker>
             <l>Too long? </l>
           </sp>
-          <sp xml:id="ep000670-e11230">
+          <sp who="ep000670-cor" xml:id="ep000670-e11230">
             <speaker>Cor. </speaker>
             <l>I, if you write the Deeds of all the Roman's </l>
             <l>How many Books think you t'include it in? </l>
           </sp>
-          <sp xml:id="ep000670-e11280">
+          <sp who="ep000670-ner" xml:id="ep000670-e11280">
             <speaker>Ner. </speaker>
             <l>I think to write about Four Hund'red Books. </l>
           </sp>
-          <sp xml:id="ep000670-e11310">
+          <sp who="ep000670-cor" xml:id="ep000670-e11310">
             <speaker>Cor. </speaker>
             <l>Four Hund'red! why, my Lord, they'l ne'r be read. </l>
           </sp>
-          <sp xml:id="ep000670-e11340">
+          <sp who="ep000670-ner" xml:id="ep000670-e11340">
             <speaker>Ner. </speaker>
             <l>Ha! </l>
           </sp>
-          <sp xml:id="ep000670-e11370">
+          <sp who="ep000670-tig" xml:id="ep000670-e11370">
             <speaker>Tig. </speaker>
             <l>Why, he whom you esteem so much, Crisippus, </l>
             <l>Wrote many more. </l>
           </sp>
-          <sp xml:id="ep000670-e11420">
+          <sp who="ep000670-cor" xml:id="ep000670-e11420">
             <speaker>Cor. </speaker>
             <l>But they were profitable to Common Life, </l>
             <l>And taught Men Honesty, and Wisdom. </l>
           </sp>
-          <sp xml:id="ep000670-e11460">
+          <sp who="ep000670-ner" xml:id="ep000670-e11460">
             <speaker>Ner. </speaker>
             <l>Tigellinus. </l>
             <stage xml:id="ep000670-e11500">
               <hi>[Exit</hi>, Nero, <hi>and his Train</hi>. </stage>
           </sp>
-          <sp xml:id="ep000670-e11530">
+          <sp who="ep000670-cor" xml:id="ep000670-e11530">
             <speaker>Cor. </speaker>
             <l>See with what Earnestness he crav'd my Judgment, </l>
             <l>And now he freely has it, how it likes him. </l>
           </sp>
-          <sp xml:id="ep000670-e11570">
+          <sp who="ep000670-neop" xml:id="ep000670-e11570">
             <speaker>Neop. </speaker>
             <l>The Prince is angry, and his Fall is near: </l>
             <l>I'le begon, least I partake his Ruines. </l>
             <stage xml:id="ep000670-e11610">
               <hi>[Exit </hi>Neoph. </stage>
           </sp>
-          <sp xml:id="ep000670-e11630">
+          <sp who="ep000670-cor" xml:id="ep000670-e11630">
             <speaker>Cor. </speaker>
             <l>What should I do at Court? I cannot ly. </l>
             <l>Why did'st thou call me, Nero, from my Book? </l>
@@ -1188,7 +1287,7 @@
             <l>Do's wish or fear. </l>
             <stage xml:id="ep000670-e11770">Enter Tigellinus. </stage>
           </sp>
-          <sp xml:id="ep000670-e11790">
+          <sp who="ep000670-tig" xml:id="ep000670-e11790">
             <speaker>Tig. </speaker>
             <l>'Tis Nero's Pleasure, that you straight depart </l>
             <pb n="18" xml:id="ep000670-012-a"/>
@@ -1196,17 +1295,17 @@
             <l>Thus he, out of his Princely Clemency, </l>
             <l>Hath Death, your due, turn'd but to Banishment. </l>
           </sp>
-          <sp xml:id="ep000670-e11870">
+          <sp who="ep000670-cor" xml:id="ep000670-e11870">
             <speaker>Cor. </speaker>
             <l>Why Tigellinus? </l>
           </sp>
-          <sp xml:id="ep000670-e11910">
+          <sp who="ep000670-tig" xml:id="ep000670-e11910">
             <speaker>Tig. </speaker>
             <l>I have done, upon you Peril go, or stay. </l>
             <stage xml:id="ep000670-e11940">
               <hi>[Exit </hi>Tig. </stage>
           </sp>
-          <sp xml:id="ep000670-e11960">
+          <sp who="ep000670-cor" xml:id="ep000670-e11960">
             <speaker>Cor. </speaker>
             <l>And why should Death, or Banishment be due </l>
             <l>For speaking Truth, or that which was requir'd, my Thought? </l>
@@ -1231,7 +1330,7 @@
         <div n="3" type="scene" xml:id="ep000670-e12190">
           <head>SCENE the Third. </head>
           <stage xml:id="ep000670-e12210">Enter Piso, Scevinus, and Lucan. </stage>
-          <sp xml:id="ep000670-e12240">
+          <sp who="ep000670-piso" xml:id="ep000670-e12240">
             <speaker>Piso. </speaker>
             <l>Noble Gentlemen, what Thanks, what Recompence </l>
             <l>Shall he give you, that gives to him the World? </l>
@@ -1240,7 +1339,7 @@
             <l>Yet can I give no more: Take that, bestow it </l>
             <l>Upon your Service. </l>
           </sp>
-          <sp xml:id="ep000670-e12320">
+          <sp who="ep000670-luc" xml:id="ep000670-e12320">
             <speaker>Luc. </speaker>
             <l>O Piso, that vouchsafest </l>
             <l>To grace our Headless Party with thy Name, </l>
@@ -1250,7 +1349,7 @@
             <l>Of Julius, or Stayedness of Augustus; </l>
             <l>Much less the Shame, and Woman-hood of Nero. </l>
           </sp>
-          <sp xml:id="ep000670-e12440">
+          <sp who="ep000670-sce" xml:id="ep000670-e12440">
             <speaker>Sce. </speaker>
             <l>We are contented with the Galling Yoke, </l>
             <l>If he will only leave us Necks to bear it. </l>
@@ -1263,11 +1362,11 @@
             <l>Why do we talk of Vertue, that obey </l>
             <l>Weakness, and Vice? </l>
           </sp>
-          <sp xml:id="ep000670-e12600">
+          <sp who="ep000670-pis" xml:id="ep000670-e12600">
             <speaker>Pis. </speaker>
             <l>Have Patience, good Scevinus. </l>
           </sp>
-          <sp xml:id="ep000670-e12640">
+          <sp who="ep000670-luc" xml:id="ep000670-e12640">
             <speaker>Luc. </speaker>
             <l>Weakness and Servile, Government we've hithert●… </l>
             <l>Obey'd: which that we may no longer, </l>
@@ -1276,61 +1375,61 @@
             <l>Which makes it doubtfull, whether Love to him, </l>
             <l>Or Nero's Hatred hath drawn more to us. </l>
           </sp>
-          <sp xml:id="ep000670-e12740">
+          <sp who="ep000670-pis" xml:id="ep000670-e12740">
             <speaker>Pis. </speaker>
             <l>I see the Good Thoughts you have of me, Lords; </l>
             <l>Let's now proceed to th' purpose of our Meeting: </l>
             <l>I pray you take your Places. </l>
             <l>Let's have some Paper brought. </l>
           </sp>
-          <sp xml:id="ep000670-e12800">
+          <sp who="ep000670-sce" xml:id="ep000670-e12800">
             <speaker>Sce. </speaker>
             <l>Who's within there? </l>
           </sp>
-          <sp xml:id="ep000670-e12830">
+          <sp who="ep000670-mil" xml:id="ep000670-e12830">
             <speaker>Mil. </speaker>
             <l>My Lord. </l>
             <stage xml:id="ep000670-e12860">
               <hi>[Enter </hi>Milichus. </stage>
           </sp>
-          <sp xml:id="ep000670-e12880">
+          <sp who="ep000670-sce" xml:id="ep000670-e12880">
             <speaker>Sce. </speaker>
             <l>Some Ink and Paper. </l>
             <stage xml:id="ep000670-e12910">Exit Mili. <hi>and Enters again with Ink and Paper. </hi>
             </stage>
           </sp>
-          <sp xml:id="ep000670-e12940">
+          <sp who="ep000670-luc" xml:id="ep000670-e12940">
             <speaker>Luc. </speaker>
             <l>Who's that, Scevinus? </l>
           </sp>
-          <sp xml:id="ep000670-e12980">
+          <sp who="ep000670-sce" xml:id="ep000670-e12980">
             <speaker>Sce. </speaker>
             <l>It is my Freed-Man Milichus. </l>
           </sp>
-          <sp xml:id="ep000670-e13020">
+          <sp who="ep000670-luc" xml:id="ep000670-e13020">
             <speaker>Luc. </speaker>
             <l>Is he trusty? </l>
           </sp>
-          <sp xml:id="ep000670-e13050">
+          <sp who="ep000670-sce" xml:id="ep000670-e13050">
             <speaker>Sce. </speaker>
             <l>I for greater Matters, than we are about </l>
           </sp>
-          <sp xml:id="ep000670-e13080">
+          <sp who="ep000670-pis" xml:id="ep000670-e13080">
             <speaker>Pis. </speaker>
             <l>And those are great Ones. </l>
           </sp>
-          <sp xml:id="ep000670-e13110">
+          <sp who="ep000670-luc" xml:id="ep000670-e13110">
             <speaker>Luc. </speaker>
             <l>I ask not that we mean to need his Trust: </l>
             <l>Gain hath great Soveraignty o're Servile Minds. </l>
           </sp>
-          <sp xml:id="ep000670-e13150">
+          <sp who="ep000670-sce" xml:id="ep000670-e13150">
             <speaker>Sce. </speaker>
             <l>O but my Benefits have bound him to me. </l>
             <l>I from a Bond-man have his State not only </l>
             <l>Advanc't to Freedom, but to Wealth and Credit. </l>
           </sp>
-          <sp xml:id="ep000670-e13200">
+          <sp who="ep000670-pis" xml:id="ep000670-e13200">
             <speaker>Pis. </speaker>
             <l>Melichus, wait i'th' next Chamber till we call. </l>
             <l>The thing Determin'd on our Meeting now </l>
@@ -1338,7 +1437,7 @@
             <l>Is of the Means and Place due Circumstance; </l>
             <l>So done it names the Action. </l>
           </sp>
-          <sp xml:id="ep000670-e13270">
+          <sp who="ep000670-mel" xml:id="ep000670-e13270">
             <speaker>Mel. </speaker>
             <l>I wonder, </l>
             <l>What makes this New Resort to haunt our House. </l>
@@ -1346,28 +1445,28 @@
             <l>Or Lucan when so ost, as now of late? </l>
             <stage xml:id="ep000670-e13350">[Aside. </stage>
           </sp>
-          <sp xml:id="ep000670-e13360">
+          <sp who="ep000670-pis" xml:id="ep000670-e13360">
             <speaker>Pis. </speaker>
             <l>And since the Field and open shew of Arms </l>
             <l>Dislike you; and that for the General Good </l>
             <l>You mean to end all Stirs in end of him: </l>
             <l>That, as the Ground, must first be thought upon. </l>
           </sp>
-          <sp xml:id="ep000670-e13420">
+          <sp who="ep000670-mel" xml:id="ep000670-e13420">
             <speaker>Mel. </speaker>
             <l>Besides, this coming cannot be for Form, </l>
             <l>Or Visitation; they go aside— </l>
             <stage xml:id="ep000670-e13460">[Aside. </stage>
             <l>And have long Conferences by themselves. </l>
           </sp>
-          <sp xml:id="ep000670-e13480">
+          <sp who="ep000670-luc" xml:id="ep000670-e13480">
             <speaker>Luc. </speaker>
             <l>Riso, his coming to your House at Baia, </l>
             <l>To Bath, and Banquet, will fit meanes afford </l>
             <l>Amid'st his Cups to end his Hated Life. </l>
             <l>Let him dy Drunk, that ne'r liv'd soberly. </l>
           </sp>
-          <sp xml:id="ep000670-e13560">
+          <sp who="ep000670-pis" xml:id="ep000670-e13560">
             <speaker>Pis. </speaker>
             <l>O be it far, that I should stain my Table, </l>
             <l>And Gods of Hospitality with Blood: </l>
@@ -1377,12 +1476,12 @@
             <l>Than his own House, That boundless envy'd heap, </l>
             <l>Built with the Spoyls and Blood of Citizens: </l>
           </sp>
-          <sp xml:id="ep000670-e13660">
+          <sp who="ep000670-luc" xml:id="ep000670-e13660">
             <speaker>Luc. </speaker>
             <l>But 'twill be hard to do it in his House, </l>
             <l>And hard to escape, being done. </l>
           </sp>
-          <sp xml:id="ep000670-e13700">
+          <sp who="ep000670-pis" xml:id="ep000670-e13700">
             <speaker>Pis. </speaker>
             <l>Not so, </l>
             <l>Rufus, the Captain of his Guard's with us; </l>
@@ -1398,7 +1497,7 @@
             <l>from doing any thing. </l>
           </sp>
           <pb n="21" xml:id="ep000670-013-b"/>
-          <sp xml:id="ep000670-e13860">
+          <sp who="ep000670-mel" xml:id="ep000670-e13860">
             <speaker>Mel. </speaker>
             <l>No Private Business can concern them All. </l>
             <stage xml:id="ep000670-e13890">[Aside </stage>
@@ -1407,12 +1506,12 @@
             <l>Their Countenances are troubled, and look sad; </l>
             <l>Doubt and Importance in their Face is read. </l>
           </sp>
-          <sp xml:id="ep000670-e13930">
+          <sp who="ep000670-luc" xml:id="ep000670-e13930">
             <speaker>Luc. </speaker>
             <l>Yet still I think it were </l>
             <l>Safer t'attempt him Private and alone. </l>
           </sp>
-          <sp xml:id="ep000670-e13970">
+          <sp who="ep000670-pis" xml:id="ep000670-e13970">
             <speaker>Pis. </speaker>
             <l>But 'twill not carry that Opinion with it; </l>
             <l>'Twill seem more soul, and come from Private Malice. </l>
@@ -1420,7 +1519,7 @@
             <l>Cause </l>
             <l>Did chuse a publick Place. </l>
           </sp>
-          <sp xml:id="ep000670-e14050">
+          <sp who="ep000670-sce" xml:id="ep000670-e14050">
             <speaker>Sce. </speaker>
             <l>Our Deed is honest; why should it seek Corners? </l>
             <l>'Tis for the People done, let them behold it: </l>
@@ -1446,7 +1545,7 @@
             <l>That shall be kill'd, a Roman Prince: </l>
             <l>'Twill be 〈◊〉, or blind Oedipus. </l>
           </sp>
-          <sp xml:id="ep000670-e14340">
+          <sp who="ep000670-mel" xml:id="ep000670-e14340">
             <speaker>Mel. </speaker>
             <l>And if it be of Publick Matters, 'tis not </l>
             <l>Like to be talk, or idle Fault-finding, </l>
@@ -1458,13 +1557,13 @@
             <l>And dare perform, what they determine on. </l>
           </sp>
           <pb n="22" xml:id="ep000670-014-a"/>
-          <sp xml:id="ep000670-e14430">
+          <sp who="ep000670-luc" xml:id="ep000670-e14430">
             <speaker>Luc. </speaker>
             <l>What think you of <hi>Poppea, Tigellinus</hi>, </l>
             <l>And the other odious Instruments of Court? </l>
             <l>Were it not best at once to rid them all? </l>
           </sp>
-          <sp xml:id="ep000670-e14490">
+          <sp who="ep000670-sce" xml:id="ep000670-e14490">
             <speaker>Sce. </speaker>
             <l>I, Casars Ruine, Anthony was spar'd. </l>
             <l>Let's not our Cause with Needless Blood distain; </l>
@@ -1474,7 +1573,7 @@
             <l>Besides, things settled, you at pleasure may </l>
             <l>By Law and Publick Judgment have'em try'd. </l>
           </sp>
-          <sp xml:id="ep000670-e14600">
+          <sp who="ep000670-mel" xml:id="ep000670-e14600">
             <speaker>Mel. </speaker>
             <l>And if it be but talk of State, 'tis Treason; </l>
             <l>Like it they cannot, that they cannot do: </l>
@@ -1492,7 +1591,7 @@
             <l>Mislikes you, 'cause the Doer likes you not. </l>
             <l>Men are not fit to live i'th' State they hate. </l>
           </sp>
-          <sp xml:id="ep000670-e14770">
+          <sp who="ep000670-pis" xml:id="ep000670-e14770">
             <speaker>Pis. </speaker>
             <l>Though we would all have that employment, </l>
             <l>Yet since your worthy Forwardness, Scevinus, </l>
@@ -1500,7 +1599,7 @@
             <l>Be yours the Chosen Hand to do the Deed; </l>
             <l>The Fortune of the Empire speed your Sword. </l>
           </sp>
-          <sp xml:id="ep000670-e14850">
+          <sp who="ep000670-sce" xml:id="ep000670-e14850">
             <speaker>Sce. </speaker>
             <l>Vertue, and Heaven speed it. O you Home-born </l>
             <l>Of our Country, Romulus, and Vesta, </l>
@@ -1509,7 +1608,7 @@
             <l>To Former Evils: Let this Hand Revenge </l>
             <l>The Injur'd World: Enough we now have suffered. </l>
           </sp>
-          <sp xml:id="ep000670-e14970">
+          <sp who="ep000670-mel" xml:id="ep000670-e14970">
             <speaker>Mel. </speaker>
             <l>Tush, all this long Consulting's more </l>
             <stage xml:id="ep000670-e15000">
@@ -1528,7 +1627,7 @@
         <div n="1" type="scene" xml:id="ep000670-e15090">
           <head>ACTUS TERTIUS. </head>
           <stage xml:id="ep000670-e15110">Enter Poppea. </stage>
-          <sp xml:id="ep000670-e15130">
+          <sp who="ep000670-pop" xml:id="ep000670-e15130">
             <speaker>Pop. </speaker>
             <l>I Look't Nimphidius would have come ere this: </l>
             <l>Makes he no greater haste to our Embraces? </l>
@@ -1543,17 +1642,17 @@
             <l>But ●…ee, his Presence now does end those Doubts. </l>
             <l>What is't Nimphidius has so long detain'd you? </l>
           </sp>
-          <sp xml:id="ep000670-e15310">
+          <sp who="ep000670-nim" xml:id="ep000670-e15310">
             <speaker>Nim. </speaker>
             <l>Faith Madam, Causes strong enough; </l>
             <l>High Wall's, bard Doors, and Guards of armed Men. </l>
           </sp>
-          <sp xml:id="ep000670-e15350">
+          <sp who="ep000670-pop" xml:id="ep000670-e15350">
             <speaker>Pop. </speaker>
             <l>Were you Imprison'd then as you were going </l>
             <l>To the Theatre? </l>
           </sp>
-          <sp xml:id="ep000670-e15390">
+          <sp who="ep000670-nim" xml:id="ep000670-e15390">
             <speaker>Nim. </speaker>
             <l>Not in my going, Madam, </l>
             <l>But, in the Theatre I was Imprison'd: </l>
@@ -1575,11 +1674,11 @@
             <l>Some fell down Dead, or seem'd at least to do so, </l>
             <l>Under that Colour to be carryed forth. </l>
           </sp>
-          <sp xml:id="ep000670-e15590">
+          <sp who="ep000670-pop" xml:id="ep000670-e15590">
             <speaker>Pop. </speaker>
             <l>If 'twere so straitly kept, how got you forth? </l>
           </sp>
-          <sp xml:id="ep000670-e15620">
+          <sp who="ep000670-nim" xml:id="ep000670-e15620">
             <speaker>Nim. </speaker>
             <l>Faith Madam, I came pretending Haste </l>
             <l>In Face and Countenance; told'em I was sent </l>
@@ -1589,18 +1688,18 @@
             <l>Thus did I pass the Gates; the danger, Madam, </l>
             <l>I have not yet escap't. </l>
           </sp>
-          <sp xml:id="ep000670-e15720">
+          <sp who="ep000670-pop" xml:id="ep000670-e15720">
             <speaker>Pop. </speaker>
             <l>What Danger mean you? </l>
           </sp>
-          <sp xml:id="ep000670-e15750">
+          <sp who="ep000670-nim" xml:id="ep000670-e15750">
             <speaker>Nim. </speaker>
             <l>The Danger of his Anger, when he knows </l>
             <l>How I thus shrunk away; for there stood Knaves, </l>
             <l>That put down in their Tables all that stir'd, </l>
             <l>And mark't in each their Chearfulness, or Sadness. </l>
           </sp>
-          <sp xml:id="ep000670-e15810">
+          <sp who="ep000670-pop" xml:id="ep000670-e15810">
             <speaker>Pop. </speaker>
             <l>I warrant, I'le excuse you: but I Pray, </l>
             <l>Let's be a little better for your Sight: </l>
@@ -1609,7 +1708,7 @@
             <l>Her Death would add great Life unto his part. </l>
             <l>But come I pray, the Story of your Sight. </l>
           </sp>
-          <sp xml:id="ep000670-e15900">
+          <sp who="ep000670-nim" xml:id="ep000670-e15900">
             <speaker>Nim. </speaker>
             <l>O do not drive me to those hateful Pains: </l>
             <l>Madam; I was too much in seeing vext: </l>
@@ -1635,62 +1734,62 @@
             <stage xml:id="ep000670-e16120">[Exeunt. </stage>
           </sp>
           <stage xml:id="ep000670-e16130">Enter Nero, Epaphroditus, and Neophilus. </stage>
-          <sp xml:id="ep000670-e16160">
+          <sp who="ep000670-ner" xml:id="ep000670-e16160">
             <speaker>Ner. </speaker>
             <l>Come Sirs, I Faith, how did you like my Acting? </l>
             <l>What? was't not as you look't for? </l>
           </sp>
-          <sp xml:id="ep000670-e16200">
+          <sp who="ep000670-epap" xml:id="ep000670-e16200">
             <speaker>Epap. </speaker>
             <l>Yes, my Lord, and much beyond. </l>
           </sp>
-          <sp xml:id="ep000670-e16230">
+          <sp who="ep000670-ner" xml:id="ep000670-e16230">
             <speaker>Ner. </speaker>
             <l>Did not I do it to the Life? </l>
           </sp>
-          <sp xml:id="ep000670-e16260">
+          <sp who="ep000670-epap" xml:id="ep000670-e16260">
             <speaker>Epap. </speaker>
             <l>The very doing never was so lively, </l>
             <l>As now this Counterfeiting. </l>
           </sp>
-          <sp xml:id="ep000670-e16300">
+          <sp who="ep000670-ner" xml:id="ep000670-e16300">
             <speaker>Ner. </speaker>
             <l>And when I came </l>
             <l>To th' Point of Agrippa Clitemnestra's Death, </l>
             <l>Did it not move the feeling Auditory? </l>
           </sp>
-          <sp xml:id="ep000670-e16360">
+          <sp who="ep000670-epap" xml:id="ep000670-e16360">
             <speaker>Epap. </speaker>
             <l>They had been Stones, whom that could not have mov'd, </l>
           </sp>
-          <sp xml:id="ep000670-e16390">
+          <sp who="ep000670-ner" xml:id="ep000670-e16390">
             <speaker>Ner. </speaker>
             <l>Did not my Voice hold out well to the end? </l>
             <l>And serv'd me afterwards afresh to Sing with? </l>
           </sp>
-          <sp xml:id="ep000670-e16430">
+          <sp who="ep000670-neop" xml:id="ep000670-e16430">
             <speaker>Neop. </speaker>
             <l>We know Apollo cannot match your Voice. </l>
           </sp>
-          <sp xml:id="ep000670-e16470">
+          <sp who="ep000670-epap" xml:id="ep000670-e16470">
             <speaker>Epap. </speaker>
             <l>By Iove, I think you are the God himself </l>
             <l>Come from above to shew your hidden Arts, </l>
             <l>And fill us men with wonder of your skill. </l>
           </sp>
-          <sp xml:id="ep000670-e16530">
+          <sp who="ep000670-ner" xml:id="ep000670-e16530">
             <speaker>Ner. </speaker>
             <l>Nay, Faith, speak truly, do not flatter me; </l>
             <l>I know you need not: Flattery's but where </l>
             <l>Desert is mean. </l>
           </sp>
-          <sp xml:id="ep000670-e16580">
+          <sp who="ep000670-epap" xml:id="ep000670-e16580">
             <speaker>Epap. </speaker>
             <l>I swear by thee, O Cesar, </l>
             <l>Than whom no Power of Heaven I honour more, </l>
             <l>No Mortal Voice can pass, or equal thine. </l>
           </sp>
-          <sp xml:id="ep000670-e16640">
+          <sp who="ep000670-ner" xml:id="ep000670-e16640">
             <speaker>Ner. </speaker>
             <l>They tell of Orpheus, when he took his Lute, </l>
             <l>Hebrus stood still, Pangea bow'd his Head; </l>
@@ -1718,41 +1817,41 @@
             <l>And ceast th'Eternal Musick of the Spheres </l>
             <l>To mark my Voice, and mend their Tunes by mine. </l>
           </sp>
-          <sp xml:id="ep000670-e17000">
+          <sp who="ep000670-neop" xml:id="ep000670-e17000">
             <speaker>Neop. </speaker>
             <l>O Divine Voice! </l>
           </sp>
-          <sp xml:id="ep000670-e17030">
+          <sp who="ep000670-epap" xml:id="ep000670-e17030">
             <speaker>Epap. </speaker>
             <l>Happy are they that hear it. </l>
             <stage xml:id="ep000670-e17060">Enter Tigellinus. </stage>
           </sp>
-          <sp xml:id="ep000670-e17080">
+          <sp who="ep000670-ner" xml:id="ep000670-e17080">
             <speaker>Ner. </speaker>
             <l>But here comes Tigellinus, come, thy Bill. </l>
             <l>Are there so many? I see we have Enemies, Tigellinus. </l>
           </sp>
-          <sp xml:id="ep000670-e17140">
+          <sp who="ep000670-epap" xml:id="ep000670-e17140">
             <speaker>Epap. </speaker>
             <l>Have you put Cajus in? I saw him frown. </l>
           </sp>
-          <sp xml:id="ep000670-e17180">
+          <sp who="ep000670-neop" xml:id="ep000670-e17180">
             <speaker>Neop. </speaker>
             <l>And in the mid'st o'th' Emperor's Action </l>
             <l>Gallus Laught out, and, as I think, in Scorn. </l>
           </sp>
-          <sp xml:id="ep000670-e17230">
+          <sp who="ep000670-ner" xml:id="ep000670-e17230">
             <speaker>Ner. </speaker>
             <l>Vespatian too asleep▪ was he so drowsie? </l>
             <l>Well, he shall sleep the Iron Sleep of Death. </l>
             <l>And did Thrasea look so sourly on us? </l>
           </sp>
-          <sp xml:id="ep000670-e17300">
+          <sp who="ep000670-tig" xml:id="ep000670-e17300">
             <speaker>Tig. </speaker>
             <l>He never smil'd, my Lord, nor would vouchsafe </l>
             <l>With one Applause to grace your Action. </l>
           </sp>
-          <sp xml:id="ep000670-e17340">
+          <sp who="ep000670-ner" xml:id="ep000670-e17340">
             <speaker>Ner. </speaker>
             <l>Our Action needed not be grac'd by him; </l>
             <l>He's our Old Enemy, and still hates us: </l>
@@ -1779,12 +1878,12 @@
             <l>And heard the pleasant Cries of Trojan Mothers. </l>
             <l>Could I see Rome so! </l>
           </sp>
-          <sp xml:id="ep000670-e17670">
+          <sp who="ep000670-tig" xml:id="ep000670-e17670">
             <speaker>Tig. </speaker>
             <l>Your Majesty may easily </l>
             <l>Without this Trouble to your sacred Mind </l>
           </sp>
-          <sp xml:id="ep000670-e17710">
+          <sp who="ep000670-ner" xml:id="ep000670-e17710">
             <speaker>Ner. </speaker>
             <l>What may I easily do? kill thee, or him? </l>
             <l>How may I rid you all? where is the man, </l>
@@ -1813,11 +1912,11 @@
             <stage xml:id="ep000670-e17960">[Exeunt. </stage>
           </sp>
           <stage xml:id="ep000670-e17970">Enter Piso, and Seneca. </stage>
-          <sp xml:id="ep000670-e18000">
+          <sp who="ep000670-sen" xml:id="ep000670-e18000">
             <speaker>Sen. </speaker>
             <l>Piso, were you at the Theatre? </l>
           </sp>
-          <sp xml:id="ep000670-e18040">
+          <sp who="ep000670-pis" xml:id="ep000670-e18040">
             <speaker>Pis. </speaker>
             <l>Seneca, I was, and saw your Kingly Pupil </l>
             <l>In Minstrel's Habit stand before the Judges, </l>
@@ -1831,7 +1930,7 @@
             <l>Corrupt with Money, to do worse than he. </l>
             <l>This was his Singing Part: His Acting now. </l>
           </sp>
-          <sp xml:id="ep000670-e18180">
+          <sp who="ep000670-sen" xml:id="ep000670-e18180">
             <speaker>Sen. </speaker>
             <l>Nay even end here, for I have heard enough; </l>
             <l>Let me not </l>
@@ -1839,7 +1938,7 @@
             <l>Of Rome's great Monarch now Command in jest, </l>
             <l>Our Prince be Agamemnon in a Play. </l>
           </sp>
-          <sp xml:id="ep000670-e18270">
+          <sp who="ep000670-pis" xml:id="ep000670-e18270">
             <speaker>Pis. </speaker>
             <l>Why Seneca? 'tis better in a Play </l>
             <l>Be Agamemnon, than himself indeed: </l>
@@ -1857,47 +1956,47 @@
           </sp>
           <stage xml:id="ep000670-e18450">
             <hi>Enter two </hi>Romans. </stage>
-          <sp xml:id="ep000670-e18470">
+          <sp who="ep000670-1rom" xml:id="ep000670-e18470">
             <speaker>1 Rom. </speaker>
             <l>Fire, Fire, help, we burn. </l>
           </sp>
-          <sp xml:id="ep000670-e18510">
+          <sp who="ep000670-2ro" xml:id="ep000670-e18510">
             <speaker>2 Ro. </speaker>
             <l>Fire, fire, help, fire. </l>
           </sp>
-          <sp xml:id="ep000670-e18550">
+          <sp who="ep000670-sen" xml:id="ep000670-e18550">
             <speaker>Sen. </speaker>
             <l>Fire, where? </l>
           </sp>
-          <sp xml:id="ep000670-e18580">
+          <sp who="ep000670-pis" xml:id="ep000670-e18580">
             <speaker>Pis. </speaker>
             <l>Where? What Fire? </l>
           </sp>
-          <sp xml:id="ep000670-e18610">
+          <sp who="ep000670-1ro" xml:id="ep000670-e18610">
             <speaker>1 Ro. </speaker>
             <l>O round about, here, there, on every side </l>
             <l>Compass the City. </l>
           </sp>
-          <sp xml:id="ep000670-e18660">
+          <sp who="ep000670-pis" xml:id="ep000670-e18660">
             <speaker>Pis. </speaker>
             <l>How came this Fire? by whom? </l>
           </sp>
-          <sp xml:id="ep000670-e18690">
+          <sp who="ep000670-sen" xml:id="ep000670-e18690">
             <speaker>Sen. </speaker>
             <l>Was't Chance, or Purpose? </l>
           </sp>
-          <sp xml:id="ep000670-e18720">
+          <sp who="ep000670-pis" xml:id="ep000670-e18720">
             <speaker>Pis. </speaker>
             <l>Why is't not quench't? </l>
           </sp>
-          <sp xml:id="ep000670-e18750">
+          <sp who="ep000670-2ro" xml:id="ep000670-e18750">
             <speaker>2 Ro. </speaker>
             <l>Alas there are many there with Weapons; </l>
             <l>And whether it be for Prey, or by Command, </l>
             <l>They hinder: Nay, they throw on Fire-brands. </l>
           </sp>
           <stage xml:id="ep000670-e18810">Enter Antonius </stage>
-          <sp xml:id="ep000670-e18830">
+          <sp who="ep000670-ant" xml:id="ep000670-e18830">
             <speaker>Ant. </speaker>
             <l>The Fire encreaseth, and will not be staid, </l>
             <l>But like a Stream that tumbling from a Hill, </l>
@@ -1911,17 +2010,17 @@
             <l>The whil'st their own's a fire: Some save their Goods, </l>
             <l>And leave their dearer Pledges in the Flame. </l>
           </sp>
-          <sp xml:id="ep000670-e18960">
+          <sp who="ep000670-pis" xml:id="ep000670-e18960">
             <speaker>Pis. </speaker>
             <l>What, are the Gauls return'd? </l>
             <l>Does 〈◊〉 brandish Fire-brands once again? </l>
           </sp>
-          <sp xml:id="ep000670-e19010">
+          <sp who="ep000670-sen" xml:id="ep000670-e19010">
             <speaker>Sen. </speaker>
             <l>What can Heaven now unto our Sufferings add? </l>
           </sp>
           <stage xml:id="ep000670-e19040">Enter 3 Roman. </stage>
-          <sp xml:id="ep000670-e19060">
+          <sp who="ep000670-3ro" xml:id="ep000670-e19060">
             <speaker>3 Ro. </speaker>
             <l>O all goes down, Rome falleth from the Roofe. </l>
             <l>The Wind's aloft, the Conquering Flame turns all </l>
@@ -1932,7 +2031,7 @@
             <l>And Vesta mourns to see her Virgin Fires </l>
             <l>Mingle with Profane Ashes. </l>
           </sp>
-          <sp xml:id="ep000670-e19200">
+          <sp who="ep000670-sen" xml:id="ep000670-e19200">
             <speaker>Sen. </speaker>
             <l>Heaven, hast thou set this end to Roman greatness? </l>
             <l>Were the World's Spoils for this to Rome divided, </l>
@@ -1946,7 +2045,7 @@
             <l>Let Allius Water turn again to Blood. </l>
             <l>To these will any Miseries be light. </l>
           </sp>
-          <sp xml:id="ep000670-e19380">
+          <sp who="ep000670-pis" xml:id="ep000670-e19380">
             <speaker>Pis. </speaker>
             <l>Why with false Auguries have we bin deceiv'd? </l>
             <l>Why was our Empire told us should endure </l>
@@ -1954,7 +2053,7 @@
             <l>And that our End should be o'th'World and it? </l>
             <l>What, can Celestial God-heads speak doubly too? </l>
           </sp>
-          <sp xml:id="ep000670-e19460">
+          <sp who="ep000670-sen" xml:id="ep000670-e19460">
             <speaker>Sen. </speaker>
             <l>O Rome, the Envy late, </l>
             <l>But now the Pity of the World: </l>
@@ -1974,7 +2073,7 @@
           <pb n="31" xml:id="ep000670-018-b"/>
           <head>SCENE ROME, a Fire. </head>
           <stage xml:id="ep000670-e19680">Enter Nero above. </stage>
-          <sp xml:id="ep000670-e19710">
+          <sp who="ep000670-ner" xml:id="ep000670-e19710">
             <speaker>Ner. </speaker>
             <l>I, now my Troy looks beauteous in her Flames; </l>
             <l>The Tyrrhene Seas are bright with Roman Fires, </l>
@@ -1996,7 +2095,7 @@
             <l>Within. Fire, Fire, Fire. </l>
             <l>Within. Gods, if you be not fled from Heaven, help us. </l>
           </sp>
-          <sp xml:id="ep000670-e20020">
+          <sp who="ep000670-ner" xml:id="ep000670-e20020">
             <speaker>Ner. </speaker>
             <l>I like this Musick well, they like not mine. </l>
             <l>Let Heaven do what it will, this have I done </l>
@@ -2007,17 +2106,17 @@
             <l>Now unbelieving Eyes, what would you more? </l>
           </sp>
           <stage xml:id="ep000670-e20120">Enter Neophilus. </stage>
-          <sp xml:id="ep000670-e20140">
+          <sp who="ep000670-neop" xml:id="ep000670-e20140">
             <speaker>Neop. </speaker>
             <l>O save your self (my Lord) your Palace burns. </l>
           </sp>
-          <sp xml:id="ep000670-e20170">
+          <sp who="ep000670-ner" xml:id="ep000670-e20170">
             <speaker>Ner. </speaker>
             <l>My Palace? How? what Traiterous Hand? </l>
           </sp>
           <pb n="32" xml:id="ep000670-019-a"/>
           <p>Enter Tigellinus. </p>
-          <sp xml:id="ep000670-e20220">
+          <sp who="ep000670-tig" xml:id="ep000670-e20220">
             <speaker>Tig. </speaker>
             <l>O fly my Lord, and save your self betimes, </l>
             <l>The Wind does beat the Fire upon your house, </l>
@@ -2028,13 +2127,13 @@
             <l>Does choak my Speech: O fly and save your </l>
             <l>Life. </l>
           </sp>
-          <sp xml:id="ep000670-e20330">
+          <sp who="ep000670-ner" xml:id="ep000670-e20330">
             <speaker>Ner. </speaker>
             <l>Heaven, thou dost strive I see for Victory. </l>
             <stage xml:id="ep000670-e20360">[Exeunt </stage>
           </sp>
           <stage xml:id="ep000670-e20370">Enter Nimphidius, </stage>
-          <sp xml:id="ep000670-e20390">
+          <sp who="ep000670-nim" xml:id="ep000670-e20390">
             <speaker>Nim. </speaker>
             <l>See how Fates work unto their purpos'd end; </l>
             <l>And without all Self-Industry will raise, </l>
@@ -2059,7 +2158,7 @@
             <stage xml:id="ep000670-e20640">[Exit. </stage>
           </sp>
           <stage xml:id="ep000670-e20650">Enter Scevinus, and Mellichus. </stage>
-          <sp xml:id="ep000670-e20680">
+          <sp who="ep000670-sce" xml:id="ep000670-e20680">
             <speaker>Sce. </speaker>
             <l>O Tray, and O ye Souls of our Fore-Fathers, </l>
             <l>Which in your Countries Fires were offered up, </l>
@@ -2069,7 +2168,7 @@
             <l>Not Pirrhus, nor Hannibal, art Author. </l>
             <l>Sad Rome is ruin'd by a Roman Hand. </l>
           </sp>
-          <sp xml:id="ep000670-e20830">
+          <sp who="ep000670-mel" xml:id="ep000670-e20830">
             <speaker>Mel. </speaker>
             <l>My Master has Seal'd up his Testament; </l>
             <l>Those Bond-Men, which he liketh best, set free, </l>
@@ -2081,7 +2180,7 @@
             <l>Sad. </l>
             <stage xml:id="ep000670-e20930">Aside. </stage>
           </sp>
-          <sp xml:id="ep000670-e20940">
+          <sp who="ep000670-sce" xml:id="ep000670-e20940">
             <speaker>Sce. </speaker>
             <l>I have from Fortune's Temple ta'n this Sword. </l>
             <l>may it be Fortunate, and now at least, </l>
@@ -2097,7 +2196,7 @@
             <l>Strike boldly Arm; so many powerful Prayers </l>
             <l>Of Dead and Living hover over thee. </l>
           </sp>
-          <sp xml:id="ep000670-e21100">
+          <sp who="ep000670-mel" xml:id="ep000670-e21100">
             <speaker>Mel. </speaker>
             <l>And though sometimes with talk Impertinent, </l>
             <l>And Idle Fancies, he would feign a Mirth; </l>
@@ -2105,12 +2204,12 @@
             <l>The which he dares not let his Face make shew of. </l>
             <stage xml:id="ep000670-e21160">Aside. </stage>
           </sp>
-          <sp xml:id="ep000670-e21170">
+          <sp who="ep000670-sce" xml:id="ep000670-e21170">
             <speaker>Sce. </speaker>
             <l>See, Melichus, this Weapon's better Edg'd: </l>
             <l>Long want of use has made it dull and blunt. </l>
           </sp>
-          <sp xml:id="ep000670-e21220">
+          <sp who="ep000670-mel" xml:id="ep000670-e21220">
             <speaker>Mel. </speaker>
             <l>Sharpening of Swords, when must we then have </l>
             <l>Or means my Master Cato-like to exempt (blows: </l>
@@ -2123,7 +2222,7 @@
             <pb n="34" xml:id="ep000670-020-a"/>
             <l>Of Princes he dares meddle or desire. </l>
           </sp>
-          <sp xml:id="ep000670-e21350">
+          <sp who="ep000670-sce" xml:id="ep000670-e21350">
             <speaker>Sce. </speaker>
             <l>We shall have Blows on both sides, Melichus: </l>
             <l>What and't be Heart for Heart: Death is the worst. </l>
@@ -2131,7 +2230,7 @@
             <l>This World I see has no Felicity; </l>
             <l>I'le try the other. </l>
           </sp>
-          <sp xml:id="ep000670-e21430">
+          <sp who="ep000670-mel" xml:id="ep000670-e21430">
             <speaker>Mel. </speaker>
             <l>Nero's Life is sought, </l>
             <l>The Sword's prepar'd against another's Breast, </l>
@@ -2142,7 +2241,7 @@
             <l>And Lucan, are no Managers of Quarrels. </l>
             <stage xml:id="ep000670-e21550">Aside </stage>
           </sp>
-          <sp xml:id="ep000670-e21560">
+          <sp who="ep000670-sce" xml:id="ep000670-e21560">
             <speaker>Sce. </speaker>
             <l>Me-thinks, I see him struggling on the ground, </l>
             <l>Hear his unmanly out-Crles, and lost Prayers </l>
@@ -2151,7 +2250,7 @@
             <l>And Headlong send thee down to Endless Fires. </l>
             <stage xml:id="ep000670-e21640">[Exit. </stage>
           </sp>
-          <sp xml:id="ep000670-e21650">
+          <sp who="ep000670-mel" xml:id="ep000670-e21650">
             <speaker>Mel. </speaker>
             <l>Why do I further idly stand debating? </l>
             <l>My Proofs are but too many, and too pregnant, </l>
@@ -2168,7 +2267,7 @@
           <pb n="35" xml:id="ep000670-020-b"/>
           <head>ACTUS QUARTUS. </head>
           <stage xml:id="ep000670-e21770">Enter Nero, Poppea, Nimphidius, Tigellinus, Neophilus, and Epaphroditus. </stage>
-          <sp xml:id="ep000670-e21800">
+          <sp who="ep000670-nero" xml:id="ep000670-e21800">
             <speaker>Nero. </speaker>
             <l>THis Kiss, sweet Love, Ile force from thee, and this▪ </l>
             <l>And of such Spoyls, and Victories be Prouder▪ </l>
@@ -2204,82 +2303,82 @@
             <stage xml:id="ep000670-e22270">
               <hi>[Enter </hi>Melichus. </stage>
           </sp>
-          <sp xml:id="ep000670-e22290">
+          <sp who="ep000670-nim" xml:id="ep000670-e22290">
             <speaker>Nim. </speaker>
             <l>One that it seems, my Lord, does come in haste. </l>
           </sp>
-          <sp xml:id="ep000670-e22320">
+          <sp who="ep000670-ner" xml:id="ep000670-e22320">
             <speaker>Ner. </speaker>
             <l>Yet in his Face he sends his Tale before him. </l>
             <l>Bad News thou tellest. </l>
           </sp>
-          <sp xml:id="ep000670-e22360">
+          <sp who="ep000670-mel" xml:id="ep000670-e22360">
             <speaker>Mel. </speaker>
             <l>Tis bad I tell, but good that I can tell it; </l>
             <l>Therefore your Majesty will pardon me, </l>
             <l>If I offend your Ears to save your Life. </l>
           </sp>
-          <sp xml:id="ep000670-e22410">
+          <sp who="ep000670-ner" xml:id="ep000670-e22410">
             <speaker>Ner. </speaker>
             <l>Why, is my Life indanger'd? </l>
             <l>How ends this Circumstance? thou rack'st </l>
             <l>My Thoughts. </l>
           </sp>
-          <sp xml:id="ep000670-e22460">
+          <sp who="ep000670-mel" xml:id="ep000670-e22460">
             <speaker>Mel. </speaker>
             <l>My Lord, your Life is conspir'd against. </l>
           </sp>
-          <sp xml:id="ep000670-e22490">
+          <sp who="ep000670-ner" xml:id="ep000670-e22490">
             <speaker>Ner. </speaker>
             <l>By whom? </l>
           </sp>
-          <sp xml:id="ep000670-e22520">
+          <sp who="ep000670-mel" xml:id="ep000670-e22520">
             <speaker>Mel. </speaker>
             <l>I must be of the World excus'd in this, </l>
             <l>If the great Duty to your Majesty </l>
             <l>Makes me all other lesser to neglect. </l>
           </sp>
-          <sp xml:id="ep000670-e22570">
+          <sp who="ep000670-ner" xml:id="ep000670-e22570">
             <speaker>Ner. </speaker>
             <l>Thou art a tedious Fellow, speak, by whom? </l>
           </sp>
-          <sp xml:id="ep000670-e22600">
+          <sp who="ep000670-mel" xml:id="ep000670-e22600">
             <speaker>Mel. </speaker>
             <l>By my Master. </l>
           </sp>
-          <sp xml:id="ep000670-e22630">
+          <sp who="ep000670-ner" xml:id="ep000670-e22630">
             <speaker>Ner. </speaker>
             <l>who's thy Master? </l>
           </sp>
-          <sp xml:id="ep000670-e22660">
+          <sp who="ep000670-mel" xml:id="ep000670-e22660">
             <speaker>Mel. </speaker>
             <l>Scevinus. </l>
           </sp>
-          <sp xml:id="ep000670-e22700">
+          <sp who="ep000670-pop" xml:id="ep000670-e22700">
             <speaker>Pop. </speaker>
             <l>Scevinus? why should he Conspire? </l>
             <l>Unless he think that Likeness in Conditions </l>
             <l>May make him too worthy o'th'Empire thought. </l>
           </sp>
-          <sp xml:id="ep000670-e22760">
+          <sp who="ep000670-ner" xml:id="ep000670-e22760">
             <speaker>Ner. </speaker>
             <l>Who are else in it? </l>
           </sp>
-          <sp xml:id="ep000670-e22790">
+          <sp who="ep000670-mel" xml:id="ep000670-e22790">
             <speaker>Mel. </speaker>
             <l>I think, <hi>Natalia, Subius, Flavius</hi>, </l>
             <l>
               <hi>Lucan, Seneca</hi>, and <hi>Lucius, Piso</hi>, </l>
             <l>Asper, and Qui●…. </l>
           </sp>
-          <sp xml:id="ep000670-e22890">
+          <sp who="ep000670-ner" xml:id="ep000670-e22890">
             <speaker>Ner. </speaker>
             <l>Ha done, </l>
             <l>Thou'lt reckon all Rome anon, and so thou may'st; </l>
             <l>They're Villains all, I'le not trust one of'em. </l>
             <l>O that the Romans had but all one Neck. </l>
           </sp>
-          <sp xml:id="ep000670-e22970">
+          <sp who="ep000670-pop" xml:id="ep000670-e22970">
             <speaker>Pop. </speaker>
             <l>Piso's sly creeping into Mens Affections, </l>
             <l>And Popular Arts, have given long Cause of </l>
@@ -2289,27 +2388,27 @@
             <pb n="37" xml:id="ep000670-021-b"/>
             <l>May make us credit this Relation. </l>
           </sp>
-          <sp xml:id="ep000670-e23060">
+          <sp who="ep000670-ner" xml:id="ep000670-e23060">
             <speaker>Ner. </speaker>
             <l>Where are they? come they not upon us yet? </l>
             <l>See the Guard doubled, see the Gates shut up: </l>
             <l>Why, they'l surprize us in our Court anon. </l>
           </sp>
-          <sp xml:id="ep000670-e23110">
+          <sp who="ep000670-mel" xml:id="ep000670-e23110">
             <speaker>Mel. </speaker>
             <l>Not so, my Lord, they are at Piso's House, </l>
             <l>And think themselves safe, and undescry'd. </l>
           </sp>
-          <sp xml:id="ep000670-e23160">
+          <sp who="ep000670-ner" xml:id="ep000670-e23160">
             <speaker>Ner. </speaker>
             <l>Let's thither then, </l>
             <l>And take'em in this False Security. </l>
           </sp>
-          <sp xml:id="ep000670-e23200">
+          <sp who="ep000670-tig" xml:id="ep000670-e23200">
             <speaker>Tig. </speaker>
             <l>'Twere better first publish'em Traytors. </l>
           </sp>
-          <sp xml:id="ep000670-e23230">
+          <sp who="ep000670-nim" xml:id="ep000670-e23230">
             <speaker>Nim. </speaker>
             <l>That were to make'em so; </l>
             <l>And force'em all upon their Enemies: </l>
@@ -2318,7 +2417,7 @@
             <l>Besides this Accusation may be forg'd </l>
             <l>By malice or mistaking. </l>
           </sp>
-          <sp xml:id="ep000670-e23310">
+          <sp who="ep000670-pop" xml:id="ep000670-e23310">
             <speaker>Pop. </speaker>
             <l>What likes you, do Nimphidius out of hand; </l>
             <l>Two may distract, when either would prevail: </l>
@@ -2326,7 +2425,7 @@
             <l>Should try the City, and attempt their Friends, </l>
             <l>How dangerous might Piso's Favour be? </l>
           </sp>
-          <sp xml:id="ep000670-e23400">
+          <sp who="ep000670-nim" xml:id="ep000670-e23400">
             <speaker>Nim. </speaker>
             <l>I to himself would make the matter clear, </l>
             <l>Which now upon one Servant's Credit stands. </l>
@@ -2339,7 +2438,7 @@
             <l>Then if they stir, they see their Wives and Houses </l>
             <l>Prepar'd a Prey to the Greedy Souldier. </l>
           </sp>
-          <sp xml:id="ep000670-e23520">
+          <sp who="ep000670-pop" xml:id="ep000670-e23520">
             <speaker>Pop. </speaker>
             <l>Let's be quick then, you to Piso's House, </l>
             <l>While I, and Tigellinus further sift </l>
@@ -2347,7 +2446,7 @@
             <stage xml:id="ep000670-e23590">
               <hi>[Exeunt all but </hi>〈◊〉 </stage>
           </sp>
-          <sp xml:id="ep000670-e23610">
+          <sp who="ep000670-ner" xml:id="ep000670-e23610">
             <speaker>Ner. </speaker>
             <l>Look to the Gates and Walls o'th'City, look </l>
             <l>The River be well kept; have Watches set </l>
@@ -2384,7 +2483,7 @@
         <div n="2" type="scene" xml:id="ep000670-e23920">
           <head>SCENE the Second Piso's House. </head>
           <stage xml:id="ep000670-e23950">Emer Piso, Lucan, and Scevinus. </stage>
-          <sp xml:id="ep000670-e23980">
+          <sp who="ep000670-luc" xml:id="ep000670-e23980">
             <speaker>Luc. </speaker>
             <l>But since we are discover'd, what remains, </l>
             <l>But put our Lives upon our Hands? our Swords </l>
@@ -2396,14 +2495,14 @@
             <l>Eunuches, and Women that we go against. </l>
           </sp>
           <pb n="39" xml:id="ep000670-022-b"/>
-          <sp xml:id="ep000670-e24130">
+          <sp who="ep000670-sce" xml:id="ep000670-e24130">
             <speaker>Sce. </speaker>
             <l>Why should we keep so many vow'd Swords </l>
             <l>From such a Hated Throat? </l>
             <l>Or shall we fear </l>
             <l>To trust unto the Gods so good a Cause? </l>
           </sp>
-          <sp xml:id="ep000670-e24190">
+          <sp who="ep000670-luc" xml:id="ep000670-e24190">
             <speaker>Luc. </speaker>
             <l>By this we may our selves Heaven's Favour promise; </l>
             <l>Because all Nobleness, and Worth on Earth, </l>
@@ -2421,7 +2520,7 @@
             <l>And hate that thing call'd Faith, when Piso </l>
             <l>Is a Traitor. </l>
           </sp>
-          <sp xml:id="ep000670-e24390">
+          <sp who="ep000670-sce" xml:id="ep000670-e24390">
             <speaker>Sce. </speaker>
             <l>O Piso, </l>
             <l>Think on that day, when in the Parthian Fields </l>
@@ -2435,7 +2534,7 @@
             <l>With Weapon in our Hands </l>
             <l>Fighting in Throngs of Enemies to dy? </l>
           </sp>
-          <sp xml:id="ep000670-e24570">
+          <sp who="ep000670-pis" xml:id="ep000670-e24570">
             <speaker>Pis. </speaker>
             <l>You see the Court and City's Arm'd, </l>
             <l>Why should we move desperate and hopeless Courses, </l>
@@ -2461,28 +2560,28 @@
             <l>This is from Infamy a Roman's Guard. </l>
             <stage xml:id="ep000670-e24840">Falls on his Sword, and Dyes. </stage>
           </sp>
-          <sp xml:id="ep000670-e24850">
+          <sp who="ep000670-luc" xml:id="ep000670-e24850">
             <speaker>Luc. </speaker>
             <l>O that this Nóble Courage had been shown </l>
             <l>Rather on Enemies Brests, than on thy own. </l>
           </sp>
           <stage xml:id="ep000670-e24890">Enter Nimphidius with Nero's Guard; Scevinus and Lucan <hi>offer to Fight with the Guard, but they are Surrounded by'em, and taken Prisoners </hi>
           </stage>
-          <sp xml:id="ep000670-e24950">
+          <sp who="ep000670-nim" xml:id="ep000670-e24950">
             <speaker>Nim. </speaker>
             <l>Nay, other end your grievous Crimes await, </l>
             <l>Ends which the Law and your Deserts exact. </l>
           </sp>
-          <sp xml:id="ep000670-e24990">
+          <sp who="ep000670-sce" xml:id="ep000670-e24990">
             <speaker>Sce. </speaker>
             <l>What have we deserv'd? </l>
           </sp>
-          <sp xml:id="ep000670-e25020">
+          <sp who="ep000670-nim" xml:id="ep000670-e25020">
             <speaker>Nim. </speaker>
             <l>That Punishment, that Traitors unto Princes, </l>
             <l>And Enemies unto the State they live in, merit. </l>
           </sp>
-          <sp xml:id="ep000670-e25060">
+          <sp who="ep000670-sce" xml:id="ep000670-e25060">
             <speaker>Sce. </speaker>
             <l>If by the State this Government you mean, </l>
             <l>I justly am an Enemy unto it; </l>
@@ -2493,7 +2592,7 @@
             <pb n="41" xml:id="ep000670-023-b"/>
             <l>'Twould please the State, and ease the Groaning World. </l>
           </sp>
-          <sp xml:id="ep000670-e25170">
+          <sp who="ep000670-nim" xml:id="ep000670-e25170">
             <speaker>Nim. </speaker>
             <l>Away with'em, be carried before the Emperour. </l>
             <stage xml:id="ep000670-e25200">[Exeunt. </stage>
@@ -2504,13 +2603,13 @@
           <stage xml:id="ep000670-e25240">
             <hi>Where he appears sitting, and Poppea, with </hi>Tigellinus, Neophilus, Guards, and Flavius <hi>a Prisoner </hi>
           </stage>
-          <sp xml:id="ep000670-e25280">
+          <sp who="ep000670-ner" xml:id="ep000670-e25280">
             <speaker>Ner. </speaker>
             <l>What could cause thee </l>
             <l>Forgetful of my Benefits, and thy Oath, </l>
             <l>To seek my Life? </l>
           </sp>
-          <sp xml:id="ep000670-e25330">
+          <sp who="ep000670-flav" xml:id="ep000670-e25330">
             <speaker>Flav. </speaker>
             <l>Ner●…, I hated thee; </l>
             <l>Nor was there any of thy Souldiers </l>
@@ -2521,62 +2620,62 @@
             <l>A Burner of our Houses, and of us; </l>
             <l>A Paricide of Wife and Mother. </l>
           </sp>
-          <sp xml:id="ep000670-e25450">
+          <sp who="ep000670-tig" xml:id="ep000670-e25450">
             <speaker>Tig. </speaker>
             <l>Villain, dost'know Where and of Whom </l>
             <l>Thou speakest? </l>
           </sp>
-          <sp xml:id="ep000670-e25490">
+          <sp who="ep000670-ner" xml:id="ep000670-e25490">
             <speaker>Ner. </speaker>
             <l>Have you but one Death for him? Let it be </l>
             <l>A Feeling one <hi>(Tigellinus</hi>) Be't </l>
             <l>Thy Charge, and let me see thee witty In't. </l>
           </sp>
-          <sp xml:id="ep000670-e25550">
+          <sp who="ep000670-tig" xml:id="ep000670-e25550">
             <speaker>Tig. </speaker>
             <l>Come Sirrah, </l>
             <l>We'l see how stoutly you'l stretch out your Neck. </l>
           </sp>
-          <sp xml:id="ep000670-e25590">
+          <sp who="ep000670-flav" xml:id="ep000670-e25590">
             <speaker>Flav. </speaker>
             <l>Would thou durst strike as boldly. </l>
           </sp>
           <stage xml:id="ep000670-e25620">
             <hi>[Exit </hi>Tigellinus, Flavius, and 2. or 3. <hi>Of the </hi>Guard. </stage>
           <stage xml:id="ep000670-e25670">Enter Epaphroditus, <hi>and a </hi>Boy </stage>
-          <sp xml:id="ep000670-e25700">
+          <sp who="ep000670-ner" xml:id="ep000670-e25700">
             <speaker>Ner. </speaker>
             <l>And what's </l>
             <l>He there? </l>
           </sp>
           <pb n="42" xml:id="ep000670-024-a"/>
-          <sp xml:id="ep000670-e25740">
+          <sp who="ep000670-epap" xml:id="ep000670-e25740">
             <speaker>Epap.. </speaker>
             <l>One that in whispering was o'r heard to say, </l>
             <l>What pity 'twas, my Lord, that Piso dy'd? </l>
           </sp>
-          <sp xml:id="ep000670-e25790">
+          <sp who="ep000670-ner" xml:id="ep000670-e25790">
             <speaker>Ner. </speaker>
             <l>And why was't pity, Sirrah, Piso dy'd? </l>
           </sp>
-          <sp xml:id="ep000670-e25830">
+          <sp who="ep000670-boy" xml:id="ep000670-e25830">
             <speaker>Boy. </speaker>
             <l>My Lord, 'twas pity he deserv'd to dy. </l>
           </sp>
-          <sp xml:id="ep000670-e25860">
+          <sp who="ep000670-pop" xml:id="ep000670-e25860">
             <speaker>Pop. </speaker>
             <l>How much this Youth my Oth●… does resemble? </l>
             <l>Otho, my first, my best Love, who is now </l>
             <l>(Undér pretext of Governing) Exll'd </l>
             <l>To Lusitania, Honourably Banish't. </l>
           </sp>
-          <sp xml:id="ep000670-e25950">
+          <sp who="ep000670-ner" xml:id="ep000670-e25950">
             <speaker>Ner. </speaker>
             <l>Well, if you be so Passionate, </l>
             <l>I'le make you spend your Pity on your Prince, </l>
             <l>And good Men, not on Traitors. </l>
           </sp>
-          <sp xml:id="ep000670-e26000">
+          <sp who="ep000670-boy" xml:id="ep000670-e26000">
             <speaker>Boy. </speaker>
             <l>The God's forbid my Prince should pity need: </l>
             <l>Some-what the sad Remembrance did me stir </l>
@@ -2587,21 +2686,21 @@
             <l>That might excuse my Pity to an End </l>
             <l>so Cruel, and Unripe. </l>
           </sp>
-          <sp xml:id="ep000670-e26110">
+          <sp who="ep000670-pop" xml:id="ep000670-e26110">
             <speaker>Pop. </speaker>
             <l>I know not, but this Youth does strangely move My mind; </l>
             <l>His Face, me-thinks, is more Angelical, Than Earthly. </l>
             <l>Oh! his words invade </l>
             <l>My weak'ned Senses, and o'r-come my Heart. </l>
           </sp>
-          <sp xml:id="ep000670-e26170">
+          <sp who="ep000670-ner" xml:id="ep000670-e26170">
             <speaker>Ner. </speaker>
             <l>Your Pity shews your favour, and your will, </l>
             <l>Which side you are enclin'd to, had you Power: </l>
             <l>Your Ill Affection then shall punish'd be. </l>
             <l>Take him to Execution, he shall dy. </l>
           </sp>
-          <sp xml:id="ep000670-e26230">
+          <sp who="ep000670-boy" xml:id="ep000670-e26230">
             <speaker>Boy. </speaker>
             <l>This Benefit at least </l>
             <l>Sad Death shall give, to free me from the Power </l>
@@ -2609,7 +2708,7 @@
             <l>For pitying Humane Chance, and Piso's End, </l>
             <l>There will be some too, that will pity me. </l>
           </sp>
-          <sp xml:id="ep000670-e26310">
+          <sp who="ep000670-pop" xml:id="ep000670-e26310">
             <speaker>Pop. </speaker>
             <l>O what a Dauntless Look! what sparkling Eyes, </l>
             <l>Threatning his Suffering! sure some Noble Blood </l>
@@ -2620,18 +2719,18 @@
             <l>He shall not dy: Take off your hands; away </l>
             <l>Nero, thou shalt not kill this Guiltless Youth. </l>
           </sp>
-          <sp xml:id="ep000670-e26410">
+          <sp who="ep000670-ner" xml:id="ep000670-e26410">
             <speaker>Ner. </speaker>
             <l>He Guiltless? </l>
             <l>By Heaven, she is in love with this smooth-fac'd Boy: </l>
             <l>Take him away. </l>
           </sp>
-          <sp xml:id="ep000670-e26460">
+          <sp who="ep000670-pop" xml:id="ep000670-e26460">
             <speaker>Pop. </speaker>
             <l>I beg, my Lord, to spare his Lise; </l>
             <l>Alas, what Treason can such tender Years commit? </l>
           </sp>
-          <sp xml:id="ep000670-e26500">
+          <sp who="ep000670-ner" xml:id="ep000670-e26500">
             <speaker>Ner. </speaker>
             <l>How dare you with your Fate, and God Contend? </l>
             <l>But the Bold Impiety shall end. </l>
@@ -2639,26 +2738,26 @@
             <l>How impotent wou'd Nero's God-head be, </l>
             <l>Cou'd Mortal stand betwixt my Rage and thee? </l>
           </sp>
-          <sp xml:id="ep000670-e26580">
+          <sp who="ep000670-neoph" xml:id="ep000670-e26580">
             <speaker>Neoph. </speaker>
             <l>Alas, my Lord, you have kil'd her. </l>
           </sp>
-          <sp xml:id="ep000670-e26610">
+          <sp who="ep000670-epap" xml:id="ep000670-e26610">
             <speaker>Epap. </speaker>
             <l>Help, help, she dyes. </l>
           </sp>
-          <sp xml:id="ep000670-e26640">
+          <sp who="ep000670-ner" xml:id="ep000670-e26640">
             <speaker>Ner. </speaker>
             <l>
               <hi>Poppea, Poppea</hi>, speak, I am not angry, </l>
             <l>I did not mean to hurt thee; speak, sweet </l>
             <l>Love. </l>
           </sp>
-          <sp xml:id="ep000670-e26700">
+          <sp who="ep000670-neoph" xml:id="ep000670-e26700">
             <speaker>Neoph. </speaker>
             <l>She's dead, my Lord. </l>
           </sp>
-          <sp xml:id="ep000670-e26730">
+          <sp who="ep000670-ner" xml:id="ep000670-e26730">
             <speaker>Ner. </speaker>
             <l>Fetch her again, she shall not dy. </l>
             <l>I'le open the Iron Gates of Hell, </l>
@@ -2685,7 +2784,7 @@
           <pb n="44" xml:id="ep000670-025-a"/>
           <head>SCENE the Fourth. </head>
           <stage xml:id="ep000670-e26970">Enter Seneca, <hi>and two </hi>Friends. </stage>
-          <sp xml:id="ep000670-e27000">
+          <sp who="ep000670-sen" xml:id="ep000670-e27000">
             <speaker>Sen. </speaker>
             <l>What means your Mourning, this ung●…ful Sorrow? </l>
             <l>Where are your Precepts of Philosophy? </l>
@@ -2700,7 +2799,7 @@
             <l>Which you admir'd, does, and shall still remain </l>
             <l>Secure of Death, untouch't of the Grave. </l>
           </sp>
-          <sp xml:id="ep000670-e27160">
+          <sp who="ep000670-1frie" xml:id="ep000670-e27160">
             <speaker>1 Frie. </speaker>
             <l>We'l not bely our Tears, we waile not thee; </l>
             <l>It is our selves, and our own Loss we grieve: </l>
@@ -2713,7 +2812,7 @@
             <l>In all these Losses yet of this we Glory, </l>
             <l>That 'tis thy Happiness that makes us sorry. </l>
           </sp>
-          <sp xml:id="ep000670-e27290">
+          <sp who="ep000670-2frie" xml:id="ep000670-e27290">
             <speaker>2 Frie. </speaker>
             <l>If there be any Place for Ghosts of Good Men; </l>
             <l>If (as we have bin told) Great Mens Souls </l>
@@ -2730,7 +2829,7 @@
             <stage xml:id="ep000670-e27440">
               <hi>[Exeunt </hi>2. Rom. </stage>
           </sp>
-          <sp xml:id="ep000670-e27460">
+          <sp who="ep000670-sen" xml:id="ep000670-e27460">
             <speaker>Sen. </speaker>
             <l>Be not afraid, my Soul, go chearfully </l>
             <l>To thy own Heaven, from whence it </l>
@@ -2758,7 +2857,7 @@
         <pb n="46" xml:id="ep000670-026-a"/>
         <head>ACTUS QUINTUS. </head>
         <stage xml:id="ep000670-e27700">Enter Nero, Nimphidius, Tigellinus, Neophilu●…, Epaphroditus <hi>and. Attendants</hi>. </stage>
-        <sp xml:id="ep000670-e27730">
+        <sp who="ep000670-nero" xml:id="ep000670-e27730">
           <speaker>Nero. </speaker>
           <l>Enough is wept, Poppea, for thy Death, </l>
           <l>Enough is Bled; so many Tears of others </l>
@@ -2766,7 +2865,7 @@
           <l>Who in the Common Funeral of the world </l>
           <l>Can mourn one Death? </l>
         </sp>
-        <sp xml:id="ep000670-e27810">
+        <sp who="ep000670-tig" xml:id="ep000670-e27810">
           <speaker>Tig. </speaker>
           <l>Besides, your Majesty this Benefit </l>
           <l>In their deserv'd Punishment shall reap, </l>
@@ -2775,7 +2874,7 @@
           <l>Tumult supprest, Rebelion out of heart: </l>
           <l>In Piso's Death Danger it self did dy. </l>
         </sp>
-        <sp xml:id="ep000670-e27900">
+        <sp who="ep000670-nimp" xml:id="ep000670-e27900">
           <speaker>Nimp. </speaker>
           <l>Piso, that thought to climb by bowing down, </l>
           <l>By giving a way to Thrive, and Raising others, </l>
@@ -2789,11 +2888,11 @@
           <l>Security hath wall'd your Seat about: </l>
           <l>There is no place for Fear lest. </l>
         </sp>
-        <sp xml:id="ep000670-e28040">
+        <sp who="ep000670-ner" xml:id="ep000670-e28040">
           <speaker>Ner. </speaker>
           <l>Why, I never sear'd'em. </l>
         </sp>
-        <sp xml:id="ep000670-e28070">
+        <sp who="ep000670-nim" xml:id="ep000670-e28070">
           <speaker>Nim. </speaker>
           <l>That was your Fault. </l>
           <l>Your Majesty must give us leave to blame </l>
@@ -2801,7 +2900,7 @@
           <pb n="47" xml:id="ep000670-026-b"/>
           <l>Too Prodigal of it self. </l>
         </sp>
-        <sp xml:id="ep000670-e28130">
+        <sp who="ep000670-ner" xml:id="ep000670-e28130">
           <speaker>Ner. </speaker>
           <l>A Prince's Mind knows neither Fear nor Hope: </l>
           <l>The Beams of Royal Majesty are such, </l>
@@ -2823,66 +2922,66 @@
         </sp>
         <stage xml:id="ep000670-e28360">
           <hi>[Enter a </hi>Roman. </stage>
-        <sp xml:id="ep000670-e28380">
+        <sp who="ep000670-neop" xml:id="ep000670-e28380">
           <speaker>Neop. </speaker>
           <l>A Currier from beyond the Alps, my Lord. </l>
         </sp>
-        <sp xml:id="ep000670-e28420">
+        <sp who="ep000670-ner" xml:id="ep000670-e28420">
           <speaker>Ner. </speaker>
           <l>News of some German Victory belike, </l>
           <l>Or Britton overthrow. </l>
         </sp>
-        <sp xml:id="ep000670-e28480">
+        <sp who="ep000670-neop" xml:id="ep000670-e28480">
           <speaker>Neop. </speaker>
           <l>The Letters come from France. </l>
         </sp>
-        <sp xml:id="ep000670-e28520">
+        <sp who="ep000670-nimp" xml:id="ep000670-e28520">
           <speaker>Nimp. </speaker>
           <l>Why smiles your Majesty? </l>
         </sp>
-        <sp xml:id="ep000670-e28550">
+        <sp who="ep000670-ner" xml:id="ep000670-e28550">
           <speaker>Ner. </speaker>
           <l>So I smile, I should be afraid, there's one </l>
           <l>In Arms, Neophilus. </l>
         </sp>
-        <sp xml:id="ep000670-e28600">
+        <sp who="ep000670-nim" xml:id="ep000670-e28600">
           <speaker>Nim. </speaker>
           <l>What Arm'd against your Majesty? </l>
         </sp>
-        <sp xml:id="ep000670-e28630">
+        <sp who="ep000670-ner" xml:id="ep000670-e28630">
           <speaker>Ner. </speaker>
           <l>Our Lievtenant of the Province, <hi>Julius Vindex</hi>. </l>
         </sp>
-        <sp xml:id="ep000670-e28670">
+        <sp who="ep000670-tig" xml:id="ep000670-e28670">
           <speaker>Tig. </speaker>
           <l>Who? that Giddy French man? </l>
         </sp>
-        <sp xml:id="ep000670-e28710">
+        <sp who="ep000670-nim" xml:id="ep000670-e28710">
           <speaker>Nim. </speaker>
           <l>His Province is disarm'd, my Lord, he hath </l>
           <l>No Legion, not a Souldier under him. </l>
         </sp>
-        <sp xml:id="ep000670-e28760">
+        <sp who="ep000670-epap" xml:id="ep000670-e28760">
           <speaker>Epap. </speaker>
           <l>One that by Blood, and Rapine would repair </l>
           <l>His State consum'd in Vanities, and Lust, </l>
         </sp>
         <stage xml:id="ep000670-e28800">
           <hi>Enter a Second </hi>Roman. </stage>
-        <sp xml:id="ep000670-e28820">
+        <sp who="ep000670-tig" xml:id="ep000670-e28820">
           <speaker>Tig. </speaker>
           <l>He would not find out three to follow him, </l>
         </sp>
-        <sp xml:id="ep000670-e28850">
+        <sp who="ep000670-2ro" xml:id="ep000670-e28850">
           <speaker>2 Ro. </speaker>
           <l>More News, my Lord. </l>
         </sp>
         <pb n="48" xml:id="ep000670-027-a"/>
-        <sp xml:id="ep000670-e28880">
+        <sp who="ep000670-ner" xml:id="ep000670-e28880">
           <speaker>Ner. </speaker>
           <l>Is it of Vindex, that thou hast to say: </l>
         </sp>
-        <sp xml:id="ep000670-e28920">
+        <sp who="ep000670-2ro" xml:id="ep000670-e28920">
           <speaker>2 Ro. </speaker>
           <l>Vindex is up, and with him F●…ce in Arms; </l>
           <l>The Noble Men and People throng to th'Cause; </l>
@@ -2893,34 +2992,34 @@
           <l>The Sickle now is fram'd into a Sword; </l>
           <l>France nothing does, but War and Fury breath. </l>
         </sp>
-        <sp xml:id="ep000670-e29070">
+        <sp who="ep000670-ner" xml:id="ep000670-e29070">
           <speaker>Ner. </speaker>
           <l>All this Fierce Talk's but Vindex does Rebel, </l>
           <l>And I will hang him. </l>
         </sp>
-        <sp xml:id="ep000670-e29120">
+        <sp who="ep000670-tig" xml:id="ep000670-e29120">
           <speaker>Tig. </speaker>
           <l>How long came you forth after the Former </l>
           <l>Messenger? </l>
         </sp>
-        <sp xml:id="ep000670-e29160">
+        <sp who="ep000670-2ro" xml:id="ep000670-e29160">
           <speaker>2 Ro. </speaker>
           <l>Four days, but by the Benefit of Sea, </l>
           <l>And Weather, am ariv'd with him. </l>
         </sp>
-        <sp xml:id="ep000670-e29210">
+        <sp who="ep000670-neop" xml:id="ep000670-e29210">
           <speaker>Neop. </speaker>
           <l>How strong was Vindex at your coming forth? </l>
         </sp>
-        <sp xml:id="ep000670-e29250">
+        <sp who="ep000670-2ro" xml:id="ep000670-e29250">
           <speaker>2 Ro. </speaker>
           <l>He was esteem'd a Hund'red Thousand Strong. </l>
         </sp>
-        <sp xml:id="ep000670-e29290">
+        <sp who="ep000670-tig" xml:id="ep000670-e29290">
           <speaker>Tig. </speaker>
           <l>Men enough. </l>
         </sp>
-        <sp xml:id="ep000670-e29320">
+        <sp who="ep000670-neop" xml:id="ep000670-e29320">
           <speaker>Neop. </speaker>
           <l>And Souldiers few enough. </l>
           <l>Tumultuary Troops, Undisciplin'd, </l>
@@ -2929,18 +3028,18 @@
           <l>Wounds, </l>
           <l>And but afar off see the Face of Death. </l>
         </sp>
-        <sp xml:id="ep000670-e29400">
+        <sp who="ep000670-ner" xml:id="ep000670-e29400">
           <speaker>Ner. </speaker>
           <l>It falls out for my Empty Coffers well, </l>
           <l>The Spoyl of such a Large and Goodly Province, </l>
           <l>Enrich'd with Trade, and long enjoy'd Peace. </l>
         </sp>
-        <sp xml:id="ep000670-e29450">
+        <sp who="ep000670-tig" xml:id="ep000670-e29450">
           <speaker>Tig. </speaker>
           <l>What Order will your Majesty have taken, </l>
           <l>For Levying Forces to Suppress this Stir? </l>
         </sp>
-        <sp xml:id="ep000670-e29490">
+        <sp who="ep000670-ner" xml:id="ep000670-e29490">
           <speaker>Ner. </speaker>
           <l>What Order should we take? We'l Laugh and Drink; </l>
           <l>Think'st thou it fits my Pleasures to be disturb'd, </l>
@@ -2948,12 +3047,12 @@
           <l>They have not heard of Pïso's Fortun●… yet; </l>
           <l>Let that Tale f●…ight'em. </l>
         </sp>
-        <sp xml:id="ep000670-e29580">
+        <sp who="ep000670-nim" xml:id="ep000670-e29580">
           <speaker>Nim. </speaker>
           <l>What Order needs? Your Majesty shall find </l>
           <l>This French heat quickly of it self grow Cold. </l>
         </sp>
-        <sp xml:id="ep000670-e29630">
+        <sp who="ep000670-ner" xml:id="ep000670-e29630">
           <speaker>Ner. </speaker>
           <l>Come away, </l>
           <l>Nothing shall come, that this Night's Sport </l>
@@ -2961,7 +3060,7 @@
           <l>Shall stay. </l>
         </sp>
         <stage xml:id="ep000670-e29680">Ex●… all b●… Neopilus▪ 〈◊〉 Epaphroditus </stage>
-        <sp xml:id="ep000670-e29690">
+        <sp who="ep000670-neop" xml:id="ep000670-e29690">
           <speaker>Neop. </speaker>
           <l>I wonder what makes him so confident, </l>
           <l>In this Revolt, now grown unto a War, </l>
@@ -2969,7 +3068,7 @@
           <l>Being but a Plot of a Conspiracy, </l>
           <l>He shew'd himself so wretchedly dismai'd! </l>
         </sp>
-        <sp xml:id="ep000670-e29760">
+        <sp who="ep000670-epap" xml:id="ep000670-e29760">
           <speaker>Epap. </speaker>
           <l>Faith, the right Nature of a Coward, to set light, </l>
           <l>Dangers, that seem far off: Piso was here, </l>
@@ -2978,11 +3077,11 @@
           <l>And then he Trembled. Vindex, is in France, </l>
           <l>And many Woods, and Seas, and Hill's between. </l>
         </sp>
-        <sp xml:id="ep000670-e29870">
+        <sp who="ep000670-neop" xml:id="ep000670-e29870">
           <speaker>Neop. </speaker>
           <l>'Twas strange, that Piso was so soon supprest. </l>
         </sp>
-        <sp xml:id="ep000670-e29910">
+        <sp who="ep000670-epap" xml:id="ep000670-e29910">
           <speaker>Epap. </speaker>
           <l>Strange! strange indeed, for had he but come up, </l>
           <l>And taken the Court in that strange Fright, and </l>
@@ -2991,7 +3090,7 @@
           <l>And each had Jealousy on the other, </l>
           <l>He would have hazarded the Royal Seat. </l>
         </sp>
-        <sp xml:id="ep000670-e29990">
+        <sp who="ep000670-neop" xml:id="ep000670-e29990">
           <speaker>Neop. </speaker>
           <l>Nay had it without Hazard: All the Court </l>
           <l>Had been sot him, and those disclos'd their Love, </l>
@@ -2999,7 +3098,7 @@
           <l>And colour, the Good Meaning's ready were, </l>
           <l>To shew their Forwardness against it most. </l>
         </sp>
-        <sp xml:id="ep000670-e30060">
+        <sp who="ep000670-epap" xml:id="ep000670-e30060">
           <speaker>Epap. </speaker>
           <l>But for a Stranger, with a Na●…ed Province, </l>
           <l>Without Allies, or Friends ith' State, to Challenge </l>
@@ -3009,20 +3108,20 @@
           <l>Why it is— </l>
         </sp>
         <stage xml:id="ep000670-e30140">Enter Nero, Nimphidius, and Tigellinu●… </stage>
-        <sp xml:id="ep000670-e30170">
+        <sp who="ep000670-ner" xml:id="ep000670-e30170">
           <speaker>Ner. </speaker>
           <l>Galba, and Spain? What, Spain and Galba too? </l>
         </sp>
         <stage xml:id="ep000670-e30240">
           <hi>[Ex●… </hi>Nemo, Nimphidius. </stage>
-        <sp xml:id="ep000670-e30260">
+        <sp who="ep000670-epap" xml:id="ep000670-e30260">
           <speaker>Epap. </speaker>
           <l>I pray thee, Tigellinus, What Fury's this? </l>
           <l>What strange Event? what Accident, hath thus </l>
           <pb n="50" xml:id="ep000670-028-a"/>
           <l>O'r-cast you●… Countenances? </l>
         </sp>
-        <sp xml:id="ep000670-e30320">
+        <sp who="ep000670-tig" xml:id="ep000670-e30320">
           <speaker>Tig. </speaker>
           <l>Down we were sate at Table, and began </l>
           <l>With Sparkling Bowls to chase our Fear away, </l>
@@ -3039,11 +3138,11 @@
           <l>Tearing his Hair, and with incens'd Rage </l>
           <l>Curseth false me, and Gods, the Lookers on. </l>
         </sp>
-        <sp xml:id="ep000670-e30550">
+        <sp who="ep000670-neop" xml:id="ep000670-e30550">
           <speaker>Neop. </speaker>
           <l>His Rage we saw was Wild and Desperate. </l>
         </sp>
-        <sp xml:id="ep000670-e30580">
+        <sp who="ep000670-epap" xml:id="ep000670-e30580">
           <speaker>Epap. </speaker>
           <l>O you unsearch'd Wisdoms, which do Laugh </l>
           <l>At our Security, and Feats, alike! </l>
@@ -3054,7 +3153,7 @@
         </sp>
         <stage xml:id="ep000670-e30660">[Exeunt all. </stage>
         <stage xml:id="ep000670-e30670">Enter Nimphidius. </stage>
-        <sp xml:id="ep000670-e30690">
+        <sp who="ep000670-nim" xml:id="ep000670-e30690">
           <speaker>Nim. </speaker>
           <l>Slow, making Counsels, and the Sliding Year, </l>
           <l>Have brought me to the Long fore-seen Destruction </l>
@@ -3075,40 +3174,40 @@
           <l>Proclaim a Donative in Galba's Name. </l>
         </sp>
         <stage xml:id="ep000670-e30930">Enter Antonius. </stage>
-        <sp xml:id="ep000670-e30950">
+        <sp who="ep000670-ant" xml:id="ep000670-e30950">
           <speaker>Ant. </speaker>
           <l>Yonder, Nimphidius, our Commander: now </l>
           <l>I with Respect must speak, and smooth my Brow. </l>
           <l>Captain, All Hail. </l>
         </sp>
-        <sp xml:id="ep000670-e31010">
+        <sp who="ep000670-nim" xml:id="ep000670-e31010">
           <speaker>Nim. </speaker>
           <l>Antonius, well met; </l>
           <l>Your Place of Tribune in this Anarchy. </l>
         </sp>
-        <sp xml:id="ep000670-e31060">
+        <sp who="ep000670-ant" xml:id="ep000670-e31060">
           <speaker>Ant. </speaker>
           <l>This Anarchy, my Lord? is Nero dead? </l>
         </sp>
-        <sp xml:id="ep000670-e31100">
+        <sp who="ep000670-nim" xml:id="ep000670-e31100">
           <speaker>Nim. </speaker>
           <l>This Anarchy, this unstyl'd time, </l>
           <l>While Galba is unceas'd of the Empire, </l>
           <l>Which Nero has forsook? </l>
         </sp>
-        <sp xml:id="ep000670-e31170">
+        <sp who="ep000670-ant" xml:id="ep000670-e31170">
           <speaker>Ant. </speaker>
           <l>Has Nero then Resign'd the Empire? </l>
         </sp>
-        <sp xml:id="ep000670-e31210">
+        <sp who="ep000670-nim" xml:id="ep000670-e31210">
           <speaker>Nim. </speaker>
           <l>In Effect he has, for he's fled to Egypt. </l>
         </sp>
-        <sp xml:id="ep000670-e31250">
+        <sp who="ep000670-ant" xml:id="ep000670-e31250">
           <speaker>Ant. </speaker>
           <l>My Lord, you tell strange News to me. </l>
         </sp>
-        <sp xml:id="ep000670-e31280">
+        <sp who="ep000670-nim" xml:id="ep000670-e31280">
           <speaker>Nim. </speaker>
           <l>But nothing strange to me, </l>
           <l>Who every moment knew of his Despairs: </l>
@@ -3117,13 +3216,13 @@
           <l>To bear his Fears, which he had long Conceal'd, </l>
           <l>Is now Revolted from himself, and ●…ed. </l>
         </sp>
-        <sp xml:id="ep000670-e31370">
+        <sp who="ep000670-ant" xml:id="ep000670-e31370">
           <speaker>Ant. </speaker>
           <l>Thrust with Reports and Rumours, from his Seat. </l>
           <l>My Lord, you know the Camp depends on you, </l>
           <l>As you Determine. </l>
         </sp>
-        <sp xml:id="ep000670-e31420">
+        <sp who="ep000670-nim" xml:id="ep000670-e31420">
           <speaker>Nim. </speaker>
           <l>There it lies unius; </l>
           <l>What should we do 〈◊〉 it boot's not to rely </l>
@@ -3139,12 +3238,12 @@
           <pb n="52" xml:id="ep000670-029-a"/>
           <l>Of Thirty Thousand Sisterses a Man. </l>
         </sp>
-        <sp xml:id="ep000670-e31620">
+        <sp who="ep000670-ant" xml:id="ep000670-e31620">
           <speaker>Ant. </speaker>
           <l>I think so great a Gift was never heard of, Galba, they say, is frugally inclin'd; </l>
           <l>Will he avow so great a Gift as this: </l>
         </sp>
-        <sp xml:id="ep000670-e31670">
+        <sp who="ep000670-nim" xml:id="ep000670-e31670">
           <speaker>Nim. </speaker>
           <l>Howe'r he like of it, he must avow it, </l>
           <l>If by our Promise he be once ingag'd. </l>
@@ -3155,7 +3254,7 @@
           <stage xml:id="ep000670-e31760">
             <hi>[Ex●… </hi>Nimph. </stage>
         </sp>
-        <sp xml:id="ep000670-e31780">
+        <sp who="ep000670-ant" xml:id="ep000670-e31780">
           <speaker>Ant. </speaker>
           <l>So you be thank'd, it Skill's who prevails: </l>
           <l>Galba, or Nero, Traitor to'em both. </l>
@@ -3176,37 +3275,37 @@
         </sp>
         <stage xml:id="ep000670-e32030">[Exit, </stage>
         <stage xml:id="ep000670-e32040">Enter Tigellinus, <hi>and Guards</hi>. </stage>
-        <sp xml:id="ep000670-e32070">
+        <sp who="ep000670-tig" xml:id="ep000670-e32070">
           <speaker>Tig. </speaker>
           <l>You see what Issue things are come too; </l>
           <l>Yet may we hope not only Impunity, </l>
           <l>But with our Fellows, part o'th' Guilt proclaim'd. </l>
         </sp>
         <stage xml:id="ep000670-e32120">Enter Nero alone. </stage>
-        <sp xml:id="ep000670-e32150">
+        <sp who="ep000670-ner" xml:id="ep000670-e32150">
           <speaker>Ner. </speaker>
           <l>Whither go you? Stay my Friends. </l>
           <l>'Tis Caesar calls; stay my Loving Friends. </l>
         </sp>
-        <sp xml:id="ep000670-e32200">
+        <sp who="ep000670-tig" xml:id="ep000670-e32200">
           <speaker>Tig. </speaker>
           <l>We were his Slaves, his Foot-stool, and must Crouch, </l>
           <pb n="53" xml:id="ep000670-029-b"/>
           <l>But now with such Observance to his Feet: </l>
           <l>It is his Misery that he calls us Friends. </l>
         </sp>
-        <sp xml:id="ep000670-e32250">
+        <sp who="ep000670-ner" xml:id="ep000670-e32250">
           <speaker>Ner. </speaker>
           <l>And moves you not the Misery of a Prince? </l>
           <l>O stay my Friends! stay and hearken to the Voice </l>
           <l>Which once you knew. </l>
         </sp>
-        <sp xml:id="ep000670-e32300">
+        <sp who="ep000670-tig" xml:id="ep000670-e32300">
           <speaker>Tig. </speaker>
           <l>Hark to the People's Cries; </l>
           <l>Hark to the Streets, that <hi>Galba, Galba</hi>, rings! </l>
         </sp>
-        <sp xml:id="ep000670-e32350">
+        <sp who="ep000670-ner" xml:id="ep000670-e32350">
           <speaker>Ner. </speaker>
           <l>The People may sorsake me without Blame; </l>
           <l>I did 'em wrong to make you Rich and Great; </l>
@@ -3215,14 +3314,14 @@
           <l>Your Fault has no Excuse, you are my Fault, </l>
           <l>And the Excuse of other's Treachery. </l>
         </sp>
-        <sp xml:id="ep000670-e32430">
+        <sp who="ep000670-tig" xml:id="ep000670-e32430">
           <speaker>Tig. </speaker>
           <l>Shall we with staying seem to uphold his Tyrannies, </l>
           <l>As if we were in Love with them? Come let's away. </l>
           <stage xml:id="ep000670-e32470">[Exeunt Tigellinus, <hi>and Guards </hi>
           </stage>
         </sp>
-        <sp xml:id="ep000670-e32490">
+        <sp who="ep000670-ner" xml:id="ep000670-e32490">
           <speaker>Ner. </speaker>
           <l>O now I see the Vizard from my Face, </l>
           <l>So lovely and so fearful is fall'n off. </l>
@@ -3248,13 +3347,13 @@
           <pb n="54" xml:id="ep000670-030-a"/>
         </sp>
         <stage xml:id="ep000670-e32770">Enter Neophilus and Epaphroditus </stage>
-        <sp xml:id="ep000670-e32800">
+        <sp who="ep000670-neop" xml:id="ep000670-e32800">
           <speaker>Neop. </speaker>
           <l>Though other's bound with greater Benefits, </l>
           <l>Have left your Altered Fortunes, and do run </l>
           <l>Whither new Hopes do call'em; yet come we.— </l>
         </sp>
-        <sp xml:id="ep000670-e32850">
+        <sp who="ep000670-ner" xml:id="ep000670-e32850">
           <speaker>Ner. </speaker>
           <l>O welcom! Come you to Adversity? </l>
           <l>Welcom true Friends; why, there is Faith on Earth; </l>
@@ -3262,7 +3361,7 @@
           <l>Yet two are left: Your Countenance, me-thinks, </l>
           <l>Gives Comfort, and new Hopes. </l>
         </sp>
-        <sp xml:id="ep000670-e32920">
+        <sp who="ep000670-epap" xml:id="ep000670-e32920">
           <speaker>Epap. </speaker>
           <l>Do not deceive your Thoughts, </l>
           <l>My Lord, we bring no Comfort. Would we could. </l>
@@ -3271,14 +3370,14 @@
           <l>To cut off Hopes of Fiercer Cruelty, </l>
           <l>And Scorn more Cruel, to a Worthy Soul. </l>
         </sp>
-        <sp xml:id="ep000670-e33000">
+        <sp who="ep000670-neop" xml:id="ep000670-e33000">
           <speaker>Neop. </speaker>
           <l>The Senate has decreed your Punishment, </l>
           <l>After the Fashion of our Ancestors; </l>
           <l>Which is, your Neck being locked in a Fork, </l>
           <l>You must be Whipt, and Scourg'd to Death. </l>
         </sp>
-        <sp xml:id="ep000670-e33060">
+        <sp who="ep000670-ner" xml:id="ep000670-e33060">
           <speaker>Ner. </speaker>
           <l>The Senate thus decreed? They that so oft </l>
           <l>My Vertues flatter'd have, and Gifts of mine; </l>
@@ -3310,14 +3409,14 @@
           <l>Nor favour the Oppressions of the Great. </l>
           <stage xml:id="ep000670-e33370">Stabs himself </stage>
         </sp>
-        <sp xml:id="ep000670-e33380">
+        <sp who="ep000670-epap" xml:id="ep000670-e33380">
           <speaker>Epap. </speaker>
           <l>They are at hand: Hark you may hear the </l>
           <l>Noise.— </l>
         </sp>
         <stage xml:id="ep000670-e33420">
           <hi>[A Shout, of Long live </hi>Galba, <hi>Emperour of </hi>Rome. </stage>
-        <sp xml:id="ep000670-e33450">
+        <sp who="ep000670-ner" xml:id="ep000670-e33450">
           <speaker>Ner. </speaker>
           <l>O Rome, fare-well; Fare-well you Theaters, </l>
           <l>Where I so oft with Popular Applause, </l>
@@ -3325,7 +3424,7 @@
           <stage xml:id="ep000670-e33510">[Dies </stage>
         </sp>
         <stage xml:id="ep000670-e33520">Enter Romans, with Nimphidius bound. </stage>
-        <sp xml:id="ep000670-e33560">
+        <sp who="ep000670-rob" xml:id="ep000670-e33560">
           <speaker>Rob. </speaker>
           <l>Thus dy all Tyrants. Let the News be Carried </l>
           <l>To my Great Master: And the Tyrant's Body </l>

@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000601" xml:lang="eng">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="ep000601" xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +55,36 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000601-chorus">
+              <persName>Chorus</persName>
+            </person>
+            <person xml:id="ep000601-crab">
+              <persName>Crab,</persName>
+            </person>
+            <person xml:id="ep000601-self">
+              <persName>Self</persName>
+            </person>
+            <person xml:id="ep000601-swab">
+              <persName>Swab</persName>
+            </person>
+            <person xml:id="ep000601-thethirdspeechspokenbyaromatariothegovernour">
+              <persName>The THIRD SPEECH spoken by AROMATARIO the Governour</persName>
+            </person>
+            <person xml:id="ep000601-chor">
+              <persName>Chor</persName>
+            </person>
+            <person xml:id="ep000601-thefirstspeechspokenbyfidelity">
+              <persName>The FIRST SPEECH Spoken by FIDELITY</persName>
+            </person>
+            <person xml:id="ep000601-thesecondspeechspokenbyopulenta">
+              <persName>The SECOND SPEECH spoken by OPULENTA</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -167,7 +197,7 @@
             <p>FIDELITY, arising up from her Seat with an obedient Bow, addresseth to his Lordship in this Congratulation following. </p>
           </div>
           <div n="1" type="speech" xml:id="ep000601-e1730">
-            <sp xml:id="ep000601-e1740">
+            <sp who="ep000601-thefirstspeechspokenbyfidelity" xml:id="ep000601-e1740">
               <speaker>The FIRST SPEECH Spoken by FIDELITY. </speaker>
               <l>MUch honour'd Lord, This Structure you behold, </l>
               <l>Whose outward Walls are Brass, and Tower Gold, </l>
@@ -249,7 +279,7 @@
             <p>My Lord Mayor being attentively prepared, The Goddess Opulenta, rising up from her Seat, with a Majestick behaviour doth oblige his Lordship's regard, to the Delivery of a Speech. </p>
           </div>
           <div n="2" type="speech" xml:id="ep000601-e3150">
-            <sp xml:id="ep000601-e3160">
+            <sp who="ep000601-thesecondspeechspokenbyopulenta" xml:id="ep000601-e3160">
               <speaker>The SECOND SPEECH spoken by OPULENTA. </speaker>
               <l>This Clime, is England sure: it doth present </l>
               <stage xml:id="ep000601-e3200">[Look about her] </stage>
@@ -312,7 +342,7 @@
             <p>The front part of the Stage is planted with variety of Trees, bearing all sorts of Spices and Fruits, as Oranges and Lemons, Citrons and Pomegranates; with several Planters and Labourers at work, some Digging, some Planting, others Pruning, Dressing, and Gathering; with divers Drolls, Piping, Dancing, Tumbling; and sundry kinds of Mimical Gestures, Antick Motions, Ingenious Confusion, and Studious Disorder: But a general cessation, and silence being proclaim'd, Aromatario their Governour standing up in the posture of an Address, delivereth this following Oration to his Lordship. </p>
           </div>
           <div n="3" type="speech" xml:id="ep000601-e4150">
-            <sp xml:id="ep000601-e4160">
+            <sp who="ep000601-thethirdspeechspokenbyaromatariothegovernour" xml:id="ep000601-e4160">
               <speaker>The THIRD SPEECH spoken by AROMATARIO the Governour. </speaker>
               <l>ILlustrious Lord, under whose <hi>wise Commands </hi>
               </l>
@@ -363,7 +393,7 @@
               <l>Though this as a Curse in the Scripture we read, </l>
               <l>In the Sweat of thy brows thou shalt purchase thy Bread. </l>
             </lg>
-            <sp xml:id="ep000601-e5040">
+            <sp who="ep000601-chorus" xml:id="ep000601-e5040">
               <speaker>Chorus. </speaker>
               <l>Yet by Patience and Labour, in Digging and Dressing, </l>
               <l>Th' old Curse is Converted into a new Blessing. </l>
@@ -377,7 +407,7 @@
               <l>We work, and we Sweat, yet are never the worse; </l>
               <l>At the most we have but a Spice of the Curse. </l>
             </lg>
-            <sp xml:id="ep000601-e5170">
+            <sp who="ep000601-chorus" xml:id="ep000601-e5170">
               <speaker>Chorus. </speaker>
               <l>But by Patienoe and Labour our Treasure encreasing, </l>
               <l>Hath made a Conversion on't into a Blessing. </l>
@@ -392,7 +422,7 @@
               <l>The Grocers and Merchants are Men of Renown, </l>
               <l>They are just in their Trading, and true to the Crown. </l>
             </lg>
-            <sp xml:id="ep000601-e5330">
+            <sp who="ep000601-chor" xml:id="ep000601-e5330">
               <speaker>Chor. </speaker>
               <l>And we faithful Planters; since all this is so Sirs, </l>
               <l>Let's Pray for King Charles, and his Brethren, the Grocers. </l>
@@ -406,7 +436,7 @@
         <div type="scene" xml:id="ep000601-e5520">
           <head>The SCENE, the ROYAL-EXCHANGE. </head>
           <stage xml:id="ep000601-e5540">Enter Crab, staring up and down. </stage>
-          <sp xml:id="ep000601-e5560">
+          <sp who="ep000601-crab" xml:id="ep000601-e5560">
             <speaker>Crab. </speaker>
             <lg>
               <l>Thic New-made Zitty zeemeth ztrange, </l>
@@ -443,7 +473,7 @@
             </lg>
           </sp>
           <stage xml:id="ep000601-e5900">[The Tune changeth.] </stage>
-          <sp xml:id="ep000601-e5910">
+          <sp who="ep000601-swab" xml:id="ep000601-e5910">
             <speaker>Swab. </speaker>
             <lg n="1">
               <head>I </head>
@@ -454,7 +484,7 @@
               <l>Hath been bruis'd in fight. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e6000">
+          <sp who="ep000601-crab" xml:id="ep000601-e6000">
             <speaker>Crab. </speaker>
             <l>A flail, a flail, a flail, </l>
             <l>Iche tell the Mon of zeas </l>
@@ -462,7 +492,7 @@
             <l>Are failors, </l>
             <l>Without Pork and Peas. </l>
           </sp>
-          <sp xml:id="ep000601-e6070">
+          <sp who="ep000601-swab" xml:id="ep000601-e6070">
             <speaker>Swab. </speaker>
             <l>I have stood </l>
             <l>Bath'd in my Blood </l>
@@ -470,11 +500,11 @@
             <l>My Men dying, </l>
             <l>No flying. </l>
           </sp>
-          <sp xml:id="ep000601-e6140">
+          <sp who="ep000601-crab" xml:id="ep000601-e6140">
             <speaker>Crab. </speaker>
             <l>Zhips ha no back doors. </l>
           </sp>
-          <sp xml:id="ep000601-e6170">
+          <sp who="ep000601-swab" xml:id="ep000601-e6170">
             <speaker>Swab. </speaker>
             <l>Where so e're </l>
             <l>Enemies were, </l>
@@ -482,12 +512,12 @@
             <pb n="16" xml:id="ep000601-011-a"/>
             <l>And fly at 'em, </l>
           </sp>
-          <sp xml:id="ep000601-e6230">
+          <sp who="ep000601-crab" xml:id="ep000601-e6230">
             <speaker>Crab. </speaker>
             <l>From Chatham, </l>
             <l>Up to Wapping Dock: </l>
           </sp>
-          <sp xml:id="ep000601-e6290">
+          <sp who="ep000601-swab" xml:id="ep000601-e6290">
             <speaker>Swab. </speaker>
             <lg n="2">
               <head>II. </head>
@@ -502,12 +532,12 @@
               <l>Out-done him. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e6440">
+          <sp who="ep000601-crab" xml:id="ep000601-e6440">
             <speaker>Crab. </speaker>
             <l>What picklid lyes are these? </l>
             <stage xml:id="ep000601-e6470">[Aside.] </stage>
           </sp>
-          <sp xml:id="ep000601-e6480">
+          <sp who="ep000601-swab" xml:id="ep000601-e6480">
             <speaker>Swab. </speaker>
             <l>I did once dive </l>
             <l>Down at Queen-hive. </l>
@@ -515,28 +545,28 @@
             <l>And under Water </l>
             <l>Two hours after, </l>
           </sp>
-          <sp xml:id="ep000601-e6560">
+          <sp who="ep000601-crab" xml:id="ep000601-e6560">
             <speaker>Crab. </speaker>
             <l>Rise agen at Dunkirk. </l>
           </sp>
-          <sp xml:id="ep000601-e6600">
+          <sp who="ep000601-swab" xml:id="ep000601-e6600">
             <speaker>Swab. </speaker>
             <p>Why thou Sheep-biter, how dar'st thou interrupt me? </p>
             <stage xml:id="ep000601-e6630">[Speak.] </stage>
           </sp>
-          <sp xml:id="ep000601-e6640">
+          <sp who="ep000601-crab" xml:id="ep000601-e6640">
             <speaker>Crab. </speaker>
             <p>Why thou zhip-zhiter, I did but make up Rhime, vor in my conscience thou had'st almost zung thy reason out of breath. You zaid you were two hours under water, and I thought I would zet you a zhore to dry your Daublet. </p>
           </sp>
-          <sp xml:id="ep000601-e6670">
+          <sp who="ep000601-swab" xml:id="ep000601-e6670">
             <speaker>Swab. </speaker>
             <p>What at Dunkirk? amongst Strangers? </p>
           </sp>
-          <sp xml:id="ep000601-e6710">
+          <sp who="ep000601-crab" xml:id="ep000601-e6710">
             <speaker>Crab. </speaker>
             <p>Yes, why not? zhour the purchasers of that place may allow an English-mon to dry his Daublet there, che believe they have bargain good enough on't. </p>
           </sp>
-          <sp xml:id="ep000601-e6750">
+          <sp who="ep000601-swab" xml:id="ep000601-e6750">
             <speaker>Swab. </speaker>
             <l>My Fame rings </l>
             <l>Abroad among Kings; </l>
@@ -545,89 +575,89 @@
             <l>In Salt River </l>
             <l>I was never </l>
           </sp>
-          <sp xml:id="ep000601-e6830">
+          <sp who="ep000601-crab" xml:id="ep000601-e6830">
             <speaker>Crab. </speaker>
             <p>Born to be drown'd. </p>
           </sp>
-          <sp xml:id="ep000601-e6860">
+          <sp who="ep000601-swab" xml:id="ep000601-e6860">
             <speaker>Swab. </speaker>
             <p>And what mean you by that Sir— Speak. </p>
           </sp>
-          <sp xml:id="ep000601-e6900">
+          <sp who="ep000601-crab" xml:id="ep000601-e6900">
             <pb n="17" xml:id="ep000601-011-b"/>
             <speaker>Crab. </speaker>
             <p>Iche mean youl have Rope enough about you to devend you vrom drowning: </p>
           </sp>
-          <sp xml:id="ep000601-e6930">
+          <sp who="ep000601-swab" xml:id="ep000601-e6930">
             <speaker>Swab. </speaker>
             <p>Sirrah! you have saucie Interpretation: and I could find in my heart to chastize you with my Cane. </p>
           </sp>
-          <sp xml:id="ep000601-e6960">
+          <sp who="ep000601-crab" xml:id="ep000601-e6960">
             <speaker>Crab. </speaker>
             <p>I am a UUhipster Sir. I carry my weapon in my hand, cham not avraid of a whole Team of Tarpaulins, vor I cham zvre you ha'nt a broadzide of Brass Guns in your Pocket. </p>
           </sp>
-          <sp xml:id="ep000601-e6990">
+          <sp who="ep000601-swab" xml:id="ep000601-e6990">
             <speaker>Swab. </speaker>
             <p>Go, thour't a Tarbox. </p>
           </sp>
-          <sp xml:id="ep000601-e7020">
+          <sp who="ep000601-crab" xml:id="ep000601-e7020">
             <speaker>Crab. </speaker>
             <l>How, Brother Pitch-barrel? </l>
             <stage xml:id="ep000601-e7050">[Enter Self the Citizen.] </stage>
             <l>But, who coms heer? </l>
           </sp>
-          <sp xml:id="ep000601-e7080">
+          <sp who="ep000601-swab" xml:id="ep000601-e7080">
             <speaker>Swab. </speaker>
             <p>By his venerable pace, and posture, it should be one Mr. Self a Citizen. </p>
           </sp>
-          <sp xml:id="ep000601-e7120">
+          <sp who="ep000601-crab" xml:id="ep000601-e7120">
             <speaker>Crab. </speaker>
             <p>Zelf? Iche think that be a great Name in every Town and Country, especially amongst the Longeners. But I don't know'n. </p>
           </sp>
-          <sp xml:id="ep000601-e7160">
+          <sp who="ep000601-swab" xml:id="ep000601-e7160">
             <speaker>Swab. </speaker>
             <p>Thou art a pretty Comical Fellow: what's thy Name? </p>
           </sp>
-          <sp xml:id="ep000601-e7190">
+          <sp who="ep000601-crab" xml:id="ep000601-e7190">
             <speaker>Crab. </speaker>
             <p>Why zur cham not azham'd of my Name, my name is Crab. </p>
           </sp>
-          <sp xml:id="ep000601-e7230">
+          <sp who="ep000601-swab" xml:id="ep000601-e7230">
             <speaker>Swab. </speaker>
             <p>Gaffer Crab? a Land Crab? I have seen a great many of your Crawling Kindred in the Indies, Gaffar Crab. </p>
           </sp>
           <stage xml:id="ep000601-e7300">[Swab walks away.] </stage>
-          <sp xml:id="ep000601-e7320">
+          <sp who="ep000601-crab" xml:id="ep000601-e7320">
             <speaker>Crab. </speaker>
             <p>Gaffer Crab? Crawling Kindred? doth the Meazle take me vor a Crablouse? Iche could vind in my heart. </p>
           </sp>
           <stage xml:id="ep000601-e7360">[Advanceth his whip.] </stage>
-          <sp xml:id="ep000601-e7370">
+          <sp who="ep000601-swab" xml:id="ep000601-e7370">
             <speaker>Swab. </speaker>
             <p>How now, what's the matter? </p>
             <stage xml:id="ep000601-e7400">[and Swabs turns about] </stage>
           </sp>
-          <sp xml:id="ep000601-e7420">
+          <sp who="ep000601-crab" xml:id="ep000601-e7420">
             <speaker>Crab. </speaker>
             <p>Faldera, Laidera, Taldara leero </p>
             <stage xml:id="ep000601-e7450">Crab sings a few notes of the Canarys and Danceth to it. </stage>
           </sp>
-          <sp xml:id="ep000601-e7470">
+          <sp who="ep000601-swab" xml:id="ep000601-e7470">
             <speaker>Swab. </speaker>
             <p>You are very actively merry Mr. Crab. </p>
           </sp>
-          <sp xml:id="ep000601-e7510">
+          <sp who="ep000601-crab" xml:id="ep000601-e7510">
             <speaker>Crab. </speaker>
             <p>Yes, I can Crab it away I warrant ye, as well as any zea- Crab o ye all. </p>
             <stage xml:id="ep000601-e7560">Another Tune. </stage>
           </sp>
-          <sp xml:id="ep000601-e7570">
+          <sp who="ep000601-swab" xml:id="ep000601-e7570">
             <speaker>Swab. </speaker>
             <l>O! the valiant strife </l>
             <l>Of a Seaman's Life, </l>
             <l>Whose Fame is never fading. </l>
           </sp>
-          <sp xml:id="ep000601-e7620">
+          <sp who="ep000601-self" xml:id="ep000601-e7620">
             <speaker>Self. </speaker>
             <l>Though the Change be full, </l>
             <l>Yet the City's dull, </l>
@@ -636,18 +666,18 @@
             <pb n="18" xml:id="ep000601-012-a"/>
             <l>Shop keepers know not what to do. </l>
           </sp>
-          <sp xml:id="ep000601-e7700">
+          <sp who="ep000601-crab" xml:id="ep000601-e7700">
             <speaker>Crab. </speaker>
             <l>The Contry mon doth Plow and Zow, </l>
             <l>Harrow, Weed and Reap and Mow; </l>
             <l>But yet is like to starve on't. </l>
           </sp>
-          <sp xml:id="ep000601-e7750">
+          <sp who="ep000601-swab" xml:id="ep000601-e7750">
             <speaker>Swab. </speaker>
             <l>The greatest sort of Business now </l>
             <l>Is Mam your humble Servant. </l>
           </sp>
-          <sp xml:id="ep000601-e7790">
+          <sp who="ep000601-self" xml:id="ep000601-e7790">
             <speaker>Self. </speaker>
             <lg n="2">
               <head>II. </head>
@@ -656,7 +686,7 @@
               <l>I gladly would be guided: </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e7860">
+          <sp who="ep000601-swab" xml:id="ep000601-e7860">
             <speaker>Swab. </speaker>
             <l>Want of Amity </l>
             <l>Breeds Calamity, </l>
@@ -664,22 +694,22 @@
             <l>By Atheistick persons too, </l>
             <l>Religion is derided. </l>
           </sp>
-          <sp xml:id="ep000601-e7930">
+          <sp who="ep000601-self" xml:id="ep000601-e7930">
             <speaker>Self. </speaker>
             <l>With Arguments as light as Air, </l>
           </sp>
-          <sp xml:id="ep000601-e7960">
+          <sp who="ep000601-swab" xml:id="ep000601-e7960">
             <speaker>Swab. </speaker>
             <l>Opinion's got in Reason's Chair, </l>
             <l>And would controul the great affair </l>
             <l>Of Man's Eternal being. </l>
           </sp>
-          <sp xml:id="ep000601-e8010">
+          <sp who="ep000601-crab" xml:id="ep000601-e8010">
             <speaker>Crab. </speaker>
             <l>The new-vound slights have spoil'd our zights, </l>
             <l>And caus'd this disagreeing. </l>
           </sp>
-          <sp xml:id="ep000601-e8050">
+          <sp who="ep000601-swab" xml:id="ep000601-e8050">
             <speaker>Swab. </speaker>
             <lg n="3">
               <head>III. </head>
@@ -688,7 +718,7 @@
               <l>Are new distresses faining; </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e8120">
+          <sp who="ep000601-crab" xml:id="ep000601-e8120">
             <speaker>Crab. </speaker>
             <l>They do veast their Chopps </l>
             <l>With zhugard zopps </l>
@@ -696,25 +726,25 @@
             <l>Yet they cry out that by their zhopps, </l>
             <l>They have but little gaining. </l>
           </sp>
-          <sp xml:id="ep000601-e8190">
+          <sp who="ep000601-swab" xml:id="ep000601-e8190">
             <speaker>Swab. </speaker>
             <l>They Keep both Town and Country house. </l>
           </sp>
-          <sp xml:id="ep000601-e8220">
+          <sp who="ep000601-crab" xml:id="ep000601-e8220">
             <speaker>Crab. </speaker>
             <l>They veed on Capon Pig and Goose. </l>
           </sp>
-          <sp xml:id="ep000601-e8250">
+          <sp who="ep000601-swab" xml:id="ep000601-e8250">
             <speaker>Swab. </speaker>
             <l>In Sack and Claret they Carouse, </l>
             <l>And spread their plumes in Trayning: </l>
           </sp>
-          <sp xml:id="ep000601-e8290">
+          <sp who="ep000601-crab" xml:id="ep000601-e8290">
             <speaker>Crab, </speaker>
             <l>And yet as if not worth a lowse, </l>
             <l>They'r every hour Complaining. </l>
           </sp>
-          <sp xml:id="ep000601-e8330">
+          <sp who="ep000601-swab" xml:id="ep000601-e8330">
             <pb n="19" xml:id="ep000601-012-b"/>
             <speaker>Swab. </speaker>
             <lg n="4">
@@ -724,26 +754,26 @@
               <l>For Merchandise to serve yee: </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e8400">
+          <sp who="ep000601-crab" xml:id="ep000601-e8400">
             <speaker>Crab. </speaker>
             <l>And the Country Cheap </l>
             <l>Brings Bread and Meat, </l>
             <l>That Uamine may not ztarve yee. </l>
           </sp>
-          <sp xml:id="ep000601-e8450">
+          <sp who="ep000601-swab" xml:id="ep000601-e8450">
             <speaker>Swab. </speaker>
             <l>You live at home in Wealth and Peace, </l>
             <l>Whilst wee do rock and shelve it, </l>
             <l>You wallow in Delight and ease. </l>
           </sp>
-          <sp xml:id="ep000601-e8500">
+          <sp who="ep000601-crab" xml:id="ep000601-e8500">
             <speaker>Crab. </speaker>
             <l>Wee zend you Bacon Beef and Peas, </l>
             <l>Whilst we do ditch and delve it; </l>
             <l>And don zuch zimple Clodes as dese, </l>
             <l>When you weare zilk and velvet. </l>
           </sp>
-          <sp xml:id="ep000601-e8560">
+          <sp who="ep000601-self" xml:id="ep000601-e8560">
             <speaker>Self. </speaker>
             <lg n="5">
               <head>V. </head>
@@ -755,25 +785,25 @@
               <l>This Argument's decided. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e8660">
+          <sp who="ep000601-swab" xml:id="ep000601-e8660">
             <speaker>Swab. </speaker>
             <l>Your London Tables do excell. </l>
           </sp>
-          <sp xml:id="ep000601-e8700">
+          <sp who="ep000601-crab" xml:id="ep000601-e8700">
             <speaker>Crab. </speaker>
             <l>Y' have vorty dishes at a meal; </l>
           </sp>
-          <sp xml:id="ep000601-e8730">
+          <sp who="ep000601-swab" xml:id="ep000601-e8730">
             <speaker>Swab. </speaker>
             <l>And yet ye neither buy nor sell; </l>
             <l>But suffer diminution. </l>
           </sp>
-          <sp xml:id="ep000601-e8770">
+          <sp who="ep000601-crab" xml:id="ep000601-e8770">
             <speaker>Crab. </speaker>
             <l>You veed on Uesant, Cock and Teal </l>
             <l>Yet cry out Persecution. </l>
           </sp>
-          <sp xml:id="ep000601-e8810">
+          <sp who="ep000601-swab" xml:id="ep000601-e8810">
             <speaker>Swab. </speaker>
             <lg n="1">
               <head>I. </head>
@@ -784,12 +814,12 @@
               <l>These Fabricks all Buildings in Europe out-go. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e8910">
+          <sp who="ep000601-self" xml:id="ep000601-e8910">
             <speaker>Self. </speaker>
             <l>But if that no Trading come into the Town, </l>
             <l>The City is up, but the Citizen's down. </l>
           </sp>
-          <sp xml:id="ep000601-e8950">
+          <sp who="ep000601-swab" xml:id="ep000601-e8950">
             <speaker>Swab. </speaker>
             <lg n="2">
               <head>II. </head>
@@ -812,7 +842,7 @@
               </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e9190">
+          <sp who="ep000601-self" xml:id="ep000601-e9190">
             <speaker>Self. </speaker>
             <lg n="4">
               <head>IV. </head>
@@ -820,21 +850,21 @@
               <l>And Money's the Marrow of all our Affairs, </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e9250">
+          <sp who="ep000601-crab" xml:id="ep000601-e9250">
             <speaker>Crab. </speaker>
             <p>UUe zarve ye with wheat and malt, wool, milk &amp; honey▪ </p>
           </sp>
-          <sp xml:id="ep000601-e9280">
+          <sp who="ep000601-self" xml:id="ep000601-e9280">
             <speaker>Self. </speaker>
             <p>
               <hi>It is much for our Love <hi>[Crab.</hi>] </hi>I but more vor your money </p>
           </sp>
-          <sp xml:id="ep000601-e9330">
+          <sp who="ep000601-swab" xml:id="ep000601-e9330">
             <speaker>Swab. </speaker>
             <l>You'l sacrifice all the fat Sheep in your fold, </l>
             <l>To the beautiful Idol of Silver and Gold. </l>
           </sp>
-          <sp xml:id="ep000601-e9370">
+          <sp who="ep000601-self" xml:id="ep000601-e9370">
             <speaker>Self. </speaker>
             <lg n="5">
               <head>V. </head>
@@ -846,7 +876,7 @@
               <l>Like Members, let's all in one Body Conjoyn. </l>
             </lg>
           </sp>
-          <sp xml:id="ep000601-e9470">
+          <sp who="ep000601-chorus" xml:id="ep000601-e9470">
             <speaker>CHORUS. </speaker>
             <l>Since Union and Concord bring Plenty and Peace, </l>
             <l>And Amity is the kind cause of Increase: </l>
