@@ -49,7 +49,7 @@
               </publicationStmt>
               <notesStmt>
                 <note>Printers' names from STC.</note>
-                <note>Signatures: A-C⁴ D² .</note>
+                <note>Signatures: A-C&#8308; D&#178; .</note>
                 <note>"Ayres, made by seuerall authors: and sung in the maske at the marriage of the Right Honourable Robert, Earle of Somerset, and the right noble the Lady Frances Hovvard" has separate dated title page; register is continuous.</note>
                 <note>Variant: title reads: .. Whereunto is annexed diuers choyse ayres that may be sung ..</note>
                 <note>Reproduction of the original in the Folger Shakespeare Library.</note>
@@ -58,7 +58,27 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000324-thesecondsquire">
+              <persName>The second Squire</persName>
+            </person>
+            <person xml:id="ep000324-thefourthsquire">
+              <persName>The fourth Squire</persName>
+            </person>
+            <person xml:id="ep000324-allthesquirestogether">
+              <persName>All the Squires together</persName>
+            </person>
+            <person xml:id="ep000324-thefirstsquire">
+              <persName>The first Squire</persName>
+            </person>
+            <person xml:id="ep000324-thethirdsquire">
+              <persName>The third Squire</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -75,15 +95,12 @@
           <div type="title_page" xml:id="ep000324-e30">
             <pb xml:id="ep000324-001-a"/>
             <pb xml:id="ep000324-001-b"/>
-            <p>THE DESCRIPTION of a Maske: ❧ Presented in the Banqueting roome at Whitehall, on Saint Stephens night last, At the Mariage of the Right Honourable the Earle of Somerset: And the right noble the Lady <hi>FRANCES Howard</hi>. </p>
+            <p>THE DESCRIPTION of a Maske: &#10087; Presented in the Banqueting roome at Whitehall, on Saint Stephens night last, At the Mariage of the Right Honourable the Earle of Somerset: And the right noble the Lady <hi>FRANCES Howard</hi>. </p>
             <p>Written by <hi>Thomas Campion</hi>. </p>
             <p>Whereunto are annexed diuers choyse Ayres composed for this Maske that may be sung with a single voyce to the Lute or Base-Viall. </p>
             <p>LONDON Printed by E. A. for <hi>Laurence Li'sle</hi>, dwelling in Paules Church-yard, at the signe of the Tygers head. 1614. </p>
           </div>
-          <div cert="high"
-                    type="quotations"
-                    xml:id="ep000324-e160"
-                    xml:lang="lat">
+          <div cert="high" type="quotations" xml:id="ep000324-e160" xml:lang="lat">
             <lg>
               <pb xml:id="ep000324-002-a"/>
               <l>Pulchro pulchra datur, sociali faedere amanti </l>
@@ -99,7 +116,7 @@
               <l>Vniego mallemplacuisse docto, </l>
               <l>Candido, et fastu sine iudicanti, </l>
               <l>Millium quam millibus imperitorum </l>
-              <l>Inque iudentûm. </l>
+              <l>Inque iudent&#251;m. </l>
             </lg>
           </div>
         </front>
@@ -110,7 +127,7 @@
             <p>IN ancient times, when any man sought to shadowe or heighten his Inuention, he had store of feyned persons readie for his purpose; As <hi>Satyres, Nymphes </hi>&amp; their like: such were then in request and beliefe among the vulgar. But in our dayes, although they haue not vtterly lost their vse, yet finde they so litle credit, that our moderne writers haue rather transferd their fictions to the persons of Enchaunters &amp; Commaunders of Spirits, as that excellent Poet <hi>Torquato Tasso </hi>hath done, and many others. </p>
             <p>In imitation of them (having a presentation in hand for Persons of high State) I grounded my whole Inuention vpon Inchauntmens and severall transformations: The work-manship whereof was <pb xml:id="ep000324-003-a"/>vndertaken by M. Constantine an Italian, Architect to our late Prince Henry: but he being too much of him selfe, and no way to be drawne to impart his intentions, fayled so farre in the assurance he gaue, that the mayne inuention euen at the last cast, was of force drawne into a farre narrower compasse then was from the beginning intended: The description whereof as it was performed, I will as briefely as I can deliver. The place wherein the Maske was presented, being the Banquetting house at White Hall: the vpper part, where the State is placed, was Theatred with Pillars, Scaffolds, and all things answerable to the sides of the Roome. At the lower end of the Hall before the Sceane was made an Arch Tryvmphall, passing beautifull, which enclosed the whole Workes: The Sceane it selfe (the Curtaine being drawne) was in this manner diuided. </p>
             <p>On the vpper part there was formed a Skye with Clowdes very arteficially shadowed. On either side of the Sceane belowe was set a high Promontory, and on either of them stood three large pillars of golde: the one Promontory was bounded with a Rocke standing in the Sea, the other with a Wood; In the midst betwene them apeared a Sea in perspectiue with ships, some cunningly painted, some arteficially sayling. On the front of the Sceane, on either side was a beautifull garden, with sixe seates a peece to receaue the Maskers: behinde them the mayne Land, and in the middest a paire of stayres made exceeding curiously in the forme of a Schalop shell. <pb xml:id="ep000324-003-b"/>And in this manner was the eye first of all entertayned. After the King, Queene, and Prince were placed, and preparation was made for the beginning of the Maske, there entred foure Squires, who as soone as they approached neare the Presence, humbly bowing themselues, spake as followeth. </p>
-            <sp xml:id="ep000324-e400">
+            <sp who="ep000324-thefirstsquire" xml:id="ep000324-e400">
               <speaker>The first Squire. </speaker>
               <lg>
                 <l>THat fruite that neither dreads the Syrian heats, </l>
@@ -124,7 +141,7 @@
               </lg>
               <lg>
                 <l>GReat Honors Herrald Fame hauing Proclaym'd </l>
-                <l>This Nuptiall feast, and with it all enflam'd▪ </l>
+                <l>This Nuptiall feast, and with it all enflam'd&#9642; </l>
                 <l>From euery quarter of the earth three Knights </l>
                 <l>In Courtship seene, as well as Martiall fights) </l>
                 <l>Assembled in the Continent, and there </l>
@@ -145,7 +162,7 @@
                 <l>Let these relate, my tongu's too weake to tell. </l>
               </lg>
             </sp>
-            <sp xml:id="ep000324-e810">
+            <sp who="ep000324-thesecondsquire" xml:id="ep000324-e810">
               <speaker>The second Squire. </speaker>
               <l>A Strange and sad Ostent our Knights distrest, </l>
               <l>For while the Tempests fierye rage increast, </l>
@@ -158,7 +175,7 @@
               <l>Which past, no Serpent there was to be seene, </l>
               <l>And all was husht, as storme had neuer beene. </l>
             </sp>
-            <sp xml:id="ep000324-e940">
+            <sp who="ep000324-thethirdsquire" xml:id="ep000324-e940">
               <speaker>The third Squire. </speaker>
               <l>AT Sea, their mischeifes grewe, but ours at Land, </l>
               <l>For being by chance arriu'd, while our Knights stand </l>
@@ -167,12 +184,12 @@
               <l>Fixt in their footsteps, Pillars all of golde, </l>
               <l>Faire to our eyes, but wofull to beholde. </l>
             </sp>
-            <sp xml:id="ep000324-e1020">
+            <sp who="ep000324-thefourthsquire" xml:id="ep000324-e1020">
               <pb xml:id="ep000324-004-b"/>
               <speaker>The fourth Squire. </speaker>
               <l>THus with prodigious hate and crueltie, </l>
               <l>Our good Knights for their loue afflicted be, </l>
-              <l>But, ō protect vs now, Maiesticke Grace, </l>
+              <l>But, &#333; protect vs now, Maiesticke Grace, </l>
               <l>For see, those curst Enchanters presse in place </l>
               <l>That our past sorrowes wrought: these, these alone </l>
               <l>Turne all the world into confusion. </l>
@@ -244,7 +261,7 @@
             </sp>
             <p>At the end of this speech, the Queene puld a branch from the Tree and gaue it to a Nobleman who deliuered it to one of the Squires. </p>
             <lg>
-              <head>A Song whilè the Squires descend With the bough, toward the Scene. </head>
+              <head>A Song whil&#232; the Squires descend With the bough, toward the Scene. </head>
               <lg>
                 <l>Goe happy man like th'Euening Starre, </l>
                 <l>Whose beames to Bride-groomes well-come are. </l>
@@ -356,7 +373,7 @@
             <p>At the conclusion of this song arriued twelue skippers in red capps, with short cassocks and long slopps wide at the knees, of white canvas striped with crimson, white gloves and Pomps, and red <pb xml:id="ep000324-008-b"/>stockins: these twelue daunced a brave and lively daunce, shouting and tryvmphing after their manner. </p>
             <p>After this followed the Maskers last daunce, wherewith they retyred. </p>
             <p>At the Embarking of the Knights, the Squires approach the state, and speake. </p>
-            <sp xml:id="ep000324-e2760">
+            <sp who="ep000324-thefirstsquire" xml:id="ep000324-e2760">
               <speaker>The first Squire. </speaker>
               <l>ALl that was euer ask't, by vow of Ioue, </l>
               <l>To blesse a state with, Plentie, Honor Loue, </l>
@@ -365,14 +382,14 @@
               <l>All these; and what good els, thought can supplie. </l>
               <l>Euer attend your Triple Maiestie. </l>
             </sp>
-            <sp xml:id="ep000324-e2860">
+            <sp who="ep000324-thesecondsquire" xml:id="ep000324-e2860">
               <speaker>The second Squire. </speaker>
               <l>ALl blessings which the Fates, Propheticke Sung, </l>
               <l>At Peleus Nuptialls, and what euer tongue </l>
               <l>Can figure more, this night, and aye betide, </l>
               <l>The honour'd Bride-groome, and the honourd Bride. </l>
             </sp>
-            <sp xml:id="ep000324-e2940">
+            <sp who="ep000324-allthesquirestogether" xml:id="ep000324-e2940">
               <pb xml:id="ep000324-009-a"/>
               <speaker>All the Squires together. </speaker>
               <l>Thus speakes in vs th'affection of our Knights, </l>
@@ -603,7 +620,7 @@
             <lg n="1">
               <head>2 </head>
               <l>Hast abourd, hast now away: </l>
-              <l>Hymen frownes at your delay▪ </l>
+              <l>Hymen frownes at your delay&#9642; </l>
               <l>Hymen doth long nights affect; </l>
               <l>Yeeld him then his due respect. </l>
               <l>The Sea-borne Goddesse straight will come, </l>

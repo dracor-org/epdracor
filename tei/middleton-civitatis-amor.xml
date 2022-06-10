@@ -48,7 +48,7 @@
               <notesStmt>
                 <note>By Thomas Middleton, whose name appears on B2r.</note>
                 <note>Partly in verse.</note>
-                <note>Signatures: A-C⁴.</note>
+                <note>Signatures: A-C&#8308;.</note>
                 <note>The first leaf is blank.</note>
                 <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
               </notesStmt>
@@ -56,7 +56,18 @@
           </bibl>
         </bibl>
       </sourceDesc>
-      <profileDesc/>
+      <profileDesc>
+        <particDesc>
+          <listPerson>
+            <person xml:id="ep000183-hope">
+              <persName>Hope</persName>
+            </person>
+            <person xml:id="ep000183-london">
+              <persName>London</persName>
+            </person>
+          </listPerson>
+        </particDesc>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -104,7 +115,7 @@
           <stage xml:id="ep000183-e430">At Chelsey. </stage>
           <stage xml:id="ep000183-e440">A Personage figuring London, sitting vpon a Sea-Vnicorne, with sixe Tritons sounding before her, accompanyed thither with Neptune, and the two Riuers Thamesis and Dee. </stage>
           <stage xml:id="ep000183-e490">At the first appearing of the Prince, speakes as followeth: </stage>
-          <sp xml:id="ep000183-e500">
+          <sp who="ep000183-london" xml:id="ep000183-e500">
             <speaker>London </speaker>
             <l>NEptune! since thou hast beene at all this paines, </l>
             <l>Not onely with thy Tritons to supply mee, </l>
@@ -127,7 +138,7 @@
             <l>To do it seruice, and the Citie Grace, </l>
             <l>Be silent, till wee waue our siluer Mace. </l>
           </sp>
-          <sp xml:id="ep000183-e700">
+          <sp who="ep000183-london" xml:id="ep000183-e700">
             <speaker>London. </speaker>
             <l>ANd you our honour'd Sonnes, whose Loyalty, </l>
             <l>Seruice, and zeale, shall bee exprest of mee, </l>
@@ -170,13 +181,13 @@
             <l>Sound Tritons, lift our loues vp with his Fame, </l>
             <l>Proclaim'd as far as Honour ha's a Name. </l>
           </sp>
-          <p>Neptune— Sound— On— </p>
+          <p>Neptune&#8212; Sound&#8212; On&#8212; </p>
         </div>
         <div type="part" xml:id="ep000183-e1110">
           <pb xml:id="ep000183-006-a"/>
           <head>The Entertainement at White-hall. </head>
           <stage xml:id="ep000183-e1140">This Personage, figuring London (with the sixe Tritons sounding before, Neptume, and the two Riuers) being arriu'd at White-hall, where attend the Princes Landing, the Figures of two sacred Deities, Hope and Peace thus speaks. </stage>
-          <sp xml:id="ep000183-e1210">
+          <sp who="ep000183-london" xml:id="ep000183-e1210">
             <speaker>London. </speaker>
             <l>HOpe! now behold the Fulnesse of thy Good, </l>
             <l>Which thy sicke comforts haue expected long, </l>
@@ -184,7 +195,7 @@
             <l>Looke vp, and see the Glory of thy Song. </l>
           </sp>
           <stage xml:id="ep000183-e1270">Hope leaning her Breast vpon a siluer Anchor, attended with foure Virgins all in white, hauing siluer Oares in their hands, thus Answeres. </stage>
-          <sp xml:id="ep000183-e1290">
+          <sp who="ep000183-hope" xml:id="ep000183-e1290">
             <speaker>Hope. </speaker>
             <l>FAire and most Famous Citie, thou hast wak't me, </l>
             <l>From the sad slumber of disconsolate Feare, </l>
@@ -229,9 +240,9 @@
           <head>Prince Charles his Creation. </head>
           <p>THe dayes Triumph ended, to the great Honour of the City, and content of his Highnesse, who out of the goodnesse of his loue, gaue the Lord Maior and Aldermen many thankes. </p>
           <p>On Monday following, the Lords and Peeres of the Realme being all assembled at White-hall, his Highnesse then proceeded in this maner to his Creation. </p>
-          <p>First went the Trumpets, then the Heralds and Officers of Armes in their rich Coates; next followed the Knights of the Bath, beeing sixe and twentie in number, apparelled in long robes of purple Sattin, lined with white Taffata; then sir <hi>William Segar </hi>Knight, <hi>aliâs Garter</hi>, principall King of Armes, bearing the Letters Patents, the Earle of Sussex the Purple Robes, the Traine borne by the Earle of Huntington, the Sword by the Earle of Rutland, the Ring by the Earle of Derby, the Rodde by the Earle of Shrewesbury, the Cappe and Coronet by the Duke of <pb xml:id="ep000183-008-a"/>Lenox, Lord Steward, his Princely Highnesse supported by the Earles of Suffolke and Nottingham, came bare-headed, and so entred the great Hall, where the King was set in his royall Throane, and the whole State of the Realme in their Order; the Prince made lowe obeisance to his Maiestie three times, and after the third time, when hee was come neere to the King, hee kneeled downe on a rich Pillow or Cushion, whilest sir <hi>Ralph Winwood </hi>principall Secretarie, read his Letters Patents: then his Maiestie, at the reading of the words of Inuestment, put the Robes vpon him, and girded on the Sword, inuested him with the Rodde and Ring, and set the Cappe and Coronet on his head. With which Ceremonie the Creation being accomplished, the King arose, and went vp to Dinner; but the Prince, with his Lords, dined in the Hall, and was serued with great State and Magnificence, accompanied at his Table with diuers great Lords, as the Earle of Suffolke Lord Treasurer, the Earle of Arundell Lord Marshall, the Earle of Nottingham Lord Admirall, the Duke of Lenox Lord Steward, the Earle of Penbrooke Lord Chamberlaine, the Erles of <hi>Shrewsbury, Darby, Rutland</hi>, and Sussex, the Prince sitting in a Chaire at the vpper end, and the rest in distance about foure yards from him, one ouer-against another, in their degrees, all which were those that were employed in seuerall Offices of Honour about his Royall Creation. </p>
+          <p>First went the Trumpets, then the Heralds and Officers of Armes in their rich Coates; next followed the Knights of the Bath, beeing sixe and twentie in number, apparelled in long robes of purple Sattin, lined with white Taffata; then sir <hi>William Segar </hi>Knight, <hi>ali&#226;s Garter</hi>, principall King of Armes, bearing the Letters Patents, the Earle of Sussex the Purple Robes, the Traine borne by the Earle of Huntington, the Sword by the Earle of Rutland, the Ring by the Earle of Derby, the Rodde by the Earle of Shrewesbury, the Cappe and Coronet by the Duke of <pb xml:id="ep000183-008-a"/>Lenox, Lord Steward, his Princely Highnesse supported by the Earles of Suffolke and Nottingham, came bare-headed, and so entred the great Hall, where the King was set in his royall Throane, and the whole State of the Realme in their Order; the Prince made lowe obeisance to his Maiestie three times, and after the third time, when hee was come neere to the King, hee kneeled downe on a rich Pillow or Cushion, whilest sir <hi>Ralph Winwood </hi>principall Secretarie, read his Letters Patents: then his Maiestie, at the reading of the words of Inuestment, put the Robes vpon him, and girded on the Sword, inuested him with the Rodde and Ring, and set the Cappe and Coronet on his head. With which Ceremonie the Creation being accomplished, the King arose, and went vp to Dinner; but the Prince, with his Lords, dined in the Hall, and was serued with great State and Magnificence, accompanied at his Table with diuers great Lords, as the Earle of Suffolke Lord Treasurer, the Earle of Arundell Lord Marshall, the Earle of Nottingham Lord Admirall, the Duke of Lenox Lord Steward, the Earle of Penbrooke Lord Chamberlaine, the Erles of <hi>Shrewsbury, Darby, Rutland</hi>, and Sussex, the Prince sitting in a Chaire at the vpper end, and the rest in distance about foure yards from him, one ouer-against another, in their degrees, all which were those that were employed in seuerall Offices of Honour about his Royall Creation. </p>
           <pb xml:id="ep000183-008-b"/>
-          <p>At another Table in the same Rowme on the left hand of the Prince, sate the Knights of the Bath, all on one side, and had likewise great seruice and attendance. About the middest of Dinner, sir <hi>William Segar </hi>Knight, <hi>aliâs Garter</hi>, principall King of Armes, with the rest of the Kings Heralds and Pursuvants of Armes, approached the Princes Table, and with a lowde and audible voyce, proclaimed the Kings Stile, in Latine, French and English thriee; and the Princes in like manner, twice: then the Trumpets sounding, the second Course came in; and Dinner done, that dayes Solemnitie ceased. </p>
+          <p>At another Table in the same Rowme on the left hand of the Prince, sate the Knights of the Bath, all on one side, and had likewise great seruice and attendance. About the middest of Dinner, sir <hi>William Segar </hi>Knight, <hi>ali&#226;s Garter</hi>, principall King of Armes, with the rest of the Kings Heralds and Pursuvants of Armes, approached the Princes Table, and with a lowde and audible voyce, proclaimed the Kings Stile, in Latine, French and English thriee; and the Princes in like manner, twice: then the Trumpets sounding, the second Course came in; and Dinner done, that dayes Solemnitie ceased. </p>
           <p>At night, to crowne it with more heroicall honour, fortie worthie Gentlemen of the Noble Societies of Innes of Court, being tenne of each house, euery one appoynted in way of honorable Combate, to breake three Staues, three Swords, and exchange ten blowes apeece, whose names (for their worthinesse) I commend to Fame, beganne thus each to encounter other. And not to wrong the sacred Antiquitie of anie of the Houses, their names are heere set downe in the same order as they were presented to his Maiestie; viz. Of the </p>
           <list>
             <item>Middle Temple, <hi>Maister Strowd. Maister Izord</hi>. </item>
