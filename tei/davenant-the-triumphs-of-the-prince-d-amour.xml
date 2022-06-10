@@ -1,1062 +1,459 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ep000368" xml:lang="eng">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>
-     The triumphs of the Prince d'Amour A masque presented by His Highnesse at his pallace in the Middle Temple, the 24th of Februarie 1635.
-    </title>
-    <author>
-     <!--Davenant, William-->
-     <persName>
-      <forename>
-       William
-      </forename>
-      <surname>
-       Davenant
-      </surname>
-     </persName>
-    </author>
-   </titleStmt>
-   <publicationStmt>
-    <publisher xml:id="dracor">
-     DraCor
-    </publisher>
-    <idno type="URL">
-     https://dracor.org/
-    </idno>
-    <availability>
-     <licence>
-      <ab>
-       CC0 1.0
-      </ab>
-      <ref target="https://creativecommons.org/publicdomain/zero/1.0/">
-       Licence
-      </ref>
-     </licence>
-    </availability>
-    <idno type="wikidata" xml:base="http://www.wikidata.org/entity/"/>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <name>
-      EarlyPrint Project
-     </name>
-     <idno type="URL">
-      https://texts.earlyprint.org/works/A19882.xml
-     </idno>
-     <availability>
-      <p>
-       This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
-       <ref target="https://creativecommons.org/publicdomain/zero/1.0/">
-        Creative Commons 0 1.0 Universal
-       </ref>
-       . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
-      </p>
-     </availability>
-     <bibl type="originalSource">
-      <biblFull>
-       <titleStmt>
-        <title>
-         The triumphs of the Prince d'Amour A masque presented by His Highnesse at his pallace in the Middle Temple, the 24th of Februarie 1635.
-        </title>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The triumphs of the Prince d'Amour A masque presented by His Highnesse at his pallace in the Middle Temple, the 24th of Februarie 1635.</title>
         <author>
-         D'Avenant, William, Sir, 1606-1668.
+<!--Davenant, William-->
+          <persName>
+            <forename>William</forename>
+            <surname>Davenant</surname>
+          </persName>
         </author>
-       </titleStmt>
-       <extent>
-        [6], 16, [2] p.
-       </extent>
-       <publicationStmt>
-        <publisher>
-         Printed [by Augustine Mathewes] for Richard Meighen, next to the Middle Temple gate in Fleetstreet,
-        </publisher>
-        <pubPlace>
-         London :
-        </pubPlace>
-        <date>
-         1635.
-        </date>
-       </publicationStmt>
-       <notesStmt>
-        <note>
-         Preface signed: VV.D., i.e. William D'Avenant.
-        </note>
-        <note>
-         Printer's name from STC.
-        </note>
-        <note>
-         With a preliminary privilege leaf dated "February. 1635." Variant: leaf dated "February the xixth. 1635.".
-        </note>
-        <note>
-         Reproduction of the original in the Henry E. Huntington Library and Art Gallery.
-        </note>
-       </notesStmt>
-      </biblFull>
-     </bibl>
-    </bibl>
-   </sourceDesc>
-   <profileDesc>
-    <particDesc>
-     <listPerson>
-      <person xml:id="ep000368-chorusofall">
-       <persName>
-        Chorus of all
-       </persName>
-      </person>
-      <person xml:id="ep000368-priestsofmars">
-       <persName>
-        Priests of Mars
-       </persName>
-      </person>
-      <person xml:id="ep000368-priestsofvenus">
-       <persName>
-        Priests of Venus
-       </persName>
-      </person>
-      <person xml:id="ep000368-priestsofapollo">
-       <persName>
-        Priests of Apollo
-       </persName>
-      </person>
-     </listPerson>
-    </particDesc>
-   </profileDesc>
-  </fileDesc>
- </teiHeader>
- <standOff>
-  <listEvent>
-   <event type="written" when="">
-    <desc/>
-   </event>
-  </listEvent>
- </standOff>
- <text>
-  <front>
-   <div type="privilege" xml:id="ep000368-e10">
-    <pb xml:id="ep000368-001-a"/>
-    <p>
-     This Masque may be Printed By priviledge of a most ancient Record in the Roles belonging to Prince D'AMOVR.
-    </p>
-    <closer>
-     <signed>
-      T. MAVNSELL. Master of Revels to his HIGHNES.
-     </signed>
-     <dateline>
-      <date>
-       February. 1635.
-      </date>
-     </dateline>
-    </closer>
-   </div>
-   <div type="title_page" xml:id="ep000368-e80">
-    <pb xml:id="ep000368-001-b"/>
-    <p>
-     THE TRIUMPHS OF THE PRINCE D'AMOVR. A Masque PRESENTED BY HIS Highnesse at His Pallace in the Middle Temple, the 24th of Februarie 1635.
-    </p>
-    <p>
-     LONDON, Printed for
-     <hi>
-      Richard Meighen
-     </hi>
-     , next to the Middle Temple Gate in Fleetstreet. 1635.
-    </p>
-   </div>
-   <div type="to_the_reader" xml:id="ep000368-e130">
-    <pb xml:id="ep000368-002-a"/>
-    <pb xml:id="ep000368-002-b"/>
-    <head>
-     TO EVERY READER.
-    </head>
-    <p>
-     THe intention of this Entertainement to the Prince ELECTOR, being hastily prepar'd, as from eager hearts that could delay no Ceremony that might render an expression of their Loves: Jt could not be, but I must share the inconvenience of that hast: since length and aptitude of time is still allow'd to these Composures: And this (devis'd and written in three dayes) might happely have found an excuse, if the presentation had beene as suddenly perform'd, as it was prepar'd: but
-     <pb xml:id="ep000368-003-a"/>
-     there was a sad necessitie for the delay; and J may justly stile it a misfortune, that the generall worke could not receive the benefit of alteration by that unprofitable leasure, which since we have rather lost than enjoy'd. Though some Truthes are not conveniently urg'd, this J was forc'd to say in a malignant time, when most men strive to raise themselves a reputation of witt, by Cavill and Dislike.
-    </p>
-    <closer>
-     <signed>
-      W. D.
-     </signed>
-    </closer>
-   </div>
-  </front>
-  <body>
-   <div type="text" xml:id="ep000368-e200">
-    <pb n="1" xml:id="ep000368-003-b"/>
-    <head>
-     A MASQVE PRESENTED BY his HIGHNESSE, at his Pallace in the Middle-Temple, the 24 th. of February, 1635.
-    </head>
-    <p>
-     BEFORE the Scene was discovered, the Princes being prepar'd under the state at the upper end of the Hall; the Master of Ceremonies to the Prince D'AMOVR, receives an Imployment by a whisper from his Master, then moves to the Prince Elector (to whom this Entertainment was onely directed) and speakes this.
-    </p>
-    <sp xml:id="ep000368-e240">
-     <l>
-      SIr, this short journey from my Princes Throne,
-     </l>
-     <l>
-      Is meant in Embassie to You alone;
-     </l>
-     <pb n="2" xml:id="ep000368-004-a"/>
-     <l>
-      To You, whom he receives not as his Ghest,
-     </l>
-     <l>
-      For You are both his Ornament and Feast.
-     </l>
-     <l>
-      Although his Greatnesse is not taught to bow,
-     </l>
-     <l>
-      His Subjects feare, he will doe homage now,
-     </l>
-     <l>
-      Which he esteemes no less'ning to his State,
-     </l>
-     <l>
-      Since 'tis his Love decrees it, not his Fate.
-     </l>
-     <l>
-      Nay more, his Message moves so low, I feare,
-     </l>
-     <l>
-      What sounds like tender Courtship in your eare,
-     </l>
-     <l>
-      His Iealous Barons will dislike, and cry,
-     </l>
-     <l>
-      I am perverted to disloyaltie;
-     </l>
-     <l>
-      Vrge my Commission false, then taxe me for
-     </l>
-     <l>
-      An easie Traytor, no Embassadour;
-     </l>
-     <l>
-      As if my words would pull his Empire downe,
-     </l>
-     <l>
-      Shorten his Scepter, and contract his Crowne;
-     </l>
-     <l>
-      Thus whisper'd by my feares, I must impart
-     </l>
-     <l>
-      For Ceremony now, what is his heart,
-     </l>
-     <l>
-      Though with content of Truth, I may report
-     </l>
-     <l>
-      You haue a num'rous Faction in his Court.
-     </l>
-     <l>
-      This Pallace where, by sword, then law maintain'd
-     </l>
-     <l>
-      His few, but mighty Ancestors have raign'd,
-     </l>
-     <l>
-      Is consecrated yours; which he doth give,
-     </l>
-     <l>
-      Not in regard he hath short time to live;
-     </l>
-     <l>
-      For so, since his Successor is unknowne,
-     </l>
-     <l>
-      You take what is his Subjects, not his owne,
-     </l>
-     <pb n="3" xml:id="ep000368-004-b"/>
-     <l>
-      And what is a surrender now, would be
-     </l>
-     <l>
-      Receiv'd tomorrow as a Legacie:
-     </l>
-     <l>
-      If more of his free love, I should relate,
-     </l>
-     <l>
-      They'd stile it homage in our Iealous state.
-     </l>
-    </sp>
-    <p>
-     At the upper end, opposite to the state, was a stage of six foot high: and there was presented to sight a Front of Architecture with two Pillasters at each side, and in the middle of the Coronich a Compartement, with this inscription in an Ovall.
-    </p>
-    <q>
-     Les Triumphes du Prince d' Amour.
-    </q>
-    <p>
-     The Curtaine flying up, on the sudden the Scene was discovered with a Village consisting of Alehouses and
-     <hi>
-      Tobacco shops
-     </hi>
-     , each fronted with a red Lettice, on which blacke Indian Boyes sate bestriding Roles of Tobacco, and in the place of Signes, Globes hung up, stucke up full of broken Pipes. Before each dore were seene old Loggs, and Trunkes of hollow Trees, on them sate the Persons of the first Antimasque drinking, and making to each other such ridiculous salutes, as did intimate a joy of meeting, and acquaintance. This continued a while, and then they prepar'd for their first entry.
-    </p>
-    <div n="1" type="antimasque" xml:id="ep000368-e630">
-     <pb n="4" xml:id="ep000368-005-a"/>
-     <head>
-      The first Anti-Masque.
-     </head>
-     <p>
-      Two, whose habits presented them, for swaggering Souldiers, and of the cheaper quallity, such as are said to roare, not fight, their Beards mishapen, with long whiskers of the Stilletto cut.
-     </p>
-     <p>
-      Two Dutch Sea Officers, a Gunner and a Boatswaine.
-     </p>
-     <p>
-      An old over-growne debaush'd Cavalier, that seem'd unwieldy with his weight, his Riots had so inlarg'd him.
-     </p>
-     <p>
-      A Begging Souldier, with a Knapsack hanging at his backe.
-     </p>
-     <p>
-      A Suttlers wife, denoted by her dresse of the Campe, her head being bound with a Saddle girth, instead of Phylliting.
-     </p>
-     <p>
-      These after their Entry was perform'd, retire.
-     </p>
-     <p>
-      On the sudden, the Scene wholly changing, appeares a Campe of Tents, distinguished by their severall Colours: And in the middst was discover'd the Temple of Mars, the forme being square, and of the Dorick Order, with Trophies of Armes on the Front. Within the middle of the Temple stood the Statue of Mars, of Copper, upon a Pedestall.
-     </p>
-     <p>
-      This having continu'd a while in prospect, the Priests of Mars came out of the Temple, cloath'd in Crimson robes, of the Antick shape, girt in the wast and being tuck'd up, fall in a fold; on their heads,
-      <pb n="5" xml:id="ep000368-005-b"/>
-      Miters of a Helmet forme, with a Poniard advanc'd on the top, and they sing this by way of Preparation.
-     </p>
-     <lg>
-      <lg n="1">
-       <head>
-        (1)
-       </head>
-       <l>
-        Come shut our Temple and away,
-       </l>
-       <l>
-        Our bold seditious God shall stay;
-       </l>
-       <l>
-        Wee'l serve no sacrifice to day,
-       </l>
-       <l>
-        Our humor is to Feast, not Pray.
-       </l>
-      </lg>
-      <lg n="2">
-       <head>
-        (2)
-       </head>
-       <l>
-        The Battell which our Knights have won,
-       </l>
-       <l>
-        Did last untill th' amazed Sun
-       </l>
-       <l>
-        For feare, did mend his usuall pace,
-       </l>
-       <l>
-        And set betimes to hide his face.
-       </l>
-      </lg>
-      <lg n="3">
-       <head>
-        (3)
-       </head>
-       <l>
-        And now the story of their fight
-       </l>
-       <l>
-        Is universall, as his light,
-       </l>
-       <l>
-        Which Fame upon her swifter wing
-       </l>
-       <l>
-        Hath early brought for us to sing.
-       </l>
-      </lg>
-     </lg>
-     <p>
-      This Song ended, with a slow pace they descend (playing on their Instruments) and being advanc'd
-      <pb n="6" xml:id="ep000368-006-a"/>
-      neere the State, sing this to signifie some Battell lately fought.
-     </p>
-     <lg>
-      <lg n="1">
-       <head>
-        (1)
-       </head>
-       <l>
-        Heark! heark! the trouble of the day draws neere,
-       </l>
-       <l>
-        And now the Drum doth teach the heart to beat,
-       </l>
-       <l>
-        Whilst Trumpets cherish not, but wound the eare
-       </l>
-       <l>
-        Of such, who are ordain'd for a defeat.
-       </l>
-      </lg>
-      <lg>
-       <head>
-        Chorus.
-       </head>
-       <l>
-        Heark! Heark! some groane, and curse uncertaine Fate,
-       </l>
-       <l>
-        Which vs for blood and ruine, doth create.
-       </l>
-      </lg>
-      <lg n="2">
-       <head>
-        (2)
-       </head>
-       <l>
-        Charge! charge! cries ev'ry bold ambitious knight,
-       </l>
-       <l>
-        Whilst artificiall darknesse hid their way,
-       </l>
-       <l>
-        The lightning of their Swords was all their light,
-       </l>
-       <l>
-        For dust, &amp; sulphrous clouds had chok'd the day.
-       </l>
-      </lg>
-      <lg>
-       <head>
-        Chorus.
-       </head>
-       <l>
-        Heark! heark! some groane, and curse uncertaine Fate,
-       </l>
-       <l>
-        Which vs for blood and ruine, doth create.
-       </l>
-      </lg>
-      <lg n="3">
-       <pb n="7" xml:id="ep000368-006-b"/>
-       <head>
-        (3)
-       </head>
-       <l>
-        Burn, burn, was straight the noyse in ev'ry Tent,
-       </l>
-       <l>
-        Whilst some mis-led by their disorder'd feare,
-       </l>
-       <l>
-        Did helpe to kindle what they should prevent,
-       </l>
-       <l>
-        And scap'd the Van to perish in the Reere.
-       </l>
-      </lg>
-      <lg>
-       <head>
-        Chorus.
-       </head>
-       <l>
-        Heark! heark! some groane, and curse uncertaine Fate,
-       </l>
-       <l>
-        Which vs for blood and ruine, doth create.
-       </l>
-      </lg>
-      <lg n="4">
-       <head>
-        (4)
-       </head>
-       <l>
-        Fly, fly, cryes then the tame dejected Foe;
-       </l>
-       <l>
-        Each wondring at the terror which he feeles,
-       </l>
-       <l>
-        And in the hurry of their overthrow,
-       </l>
-       <l>
-        Forsook their Arms, and trusted to their heels.
-       </l>
-      </lg>
-      <lg>
-       <head>
-        Chorus.
-       </head>
-       <l>
-        Heark! heark! some groane, and curse uncertaine Fate,
-       </l>
-       <l>
-        Which vs for blood and ruine, doth create.
-       </l>
-      </lg>
-      <lg n="5">
-       <head>
-        (5)
-       </head>
-       <l>
-        Stand! stand! was now the word our Knights did give,
-       </l>
-       <l>
-        For weary of pursuit, they had no will
-       </l>
-       <pb n="8" xml:id="ep000368-007-a"/>
-       <l>
-        To grace with death, who basely sought to live,
-       </l>
-       <l>
-        As if unworthy of their paines to kill.
-       </l>
-      </lg>
-      <lg>
-       <head>
-        Chorus.
-       </head>
-       <l>
-        Heark! heark! some groane, and curse uncertaine Fate,
-       </l>
-       <l>
-        Which vs for blood and ruine, doth create.
-       </l>
-      </lg>
-     </lg>
-     <p>
-      The Priests of Mars retire, and strait the Masquers appeare as coming out of severall Tents, their habits being Martiall and richly imbroder'd, inclining neere the old Romane shape; their Helmets Triumphantly plum'd, whiles the Bevir falling ore the face, serv'd for a disguise, and supply'd to each the office of a Vizard. These by their appearance and demeanour were devis'd to intimate those heroique Knights Templers, to which the Pallace of the Prince D'Amour was anciently Dedicated. They descend with a Majestique pace, and dance their first entry, then retire towards the Scene: whilst with amazement they discover Cupid descending in a bright cloud, who at their interview sings this.
-     </p>
-     <lg>
-      <lg n="1">
-       <head>
-        (1)
-       </head>
-       <l>
-        Whither so gladly, and so fast,
-       </l>
-       <l>
-        As if you knew all danger past
-       </l>
-       <l>
-        Of Combat, and of War?
-       </l>
-       <pb n="9" xml:id="ep000368-007-b"/>
-       <l>
-        As you believ'd my armes were bound,
-       </l>
-       <l>
-        Or when I shoot, still ev'ry wound.
-       </l>
-       <l>
-        I make, is but a scar.
-       </l>
-      </lg>
-      <lg n="2">
-       <head>
-        (2)
-       </head>
-       <l>
-        Arme now your brests with shields of steele,
-       </l>
-       <l>
-        And plates of Brasse, yet you shall feele
-       </l>
-       <l>
-        My arrowes are so keene,
-       </l>
-       <l>
-        Like lightning that not hurts the skin,
-       </l>
-       <l>
-        Yet melts the solid parts within,
-       </l>
-       <l>
-        They'l wound, although unseene.
-       </l>
-      </lg>
-      <lg n="3">
-       <head>
-        (3)
-       </head>
-       <l>
-        My Mother taught mee long agoe
-       </l>
-       <l>
-        To ayme my shafts, and draw my Bow
-       </l>
-       <l>
-        When Mars shee did subdue.
-       </l>
-       <l>
-        And now you must resigne to Love,
-       </l>
-       <l>
-        Your warlike hearts, that shee may prove
-       </l>
-       <l>
-        Those antick Stories true.
-       </l>
-      </lg>
-     </lg>
-     <p>
-      This being sung, Cupid having dispersed his darts amongst them, which charmes them from designes of warre to inclinations of love, they all retire.
-     </p>
-     <p>
-      The Scene wholly changing, there appeares a square Piazza, resembling that of Venice, and 'tis
-      <pb n="10" xml:id="ep000368-008-a"/>
-      compos'd Pallaces, and lesser Fabricks, with Courtizans looking out of windows, and Balconees, fantastically adorn'd, some in Italian, others in a Turkish dresse, and this prospect, prepares the second Anti-masque, who strait are discovered walking in the Piazza.
-     </p>
-    </div>
-    <div n="2" type="antimasque" xml:id="ep000368-e1820">
-     <head>
-      The second Anti-masque.
-     </head>
-     <p>
-      <hi>
-       The first
-      </hi>
-     </p>
-     <p>
-      A grave formall Spanish Lover, who addressing himselfe to some Courtizan, in a Balconee, salutes her often with congies tedious and low.
-     </p>
-     <p>
-      <hi>
-       The second
-      </hi>
-     </p>
-     <p>
-      A jealous Italian Lover, who fixing his eyes on another Mistresse at her window, dinotes the vexation of his humour, by desperate sighes, beating on his breast, and sometimes a melancholly posture, standing with his Armes wreath'd.
-     </p>
-     <p>
-      <hi>
-       The third
-      </hi>
-      .
-     </p>
-     <p>
-      A giddy Fantasticke French Lover, who being likewise addressed to some beauty, gazing at her windore, his humour is discern'd by strange ridiculous cringes, and frisks in his salutes, with which hee seemes to invite her acquaintance: having divers notes of Levitie in his habit, and wearing his Mistresse Fanne ty'd with a Ribband in his eare.
-     </p>
-     <pb n="11" xml:id="ep000368-008-b"/>
-     <p>
-      <hi>
-       The Fourth
-      </hi>
-     </p>
-     <p>
-      A dull Dutch Lover, personating some Yonker of Vtrecht, who gazing upwards too, doth often apply his Handkerchiefe to his eyes, as if the griefe of his dispaire did make him weepe.
-     </p>
-     <p>
-      <hi>
-       The Fifth
-      </hi>
-     </p>
-     <p>
-      A furious debaush'd English Lover, who in his habit striving to imitate his Neighbour (the Monsier) still outdoes his vanitie, which his accoutrement doth severally expresse, and he hangs in the right eare his Mistresses Muffe, in the left her Shooe with a Chapeen. He is not fix'd to one Balconee, but directs himselfe to all, offers to draw his Sword, and seemes to threaten with his fist, as he would rather breake their windowes, then desire them opned, that hee might gaine a looke from his Lady.
-     </p>
-     <p>
-      These severall humors being a while artificially expressed, they descend, and dance their second entry, and retire.
-     </p>
-     <p>
-      The Scene wholly changing againe: There was observ'd in a Grove of Cypresse intermingled with Mirtle Trees, the Temple of Venus, being an eight square of the Corinthian order: within the Temple her Satue of Siluer, standing in an Neech, with Cupid by her, to whom she seemes to deliver an Arrow; the Pilasters, and Ornaments were heightned with Siluer.
-     </p>
-     <p>
-      From this Temple the Priests of Venus are discern'd
-      <pb n="12" xml:id="ep000368-009-a"/>
-      to come in loose white Robes, their heads adorn'd with Coronets of Flowres, and playing on their Instruments, they descend and sing this.
-     </p>
-     <lg>
-      <lg n="1">
-       <head>
-        (1)
-       </head>
-       <l>
-        Vnarme, unarme! no more your fights
-       </l>
-       <l>
-        Must cause the virgins teares,
-       </l>
-       <l>
-        But such as in the silent nights,
-       </l>
-       <l>
-        Spring rather from their feares,
-       </l>
-      </lg>
-      <lg n="2">
-       <head>
-        (2)
-       </head>
-       <l>
-        Such diff'rence as when Doves do bill,
-       </l>
-       <l>
-        Must now be all your strife:
-       </l>
-       <l>
-        For all the blood that you shall spill,
-       </l>
-       <l>
-        Will usher in a life.
-       </l>
-      </lg>
-      <lg n="3">
-       <head>
-        (3)
-       </head>
-       <l>
-        And when your Ladies falsly coy
-       </l>
-       <l>
-        Shall timerous appeare,
-       </l>
-       <l>
-        Believe, they then would faine enjoy
-       </l>
-       <l>
-        What they pretend to feare.
-       </l>
-      </lg>
-      <lg n="4">
-       <head>
-        (4)
-       </head>
-       <l>
-        Breath then each others breath, and kisse
-       </l>
-       <l>
-        Your soules to union:
-       </l>
-       <l>
-        And whilst they shall injoy this blisse,
-       </l>
-       <l>
-        Your bodies too, are one.
-       </l>
-      </lg>
-      <pb n="13" xml:id="ep000368-009-b"/>
-      <lg n="5">
-       <head>
-        (5)
-       </head>
-       <l>
-        Too morrow will the hasty Sun
-       </l>
-       <l>
-        Be fear'd more of each Lover,
-       </l>
-       <l>
-        For hindring to repeat what's done,
-       </l>
-       <l>
-        Than what it may discover.
-       </l>
-      </lg>
-     </lg>
-     <p>
-      The Priests of Venus retire, and the Masquers appeare in the Scene, their vests altered to a more soft and Courtly change; with severall adornements, that might present them to every understanding for a Troope of noble Lovers. Their second entry being daunc'd, they retire into the Temple.
-     </p>
-     <p>
-      The Scene wholly changing, strait was perceiv'd in a Grove of Lawrell Trees, the Temple of Apollo, being round, and transparent, of the order of Composita, the Columnes and Ornamants, being heightned with gold, his statue of gold standing in the middle of the Temple, upon a round Pedestall: behind and betweene the Columnes did appeare a prospect of Landskap.
-     </p>
-     <p>
-      The Priests of Apollo approach from severall parts of the Temple, cloath'd in Carnation Robes, with wreathes of Laurell on their heads, they sing this when they descend.
-     </p>
-     <lg>
-      <lg n="1">
-       <head>
-        (1)
-       </head>
-       <l>
-        Make roome for our God too, make roome,
-       </l>
-       <l>
-        For now surpriz'd, and ravish'd with delight,
-       </l>
-       <pb n="14" xml:id="ep000368-010-a"/>
-       <l>
-        Apollo is from Delphos come,
-       </l>
-       <l>
-        T'inspire, and breath himself in every Knight.
-       </l>
-      </lg>
-      <lg n="2">
-       <head>
-        (2)
-       </head>
-       <l>
-        His God-head is inclin'd to prove
-       </l>
-       <l>
-        How justly proud, and happy you will be,
-       </l>
-       <l>
-        When with the powers of War and Love,
-       </l>
-       <l>
-        Hee shall unite his wiser Deity.
-       </l>
-      </lg>
-      <lg n="3">
-       <head>
-        (3)
-       </head>
-       <l>
-        Then still, as if not made of Earth,
-       </l>
-       <l>
-        Expresse your thankfuluesse in active pleasure.
-       </l>
-       <l>
-        Whilst you designe your hearts to Mirth,
-       </l>
-       <l>
-        Your eares to numbers, &amp; your feet to measure.
-       </l>
-      </lg>
-     </lg>
-     <p>
-      This ended, the Priests of Apollo retire to make way for a new discovery of certaine persons in the Scene, which seeme halfe hidden behind the Trees: Then invite them to descend by singing this.
-     </p>
-     <lg>
-      <lg n="1">
-       <head>
-        (1)
-       </head>
-       <l>
-        Behold, how this conjunction thrives!
-       </l>
-       <l>
-        His radiant beames Apollo strives
-       </l>
-       <l>
-        So much to strengthen and increase,
-       </l>
-       <l>
-        As growth and verdure nere should cease.
-       </l>
-      </lg>
-      <lg n="2">
-       <head>
-        (2)
-       </head>
-       <l>
-        Come you industrious slaves of plenty, bring
-       </l>
-       <l>
-        All that is hop'd for in an Eastern Spring:
-       </l>
-       <pb n="15" xml:id="ep000368-010-b"/>
-       <l>
-        Or all that Autumne yields, when she doth pay
-       </l>
-       <l>
-        Those promis'd hopes where 'tis perpetuall day.
-       </l>
-      </lg>
-      <lg n="3">
-       <head>
-        (3)
-       </head>
-       <l>
-        Come strew this ground (delay us not with slowth)
-       </l>
-       <l>
-        Strew till we walke on sweet Cecillian Flowres,
-       </l>
-       <l>
-        To prove how Seeds have hastned in their growth,
-       </l>
-       <l>
-        Drop Indian fruits, as thick as Aprill showres.
-       </l>
-      </lg>
-     </lg>
-     <p>
-      Now descending from the Scene, appeares twelve men, wildly habited, Wastcotes of flesh color made them shew naked to the middle, their heads cover'd with greene leaves, their wastes girt with the like, and a greene Basis fring'd, reach'd to their knees, which did declare them Labourers on a Fruitfull Soyle; and what they carryed did demonstrate a Fruitfull Season.
-     </p>
-     <p>
-      For moving downe in order towards the State, each supported in his Armes, a small square frame, the wood hidden with greene Boughes, and on that bore a Charger full of precious fruits, and cover'd with blossom'd twigs and flowers: Which being fix'd neere to the State, were so joyn'd together, that there was straight discovered a Table richly furnish'd with a Banquet, that look'd as it were hidden in a Grove: And whilst the Princes accepted of this entertainment, the Priests belonging to the three severall Deities sung this.
-     </p>
-     <p>
-      The song of Valediction, after the Banquet.
-     </p>
-     <sp who="ep000368-priestsofmars" xml:id="ep000368-e2880">
-      <pb n="16" xml:id="ep000368-011-a"/>
-      <speaker>
-       Priests of Mars.
-      </speaker>
-      <l>
-       The furious Steed, the Phyph and Drum
-      </l>
-      <l>
-       Invite you still to Triumphs of the War,
-      </l>
-      <l>
-       Till you as glorious shall become
-      </l>
-      <l>
-       On Earth as Mars, in Heaven as bright a Star.
-      </l>
-     </sp>
-     <sp who="ep000368-priestsofvenus" xml:id="ep000368-e2960">
-      <speaker>
-       Priests of Venus.
-      </speaker>
-      <l>
-       The Balmes rich swet, the Myrrhs sweet teares
-      </l>
-      <l>
-       Perfume your breath when you would Passion move:
-      </l>
-      <l>
-       And may her heart, that you indeeres,
-      </l>
-      <l>
-       the center be, her Eye the sphaere of Love!
-      </l>
-     </sp>
-     <sp who="ep000368-priestsofapollo" xml:id="ep000368-e3030">
-      <speaker>
-       Priests of Apollo.
-      </speaker>
-      <l>
-       And may your Language be of force
-      </l>
-      <l>
-       To body winds, and animate the Trees,
-      </l>
-      <l>
-       So full of wonder your discourse,
-      </l>
-      <l>
-       Till all your guesses shall be Prophecies.
-      </l>
-     </sp>
-     <sp who="ep000368-chorusofall" xml:id="ep000368-e3100">
-      <speaker>
-       Chorus of all.
-      </speaker>
-      <l>
-       May our three Gods so long conjoyne,
-      </l>
-      <l>
-       To raise your soule, and rarefie your sense,
-      </l>
-      <l>
-       Till you are render'd so Divine,
-      </l>
-      <l>
-       'Twill be no Sin t' implore your Influence.
-      </l>
-     </sp>
-     <p>
-      Thus, as all Pleasures and Triumphs are full of haste, and aptest to decay, this had an end; yet may I've mention'd a while, if the envie of such as were absent do not rebuke the courteous memory of those who vouchsaf'd to enjoy it.
-     </p>
-    </div>
-    <div type="dramatis_personae" xml:id="ep000368-e3170">
-     <pb xml:id="ep000368-011-b"/>
-     <head>
-      The Masquers Names, According as they were rank'd by their Antiquity, in that Noble Society.
-     </head>
-     <list>
-      <item>
-       Tho: Maunsell.
-      </item>
-      <item>
-       Will: Morgan.
-      </item>
-      <item>
-       Will: Wheeler.
-      </item>
-      <item>
-       Mich: Hutchenson.
-      </item>
-      <item>
-       Laur: Hyde.
-      </item>
-      <item>
-       Tho: Bourke.
-      </item>
-      <item>
-       Edw: Smyth.
-      </item>
-      <item>
-       Edw: Turnor.
-      </item>
-      <item>
-       Tho: Way.
-      </item>
-      <item>
-       Tho: Trenchard.
-      </item>
-      <item>
-       Geo: Probert.
-      </item>
-     </list>
-     <list>
-      <head>
-       Those in the first Anti-masque.
-      </head>
-      <item>
-       Phillip Morgan.
-      </item>
-      <item>
-       Iohn Freman.
-      </item>
-      <item>
-       Iohn Bramston.
-      </item>
-      <item>
-       Ed: Smyth.
-      </item>
-      <item>
-       Clement Spillman.
-      </item>
-      <item>
-       Iohn Norden.
-      </item>
-      <item>
-       Will: Lysle.
-      </item>
-     </list>
-     <list>
-      <head>
-       Those in the second Anti-masque.
-      </head>
-      <item>
-       Iohn Stepkin.
-      </item>
-      <item>
-       Charles Adderly.
-      </item>
-      <item>
-       Iohn Ratcliffe.
-      </item>
-      <item>
-       Rich: May.
-      </item>
-      <item>
-       Giles Hungerford.
-      </item>
-     </list>
-     <p>
-      The Musick of the Songs and Symphanies were excellently compos'd by Mr. Henry, and Mr.
-      <hi>
-       William Laws
-      </hi>
-      , his Majesties Servants.
-     </p>
-     <trailer>
-      FINIS.
-     </trailer>
-    </div>
-   </div>
-  </body>
- </text>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/"/>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>EarlyPrint Project</name>
+          <idno type="URL">https://texts.earlyprint.org/works/A19882.xml</idno>
+          <availability>
+            <p>
+            This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. This Phase I text is available for reuse, according to the terms of
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0 1.0 Universal</ref>
+            . The text can be copied, modified, distributed and performed, even for commercial purposes, all without asking permission.
+          </p>
+          </availability>
+          <bibl type="originalSource">
+            <biblFull>
+              <titleStmt>
+                <title>The triumphs of the Prince d'Amour A masque presented by His Highnesse at his pallace in the Middle Temple, the 24th of Februarie 1635.</title>
+                <author>D'Avenant, William, Sir, 1606-1668.</author>
+              </titleStmt>
+              <extent>[6], 16, [2] p.</extent>
+              <publicationStmt>
+                <publisher>Printed [by Augustine Mathewes] for Richard Meighen, next to the Middle Temple gate in Fleetstreet,</publisher>
+                <pubPlace>London :</pubPlace>
+                <date>1635.</date>
+              </publicationStmt>
+              <notesStmt>
+                <note>Preface signed: VV.D., i.e. William D'Avenant.</note>
+                <note>Printer's name from STC.</note>
+                <note>With a preliminary privilege leaf dated "February. 1635." Variant: leaf dated "February the xixth. 1635.".</note>
+                <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+              </notesStmt>
+            </biblFull>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+      <profileDesc/>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" when="">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <div type="privilege" xml:id="ep000368-e10">
+        <pb xml:id="ep000368-001-a"/>
+        <p>This Masque may be Printed By priviledge of a most ancient Record in the Roles belonging to Prince D'AMOVR. </p>
+        <closer>
+          <signed>T. MAVNSELL. Master of Revels to his HIGHNES. </signed>
+          <dateline>
+            <date>February. 1635. </date>
+          </dateline>
+        </closer>
+      </div>
+      <div type="title_page" xml:id="ep000368-e80">
+        <pb xml:id="ep000368-001-b"/>
+        <p>THE TRIUMPHS OF THE PRINCE D'AMOVR. A Masque PRESENTED BY HIS Highnesse at His Pallace in the Middle Temple, the 24th of Februarie 1635. </p>
+        <p>LONDON, Printed for <hi>Richard Meighen</hi>, next to the Middle Temple Gate in Fleetstreet. 1635. </p>
+      </div>
+      <div type="to_the_reader" xml:id="ep000368-e130">
+        <pb xml:id="ep000368-002-a"/>
+        <pb xml:id="ep000368-002-b"/>
+        <head>TO EVERY READER. </head>
+        <p>THe intention of this Entertainement to the Prince ELECTOR, being hastily prepar'd, as from eager hearts that could delay no Ceremony that might render an expression of their Loves: Jt could not be, but I must share the inconvenience of that hast: since length and aptitude of time is still allow'd to these Composures: And this (devis'd and written in three dayes) might happely have found an excuse, if the presentation had beene as suddenly perform'd, as it was prepar'd: but <pb xml:id="ep000368-003-a"/>there was a sad necessitie for the delay; and J may justly stile it a misfortune, that the generall worke could not receive the benefit of alteration by that unprofitable leasure, which since we have rather lost than enjoy'd. Though some Truthes are not conveniently urg'd, this J was forc'd to say in a malignant time, when most men strive to raise themselves a reputation of witt, by Cavill and Dislike. </p>
+        <closer>
+          <signed>W. D. </signed>
+        </closer>
+      </div>
+    </front>
+    <body>
+      <div type="text" xml:id="ep000368-e200">
+        <pb n="1" xml:id="ep000368-003-b"/>
+        <head>A MASQVE PRESENTED BY his HIGHNESSE, at his Pallace in the Middle-Temple, the 24 th. of February, 1635. </head>
+        <p>BEFORE the Scene was discovered, the Princes being prepar'd under the state at the upper end of the Hall; the Master of Ceremonies to the Prince D'AMOVR, receives an Imployment by a whisper from his Master, then moves to the Prince Elector (to whom this Entertainment was onely directed) and speakes this. </p>
+        <sp xml:id="ep000368-e240">
+          <l>SIr, this short journey from my Princes Throne, </l>
+          <l>Is meant in Embassie to You alone; </l>
+          <pb n="2" xml:id="ep000368-004-a"/>
+          <l>To You, whom he receives not as his Ghest, </l>
+          <l>For You are both his Ornament and Feast. </l>
+          <l>Although his Greatnesse is not taught to bow, </l>
+          <l>His Subjects feare, he will doe homage now, </l>
+          <l>Which he esteemes no less'ning to his State, </l>
+          <l>Since 'tis his Love decrees it, not his Fate. </l>
+          <l>Nay more, his Message moves so low, I feare, </l>
+          <l>What sounds like tender Courtship in your eare, </l>
+          <l>His Iealous Barons will dislike, and cry, </l>
+          <l>I am perverted to disloyaltie; </l>
+          <l>Vrge my Commission false, then taxe me for </l>
+          <l>An easie Traytor, no Embassadour; </l>
+          <l>As if my words would pull his Empire downe, </l>
+          <l>Shorten his Scepter, and contract his Crowne; </l>
+          <l>Thus whisper'd by my feares, I must impart </l>
+          <l>For Ceremony now, what is his heart, </l>
+          <l>Though with content of Truth, I may report </l>
+          <l>You haue a num'rous Faction in his Court. </l>
+          <l>This Pallace where, by sword, then law maintain'd </l>
+          <l>His few, but mighty Ancestors have raign'd, </l>
+          <l>Is consecrated yours; which he doth give, </l>
+          <l>Not in regard he hath short time to live; </l>
+          <l>For so, since his Successor is unknowne, </l>
+          <l>You take what is his Subjects, not his owne, </l>
+          <pb n="3" xml:id="ep000368-004-b"/>
+          <l>And what is a surrender now, would be </l>
+          <l>Receiv'd tomorrow as a Legacie: </l>
+          <l>If more of his free love, I should relate, </l>
+          <l>They'd stile it homage in our Iealous state. </l>
+        </sp>
+        <p>At the upper end, opposite to the state, was a stage of six foot high: and there was presented to sight a Front of Architecture with two Pillasters at each side, and in the middle of the Coronich a Compartement, with this inscription in an Ovall. </p>
+        <q>Les Triumphes du Prince d' Amour. </q>
+        <p>The Curtaine flying up, on the sudden the Scene was discovered with a Village consisting of Alehouses and <hi>Tobacco shops</hi>, each fronted with a red Lettice, on which blacke Indian Boyes sate bestriding Roles of Tobacco, and in the place of Signes, Globes hung up, stucke up full of broken Pipes. Before each dore were seene old Loggs, and Trunkes of hollow Trees, on them sate the Persons of the first Antimasque drinking, and making to each other such ridiculous salutes, as did intimate a joy of meeting, and acquaintance. This continued a while, and then they prepar'd for their first entry. </p>
+        <div n="1" type="antimasque" xml:id="ep000368-e630">
+          <pb n="4" xml:id="ep000368-005-a"/>
+          <head>The first Anti-Masque. </head>
+          <p>Two, whose habits presented them, for swaggering Souldiers, and of the cheaper quallity, such as are said to roare, not fight, their Beards mishapen, with long whiskers of the Stilletto cut. </p>
+          <p>Two Dutch Sea Officers, a Gunner and a Boatswaine. </p>
+          <p>An old over-growne debaush'd Cavalier, that seem'd unwieldy with his weight, his Riots had so inlarg'd him. </p>
+          <p>A Begging Souldier, with a Knapsack hanging at his backe. </p>
+          <p>A Suttlers wife, denoted by her dresse of the Campe, her head being bound with a Saddle girth, instead of Phylliting. </p>
+          <p>These after their Entry was perform'd, retire. </p>
+          <p>On the sudden, the Scene wholly changing, appeares a Campe of Tents, distinguished by their severall Colours: And in the middst was discover'd the Temple of Mars, the forme being square, and of the Dorick Order, with Trophies of Armes on the Front. Within the middle of the Temple stood the Statue of Mars, of Copper, upon a Pedestall. </p>
+          <p>This having continu'd a while in prospect, the Priests of Mars came out of the Temple, cloath'd in Crimson robes, of the Antick shape, girt in the wast and being tuck'd up, fall in a fold; on their heads, <pb n="5" xml:id="ep000368-005-b"/>Miters of a Helmet forme, with a Poniard advanc'd on the top, and they sing this by way of Preparation. </p>
+          <lg>
+            <lg n="1">
+              <head>(1) </head>
+              <l>Come shut our Temple and away, </l>
+              <l>Our bold seditious God shall stay; </l>
+              <l>Wee'l serve no sacrifice to day, </l>
+              <l>Our humor is to Feast, not Pray. </l>
+            </lg>
+            <lg n="2">
+              <head>(2) </head>
+              <l>The Battell which our Knights have won, </l>
+              <l>Did last untill th' amazed Sun </l>
+              <l>For feare, did mend his usuall pace, </l>
+              <l>And set betimes to hide his face. </l>
+            </lg>
+            <lg n="3">
+              <head>(3) </head>
+              <l>And now the story of their fight </l>
+              <l>Is universall, as his light, </l>
+              <l>Which Fame upon her swifter wing </l>
+              <l>Hath early brought for us to sing. </l>
+            </lg>
+          </lg>
+          <p>This Song ended, with a slow pace they descend (playing on their Instruments) and being advanc'd <pb n="6" xml:id="ep000368-006-a"/>neere the State, sing this to signifie some Battell lately fought. </p>
+          <lg>
+            <lg n="1">
+              <head>(1) </head>
+              <l>Heark! heark! the trouble of the day draws neere, </l>
+              <l>And now the Drum doth teach the heart to beat, </l>
+              <l>Whilst Trumpets cherish not, but wound the eare </l>
+              <l>Of such, who are ordain'd for a defeat. </l>
+            </lg>
+            <lg>
+              <head>Chorus. </head>
+              <l>Heark! Heark! some groane, and curse uncertaine Fate, </l>
+              <l>Which vs for blood and ruine, doth create. </l>
+            </lg>
+            <lg n="2">
+              <head>(2) </head>
+              <l>Charge! charge! cries ev'ry bold ambitious knight, </l>
+              <l>Whilst artificiall darknesse hid their way, </l>
+              <l>The lightning of their Swords was all their light, </l>
+              <l>For dust, &amp; sulphrous clouds had chok'd the day. </l>
+            </lg>
+            <lg>
+              <head>Chorus. </head>
+              <l>Heark! heark! some groane, and curse uncertaine Fate, </l>
+              <l>Which vs for blood and ruine, doth create. </l>
+            </lg>
+            <lg n="3">
+              <pb n="7" xml:id="ep000368-006-b"/>
+              <head>(3) </head>
+              <l>Burn, burn, was straight the noyse in ev'ry Tent, </l>
+              <l>Whilst some mis-led by their disorder'd feare, </l>
+              <l>Did helpe to kindle what they should prevent, </l>
+              <l>And scap'd the Van to perish in the Reere. </l>
+            </lg>
+            <lg>
+              <head>Chorus. </head>
+              <l>Heark! heark! some groane, and curse uncertaine Fate, </l>
+              <l>Which vs for blood and ruine, doth create. </l>
+            </lg>
+            <lg n="4">
+              <head>(4) </head>
+              <l>Fly, fly, cryes then the tame dejected Foe; </l>
+              <l>Each wondring at the terror which he feeles, </l>
+              <l>And in the hurry of their overthrow, </l>
+              <l>Forsook their Arms, and trusted to their heels. </l>
+            </lg>
+            <lg>
+              <head>Chorus. </head>
+              <l>Heark! heark! some groane, and curse uncertaine Fate, </l>
+              <l>Which vs for blood and ruine, doth create. </l>
+            </lg>
+            <lg n="5">
+              <head>(5) </head>
+              <l>Stand! stand! was now the word our Knights did give, </l>
+              <l>For weary of pursuit, they had no will </l>
+              <pb n="8" xml:id="ep000368-007-a"/>
+              <l>To grace with death, who basely sought to live, </l>
+              <l>As if unworthy of their paines to kill. </l>
+            </lg>
+            <lg>
+              <head>Chorus. </head>
+              <l>Heark! heark! some groane, and curse uncertaine Fate, </l>
+              <l>Which vs for blood and ruine, doth create. </l>
+            </lg>
+          </lg>
+          <p>The Priests of Mars retire, and strait the Masquers appeare as coming out of severall Tents, their habits being Martiall and richly imbroder'd, inclining neere the old Romane shape; their Helmets Triumphantly plum'd, whiles the Bevir falling ore the face, serv'd for a disguise, and supply'd to each the office of a Vizard. These by their appearance and demeanour were devis'd to intimate those heroique Knights Templers, to which the Pallace of the Prince D'Amour was anciently Dedicated. They descend with a Majestique pace, and dance their first entry, then retire towards the Scene: whilst with amazement they discover Cupid descending in a bright cloud, who at their interview sings this. </p>
+          <lg>
+            <lg n="1">
+              <head>(1) </head>
+              <l>Whither so gladly, and so fast, </l>
+              <l>As if you knew all danger past </l>
+              <l>Of Combat, and of War? </l>
+              <pb n="9" xml:id="ep000368-007-b"/>
+              <l>As you believ'd my armes were bound, </l>
+              <l>Or when I shoot, still ev'ry wound. </l>
+              <l>I make, is but a scar. </l>
+            </lg>
+            <lg n="2">
+              <head>(2) </head>
+              <l>Arme now your brests with shields of steele, </l>
+              <l>And plates of Brasse, yet you shall feele </l>
+              <l>My arrowes are so keene, </l>
+              <l>Like lightning that not hurts the skin, </l>
+              <l>Yet melts the solid parts within, </l>
+              <l>They'l wound, although unseene. </l>
+            </lg>
+            <lg n="3">
+              <head>(3) </head>
+              <l>My Mother taught mee long agoe </l>
+              <l>To ayme my shafts, and draw my Bow </l>
+              <l>When Mars shee did subdue. </l>
+              <l>And now you must resigne to Love, </l>
+              <l>Your warlike hearts, that shee may prove </l>
+              <l>Those antick Stories true. </l>
+            </lg>
+          </lg>
+          <p>This being sung, Cupid having dispersed his darts amongst them, which charmes them from designes of warre to inclinations of love, they all retire. </p>
+          <p>The Scene wholly changing, there appeares a square Piazza, resembling that of Venice, and 'tis <pb n="10" xml:id="ep000368-008-a"/>compos'd Pallaces, and lesser Fabricks, with Courtizans looking out of windows, and Balconees, fantastically adorn'd, some in Italian, others in a Turkish dresse, and this prospect, prepares the second Anti-masque, who strait are discovered walking in the Piazza. </p>
+        </div>
+        <div n="2" type="antimasque" xml:id="ep000368-e1820">
+          <head>The second Anti-masque. </head>
+          <p>
+            <hi>The first </hi>
+          </p>
+          <p>A grave formall Spanish Lover, who addressing himselfe to some Courtizan, in a Balconee, salutes her often with congies tedious and low. </p>
+          <p>
+            <hi>The second </hi>
+          </p>
+          <p>A jealous Italian Lover, who fixing his eyes on another Mistresse at her window, dinotes the vexation of his humour, by desperate sighes, beating on his breast, and sometimes a melancholly posture, standing with his Armes wreath'd. </p>
+          <p>
+            <hi>The third</hi>. </p>
+          <p>A giddy Fantasticke French Lover, who being likewise addressed to some beauty, gazing at her windore, his humour is discern'd by strange ridiculous cringes, and frisks in his salutes, with which hee seemes to invite her acquaintance: having divers notes of Levitie in his habit, and wearing his Mistresse Fanne ty'd with a Ribband in his eare. </p>
+          <pb n="11" xml:id="ep000368-008-b"/>
+          <p>
+            <hi>The Fourth </hi>
+          </p>
+          <p>A dull Dutch Lover, personating some Yonker of Vtrecht, who gazing upwards too, doth often apply his Handkerchiefe to his eyes, as if the griefe of his dispaire did make him weepe. </p>
+          <p>
+            <hi>The Fifth </hi>
+          </p>
+          <p>A furious debaush'd English Lover, who in his habit striving to imitate his Neighbour (the Monsier) still outdoes his vanitie, which his accoutrement doth severally expresse, and he hangs in the right eare his Mistresses Muffe, in the left her Shooe with a Chapeen. He is not fix'd to one Balconee, but directs himselfe to all, offers to draw his Sword, and seemes to threaten with his fist, as he would rather breake their windowes, then desire them opned, that hee might gaine a looke from his Lady. </p>
+          <p>These severall humors being a while artificially expressed, they descend, and dance their second entry, and retire. </p>
+          <p>The Scene wholly changing againe: There was observ'd in a Grove of Cypresse intermingled with Mirtle Trees, the Temple of Venus, being an eight square of the Corinthian order: within the Temple her Satue of Siluer, standing in an Neech, with Cupid by her, to whom she seemes to deliver an Arrow; the Pilasters, and Ornaments were heightned with Siluer. </p>
+          <p>From this Temple the Priests of Venus are discern'd <pb n="12" xml:id="ep000368-009-a"/>to come in loose white Robes, their heads adorn'd with Coronets of Flowres, and playing on their Instruments, they descend and sing this. </p>
+          <lg>
+            <lg n="1">
+              <head>(1) </head>
+              <l>Vnarme, unarme! no more your fights </l>
+              <l>Must cause the virgins teares, </l>
+              <l>But such as in the silent nights, </l>
+              <l>Spring rather from their feares, </l>
+            </lg>
+            <lg n="2">
+              <head>(2) </head>
+              <l>Such diff'rence as when Doves do bill, </l>
+              <l>Must now be all your strife: </l>
+              <l>For all the blood that you shall spill, </l>
+              <l>Will usher in a life. </l>
+            </lg>
+            <lg n="3">
+              <head>(3) </head>
+              <l>And when your Ladies falsly coy </l>
+              <l>Shall timerous appeare, </l>
+              <l>Believe, they then would faine enjoy </l>
+              <l>What they pretend to feare. </l>
+            </lg>
+            <lg n="4">
+              <head>(4) </head>
+              <l>Breath then each others breath, and kisse </l>
+              <l>Your soules to union: </l>
+              <l>And whilst they shall injoy this blisse, </l>
+              <l>Your bodies too, are one. </l>
+            </lg>
+            <pb n="13" xml:id="ep000368-009-b"/>
+            <lg n="5">
+              <head>(5) </head>
+              <l>Too morrow will the hasty Sun </l>
+              <l>Be fear'd more of each Lover, </l>
+              <l>For hindring to repeat what's done, </l>
+              <l>Than what it may discover. </l>
+            </lg>
+          </lg>
+          <p>The Priests of Venus retire, and the Masquers appeare in the Scene, their vests altered to a more soft and Courtly change; with severall adornements, that might present them to every understanding for a Troope of noble Lovers. Their second entry being daunc'd, they retire into the Temple. </p>
+          <p>The Scene wholly changing, strait was perceiv'd in a Grove of Lawrell Trees, the Temple of Apollo, being round, and transparent, of the order of Composita, the Columnes and Ornamants, being heightned with gold, his statue of gold standing in the middle of the Temple, upon a round Pedestall: behind and betweene the Columnes did appeare a prospect of Landskap. </p>
+          <p>The Priests of Apollo approach from severall parts of the Temple, cloath'd in Carnation Robes, with wreathes of Laurell on their heads, they sing this when they descend. </p>
+          <lg>
+            <lg n="1">
+              <head>(1) </head>
+              <l>Make roome for our God too, make roome, </l>
+              <l>For now surpriz'd, and ravish'd with delight, </l>
+              <pb n="14" xml:id="ep000368-010-a"/>
+              <l>Apollo is from Delphos come, </l>
+              <l>T'inspire, and breath himself in every Knight. </l>
+            </lg>
+            <lg n="2">
+              <head>(2) </head>
+              <l>His God-head is inclin'd to prove </l>
+              <l>How justly proud, and happy you will be, </l>
+              <l>When with the powers of War and Love, </l>
+              <l>Hee shall unite his wiser Deity. </l>
+            </lg>
+            <lg n="3">
+              <head>(3) </head>
+              <l>Then still, as if not made of Earth, </l>
+              <l>Expresse your thankfuluesse in active pleasure. </l>
+              <l>Whilst you designe your hearts to Mirth, </l>
+              <l>Your eares to numbers, &amp; your feet to measure. </l>
+            </lg>
+          </lg>
+          <p>This ended, the Priests of Apollo retire to make way for a new discovery of certaine persons in the Scene, which seeme halfe hidden behind the Trees: Then invite them to descend by singing this. </p>
+          <lg>
+            <lg n="1">
+              <head>(1) </head>
+              <l>Behold, how this conjunction thrives! </l>
+              <l>His radiant beames Apollo strives </l>
+              <l>So much to strengthen and increase, </l>
+              <l>As growth and verdure nere should cease. </l>
+            </lg>
+            <lg n="2">
+              <head>(2) </head>
+              <l>Come you industrious slaves of plenty, bring </l>
+              <l>All that is hop'd for in an Eastern Spring: </l>
+              <pb n="15" xml:id="ep000368-010-b"/>
+              <l>Or all that Autumne yields, when she doth pay </l>
+              <l>Those promis'd hopes where 'tis perpetuall day. </l>
+            </lg>
+            <lg n="3">
+              <head>(3) </head>
+              <l>Come strew this ground (delay us not with slowth) </l>
+              <l>Strew till we walke on sweet Cecillian Flowres, </l>
+              <l>To prove how Seeds have hastned in their growth, </l>
+              <l>Drop Indian fruits, as thick as Aprill showres. </l>
+            </lg>
+          </lg>
+          <p>Now descending from the Scene, appeares twelve men, wildly habited, Wastcotes of flesh color made them shew naked to the middle, their heads cover'd with greene leaves, their wastes girt with the like, and a greene Basis fring'd, reach'd to their knees, which did declare them Labourers on a Fruitfull Soyle; and what they carryed did demonstrate a Fruitfull Season. </p>
+          <p>For moving downe in order towards the State, each supported in his Armes, a small square frame, the wood hidden with greene Boughes, and on that bore a Charger full of precious fruits, and cover'd with blossom'd twigs and flowers: Which being fix'd neere to the State, were so joyn'd together, that there was straight discovered a Table richly furnish'd with a Banquet, that look'd as it were hidden in a Grove: And whilst the Princes accepted of this entertainment, the Priests belonging to the three severall Deities sung this. </p>
+          <p>The song of Valediction, after the Banquet. </p>
+          <sp xml:id="ep000368-e2880">
+            <pb n="16" xml:id="ep000368-011-a"/>
+            <speaker>Priests of Mars. </speaker>
+            <l>The furious Steed, the Phyph and Drum </l>
+            <l>Invite you still to Triumphs of the War, </l>
+            <l>Till you as glorious shall become </l>
+            <l>On Earth as Mars, in Heaven as bright a Star. </l>
+          </sp>
+          <sp xml:id="ep000368-e2960">
+            <speaker>Priests of Venus. </speaker>
+            <l>The Balmes rich swet, the Myrrhs sweet teares </l>
+            <l>Perfume your breath when you would Passion move: </l>
+            <l>And may her heart, that you indeeres, </l>
+            <l>the center be, her Eye the sphaere of Love! </l>
+          </sp>
+          <sp xml:id="ep000368-e3030">
+            <speaker>Priests of Apollo. </speaker>
+            <l>And may your Language be of force </l>
+            <l>To body winds, and animate the Trees, </l>
+            <l>So full of wonder your discourse, </l>
+            <l>Till all your guesses shall be Prophecies. </l>
+          </sp>
+          <sp xml:id="ep000368-e3100">
+            <speaker>Chorus of all. </speaker>
+            <l>May our three Gods so long conjoyne, </l>
+            <l>To raise your soule, and rarefie your sense, </l>
+            <l>Till you are render'd so Divine, </l>
+            <l>'Twill be no Sin t' implore your Influence. </l>
+          </sp>
+          <p>Thus, as all Pleasures and Triumphs are full of haste, and aptest to decay, this had an end; yet may I've mention'd a while, if the envie of such as were absent do not rebuke the courteous memory of those who vouchsaf'd to enjoy it. </p>
+        </div>
+        <div type="dramatis_personae" xml:id="ep000368-e3170">
+          <pb xml:id="ep000368-011-b"/>
+          <head>The Masquers Names, According as they were rank'd by their Antiquity, in that Noble Society. </head>
+          <list>
+            <item>Tho: Maunsell. </item>
+            <item>Will: Morgan. </item>
+            <item>Will: Wheeler. </item>
+            <item>Mich: Hutchenson. </item>
+            <item>Laur: Hyde. </item>
+            <item>Tho: Bourke. </item>
+            <item>Edw: Smyth. </item>
+            <item>Edw: Turnor. </item>
+            <item>Tho: Way. </item>
+            <item>Tho: Trenchard. </item>
+            <item>Geo: Probert. </item>
+          </list>
+          <list>
+            <head>Those in the first Anti-masque. </head>
+            <item>Phillip Morgan. </item>
+            <item>Iohn Freman. </item>
+            <item>Iohn Bramston. </item>
+            <item>Ed: Smyth. </item>
+            <item>Clement Spillman. </item>
+            <item>Iohn Norden. </item>
+            <item>Will: Lysle. </item>
+          </list>
+          <list>
+            <head>Those in the second Anti-masque. </head>
+            <item>Iohn Stepkin. </item>
+            <item>Charles Adderly. </item>
+            <item>Iohn Ratcliffe. </item>
+            <item>Rich: May. </item>
+            <item>Giles Hungerford. </item>
+          </list>
+          <p>The Musick of the Songs and Symphanies were excellently compos'd by Mr. Henry, and Mr. <hi>William Laws</hi>, his Majesties Servants. </p>
+          <trailer>FINIS. </trailer>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
