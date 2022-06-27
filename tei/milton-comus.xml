@@ -87,27 +87,32 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000202-comus">
+            <person xml:id="ep000202-comus" sex="MALE">
               <persName>Comus</persName>
             </person>
-            <person xml:id="ep000202-lady">
+            <person xml:id="ep000202-lady" sex="FEMALE">
               <persName>Lady</persName>
             </person>
-            <person xml:id="ep000202-elder_brother">
+            <person xml:id="ep000202-elder_brother" sex="MALE">
               <persName>Elder Brother</persName>
             </person>
-            <person xml:id="ep000202-younger_brother">
+            <person xml:id="ep000202-younger_brother" sex="MALE">
               <persName>Younger Brother</persName>
             </person>
-            <person xml:id="ep000202-spirit">
+            <person xml:id="ep000202-spirit" sex="UNKNOWN">
               <persName>Spirit</persName>
             </person>
-            <person xml:id="ep000202-sabrina">
+            <person xml:id="ep000202-sabrina" sex="FEMALE">
               <persName>Sabrina</persName>
             </person>
           </listPerson>
         </particDesc>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-06-16">(Luca Giovannini) fixed speaker tags and particDesc, minor editing (stages directions)</change>
+        </listChange>
+      </revisionDesc>    
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -145,6 +150,7 @@
         <head>A MASKE PERFORMED BEFORE the praesident of WALES at Ludlow, 1634. </head>
         <stage xml:id="ep000202-e100170">The first Scene discovers a wild wood. </stage>
         <stage xml:id="ep000202-e100180">The attendant Spirit descends or enters. </stage>
+        <sp who="#ep000202-spirit" xml:id="ep000202-e105660">
         <lg>
           <l>BEfore the starrie threshold of Ioves Court </l>
           <l>My mansion is, where those immortall shapes </l>
@@ -246,6 +252,7 @@
           <l>Of this occasion. But I heare the tread </l>
           <l>Of hatefull steps, I must be viewlesse now. </l>
         </lg>
+        </sp>
         <stage xml:id="ep000202-e101140">Comus enters with a Charming rod in one hand, his Glasse in the other, with him a rout of Monsters headed like sundry sorts of wilde Beasts, but otherwise like Men and Women, their appareil glistring, they come in making a riotous and vnruly noise, with Torches in their hands. </stage>
         <sp who="#ep000202-comus" xml:id="ep000202-e101150">
           <speaker>Comus. </speaker>
@@ -331,6 +338,7 @@
           <l>But here she comes, I fairly step aside </l>
           <l>And hearken, if I may, her buisnesse here. </l>
           <stage xml:id="ep000202-e101940">The Ladie enters. </stage>
+          <sp who="#ep000202-lady" xml:id="ep000202-e103000">
           <l>This way the noise was, if mine eare be true </l>
           <l>My best guide now, me thought it was the sound </l>
           <l>Of Riot, and ill manag'd Merriment, </l>
@@ -393,7 +401,8 @@
           <l>Such noise as I can make to be heard fardest </l>
           <l>Ile venter, for my new enliv'nd spirits </l>
           <l>Prompt me; and they perhaps are not farre off. </l>
-          <lg>
+          </sp>
+            <lg>
             <head>Song. </head>
             <lg>
               <l>Sweet echo, sweetest Nymph that liv'st unseene </l>
@@ -1277,8 +1286,9 @@
           <l>And bridle in thy headlong wave </l>
           <l>Till thou our summons answerd have. </l>
           <l>Listen and save. </l>
+        </sp>
           <lg>
-            <l>Sabrina rises attended by water Nimphes and sings. </l>
+            <stage>Sabrina rises attended by water Nimphes and sings. </stage>
             <l>By the rushie fringed banke, </l>
             <l>Where growes the willow and the osier dancke </l>
             <l>My sliding chariot stayes, </l>
@@ -1293,7 +1303,6 @@
             <l>Gentle swaine at thy request </l>
             <l>I am here. </l>
           </lg>
-        </sp>
         <sp who="#ep000202-spirit" xml:id="ep000202-e110130">
           <speaker>Spir. </speaker>
           <l>Goddesse deare </l>
@@ -1440,12 +1449,14 @@
           <l>Or if vertue feeble were </l>
           <l>Heav'n it selfe would stoope to her. </l>
         </sp>
+        <stage>
         <list>
           <head>The principall persons in this Maske; were </head>
           <item>The Lord BRACLY, </item>
           <item>Mr. THOMAS EGERTON, </item>
           <item>The Lady ALICE EGERTON. </item>
         </list>
+        </stage>
         <trailer>The END </trailer>
       </div>
     </body>
