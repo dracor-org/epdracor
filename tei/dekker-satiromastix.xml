@@ -100,91 +100,82 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000382-xxxx_1">
-              <persName>Xxxx 1</persName>
+            <person xml:id="ep000382-gentlewoman-1" sex="FEMALE">
+              <persName>Gentlewoman I</persName>
+            </person>            
+            <person xml:id="ep000382-gentlewoman-2" sex="FEMALE">
+              <persName>Gentlewoman 2</persName>
             </person>
-            <person xml:id="ep000382-xxxx_2">
-              <persName>Xxxx 2</persName>
-            </person>
-            <person xml:id="ep000382-shorthose">
+            <person xml:id="ep000382-shorthose" sex="MALE">
               <persName>Shorthose</persName>
             </person>
-            <person xml:id="ep000382-omnes">
-              <persName>Omnes</persName>
-            </person>
-            <person xml:id="ep000382-flash">
+            <person xml:id="ep000382-flash" sex="MALE">
               <persName>Flash</persName>
             </person>
-            <person xml:id="ep000382-prickshaft">
+            <person xml:id="ep000382-prickshaft" sex="MALE">
               <persName>Prickshaft</persName>
             </person>
-            <person xml:id="ep000382-vaughan">
+            <person xml:id="ep000382-vaughan" sex="MALE">
               <persName>Vaughan</persName>
             </person>
-            <person xml:id="ep000382-miniver">
+            <person xml:id="ep000382-miniver" sex="FEMALE">
               <persName>Miniver</persName>
             </person>
-            <person xml:id="ep000382-terrill">
+            <person xml:id="ep000382-terrill" sex="MALE">
               <persName>Terrill</persName>
             </person>
-            <person xml:id="ep000382-crispinus">
+            <person xml:id="ep000382-crispinus" sex="MALE">
               <persName>Crispinus</persName>
             </person>
-            <person xml:id="ep000382-horace">
+            <person xml:id="ep000382-horace" sex="MALE">
               <persName>Horace</persName>
             </person>
-            <person xml:id="ep000382-asinius">
+            <person xml:id="ep000382-asinius" sex="MALE">
               <persName>Asinius</persName>
             </person>
-            <person xml:id="ep000382-demetrius">
+            <person xml:id="ep000382-demetrius" sex="MALE">
               <persName>Demetrius</persName>
             </person>
-            <person xml:id="ep000382-both">
-              <persName>Both</persName>
-            </person>
-            <person xml:id="ep000382-blunt">
+            <person xml:id="ep000382-blunt" sex="MALE">
               <persName>Blunt</persName>
             </person>
-            <person xml:id="ep000382-tucca">
+            <person xml:id="ep000382-tucca" sex="MALE">
               <persName>Tucca</persName>
             </person>
-            <person xml:id="ep000382-unassigned">
-              <persName>Unassigned</persName>
+            <person xml:id="ep000382-fannius" sex="MALE">
+              <persName>Fannius</persName>
             </person>
-            <person xml:id="ep000382-all">
-              <persName>All</persName>
-            </person>
-            <person xml:id="ep000382-king">
+            <person xml:id="ep000382-king" sex="MALE">
               <persName>King</persName>
             </person>
-            <person xml:id="ep000382-caelestine">
+            <person xml:id="ep000382-caelestine" sex="FEMALE">
               <persName>Caelestine</persName>
             </person>
-            <person xml:id="ep000382-1_lady">
-              <persName>1 Lady</persName>
+            <person xml:id="ep000382-lady" sex="FEMALE">
+              <persName>A Lady</persName>
             </person>
-            <person xml:id="ep000382-dicache">
+            <person xml:id="ep000382-dicache" sex="FEMALE">
               <persName>Dicache</persName>
             </person>
-            <person xml:id="ep000382-philocalia">
+            <person xml:id="ep000382-philocalia" sex="FEMALE">
               <persName>Philocalia</persName>
             </person>
-            <person xml:id="ep000382-petula">
+            <person xml:id="ep000382-petula" sex="FEMALE">
               <persName>Petula</persName>
             </person>
-            <person xml:id="ep000382-boy">
+            <person xml:id="ep000382-boy" sex="MALE">
               <persName>Boy</persName>
             </person>
-            <person xml:id="ep000382-ladies">
-              <persName>Ladies</persName>
+            <person xml:id="ep000382-gentlewomen" sex="FEMALE">
+              <persName>Gentlewomen</persName>
             </person>
-            <person xml:id="ep000382-all_men">
-              <persName>All Men</persName>
-            </person>
-            <person xml:id="ep000382-servant">
+            <person xml:id="ep000382-servant" sex="MALE">
               <persName>Servant</persName>
             </person>
-            <person xml:id="ep000382-officers">
+            <person xml:id="ep000382-servingmen" sex="MALE">
+              <persName>Servingmen</persName>
+            </person>
+            <person xml:id="ep000382-officers" sex="MALE">
               <persName>Officers</persName>
             </person>
           </listPerson>
@@ -193,6 +184,11 @@
           <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-06-28">(Luca Giovannini) fixed speaker tags and particDesc</change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -233,10 +229,7 @@
           <item>15. Ladies. </item>
         </list>
       </div>
-      <div cert="high"
-              type="poem"
-              xml:id="ep000382-e100240"
-              xml:lang="lat">
+      <div cert="high" type="poem" xml:id="ep000382-e100240" xml:lang="lat">
         <head>Ad Detractorem. </head>
         <l>Non potes in Nugas dicere plurameas, </l>
         <l>Ipse ego quam dixi.— Qui se mirantur, in illos </l>
@@ -271,68 +264,68 @@
         <pb xml:id="ep000382-005-b"/>
         <head>The Vntrussing of the Humorous Poet. </head>
         <stage xml:id="ep000382-e100450">Enter two Gentlewomen strewing of flowers. </stage>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100460">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100460">
           <speaker>1 </speaker>
           <p>COme bedfellow come, strew apace, strew, strew: in good troth tis pitty that these flowers must be trodden vnder feete as they are like to bee anon. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100480">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100480">
           <speaker>2 </speaker>
           <p>Pitty, alacke pretty heart, thou art sorry to see any good thing fall to the ground: pitty? no more pitty, then to see an Innocent Mayden-head deliuered vp to the ruffling of her new-wedded husband. Beauty is made for vse, and hee that will not vse a sweet soule well, when she is vnder his fingers I pray Venus he may neuer kisse a faire and a delicate, soft, red 'plump-lip. </p>
         </sp>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100500">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100500">
           <speaker>1. </speaker>
           <p>Amen, and that's torment enough. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100520">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100520">
           <speaker>2. </speaker>
           <p>Pitty? come foole fling them about lustily; flowers neuer dye a sweeter death, than when they are smoother'd to death in a Louers bosome, or else paue the high wayes, ouer which these pretty, simpring, ietting things, call'd brides, must trippe. </p>
         </sp>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100540">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100540">
           <speaker>1. </speaker>
           <p>I pray thee tell mee, why doe they vse at weddings to furnish all places thus, with sweet hearbes and flowers? </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100560">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100560">
           <speaker>2. </speaker>
           <p>One reason is, because tis— ô a most sweet thing to lye with a man. </p>
         </sp>
         <pb xml:id="ep000382-006-a"/>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100580">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100580">
           <speaker>1. </speaker>
           <p>I thinke tis a O more more more more sweet to lye with a woman. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100600">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100600">
           <speaker>2. </speaker>
           <p>I warrant all men are of thy minde: another reason is, because they sticke like the scutchions of madame chastity, on the sable ground, weeping in their stalkes, and wincking with theyr yellow-sunke eyes, as loath to beholde the lamentable fall of a Maydenhead: what senceles thing in all the house, that is not nowe as melancholy, as a new set-vp Schoolemaster? </p>
         </sp>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100620">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100620">
           <speaker>1. </speaker>
           <p>Troth I am. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100640">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100640">
           <speaker>2. </speaker>
           <p>Troth I thinke thou mournst, because th'ast mist thy turne, I doe by the quiuer of Cupid: you see the torches melt themselues away in teares: the instruments weare theyr heart stringes out for sorrow: and the Siluer Ewers weepe most pittifull Rosewater: fiue or sixe payre of the white innocent wedding gloues, did in my sight choose rather to be torne in peeces than to be drawne on; and looke this Rosemary, (a fatall hearbe) this dead-mans nose-gay, has crept in amongst these flowers to decke th'nuisible coarse of the Brides Maydenhead, when (oh how much do we poore wenches suffer) about eleuen or twelue, or one a clock at midnight at furthest, it descends to purgatory, to giue notice that Caelestine (hey ho) will neuer come to lead Apes in hell. </p>
         </sp>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100660">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100660">
           <speaker>1. </speaker>
           <p>I see by thy sighing thou wilt not. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100680">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100680">
           <speaker>2. </speaker>
           <p>If I had as many Mayden-heads, as I haue hayres on my head I'de venture them all rather then to come into so hot a place; prethy strew thou, for my little armes are weary. </p>
         </sp>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100700">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100700">
           <speaker>1. </speaker>
           <p>I am sure thy little tongue is not. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100720">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100720">
           <speaker>2. </speaker>
           <p>No faith that's like a woman bitten with fleas, it neuer lyes stil: fye vpont, what a miserable thing tis to be a noble Bride, there's such delayes in rising, in fitting gownes, in tyring, in pinning Rebatoes, in poaking, in dinner, in supper, in Reuels, &amp; last of all in cursing the poore nodding fidlers, for keeping Mistris Bride so long vp from sweeter Reuels; that, oh I could <pb xml:id="ep000382-006-b"/>neuer endure to put it vp without much bickering. </p>
         </sp>
-        <sp who="#ep000382-xxxx_1" xml:id="ep000382-e100740">
+        <sp who="#ep000382-gentlewoman-1" xml:id="ep000382-e100740">
           <speaker>1. </speaker>
           <p>Come th'art an odde wench, hark, harke, musicke? nay then the Bride's vp. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100760">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100760">
           <speaker>2. </speaker>
           <p>Is she vp? nay then I see she has been downe: Lord ha mercy on vs, we women fall and fall still, and when we haue husbands we play vpon them like Virginall Iackes, they must ryse and fall to our humours, or else they'l neuer get any good straines of musicke out of vs; but come now, haue at it for a mayden-head. </p>
         </sp>
@@ -342,7 +335,7 @@
           <speaker>Sir quin. </speaker>
           <p>Come knaues, night begins to be like my selfe, an olde man; day playes the theefe and steales vpon vs; O well done wenches, well done, well done, you haue couered all the stony way to church with flowers, tis well, tis well, ther's an Embleame too, to be made out of these flowers and stones, but you are honest wenches, in, in, in. </p>
         </sp>
-        <sp who="#ep000382-xxxx_2" xml:id="ep000382-e100820">
+        <sp who="#ep000382-gentlewoman-2" xml:id="ep000382-e100820">
           <speaker>2. </speaker>
           <p>When we come to your yeares, we shal learne what honesty is, come pew-fellow. </p>
         </sp>
@@ -351,7 +344,7 @@
           <speaker>Sir quin. </speaker>
           <p>Is the musicke come yet? so much to do! Ist come? </p>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e100870">
+        <sp who="#ep000382-flash #ep000382-servingmen" xml:id="ep000382-e100870">
           <speaker>Omnes. </speaker>
           <p>Come sir. </p>
         </sp>
@@ -393,7 +386,7 @@
           <speaker>Sir quin. </speaker>
           <p>Doe Peeter, and weare it for thy labour; Is my Sonne in Law Sir Walter Terell ready yet? </p>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e101080">
+        <sp who="#ep000382-flash #ep000382-servingmen" xml:id="ep000382-e101080">
           <speaker>Omnes. </speaker>
           <p>Ready sir. </p>
         </sp>
@@ -522,7 +515,7 @@
           <speaker>Cris. </speaker>
           <l>God morrow M. Bride-groome, mistris Bride. </l>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e101760">
+        <sp who="#ep000382-terrill ##ep000382-prickshaft #ep000382-vaughan #ep000382-caelestine #ep000382-miniver #ep000382-blunt #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e101760">
           <speaker>Omnes. </speaker>
           <l>God morrow M. Bride groome. </l>
         </sp>
@@ -1018,7 +1011,7 @@
           <l>As deare as my owne soule, prooue me, and when </l>
           <l>I shall traduce you, make me the scorne of men. </l>
         </sp>
-        <sp who="#ep000382-both" xml:id="ep000382-e104740">
+        <sp who="#ep000382-demetrius #ep000382-horace" xml:id="ep000382-e104740">
           <speaker>Both. </speaker>
           <l>Enough, we are friends. </l>
         </sp>
@@ -1148,7 +1141,7 @@
           <speaker>Tuc. </speaker>
           <p>Not hands with great Hunkes there, not hands, but Ile shake the gull-groper out of his tan'd skinne. </p>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e105390">
+        <sp who="#ep000382-crispinus #ep000382-demetrius #ep000382-blunt" xml:id="ep000382-e105390">
           <speaker>Crisp. &amp; Deme. </speaker>
           <p>For our sake Captaine, nay prethee holde. </p>
         </sp>
@@ -1160,7 +1153,7 @@
           <speaker>Hor. </speaker>
           <p>With all my heart captaine Tucca, and with you too, Ile laye my handes vnder your feete, to keepe them from aking. </p>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e105450">
+        <sp who="#ep000382-asinius #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e105450">
           <speaker>Omnes. </speaker>
           <p>Can you haue any more? </p>
         </sp>
@@ -1398,7 +1391,7 @@
           <p>The Musicke speakes to vs, we'll haue a daunce before dinner. </p>
         </sp>
         <stage xml:id="ep000382-e106650">Enter Sir Walter Terrill, Caelestine, Blunt, Crispinus, and Demetrius, euery one with a Lady. </stage>
-        <sp who="#ep000382-all" xml:id="ep000382-e106660">
+        <sp who="#ep000382-shorthose #ep000382-terrill ##ep000382-prickshaft #ep000382-vaughan #ep000382-caelestine #ep000382-miniver #ep000382-blunt #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e106660">
           <speaker>All. </speaker>
           <l>The King's at hand. </l>
         </sp>
@@ -1420,7 +1413,7 @@
           <speaker>Blun. </speaker>
           <p>Best goe meete his Grace. </p>
         </sp>
-        <sp who="#ep000382-all" xml:id="ep000382-e106780">
+        <sp who="#ep000382-shorthose #ep000382-terrill ##ep000382-prickshaft #ep000382-vaughan #ep000382-caelestine #ep000382-miniver #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e106780">
           <speaker>All. </speaker>
           <p>Agreed. </p>
         </sp>
@@ -1989,7 +1982,7 @@
           <speaker>Sir Vaugh. </speaker>
           <p>My braines has a little fine quawme come vnder it, and therefore Sir Adam, and Sir Quintilian, and mistris Miniuer caps God bo'y. </p>
         </sp>
-        <sp who="#ep000382-all" xml:id="ep000382-e110060">
+        <sp who="#ep000382-horace #ep000382-prickshaft #ep000382-shorthose #ep000382-miniver #ep000382-flash" xml:id="ep000382-e110060">
           <speaker>All. </speaker>
           <p>Good Sir Vaughan. </p>
         </sp>
@@ -2363,7 +2356,7 @@
           <speaker>Sir Vau. </speaker>
           <p>Say Gentlewomen will you stand to me too? </p>
         </sp>
-        <sp who="#ep000382-all" xml:id="ep000382-e112020">
+        <sp who="#ep000382-gentlewomen" xml:id="ep000382-e112020">
           <speaker>All. </speaker>
           <p>Wee'll sit with you sweet Sir Vaughan. </p>
         </sp>
@@ -2371,7 +2364,7 @@
           <speaker>Sir Vau. </speaker>
           <p>God a mightie plesse your faces, and make your peauties last, when wee are all dead and rotten:— you all will come. </p>
         </sp>
-        <sp who="#ep000382-1_lady" xml:id="ep000382-e112060">
+        <sp who="#ep000382-lady" xml:id="ep000382-e112060">
           <speaker>1 Lady. </speaker>
           <p>All will come. </p>
         </sp>
@@ -3172,7 +3165,7 @@
           <stage xml:id="ep000382-e116650">Exit. </stage>
         </sp>
         <stage xml:id="ep000382-e116660">Enter Sir Adam, Crispinus, Fannius, Blunt, Miniuer, Petula, Philocalia and Dicace. </stage>
-        <sp who="#ep000382-ladies" xml:id="ep000382-e116670">
+        <sp who="#ep000382-miniver #ep000382-petula #ep000382-philocalia #ep000382-dicache" xml:id="ep000382-e116670">
           <speaker>Ladies, </speaker>
           <l>Thankes good Sir Adam. </l>
         </sp>
@@ -3195,7 +3188,7 @@
           <l>No praise, by praising that, which to depraue, </l>
           <l>All tongues are readie, and which none would haue. </l>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e116830">
+        <sp who="#ep000382-blunt" xml:id="ep000382-e116830">
           <speaker>Bin. </speaker>
           <l>To prooue that best, by strong and armed reason, </l>
           <l>Whose part reason feares to take, cannot but prooue, </l>
@@ -3243,7 +3236,7 @@
           <l>Are sticht vnto the liddes, borrow those formes, </l>
           <l>Like Pent-houses to saue the eyes from stormes. </l>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e117200">
+        <sp who="#ep000382-prickshaft" xml:id="ep000382-e117200">
           <speaker>Sir Adam. </speaker>
           <l>Right, well said. </l>
         </sp>
@@ -3378,7 +3371,7 @@
           <p>Come Tucca, come, no more; the man's wel knowne, thou needst not paint him, whom does he not wrong? </p>
         </sp>
         <pb xml:id="ep000382-037-a"/>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e117980">
+        <sp who="#ep000382-tucca" xml:id="ep000382-e117980">
           <speaker>Tuc </speaker>
           <p>Mary himselfe, the vglie Pope Boniface, pardons himselfe, and therefore my indgement is, that presently he bee had from hence, to his place of execution, and there bee Stab'd, Stab'd, Stab'd. </p>
         </sp>
@@ -3387,7 +3380,7 @@
           <speaker>Hor. </speaker>
           <p>Oh gentlemen, I am slaine, oh slaue art hyt'd to murder me, to murder me, to murder me? </p>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e118030">
+        <sp who="#ep000382-miniver #ep000382-petula #ep000382-philocalia #ep000382-dicache" xml:id="ep000382-e118030">
           <speaker>Ladies. </speaker>
           <p>Oh God! </p>
         </sp>
@@ -3448,7 +3441,7 @@
           <speaker>Tuc. </speaker>
           <p>A blanket, these crackt Venice glasses shall fill him out, they shall tosse him, holde fast wag tailes: so, come, in, take this bandy with the racket of patience, why when? dost stampe mad Tamberlaine, dost stampe? thou thinkst th'ast Morter vnder thy feete, dost? </p>
         </sp>
-        <sp who="#ep000382-ladies" xml:id="ep000382-e118350">
+        <sp who="#ep000382-miniver #ep000382-petula #ep000382-philocalia #ep000382-dicache" xml:id="ep000382-e118350">
           <speaker>Ladies. </speaker>
           <l>Come, a bandy ho. </l>
         </sp>
@@ -3563,7 +3556,7 @@
           <speaker>Tuc. </speaker>
           <p>I know thou didst, and therefore whilst we haue Hiren heere, speake my little dish-washers, a verdit Pissekitchins. </p>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e119030">
+        <sp who="#ep000382-miniver #ep000382-petula #ep000382-philocalia #ep000382-dicache #ep000382-horace #ep000382-vaughan #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e119030">
           <speaker>Omnes. </speaker>
           <p>Blancket. </p>
         </sp>
@@ -3575,7 +3568,7 @@
           <speaker>Tuc. </speaker>
           <p>Ile beate out thy braines, my whorson hansome dwarfe, but ile haue it out of thee. </p>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e119090">
+        <sp who="#ep000382-miniver #ep000382-petula #ep000382-philocalia #ep000382-dicache #ep000382-horace #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e119090">
           <speaker>Omnes. </speaker>
           <p>What is it good Sir Vaughan? </p>
         </sp>
@@ -3583,7 +3576,7 @@
           <speaker>Sir Vau. </speaker>
           <p>To conclude, tis after this manners, because Ma. Horace is ambition, and does conspire to bee more hye and tall, as God a mightie made him, wee'll carry his terrible, person to Court, and there before his Masestie Dub, or what you call it, dip his Muse in some licour, and christen him, or dye him, into collours of a Poet. </p>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e119130">
+        <sp who="#ep000382-miniver #ep000382-petula #ep000382-philocalia #ep000382-dicache #ep000382-horace #ep000382-tucca #ep000382-crispinus #ep000382-demetrius" xml:id="ep000382-e119130">
           <speaker>Omnes. </speaker>
           <p>Excellent. </p>
         </sp>
@@ -3600,7 +3593,7 @@
           <p>Call vpon God a mighty, and no Muses, your Muse I warrant is otherwise occupied, there is no dealing with your Muse now, therefore I pray marse, marse, marse, oundes your Moose? </p>
         </sp>
         <stage xml:id="ep000382-e119210">Exeunt. </stage>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e119220">
+        <sp who="#ep000382-crispinus" xml:id="ep000382-e119220">
           <speaker>Cri. </speaker>
           <l>We shal haue sport to see them; come bright beauties, </l>
           <l>The Sunne stoops low, and whispers in our eares, </l>
@@ -3677,7 +3670,7 @@
           <l>What Countrimen are they? where doe they dwell, </l>
           <l>That speake naught else but oathes? </l>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e119790">
+        <sp who="#ep000382-terrill" xml:id="ep000382-e119790">
           <speaker>Ter. </speaker>
           <l>They're men of hell. </l>
           <l>An oath? why tis the trafficke of the soule, </l>
@@ -3890,11 +3883,11 @@
           <l>She's going to forbid the Banes agen. </l>
           <l>She'll dye a maide: and see, she keeps her oath. </l>
         </sp>
-        <sp who="#ep000382-all_men" xml:id="ep000382-e121400">
+        <sp who="#ep000382-terrill #ep000382-shorthose #ep000382-blunt #ep000382-crispinus #ep000382-fannius" xml:id="ep000382-e121400">
           <speaker>All the men. </speaker>
           <l>Faire Caelestine! </l>
         </sp>
-        <sp who="#ep000382-ladies" xml:id="ep000382-e121420">
+        <sp who="#ep000382-philocalia #ep000382-dicache #ep000382-petula" xml:id="ep000382-e121420">
           <speaker>Ladies. </speaker>
           <l>The Bride! </l>
         </sp>
@@ -3903,7 +3896,7 @@
           <l>She that was faire, </l>
           <l>Whom I cal'd faire and Caelestine. </l>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e121470">
+        <sp who="#ep000382-shorthose #ep000382-blunt #ep000382-crispinus #ep000382-fannius #ep000382-philocalia #ep000382-dicache #ep000382-petula" xml:id="ep000382-e121470">
           <speaker>Omnes. </speaker>
           <l>Dead! </l>
         </sp>
@@ -3915,7 +3908,7 @@
           <speaker>Cri. </speaker>
           <l>Sir Walter Terrill. </l>
         </sp>
-        <sp who="#ep000382-omnes" xml:id="ep000382-e121530">
+        <sp who="#ep000382-shorthose #ep000382-blunt #ep000382-crispinus #ep000382-fannius #ep000382-philocalia #ep000382-dicache #ep000382-petula" xml:id="ep000382-e121530">
           <speaker>Omnes. </speaker>
           <l>Tell vs how. </l>
         </sp>
@@ -4508,7 +4501,7 @@
           <speaker>Tuc. </speaker>
           <p>Kings-truce, my noble Hearbe-a-grace; my Princely sweet-William, a boone— Stay first, Ist a match or no match, Lady Furniuall Ist? </p>
         </sp>
-        <sp who="#ep000382-unassigned" xml:id="ep000382-e125300">
+        <sp who="#ep000382-prickshaft #ep000382-shorthose" xml:id="ep000382-e125300">
           <speaker>Sir Ad. &amp; Sir quint. </speaker>
           <p>A match? </p>
         </sp>
@@ -4559,6 +4552,6 @@
         <trailer>FINIS. </trailer>
       </div>
     </body>
-    <back></back>
+    <back/>
   </text>
 </TEI>

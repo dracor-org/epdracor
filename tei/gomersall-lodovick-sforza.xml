@@ -92,86 +92,83 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000036-unassigned">
-              <persName>Unassigned</persName>
-            </person>
-            <person xml:id="ep000036-isabella">
+            <person xml:id="ep000036-isabella" sex='FEMALE'>
               <persName>Isabella</persName>
             </person>
-            <person xml:id="ep000036-galeazzo">
+            <person xml:id="ep000036-galeazzo" sex='MALE'>
               <persName>Galeazzo</persName>
             </person>
-            <person xml:id="ep000036-sforza">
+            <person xml:id="ep000036-sforza" sex='MALE'>
               <persName>Sforza</persName>
             </person>
-            <person xml:id="ep000036-belgiosa">
+            <person xml:id="ep000036-belgiosa" sex='MALE'>
               <persName>Belgiosa</persName>
             </person>
-            <person xml:id="ep000036-vitellio">
+            <person xml:id="ep000036-vitellio" sex='MALE'>
               <persName>Vitellio</persName>
             </person>
-            <person xml:id="ep000036-juliano">
+            <person xml:id="ep000036-juliano" sex='MALE'>
               <persName>Juliano</persName>
             </person>
-            <person xml:id="ep000036-picinino">
+            <person xml:id="ep000036-picinino" sex='MALE'>
               <persName>Picinino</persName>
             </person>
-            <person xml:id="ep000036-malatesta">
+            <person xml:id="ep000036-malatesta" sex='MALE'>
               <persName>Malatesta</persName>
             </person>
-            <person xml:id="ep000036-sanseverin">
+            <person xml:id="ep000036-sanseverin" sex='MALE'>
               <persName>Sanseverin</persName>
             </person>
-            <person xml:id="ep000036-caiazzo">
+            <person xml:id="ep000036-caiazzo" sex='MALE'>
               <persName>Caiazzo</persName>
             </person>
-            <person xml:id="ep000036-julia">
+            <person xml:id="ep000036-julia" sex='FEMALE'>
               <persName>Julia</persName>
             </person>
-            <person xml:id="ep000036-ascanio">
+            <person xml:id="ep000036-ascanio" sex='MALE'>
               <persName>Ascanio</persName>
             </person>
-            <person xml:id="ep000036-bettrice">
+            <person xml:id="ep000036-malvezzo" sex='MALE'>
+              <persName>Malvezzo</persName>
+            </person>
+            <person xml:id="ep000036-bettrice" sex='FEMALE'>
               <persName>Bettrice</persName>
             </person>
-            <person xml:id="ep000036-ambassador_1">
+            <person xml:id="ep000036-ambassador_1" sex='MALE'>
               <persName>Ambassador 1</persName>
             </person>
-            <person xml:id="ep000036-ambassador_2">
+            <person xml:id="ep000036-ambassador_2" sex='MALE'>
               <persName>Ambassador 2</persName>
             </person>
-            <person xml:id="ep000036-ambassador_3">
+            <person xml:id="ep000036-ambassador_3" sex='MALE'>
               <persName>Ambassador 3</persName>
             </person>
-            <person xml:id="ep000036-galeazzi">
-              <persName>Galeazzi</persName>
-            </person>
-            <person xml:id="ep000036-suitor_1">
+            <person xml:id="ep000036-suitor_1" sex='MALE'>
               <persName>Suitor 1</persName>
             </person>
-            <person xml:id="ep000036-suitor_2">
+            <person xml:id="ep000036-suitor_2" sex='MALE'>
               <persName>Suitor 2</persName>
             </person>
-            <person xml:id="ep000036-umbra">
-              <persName>Umbra</persName>
-            </person>
-            <person xml:id="ep000036-nuncio_1">
+            <person xml:id="ep000036-nuncio_1" sex='MALE'>
               <persName>Nuncio 1</persName>
             </person>
-            <person xml:id="ep000036-nuncio_3">
+            <person xml:id="ep000036-nuncio_3" sex='MALE'>
               <persName>Nuncio 3</persName>
             </person>
-            <person xml:id="ep000036-nuncio_2">
+            <person xml:id="ep000036-nuncio_2" sex='MALE'>
               <persName>Nuncio 2</persName>
             </person>
-            <person xml:id="ep000036-triulcio">
+            <person xml:id="ep000036-triulcio" sex='MALE'>
               <persName>Triulcio</persName>
             </person>
-            <person xml:id="ep000036-soldier">
+            <person xml:id="ep000036-soldier" sex='MALE'>
               <persName>Soldier</persName>
             </person>
-            <person xml:id="ep000036-captain">
+            <person xml:id="ep000036-captain" sex='MALE'>
               <persName>Captain</persName>
+            </person>
+            <person xml:id="ep000036-senators" sex='MALE'>
+              <persName>Senators</persName>
             </person>
           </listPerson>
         </particDesc>
@@ -179,6 +176,11 @@
           <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-06-28">(Luca Giovannini) fixed speaker tags and particDesc</change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -315,11 +317,11 @@
           <div n="1" type="scene" xml:id="ep000036-e100800">
             <head>Scena prima. </head>
             <stage xml:id="ep000036-e100810">Galeazzo Duke of Millane, Isabella his Wife. </stage>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e100820">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e100820">
               <speaker>Gal.. </speaker>
               <p>WHy weeps my Deare? </p>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e100840">
+            <sp who="#ep000036-isabella" xml:id="ep000036-e100840">
               <speaker>Isab.. </speaker>
               <lg>
                 <l>Aske why I do not weep: </l>
@@ -335,7 +337,7 @@
                 <l>Aske why I doe not this, not, why I weepe. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e100970">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e100970">
               <speaker>Gal. </speaker>
               <lg>
                 <l>Or stint thy teares, or mingle them with mine </l>
@@ -974,7 +976,7 @@
                 <l>Not to winne Naples. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-malatesta" xml:id="ep000036-e105740">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e105740">
               <speaker>Mal. </speaker>
               <lg>
                 <l>'Tis a dangerous time, </l>
@@ -1165,15 +1167,15 @@
                 <l>To be thus tortur'd for his Blasphemy. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107100">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e107100">
               <speaker>Gal. </speaker>
               <p>Water, some water. </p>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107120">
+            <sp who="#ep000036-isabella" xml:id="ep000036-e107120">
               <speaker>Isab.. </speaker>
               <p>Now the fit beginnes: </p>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107140">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e107140">
               <speaker>Gal. </speaker>
               <lg>
                 <l>Some of my slaues runne, and exhaust the Po, </l>
@@ -1185,7 +1187,7 @@
                 <l>Such as may coole me. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107230">
+            <sp who="#ep000036-ascanio" xml:id="ep000036-e107230">
               <speaker>Asc. </speaker>
               <lg>
                 <l>Patience, sweet Prince, </l>
@@ -1193,21 +1195,21 @@
                 <l>The heat of passion. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107280">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e107280">
               <speaker>Gal. </speaker>
               <lg>
                 <l>What red thing is this? </l>
                 <l>Ha, Isabella, tell me. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107320">
+            <sp who="#ep000036-isabella" xml:id="ep000036-e107320">
               <speaker>Is. </speaker>
               <lg>
                 <l>'Tis your vncle. </l>
                 <l>The noble Prince Ascanio. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107360">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e107360">
               <speaker>Gal. </speaker>
               <lg>
                 <l>'Tis false; </l>
@@ -1219,7 +1221,7 @@
                 <l>Goe bid rough seas be patient. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107450">
+            <sp who="#ep000036-ascanio" xml:id="ep000036-e107450">
               <speaker>Asc. </speaker>
               <lg>
                 <l>He growes worse, </l>
@@ -1228,7 +1230,7 @@
                 <l>Against Deaths closing. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e107510">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e107510">
               <speaker>Gal. </speaker>
               <lg>
                 <l>O! my ioynts are fire, </l>
@@ -1311,7 +1313,7 @@
                 <l>Will you be still vnkind? </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e108060">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e108060">
               <speaker>Sf. </speaker>
               <lg>
                 <l>Thou shalt heare all! </l>
@@ -1342,14 +1344,14 @@
                 <l>My fault is my faults punisher. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e108340">
+            <sp who="#ep000036-ascanio" xml:id="ep000036-e108340">
               <speaker>Asc. </speaker>
               <lg>
                 <l>Long life, </l>
                 <l>And happy to our Duke. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e108380">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e108380">
               <speaker>Sf. </speaker>
               <lg>
                 <l>How my Ascanio? </l>
@@ -1419,7 +1421,7 @@
             <pb n="21" xml:id="ep000036-019-b"/>
             <head>Scena quarta. </head>
             <stage xml:id="ep000036-e108880">Caiazzo, Belgiosa, Maluezzo. </stage>
-            <sp who="#ep000036-malatesta" xml:id="ep000036-e108890">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e108890">
               <speaker>Mal. </speaker>
               <lg>
                 <l>MY Lords, since we are met so happily, </l>
@@ -1441,7 +1443,7 @@
                 <l>I'le shame my selfe for your content. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e109050">
+            <sp who="#ep000036-belgiosa" xml:id="ep000036-e109050">
               <speaker>Bel. </speaker>
               <lg>
                 <l>Then, thus: </l>
@@ -1474,7 +1476,7 @@
                 <l>Then keepe the Crowne, which they would take away. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-malatesta" xml:id="ep000036-e109340">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e109340">
               <speaker>Mal. </speaker>
               <p>What was the issue? </p>
             </sp>
@@ -1614,7 +1616,7 @@
                 <l>What does displease thee. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e110460">
+            <sp who="#ep000036-malatesta" xml:id="ep000036-e110460">
               <speaker>Mal. </speaker>
               <lg>
                 <l>'Twas a foolish dreame, </l>
@@ -1622,14 +1624,14 @@
                 <l>Last night I saw Vitellio. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e110510">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e110510">
               <speaker>Sf. </speaker>
               <lg>
                 <l>And what? </l>
                 <l>Canst thou feare shadowes? </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e110550">
+            <sp who="#ep000036-malatesta" xml:id="ep000036-e110550">
               <speaker>Mal. </speaker>
               <lg>
                 <l>Yes if shadowes speake, </l>
@@ -1638,7 +1640,7 @@
                 <l>He forc't me breath in Death. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e110610">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e110610">
               <speaker>Sf. </speaker>
               <lg>
                 <l>This Paper holds </l>
@@ -1648,11 +1650,11 @@
                 <l>Make the experiment: </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e110680">
+            <sp who="#ep000036-malatesta" xml:id="ep000036-e110680">
               <speaker>Mal. </speaker>
               <p>O! I am slaine. </p>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e110700">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e110700">
               <speaker>Sf. </speaker>
               <lg>
                 <l>Heau'ns what a stilnesse here is? what a death </l>
@@ -1936,7 +1938,7 @@
           <head>Actus tertii </head>
           <div n="1" type="scene" xml:id="ep000036-e112660">
             <head>Scena prima. </head>
-            <sp who="#ep000036-galeazzi" xml:id="ep000036-e112670">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e112670">
               <speaker>Vmbra Galeatii. </speaker>
               <lg>
                 <l>NO rest in death? why then I see they erre </l>
@@ -2439,7 +2441,7 @@
                 <l>And after nine houres death he dy'd. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e116430">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e116430">
               <speaker>Sf. </speaker>
               <lg>
                 <l>I find </l>
@@ -2449,7 +2451,7 @@
                 <l>Against the French, and Neopolitan. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e116500">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e116500">
               <speaker>Mal. </speaker>
               <lg>
                 <l>Naples now wonne, and the vnstable French </l>
@@ -2473,7 +2475,7 @@
                 <l>Besiegeth his once Conquerors. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e116710">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e116710">
               <speaker>Sf. </speaker>
               <lg>
                 <l>Tis true </l>
@@ -2481,7 +2483,7 @@
                 <l>Will Fortune neuer leaue her tossing him? </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e116760">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e116760">
               <speaker>Mal. </speaker>
               <lg>
                 <l>Whether their owne neglect forc'd them to want, </l>
@@ -2556,7 +2558,7 @@
                 </div>
               </body>
             </floatingText>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e117310">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e117310">
               <speaker>Sf. </speaker>
               <lg>
                 <l>Pretty Philosophy! goe boy, goe sleepe, <stage xml:id="ep000036-e117340">Sx. </stage>
@@ -2591,7 +2593,7 @@
                 <l>There is a Power in your Mercy too. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-umbra" xml:id="ep000036-e117620">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e117620">
               <speaker>Vmb. </speaker>
               <lg>
                 <l>Is then a time, when all our time is spent </l>
@@ -2622,7 +2624,7 @@
                 <l>And we will make a second ghost of thee. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-galeazzi" xml:id="ep000036-e117870">
+            <sp who="#ep000036-galeazzo" xml:id="ep000036-e117870">
               <speaker>Vmb. </speaker>
               <lg>
                 <l>Thy threats are Ayre, like vs: but to goe on </l>
@@ -2658,7 +2660,7 @@
           <div n="2" type="scene" xml:id="ep000036-e118150">
             <head>Scena secunda. </head>
             <stage xml:id="ep000036-e118160">Caiazzo. </stage>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e118170">
+            <sp who="#ep000036-caiazzo" xml:id="ep000036-e118170">
               <speaker>Cai. </speaker>
               <lg>
                 <l>IT must succeed: Fortune may shew her spite, </l>
@@ -2762,7 +2764,7 @@
                 <l>Who is no true Prince, can ne'er punish treason. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e118980">
+            <sp who="#ep000036-caiazzo" xml:id="ep000036-e118980">
               <speaker>Cai. </speaker>
               <p>And I shall take you at your word, deare Sforza. </p>
             </sp>
@@ -2771,7 +2773,7 @@
           <div n="3" type="scene" xml:id="ep000036-e119010">
             <head>Scena tertia. </head>
             <stage xml:id="ep000036-e119020">Iuliano, Picinino. </stage>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e119030">
+            <sp who="#ep000036-picinino" xml:id="ep000036-e119030">
               <speaker>Pic. </speaker>
               <lg>
                 <l>IT cannot be, good Iulian, no more: </l>
@@ -2980,7 +2982,7 @@
                 <l>With which they open Lombardy. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e120500">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e120500">
               <speaker>Sf. </speaker>
               <lg>
                 <l>My fact; </l>
@@ -2998,7 +3000,7 @@
                 <l>What more reuolting yet? </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e120650">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e120650">
               <speaker>Mal. </speaker>
               <lg>
                 <l>O my good Lord! </l>
@@ -3089,7 +3091,7 @@
           <div n="5" type="scene" xml:id="ep000036-e121380">
             <head>Scena quinta. </head>
             <stage xml:id="ep000036-e121390">Enter at one doore, Triulcio, Aubeny, Caiazzo: at the other some Senators of Millan, who deliuer the keyes of the City. </stage>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e121400">
+            <sp who="#ep000036-senators" xml:id="ep000036-e121400">
               <speaker>Sen. </speaker>
               <lg>
                 <l>WE here present you with our keys great Lords, </l>
@@ -3102,7 +3104,7 @@
                 <l>And now are glad to entertaine our Prince. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e121500">
+            <sp who="#ep000036-triulcio" xml:id="ep000036-e121500">
               <speaker>Triu. </speaker>
               <lg>
                 <l>Is he fled then? O our vnhappy sloath! </l>
@@ -3594,7 +3596,7 @@
                 <l>And teach the world your valour. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e125360">
+            <sp who="#ep000036-captain" xml:id="ep000036-e125360">
               <speaker>Capt. </speaker>
               <lg>
                 <l>You may faile: </l>
@@ -3604,7 +3606,7 @@
                 <l>I am the French Kings souldier. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e125430">
+            <sp who="#ep000036-sforza" xml:id="ep000036-e125430">
               <speaker>Sf. </speaker>
               <lg>
                 <l>Speake low, </l>
@@ -3786,7 +3788,7 @@
                 <l>Will venture on a Libell. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e126780">
+            <sp who="#ep000036-juliano" xml:id="ep000036-e126780">
               <speaker>Iul. </speaker>
               <lg>
                 <l>'Tis the vse, </l>
@@ -3797,7 +3799,7 @@
                 <l>And so by folly runne into a crime. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e126860">
+            <sp who="#ep000036-picinino" xml:id="ep000036-e126860">
               <speaker>Pic. </speaker>
               <lg>
                 <l>No matter for their wisedome, were they good: </l>
@@ -3809,7 +3811,7 @@
                 <l>That I could wish thy company. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-malatesta" xml:id="ep000036-e126950">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e126950">
               <speaker>Mal. </speaker>
               <lg>
                 <l>Good Heau'ns! </l>
@@ -3818,11 +3820,11 @@
                 <l>I scarce dare thinke that this is Liberty. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e127010">
+            <sp who="#ep000036-picinino" xml:id="ep000036-e127010">
               <speaker>Pic. </speaker>
               <p>Noble Maluezzo, is there any hope? </p>
             </sp>
-            <sp who="#ep000036-malatesta" xml:id="ep000036-e127030">
+            <sp who="#ep000036-malvezzo" xml:id="ep000036-e127030">
               <speaker>Mal. </speaker>
               <lg>
                 <l>As much as in despaire: we are betraid, </l>
@@ -3830,7 +3832,7 @@
                 <l>And Millan, without blowes, is once more French. </l>
               </lg>
             </sp>
-            <sp who="#ep000036-unassigned" xml:id="ep000036-e127080">
+            <sp who="#ep000036-picinino" xml:id="ep000036-e127080">
               <speaker>Pic. </speaker>
               <lg>
                 <l>Now I remember what I dream't last night, </l>
