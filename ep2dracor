@@ -46,7 +46,13 @@ XSLT="ep2dracor.xsl"
 OUT="tei"
 
 for source in $@; do
-  saxon -xsl:$XSLT -s:$source outputdirectory=$OUT
+  name=$(basename $source .xml)
+  json=''
+  jsonfile="./meta/speakers/$name.json"
+  if [ -f $jsonfile ]; then
+    json="speakersjson=$jsonfile"
+  fi
+  saxon -xsl:$XSLT -s:$source outputdirectory=$OUT $json
 done
 
 xmlformat -f format.conf -i $(git ls-files -m -o $OUT)

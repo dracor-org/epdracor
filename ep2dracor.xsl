@@ -5,8 +5,9 @@
   xmlns:ep="http://earlyprint.org/ns/1.0"
   xmlns:d="http://dracor.org/ns/1.0"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
+  xmlns:map="http://www.w3.org/2005/xpath-functions/map"
   xmlns="http://www.tei-c.org/ns/1.0"
-  exclude-result-prefixes="ep d tei fn"
+  exclude-result-prefixes="ep d tei fn map"
   version="3.0">
 
   <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="yes" indent="yes"/>
@@ -15,6 +16,7 @@
   <xsl:param name="index" select="document('index.xml')"/>
   <xsl:param name="spelling">w</xsl:param>
   <xsl:param name="outputdirectory">tei</xsl:param>
+  <xsl:param name="speakersjson"/>
 
   <xsl:variable
     name="tcpid"
@@ -209,6 +211,26 @@
     <xsl:attribute name="xml:id" select="replace(., $idprefix, $meta/@id)"/>
   </xsl:template>
 
+  <xsl:template match="tei:sp[@xml:id]">
+    <xsl:copy>
+      <xsl:choose>
+        <xsl:when test="$speakersjson">
+          <xsl:variable name="id" select="@xml:id/string()"/>
+          <xsl:variable name="speeches" as="map(*)" select="json-doc($speakersjson)?speeches"/>
+          <xsl:variable name="who" select="map:get($speeches, $id)"/>
+          <xsl:if test="count($who?*) > 0">
+            <xsl:attribute name="who" select="$who?* ! concat('#', $meta/@id, '-', .)"/>
+          </xsl:if>
+          <xsl:apply-templates select="@*[local-name() != 'who']" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="@*" />
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:apply-templates />
+    </xsl:copy>
+  </xsl:template>
+
   <!-- fix @who references -->
   <xsl:template match="tei:sp/@who">
     <xsl:attribute
@@ -307,9 +329,7 @@
 
   <xsl:template name="profileDesc">
     <profileDesc>
-      <xsl:if test="//tei:sp/@who">
-        <xsl:call-template name="particDesc"/>
-      </xsl:if>
+      <xsl:call-template name="particDesc"/>
       <xsl:call-template name="textClass"/>
     </profileDesc>
   </xsl:template>
@@ -336,6 +356,17 @@
   </xsl:template>
 
   <xsl:template name="particDesc">
+    <xsl:choose>
+      <xsl:when test="$speakersjson">
+        <xsl:call-template name="particDesc-from-json"/>
+      </xsl:when>
+      <xsl:when test="//tei:sp/@who">
+        <xsl:call-template name="particDesc-from-who"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="particDesc-from-who">
     <particDesc>
       <listPerson>
         <xsl:for-each select="distinct-values(//tei:sp/@who/tokenize(., ' '))">
@@ -344,6 +375,38 @@
               <xsl:value-of select="d:id-to-name(.)"/>
             </persName>
           </person>
+        </xsl:for-each>
+      </listPerson>
+    </particDesc>
+  </xsl:template>
+
+  <xsl:template name="particDesc-from-json">
+    <xsl:variable name="speakers" select="fn:json-doc($speakersjson)"/>
+    <particDesc>
+      <listPerson>
+        <xsl:for-each select="$speakers?particDesc?*">
+          <xsl:choose>
+            <xsl:when test="?isGroup">
+              <personGrp xml:id="{concat($meta/@id, '-', ?id)}">
+                <xsl:if test="?sex">
+                  <xsl:attribute name="sex" select="?sex"/>
+                </xsl:if>
+                <name>
+                  <xsl:value-of select="?name"/>
+                </name>
+              </personGrp>
+            </xsl:when>
+            <xsl:otherwise>
+              <person xml:id="{concat($meta/@id, '-', ?id)}">
+                <xsl:if test="?sex">
+                  <xsl:attribute name="sex" select="?sex"/>
+                </xsl:if>
+                <persName>
+                  <xsl:value-of select="?name"/>
+                </persName>
+              </person>
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:for-each>
       </listPerson>
     </particDesc>
