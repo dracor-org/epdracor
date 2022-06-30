@@ -164,8 +164,8 @@
         </titleStmt>
         <xsl:call-template name="publicationStmt"/>
         <xsl:call-template name="sourceDesc"/>
-        <xsl:call-template name="profileDesc"/>
       </fileDesc>
+      <xsl:call-template name="profileDesc"/>
     </teiHeader>
     <standOff>
       <xsl:if test="//tei:xenoData/ep:epHeader/ep:creationYear">
