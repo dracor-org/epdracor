@@ -168,6 +168,7 @@
         <xsl:call-template name="sourceDesc"/>
       </fileDesc>
       <xsl:call-template name="profileDesc"/>
+      <xsl:call-template name="revisionDesc"/>
     </teiHeader>
     <standOff>
       <xsl:if test="//tei:xenoData/ep:epHeader/ep:creationYear">
@@ -410,5 +411,22 @@
         </xsl:for-each>
       </listPerson>
     </particDesc>
+  </xsl:template>
+
+  <xsl:template name="revisionDesc">
+    <xsl:if test="$speakersjson">
+      <xsl:variable name="speakers" select="fn:json-doc($speakersjson)"/>
+      <xsl:if test="count($speakers?changes?*) > 0">
+        <revisionDesc>
+          <listChange>
+            <xsl:for-each select="$speakers?changes?*">
+              <change when="{?when}">
+                <xsl:value-of select="?text"/>
+              </change>
+            </xsl:for-each>
+          </listChange>
+        </revisionDesc>
+      </xsl:if>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
