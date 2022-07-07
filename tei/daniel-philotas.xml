@@ -86,82 +86,73 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000359-philotas">
+            <person xml:id="ep000359-philotas" sex='MALE'>
               <persName>Philotas</persName>
             </person>
-            <person xml:id="ep000359-chalisthenes">
+            <person xml:id="ep000359-chalisthenes" sex='MALE'>
               <persName>Chalisthenes</persName>
             </person>
-            <person xml:id="ep000359-cebalinus">
+            <person xml:id="ep000359-cebalinus" sex='MALE'>
               <persName>Cebalinus</persName>
             </person>
-            <person xml:id="ep000359-antigona">
+            <person xml:id="ep000359-antigona" sex='FEMALE'>
               <persName>Antigona</persName>
             </person>
-            <person xml:id="ep000359-thais">
+            <person xml:id="ep000359-thais" sex='FEMALE'>
               <persName>Thais</persName>
             </person>
-            <person xml:id="ep000359-unassigned">
-              <persName>Unassigned</persName>
-            </person>
-            <person xml:id="ep000359-chorus">
-              <persName>Chorus</persName>
-            </person>
-            <person xml:id="ep000359-alexander">
+            <person xml:id="ep000359-alexander" sex='MALE'>
               <persName>Alexander</persName>
             </person>
-            <person xml:id="ep000359-ephestion">
+            <person xml:id="ep000359-ephestion" sex='MALE'>
               <persName>Ephestion</persName>
             </person>
-            <person xml:id="ep000359-craterus">
+            <person xml:id="ep000359-craterus" sex='MALE'>
               <persName>Craterus</persName>
             </person>
-            <person xml:id="ep000359-servant">
+            <person xml:id="ep000359-servant" sex='MALE'>
               <persName>Servant</persName>
             </person>
-            <person xml:id="ep000359-metron">
+            <person xml:id="ep000359-metron" sex='MALE'>
               <persName>Metron</persName>
             </person>
-            <person xml:id="ep000359-guard">
+            <person xml:id="ep000359-guard" sex='MALE'>
               <persName>Guard</persName>
             </person>
-            <person xml:id="ep000359-perdicas">
+            <person xml:id="ep000359-perdicas" sex='MALE'>
               <persName>Perdicas</persName>
             </person>
-            <person xml:id="ep000359-clitus">
+            <person xml:id="ep000359-clitus" sex='MALE'>
               <persName>Clitus</persName>
             </person>
-            <person xml:id="ep000359-sostratus">
+            <person xml:id="ep000359-sostratus" sex='MALE'>
               <persName>Sostratus</persName>
             </person>
-            <person xml:id="ep000359-attarus">
+            <person xml:id="ep000359-attarus" sex='MALE'>
               <persName>Attarus</persName>
             </person>
-            <person xml:id="ep000359-nichomachus">
+            <person xml:id="ep000359-nichomachus" sex='MALE'>
               <persName>Nichomachus</persName>
             </person>
-            <person xml:id="ep000359-mot">
-              <persName>Mot</persName>
-            </person>
-            <person xml:id="ep000359-amyntas">
+            <person xml:id="ep000359-amyntas" sex='MALE'>
               <persName>Amyntas</persName>
             </person>
-            <person xml:id="ep000359-caenus">
+            <person xml:id="ep000359-caenus" sex='MALE'>
               <persName>Caenus</persName>
             </person>
-            <person xml:id="ep000359-bel">
-              <persName>Bel</persName>
+            <person xml:id="ep000359-belon" sex='MALE'>
+              <persName>Belon</persName>
             </person>
-            <person xml:id="ep000359-greek">
-              <persName>Greek</persName>
+            <personGrp xml:id="ep000359-greeks" sex='MALE'>
+              <persName>Three Greeks</persName>
+            </personGrp>
+            <person xml:id="ep000359-persian" sex='MALE'>
+              <persName>A Persian</persName>
             </person>
-            <person xml:id="ep000359-polidamas">
+            <person xml:id="ep000359-polidamas" sex='MALE'>
               <persName>Polidamas</persName>
             </person>
-            <person xml:id="ep000359-polidamus">
-              <persName>Polidamus</persName>
-            </person>
-            <person xml:id="ep000359-nuntius">
+            <person xml:id="ep000359-nuntius" sex='MALE'>
               <persName>Nuntius</persName>
             </person>
           </listPerson>
@@ -170,6 +161,11 @@
           <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-07-04">(Luca Giovannini) Fixed speaker tags and particDesc. Reasons for splitting "chorus" in "greeks" + "persian" at https://cord.ung.edu/daniphil.html </change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -799,14 +795,14 @@
               <l>That vnto mee poore captiue should befall </l>
               <l>So great a grace in such a worthies eyes. </l>
             </sp>
-            <sp who="#ep000359-unassigned" xml:id="ep000359-e104960">
+            <sp who="#ep000359-thais" xml:id="ep000359-e104960">
               <speaker>Tha, Antigona, </speaker>
               <l>I enuie not thy loue, </l>
               <l>But thinks thee blest t'inioy him in that sort. </l>
               <l>But tell me truly didst thou euer proue </l>
               <l>Whether he lou'd in earnest or in sporte </l>
             </sp>
-            <sp who="#ep000359-unassigned" xml:id="ep000359-e105010">
+            <sp who="#ep000359-antigona" xml:id="ep000359-e105010">
               <speaker>Ant. Thais; </speaker>
               <l>let m'a little glory in my grace, </l>
               <l>Out of the passion of the ioy I feele </l>
@@ -918,7 +914,7 @@
               <l>To haue th'aduantage that may here be had. </l>
             </sp>
             <pb xml:id="ep000359-079-b"/>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e106050">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e106050">
               <speaker>CHORVS. </speaker>
               <l>WE as the Chorus of the vulgar stand </l>
               <l>Spectators here, to see these great men play </l>
@@ -1322,7 +1318,7 @@
               <speaker>Crat. </speaker>
               <l>Then come go with me to Alexander. </l>
             </sp>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e109480">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e109480">
               <speaker>CHORVS. </speaker>
               <lg>
                 <l>HOw dost thou weare, and weary out thy dayes, </l>
@@ -1984,7 +1980,7 @@
               </lg>
               <stage xml:id="ep000359-e114440">Exeunt </stage>
             </sp>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e114450">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e114450">
               <speaker>CHORVS. </speaker>
               <lg>
                 <l>SEE how these greatmen cloth their priuate hate, </l>
@@ -2241,7 +2237,7 @@
                 <l>Droceus with Aphebaetus and himselfe. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-mot" xml:id="ep000359-e116480">
+            <sp who="#ep000359-metron" xml:id="ep000359-e116480">
               <speaker>Mot </speaker>
               <l>Thus much his brother Ceballinus did </l>
               <l>Reueale to me from out this youthes report. </l>
@@ -2743,7 +2739,7 @@
                 <l>But if pursude they will be thought not vaine. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-unassigned" xml:id="ep000359-e120450">
+            <sp who="#ep000359-craterus" xml:id="ep000359-e120450">
               <speaker>Cra. </speaker>
               <lg>
                 <l>But wordes according to the person way, </l>
@@ -2928,7 +2924,7 @@
                 <l>The secret'st thought that could imagin ill. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-bel" xml:id="ep000359-e121960">
+            <sp who="#ep000359-belon" xml:id="ep000359-e121960">
               <speaker>Bel. </speaker>
               <lg>
                 <l>What need we send to know more then we know </l>
@@ -2971,7 +2967,7 @@
           <head>ACTVS 5. </head>
           <div type="scene" xml:id="ep000359-e122250">
             <stage xml:id="ep000359-e122260">Chorus. Grecian and Persian. </stage>
-            <sp who="#ep000359-perdicas" xml:id="ep000359-e122270">
+            <sp who="#ep000359-persian" xml:id="ep000359-e122270">
               <speaker>Per. </speaker>
               <lg>
                 <l>WEll then I see there is small difference </l>
@@ -3009,14 +3005,14 @@
                 <l>How euer strong his cause, his state is weake. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greek" xml:id="ep000359-e122600">
+            <sp who="#ep000359-greeks" xml:id="ep000359-e122600">
               <speaker>Gre. </speaker>
               <lg>
                 <l>Ah, but it satisfies the world, and wee </l>
                 <l>Think that well don, which done by law we see. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-perdicas" xml:id="ep000359-e122640">
+            <sp who="#ep000359-persian" xml:id="ep000359-e122640">
               <speaker>Per. </speaker>
               <lg>
                 <l>And yet your law serues but your priuate ends </l>
@@ -3025,14 +3021,14 @@
                 <l>To sit in iudgments thus themselues with you? </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greek" xml:id="ep000359-e122700">
+            <sp who="#ep000359-greeks" xml:id="ep000359-e122700">
               <speaker>Gre. </speaker>
               <lg>
                 <l>To do men iustice is the thing that bringes </l>
                 <l>The greatest maiesty on earth to Kings. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-perdicas" xml:id="ep000359-e122740">
+            <sp who="#ep000359-persian" xml:id="ep000359-e122740">
               <speaker>Per. </speaker>
               <lg>
                 <l>That by their subalternate ministers </l>
@@ -3047,20 +3043,20 @@
                 <l>May not descend to be from what they are. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greek" xml:id="ep000359-e122860">
+            <sp who="#ep000359-greeks" xml:id="ep000359-e122860">
               <speaker>Gre. </speaker>
               <lg>
                 <l>Where kings are so like gods, there subiects are not men, </l>
               </lg>
             </sp>
-            <sp who="#ep000359-perdicas" xml:id="ep000359-e122890">
+            <sp who="#ep000359-persian" xml:id="ep000359-e122890">
               <speaker>Per. </speaker>
               <lg>
                 <l>Your king begins this course, &amp; what wil you be then? </l>
               </lg>
             </sp>
             <pb xml:id="ep000359-104-b"/>
-            <sp who="#ep000359-greek" xml:id="ep000359-e122920">
+            <sp who="#ep000359-greeks" xml:id="ep000359-e122920">
               <speaker>Gre. </speaker>
               <lg>
                 <l>Indeed since prosperous fortune gaue the raine </l>
@@ -3114,14 +3110,14 @@
                 <l>But them more wary makes, then they haue ben. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-perdicas" xml:id="ep000359-e123420">
+            <sp who="#ep000359-persian" xml:id="ep000359-e123420">
               <speaker>Per. </speaker>
               <lg>
                 <l>Are not your great-men free from tortures then </l>
                 <l>Must they be likewise rackt, as other men? </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greek" xml:id="ep000359-e123460">
+            <sp who="#ep000359-greeks" xml:id="ep000359-e123460">
               <speaker>Gre. </speaker>
               <lg>
                 <l>Treason affords a priuiledg to none </l>
@@ -3176,7 +3172,7 @@
                 <l>Must that olde worthy man Parmenio die? </l>
               </lg>
             </sp>
-            <sp who="#ep000359-polidamus" xml:id="ep000359-e123890">
+            <sp who="#ep000359-polidamas" xml:id="ep000359-e123890">
               <speaker>Pol. </speaker>
               <lg>
                 <l>O Sostratus he hath his doome to die, </l>
@@ -3207,7 +3203,7 @@
                 <l>But will you charge your honour with this shame? </l>
               </lg>
             </sp>
-            <sp who="#ep000359-polidamus" xml:id="ep000359-e124130">
+            <sp who="#ep000359-polidamas" xml:id="ep000359-e124130">
               <speaker>Poli. </speaker>
               <lg>
                 <l>I must or be vndone with all my name. </l>
@@ -3244,7 +3240,7 @@
                 <l>We others ruynes worke, and others ours. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e124460">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e124460">
               <speaker>Cho. P. </speaker>
               <lg>
                 <l>Why this is right now Alexander takes </l>
@@ -3254,7 +3250,7 @@
                 <l>No doubtfull noyse, but buries clamor quick. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greek" xml:id="ep000359-e124520">
+            <sp who="#ep000359-greeks" xml:id="ep000359-e124520">
               <speaker>Gr. </speaker>
               <lg>
                 <l>Indeed now Persia hath no cause to rew, </l>
@@ -3269,7 +3265,7 @@
                 <l>Philotas ended hath the tragedy. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e124610">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e124610">
               <speaker>Cho. </speaker>
               <lg>
                 <l>Now good my friend I pray thee tell vs how. </l>
@@ -3305,7 +3301,7 @@
                 <l>They staid to torture the kings enemy. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e124900">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e124900">
               <speaker>Cho. </speaker>
               <lg>
                 <l>That part was acted well, God grant we heare </l>
@@ -3455,7 +3451,7 @@
                 </l>
               </lg>
             </sp>
-            <sp who="#ep000359-chorus" xml:id="ep000359-e126140">
+            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e126140">
               <speaker>Cho. </speaker>
               <lg>
                 <l>O would we had not heard this latter iarre, </l>
