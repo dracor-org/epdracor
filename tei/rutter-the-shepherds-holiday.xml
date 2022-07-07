@@ -87,75 +87,74 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000241-montanus">
+            <person xml:id="ep000241-montanus" sex='MALE'>
               <persName>Montanus</persName>
             </person>
-            <person xml:id="ep000241-thyrsis">
+            <person xml:id="ep000241-thyrsis" sex='FEMALE'>
               <persName>Thyrsis</persName>
             </person>
-            <person xml:id="ep000241-boy">
+            <person xml:id="ep000241-boy" sex='MALE'>
               <persName>Boy</persName>
             </person>
-            <person xml:id="ep000241-mirtillus">
+            <person xml:id="ep000241-mirtillus" sex='MALE'>
               <persName>Mirtillus</persName>
             </person>
-            <person xml:id="ep000241-hylas">
+            <person xml:id="ep000241-hylas" sex='MALE'>
               <persName>Hylas</persName>
             </person>
-            <person xml:id="ep000241-dorinda">
+            <person xml:id="ep000241-dorinda" sex='FEMALE'>
               <persName>Dorinda</persName>
             </person>
-            <person xml:id="ep000241-nerina">
+            <person xml:id="ep000241-nerina" sex='FEMALE'>
               <persName>Nerina</persName>
             </person>
-            <person xml:id="ep000241-charinus">
+            <person xml:id="ep000241-charinus" sex='MALE'>
               <persName>Charinus</persName>
             </person>
-            <person xml:id="ep000241-daphnis">
+            <person xml:id="ep000241-daphnis" sex='FEMALE'>
               <persName>Daphnis</persName>
             </person>
-            <person xml:id="ep000241-unassigned">
-              <persName>Unassigned</persName>
-            </person>
-            <person xml:id="ep000241-song">
-              <persName>Song</persName>
-            </person>
-            <person xml:id="ep000241-delia">
+            <person xml:id="ep000241-delia" sex='FEMALE'>
               <persName>Delia</persName>
             </person>
-            <person xml:id="ep000241-sylvia">
+            <person xml:id="ep000241-sylvia" sex='FEMALE'>
               <persName>Sylvia</persName>
             </person>
-            <person xml:id="ep000241-silvia">
-              <persName>Silvia</persName>
-            </person>
-            <person xml:id="ep000241-euarchus">
+            <person xml:id="ep000241-euarchus" sex='MALE'>
               <persName>Euarchus</persName>
             </person>
-            <person xml:id="ep000241-cleander">
+            <person xml:id="ep000241-cleander" sex='MALE'>
               <persName>Cleander</persName>
             </person>
-            <person xml:id="ep000241-nuntius">
+            <person xml:id="ep000241-nuntius" sex='MALE'>
               <persName>Nuntius</persName>
             </person>
-            <person xml:id="ep000241-eubulus">
+            <person xml:id="ep000241-eubulus" sex='MALE'>
               <persName>Eubulus</persName>
             </person>
-            <person xml:id="ep000241-yyyy_1">
-              <persName>Yyyy 1</persName>
+            <person xml:id="ep000241-shepard-1" sex='MALE'>
+              <persName>Shepard 1</persName>
             </person>
-            <person xml:id="ep000241-yyyy_2">
-              <persName>Yyyy 2</persName>
+            <person xml:id="ep000241-shepard-2" sex='MALE'>
+              <persName>Shepard 2</persName>
             </person>
-            <person xml:id="ep000241-alcon">
+            <person xml:id="ep000241-alcon" sex='MALE'>
               <persName>Alcon</persName>
             </person>
+            <personGrp xml:id="ep000241-chorus" sex='UNKNOWN'>
+              <persName>Chorus</persName>
+            </personGrp>
           </listPerson>
         </particDesc>
         <textClass>
           <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-07-06">(Luca Giovannini) Fixed speaker tags and particDesc.</change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -332,6 +331,7 @@
             <div n="1" type="scene" xml:id="ep000241-e101360">
               <head>SCENA 1. </head>
               <stage xml:id="ep000241-e101370">Thyrsis, Montanus. </stage>
+              <sp who="#ep000241-thyrsis" xml:id="ep000241-e101670">
               <lg>
                 <l>HEre in this Grove I left her, here amongst </l>
                 <l>These Poplars, Laurells, and these Sycamors, </l>
@@ -362,6 +362,7 @@
                 <l>Ile levell with the ground, untill it be </l>
                 <l>As desolate as I. </l>
               </lg>
+              </sp>
               <sp who="#ep000241-montanus" xml:id="ep000241-e101650">
                 <speaker>Mon. </speaker>
                 <p>Alas poore shepheard! </p>
@@ -548,6 +549,7 @@
             <div n="2" type="scene" xml:id="ep000241-e103040">
               <head>SCENA SECUNDA. </head>
               <stage xml:id="ep000241-e103050">Hylas, Mirtillus. </stage>
+              <sp who="#ep000241-hylas" xml:id="ep000241-e103160">
               <l>BEleeve Mirtillus, never any love </l>
               <l>Was bought with other price then love alone, </l>
               <l>Since nothing is more precious then it selfe. </l>
@@ -555,6 +557,7 @@
               <l>Which wise Prometheus first indu'd us with; </l>
               <pb xml:id="ep000241-008-b"/>
               <l>And he must love that would be lov'd againe. </l>
+              </sp>
               <sp who="#ep000241-mirtillus" xml:id="ep000241-e103120">
                 <speaker>Mi. </speaker>
                 <l>Why? who can say Mirtillus does not love, </l>
@@ -682,10 +685,12 @@
             <div n="3" type="scene" xml:id="ep000241-e104050">
               <head>SCENA III. </head>
               <stage xml:id="ep000241-e104060">Merina, Dorinda. </stage>
+              <sp who="#ep000241-nerina" xml:id="ep000241-e104130">
               <l>DOrinda, I have mist the chase to day, </l>
               <l>Such is my chance, and he that lodg'd the deere, </l>
               <pb xml:id="ep000241-010-a"/>
               <l>Told me it was the fairest in these Woods. </l>
+              </sp>
               <sp who="#ep000241-dorinda" xml:id="ep000241-e104100">
                 <speaker>Do. </speaker>
                 <l>The Gods doe love you sure, that have left </l>
@@ -834,8 +839,10 @@
             <div n="4" type="scene" xml:id="ep000241-e105130">
               <head>SCENA QVARTA. </head>
               <stage xml:id="ep000241-e105140">Hylas, Mirtillus, Charinus, Daphnis. </stage>
+              <sp who="#ep000241-daphnis" xml:id="ep000241-e104130">
               <l>PAn be as cruell to his flocks and him, </l>
               <l>As he has bin to me. </l>
+              </sp>
               <sp who="#ep000241-mirtillus" xml:id="ep000241-e105170">
                 <speaker>Mi. </speaker>
                 <l>Go, leave your cursing, </l>
@@ -989,12 +996,14 @@
               <head>SCENA PRIM. </head>
               <stage xml:id="ep000241-e106230">Thyrsis, Montanus. </stage>
               <stage xml:id="ep000241-e106240">To them Mirtillus. </stage>
+              <sp who="#ep000241-mirtillus" xml:id="ep000241-e104130">
               <l>THis day the Sunne shot forth his beames as faire </l>
               <l>As ere he did, and through the trembling aire </l>
               <l>Coole Zephyrus with gentle murmuring </l>
               <l>Breath'd a new freshnesse on each Tree and Plant: </l>
               <l>My Kids as game some too, as ere they were; </l>
               <l>All shew a face of gladnesse but my selfe. </l>
+              </sp>
               <sp who="#ep000241-montanus" xml:id="ep000241-e106310">
                 <speaker>Mon. </speaker>
                 <p>And why not you aswell by their example? </p>
@@ -1131,7 +1140,7 @@
                 <l>And yet I doe not envie thee the pleasure, </l>
                 <l>Thou hast in thy dispers'd affections. </l>
               </sp>
-              <sp who="#ep000241-unassigned" xml:id="ep000241-e107290">
+              <sp who="#ep000241-mirtillus" xml:id="ep000241-e107290">
                 <speaker>M. </speaker>
                 <l>You would, if your head were right once; but love, </l>
                 <l>Your love does make an Asse of all your reason. </l>
@@ -1251,7 +1260,9 @@
             <div n="2" type="scene" xml:id="ep000241-e108120">
               <head>SCENA SECUNDA. </head>
               <stage xml:id="ep000241-e108130">Nerina, Hylas, Mirtillus. </stage>
+              <sp who="#ep000241-nerina" xml:id="ep000241-e104130">
               <p>SHepheard, I would you'd leave to follow me. </p>
+              </sp>
               <sp who="#ep000241-hylas" xml:id="ep000241-e108150">
                 <speaker>Hy. </speaker>
                 <p>How can I sweetest, when my heart is with you? </p>
@@ -1423,7 +1434,8 @@
             </div>
             <div n="3" type="scene" xml:id="ep000241-e109360">
               <head>SCENA TERTIA. </head>
-              <stage xml:id="ep000241-e109370">Nerina. </stage>
+              <sp who="#ep000241-nerina" xml:id="ep000241-e104130">
+              <speaker>Nerina. </speaker>
               <l>ALas my Hylas, my beloved soule, </l>
               <l>Durst she, whom thou hast call'd cruell Nerina, </l>
               <l>But speake her thoughts, thou wouldst not thinke her so, </l>
@@ -1439,10 +1451,12 @@
               <l>Then either love give me my libertie, </l>
               <l>Or nature from my duty set me free. <stage xml:id="ep000241-e109510">Exit. </stage>
               </l>
+              </sp>
             </div>
             <div n="4" type="scene" xml:id="ep000241-e109520">
               <head>SCENA QUARTA. </head>
-              <stage xml:id="ep000241-e109530">Daphnis. </stage>
+              <sp who="#ep000241-daphnis" xml:id="ep000241-e104130">
+              <speaker>Daphnis. </speaker>
               <l>NErina, since nor teares nor praiers can move </l>
               <l>Thy stubborne heart, Ile see what gifts can do: </l>
               <l>They of my ranke, whom most do deeme unworthy </l>
@@ -1477,12 +1491,15 @@
               <l>A curse light on her importunitie. </l>
               <l>Her father urges something, and I hope </l>
               <l>On my behalfe; let me observe a little. </l>
+              </sp>
             </div>
             <div n="5" type="scene" xml:id="ep000241-e109870">
               <head>SCENA QUINTA. </head>
               <stage xml:id="ep000241-e109880">Charinus, Nerina, Dorinda, Daphnis. </stage>
+              <sp who="#ep000241-charinus" xml:id="ep000241-e104130">
               <l>ANd as I oft have told you, I doe wish </l>
               <l>To see you wise. </l>
+              </sp>
               <pb xml:id="ep000241-019-a"/>
               <sp who="#ep000241-dorinda" xml:id="ep000241-e109910">
                 <speaker>Do. </speaker>
@@ -1844,17 +1861,15 @@
             <div n="1" type="scene" xml:id="ep000241-e112100">
               <head>SCENA 1. </head>
               <stage xml:id="ep000241-e112110">Sylvia, Delia. </stage>
-              <sp who="#ep000241-song" xml:id="ep000241-e112120">
                 <lg type="song">
                   <lg n="1">
+                    <sp who="#ep000241-sylvia" xml:id="ep000241-e112370">
                     <l>Q. TEll me what you thinke on earth </l>
                     <l>The greatest blisse? </l>
                     <l>A. Riches, honor, and high birth. </l>
                     <l>Q. Ah, what is this? </l>
                     <l>If love be banished the heart, </l>
                     <l>The joy of Nature, not of Art? </l>
-                  </lg>
-                  <lg n="2">
                     <head>2. </head>
                     <l>What's honor worth, or high descent? </l>
                     <l>Or ample wealth, </l>
@@ -1863,18 +1878,19 @@
                     <pb xml:id="ep000241-022-a"/>
                     <l>A. It is the order of the Fates, </l>
                     <l>That these should waite on highest states. </l>
+                    </sp>
                   </lg>
                   <lg n="3">
-                    <head>3. </head>
-                    <l>Cho. Love onely does our soules refine, </l>
+                <sp who="#ep000241-chorus" xml:id="ep000241-e104130">
+                    <l>Love onely does our soules refine, </l>
                     <l>And by his skill </l>
                     <l>Turnes humane things into divine, </l>
                     <l>And guides our will. </l>
                     <l>Then let us of his praises sing, </l>
                     <l>Of love, that sweetens every thing. </l>
+                </sp>
                   </lg>
                 </lg>
-              </sp>
               <sp who="#ep000241-delia" xml:id="ep000241-e112350">
                 <speaker>Del. </speaker>
                 <p>Madam, you're overheard. </p>
@@ -2138,7 +2154,7 @@
                 <l>I should be a Queene indeed; in the meane time, </l>
                 <l>As I am Delia, Ile do this busines. </l>
               </sp>
-              <sp who="#ep000241-silvia" xml:id="ep000241-e114340">
+              <sp who="#ep000241-sylvia" xml:id="ep000241-e114340">
                 <speaker>Sil. </speaker>
                 <l>Do it, and when th' hast don, the God of love </l>
                 <l>Reward thee with thine owne desires for this. </l>
@@ -2151,11 +2167,13 @@
             <div n="2" type="scene" xml:id="ep000241-e114390">
               <head>SCENA 2. </head>
               <stage xml:id="ep000241-e114400">Cleander, Eubulus. </stage>
+              <sp who="#ep000241-cleander" xml:id="ep000241-e112370">
               <l>SIr you have put a bridle on my passions, </l>
               <l>And given my soule the libertie it wisht: </l>
               <l>I now intreate your pardon, for beginning </l>
               <l>A thing of so great consequence without </l>
               <l>Leave and advice from you. </l>
+              </sp>
               <sp who="#ep000241-euarchus" xml:id="ep000241-e114460">
                 <speaker>Eu. </speaker>
                 <l>Tis well Cleander, </l>
@@ -2365,9 +2383,11 @@
             <div n="3" type="scene" xml:id="ep000241-e115930">
               <head>SCENA 3. </head>
               <stage xml:id="ep000241-e115940">Hylas, Mirtillus, Chorus of Shepheards and Shepheardesses, representing Paris, Oenone, Venus, and the Graces. </stage>
+              <sp who="#ep000241-hylas" xml:id="ep000241-e112370">
               <l>IT was my dreame, and I will send it to her; </l>
               <l>Though I my selfe by her too cruell sentence, </l>
               <l>Must never see her face. </l>
+              </sp>  
               <sp who="#ep000241-mirtillus" xml:id="ep000241-e115980">
                 <speaker>Mi. </speaker>
                 <l>What paper's that? </l>
@@ -2441,8 +2461,8 @@
                 <l>The Invitation to your offering. </l>
               </sp>
               <stage xml:id="ep000241-e116550">Venus, and the Graces sing. </stage>
-              <sp who="#ep000241-song" xml:id="ep000241-e116560">
-                <lg type="song">
+              <sp who="#ep000241-chorus" xml:id="ep000241-e112370">  
+              <lg type="song">
                   <lg>
                     <l>COme lovely boy unto my Court, </l>
                     <l>And leave these uncouth woods, and all </l>
@@ -2516,7 +2536,7 @@
                 <l>Could spend his force upon her? she was well </l>
                 <l>This morning, when she made poore Hylas sicke. </l>
               </sp>
-              <sp who="#ep000241-unassigned" xml:id="ep000241-e117060">
+              <sp who="#ep000241-nuntius" xml:id="ep000241-e117060">
                 <speaker>Mun. </speaker>
                 <l>I know not, I am sent unto the well </l>
                 <l>Of Aesculapius to fetch some water </l>
@@ -2545,9 +2565,11 @@
             <div n="4" type="scene" xml:id="ep000241-e117210">
               <head>SCENA. 4. </head>
               <stage xml:id="ep000241-e117220">Charinus, Nerina, Dorinda, Hylas, Mirtillus, Nuntius. </stage>
+              <sp who="#ep000241-charinus" xml:id="ep000241-e112370">
               <l>HOld up thy head good childe, see he is come; </l>
               <l>Bring me the water quickly, whilst there is </l>
               <l>Some life in her: now chafe her good Dorinda. </l>
+              </sp>
               <sp who="#ep000241-nerina" xml:id="ep000241-e117260">
                 <speaker>Ne. </speaker>
                 <l>All is in vaine, I cannot live; deare father </l>
@@ -2772,6 +2794,7 @@
             <div n="1" type="scene" xml:id="ep000241-e118720">
               <head>SCENA 1. </head>
               <stage xml:id="ep000241-e118730">Thyrsis, Delia. </stage>
+              <sp who="#ep000241-thyrsis" xml:id="ep000241-e112370">
               <l>HEre I am come unto a place, where griefe </l>
               <pb xml:id="ep000241-032-a"/>
               <l>They say has no abode. In Princes Courts, </l>
@@ -2790,6 +2813,7 @@
               <l>Thou maist auoide, thy love will still remaine, </l>
               <l>And when thou diest, then may it die with thee; </l>
               <l>Till then resolve to endure thy misery. </l>
+              </sp>
               <sp who="#ep000241-delia" xml:id="ep000241-e118910">
                 <speaker>Del. </speaker>
                 <l>This is the garden, which I saw him go to, </l>
@@ -3119,8 +3143,10 @@
             <div n="3" type="scene" xml:id="ep000241-e121210">
               <head>SCENA 3. </head>
               <stage xml:id="ep000241-e121220">Sylvia, Thyrsis, Cleander. </stage>
+              <sp who="#ep000241-sylvia" xml:id="ep000241-e112370">
               <l>NAy stay a little Thyrsis, we are safe, </l>
               <l>My warie keepers now are with the King. </l>
+              </sp>
               <sp who="#ep000241-thyrsis" xml:id="ep000241-e121250">
                 <speaker>Thy. </speaker>
                 <l>Madam, for my poore selfe I doe not feare, </l>
@@ -3463,15 +3489,15 @@
             <div n="4" type="scene" xml:id="ep000241-e123810">
               <head>SCENA 4. </head>
               <stage xml:id="ep000241-e123820">Mirtillus, Chorus of shepheards. </stage>
-              <sp who="#ep000241-yyyy_1" xml:id="ep000241-e123830">
+              <sp who="#ep000241-shepard-1" xml:id="ep000241-e123830">
                 <speaker>1 shep. </speaker>
                 <p>I'me sorry that this busines went not forward. </p>
               </sp>
-              <sp who="#ep000241-yyyy_2" xml:id="ep000241-e123850">
+              <sp who="#ep000241-shepard-2" xml:id="ep000241-e123850">
                 <speaker>2 shep. </speaker>
                 <p>So am not I, we're rid of so much trouble. </p>
               </sp>
-              <sp who="#ep000241-yyyy_2" xml:id="ep000241-e123870">
+              <sp who="#ep000241-shepard-2" xml:id="ep000241-e123870">
                 <speaker>2 shep. </speaker>
                 <l>Yet it is strange the King should send for us, </l>
                 <l>And when we were come, command us to returne. </l>
@@ -3484,11 +3510,11 @@
                 <l>And every man shall dance with his owne sweetheart: </l>
                 <l>What say you shepheards, wil't not be as well? </l>
               </sp>
-              <sp who="#ep000241-yyyy_1" xml:id="ep000241-e123960">
+              <sp who="#ep000241-shepard-1" xml:id="ep000241-e123960">
                 <speaker>1 shep. </speaker>
                 <p>It will be very fine. But where is Thyrsis? </p>
               </sp>
-              <sp who="#ep000241-yyyy_2" xml:id="ep000241-e123980">
+              <sp who="#ep000241-shepard-2" xml:id="ep000241-e123980">
                 <speaker>2. shep. </speaker>
                 <l>I, where is he! you went along with him, </l>
                 <l>Where did you leave him? </l>
@@ -3498,7 +3524,7 @@
                 <l>Walking in a garden, </l>
                 <l>Where when I came to call him, he was gon. </l>
               </sp>
-              <sp who="#ep000241-yyyy_2" xml:id="ep000241-e124040">
+              <sp who="#ep000241-shepard-2" xml:id="ep000241-e124040">
                 <speaker>2 shep. </speaker>
                 <p>It seemes he cares not for our company. </p>
               </sp>
@@ -3507,7 +3533,7 @@
                 <speaker>Mi. </speaker>
                 <p>Neither for yours nor any mans besides. </p>
               </sp>
-              <sp who="#ep000241-yyyy_1" xml:id="ep000241-e124080">
+              <sp who="#ep000241-shepard-1" xml:id="ep000241-e124080">
                 <speaker>1 shep. </speaker>
                 <l>He is much alter'd, since his love was lost; </l>
                 <l>Methinks he is nothing like the man he was. </l>
@@ -3520,7 +3546,7 @@
                 <l>Daphnis is mad, they say; if you have a minde </l>
                 <l>To die, or to runne mad, then be in love. </l>
               </sp>
-              <sp who="#ep000241-yyyy_2" xml:id="ep000241-e124170">
+              <sp who="#ep000241-shepard-2" xml:id="ep000241-e124170">
                 <speaker>2 shep. </speaker>
                 <p>See where he comes, in what a fume he is. </p>
               </sp>
@@ -3532,6 +3558,7 @@
             <div n="5" type="scene" xml:id="ep000241-e124210">
               <head>SCENA 5. </head>
               <stage xml:id="ep000241-e124220">Daphnis, to him Dorinda. </stage>
+              <sp who="#ep000241-daphnis" xml:id="ep000241-e112370">
               <l>HE will not now be found the Traitor: but </l>
               <l>Where e're he be, nor heaven, nor hell shall save him </l>
               <l>From my revenge. To take away the life </l>
@@ -3543,6 +3570,7 @@
               <l>To make her mine, but sent her to the Gods. </l>
               <l>Blest soule, I will revenge thy death, and then </l>
               <l>Ile follow thee my selfe. </l>
+              </sp>
               <sp who="#ep000241-dorinda" xml:id="ep000241-e124340">
                 <speaker>Do. </speaker>
                 <l>Daphnis, my love, </l>
@@ -3602,7 +3630,8 @@
             <head>ACT. 5. </head>
             <div n="1" type="scene" xml:id="ep000241-e124680">
               <head>SCENA 1. </head>
-              <stage xml:id="ep000241-e124690">Hylas. </stage>
+              <sp who="#ep000241-hylas" xml:id="ep000241-e112370">
+                <speaker>Hylas.</speaker>
               <l>IT was the cruell practise of my Fate, </l>
               <l>That lifted me unto the height of blisse, </l>
               <l>To make my fall the greater: for no sooner </l>
@@ -3629,15 +3658,18 @@
                 <l>Fed her faire flame, now in their dew she lies. </l>
               </quote>
               <l>Thus I will have it, so the words shall runne. </l>
+              </sp>
             </div>
             <div n="2" type="scene" xml:id="ep000241-e124950">
               <pb xml:id="ep000241-041-b"/>
               <head>SCENA 2. </head>
               <stage xml:id="ep000241-e124960">Daphnis, Alcon, Nerina: to them Hylas, Montanus, Carinus, Mirtillus. </stage>
+              <sp who="#ep000241-daphnis" xml:id="ep000241-e112370">
               <l>IT shall not serve thy turne, malicious shepheard, </l>
               <l>Though thou hast tane my love away by tricks, </l>
               <l>Yet all thy cunning, and thy practises </l>
               <l>Shall not secure thee from my revenge. </l>
+              </sp>
               <sp who="#ep000241-alcon" xml:id="ep000241-e125010">
                 <speaker>Al. </speaker>
                 <l>Are these the thanks I have for that rich jewell </l>
@@ -4260,9 +4292,11 @@
             <div n="3" type="scene" xml:id="ep000241-e128890">
               <head>SCENA 3. </head>
               <stage xml:id="ep000241-e128900">Daphnis, Alcon. To Daphnis, Dorinda. </stage>
+              <sp who="#ep000241-daphnis" xml:id="ep000241-e112370">
               <l>THere is no way to avoide the shame of this: </l>
               <l>Each shepheards boy that sings unto his flocke, </l>
               <l>Will make me the scorn'd subject of his song. </l>
+              </sp>
               <sp who="#ep000241-alcon" xml:id="ep000241-e128940">
                 <speaker>Al. </speaker>
                 <l>Had you bin suddaine as I counsail'd you, </l>
@@ -4413,7 +4447,9 @@
             <div n="4" type="scene" xml:id="ep000241-e129990">
               <head>SCENA 4. </head>
               <stage xml:id="ep000241-e130000">Eubulus, Cleander: to them Thyrsis, Sylvia. </stage>
+              <sp who="#ep000241-eubulus" xml:id="ep000241-e112370">
               <l>WHat, are they dead? Is the Kings will obey'd? </l>
+              </sp>
               <sp who="#ep000241-cleander" xml:id="ep000241-e130020">
                 <speaker>Cle. </speaker>
                 <l>No Sir, they live, and Hymen in his bands </l>
@@ -4704,7 +4740,6 @@
                 <speaker>Syl. </speaker>
                 <p>Let it be sung. </p>
               </sp>
-              <sp who="#ep000241-song" xml:id="ep000241-e132020">
                 <lg type="song">
                   <head>Song. </head>
                   <lg>
@@ -4733,7 +4768,7 @@
                     <l>Perfection, and womanhood. </l>
                   </lg>
                 </lg>
-              </sp>
+              
               <sp who="#ep000241-thyrsis" xml:id="ep000241-e132260">
                 <speaker>Thy. </speaker>
                 <l>Thanks good Mirtillus, this indeed was proper </l>
