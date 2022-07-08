@@ -81,95 +81,80 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000078-francis">
-              <persName>Francis</persName>
+            <person xml:id="ep000078-francis-acton" sex="MALE">
+              <persName>Francis Acton</persName>
             </person>
-            <person xml:id="ep000078-charles">
-              <persName>Charles</persName>
+            <person xml:id="ep000078-charles-mountford" sex="MALE">
+              <persName>Charles Mountford</persName>
             </person>
-            <person xml:id="ep000078-wench">
-              <persName>Wench</persName>
-            </person>
-            <person xml:id="ep000078-frankford">
-              <persName>Frankford</persName>
-            </person>
-            <person xml:id="ep000078-cranwell">
-              <persName>Cranwell</persName>
-            </person>
-            <person xml:id="ep000078-malby">
-              <persName>Malby</persName>
-            </person>
-            <person xml:id="ep000078-anne">
-              <persName>Anne</persName>
-            </person>
-            <person xml:id="ep000078-wendoll">
+            <person xml:id="ep000078-wendoll" sex="MALE">
               <persName>Wendoll</persName>
             </person>
-            <person xml:id="ep000078-jenkin">
+            <person xml:id="ep000078-frankford" sex="MALE">
+              <persName>Frankford</persName>
+            </person>
+            <person xml:id="ep000078-cranwell" sex="MALE">
+              <persName>Cranwell</persName>
+            </person>
+            <person xml:id="ep000078-malby" sex="MALE">
+              <persName>Malby</persName>
+            </person>
+            <person xml:id="ep000078-anne-frankford" sex="FEMALE">
+              <persName>Anne Frankford</persName>
+            </person>
+            <person xml:id="ep000078-jenkin" sex="MALE">
               <persName>Jenkin</persName>
             </person>
-            <person xml:id="ep000078-nicholas">
+            <person xml:id="ep000078-nicholas" sex="MALE">
               <persName>Nicholas</persName>
             </person>
-            <person xml:id="ep000078-jack">
-              <persName>Jack</persName>
-            </person>
-            <person xml:id="ep000078-roger">
+            <person xml:id="ep000078-roger" sex="MALE">
               <persName>Roger</persName>
             </person>
-            <person xml:id="ep000078-sisly">
-              <persName>Sisly</persName>
+            <person xml:id="ep000078-sisly" sex="FEMALE">
+              <persName>Sisly, country wench</persName>
             </person>
-            <person xml:id="ep000078-slime">
-              <persName>Slime</persName>
+            <person xml:id="ep000078-jack-slime" sex="MALE">
+              <persName>Jack Slime</persName>
             </person>
-            <person xml:id="ep000078-all">
-              <persName>All</persName>
-            </person>
-            <person xml:id="ep000078-faulkner">
+            <person xml:id="ep000078-faulkner" sex="MALE">
               <persName>Faulkner</persName>
             </person>
-            <person xml:id="ep000078-jane">
-              <persName>Jane</persName>
-            </person>
-            <person xml:id="ep000078-sheriff">
-              <persName>Sheriff</persName>
-            </person>
-            <person xml:id="ep000078-keeper">
-              <persName>Keeper</persName>
-            </person>
-            <person xml:id="ep000078-shafton">
-              <persName>Shafton</persName>
-            </person>
-            <person xml:id="ep000078-susan">
+            <person xml:id="ep000078-susan" sex="FEMALE">
               <persName>Susan</persName>
             </person>
-            <person xml:id="ep000078-butler">
+            <person xml:id="ep000078-sheriff" sex="MALE">
+              <persName>Sheriff</persName>
+            </person>
+            <person xml:id="ep000078-keeper" sex="MALE">
+              <persName>Keeper</persName>
+            </person>
+            <person xml:id="ep000078-shafton" sex="MALE">
+              <persName>Shafton</persName>
+            </person>
+            <person xml:id="ep000078-butler" sex="MALE">
               <persName>Butler</persName>
             </person>
-            <person xml:id="ep000078-mountford">
-              <persName>Mountford</persName>
+            <person xml:id="ep000078-old-mountford" sex="MALE">
+              <persName>Old Mountfort</persName>
             </person>
-            <person xml:id="ep000078-sandy">
+            <person xml:id="ep000078-sandy" sex="MALE">
               <persName>Sandy</persName>
             </person>
-            <person xml:id="ep000078-roder">
+            <person xml:id="ep000078-roder" sex="MALE">
               <persName>Roder</persName>
             </person>
-            <person xml:id="ep000078-tydy">
+            <person xml:id="ep000078-tydy" sex="MALE">
               <persName>Tydy</persName>
             </person>
-            <person xml:id="ep000078-sergeant">
-              <persName>Sergeant</persName>
+            <person xml:id="ep000078-serving-man" sex="MALE">
+              <persName>Serving man</persName>
             </person>
-            <person xml:id="ep000078-acton">
-              <persName>Acton</persName>
+            <person xml:id="ep000078-spigot" sex="MALE">
+              <persName>Spigot</persName>
             </person>
-            <person xml:id="ep000078-carter">
+            <person xml:id="ep000078-carter" sex="MALE">
               <persName>Carter</persName>
-            </person>
-            <person xml:id="ep000078-sisluy">
-              <persName>Sisluy</persName>
             </person>
           </listPerson>
         </particDesc>
@@ -177,6 +162,11 @@
           <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-06-16">(Luca Giovannini) fixed speaker tags and particDesc</change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -219,22 +209,23 @@
       <div type="play" xml:id="ep000078-e100230">
         <pb type="blank" xml:id="ep000078-003-a"/>
         <pb xml:id="ep000078-003-b"/>
-        <stage xml:id="ep000078-e100240">Enter maister Iohn Frankeford, Sir Francis Acton, Mistris Acton, sir Charles Mountford, Maister Malbie, Maister Wendoll, and Maister Cranwell. </stage>
-        <sp who="#ep000078-francis" xml:id="ep000078-e100250">
+        <stage xml:id="ep000078-e100240">Enter maister Iohn Frankeford, Sir Francis Acton, Mistris
+          Acton, sir Charles Mountford, Maister Malbie, Maister Wendoll, and Maister Cranwell. </stage>
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e100250">
           <speaker>Francis. </speaker>
           <l>SOme musicke there, none lead the Bride a dance? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e100270">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e100270">
           <speaker>Charles. </speaker>
           <l>Yes, would she dance the shaking of the sheetes? </l>
           <l>But thats the dance her Husband meanes to lead her? </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e100300">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e100300">
           <speaker>Wen. </speaker>
           <l>Thats not the dance that euery man must dance </l>
           <l>According to the Ballad. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e100330">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e100330">
           <speaker>Francis. </speaker>
           <l>Musick ho, </l>
           <l>By your leaue Sister, by your Husbands leaue </l>
@@ -247,11 +238,11 @@
           <l>I, you may caper, you are light and free, </l>
           <l>Marriage hath yoakt my heeles, pray then pardon me. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e100420">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e100420">
           <speaker>Francis. </speaker>
           <l>Ile haue you dance to, Brother. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e100440">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e100440">
           <speaker>Charles. </speaker>
           <l>Maister Frankford, </l>
           <l>You are a happy man sir, and much ioy </l>
@@ -281,7 +272,7 @@
           <speaker>Malbie. </speaker>
           <l>Nor flatters he that giues to her her due. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e100650">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e100650">
           <speaker>Anne. </speaker>
           <l>I would your praise could find a fitter theame, </l>
           <l>Then my imperfect beauty to speake on, </l>
@@ -292,7 +283,7 @@
           <l>But the least wrinckle from his stormy brow, </l>
           <l>Will blast the Roses in my cheekes that grow. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e100740">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e100740">
           <speaker>Francis. </speaker>
           <l>A perfect wife already, meeke and patient: </l>
           <l>How strangely the word husband fits your mouth, </l>
@@ -316,7 +307,7 @@
           <l>And you are heire to al: your sister, she </l>
           <l>Hath to her dower, her mothers modesty. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e100940">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e100940">
           <speaker>Charles </speaker>
           <l>Lord sir, in what a happy state liue you, </l>
           <l>This morning, which to many seemes a burden, too </l>
@@ -338,7 +329,7 @@
           <l>Which God bestow on you, from this first day, </l>
           <l>Vntill your dissolution, thats for aye. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101130">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101130">
           <speaker>Francis. </speaker>
           <l>We keepe you here to long good brother Franckford, </l>
           <l>Into the hal. Away, go, cheare your guests? </l>
@@ -351,11 +342,11 @@
           <l>To preuent it, </l>
           <l>Ile leaue you here, to see the dance within. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e101220">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e101220">
           <speaker>Anne. </speaker>
           <l>And so wil I. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101240">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101240">
           <speaker>Fran. </speaker>
           <l>To part you it were sin. </l>
         </sp>
@@ -374,44 +365,44 @@
           <l>Made with their high shooes, though their skill be small, </l>
           <l>Yet they tread heauy where their Hob-nailes fall. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e101390">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e101390">
           <speaker>Char. </speaker>
           <l>Well, leaue them to their sports, Sir Francis Acton </l>
           <l>Ile make a match with you, meet me to morrow </l>
           <l>At Cheuy-chase, Ile flie my Hawke with yours. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101430">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101430">
           <speaker>Fran. </speaker>
           <l>For what? for what? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e101450">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e101450">
           <speaker>Char. </speaker>
           <l>Why for a hundred pound. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101470">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101470">
           <speaker>Fran. </speaker>
           <l>Pawne me some gold of that. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e101490">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e101490">
           <speaker>Char. </speaker>
           <l>Here are ten angels, </l>
           <pb xml:id="ep000078-005-a"/>
           <l>Ile make them good a hundred pound to morrow </l>
           <l>Vpon my Hawkes wing. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101530">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101530">
           <speaker>Fran. </speaker>
           <l>Tis a match, tis done, </l>
           <l>An other hundred pound vpon your Dogs, </l>
           <l>Dare you Sir Charles? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e101570">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e101570">
           <speaker>Char. </speaker>
           <l>I dare, were I sure to loose </l>
           <l>I durst do more then that: heeres my hand, </l>
           <l>The first course for a hundred pound. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101610">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101610">
           <speaker>Fran. </speaker>
           <l>A match. </l>
         </sp>
@@ -431,35 +422,44 @@
           <l>Yes and stake them downe, </l>
           <l>Were they fiue hundred they were all my owne. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101730">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101730">
           <speaker>Fran. </speaker>
           <l>Be stirring early with the Larke to morrow, </l>
           <l>Ile rise into my saddle ere the sunne </l>
           <l>Rise from his bed. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e101770">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e101770">
           <speaker>Char. </speaker>
           <l>If there you misse me, say </l>
           <l>I am no Gentleman: Ile hold my day. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e101800">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e101800">
           <speaker>Fran. </speaker>
           <l>It holds on all sides, come to night lets dance </l>
           <l>Early to morow lets prepare to ride, </l>
           <l>We had neede be three houres vp before the Bride. </l>
         </sp>
-        <stage xml:id="ep000078-e101840">Enter Nick and Ierking, Iacks slime, Roger Brickbat With countrie Wenches, and two or three Musitians. </stage>
+        <stage xml:id="ep000078-e101840">Enter Nick and Ierking, Iacks slime, Roger Brickbat With
+          countrie Wenches, and two or three Musitians. </stage>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e101850">
           <speaker>Ienk. </speaker>
-          <p>Come Nick. take you Ioune, Miniuer to trace withal, Iacke slime, trauerse you with Sisly Milke-pale, I will take Iane trubkin, &amp; Roger Brikbat shall haue Isbell Motly, and now that they are busie in the parlor, come strike vp, weele haue a crash heere in the yard. </p>
+          <p>Come Nick. take you Ioune, Miniuer to trace withal, Iacke slime, trauerse you with
+            Sisly Milke-pale, I will take Iane trubkin, &amp; Roger Brikbat shall haue Isbell Motly,
+            and now that they are busie in the parlor, come strike vp, weele haue a crash heere in
+            the yard. </p>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e101870">
           <speaker>Nick. </speaker>
-          <p>My humor is not compendious: dancing I possesse not, though I can foote it, yet since I am falne into the hands of Sisly Milkepale I assent. </p>
+          <p>My humor is not compendious: dancing I possesse not, though I can foote it, yet since I
+            am falne into the hands of Sisly Milkepale I assent. </p>
         </sp>
-        <sp who="#ep000078-jack" xml:id="ep000078-e101890">
+        <sp who="#ep000078-jack-slime" xml:id="ep000078-e101890">
           <speaker>Iack. </speaker>
-          <p>Truely Nick though we were neuer brought vp like seruing Courtiers, yet we haue bin brought vp with seruing creatures, <pb xml:id="ep000078-005-b"/>I and Gods creaturs to, for we haue bin broght vp to serue Sheepe, Oxen, Horses, and Hogs, and such like, and thogh we be but country fellowe, it may be in the way of dancing, we can do the Horse-tricke as wel as seruingmen. </p>
+          <p>Truely Nick though we were neuer brought vp like seruing Courtiers, yet we haue bin
+            brought vp with seruing creatures, <pb xml:id="ep000078-005-b"/>I and Gods creaturs to,
+            for we haue bin broght vp to serue Sheepe, Oxen, Horses, and Hogs, and such like, and
+            thogh we be but country fellowe, it may be in the way of dancing, we can do the
+            Horse-tricke as wel as seruingmen. </p>
         </sp>
         <sp who="#ep000078-roger" xml:id="ep000078-e101910">
           <speaker>Roger. </speaker>
@@ -467,7 +467,8 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e101930">
           <speaker>Ienk, </speaker>
-          <l>Oh Slime: Oh Brickbat. Do not you know that comparisons are odious, now we are odious our selues to, therfore there are no comparisons to be made betwixt vs. </l>
+          <l>Oh Slime: Oh Brickbat. Do not you know that comparisons are odious, now we are odious
+            our selues to, therfore there are no comparisons to be made betwixt vs. </l>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e101950">
           <speaker>Nick. </speaker>
@@ -475,7 +476,8 @@
           <l>I am quarelsome, and not seditious: </l>
           <l>I am peaceable, and not contentious: </l>
           <l>I am breefe, and not compendious; </l>
-          <l>Slime foot it quickely, if the musicke ouercome not my melancholy I shall quarrell, and if they sodainly do not strike vp, I shal presently strike thee downe. </l>
+          <l>Slime foot it quickely, if the musicke ouercome not my melancholy I shall quarrell, and
+            if they sodainly do not strike vp, I shal presently strike thee downe. </l>
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e102010">
           <speaker>Ienk. </speaker>
@@ -502,7 +504,7 @@
           <speaker>Ienk. </speaker>
           <l>No weele haue the hunting of the Fox. </l>
         </sp>
-        <sp who="#ep000078-slime" xml:id="ep000078-e102140">
+        <sp who="#ep000078-jack-slime" xml:id="ep000078-e102140">
           <speaker>Slime. </speaker>
           <l>The hay, the hay, theres nothing like the hay. </l>
         </sp>
@@ -514,7 +516,9 @@
           <speaker>Ienk </speaker>
           <l>Euery man agree to haue it as Nick saies. </l>
         </sp>
-        <sp who="#ep000078-all" xml:id="ep000078-e102200">
+        <sp
+          who="#ep000078-jack-slime #ep000078-nicholas #ep000078-jenkin #ep000078-roger #ep000078-sisly"
+          xml:id="ep000078-e102200">
           <speaker>All </speaker>
           <l>Content. </l>
         </sp>
@@ -532,9 +536,13 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e102280">
           <speaker>Ienk. </speaker>
-          <l>So the dance wil come cleanly off, come for Gods sake agree of something, if you like not that put it to the Musitians or Let me speake for al, and weele haue Sellengers round. </l>
+          <l>So the dance wil come cleanly off, come for Gods sake agree of something, if you like
+            not that put it to the Musitians or Let me speake for al, and weele haue Sellengers
+            round. </l>
         </sp>
-        <sp who="#ep000078-all" xml:id="ep000078-e102300">
+        <sp
+          who="#ep000078-jack-slime #ep000078-nicholas #ep000078-jenkin #ep000078-roger #ep000078-sisly"
+          xml:id="ep000078-e102200">
           <speaker>All </speaker>
           <l>That: that: that. </l>
         </sp>
@@ -553,13 +561,15 @@
           <l>Musicke strike vp. </l>
         </sp>
         <stage xml:id="ep000078-e102400">
-          <pb xml:id="ep000078-006-a"/>They dance, Nick dancing, speakes stately and scuruily, the rest after the Country fashion. </stage>
+          <pb xml:id="ep000078-006-a"/>They dance, Nick dancing, speakes stately and scuruily, the
+          rest after the Country fashion. </stage>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e102410">
           <speaker>Ienk. </speaker>
           <l>Hey liuely my lasses, heres a turne for thee. </l>
         </sp>
-        <stage xml:id="ep000078-e102430">Wind hornes Enter Sir Charles, Sir Francis Malby, Cranwell, Wendoll, Faulkener, and Huntsmen. </stage>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102440">
+        <stage xml:id="ep000078-e102430">Wind hornes Enter Sir Charles, Sir Francis Malby, Cranwell,
+          Wendoll, Faulkener, and Huntsmen. </stage>
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102440">
           <speaker>Char. </speaker>
           <l>So: well cast off, aloft, aloft, well flowne: </l>
           <l>O now she takes her at the sowse, and strikes her </l>
@@ -569,11 +579,11 @@
           <speaker>Wendol. </speaker>
           <l>She hath stroke ten Angels out of my way. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102500">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102500">
           <speaker>Fran. </speaker>
           <l>A hundred pound from me. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102520">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102520">
           <speaker>Char. </speaker>
           <l>What Faulkener? </l>
         </sp>
@@ -581,23 +591,23 @@
           <speaker>Faulk. </speaker>
           <l>At hand sir. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102560">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102560">
           <speaker>Char. </speaker>
           <l>Now she hath ceazd the Fowle, and gins to plume hir </l>
           <l>Rebeck her not, rather stand stil and checke her, </l>
           <l>So: ceaze her gets, her lesses, and hir bels. </l>
           <l>Away? </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102610">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102610">
           <speaker>Fran. </speaker>
           <l>My Hawke kild to. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102630">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102630">
           <speaker>Char. </speaker>
           <l>I, but twas at the querre, </l>
           <l>Not at the mount like mine. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102660">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102660">
           <speaker>Fran. </speaker>
           <l>Iudgement my maisters. </l>
         </sp>
@@ -614,11 +624,11 @@
           <l>Methinks these millaine bels do sound too full, </l>
           <l>And spoile the mounting of your Hawke. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102770">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102770">
           <speaker>Char. </speaker>
           <l>Tis lost. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102790">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102790">
           <speaker>Fran. </speaker>
           <l>I grant it not: mine likewise ceazd a fowle </l>
           <l>Within her talents, and you saw her pawse </l>
@@ -630,54 +640,54 @@
           <pb xml:id="ep000078-006-b"/>
           <l>Come, come, your Hawke is but a rifler. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102880">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102880">
           <speaker>Fran. </speaker>
           <l>How? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102900">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102900">
           <speaker>Char. </speaker>
           <l>I, and your Dogs are trindle tailes and Curs. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102920">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102920">
           <speaker>Fran. </speaker>
           <l>You stir my blood. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102940">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102940">
           <speaker>Char. </speaker>
           <l>you keepe not a good hound in all your kennell, </l>
           <l>Nor one good Hawke vpon your Perch. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e102970">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e102970">
           <speaker>Fran. </speaker>
           <l>How Knight? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e102990">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e102990">
           <speaker>Char. </speaker>
           <l>So Knight? you will not swagger Sir? </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e103010">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e103010">
           <speaker>Fran. </speaker>
           <l>Why, say I did? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103030">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103030">
           <speaker>Char. </speaker>
           <l>Why sir, I say you would gaine as much by swaggring </l>
           <l>As you haue got by wagers on your Dogs, </l>
           <l>you will come short in al things. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e103070">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e103070">
           <speaker>Fran. </speaker>
           <l>Not in this, now ile strike home. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103090">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103090">
           <speaker>Char. </speaker>
           <l>Thou shalt to thy long home, or I will want my will. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e103110">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e103110">
           <speaker>Fran. </speaker>
           <l>All they that loue Sir Francis follow me. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103130">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103130">
           <speaker>Char. </speaker>
           <l>All that affect Sir Charles draw on my part. </l>
         </sp>
@@ -690,8 +700,10 @@
           <l>Here goes my hart. </l>
         </sp>
         <stage xml:id="ep000078-e103190">They deuide themselues. </stage>
-        <stage xml:id="ep000078-e103200">Sir Charles. Cranwell, Faulkener, and Huntsman, fight against Sir Francis Wendall, his Faulkener, and Huntsman, and Sir Charles hath the better, and beats them away, killing one of Sir Francis his huntsman. </stage>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103210">
+        <stage xml:id="ep000078-e103200">Sir Charles. Cranwell, Faulkener, and Huntsman, fight
+          against Sir Francis Wendall, his Faulkener, and Huntsman, and Sir Charles hath the better,
+          and beats them away, killing one of Sir Francis his huntsman. </stage>
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103210">
           <speaker>Charles </speaker>
           <l>My God: what haue I done? what haue I done? </l>
           <l>My rage hath plung'd into a Sea of blood, </l>
@@ -710,73 +722,75 @@
           <l>And in my height of conquest, ouercome, </l>
           <stage xml:id="ep000078-e103370">
             <pb xml:id="ep000078-007-a"/>Enter Iane. </stage>
-          <l>Oh God my Brother wounded among the dead, </l>
-          <l>Vnhappy iest that in such earnest ends, </l>
-          <l>The rumor of this feare, stretcht to my eares, </l>
-          <l>And I am come to know if you be wounded. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103420">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103440">
+            <l>Oh God my Brother wounded among the dead, </l>
+            <l>Vnhappy iest that in such earnest ends, </l>
+            <l>The rumor of this feare, stretcht to my eares, </l>
+            <l>And I am come to know if you be wounded. </l>
+        </sp>
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103420">
           <speaker>Char. </speaker>
           <l>Oh sister, sister, wounded at the hart. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103440">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103440">
           <speaker>Iane </speaker>
           <l>My God forbid. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103460">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103460">
           <speaker>Char. </speaker>
           <l>In doing that thing which he forbad, </l>
           <l>I am wounded sister. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103490">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103490">
           <speaker>Iane </speaker>
           <l>I hope not at the hart. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103510">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103510">
           <speaker>Char. </speaker>
           <l>yes, at the hart. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103530">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103530">
           <speaker>Iane </speaker>
           <l>Oh God: a surgion there. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103550">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103550">
           <speaker>Char. </speaker>
           <l>Cal me a surgeon sister for my soule, </l>
           <l>The sin of murder it hath pierst my hart, </l>
           <l>And made a wide wound there, but for these scratches, </l>
           <l>They are nothing; nothing. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103600">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103600">
           <speaker>Iane. </speaker>
           <l>Charles what haue you done? </l>
           <l>Sir Francis hath great friends, and wil pursue you, </l>
           <l>Vnto the vtmost danger of the Law. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103640">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103640">
           <speaker>Char. </speaker>
           <l>My conscience is become my enemy, </l>
           <l>And wil pursue me more then Acton can. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103670">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103670">
           <speaker>Iane </speaker>
           <l>Oh, flie sweet Brother. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103690">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103690">
           <speaker>Char. </speaker>
           <l>Shall I flie from thee? </l>
           <l>What Iane art weary of my company? </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103720">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103720">
           <speaker>Iane </speaker>
           <l>Flie from your foe, </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103740">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103740">
           <speaker>Char. </speaker>
           <l>you sister are my friend, </l>
           <l>And flying you, I shal pursue my end. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e103770">
+        <sp who="#ep000078-susan" xml:id="ep000078-e103770">
           <speaker>Iane </speaker>
           <l>your company is as my eye-ball deere, </l>
           <l>Being far from you no comfort can be neare: </l>
@@ -789,7 +803,7 @@
           <l>And in the midst a Channell; so my face </l>
           <l>For two salt waters Brookes, shal still find place. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e103880">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e103880">
           <speaker>Char. </speaker>
           <l>Thou shalt not weepe so much, for I wil stay </l>
           <l>In spight of dangers teeth: ile liue with thee: </l>
@@ -808,7 +822,7 @@
           <l>That you were garded with a trope of friends, </l>
           <l>And therefore I come armd. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e104020">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e104020">
           <speaker>Char. </speaker>
           <l>O maister Shriefe </l>
           <l>I came into the field with man friends, </l>
@@ -823,11 +837,11 @@
           <l>To prison then: </l>
           <l>To answere for the liues of these dead men. </l>
         </sp>
-        <sp who="#ep000078-jane" xml:id="ep000078-e104130">
+        <sp who="#ep000078-susan" xml:id="ep000078-e104130">
           <speaker>Iane </speaker>
           <l>Oh God? oh God? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e104150">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e104150">
           <speaker>Char. </speaker>
           <l>Sweet sister, euery straine </l>
           <l>Of sorrow from your hart augments my paine, </l>
@@ -837,7 +851,7 @@
           <speaker>Shrief. </speaker>
           <l>Sir will you go? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e104210">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e104210">
           <speaker>Char. </speaker>
           <l>Euen where it likes you best. </l>
         </sp>
@@ -900,8 +914,8 @@
           <l>I haue preferd him to a second place </l>
           <l>In my opinion, and my best regard. </l>
         </sp>
-        <stage xml:id="ep000078-e104670">Enter Wendoll, Maister Franckeford, and Nicke. </stage>
-        <sp who="#ep000078-anne" xml:id="ep000078-e104680">
+        <stage xml:id="ep000078-e104670">Enter Wendoll, Maister [*Ms.] Franckeford, and Nicke. </stage>
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e104680">
           <speaker>Anne. </speaker>
           <l>O maister Franckeford; maister Wendoll here, </l>
           <l>Brings you the strangest newes that ere you heard. </l>
@@ -938,7 +952,7 @@
           <l>Wil change his lucke. </l>
         </sp>
         <pb xml:id="ep000078-008-b"/>
-        <sp who="#ep000078-anne" xml:id="ep000078-e104880">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e104880">
           <speaker>Anne. </speaker>
           <l>Oh, but you heare not all? </l>
           <l>Sir Francis lost, and yet was loth to yeeld: </l>
@@ -986,7 +1000,7 @@
           <l>your man, your gelding, and your table, </l>
           <l>Al at my owne charge, be my companion. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e105240">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e105240">
           <speaker>Wen. </speaker>
           <l>M. Frankeford, I haue oft bin bound to you </l>
           <l>By many fauors, this exceeds them all </l>
@@ -1001,7 +1015,7 @@
           <l>vse him with al thy louingst curtesie. </l>
         </sp>
         <pb xml:id="ep000078-009-a"/>
-        <sp who="#ep000078-anne" xml:id="ep000078-e105340">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e105340">
           <speaker>Anne </speaker>
           <l>As far as modesty may wel extend, </l>
           <l>It is my duty to receiue your friend. </l>
@@ -1021,7 +1035,8 @@
         <stage xml:id="ep000078-e105450">Enter Ienkin. </stage>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e105460">
           <speaker>Ienk. </speaker>
-          <l>O Nick, what Gent. is that comes to lie at our house, my maister allowes him one to waite on him, and I beleeue it wil fal to thy lot. </l>
+          <l>O Nick, what Gent. is that comes to lie at our house, my maister allowes him one to
+            waite on him, and I beleeue it wil fal to thy lot. </l>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e105480">
           <speaker>Nick. </speaker>
@@ -1032,12 +1047,14 @@
         <stage xml:id="ep000078-e105520">Enter Sisly. </stage>
         <sp who="#ep000078-sisly" xml:id="ep000078-e105530">
           <speaker>Sisly. </speaker>
-          <l>Nichlas, where are you Nicklas, you must come in Nicklas and helpe the young Gentleman off with his boots. </l>
+          <l>Nichlas, where are you Nicklas, you must come in Nicklas and helpe the young Gentleman
+            off with his boots. </l>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e105550">
           <speaker>Nick. </speaker>
           <l>If I plucke off his boots, Ile eat the spurs, </l>
-          <l>And they shal sticke fast in my throat like burs. <stage xml:id="ep000078-e105580">Exit. </stage>
+          <l>And they shal sticke fast in my throat like burs. <stage xml:id="ep000078-e105580"
+              >Exit. </stage>
           </l>
         </sp>
         <sp who="#ep000078-sisly" xml:id="ep000078-e105590">
@@ -1046,15 +1063,20 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e105610">
           <speaker>Ienk. </speaker>
-          <l>Tis no boot for me to deny it, my Maist. hath giuen me a coat here, but he takes paines himselfe to brush it once or twice a day with a holly-wand. </l>
+          <l>Tis no boot for me to deny it, my Maist. hath giuen me a coat here, but he takes paines
+            himselfe to brush it once or twice a day with a holly-wand. </l>
         </sp>
         <sp who="#ep000078-sisly" xml:id="ep000078-e105630">
           <speaker>Sisly. </speaker>
-          <l>Come, come, make hast, that you may wash your hands againe, and helpe to serue in dinner. </l>
+          <l>Come, come, make hast, that you may wash your hands againe, and helpe to serue in
+            dinner. </l>
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e105650">
           <speaker>Ienk. </speaker>
-          <l>You may see my maisters, though it be afternoone with you, tis but earlie daies with vs, for we haue not dind yet: stay but a little, Ile but goe in, and helpe to bear vppe the first course and come to you againe presently. <stage xml:id="ep000078-e105670">Exit. </stage>
+          <l>You may see my maisters, though it be afternoone with you, tis but earlie daies with
+            vs, for we haue not dind yet: stay but a little, Ile but goe in, and helpe to bear vppe
+            the first course and come to you againe presently. <stage xml:id="ep000078-e105670"
+              >Exit. </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e105680">Enter Malby, and Cranwell. </stage>
@@ -1074,12 +1096,12 @@
           <l>And he is now turnd a plaine Country-man, </l>
           <l>Reformd in al things; see sir, heere he comes. </l>
         </sp>
-        <stage xml:id="ep000078-e105800">Enter Sir Francis and his keeper. </stage>
+        <stage xml:id="ep000078-e105800">Enter Sir Francis [*Charles] and his keeper. </stage>
         <sp who="#ep000078-keeper" xml:id="ep000078-e105810">
           <speaker>Keep. </speaker>
           <l>Discharge your fees and you are then at freedome? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e105830">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e105830">
           <speaker>Char, </speaker>
           <l>Heere maister keeper, take the pore remainder, </l>
           <l>Of al the wealth I haue, my heauy foes </l>
@@ -1091,7 +1113,7 @@
           <l>God giue you ioy of your deliuery, </l>
           <l>I am glad to see you abroad Sir Charles. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e105910">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e105910">
           <speaker>Char. </speaker>
           <l>The poorest knight in England M. Malby, </l>
           <l>My life hath cost me al the patrimony </l>
@@ -1105,7 +1127,7 @@
           <l>Now by the faith I owe, I am glad to see it: </l>
           <l>What want you? wherein may I pleasure you? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e106010">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e106010">
           <speaker>Char. </speaker>
           <l>Oh me? oh most vnhappy Gentleman? </l>
           <l>I am not worthy to haue friends stird vp, </l>
@@ -1129,7 +1151,7 @@
           <l>From al these perils. </l>
         </sp>
         <pb xml:id="ep000078-010-a"/>
-        <sp who="#ep000078-charles" xml:id="ep000078-e106200">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e106200">
           <speaker>Charles. </speaker>
           <l>Oh Sir, they haue vndone me: </l>
           <l>Two thousand and fiue hundred pound a yeare </l>
@@ -1150,11 +1172,12 @@
           <l>But for my gaine and pleasure: come Sir Charles, </l>
           <l>I know you haue need of mony, take my offer. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e106370">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e106370">
           <speaker>Char. </speaker>
           <l>Sir I accept it, and remaine indebted </l>
           <l>Euen to the best of my vnable power: </l>
-          <l>Come Gentlemen and see it tendred downe. <stage xml:id="ep000078-e106410">Exeunt. </stage>
+          <l>Come Gentlemen and see it tendred downe. <stage xml:id="ep000078-e106410">Exeunt.
+            </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e106420">Enter Wendol melancholy. </stage>
@@ -1202,7 +1225,7 @@
           <speaker>Ien. </speaker>
           <l>By my faith so do not you me, I canot get a crosse of you </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e106780">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e106780">
           <speaker>Wen, </speaker>
           <l>My gelding and my man. </l>
         </sp>
@@ -1242,7 +1265,9 @@
         <pb xml:id="ep000078-011-a"/>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e107050">
           <speaker>Ienk. </speaker>
-          <l>What a strange humor is my new maister in, pray God he be not mad, if he should be so, I shold neuer haue any mind to serue him in Bedlam: It may bee he is madde for missing of me. </l>
+          <l>What a strange humor is my new maister in, pray God he be not mad, if he should be so,
+            I shold neuer haue any mind to serue him in Bedlam: It may bee he is madde for missing
+            of me. </l>
         </sp>
         <sp who="#ep000078-wendoll" xml:id="ep000078-e107070">
           <speaker>Wend. </speaker>
@@ -1258,7 +1283,8 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e107130">
           <speaker>Ionk </speaker>
-          <l>Because you are my M. and if I haue a mistris, I wold be glad like a good seruant to do my duty to her. </l>
+          <l>Because you are my M. and if I haue a mistris, I wold be glad like a good seruant to do
+            my duty to her. </l>
         </sp>
         <sp who="#ep000078-wendoll" xml:id="ep000078-e107150">
           <speaker>Wend. </speaker>
@@ -1266,14 +1292,15 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e107170">
           <speaker>Ienk. </speaker>
-          <l>Marry sir her husband is riding out of Towne, and shee went very louingly to bring him on his way to horse: doe you see sir here she comes, and here I go. </l>
+          <l>Marry sir her husband is riding out of Towne, and shee went very louingly to bring him
+            on his way to horse: doe you see sir here she comes, and here I go. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e107190">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e107190">
           <speaker>Wen. </speaker>
           <l>Vanish. </l>
         </sp>
         <stage xml:id="ep000078-e107210">Enter Mistris Frankeford. </stage>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107220">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107220">
           <speaker>Anne </speaker>
           <l>You are wel met sir, now introth my husband </l>
           <l>Before he tooke horse had a great desire </l>
@@ -1299,7 +1326,7 @@
           <l>The most stigmaticke title of a villaine, </l>
           <l>For hatching treason to so true a friend. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107440">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107440">
           <speaker>Anne </speaker>
           <l>Sir you are much beholding to my husbande, </l>
           <l>You are a man most deere in his regard. </l>
@@ -1322,7 +1349,7 @@
           <l>And hurry me to mischiefe: speake I must: </l>
           <l>Iniure my selfe, wrong hir, deceiue his trust. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107620">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107620">
           <speaker>Anne </speaker>
           <l>Are you not well sir, that you seeme thus troubled? </l>
           <l>There is sedition in your countenance? </l>
@@ -1335,7 +1362,7 @@
           <l>Bid me to sweare, and I wil cal to record </l>
           <l>the hoast of Heauen. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107710">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107710">
           <speaker>Anne. </speaker>
           <l>The hoast of heauen forbid, </l>
           <l>Wendol should hatch such a disloyall thought. </l>
@@ -1345,7 +1372,7 @@
           <l>Such is my fate, to this sute I was borne </l>
           <l>To weare rich pleasures Crowne, or fortunes scorne. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107770">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107770">
           <speaker>Anne. </speaker>
           <l>My husband loues you. </l>
         </sp>
@@ -1353,25 +1380,25 @@
           <speaker>wend. </speaker>
           <l>I know it. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107810">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107810">
           <speaker>Anne. </speaker>
           <l>He esteemes you </l>
           <l>Euen as his braine, his eye-bal, or his hart. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e107840">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e107840">
           <speaker>Wen. </speaker>
           <l>I haue tried it. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107860">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107860">
           <speaker>Anne. </speaker>
           <l>His purse is you exchequer, and his table </l>
           <l>Doth freely serue you. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e107890">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e107890">
           <speaker>wen. </speaker>
           <l>So I haue found it. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e107910">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e107910">
           <speaker>Anne. </speaker>
           <l>Oh with what face of brasse, what brow of steele, </l>
           <l>Can you vnblushing speake this to the face </l>
@@ -1400,7 +1427,7 @@
           <l>For you Ile hazard all, what care I: </l>
           <l>For you ile liue, and in your loue Ile dy. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e108150">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e108150">
           <speaker>Anne </speaker>
           <l>you moue me sir to passion and to pitty. </l>
           <l>The loue I beare my husband is as pretious </l>
@@ -1418,7 +1445,7 @@
           <l>Shal shine heer in my forehead, to bewray </l>
           <l>That act of night. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e108290">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e108290">
           <speaker>Anne. </speaker>
           <l>What shal I say? </l>
           <l>My soule is wandring, and hath lost her way. </l>
@@ -1430,7 +1457,7 @@
           <l>For euery sigh you breath, drawes from my hart </l>
           <l>A drop of blood. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e108370">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e108370">
           <speaker>Anne. </speaker>
           <l>I nere offended yet, </l>
           <l>My fault I feare, wil in brow be writ; </l>
@@ -1476,11 +1503,12 @@
           <l>For she was faire and chast, Ile haue an eie </l>
           <l>In al their gestures, thus I thinke of them, </l>
           <l>If they proceed as they haue done before, </l>
-          <l>Wendols a knaue, my Mistris is a &amp;c. <stage xml:id="ep000078-e108740">Exit. </stage>
+          <l>Wendols a knaue, my Mistris is a &amp;c. <stage xml:id="ep000078-e108740">Exit.
+            </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e108750">Enter Charles and Susan. </stage>
-        <sp who="#ep000078-charles" xml:id="ep000078-e108760">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e108760">
           <speaker>Char. </speaker>
           <l>Sister, you see we are driuen to hard shift </l>
           <l>To keepe this poore house we haue left vnsold, </l>
@@ -1493,7 +1521,7 @@
           <l>O brother heeres a change, </l>
           <l>Since old Sir Charles died in our fathers house </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e108850">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e108850">
           <speaker>Char. </speaker>
           <l>Al thinges on earth thus change, some vp, some downe, </l>
           <l>Contents a kingdome, and I weare that Crowne, </l>
@@ -1509,7 +1537,7 @@
           <l>So neare a Lordship that I lately bought, </l>
           <l>I would faine buy it of you, I will giue you. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e108960">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e108960">
           <speaker>Char. </speaker>
           <l>O pardon me, this house successiuely </l>
           <l>Hath long'd to me and my progenitors </l>
@@ -1531,7 +1559,7 @@
           <l>I haue brought it to an execution </l>
           <l>By course of Law, what is my money ready? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e109140">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e109140">
           <speaker>Char. </speaker>
           <l>An execution sir, and neuer tell me, </l>
           <l>You put my bond in suite, you deale extreamely </l>
@@ -1540,7 +1568,7 @@
           <speaker>Shaf. </speaker>
           <l>Sell me the land and Ile acquit you straight. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e109190">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e109190">
           <speaker>Char. </speaker>
           <l>Alas, alas, Tis all trouble hath left me </l>
           <l>To cherrish me and my poore sisters life, </l>
@@ -1560,7 +1588,7 @@
           <pb xml:id="ep000078-013-b"/>
           <l>And our succession this small plot of ground. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e109340">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e109340">
           <speaker>Char. </speaker>
           <l>I haue so bent my thoughts to husbandry, </l>
           <l>That I protest I scarcely can remember </l>
@@ -1582,7 +1610,7 @@
           <l>The keeper is my friend, thou shalt haue yrons </l>
           <l>And vsage such as Ile deny to dogs: Away with him. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e109520">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e109520">
           <speaker>Char. </speaker>
           <l>You are too tymerous, but trouble is my maister, </l>
           <l>And I will serue him truely my kind sister: </l>
@@ -1595,7 +1623,8 @@
         <sp who="#ep000078-shafton" xml:id="ep000078-e109600">
           <speaker>Shaf. </speaker>
           <l>Come Irons, Irons away, </l>
-          <l>Ile see thee log'd far from the sight of day. <stage xml:id="ep000078-e109630">Exeunt. </stage>
+          <l>Ile see thee log'd far from the sight of day. <stage xml:id="ep000078-e109630">Exeunt.
+            </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e109640">Enter Acton and Malby. </stage>
@@ -1605,7 +1634,7 @@
           <l>Death connot pierce it through, Tyrant too fel, </l>
           <l>So lead the Fiends condemned soules to hel. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e109690">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e109690">
           <speaker>Fran. </speaker>
           <l>Againe to prison, Malby hast thou seene, </l>
           <l>A poore slaue better torturd: shal we heare </l>
@@ -1625,7 +1654,7 @@
           <l>For greater wrongs then he can profer you, </l>
           <l>See where the poore sad Gentlewoman stands. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e109840">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e109840">
           <speaker>Fran. </speaker>
           <l>Ha, ha, now I will flout her pouerty, </l>
           <l>Deride her fortunes, scoffe her base estate, </l>
@@ -1640,7 +1669,7 @@
           <l>Acton that seekes our blood. <stage xml:id="ep000078-e109940">Run away. </stage>
           </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e109950">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e109950">
           <speaker>Fran. </speaker>
           <l>O chast and faire. </l>
         </sp>
@@ -1649,7 +1678,7 @@
           <l>Sir Francis, why Sir Francis, zounds in a trance, </l>
           <l>Sir Francis, what cheare man? Come, come, how ist? </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e110000">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e110000">
           <speaker>Fran. </speaker>
           <l>Was she not faire, or else this Iudging eie </l>
           <l>Cannot distinguish beauty. </l>
@@ -1658,7 +1687,7 @@
           <speaker>Mal. </speaker>
           <l>She was faire. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e110050">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e110050">
           <speaker>Fran. </speaker>
           <l>She was an Angel in a mortals shape, </l>
           <l>And nere descended from old Mountfords line. </l>
@@ -1674,14 +1703,19 @@
           <l>In al contractions and stil warring actions: </l>
           <l>Fie, fie, how I dispute against my soule, </l>
           <l>Come, come, Ile gaine her, or in her faire quest </l>
-          <l>Purchase my soule free and immortal rest. <stage xml:id="ep000078-e110210">Exeunt. </stage>
+          <l>Purchase my soule free and immortal rest. <stage xml:id="ep000078-e110210">Exeunt.
+            </stage>
           </l>
         </sp>
-        <stage xml:id="ep000078-e110220">Enter 3. or 4. seruingmen, one with a Voyder and a Woodden knife, to take away all, another the salt and bread; another the Table-cloth and Napkins, another the carpet. Ienkin with two lights after them. </stage>
+        <stage xml:id="ep000078-e110220">Enter 3. or 4. seruingmen, one with a Voyder and a Woodden
+          knife, to take away all, another the salt and bread; another the Table-cloth and Napkins,
+          another the carpet. Ienkin with two lights after them. </stage>
         <pb xml:id="ep000078-014-b"/>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e110230">
           <speaker>Ienk. </speaker>
-          <p>So, march in order and retyre in battel ray, my maister and the guests haue supt already, als taken away, here now spred for the seruingmen in the hal, Butler it belongs to your office. </p>
+          <p>So, march in order and retyre in battel ray, my maister and the guests haue supt
+            already, als taken away, here now spred for the seruingmen in the hal, Butler it belongs
+            to your office. </p>
         </sp>
         <sp who="#ep000078-butler" xml:id="ep000078-e110250">
           <speaker>But. </speaker>
@@ -1693,11 +1727,16 @@
         </sp>
         <sp who="#ep000078-butler" xml:id="ep000078-e110290">
           <speaker>But. </speaker>
-          <p>No, no, maister Wendol, hee is a daily ghuest, I mean the Gentleman that came but this afternoone. </p>
+          <p>No, no, maister Wendol, hee is a daily ghuest, I mean the Gentleman that came but this
+            afternoone. </p>
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e110310">
           <speaker>Ienk. </speaker>
-          <p>His name is M. Cranwel: Gods light, hark within there, my M. cals to lay more billets on the fire: Come, come, Lorde how wee that are in office here in the house are troubled: one spred the Carpet in the parlor, &amp; stand ready to snuffe the lights, the rest be ready to prepare their stomacks. More lights in the hal there: come Nicklas. </p>
+          <p>His name is M. Cranwel: Gods light, hark within there, my M. cals to lay more billets
+            on the fire: Come, come, Lorde how wee that are in office here in the house are
+            troubled: one spred the Carpet in the parlor, &amp; stand ready to snuffe the lights,
+            the rest be ready to prepare their stomacks. More lights in the hal there: come Nicklas.
+          </p>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e110330">
           <speaker>Nick. </speaker>
@@ -1708,7 +1747,8 @@
           <l>Ile tel my maister, by this ayre I wil, </l>
           <l>Fal what may fal, Ile tel him: Here he comes. </l>
         </sp>
-        <stage xml:id="ep000078-e110400">Enter Franckeford as it were brushing the crums from his cloths with a Napkin, and newly risen from supper. </stage>
+        <stage xml:id="ep000078-e110400">Enter Franckeford as it were brushing the crums from his
+          cloths with a Napkin, and newly risen from supper. </stage>
         <sp who="#ep000078-frankford" xml:id="ep000078-e110410">
           <speaker>Frank. </speaker>
           <l>Nicklas what make you here? Why are not you </l>
@@ -1730,7 +1770,9 @@
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e110540">
           <speaker>Nick. </speaker>
-          <l>By this hand an honourable Gentleman, I will not see him wrongd: sir I haue serud you long, you entertaind me seuen yeares before your beard, you knew we sir, before you knew my mistris. </l>
+          <l>By this hand an honourable Gentleman, I will not see him wrongd: sir I haue serud you
+            long, you entertaind me seuen yeares before your beard, you knew we sir, before you knew
+            my mistris. </l>
         </sp>
         <sp who="#ep000078-frankford" xml:id="ep000078-e110560">
           <speaker>Frank. </speaker>
@@ -1869,8 +1911,9 @@
           <l>Lights and a Table there wife, Master Wendol and gentle </l>
           <l>Maister Cranwell. </l>
         </sp>
-        <stage xml:id="ep000078-e111560">Enter Mistris Frankeford, maister Wendoll, maister Cranwell, Nick and Ienkin, with Cards, Carpet, stooles and other necessaries. </stage>
-        <sp who="#ep000078-francis" xml:id="ep000078-e111570">
+        <stage xml:id="ep000078-e111560">Enter Mistris Frankeford, maister Wendoll, maister
+          Cranwell, Nick and Ienkin, with Cards, Carpet, stooles and other necessaries. </stage>
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e111570">
           <speaker>Fran. </speaker>
           <l>O you are a stranger maister Cranwel you, </l>
           <l>And often balke my house: faith you are a Churle, </l>
@@ -1878,10 +1921,13 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e111610">
           <speaker>Ienk. </speaker>
-          <p>A pair of Cards Nicklas, and a carpet to couer the table, wheres Sisly with her Counters and her box, candles and candle sticks there, fie we haue such a householde of seruing creatures, vnles it be Nick and I, theres not one amongst them al can saye, boe to a goose: wel said Nick. </p>
+          <p>A pair of Cards Nicklas, and a carpet to couer the table, wheres Sisly with her
+            Counters and her box, candles and candle sticks there, fie we haue such a householde of
+            seruing creatures, vnles it be Nick and I, theres not one amongst them al can saye, boe
+            to a goose: wel said Nick. </p>
         </sp>
         <stage xml:id="ep000078-e111630">They spred a Carpet, set downe lights and Cards. </stage>
-        <sp who="#ep000078-anne" xml:id="ep000078-e111640">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e111640">
           <speaker>Anne. </speaker>
           <l>Come maister Frankeford, who shal take my part. </l>
         </sp>
@@ -1891,7 +1937,8 @@
         </sp>
         <sp who="#ep000078-wendoll" xml:id="ep000078-e111680">
           <speaker>Wend. </speaker>
-          <l>No by my faith sir, when you are togither I sit out, it must be Mistris Frankeford and I, or else it is no match. </l>
+          <l>No by my faith sir, when you are togither I sit out, it must be Mistris Frankeford and
+            I, or else it is no match. </l>
         </sp>
         <sp who="#ep000078-frankford" xml:id="ep000078-e111700">
           <speaker>Frank. </speaker>
@@ -1911,13 +1958,14 @@
         </sp>
         <sp who="#ep000078-frankford" xml:id="ep000078-e111780">
           <speaker>Frank. </speaker>
-          <l>I must looke to you M. Wendol, for you wil be playing false, nay so will my wife to. </l>
+          <l>I must looke to you M. Wendol, for you wil be playing false, nay so will my wife to.
+          </l>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e111800">
           <speaker>Nick. </speaker>
           <l>I, I will be sworne she wil. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e111820">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e111820">
           <speaker>Anne. </speaker>
           <l>Let them that are taken playing falfe forfet the set. </l>
         </sp>
@@ -1937,13 +1985,14 @@
           <speaker>Frank. </speaker>
           <l>you shal not find it so: Indeed you shal not? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e111920">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e111920">
           <speaker>Anne </speaker>
           <l>I can play at nothing so wel as dubble ruffe. </l>
         </sp>
         <sp who="#ep000078-frankford" xml:id="ep000078-e111940">
           <speaker>Frank. </speaker>
-          <l>If maister wendol and my wife bee together, theres no playing against them at dubble hand. </l>
+          <l>If maister wendol and my wife bee together, theres no playing against them at dubble
+            hand. </l>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e111960">
           <speaker>Nick. </speaker>
@@ -1962,13 +2011,14 @@
           <speaker>Wend. </speaker>
           <l>She and I, wil take you at Lodam. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112040">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112040">
           <speaker>Anne. </speaker>
           <l>Husband shal we play at Saint. </l>
         </sp>
         <sp who="#ep000078-frankford" xml:id="ep000078-e112060">
           <speaker>Franke. </speaker>
-          <l>My Saints turnd Deuill: no, weele none of Saint, your best at new Cut wife: youle play at that. </l>
+          <l>My Saints turnd Deuill: no, weele none of Saint, your best at new Cut wife: youle play
+            at that. </l>
         </sp>
         <sp who="#ep000078-wendoll" xml:id="ep000078-e112080">
           <speaker>Wend. </speaker>
@@ -2007,7 +2057,7 @@
           <speaker>Wend. </speaker>
           <l>Wel as you please for that, lift who shal deale. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112290">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112290">
           <speaker>Anne </speaker>
           <l>The least in sight: what are you maister Wendol, </l>
         </sp>
@@ -2019,7 +2069,7 @@
           <speaker>Nick. </speaker>
           <l>Ile sweare it. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112350">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112350">
           <speaker>Anne. </speaker>
           <l>I a Queene? </l>
         </sp>
@@ -2028,7 +2078,7 @@
           <l>A queane thou shouldst say? wel the Cards are mine, </l>
           <l>They are the grosest paire that ere I felt. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112400">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112400">
           <speaker>Anne. </speaker>
           <l>Shuffle, Ile cut, would I had neuer dealt? </l>
         </sp>
@@ -2057,7 +2107,7 @@
           <speaker>Frank. </speaker>
           <l>Thou hast dealt falsely then. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112570">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112570">
           <speaker>Anne. </speaker>
           <l>Whats Trumpes. </l>
         </sp>
@@ -2075,7 +2125,7 @@
           <l>I will giue ore the set, I am not well, </l>
           <l>Come who wil hold my Cards? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112680">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112680">
           <speaker>Anne. </speaker>
           <l>Not well sweet Maister Franckford, </l>
           <l>Alas, what ayle you: tis some sodaine qualme. </l>
@@ -2094,7 +2144,7 @@
           <l>I cannot sit and beare you company, </l>
           <l>Ienkin some lights, and shew him to his chamber. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112810">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112810">
           <speaker>Anne. </speaker>
           <l>A night gowne for my husband quickly there, </l>
           <l>It is some rhewme or cold? </l>
@@ -2120,7 +2170,7 @@
           <speaker>Frank. </speaker>
           <l>My selfe good night. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e112970">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e112970">
           <speaker>Anne. </speaker>
           <l>Shall I attend you husband? </l>
         </sp>
@@ -2129,7 +2179,7 @@
           <l>No, gentle wife thout catche cold in thy head, </l>
           <l>Prethy begone sweet, Ile make hast to bed. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e113020">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e113020">
           <speaker>Anne. </speaker>
           <l>No sleepe will fasten on mine eies you know </l>
           <l>Vntill you come. <stage xml:id="ep000078-e113050">Exit. </stage>
@@ -2155,11 +2205,13 @@
         <sp who="#ep000078-frankford" xml:id="ep000078-e113180">
           <speaker>Frank. </speaker>
           <l>To bed then, not to rest, </l>
-          <l>Care lodges in my braine, griefe in my brest. <stage xml:id="ep000078-e113210">Exeunt. </stage>
+          <l>Care lodges in my braine, griefe in my brest. <stage xml:id="ep000078-e113210">Exeunt.
+            </stage>
           </l>
         </sp>
-        <stage xml:id="ep000078-e113220">Enter Sir Charles, his sister, old Mountford, Sandy, Roder, and Tydy. </stage>
-        <sp who="#ep000078-mountford" xml:id="ep000078-e113230">
+        <stage xml:id="ep000078-e113220">Enter Sir Charles, his sister, old Mountford, Sandy, Roder,
+          and Tydy. </stage>
+        <sp who="#ep000078-old-mountford" xml:id="ep000078-e113230">
           <speaker>Mount. </speaker>
           <l>You say my Nephew is in great distresse, </l>
           <l>Who brought it to him but his owne lewd life: </l>
@@ -2180,10 +2232,11 @@
           <l>Plenty he hath of nothing but of yrons, </l>
           <l>And it remaines in you to free him thence. </l>
         </sp>
-        <sp who="#ep000078-mountford" xml:id="ep000078-e113400">
+        <sp who="#ep000078-old-mountford" xml:id="ep000078-e113400">
           <speaker>Mount. </speaker>
           <l>Money I cannot spare: men should take heed, </l>
-          <l>He lost my kindred when he fell to need. <stage xml:id="ep000078-e113430">Exit. </stage>
+          <l>He lost my kindred when he fell to need. <stage xml:id="ep000078-e113430">Exit.
+            </stage>
           </l>
         </sp>
         <sp who="#ep000078-susan" xml:id="ep000078-e113440">
@@ -2212,7 +2265,8 @@
           <l>True he did, </l>
           <l>And haue I not there dwelt still for his sake: </l>
           <l>I haue some busines now, but without doubt </l>
-          <l>They that haue hurld him in wil helpe him out. <stage xml:id="ep000078-e113630">Exit. </stage>
+          <l>They that haue hurld him in wil helpe him out. <stage xml:id="ep000078-e113630">Exit.
+            </stage>
           </l>
         </sp>
         <sp who="#ep000078-susan" xml:id="ep000078-e113640">
@@ -2235,7 +2289,7 @@
           <l>But to my selfe his griefe in silence mourne. </l>
         </sp>
         <stage xml:id="ep000078-e113770">Enter Sir Francis and Malby. </stage>
-        <sp who="#ep000078-francis" xml:id="ep000078-e113780">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e113780">
           <speaker>Fran. </speaker>
           <l>She is poore, Ile therefore tempt her with this gold. </l>
           <l>Go Malby in my name deliuer it, </l>
@@ -2264,7 +2318,7 @@
           <l>Hence Bawd: hence Broker: see, I spurne his gold, </l>
           <l>My honor neuer shal for gaine be sold. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e113970">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e113970">
           <speaker>Fran. </speaker>
           <l>Stay, Lady stay. </l>
         </sp>
@@ -2273,7 +2327,7 @@
           <l>From you Ile posting hie, </l>
           <l>Euen as the Doues from feathered Eagles flie. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e114020">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e114020">
           <speaker>Fran. </speaker>
           <l>She hates my name, my face, how should I wo? </l>
           <l>I am disgracst in euery thing I do. </l>
@@ -2294,11 +2348,13 @@
           <l>In her Ile bury al my hate of him, </l>
           <l>Go seeke the keeper Malby, bring me to him: </l>
           <l>To saue his body I his debts wil pay, </l>
-          <l>To saue his life, I his appeale wil stay. <stage xml:id="ep000078-e114220">Exeunt </stage>
+          <l>To saue his life, I his appeale wil stay. <stage xml:id="ep000078-e114220">Exeunt
+            </stage>
           </l>
         </sp>
-        <stage xml:id="ep000078-e114230">Enter Sir Charles in prison with yrons, his face bare, his garments al ragged and torne. </stage>
-        <sp who="#ep000078-charles" xml:id="ep000078-e114240">
+        <stage xml:id="ep000078-e114230">Enter Sir Charles in prison with yrons, his face bare, his
+          garments al ragged and torne. </stage>
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e114240">
           <speaker>Char. </speaker>
           <l>Of al on the earths face most miserable, </l>
           <l>Breath in the hellish dungeon thy laments, </l>
@@ -2325,7 +2381,7 @@
           <l>From al thy troubles. </l>
         </sp>
         <pb xml:id="ep000078-019-a"/>
-        <sp who="#ep000078-charles" xml:id="ep000078-e114460">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e114460">
           <speaker>Char. </speaker>
           <l>Then I am doomd to die, </l>
           <l>Death is thend of al calamity. </l>
@@ -2341,7 +2397,7 @@
           <l>Go freely to your house, or where you please, </l>
           <l>After long miseries, imbrace your ease. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e114580">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e114580">
           <speaker>Char. </speaker>
           <l>Thou grumblest out the sweetest musicke to me, </l>
           <l>That euer Organ plaid: is this a dreame? </l>
@@ -2365,7 +2421,7 @@
           <l>My woful brother, while I could I kept </l>
           <l>My haples tidings from his hopeful eare. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e114780">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e114780">
           <speaker>Char, </speaker>
           <l>Sister how much am I indebted to thee </l>
           <l>And to thy trauel. </l>
@@ -2374,7 +2430,7 @@
           <speaker>Susan </speaker>
           <l>What, at liberty? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e114830">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e114830">
           <speaker>Char. </speaker>
           <l>Thou seest I am thanks to thy industry: </l>
           <l>Oh vnto which of al my curteous friends </l>
@@ -2395,7 +2451,7 @@
           <l>The rather for I know not by what meanes, </l>
           <l>This happines hath chancst. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e114990">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e114990">
           <speaker>Char. </speaker>
           <l>Why by my vncle, </l>
           <l>My cosens, and my friends, who els I pray, </l>
@@ -2411,7 +2467,7 @@
           <l>A part in their alliance, but in pride, </l>
           <l>Said that our kindred with our plenty died. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115110">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115110">
           <speaker>Char. </speaker>
           <l>Drudges to much: what did they; oh knowne euil </l>
           <l>Rich fly the poore, as good men shun the Deuil: </l>
@@ -2425,7 +2481,7 @@
           <speaker>Susan. </speaker>
           <l>My wits haue lost themselues, lets aske the keeper. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115210">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115210">
           <speaker>Char. </speaker>
           <l>Gayler. </l>
         </sp>
@@ -2433,7 +2489,7 @@
           <speaker>Keep. </speaker>
           <l>At hand sir. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115250">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115250">
           <speaker>Char. </speaker>
           <l>Of curtesie resolue mee one demand? </l>
           <l>What was he tooke the burden of my debts </l>
@@ -2448,7 +2504,7 @@
           <speaker>Susan. </speaker>
           <l>Acton. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115340">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115340">
           <speaker>Char. </speaker>
           <l>Ha: Acton. Oh me, more distrest in this </l>
           <l>Then al my troubles: haile me backe, </l>
@@ -2468,7 +2524,7 @@
           <l>As we get little, we wil nothing leese. <stage xml:id="ep000078-e115480">Exit. </stage>
           </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115490">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115490">
           <speaker>Char. </speaker>
           <l>By Acton freed, my dangerous opposite, </l>
           <l>Why to what end? or what occasion? ha: </l>
@@ -2480,7 +2536,7 @@
           <l>His loue to me, vpon my soule tis so, </l>
           <l>That is the root from whence these strange thinges grow. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115570">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115570">
           <speaker>Char. </speaker>
           <l>Had this proceeded from my father he </l>
           <l>That by the law of nature is most bound </l>
@@ -2504,13 +2560,15 @@
           <l>He dotes on me, and oft hah sent me guifts, </l>
           <l>Letters and tokens, I refus'd them al. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e115770">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e115770">
           <speaker>Char. </speaker>
           <l>I haue inough, though poor, my hart is set </l>
-          <l>In one rich guift to pay backe al my debt. <stage xml:id="ep000078-e115800">Exeunt. </stage>
+          <l>In one rich guift to pay backe al my debt. <stage xml:id="ep000078-e115800">Exeunt.
+            </stage>
           </l>
         </sp>
-        <stage xml:id="ep000078-e115810">Enter Franckeford and Nickwith keyes, and a letter in his hand. </stage>
+        <stage xml:id="ep000078-e115810">Enter Franckeford and Nick with keyes, and a letter in his
+          hand. </stage>
         <sp who="#ep000078-frankford" xml:id="ep000078-e115820">
           <speaker>Frank. </speaker>
           <l>This is the night, and I must play the tuch, </l>
@@ -2535,18 +2593,20 @@
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e115950">
           <speaker>Nick. </speaker>
-          <l>Ile doote, make no more question but Ile doot. <stage xml:id="ep000078-e115970">Exit. </stage>
+          <l>Ile doote, make no more question but Ile doot. <stage xml:id="ep000078-e115970">Exit.
+            </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e115980">Enter Mistris Frankeford Cranwell, Wendoll, and Ienkin. </stage>
-        <sp who="#ep000078-anne" xml:id="ep000078-e115990">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e115990">
           <speaker>Anne </speaker>
           <l>Sirra, tis six a clocke already stroke, </l>
           <l>Go bid them spred the cloath and serue in supper. </l>
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e116020">
           <speaker>Ienk. </speaker>
-          <l>It shalbe done forsoth: mistris where is Spiggot the butler, to giue vs out salt and trenchers. </l>
+          <l>It shalbe done forsoth: mistris where is Spiggot the butler, to giue vs out salt and
+            trenchers. </l>
         </sp>
         <sp who="#ep000078-wendoll" xml:id="ep000078-e116040">
           <speaker>Wend. </speaker>
@@ -2570,7 +2630,8 @@
           <speaker>Franck. </speaker>
           <l>But I know too much bad. </l>
         </sp>
-        <stage xml:id="ep000078-e116180">Enter Butler, and Ienkin with a table-cloath, bread, trenchers, and salt. </stage>
+        <stage xml:id="ep000078-e116180">Enter Butler, and Ienkin with a table-cloath, bread,
+          trenchers, and salt. </stage>
         <sp who="#ep000078-cranwell" xml:id="ep000078-e116190">
           <speaker>Cran. </speaker>
           <l>Methinkes sir you might haue that intrest </l>
@@ -2585,7 +2646,7 @@
           <l>Hold me away, I would haue labourd peace </l>
           <l>Betwixt them, with al care, indeed I would sir. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e116290">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e116290">
           <speaker>Anne. </speaker>
           <l>Ile write vnto my brother earnestly </l>
           <l>In that behalfe. </l>
@@ -2678,7 +2739,7 @@
           <l>Therefore wil I ride, </l>
           <l>Appointed wel, and so shal Nick my man. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e116880">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e116880">
           <speaker>Anne. </speaker>
           <l>Ile cal you vp by fiue a clock to morrow. </l>
         </sp>
@@ -2691,7 +2752,7 @@
           <l>But with much pain: you haue made me a sluggard </l>
           <l>Since I first knew you. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e116970">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e116970">
           <speaker>Anne. </speaker>
           <l>Then if you needs wil go </l>
           <l>This dangerous euening: maister Wendoll </l>
@@ -2734,7 +2795,7 @@
           <l>We will not sup abroad so publikely </l>
           <l>But in your priuate Chamber mistresse Franckford. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e117240">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e117240">
           <speaker>Anne. </speaker>
           <l>O sir, you are too publike in your loue, </l>
           <l>And maister Franckfordes wife. </l>
@@ -2746,7 +2807,7 @@
           <l>I am on the sodaine growne exceeding ill, </l>
           <l>And would be spard from supper. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e117320">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e117320">
           <speaker>Wen. </speaker>
           <l>Light their hoe? </l>
           <l>See you want nothing sir, for if you do </l>
@@ -2763,7 +2824,7 @@
           <l>To make our bosome sweet and ful intire, </l>
           <l>Come Nan, I prethy let vs sup within. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e117420">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e117420">
           <speaker>Anne. </speaker>
           <l>O what a clog vnto the soule is sin, </l>
           <l>We pale offenders, are stil ful of feare, </l>
@@ -2776,7 +2837,7 @@
           <speaker>Wend. </speaker>
           <l>Fie, fie, you talke too like a Puritant. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e117510">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e117510">
           <speaker>Anne. </speaker>
           <l>you haue tempted me to mischiefe maister Wendel, </l>
           <l>I haue done I know not what: wel, you plead custome, </l>
@@ -2787,13 +2848,16 @@
         <sp who="#ep000078-wendoll" xml:id="ep000078-e117570">
           <speaker>Wend. </speaker>
           <l>My iocond soule is ioyfull aboue measure, </l>
-          <l>Ile be profuse in Frankefords richest treasure. <stage xml:id="ep000078-e117600">Exeunt. </stage>
+          <l>Ile be profuse in Frankefords richest treasure. <stage xml:id="ep000078-e117600"
+              >Exeunt. </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e117610">Enter Sisly, Ienkin, Butler, and other Seruingmen. </stage>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e117620">
           <speaker>Ienk. </speaker>
-          <p>My mistris and M. Wendol my maister, sup in her chamber to night, Sisly you are preferd from being the cooke to bee chamber maid, of all the loues betwixt thee and me, tel me what thou thinkest of this. </p>
+          <p>My mistris and M. Wendol my maister, sup in her chamber to night, Sisly you are preferd
+            from being the cooke to bee chamber maid, of all the loues betwixt thee and me, tel me
+            what thou thinkest of this. </p>
         </sp>
         <sp who="#ep000078-sisly" xml:id="ep000078-e117640">
           <speaker>Sisly </speaker>
@@ -2809,38 +2873,48 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e117700">
           <speaker>Ienk. </speaker>
-          <p>Why God make my mistris an honest woman: are not these good words? pray God my new maister play not the knau with my old maister, is there any hurt in this? God send no villany intended, and if they do sup together, pray God they doe not lie togither: god keepe my mistris chast, and make vs al his seruants, what harme is there in al this? Nay more, heere is my hand, thou shalt neuer haue my hart vnlesse thou say, Amen. </p>
+          <p>Why God make my mistris an honest woman: are not these good words? pray God my new
+            maister play not the knau with my old maister, is there any hurt in this? God send no
+            villany intended, and if they do sup together, pray God they doe not lie togither: god
+            keepe my mistris chast, and make vs al his seruants, what harme is there in al this? Nay
+            more, heere is my hand, thou shalt neuer haue my hart vnlesse thou say, Amen. </p>
         </sp>
         <sp who="#ep000078-sisly" xml:id="ep000078-e117720">
           <speaker>Sis. </speaker>
           <p>Amen I pray God I say. </p>
         </sp>
         <stage xml:id="ep000078-e117740">Enter Seruingmen. </stage>
-        <sp who="#ep000078-sergeant" xml:id="ep000078-e117750">
+        <sp who="#ep000078-serving-man" xml:id="ep000078-e117750">
           <speaker>Ser. </speaker>
-          <p>My mistris sends that you should make lesse noise, to lock vp the dores, and see the houshold al got to bed: you Ienkin for <pb xml:id="ep000078-022-b"/>his night are made the Porter, to see the gates shut in. </p>
+          <p>My mistris sends that you should make lesse noise, to lock vp the dores, and see the
+            houshold al got to bed: you Ienkin for <pb xml:id="ep000078-022-b"/>his night are made
+            the Porter, to see the gates shut in. </p>
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e117770">
           <speaker>Ienk. </speaker>
-          <p>Thus by little and little I creepe into office: Come to kennel my masters to kennell, tis eleuen a clocke already. </p>
+          <p>Thus by little and little I creepe into office: Come to kennel my masters to kennell,
+            tis eleuen a clocke already. </p>
         </sp>
-        <sp who="#ep000078-sergeant" xml:id="ep000078-e117790">
+        <sp who="#ep000078-serving-man" xml:id="ep000078-e117790">
           <speaker>Ser. </speaker>
           <p>When you haue lockt the gates in, you must send vp the keyes to my mistris. </p>
         </sp>
         <sp who="#ep000078-sisly" xml:id="ep000078-e117810">
           <speaker>Sis. </speaker>
-          <p>Quickly for Gods sake Ienkin; for I must carry them: I am neither pillow nor bolster, but I know more then both. </p>
+          <p>Quickly for Gods sake Ienkin; for I must carry them: I am neither pillow nor bolster,
+            but I know more then both. </p>
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e117830">
           <speaker>Ienk. </speaker>
-          <p>To bed good Spiggot, to bed good honest seruing creatures, and let vs sleepe as snug as pigs in pease-straw. <stage xml:id="ep000078-e117850">Exeunt. </stage>
+          <p>To bed good Spiggot, to bed good honest seruing creatures, and let vs sleepe as snug as
+            pigs in pease-straw. <stage xml:id="ep000078-e117850">Exeunt. </stage>
           </p>
         </sp>
         <stage xml:id="ep000078-e117860">Enter Franckeford and Nick. </stage>
         <sp who="#ep000078-frankford" xml:id="ep000078-e117870">
           <speaker>Frank. </speaker>
-          <p>Soft, soft, we haue tyed our geldings to a tree two flight shoot off, least by their thundring hoofes they blab our coming backe, Hearst thou no noise? </p>
+          <p>Soft, soft, we haue tyed our geldings to a tree two flight shoot off, least by their
+            thundring hoofes they blab our coming backe, Hearst thou no noise? </p>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e117890">
           <speaker>Nick. </speaker>
@@ -2953,7 +3027,9 @@
           <l>Heres patience perforce, </l>
           <l>He needs must trot a foot that tyres his horsse. </l>
         </sp>
-        <stage xml:id="ep000078-e118680">Enter Wendol running ouer the stage in a night-gowne, he after him with his sword drawn, the maid in her smocke staies his hand, and clasps hold on him, he pauses a while. </stage>
+        <stage xml:id="ep000078-e118680">Enter Wendol running ouer the stage in a night-gowne, he
+          after him with his sword drawn, the maid in her smocke staies his hand, and clasps hold on
+          him, he pauses a while. </stage>
         <sp who="#ep000078-frankford" xml:id="ep000078-e118690">
           <speaker>Frank. </speaker>
           <l>I thanke thee maid, thou like the Angels hand </l>
@@ -2967,8 +3043,9 @@
           <l>A Iudas, pray, pray, least I liue to see </l>
           <l>Thee Iudas like, hang'd on an Elder-tree. </l>
         </sp>
-        <stage xml:id="ep000078-e118800">Enter mistris Frankeford in her smocke, night-gowne, and nîght attyre. </stage>
-        <sp who="#ep000078-anne" xml:id="ep000078-e118810">
+        <stage xml:id="ep000078-e118800">Enter mistris Frankeford in her smocke, night-gowne, and
+          nîght attyre. </stage>
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e118810">
           <speaker>Anne </speaker>
           <l>O by what word, what title, or what name </l>
           <l>Shal I intreat your pardon: pardon: oh, </l>
@@ -2990,7 +3067,7 @@
           <l>For me to looke vpon thy guilty face, </l>
           <l>Then on the suns cleare brow, what wouldst thou speake? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e118970">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e118970">
           <speaker>An. </speaker>
           <l>I would I had no tongue, no eares, no eies, </l>
           <l>No aprehension, no capacity, </l>
@@ -3018,7 +3095,7 @@
           <l>With euery pleasure, fashion, and new toy, </l>
           <l>Nay euen beyond my calling. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e119200">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e119200">
           <speaker>Anne. </speaker>
           <l>I was. </l>
         </sp>
@@ -3027,7 +3104,7 @@
           <l>Was it then dissability in me, </l>
           <l>Or in thine eie seemd he a properer man? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e119250">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e119250">
           <speaker>Anne. </speaker>
           <l>Oh no. </l>
         </sp>
@@ -3036,7 +3113,7 @@
           <l>Did I not lodge thee in thy bosome? weare thee </l>
           <l>Here in my hart. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e119300">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e119300">
           <speaker>Anne. </speaker>
           <l>You did. </l>
         </sp>
@@ -3056,7 +3133,7 @@
           <l>So her adultrous breath may blast their spirits, </l>
           <l>With her infectious thoughts: away with them? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e119460">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e119460">
           <speaker>An. </speaker>
           <l>In this one life I die ten thousand deaths. </l>
         </sp>
@@ -3064,11 +3141,12 @@
           <speaker>Frank. </speaker>
           <l>Stand vp, stand vp, I will do nothing rashly, </l>
           <l>I wil retire a while into my study, </l>
-          <l>And thou shalt heare thy sentence presently. <stage xml:id="ep000078-e119520">Exit. </stage>
+          <l>And thou shalt heare thy sentence presently. <stage xml:id="ep000078-e119520">Exit.
+            </stage>
           </l>
         </sp>
         <pb xml:id="ep000078-024-b"/>
-        <sp who="#ep000078-anne" xml:id="ep000078-e119530">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e119530">
           <speaker>Anne. </speaker>
           <l>Tis welcome be it death: oh me, base strumpet, </l>
           <l>That hauing such a husband, such sweete children; </l>
@@ -3084,8 +3162,10 @@
           <l>Make me your instance, when you tread awry, </l>
           <l>Your sins like mine will on your conscience lye. </l>
         </sp>
-        <stage xml:id="ep000078-e119670">Enter Sissily, Spiggot, all the Seruingmen, and Ienkin as newly come out of bed. </stage>
-        <sp who="#ep000078-all" xml:id="ep000078-e119680">
+        <stage xml:id="ep000078-e119670">Enter Sissily, Spiggot, all the Seruingmen, and Ienkin as
+          newly come out of bed. </stage>
+        <sp who="#ep000078-serving-man #ep000078-sisly #ep000078-jenkin #ep000078-spigot"
+          xml:id="ep000078-e119680">
           <speaker>All. </speaker>
           <l>Oh mistris, mistris, what haue you done mistris? </l>
         </sp>
@@ -3095,14 +3175,16 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e119720">
           <speaker>Ienkin. </speaker>
-          <l>O Lord mistris, how comes this to passe, my maister is run away in his shirt, and neuer so much as cald mee to bring his cloathes after him. </l>
+          <l>O Lord mistris, how comes this to passe, my maister is run away in his shirt, and neuer
+            so much as cald mee to bring his cloathes after him. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e119740">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e119740">
           <speaker>Anne. </speaker>
           <l>See what guilt is, here stand I in this place, </l>
           <l>Ashamd to looke my seruants in the face. </l>
         </sp>
-        <stage xml:id="ep000078-e119770">Enter maister Frankeford and Cranwell, whom seeing she fals on her knees. </stage>
+        <stage xml:id="ep000078-e119770">Enter maister Frankeford and Cranwell, whom seeing she fals
+          on her knees. </stage>
         <sp who="#ep000078-frankford" xml:id="ep000078-e119780">
           <speaker>Franke. </speaker>
           <l>My wordes are registred in heauen already, </l>
@@ -3134,7 +3216,7 @@
           <l>Chuse which of all my seruants thou likest best, </l>
           <l>And they are thine to attend thee. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e120020">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e120020">
           <speaker>Anne. </speaker>
           <l>A milde sentence. </l>
         </sp>
@@ -3150,7 +3232,7 @@
           <l>So farewell Nan, for we will henceforth be </l>
           <l>As we had neuer seene, nere more shall see. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e120140">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e120140">
           <speaker>Anne. </speaker>
           <l>How full my hart is in my eyes appears, </l>
           <l>What wants in words, I will supply in teares. </l>
@@ -3161,14 +3243,15 @@
           <l>Seruants and all make ready, all be gone, </l>
           <l>It was thy hand cut two harts out of one. </l>
         </sp>
-        <stage xml:id="ep000078-e120210">Enter Sir Charles gentlemanlike, and his Sister gentlewoman like. </stage>
+        <stage xml:id="ep000078-e120210">Enter Sir Charles gentlemanlike, and his Sister gentlewoman
+          like. </stage>
         <sp who="#ep000078-susan" xml:id="ep000078-e120220">
           <speaker>Susan. </speaker>
           <l>Brother, why haue you trict me like a bride? </l>
           <l>Bought me this gay attire, these ornaments? </l>
           <l>forget you our estate, our pouerty? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120260">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120260">
           <speaker>Charles. </speaker>
           <l>Call me not brother, but imagine me </l>
           <l>Some barbarous Outlaw, or vnciuil Kerne, </l>
@@ -3181,7 +3264,7 @@
           <speaker>Susan. </speaker>
           <l>Oh brother, what doth this strange language meane? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120350">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120350">
           <speaker>Charles. </speaker>
           <l>Dost loue me sister? Wouldst thou see me liue </l>
           <l>A bankrupt begger in the worlds disgrace, </l>
@@ -3198,7 +3281,7 @@
           <l>I owe euen for the clothes vpon my backe, </l>
           <l>I am not worth, &amp;c. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120470">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120470">
           <speaker>Charles </speaker>
           <l>Oh sister say not so, </l>
           <l>It lies in you my downe-cast state to raise, </l>
@@ -3219,7 +3302,7 @@
           <l>Especially from Acton whom I hate, </l>
           <l>I would redeeme it with my life or bloud. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120640">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120640">
           <speaker>Charles </speaker>
           <l>I challenge it, and kindred set apert </l>
           <l>Thus Russian like I lay siedge to your hart: </l>
@@ -3230,7 +3313,7 @@
           <l>Why some fiue hundred pounds, toward which I swear </l>
           <l>In all the world I haue not one deneare. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120710">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120710">
           <speaker>Charles </speaker>
           <l>It will not proue so: sister, now resolue me, </l>
           <l>What do you thinke, and speake your conscience? </l>
@@ -3241,7 +3324,7 @@
           <l>He would not shrinke to spend a thousand pound, </l>
           <l>To giue the Mountfords name so deep a wound </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120780">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120780">
           <speaker>Charles </speaker>
           <l>A thousand pound, I but fiue hundred owe, </l>
           <l>Grant him your bed, heel paid with interest so. </l>
@@ -3250,7 +3333,7 @@
           <speaker>Susan. </speaker>
           <l>Oh brother: </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120830">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120830">
           <speaker>Charles </speaker>
           <l>O sister onely this one way, </l>
           <l>With that rich Iewell you my debts may pay, </l>
@@ -3266,7 +3349,7 @@
           <l>My honor I esteeme as deere and pretious, </l>
           <l>As my redemption. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e120940">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e120940">
           <speaker>Charles. </speaker>
           <l>I esteeme you sister. </l>
           <l>As deere, for so deere prizing it. </l>
@@ -3278,7 +3361,7 @@
           <l>Rip vp my breast, and with my bleeding hart, </l>
           <l>Present him as a token. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e121020">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e121020">
           <speaker>Charles. </speaker>
           <l>Neither Iane: </l>
           <l>But heare me in my strange assertion, </l>
@@ -3311,7 +3394,7 @@
           <l>So Charles will haue me, and I am content. </l>
         </sp>
         <pb xml:id="ep000078-026-b"/>
-        <sp who="#ep000078-charles" xml:id="ep000078-e121300">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e121300">
           <speaker>Charles. </speaker>
           <l>For this I trickt you vp. </l>
         </sp>
@@ -3320,7 +3403,7 @@
           <l>But heres a knife, </l>
           <l>to saue mine honor, shall slice out my life. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e121350">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e121350">
           <speaker>Charles. </speaker>
           <l>I know thou pleasest me a thousand times </l>
           <l>More in that resolution then thy grant: </l>
@@ -3341,7 +3424,7 @@
           <l>Before his vnchast thoughts shal seize on me, </l>
           <l>Tis here shall my imprisoned soule set free. </l>
         </sp>
-        <sp who="#ep000078-acton" xml:id="ep000078-e121520">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e121520">
           <speaker>Acton. </speaker>
           <l>How: Mountford with his sister hand in hand, </l>
           <l>What Miracles a foot? </l>
@@ -3351,7 +3434,7 @@
           <l>It is a sight </l>
           <l>Begets in me much admiration. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e121580">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e121580">
           <speaker>Charles. </speaker>
           <l>Stand not amasd to see me thus attended, </l>
           <l>Acton I owe thee mony, and being vnable </l>
@@ -3361,7 +3444,7 @@
           <l>I prise aboue a Million: here, nay take her, </l>
           <l>Shees worth your mony man, do not fortake her. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e121660">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e121660">
           <speaker>Francis. </speaker>
           <l>I would he were in earnest. </l>
         </sp>
@@ -3376,7 +3459,7 @@
           <l>And would not sell, but to acquit your 〈◊〉 </l>
           <l>For any Emperors ransome. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e121770">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e121770">
           <speaker>Francis. </speaker>
           <l>Sterne hart, relent </l>
           <pb xml:id="ep000078-027-a"/>
@@ -3386,7 +3469,7 @@
           <l>Lands, honors, lines, and all the world forgot </l>
           <l>Rather then stand ingagde to such a foe. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e121840">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e121840">
           <speaker>Charles. </speaker>
           <l>Acton she is too poor to be thy Bride, </l>
           <l>And I to much apposd to be thy brother, </l>
@@ -3398,7 +3481,7 @@
           <l>Do them at once on her, all these relie </l>
           <l>And perish with her spotted chastity. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e121940">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e121940">
           <speaker>Francis </speaker>
           <l>You ouercome me in your loue sir Charles, </l>
           <l>I cannot be so cruell to a Lady </l>
@@ -3420,19 +3503,20 @@
           <l>You still exceede vs, I will yeeld to fate, </l>
           <l>And learne to loue, where I till now did hate. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e122120">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e122120">
           <speaker>Charles </speaker>
           <l>With that inchantment you haue charmd my soule, </l>
           <l>And made me rich euen in those very words, </l>
           <l>I pay no debt but am indebted more </l>
           <l>Rich in your loue I neuer can be poore </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e122170">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e122170">
           <speaker>Francis. </speaker>
           <l>Alas mine is yours, we are alike in state, </l>
           <l>Lets knit in love what was proposd in hate; </l>
           <l>Come, for our Nuptials we will straite prouide, </l>
-          <l>Blest onely in our brother and faire bride. <stage xml:id="ep000078-e122220">Exeunt. </stage>
+          <l>Blest onely in our brother and faire bride. <stage xml:id="ep000078-e122220">Exeunt.
+            </stage>
           </l>
         </sp>
         <stage xml:id="ep000078-e122230">
@@ -3489,8 +3573,9 @@
           <l>Do as you please how ill am I bestead </l>
           <l>To be a widower ere my wife be dead. </l>
         </sp>
-        <stage xml:id="ep000078-e122620">Enter mistris Frankeford, with Ienkin, her maid Sislee, her Coach-man, and three Carters. </stage>
-        <sp who="#ep000078-anne" xml:id="ep000078-e122630">
+        <stage xml:id="ep000078-e122620">Enter mistris Frankeford, with Ienkin, her maid Sislee, her
+          Coach-man, and three Carters. </stage>
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e122630">
           <speaker>Anne. </speaker>
           <l>Bid my Coach stay, why should I ride in state? </l>
           <l>Being hurld so low downe by the hand of fate. </l>
@@ -3500,18 +3585,22 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e122680">
           <speaker>Ienkin. </speaker>
-          <l>Comfort good mistris, you haue watered your Coach with teares already, you haue but two myle now to goe to your mannor, a Man cannot say by my olde Maister Franckford as he may say by me, that he wants maners, for he hath three or foure, of which this is one, that we are going to. </l>
+          <l>Comfort good mistris, you haue watered your Coach with teares already, you haue but two
+            myle now to goe to your mannor, a Man cannot say by my olde Maister Franckford as he may
+            say by me, that he wants maners, for he hath three or foure, of which this is one, that
+            we are going to. </l>
         </sp>
         <sp who="#ep000078-sisly" xml:id="ep000078-e122700">
           <speaker>Sisly. </speaker>
-          <l>Good mistris be of good cheere, sorrow you see hurtes you, but helpes you not, we all mourne to see you so sad. </l>
+          <l>Good mistris be of good cheere, sorrow you see hurtes you, but helpes you not, we all
+            mourne to see you so sad. </l>
         </sp>
         <sp who="#ep000078-carter" xml:id="ep000078-e122720">
           <speaker>Carter. </speaker>
           <l>Mistris I spy one of my Landlords men </l>
           <l>Come riding post, tis like he brings some newes. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e122750">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e122750">
           <speaker>Anne. </speaker>
           <l>Comes he from maister Franckford, he is welcome, </l>
           <l>So are his newes, because they come from him. </l>
@@ -3521,16 +3610,19 @@
           <speaker>Nick. </speaker>
           <l>There. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e122810">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e122810">
           <speaker>Anne. </speaker>
           <l>I know the Lute, oft haue I sung to thee, </l>
           <l>We both are out of tune, both out of time. </l>
         </sp>
         <sp who="#ep000078-nicholas" xml:id="ep000078-e122840">
           <speaker>Nick. </speaker>
-          <l>Would that had beene the worst instrument that ere you played on: my maister commends him to ye, theirs all hee can find that was euer yours, he hath nothing left that euer you could claim to lay, but 〈◊〉 hart, &amp; he could afford you that: Al that I haue to deliuer you is this, he prayes you to forget him, and so he bids your farwell. </l>
+          <l>Would that had beene the worst instrument that ere you played on: my maister commends
+            him to ye, theirs all hee can find that was euer yours, he hath nothing left that euer
+            you could claim to lay, but 〈◊〉 hart, &amp; he could afford you that: Al that I haue to
+            deliuer you is this, he prayes you to forget him, and so he bids your farwell. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e122860">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e122860">
           <speaker>Anne. </speaker>
           <l>I thanke him, he is kind and euer was, </l>
           <l>All you that haue true feeling of my griefe, </l>
@@ -3570,7 +3662,7 @@
           <l>Making their flinty harts with griefe to rise, </l>
           <l>And draw Riuers from their rocky eyes. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123210">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123210">
           <speaker>Anne. </speaker>
           <l>If you returne vnto your maister say: </l>
           <l>Though not from me, for I am all vnworthy </l>
@@ -3587,12 +3679,12 @@
           <l>Why how now eyes; what now, whats here to do? </l>
           <l>I am gone, or I shall strait turne baby to. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e123340">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e123340">
           <speaker>Wen. </speaker>
           <l>I cannot weep, my hart is all on fire, </l>
           <l>Curst be the fruits of my vnchast desire. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123370">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123370">
           <speaker>Anne </speaker>
           <l>Go breake this lute my Coaches whele, </l>
           <l>As the last musicke that I ere shall make, </l>
@@ -3603,12 +3695,12 @@
           <speaker>Nick. </speaker>
           <l>If I can for crying. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e123440">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e123440">
           <speaker>Wen. </speaker>
           <l>Griefe haue done, </l>
           <l>Or like a Madman I shall frantick run. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123470">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123470">
           <speaker>Anne. </speaker>
           <l>You haue beheld the wofullest wretch on earth, </l>
           <l>A woman made of teares, would you had words </l>
@@ -3622,7 +3714,7 @@
           <speaker>Nick. </speaker>
           <l>Ile do your commendations. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123560">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123560">
           <speaker>Anne. </speaker>
           <l>O no: </l>
           <l>I dare not so presume, nor to my children, </l>
@@ -3633,12 +3725,12 @@
           <l>Tell them tis nought: for when that word they name, </l>
           <l>Poore pretty soules they harpe on their owne shame. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e123650">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e123650">
           <speaker>Wen. </speaker>
           <l>To recompence her wrongs, what canst thou do? </l>
           <l>Thou hast made her husbandlesse, and childlesse to. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123680">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123680">
           <speaker>Anne. </speaker>
           <l>I haue no more to say: speake not for me </l>
           <l>Yet you may tell your maister what you see? </l>
@@ -3648,14 +3740,14 @@
           <l>Ile doot. <stage xml:id="ep000078-e123730">Exit </stage>
           </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e123740">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e123740">
           <speaker>Wen. </speaker>
           <l>Ile speake to her, and comfort her in griefe, </l>
           <l>Oh but her wound cannot be cur'd with words: </l>
           <l>No matter though, Ile do my best good will, </l>
           <l>To worke a cure on her whom I did kill. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123790">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123790">
           <speaker>Anne. </speaker>
           <l>So, now vnto my Coach, then to my home, </l>
           <l>So to my deathbed, for from this sad houre, </l>
@@ -3665,11 +3757,11 @@
           <l>But when my teares haue washt my blacke soule white, </l>
           <l>Sweete Sauiour to thy hands I yeeld my sprite. </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e123870">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e123870">
           <speaker>Wen. </speaker>
           <l>Oh mistris Frankford? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e123890">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e123890">
           <speaker>Anne. </speaker>
           <l>Oh for Gods sake fly, </l>
           <l>The Diuell doth come to tempt me ere I dye: </l>
@@ -3680,9 +3772,11 @@
         <stage xml:id="ep000078-e123950">Exeunt all: the Carters whisling. </stage>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e123960">
           <speaker>Ienk. </speaker>
-          <l>What my young maister that fled in his shirt, how come you by your clothes againe? you haue made our house in a sweet <pb xml:id="ep000078-029-b"/>pickle, haue you not thinke you? What shall I serue you still, or cleaue to the old house? </l>
+          <l>What my young maister that fled in his shirt, how come you by your clothes againe? you
+            haue made our house in a sweet <pb xml:id="ep000078-029-b"/>pickle, haue you not thinke
+            you? What shall I serue you still, or cleaue to the old house? </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e123980">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e123980">
           <speaker>Wen. </speaker>
           <l>Hence slaue, away with thy vnseasoned mirth, </l>
           <l>Vnlesse thou canst shed teares, and sigh, and houle, </l>
@@ -3691,9 +3785,11 @@
         </sp>
         <sp who="#ep000078-jenkin" xml:id="ep000078-e124030">
           <speaker>Ienk. </speaker>
-          <l>Marry and you will not another will: farewell and be hangd, wold you had neuer come to haue kept this quoile within our doores, we shall ha you run away like a sprite againe. </l>
+          <l>Marry and you will not another will: farewell and be hangd, wold you had neuer come to
+            haue kept this quoile within our doores, we shall ha you run away like a sprite againe.
+          </l>
         </sp>
-        <sp who="#ep000078-wench" xml:id="ep000078-e124050">
+        <sp who="#ep000078-wendoll" xml:id="ep000078-e124050">
           <speaker>Wen. </speaker>
           <l>Shees gone to death, I liue to want and woe, </l>
           <l>Her life, her sins, and all vpon my head, </l>
@@ -3711,7 +3807,7 @@
           </l>
         </sp>
         <stage xml:id="ep000078-e124200">Enter sir Francis, sir Charles, Cranwell, and Susan. </stage>
-        <sp who="#ep000078-francis" xml:id="ep000078-e124210">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e124210">
           <speaker>Francis. </speaker>
           <l>Brother, and now my wife, I thinke these troubles </l>
           <l>Fall on my head, by Iustice of the heauens, </l>
@@ -3731,7 +3827,7 @@
           <l>I told you what I was witnesse of, </l>
           <l>It was my fortune to lodge there that night. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e124350">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e124350">
           <speaker>Francis. </speaker>
           <l>O that same villen Wendoll, t'was his tongue </l>
           <l>That did corrupt her, she was of her selfe. </l>
@@ -3742,7 +3838,7 @@
           <l>Yes sir, I take it here your sister lies. </l>
         </sp>
         <pb xml:id="ep000078-030-a"/>
-        <sp who="#ep000078-francis" xml:id="ep000078-e124410">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e124410">
           <speaker>Francis. </speaker>
           <l>My brother Franckford showd too mild a spirit </l>
           <l>In the reuenge of such a loathed crime; </l>
@@ -3757,11 +3853,11 @@
           <speaker>Ienk. </speaker>
           <l>O my mistris, my mistris, my poore mistris. </l>
         </sp>
-        <sp who="#ep000078-sisluy" xml:id="ep000078-e124520">
+        <sp who="#ep000078-sisly" xml:id="ep000078-e124520">
           <speaker>Sislie. </speaker>
           <l>Alas that euer I was born, what shall I do, for my poor mistris. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e124540">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e124540">
           <speaker>Charles, </speaker>
           <l>Why, what of her? </l>
         </sp>
@@ -3778,7 +3874,7 @@
           <l>Alasse that she should beare so hard a fate, </l>
           <l>Pitty it is, repentance comes to late. </l>
         </sp>
-        <sp who="#ep000078-acton" xml:id="ep000078-e124650">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e124650">
           <speaker>Acton. </speaker>
           <l>Is she so weake in body? </l>
         </sp>
@@ -3797,7 +3893,7 @@
           <speaker>Malby. </speaker>
           <l>How fare you mistris Frankford? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e124780">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e124780">
           <speaker>Anne. </speaker>
           <l>Sicke, sicke, oh sicke, giue me some aire I pray you. </l>
           <l>Tell me, oh tell me, where's maister Frankford? </l>
@@ -3817,7 +3913,7 @@
           <l>He gaue to vs his faith to follow vs, </l>
           <l>And sure he will be here immediatly. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e124930">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e124930">
           <speaker>Anne. </speaker>
           <l>You halfe reuiude me with those pleasing newes, </l>
           <l>Raise me a little higher in my bed. </l>
@@ -3825,18 +3921,18 @@
           <l>Can you not read my fault writ in my cheeke? </l>
           <l>Is not my cryme there? tell me gentlemen? </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e124990">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e124990">
           <speaker>Charles. </speaker>
           <l>Alasse good mistris, sicknesse hath not left you </l>
           <l>Bloud in your face enough to make you blush: </l>
           <l>Then sicknesse like a friend my fault would hide, </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e125030">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e125030">
           <speaker>Anne. </speaker>
           <l>Is my husband come? My soule but tarries </l>
           <l>His ariue and I am fit for heauen. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e125060">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e125060">
           <speaker>Charles. </speaker>
           <l>I came to chide you, but my wordes of hate, </l>
           <l>Are turnd to pitty and compassionate griefe: </l>
@@ -3845,7 +3941,7 @@
           <stage xml:id="ep000078-e125110">Enter Frankeford. </stage>
           <l>Heres maister Frankford now. </l>
         </sp>
-        <sp who="#ep000078-francis" xml:id="ep000078-e125130">
+        <sp who="#ep000078-frankford" xml:id="ep000078-e125130">
           <speaker>Fran. </speaker>
           <l>Good morrow brother, good morrow gentlemen, </l>
           <l>God that hath laid this crosse vpon our heads, </l>
@@ -3853,7 +3949,7 @@
           <l>On a more faire and a more contented ground, </l>
           <l>But he that made vs, made vs to this woe. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e125190">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e125190">
           <speaker>Anne. </speaker>
           <l>And is he come, methinks that voyce I knowe </l>
         </sp>
@@ -3861,7 +3957,7 @@
           <speaker>Frank. </speaker>
           <l>How do you woman? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e125230">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e125230">
           <speaker>Anne. </speaker>
           <l>Well, maister Franckford, well: but shall be better </l>
           <l>I hope within this hower? will you vouchsafe </l>
@@ -3875,7 +3971,7 @@
           <l>That made vs first breake hold. </l>
         </sp>
         <pb xml:id="ep000078-031-a"/>
-        <sp who="#ep000078-anne" xml:id="ep000078-e125320">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e125320">
           <speaker>Anne. </speaker>
           <l>Amen, amen, </l>
           <l>Out of my zeale to heauen whither I am now bound, </l>
@@ -3898,7 +3994,9 @@
           <l>Pray with thee, and in meere pitty </l>
           <l>Of thy weake state, Ile wish to die with thee. </l>
         </sp>
-        <sp who="#ep000078-all" xml:id="ep000078-e125510">
+        <sp
+          who="#ep000078-malby #ep000078-charles-mountford #ep000078-jenkin #ep000078-susan #ep000078-francis-acton #ep000078-sisly #ep000078-cranwell #ep000078-wendoll #ep000078-nicholas"
+          xml:id="ep000078-e125510">
           <speaker>All. </speaker>
           <l>So do we all. </l>
         </sp>
@@ -3907,7 +4005,7 @@
           <l>So will not I, </l>
           <l>Ile sigh and sob, but by my faith not dye. </l>
         </sp>
-        <sp who="#ep000078-acton" xml:id="ep000078-e125560">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e125560">
           <speaker>Acton </speaker>
           <l>Oh maister Frankford all the neere alliance, </l>
           <l>I loose by her, shall be supplyde in thee, </l>
@@ -3922,7 +4020,7 @@
           <l>Diuorsd our bodies, thy repentant teares </l>
           <l>Vnite our soules. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e125670">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e125670">
           <speaker>Charles </speaker>
           <l>Then comfort mistris Frankford, </l>
           <l>You see your husband hath forgiuen your fall, </l>
@@ -3932,11 +4030,11 @@
           <speaker>Susan. </speaker>
           <l>How is it with you? </l>
         </sp>
-        <sp who="#ep000078-acton" xml:id="ep000078-e125730">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e125730">
           <speaker>Acton. </speaker>
           <l>How do you feele your selfe? </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e125750">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e125750">
           <speaker>Anne. </speaker>
           <l>Not of this world. </l>
         </sp>
@@ -3951,7 +4049,7 @@
           <l>And with that griefe vpon thy death-bed liest, </l>
           <l>Honest in hart, vpon my soule thou diest. </l>
         </sp>
-        <sp who="#ep000078-anne" xml:id="ep000078-e125850">
+        <sp who="#ep000078-anne-frankford" xml:id="ep000078-e125850">
           <speaker>Anne. </speaker>
           <l>Pardond on earth, soule, thou in heauen art free, </l>
           <l>Once more thy wife, dyes thus imbracing thee. </l>
@@ -3961,7 +4059,7 @@
           <l>New married, and new widdowed, oh shees dead, </l>
           <l>And a cold graue must be our Nuptiall bed. </l>
         </sp>
-        <sp who="#ep000078-charles" xml:id="ep000078-e125910">
+        <sp who="#ep000078-charles-mountford" xml:id="ep000078-e125910">
           <speaker>Charles </speaker>
           <l>Sir be of good comfort, and your heauy sorrow, </l>
           <l>Part equally amongst vs, stormes deuided </l>
@@ -3972,7 +4070,7 @@
           <l>Do maister Frankford, he that hath least part, </l>
           <l>Will find enough to drowne one troubled hart. </l>
         </sp>
-        <sp who="#ep000078-acton" xml:id="ep000078-e125980">
+        <sp who="#ep000078-francis-acton" xml:id="ep000078-e125980">
           <speaker>Acton. </speaker>
           <l>Peace with thee Nan: Brothers and Gentlemen, </l>
           <l>All we that can plead interest in her griefe </l>

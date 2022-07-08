@@ -88,73 +88,61 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000344-bostocke">
+            <person xml:id="ep000344-bostocke" sex='MALE'>
               <persName>Bostocke</persName>
             </person>
-            <person xml:id="ep000344-marmaduke">
+            <person xml:id="ep000344-marmaduke" sex='MALE'>
               <persName>Marmaduke</persName>
             </person>
-            <person xml:id="ep000344-ambrose">
+            <person xml:id="ep000344-ambrose" sex='MALE'>
               <persName>Ambrose</persName>
             </person>
-            <person xml:id="ep000344-solomon">
+            <person xml:id="ep000344-solomon" sex='MALE'>
               <persName>Solomon</persName>
             </person>
-            <person xml:id="ep000344-colonel">
-              <persName>Colonel</persName>
+            <person xml:id="ep000344-colonel" sex='MALE'>
+              <persName>Colonel Winfield</persName>
             </person>
-            <person xml:id="ep000344-freshwater">
+            <person xml:id="ep000344-freshwater" sex='MALE'>
               <persName>Freshwater</persName>
             </person>
-            <person xml:id="ep000344-frisk">
+            <person xml:id="ep000344-frisk" sex='MALE'>
               <persName>Frisk</persName>
             </person>
-            <person xml:id="ep000344-gudgeon">
+            <person xml:id="ep000344-gudgeon" sex='MALE'>
               <persName>Gudgeon</persName>
             </person>
-            <person xml:id="ep000344-rainbow">
+            <person xml:id="ep000344-rainbow" sex='MALE'>
               <persName>Rainbow</persName>
             </person>
-            <person xml:id="ep000344-barker">
+            <person xml:id="ep000344-barker" sex='MALE'>
               <persName>Barker</persName>
             </person>
-            <person xml:id="ep000344-rosamond">
+            <person xml:id="ep000344-rosamond" sex='FEMALE'>
               <persName>Rosamond</persName>
             </person>
-            <person xml:id="ep000344-honoria">
+            <person xml:id="ep000344-honoria" sex='FEMALE'>
               <persName>Honoria</persName>
             </person>
-            <person xml:id="ep000344-frank">
-              <persName>Frank</persName>
-            </person>
-            <person xml:id="ep000344-scutilla">
+            <person xml:id="ep000344-scutilla" sex='FEMALE'>
               <persName>Scutilla</persName>
             </person>
-            <person xml:id="ep000344-dancing-master">
-              <persName>Dancing Master</persName>
+            <person xml:id="ep000344-dancer" sex='MALE'>
+              <persName>Dancer</persName>
             </person>
-            <person xml:id="ep000344-lucina">
+            <person xml:id="ep000344-lucina" sex='FEMALE'>
               <persName>Lucina</persName>
             </person>
-            <person xml:id="ep000344-unassigned">
-              <persName>Unassigned</persName>
-            </person>
-            <person xml:id="ep000344-both">
-              <persName>Both</persName>
-            </person>
-            <person xml:id="ep000344-venus">
+            <person xml:id="ep000344-venus" sex='FEMALE'>
               <persName>Venus</persName>
             </person>
-            <person xml:id="ep000344-diana">
+            <person xml:id="ep000344-diana" sex='FEMALE'>
               <persName>Diana</persName>
             </person>
-            <person xml:id="ep000344-cupid">
+            <person xml:id="ep000344-cupid" sex='MALE'>
               <persName>Cupid</persName>
             </person>
-            <person xml:id="ep000344-omnes">
-              <persName>Omnes</persName>
-            </person>
-            <person xml:id="ep000344-stephen">
+            <person xml:id="ep000344-stephen" sex='MALE'>
               <persName>Stephen</persName>
             </person>
           </listPerson>
@@ -163,6 +151,11 @@
           <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-07-05">(Luca Giovannini) Fixed speaker tags and particDesc.</change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -1328,7 +1321,7 @@
             <l>ANd what made you to undertake this voyage, </l>
             <l>Sweete Signior Freshwater. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107180">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107180">
             <speaker>Fr. </speaker>
             <l>An affection </l>
             <l>I had to be acquainted with some countries. </l>
@@ -1345,7 +1338,7 @@
             <l>What price are Oates in Venice? </l>
           </sp>
           <pb xml:id="ep000344-009-a"/>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107280">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107280">
             <speaker>Fr. </speaker>
             <l>Signior </l>
             <l>I kept no horses there, my man, and I </l>
@@ -1354,7 +1347,7 @@
             <speaker>Ba. </speaker>
             <p>Were Asses. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107330">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107330">
             <speaker>Fr. </speaker>
             <p>How Signior? </p>
           </sp>
@@ -1366,7 +1359,7 @@
             <speaker>Ba. </speaker>
             <p>Had not you land once? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107390">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107390">
             <speaker>Fr. </speaker>
             <p>I had some durrie acres. </p>
           </sp>
@@ -1374,7 +1367,7 @@
             <speaker>Gud. </speaker>
             <p>I am his witnesse. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107430">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107430">
             <speaker>Fr. </speaker>
             <l>Which I reduc'd into a narrow compasse, </l>
             <l>Some call it selling. </l>
@@ -1383,7 +1376,7 @@
             <speaker>Gud. </speaker>
             <p>He would sell bargaines of a childe. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107480">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107480">
             <speaker>Fr. </speaker>
             <p>And twas a thriving pollicie. </p>
           </sp>
@@ -1391,7 +1384,7 @@
             <speaker>Ba. </speaker>
             <p>As how? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107520">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107520">
             <speaker>Fr. </speaker>
             <l>It was but two hundred pound Per annum sir, </l>
             <l>A loane revenew. </l>
@@ -1400,7 +1393,7 @@
             <speaker>Ba. </speaker>
             <p>And did you sell it all? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107570">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107570">
             <speaker>Fr. </speaker>
             <l>I did not leave an acre, rod, or perch, </l>
             <l>That had beene no discretion, when I was selling </l>
@@ -1416,7 +1409,7 @@
             <l>And so by consequence in three moneths your estate </l>
             <l>Will be five times as much or quintupled. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107690">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107690">
             <speaker>Fr. </speaker>
             <l>Yes Signior quintupled, </l>
             <l>I wonot purchase yet I meane to use </l>
@@ -1429,7 +1422,7 @@
             <speaker>Ba. </speaker>
             <p>Kingdomes I warrant. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107780">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107780">
             <speaker>Fr. </speaker>
             <l>I have a minde to buy </l>
             <l>Constantinople from the Turke, and give it </l>
@@ -1443,7 +1436,7 @@
             <l>The Christian Pilgrimes would be much oblig'd to yee, </l>
             <l>When did you wash your sockes? </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107870">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107870">
             <speaker>Fr. </speaker>
             <p>I weare none Signior. </p>
           </sp>
@@ -1454,7 +1447,7 @@
             <l>Lose so much time to aske about your travell, </l>
             <l>You wonot sell your debts? </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e107940">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e107940">
             <speaker>Fr. </speaker>
             <p>Sell 'em, no Signior. </p>
           </sp>
@@ -1473,7 +1466,7 @@
             <l>And hang thy selfe, thou maist not heare the time, </l>
             <l>You remember Coriate. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108090">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108090">
             <speaker>Fr. </speaker>
             <p>Honest Tom Odcombe. </p>
           </sp>
@@ -1490,7 +1483,7 @@
             <l>Without a Sessions. <stage xml:id="ep000344-e108210">Exit. </stage>
             </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108220">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108220">
             <speaker>Fr. </speaker>
             <p>Fine, Ime glad hee's gone, Gudgine, what dost thou thinke. </p>
           </sp>
@@ -1498,7 +1491,7 @@
             <speaker>Gud. </speaker>
             <p>I thinke y'are well rid of railing Madcap. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108260">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108260">
             <speaker>Fr. </speaker>
             <l>Nay, nay hee'le not spare a Lord </l>
             <l>But were not I best call in my moneyes Gudgin, </l>
@@ -1510,7 +1503,7 @@
             <speaker>Lo. </speaker>
             <p>Iacke Freshwater wellcome from Venice. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108340">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108340">
             <speaker>Fr. </speaker>
             <p>I thanke your honour. </p>
           </sp>
@@ -1519,7 +1512,7 @@
             <speaker>Lo. </speaker>
             <p>Was it not Franke Barker that parted from you? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108380">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108380">
             <speaker>Fr. </speaker>
             <p>Yes my Lord. </p>
           </sp>
@@ -1527,7 +1520,7 @@
             <speaker>Lo. </speaker>
             <p>Whats the matter? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108420">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108420">
             <speaker>Fr. </speaker>
             <p>There is a summe, my Lord. </p>
           </sp>
@@ -1535,7 +1528,7 @@
             <speaker>Lo. </speaker>
             <p>Where is it Signior? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108460">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108460">
             <speaker>Fr. </speaker>
             <l>There was a summe my Lord delivered </l>
             <l>From your poore servant Freshwater. </l>
@@ -1547,7 +1540,7 @@
             <l>The monie's safe, you were to give me five </l>
             <l>For one at your returne. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108540">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108540">
             <speaker>Fr. </speaker>
             <p>I five? Your Lordship has forgot the Cinquepace. </p>
           </sp>
@@ -1558,7 +1551,7 @@
             <l>Farewell Signior. <stage xml:id="ep000344-e108600">Exit. </stage>
             </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108610">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108610">
             <speaker>Fr. </speaker>
             <l>Ist come to this? if Lords play fast and loose, </l>
             <l>What shall poore Knights, and gentlemen? </l>
@@ -1569,7 +1562,7 @@
             <speaker>Co. </speaker>
             <p>A Poxe upon him, what makes he in my way. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108680">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108680">
             <speaker>Fr. </speaker>
             <p>Noble Coronell. </p>
           </sp>
@@ -1577,7 +1570,7 @@
             <speaker>Co. </speaker>
             <p>Que dite vous mounsieur. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108720">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108720">
             <speaker>Fr. </speaker>
             <p>Que dite vous? </p>
           </sp>
@@ -1592,7 +1585,7 @@
             <l>Votre seviteur. <stage xml:id="ep000344-e108800">Exit. </stage>
             </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108810">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108810">
             <speaker>Fr. </speaker>
             <l>Adiew five peeces, </l>
             <l>Gudgin gape, ist not he? </l>
@@ -1603,13 +1596,13 @@
             <speaker>Gud. </speaker>
             <p>Yes sir. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108880">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108880">
             <speaker>Fr. </speaker>
             <l>I thinke so, </l>
             <l>But then you would not know him in Italian, </l>
             <l>And now he will not know you in French. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108920">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108920">
             <speaker>Fr. </speaker>
             <l>Call you this selling of land, and putting out money </l>
             <l>To multiply estate? </l>
@@ -1618,7 +1611,7 @@
             <speaker>Gud. </speaker>
             <p>To quintuply five for one, large interest. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e108970">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e108970">
             <speaker>Fr. </speaker>
             <p>Five for one, tis tenne to one if I get my principall. </p>
           </sp>
@@ -1627,7 +1620,7 @@
             <speaker>Gud. </speaker>
             <p>Your roll is not at the bottome, yet try the rest. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e109010">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e109010">
             <speaker>Fr. </speaker>
             <p>I ha, Signior farewell. <stage xml:id="ep000344-e109030">Exeunt. </stage>
             </p>
@@ -1656,7 +1649,7 @@
             </p>
           </sp>
           <stage xml:id="ep000344-e109190">Enter the Dancer, Lady Rosomond, Lady Lucina, and Lady Honoria. </stage>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109200">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109200">
             <speaker>Dan. </speaker>
             <l>Very well an dat be skirvy you run trot, trot, trot, </l>
             <l>Pisha, follow me, fout Madame, can you not tell </l>
@@ -1671,7 +1664,7 @@
             <speaker>Luc. </speaker>
             <p>Fidling Ladies, you Molecatcher. </p>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109310">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109310">
             <speaker>Dan. </speaker>
             <l>Purquoy for telling you </l>
             <l>Dance not well, you commit fat, and beate me for my </l>
@@ -1682,7 +1675,7 @@
             <l>No Mounsieure Le Friske put not up your pipe, my Lady </l>
             <l>Was but in jest, and you must take it for a favour. </l>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109380">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109380">
             <speaker>Dan. </speaker>
             <l>I veare no favours in dat place, should any gentleman </l>
             <l>Of England give me blow, diable me teach him French Passage. </l>
@@ -1696,7 +1689,7 @@
             <speaker>Luc. </speaker>
             <p>Come Mounsieur I am sorry. </p>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109460">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109460">
             <speaker>Dan. </speaker>
             <l>Sorre, tat is too much par ma foy, I kisse tat white hand, </l>
             <l>Give me one two tree buffets, aller, aller looke up your </l>
@@ -1712,7 +1705,7 @@
             <l>Nay a Country dance Scutilla, you are idle, </l>
             <l>You know we must be at the Ball anon, come. </l>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109570">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109570">
             <speaker>Dan. </speaker>
             <p>Where is the Ball this night. </p>
           </sp>
@@ -1720,7 +1713,7 @@
             <speaker>Luc. </speaker>
             <p>At my Lord Rainebowes. </p>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109610">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109610">
             <speaker>Dan. </speaker>
             <l>Oh he dance finely becar, he deserve the Ball of de world, </l>
             <l>Fine, fine gentleman, your oder men dance lop, lop with </l>
@@ -1750,7 +1743,7 @@
             <speaker>Scu. </speaker>
             <p>Mounsieur you'le begone too. </p>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109790">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109790">
             <speaker>Dan. </speaker>
             <p>I have more Ladie, my Schollers. </p>
           </sp>
@@ -1758,7 +1751,7 @@
             <speaker>Sciu. </speaker>
             <p>Is that the way of your instrument. </p>
           </sp>
-          <sp who="#ep000344-dancing-master" xml:id="ep000344-e109830">
+          <sp who="#ep000344-dancer" xml:id="ep000344-e109830">
             <speaker>Dan. </speaker>
             <l>All a murdu France, fit, fit adiew </l>
             <l>Madam votre serviteur, </l>
@@ -2131,7 +2124,7 @@
             <speaker>Am. </speaker>
             <p>I am blest. </p>
           </sp>
-          <sp who="#ep000344-unassigned" xml:id="ep000344-e112160">
+          <sp who="#ep000344-colonel" xml:id="ep000344-e112160">
             <speaker>Cor. </speaker>
             <l>Cunning Gipsie shee'le use me thus too </l>
             <l>When I come too't? </l>
@@ -2781,7 +2774,7 @@
             <speaker>Am. </speaker>
             <p>We shall meete shortly. </p>
           </sp>
-          <sp who="#ep000344-both" xml:id="ep000344-e116090">
+          <sp who="#ep000344-bostocke #ep000344-ambrose" xml:id="ep000344-e116090">
             <speaker>Both. </speaker>
             <p>Ha ha ha. </p>
           </sp>
@@ -3026,7 +3019,7 @@
             <speaker>Co. </speaker>
             <p>If they consent. </p>
           </sp>
-          <sp who="#ep000344-unassigned" xml:id="ep000344-e117550">
+          <sp who="#ep000344-marmaduke #ep000344-ambrose" xml:id="ep000344-e117550">
             <speaker>Mar. Am. </speaker>
             <p>With all our hearts. </p>
           </sp>
@@ -3060,7 +3053,7 @@
             <speaker>Sol. </speaker>
             <p>Noble Mr. Freshwater welcome from travell. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e117750">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e117750">
             <speaker>Fr, </speaker>
             <p>Where be the Ladies? </p>
           </sp>
@@ -3070,7 +3063,7 @@
             <l>My Lady Rosomond is sitting for her picture, </l>
             <l>I presume you will be welcome. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e117810">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e117810">
             <speaker>Fr. </speaker>
             <p>An English Painter? </p>
           </sp>
@@ -3078,7 +3071,7 @@
             <speaker>So. </speaker>
             <p>Yes sir. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e117850">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e117850">
             <speaker>Fr. </speaker>
             <p>Prethee let me see him. </p>
           </sp>
@@ -3159,7 +3152,7 @@
             <p>Not with our horses Solomon, not with our horses. </p>
           </sp>
           <stage xml:id="ep000344-e118340">Enter Freshwater and Lady Rosomond. </stage>
-          <sp who="#ep000344-frank" xml:id="ep000344-e118350">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e118350">
             <speaker>Fr. </speaker>
             <l>Madam, I did not thinke your Ladiship </l>
             <l>Had so little judgement </l>
@@ -3168,7 +3161,7 @@
             <speaker>So. </speaker>
             <p>As how Signiour? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e118400">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e118400">
             <speaker>Fr. </speaker>
             <l>As to let an English man draw </l>
             <l>Your Picture, and such rare Mounsieurs in towne. </l>
@@ -3177,7 +3170,7 @@
             <speaker>Ro. </speaker>
             <p>Why not English? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e118450">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e118450">
             <speaker>Fr. </speaker>
             <l>Oh by no meanes Madam, </l>
             <l>They ha not active Pensiles. </l>
@@ -5415,7 +5408,7 @@
             <speaker>Moun. </speaker>
             <p>Hee waite on you presently Mounsieur de Freshwater. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e132700">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e132700">
             <speaker>Fr. </speaker>
             <l>Mounsieur Le Friske these Ladies were pleas'd </l>
             <l>To command my attendance hither. </l>
@@ -5534,7 +5527,7 @@
             <speaker>Lo. </speaker>
             <p>What a Rascall is this? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e133420">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e133420">
             <speaker>Fr. </speaker>
             <l>Here I observ'd many remarkeable buildings, as the </l>
             <l>Vniversitie, which some call the Loure, where the </l>
@@ -5606,7 +5599,7 @@
             <speaker>Ro. </speaker>
             <p>How a Cardinall, oh impudence. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e133850">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e133850">
             <speaker>Fr. </speaker>
             <l>Oh the catches we sang, and his wife a pretty woman, </l>
             <l>And one that warmes a bed one oth' best in Europe. </l>
@@ -5619,7 +5612,7 @@
             <speaker>Ro. </speaker>
             <p>I did before suspect him. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e133920">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e133920">
             <speaker>Fr. </speaker>
             <p>But mine Host. </p>
           </sp>
@@ -5627,7 +5620,7 @@
             <speaker>Ho. </speaker>
             <p>The Cardinall. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e133960">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e133960">
             <speaker>Fr. </speaker>
             <l>Right, had a shrew'd pate, and his eares were something </l>
             <l>O'th longest, for one upon the oath of a w— </l>
@@ -5638,7 +5631,7 @@
             <speaker>Ro. </speaker>
             <p>Say you so? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134030">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134030">
             <speaker>Fr. </speaker>
             <l>A parlous head, and yet loving to his guests, </l>
             <l>As mine host Bankes, as red in the gills, and as merry </l>
@@ -5675,7 +5668,7 @@
             <speaker>Ro. </speaker>
             <p>Very good. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134300">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134300">
             <speaker>Fr. </speaker>
             <l>I see little in Mantua, beside dancing upon the ropes, </l>
             <l>Onely their strong beere, better than any I </l>
@@ -5688,7 +5681,7 @@
             <speaker>Ro. </speaker>
             <p>Is that it? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134380">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134380">
             <speaker>Fr. </speaker>
             <p>O the Catazaners we turn'd there. </p>
           </sp>
@@ -5696,7 +5689,7 @@
             <speaker>Ho. </speaker>
             <p>Who was wee yee? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134420">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134420">
             <speaker>Fr. </speaker>
             <l>Two or three magnifico's grandees of the State, </l>
             <l>We tickled 'em in the very Pialto, by the same </l>
@@ -5715,7 +5708,7 @@
             <l>She that found her wedding ring in the </l>
             <l>Haddocks belly. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134570">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134570">
             <speaker>Fr. </speaker>
             <l>No, there was no staying, I tooke post presently </l>
             <l>For Genoa, and from thence to Madrill, and so to </l>
@@ -5725,7 +5718,7 @@
             <speaker>Ro. </speaker>
             <p>And how sped you among the Dutch? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134630">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134630">
             <speaker>Fr. </speaker>
             <l>Why, we were drunk every day together, they get their </l>
             <l>Living by it. </l>
@@ -5734,7 +5727,7 @@
             <speaker>Ho. </speaker>
             <p>By drinking? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134680">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134680">
             <speaker>Fr. </speaker>
             <l>And making bargaines in their tippling, </l>
             <l>The Iewes are innocent, nay the devill himselfe </l>
@@ -5744,7 +5737,7 @@
             <speaker>Ho. </speaker>
             <p>Whats that? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134740">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134740">
             <speaker>Fr. </speaker>
             <l>They fish, they fish still, who can helpe it, they </l>
             <l>Have nets enough, and may catch the Province </l>
@@ -5767,7 +5760,7 @@
             <speaker>Lo. </speaker>
             <p>And noble Signior you are very welcome. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134920">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134920">
             <speaker>Fr. </speaker>
             <p>I hope he did not over-heare me. </p>
           </sp>
@@ -5775,7 +5768,7 @@
             <speaker>Lo. </speaker>
             <p>I am much honor'd Ladies in your presence. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e134960">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e134960">
             <speaker>Fr. </speaker>
             <l>Absence had beene a sinne my Lord where you </l>
             <l>Were pleas'd to invite. <stage xml:id="ep000344-e134990">Enter Mounsieur. </stage>
@@ -5790,7 +5783,7 @@
             <speaker>Lo. </speaker>
             <p>Interrupt me no more good Moursieur. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e135050">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e135050">
             <speaker>Fr. </speaker>
             <l>Mounsieur La Friske, a word, a word, I beseech you, </l>
             <l>No excuser moy. <stage xml:id="ep000344-e135080">Exit Fresh. and Moun. </stage>
@@ -5922,7 +5915,7 @@
             <l>Within the name of Venus,— ha a blanke, </l>
             <l>By this light nothing, neither name nor marke. </l>
           </sp>
-          <sp who="#ep000344-both" xml:id="ep000344-e135860">
+          <sp who="#ep000344-honoria #ep000344-rainbow" xml:id="ep000344-e135860">
             <speaker>Both. </speaker>
             <p>Ha, ha, ha. </p>
           </sp>
@@ -6186,7 +6179,9 @@
             <l>Does he not become the beast, </l>
             <l>The Lords allow you pension. </l>
           </sp>
-          <sp who="#ep000344-omnes" xml:id="ep000344-e137630">
+          <sp
+            who="#ep000344-barker #ep000344-rainbow #ep000344-bostocke #ep000344-lucina #ep000344-colonel #ep000344-honoria"
+            xml:id="ep000344-e137630">
             <speaker>Omnes, </speaker>
             <p>Ha, ha, ha. </p>
           </sp>
@@ -6249,7 +6244,7 @@
             <speaker>Lo. </speaker>
             <p>Signior Freshwater, </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e138010">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e138010">
             <speaker>Fr. </speaker>
             <p>Mercy and silence as you are honourable. </p>
           </sp>
@@ -6257,7 +6252,7 @@
             <speaker>Lo. </speaker>
             <p>May it concerne these gentlemen. </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e138050">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e138050">
             <speaker>Fr. </speaker>
             <l>Why if I must gentlemen, you imagine I ha beene </l>
             <l>At Venice, but I staid at Gravesend </l>
@@ -6269,7 +6264,7 @@
             <speaker>Ste. </speaker>
             <p>Then you have crost no Sea? </p>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e138130">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e138130">
             <speaker>Fr. </speaker>
             <l>If you please, Ile require </l>
             <l>But my principall, and for your good company, </l>
@@ -6289,7 +6284,7 @@
             <l>Receive your money when you can get it, and be </l>
             <l>Knighted. </l>
           </sp>
-          <sp who="#ep000344-frank" xml:id="ep000344-e138260">
+          <sp who="#ep000344-freshwater" xml:id="ep000344-e138260">
             <speaker>Fr. </speaker>
             <l>I thanke you gentlemen, I am in a way now, </l>
             <l>I have sold my land, and put out my mony </l>

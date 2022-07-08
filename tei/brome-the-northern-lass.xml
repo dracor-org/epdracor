@@ -79,80 +79,53 @@
       <profileDesc>
         <particDesc>
           <listPerson>
-            <person xml:id="ep000320-tridewell">
+            <person xml:id="ep000320-tridewell" sex='MALE'>
               <persName>Tridewell</persName>
             </person>
-            <person xml:id="ep000320-luckless">
+            <person xml:id="ep000320-luckless" sex='MALE'>
               <persName>Luckless</persName>
             </person>
-            <person xml:id="ep000320-anvile">
+            <person xml:id="ep000320-anvile" sex='MALE'>
               <persName>Anvile</persName>
             </person>
-            <person xml:id="ep000320-widgine">
+            <person xml:id="ep000320-widgine" sex='MALE'>
               <persName>Widgine</persName>
             </person>
-            <person xml:id="ep000320-widgin">
-              <persName>Widgin</persName>
-            </person>
-            <person xml:id="ep000320-pate">
+            <person xml:id="ep000320-pate" sex='MALE'>
               <persName>Pate</persName>
             </person>
-            <person xml:id="ep000320-trainewell">
+            <person xml:id="ep000320-trainewell" sex='FEMALE'>
               <persName>Trainewell</persName>
             </person>
-            <person xml:id="ep000320-beavis">
+            <person xml:id="ep000320-beavis" sex='MALE'>
               <persName>Beavis</persName>
             </person>
-            <person xml:id="ep000320-fitchow">
+            <person xml:id="ep000320-fitchow" sex='FEMALE'>
               <persName>Fitchow</persName>
             </person>
-            <person xml:id="ep000320-holdup">
+            <person xml:id="ep000320-holdup" sex='FEMALE'>
               <persName>Holdup</persName>
             </person>
-            <person xml:id="ep000320-howdee">
+            <person xml:id="ep000320-howdee" sex='MALE'>
               <persName>Howdee</persName>
             </person>
-            <person xml:id="ep000320-maid">
+            <person xml:id="ep000320-maid" sex='FEMALE'>
               <persName>Maid</persName>
             </person>
-            <person xml:id="ep000320-masker">
-              <persName>Masker</persName>
-            </person>
-            <person xml:id="ep000320-vexham">
+            <person xml:id="ep000320-vexham" sex='MALE'>
               <persName>Vexham</persName>
             </person>
-            <person xml:id="ep000320-squelch">
+            <person xml:id="ep000320-squelch" sex='MALE'>
               <persName>Squelch</persName>
             </person>
-            <person xml:id="ep000320-bulfinch">
+            <person xml:id="ep000320-bulfinch" sex='MALE'>
               <persName>Bulfinch</persName>
             </person>
-            <person xml:id="ep000320-nonsense">
+            <person xml:id="ep000320-nonsense" sex='MALE'>
               <persName>Nonsense</persName>
             </person>
-            <person xml:id="ep000320-bullfinch">
-              <persName>Bullfinch</persName>
-            </person>
-            <person xml:id="ep000320-unassigned">
-              <persName>Unassigned</persName>
-            </person>
-            <person xml:id="ep000320-clerk">
+            <person xml:id="ep000320-clerk" sex='MALE'>
               <persName>Clerk</persName>
-            </person>
-            <person xml:id="ep000320-all">
-              <persName>All</persName>
-            </person>
-            <person xml:id="ep000320-multiple">
-              <persName>Multiple</persName>
-            </person>
-            <person xml:id="ep000320-humphrey">
-              <persName>Humphrey</persName>
-            </person>
-            <person xml:id="ep000320-beav9s">
-              <persName>Beav9s</persName>
-            </person>
-            <person xml:id="ep000320-omnes">
-              <persName>Omnes</persName>
             </person>
           </listPerson>
         </particDesc>
@@ -160,6 +133,11 @@
           <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
         </textClass>
       </profileDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2022-07-04">(Luca Giovannini) Fixed speaker tags and particDesc</change>
+        </listChange>
+      </revisionDesc>
     </fileDesc>
   </teiHeader>
   <standOff>
@@ -476,7 +454,7 @@
               <speaker>Tri. </speaker>
               <p>In good time sir. </p>
             </sp>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e102120">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e102120">
               <speaker>Wid. </speaker>
               <p>The match was not altogether her owne seeking sir, though she refus'd two Aldermen for him, on my owne knowledge. </p>
             </sp>
@@ -561,7 +539,7 @@
               <speaker>Anv. </speaker>
               <p>The time and place you meane. Thinke you hee durst haue done it, but in his kinsmans house; hee and the multitude of his seruants present. </p>
             </sp>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e102550">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e102550">
               <speaker>Wid. </speaker>
               <p>I, and wee know not how many arm'd men in the next roome. Hearke Governour. </p>
             </sp>
@@ -602,7 +580,7 @@
               <p>Goe bring her vp. Good brother Widgine, fly into the next roome, with your Governour. Ile waite on you presently. </p>
             </sp>
             <stage xml:id="ep000320-e102750">Ex. Pate. </stage>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e102760">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e102760">
               <speaker>Wid. </speaker>
               <p>My Lady! And brother Widgine! I must admire. Our house is rays'd by this two stories higher.— </p>
             </sp>
@@ -1302,7 +1280,7 @@
               <speaker>Fit. </speaker>
               <p>This sodaine importunity confirmes my former doubt: He thinkes his Scare-crow will make me keepe off <pb xml:id="ep000320-014-b"/>now; but hee is cossend. Well sir. He shall find me obedient to his hand. I am in all prepar'd to meet his purposes; Though, Brother I had thought to had conference this Morning with sir Paul Squelch touching a match for you. </p>
             </sp>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e106960">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e106960">
               <speaker>Wid. </speaker>
               <p>For me sister: ha' you found out a wife for me? ha' you? pray speake, ha' you? </p>
             </sp>
@@ -1402,7 +1380,7 @@
               <p>Is this my Wimple? Doe you bring Carpenters tooles to dresse me withall. </p>
             </sp>
             <stage xml:id="ep000320-e107490">Ent. Mayd. </stage>
-            <sp who="#ep000320-masker" xml:id="ep000320-e107500">
+            <sp who="#ep000320-maid" xml:id="ep000320-e107500">
               <speaker>Ma. </speaker>
               <p>Here is your Wimple forsooth. </p>
             </sp>
@@ -2109,7 +2087,7 @@
               <speaker>Squ. </speaker>
               <p>you must allow of reasonable things. </p>
             </sp>
-            <sp who="#ep000320-bullfinch" xml:id="ep000320-e111180">
+            <sp who="#ep000320-bulfinch" xml:id="ep000320-e111180">
               <speaker>Bull </speaker>
               <p>Be contented, sir Phillip in a noble Gentleman, and a Courtier, and as I apprehend. </p>
             </sp>
@@ -2824,9 +2802,12 @@
               <speaker>Squ. </speaker>
               <p>Six brace of Partriches, and sixe Pheasants in a Dish. Godwits, Knots, Quailes, and the rest of the meares answerable for halfe a score, or a dosen persons of the best quality: whom I will thinke of presently. </p>
             </sp>
-            <sp who="#ep000320-unassigned" xml:id="ep000320-e115010">
+            <sp who="#ep000320-clerk" xml:id="ep000320-e115010">
               <speaker>Clo </speaker>
-              <p>Braine of a downe right Iustice! What meanes my Master, to leape out of thirtie shillings a Weeke house keeping into twentie pounds a Supper? I may sell my Clearks place: for sure he meanes to thrust himselfe out of the Commission. Hee can be no Iustice long if this humor hold. Who shall be the Guests tro●? </p>
+              <p>Braine of a downe right Iustice! What meanes my Master, to leape out of thirtie
+                shillings a Weeke house keeping into twentie pounds a Supper? I may sell my Clearks
+                place: for sure he meanes to thrust himselfe out of the Commission. Hee can be no
+                Iustice long if this humor hold. Who shall be the Guests tro●? </p>
             </sp>
             <sp who="#ep000320-squelch" xml:id="ep000320-e115030">
               <speaker>Squ. </speaker>
@@ -3018,7 +2999,8 @@
             <stage xml:id="ep000320-e116010">Enter Lucklesse and Tridewell. </stage>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116020">
               <speaker>Luc. </speaker>
-              <p>Cosen, I vnderstand you at full. And am glad that occasion hath pointed out a probability to lead me out of this labirinth; and you to your desired end. </p>
+              <p>Cosen, I vnderstand you at full. And am glad that occasion hath pointed out a
+                probability to lead me out of this labirinth; and you to your desired end. </p>
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e116040">
               <speaker>Tri. </speaker>
@@ -3034,7 +3016,9 @@
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116100">
               <speaker>Luc. </speaker>
-              <p>For which Cosen, if I take not occasion to keepe my selfe from her, all nights, dayes, and times hereafter, may the act of our bodies beget prodigeous monsters and nothing else. </p>
+              <p>For which Cosen, if I take not occasion to keepe my selfe from her, all nights,
+                dayes, and times hereafter, may the act of our bodies beget prodigeous monsters and
+                nothing else. </p>
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e116120">
               <speaker>Tri. </speaker>
@@ -3042,21 +3026,33 @@
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116140">
               <speaker>Luc. </speaker>
-              <p>May wee proue but as certaine as you are confident in out other proiect, for recalling Constance to her selfe, and mee <pb subtype="duplicate" type="blank" xml:id="ep000320-030-a"/>
+              <p>May wee proue but as certaine as you are confident in out other proiect, for
+                recalling Constance to her selfe, and mee <pb subtype="duplicate" type="blank"
+                  xml:id="ep000320-030-a"/>
                 <pb subtype="duplicate" type="blank" xml:id="ep000320-030-b"/>
-                <pb xml:id="ep000320-031-a"/>then to her, these fetters being shaken off, may they proue golden ones to you, I shall not envie you. </p>
+                <pb xml:id="ep000320-031-a"/>then to her, these fetters being shaken off, may they
+                proue golden ones to you, I shall not envie you. </p>
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e116160">
               <speaker>Tri. </speaker>
-              <p>For her take no thought sir. The intrest I haue in her Tutresse, with the work I haue fashion'd vpon my Anvil, shall bring all to your wish. I expect to heare from him instantly. </p>
+              <p>For her take no thought sir. The intrest I haue in her Tutresse, with the work I
+                haue fashion'd vpon my Anvil, shall bring all to your wish. I expect to heare from
+                him instantly. </p>
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116180">
               <speaker>Luc. </speaker>
-              <p>Ile freely resigne your wish to you, and adde halfe I haue to augment her estate to you. Oh I tremble to thinke on her: her presence shakes the house like an earthquake: the outrage of Prentizes is not so terrible to a Bawd or a Cutpurse, as her voyce is to me. Yet to you shee may be calme as the breath of friendship, and milde as the midnight whispers of chast loue. </p>
+              <p>Ile freely resigne your wish to you, and adde halfe I haue to augment her estate to
+                you. Oh I tremble to thinke on her: her presence shakes the house like an
+                earthquake: the outrage of Prentizes is not so terrible to a Bawd or a Cutpurse, as
+                her voyce is to me. Yet to you shee may be calme as the breath of friendship, and
+                milde as the midnight whispers of chast loue. </p>
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e116200">
               <speaker>Tri. </speaker>
-              <p>Sir, I professe my affection flies eagerly at her. Shee takes me deepely, how euer you haue mistaken one another. Oh here comes my Anvile! Mee thinkes his very countenance invites me to strike him▪ though I know hee dos me good service now. </p>
+              <p>Sir, I professe my affection flies eagerly at her. Shee takes me deepely, how euer
+                you haue mistaken one another. Oh here comes my Anvile! Mee thinkes his very
+                countenance invites me to strike him▪ though I know hee dos me good service now.
+              </p>
             </sp>
             <stage xml:id="ep000320-e116220">Enter Anvile. </stage>
             <sp who="#ep000320-anvile" xml:id="ep000320-e116230">
@@ -3085,15 +3081,19 @@
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e116350">
               <speaker>Tri. </speaker>
-              <p>The successe shall vnfold it in good time to your and my benefit? doubt not, if she but follow her instructions. </p>
+              <p>The successe shall vnfold it in good time to your and my benefit? doubt not, if she
+                but follow her instructions. </p>
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116370">
               <speaker>Luc. </speaker>
-              <p>Nay, if shee be not Mistris of her Art, there is no deceit among Trades men, no bribery among Officers, no bankrupt out of Ludgate, nor Whore out of Bridewell. </p>
+              <p>Nay, if shee be not Mistris of her Art, there is no deceit among Trades men, no
+                bribery among Officers, no bankrupt out of Ludgate, nor Whore out of Bridewell. </p>
             </sp>
             <sp who="#ep000320-anvile" xml:id="ep000320-e116390">
               <speaker>An. </speaker>
-              <p>And if I ha' not fitted her with a Second, my friend vex him, the Constable, then say there is no wit among Knaues, no want among Schollers, no rest in the graue, nor vnquietnesse in Mariage, dee heare? </p>
+              <p>And if I ha' not fitted her with a Second, my friend vex him, the Constable, then
+                say there is no wit among Knaues, no want among Schollers, no rest in the graue, nor
+                vnquietnesse in Mariage, dee heare? </p>
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116410">
               <speaker>Luc. </speaker>
@@ -3110,11 +3110,14 @@
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e116480">
               <speaker>Fit. </speaker>
-              <p>Avoyd my house, and that presently, Ile claw your skin <pb xml:id="ep000320-031-b"/>off after your Liuory else, and make you so much nakeder then time makes all other seruing Creatures. </p>
+              <p>Avoyd my house, and that presently, Ile claw your skin <pb xml:id="ep000320-031-b"
+                />off after your Liuory else, and make you so much nakeder then time makes all other
+                seruing Creatures. </p>
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116500">
               <speaker>Luc. </speaker>
-              <p>Doe you talke of turning away my Man? You shall give me leaue to turne away your Howdee first, and then put off my, God a mercy how dost thou. </p>
+              <p>Doe you talke of turning away my Man? You shall give me leaue to turne away your
+                Howdee first, and then put off my, God a mercy how dost thou. </p>
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e116520">
               <speaker>Fit. </speaker>
@@ -3134,7 +3137,8 @@
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e116600">
               <speaker>Trid. </speaker>
-              <p>Nay sir, indeed the fault is yours most extreamly now. Pray sir forbeare to straine beyond a Womans patience. </p>
+              <p>Nay sir, indeed the fault is yours most extreamly now. Pray sir forbeare to straine
+                beyond a Womans patience. </p>
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e116620">
               <speaker>Fit. </speaker>
@@ -3162,11 +3166,13 @@
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e116740">
               <speaker>Fit. </speaker>
-              <p>Has my Ladiship made me so lamentable a thing, that I haue lost the power of a Mistris? You sir, run and call some frends to succour me, or Ile thratle you. </p>
+              <p>Has my Ladiship made me so lamentable a thing, that I haue lost the power of a
+                Mistris? You sir, run and call some frends to succour me, or Ile thratle you. </p>
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116760">
               <speaker>Luc. </speaker>
-              <p>Stirre but a foot sirah, or vtter but a sillable, and ile cut your thratle pipe. </p>
+              <p>Stirre but a foot sirah, or vtter but a sillable, and ile cut your thratle pipe.
+              </p>
             </sp>
             <sp who="#ep000320-howdee" xml:id="ep000320-e116780">
               <speaker>How. </speaker>
@@ -3178,7 +3184,8 @@
             </sp>
             <sp who="#ep000320-widgine" xml:id="ep000320-e116820">
               <speaker>Wid. </speaker>
-              <p>Haue you forgot my name sister? would not Widgine become your mouth, as wel? forget your natural brothers name? </p>
+              <p>Haue you forgot my name sister? would not Widgine become your mouth, as wel? forget
+                your natural brothers name? </p>
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e116840">
               <speaker>Fit. </speaker>
@@ -3186,7 +3193,9 @@
             </sp>
             <sp who="#ep000320-widgine" xml:id="ep000320-e116860">
               <speaker>Wid. </speaker>
-              <p>Foutre for sisters; I am not to medle with an other mans Wife. I am about one for my selfe. You mention'd her first to me. But I must be be holden to others wits and meanes to compasse her: or else— </p>
+              <p>Foutre for sisters; I am not to medle with an other mans Wife. I am about one for
+                my selfe. You mention'd her first to me. But I must be be holden to others wits and
+                meanes to compasse her: or else— </p>
             </sp>
             <sp who="#ep000320-luckless" xml:id="ep000320-e116880">
               <speaker>Luc. </speaker>
@@ -3216,9 +3225,12 @@
             <stage xml:id="ep000320-e117000">sing. </stage>
             <sp who="#ep000320-widgine" xml:id="ep000320-e117010">
               <speaker>Wid. </speaker>
-              <p>Sister, Wife, and all, is a present nothing to this. Come round Gentlemen▪ Keepe her but off, and let me alone. </p>
+              <p>Sister, Wife, and all, is a present nothing to this. Come round Gentlemen▪ Keepe
+                her but off, and let me alone. </p>
             </sp>
-            <p>They all take hands, and dance round. Widgine in the midst sings this Song. They all beare the burden, while shee scolds and striues to be amongst'hem. Tridewell holds her off. </p>
+            <p>They all take hands, and dance round. Widgine in the midst sings this Song. They all
+              beare the burden, while shee scolds and striues to be amongst'hem. Tridewell holds her
+              off. </p>
             <sp who="#ep000320-widgine" xml:id="ep000320-e117040">
               <speaker>Wid▪ </speaker>
               <lg type="song">
@@ -3229,7 +3241,9 @@
                 <l>By singing hey downe derry. </l>
               </lg>
             </sp>
-            <sp who="#ep000320-unassigned" xml:id="ep000320-e117100">
+            <sp
+              who="#ep000320-fitchow #ep000320-pate #ep000320-luckless #ep000320-howdee #ep000320-tridewell #ep000320-anvile"
+              xml:id="ep000320-e117100">
               <speaker>A●l. </speaker>
               <p>— Hey downe downe derry downe downe downe, &amp;c. </p>
             </sp>
@@ -3250,7 +3264,9 @@
               <speaker>Wid. </speaker>
               <p>Apprehend a fooles head. Come into play. </p>
             </sp>
-            <sp who="#ep000320-all" xml:id="ep000320-e117210">
+            <sp
+              who="#ep000320-fitchow #ep000320-pate #ep000320-luckless #ep000320-howdee #ep000320-tridewell #ep000320-anvile #ep000320-bulfinch"
+              xml:id="ep000320-e117210">
               <speaker>All. </speaker>
               <p>I, 〈◊〉 with him, and about againe. </p>
             </sp>
@@ -3271,7 +3287,9 @@
               <l>Her doggednesse more then a Scold or a Whore, </l>
               <l>Will perpetrate his Gall. </l>
             </sp>
-            <sp who="#ep000320-all" xml:id="ep000320-e117380">
+            <sp
+              who="#ep000320-fitchow #ep000320-pate #ep000320-luckless #ep000320-howdee #ep000320-tridewell #ep000320-anvile #ep000320-bulfinch"
+              xml:id="ep000320-e117380">
               <speaker>All. </speaker>
               <l>Hey downe downe, &amp;c. </l>
               <l>He that's matchd with a Turtle Doue, </l>
@@ -3283,10 +3301,13 @@
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e117450">
               <speaker>Fit. </speaker>
-              <p>O scorne vpon scorne, torment vpon torment. Let me rather be buried aliue then beare this. 〈◊〉 Shee gets loose. Slaues, Rascals, get yee all out of my doores. By vertue of my nayles, I charge yee. ●e not leaue an Eye or a Nose amongst yee </p>
+              <p>O scorne vpon scorne, torment vpon torment. Let me rather be buried aliue then
+                beare this. 〈◊〉 Shee gets loose. Slaues, Rascals, get yee all out of my doores. By
+                vertue of my nayles, I charge yee. ●e not leaue an Eye or a Nose amongst yee </p>
             </sp>
             <stage xml:id="ep000320-e117470">Flies vpon all. </stage>
-            <sp who="#ep000320-multiple" xml:id="ep000320-e117480">
+            <sp who="#ep000320-howdee #ep000320-bulfinch #ep000320-anvile #ep000320-widgine"
+              xml:id="ep000320-e117480">
               <speaker>How. Wid. Bull. Anv. </speaker>
               <l>O Lord, O Lord. </l>
             </sp>
@@ -3306,11 +3327,14 @@
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e117580">
               <speaker>Trid. </speaker>
-              <p>Madame, I see too much of your vexation; and indeed I suffer too much with you. As I am a Gentleman I will giue you right frendly Councill, if you will heare me. </p>
+              <p>Madame, I see too much of your vexation; and indeed I suffer too much with you. As
+                I am a Gentleman I will giue you right frendly Councill, if you will heare me. </p>
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e117600">
               <speaker>Fit. </speaker>
-              <p>Sir I haue perceiu'd humanity in you and doe loue it in you. But I know not what to doe, nor whom to heare. I am fallen into the pit of bondage, and will take any course for my Redemption. Oh Master Bulfinch. </p>
+              <p>Sir I haue perceiu'd humanity in you and doe loue it in you. But I know not what to
+                doe, nor whom to heare. I am fallen into the pit of bondage, and will take any
+                course for my Redemption. Oh Master Bulfinch. </p>
             </sp>
             <sp who="#ep000320-tridewell" xml:id="ep000320-e117620">
               <speaker>Tri. </speaker>
@@ -3318,11 +3342,15 @@
             </sp>
             <sp who="#ep000320-fitchow" xml:id="ep000320-e117640">
               <speaker>Fir. </speaker>
-              <p>Sir I am wrongd beyond expression. This Gentleman is an eye witnes of my suffrings. Pray come in Sir. I will heare your counsell together with this Gentlemans aduise. </p>
+              <p>Sir I am wrongd beyond expression. This Gentleman is an eye witnes of my suffrings.
+                Pray come in Sir. I will heare your counsell together with this Gentlemans aduise.
+              </p>
             </sp>
             <sp who="#ep000320-bulfinch" xml:id="ep000320-e117660">
               <speaker>Bull. </speaker>
-              <p>Madame, your case is in my apprehension, most desperate, yet 〈…〉 comfort in regard you seeke aduise and counsell. Mine is euer ready, and more fortunate oftentimes the Iudicious. For I doe nothing but vpon good reason and deliberation. </p>
+              <p>Madame, your case is in my apprehension, most desperate, yet 〈…〉 comfort in regard
+                you seeke aduise and counsell. Mine is euer ready, and more fortunate oftentimes the
+                Iudicious. For I doe nothing but vpon good reason and deliberation. </p>
             </sp>
             <trailer>The end of the third Act. </trailer>
           </div>
@@ -3518,7 +3546,7 @@
               <speaker>Squ. </speaker>
               <p>And how is this neatnesse rewarded Humfrey? </p>
             </sp>
-            <sp who="#ep000320-humphrey" xml:id="ep000320-e118670">
+            <sp who="#ep000320-howdee" xml:id="ep000320-e118670">
               <speaker>Hum. </speaker>
               <p>Doubly sir: at boord and at bed▪ by good bits, and the loue of the Chambermayd. </p>
             </sp>
@@ -3683,7 +3711,7 @@
               <speaker>Hol. </speaker>
               <p>Nay, I haue a further helpe then, you both imagine yet. </p>
             </sp>
-            <sp who="#ep000320-multiple" xml:id="ep000320-e119530">
+            <sp who="#ep000320-tridewell #ep000320-trainewell" xml:id="ep000320-e119530">
               <speaker>Tri. Tra. </speaker>
               <p>May wee know it. </p>
             </sp>
@@ -3824,7 +3852,7 @@
               <speaker>Anv. </speaker>
               <p>Speake your selfe sir. </p>
             </sp>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e120310">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e120310">
               <speaker>Wid. </speaker>
               <p>You may Mistris Constance; for as I am an honest man, <pb xml:id="ep000320-037-b"/>I neuer meant to wrong you. </p>
             </sp>
@@ -3857,7 +3885,7 @@
               <speaker>Anv. </speaker>
               <p>Or the Deuill to choake you. Well boystrous Master Tridewell, your Ropes end hath driuen me into a busines, here, deserues a whole Rope. But I hope that Destiny attends not me, though this Mariage be his: And since it is his Fate, faire befall it him, I am discharg'd </p>
             </sp>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e120480">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e120480">
               <speaker>Wid. </speaker>
               <p>Come Gouernour, we are agreed lets goe that wee may hye vs againe, and dispatch. </p>
             </sp>
@@ -3928,7 +3956,7 @@
               <speaker>Hol. </speaker>
               <p>Remember your Couenant with Master Tridewell Captaine. And when the worke is done, here's my hand, you shall partake of what I get by't. And harke you. </p>
             </sp>
-            <sp who="#ep000320-widgin" xml:id="ep000320-e120900">
+            <sp who="#ep000320-widgine" xml:id="ep000320-e120900">
               <speaker>Wid. </speaker>
               <p>Shee may perhaps, when shee comes to her selfe, and finds me to be no sir Phillip, be a litle startled. But I meane the first night to put so much of my owne loue into her, as shall worke out his I doubt not, or any his that came there before mee. </p>
             </sp>
@@ -4667,7 +4695,7 @@
               <p>To try is he would forget it or no? </p>
             </sp>
             <pb xml:id="ep000320-044-b"/>
-            <sp who="#ep000320-beav9s" xml:id="ep000320-e124680">
+            <sp who="#ep000320-beavis" xml:id="ep000320-e124680">
               <speaker>Bea. </speaker>
               <p>Right sir. I haue bidden all the Guests: and expect them immediatly. </p>
             </sp>
@@ -5012,7 +5040,9 @@
               <speaker>Bull. </speaker>
               <p>Mistris Trainowell, as I apprehend. </p>
             </sp>
-            <sp who="#ep000320-omnes" xml:id="ep000320-e126440">
+            <sp
+              who="#ep000320-vexham #ep000320-squelch #ep000320-clerk #ep000320-pate #ep000320-anvile #ep000320-holdup #ep000320-howdee #ep000320-fitchow #ep000320-tridewell #ep000320-luckless #ep000320-bulfinch #ep000320-clerk #ep000320-nonsense #ep000320-beavis"
+              xml:id="ep000320-e126440">
               <speaker>Omnes. </speaker>
               <p>Mistris Trainewell. </p>
             </sp>
@@ -5064,7 +5094,9 @@
               <speaker>Squ. </speaker>
               <p>Thou hast made me a Man for euer, and I will make thee a Woman directly. Gallants saue you. See here the Metamor.phosis, that meanes to metamorphose you all. Alas I know you for all your Disguises, and thought to intertaine you in your kind. </p>
             </sp>
-            <sp who="#ep000320-omnes" xml:id="ep000320-e126700">
+            <sp
+              who="#ep000320-vexham #ep000320-trainewell #ep000320-clerk #ep000320-pate #ep000320-anvile #ep000320-holdup #ep000320-howdee #ep000320-fitchow #ep000320-tridewell #ep000320-luckless #ep000320-bulfinch #ep000320-clerk #ep000320-nonsense #ep000320-beavis"
+              xml:id="ep000320-e126700">
               <speaker>Omnes. </speaker>
               <p>Sir Paul Squelch! </p>
             </sp>
@@ -5199,7 +5231,9 @@
               <speaker>Pate. </speaker>
               <p>To cleare that doubt there lyes my Order of Priesthood. </p>
             </sp>
-            <sp who="#ep000320-omnes" xml:id="ep000320-e127380">
+            <sp
+              who="#ep000320-vexham #ep000320-squelch #ep000320-clerk #ep000320-trainewell #ep000320-anvile #ep000320-holdup #ep000320-howdee #ep000320-fitchow #ep000320-tridewell #ep000320-luckless #ep000320-bulfinch #ep000320-clerk #ep000320-nonsense #ep000320-beavis"
+              xml:id="ep000320-e127380">
               <speaker>Omnes. </speaker>
               <p>Who, Oliuer!— </p>
             </sp>
