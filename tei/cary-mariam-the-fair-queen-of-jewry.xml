@@ -93,67 +93,58 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000325-mariam">
+          <person xml:id="ep000325-mariam" sex="FEMALE">
             <persName>Mariam</persName>
           </person>
-          <person xml:id="ep000325-alexandra">
+          <person xml:id="ep000325-alexandra" sex="FEMALE">
             <persName>Alexandra</persName>
           </person>
-          <person xml:id="ep000325-nuntius">
+          <person xml:id="ep000325-nuntius" sex="MALE">
             <persName>Nuntius</persName>
           </person>
-          <person xml:id="ep000325-salome">
+          <person xml:id="ep000325-salome" sex="FEMALE">
             <persName>Salome</persName>
           </person>
-          <person xml:id="ep000325-silleus">
+          <person xml:id="ep000325-silleus" sex="MALE">
             <persName>Silleus</persName>
           </person>
-          <person xml:id="ep000325-constabarus">
+          <person xml:id="ep000325-constabarus" sex="MALE">
             <persName>Constabarus</persName>
           </person>
-          <person xml:id="ep000325-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000325-pheroras">
+          <personGrp xml:id="ep000325-chorus" sex="UNKNOWN">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000325-pheroras" sex="MALE">
             <persName>Pheroras</persName>
           </person>
-          <person xml:id="ep000325-graphina">
+          <person xml:id="ep000325-graphina" sex="FEMALE">
             <persName>Graphina</persName>
           </person>
-          <person xml:id="ep000325-son_1">
-            <persName>Son 1</persName>
-          </person>
-          <person xml:id="ep000325-son_2">
-            <persName>Son 2</persName>
-          </person>
-          <person xml:id="ep000325-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000325-babus_son_1">
+          <person xml:id="ep000325-babus_son_1" sex="MALE">
             <persName>Babus Son 1</persName>
           </person>
-          <person xml:id="ep000325-babus_son_2">
+          <person xml:id="ep000325-babus_son_2" sex="MALE">
             <persName>Babus Son 2</persName>
           </person>
-          <person xml:id="ep000325-doris">
+          <person xml:id="ep000325-doris" sex="FEMALE">
             <persName>Doris</persName>
           </person>
-          <person xml:id="ep000325-antipater">
+          <person xml:id="ep000325-antipater" sex="MALE">
             <persName>Antipater</persName>
           </person>
-          <person xml:id="ep000325-ananell">
+          <person xml:id="ep000325-ananell" sex="MALE">
             <persName>Ananell</persName>
           </person>
-          <person xml:id="ep000325-servant">
-            <persName>Servant</persName>
+          <person xml:id="ep000325-servant" sex="MALE">
+            <persName>Servant to Silleus</persName>
           </person>
-          <person xml:id="ep000325-sohemus">
+          <person xml:id="ep000325-sohemus" sex="MALE">
             <persName>Sohemus</persName>
           </person>
-          <person xml:id="ep000325-herod">
+          <person xml:id="ep000325-herod" sex="MALE">
             <persName>Herod</persName>
           </person>
-          <person xml:id="ep000325-butler">
+          <person xml:id="ep000325-butler" sex="MALE">
             <persName>Butler</persName>
           </person>
         </listPerson>
@@ -1039,7 +1030,7 @@
         <div n="2" type="scene" xml:id="ep000325-e107280">
           <head>Actus 2. Scena. 2. </head>
           <stage xml:id="ep000325-e107290">Constabarus and Babus Sonnes. </stage>
-          <sp who="#ep000325-son_1" xml:id="ep000325-e107300">
+          <sp who="#ep000325-babus_son_1" xml:id="ep000325-e107300">
             <speaker>Babus. 1. Sonne. </speaker>
             <l>NOw valiant friend you haue our liues redeem'd, </l>
             <l>Which liues as sau'd by you, to you are due: </l>
@@ -1090,7 +1081,7 @@
             <l>In all their thoughts each action to excell, </l>
             <l>Boldly to act, and wisely to inuent. </l>
           </sp>
-          <sp who="#ep000325-son_2" xml:id="ep000325-e107760">
+          <sp who="#ep000325-babus_son_2" xml:id="ep000325-e107760">
             <speaker>Babus 2. Sonne. </speaker>
             <l>Had it not like the hatefull cuckoe beene, </l>
             <l>Whose riper age his infant nurse doth kill: </l>
@@ -1109,7 +1100,7 @@
             <l>And proue it was not basenes did oppresse </l>
             <l>Our hearts so long, but honour kept them low. </l>
           </sp>
-          <sp who="#ep000325-son_1" xml:id="ep000325-e107930">
+          <sp who="#ep000325-babus_son_1" xml:id="ep000325-e107930">
             <speaker>Ba. 1. Sonne. </speaker>
             <l>Yet do I feare this tale of Herods death, </l>
             <l>At last will proue a very tale indeed: </l>
@@ -1126,7 +1117,7 @@
             <l>What art thou turn'd a coward noble youth, </l>
             <l>That thou beginst to doubt, vndoubted truth? </l>
           </sp>
-          <sp who="#ep000325-son_1" xml:id="ep000325-e108050">
+          <sp who="#ep000325-babus_son_1" xml:id="ep000325-e108050">
             <speaker>Babus. 1. Son. </speaker>
             <l>Were it my brothers tongue that cast this doubt, </l>
             <l>I from his hart would haue the question out: </l>
@@ -1145,7 +1136,7 @@
             <l>Then Caesar we might thee an idiot call, </l>
             <l>If thou by him should'st be so farre abusde. </l>
           </sp>
-          <sp who="#ep000325-unassigned" xml:id="ep000325-e108220">
+          <sp who="#ep000325-babus_son_2" xml:id="ep000325-e108220">
             <speaker>Babus. 2. Sonne. </speaker>
             <l>Lord Constab: let me tell you this, </l>
             <l>Vpon submission Caesar will forgiue: </l>
@@ -2406,7 +2397,7 @@
             <l>Yet let vs resolutely yeeld our breath, </l>
             <l>Death is the onely ladder, Heau'n to clime. </l>
           </sp>
-          <sp who="#ep000325-son_1" xml:id="ep000325-e117860">
+          <sp who="#ep000325-babus_son_1" xml:id="ep000325-e117860">
             <speaker>Babus 1. Sonne. </speaker>
             <l>With willing mind I could my selfe resigne, </l>
             <l>But yet it grieues me with a griefe vntold: </l>

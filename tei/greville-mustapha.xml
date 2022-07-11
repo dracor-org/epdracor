@@ -89,39 +89,42 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000045-soliman">
+          <person xml:id="ep000045-soliman" sex="MALE">
             <persName>Soliman</persName>
           </person>
-          <person xml:id="ep000045-rossa">
+          <person xml:id="ep000045-rossa" sex="MALE">
             <persName>Rossa</persName>
           </person>
-          <person xml:id="ep000045-beliarby">
+          <person xml:id="ep000045-beliarby" sex="MALE">
             <persName>Beliarby</persName>
           </person>
-          <person xml:id="ep000045-camena">
+          <person xml:id="ep000045-camena" sex="FEMALE">
             <persName>Camena</persName>
           </person>
-          <person xml:id="ep000045-rosten">
+          <person xml:id="ep000045-rosten" sex="MALE">
             <persName>Rosten</persName>
           </person>
-          <person xml:id="ep000045-xxxx">
-            <persName>Xxxx</persName>
-          </person>
-          <person xml:id="ep000045-acmat">
+          <person xml:id="ep000045-acmat" sex="MALE">
             <persName>Acmat</persName>
           </person>
-          <person xml:id="ep000045-priest">
+          <person xml:id="ep000045-priest" sex="MALE">
             <persName>Priest</persName>
           </person>
-          <person xml:id="ep000045-mustaffa">
+          <person xml:id="ep000045-mustaffa" sex="MALE">
             <persName>Mustaffa</persName>
           </person>
-          <person xml:id="ep000045-zanger">
+          <person xml:id="ep000045-zanger" sex="MALE">
             <persName>Zanger</persName>
           </person>
-          <person xml:id="ep000045-chorus">
-            <persName>Chorus</persName>
-          </person>
+          <personGrp xml:id="ep000045-chorus" sex="UNKNOWN">
+            <name>Chorus</name>
+          </personGrp>
+          <personGrp xml:id="ep000045-chorus-priests" sex="MALE">
+            <name>Chorus Sacerdotum.</name>
+          </personGrp>
+          <personGrp xml:id="ep000045-chorus-tartarorum" sex="UNKNOWN">
+            <name>Chorus Tartarorum</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -575,7 +578,7 @@
               <pb xml:id="ep000045-006-b"/>
               <l>Fame is like breath breath'd from the inward part. </l>
             </sp>
-            <sp who="#ep000045-rossa" xml:id="ep000045-e103470">
+            <sp who="#ep000045-chorus-priests" xml:id="ep000045-e103470">
               <speaker>Rossa. </speaker>
               <l>Where it is death to thinke or to conspire, </l>
               <l>There Kings may kill before they doe enquire. </l>
@@ -1249,7 +1252,7 @@
           <head>CHORVS. </head>
           <div n="1" type="scene" xml:id="ep000045-e108650">
             <head>ACT. III. SCENA. I. </head>
-            <sp who="#ep000045-xxxx" xml:id="ep000045-e108660">
+            <sp xml:id="ep000045-e108660">
               <stage xml:id="ep000045-e108670">Achmatt alone. </stage>
             </sp>
             <sp who="#ep000045-acmat" xml:id="ep000045-e108680">
@@ -1342,7 +1345,7 @@
           </div>
           <div n="2" type="scene" xml:id="ep000045-e109510">
             <head>Act. 3. Scaen. 2. </head>
-            <sp who="#ep000045-xxxx" xml:id="ep000045-e109520">
+            <sp xml:id="ep000045-e109520">
               <stage xml:id="ep000045-e109530">Enter Solyman and Acmat. </stage>
             </sp>
             <sp who="#ep000045-soliman" xml:id="ep000045-e109540">
@@ -1528,7 +1531,7 @@
           <div n="3" type="scene" xml:id="ep000045-e111110">
             <pb xml:id="ep000045-016-a"/>
             <head>Acuts tertius, Scena tertia. </head>
-            <sp who="#ep000045-xxxx" xml:id="ep000045-e111120">
+            <sp xml:id="ep000045-e111120">
               <stage xml:id="ep000045-e111130">Enter Solyman, Beliarby nuntius. </stage>
             </sp>
             <sp who="#ep000045-beliarby" xml:id="ep000045-e111140">
@@ -1569,7 +1572,7 @@
           </div>
           <div n="4" type="scene" xml:id="ep000045-e111430">
             <head>Actus tertius Scena quarta. </head>
-            <sp who="#ep000045-xxxx" xml:id="ep000045-e111440">
+            <sp xml:id="ep000045-e111440">
               <stage xml:id="ep000045-e111450">Enter Rossa and Solyman. </stage>
             </sp>
             <sp who="#ep000045-rossa" xml:id="ep000045-e111460">
@@ -1694,7 +1697,7 @@
               <speaker>Solim. </speaker>
               <l>What fault would not a mothers loue forgiue, </l>
             </sp>
-            <sp xml:id="ep000045-e112245">
+            <sp who="#ep000045-rossa" xml:id="ep000045-e112245">
               <speaker>Rossa </speaker>
               <l>The fault she made was that she let me liue, </l>
               <l>For knowing she conspird her fathers death, </l>
@@ -1815,7 +1818,7 @@
           <div n="5" type="scene" xml:id="ep000045-e113160">
             <pb xml:id="ep000045-018-b"/>
             <head>Actus tertius Scena quinta. </head>
-            <sp who="#ep000045-xxxx" xml:id="ep000045-e113170">
+            <sp xml:id="ep000045-e113170">
               <stage xml:id="ep000045-e113180">Enter Priest &amp; Mustapha. </stage>
             </sp>
             <sp who="#ep000045-priest" xml:id="ep000045-e113190">
@@ -2074,7 +2077,7 @@
               <pb xml:id="ep000045-021-a"/>
               <l>And in these duties afterwards be strong. </l>
             </sp>
-            <sp who="#ep000045-mustaffa" xml:id="ep000045-e115200">
+            <sp who="#ep000045-zanger" xml:id="ep000045-e115200">
               <speaker>Must. </speaker>
               <l>Tempt me no more, good will is then a paine, </l>
               <l>When her words beat the heart, and cannot enter, </l>

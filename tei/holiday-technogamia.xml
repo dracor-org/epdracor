@@ -87,104 +87,80 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000082-geographus">
+          <person xml:id="ep000082-geographus" sex="MALE">
             <persName>Geographus</persName>
           </person>
-          <person xml:id="ep000082-phantastes">
+          <person xml:id="ep000082-phantastes" sex="MALE">
             <persName>Phantastes</persName>
           </person>
-          <person xml:id="ep000082-astronomia">
+          <person xml:id="ep000082-astronomia" sex="MALE">
             <persName>Astronomia</persName>
           </person>
-          <person xml:id="ep000082-physica">
+          <person xml:id="ep000082-physica" sex="FEMALE">
             <persName>Physica</persName>
           </person>
-          <person xml:id="ep000082-geometres">
+          <person xml:id="ep000082-geometres" sex="MALE">
             <persName>Geometres</persName>
           </person>
-          <person xml:id="ep000082-magus">
+          <person xml:id="ep000082-magus" sex="MALE">
             <persName>Magus</persName>
           </person>
-          <person xml:id="ep000082-astrologia">
+          <person xml:id="ep000082-astrologia" sex="FEMALE">
             <persName>Astrologia</persName>
           </person>
-          <person xml:id="ep000082-arithmetic">
+          <person xml:id="ep000082-arithmetica" sex="FEMALE">
             <persName>Arithmetic</persName>
           </person>
-          <person xml:id="ep000082-musica">
+          <person xml:id="ep000082-musica" sex="FEMALE">
             <persName>Musica</persName>
           </person>
-          <person xml:id="ep000082-poeta">
+          <person xml:id="ep000082-poeta" sex="MALE">
             <persName>Poeta</persName>
           </person>
-          <person xml:id="ep000082-melancholico">
+          <person xml:id="ep000082-melancholico" sex="MALE">
             <persName>Melancholico</persName>
           </person>
-          <person xml:id="ep000082-geography">
-            <persName>Geography</persName>
-          </person>
-          <person xml:id="ep000082-grammaticus">
+          <person xml:id="ep000082-grammaticus" sex="MALE">
             <persName>Grammaticus</persName>
           </person>
-          <person xml:id="ep000082-logic">
+          <person xml:id="ep000082-logicus" sex="MALE">
             <persName>Logic</persName>
           </person>
-          <person xml:id="ep000082-choler">
+          <person xml:id="ep000082-choler" sex="MALE">
             <persName>Choler</persName>
           </person>
-          <person xml:id="ep000082-sanguis">
+          <person xml:id="ep000082-sanguis" sex="MALE">
             <persName>Sanguis</persName>
           </person>
-          <person xml:id="ep000082-polites">
+          <person xml:id="ep000082-polites" sex="MALE">
             <persName>Polites</persName>
           </person>
-          <person xml:id="ep000082-historia">
+          <person xml:id="ep000082-historia" sex="FEMALE">
             <persName>Historia</persName>
           </person>
-          <person xml:id="ep000082-ethicus">
+          <person xml:id="ep000082-ethicus" sex="MALE">
             <persName>Ethicus</persName>
           </person>
-          <person xml:id="ep000082-rhetoric">
+          <person xml:id="ep000082-rhetorica" sex="FEMALE">
             <persName>Rhetoric</persName>
           </person>
-          <person xml:id="ep000082-oeconoma">
+          <person xml:id="ep000082-oeconoma" sex="FEMALE">
             <persName>Oeconoma</persName>
           </person>
-          <person xml:id="ep000082-logicus">
-            <persName>Logicus</persName>
-          </person>
-          <person xml:id="ep000082-causidicus">
+          <person xml:id="ep000082-causidicus" sex="MALE">
             <persName>Causidicus</persName>
           </person>
-          <person xml:id="ep000082-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000082-phlegmatico">
+          <person xml:id="ep000082-phlegmatico" sex="MALE">
             <persName>Phlegmatico</persName>
           </person>
-          <person xml:id="ep000082-arithmetica">
-            <persName>Arithmetica</persName>
-          </person>
-          <person xml:id="ep000082-physiognomus">
+          <person xml:id="ep000082-physiognomus" sex="MALE">
             <persName>Physiognomus</persName>
           </person>
-          <person xml:id="ep000082-cheiromantes">
+          <person xml:id="ep000082-cheiromantes" sex="MALE">
             <persName>Cheiromantes</persName>
           </person>
-          <person xml:id="ep000082-medicus">
+          <person xml:id="ep000082-medicus" sex="MALE">
             <persName>Medicus</persName>
-          </person>
-          <person xml:id="ep000082-geometrician">
-            <persName>Geometrician</persName>
-          </person>
-          <person xml:id="ep000082-magician">
-            <persName>Magician</persName>
-          </person>
-          <person xml:id="ep000082-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000082-missing">
-            <persName>Missing</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -192,6 +168,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-24">(Christopher Lu) Edited speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -765,7 +746,7 @@
               <speaker>Astrol. </speaker>
               <p>Nay, then I perceiue there is somewhat of fate in loue; and that the Starres doe not rule men, but men the Starres; why there's no Proportion of worth betweene him and Geometres, a man cut out by the very Square of all vertue. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e103260">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e103260">
               <speaker>Arithm. </speaker>
               <p>I, and let Arithmetica be cast out of the Number of the Sciences; if in his very face (I speake it freely behind his back) appeare not to my eye the very Figure of sincerity. </p>
             </sp>
@@ -773,7 +754,7 @@
               <speaker>Astron. </speaker>
               <p>Alas! would you Paralell Geometres with Geographus? you may as well liken the Middle of the Earth to the whole Circumference: or, but some Angle to a whole Mappe. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e103300">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e103300">
               <speaker>Arithm. </speaker>
               <p>Nay, you are the whole Heauen-wide, Astronomia, on the contrary part; for though Geometres thinke there bee too great Disparity betweene him and me, and that Arithmetica stands now but for a Cipher in his account; yet, that conceit of his shall neuer make a Fraction or Diuision in my loue, but as hee was once mine Intire, so shall I euer hold it the golden Rule of friendship, rather to Adde vnto, then Substract from my first affection: but let vs not multiply words: <pb xml:id="ep000082-008-b"/>Musica, prethee what dost thou thinke of this? </p>
             </sp>
@@ -781,7 +762,7 @@
               <speaker>Musica. </speaker>
               <p>Truely, I thinke Geographus to be a liberall Gentleman, and therefore may not consent vnto Astrologia, when she calls him base, yet I thinke hee has some Crotchets now and then of a Traueller: and for Geometres, I take him for a plaine Solid fellow: but in my conceit, in his discourse hee's somewhat obtuse, blunt, blunt. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e103340">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e103340">
               <speaker>Arithm. </speaker>
               <p>I, that's but thy conceit. </p>
             </sp>
@@ -1003,7 +984,7 @@
               <speaker>Poet. </speaker>
               <p>SO, Grammaticus, you'd faine Rule me still:— Et nos ergo manum ferulae subduximus. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e104520">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e104520">
               <speaker>Logic. </speaker>
               <p>Nay, Poeta, you must not abuse him that hath beene your Master, he hath beene your Master, Ergo, you must not abuse him. </p>
             </sp>
@@ -1015,7 +996,7 @@
               <speaker>Gram. </speaker>
               <p>Aristotle? sawcy boy? Aristotelis libri sunt omne genus elegantia referti; pro Omnis generis. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e104580">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e104580">
               <speaker>Logic. </speaker>
               <p>Nay, Poeta, we must grant you the eloquence: Nobis <pb xml:id="ep000082-011-a"/>non licet esse tam disertis disertos. </p>
             </sp>
@@ -1045,7 +1026,7 @@
               <p>
                 <stage xml:id="ep000082-e104730">Logicus and Melancholico fight .</stage>Ile doe my best to cracke his pate, if I can. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e104740">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e104740">
               <speaker>Logic. </speaker>
               <p>He bites, he bites: O, do you scratch, you coward? </p>
             </sp>
@@ -1079,7 +1060,7 @@
               <speaker>Poet. </speaker>
               <p>I beleeue thee, yfaith; Logicus, will you returne? </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e104920">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e104920">
               <speaker>Logic. </speaker>
               <p>I see no reason for it: Ergo, I won't. <stage xml:id="ep000082-e104940">Exit. </stage>
               </p>
@@ -1245,7 +1226,7 @@
               <speaker>Ethic. </speaker>
               <p>Nay, nay— </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e105840">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e105840">
               <speaker>Rhetor. </speaker>
               <p>Nay? nay? nay truly Ethicus, 'tis good manners, to let her answere in her owne defence. </p>
             </sp>
@@ -1313,7 +1294,7 @@
               <speaker>Historia. </speaker>
               <p>Fare you well; you haue had a time to loue and woo, and so must we haue. These olde folkes thinke their Olde Age must carrie it away, as if they had wonne as cleere a Victorie from vs, as can be; alas! Ile giue them leaue to vse their Dead Precepts, but if they once come to liuely Examples, Ile vndertake my Selfe to conuince their best Experience. Poeta's loue indeed of late is much alienated from me, but as long I loue him, Ile speake in his defence; did you see how Polites did onely speake an Accusation against him? and Ethicus Abuse his froward Age; and Oeconoma Chafe out her weake coniecture? and then, (when they had rather shewed the Weaknesse of their Age; then the Strength of their Reason,) flung away, as if their Obiections could not be Answered, because they would not Heare an Answere. I would enquire of Polites (if my Ancestors haue not mis-inform'd mee in Antiquitie) whether in the Time of Herodotus, and after that, of Zenophon (and since of many others) there has not bin a like coniunction to Poeta's and Historia's; and whether your chiefest Common-wealths-men, either of Former times as Plato; or of Later, as the great Solon of the Utopian Common-wealth, haue not made a Poeticall inuention their chiefest glorie? but there is no discoursing with Age; especially, when it is possessed with a peruerse preiudice. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e106190">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e106190">
               <speaker>Rhetorica. </speaker>
               <p>And did you marke with what a Strength of Heate, his Cold Feeblenesse set vpon me? and I was Mistris Tongue; and I was Nimble-tongu'd, and I had Foure tongues. But if the Eie of Age bee not so Dimme, but that it may Reflect vpon it selfe: if the Eare of Age be not so Peruerse, but that it may Admit a free Attention; if the Reason of Age, <pb xml:id="ep000082-014-a"/>will but yeeld to Reason; then shall his Eie, his Eare, his Reason, bring in their seuerall informations against his Age. If wee should inquire with whom does reside the most refined Expolition of Language; would it bee answered with Olde-folkes? if we should inquire with whom does abide the most nimble vigour of purest Apprehension; would it be answer'd with Old-folkes? if we should inquire who are most tryed for Quicke Dispatch of weightie Affaires, would it be answer'd your Old-folkes? whose Age brings Care, Care Weaknesse, Weaknes Frowardnes, Frowardnesse Distraction, Distraction Childishnesse: and thus running Round in the Circle of Time, growing Giddie, they fall downe vpon all Foure againe, like Children: Children I may call them for their Impotencie, not Innocencie: for their Peruersenesse, not Hopefulnesse; for their Impatience, not Tendernesse; for then would they afford a more Tender censure, of our more Tender loues: but let's bee gone, and though they Chide, yet will wee Loue; and I will sooner confesse my Tongue to want Eloquence, then my Loue of Logicus to want Reason. </p>
             </sp>
@@ -1524,14 +1505,14 @@
           <div n="4" type="scene" xml:id="ep000082-e107530">
             <head>SCENA. IIII. </head>
             <head type="sub">ARITHMETICA, GEOMETRES. </head>
-            <sp who="#ep000082-arithmetica" xml:id="ep000082-e107540">
+            <sp who="#ep000082-arithmeticaa" xml:id="ep000082-e107540">
               <p>I Perceiue to what Center all the lines of your Circle tend. </p>
             </sp>
             <sp who="#ep000082-geometres" xml:id="ep000082-e107560">
               <speaker>Geom. </speaker>
               <p>You would rather say to what Circumference all the lines runne from my Center. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e107580">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e107580">
               <speaker>Arith. </speaker>
               <p>Loe, now you haue confes'd: and is't Astronomia that must so Out-shine Arithmetica? well, were her beauties as the Starres, Ile make them want the beautie of all beauties, Number; that they shall onely bee vncertainely gaz'd vpon, vnder an Indefinite multitude. </p>
             </sp>
@@ -1539,7 +1520,7 @@
               <speaker>Geom. </speaker>
               <p>You're out, you're out in your Account Arithmetica, beleeue mee you are: I onely intimated your suspicion, not expres'd mine owne desires. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e107620">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e107620">
               <speaker>Arith. </speaker>
               <p>Well, Geometres, I haue knowne the time when your loue to Arithmetica was more Solid, and not thus Superficiall; the time was when Geometres would not doe any thing without Arithmetica; not measure a Foote of ground, but aske of Arithmetica how many Inches it was; not an Inch but inquire of Arithmetica how many Graines were in't: but now forsooth the pride of his desires is rais'd to an Higher pitch; and now Astronomia is the Starre vpon which his eye is fixt, and now Astronomia is the Magnetique Pole, after which the Load-stone of his heart doth turne. And Astronomia— </p>
             </sp>
@@ -1547,7 +1528,7 @@
               <speaker>Geom. </speaker>
               <p>Peace. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e107660">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e107660">
               <speaker>Arith. </speaker>
               <p>What? can't you endure to heare the name of your dearest Astronomia? </p>
             </sp>
@@ -1555,7 +1536,7 @@
               <speaker>Geom. </speaker>
               <p>Not from that mouth. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e107700">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e107700">
               <speaker>Arith. </speaker>
               <p>Because I cannot praise her Infinitely? why then me thinks not from your owne, because you cannot praise her without Measure; well, Geometres, forgiue me, but I must loue thee. Come, dearest; Ile be a Globe, be thou the Axle-tree: Ile be a Circle, be thou the Diameter: Ile be— </p>
             </sp>
@@ -1564,7 +1545,7 @@
               <p>A chaste virgin! I thinke shee'l get her selfe with childe by an imagination, without marrying; for shee doth already, me thinks, Multiply exceedingly, and Bring foorth: well, Ile leaue you, or else there is no way, Arithmetica, to <pb xml:id="ep000082-017-a"/>stay your Progression. <stage xml:id="ep000082-e107740">Exit Geometres. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e107750">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e107750">
               <speaker>Arith. </speaker>
               <p>Well, Geometres, know, when thou once forsakest Number, thou then run'st headlong into confusion; but this is the misery of inthral'd affections; yet since I cannot dissettle them, I will mitigate them; and so long count them at least supportable, as they shall not exceede Number and Measure. </p>
             </sp>
@@ -1593,7 +1574,7 @@
               <speaker>Cheir. </speaker>
               <p>The broad eye of the Heauens still attend you Sir. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e107910">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e107910">
               <speaker>Phys. </speaker>
               <p>And grant that the sweet Fairies may nightly put <pb xml:id="ep000082-018-a"/>money in your shooes Sir. </p>
             </sp>
@@ -1601,7 +1582,7 @@
               <speaker>Cheir. </speaker>
               <p>And sweepe your house cleane Sir. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e107950">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e107950">
               <speaker>Phys. </speaker>
               <p>And make you the rich husband of many wiues. </p>
             </sp>
@@ -1609,7 +1590,7 @@
               <speaker>Cheir. </speaker>
               <p>And the blest father of many children. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e107990">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e107990">
               <speaker>Phys. </speaker>
               <p>The gods of the night send you happy dreames. </p>
             </sp>
@@ -1617,7 +1598,7 @@
               <speaker>Cheir. </speaker>
               <p>And that you may neuer pare your nailes vpon a Friday. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108030">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108030">
               <speaker>Phys. </speaker>
               <p>And that the horse-shoo may neuer bee pul'd from your threshold. </p>
             </sp>
@@ -1625,7 +1606,7 @@
               <speaker>Cheir. </speaker>
               <p>And that your Stables may bee alwaies free from the queene of the Goblins. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108070">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108070">
               <speaker>Phys. </speaker>
               <p>That your nose may neuer bleed only three drops at a time. </p>
             </sp>
@@ -1633,7 +1614,7 @@
               <speaker>Cheir. </speaker>
               <p>That a yellow Death-mould may neuer appeare vpon your hand, or any part of your body. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108110">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108110">
               <speaker>Phys. </speaker>
               <p>That you may neuer stumble at your going out in the morning. </p>
             </sp>
@@ -1645,7 +1626,7 @@
               <speaker>Poeta. </speaker>
               <p>Be ridde of you Varlets. What Aegyptian darknes has seaz'd vpon your faces? </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108170">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108170">
               <speaker>Phys. </speaker>
               <p>Wee are indeed from Aegypt-land, and't please your good vrship: Brother, by the Ruffian, I thinke this is a quier coue, he cuts such quier whidds: Good Sir, if you be a Gentry coue, vouchsafe some small Win or but a Make, for wee haue neither Lowre, nor Libbeg, nor Libkin. </p>
             </sp>
@@ -1653,7 +1634,7 @@
               <speaker>Cheir. </speaker>
               <p>No by Salomon, vnlesse it be Strommell sometimes in a Skipper; wee had rather Mawnd then Mill to keepe vs from Trining. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108210">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108210">
               <speaker>Phys. </speaker>
               <p>Good Gentry coue vouchsafe vs a little Lowre, or some old Duddes, as a Castir or a Commission. </p>
             </sp>
@@ -1669,7 +1650,7 @@
               <speaker>Poeta. </speaker>
               <p>My Famble Villaine? This is almost as bad as the language of Logicus. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108290">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108290">
               <speaker>Phys. </speaker>
               <p>Ah your good vrship! it is the Gypsy language: the <pb xml:id="ep000082-018-b"/>vrship of the gods blesse your faire Glasiers, and looke out with your mercifull eyne. </p>
             </sp>
@@ -1677,7 +1658,7 @@
               <speaker>Cheiro. </speaker>
               <p>Gentle Ruler of this place, if so you be, vouchsafe to fauour vs in the way of truth for the gods cause. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108330">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108330">
               <speaker>Phys. </speaker>
               <p>Somewhat towards a meales meate, Well and Wisely bestow vpon vs, and the Go-ads reward you for't. </p>
             </sp>
@@ -1685,7 +1666,7 @@
               <speaker>Cheir. </speaker>
               <p>Ah good Master well and wisely, giue mee but an old sheete against the cold, or an old Petticoat or smocke of my Mistres's (Heauen saue her life) for my poore Doxy. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108370">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108370">
               <speaker>Phys. </speaker>
               <p>Good Sir giue but a cuppe of your best drinke well and wisely. The gods saue the King and his Counsell, and the gouernours of this place; you shall haue a faire wife Master, and many children. </p>
             </sp>
@@ -1693,7 +1674,7 @@
               <speaker>Poeta. </speaker>
               <p>Ha! a faire wife and many children? how know'st thou that? what's thy name? </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108410">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108410">
               <speaker>Phys. </speaker>
               <p>Physiognomus, good Master. </p>
             </sp>
@@ -1709,7 +1690,7 @@
               <speaker>Poeta. </speaker>
               <p>Physiognomus, and Cheiromantes? Why what can you doe? </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e108490">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e108490">
               <speaker>Phys. </speaker>
               <p>We can tell the will of the Heauens good Master; we can tell your fortune, Master. </p>
             </sp>
@@ -1949,7 +1930,8 @@
               </floatingText>
               <p>Prettie, prettie, by the dimpled chin of my Astrologia, prettie; Ile giue the rascall his Anacreon againe (because I cannot tell what to doe with it) for this tricke, and tell him I found it, and so make him fall in loue with mee most poetically; well, my little rascals, expect a better bootie of some richer bodie the next time; be gone: but be in readinesse, there is to be a banquet at Ethicus his house, for the reconciling of Logicus, Grammaticus, and this Poeta, if hee can be there, and I with Astrologia are inuited thither, wherefore if there should be any occasion of imployment for you, be at hand. </p>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e110090">
+            <sp who="#ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e110090">
               <speaker>Physiog. Cheiro. </speaker>
               <p>Wee warrant you. </p>
               <stage xml:id="ep000082-e110110">Exeunt Physiognomus &amp; Cheiromantes. </stage>
@@ -2281,7 +2263,7 @@
             </sp>
             <stage xml:id="ep000082-e112170">
               <pb xml:id="ep000082-024-b"/>He playes on his Lute, and leauing off, cals to his man </stage>
-            <sp who="#ep000082-melancholico" xml:id="ep000082-e112180">
+            <sp who="#ep000082-poeta" xml:id="ep000082-e112180">
               <speaker>MELANCHOLICO. </speaker>
               <p>Ho, Melancholico. </p>
             </sp>
@@ -2409,10 +2391,10 @@
           <div n="3" type="scene" xml:id="ep000082-e113050">
             <head>ACTVS II. SCENA III. </head>
             <head type="sub">GEOMETRES, MAGVS. </head>
-            <sp who="#ep000082-geometrician" xml:id="ep000082-e113060">
+            <sp who="#ep000082-geometres" xml:id="ep000082-e113060">
               <p>But Sir, can it be lawfull to deale with spirits? </p>
             </sp>
-            <sp xml:id="ep000082-e113075">
+            <sp who="#ep000082-magus" xml:id="ep000082-e113075">
               <speaker>Magus. </speaker>
               <p>Whilst you are onely a Geometrician, it is lawfull <pb xml:id="ep000082-025-b"/>for you to deale only with bodies: but if you will vndertake Our Superiour facultie, 'tis not onely lawfull, but most honourable; why Sir, 'tis one of the greatest gifts of the Gods to haue command ouer Spirits; but for the approbation of it, you may only looke backe vnto the antiquitie thereof, which is drawne from more then eight hundred yeeres before the Siege of Troy, in the time of Agonaces, and of the renowned Zoroaster a King of the Bactrians, who described the high Mysterie of this Diuine Science in an hundred thousand verses; after these there flourished Iobeth, Toluscol, Zamolxis, whose admired fame was afterwards emulated by Almadal, Alchindus, and Hipocus Arabians: Apuscorus, Zaratus, and Cobares, Medians: Marmaridius, a Babylonian: Zarmocenidas, an Assyrian, Abbaris, an Hyperborean, Thesphetion, an Aethiopian, Arnuphis, an Aegyptian, Theurgus, a Chaldean: with these I may recite Cambyses, Zamares, Charondas, Damogorgon, Gobrias, Arbatel, Apollonius, Gog, Hostanes, Atyr, Choastes— </p>
             </sp>
@@ -2580,87 +2562,87 @@
             <sp who="#ep000082-logicus" xml:id="ep000082-e113990">
               <p>MArry, and I bee thus troubled with you when you woo me, and seeke to please; what should I expect and wee were married once? </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114010">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114010">
               <speaker>Rhet. </speaker>
               <p>Nay, dearest Logicus, let not the excellencie of your reason bee so seuere, but that it may admit a gracious apprehension of a smiling loue; let not the exactnes of your wisedome be so regulated, but that it may expresse a courteous acceptance of a Louers admiration; let not— </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114030">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114030">
               <speaker>Log. </speaker>
               <p>Nay, and you once fall to Set speeches, I am gone; I perceiue you are not for common talke; I wonder, now I thinke on't, in what Praedicament a womans tongue is; let's see: yet, what if I make it a Transcendent? and yet it can't be so, for 'tis neither vnum, nor verum, nor honum: 'faith, and't bee in any Praedicament, it shall bee in Quantitate Continua, and that's opposite to Discreta; or rather, since 'tis so irregular, and therefore can hardly bee admitted into any Order, I will count it that Monster in Nature, and Contradiction of Philosophie, Infinitum in acta. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114050">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114050">
               <speaker>Rhet. </speaker>
               <p>Why lo, now your selfe has made a set speech; and <pb xml:id="ep000082-028-a"/>thus whilst you Reprehend, you Offend: whilst you Direct, you Neglect: whilst you Reforme, you Deforme: whilst you— </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114070">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114070">
               <speaker>Log. </speaker>
               <p>Hey day! this is tick-tack: Here's another shorter tricke: well, I perceiue there's no other course— which is your way? </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114090">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114090">
               <speaker>Rhet. </speaker>
               <p>Which is your way? </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114110">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114110">
               <speaker>Log. </speaker>
               <p>Doe you speake first. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114130">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114130">
               <speaker>Rhet. </speaker>
               <p>Nay, doe you speake first, you are the better Man. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114150">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114150">
               <speaker>Log. </speaker>
               <p>Why, mine lies this way. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114170">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114170">
               <speaker>Rhet. </speaker>
               <p>Why so does mine; weele goe together. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114190">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114190">
               <speaker>Log. </speaker>
               <p>I, But I must go this way to doe a little businesse first. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114210">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114210">
               <speaker>Rhet. </speaker>
               <p>Why so must I. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114230">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114230">
               <speaker>Log. </speaker>
               <p>But I must walke here alone a little to thinke on't first. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114250">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114250">
               <speaker>Rhet. </speaker>
               <p>Why, and I must walke here alone a little first. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114270">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114270">
               <speaker>Log. </speaker>
               <p>Why, then fare you well; I can thinke on my busines by the way. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114290">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114290">
               <speaker>Rhet. </speaker>
               <p>Why, and I can very well thinke on my businesse by the way. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114310">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114310">
               <speaker>Log. </speaker>
               <p>Why, you woun't follow me? I am going to a Feast. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114330">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114330">
               <speaker>Rhet. </speaker>
               <p>Why, and I am going to a Feast. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114350">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114350">
               <speaker>Log. </speaker>
               <p>I am going to Ethicus. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114370">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114370">
               <speaker>Rhet. </speaker>
               <p>Why, and I am going to Ethicus. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e114390">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e114390">
               <speaker>Log. </speaker>
               <p>O you gods! which of you will come to deliuer me? Well, if wee must together, and if you will sticke so close vnto me; yet, good Mistres Tongue, do not cleaue to the roofe of my Mouth. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e114410">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e114410">
               <speaker>Rhet. </speaker>
               <p>No, no; your lippe is all that I desire. </p>
               <stage xml:id="ep000082-e114430">Exeunt Logicus &amp; Rhetorica. </stage>
@@ -2839,7 +2821,7 @@
               <speaker>Ethic. </speaker>
               <p>Phantastes, and Choler, <stage xml:id="ep000082-e115350">[Enter MVSICA ]</stage>and thou Musica, now thou art come, be a little forward to make a supply for our backwardnesse, and step in to my wife to help out supper quickly: <stage xml:id="ep000082-e115360">(Exeunt Phantast. Choler, &amp; Musica )</stage>why 'tis well, 'tis well, now 'tis as it should be, all friends, all friends: but where's Historia? </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e115370">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e115370">
               <speaker>Rhet. </speaker>
               <p>Historia? why, aske Poeta. </p>
             </sp>
@@ -2848,7 +2830,7 @@
               <speaker>Poet. </speaker>
               <p>Mee? </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e115410">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e115410">
               <speaker>Rhet. </speaker>
               <p>I, you; they say shee's sicke of loue. </p>
             </sp>
@@ -2864,7 +2846,7 @@
               <speaker>Ethic. </speaker>
               <p>Logicus, where's your man Phlegmatico? </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e115490">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e115490">
               <speaker>Logic. </speaker>
               <p>Faith, as I was comming, my Slauerer was at his Tobacco, but, I thinke, I made him smoke for his labour, and so would not let him come, for hee would nothing but haue spawl'd in your roome, <stage xml:id="ep000082-e115510">Phantastes, Choler, Musica, bring in Supper. </stage>and haue turn'd your stomakes. </p>
             </sp>
@@ -3007,7 +2989,7 @@
               <speaker>Ethic. </speaker>
               <p>Here, Logicus, you shall drinke to Poeta, </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e116470">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e116470">
               <speaker>Logic. </speaker>
               <p>I accept your Proposition, Sir; Poeta, to set a Conclusion to our former dissentions, and to make a plaine Demonstration of reconcilement, I drinke to you. <stage xml:id="ep000082-e116490">He drinkes. </stage>
               </p>
@@ -3029,13 +3011,13 @@
               <speaker>Gram. </speaker>
               <p>Arithmetica— </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e116600">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e116600">
               <speaker>Arith. </speaker>
               <p>If you Count again, you shal find that I drunk last. </p>
               <pb xml:id="ep000082-031-a"/>
               <p>Rhetorica— here's to moysten your eloquent tongue. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e116630">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e116630">
               <speaker>Rhet. </speaker>
               <p>An eloquent tongue is neuer drie, Astrologia will pledge you for me. </p>
             </sp>
@@ -3059,7 +3041,7 @@
               <speaker>Poet. </speaker>
               <p>What? dost thou make a Iester of me? </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e116750">
+            <sp who="#ep000082-magus" xml:id="ep000082-e116750">
               <speaker>Mag. </speaker>
               <p>Nay, I Coniure you both; by our present meeting, that you goe not out of the Circle of harmelesse mirth. </p>
             </sp>
@@ -3067,7 +3049,7 @@
               <speaker>Poet. </speaker>
               <p>Me thinks I see a Direct line passe from the Eye of Geometres to Astronomia's. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e116790">
+            <sp who="#ep000082-magus" xml:id="ep000082-e116790">
               <speaker>Mag. </speaker>
               <p>Nay, will you, Poeta? you make Astronomia blush. </p>
             </sp>
@@ -3075,7 +3057,7 @@
               <speaker>Poet. </speaker>
               <p>Some Aqua vitae, I say, for Geometres. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e116830">
+            <sp who="#ep000082-magus" xml:id="ep000082-e116830">
               <speaker>Mag. </speaker>
               <p>Why, Poeta? </p>
             </sp>
@@ -3083,7 +3065,7 @@
               <speaker>Poet. </speaker>
               <p>Why, hee's a dying I thinke, his eyes are fixt in's head alreadie. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e116870">
+            <sp who="#ep000082-magus" xml:id="ep000082-e116870">
               <speaker>Mag. </speaker>
               <p>It may be, Poeta, you measure Geometres his lookes by your owne. </p>
             </sp>
@@ -3105,7 +3087,7 @@
               <p>Friends, you are all heartily welcome, rest you here I pray, and weele in with her. <stage xml:id="ep000082-e116980">Exit Ethicus. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e116990">
+            <sp who="#ep000082-magus" xml:id="ep000082-e116990">
               <speaker>Mag. </speaker>
               <p>Astrologia, follow her, and see you be neuer from her all the while shee's sicke. </p>
             </sp>
@@ -3114,12 +3096,12 @@
               <p>I saw this disastrous chance in the starres, for as Mars and Venus were sporting, they were beheld by the rest of the enuious gods. <stage xml:id="ep000082-e117030">Exit. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e117040">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e117040">
               <speaker>Rhet. </speaker>
               <p>Ile in too, to sit and Talke with her, whiles shee's <pb xml:id="ep000082-031-b"/>sicke. <stage xml:id="ep000082-e117060">Exit Rhetorica. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e117070">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e117070">
               <speaker>Arith. </speaker>
               <p>Ile in too, that I may— </p>
             </sp>
@@ -3144,7 +3126,7 @@
               <speaker>Geogr. </speaker>
               <p>'Twas, I feare me, a fit of an Ague. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e117200">
+            <sp who="#ep000082-magus" xml:id="ep000082-e117200">
               <speaker>Mag. </speaker>
               <p>Astronomia in a fit of an Ague? I neuer vnderstood the Motus trepidationis of the Heauen before. </p>
             </sp>
@@ -3175,7 +3157,7 @@
               <speaker>Geom. </speaker>
               <p>Oh, Sir, they that drinke with Measure, drinke without Measure. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e117370">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e117370">
               <speaker>Arith. </speaker>
               <p>I, indeed, for they that Number their cups, commonly Multiply their cups. </p>
             </sp>
@@ -3188,7 +3170,7 @@
               <p>Well, because 'tis to her, Ile doo't, <stage xml:id="ep000082-e117430">He drinks. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e117440">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e117440">
               <speaker>Logic. </speaker>
               <p>I can't drinke. </p>
             </sp>
@@ -3196,11 +3178,11 @@
               <speaker>Gram. </speaker>
               <p>Nor I. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e117480">
+            <sp who="#ep000082-magus" xml:id="ep000082-e117480">
               <speaker>Mag. </speaker>
               <p>Nor I. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e117500">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e117500">
               <speaker>Arith. </speaker>
               <p>You woun't, I know, require it of me. </p>
             </sp>
@@ -3241,7 +3223,8 @@
               <l>And the world may it know: </l>
               <l>Fill vp my boule to the brimme-a </l>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e117740">
+            <sp who="#ep000082-poeta, #ep000082-geographus, #ep000082-geometres"
+                      xml:id="ep000082-e117740">
               <speaker>Poeta. Geog. Geom. </speaker>
               <stage xml:id="ep000082-e117750">simul. </stage>
               <l>That my Muse may slow </l>
@@ -3256,7 +3239,8 @@
               <l>And closely haue his punke: </l>
               <l>Hee's a puny cannot swagger. </l>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e117850">
+            <sp who="#ep000082-geographus, #ep000082-poeta, #ep000082-geometres"
+                      xml:id="ep000082-e117850">
               <speaker>Geog. Poeta. Geom. </speaker>
               <stage xml:id="ep000082-e117860">simul. </stage>
               <l>But he soberly drunke </l>
@@ -3271,7 +3255,8 @@
               <l>My Ruler slipt aside: </l>
               <l>O my Iacobs staffe is broken. </l>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e117960">
+            <sp who="#ep000082-geometres, #ep000082-geographus, #ep000082-poeta"
+                      xml:id="ep000082-e117960">
               <speaker>Geom. Geog. Poeta. </speaker>
               <stage xml:id="ep000082-e117970">simul. </stage>
               <l>My Compasses did slide </l>
@@ -3286,7 +3271,8 @@
               <l>In our lippes, while they greet: </l>
               <l>Come kisse, come kisse, my Corinna. </l>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e118070">
+            <sp who="#ep000082-poeta, #ep000082-geographus, #ep000082-geometres"
+                      xml:id="ep000082-e118070">
               <speaker>Poeta. Geog. Geom. </speaker>
               <stage xml:id="ep000082-e118080">simul. </stage>
               <l>That our soules so may meet </l>
@@ -3318,7 +3304,8 @@
                 <l>And make their noddles cry-a. </l>
               </lg>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e118280">
+            <sp who="#ep000082-poeta, #ep000082-geographus, #ep000082-geometres"
+                      xml:id="ep000082-e118280">
               <speaker>Poeta. Geog. Geom. </speaker>
               <stage xml:id="ep000082-e118290">simul. </stage>
               <l>— Growes, </l>
@@ -3333,7 +3320,8 @@
               <l>Let the world say what it will </l>
               <l>And drinke your drinke all out-a. </l>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e118410">
+            <sp who="#ep000082-poeta, #ep000082-geographus, #ep000082-geometres"
+                      xml:id="ep000082-e118410">
               <speaker>Poeta. Geog. Geom. </speaker>
               <stage xml:id="ep000082-e118420">simul. </stage>
               <l>— Fill </l>
@@ -3352,7 +3340,8 @@
               <l>Be as merry as a King </l>
               <l>And Sound a lusty laugh a. </l>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e118550">
+            <sp who="#ep000082-poeta, #ep000082-geographus, #ep000082-geometres"
+                      xml:id="ep000082-e118550">
               <speaker>Poeta. Geog. Geom. </speaker>
               <stage xml:id="ep000082-e118560">simul. </stage>
               <l>Sing. </l>
@@ -3385,7 +3374,7 @@
               <speaker>Poet. </speaker>
               <p>I will drinke with thee, and I will sing with thee, and I will fight with thee. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e118740">
+            <sp who="#ep000082-magus" xml:id="ep000082-e118740">
               <speaker>Mag. </speaker>
               <p>Nay, 'pray let's haue no fighting. </p>
             </sp>
@@ -3420,7 +3409,7 @@
               <p>Nay, if I cannot Rule others, I will Rule my selfe. <stage xml:id="ep000082-e118930">Exit Geometres. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e118940">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e118940">
               <speaker>Arith. </speaker>
               <p>And if Geometres depart, Arithmetica will be none of the Number. <stage xml:id="ep000082-e118960">Exit Arith. </stage>
               </p>
@@ -3429,7 +3418,7 @@
               <speaker>Poet. </speaker>
               <p>Farewell, Hostesse; we shall be sure to haue no reckoning now Arithmetica's gone: and yet Ile pay you somewhat, Clinch-fist. <stage xml:id="ep000082-e118990">(Hee beates Logicus, and ouer-turnes the Table; then fals on Grammaticus, and Choler. )</stage>Hay tables! Hay! </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e119000">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e119000">
               <speaker>Logic. </speaker>
               <p>Well, you drunken rogue, Ile haue an Opposition <pb xml:id="ep000082-033-a"/>for you before Polites, that you shall not be able to Answere to. <stage xml:id="ep000082-e119020">Exit Logicus. </stage>
               </p>
@@ -3455,7 +3444,7 @@
               <speaker>Poet. </speaker>
               <p>Are you all gone? then, Apparent rari nantes in gurgite vasto. I am King, I am King: by Tantalus I am as drie as an Horse. <stage xml:id="ep000082-e119140">He fals downe and sleepes. Magus charmes him .</stage>O, some drinke, some drinke. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e119150">
+            <sp who="#ep000082-magus" xml:id="ep000082-e119150">
               <speaker>Mag. </speaker>
               <p>Alte dormi, Irioni, Chiriori, Essera, Chuder, Fere; Pax, Caspor, Prax, Melchior, Max, Balthasar, Ymax, Adimax, Galbes, Galbat, Galdes, Galdat, Hax, pax, max, alte dormi. Poeta snores: Magus waues his rod ouer him, and runnes round about him. Oh, ho, ho, ho, ho, ho; O, ho, ho, ho, ho, ho. Dragons fly swiftly, Dragons fly swiftly. </p>
             </sp>
@@ -3463,7 +3452,8 @@
           <div n="6" type="scene" xml:id="ep000082-e119170">
             <head>ACTVS III. SCENA VI. </head>
             <head type="sub">MAGVS, PHYSIOGNOMVS, CHEIROMANTES, POETA. </head>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e119180">
+            <sp who="#ep000082-magus, #ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e119180">
               <speaker>Omnes. </speaker>
               <p>
                 <stage xml:id="ep000082-e119200">Dancing about Poeta. </stage>O, ho, ho, ho, ho, ho. O, ho, ho, ho, ho, ho. O, ho, ho, ho, ho, ho. </p>
@@ -3500,7 +3490,8 @@
               <l>Make him our pray. </l>
             </sp>
             <pb xml:id="ep000082-033-b"/>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e119420">
+            <sp who="#ep000082-magus, #ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e119420">
               <speaker>Omnes. </speaker>
               <p>O ho, ho, ho, ho, ho. O ho, ho, ho, ho. O ho, ho, <stage xml:id="ep000082-e119440">Dauncing about him .</stage>ho, ho, ho, hoy— </p>
             </sp>
@@ -3517,7 +3508,7 @@
               <speaker>Poeta. </speaker>
               <p>O ho, ho, ho, ho, ho. O ho, ho, ho, ho, ho: <stage xml:id="ep000082-e119520">In his sleepe .</stage>Some drinke, Tantalus, some drinke, some drinke; or I will— </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e119530">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e119530">
               <speaker>Phys. </speaker>
               <p>What will he doe? </p>
             </sp>
@@ -3525,7 +3516,7 @@
               <speaker>Poeta. </speaker>
               <p>By the— by the— </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e119570">
+            <sp who="#ep000082-magus" xml:id="ep000082-e119570">
               <speaker>Mag. </speaker>
               <p>He's about to sweare sure by somewhat. </p>
             </sp>
@@ -3541,7 +3532,7 @@
               <speaker>Poeta. </speaker>
               <p>By the great— By the great— </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e119650">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e119650">
               <speaker>Phys. </speaker>
               <p>'Tis so great 'twoun't come out. </p>
             </sp>
@@ -3549,7 +3540,7 @@
               <speaker>Poeta. </speaker>
               <p>By the great Hogs-head at Heidelburge, Logicus is a Blockhead. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e119690">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e119690">
               <speaker>Phys. </speaker>
               <p>Well said i'faith, I perceiue there is some remembrance of ones friends in Wine. </p>
             </sp>
@@ -3557,7 +3548,7 @@
               <speaker>Poeta. </speaker>
               <p>Corinna, will you kisse? will you kisse cockle-kisse? close, close, you Whore. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e119730">
+            <sp who="#ep000082-magus" xml:id="ep000082-e119730">
               <speaker>Mag. </speaker>
               <p>Oh, here's a braue Dreamer! </p>
             </sp>
@@ -3566,11 +3557,11 @@
               <p>I will make this Verse like a Nut-hooke-like a Nut-hooke-and then pull downe— pull downe the Moone with it. <stage xml:id="ep000082-e119770">He begins to rise. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e119780">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e119780">
               <speaker>Phys. </speaker>
               <p>Sure, Magus, you han't charm'd him well. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e119800">
+            <sp who="#ep000082-magus" xml:id="ep000082-e119800">
               <speaker>Mag. </speaker>
               <p>Let me alone; I warrant you. </p>
             </sp>
@@ -3578,7 +3569,7 @@
               <speaker>Poeta. </speaker>
               <p>Come kisse, my Pigeon, come kisse, my pretty Corinna, Nibble a little, my Loue; nibble againe, and againe. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e119840">
+            <sp who="#ep000082-magus" xml:id="ep000082-e119840">
               <speaker>Mag. </speaker>
               <p>Hay day! he's at's Hexameter and Pentameter Verses in our tongue: 'faith I thinke in some such humour this kind of Verses was first made amongst vs. </p>
             </sp>
@@ -3600,12 +3591,12 @@
               <speaker>Cheiro. </speaker>
               <p>Beshrow his drunken fingers; Magus you ha' not charm'd him well. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e119960">
+            <sp who="#ep000082-magus" xml:id="ep000082-e119960">
               <speaker>Mag. </speaker>
               <p>Altè dormi, pax, prax, max; aliè dormi, Galbos, Galbat: <pb xml:id="ep000082-034-a"/>Galdes, Galdat: pax, prax, max, alte dormi. <stage n="a" xml:id="ep000082-e119980">Poeta fals downe againe. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e119990">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e119990">
               <speaker>Phys. </speaker>
               <p>See what's in his pocket. <stage n="b" xml:id="ep000082-e120010">Cheiromantes takes out a purse and lookes in it. </stage>
               </p>
@@ -3614,7 +3605,7 @@
               <speaker>Cheiro. </speaker>
               <p>A murren on't, here's nothing but a Purse with a paper in't. </p>
             </sp>
-            <sp who="#ep000082-magician" xml:id="ep000082-e120040">
+            <sp who="#ep000082-magus" xml:id="ep000082-e120040">
               <speaker>Mag. </speaker>
               <p>Let's see it, why, whats here? Verses! <stage n="c" xml:id="ep000082-e120060">Hee takes the paper and reads it. </stage>
               </p>
@@ -3632,7 +3623,8 @@
               </quote>
               <p>This had beene lost, if I had not giu'n the Rogue his Anacreon againe. Is this the rich Purse? Come, 'ifaith wee'll e'en serue for a Voyder, and carrie him away, whiles hee is drunk, rid the roome of him. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e120200">
+            <sp who="#ep000082-magus, #ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e120200">
               <speaker>Omnes. </speaker>
               <p>Roome for a Poet, Roome for a Poet, Roome for a Poet. <stage xml:id="ep000082-e120220">Exeunt Omnes, carrying away Poeta on their shoulders. </stage>
               </p>
@@ -3850,7 +3842,7 @@
               <speaker>Astrol. </speaker>
               <p>Indeed, mee thinkes, shee keepes alwayes the same pace. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e121280">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e121280">
               <speaker>Arith. </speaker>
               <p>I, but if you marke it, 'tis not a direct Progression, but a kind of giddie turning Round, which proceeds from a lightnesse of the head, caus'd by her disease. </p>
             </sp>
@@ -3985,7 +3977,7 @@
               <speaker>Medic. </speaker>
               <p>I, here's your drinke. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e121950">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e121950">
               <speaker>Arith. </speaker>
               <p>Ah, Astrologia, you made no Reckoning of this sicknesse, I shall scarce e're trust you againe, as long as I know you: Come, let's haue her in, let's haue her in. <stage xml:id="ep000082-e121970">Exeunt omnes. </stage>
               </p>
@@ -4504,7 +4496,7 @@
               <speaker>Choler. </speaker>
               <p>Why, thou and Musica are met together— because— Sanguine folkes are most fit for Musicke and sports. Physiognomus and Chieromantes met, because they fear'd wee would haue suspected they would haue pickt our pockets, if they had ioynd with any of vs— </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e124630">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e124630">
               <speaker>Phys. </speaker>
               <p>We thanke you Choler, wee shall be euen with you, and't come to our turne. </p>
             </sp>
@@ -4521,7 +4513,7 @@
                 </list>
               </stage>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e124750">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e124750">
               <speaker>Phys. </speaker>
               <p>I can tell you Choler, you had almost mis't this same time too. Well, to my taske, since 'tis my lucke. Sanguis and Melancholico met, because one's cold and dry, and the other's hot, and sufficiently moist: Choler and Phlegmatico (haue at you Choler) are like a flap-dragon, or a piece of bread sopt in Aqua-vitae, and then set a-fire— </p>
             </sp>
@@ -4529,7 +4521,7 @@
               <speaker>Choler. </speaker>
               <p>Thanke you Physiognomus. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e124790">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e124790">
               <speaker>Phys. </speaker>
               <p>And Musica met with Cheiromantes, because the hand in this sence, in respect of Musicke, may most iustly bee call'd the Instrument of instruments: and therefore most fitly to be coupled with it. </p>
             </sp>
@@ -4538,7 +4530,7 @@
               <p>I'faith Cheiromantes you are beholding to him, he has grac'd you. </p>
             </sp>
             <pb xml:id="ep000082-043-a"/>
-            <sp who="#ep000082-physica" xml:id="ep000082-e124830">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e124830">
               <speaker>Phys. </speaker>
               <p>Come, runne againe. </p>
               <stage xml:id="ep000082-e124850">They meet thus: <list>
@@ -4575,7 +4567,7 @@
               <speaker>Phleg. </speaker>
               <p>Let's heare the first. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e125050">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e125050">
               <speaker>Phys. </speaker>
               <p>He lookes as if he would giue profound ones. </p>
             </sp>
@@ -4769,7 +4761,8 @@
               <speaker>Mel. </speaker>
               <p>Nay, Ile know that first, and without all conditions. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e126010">
+            <sp who="#ep000082-cheiromantes, #ep000082-physiognomus, #ep000082-choler, #ep000082-sanguis, #ep000082-melancholico, #ep000082-phlegmatico"
+                      xml:id="ep000082-e126010">
               <speaker>Omnes. </speaker>
               <p>Doe Musica, prethee doe. </p>
             </sp>
@@ -4793,7 +4786,8 @@
               <speaker>Mus. </speaker>
               <p>But you'l forgiue him I hope now. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e126130">
+            <sp who="#ep000082-cheiromantes, #ep000082-physiognomus, #ep000082-choler, #ep000082-sanguis, #ep000082-melancholico, #ep000082-phlegmatico"
+                      xml:id="ep000082-e126130">
               <speaker>Omnes. </speaker>
               <p>For thy sake we will. </p>
             </sp>
@@ -4830,7 +4824,8 @@
               <speaker>Mel. </speaker>
               <p>Now you shall all recant the word Block-head, and say Melancholico is no block-head: say so. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e126320">
+            <sp who="#ep000082-cheiromantes, #ep000082-physiognomus, #ep000082-choler, #ep000082-sanguis, #ep000082-phlegmatico, #ep000082-musica"
+                      xml:id="ep000082-e126320">
               <speaker>Omnes. </speaker>
               <p>Melancholico is No block-head. </p>
             </sp>
@@ -4855,7 +4850,8 @@
               <p>Ile remember this i'faith; where are my Bels, and Wast-coates, and Napkins? Well, now fare you well all. <stage xml:id="ep000082-e126440">Exit Musica. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e126450">
+            <sp who="#ep000082-cheiromantes, #ep000082-physiognomus, #ep000082-choler, #ep000082-sanguis, #ep000082-melancholico, #ep000082-phlegmatico"
+                      xml:id="ep000082-e126450">
               <speaker>Omnes. </speaker>
               <p>Farewell, Musica. </p>
             </sp>
@@ -4881,7 +4877,7 @@
               <speaker>Cheiro. </speaker>
               <p>Fare you well: I'm glad they are all gone, I haue got some what. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e126590">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e126590">
               <speaker>Phys. </speaker>
               <p>What is't? </p>
             </sp>
@@ -4889,7 +4885,7 @@
               <speaker>Cheiro. </speaker>
               <p>The paire of Bels which Melancholico would not weare. </p>
             </sp>
-            <sp who="#ep000082-physica" xml:id="ep000082-e126630">
+            <sp who="#ep000082-physiognomus" xml:id="ep000082-e126630">
               <speaker>Phys. </speaker>
               <p>I protest, I neuer perceiu'd, when thou did'st nimbe them. </p>
             </sp>
@@ -4935,7 +4931,7 @@
               <speaker>Caus. </speaker>
               <p>I warrant you Sir. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e126870">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e126870">
               <speaker>Log. </speaker>
               <p>How now, Sir! What doe you whispering with my Lawyer? </p>
             </sp>
@@ -4943,7 +4939,7 @@
               <speaker>Poeta. </speaker>
               <p>With yours? I'd laugh at that, i'faith. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e126910">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e126910">
               <speaker>Log. </speaker>
               <p>With mine? I, mine, I'm sure I gaue him a fee. </p>
             </sp>
@@ -4955,7 +4951,7 @@
               <speaker>Polites. </speaker>
               <p>How now! what new contention's this? </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e126970">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e126970">
               <speaker>Log. </speaker>
               <p>And't please you, he abuses me before your face; hee bribes my Lawyer. </p>
             </sp>
@@ -4963,7 +4959,7 @@
               <speaker>Poeta. </speaker>
               <p>Yours! hee's mine. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127010">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127010">
               <speaker>Log. </speaker>
               <p>Thine? he's none of thine. He's mine. </p>
             </sp>
@@ -4971,7 +4967,7 @@
               <speaker>Pol. </speaker>
               <p>He can be Aduocate but for one: aske him whose he is. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127050">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127050">
               <speaker>Log. </speaker>
               <p>Causidicus, are not you my Lawyer? </p>
             </sp>
@@ -5007,7 +5003,7 @@
               <speaker>Polites. </speaker>
               <p>Varlet, abuse not mine honest name with that mouth: with what face canst thou aske for mercy, vnlesse thou had'st another face too? with what tongue wilt thou begge for mercie, vnlesse thou hast a third! with what heart wilt thou manifest a truth of sorrow, vnlesse thou hast a third also? doe not speake, kneele, mutter; one Lawyer come to plead two causes? O new confidence! stand aside, thy absence peraduenture might sooner cause vs to forget thy crime: then thy presence, though with most fawning dissimulation, to pardon it: Logicus, you are the accuser; propose your owne cause; then shall Poeta answere for himselfe; and lastly, Grammaticus your witnesse, shall alleage what he knowes. Beginne, Logicus. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127230">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127230">
               <speaker>Log. </speaker>
               <p>And't please you, Grammaticus was soundly beaten by this fellow Poeta, and, I forsooth, by his man a clogge-headed Rogue; but that riming Rascall set him on. </p>
             </sp>
@@ -5016,7 +5012,7 @@
               <speaker>Polites. </speaker>
               <p>Fie, Logicus, fie, fie; how shamefully you wrong your selfe, by these vnseemely tearmes? besides, the Gentlemans worth is well knowne. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127270">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127270">
               <speaker>Log. </speaker>
               <p>He's a Rascall to Me I'am sure. </p>
             </sp>
@@ -5024,7 +5020,7 @@
               <speaker>Poeta. </speaker>
               <p>Fie, Logicus, fie; you see I giue you ne'r a foule word, and that the goodnesse of my Cause, moues eu'n the Iudge in my defence. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127310">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127310">
               <speaker>Log. </speaker>
               <p>And't please you Polites, euery one counts him but a dissolute Rascall, and so hee has in all times beene held but for my facultie, what age euer flourisht in which that flourisht not? </p>
             </sp>
@@ -5048,7 +5044,7 @@
               <p>Pardon, good Polites, honour'd Polites, good Polites, pardon. <stage xml:id="ep000082-e127430">Exit Causidicus. </stage>
               </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127440">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127440">
               <speaker>Log. </speaker>
               <p>Grammaticus what thinkest thou of this departure? is it not prettie? </p>
             </sp>
@@ -5060,7 +5056,7 @@
               <speaker>Poeta. </speaker>
               <p>You abuse the integritie of our Honorable Iudge. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127500">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127500">
               <speaker>Log. </speaker>
               <p>Thou talke of integritie? goe, goe, thou art a crackt Pitcher, a broken Pisse-pot, Polites talkes against Logicians; when as your Logicians are the onely Schollers in the world: but the best is he does but talke against them. </p>
             </sp>
@@ -5068,7 +5064,7 @@
               <speaker>Poeta. </speaker>
               <p>The onely Schollers? the onely Dunces. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127540">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127540">
               <speaker>Log. </speaker>
               <p>Sirrah, Dunces? </p>
             </sp>
@@ -5076,7 +5072,7 @@
               <speaker>Poeta. </speaker>
               <p>Yes Logger-head, Dunces: doest thou murmure? thou know'st not the Letters of thy Alphabet yet. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127580">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127580">
               <speaker>Log. </speaker>
               <p>How you Slaue? </p>
             </sp>
@@ -5089,7 +5085,7 @@
               <speaker>Gram. </speaker>
               <p>And my Choler were here, hee'd haue him by the eares: come let's begonne, here's nothing to be done: are these your Law-cases? a murren on them, they are Datiue cases to the Lawyers; but Ablatiue to the Clients. </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e127650">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e127650">
               <speaker>Log. </speaker>
               <p>Come, come; I'm sure our case is in a fine Predicament: I thinke we haue beene put off long enough: i'faith all Law-cases shall hereafter be no more put in the Predicament of Action; but of Quando, of Quando; a plague of these Lawyers. <stage xml:id="ep000082-e127670">Exeunt Log, &amp; Grammat. </stage>
               </p>
@@ -5165,7 +5161,7 @@
             <sp who="#ep000082-grammaticus" xml:id="ep000082-e127990">
               <p>FAirest Rhetorica, will the pride of your beautie still tyrannize? will it be still in the Imperatiue Mood? and shall my languishing desire be alwaies in the vnhappy Optatiue? let me goe a little further, and come at last to the Potentiall. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128010">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128010">
               <speaker>Rhet. </speaker>
               <p>Yes, faith, you shall goe further if you will, to the Infinitiue: I am not in the Mood to be wooed now. </p>
             </sp>
@@ -5174,7 +5170,7 @@
               <p>Ah, dearest Rhetorica, I cannot choose. </p>
               <p>Omnia vincit Amor, &amp; nos cedamus Amori. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128060">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128060">
               <speaker>Rhet. </speaker>
               <p>I wonder at this, Grammaticus: that you hauing brought Loue vnder a Rule, cannot notwithstanding rule it. </p>
             </sp>
@@ -5182,7 +5178,7 @@
               <speaker>Gram. </speaker>
               <p>Hei mihi quod nullie Amor est medicabilis herbis. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128100">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128100">
               <speaker>Rhet. </speaker>
               <p>But why should you torture yourselfe so with loue? </p>
             </sp>
@@ -5196,7 +5192,7 @@
               </quote>
               <p>- we learne this in the very Schoole. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128190">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128190">
               <speaker>Rhet. </speaker>
               <p>I thinke they are happy that neuer marry. </p>
             </sp>
@@ -5204,7 +5200,7 @@
               <speaker>Gram. </speaker>
               <p>Oh, 'tis the right of nature: Funus iusta petit, petit &amp; sponsalia virgo. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128230">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128230">
               <speaker>Rhet. </speaker>
               <p>If then women desire so much to marry, why is Amor of the Masculine gender? </p>
             </sp>
@@ -5212,7 +5208,7 @@
               <speaker>Gram. </speaker>
               <p>Because women are not so much loue it selfe, as the cause of loue in men. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128270">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128270">
               <speaker>Rhet. </speaker>
               <p>I, but me thinks, they should be afraid of Actaeons fortune. </p>
             </sp>
@@ -5220,7 +5216,7 @@
               <speaker>Gram. </speaker>
               <p>Indeed— Est cornus cura sinistra: but that's not alwayes: 'tis but a Redundans, and therefore wee put it among the Heteroclites. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e128310">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e128310">
               <speaker>Rhet. </speaker>
               <p>Well, Sir, my necessarie departure must cut off the End of your discourse by an Apocope. <stage xml:id="ep000082-e128330">Exit. Rhet. </stage>
               </p>
@@ -5245,7 +5241,8 @@
               <speaker>Magus. </speaker>
               <p>Worse, worse: my spirit Glassialabolas appear'd vnto me, and being skilful in the knowledge of future things, most louingly has foretold mee of great danger comming towards me; and hee said it would happen when I did least suspect it, and amongst my acquaintance too; hee appeared in his wonted shape like a Dogge with the wings of a Griffin, but he lookt most horridly, most horridly: and mee thought when hee went out, there followed him foure, iust like to vs foure for all the world. </p>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e128440">
+            <sp who="#ep000082-astrologia, #ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e128440">
               <speaker>Astrol. Physiog. Cheiro. </speaker>
               <stage xml:id="ep000082-e128450">simul. </stage>
               <p>Like to vs foure? alas! </p>
@@ -5279,7 +5276,8 @@
               <p>Well, let then all our ill lucke come together, if it will: indeed Astronomia's perfectly recouer'd, and I saw but now Geographus and her with Polites; which can bode no good: and afterwards I met with Geometres, and he passed by, without saluting me, but lookt sullenly towards me: I know not what's the matter; but I feare me, hee has scarce learn'd the Rule of friendship, to keepe secrets. Well; come what will, we will not accuse our selues by a foolish retirednesse or feare; and if we should chance to be conuented, wee must be very obedient, and that will argue an innocency: and let them proue what they can, it may be they can proue nothing, and then we are free; if they proue the worst they can, and condemne vs to death, we'll patiently heare our sentence of condemnation; but when they are about to carry vs to prison, then you shall see my art: <stage xml:id="ep000082-e128610">[he takes foure rings out of his pocket. ]</stage>See, here are foure rings, there's each of you one, and here's a fourth for my selfe: put them in your pockets, and when your condemnation is pronounc'd, and they thinke to carry vs away, priuily slip those rings on your little-fingers, and then crie aloud Glassialabolas three times, and we shall all foure immediately become inuisible. </p>
             </sp>
             <pb xml:id="ep000082-049-b"/>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e128620">
+            <sp who="#ep000082-astrologia, #ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e128620">
               <speaker>Astrol. Physiog. Cheiro. </speaker>
               <stage xml:id="ep000082-e128630">simul. </stage>
               <p>Hay braue! we stand aboue fate, and the heauens. </p>
@@ -5288,7 +5286,8 @@
               <speaker>Magus. </speaker>
               <p>Come, now let's goe securely. </p>
             </sp>
-            <sp who="#ep000082-multiple" xml:id="ep000082-e128670">
+            <sp who="#ep000082-physiognomus, #ep000082-cheiromantes"
+                      xml:id="ep000082-e128670">
               <speaker>Physiog. Cheiro. </speaker>
               <p>Long may great Magus liue: long may great Magus liue. <stage xml:id="ep000082-e128690">Exeunt omnes. </stage>
               </p>
@@ -5489,10 +5488,11 @@
                 </list>
               </p>
             </argument>
-            <sp who="#ep000082-missing" xml:id="ep000082-e129790">
+            <sp who="#ep000082-polites" xml:id="ep000082-e129790">
               <p>ALl happinesse attend the Nuptials. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e129810">
+            <sp who="#ep000082-geographus, #ep000082-astronomia, #ep000082-physica, #ep000082-ethicus, #ep000082-oeconoma, #ep000082-poeta, #ep000082-geometres, #ep000082-grammaticus, #ep000082-logicus, #ep000082-magus, #ep000082-medicus, #ep000082-historia, #ep000082-arithmetica, #ep000082-rhetorica, #ep000082-astrologia, #ep000082-musica, #ep000082-melancholico, #ep000082-sanguis, #ep000082-choler, #ep000082-phlegmatico"
+                      xml:id="ep000082-e129810">
               <speaker>Omnes. </speaker>
               <p>All happinesse attend the Nuptials. </p>
             </sp>
@@ -5679,7 +5679,8 @@
               <speaker>Geom. </speaker>
               <p>I, these are they. Magus himselfe acquainted mee with this deuice: for, these Rings put on their little-fingers, and those words repeated thrice, would haue made them inuisible immediately. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e130790">
+            <sp who="#ep000082-phantastes, #ep000082-polites, #ep000082-geographus, #ep000082-astronomia, #ep000082-physica, #ep000082-ethicus, #ep000082-oeconoma, #ep000082-poeta, #ep000082-geometres, #ep000082-grammaticus, #ep000082-logicus, #ep000082-medicus, #ep000082-historia, #ep000082-arithmetica, #ep000082-rhetorica, #ep000082-musica, #ep000082-melancholico, #ep000082-sanguis, #ep000082-phlegmatico, #ep000082-causidicus"
+                      xml:id="ep000082-e130790">
               <speaker>Omnes. </speaker>
               <p>O strange! </p>
             </sp>
@@ -5809,7 +5810,8 @@
               <speaker>Polites. </speaker>
               <p>Thus, as in a naturall bodie, the first way to health, is by remoouing all more dangerous corruptions; and the second, by reducing the humours to a compos'd temperature: the first is alreadie perform'd, and now it remaines that wee temper our selues. Most honour'd Citizens, I am not ignorant either of your contentions or loues: the first of which, as I would labour to dissolue: so to vnite the last; if your selues will be pleas'd but to referre the composing of your differences to my vnpartiall censure. </p>
             </sp>
-            <sp who="#ep000082-omnes" xml:id="ep000082-e131460">
+            <sp who="#ep000082-phantastes, #ep000082-geographus, #ep000082-astronomia, #ep000082-physica, #ep000082-ethicus, #ep000082-oeconoma, #ep000082-poeta, #ep000082-geometres, #ep000082-grammaticus, #ep000082-logicus, #ep000082-historia, #ep000082-arithmetica, #ep000082-rhetorica, #ep000082-musica, #ep000082-melancholico, #ep000082-sanguis, #ep000082-choler, #ep000082-phlegmatico"
+                      xml:id="ep000082-e131460">
               <speaker>Omnes. </speaker>
               <p>We are pleas'd, Reuerend Polites. </p>
             </sp>
@@ -5821,7 +5823,7 @@
               <speaker>Geom. </speaker>
               <p>Well, Polites, Geometres shall bee Rul'd by you this once; come, Wench, sure I must loue thee, I euen long to take thine Altitude. </p>
             </sp>
-            <sp who="#ep000082-arithmetic" xml:id="ep000082-e131530">
+            <sp who="#ep000082-arithmetica" xml:id="ep000082-e131530">
               <speaker>Arith. </speaker>
               <p>And I trust we two shall be alwaies Euen. </p>
             </sp>
@@ -5845,7 +5847,7 @@
               <speaker>Polites. </speaker>
               <p>As for you, Grammaticus, I vnderstand of your great affection to Rhetorica; who though shee loues Logicus, yet because hee loues not her mutually (which must be required betweene such paires) and that Rhetorica had shewed some kind of affection toward Grammaticus, with my best desires I will ioyne you two; and the rather to induce a willingnesse in you, Rhetorica, I would haue you not forget, how Grammaticus and you haue beene brought vp from Children together, and Schoole-fellowes, and take this for a rule: Change not an old friend. Yeeld Rhetorica, yeeld, let Physica intreate thee. </p>
             </sp>
-            <sp who="#ep000082-rhetoric" xml:id="ep000082-e131650">
+            <sp who="#ep000082-rhetorica" xml:id="ep000082-e131650">
               <speaker>Rheto. </speaker>
               <p>Why then, Grammaticus, at this double request, without any Circumlocutions or Figures, I plainely offer vnto thee my loue. </p>
             </sp>
@@ -5857,7 +5859,7 @@
               <speaker>Polites. </speaker>
               <p>You Logicus, if you'l leaue your contentions, hauing no desire, as I perceiue, to marrie— </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e131710">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e131710">
               <speaker>Log. </speaker>
               <p>I care not for marrying; I see no good Foundation, for any such Relation. </p>
             </sp>
@@ -5865,7 +5867,7 @@
               <speaker>Polites. </speaker>
               <p>Wee will assume you for your approued vnderstanding— </p>
             </sp>
-            <sp who="#ep000082-logic" xml:id="ep000082-e131750">
+            <sp who="#ep000082-logicus" xml:id="ep000082-e131750">
               <speaker>Logic. </speaker>
               <p>I, I should be sorry if I had not a good vnderstanding— </p>
             </sp>

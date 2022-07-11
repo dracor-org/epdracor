@@ -80,95 +80,74 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000749-cortes">
-            <persName>Cortes</persName>
+          <person xml:id="ep000749-king" sex="MALE">
+            <persName>King of Norway</persName>
           </person>
-          <person xml:id="ep000749-haraldus">
-            <persName>Haraldus</persName>
+          <person xml:id="ep000749-marpisa" sex="FEMALE">
+            <persName>Marpisa the Queen</persName>
           </person>
-          <person xml:id="ep000749-hormenus">
-            <persName>Hormenus</persName>
+          <person xml:id="ep000749-gotharus" sex="MALE">
+            <persName>Gotharus the Politician</persName>
           </person>
-          <person xml:id="ep000749-gotharus">
-            <persName>Gotharus</persName>
-          </person>
-          <person xml:id="ep000749-helga">
-            <persName>Helga</persName>
-          </person>
-          <person xml:id="ep000749-sueno">
-            <persName>Sueno</persName>
-          </person>
-          <person xml:id="ep000749-king">
-            <persName>King</persName>
-          </person>
-          <person xml:id="ep000749-albina">
+          <person xml:id="ep000749-albina" sex="FEMALE">
             <persName>Albina</persName>
           </person>
-          <person xml:id="ep000749-marpisa">
-            <persName>Marpisa</persName>
+          <person xml:id="ep000749-turgesius" sex="MALE">
+            <persName>Turgesius the Prince</persName>
           </person>
-          <person xml:id="ep000749-aquinas">
-            <persName>Aquinas</persName>
-          </person>
-          <person xml:id="ep000749-olaus">
+          <person xml:id="ep000749-olaus" sex="MALE">
             <persName>Olaus</persName>
           </person>
-          <person xml:id="ep000749-reginaldus">
+          <person xml:id="ep000749-haraldus" sex="MALE">
+            <persName>Haraldus</persName>
+          </person>
+          <person xml:id="ep000749-cortes" sex="MALE">
+            <persName>Cortes</persName>
+          </person>
+          <person xml:id="ep000749-hormenus" sex="MALE">
+            <persName>Hormenus</persName>
+          </person>
+          <person xml:id="ep000749-reginaldus" sex="MALE">
             <persName>Reginaldus</persName>
           </person>
-          <person xml:id="ep000749-soldier">
-            <persName>Soldier</persName>
+          <person xml:id="ep000749-aquinus" sex="MALE">
+            <persName>Aquinus</persName>
           </person>
-          <person xml:id="ep000749-queen">
-            <persName>Queen</persName>
+          <person xml:id="ep000749-helga" sex="MALE">
+            <persName>Helga</persName>
           </person>
-          <person xml:id="ep000749-turgesius">
-            <persName>Turgesius</persName>
+          <person xml:id="ep000749-sueno" sex="MALE">
+            <persName>Sueno</persName>
           </person>
-          <person xml:id="ep000749-doctor">
+          <person xml:id="ep000749-soldier" sex="MALE">
+            <persName>Soldier or Soldiers</persName>
+          </person>
+          <person xml:id="ep000749-rebel" sex="MALE">
+            <persName>Unspecified Rebel or Rebels</persName>
+          </person>
+          <person xml:id="ep000749-rebel1" sex="MALE">
+            <persName>Rebel 1</persName>
+          </person>
+          <person xml:id="ep000749-rebel2" sex="MALE">
+            <persName>Rebel 2</persName>
+          </person>
+          <person xml:id="ep000749-rebel3" sex="MALE">
+            <persName>Rebel 3</persName>
+          </person>
+          <person xml:id="ep000749-rebel4" sex="MALE">
+            <persName>Rebel 4</persName>
+          </person>
+          <person xml:id="ep000749-doctor" sex="MALE">
             <persName>Doctor</persName>
           </person>
-          <person xml:id="ep000749-officer">
+          <person xml:id="ep000749-officer" sex="MALE">
             <persName>Officer</persName>
           </person>
-          <person xml:id="ep000749-servant">
+          <person xml:id="ep000749-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000749-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000749-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000749-xxxx_3">
-            <persName>Xxxx 3</persName>
-          </person>
-          <person xml:id="ep000749-xxxx_4">
-            <persName>Xxxx 4</persName>
-          </person>
-          <person xml:id="ep000749-rebel">
-            <persName>Rebel</persName>
-          </person>
-          <person xml:id="ep000749-all_rebels">
-            <persName>All Rebels</persName>
-          </person>
-          <person xml:id="ep000749-yyyy_2">
-            <persName>Yyyy 2</persName>
-          </person>
-          <person xml:id="ep000749-yyyy_1">
-            <persName>Yyyy 1</persName>
-          </person>
-          <person xml:id="ep000749-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000749-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000749-physician">
+          <person xml:id="ep000749-physician" sex="MALE">
             <persName>Physician</persName>
-          </person>
-          <person xml:id="ep000749-all_soldiers">
-            <persName>All Soldiers</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -176,6 +155,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-23">(Christopher Lu) Edited speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -242,7 +226,7 @@
             <speaker>Cor. </speaker>
             <l>IT was a strange and suddaine marriage. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e100400">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e100400">
             <speaker>H. </speaker>
             <l>Could he not love her for the game, and so forth, </l>
             <l>But he must thus exalt her? no lesse title </l>
@@ -252,7 +236,7 @@
             <speaker>Co. </speaker>
             <l>'Tis a brave rise! </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e100460">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e100460">
             <speaker>H. </speaker>
             <l>I did not prophesie, </l>
             <l>When the honest Count her husband Altomarus </l>
@@ -263,7 +247,7 @@
             <l>I hope </l>
             <l>She'l love the King for't. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e100530">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e100530">
             <speaker>H. </speaker>
             <l>And in his absence, </l>
             <l>Gotharus the Kings Minion, her old friend, </l>
@@ -341,7 +325,7 @@
             <l>The King did seem to affect her, </l>
             <l>Before he married her to his favorite. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e101130">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e101130">
             <speaker>H. </speaker>
             <l>Dost think she's honest? </l>
           </sp>
@@ -351,7 +335,7 @@
             <l>But I believe she is too good for him, </l>
             <l>Although the King and she have private conference. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e101190">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e101190">
             <speaker>H. </speaker>
             <l>She looks as she were discontent. <stage xml:id="ep000749-e101210">Exit Al. </stage>
             </l>
@@ -388,7 +372,7 @@
             <l>I near lik'd </l>
             <l>This fellow. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e101420">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e101420">
             <speaker>H. </speaker>
             <l>He is one of fortunes Minions▪ </l>
             <pb n="4" xml:id="ep000749-006-a"/>
@@ -994,7 +978,7 @@
             <l>I am nothing without my fellow, </l>
             <l>Musick is best in Consort. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e105700">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e105700">
             <speaker>H. </speaker>
             <l>Your buffonry is musical belike. </l>
           </sp>
@@ -1044,7 +1028,7 @@
             <speaker>Ki. </speaker>
             <l>Men do account thee honest. </l>
           </sp>
-          <sp who="#ep000749-haraldus" xml:id="ep000749-e105970">
+          <sp who="#ep000749-hormenus" xml:id="ep000749-e105970">
             <speaker>H. </speaker>
             <l>'Tis possible </l>
             <l>I May fare the worse. </l>
@@ -1215,7 +1199,7 @@
             <l>Trouble your selfe, and murmur at our courses? </l>
           </sp>
           <stage xml:id="ep000749-e107050">Enter Aquinus hastily. </stage>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107060">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107060">
             <speaker>A. </speaker>
             <l>The King. </l>
           </sp>
@@ -1227,7 +1211,7 @@
             <speaker>Su. </speaker>
             <l>Your businesse? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107120">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107120">
             <speaker>Aq. </speaker>
             <l>News from the field. </l>
           </sp>
@@ -1235,7 +1219,7 @@
             <speaker>Su. </speaker>
             <l>Good? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107160">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107160">
             <speaker>A. </speaker>
             <l>Good. </l>
           </sp>
@@ -1247,7 +1231,7 @@
             <speaker>Su. </speaker>
             <l>How prethee? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107220">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107220">
             <speaker>Aq. </speaker>
             <l>The day, the field, the safety, O the glory </l>
             <l>Of warre is Norwaies, Letters to the King— </l>
@@ -1332,7 +1316,7 @@
             <l>Out of my maintenance, an instrument of mine, </l>
             <l>So please you to consider my duty in his service. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107680">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107680">
             <speaker>Aq. </speaker>
             <l>Why hark you Gentlemen, I have but mock'd </l>
             <l>Your greedy zeals, there's no such matter in </l>
@@ -1347,7 +1331,7 @@
             <l>We wo'not appear yet— <stage xml:id="ep000749-e107780">Exit. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107790">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107790">
             <speaker>Aq. </speaker>
             <l>How the Rats vanish. </l>
           </sp>
@@ -1370,7 +1354,7 @@
             <l>And some reward is due to thee; wear that </l>
             <l>For the Kings sake. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e107940">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e107940">
             <speaker>Aq. </speaker>
             <l>You too much honour me. </l>
           </sp>
@@ -1493,7 +1477,7 @@
             <l>How do you like the Queen? </l>
           </sp>
           <pb n="20" xml:id="ep000749-014-a"/>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e108860">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e108860">
             <speaker>Aq. </speaker>
             <l>Why she's not married, </l>
             <l>He does but call her so. </l>
@@ -1502,7 +1486,7 @@
             <speaker>Ho. </speaker>
             <l>And lyes with her. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e108910">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e108910">
             <speaker>Aq. </speaker>
             <l>The Prince yet knows it not. </l>
           </sp>
@@ -1515,7 +1499,7 @@
             <l>Aquinus? <stage xml:id="ep000749-e108970">Enter Gotharus. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e108980">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e108980">
             <speaker>Aq. </speaker>
             <l>Sir. </l>
           </sp>
@@ -1523,7 +1507,7 @@
             <speaker>Go. </speaker>
             <l>You brought Letters from the Camp. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e109020">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e109020">
             <speaker>Aq. </speaker>
             <l>I did my Lord. </l>
           </sp>
@@ -1546,7 +1530,7 @@
             <speaker>Go. </speaker>
             <l>How does he like his fathers marriage? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e109150">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e109150">
             <speaker>Aq. </speaker>
             <l>We had no fame on't there when I set forth. </l>
           </sp>
@@ -1556,7 +1540,7 @@
             <l>In the good Princes health and victory; </l>
             <l>The Duke Olaus too I hope is well. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e109210">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e109210">
             <speaker>Aq. </speaker>
             <l>He was design'd at my departure, </l>
             <l>To be here before the Army. </l>
@@ -1568,7 +1552,7 @@
             <l>And wherein any power of mine can serve you </l>
             <l>I'th Court, command. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e109290">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e109290">
             <speaker>Aq. </speaker>
             <l>I am your Lord-ships creature. <stage xml:id="ep000749-e109310">Exeunt. </stage>
             </l>
@@ -2060,7 +2044,7 @@
             <l>Of one should least prophane it, I am still </l>
             <l>O laus, and your fathers brother. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e112590">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e112590">
             <speaker>Aq. </speaker>
             <l>My Lord. </l>
           </sp>
@@ -2081,7 +2065,7 @@
             <l>He shall have more hope to o'recome the Devil </l>
             <l>In single duel, then to scape my fury. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e112740">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e112740">
             <speaker>Aq. </speaker>
             <l>Sir— </l>
           </sp>
@@ -2131,7 +2115,7 @@
             <l>This freedome may engage his life to danger, </l>
             <l>He is too passionate. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e113070">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e113070">
             <speaker>Aq. </speaker>
             <l>He has said too much, </l>
             <l>Ile venter speaking to him. <stage xml:id="ep000749-e113100">Exit. </stage>
@@ -2204,7 +2188,7 @@
             <l>I am gone. <stage xml:id="ep000749-e113510">Exeunt. Ent. Ol. &amp; Aqui. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e113520">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e113520">
             <speaker>Aq. </speaker>
             <l>Sir, you have been too blame. </l>
           </sp>
@@ -2212,7 +2196,7 @@
             <speaker>Ol. </speaker>
             <l>How dare you talk to me sir? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e113560">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e113560">
             <speaker>Aq. </speaker>
             <l>'Tis my duty, and I must tell you, </l>
             <l>Y'ave built too much upon him as a kinsman, </l>
@@ -2225,7 +2209,7 @@
             </l>
           </sp>
           <stage xml:id="ep000749-e113630">Strikes him with his Cane. </stage>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e113640">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e113640">
             <speaker>Aq. </speaker>
             <l>I have it, and I thank you. </l>
           </sp>
@@ -2617,7 +2601,7 @@
             <l>And as he is inform'd, for speaking but </l>
             <l>The duty of a subject. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116170">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116170">
             <speaker>Aq. </speaker>
             <l>This is true sir, </l>
             <l>I wear his bloody favour still, I never </l>
@@ -2635,7 +2619,7 @@
             <l>Thy selfe to my Gotharus, and be counsel'd. <stage xml:id="ep000749-e116300">Exit. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116310">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116310">
             <speaker>A. </speaker>
             <l>My duty. </l>
           </sp>
@@ -2646,7 +2630,7 @@
             <l>I feel a friendly touch of thy dishonour, </l>
             <l>The blow, 'twas not well done of Duke Olaus. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116380">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116380">
             <speaker>Aq. </speaker>
             <l>You great men think you may do what you please, </l>
             <l>And if y'have a mind to pound us in a morter </l>
@@ -2662,7 +2646,7 @@
             <l>Of those that take this priviledge from their blood, </l>
             <l>Repent they were injurious. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116490">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116490">
             <speaker>Aq. </speaker>
             <l>My sword </l>
             <l>Was quiet when he beat me. </l>
@@ -2671,7 +2655,7 @@
             <speaker>Go. </speaker>
             <l>He did not, could not beat thee. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116540">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116540">
             <speaker>A. </speaker>
             <l>'Twas worse, he cudgel'd me, I feel it yet, </l>
             <l>Nor durst I strike agen. </l>
@@ -2686,7 +2670,7 @@
             <l>But that there was no safety to return </l>
             <l>Thy anger on his person. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116650">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116650">
             <speaker>Aq. </speaker>
             <l>Y'are i'th right, </l>
             <l>That frighted me. </l>
@@ -2710,7 +2694,7 @@
             <l>They have return'd full payment for their sufferings </l>
             <l>In fame, they may be safe without a guard. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116850">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116850">
             <speaker>Aq. </speaker>
             <l>That sir is the prudence. </l>
           </sp>
@@ -2727,7 +2711,7 @@
             <l>Thy thoughts secure from future losse, and in </l>
             <l>The present act no danger. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e116970">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e116970">
             <speaker>A. </speaker>
             <l>Sir, be cleere, </l>
             <l>Make good what you have promis'd, </l>
@@ -2742,7 +2726,7 @@
             <l>Perhaps a year sooner then nature meant, </l>
             <l>To make his bones fit. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117080">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117080">
             <speaker>Aq. </speaker>
             <l>I dare kill him sir, </l>
             <l>If I were sure the King would pardon me, </l>
@@ -2761,7 +2745,7 @@
             <l>Save trouble in Olaus Tragedy, </l>
             <l>And kill him through another. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117230">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117230">
             <speaker>Aq. </speaker>
             <l>Whom? </l>
           </sp>
@@ -2772,7 +2756,7 @@
             <l>Such a disease, as if no resolute hand </l>
             <l>Cure him. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117300">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117300">
             <speaker>Aq. </speaker>
             <l>I'le be his Chyrurgion. </l>
           </sp>
@@ -2795,7 +2779,7 @@
             <speaker>Go. </speaker>
             <l>'Tis he. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117440">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117440">
             <speaker>A. </speaker>
             <l>It honours my attempt; </l>
             <l>And while his father holds him disobedient, </l>
@@ -2806,7 +2790,7 @@
             <l>Disobedient? look there. <stage xml:id="ep000749-e117500">Shews a Letter. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117510">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117510">
             <speaker>Aq. </speaker>
             <l>This is the Princes hand. </l>
           </sp>
@@ -2814,7 +2798,7 @@
             <speaker>Go. </speaker>
             <l>But read his heart. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117550">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117550">
             <speaker>Aq. </speaker>
             <l>Impious! above the reach </l>
             <l>Of common faith. </l>
@@ -2827,7 +2811,7 @@
             <l>Lets study. <stage xml:id="ep000749-e117630">Enter King and Queen. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e117640">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e117640">
             <speaker>Q. </speaker>
             <l>You have a faithful servant in Gotharus. </l>
           </sp>
@@ -2841,7 +2825,7 @@
             <l>He shall dye like a Souldier, thus— <stage xml:id="ep000749-e117710">Whispers. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e117720">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e117720">
             <speaker>Qu. </speaker>
             <l>Their malice </l>
             <l>Doth onely aime at me, and if you please </l>
@@ -2852,7 +2836,7 @@
             <l>Not for a thousand Sons, my life and honors </l>
             <l>Must sit with thine Marpisa. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117790">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117790">
             <speaker>Aq. </speaker>
             <l>Sir, 'tis done. </l>
           </sp>
@@ -2881,7 +2865,7 @@
             <speaker>Go. </speaker>
             <l>Dearest Madam! come Aquinus. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e117950">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e117950">
             <speaker>Aq. </speaker>
             <l>I attend your Lorship. <stage xml:id="ep000749-e117970">Exeunt. </stage>
             </l>
@@ -3538,7 +3522,7 @@
             <l>The Queen. <stage xml:id="ep000749-e122030">Enter Marpisa. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e122040">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e122040">
             <speaker>Qu. </speaker>
             <l>O sir. </l>
           </sp>
@@ -3547,7 +3531,7 @@
             <l>There are more wounds in those sad accents, </l>
             <l>Then their rebellion can give my Kingdome. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e122090">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e122090">
             <speaker>Q. </speaker>
             <l>My boy, my child, Haraldus. </l>
           </sp>
@@ -3555,7 +3539,7 @@
             <speaker>Ki. </speaker>
             <l>What of him? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e122130">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e122130">
             <speaker>Qu. </speaker>
             <l>Is sick, is dying sir. </l>
           </sp>
@@ -3563,7 +3547,7 @@
             <speaker>Go. </speaker>
             <l>Forbid it heavens, he was in health— </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e122170">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e122170">
             <speaker>Qu. </speaker>
             <l>But if I mean to see him </l>
             <l>A live, they say I must make hast, </l>
@@ -3707,7 +3691,7 @@
             <l>I am ignorant Gotharus </l>
             <l>Of what you mean, where is the King my father? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e123190">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e123190">
             <speaker>Aq. </speaker>
             <l>Where a sad father is, to know his Sonne </l>
             <l>Bring arms against his life. </l>
@@ -3723,7 +3707,7 @@
             <l>Is angry, his head akes with the remembrance of </l>
             <l>My Truncheon. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e123290">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e123290">
             <speaker>Aq. </speaker>
             <l>'Twas a valiant act, </l>
             <l>And did become the greatness of Olaus, </l>
@@ -3854,7 +3838,7 @@
             <l>How he prepares his Tragedy Aquinus, </l>
             <l>Let not thy hand shake. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e124140">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e124140">
             <speaker>Aqu. </speaker>
             <l>I am resolute. </l>
           </sp>
@@ -3942,7 +3926,7 @@
           </sp>
           <stage xml:id="ep000749-e124650">Exeunt. </stage>
           <stage xml:id="ep000749-e124660">Haraldus discovered sicke, Queen, Doctors. </stage>
-          <sp who="#ep000749-queen" xml:id="ep000749-e124670">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e124670">
             <speaker>Qu. </speaker>
             <l>It is not possible, he●●●●ch a feavor </l>
             <l>By excess of wine? he was all temperance. </l>
@@ -3953,7 +3937,7 @@
             <l>Apt to be inflam'd, they that are most abstemious, </l>
             <l>Feel the disorder with more violence. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e124740">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e124740">
             <speaker>Qu. </speaker>
             <l>Where, who assisted him in this mis-fortune? </l>
             <l>He had some company. </l>
@@ -3966,7 +3950,7 @@
             <pb n="49" xml:id="ep000749-030-b"/>
             <l>Suffered him drink too much. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e124820">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e124820">
             <speaker>Qu. </speaker>
             <l>They poyson'd him, </l>
             <l>Go apprehend the murtherers of my child, </l>
@@ -3981,7 +3965,7 @@
             <l>His disease more malignant by some thought </l>
             <l>Or apprehensions of griefe. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e124930">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e124930">
             <speaker>Qu. </speaker>
             <l>What griefe? </l>
             <l>Y'are all impostors, and are Ignorant </l>
@@ -3991,7 +3975,7 @@
             <speaker>Ha. </speaker>
             <l>Is not my mother come? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e124990">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e124990">
             <speaker>Qu. </speaker>
             <l>Yes my deare sonne, and here shall weep my selfe </l>
             <l>Till I turne Niobe, unlesse thou givest me </l>
@@ -4002,7 +3986,7 @@
             <l>I would say something </l>
             <l>Were you alone. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125060">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125060">
             <speaker>Qu. </speaker>
             <l>Leave us; now my Haraldus, </l>
             <l>How is it with my child? </l>
@@ -4016,7 +4000,7 @@
             <l>Against my will, and having my desires, </l>
             <l>You have less cause to mourne. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125160">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125160">
             <speaker>Qu. </speaker>
             <l>What is't has made </l>
             <l>The thought of life unpleasant, which does court </l>
@@ -4035,7 +4019,7 @@
             <l>Your too much love with my eternal absence, </l>
             <l>I begge your prayers and blessing. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125300">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125300">
             <speaker>Qu. </speaker>
             <l>Th'art dejected, </l>
             <l>Have but a will and live. </l>
@@ -4044,7 +4028,7 @@
             <speaker>Ha. </speaker>
             <l>'Tis in vaine mother. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125350">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125350">
             <speaker>Qu. </speaker>
             <l>Sinke with a feavour into earth? </l>
             <l>Look up, thou shalt not dye. </l>
@@ -4054,7 +4038,7 @@
             <l>I have a wound within </l>
             <l>You do not see, more killing then all feavors. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125410">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125410">
             <speaker>Qu. </speaker>
             <l>A wound? where? who has murder'd thee? </l>
           </sp>
@@ -4062,7 +4046,7 @@
             <speaker>Ha. </speaker>
             <l>Gotharus— </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125450">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125450">
             <speaker>Qu. </speaker>
             <l>Ha! furies persecute him. </l>
           </sp>
@@ -4072,7 +4056,7 @@
             <l>'Tis my duty, though he gave me death, </l>
             <l>He is my father. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125510">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125510">
             <speaker>Qu. </speaker>
             <l>How? thy father? </l>
           </sp>
@@ -4082,7 +4066,7 @@
             <l>I felt it strike upon my spirits; mother, </l>
             <l>Would I had neer been born! </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125570">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125570">
             <speaker>Qu. </speaker>
             <l>Believe him not. </l>
           </sp>
@@ -4092,7 +4076,7 @@
             <l>Is done already, death is charitable </l>
             <l>To quit me from the scorn of all the world. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125630">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125630">
             <speaker>Qu. </speaker>
             <l>By all my hopes Gotharus has abus'd thee, </l>
             <l>Thou art the lawful burden of my wombe, </l>
@@ -4102,7 +4086,7 @@
             <speaker>Ha. </speaker>
             <l>Ha? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125690">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125690">
             <speaker>Qu. </speaker>
             <l>Before whose spirit long since taken up, </l>
             <l>To meet with Saints and Troops Angelicall, </l>
@@ -4120,7 +4104,7 @@
             <l>Dwell in your blood for ever, speak it once, </l>
             <l>But once agen. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125820">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125820">
             <speaker>Qu. </speaker>
             <l>Were it my latest breath, </l>
             <l>Thou art his and mine. </l>
@@ -4129,7 +4113,7 @@
             <l>But one truth more, why did my Lord Gotharus </l>
             <l>Call me the issue of his blood? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125890">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125890">
             <speaker>Qu, </speaker>
             <l>Alas, he thinks thou art— </l>
           </sp>
@@ -4138,7 +4122,7 @@
             <l>What are those words? I am undone </l>
             <l>Agen. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125940">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125940">
             <speaker>Qu. </speaker>
             <l>Ha? </l>
           </sp>
@@ -4146,7 +4130,7 @@
             <speaker>Ha. </speaker>
             <l>'Tis too late to call 'em back, he thinks I am his son— </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e125980">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e125980">
             <speaker>Qu. </speaker>
             <l>I have confess'd too much, and tremble with </l>
             <l>The imagination, forgive me child, </l>
@@ -4167,7 +4151,7 @@
             <speaker>Ha. </speaker>
             <l>I am no bastard then. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126150">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126150">
             <speaker>Qu. </speaker>
             <l>Thou art not. </l>
           </sp>
@@ -4177,7 +4161,7 @@
             <l>No time can restore you, </l>
             <l>My spirits faint. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126210">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126210">
             <speaker>Qu. </speaker>
             <l>Will nothing comfort thee? </l>
           </sp>
@@ -4185,7 +4169,7 @@
             <speaker>Ha. </speaker>
             <l>My duty to the King. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126250">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126250">
             <speaker>Qu. </speaker>
             <l>He's here. <stage xml:id="ep000749-e126270">Enter King. </stage>
             </l>
@@ -4202,7 +4186,7 @@
             <l>Ile pray you may have many, my soul flyes </l>
             <l>'Bove this vain world, good Mother close mine eyes </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126350">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126350">
             <speaker>Qu. </speaker>
             <l>Never dyed so much sweetnesse in his years. </l>
           </sp>
@@ -4212,7 +4196,7 @@
             <l>The Prince is slaine, how now. </l>
           </sp>
           <stage xml:id="ep000749-e126400">Enter officers with Helga. </stage>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126410">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126410">
             <speaker>Qu. </speaker>
             <l>Justice upon the murderer of my sonne, </l>
             <l>This villaine Helga, and his companion </l>
@@ -4236,7 +4220,7 @@
             <l>'Twas Sueno as well as I, my Lord Gotharus </l>
             <l>Gave us commission for what we did. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126550">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126550">
             <speaker>Qu. </speaker>
             <l>Again Gotharus, sure he plotted this. </l>
           </sp>
@@ -4283,7 +4267,7 @@
             <l>I tremble with confusions. <stage xml:id="ep000749-e126840">Exit. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e126850">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e126850">
             <speaker>Qu. </speaker>
             <l>I am resolv'd, my joyes are all expir'd, </l>
             <l>Nor can ambition more concern me now, </l>
@@ -4343,7 +4327,7 @@
             <l>The bliss of th'other world, and build in him </l>
             <l>A richer Paradice. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127300">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127300">
             <speaker>Qu. </speaker>
             <l>I have mourn'd already </l>
             <l>A mothers part, and fearing thy excess </l>
@@ -4360,7 +4344,7 @@
             <l>Were you present Madam, </l>
             <l>When your Sonne dyed? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127430">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127430">
             <speaker>Qu. </speaker>
             <l>I was. </l>
           </sp>
@@ -4382,7 +4366,7 @@
             <speaker>Go. </speaker>
             <l>Whats this? ha? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127570">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127570">
             <speaker>Qu. </speaker>
             <l>Where? </l>
           </sp>
@@ -4391,7 +4375,7 @@
             <l>Here, like a sudden winter </l>
             <l>Struck on my heart, I am not well o'th sudden, ha? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127620">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127620">
             <speaker>Qu. </speaker>
             <l>My Lord, make use of this, 'tis Cordial, </l>
             <stage xml:id="ep000749-e127640">Gives him a box of poyson. </stage>
@@ -4407,7 +4391,7 @@
               <pb n="55" xml:id="ep000749-033-b"/>Enter Albina. </stage>
             <l>And kiss your hand. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127730">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127730">
             <speaker>Qu. </speaker>
             <l>Our lips will meet more lovingly. </l>
           </sp>
@@ -4415,7 +4399,7 @@
             <speaker>Al. </speaker>
             <l>My heart will break. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127770">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127770">
             <speaker>Qu. </speaker>
             <l>Your Lady, we are betray'd, </l>
             <l>She see us kiss, and I shall hate her for't. </l>
@@ -4430,7 +4414,7 @@
             <l>You shall be a less▪ Tyrant sir to kill me, </l>
             <l>Injurious Queen! </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e127860">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e127860">
             <speaker>Qu. </speaker>
             <l>Shall I be here affronted? </l>
             <l>I shall not think Gotharus worth my love, </l>
@@ -4465,7 +4449,7 @@
             <l>The frends of hell will shew more mercy to me, </l>
             <l>Where shall I hide me? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e128110">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e128110">
             <speaker>Qu. </speaker>
             <l>Alas they'l kill me too. </l>
           </sp>
@@ -4490,21 +4474,21 @@
             <l>Comes on his death, I can dispatch but one, </l>
             <l>And take your choise. </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e128270">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e128270">
             <speaker>1. </speaker>
             <l>Alas good Madam, we do not come to trouble you </l>
             <l>You have sorrow enough, we would talk </l>
             <l>With my Lord your pagan husband. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e128310">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e128310">
             <speaker>2. </speaker>
             <l>I, I, where is he? </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e128330">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e128330">
             <speaker>3. </speaker>
             <l>That Traytor. </l>
           </sp>
-          <sp who="#ep000749-xxxx_4" xml:id="ep000749-e128350">
+          <sp who="#ep000749-rebel4" xml:id="ep000749-e128350">
             <speaker>4. </speaker>
             <l>Murderer of our Prince. </l>
           </sp>
@@ -4513,7 +4497,7 @@
             <l>Y'are not well informed, </l>
             <l>Aquinus kill'd the Prince. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e128400">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e128400">
             <speaker>2. </speaker>
             <l>But by my Lords correction </l>
             <l>We know his heart, and do meane to eat it. </l>
@@ -4528,7 +4512,7 @@
             <l>What fury leads you to 't, you will buy too dear </l>
             <l>Repentance at the Gallows. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e128510">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e128510">
             <speaker>2. </speaker>
             <l>Hang the Gallowes, and give us my Lord your husband. </l>
           </sp>
@@ -4542,7 +4526,7 @@
             <speaker>Al. </speaker>
             <l>But where's the Queene, she must not be betrai'd. </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e128590">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e128590">
             <speaker>1. </speaker>
             <l>This way, this way, he got out of a window, </l>
             <l>And leap'd a wall, follow, follow. </l>
@@ -4559,7 +4543,7 @@
             <l>Madam, you are secure, though you pursued </l>
             <l>My death, I wish you safety, </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e128700">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e128700">
             <speaker>Qu. </speaker>
             <l>I have been </l>
             <pb n="57" xml:id="ep000749-034-b"/>
@@ -4657,32 +4641,32 @@
           </sp>
           <stage xml:id="ep000749-e129280">He bloodies himselfe with Sueno's blood, and falls down as dead. </stage>
           <stage xml:id="ep000749-e129290">Enter Rebels. </stage>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e129300">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e129300">
             <speaker>1. </speaker>
             <l>This way they say he went, what's he? </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129320">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129320">
             <speaker>2. </speaker>
             <l>One of our company I think, </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e129340">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e129340">
             <speaker>3. </speaker>
             <l>Who kil'd him? </l>
           </sp>
-          <sp who="#ep000749-xxxx_4" xml:id="ep000749-e129360">
+          <sp who="#ep000749-rebel4" xml:id="ep000749-e129360">
             <speaker>4. </speaker>
             <l>I know not. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129380">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129380">
             <speaker>2. </speaker>
             <l>Lets away, if we can find that Traytor, </l>
             <l>He shall pay for all▪ </l>
           </sp>
-          <sp who="#ep000749-xxxx_4" xml:id="ep000749-e129410">
+          <sp who="#ep000749-rebel4" xml:id="ep000749-e129410">
             <speaker>4. </speaker>
             <l>Oh that I had him here, I'de teach him— </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129430">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129430">
             <speaker>2. </speaker>
             <l>This way, this way. </l>
           </sp>
@@ -4690,7 +4674,7 @@
             <speaker>Su. </speaker>
             <l>Oh. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e129470">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e129470">
             <speaker>3. </speaker>
             <l>Stay, There's one groans. </l>
           </sp>
@@ -4698,19 +4682,19 @@
             <speaker>Su. </speaker>
             <l>Oh— </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129510">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129510">
             <speaker>2. </speaker>
             <l>Nay 'twas here abouts, another dead? </l>
           </sp>
-          <sp who="#ep000749-xxxx_4" xml:id="ep000749-e129530">
+          <sp who="#ep000749-rebel4" xml:id="ep000749-e129530">
             <speaker>4. </speaker>
             <l>He has good cloathes, Gotharus? the very cur. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e129550">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e129550">
             <speaker>3. </speaker>
             <l>'Tis Gotharus, I have seen the dog. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129570">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129570">
             <speaker>2. </speaker>
             <l>'Tis he, 'tis he. </l>
           </sp>
@@ -4719,7 +4703,7 @@
             <l>Oh. <stage xml:id="ep000749-e129610">Exit Gotha. </stage>
             </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129620">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129620">
             <speaker>2. </speaker>
             <l>Now 'tis not he, if thou canst speak my friend— </l>
           </sp>
@@ -4728,20 +4712,20 @@
             <l>Gotharus murdered me, and shifted cloathes, </l>
             <l>He cannot be far off, oh. </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e129670">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e129670">
             <speaker>1. </speaker>
             <l>Thats he that lyes dead yonder, O that he were </l>
             <l>Alive againe, that we might kill him one after another. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e129700">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e129700">
             <speaker>3. </speaker>
             <l>He's gone: </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e129720">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e129720">
             <speaker>2. </speaker>
             <l>The Devill he is, follow, follow. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e129740">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e129740">
             <speaker>3. </speaker>
             <l>This way, he cannot scape us, farewell friend, </l>
             <l>i'le doe thee a courtecy. </l>
@@ -4762,7 +4746,7 @@
             <speaker>Cor. </speaker>
             <l>Were you not wounded? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e129880">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e129880">
             <speaker>Aq. </speaker>
             <l>I prepared a privie Coat, for that I knew Gotharus </l>
             <l>Would have been too busie with my flesh else, </l>
@@ -4893,21 +4877,21 @@
             <l>That keeps him from a buriall with his Ancestors, </l>
             <l>We are forbid to do him rights of funerall. </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e130790">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e130790">
             <speaker>1. </speaker>
             <l>How, not bury him? </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e130810">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e130810">
             <speaker>2. </speaker>
             <l>Forbid to bury our good Prince? we'l bury him, </l>
             <l>And see what Priest dare not assist us. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e130840">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e130840">
             <speaker>3. </speaker>
             <l>Not bury him? we'l do't, and carry his body in triumph </l>
             <l>Through the City, and see him laid i'th great Tombs </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e130870">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e130870">
             <speaker>1. </speaker>
             <l>Not bury our Prince? that were a jest indeed. </l>
           </sp>
@@ -4915,15 +4899,15 @@
             <speaker>Cor. </speaker>
             <l>'Tis their love and duty. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e130910">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e130910">
             <speaker>2. </speaker>
             <l>We'l pull the Church down, but we'l have our will. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e130930">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e130930">
             <speaker>3. </speaker>
             <l>Deare Prince, how sweet he smels. </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e130950">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e130950">
             <speaker>1. </speaker>
             <l>Come Countrymen march, and see who dares </l>
             <l>Take his body from us. </l>
@@ -4954,7 +4938,7 @@
             <l>OH I am lost, and my soul bleeds to thinke </l>
             <l>By my own dotage upon thee. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131120">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131120">
             <speaker>Qu. </speaker>
             <l>I was curst </l>
             <l>When I first saw thee, poor wind-shaken King! </l>
@@ -4969,7 +4953,7 @@
             <pb n="62" xml:id="ep000749-037-a"/>
             <l>What sorcery of thy tongue and eyes betraid me? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131220">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131220">
             <speaker>Qu. </speaker>
             <l>I would I had been a Basilisk, to have shot </l>
             <l>A death to thy dissembling heart, when I </l>
@@ -4986,7 +4970,7 @@
             <l>Peopled with Serpents, and engender with </l>
             <l>Some Dragon like thy self. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131350">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131350">
             <speaker>Qu. </speaker>
             <l>Ha, ha. </l>
           </sp>
@@ -4994,7 +4978,7 @@
             <speaker>Ki. </speaker>
             <l>Dost laugh thou prodigie? thou shame of woman? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131390">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131390">
             <speaker>Qu. </speaker>
             <l>Yes, and despise thee dotard, vex till thy soul </l>
             <l>Break from thy rotten flesh, I will be merry </l>
@@ -5007,7 +4991,7 @@
             <l>Your wanton Goat I feare, practis'd with thee </l>
             <l>His death. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131480">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131480">
             <speaker>Qu. </speaker>
             <l>'Twas thy own act and timerous heart, in hope </l>
             <l>To be secure, I glory in the mention </l>
@@ -5023,7 +5007,7 @@
             <l>Is marching hither, all your subjects fly to him. </l>
           </sp>
           <stage xml:id="ep000749-e131590">Exit. </stage>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131600">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131600">
             <speaker>Qu. </speaker>
             <l>Ha, ha. </l>
           </sp>
@@ -5034,7 +5018,7 @@
             <l>Hence mischiefe. </l>
           </sp>
           <pb n="63" xml:id="ep000749-037-b"/>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131660">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131660">
             <speaker>Qu. </speaker>
             <l>Not to obey thee, (shadow of a King) </l>
             <l>Am I content to leave thee, and but I wo'not </l>
@@ -5045,7 +5029,7 @@
             <speaker>K. </speaker>
             <l>Treason, treason. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131730">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131730">
             <speaker>Qu. </speaker>
             <l>I, I, Who comes to your rescue? </l>
           </sp>
@@ -5053,7 +5037,7 @@
             <speaker>Ki. </speaker>
             <l>Are all fled? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131770">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131770">
             <speaker>Qu. </speaker>
             <l>Slaves do it naturally. </l>
           </sp>
@@ -5061,7 +5045,7 @@
             <speaker>Ki. </speaker>
             <l>Canst thou hope to scape? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e131810">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e131810">
             <speaker>Qu. </speaker>
             <l>I am mistress of my fate, and do not feare </l>
             <l>Their inundation, their Army comming, </l>
@@ -5080,7 +5064,7 @@
             <l>Thou hast preserv'd us all, thy service will </l>
             <l>Deserve a greater monument then thanks. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e131940">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e131940">
             <speaker>Aq. </speaker>
             <l>Thank the Duke, for breaking o' my pate. </l>
           </sp>
@@ -5089,7 +5073,7 @@
             <l>I know 'twas well bestow'd, but we have now </l>
             <l>Proof of thy honest heart. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e131990">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e131990">
             <speaker>Aq. </speaker>
             <l>But what with your highness favour, do you meane </l>
             <l>To do with your father? </l>
@@ -5107,7 +5091,7 @@
             <l>A limbe of Lucifer, she must be rosted </l>
             <l>For the Armies satisfaction. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e132110">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e132110">
             <speaker>Aq. </speaker>
             <l>They'l ne'r digest her, </l>
             <l>The Kings hounds may be kept hungry </l>
@@ -5134,7 +5118,7 @@
             <l>I would the Queen were there to comfort him, </l>
             <l>Oh they would smell, and sweat together rarely. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e132270">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e132270">
             <speaker>Aq. </speaker>
             <l>He dare as soon be damn'd as make a noise, </l>
             <l>Or stirre, or cough. </l>
@@ -5157,7 +5141,7 @@
             <speaker>Ol. </speaker>
             <l>They are no enemies, I know the Coffin. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e132400">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e132400">
             <speaker>Aq. </speaker>
             <l>What rusty Regiment ha' we here? </l>
           </sp>
@@ -5172,17 +5156,19 @@
             <l>And yet he's in my nostrill, he has perfum'd </l>
             <l>His box already. </l>
           </sp>
-          <sp who="#ep000749-all_rebels" xml:id="ep000749-e132510">
+          <sp who="#ep000749-rebel, #ep000749-rebel1, #ep000749-rebel2, #ep000749-rebel3, #ep000749-rebel4"
+                   xml:id="ep000749-e132510">
             <speaker>Om. Reb. </speaker>
             <l>'Tis he, 'tis he, the Prince alive! hey. </l>
           </sp>
           <stage xml:id="ep000749-e132530">They see the Prince throw downe the Coffin, and runne to kneele and embrace him. </stage>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e132540">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e132540">
             <speaker>Aq. </speaker>
             <l>What would he give but for a knife to cut </l>
             <l>His own throat now? </l>
           </sp>
-          <sp who="#ep000749-all_rebels" xml:id="ep000749-e132570">
+          <sp who="#ep000749-rebel, #ep000749-rebel1, #ep000749-rebel2, #ep000749-rebel3, #ep000749-rebel4"
+                   xml:id="ep000749-e132570">
             <speaker>Om. Rebel. </speaker>
             <l>Our noble Prince alive? </l>
           </sp>
@@ -5190,7 +5176,7 @@
             <speaker>Pr. </speaker>
             <l>That owes himselfe to all your loves. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e132610">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e132610">
             <speaker>Aq. </speaker>
             <l>What? what trinkets ha' you there? </l>
           </sp>
@@ -5200,7 +5186,7 @@
             <pb n="65" xml:id="ep000749-038-b"/>
             <l>Which we resolv'd to bury with magnificence. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e132660">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e132660">
             <speaker>Aq. </speaker>
             <l>So it appeares. </l>
           </sp>
@@ -5208,7 +5194,7 @@
             <speaker>Ol. </speaker>
             <l>'Tis better as it is. </l>
           </sp>
-          <sp who="#ep000749-yyyy_2" xml:id="ep000749-e132700">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e132700">
             <speaker>2. Reb. </speaker>
             <l>There's something in't, my shoulder is still sensible, </l>
             <l>Lets search, stand off— </l>
@@ -5221,11 +5207,12 @@
             <l>Most dreadfull Rogues at an execution: </l>
             <l>Now, now. </l>
           </sp>
-          <sp who="#ep000749-yyyy_1" xml:id="ep000749-e132790">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e132790">
             <speaker>1. Reb. </speaker>
             <l>'Tis a man, ha Gotharus, the thing we whet our teeth for. </l>
           </sp>
-          <sp who="#ep000749-unassigned" xml:id="ep000749-e132810">
+          <sp who="#ep000749-rebel, #ep000749-rebel1, #ep000749-rebel2, #ep000749-rebel3, #ep000749-rebel4"
+                   xml:id="ep000749-e132810">
             <speaker>Om. Reb. </speaker>
             <l>Out with the traytor, and with the murderer, hey, drag him. </l>
           </sp>
@@ -5233,7 +5220,7 @@
             <speaker>Ol. </speaker>
             <l>I told you. </l>
           </sp>
-          <sp who="#ep000749-yyyy_1" xml:id="ep000749-e132850">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e132850">
             <speaker>1 Reb. </speaker>
             <l>Hold, know your dutie fellow renagades, </l>
             <l>We do beseech thee high and mighty Prince, </l>
@@ -5245,7 +5232,8 @@
             <speaker>Ol. </speaker>
             <l>And they'l devour him. </l>
           </sp>
-          <sp who="#ep000749-omnes" xml:id="ep000749-e132930">
+          <sp who="#ep000749-rebel, #ep000749-rebel1, #ep000749-rebel2, #ep000749-rebel3, #ep000749-rebel4"
+                   xml:id="ep000749-e132930">
             <speaker>Om. </speaker>
             <l>We beseech your highness. </l>
           </sp>
@@ -5254,16 +5242,16 @@
             <l>I doe acknowledge it, good sir grant their boone, </l>
             <l>And try the Caniballs. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e132980">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e132980">
             <speaker>2. </speaker>
             <l>Ile have an arme. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e133000">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e133000">
             <speaker>3. </speaker>
             <l>Ile have a legge, I am a Shoomaker, </l>
             <l>His shinbone may be useful. </l>
           </sp>
-          <sp who="#ep000749-xxxx_4" xml:id="ep000749-e133030">
+          <sp who="#ep000749-rebel4" xml:id="ep000749-e133030">
             <speaker>4. </speaker>
             <l>I want a signe, give me his head. </l>
           </sp>
@@ -5271,7 +5259,7 @@
             <speaker>Pr. </speaker>
             <l>Stay, let's first see him, is he not stifled? </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e133070">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e133070">
             <speaker>3. </speaker>
             <l>I had rather my wife were speechlesse. </l>
           </sp>
@@ -5283,11 +5271,11 @@
             <speaker>Pr. </speaker>
             <l>He does not stirre. </l>
           </sp>
-          <sp who="#ep000749-xxxx_1" xml:id="ep000749-e133130">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e133130">
             <speaker>1. </speaker>
             <l>We'l make him stir, hang him, he's but asleepe. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e133150">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e133150">
             <speaker>2. </speaker>
             <l>He's dead, hum. </l>
           </sp>
@@ -5300,7 +5288,7 @@
             <l>He's dead, and has prevented all their fury. </l>
           </sp>
           <pb n="66" xml:id="ep000749-039-a"/>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e133210">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e133210">
             <speaker>Aq. </speaker>
             <l>He was not smother'd, the Coffin had aire enough. </l>
           </sp>
@@ -5308,7 +5296,7 @@
             <speaker>Ol. </speaker>
             <l>He might ha' liv'd to give these Gentlemen some content. </l>
           </sp>
-          <sp who="#ep000749-yyyy_1" xml:id="ep000749-e133250">
+          <sp who="#ep000749-rebel1" xml:id="ep000749-e133250">
             <speaker>1 Reb. </speaker>
             <l>Oh let us teare his limbs. </l>
           </sp>
@@ -5317,20 +5305,20 @@
             <l>Let none use any violence to his body, </l>
             <l>I feare he has met reward above your punishment. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e133300">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e133300">
             <speaker>2. </speaker>
             <l>Let me have but his clothes. </l>
           </sp>
-          <sp who="#ep000749-xxxx_3" xml:id="ep000749-e133320">
+          <sp who="#ep000749-rebel3" xml:id="ep000749-e133320">
             <speaker>3. </speaker>
             <l>He is a Taylor. </l>
           </sp>
-          <sp who="#ep000749-xxxx_2" xml:id="ep000749-e133340">
+          <sp who="#ep000749-rebel2" xml:id="ep000749-e133340">
             <speaker>2. </speaker>
             <l>Onely to cut out a sute for a Traytor by 'em, </l>
             <l>Or any man, my conscience would wish hang'd. </l>
           </sp>
-          <sp who="#ep000749-xxxx_4" xml:id="ep000749-e133370">
+          <sp who="#ep000749-rebel4" xml:id="ep000749-e133370">
             <speaker>4. </speaker>
             <l>Let me have a button for a relique— </l>
           </sp>
@@ -5439,7 +5427,7 @@
             <speaker>Pr. </speaker>
             <l>Dear sir no more. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e134090">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e134090">
             <speaker>Aq. </speaker>
             <l>Best dismiss these Gentlemen. </l>
           </sp>
@@ -5448,11 +5436,12 @@
             <l>The Princes bountie, now you may go home; </l>
             <l>And d'ee heare, be drunk to night, the cause requires it. </l>
           </sp>
-          <sp who="#ep000749-reginaldus" xml:id="ep000749-e134140">
+          <sp who="#ep000749-rebel" xml:id="ep000749-e134140">
             <speaker>R. </speaker>
             <l>We'l shew our selves good subjects. </l>
           </sp>
-          <sp who="#ep000749-omnes" xml:id="ep000749-e134160">
+          <sp who="#ep000749-rebel, #ep000749-rebel1, #ep000749-rebel2, #ep000749-rebel3, #ep000749-rebel4"
+                   xml:id="ep000749-e134160">
             <speaker>Om. </speaker>
             <l>Heaven bless the King and Prince, and the good Duke. <stage xml:id="ep000749-e134180">Exeunt. </stage>
             </l>
@@ -5543,7 +5532,7 @@
             <speaker>Pr. </speaker>
             <l>Poor Ladie. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e134810">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e134810">
             <speaker>Aq. </speaker>
             <l>Madam be comforted. </l>
           </sp>
@@ -5554,7 +5543,7 @@
             <l>Shew me now reason for it, tell me something </l>
             <l>I may believe. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e134880">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e134880">
             <speaker>Aq. </speaker>
             <l>Madam, your husbands dead. </l>
           </sp>
@@ -5578,7 +5567,7 @@
             <l>How fierce and fatall is a widowes curse; </l>
             <l>Who kil'd him? saie. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e135040">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e135040">
             <speaker>Aq. </speaker>
             <l>We know not. </l>
           </sp>
@@ -5607,7 +5596,7 @@
             <speaker>Al. </speaker>
             <l>Where? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e135200">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e135200">
             <speaker>Aq. </speaker>
             <l>In that Coffin Ladie. </l>
           </sp>
@@ -5674,7 +5663,7 @@
             <l>Come to other businesse. </l>
           </sp>
           <stage xml:id="ep000749-e135650">Enter Queene. </stage>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e135660">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e135660">
             <speaker>Aq. </speaker>
             <l>Is not this the Queene? </l>
           </sp>
@@ -5690,15 +5679,15 @@
             <speaker>Pr. </speaker>
             <l>Be temperate good sir. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e135760">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e135760">
             <speaker>Qu. </speaker>
             <l>Nay let his cholerick highness be obey'd. </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e135780">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e135780">
             <speaker>Aq. </speaker>
             <l>She is shot-free. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e135800">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e135800">
             <speaker>Qu. </speaker>
             <l>The Prince alive? where is Gotharus? </l>
           </sp>
@@ -5706,7 +5695,7 @@
             <speaker>Ol. </speaker>
             <l>Your friend that was. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e135840">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e135840">
             <speaker>Qu. </speaker>
             <l>It is confest. </l>
           </sp>
@@ -5714,7 +5703,7 @@
             <speaker>Ol. </speaker>
             <l>Your Stallion. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e135880">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e135880">
             <speaker>Qu. </speaker>
             <l>He has more titles sure. </l>
           </sp>
@@ -5722,7 +5711,7 @@
             <speaker>Ol. </speaker>
             <l>Let but some strangle her in her own haire. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e135920">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e135920">
             <speaker>Qu. </speaker>
             <l>The office will become a noble hangman. </l>
           </sp>
@@ -5730,17 +5719,17 @@
             <speaker>Ol. </speaker>
             <l>Whore— </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e135960">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e135960">
             <speaker>Qu. </speaker>
             <l>Ile not spend my breath upon thee, </l>
             <l>I have more use on't, does Gotharus live? </l>
           </sp>
-          <sp who="#ep000749-aquinas" xml:id="ep000749-e135990">
+          <sp who="#ep000749-aquinus" xml:id="ep000749-e135990">
             <speaker>Aq. </speaker>
             <l>You may conjecture Madam, if you turn </l>
             <l>Your eyes upon that object. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136020">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136020">
             <speaker>Qu. </speaker>
             <l>It has wrought then. </l>
           </sp>
@@ -5748,7 +5737,7 @@
             <speaker>Ki. </speaker>
             <l>What has wrought? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136060">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136060">
             <speaker>Qu. </speaker>
             <l>His Physick sir, </l>
             <l>For the state Megrim. </l>
@@ -5766,7 +5755,7 @@
             <speaker>Ol. </speaker>
             <l>She is turn'd Doctor. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136170">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136170">
             <speaker>Qu. </speaker>
             <l>He becomes </l>
             <l>Deaths pale complexion, and now I'm prepar'd </l>
@@ -5775,7 +5764,7 @@
             <speaker>Pr. </speaker>
             <l>For what? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136220">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136220">
             <speaker>Qu. </speaker>
             <l>To die. </l>
           </sp>
@@ -5784,7 +5773,7 @@
             <l>Prepar'd to be damn'd, a seven years killing </l>
             <l>Will be too little. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136270">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136270">
             <speaker>Qu. </speaker>
             <l>I pitty your poor rage, </l>
             <l>I sha'not stay so long, nor shall you have </l>
@@ -5794,7 +5783,7 @@
             <speaker>Ol. </speaker>
             <l>No, let me trie. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136330">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136330">
             <speaker>Qu. </speaker>
             <l>Ha, ha. </l>
           </sp>
@@ -5802,7 +5791,7 @@
             <speaker>Ol. </speaker>
             <l>Dost thou laugh Helcat? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136370">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136370">
             <speaker>Qu. </speaker>
             <l>Yes, and scorne all your furies, I was not </l>
             <l>So improvident, to give Gotharus all </l>
@@ -5815,7 +5804,7 @@
             <speaker>Ol. </speaker>
             <l>Ile not be your patient I thank you. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136460">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136460">
             <speaker>Qu. </speaker>
             <l>This box was ever my companion, </l>
             <l>Since I grew wicked with that Polititian, </l>
@@ -5826,7 +5815,7 @@
             <speaker>Ol. </speaker>
             <l>Devils charity. </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136530">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136530">
             <speaker>Qu. </speaker>
             <l>It works with method, and doth kill discreetly </l>
             <l>Without a noise, your Mercury is a rude </l>
@@ -5838,7 +5827,7 @@
             <speaker>Ki. </speaker>
             <l>Hast thou no thought of heaven? </l>
           </sp>
-          <sp who="#ep000749-queen" xml:id="ep000749-e136610">
+          <sp who="#ep000749-marpisa" xml:id="ep000749-e136610">
             <speaker>Qu. </speaker>
             <l>Yes, I do think </l>
             <l>Sometimes, but have not heart enough to pray; </l>
@@ -5923,7 +5912,7 @@
             <speaker>Ol. </speaker>
             <l>Not a short prayer for me? </l>
           </sp>
-          <sp who="#ep000749-all_soldiers" xml:id="ep000749-e137200">
+          <sp who="#ep000749-soldier" xml:id="ep000749-e137200">
             <speaker>Om. Sol. </speaker>
             <l>Heaven bless the Duke, heaven bless the Duke. </l>
           </sp>
