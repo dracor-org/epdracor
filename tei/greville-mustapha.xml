@@ -120,7 +120,7 @@
             <name>Chorus</name>
           </personGrp>
           <personGrp xml:id="ep000045-chorus-priests" sex="MALE">
-            <name>Chorus Sacerdotum.</name>
+            <name>Chorus Sacerdotum</name>
           </personGrp>
           <personGrp xml:id="ep000045-chorus-tartarorum" sex="UNKNOWN">
             <name>Chorus Tartarorum</name>
@@ -131,6 +131,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-04">(Luca Giovannini) Fixed speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -578,7 +583,7 @@
               <pb xml:id="ep000045-006-b"/>
               <l>Fame is like breath breath'd from the inward part. </l>
             </sp>
-            <sp who="#ep000045-chorus-priests" xml:id="ep000045-e103470">
+            <sp who="#ep000045-rossa" xml:id="ep000045-e103470">
               <speaker>Rossa. </speaker>
               <l>Where it is death to thinke or to conspire, </l>
               <l>There Kings may kill before they doe enquire. </l>
@@ -586,8 +591,8 @@
               <l>Both strength and honor is it to forbeare; </l>
               <l>I am no more, vntill more I doe heare. </l>
             </sp>
-            <lg>
-              <head>Chorus Sacerdotum. </head>
+            <sp who="#ep000045-chorus-priests" xml:id="ep000045-e103530">
+              <speaker>Chorus Sacerdotum. </speaker>
               <l>O wearisome condition of humanity, </l>
               <l>Borne vnder one law, to an other bound, </l>
               <l>Vainely be got, and yet forbidden vanity, </l>
@@ -612,7 +617,7 @@
               <l>To preach of Heauens wonders and delights: </l>
               <l>Yet, when each of vs, in his owne heart lookes, </l>
               <l>He finds the God there, farre vnlike his bookes. </l>
-            </lg>
+            </sp>
           </div>
         </div>
         <div n="2" type="act" xml:id="ep000045-e103780">
@@ -1252,9 +1257,7 @@
           <head>CHORVS. </head>
           <div n="1" type="scene" xml:id="ep000045-e108650">
             <head>ACT. III. SCENA. I. </head>
-            <sp xml:id="ep000045-e108660">
-              <stage xml:id="ep000045-e108670">Achmatt alone. </stage>
-            </sp>
+            <stage xml:id="ep000045-e108670">Achmatt alone. </stage>
             <sp who="#ep000045-acmat" xml:id="ep000045-e108680">
               <speaker>Achmat. </speaker>
               <l>Who standing in the shade of humble valley, </l>
@@ -1345,9 +1348,7 @@
           </div>
           <div n="2" type="scene" xml:id="ep000045-e109510">
             <head>Act. 3. Scaen. 2. </head>
-            <sp xml:id="ep000045-e109520">
-              <stage xml:id="ep000045-e109530">Enter Solyman and Acmat. </stage>
-            </sp>
+            <stage xml:id="ep000045-e109530">Enter Solyman and Acmat. </stage>
             <sp who="#ep000045-soliman" xml:id="ep000045-e109540">
               <speaker>Soly. </speaker>
               <l>Acmat, foolish naturall affection </l>
@@ -1530,10 +1531,8 @@
           </div>
           <div n="3" type="scene" xml:id="ep000045-e111110">
             <pb xml:id="ep000045-016-a"/>
-            <head>Acuts tertius, Scena tertia. </head>
-            <sp xml:id="ep000045-e111120">
-              <stage xml:id="ep000045-e111130">Enter Solyman, Beliarby nuntius. </stage>
-            </sp>
+            <head>Actus tertius, Scena tertia. </head>
+            <stage xml:id="ep000045-e111130">Enter Solyman, Beliarby nuntius. </stage>
             <sp who="#ep000045-beliarby" xml:id="ep000045-e111140">
               <speaker>Beli. </speaker>
               <l>If you will Rossa see aliue </l>
@@ -1572,9 +1571,7 @@
           </div>
           <div n="4" type="scene" xml:id="ep000045-e111430">
             <head>Actus tertius Scena quarta. </head>
-            <sp xml:id="ep000045-e111440">
-              <stage xml:id="ep000045-e111450">Enter Rossa and Solyman. </stage>
-            </sp>
+            <stage xml:id="ep000045-e111450">Enter Rossa and Solyman. </stage>
             <sp who="#ep000045-rossa" xml:id="ep000045-e111460">
               <speaker>Rossa. </speaker>
               <l>What am I not my owne, who then dare let me </l>
@@ -1818,9 +1815,7 @@
           <div n="5" type="scene" xml:id="ep000045-e113160">
             <pb xml:id="ep000045-018-b"/>
             <head>Actus tertius Scena quinta. </head>
-            <sp xml:id="ep000045-e113170">
-              <stage xml:id="ep000045-e113180">Enter Priest &amp; Mustapha. </stage>
-            </sp>
+            <stage xml:id="ep000045-e113180">Enter Priest &amp; Mustapha. </stage>
             <sp who="#ep000045-priest" xml:id="ep000045-e113190">
               <speaker>Pr. </speaker>
               <l>False Mahomet, thy lawes Monarchall are, </l>
@@ -2077,7 +2072,7 @@
               <pb xml:id="ep000045-021-a"/>
               <l>And in these duties afterwards be strong. </l>
             </sp>
-            <sp who="#ep000045-zanger" xml:id="ep000045-e115200">
+            <sp who="#ep000045-mustaffa" xml:id="ep000045-e115200">
               <speaker>Must. </speaker>
               <l>Tempt me no more, good will is then a paine, </l>
               <l>When her words beat the heart, and cannot enter, </l>
@@ -2096,8 +2091,8 @@
               <l>Come let vs goe, for kindnesse doth betray, </l>
               <l>The heart, that firmely on it self doth stay. </l>
             </sp>
-            <lg>
-              <head>Chorus Tartarorum. </head>
+            <sp who="#ep000045-chorus-tartarorum" xml:id="ep000045-e115370">
+              <speaker>Chorus Tartarorum. </speaker>
               <l>Religion, thou vaine and glorious stile for weaknesse, </l>
               <l>Sprung from the deepe disquiet of mans passion, </l>
               <l>To dissolution and dispaire of nature: </l>
@@ -2132,14 +2127,14 @@
               <l>Nature doth for defence allow offence. </l>
               <l>She neither taught the father to destroy, </l>
               <l>Nor promis'd any man by dying ioy. </l>
-            </lg>
+            </sp>
           </div>
         </div>
         <div n="4" type="act" xml:id="ep000045-e115710">
           <div n="1" type="scene" xml:id="ep000045-e115720">
             <head>ACTVS. IIII. SCENA. I. </head>
-            <lg>
-              <head>Zanger alone. </head>
+            <sp who="#ep000045-zanger" xml:id="ep000045-e115730">
+              <speaker>Zanger alone. </speaker>
               <l>Nourisht in Courts, where no thoughts peace is nourisht, </l>
               <l>Vs'd to behold the Tragedie of ruine, </l>
               <l>Ruine, from whome all Monarchies haue florisht, </l>
@@ -2160,7 +2155,7 @@
               <l>Now makes my heart misgiue, my spirit languish; </l>
               <l>Man then is Augur of his owne misfortune, </l>
               <l>When his ioy yeeldes him arguments of anguish. </l>
-            </lg>
+            </sp>
           </div>
           <div n="2" type="scene" xml:id="ep000045-e115930">
             <head>ACTVS IIII. SCENA II. </head>
