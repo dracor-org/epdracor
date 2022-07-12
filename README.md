@@ -40,3 +40,22 @@ You can also update individual files, for instance:
 ```sh
 ./ep2dracor ../epdracor-sources/xml/A17872.xml
 ```
+
+## Tooling
+
+For scripting or reporting purposes you may want to obtain a simple list of
+plays included in the corpus. There is a stylesheet to generate such lists from
+the [index.xml](index.xml) file.
+
+```sh
+# convert index.xml to CSV
+saxon -s:index.xml -xsl:list.xsl
+# list all DraCor IDs
+saxon -s:index.xml -xsl:list.xsl type=id
+# list all DraCor slugs
+saxon -s:index.xml -xsl:list.xsl type=slug
+# list all original EarlyPrint IDs
+saxon -s:index.xml -xsl:list.xsl type=sourceid
+# list only "vanilla selection"
+saxon -s:index.xml -xsl:list.xsl type=slug vanilla=yes
+```
