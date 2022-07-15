@@ -163,6 +163,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-16">(Luca Giovannini) fixed speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -520,7 +525,8 @@
           <speaker>Ienk. </speaker>
           <l>So the dance wil come cleanly off, come for Gods sake agree of something, if you like not that put it to the Musitians or Let me speake for al, and weele haue Sellengers round. </l>
         </sp>
-        <sp xml:id="ep000078-e102300">
+        <sp who="#ep000078-jack-slime #ep000078-nicholas #ep000078-jenkin #ep000078-roger #ep000078-sisly"
+                xml:id="ep000078-e102300">
           <speaker>All </speaker>
           <l>That: that: that. </l>
         </sp>
@@ -696,6 +702,8 @@
           <l>And in my height of conquest, ouercome, </l>
           <stage xml:id="ep000078-e103370">
             <pb xml:id="ep000078-007-a"/>Enter Iane. </stage>
+        </sp>
+        <sp who="#ep000078-susan" xml:id="ep000078-e103371">
           <l>Oh God my Brother wounded among the dead, </l>
           <l>Vnhappy iest that in such earnest ends, </l>
           <l>The rumor of this feare, stretcht to my eares, </l>
