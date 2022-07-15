@@ -192,6 +192,11 @@
         </listPerson>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-16">(Luca Giovannini) fixed speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -1423,8 +1428,10 @@
               <item>Vlania. </item>
             </list>
           </stage>
-          <l>WEll met faire beauty, pray you can you tell </l>
-          <l>News of Meletus? </l>
+          <sp who="#ep000558-arethusa" xml:id="ep000558-e109041">
+            <l>WEll met faire beauty, pray you can you tell </l>
+            <l>News of Meletus? </l>
+          </sp>
           <sp who="#ep000558-ulania" xml:id="ep000558-e109070">
             <speaker>Vl. </speaker>
             <l>Such a Bee doth dwell, </l>
@@ -2657,7 +2664,8 @@
             <l>Halfe cleft with thunder, to this grove </l>
             <l>We banish them. </l>
           </sp>
-          <sp xml:id="ep000558-e117950">
+          <sp who="#ep000558-vespa #ep000558-hornet #ep000558-humble-bee #ep000558-fucus"
+                   xml:id="ep000558-e117950">
             <speaker>All. </speaker>
             <l>Some mercie, Iove. </l>
           </sp>
