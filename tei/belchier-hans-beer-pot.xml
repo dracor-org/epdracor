@@ -125,6 +125,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-05">(Luca Giovannini) Fixed speaker tags and particDesc.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -706,12 +711,14 @@
           <l>Goe to the Serieant, I dare warrant thee, </l>
           <l>And tell him that I stay to speake with him. </l>
         </sp>
-        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104330">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104330">
           <speaker>Pa. </speaker>
           <l>Swifter then thought, your errand shal be done </l>
           <stage xml:id="ep000203-e104350">Exit. </stage>
           <stage xml:id="ep000203-e104360">Enter Serieant Good-fellow, and Pasquill, walking by the Guard dore. </stage>
-          <stage xml:id="ep000203-e104370">Serieant Goodfellow. </stage>
+        </sp>
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104370">
+          <speaker>Serieant Goodfellow. </speaker>
           <l>Good morrow M. Garland, what abroad </l>
           <l>So earely, can you leaue so sweet a Froe; </l>
           <l>By gisse I sweare, were I so fayrely wedde, </l>
