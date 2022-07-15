@@ -222,6 +222,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-16">(Luca Giovannini) Fixed speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -6098,7 +6103,8 @@
             <speaker>COK. </speaker>
             <p>Gramercy to you both, my Pipe, and my drum. </p>
           </sp>
-          <sp xml:id="ep000101-e130230">
+          <sp who="#ep000101-puppet-damon #ep000101-puppet-pythias"
+                   xml:id="ep000101-e130230">
             <speaker>PVP. P. D. </speaker>
             <p>Come now wee'll together to breakfast to Hero. </p>
           </sp>
@@ -6208,7 +6214,7 @@
               <ref target="A04633_01-e130840-b"/>
               <note anchored="true" corresp="A04633_01-e130840-a" place="margin">Leander and Hero are kissing. </note>If you hold not your peace, you are a Coxcombe, I would say. </p>
           </sp>
-          <sp xml:id="ep000101-e130850">
+          <sp who="#ep000101-puppet-phytias" xml:id="ep000101-e130850">
             <speaker>PVP. P </speaker>
             <p>What's here? what's here? kisse, kisse, vpon kisse. </p>
           </sp>
@@ -6503,7 +6509,7 @@
             <speaker>BVS. </speaker>
             <p>I will not answer for them. </p>
           </sp>
-          <sp xml:id="ep000101-e132360">
+          <sp who="#ep000101-puppet-damon" xml:id="ep000101-e132360">
             <speaker>PVP. </speaker>
             <p>Because you cannot, because you cannot. Is a Bugle-maker a lawfull Calling? or the Confect-makers? such you haue there: or your French Fashioner? you'ld haue all the sinne within your selues, would you not? would you not? </p>
           </sp>
@@ -6511,7 +6517,7 @@
             <speaker>BVS. </speaker>
             <p>No, Dagon. </p>
           </sp>
-          <sp xml:id="ep000101-e132400">
+          <sp who="#ep000101-puppet-damon" xml:id="ep000101-e132400">
             <speaker>PVS. </speaker>
             <p>What then, Dagonet? is a Puppet worse then these? </p>
           </sp>
@@ -6519,7 +6525,7 @@
             <speaker>BVS. </speaker>
             <p>Yes, and my maine argument against you, is, that you are an abomination: for the Male, among you, putteth on the apparell of the Female, and the Female of the Male. </p>
           </sp>
-          <sp xml:id="ep000101-e132440">
+          <sp who="#ep000101-puppet-damon" xml:id="ep000101-e132440">
             <speaker>PVP. </speaker>
             <p>You lye, you lye, you lye abominably. </p>
           </sp>
@@ -6527,7 +6533,7 @@
             <speaker>COK. </speaker>
             <p>Good, by my troth, he has giuen him the lye thrice. </p>
           </sp>
-          <sp xml:id="ep000101-e132480">
+          <sp who="#ep000101-puppet-damon" xml:id="ep000101-e132480">
             <speaker>PVP. </speaker>
             <p>It is your old stale argument against the Players, but it will not hold against the Puppets; for we haue neyther Male nor Female amongst vs. And that thou may'st see, if thou wilt, <ref target="A04633_01-e132500-b"/>
               <note anchored="true" corresp="A04633_01-e132500-a" place="margin">The Puppet takes vp his garment. </note>like a malicious purblinde zeale as thou art! </p>
