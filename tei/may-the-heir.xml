@@ -185,6 +185,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-06">(Luca Giovannini) Fixed speaker tags and particDesc.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -4264,16 +4269,19 @@
             <l>Our falts are both a like, why should the law </l>
             <l>Be parciall thus, and lay it all on him, </l>
           </sp>
-          <sp>
+          <sp who="#ep000176-judge_1" xml:id="ep000176-e126871">
             <speaker>1. Iu. </speaker>
             <l>Lady, I would we could as lawfully </l>
             <l>Saue him as you, hee should not dye for this, </l>
             <stage xml:id="ep000176-e126900">Enter Constable leading Eugenio. </stage>
             <l>How now, who's that you haue brought there? </l>
-            <l>Con. A benefactor, if it please your Lordships, </l>
+          </sp>
+          <sp who="#ep000176-constable" xml:id="ep000176-e126911">
+            <speaker>Con. </speaker>
+            <l>A benefactor, if it please your Lordships, </l>
             <l>I reprehended him in my watch last night. </l>
           </sp>
-          <sp>
+          <sp who="#ep000176-virro" xml:id="ep000176-e126931">
             <speaker>Vir. </speaker>
             <l>Irus is taken. </l>
           </sp>
