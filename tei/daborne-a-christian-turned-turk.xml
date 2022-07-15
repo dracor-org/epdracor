@@ -212,6 +212,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-06">(Luca Giovannini) Fixed speaker tags and particDesc.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -4112,7 +4117,8 @@
             </sp>
             <sp who="#ep000358-alizia" xml:id="ep000358-e124500">
               <speaker>Aliz. </speaker>
-              <l>No other good is knowne to me but death, moritur </l>
+              <l>No other good is knowne to me but death, </l>
+              <stage xml:id="ep000358-e124511">moritur </stage>
             </sp>
             <sp who="#ep000358-ward" xml:id="ep000358-e124520">
               <speaker>Ward. </speaker>
