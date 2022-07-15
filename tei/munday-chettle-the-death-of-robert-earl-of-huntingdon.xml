@@ -195,6 +195,12 @@
         </listPerson>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-01">(Luca Giovannini) Fixed speaker tags and particDesc</change>
+        <change when="2022-07-03">(Luca Giovannini) Speech attribution checked with https://d.lib.rochester.edu/teams/text/death-of-robert-earle-of-huntington</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -222,27 +228,29 @@
         <stage xml:id="ep000205-e100100">¶ Enter Frier Tucke. </stage>
         <div n="1" type="scene" xml:id="ep000205-e100110">
           <head>SCEANE. I, </head>
-          <stage xml:id="ep000205-e100120">Frier. </stage>
-          <p>HOlla, holla, holla —follow, follow, followe. Like noyse within. Now benedicite, what fowle absurditie, follie &amp; foolerie had like to followed mee! I &amp; my mates, like addle pates, inuiting great States, to see our last play, are hunting the hay, with ho, that way, the goodly Heart ranne, with followe little Iohn, Much play the man; and I, like a sot, haue wholly forgot the course of our plot: but crosse-bowe lye downe, come on Friers gowne, hoode couer my crowne, and with a lowe becke, preuent a sharpe checke. </p>
-          <l>Blithe sit yee all, and winke at our rude cry, </l>
-          <l>Minde where wee left, in Sheerewod merrily, </l>
-          <l>The king, his traine, Robin, his yeomen tall </l>
-          <l>Gone to the wodde to see the fat deare fall: </l>
-          <l>Wee left maid Marian busie in the bower, </l>
-          <l>And prettie linny looking, euery hower, </l>
-          <pb xml:id="ep000205-003-a"/>
-          <l>For their returning from the hunting game, </l>
-          <l>And therefore seeke to set each thing in frame. </l>
-          <l>Warman all wofull for his sinne we left. </l>
-          <l>Sir Doncaster, whose villanies and theft, </l>
-          <l>You neuer heard of, but too soone yee shall, </l>
-          <l>Hurt with the Prior; shame them both befall, </l>
-          <l>They two will make our mirth be short and small. </l>
-          <l>But least I bring yee sorrowe ere the time, </l>
-          <l>Pardon I beg of your well iudging eyne, </l>
-          <l>And take in part bad prologue, and rude play: </l>
-          <l>The hunters holloo, Tucke must needes away. </l>
-          <p>Therefore downe weede, bowe doe the deede, to make the Stagge bleede, and if my hand speede, hey for a cry, with a throate strained hie, &amp; a lowde yall, at the beasts fall. </p>
+          <sp who="#ep000205-friar-tuck" xml:id="ep000205-e100120">
+            <speaker>Frier. </speaker>
+            <p>HOlla, holla, holla —follow, follow, followe. Like noyse within. Now benedicite, what fowle absurditie, follie &amp; foolerie had like to followed mee! I &amp; my mates, like addle pates, inuiting great States, to see our last play, are hunting the hay, with ho, that way, the goodly Heart ranne, with followe little Iohn, Much play the man; and I, like a sot, haue wholly forgot the course of our plot: but crosse-bowe lye downe, come on Friers gowne, hoode couer my crowne, and with a lowe becke, preuent a sharpe checke. </p>
+            <l>Blithe sit yee all, and winke at our rude cry, </l>
+            <l>Minde where wee left, in Sheerewod merrily, </l>
+            <l>The king, his traine, Robin, his yeomen tall </l>
+            <l>Gone to the wodde to see the fat deare fall: </l>
+            <l>Wee left maid Marian busie in the bower, </l>
+            <l>And prettie linny looking, euery hower, </l>
+            <pb xml:id="ep000205-003-a"/>
+            <l>For their returning from the hunting game, </l>
+            <l>And therefore seeke to set each thing in frame. </l>
+            <l>Warman all wofull for his sinne we left. </l>
+            <l>Sir Doncaster, whose villanies and theft, </l>
+            <l>You neuer heard of, but too soone yee shall, </l>
+            <l>Hurt with the Prior; shame them both befall, </l>
+            <l>They two will make our mirth be short and small. </l>
+            <l>But least I bring yee sorrowe ere the time, </l>
+            <l>Pardon I beg of your well iudging eyne, </l>
+            <l>And take in part bad prologue, and rude play: </l>
+            <l>The hunters holloo, Tucke must needes away. </l>
+            <p>Therefore downe weede, bowe doe the deede, to make the Stagge bleede, and if my hand speede, hey for a cry, with a throate strained hie, &amp; a lowde yall, at the beasts fall. </p>
+          </sp>
           <stage xml:id="ep000205-e100320">Exit. Holloo within. </stage>
           <stage xml:id="ep000205-e100330">Enter King, Ely, Fitzwater, Salsbury, Chester, Prince Iohn, little Iohn, Scathlocke. </stage>
           <sp who="#ep000205-richard" xml:id="ep000205-e100340">
@@ -319,6 +327,8 @@
           <sp who="#ep000205-richard" xml:id="ep000205-e100740">
             <speaker>King. </speaker>
             <l>Why, how now Much? </l>
+          </sp>
+          <sp who="#ep000205-much" xml:id="ep000205-e100751">
             <p>Cry ye mercy, master king. Marry this is the matter; Scarlet is following the Stagge you hit, and has almost lodg'd him: now the Frier has the best bowe, but yours, in all the field: which and Scarlet had, he would haue him straight. </p>
           </sp>
           <sp who="#ep000205-richard" xml:id="ep000205-e100770">
@@ -459,6 +469,10 @@
             <l>A little helpe my Marian and her maide: </l>
           </sp>
           <pb xml:id="ep000205-004-b"/>
+<!--
+      FIXME: The markup follows the print her, but actually the following lines
+      still seem to belong to Rob's speech.
+     -->
           <sp xml:id="ep000205-e101590">
             <speaker>Much </speaker>
             <l>shall come to you straight: a little now, </l>
@@ -1090,7 +1104,7 @@
             <speaker>Mar. </speaker>
             <l>What Much? What Iinny? Much? I say. </l>
           </sp>
-          <sp who="#ep000205-jinny" xml:id="ep000205-e105870">
+          <sp who="#ep000205-much" xml:id="ep000205-e105870">
             <speaker>Much. </speaker>
             <l>Whats the matter mistresse? </l>
           </sp>
@@ -1100,7 +1114,10 @@
             <l>Suffer the cooke to want no wodde. </l>
             <l>Good Lord, where is this idle girle? </l>
             <l>Why Iinny? </l>
-            <l>Within. I come forsooth. </l>
+          </sp>
+          <sp who="#ep000205-jinny" xml:id="ep000205-e105931">
+            <stage xml:id="ep000205-e105932">Within. </stage>
+            <l>I come forsooth. </l>
           </sp>
           <sp who="#ep000205-marian-matilda" xml:id="ep000205-e105950">
             <speaker>Mar. </speaker>
