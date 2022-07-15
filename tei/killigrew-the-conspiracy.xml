@@ -223,6 +223,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-06-30">(Luca Giovannini) Fixed speaker tags and particDesc</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -2297,8 +2302,6 @@
           <speaker>Chorus. </speaker>
           <l>O shed thou then thy influence, </l>
           <l>And weele returne fresh beauties thence. </l>
-        </sp>
-        <sp xml:id="ep000114-e113420">
           <l>The feircer sweetnes of his face </l>
           <l>Presents a rigour mixt with grace. </l>
           <l>And though there were, a want of blood </l>
@@ -3542,9 +3545,7 @@
         <sp who="#ep000114-polyander" xml:id="ep000114-e121420">
           <speaker>Poli. </speaker>
           <p>How now? what gaze you at? know you where you are? does your feet leade you without the councell of your head? get you to your quarter or i'le stretch you up in't. </p>
-        </sp>
-        <stage xml:id="ep000114-e121440">The Souldiers retyre, and goe out. </stage>
-        <sp xml:id="ep000114-e121450">
+          <stage xml:id="ep000114-e121440">The Souldiers retyre, and goe out. </stage>
           <p>These Villains dare doe any thing, Captaine follow 'em and see 'em punish't. <stage xml:id="ep000114-e121470">Exit Captaine. </stage>
           </p>
         </sp>
@@ -4046,7 +4047,10 @@
           </p>
         </sp>
         <stage xml:id="ep000114-e124180">Enter the King, Aratus, Phronimus, Eunilochus, attendants. </stage>
-        <p>People Jove, Neptune, Apollo, and the gods of Greece; preserve, and blesse the King. </p>
+        <sp who="#ep000114-people" xml:id="ep000114-e124181">
+          <speaker>People </speaker>
+          <p>Jove, Neptune, Apollo, and the gods of Greece; preserve, and blesse the King. </p>
+        </sp>
         <sp who="#ep000114-king" xml:id="ep000114-e124200">
           <speaker>King. </speaker>
           <p>Through the happines of my people, may I know no other ioy or sadnesse, but what passes you, still the middle way of blessings twixt the gods and me. </p>
