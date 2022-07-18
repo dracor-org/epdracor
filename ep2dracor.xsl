@@ -256,10 +256,11 @@
   <xsl:template name="authors">
     <xsl:variable
       name="author-elems"
-      select="$authors//author/play[. eq $tcpid]/parent::*"/>
+      select="$authors//author/play[. eq $meta/@id]/parent::*"/>
     <xsl:choose>
       <xsl:when test="$author-elems">
         <xsl:for-each select="$author-elems">
+          <xsl:sort select="play[. = $meta/@id]/@position"/>
           <xsl:copy select="./tei:author">
             <xsl:apply-templates/>
           </xsl:copy>
