@@ -23,28 +23,35 @@
     select="replace(tokenize(document-uri(.), '/')[last()], '.xml', '')"/>
   <xsl:variable name="meta" select="$index//item[@sourceid eq $tcpid]"/>
 
+  <xsl:variable name="tcpid-base">
+    <xsl:value-of select="tokenize($tcpid, '_')[1]"/>
+  </xsl:variable>
+
   <!--
     In some documents (e.g. A16527_01.xml) only the main part of the TCP ID
     before the number suffix (_01) is used to prefix the xml:ids while in others
-    (e.g. A04632_09.xml) the entire ID is used. Here we try to figure out which
-    prefix is used.
+    (e.g. A04632_09.xml) the entire ID is used.
+
+    Therefore, to remove the EarlyPrint ID prefix we first try to remove the
+    full ID including a possible suffix and then the main part.
   -->
-  <xsl:variable name="idprefix">
-    <xsl:choose>
-      <xsl:when test="count(//@xml:id[starts-with(., $tcpid || '-')]) > 1">
-        <xsl:value-of select="$tcpid"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="tokenize($tcpid, '_')[1]"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:variable>
+  <xsl:function name="d:de-prefix">
+    <xsl:param name="id"/>
+    <xsl:sequence
+      select="replace(replace($id, $tcpid || '-', ''), $tcpid-base || '-', '')"
+    />
+  </xsl:function>
+
+  <xsl:function name="d:re-prefix">
+    <xsl:param name="id"/>
+    <xsl:sequence select="$meta/@id || '-' || d:de-prefix($id)" />
+  </xsl:function>
 
   <xsl:function name="d:id-to-name">
     <xsl:param name="id"/>
     <xsl:sequence select="
       fn:string-join(
-        tokenize(replace($id, $idprefix || '-', ''), '[-_]')
+        tokenize(d:de-prefix($id), '[-_]')
          ! concat(upper-case(substring(., 1, 1)), substring(., 2)), ' ')"
     />
   </xsl:function>
@@ -55,7 +62,7 @@
         <xsl:variable
           name="target"
           select="concat($outputdirectory, '/', $meta/@slug, '.xml')"/>
-        <xsl:message select="$tcpid || ' (' || $idprefix || '): ' || $target"/>
+        <xsl:message select="$tcpid || ': ' || $target"/>
         <xsl:result-document href="{$target}">
           <xsl:apply-templates select="tei:TEI"/>
         </xsl:result-document>
@@ -209,7 +216,7 @@
   <!-- strip @xml:id except for div, sp and stage -->
   <xsl:template match="@xml:id"/>
   <xsl:template match="(tei:div|tei:sp|tei:stage|tei:pb)/@xml:id">
-    <xsl:attribute name="xml:id" select="replace(., $idprefix, $meta/@id)"/>
+    <xsl:attribute name="xml:id" select="d:re-prefix(.)"/>
   </xsl:template>
 
   <xsl:template match="tei:sp[@xml:id]">
@@ -236,7 +243,7 @@
   <xsl:template match="tei:sp/@who">
     <xsl:attribute
       name="who"
-      select="tokenize(., ' ') ! concat('#', replace(., $idprefix, $meta/@id))"
+      select="tokenize(., ' ') ! concat('#', d:re-prefix(.))"
     />
   </xsl:template>
 
@@ -371,7 +378,7 @@
     <particDesc>
       <listPerson>
         <xsl:for-each select="distinct-values(//tei:sp/@who/tokenize(., ' '))">
-          <person xml:id="{replace(., $idprefix, $meta/@id)}">
+          <person xml:id="{d:re-prefix(.)}">
             <persName>
               <xsl:value-of select="d:id-to-name(.)"/>
             </persName>
