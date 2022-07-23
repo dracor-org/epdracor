@@ -6,22 +6,25 @@
   <xsl:output method="text" encoding="UTF-8"/>
 
   <xsl:param name="type">csv</xsl:param>
+  <xsl:param name="vanilla"/>
 
   <xsl:template match="/">
     <xsl:choose>
       <xsl:when test="$type = 'csv'">
-        <xsl:text>DraCor_ID,TCP_ID,ZIP_URL&#10;</xsl:text>
+        <xsl:text>DraCor_ID,TCP_ID,DraCor_slug,ZIP_URL&#10;</xsl:text>
       </xsl:when>
     </xsl:choose>
     <xsl:apply-templates select="//item"/>
   </xsl:template>
 
-  <xsl:template match="item[@id]">
+  <xsl:template match="item[@id and (not($vanilla) or @vanilla)]">
     <xsl:choose>
       <xsl:when test="$type = 'csv'">
         <xsl:value-of select="@id"/>
         <xsl:text>,</xsl:text>
         <xsl:value-of select="@sourceid"/>
+        <xsl:text>,</xsl:text>
+        <xsl:value-of select="@slug"/>
         <xsl:text>,</xsl:text>
         <xsl:text>https://texts.earlyprint.org/downloads/</xsl:text>
         <xsl:value-of select="substring(@sourceid, 1, 3)"/>

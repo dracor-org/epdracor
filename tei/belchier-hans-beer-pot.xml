@@ -95,35 +95,29 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000203-hans">
+          <person xml:id="ep000203-hans" sex="MALE">
             <persName>Hans</persName>
           </person>
-          <person xml:id="ep000203-hannecke">
+          <person xml:id="ep000203-hannecke" sex="FEMALE">
             <persName>Hannecke</persName>
           </person>
-          <person xml:id="ep000203-cornelius">
+          <person xml:id="ep000203-cornelius" sex="MALE">
             <persName>Cornelius</persName>
           </person>
-          <person xml:id="ep000203-pasquil">
-            <persName>Pasquil</persName>
+          <person xml:id="ep000203-pasquill" sex="MALE">
+            <persName>Pasquill, a sentinel</persName>
           </person>
-          <person xml:id="ep000203-garland">
+          <person xml:id="ep000203-garland" sex="MALE">
             <persName>Garland</persName>
           </person>
-          <person xml:id="ep000203-servant">
-            <persName>Servant</persName>
-          </person>
-          <person xml:id="ep000203-yonker">
+          <person xml:id="ep000203-yonker" sex="MALE">
             <persName>Yonker</persName>
           </person>
-          <person xml:id="ep000203-sentinel">
-            <persName>Sentinel</persName>
-          </person>
-          <person xml:id="ep000203-flutterkin">
+          <person xml:id="ep000203-flutterkin" sex="MALE">
             <persName>Flutterkin</persName>
           </person>
-          <person xml:id="ep000203-both">
-            <persName>Both</persName>
+          <person xml:id="ep000203-goodfellow" sex="MALE">
+            <persName>Sergeant Goodfellow</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -131,6 +125,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-05">(Luca Giovannini) Fixed speaker tags and particDesc.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -548,7 +547,7 @@
           <l>Good morrow Pasquill, where's my brother, where's </l>
           <l>That Younker? and the Serieant Goodfellow. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103260">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103260">
           <speaker>Pas. </speaker>
           <l>You are welcome sir, what M. Garland? </l>
           <pb xml:id="ep000203-010-a"/>
@@ -560,7 +559,7 @@
           <speaker>Gar. </speaker>
           <p>Why dost not answere me? </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103330">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103330">
           <speaker>Pas. </speaker>
           <l>What did you say? sure I remember not; </l>
           <l>My wits want freshing. </l>
@@ -570,7 +569,7 @@
           <l>I will thrash them streight </l>
           <l>With good strong Beere, one cup will do no harm. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103390">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103390">
           <speaker>Pas. </speaker>
           <p>Will driue cold out, and keep my belly warm. </p>
         </sp>
@@ -580,7 +579,7 @@
           <l>Washed yet: but where is Younger Harmants? </l>
           <l>Where's his Companion, Serieant Goodfellow? </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103450">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103450">
           <speaker>Pas </speaker>
           <l>Fast a sleepe, his troubled head is so vext </l>
           <l>With this worlds cares. </l>
@@ -589,7 +588,7 @@
           <speaker>Gar. </speaker>
           <p>What both. </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103500">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103500">
           <speaker>Pasq. </speaker>
           <l>The Serieant, him </l>
           <l>Lonely meane, lyes sleeping yet within; </l>
@@ -599,7 +598,7 @@
           <speaker>Gar. </speaker>
           <p>Not else. </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103560">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103560">
           <speaker>Pas. </speaker>
           <l>Yes that I will, and more then that; </l>
           <l>Ile doe for you, or for your Brothers sake; </l>
@@ -611,7 +610,7 @@
           <speaker>Gar. </speaker>
           <p>Where didst thou learn such high stilde complements? </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103640">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103640">
           <speaker>Pas. </speaker>
           <l>Out from the smoaking of my Musquets mouth </l>
           <l>Fetcht from the fragments of some Poetrie: </l>
@@ -627,7 +626,7 @@
           <l>Stares not mine hayre: shall I be scarred hence: </l>
           <l>Ile make a circle least Hobgoblin come, </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103760">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103760">
           <speaker>Pas. </speaker>
           <l>You are disposde to iest M. Ganland. </l>
           <pb xml:id="ep000203-010-b"/>
@@ -638,7 +637,7 @@
           <l>Of thine owne making sure, they doe so well </l>
           <l>Concurre in sweetest Diapason. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103820">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103820">
           <speaker>Pasq. </speaker>
           <l>Die a pace on sir: whats that? </l>
           <l>That's quite past </l>
@@ -657,7 +656,7 @@
           <l>O Heauens! why made you night to couer sin? </l>
           <l>Had it been day, such things had neuer beene. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e103960">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e103960">
           <speaker>Pas. </speaker>
           <l>Once more with patience, silence, &amp; be still: </l>
           <l>You shall haue Rhetoricke gainst your will. </l>
@@ -676,7 +675,7 @@
           <l>He fared strangely, in such taking; </l>
           <l>He said he was not of Gods making. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e104100">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104100">
           <speaker>Pasq. </speaker>
           <l>The Cuckow sings not worth a groat, </l>
           <l>Because she neuer changeth note: </l>
@@ -688,7 +687,7 @@
           <l>O brains of a Burbate, wooll of an Owle: </l>
           <l>Where hadst thou so much wit? now tell me thine. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e104180">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104180">
           <speaker>Pas. </speaker>
           <l>My Grandame taught me, &amp; I learnt by heart </l>
           <pb xml:id="ep000203-011-a"/>
@@ -701,7 +700,7 @@
           <l>Goe seeke my brother out, and then I will, </l>
           <l>Shew thee the way, and giue thee thy desire. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e104260">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104260">
           <speaker>Pasq. </speaker>
           <l>I must not stirre without my Corporall </l>
           <l>Giues his consent, I must not so offend </l>
@@ -712,12 +711,14 @@
           <l>Goe to the Serieant, I dare warrant thee, </l>
           <l>And tell him that I stay to speake with him. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e104330">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104330">
           <speaker>Pa. </speaker>
           <l>Swifter then thought, your errand shal be done </l>
           <stage xml:id="ep000203-e104350">Exit. </stage>
           <stage xml:id="ep000203-e104360">Enter Serieant Good-fellow, and Pasquill, walking by the Guard dore. </stage>
-          <stage xml:id="ep000203-e104370">Serieant Goodfellow. </stage>
+        </sp>
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104370">
+          <speaker>Serieant Goodfellow. </speaker>
           <l>Good morrow M. Garland, what abroad </l>
           <l>So earely, can you leaue so sweet a Froe; </l>
           <l>By gisse I sweare, were I so fayrely wedde, </l>
@@ -730,7 +731,7 @@
           <l>Such ware's not daintie, though you thinke it deere, </l>
           <l>Where is enough, and market all the yeere. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e104470">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104470">
           <speaker>Ser. </speaker>
           <l>I am glad to see you in so pleasant vaine; </l>
           <l>I hope we shall haue a merry day on't. </l>
@@ -739,7 +740,7 @@
           <speaker>Gar. </speaker>
           <p>Deed, Pasquill and I haue beene riming. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e104520">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104520">
           <speaker>Ser. </speaker>
           <l>What? </l>
           <l>That prety Stripling, that mad Pastie-crust, </l>
@@ -757,7 +758,7 @@
           <speaker>Gar. </speaker>
           <p>For Horsemen tooth and nayle. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e104650">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104650">
           <speaker>Ser. </speaker>
           <l>He calde me asse, but since one predicament </l>
           <l>Containes vs both, I care not Ile not yeeld; </l>
@@ -765,7 +766,7 @@
           <l>Ide make him fret, and stampe, and scratch his head; </l>
           <l>Doe you but second me, ile vexe him yet. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e104710">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104710">
           <speaker>Pas. </speaker>
           <p>While you do talke, then I am sure of drinke. </p>
         </sp>
@@ -773,17 +774,17 @@
           <speaker>Gar. </speaker>
           <p>Let Pasquill seeke him. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e104750">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104750">
           <speaker>Ser. </speaker>
           <l>Sirra, make haste, runne; </l>
           <l>My Captaine calde him, when I went to sleepe. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e104780">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e104780">
           <speaker>Pas. </speaker>
           <l>I goe, I runne, I haste, I skippe, I flye; </l>
           <l>With nimbler heeles then ere did Mercurie. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e104810">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e104810">
           <speaker>Ser. </speaker>
           <l>Ah poti maia sitis, how fast he </l>
           <l>Runnes for the liquours sake; now thinkes he, </l>
@@ -856,7 +857,7 @@
           <l>Twill not belong, I am sure, befort be drownde, </l>
           <l>Foure men foure Cans, whats that, but foure faire draughts. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105390">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105390">
           <speaker>Ser. </speaker>
           <l>Yea for a Brewers horse, not for his man: </l>
           <l>Oh my rumbling guts doe ake to thinke ont; </l>
@@ -878,7 +879,7 @@
           <l>Ile buy a Calues tongue for foure, thats good meate </l>
           <l>For them that loue it. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105560">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105560">
           <speaker>Ser. </speaker>
           <l>Why? theres none but Calues </l>
           <l>Refuse good meat, or offered curtesies, </l>
@@ -887,7 +888,7 @@
           <speaker>Yon. </speaker>
           <p>Why? how now Serieant, do you cal me calfe? </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105610">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105610">
           <speaker>Ser. </speaker>
           <l>No sir, not I, but by chance speake of them, </l>
           <l>As by the way you light vpon their tongues. </l>
@@ -899,7 +900,7 @@
           <l>It first: shrinke backe, I will neuer owne thee </l>
           <l>For a Serieant. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105690">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105690">
           <speaker>Ser. </speaker>
           <l>Now we are two to one, </l>
           <l>I care not. </l>
@@ -909,7 +910,7 @@
           <l>What sayst, thou speakst Ebrew, Greeke, </l>
           <l>Or English, Welsh, I know not what thou meanst. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105750">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105750">
           <speaker>Ser. </speaker>
           <p>Sauf vostre grace, vous estes bien venuz. </p>
         </sp>
@@ -919,7 +920,7 @@
           <l>Speake two words more, ile make thee Port-enseigne </l>
           <l>Si ce iemais aduient, en ma puissance. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105810">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105810">
           <speaker>Ser. </speaker>
           <p>Perform your words, and then I sweare, I wil. </p>
         </sp>
@@ -927,7 +928,7 @@
           <speaker>Younk. </speaker>
           <p>I will. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105850">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105850">
           <speaker>Ser. </speaker>
           <p>Sweare first, ile not beleeue you else. </p>
         </sp>
@@ -935,7 +936,7 @@
           <speaker>Younk. </speaker>
           <p>Without an oath I will. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105890">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105890">
           <speaker>Ser. </speaker>
           <l>Why, heare you then; </l>
           <l>Admiranda canunt, sed non credenda Poetae. </l>
@@ -945,7 +946,7 @@
           <p>Thats Latine Serieant, wiseman, thats not French. </p>
         </sp>
         <pb xml:id="ep000203-013-a"/>
-        <sp who="#ep000203-servant" xml:id="ep000203-e105940">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e105940">
           <speaker>Ser. </speaker>
           <l>You namde no language, bid me speake two wordes, </l>
           <l>And you would doo't, Ile be iudgde by all </l>
@@ -963,7 +964,7 @@
           <l>Take thou the colours, I bestow them free, </l>
           <l>In my conceit, as ere did Emperour, </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106060">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106060">
           <speaker>Ser. </speaker>
           <l>I thanke your greatnesse in conceit, </l>
           <l>I doe enioy them, and I rest content. </l>
@@ -976,7 +977,7 @@
           <l>I see, but see not, what I hope to see; </l>
           <l>That once performde which now is but conceit. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106150">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106150">
           <speaker>Ser. </speaker>
           <l>I thanke you M. Garland, your good word, </l>
           <l>Is euer prest to doe an honest man good, </l>
@@ -993,7 +994,7 @@
           <l>Get thou a place, trie thy friends, thou shalt see </l>
           <l>What I will doe. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106280">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106280">
           <speaker>Ser. </speaker>
           <l>I thanke God and friends, tis done; </l>
           <l>I haue bethought me, you shall see ere long </l>
@@ -1003,7 +1004,7 @@
           <speaker>Younk. </speaker>
           <p>Transformde, thou wouldst say. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106340">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106340">
           <speaker>Ser. </speaker>
           <l>Call you it transformde; </l>
           <l>Transformde, reformde; or call it how you will: </l>
@@ -1029,7 +1030,7 @@
           <l>So good; as when by two and two in rankes, </l>
           <l>They march in order: then they please mine eares. </l>
         </sp>
-        <sp who="#ep000203-sentinel" xml:id="ep000203-e106530">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e106530">
           <speaker>Se. </speaker>
           <l>You want a fellow to my tother verse, </l>
           <l>Doe you not. </l>
@@ -1040,7 +1041,7 @@
           <l>To wipe my mouth, like to the first, I sweare, </l>
           <l>Ile giue thee a payre of good stagges leather gloues. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106600">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106600">
           <speaker>Ser. </speaker>
           <l>A match tis done, ile fit you presently; </l>
           <l>M. Garland will you see it performde? </l>
@@ -1049,7 +1050,7 @@
           <speaker>Gar. </speaker>
           <p>Vpon mine honest word, I will. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106650">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106650">
           <speaker>Ser. </speaker>
           <l>Why then, </l>
           <l>I haue it by this time: since your mouth is cleane; </l>
@@ -1063,7 +1064,7 @@
           <l>Sir Philip Sidney, Scholers, souldiers pride </l>
           <l>Was his, not yours. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106750">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106750">
           <speaker>Ser. </speaker>
           <l>What, though he made that verse, </l>
           <l>Those words were made before, he made them not; </l>
@@ -1075,7 +1076,7 @@
           <l>You hatch those egges that other birds haue layde: </l>
           <l>I bid you make me one, by your owne wit. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106830">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106830">
           <speaker>Ser. </speaker>
           <l>Why so I did, that which sir Philip made, </l>
           <l>Is now grown olde, and like my Fathers gowne, </l>
@@ -1094,7 +1095,7 @@
           <l>To cling by shifts, hey passe, passe, </l>
           <l>Italian grown; a sharking Charlatan. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e106970">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e106970">
           <speaker>Ser. </speaker>
           <l>Italian, Spanish, English, Dutch, or French; </l>
           <l>Sharke what you will, you shall not sharke me out </l>
@@ -1116,7 +1117,7 @@
           <l>Vpon condition I will be content, </l>
           <l>So he will make me but one true French verse. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107130">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107130">
           <speaker>Ser. </speaker>
           <p>I will and if I can. </p>
         </sp>
@@ -1125,7 +1126,7 @@
           <l>Yea, thats well sayd; </l>
           <l>That can was well. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107180">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107180">
           <speaker>Ser. </speaker>
           <l>I can and will; not for nought; </l>
           <l>My learning cost me something; and my wit </l>
@@ -1139,7 +1140,7 @@
           <speaker>Gar. </speaker>
           <p>It shall be done, what ist? </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107280">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107280">
           <speaker>Ser. </speaker>
           <p>Why what you will. </p>
         </sp>
@@ -1147,7 +1148,7 @@
           <speaker>Gar. </speaker>
           <p>A payre of Garters. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107320">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107320">
           <speaker>Ser. </speaker>
           <l>Garters? yea content. </l>
           <pb xml:id="ep000203-014-b"/>
@@ -1158,7 +1159,7 @@
           <speaker>Yo. </speaker>
           <p>What time, a bargain wisely made's halfe won. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107380">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107380">
           <speaker>Ser. </speaker>
           <l>Ere you can go to Flutterkins mine Hoast, </l>
           <l>And come againe, or else ile leese two faunes, </l>
@@ -1168,7 +1169,7 @@
           <speaker>Youn. </speaker>
           <p>Beere, what Beere, Scar-Beere? </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107440">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107440">
           <speaker>Ser. </speaker>
           <p>No of English Beere. </p>
         </sp>
@@ -1178,7 +1179,7 @@
           <l>Ere I can tell threescore distinctly: say </l>
           <l>A match; Ile tell them plainely, one by one. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107500">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107500">
           <speaker>Ser. </speaker>
           <p>Agreed, begin. </p>
         </sp>
@@ -1186,7 +1187,7 @@
           <speaker>Youn. </speaker>
           <p>Ile tell then, shall I? </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107540">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107540">
           <speaker>Ser. </speaker>
           <p>Yes. </p>
         </sp>
@@ -1194,7 +1195,7 @@
           <speaker>Young. </speaker>
           <p>One, two, three, foure. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107580">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107580">
           <speaker>Ser. </speaker>
           <p>Iesuis. </p>
         </sp>
@@ -1203,7 +1204,7 @@
           <l>Seuen, eight. </l>
           <l>Nine, ten, eleuen, twelue, thirteen, foureteen, fifteene. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107630">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107630">
           <speaker>Ser. </speaker>
           <l>Soft, you are too hasty for a parish Priest, </l>
           <l>I am sure of your good word; fiue and sixe </l>
@@ -1215,7 +1216,7 @@
           <speaker>Younk. </speaker>
           <p>Thirty. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107710">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107710">
           <speaker>Ser. </speaker>
           <l>I. </l>
           <l>Gods me, halfe out, but two words yet, Vostre. </l>
@@ -1224,7 +1225,7 @@
           <speaker>Gar. </speaker>
           <p>Thou make a verse, then ile bake in a well. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107760">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107760">
           <speaker>Ser. </speaker>
           <p>There's one word more, humble, nay treshumble </p>
         </sp>
@@ -1232,7 +1233,7 @@
           <speaker>Younk. </speaker>
           <p>Fifty. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107800">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107800">
           <speaker>Ser. </speaker>
           <l>Seruiteur, life of my life, tis out: </l>
           <l>Be it what it will, stand on thine euen feet; </l>
@@ -1242,7 +1243,7 @@
           <speaker>Youn. </speaker>
           <p>Brother, you haue lost. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107860">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107860">
           <speaker>Ser. </speaker>
           <p>Then know I who must winne. </p>
         </sp>
@@ -1260,7 +1261,7 @@
           <l>Can saue you: Serieant thou hast won; the garters </l>
           <l>They are thine. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e107970">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e107970">
           <speaker>Ser. </speaker>
           <l>Younker, tis well; and your gloues too; </l>
           <l>Both gloues and garters, they are fayrely wonne; </l>
@@ -1274,7 +1275,7 @@
           <l>My Captaine gaue me some Canarie wine: </l>
           <l>The Churle he shall not ride the Gentleman. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e108070">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e108070">
           <speaker>Ser. </speaker>
           <l>You shall not flinch, if that your cap be wool, </l>
           <l>You shall along; What, would you leaue vs so; </l>
@@ -1286,7 +1287,7 @@
           <l>Rightly to construe those lines of Ouids, </l>
           <l>Which thou readst but now. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e108150">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e108150">
           <speaker>Ser. </speaker>
           <l>I will, then let vs hence; </l>
           <l>I thanke great Ioue that blest me so this day; </l>
@@ -1294,7 +1295,7 @@
         </sp>
         <stage xml:id="ep000203-e108190">Exeunt. </stage>
         <stage xml:id="ep000203-e108200">Enter Hans and Pasquill. </stage>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108210">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108210">
           <speaker>Pas. </speaker>
           <l>This way he went, and here they were ere while, </l>
           <l>But now they are fledde like birds that cut the ayre, </l>
@@ -1313,7 +1314,7 @@
           <l>I soone despatcht, solde all my corne at once, </l>
           <l>And bought my meate. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108350">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108350">
           <speaker>Pasq. </speaker>
           <l>As streight as Circes wande, </l>
           <l>Not looking backe, as oft Meander doth, </l>
@@ -1324,7 +1325,7 @@
           <l>I care not, ile goe where thou wilt; lets on; </l>
           <l>But whats Meander? man, or mayde, or wife. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108420">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108420">
           <speaker>Pasq. </speaker>
           <l>A riuer foole, didst neuer see a play, </l>
           <l>Or heare these verses which I haue by heart. </l>
@@ -1338,7 +1339,7 @@
           <l>O terrible, my Mistresse sent you that, </l>
           <l>And bid you drinke it, not to hoorde it vp. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108520">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108520">
           <speaker>Pas. </speaker>
           <p>An English shilling: hey; did she indeed? </p>
         </sp>
@@ -1346,7 +1347,7 @@
           <speaker>Hans. </speaker>
           <p>Why Widgin, thinkst thou I would giue thee't else? </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108560">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108560">
           <speaker>Pas. </speaker>
           <l>Ile drinke her health vpon my bended knees, </l>
           <l>Vntill the Welkin roare, and ground lookes blew; </l>
@@ -1361,7 +1362,7 @@
           <l>Are tender, Bones are soone thrust out: a wrinch </l>
           <l>Comes quickly. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108670">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108670">
           <speaker>Pasq. </speaker>
           <l>I am free from poxe, good face. </l>
         </sp>
@@ -1377,7 +1378,7 @@
           <pb xml:id="ep000203-016-a"/>
           <l>Neere blush for shame. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108780">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108780">
           <speaker>Pasq. </speaker>
           <l>Twas for thine honesty; </l>
           <l>Now its on record, tis prooud, tis past the tutch. </l>
@@ -1386,7 +1387,7 @@
           <speaker>Hans. </speaker>
           <l>Can you accuse me? no, and speake but true. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e108830">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e108830">
           <speaker>Pas. </speaker>
           <l>I saw no hurt, Ile sayt, and sweare it too: </l>
           <l>But good cause why; thou couldst nor go, nor stand </l>
@@ -1407,7 +1408,7 @@
           <l>Fell on a Sutlers hut a fortnights space, </l>
           <l>I had no legs, nor could I quit that place. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e109000">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e109000">
           <speaker>Pasq. </speaker>
           <l>What wert thou shot? </l>
         </sp>
@@ -1420,7 +1421,7 @@
           <l>Poor Beere-pot had been squasht, these hansom lims </l>
           <l>Had flowne in pieces, nor splinter left vnbroke. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e109090">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e109090">
           <speaker>Pas. </speaker>
           <l>That had been pitty, which way went the shot </l>
         </sp>
@@ -1429,7 +1430,7 @@
           <l>To Callais as I thinke, or further off, </l>
           <l>I scapt I am sure, that dreadfull malling knocke. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e109140">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e109140">
           <speaker>Pas. </speaker>
           <l>O hold my head my thumbe begins to ake, </l>
           <l>From hence to France if this be not a lye. </l>
@@ -1439,7 +1440,7 @@
           <l>Is that good manners for to take my tale, </l>
           <l>Out of my mouth, before I make an end. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e109200">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e109200">
           <speaker>Pas. </speaker>
           <l>I haue no manners: had I such an one </l>
           <l>As Amptill is, to which seuen Parkes belong, </l>
@@ -1450,7 +1451,7 @@
           <speaker>Hans. </speaker>
           <p>Why? where is Amptill. </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e109260">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e109260">
           <speaker>Pas. </speaker>
           <l>In the Fayery land. </l>
           <l>Where men eate mutton, pigge, and goose, and beefe, </l>
@@ -1466,7 +1467,7 @@
           <l>Good Pasquill tell me quickely, else I die; </l>
           <l>My mind is rauisht from this lower Orbe, </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e109380">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e109380">
           <speaker>Pas. </speaker>
           <l>Tis not farre of, weele goe to Flutterkins, </l>
           <l>And talke more on't. </l>
@@ -1577,7 +1578,7 @@
           <l>Of Ouids verses, ile not bate an ace </l>
           <l>Before you drinke, I will not stay so long. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e110270">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e110270">
           <speaker>Ser. </speaker>
           <l>You are too hasty, spare me yet a while, </l>
           <l>And then ile fit you. </l>
@@ -1587,7 +1588,7 @@
           <l>Pray thee quicke, dispatch, </l>
           <l>I haue some businesse calls me soone from hence. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e110330">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e110330">
           <speaker>Ser. </speaker>
           <p>Thinke you I cannot, am I such a foole? </p>
         </sp>
@@ -1595,7 +1596,7 @@
           <speaker>Younk. </speaker>
           <p>I know not truly, but I loue to learne, </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e110370">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e110370">
           <speaker>Ser. </speaker>
           <l>Why then giue eare, take heed, &amp; marke me well, </l>
           <pb xml:id="ep000203-018-a"/>
@@ -1615,7 +1616,7 @@
           <l>That same addition, addes life to the rest, </l>
           <l>And wipes poore Priscians head, thats fouly broke: </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e110520">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e110520">
           <speaker>Ser. </speaker>
           <p>Why, ist not right? </p>
         </sp>
@@ -1623,7 +1624,7 @@
           <speaker>Younk. </speaker>
           <p>Yes, there's none can mend it. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e110560">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e110560">
           <speaker>Ser. </speaker>
           <l>And now sir, for our other argument, </l>
           <l>Ile not giue of, before I am satisfied. </l>
@@ -1640,7 +1641,7 @@
           <l>Ile shew my reasons what I thinke are fit. </l>
         </sp>
         <stage xml:id="ep000203-e110660">Enter Pasquill and Hans, and Flutterkin followes them with a Canne of Beere in eyther hand. </stage>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e110670">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e110670">
           <speaker>Pasq. </speaker>
           <p>They are here before vs. </p>
         </sp>
@@ -1659,7 +1660,7 @@
           <l>Shew me but one sixe pence Pasquill, then Ile say, </l>
           <l>Thoul't quickly thriue. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e110780">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e110780">
           <speaker>Pasq. </speaker>
           <l>Why, that I can, see there. </l>
           <l>There's foure, and all vnspent. beleeue your eyes. </l>
@@ -1686,11 +1687,11 @@
           <l>Heeres to that hand; </l>
           <l>That blest you so with crosses of that kind. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e110940">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e110940">
           <speaker>Ser. </speaker>
           <p>It shall be pledgde. </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e110960">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e110960">
           <speaker>Pas. </speaker>
           <p>Hang him sayes nay. </p>
         </sp>
@@ -1732,7 +1733,7 @@
           <l>What can they doe against a stand of Pykes, </l>
           <l>Well linde with shot in such vantageous place. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e111270">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e111270">
           <speaker>Ser. </speaker>
           <l>But what say you vnto that Persian Prince </l>
           <l>That beat the Turke with thirty thousand horse, </l>
@@ -1760,11 +1761,11 @@
           <l>I thanke you sir, you shall not go vnpledgde: </l>
           <l>Here Pasquill, Hans, you two shall haue your shares: </l>
         </sp>
-        <sp who="#ep000203-both" xml:id="ep000203-e111470">
+        <sp who="#ep000203-pasquill #ep000203-hans" xml:id="ep000203-e111470">
           <speaker>Both. </speaker>
           <p>We thanke you both, we mean not to refuse. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e111490">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e111490">
           <speaker>Ser. </speaker>
           <l>Yea, toot and spare not, it will be your owne, </l>
           <l>Good drink breeds blood, &amp; bloud makes able men </l>
@@ -1801,7 +1802,7 @@
           <l>In this I yeelde, the worlds best seruice knowne </l>
           <l>That euer Horsemen did, themselues alone. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e111810">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e111810">
           <speaker>Ser. </speaker>
           <l>Well Younker, haue I catcht you. I am glad </l>
           <l>Of any thing, wherewith to stop your mouth. </l>
@@ -1813,7 +1814,7 @@
           <l>They'l scale the walles, passe trenches, giue assaults, </l>
           <l>Or enter breaches, yes I warrant you. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e111890">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e111890">
           <speaker>Ser. </speaker>
           <l>They scoure the Countrey, bring rich booties in, </l>
           <l>While we lye staruing here, they liue at ease, </l>
@@ -1845,7 +1846,7 @@
           <l>The heart commaunds, the members execute; </l>
           <l>So they to vs, not we to them giue way. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e112120">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e112120">
           <speaker>Ser. </speaker>
           <l>But where they are alone, all absolute: </l>
           <l>What they can doe, against your selfe you proude. </l>
@@ -1885,7 +1886,7 @@
           <l>The halfe beat conquering Turks had all enough, </l>
           <l>Stood still and gazde, and glad to see him gone. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e112440">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e112440">
           <speaker>Ser. </speaker>
           <l>Was not the Seigneur proude, ons victory, </l>
           <pb xml:id="ep000203-020-b"/>
@@ -1902,7 +1903,7 @@
           <l>Ile drinke to you: now am I for the foot, </l>
           <l>Heeres to you all, my noble Fantassines. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e112540">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e112540">
           <speaker>Pasq. </speaker>
           <l>Sir, one health more, your Fathers health, I meane, </l>
           <l>That good olde man, he must not be forgot. </l>
@@ -1911,7 +1912,7 @@
           <speaker>Youn. </speaker>
           <p>Drink't out I pray thee, I will haue no more. </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e112590">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e112590">
           <speaker>Pas. </speaker>
           <l>Were you a Younker, made of beaten golde, </l>
           <l>You should haue this; What nor your Fathers health? </l>
@@ -1923,7 +1924,7 @@
           <l>He wants it, I doe not, heele drinke for me, </l>
           <l>Or to the Serieant, he can get no drinke. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e112670">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e112670">
           <speaker>Pasq. </speaker>
           <l>Nor him, nor he, ile drinke to none but you, </l>
           <l>Ile keepe my man, I learn't that tricke at Schoole. </l>
@@ -1941,7 +1942,7 @@
           <l>Two slashes on the legs will not be felt. </l>
           <l>I am as strong as Hercules neere out. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e112790">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e112790">
           <speaker>Ser. </speaker>
           <l>Why how now Hans? what Planet strucke? quite mute, </l>
           <l>Or Bagge-pype-like, not speake before thou art full, </l>
@@ -1959,7 +1960,7 @@
           <l>Enough my Ladde, wilt drinke an Ocean? </l>
           <l>Me thinks a Whirle-poole cannot ore drinke me. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e112910">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e112910">
           <speaker>Ser. </speaker>
           <l>Yet am I still for horse a Kingly fight. </l>
           <l>Oh finely mounted, what a pleasure tis </l>
@@ -1983,7 +1984,7 @@
           <l>Witnes that battell was at Varna fought, </l>
           <l>A shame to Christians for their breach of truce. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e113100">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e113100">
           <speaker>Ser. </speaker>
           <p>Why? what was that? twixt whom, what was there done? </p>
         </sp>
@@ -1993,7 +1994,7 @@
           <l>Come Ile goe home, Ile stay no longer here. </l>
           <l>This Beere hath pepper, it beginnes to bite. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e113160">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e113160">
           <speaker>Ser. </speaker>
           <l>Yet stay a while, and Ile waite on you home, </l>
           <l>I must needs heare an end of this discourse. </l>
@@ -2033,7 +2034,7 @@
           <l>Here dyes the periurde King, the lucklesse Priest </l>
           <l>Falls in a ditch, and there was choakt with mudde. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e113510">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e113510">
           <speaker>Ser. </speaker>
           <p>Where was the Generall? what did he this while? </p>
         </sp>
@@ -2052,7 +2053,7 @@
           <l>Had that foule Cardinall, choakt in's mothers wombe, </l>
           <l>This shamefull losse had scaped Christendome. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e113640">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e113640">
           <speaker>Ser. </speaker>
           <l>Thats true sir, pray drinke one cup to me, </l>
           <l>Deed I am drye. </l>
@@ -2063,7 +2064,7 @@
           <l>Filt vp, drinkte out, you are an honest man. </l>
           <l>How dost Pasquill, perceiu'st thou nothing yet. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e113710">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e113710">
           <speaker>Pas. </speaker>
           <l>All well sit; nothing: I am pretily well, </l>
           <l>And soes mine hoast, I thinke his braines doe crow. </l>
@@ -2089,7 +2090,7 @@
           <stage xml:id="ep000203-e113900">Cornelius discouers himselfe. His man creepes behind mine Hoast Flutterkin. and slippes out behind him. </stage>
           <l>Why whats the matter there? </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e113920">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e113920">
           <speaker>Ser. </speaker>
           <l>Well Younker well, I will with you dispence, </l>
           <l>Ile yeeld the foot the chiefe preheminence. </l>
@@ -2106,7 +2107,7 @@
           <l>Your house is altered, its growne a Schoole </l>
           <l>Of good discourse; of martiall discipline. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e114030">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e114030">
           <speaker>Ser. </speaker>
           <p>Wilt please you sir to drinke? </p>
         </sp>
@@ -2125,7 +2126,7 @@
           <l>And priuate quarrels, haue deuourde more men </l>
           <l>Then haue the wars of late. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e114170">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e114170">
           <speaker>Ser. </speaker>
           <l>Sir, heeres a Chayre, </l>
           <l>Please you to sit and take Tobaccho with vs. </l>
@@ -2178,7 +2179,7 @@
           <l>You haue been busie, I perceyue the cuppe </l>
           <l>Workes his reuenge, for ioaling it so oft. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e114550">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e114550">
           <speaker>Ser. </speaker>
           <p>A little sir, one ciuill cuppe or two. </p>
         </sp>
@@ -2188,7 +2189,7 @@
           <l>When wine somtimes makes men be not themselus </l>
           <l>How dost thou Pasquill, I am glad thou art well? </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e114610">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e114610">
           <speaker>Pas. </speaker>
           <p>I thanke you sir, I want but Holydayes. </p>
         </sp>
@@ -2196,7 +2197,7 @@
           <speaker>Cor. </speaker>
           <p>What dost thou worke so hard? </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e114650">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e114650">
           <speaker>Pas. </speaker>
           <l>Pay-dayes I meane, </l>
           <l>To make one meet another, and shake hands, </l>
@@ -2206,7 +2207,7 @@
           <speaker>Cor. </speaker>
           <p>Tis well thou leadest a merry life. </p>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e114710">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e114710">
           <speaker>Pasq. </speaker>
           <l>Thanke God. </l>
           <l>My Mistresse, and you sir: you are my friends </l>
@@ -2218,7 +2219,7 @@
           <l>Tis merry harmeles, free without offence: </l>
           <l>But wheres my man, was not he here to day. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e114790">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e114790">
           <speaker>Pas. </speaker>
           <l>He was indeed, but went before you came </l>
           <l>About his businesse. </l>
@@ -2228,7 +2229,7 @@
           <l>Since you might haue sayd; </l>
           <l>I saw him when he slinkte behind mine hoast </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e114850">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e114850">
           <speaker>Pas. </speaker>
           <l>Gods blessing on your hart, what ere you thinke </l>
           <l>You find no fault. </l>
@@ -2273,7 +2274,7 @@
           <l>I will not misse you, if it shall please God </l>
           <l>Nothing shall stay me, nought shall keepe me backe. </l>
         </sp>
-        <sp who="#ep000203-pasquil" xml:id="ep000203-e115210">
+        <sp who="#ep000203-pasquill" xml:id="ep000203-e115210">
           <speaker>Pas. </speaker>
           <p>And Ile come too, and though I goe on foote. </p>
         </sp>
@@ -2483,7 +2484,7 @@
         </sp>
         <stage xml:id="ep000203-e116940">Sing another Song, and goe out. </stage>
         <stage xml:id="ep000203-e116950">Enter the Younker, the Marchant and the Serieant. </stage>
-        <sp who="#ep000203-servant" xml:id="ep000203-e116960">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e116960">
           <speaker>Ser. </speaker>
           <l>I thank you both, for you haue made me fine; </l>
           <l>These gloues and gartars they were quickly won: </l>
@@ -2496,7 +2497,7 @@
           <l>He hath drild vs both, &amp; mocks vs to our teeth </l>
           <l>What shall we do with him? weel 'canuase him. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117050">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117050">
           <speaker>Ser. </speaker>
           <p>I am too bigge. </p>
         </sp>
@@ -2505,7 +2506,7 @@
           <l>Wee'l fling him in the graffe, </l>
           <l>T'wil coole him sweetly; oh t'will doe him good. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117100">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117100">
           <speaker>Ser. </speaker>
           <l>Were I an Anabaptist, you might doo't, </l>
           <l>And witnes for me that I were baptizde; </l>
@@ -2518,7 +2519,7 @@
           <l>O monstrous, fie, thy mouth is fouly torne, </l>
           <l>Art not asham'd? </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117180">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117180">
           <speaker>Ser. </speaker>
           <l>As well I sweare, </l>
           <l>As the first smocke that ere my Father weare. </l>
@@ -2527,7 +2528,7 @@
           <speaker>Gar. </speaker>
           <p>Let him alone &amp; hee'l maintain't with oths. </p>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117230">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117230">
           <speaker>Ser. </speaker>
           <l>See, see how you are deceiu'd, you thought I lyde, </l>
           <l>There's no such matter, altered is the case, </l>
@@ -2539,7 +2540,7 @@
           <l>I had enough of late, I payde too deare </l>
           <l>For your conceites, Ile haue no more of them. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117310">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117310">
           <speaker>Ser. </speaker>
           <l>As often as you will, you know the price; </l>
           <l>And for my skill I passe not, am not nice. </l>
@@ -2552,7 +2553,7 @@
           <l>I maruell much where's Master Flutterkin? </l>
           <l>He stayes so long I thinke he hath forgot himselfe. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117400">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117400">
           <speaker>Ser. </speaker>
           <l>O here he is, his guts they are so stuft, </l>
           <l>With his fat liquor he can scarcely runne. </l>
@@ -2578,7 +2579,7 @@
           <l>That doth but dade, can hardly goe or stand. </l>
           <l>Wheres Pasquill is he gone? </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117560">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117560">
           <speaker>Ser. </speaker>
           <l>Hee's there by this? </l>
           <l>I saw him at the Ports, that Gentleman </l>
@@ -2622,7 +2623,7 @@
           <l>Come Serieant; put the better legge before; </l>
           <l>You shall speake first, if well, Ile second you. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e117870">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e117870">
           <speaker>Ser. </speaker>
           <l>Thanks good mine Host, your wit would help me much </l>
           <l>For good conceites your wholesome guts haue hatcht, </l>
@@ -2641,7 +2642,7 @@
           <l>I bid you welcome to my Country farme; </l>
           <l>Take that for all, Ile vse no ceremonie. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e118000">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e118000">
           <speaker>Ser. </speaker>
           <l>Ile warrant you sir, we did not meane to fayle, </l>
           <l>To stay at home, and misse so good a feast, </l>
@@ -2662,7 +2663,7 @@
           <l>Leane iades cast off, lye staruing in a ditch; </l>
           <l>When plumper steeds are steemde among the rich. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e118160">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e118160">
           <speaker>Ser. </speaker>
           <l>Are you so nigh, I thought you had been lost: </l>
           <l>By your leaue sir; Ile welcome here mine Hoast. </l>
@@ -2675,7 +2676,7 @@
           <l>To make thee higher on preferments steppe; </l>
           <l>Stand not on thornes: aduenture, draw a carde. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e118250">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e118250">
           <speaker>Ser. </speaker>
           <l>So may I draw, and draw my selfe quite out: </l>
           <l>And striuing to get more, loose that I haue. </l>
@@ -2800,7 +2801,7 @@
           <l>Some liuing yet, some foulded vp in lead, </l>
           <l>That dyde in honours lappe; sleepe in her bed. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e119330">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e119330">
           <speaker>Ser. </speaker>
           <l>Then was a time that souldiers were esteemd, </l>
           <l>And if they liude they had preferment sure, </l>
@@ -2857,7 +2858,7 @@
           <l>And after all, now leade a Country life, </l>
           <l>Amongst your neighbours with a vertuous wife. </l>
         </sp>
-        <sp who="#ep000203-servant" xml:id="ep000203-e119830">
+        <sp who="#ep000203-goodfellow" xml:id="ep000203-e119830">
           <speaker>Ser. </speaker>
           <l>Why thats a comfort, farre beyond compare. </l>
           <l>This happy life cannot be paragonde, </l>
