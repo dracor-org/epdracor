@@ -334,11 +334,9 @@
           <!-- FIXME? -->
           <xsl:apply-templates select="//tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/*"/>
         </availability>
-        <bibl type="originalSource">
-          <!-- FIXME? -->
-          <xsl:apply-templates select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull"/>
-        </bibl>
       </bibl>
+      <!-- FIXME: originalSource? -->
+      <xsl:apply-templates select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull"/>
     </sourceDesc>
   </xsl:template>
 
