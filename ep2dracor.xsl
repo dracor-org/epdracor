@@ -178,16 +178,22 @@
       <xsl:call-template name="revisionDesc"/>
     </teiHeader>
     <standOff>
-      <xsl:if test="//tei:xenoData/ep:epHeader/ep:creationYear">
+      <xsl:if test="//tei:xenoData/ep:epHeader/(ep:creationYear|ep:publicationYear)[string-length() > 0]">
         <!--
           FIXME: is ep:creationYear reliably the year of writing and can we use
           //tei:biblFull[@n='printed source']/tei:publicationStmt/tei:date[@type='publication_date']
           as print year?
         -->
         <listEvent>
-          <xsl:if test="//tei:xenoData/ep:epHeader/ep:creationYear">
+          <xsl:if test="//tei:xenoData/ep:epHeader/ep:creationYear[string-length() > 0]">
             <event type="written">
               <xsl:attribute name="when" select="//tei:xenoData/ep:epHeader/ep:creationYear"/>
+              <desc/>
+            </event>
+          </xsl:if>
+          <xsl:if test="//tei:xenoData/ep:epHeader/ep:publicationYear[string-length() > 0]">
+            <event type="print">
+              <xsl:attribute name="when" select="//tei:xenoData/ep:epHeader/ep:publicationYear"/>
               <desc/>
             </event>
           </xsl:if>
