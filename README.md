@@ -12,9 +12,9 @@ The following modifications to the original documents have been made:
 - markup for words (`<tei:w>`) and punctuation (`<tei:pc>`) has been removed
 - Wikidata IDs for plays have been added (see [inde.xml](index.xml))
 - Wikidata IDs for authors have been added (see [authors.xml](authors.xml))
-- speakers have been identified and a list of characters is being added (see
-  JSON files in [meta/speakers](meta/speakers/))
-- ...
+- speakers have been identified for selected plays and a list of characters is
+  being added (see JSON files in [meta/speakers](meta/speakers/))
+- IDs and ID references reused in the DraCor documents have been sanitized
 
 ## Updating the corpus
 

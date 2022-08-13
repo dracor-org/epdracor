@@ -44,7 +44,12 @@
 
   <xsl:function name="d:re-prefix">
     <xsl:param name="id"/>
-    <xsl:sequence select="$meta/@id || '-' || d:de-prefix($id)" />
+    <xsl:sequence select="$meta/@id || '-' || d:fix-id(d:de-prefix($id))" />
+  </xsl:function>
+
+  <xsl:function name="d:fix-id">
+    <xsl:param name="id"/>
+    <xsl:sequence select="replace($id, '[^-.\w]', '_')" />
   </xsl:function>
 
   <xsl:function name="d:id-to-name">
