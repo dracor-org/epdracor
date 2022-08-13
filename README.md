@@ -1,11 +1,11 @@
 # EPDraCor
 
-EarlyPrint Drama Corpus
+__Note:__ *This corpus is still in __beta__ status.*
 
-The TEI documents in this repository have been generated from a selection of
-of dramatic works out of the EarlyPrint.org collection. This selection is
-being maintained in the
-[epdracor-sources repository](http://github.com/dracor-org/epdracor-sources).
+The EarlyPrint Drama Corpus (EPDraCor) provides TEI documents which have been
+generated from a selection of dramatic works out of the EarlyPrint.org
+collection. This selection is being maintained in the
+[epdracor-sources](http://github.com/dracor-org/epdracor-sources) repository.
 
 The following modifications to the original documents have been made:
 
