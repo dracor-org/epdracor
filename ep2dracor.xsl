@@ -20,7 +20,7 @@
 
   <xsl:variable
     name="tcpid"
-    select="replace(tokenize(document-uri(.), '/')[last()], '.xml', '')"/>
+    select="replace(tokenize(base-uri(.), '/')[last()], '.xml', '')"/>
   <xsl:variable name="meta" select="$index//item[@sourceid eq $tcpid]"/>
 
   <xsl:variable name="tcpid-base">
