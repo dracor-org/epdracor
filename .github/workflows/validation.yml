@@ -1,0 +1,19 @@
+name: Validate TEI documents
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "**.xml"
+
+jobs:
+  validate_tei:
+    runs-on: ubuntu-latest
+    name: Validate TEI documents against TEI_all schema
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Validate
+        uses: dracor-org/tei-validate-action@305bb135ed7cbb150b4731cf0c36691b1c3bb625
+        with:
+          tei-directory: 'tei'
