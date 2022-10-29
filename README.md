@@ -10,7 +10,7 @@ collection. This selection is being maintained in the
 The following modifications to the original documents have been made:
 
 - markup for words (`<tei:w>`) and punctuation (`<tei:pc>`) has been removed
-- Wikidata IDs for plays have been added (see [inde.xml](index.xml))
+- Wikidata IDs for plays have been added (see [index.xml](index.xml))
 - Wikidata IDs for authors have been added (see [authors.xml](authors.xml))
 - speakers have been identified for selected plays and a list of characters is
   being added (see JSON files in [meta/speakers](meta/speakers/))
@@ -40,6 +40,15 @@ You can also update individual files, for instance:
 ```sh
 ./ep2dracor ../epdracor-sources/xml/A17872.xml
 ```
+
+### Adding new plays to the repo
+
+1. add original documents to the `epdracor-sources` repo, see
+  https://github.com/dracor-org/epdracor-sources#how-to-add-or-remove-plays
+2. add entries in [index.xml](index.xml) providing a unique DraCor ID, a slug
+  and if available a Wikidata ID
+3. run the [XSLT transformation](#xslt-transformation), e.g.
+  `./ep2dracor ../epdracor-sources/xml/*.xml`
 
 ## Tooling
 
