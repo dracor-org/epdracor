@@ -172,8 +172,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <!-- FIXME: main/sub? -->
-          <xsl:apply-templates select="tei:fileDesc/tei:titleStmt/tei:title"/>
+          <xsl:call-template name="titles"/>
           <xsl:call-template name="authors"/>
         </titleStmt>
         <xsl:call-template name="publicationStmt"/>
@@ -263,6 +262,32 @@
 
   <!-- strip textual notes -->
   <xsl:template match="tei:div[@type='textual_notes']" />
+
+  <xsl:template name="titles">
+    <xsl:variable name="ep-title" select="//tei:xenoData/ep:epHeader/ep:title[1]"/>
+    <xsl:choose>
+      <xsl:when test="$meta/@title">
+        <title type="main">
+          <xsl:value-of select="$meta/@title"/>
+        </title>
+      </xsl:when>
+      <xsl:when test="$ep-title">
+        <title type="main">
+          <xsl:value-of select="normalize-space($ep-title)"/>
+        </title>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates select="//tei:fileDesc/tei:titleStmt/tei:title"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:choose>
+      <xsl:when test="$meta/@subtitle">
+        <title type="sub">
+          <xsl:value-of select="$meta/@subtitle"/>
+        </title>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
 
   <xsl:template name="authors">
     <xsl:variable
