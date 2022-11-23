@@ -85,21 +85,30 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000359-philotas" sex="MALE">
-            <persName>Philotas</persName>
+          <person xml:id="ep000359-persian" sex="MALE">
+            <persName>Persian</persName>
+          </person>
+          <person xml:id="ep000359-belon" sex="MALE">
+            <persName>Belon</persName>
           </person>
           <person xml:id="ep000359-chalisthenes" sex="MALE">
             <persName>Chalisthenes</persName>
           </person>
+          <person xml:id="ep000359-philotas" sex="MALE">
+            <persName>Philotas</persName>
+          </person>
           <person xml:id="ep000359-cebalinus" sex="MALE">
             <persName>Cebalinus</persName>
-          </person>
-          <person xml:id="ep000359-antigona" sex="FEMALE">
-            <persName>Antigona</persName>
           </person>
           <person xml:id="ep000359-thais" sex="FEMALE">
             <persName>Thais</persName>
           </person>
+          <person xml:id="ep000359-antigone" sex="FEMALE">
+            <persName>Antigone</persName>
+          </person>
+          <personGrp xml:id="ep000359-chorus" sex="UNKNOWN">
+            <name>Chorus</name>
+          </personGrp>
           <person xml:id="ep000359-alexander" sex="MALE">
             <persName>Alexander</persName>
           </person>
@@ -109,8 +118,8 @@
           <person xml:id="ep000359-craterus" sex="MALE">
             <persName>Craterus</persName>
           </person>
-          <person xml:id="ep000359-servant" sex="MALE">
-            <persName>Servant</persName>
+          <person xml:id="ep000359-servius" sex="MALE">
+            <persName>Servius</persName>
           </person>
           <person xml:id="ep000359-metron" sex="MALE">
             <persName>Metron</persName>
@@ -118,8 +127,8 @@
           <person xml:id="ep000359-guard" sex="MALE">
             <persName>Guard</persName>
           </person>
-          <person xml:id="ep000359-perdicas" sex="MALE">
-            <persName>Perdicas</persName>
+          <person xml:id="ep000359-perdiccas" sex="MALE">
+            <persName>Perdiccas</persName>
           </person>
           <person xml:id="ep000359-clitus" sex="MALE">
             <persName>Clitus</persName>
@@ -139,15 +148,9 @@
           <person xml:id="ep000359-caenus" sex="MALE">
             <persName>Caenus</persName>
           </person>
-          <person xml:id="ep000359-belon" sex="MALE">
-            <persName>Belon</persName>
-          </person>
           <personGrp xml:id="ep000359-greeks" sex="MALE">
-            <name>Three Greeks</name>
+            <name>Greeks</name>
           </personGrp>
-          <person xml:id="ep000359-persian" sex="MALE">
-            <persName>A Persian</persName>
-          </person>
           <person xml:id="ep000359-polidamas" sex="MALE">
             <persName>Polidamas</persName>
           </person>
@@ -160,11 +163,6 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2022-07-04">(Luca Giovannini) Fixed speaker tags and particDesc. Reasons for splitting "chorus" in "greeks" + "persian" at https://cord.ung.edu/daniphil.html</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -356,7 +354,7 @@
         <div n="1" type="act" xml:id="ep000359-e101510">
           <head>ACTVS I. </head>
           <div type="scene" xml:id="ep000359-e101520">
-            <sp who="#ep000359-philotas" xml:id="ep000359-e101530">
+            <sp xml:id="ep000359-e101530">
               <stage xml:id="ep000359-e101540">Philotas. Chalisthenes. </stage>
               <stage xml:id="ep000359-e101550">Philotas reading his Fathers letter. </stage>
               <lg>
@@ -744,7 +742,7 @@
           </div>
           <div n="2" type="scene" xml:id="ep000359-e104600">
             <head>SCENA SECVNDA. </head>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e104610">
+            <sp xml:id="ep000359-e104610">
               <stage xml:id="ep000359-e104620">Antigona and Thais. </stage>
               <l>WHat can a free estate afford me more </l>
               <l>Then my incaptiu'd fortune doth allow? </l>
@@ -755,7 +753,7 @@
               <speaker>Tha. </speaker>
               <l>Yea, but before thou wert a kings delight. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e104690">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e104690">
               <speaker>Ant. </speaker>
               <l>I might be his although he was not mine. </l>
             </sp>
@@ -763,7 +761,7 @@
               <speaker>Tha. </speaker>
               <l>His greatnes made thee greater in mens sight. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e104730">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e104730">
               <speaker>Ant. </speaker>
               <l>More great perhapps without, but not within: </l>
               <l>My loue was then aboue mee, I am now </l>
@@ -777,7 +775,7 @@
               <l>Alas poore soule, she neuer came to know </l>
               <l>Her liberty, nor louers periuries. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e104830">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e104830">
               <speaker>Ant. </speaker>
               <l>Stand I not better with a meaner loue, </l>
               <pb xml:id="ep000359-077-b"/>
@@ -793,14 +791,14 @@
               <l>That vnto mee poore captiue should befall </l>
               <l>So great a grace in such a worthies eyes. </l>
             </sp>
-            <sp who="#ep000359-thais" xml:id="ep000359-e104960">
+            <sp who="#ep000359-thais #ep000359-antigone" xml:id="ep000359-e104960">
               <speaker>Tha, Antigona, </speaker>
               <l>I enuie not thy loue, </l>
               <l>But thinks thee blest t'inioy him in that sort. </l>
               <l>But tell me truly didst thou euer proue </l>
               <l>Whether he lou'd in earnest or in sporte </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e105010">
+            <sp who="#ep000359-antigone #ep000359-thais" xml:id="ep000359-e105010">
               <speaker>Ant. Thais; </speaker>
               <l>let m'a little glory in my grace, </l>
               <l>Out of the passion of the ioy I feele </l>
@@ -912,7 +910,7 @@
               <l>To haue th'aduantage that may here be had. </l>
             </sp>
             <pb xml:id="ep000359-079-b"/>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e106050">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e106050">
               <speaker>CHORVS. </speaker>
               <l>WE as the Chorus of the vulgar stand </l>
               <l>Spectators here, to see these great men play </l>
@@ -1156,7 +1154,7 @@
               <l>As are the eyes and eares of princes, should, </l>
               <l>Not weigh so light such an intelligence </l>
             </sp>
-            <sp who="#ep000359-servant" xml:id="ep000359-e108200">
+            <sp who="#ep000359-servius" xml:id="ep000359-e108200">
               <speaker>Ser. </speaker>
               <l>My lord the summe you willed me to giue, </l>
               <l>The captaine that did visit you to day: </l>
@@ -1211,7 +1209,7 @@
           <div n="3" type="scene" xml:id="ep000359-e108650">
             <pb xml:id="ep000359-084-a"/>
             <head>SCENA 3. </head>
-            <sp who="#ep000359-craterus" xml:id="ep000359-e108660">
+            <sp xml:id="ep000359-e108660">
               <stage xml:id="ep000359-e108670">Craterus. Antigona. </stage>
               <lg>
                 <l>ANtigona, there is no remedie, </l>
@@ -1246,7 +1244,7 @@
                 <l>Thy minde at full, at my returning back. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e108930">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e108930">
               <speaker>Ant. </speaker>
               <lg>
                 <l>What shall I doo, shall I betray my loue, </l>
@@ -1299,7 +1297,7 @@
               <speaker>Crat. </speaker>
               <l>Antigona what are you yet resolud. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e109390">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e109390">
               <speaker>Ant. </speaker>
               <l>Resolu'd my Lord t'indure all misery. </l>
             </sp>
@@ -1316,7 +1314,7 @@
               <speaker>Crat. </speaker>
               <l>Then come go with me to Alexander. </l>
             </sp>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e109480">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e109480">
               <speaker>CHORVS. </speaker>
               <lg>
                 <l>HOw dost thou weare, and weary out thy dayes, </l>
@@ -1368,7 +1366,7 @@
           <pb xml:id="ep000359-086-a"/>
           <head>ACTVS TERTIVS. </head>
           <div type="scene" xml:id="ep000359-e109910">
-            <sp who="#ep000359-alexander" xml:id="ep000359-e109920">
+            <sp xml:id="ep000359-e109920">
               <stage xml:id="ep000359-e109930">Alex. Metron. Ceballinus. Craterus Perdiccas, Ephest, </stage>
               <lg>
                 <l>COme, Metron say of whom hast thou receiued, </l>
@@ -1643,7 +1641,7 @@
                 <l>May be restord to all but not to grace. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-perdicas" xml:id="ep000359-e112090">
+            <sp who="#ep000359-perdiccas" xml:id="ep000359-e112090">
               <speaker>Perd. </speaker>
               <lg>
                 <l>And for my part my liege I hold this minde </l>
@@ -1690,7 +1688,7 @@
           </div>
           <div n="2" type="scene" xml:id="ep000359-e112430">
             <head>SCENA 2. </head>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e112440">
+            <sp xml:id="ep000359-e112440">
               <stage xml:id="ep000359-e112450">Antigona. Thais. </stage>
               <l>O Y'are a secret councell-keeper Thais, </l>
               <l>In troth I little thought you such a one: </l>
@@ -1699,7 +1697,7 @@
               <speaker>Tha. </speaker>
               <l>And why Antigona what have I done. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e112500">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e112500">
               <speaker>Ant. </speaker>
               <l>You know ful well your conscience you bewraies, </l>
             </sp>
@@ -1736,7 +1734,7 @@
                 <l>That they can manage, be they good or ill. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e112800">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e112800">
               <speaker>Ant. </speaker>
               <lg>
                 <l>I cannot tell; but you haue made mee doo, </l>
@@ -1755,7 +1753,7 @@
               <l>What is that all? perhapps I haue thereby </l>
               <l>Done thee more good then thou canst apprehend. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e112940">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e112940">
               <speaker>Ant. </speaker>
               <l>Such good I rather you should get then I. </l>
               <l>If that can be a good t'accuse my friend. </l>
@@ -1765,7 +1763,7 @@
               <l>Alas thy accusation did but quote </l>
               <l>The mergin of some text of greater note. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113000">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113000">
               <speaker>Ant. </speaker>
               <l>But that is more then thou or I can tell. </l>
             </sp>
@@ -1792,7 +1790,7 @@
                 <l>And fortunes of their loves with equall grace </l>
               </lg>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113210">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113210">
               <speaker>Ant. </speaker>
               <l>Loue's out alas, loue such a one as hee, </l>
               <l>That seekes t'vndoo my loue, and in him me. </l>
@@ -1802,7 +1800,7 @@
               <l>Tush loue his fortunes, loue his state, his place, </l>
               <l>What euer greatnesse doth it must haue grace. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113270">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113270">
               <speaker>Ant. </speaker>
               <l>I weigh not greatnesse I must please mine eye. </l>
             </sp>
@@ -1810,7 +1808,7 @@
               <speaker>Th. </speaker>
               <l>Th'eye nothing fairer sees then dignity. </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113310">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113310">
               <speaker>Ant. </speaker>
               <l>But what is dignity without our loue? </l>
             </sp>
@@ -1818,7 +1816,7 @@
               <speaker>Th. </speaker>
               <l>If we haue that we cannot want our loue, </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113350">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113350">
               <speaker>Ant. </speaker>
               <l>Why that giues but the outside of delight: </l>
               <l>The day-time ioy, what comfort hath the night? </l>
@@ -1827,7 +1825,7 @@
               <speaker>Th. </speaker>
               <l>If powre procure not that, what can it doo? </l>
             </sp>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113400">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113400">
               <speaker>Ant. </speaker>
               <l>I know not how that can b'attaind vnto. </l>
             </sp>
@@ -1837,7 +1835,7 @@
               <l>Tis vaine I see to learne an Asian wit. </l>
             </sp>
             <stage xml:id="ep000359-e113450">Exit. </stage>
-            <sp who="#ep000359-antigona" xml:id="ep000359-e113460">
+            <sp who="#ep000359-antigone" xml:id="ep000359-e113460">
               <speaker>Ant. </speaker>
               <lg>
                 <l>If this be that great wit that learned skill, </l>
@@ -1850,7 +1848,7 @@
           </div>
           <div n="3" type="scene" xml:id="ep000359-e113520">
             <head>SCENA 3. </head>
-            <sp who="#ep000359-craterus" xml:id="ep000359-e113530">
+            <sp xml:id="ep000359-e113530">
               <stage xml:id="ep000359-e113540">Craterus. Ephestion. Clitus. &amp;c. </stage>
               <lg>
                 <l>MY Lords, you see the flexible conceipt, </l>
@@ -1978,7 +1976,7 @@
               </lg>
               <stage xml:id="ep000359-e114440">Exeunt </stage>
             </sp>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e114450">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e114450">
               <speaker>CHORVS. </speaker>
               <lg>
                 <l>SEE how these greatmen cloth their priuate hate, </l>
@@ -2169,7 +2167,7 @@
           </div>
           <div n="2" type="scene" xml:id="ep000359-e115940">
             <head>SCENA 2. </head>
-            <sp who="#ep000359-alexander" xml:id="ep000359-e115950">
+            <sp xml:id="ep000359-e115950">
               <stage xml:id="ep000359-e115960">Alexander with al his councel, the dead body of Dymnus. the reuealers of the conspiracie, Philotas. </stage>
               <lg>
                 <l>THe haynous treason of some few had like, </l>
@@ -2737,7 +2735,7 @@
                 <l>But if pursude they will be thought not vaine. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-craterus" xml:id="ep000359-e120450">
+            <sp xml:id="ep000359-e120450">
               <speaker>Cra. </speaker>
               <lg>
                 <l>But wordes according to the person way, </l>
@@ -3126,7 +3124,7 @@
           <div n="2" type="scene" xml:id="ep000359-e123500">
             <pb xml:id="ep000359-105-b"/>
             <head>SCENA 2. </head>
-            <sp who="#ep000359-polidamas" xml:id="ep000359-e123510">
+            <sp xml:id="ep000359-e123510">
               <stage xml:id="ep000359-e123520">Polidamas, Sostratus. </stage>
               <lg>
                 <l>FRriend Sostratus, come haue you euer knowne </l>
@@ -3238,7 +3236,7 @@
                 <l>We others ruynes worke, and others ours. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e124460">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e124460">
               <speaker>Cho. P. </speaker>
               <lg>
                 <l>Why this is right now Alexander takes </l>
@@ -3263,7 +3261,7 @@
                 <l>Philotas ended hath the tragedy. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e124610">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e124610">
               <speaker>Cho. </speaker>
               <lg>
                 <l>Now good my friend I pray thee tell vs how. </l>
@@ -3299,7 +3297,7 @@
                 <l>They staid to torture the kings enemy. </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e124900">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e124900">
               <speaker>Cho. </speaker>
               <lg>
                 <l>That part was acted well, God grant we heare </l>
@@ -3449,7 +3447,7 @@
                 </l>
               </lg>
             </sp>
-            <sp who="#ep000359-greeks #ep000359-persian" xml:id="ep000359-e126140">
+            <sp who="#ep000359-chorus" xml:id="ep000359-e126140">
               <speaker>Cho. </speaker>
               <lg>
                 <l>O would we had not heard this latter iarre, </l>
