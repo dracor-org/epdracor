@@ -59,7 +59,72 @@
         </biblFull>
       </sourceDesc>
     </fileDesc>
-    <profileDesc/>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ep000572-guard" sex="MALE">
+            <persName>Guard</persName>
+          </person>
+          <person xml:id="ep000572-angel" sex="UNKNOWN">
+            <persName>Angel</persName>
+          </person>
+          <person xml:id="ep000572-soldier-iv" sex="MALE">
+            <persName>Soldier IV</persName>
+          </person>
+          <person xml:id="ep000572-soldier-iii" sex="MALE">
+            <persName>Soldier III</persName>
+          </person>
+          <person xml:id="ep000572-soldier-ii" sex="MALE">
+            <persName>Soldier II</persName>
+          </person>
+          <person xml:id="ep000572-soldier-i" sex="MALE">
+            <persName>Soldier I</persName>
+          </person>
+          <person xml:id="ep000572-priest" sex="MALE">
+            <persName>Priest</persName>
+          </person>
+          <person xml:id="ep000572-messenger" sex="MALE">
+            <persName>Messenger</persName>
+          </person>
+          <person xml:id="ep000572-chancellor" sex="MALE">
+            <persName>Chancellor</persName>
+          </person>
+          <person xml:id="ep000572-master-of-ceremonies" sex="MALE">
+            <persName>Master of Ceremonies</persName>
+          </person>
+          <person xml:id="ep000572-tamerlane" sex="MALE">
+            <persName>Tamerlane</persName>
+          </person>
+          <person xml:id="ep000572-bajazet" sex="MALE">
+            <persName>Bajazet</persName>
+          </person>
+          <person xml:id="ep000572-axalla" sex="MALE">
+            <persName>Axalla</persName>
+          </person>
+          <person xml:id="ep000572-ragalzan" sex="MALE">
+            <persName>Ragalzan</persName>
+          </person>
+          <person xml:id="ep000572-zeylan" sex="MALE">
+            <persName>Zeylan</persName>
+          </person>
+          <person xml:id="ep000572-irene" sex="FEMALE">
+            <persName>Irene</persName>
+          </person>
+          <person xml:id="ep000572-despina" sex="FEMALE">
+            <persName>Despina</persName>
+          </person>
+          <person xml:id="ep000572-philarmia" sex="FEMALE">
+            <persName>Philarmia</persName>
+          </person>
+          <person xml:id="ep000572-astrologer" sex="MALE">
+            <persName>Astrologer</persName>
+          </person>
+          <personGrp xml:id="ep000572-captains" sex="MALE">
+            <name>Captains</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -330,7 +395,7 @@
           <head>ACT I. SCENE I. </head>
           <stage xml:id="ep000572-e2880">A Pavilion, with the prospect of a besieg'd Fort. </stage>
           <stage xml:id="ep000572-e2900">Enter Tamerlane, Ragalzan, Axalla. </stage>
-          <sp xml:id="ep000572-e2920">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e2920">
             <speaker>Tam. </speaker>
             <l>HAS <hi>Europe, Asia, Afric </hi>felt the Charms </l>
             <l>Of my Victorious, but Indulgent Arms, </l>
@@ -340,11 +405,11 @@
             <l>By me, from Heav'n, to be his Ornament, </l>
             <l>Which his great King puts on, and wears with pride? </l>
           </sp>
-          <sp xml:id="ep000572-e3030">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e3030">
             <speaker>Rag. </speaker>
             <p>At unknown Virtues Salvages are frighted. </p>
           </sp>
-          <sp xml:id="ep000572-e3060">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e3060">
             <speaker>Tam. </speaker>
             <l>The Conquerors of <hi>Persia, Macedon</hi>, </l>
             <l>The Lords of Caesars reverence my Throne; </l>
@@ -355,26 +420,26 @@
             <l>But, like a froward Child, at Meals too great, </l>
             <l>He cry'd for want of Stomach, not of Meat. </l>
           </sp>
-          <sp xml:id="ep000572-e3200">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e3200">
             <speaker>Rag. </speaker>
             <l>Sir, from Iapan, to the Atlantic Main, </l>
             <l>The World lies fetter'd in your glorious Chain: </l>
             <l>Whose Life and Influence in the Heav'ns is felt, </l>
             <l>As upon Earth the spangled Milky Belt. </l>
           </sp>
-          <sp xml:id="ep000572-e3280">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e3280">
             <speaker>Tam. </speaker>
             <l>Soft, good Ragalzan; we are mortal too: </l>
             <l>Heav'n cuts out work, which I alone can do. </l>
           </sp>
-          <sp xml:id="ep000572-e3330">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e3330">
             <pb n="2" xml:id="ep000572-010-a"/>
             <speaker>Axal. </speaker>
             <l>I'm glad the Emperor swallows not the Pill: </l>
             <l>Who offers too much Good, contrives some Ill. </l>
           </sp>
           <stage xml:id="ep000572-e3370">[aside. </stage>
-          <sp xml:id="ep000572-e3380">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e3380">
             <speaker>Tam. </speaker>
             <l>Had Caesar liv'd, I had taught that Rebel Peace; </l>
             <l>And lash'd the stragling Demy-God to Greece, </l>
@@ -384,11 +449,11 @@
             <l>To chain Vile Monarchs, and Crown worthy Slaves, </l>
             <l>Is my great Task on the reversed Earth. </l>
           </sp>
-          <sp xml:id="ep000572-e3490">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e3490">
             <speaker>Axal. </speaker>
             <l>Thanks to your Great, but Heav'n-befriended Birth. </l>
           </sp>
-          <sp xml:id="ep000572-e3520">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e3520">
             <speaker>Tam. </speaker>
             <l>Right, brave Axalla. Think not that I swell, </l>
             <l>Or have out-grown the Robes Heav'n dress'd me in: </l>
@@ -396,96 +461,96 @@
             <l>It is not mine, but my Inspirer's praise. </l>
           </sp>
           <stage xml:id="ep000572-e3590">Enter a Chancellor with a Seal, takes his Seat; then a Master of Ceremonies, ushering in Ambassadors with Presents. </stage>
-          <sp xml:id="ep000572-e3600">
+          <sp who="#ep000572-master-of-ceremonies" xml:id="ep000572-e3600">
             <speaker>Mr. Cer. </speaker>
             <l>The Grecian Emperor kisses your Foot-stool. </l>
           </sp>
-          <sp xml:id="ep000572-e3640">
+          <sp who="#ep000572-chancellor" xml:id="ep000572-e3640">
             <speaker>Chan. </speaker>
             <l>The mighty Tamerlane accepts his Offering. </l>
           </sp>
-          <sp xml:id="ep000572-e3680">
+          <sp who="#ep000572-master-of-ceremonies" xml:id="ep000572-e3680">
             <speaker>Mr. Cer. </speaker>
             <l>The Persian Emperor, &amp;c. </l>
           </sp>
-          <sp xml:id="ep000572-e3730">
+          <sp who="#ep000572-chancellor" xml:id="ep000572-e3730">
             <speaker>Chan. </speaker>
             <l>The mighty, &amp;c. </l>
           </sp>
-          <sp xml:id="ep000572-e3770">
+          <sp who="#ep000572-master-of-ceremonies" xml:id="ep000572-e3770">
             <speaker>Mr. Cer. </speaker>
             <l>The Emperor of China, &amp;c. </l>
           </sp>
-          <sp xml:id="ep000572-e3810">
+          <sp who="#ep000572-chancellor" xml:id="ep000572-e3810">
             <speaker>Chan. </speaker>
             <l>The mighty, &amp;c. </l>
           </sp>
-          <sp xml:id="ep000572-e3850">
+          <sp who="#ep000572-master-of-ceremonies" xml:id="ep000572-e3850">
             <speaker>Mr. Cer. </speaker>
             <l>The Russian Emperor, &amp;c. </l>
           </sp>
-          <sp xml:id="ep000572-e3900">
+          <sp who="#ep000572-chancellor" xml:id="ep000572-e3900">
             <speaker>Chan. </speaker>
             <l>The mighty, &amp;c. </l>
           </sp>
-          <sp xml:id="ep000572-e3940">
+          <sp who="#ep000572-master-of-ceremonies" xml:id="ep000572-e3940">
             <speaker>Mr. Cer. </speaker>
             <l>Two and twenty African Kings beg admission. </l>
           </sp>
-          <sp xml:id="ep000572-e3980">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e3980">
             <speaker>Tam. </speaker>
             <l>Let the Kings wait till the Afternoon. </l>
             <l>Where's the Memorial? Read it on, Axalla. </l>
           </sp>
-          <sp xml:id="ep000572-e4030">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4030">
             <speaker>Ax. </speaker>
             <l>Daramnes, Tigranel, and Crantor. </l>
           </sp>
-          <sp xml:id="ep000572-e4070">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4070">
             <speaker>Tam. </speaker>
             <p>My Fathers old Captains: Let them have considerable Pensions, besides Pay; and the first Commands that fall. </p>
           </sp>
-          <sp xml:id="ep000572-e4100">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4100">
             <speaker>Ax. </speaker>
             <p>Isfendlar, Tachretin, and Germean Ogli. </p>
           </sp>
-          <sp xml:id="ep000572-e4140">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4140">
             <speaker>Tam. </speaker>
             <p>Rich Noblemen: Let them be imploy'd in places of Honour and Magnificence, they may support themselves. </p>
           </sp>
-          <sp xml:id="ep000572-e4170">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4170">
             <speaker>Ax. </speaker>
             <p>Haly Mordecai. </p>
           </sp>
-          <sp xml:id="ep000572-e4200">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4200">
             <speaker>Tam. </speaker>
             <p>Ha! A man that opposes me; not for the publick good, but to be taken off by preferment: let him be advanc'd to the Gallows. </p>
           </sp>
-          <sp xml:id="ep000572-e4230">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4230">
             <pb n="3" xml:id="ep000572-010-b"/>
             <speaker>Ax. </speaker>
             <p>Burranes and Garrulan. </p>
           </sp>
-          <sp xml:id="ep000572-e4270">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4270">
             <speaker>Tam. </speaker>
             <p>Men of more Sail then Ballast; Impudent, shallow Intruders: Let 'em be banish'd the Court. Princes, for the most part, keep the worst Company. </p>
           </sp>
-          <sp xml:id="ep000572-e4300">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4300">
             <speaker>Ax. </speaker>
             <l>Close waiting argues no sufficiency; but rather still, </l>
             <l>For want of other merits, they pay you with </l>
             <l>Offensive diligence. </l>
           </sp>
-          <sp xml:id="ep000572-e4350">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4350">
             <speaker>Tam. </speaker>
             <l>Right. Fools are fittest for Dumb-shows: </l>
             <l>While wiser men grow faint to feed on Glances. </l>
           </sp>
-          <sp xml:id="ep000572-e4390">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4390">
             <speaker>Ax. </speaker>
             <l>Arcanes, Cardamel, and Rozarno. </l>
           </sp>
-          <sp xml:id="ep000572-e4430">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4430">
             <speaker>Tam. </speaker>
             <p>Persons of great Wit, Honor, and Integrity: Let 'em be advanc'd immediately; there can be no places too good for 'em. </p>
             <l>I love not to force Grounds; but sow my Favors </l>
@@ -493,7 +558,7 @@
             <l>'Tis pity Virtue shou'd want stuff to work on, </l>
             <l>Or languish with Ignoble Aliments. </l>
           </sp>
-          <sp xml:id="ep000572-e4500">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4500">
             <speaker>Ax. </speaker>
             <l>Comets at first are but Terrestrial Vapors: </l>
             <l>But, when prefer'd into the upper Region, </l>
@@ -502,15 +567,15 @@
             <l>While the dull Clouds ungratefully obscure </l>
             <l>The Sun that rais'd 'em. </l>
           </sp>
-          <sp xml:id="ep000572-e4580">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4580">
             <speaker>Tam. </speaker>
             <l>Are there no more men that I can do good to? </l>
           </sp>
-          <sp xml:id="ep000572-e4610">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e4610">
             <speaker>Ax. </speaker>
             <l>The Prince of Tanais. </l>
           </sp>
-          <sp xml:id="ep000572-e4650">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4650">
             <speaker>Tam. </speaker>
             <l>Let him Command o're all, next to thy self: </l>
             <l>A man of great Conduct, Courage, and Clemency. </l>
@@ -528,7 +593,7 @@
             <l>That punishment you did for me prepare. </l>
             <l>Reign with more Justice, and resume your Throne. </l>
           </sp>
-          <sp xml:id="ep000572-e4850">
+          <sp who="#ep000572-bajazet" xml:id="ep000572-e4850">
             <speaker>Baj. </speaker>
             <l>Now, others Scorn; then I should be my own, </l>
             <l>Shou'd I, proud wand'ring Tartar, take from Thee </l>
@@ -541,7 +606,7 @@
             <l>When I think fit, I'll cheat thy Pride, and Dye. </l>
           </sp>
           <stage xml:id="ep000572-e4970">(Stamps.) </stage>
-          <sp xml:id="ep000572-e4980">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e4980">
             <speaker>Tam. </speaker>
             <l>'Tis strange, he should not seek to ease his Fate! </l>
             <l>He cannot bear, and yet desires the weight. </l>
@@ -552,34 +617,34 @@
             <l>'Tis a reward assign'd thee from above, </l>
             <l>For firm Allegiance and Seraphic Love. </l>
           </sp>
-          <sp xml:id="ep000572-e5110">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e5110">
             <speaker>Ax. </speaker>
             <l>Shou'd Bounteous Heav'n such Presents often make, </l>
             <l>It wou'd more largely give, than Man cou'd take: </l>
             <l>Nor cou'd my Earthy Soul bear such delight, </l>
             <l>But that, like Heav'n, you rais'd it to that Height. </l>
           </sp>
-          <sp xml:id="ep000572-e5170">
+          <sp who="#ep000572-irene" xml:id="ep000572-e5170">
             <speaker>Iren. </speaker>
             <l>Just Heavens forbid, that I should leave so soon </l>
             <l>The serene pleasures of a Virgin Life, </l>
             <l>For all the Joys of that unknown Condition. </l>
           </sp>
-          <sp xml:id="ep000572-e5220">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e5220">
             <speaker>Tam. </speaker>
             <l>I know, dear Saint, Axalla does instill </l>
             <l>The Christian Faith, which mortifies the Will, </l>
             <l>And sets the Mind above all Earthly care; </l>
             <l>But, 'tis not fit the World shou'd want an Heir. </l>
           </sp>
-          <sp xml:id="ep000572-e5290">
+          <sp who="#ep000572-irene" xml:id="ep000572-e5290">
             <speaker>Iren. </speaker>
             <l>Nor is it fit, we shou'd devote our selves </l>
             <l>To those, by vulgar Error, Nuptial Joys, </l>
             <l>Till all the World lies prostrate at your Feet, </l>
             <l>And spurns no more at your illustrious Yoke. </l>
           </sp>
-          <sp xml:id="ep000572-e5350">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e5350">
             <speaker>Tam. </speaker>
             <l>The World is car'd for; but Axalla dyes, </l>
             <l>My sweet Irene: Wou'dst thou have me lose </l>
@@ -590,7 +655,7 @@
             <l>Reasons for Love, are best when Love's alone. </l>
           </sp>
           <stage xml:id="ep000572-e5460">[Exeunt. </stage>
-          <sp xml:id="ep000572-e5470">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e5470">
             <speaker>Rag. </speaker>
             <l>
               <stage xml:id="ep000572-e5500">Solus. </stage>'Tis as I thought: She's lost: 'Twas well divin'd, </l>
@@ -624,11 +689,11 @@
           </sp>
           <stage xml:id="ep000572-e5860">Ex. </stage>
           <stage xml:id="ep000572-e5870">The Scene the inner part of a Fort. Zeylan, attended with Officers. </stage>
-          <sp xml:id="ep000572-e5890">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e5890">
             <speaker>Zey. </speaker>
             <l>Are the Men all drawn up? </l>
           </sp>
-          <sp xml:id="ep000572-e5920">
+          <sp who="#ep000572-captains" xml:id="ep000572-e5920">
             <speaker>Cap. </speaker>
             <l>Ready to March, </l>
             <l>And pressing to engage; as eager Lovers </l>
@@ -638,14 +703,14 @@
             <l>Subdues, urging to pay with sinful Int'rest </l>
             <l>The mortify'd receiver of Life's Rents. </l>
           </sp>
-          <sp xml:id="ep000572-e6000">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e6000">
             <speaker>Zey. </speaker>
             <l>'Tis well. But let me read this once again. </l>
           </sp>
           <stage xml:id="ep000572-e6030">Enter Philarmia. </stage>
           <p>The mighty Tamerlane lyes at your mercy. Nothing is weaker than secure Greatness. On the South side of his Camp you may break in, up to his own Pavilion. Make use of the sudden opportunity, by the advice of </p>
           <stage xml:id="ep000572-e6070">Your unknown Friend. </stage>
-          <sp xml:id="ep000572-e6080">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e6080">
             <speaker>Phil. </speaker>
             <l>What Stratagem, what wonderful Device, </l>
             <l>My worthy, frowning, speechless General, </l>
@@ -660,7 +725,7 @@
             <l>Come, Sir, you have receiv'd a Letter from the Enemy: </l>
             <l>I see your Men prepar'd; I'll sally with you. </l>
           </sp>
-          <sp xml:id="ep000572-e6230">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e6230">
             <speaker>Zey. </speaker>
             <l>Go, dearest, go, and leave me to my Fate; </l>
             <l>The Sword has no Commission to destroy </l>
@@ -668,7 +733,7 @@
             <l>Dangers and bus'ness are cut out for Men; </l>
             <l>Women are spar'd, to Stock the World agen. </l>
           </sp>
-          <sp xml:id="ep000572-e6300">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e6300">
             <speaker>Phil. </speaker>
             <l>Shall I out-live thee then? or can I do it? </l>
             <l>Are not our Threds so closely spun together, </l>
@@ -686,7 +751,7 @@
             <l>Withdraw her temp'rate alimental Aid </l>
             <l>In his Victorious unresisted marches. </l>
           </sp>
-          <sp xml:id="ep000572-e6460">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e6460">
             <speaker>Zey. </speaker>
             <l>But, my Philarmia, shou'd some boistrous hand </l>
             <l>Pluck up this lovely Flower, where dwells all sweetness, </l>
@@ -705,7 +770,7 @@
             <l>Nor force thy way through woods of walking Steel: </l>
             <l>Why wilt thou wound me through thy feeble sides? </l>
           </sp>
-          <sp xml:id="ep000572-e6670">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e6670">
             <speaker>Phil. </speaker>
             <l>Oh, but you are too bold! I can foresee </l>
             <l>Those dangers, through the perspective of Fear, </l>
@@ -723,7 +788,7 @@
             <l>Who may be kill'd abroad, must dye at home. </l>
           </sp>
           <stage xml:id="ep000572-e6830">(Weeps.) </stage>
-          <sp xml:id="ep000572-e6840">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e6840">
             <speaker>Zey. </speaker>
             <l>Oh, stop those Tears, lest thou unman me too, </l>
             <l>Till I'm expos'd to hissing Contumelies </l>
@@ -736,7 +801,7 @@
             <l>That rude Mankind will cast on thy white Innocence </l>
             <l>For herding with 'em. </l>
           </sp>
-          <sp xml:id="ep000572-e6950">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e6950">
             <speaker>Phil. </speaker>
             <l>Why art thou then so good, so gently kind? </l>
             <l>Thy Soul's not made up of such course materials. </l>
@@ -748,14 +813,14 @@
             <l>Then I will fight with thee, and thou shalt kill me, </l>
             <l>And, if thou canst forbear to dye, live after. </l>
           </sp>
-          <sp xml:id="ep000572-e7070">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e7070">
             <speaker>Zey. </speaker>
             <l>Thou hast o'rcome: Reason has lost the Day, </l>
             <l>That useless part of Man, till Love's away. </l>
           </sp>
           <stage xml:id="ep000572-e7110">[Exeunt. </stage>
           <stage xml:id="ep000572-e7120">The Scene Tamerlane's Tents. </stage>
-          <sp xml:id="ep000572-e7140">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e7140">
             <speaker>Ragl. </speaker>
             <l>Now is the time: Prince Zeylan's on the Wing, </l>
             <l>And he shall seize his Prey; thanks to his unknown Friend. </l>
@@ -785,21 +850,21 @@
             <l>My private Will shall rule that angry Power. </l>
           </sp>
           <stage xml:id="ep000572-e7420">Enter <hi>Tamerlane, Axalla, Irene</hi>. Alarm within, and Clashing of Swords. </stage>
-          <sp xml:id="ep000572-e7440">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e7440">
             <speaker>Tam. </speaker>
             <l>What means this noise! </l>
           </sp>
-          <sp xml:id="ep000572-e7470">
+          <sp who="#ep000572-messenger" xml:id="ep000572-e7470">
             <speaker>Mess. </speaker>
             <l>The Enemy is entred, </l>
             <l>And has repuls'd your Guards. Prince Zeylan's coming to This Tent. </l>
           </sp>
-          <sp xml:id="ep000572-e7520">
+          <sp who="#ep000572-irene" xml:id="ep000572-e7520">
             <speaker>Iren. </speaker>
             <l>For Heav'ns sake, Sir, </l>
             <l>Be gone into this inner Room: there's a back-door to't. </l>
           </sp>
-          <sp xml:id="ep000572-e7560">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e7560">
             <speaker>Tam. </speaker>
             <l>Is Zeylan come? I'll to my Rebel Guards, </l>
             <l>And teach th' advent'rous Rebel to be tamer. </l>
@@ -808,7 +873,7 @@
           <stage xml:id="ep000572-e7620">Alarm without, Fighting on the Stage. </stage>
           <stage xml:id="ep000572-e7630">Zeylan is beat off. </stage>
           <stage xml:id="ep000572-e7650">Re-enter <hi>Tamerlane, Axalla, Ragalzan</hi>. </stage>
-          <sp xml:id="ep000572-e7670">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e7670">
             <speaker>Tam. </speaker>
             <l>What a bold Rebel's this! No more of mercy, </l>
             <l>Since 'tis despis'd; Axalla, </l>
@@ -817,7 +882,7 @@
             <l>For this success. </l>
           </sp>
           <stage xml:id="ep000572-e7750">[Ex. with Axalla. </stage>
-          <sp xml:id="ep000572-e7770">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e7770">
             <speaker>Rag. </speaker>
             <l>But I'll be there before you; </l>
             <l>To just Revenge, one disappointment shall </l>
@@ -843,20 +908,20 @@
           </sp>
           <stage xml:id="ep000572-e8010">The Scene the outer part of a Temple. </stage>
           <stage xml:id="ep000572-e8020">Enter <hi>Tamerlane, Axalla, Ragalzan</hi>. </stage>
-          <sp xml:id="ep000572-e8040">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e8040">
             <speaker>Tam. </speaker>
             <l>I like their Temples, but I loath their Idols: </l>
             <l>To all those Beings, that our Senses reach not, </l>
             <l>Forms are injurious; much more to the Greatest. </l>
           </sp>
-          <sp xml:id="ep000572-e8090">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e8090">
             <speaker>Ax. </speaker>
             <l>I hate no less weak superstitious Fools; </l>
             <l>Who, with fond Attributes, th' eternal Being </l>
             <l>Reproach, and make more Antic than Mankind. </l>
             <l>Like Boys, they fear the Bugbears that they dress. </l>
           </sp>
-          <sp xml:id="ep000572-e8150">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e8150">
             <speaker>Tam. </speaker>
             <l>True. Heav'n delights more in the sweet variety </l>
             <l>And liberty of thought, than Slanderous Piety: </l>
@@ -875,11 +940,11 @@
             <l>Guess at his Riddles, but not find them out. </l>
           </sp>
           <stage xml:id="ep000572-e8320">Music. Ragalzan appears at a corner of the Stage, with a Priest. </stage>
-          <sp xml:id="ep000572-e8340">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e8340">
             <speaker>Rag. </speaker>
             <l>What, am I well disguis'd? </l>
           </sp>
-          <sp xml:id="ep000572-e8370">
+          <sp who="#ep000572-priest" xml:id="ep000572-e8370">
             <speaker>Priest. </speaker>
             <l>Mummy it self, Sir. </l>
             <pb n="11" xml:id="ep000572-014-b"/>
@@ -891,36 +956,36 @@
           </sp>
           <stage xml:id="ep000572-e8450">[Exit, with Ragalzan who takes his place among the Mummies. </stage>
           <stage xml:id="ep000572-e8470">The Scene opens, and discovers an Amphitheatre of Crown'd Mummies. </stage>
-          <sp xml:id="ep000572-e8480">
+          <sp who="#ep000572-irene" xml:id="ep000572-e8480">
             <speaker>Iren. </speaker>
             <l>These Mummies are more Curious and Magnificent Than those we saw at Cairo. </l>
           </sp>
-          <sp xml:id="ep000572-e8520">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e8520">
             <speaker>Ax. </speaker>
             <l>And much more numerous: </l>
             <l>Which answers not amiss, to the prodigious space </l>
             <l>Of time, suppos'd by their Chronology. </l>
           </sp>
-          <sp xml:id="ep000572-e8570">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e8570">
             <speaker>Tam. </speaker>
             <l>Of all the Arts that short-breath'd Man affects </l>
             <l>To patch and piece up ruinous Humanity, </l>
             <l>Aping of Immortality in Dust </l>
             <l>Sure is the noblest. </l>
           </sp>
-          <sp xml:id="ep000572-e8630">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e8630">
             <speaker>Ax. </speaker>
             <l>Yet they are Death's Trophies. </l>
             <l>'Tis strange, that Man should glory to be conquer'd, </l>
             <l>And boast his losses to all after Ages. </l>
           </sp>
-          <sp xml:id="ep000572-e8680">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e8680">
             <speaker>Tam. </speaker>
             <l>Proud of his pickled Principality, </l>
             <l>When Fame finds nothing in his life, to blow </l>
             <l>Her Trumpet for, and wake the list'ning World. </l>
           </sp>
-          <sp xml:id="ep000572-e8730">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e8730">
             <speaker>Ax. </speaker>
             <l>And Fame's as false: Cheats us of present Sums, </l>
             <l>The daily Rents of Pleasure and of Ease, </l>
@@ -929,7 +994,7 @@
             <l>By dead men unperceiv'd, by th' living undistinguish'd. </l>
           </sp>
           <stage xml:id="ep000572-e8800">Enter Mummy Priest, habited like a Conjurer, &amp;c. </stage>
-          <sp xml:id="ep000572-e8820">
+          <sp who="#ep000572-priest" xml:id="ep000572-e8820">
             <speaker>Priest. </speaker>
             <l>Greatest of Emperors, draw near, and see </l>
             <l>The richest Wardrobe of Mortality </l>
@@ -941,41 +1006,41 @@
             <l>'Twou'd tire your patience, or to hear, or see, </l>
             <l>And Conquer, Sir, your Magnanimity. </l>
           </sp>
-          <sp xml:id="ep000572-e8930">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e8930">
             <speaker>Tam. </speaker>
             <l>Troth, I believe thee. What a Canting Tone, </l>
             <l>And what a monstrous Tale! </l>
           </sp>
-          <sp xml:id="ep000572-e8970">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e8970">
             <speaker>Ax. </speaker>
             <l>They 've long Traditions; </l>
             <l>And Lye by old Records as well as Hear-says. </l>
           </sp>
-          <sp xml:id="ep000572-e9010">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9010">
             <speaker>Tam. </speaker>
             <l>No, no. Printing has been here in use some Thousand </l>
             <l>of years, no wonder they have so many Lyes. </l>
             <l>Whose Mummy's this? </l>
           </sp>
-          <sp xml:id="ep000572-e9060">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9060">
             <speaker>Priest. </speaker>
             <l>This is Viteio, </l>
             <l>The builder of an University, </l>
             <l>Who liv'd one hundred and Fifty years. </l>
           </sp>
-          <sp xml:id="ep000572-e9120">
+          <sp who="#ep000572-irene" xml:id="ep000572-e9120">
             <speaker>Iren. </speaker>
             <l>And whose is this? </l>
           </sp>
-          <sp xml:id="ep000572-e9150">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9150">
             <speaker>Priest. </speaker>
             <l>Ochanti; the Inventer of Printing. </l>
           </sp>
-          <sp xml:id="ep000572-e9190">
+          <sp who="#ep000572-irene" xml:id="ep000572-e9190">
             <speaker>Iren. </speaker>
             <l>And this? </l>
           </sp>
-          <sp xml:id="ep000572-e9220">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9220">
             <speaker>Priest. </speaker>
             <l>Tzinzummey. The Inventer of </l>
             <l>Gun-powder: that frighted hence a certain rambling Prince, </l>
@@ -983,118 +1048,118 @@
             <l>Which he, good Man, mistook for Thunder, and </l>
             <l>For Lightning. </l>
           </sp>
-          <sp xml:id="ep000572-e9320">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9320">
             <speaker>Tam. </speaker>
             <l>A small excuse wou'd serve a Western Conqueror. </l>
             <l>This crook-back'd Prince here? </l>
           </sp>
-          <sp xml:id="ep000572-e9360">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9360">
             <speaker>Priest. </speaker>
             <l>
               <hi>Huy Hannon</hi>. </l>
             <l>He that found out the Philosophers Stone. </l>
           </sp>
-          <sp xml:id="ep000572-e9410">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9410">
             <speaker>Tam. </speaker>
             <l>And this? </l>
           </sp>
-          <sp xml:id="ep000572-e9440">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9440">
             <speaker>Priest. </speaker>
             <l>Pintatei: his unfortunate Successor, that lost it. </l>
           </sp>
-          <sp xml:id="ep000572-e9480">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e9480">
             <speaker>Ax. </speaker>
             <l>This fellow Drolls. </l>
           </sp>
-          <sp xml:id="ep000572-e9510">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9510">
             <speaker>Tam. </speaker>
             <l>No; 'tis their Tradition. </l>
           </sp>
-          <sp xml:id="ep000572-e9540">
+          <sp who="#ep000572-irene" xml:id="ep000572-e9540">
             <speaker>Iren. </speaker>
             <l>Who is this here? </l>
           </sp>
-          <sp xml:id="ep000572-e9570">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9570">
             <speaker>Priest. </speaker>
             <l>Auchosan. He that invented </l>
             <l>Wagons, to Sail with the Wind. </l>
           </sp>
           <stage xml:id="ep000572-e9620">Axalla walks forward </stage>
-          <sp xml:id="ep000572-e9640">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9640">
             <speaker>Tam. </speaker>
             <l>Are all your Princes then Philosophers? </l>
           </sp>
-          <sp xml:id="ep000572-e9670">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9670">
             <speaker>Priest. </speaker>
             <l>No. But whosoever finds an admirable Art, </l>
             <l>Is strait made Governour of some wealthy Province, </l>
             <l>And his Invention is ascrib'd unto </l>
             <l>The King, whose Reign he liv'd in. </l>
           </sp>
-          <sp xml:id="ep000572-e9730">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9730">
             <speaker>Tam. </speaker>
             <l>Hansome exchange, and nourishment for Virtue! </l>
           </sp>
-          <sp xml:id="ep000572-e9760">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9760">
             <pb n="13" xml:id="ep000572-015-b"/>
             <speaker>Priest. </speaker>
             <l>Here stands the great Tzionzon, builder of the Wall. </l>
           </sp>
-          <sp xml:id="ep000572-e9800">
+          <sp who="#ep000572-irene" xml:id="ep000572-e9800">
             <speaker>Iren. </speaker>
             <l>He stares, and turns about his head. Oh horrid! </l>
           </sp>
-          <sp xml:id="ep000572-e9830">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9830">
             <speaker>Tam. </speaker>
             <l>'Tis strange! </l>
           </sp>
-          <sp xml:id="ep000572-e9860">
+          <sp who="#ep000572-priest" xml:id="ep000572-e9860">
             <speaker>Priest. </speaker>
             <l>Marvel not, Sir; 'tis usual with him: </l>
             <l>He seems offended at your Conquests here. </l>
           </sp>
           <stage xml:id="ep000572-e9900">Ragalzan leaps down, Stabs at <hi>Tamerlane: Irene </hi>interposes. He and the Priest leap down the Trap-door. </stage>
-          <sp xml:id="ep000572-e9930">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9930">
             <speaker>Tam. </speaker>
             <l>Treason! My Guards! What, vanish'd through this door? </l>
           </sp>
-          <sp xml:id="ep000572-e9960">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e9960">
             <speaker>Ax. </speaker>
             <l>Ha! What's the matter? where's the Mummy-shower? </l>
           </sp>
-          <sp xml:id="ep000572-e9990">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e9990">
             <speaker>Tam. </speaker>
             <l>Ah, Generous Girl! Art thou not hurt, Irene? </l>
           </sp>
-          <sp xml:id="ep000572-e10030">
+          <sp who="#ep000572-irene" xml:id="ep000572-e10030">
             <speaker>Iren. </speaker>
             <l>No, not at all. The Dagger struck upon this Bracelet </l>
             <l>Here, of Beads. </l>
           </sp>
-          <sp xml:id="ep000572-e10070">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e10070">
             <speaker>Tam. </speaker>
             <l>A piece of Piety well plac'd: Thanks be to Heav'n. </l>
             <stage xml:id="ep000572-e10100">Enter Guards. </stage>
             <l>The fellow was in haste. </l>
           </sp>
-          <sp xml:id="ep000572-e10120">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e10120">
             <speaker>Ax. </speaker>
             <l>Where is the Villain? </l>
             <l>Guards, go search him out, </l>
           </sp>
-          <sp xml:id="ep000572-e10160">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e10160">
             <speaker>Tam. </speaker>
             <l>'Tis to no purpose: they have endless Vaults. </l>
             <l>Excellent Maid! how durst thou interpose </l>
             <l>Thy tender Limbs, that elsewhere art afraid </l>
             <l>Of thy own Shadow; </l>
           </sp>
-          <sp xml:id="ep000572-e10220">
+          <sp who="#ep000572-irene" xml:id="ep000572-e10220">
             <speaker>Iren. </speaker>
             <l>It was my Duty, Sir, and my Desire </l>
             <l>To save your Life, tho ransom'd by my own, </l>
           </sp>
-          <sp xml:id="ep000572-e10260">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e10260">
             <speaker>Tam. </speaker>
             <l>Never was Child so fond, and so indearing! </l>
             <l>When at the Siege of Bagdat, in my Tents </l>
@@ -1107,14 +1172,14 @@
             <l>Which all the helps of bold, but needy, Art </l>
             <l>Had ne'r effected. </l>
           </sp>
-          <sp xml:id="ep000572-e10400">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e10400">
             <speaker>Ax. </speaker>
             <l>I have heard the Story; </l>
             <l>And she untainted. Who can hurt an Angel? </l>
             <l>I know, I feel her Virtues. But, what mean you? </l>
             <l>Shall I not fetch more Soldiers? </l>
           </sp>
-          <sp xml:id="ep000572-e10460">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e10460">
             <pb n="14" xml:id="ep000572-016-a"/>
             <speaker>Tam. </speaker>
             <l>'Tis work for a whole Regiment: go call 'em, </l>
@@ -1132,25 +1197,25 @@
             <l>But feeds ill Humors, and like Venom urks. </l>
           </sp>
           <stage xml:id="ep000572-e10610">Enter Soldiers. </stage>
-          <sp xml:id="ep000572-e10620">
+          <sp who="#ep000572-soldier-i" xml:id="ep000572-e10620">
             <speaker>1 Sol. </speaker>
             <l>We shall have brave Plund'ring and Firing here! </l>
             <l>Heigh Boyes! </l>
           </sp>
-          <sp xml:id="ep000572-e10660">
+          <sp who="#ep000572-soldier-ii" xml:id="ep000572-e10660">
             <speaker>2 Sol. </speaker>
             <l>I; and hanging up these Conjuring Priests. </l>
           </sp>
-          <sp xml:id="ep000572-e10690">
+          <sp who="#ep000572-soldier-iii" xml:id="ep000572-e10690">
             <speaker>3 Sol. </speaker>
             <l>For my part, I do not like this Sacrilege. </l>
           </sp>
-          <sp xml:id="ep000572-e10720">
+          <sp who="#ep000572-soldier-iv" xml:id="ep000572-e10720">
             <speaker>4 Sol. </speaker>
             <l>Why, is it Sacrilege, to take away </l>
             <l>That which was given in God's name, to the Devil's use? </l>
           </sp>
-          <sp xml:id="ep000572-e10760">
+          <sp who="#ep000572-soldier-iii" xml:id="ep000572-e10760">
             <speaker>3 Sol. </speaker>
             <l>Ha! God-Almighty made a Trustee for the Devil! </l>
             <l>Nay, then have at 'em. <hi>Searches, and is frighted</hi>. </l>
@@ -1162,7 +1227,7 @@
           <pb n="15" xml:id="ep000572-016-b"/>
           <head>ACT II. SCENE I. </head>
           <stage xml:id="ep000572-e10850">The out-part of the Fort: Tamerlane's Tents on the other side. Enter <hi>Philarmia, Zeylan</hi>. </stage>
-          <sp xml:id="ep000572-e10880">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e10880">
             <speaker>Phil. </speaker>
             <l>'TWas bravely done! one of your worthy Spoils, </l>
             <l>To catch the Scythian Lion in your Toils, </l>
@@ -1174,7 +1239,7 @@
             <l>All for a Complement! a Barbarous glance </l>
             <l>From a She- Tartar! </l>
           </sp>
-          <sp xml:id="ep000572-e11030">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e11030">
             <speaker>Zeyl. </speaker>
             <l>'Twas th' effect of Chance: </l>
             <l>For, while I paid Irene short Respects, </l>
@@ -1195,7 +1260,7 @@
             <l>Into a higher Sphere, than thy Embraces? </l>
             <l>What have I more to wish or pray for? Speak. </l>
           </sp>
-          <sp xml:id="ep000572-e11240">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e11240">
             <speaker>Phil. </speaker>
             <l>I Jealous! what of you? For which of your Perfections </l>
             <l>Your Valor, or your Prudence? No, no; but I'm asham'd </l>
@@ -1203,7 +1268,7 @@
             <l>You man of War: I'll try your mettle. </l>
             <stage xml:id="ep000572-e11300">Exit. He strives to stay her: she breaks from him. </stage>
           </sp>
-          <sp xml:id="ep000572-e11310">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e11310">
             <speaker>Zey. </speaker>
             <l>Nay, stay, and hear me. </l>
             <l>Pray Heav'n our Loves prove not unfortunate; </l>
@@ -1216,7 +1281,7 @@
             <stage xml:id="ep000572-e11400">[Exit. </stage>
           </sp>
           <stage xml:id="ep000572-e11410">Enter Ragalzan </stage>
-          <sp xml:id="ep000572-e11430">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e11430">
             <speaker>Rag. </speaker>
             <l>Strange disappointment this too! yet I find </l>
             <l>There's no suspicion of my Treason. Nothing </l>
@@ -1231,7 +1296,7 @@
             <stage xml:id="ep000572-e11550">Enter Tamerlane. </stage>
             <l>Now to my post: I must draw near, and flatter. </l>
           </sp>
-          <sp xml:id="ep000572-e11580">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e11580">
             <speaker>Tam. </speaker>
             <l>'Tis time my bus'nes of the World were done: </l>
             <l>Or this Cameleon Fortune may change colours, </l>
@@ -1240,17 +1305,17 @@
             <l>Then I had dy'd in time, and ripe for Fate, </l>
             <l>With all my Triumphs waiting on my Herse. </l>
           </sp>
-          <sp xml:id="ep000572-e11670">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e11670">
             <speaker>Rag. aside. </speaker>
             <p>I'm sorry for't indeed, Sir. </p>
           </sp>
-          <sp xml:id="ep000572-e11700">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e11700">
             <speaker>Tam. </speaker>
             <l>Methinks, I find a boding of some mischief, </l>
             <l>Which threatens, more than Thousand Lives, my Fame. </l>
           </sp>
           <stage xml:id="ep000572-e11740">Enter Axalla. </stage>
-          <sp xml:id="ep000572-e11760">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e11760">
             <speaker>Ax. </speaker>
             <l>The fair Despina is arriv'd, and begs to be </l>
             <l>Admitted: And I hear, she hates </l>
@@ -1260,7 +1325,7 @@
             <pb n="17" xml:id="ep000572-017-b"/>
             <l>Counts as a piece of Courtship done to her. </l>
           </sp>
-          <sp xml:id="ep000572-e11860">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e11860">
             <speaker>Tam. </speaker>
             <l>Hast thou now known me, Friend, so many years, </l>
             <l>And didst thou ever find my easie heart </l>
@@ -1272,12 +1337,12 @@
             <l>Made up of little Arts, and lesser Charms; </l>
             <l>I'll blow 'em off. </l>
           </sp>
-          <sp xml:id="ep000572-e11970">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e11970">
             <speaker>Ax. </speaker>
             <l>This Conquest o're your self </l>
             <l>Out-does the Caesars more than all your Triumphs. </l>
           </sp>
-          <sp xml:id="ep000572-e12020">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e12020">
             <speaker>Tam. </speaker>
             <l>Why talk'st thou of these petty Lords of Rome? </l>
             <l>What is their Carthage, or Numantia, </l>
@@ -1292,7 +1357,7 @@
             <l>When I alone have won more Worlds, than e're </l>
             <l>They knew or thought of. </l>
           </sp>
-          <sp xml:id="ep000572-e12270">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e12270">
             <speaker>Rag. </speaker>
             <l>They set some Scriblers to out-lye the World, </l>
             <l>And drest their Roman Eagles up, to Soar </l>
@@ -1300,17 +1365,17 @@
             <l>And yet the very Plat-forms of your Conquests </l>
             <l>Wou'd cover all the Earth they ever fought for. </l>
           </sp>
-          <sp xml:id="ep000572-e12350">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e12350">
             <speaker>Tam. </speaker>
             <l>My Actions are too great for all Records, </l>
             <l>They tire Narrations, baffle formal Words. </l>
           </sp>
-          <sp xml:id="ep000572-e12390">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e12390">
             <speaker>Ax. </speaker>
             <l>Right, Sir; but own the Cause. This Vanity </l>
             <l>Sticks close, like Ivy to the noblest Plants. </l>
           </sp>
-          <sp xml:id="ep000572-e12430">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e12430">
             <speaker>Tam. </speaker>
             <l>True, my Axalla; but shou'd I speak less, </l>
             <l>I shou'd detract from Heav'n, that threw these Favors </l>
@@ -1318,19 +1383,19 @@
           </sp>
           <stage xml:id="ep000572-e12490">
             <pb n="18" xml:id="ep000572-018-a"/>Enter Despina. </stage>
-          <sp xml:id="ep000572-e12510">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e12510">
             <speaker>Ax. </speaker>
             <l>Here she comes: </l>
             <l>Now be your self, and His that made you great. </l>
           </sp>
-          <sp xml:id="ep000572-e12550">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e12550">
             <speaker>Tam. </speaker>
             <l>Ha! What flash of Lightning's this, that strikes my Brest? </l>
             <l>Then Fame has once spoke true; a Glorious Form! </l>
             <l>But I must be my self; nay, more, appear </l>
             <l>Churlish and Cruel, to keep off vain hopes. </l>
           </sp>
-          <sp xml:id="ep000572-e12610">
+          <sp who="#ep000572-despina" xml:id="ep000572-e12610">
             <speaker>Desp. </speaker>
             <l>Great Sir, to whom wise Heav'n the World design'd, </l>
             <l>kneeling. As a just Tribute to your greater Mind; </l>
@@ -1341,7 +1406,7 @@
             <l>Show the same mercy you had wish'd to find, </l>
             <l>If Fortune had to Him, not You, been kind. </l>
           </sp>
-          <sp xml:id="ep000572-e12730">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e12730">
             <speaker>Tam. </speaker>
             <l>Do as you wou'd be done to, Rules no State; </l>
             <l>Nor yet is Nature's Law: for in close competitions </l>
@@ -1354,7 +1419,7 @@
             <l>Which is no more than he wou'd do by me, </l>
             <l>Or ought to do, if he secure wou'd be. </l>
           </sp>
-          <sp xml:id="ep000572-e12850">
+          <sp who="#ep000572-despina" xml:id="ep000572-e12850">
             <speaker>Desp. </speaker>
             <l>High Confidence o're Policy prevails; </l>
             <l>When great Souls meet, low-founded Reason fails: </l>
@@ -1362,7 +1427,7 @@
             <l>Or 'tis an Int'rest of a nobler Strain, </l>
             <l>To please themselves by pleasings all their gain. </l>
           </sp>
-          <sp xml:id="ep000572-e12920">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e12920">
             <speaker>Tam. </speaker>
             <l>You talk of Friends, or Lovers, lukewarm Mortals </l>
             <l>That have not heat enough t'inflame themselves </l>
@@ -1378,7 +1443,7 @@
             <l>And makes the tamest Animals their Guides; </l>
             <l>Out ●done still by the Strong and wise ones. </l>
           </sp>
-          <sp xml:id="ep000572-e13060">
+          <sp who="#ep000572-despina" xml:id="ep000572-e13060">
             <speaker>Desp. </speaker>
             <l>Shou'd Gods destroy all Men that them provoke, </l>
             <l>They must Create, to make their Altars Smoke; </l>
@@ -1393,13 +1458,13 @@
             <l>To have you dye, why do you wish to live, </l>
             <l>When Social Joys you neither take nor give! </l>
           </sp>
-          <sp xml:id="ep000572-e13200">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e13200">
             <speaker>Tam. </speaker>
             <l>How bold her Reason! how Divine her Face! </l>
             <l>What do I feel? some strange, but Cordial heat: </l>
             <l>Some Passion shakes my Reason from her Seat. </l>
           </sp>
-          <sp xml:id="ep000572-e13250">
+          <sp who="#ep000572-despina" xml:id="ep000572-e13250">
             <speaker>Desp. </speaker>
             <l>The Road to Fame's to try unpractic'd ways; </l>
             <l>From common Methods, rises common Praise: </l>
@@ -1410,14 +1475,14 @@
             <l>Prudence in vain a Monarchs Life protects: </l>
             <l>Counsels inspir'd produce the best effects. </l>
           </sp>
-          <sp xml:id="ep000572-e13350">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e13350">
             <speaker>Tam. </speaker>
             <l>'Tis time to fly! </l>
             <l>Madam, you argue well: Let time digest </l>
             <l>My thoughts, and ripen them for your request. </l>
           </sp>
           <stage xml:id="ep000572-e13400">Ex. severally. </stage>
-          <sp xml:id="ep000572-e13410">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e13410">
             <speaker>Rag. </speaker>
             <l>If I remember well my former frailties, </l>
             <l>This discomposure in the Prince, is Love: </l>
@@ -1435,7 +1500,7 @@
             <stage xml:id="ep000572-e13570">[Exit. </stage>
           </sp>
           <stage xml:id="ep000572-e13580">Re-enter Tamerlane. </stage>
-          <sp xml:id="ep000572-e13600">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e13600">
             <speaker>Tam. </speaker>
             <l>To Arms, to Arms, my Soul; and stop the passage </l>
             <l>To this weak Enemy. Love, thou poor trifle of </l>
@@ -1470,21 +1535,21 @@
           </sp>
           <stage xml:id="ep000572-e13950">
             <pb n="21" xml:id="ep000572-019-b"/>The Scene a Prison. Bajazet in his Cage; Ragalzan, Iaylo●●. </stage>
-          <sp xml:id="ep000572-e13980">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e13980">
             <speaker>Rag. </speaker>
             <l>It is too true: </l>
             <l>The Emperor has deny'd her to come near you. </l>
           </sp>
-          <sp xml:id="ep000572-e14020">
+          <sp who="#ep000572-bajazet" xml:id="ep000572-e14020">
             <speaker>Baj. </speaker>
             <l>And did I live so long, only to see her? </l>
           </sp>
-          <sp xml:id="ep000572-e14050">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e14050">
             <speaker>Rag. </speaker>
             <l>Nay, more than that, This night She is design'd </l>
             <l>For his Embraces. </l>
           </sp>
-          <sp xml:id="ep000572-e14090">
+          <sp who="#ep000572-bajazet" xml:id="ep000572-e14090">
             <speaker>Baj. </speaker>
             <l>Death! Furies! Hell! Damnation! Fires! and Flames! </l>
             <l>You Sacred Bugbears, false invented names, </l>
@@ -1499,21 +1564,21 @@
             <l>If such there be, what cross events they give, </l>
             <l>That I, who scorn to Reign, am forc'd to live? </l>
           </sp>
-          <sp xml:id="ep000572-e14240">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e14240">
             <speaker>Rag. </speaker>
             <l>Majestic Blasphemy! It works most bravely. </l>
           </sp>
-          <sp xml:id="ep000572-e14270">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e14270">
             <speaker>Iayl. </speaker>
             <l>What says the Prince? </l>
           </sp>
-          <sp xml:id="ep000572-e14300">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e14300">
             <speaker>Rag. </speaker>
             <l>He does Blaspheme and Rave, </l>
             <l>Talks something that is Wicked, and is Brave: </l>
             <l>Like modern Heroes. </l>
           </sp>
-          <sp xml:id="ep000572-e14350">
+          <sp who="#ep000572-bajazet" xml:id="ep000572-e14350">
             <speaker>Baj. </speaker>
             <l>See, see! She comes all glorious to the Bed </l>
             <l>Of Barbarous Tamerlane, design'd to breed </l>
@@ -1521,18 +1586,18 @@
             <l>I cannot, will not bear it. </l>
           </sp>
           <stage xml:id="ep000572-e14430">[Knocks his head against the Cage. </stage>
-          <sp xml:id="ep000572-e14440">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e14440">
             <speaker>Rag. </speaker>
             <l>So I'll be gone. </l>
             <l>Jaylor, go help him forwards, I'll prefer thee: </l>
             <l>'Tis time his mouth were stopt; the vile Blasphemer! </l>
             <l>It is the Emperor wills it. </l>
           </sp>
-          <sp xml:id="ep000572-e14500">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e14500">
             <speaker>Iayl. </speaker>
             <l>Then 'tis done, Sir. </l>
           </sp>
-          <sp xml:id="ep000572-e14530">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e14530">
             <speaker>Rag. </speaker>
             <l>'T will make mad work, i'faith! Now She' labhor </l>
             <l>Great Tamerlane, and do some worthy Mischief, </l>
@@ -1552,24 +1617,24 @@
             <stage xml:id="ep000572-e14720">Exit. </stage>
           </sp>
           <stage xml:id="ep000572-e14730">Axalla, Irene. </stage>
-          <sp xml:id="ep000572-e14740">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e14740">
             <speaker>Ax. </speaker>
             <l>D'ye hear the news? </l>
           </sp>
-          <sp xml:id="ep000572-e14770">
+          <sp who="#ep000572-irene" xml:id="ep000572-e14770">
             <speaker>Iren. </speaker>
             <l>What, of my Fathers Love? </l>
           </sp>
-          <sp xml:id="ep000572-e14800">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e14800">
             <speaker>Ax. </speaker>
             <l>Nay, more than that; The death of Bajazet: </l>
             <l>Just now found dead in's Cage, wallowing in's Blood. </l>
           </sp>
-          <sp xml:id="ep000572-e14850">
+          <sp who="#ep000572-irene" xml:id="ep000572-e14850">
             <speaker>Iren. </speaker>
             <l>'Tis strange! I'm sure 'twas not my Father's act. </l>
           </sp>
-          <sp xml:id="ep000572-e14880">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e14880">
             <speaker>Ax. </speaker>
             <l>I cannot tell: this Love will change a man </l>
             <l>As much as a new Faith; and Proselytes </l>
@@ -1578,47 +1643,47 @@
             <l>Here comes the Mourner, and the Mischief-maker: </l>
             <l>I like not their acquaintance. </l>
           </sp>
-          <sp xml:id="ep000572-e14980">
+          <sp who="#ep000572-irene" xml:id="ep000572-e14980">
             <speaker>Iren. </speaker>
             <l>I wonder that he finds such Favor with the Emperor! </l>
           </sp>
-          <sp xml:id="ep000572-e15010">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e15010">
             <speaker>Ax. </speaker>
             <l>That his quick Eye sees not his bungling Flattery, </l>
             <l>The Seam's so visible and gross. </l>
           </sp>
-          <sp xml:id="ep000572-e15050">
+          <sp who="#ep000572-despina" xml:id="ep000572-e15050">
             <speaker>Desp. </speaker>
             <l>O sad, sad Story! </l>
           </sp>
-          <sp xml:id="ep000572-e15080">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15080">
             <speaker>Rag. </speaker>
             <l>'Twas as I told you, and your Dream confirms it. </l>
           </sp>
-          <sp xml:id="ep000572-e15110">
+          <sp who="#ep000572-irene" xml:id="ep000572-e15110">
             <speaker>Iren. </speaker>
             <l>Oh, they come near! How can I bear with patience </l>
             <l>The sight of her, that gives so great Disquiet </l>
             <l>To my great Father; blasts his glorious Name? </l>
           </sp>
-          <sp xml:id="ep000572-e15160">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15160">
             <speaker>Rag. </speaker>
             <l>Madam, did you observe? </l>
           </sp>
-          <sp xml:id="ep000572-e15190">
+          <sp who="#ep000572-despina" xml:id="ep000572-e15190">
             <speaker>Desp. </speaker>
             <l>What makes the Princess fly me? </l>
             <l>Am I brought hither to be scorn'd as well as injur'd; </l>
             <l>These are your Tartarian manners! </l>
           </sp>
-          <sp xml:id="ep000572-e15250">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15250">
             <speaker>Rag. </speaker>
             <l>'Tis not her Education, but Religion? </l>
             <l>She's bred a Christian, and betroth'd to this Axalla: </l>
             <pb n="23" xml:id="ep000572-020-b"/>
             <l>'Twas they perswaded the Emperor to this Murder. </l>
           </sp>
-          <sp xml:id="ep000572-e15310">
+          <sp who="#ep000572-despina" xml:id="ep000572-e15310">
             <speaker>Desp. </speaker>
             <l>Did they? a wondrous Act! Oh, my dear Sultan! </l>
             <l>Just Heav'ns lend me the Power to vindicate his wrongs; </l>
@@ -1626,20 +1691,20 @@
             <l>By this my holy Justice. Oh, oh, oh! </l>
           </sp>
           <stage xml:id="ep000572-e15370">(Weeps). </stage>
-          <sp xml:id="ep000572-e15380">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15380">
             <speaker>Rag. </speaker>
             <l>And, since this peevish Girl has heard her Father's Passion, </l>
             <l>She Vows she'll never see you; tho you shou'd stoop </l>
             <l>To be her Father's Wife. </l>
           </sp>
-          <sp xml:id="ep000572-e15430">
+          <sp who="#ep000572-despina" xml:id="ep000572-e15430">
             <speaker>Desp. </speaker>
             <l>A pretty Spark! </l>
             <l>But I will see her, tho I walk through Flames </l>
             <l>To meet her. </l>
           </sp>
           <stage xml:id="ep000572-e15480">Enter Tamerlane. </stage>
-          <sp xml:id="ep000572-e15500">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e15500">
             <speaker>Tam. </speaker>
             <l>Bless me, 'tis sad! I was to blame, to urge </l>
             <l>His patience to that height: and yet he scorn'd </l>
@@ -1660,26 +1725,26 @@
             <l>And bury 'em alive. How can I give </l>
             <l>Account of my great Charge? </l>
           </sp>
-          <sp xml:id="ep000572-e15730">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15730">
             <speaker>Rag. </speaker>
             <l>He's in his Passion: now I'll give him counsel. </l>
             <l>Might I presume to guess your Royal troubles, </l>
             <l>The beauteous Captive gives you some Disquiet. </l>
           </sp>
-          <sp xml:id="ep000572-e15780">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e15780">
             <speaker>Tam. </speaker>
             <l>Audacious Wretch! how dar'st thou search into </l>
             <l>The Soveraign's Brest, and rudely touch his Wounds? </l>
           </sp>
-          <sp xml:id="ep000572-e15820">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15820">
             <speaker>Rag. </speaker>
             <l>You pity, Sir, her Husband's dismal Fate. </l>
           </sp>
-          <sp xml:id="ep000572-e15850">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e15850">
             <speaker>Tam. </speaker>
             <l>True: wsth unfeigned Sorrow. </l>
           </sp>
-          <sp xml:id="ep000572-e15880">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15880">
             <pb n="24" xml:id="ep000572-021-a"/>
             <speaker>Rag. </speaker>
             <l>But, Sir, may I proceed a little farther? </l>
@@ -1689,11 +1754,11 @@
             <l>By my too forward Zeal: yet I will speak </l>
             <l>My Conscience for the Public. </l>
           </sp>
-          <sp xml:id="ep000572-e15960">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e15960">
             <speaker>Tam. </speaker>
             <l>Speak thy Grievance. </l>
           </sp>
-          <sp xml:id="ep000572-e15990">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e15990">
             <speaker>Rag. </speaker>
             <l>The death of Friends is but a Skin-deep wound </l>
             <l>To tough Mankind: The Earth is over-stock'd, </l>
@@ -1706,16 +1771,16 @@
             <l>'Tis a Majestic Madness, Heav'nly Fury; </l>
             <l>None ever scap'd it of the Gods, or Heroes. </l>
           </sp>
-          <sp xml:id="ep000572-e16120">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16120">
             <speaker>Tam. </speaker>
             <l>What then? Speak out. </l>
           </sp>
-          <sp xml:id="ep000572-e16150">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e16150">
             <speaker>Rag. </speaker>
             <l>Why then, 'tis strongly rumor'd </l>
             <l>That you are touch'd with that Celestial frailty. </l>
           </sp>
-          <sp xml:id="ep000572-e16190">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16190">
             <speaker>Tam. </speaker>
             <l>Is it divulg'd so soon? Well then since thou </l>
             <l>Hast guess'd so well, I'll tell thee my Disease. </l>
@@ -1727,7 +1792,7 @@
             <l>I ne'r knew Love before, but for State Int'rest, </l>
             <l>Which pains the Prince's Body for the Public. </l>
           </sp>
-          <sp xml:id="ep000572-e16300">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e16300">
             <speaker>Rag. </speaker>
             <l>So much the worse. The first Loves are most dangerous: </l>
             <l>The rest are flashes, Sparkles of the former, </l>
@@ -1736,24 +1801,24 @@
             <l>And their first Fits most fatal, if delay'd. </l>
             <l>What fills the World with Madmen? Is't not Love? </l>
           </sp>
-          <sp xml:id="ep000572-e16380">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16380">
             <speaker>Tam. </speaker>
             <l>My Reasoning faculty, that was my guide, </l>
             <l>Is so bewildred in this Hellish Fog, </l>
             <l>That I do often grope for't, seldom find it. </l>
             <l>Is there no Cure for this? </l>
           </sp>
-          <sp xml:id="ep000572-e16440">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e16440">
             <pb n="25" xml:id="ep000572-021-b"/>
             <speaker>Rag. </speaker>
             <l>One, very natural: Breathing of a Vein in Fevers, </l>
             <l>Or giving Vent to Vessels that wou'd break. </l>
           </sp>
-          <sp xml:id="ep000572-e16480">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16480">
             <speaker>Tam. </speaker>
             <l>Oh; but Discourse and Time, may Conquer Passion. </l>
           </sp>
-          <sp xml:id="ep000572-e16510">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e16510">
             <speaker>Rag. </speaker>
             <l>Stay till a tickling Cough turns a Consumption, </l>
             <l>For want of taking such a Sugar'd Medicine. </l>
@@ -1776,11 +1841,11 @@
             <l>A Prince's Love's to like, and to enjoy; </l>
             <l>And then at once away with Love, and puling Passion. </l>
           </sp>
-          <sp xml:id="ep000572-e16730">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16730">
             <speaker>Tam. </speaker>
             <l>Are there no limits then for Princes Passions? </l>
           </sp>
-          <sp xml:id="ep000572-e16760">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e16760">
             <speaker>Rag. </speaker>
             <l>There may be; yet 'twere better to be eas'd </l>
             <l>At any rate, than leave the World neglected: </l>
@@ -1791,19 +1856,19 @@
             <l>Attempt to gain her Love by fair persuasion, </l>
             <l>And take her to your Wife. </l>
           </sp>
-          <sp xml:id="ep000572-e16860">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16860">
             <speaker>Tam. </speaker>
             <l>'Twere not unlawful; </l>
             <l>But, oh, 'tis Rash, 'tis Base, 'tis out of Season. </l>
           </sp>
-          <sp xml:id="ep000572-e16900">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e16900">
             <speaker>Rag. </speaker>
             <l>Then will you still expose this worthy Passion </l>
             <l>To your deriding Foes, and grieving Friends; </l>
             <l>Carry the Baby Love about the Army, </l>
             <l>And ask the Soldiers how it does become you? </l>
           </sp>
-          <sp xml:id="ep000572-e16960">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e16960">
             <speaker>Ta. </speaker>
             <l>Thy Reasons have som weight: my Thoughts are wandred▪ </l>
             <pb n="26" xml:id="ep000572-022-a"/>
@@ -1812,11 +1877,11 @@
             <stage xml:id="ep000572-e17010">Enter Despina. </stage>
             <l>And turns thy Problems all to Demonstrations. </l>
           </sp>
-          <sp xml:id="ep000572-e17040">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e17040">
             <speaker>Rag. </speaker>
             <l>I, and she comes to court you: pray make use on't. </l>
           </sp>
-          <sp xml:id="ep000572-e17070">
+          <sp who="#ep000572-despina" xml:id="ep000572-e17070">
             <speaker>Desp. </speaker>
             <l>Down, down proud Billows of my Stormy ●rest▪ </l>
             <l>Be calm one moment, till I search a little </l>
@@ -1827,18 +1892,18 @@
             <l>Or must I be the Fountain of your Court, </l>
             <l>To weep in Artful forms, to make you Sport? </l>
           </sp>
-          <sp xml:id="ep000572-e17170">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e17170">
             <speaker>Tam. </speaker>
             <l>Dry Clouds, and empty Griefs long hide the day; </l>
             <l>The Dismal'st Vapors weep themselves away: </l>
             <l>Those Eyes will shine again, or Heav'n decay. </l>
           </sp>
-          <sp xml:id="ep000572-e17220">
+          <sp who="#ep000572-despina" xml:id="ep000572-e17220">
             <speaker>Desp. </speaker>
             <l>Talk not of Lustre, Sir; restore my Light, </l>
             <l>And give me the lov'd Object of my Sight. </l>
           </sp>
-          <sp xml:id="ep000572-e17260">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e17260">
             <speaker>Tam. </speaker>
             <l>She knows not of his death; what need I name it? </l>
             <l>By the quick notice on't, and his hard usage, </l>
@@ -1854,7 +1919,7 @@
             <l>The Mildew of your Hopes, Seed of your Fear; </l>
             <l>And wou'd you in exchange that Prisoner spare? </l>
           </sp>
-          <sp xml:id="ep000572-e17410">
+          <sp who="#ep000572-despina" xml:id="ep000572-e17410">
             <speaker>Desp. </speaker>
             <l>Were he the greatest Monster Nature teem'd▪ </l>
             <l>From her erroneous Womb; Satan redeem'd, </l>
@@ -1867,7 +1932,7 @@
             <l>My Bajazet should live; nay, live without a Throne. </l>
             <l>But, oh! </l>
           </sp>
-          <sp xml:id="ep000572-e17540">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e17540">
             <speaker>Tam. </speaker>
             <l>Then here your Captive stands, </l>
             <l>Chain'd fast in Cupids thin tenacious Bands; </l>
@@ -1876,7 +1941,7 @@
             <l>Pity the Wretch whom all extreams do move, </l>
             <l>Who cannot hope for, live without your Love. </l>
           </sp>
-          <sp xml:id="ep000572-e17630">
+          <sp who="#ep000572-despina" xml:id="ep000572-e17630">
             <speaker>Desp. </speaker>
             <l>Dost thou abuse me too! thou needst not wear </l>
             <l>Such study'd Cruelty to mock Despair. </l>
@@ -1894,11 +1959,11 @@
             <l>Hid in their blackness dost thou think thy Deeds? </l>
             <l>Thy Cloven Foot peeps through thy Hermits Weeds. </l>
           </sp>
-          <sp xml:id="ep000572-e17820">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e17820">
             <speaker>Tam. </speaker>
             <l>How quickly she had notice of his death! </l>
           </sp>
-          <sp xml:id="ep000572-e17850">
+          <sp who="#ep000572-despina" xml:id="ep000572-e17850">
             <speaker>Desp. </speaker>
             <l>Curs'd be thy ill-got Empire, curs'd thy Race, </l>
             <l>Live to its own destruction, thy disgrace: </l>
@@ -1913,11 +1978,11 @@
             <l>And may'st thou always aym, and ever miss: </l>
             <l>I wish thee a long life; but such as this. </l>
           </sp>
-          <sp xml:id="ep000572-e17990">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e17990">
             <speaker>Tam. </speaker>
             <l>Pray give me leave— </l>
           </sp>
-          <sp xml:id="ep000572-e18020">
+          <sp who="#ep000572-despina" xml:id="ep000572-e18020">
             <pb n="28" xml:id="ep000572-023-a"/>
             <speaker>Desp. </speaker>
             <l>Nor dye thou by thy Sorrows, Sword, or Laws; </l>
@@ -1934,16 +1999,16 @@
             <l>Till Heav'n wants power to Plague, or Hell to Hate. </l>
             <stage xml:id="ep000572-e18160">Ex. </stage>
           </sp>
-          <sp xml:id="ep000572-e18170">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e18170">
             <speaker>Tam. </speaker>
             <p>Bless me! what Thunder, and what Lightning too! </p>
           </sp>
-          <sp xml:id="ep000572-e18200">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e18200">
             <speaker>Rag. </speaker>
             <l>Oh, Sir, she is the haughtiest, and the wyliest Dame, </l>
             <l>That ever liv'd. </l>
           </sp>
-          <sp xml:id="ep000572-e18240">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e18240">
             <speaker>Tam. </speaker>
             <l>Yet she appear'd so sweet, so innocent, </l>
             <l>Who look'd for Storms from so serene a Sky? </l>
@@ -1951,7 +2016,7 @@
             <l>Her Treaty undermin'd my tender part; </l>
             <l>This noble Rage, fires and blows up my heart. </l>
           </sp>
-          <sp xml:id="ep000572-e18310">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e18310">
             <speaker>Rag. </speaker>
             <l>And 'twas a just one too. Have you not us'd▪ </l>
             <l>Her Husband like a wild Beast, and incag'd him, </l>
@@ -1959,11 +2024,11 @@
             <l>Than death it self, deny'd her to come near him, </l>
             <l>And since, as she thinks, caus'd him to be murder'd? </l>
           </sp>
-          <sp xml:id="ep000572-e18380">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e18380">
             <speaker>Tam. </speaker>
             <l>Heav'n knows, I knew not of his death, but grieve for't. </l>
           </sp>
-          <sp xml:id="ep000572-e18410">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e18410">
             <speaker>Rag. </speaker>
             <l>And I know too; but what can salve the wild </l>
             <l>Objections of a blear-ey'd Jealous mind, </l>
@@ -1982,11 +2047,11 @@
             <l>But, wou'd you take my Judgement, Sir, I'de own it, </l>
             <l>And say, I did it for her Love, not Empire. </l>
           </sp>
-          <sp xml:id="ep000572-e18590">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e18590">
             <speaker>Tam. </speaker>
             <l>What! Shall I own a Lye, and wound my Honor? </l>
           </sp>
-          <sp xml:id="ep000572-e18620">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e18620">
             <speaker>Rag. </speaker>
             <l>What, by a little Love-talk, blown away </l>
             <l>With the next Wind? Ten Lyes to every Truth; </l>
@@ -2000,12 +2065,12 @@
             <l>Why, Traps were made for Foxes, Gins for Hare●, </l>
             <l>Lime-twigs for Birds, and Lyes &amp; Oaths for Women. </l>
           </sp>
-          <sp xml:id="ep000572-e18750">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e18750">
             <speaker>Tam. </speaker>
             <l>Thou'rt a rare Artist in Love's Mysteries! </l>
             <l>But then, suppose this shou'd incense her more? </l>
           </sp>
-          <sp xml:id="ep000572-e18790">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e18790">
             <speaker>Rag. </speaker>
             <l>Why, then 'tis but t'unswear the same things o'r </l>
             <l>Again: How can a credulous Woman </l>
@@ -2016,12 +2081,12 @@
             <l>And dares not show her naked open brest </l>
             <l>To an excuse that's rich, and finely drest. </l>
           </sp>
-          <sp xml:id="ep000572-e18890">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e18890">
             <speaker>Tam. </speaker>
             <l>Oh brave Ragalzan! thou canst turn and wind </l>
             <l>A Woman, like an Engine. </l>
           </sp>
-          <sp xml:id="ep000572-e18940">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e18940">
             <speaker>Rag. </speaker>
             <l>They're no more; </l>
             <l>Manag'd as easily by dexterous Men: </l>
@@ -2030,7 +2095,7 @@
             <l>As we are to the Gods, so they to us </l>
             <l>Are meer Machines. </l>
           </sp>
-          <sp xml:id="ep000572-e19020">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e19020">
             <speaker>Tam. </speaker>
             <l>I, such Machines, as Ships, that drown their Sailors▪ </l>
             <l>Such Brutes, as break their Masters Necks. </l>
@@ -2038,7 +2103,7 @@
             <l>Far from the Road of Honor: </l>
             <l>But I am Rough, and ne'r was made for Courtship. </l>
           </sp>
-          <sp xml:id="ep000572-e19090">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e19090">
             <speaker>Rag. </speaker>
             <l>Great Souls are fit for all things; Try your Rhetori●, </l>
             <pb n="30" xml:id="ep000572-024-a"/>
@@ -2052,7 +2117,7 @@
         <div n="3" type="act_and_scene" xml:id="ep000572-e19210">
           <head>ACT. III. SCENE I. </head>
           <stage xml:id="ep000572-e19230">Tamerlane, Despina, Ragalzan following. </stage>
-          <sp xml:id="ep000572-e19250">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e19250">
             <speaker>Rag. </speaker>
             <l>SO, the work is doing, and my Pupil </l>
             <l>Is strong in Argument against himself. </l>
@@ -2075,19 +2140,19 @@
             <l>Trustees a Minor, Priests a sinful Purse, </l>
             <l>Mad Dogs their Mates, and Wives their Husbands Whores. </l>
           </sp>
-          <sp xml:id="ep000572-e19460">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e19460">
             <speaker>Tam. </speaker>
             <l>Dreams are but Vapors of some Thoughts mislayd, </l>
             <l>Still'd and retorted without Reasons Aid, </l>
             <l>Poysons of Quiet by ill mixtures made. </l>
           </sp>
-          <sp xml:id="ep000572-e19510">
+          <sp who="#ep000572-despina" xml:id="ep000572-e19510">
             <speaker>Desp. </speaker>
             <l>Awake I saw and heard his bleeding Ghost, </l>
             <l>And of this Barbarous Fact thy Tartars boast: </l>
             <l>And didst not thou strive to conceal it most? </l>
           </sp>
-          <sp xml:id="ep000572-e19570">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e19570">
             <speaker>Tam. aside. </speaker>
             <l>Too strong Presumptions make Denyals vain▪ </l>
             <l>Truth is not seen by Judgements prepossest, </l>
@@ -2095,7 +2160,7 @@
             <l>I'll try what use of Fiction may be made. </l>
             <l>Then tell me, Madam, how has Fame traduc'd me? </l>
           </sp>
-          <sp xml:id="ep000572-e19640">
+          <sp who="#ep000572-despina" xml:id="ep000572-e19640">
             <speaker>Desp. </speaker>
             <l>Fierce Hypocrite, when thou hadst him deny'd </l>
             <l>The sight of me, whom he lov'd more than Life, </l>
@@ -2110,7 +2175,7 @@
             <l>Who falling down, Is this thy Zeal, he cry'd? </l>
             <l>This thy Devotion, Tamerlane? and dy'd. </l>
           </sp>
-          <sp xml:id="ep000572-e19800">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e19800">
             <speaker>Tam. </speaker>
             <l>It was my Zeal, and my Devotion too, </l>
             <l>If not to Heav'n, or Nature, yet to You: </l>
@@ -2125,14 +2190,14 @@
             <l>Exalts her Deity above the rest, </l>
             <l>Tramples on Law, Religion for her sake. </l>
           </sp>
-          <sp xml:id="ep000572-e19940">
+          <sp who="#ep000572-despina" xml:id="ep000572-e19940">
             <speaker>Desp. </speaker>
             <l>Impious wretch, must I thy Crimes partake? </l>
             <pb n="32" xml:id="ep000572-025-a"/>
             <l>No, Tyrant, 'Twas Ambition mov'd the Wheel, </l>
             <l>And ground those Reasons, back'd and Edg'd with Steel. </l>
           </sp>
-          <sp xml:id="ep000572-e19990">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e19990">
             <speaker>Tam. </speaker>
             <l>Accuse Tyrannic Heav'n that made you bright, </l>
             <l>Accuse those killing Eyes; not my weak Sight. </l>
@@ -2147,7 +2212,7 @@
             <l>As that which gives it from the highest Cause; </l>
             <l>Celestial Visions cancel written Laws. </l>
           </sp>
-          <sp xml:id="ep000572-e20130">
+          <sp who="#ep000572-despina" xml:id="ep000572-e20130">
             <speaker>Desp. </speaker>
             <l>If Man may act what e'r he's mov'd to do, </l>
             <l>The same Man is both Judge and Party too: </l>
@@ -2159,7 +2224,7 @@
             <l>Charge not the Gods with thy Infernal Sins; </l>
             <l>Murder and Piety cannot pass for Twins. </l>
           </sp>
-          <sp xml:id="ep000572-e20250">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e20250">
             <speaker>Tam. </speaker>
             <l>I urg'd their Power, but now defend their Justice. </l>
             <l>Impartial Heav'n, not robbing all the rest, </l>
@@ -2185,12 +2250,12 @@
             <l>Returns of Passion, Sighs and mutual Vows, </l>
             <l>Joys and Confessions of Intranced Lovers. </l>
           </sp>
-          <sp xml:id="ep000572-e20500">
+          <sp who="#ep000572-despina" xml:id="ep000572-e20500">
             <speaker>Desp. </speaker>
             <l>I'll keep thee for a greater punishment; </l>
             <l>Nor the slow Tortures of just Heaven prevent. </l>
           </sp>
-          <sp xml:id="ep000572-e20540">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e20540">
             <speaker>Tam. </speaker>
             <l>Assume Heav'ns power once more, and punish Laws, </l>
             <l>Correct the Crime of which you was the Cause: </l>
@@ -2205,18 +2270,18 @@
             <l>I'de leave the World, and dying boast </l>
             <l>That Pearl wou'd pay for Asia lost. </l>
           </sp>
-          <sp xml:id="ep000572-e20690">
+          <sp who="#ep000572-despina" xml:id="ep000572-e20690">
             <speaker>Desp. </speaker>
             <l>Who can believe so false, and ●iercea Creature, </l>
             <l>Transcendent Prince of Hypocrites! </l>
           </sp>
-          <sp xml:id="ep000572-e20730">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e20730">
             <speaker>Tam. </speaker>
             <l>She's greater, </l>
             <l>Who kills and tramples Mankind at her Feet, </l>
             <l>And yet appears so harmless and so sweet. </l>
           </sp>
-          <sp xml:id="ep000572-e20780">
+          <sp who="#ep000572-despina" xml:id="ep000572-e20780">
             <speaker>Desp. </speaker>
             <l>No, Tyrant, live; because I loath thy Offering; </l>
             <l>Repent, and wash thy Venom out with Tears: </l>
@@ -2226,7 +2291,7 @@
             <l>And Penitence prevails with Powers above: </l>
             <l>I can afford'my Pity, not my Love. </l>
           </sp>
-          <sp xml:id="ep000572-e20870">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e20870">
             <speaker>Tam. </speaker>
             <l>Then Life is given me, but Love deny'd! </l>
             <l>A wondrous motive for that daring Deed! </l>
@@ -2254,13 +2319,13 @@
             <l>And thou shalt call me Niggard when I have done, </l>
             <l>Unless I gain more Crowns to strow thy feet with. </l>
           </sp>
-          <sp xml:id="ep000572-e21150">
+          <sp who="#ep000572-despina" xml:id="ep000572-e21150">
             <speaker>Desp. </speaker>
             <l>Well, I'll consider twice, 'fore I undo Thee, </l>
             <l>And All the World, by this large Donative: </l>
             <l>If you are Real, you may hope for Love. </l>
           </sp>
-          <sp xml:id="ep000572-e21200">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e21200">
             <speaker>Tam. </speaker>
             <l>My Word on Earth, my Oath's a Law Above. </l>
           </sp>
@@ -2268,7 +2333,7 @@
           <stage xml:id="ep000572-e21240">The Scene the outside of the Fort. </stage>
           <stage xml:id="ep000572-e21250">Alarms, and Fighting behind the Scenes. </stage>
           <stage xml:id="ep000572-e21260">Enter Zeylan. </stage>
-          <sp xml:id="ep000572-e21270">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e21270">
             <speaker>Zey. </speaker>
             <l>All's lost; but thus far I've escap'd: 'Twere better </l>
             <l>T'have left all to the Mercy of Generous Tamerlane; </l>
@@ -2278,22 +2343,22 @@
             <stage xml:id="ep000572-e21360">Enter Six or Seven Soldiers. </stage>
             <l>Ha! what, surpriz'd! </l>
           </sp>
-          <sp xml:id="ep000572-e21380">
+          <sp who="#ep000572-soldier-i" xml:id="ep000572-e21380">
             <speaker>1 Sold. </speaker>
             <l>Stand, Traytor; yield. </l>
           </sp>
-          <sp xml:id="ep000572-e21410">
+          <sp who="#ep000572-soldier-ii" xml:id="ep000572-e21410">
             <speaker>2 Sold. </speaker>
             <l>Deliver. </l>
           </sp>
-          <sp xml:id="ep000572-e21440">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e21440">
             <speaker>Zey. </speaker>
             <l>Lives are not sold so cheaply. </l>
           </sp>
           <stage xml:id="ep000572-e21470">(Fights, and is disarm'd.) </stage>
           <stage xml:id="ep000572-e21480">
             <pb n="35" xml:id="ep000572-026-b"/>Enter Philarmia, Amazon-like disguis'd. </stage>
-          <sp xml:id="ep000572-e21500">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e21500">
             <speaker>Phil. </speaker>
             <l>What shall I do? there is no quarter given, </l>
             <l>My Zeylan will be slain! Cou'd I but meet him! </l>
@@ -2304,38 +2369,38 @@
             <l>Now, with a Fiction, will I try his Faith. </l>
             <l>Is your Name Zeylan? </l>
           </sp>
-          <sp xml:id="ep000572-e21630">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e21630">
             <speaker>Zey. </speaker>
             <l>Yes. </l>
           </sp>
-          <sp xml:id="ep000572-e21660">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e21660">
             <speaker>Phil. </speaker>
             <l>Then, Sir, you owe this Favor to a Lady, </l>
             <l>Whose Interest prevail'd above the Orders of the Emperor, </l>
             <l>The fair Irene; who commanded me </l>
             <l>To seek you out, and save you. </l>
           </sp>
-          <sp xml:id="ep000572-e21730">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e21730">
             <speaker>Zey. </speaker>
             <l>That life so spar'd, shall be enjoy'd no longer </l>
             <l>Than till she calls it back, and still employ'd </l>
             <l>In the most rigorous of her Commands. </l>
           </sp>
-          <sp xml:id="ep000572-e21780">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e21780">
             <speaker>Phil. </speaker>
             <l>But, Sir, such Favors come not, but on Terms: </l>
             <l>The Princess loves you. </l>
           </sp>
-          <sp xml:id="ep000572-e21820">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e21820">
             <speaker>Zey. </speaker>
             <l>It is her Mercy, sure, but not her Love. </l>
           </sp>
-          <sp xml:id="ep000572-e21850">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e21850">
             <speaker>Phil. </speaker>
             <l>No, no; she Loves you, and with Justice asks </l>
             <l>Your Love, without a Rival. </l>
           </sp>
-          <sp xml:id="ep000572-e21890">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e21890">
             <speaker>Zey. </speaker>
             <l>Nor is it fit, that so Divine a Princess </l>
             <l>Shou'd be the sharer only of a Herat, </l>
@@ -2347,13 +2412,13 @@
             <l>But Consecrated to one Deity: </l>
             <l>Love and Religion both admit no more. </l>
           </sp>
-          <sp xml:id="ep000572-e22000">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22000">
             <speaker>Phil. </speaker>
             <l>So, so; he yields: Oh, the perfidious Wretch! </l>
             <l>Then shall I bring her back the welcom message </l>
             <l>Of your true Love? </l>
           </sp>
-          <sp xml:id="ep000572-e22050">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22050">
             <speaker>Zey. </speaker>
             <l>That's too presumptuous; </l>
             <l>But of Gratitude, </l>
@@ -2362,31 +2427,31 @@
             <pb n="36" xml:id="ep000572-027-a"/>
             <l>From Desperate Obedience. </l>
           </sp>
-          <sp xml:id="ep000572-e22120">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22120">
             <speaker>Phil. </speaker>
             <l>Crafty Traytor! </l>
             <l>He dares not say he loves her; but 'tis plain. </l>
             <l>I'll probe him deeper: </l>
             <l>She hears you have a Mistress, call'd Philarmia. </l>
           </sp>
-          <sp xml:id="ep000572-e22190">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22190">
             <speaker>Zey. </speaker>
             <l>I had; but Heav'n alone can tell, if now I have her </l>
           </sp>
-          <sp xml:id="ep000572-e22220">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22220">
             <speaker>Phil. </speaker>
             <l>And did not she deserve your dearest Thoughts? </l>
           </sp>
-          <sp xml:id="ep000572-e22250">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22250">
             <speaker>Zey. </speaker>
             <l>She was, or is, what nothing can be more. </l>
           </sp>
-          <sp xml:id="ep000572-e22280">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22280">
             <speaker>Phil. </speaker>
             <l>And is this all? False Man! Now to the quick. </l>
             <l>You must renounce her, or your Life: Be brief. </l>
           </sp>
-          <sp xml:id="ep000572-e22320">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22320">
             <speaker>Zey. </speaker>
             <l>Renounce her! What, shall I renounce the Gods, </l>
             <l>Forswear Eternal Joys, and blessed Mansions, </l>
@@ -2403,31 +2468,31 @@
             <l>Shall force me to abjure such glorious hopes, </l>
             <l>Or turn Apostate to Divine Philarmia. </l>
           </sp>
-          <sp xml:id="ep000572-e22490">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22490">
             <speaker>Phil. </speaker>
             <l>Then take thy Life, and thy Philarmia too, </l>
             <stage xml:id="ep000572-e22530">[Discovers her self. </stage>
             <l>Thou justest, dearest Soul. </l>
           </sp>
-          <sp xml:id="ep000572-e22550">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22550">
             <speaker>Zey. </speaker>
             <l>Blest Image! art thou here? Oh, may I trust </l>
             <l>My Senses, or thy Word? My dear Deceiver! </l>
             <l>Dear, desperate self-destroyer! </l>
           </sp>
-          <sp xml:id="ep000572-e22600">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22600">
             <speaker>Phil. </speaker>
             <l>But thy Preserver. </l>
             <l>Why, did not I foresee that I shou'd save thee? </l>
             <l>Which is the better Soldier now? </l>
           </sp>
-          <sp xml:id="ep000572-e22650">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22650">
             <speaker>Zey. </speaker>
             <l>Philarmia. </l>
             <l>Oh thou art full of Fame; thou may'st retire </l>
             <l>Like a rich lazy General. </l>
           </sp>
-          <sp xml:id="ep000572-e22710">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22710">
             <speaker>Phil. </speaker>
             <l>I'll consider; </l>
             <l>But here's no time to pour our Passions out, </l>
@@ -2439,12 +2504,12 @@
             <l>I'll take my leave of the Victorious World, </l>
             <l>To share in thy Distresses. </l>
           </sp>
-          <sp xml:id="ep000572-e22810">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22810">
             <speaker>Zey. </speaker>
             <l>Stay a little: </l>
             <l>Oh, stay awhile. Who knows when we shall meet? </l>
           </sp>
-          <sp xml:id="ep000572-e22850">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e22850">
             <speaker>Phil. </speaker>
             <l>Lovers, in absence, have delights peculiar: </l>
             <l>If nought but what is present gives us Pleasure, </l>
@@ -2455,7 +2520,7 @@
             <l>Then bless thy self with Hope, sweetest of Passions, </l>
             <l>Which Absence gives us, Presence robs us of. </l>
           </sp>
-          <sp xml:id="ep000572-e22950">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e22950">
             <speaker>Zeyl. </speaker>
             <l>Feed me not with imaginary Joys. </l>
             <l>The envious World, with its ill-natur'd Tricks, </l>
@@ -2465,7 +2530,7 @@
             <l>Lest they should slight eternal Happiness. </l>
             <l>Oh, let us part no more! how can I leave thee? </l>
           </sp>
-          <sp xml:id="ep000572-e23040">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e23040">
             <speaker>Phil. </speaker>
             <l>Well, well, then I'm content; let me be caught </l>
             <l>In conference with thee; let me be slaughter'd, </l>
@@ -2473,14 +2538,14 @@
             <l>Come let's begin to talk. </l>
           </sp>
           <stage xml:id="ep000572-e23110">[Trumpets sound. </stage>
-          <sp xml:id="ep000572-e23120">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e23120">
             <speaker>Zey. </speaker>
             <l>Oh, hark, the Trumpet! Hast thou hence like Lightning▪ </l>
             <l>Why should I make thee lose thy precious Life, </l>
             <l>For saving mine? Farewel, Farewel, my Dearest: </l>
             <l>If I go with thee, we shall both be slain. </l>
           </sp>
-          <sp xml:id="ep000572-e23180">
+          <sp who="#ep000572-philarmia" xml:id="ep000572-e23180">
             <speaker>Phil. </speaker>
             <l>Parting, or Death, which is the greater Pain? </l>
           </sp>
@@ -2500,7 +2565,7 @@
             <l>Death, the close Waiter, takes away. </l>
             <l>Count Griefs, &amp;c. </l>
           </lg>
-          <sp xml:id="ep000572-e23380">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e23380">
             <speaker>Tam. </speaker>
             <l>Now, Madam, I'm in Heav'n, my Soul rides high, </l>
             <l>And treads th' unyielding Air: nothing can sink </l>
@@ -2516,13 +2581,13 @@
             <l>They fled the feeling: now, my Soul runs over, </l>
             <l>I am all Joy, all Plenty, all Abundance. </l>
           </sp>
-          <sp xml:id="ep000572-e23530">
+          <sp who="#ep000572-despina" xml:id="ep000572-e23530">
             <speaker>Desp. </speaker>
             <l>But these imagin'd Joys may come far short </l>
             <l>Of expectation, cloy you to repentance; </l>
             <l>And then you'l curse th'inchantress, and the Syren. </l>
           </sp>
-          <sp xml:id="ep000572-e23590">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e23590">
             <speaker>Tam. </speaker>
             <l>Oh, never, never; I cou'd gaze away </l>
             <l>My Life, upon these over-powring Charms, </l>
@@ -2536,7 +2601,7 @@
             <l>Drawn betwixt Love and Beauty, that's Recorded </l>
             <l>In the Eternal Registers, be cancel'd? </l>
           </sp>
-          <sp xml:id="ep000572-e23720">
+          <sp who="#ep000572-despina" xml:id="ep000572-e23720">
             <speaker>Desp. </speaker>
             <l>I have, Sir; but you'l think it is too much </l>
             <l>To grant: Alass! my humble, worthless Person </l>
@@ -2546,18 +2611,18 @@
             <l>So kind, so rash a Vow? You only meant </l>
             <l>To Conquer and delude a credulous Woman. </l>
           </sp>
-          <sp xml:id="ep000572-e23800">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e23800">
             <speaker>Tam. </speaker>
             <l>By all the Oaths that I have sworn before, </l>
             <l>And, if thou urgest, by ten Thousand more, </l>
             <l>There's nothing in my power that I'll resuse thee. </l>
           </sp>
-          <sp xml:id="ep000572-e23850">
+          <sp who="#ep000572-despina" xml:id="ep000572-e23850">
             <speaker>Desp. </speaker>
             <l>Then, Sir, deliver up to me your Daughter </l>
             <l>Bound in Chains; your dear, and fair Irene. </l>
           </sp>
-          <sp xml:id="ep000572-e23900">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e23900">
             <speaker>Tam. </speaker>
             <l>My Daughter, bound in Chains! She is no Thief, </l>
             <l>Nor Murderer: what Offence has she committed </l>
@@ -2576,7 +2641,7 @@
             <l>What is she guilty of, that can deserve </l>
             <l>Such Ignominious, fatal reparation? </l>
           </sp>
-          <sp xml:id="ep000572-e24110">
+          <sp who="#ep000572-despina" xml:id="ep000572-e24110">
             <speaker>Desp. </speaker>
             <l>I see, great Monarchs can dispence with Vows; </l>
             <l>Such Fetters are not made for boundless Souls. </l>
@@ -2584,7 +2649,7 @@
             <l>Live long, and fortunate, without Despina. </l>
             <stage xml:id="ep000572-e24180">[Exit. </stage>
           </sp>
-          <sp xml:id="ep000572-e24190">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e24190">
             <speaker>Tam. </speaker>
             <l>Ha! what a change is this? How soon my Joy's </l>
             <l>Unravel'd, and my Soul from topmost Stories </l>
@@ -2614,11 +2679,11 @@
             <stage xml:id="ep000572-e24470">[Exit. </stage>
           </sp>
           <stage xml:id="ep000572-e24480">An Astrologer, <hi>Axalla, Irene</hi>, a Captain. Thunder, Lightning, Rainbows inverted, a bloody Arm, Comet, &amp;c. </stage>
-          <sp xml:id="ep000572-e24510">
+          <sp who="#ep000572-irene" xml:id="ep000572-e24510">
             <speaker>Iren. </speaker>
             <l>Oh Heav'ns, the dreadful sight! 'Tis Doomsday coming! </l>
           </sp>
-          <sp xml:id="ep000572-e24540">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e24540">
             <speaker>Ax. </speaker>
             <l>Ha! Nocturnal Rainbows! Inverted too! </l>
             <l>Reflexions answering not the form of Luminous Bodies, </l>
@@ -2627,18 +2692,18 @@
             <l>To give the World glossie but fading Reasons: </l>
             <l>Nature this day has made a Fool of Art. </l>
           </sp>
-          <sp xml:id="ep000572-e24620">
+          <sp who="#ep000572-captains" xml:id="ep000572-e24620">
             <speaker>Cap. </speaker>
             <l>Methinks the Sky wears a more gaudy Dress </l>
             <l>Than her old glistering Garniture of Stars; </l>
             <l>There is some mighty Revel sure above: </l>
             <l>Hark how they stamp, as if they were dancing Jigs! </l>
           </sp>
-          <sp xml:id="ep000572-e24680">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e24680">
             <speaker>Ax. </speaker>
             <l>How dare you make such Comments on these Wonders? </l>
           </sp>
-          <sp xml:id="ep000572-e24710">
+          <sp who="#ep000572-captains" xml:id="ep000572-e24710">
             <speaker>Cap. </speaker>
             <l>Faith, Innocence is fearless, as 'tis free; </l>
             <l>Tho the Frame crack, the Splinters shall not fright me. </l>
@@ -2647,16 +2712,16 @@
             <l>Let slip some weighty Globe through careless Fingers, </l>
             <l>Upon this Head; the Accident's prepar'd for. </l>
           </sp>
-          <sp xml:id="ep000572-e24790">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e24790">
             <speaker>Ax. </speaker>
             <l>Well said, brave youth, if with respect to Heav'n. </l>
             <l>Ha! what means this? A bloody Hand, and Writing! </l>
           </sp>
-          <sp xml:id="ep000572-e24830">
+          <sp who="#ep000572-captains" xml:id="ep000572-e24830">
             <speaker>Cap. </speaker>
             <l>Scriveners in Heav'n! then there's some hopes for Usurers. </l>
           </sp>
-          <sp xml:id="ep000572-e24860">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e24860">
             <speaker>Ax. </speaker>
             <l>The hand of Heav'n is drawing some Indentures, </l>
             <pb xml:id="ep000572-029-b"/>
@@ -2667,30 +2732,30 @@
             <l>Pray, Sir your Judgement: 'Tis an Ancient Hand, </l>
             <l>I cannot read. </l>
           </sp>
-          <sp xml:id="ep000572-e24930">
+          <sp who="#ep000572-astrologer" xml:id="ep000572-e24930">
             <speaker>Astro. </speaker>
             <l>No wonder, Sir; 't has not been us'd </l>
             <l>In China these ten Thousand years. </l>
           </sp>
-          <sp xml:id="ep000572-e24980">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e24980">
             <speaker>Ax. </speaker>
             <l>Noble Tradition! </l>
           </sp>
-          <sp xml:id="ep000572-e25010">
+          <sp who="#ep000572-astrologer" xml:id="ep000572-e25010">
             <speaker>Astro. </speaker>
             <l>But the Words are these, <hi>Kiungsi Honan</hi>; </l>
             <l>Which is Interpreted, <hi>Death, Division</hi>: </l>
             <l>Some Great Man dyes, and leaves his vast Dominions </l>
             <l>To dubious Heirs. </l>
           </sp>
-          <sp xml:id="ep000572-e25090">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e25090">
             <speaker>Ax. </speaker>
             <l>Nothing more likely, Sir; </l>
             <l>He that grasps more than's Handful, loses all. </l>
             <l>A lucky Guess turns to a Prophesie. </l>
           </sp>
           <stage xml:id="ep000572-e25140">Enter Tamerlane. </stage>
-          <sp xml:id="ep000572-e25160">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e25160">
             <speaker>Tam. </speaker>
             <l>I've urg'd to have my Sentence chang'd in vain, </l>
             <l>Told her the Truth, but why should she believe me? </l>
@@ -2713,7 +2778,7 @@
             <l>The Jewel of your Crown, and put an end </l>
             <l>With my own hands to this Inglorious Life. </l>
           </sp>
-          <sp xml:id="ep000572-e25390">
+          <sp who="#ep000572-irene" xml:id="ep000572-e25390">
             <speaker>Ire. </speaker>
             <l>Strange Sights i'th' Air, they say, foretel great Changes▪ </l>
             <l>What, will these Rebels never make an end? </l>
@@ -2728,22 +2793,22 @@
             <l>And give it back to others. Why might not less </l>
             <l>Than all the World serve one Man's turn? </l>
           </sp>
-          <sp xml:id="ep000572-e25520">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e25520">
             <speaker>Tam. </speaker>
             <l>How wisely thou dost weigh the Trifles of the World! </l>
           </sp>
-          <sp xml:id="ep000572-e25550">
+          <sp who="#ep000572-irene" xml:id="ep000572-e25550">
             <speaker>Ire. </speaker>
             <l>And now you sigh, the Earth lies heavy on you: </l>
             <l>Conquer no more; or let the weighty Ball </l>
             <l>Roll off, as it came on. </l>
           </sp>
-          <sp xml:id="ep000572-e25600">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e25600">
             <speaker>Tam. </speaker>
             <l>Oh, my Irene! </l>
             <l>'Tis thou dost cause my Grief, my dear disturber. </l>
           </sp>
-          <sp xml:id="ep000572-e25650">
+          <sp who="#ep000572-irene" xml:id="ep000572-e25650">
             <speaker>Ire. </speaker>
             <l>Alass! wherein have I offended you? </l>
             <l>Perhaps, my want of Duty was the cause; </l>
@@ -2756,7 +2821,7 @@
             <l>Be not to love you; then I love you not. </l>
           </sp>
           <stage xml:id="ep000572-e25760">[Weeps. </stage>
-          <sp xml:id="ep000572-e25770">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e25770">
             <speaker>Tam. </speaker>
             <l>Ah, cruel Girl, begon, I cannot bear thee, </l>
             <l>For every look from thee strikes Death into me: </l>
@@ -2766,16 +2831,16 @@
             <l>Racks my poor Soul, and cuts me up alive, </l>
             <l>And tears my Bowels out before my Face! </l>
           </sp>
-          <sp xml:id="ep000572-e25860">
+          <sp who="#ep000572-irene" xml:id="ep000572-e25860">
             <speaker>Iren. </speaker>
             <l>Good Sir, what moves you to this fatal sadness? </l>
           </sp>
-          <sp xml:id="ep000572-e25890">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e25890">
             <speaker>Tam. </speaker>
             <l>Ah! were it fit that thou should'st know my Sorrows, </l>
             <l>Yet Children should not know their Parents Shame. </l>
           </sp>
-          <sp xml:id="ep000572-e25930">
+          <sp who="#ep000572-irene" xml:id="ep000572-e25930">
             <speaker>Ire. </speaker>
             <l>I know your Troubles, and have heard your Vow, </l>
             <l>And I can satisfie your nicest Scruples: </l>
@@ -2790,12 +2855,12 @@
             <l>To Heav'n, and Earth: Injuries are Rewards </l>
             <l>When they are begg'd for. </l>
           </sp>
-          <sp xml:id="ep000572-e26070">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26070">
             <speaker>Tam. </speaker>
             <l>Greater then wou'd be </l>
             <l>Thy kindness, and my shame, shou'd I desert thee. </l>
           </sp>
-          <sp xml:id="ep000572-e26110">
+          <sp who="#ep000572-irene" xml:id="ep000572-e26110">
             <speaker>Ire. </speaker>
             <l>But, Sir, consider how the World's Amaz'd, </l>
             <l>And Nature's frighted, to see you disorder'd: </l>
@@ -2806,7 +2871,7 @@
             <l>From your great Soul, if mine can stop its passage </l>
             <l>To other Orbs, and make the Earth my Debtor? </l>
           </sp>
-          <sp xml:id="ep000572-e26210">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26210">
             <speaker>Tam. </speaker>
             <l>So young, so wise! Why sure thou art Inspir'd; </l>
             <l>Thy Soul's upon the Wing, and sees much farther, </l>
@@ -2814,7 +2879,7 @@
             <l>Ill Omen of thy Fate: Thy Soul's too ripe </l>
             <l>To stay long in the Shell. Oh, now I fear thee. </l>
           </sp>
-          <sp xml:id="ep000572-e26280">
+          <sp who="#ep000572-irene" xml:id="ep000572-e26280">
             <speaker>Ire. </speaker>
             <l>What if I might have liv'd some harmless years </l>
             <l>Of Ignorance, and Youth? Yet if you please </l>
@@ -2826,7 +2891,7 @@
             <l>To pay a debt which you contracted for me; </l>
             <l>Let me be just to Nature, if not you. </l>
           </sp>
-          <sp xml:id="ep000572-e26390">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26390">
             <speaker>Tam. </speaker>
             <l>No more, no more sweet merciful Redeemer▪ </l>
             <l>Why art thou come to scrue up my A●●ctions? </l>
@@ -2843,26 +2908,26 @@
           </sp>
           <stage xml:id="ep000572-e26530">[Exeunt. </stage>
           <stage xml:id="ep000572-e26540">Re-enter Tamerlane, with Axalla. </stage>
-          <sp xml:id="ep000572-e26570">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26570">
             <speaker>Tam. </speaker>
             <l>In what condition is the Enemy? </l>
           </sp>
-          <sp xml:id="ep000572-e26600">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e26600">
             <speaker>Ax. </speaker>
             <l>Now you speak like your self, a watchful Monarch. </l>
           </sp>
-          <sp xml:id="ep000572-e26630">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26630">
             <speaker>Tam. </speaker>
             <l>May not Prince Zeylan once again surprize us, </l>
             <l>Before the general Assault be given? </l>
           </sp>
-          <sp xml:id="ep000572-e26680">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e26680">
             <speaker>Ax. </speaker>
             <l>He may, Sir; but I have intrench'd the Army </l>
             <l>With greater safety, doubled all the Guards </l>
             <l>About your sacred Person. </l>
           </sp>
-          <sp xml:id="ep000572-e26730">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26730">
             <speaker>Tam. </speaker>
             <l>Wondrous well. </l>
             <l>But then give order strait to all the Rounds </l>
@@ -2872,7 +2937,7 @@
             <l>Secureness, more than Cowardise, betrays. </l>
             <stage xml:id="ep000572-e26810">[Exit. </stage>
           </sp>
-          <sp xml:id="ep000572-e26820">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e26820">
             <speaker>Ax. </speaker>
             <l>And yet, pray Heav'n he meditate no mischief </l>
             <l>In mighty Souls, Passion's not soon supprest: </l>
@@ -2887,7 +2952,7 @@
         <div n="4" type="act_and_scene" xml:id="ep000572-e26920">
           <head>ACT. IV. SCENE I. </head>
           <stage xml:id="ep000572-e26940">A Guard of Musquetiers: Axalla and Irene behind Enter Tamerlane, disguis'd. </stage>
-          <sp xml:id="ep000572-e26980">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e26980">
             <speaker>Tam. </speaker>
             <l>SLave to my Passions, Scandal to my self </l>
             <l>Here stand the 〈◊〉 of great Tamerlane, </l>
@@ -2914,23 +2979,23 @@
             <l>And this form pleases best, a comlier shape </l>
             <l>Of Death. </l>
           </sp>
-          <sp xml:id="ep000572-e27240">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e27240">
             <speaker>Ax. </speaker>
             <l>'Tis as I guess'd; I know 'tis he, by his Majestie Mee●● </l>
             <l>His piercing Eyes that use to strike Men speechless; </l>
             <l>Tho Suns are Clouded, yet the Day-light shows </l>
             <l>When they're ascended in our Hemisphere. </l>
           </sp>
-          <sp xml:id="ep000572-e27300">
+          <sp who="#ep000572-irene" xml:id="ep000572-e27300">
             <speaker>Ire. </speaker>
             <l>Oh Heav'ns! It is the Emperor: I'll go to him. </l>
           </sp>
-          <sp xml:id="ep000572-e27330">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e27330">
             <speaker>Ax. </speaker>
             <l>Oh, by no means, I've told the the Guards already. </l>
           </sp>
           <stage xml:id="ep000572-e27360">Enter Zeylan disguiz'd. </stage>
-          <sp xml:id="ep000572-e27380">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e27380">
             <speaker>Zey. </speaker>
             <l>I hope 'tis not too late, tho time is precious; </l>
             <l>Now my Philarmia's acting her last part; </l>
@@ -2953,7 +3018,7 @@
             <l>Her Death by the Confusion, tho I lose </l>
             <l>My Life to do't, or perish all together. </l>
           </sp>
-          <sp xml:id="ep000572-e27610">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e27610">
             <speaker>Tam. </speaker>
             <l>All my Commands are lost, there's none will shoot: </l>
             <l>I, whom so many Millions late obey'd, </l>
@@ -2963,26 +3028,26 @@
             <l>To the Coward Tamerlane: Now I cou'd wish </l>
             <l>For raging Bajazet, to be my Orator. </l>
           </sp>
-          <sp xml:id="ep000572-e27720">
+          <sp who="#ep000572-soldier-i" xml:id="ep000572-e27720">
             <speaker>1 Sold. </speaker>
             <l>'Tis the Emperor, as the General told us. </l>
           </sp>
-          <sp xml:id="ep000572-e27750">
+          <sp who="#ep000572-soldier-ii" xml:id="ep000572-e27750">
             <speaker>2 Sold. </speaker>
             <l>My Life, 'tis he by's Voice; Camrade, my Powder's wet. </l>
           </sp>
-          <sp xml:id="ep000572-e27780">
+          <sp who="#ep000572-soldier-iii" xml:id="ep000572-e27780">
             <speaker>3 Sold. </speaker>
             <l>And my hand shakes, I cannot hold my Arms. </l>
           </sp>
-          <sp xml:id="ep000572-e27810">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e27810">
             <speaker>Tam. </speaker>
             <l>What, Am I yet contemn'd? Slaves, Cowards, Dogs, </l>
             <l>Whom do you guard here, wand'ring Tamerlane, </l>
             <l>That Renegade, Cut-throat, glorious Thief, </l>
             <l>Whom Fortune meant the Gallows, gave the Throne to? </l>
           </sp>
-          <sp xml:id="ep000572-e27880">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e27880">
             <speaker>Zey. </speaker>
             <l>What a bold Fellow's this, that rails against </l>
             <l>His Prince, and no man shoots him? sure 'tis some </l>
@@ -2991,28 +3056,28 @@
             <l>This Fellow may assist in my design. </l>
           </sp>
           <stage xml:id="ep000572-e27960">(Goes up to Tam. </stage>
-          <sp xml:id="ep000572-e27980">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e27980">
             <speaker>Tam. </speaker>
             <l>Ha! a Spy o'th'Enemy's! </l>
           </sp>
-          <sp xml:id="ep000572-e28010">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28010">
             <speaker>Zey. </speaker>
             <l>Methinks, I see </l>
             <l>Some discontent writ on thy brow: Art thou </l>
             <l>So weary of thy Life, to rail upon </l>
             <l>The Emperor to his Guards? </l>
           </sp>
-          <sp xml:id="ep000572-e28070">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28070">
             <speaker>Tam. </speaker>
             <l>I, that I am: </l>
             <l>And I would have him kill'd. </l>
           </sp>
-          <sp xml:id="ep000572-e28110">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28110">
             <speaker>Zey. </speaker>
             <l>And so wou'd I, </l>
             <l>For stronger Reasons, cou'd I pass his Guards. </l>
           </sp>
-          <sp xml:id="ep000572-e28150">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28150">
             <speaker>Tam. </speaker>
             <l>Merciful Providence that brought thee hither, </l>
             <l>My dear chance Friend! </l>
@@ -3025,11 +3090,11 @@
             <l>To ease a Wretch opprest, </l>
             <l>And groaning under Loads of weighty Sorrows. </l>
           </sp>
-          <sp xml:id="ep000572-e28260">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28260">
             <speaker>Zey. </speaker>
             <l>Why shou'd I kill an Innocent that ne'r provok'd me? </l>
           </sp>
-          <sp xml:id="ep000572-e28290">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28290">
             <speaker>Tam. </speaker>
             <l>Alass, I'm not so harmless; </l>
             <l>I have done many vile and barbarous Murders, </l>
@@ -3037,11 +3102,11 @@
             <l>Here stands the Man, that has destroy'd more of </l>
             <l>Mankind, than ever Mortal did, since the Creation. </l>
           </sp>
-          <sp xml:id="ep000572-e28360">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28360">
             <speaker>Zey. </speaker>
             <l>Alass, poor Frantic Wretch! </l>
           </sp>
-          <sp xml:id="ep000572-e28390">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28390">
             <speaker>Tam. </speaker>
             <l>Mistake me not, I've been a General, </l>
             <l>And am guilty of all Crimes, committed </l>
@@ -3053,11 +3118,11 @@
             <l>We murder Thousands that did ne'r provoke us </l>
             <l>With wrongful Deed, or Sharper Contumelies. </l>
           </sp>
-          <sp xml:id="ep000572-e28500">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28500">
             <speaker>Zey. </speaker>
             <l>In that thou hast some Reason. </l>
           </sp>
-          <sp xml:id="ep000572-e28530">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28530">
             <speaker>Tam. </speaker>
             <l>Nay, lately I have done the most abhorr'd● </l>
             <l>And Hellish Act, that History e'r spoke of: </l>
@@ -3068,18 +3133,18 @@
             <l>Some great Heroic mischief, </l>
             <l>The lovely Death-stroke? </l>
           </sp>
-          <sp xml:id="ep000572-e28630">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28630">
             <speaker>Zey. </speaker>
             <l>Alass, I pity thee; </l>
             <l>And have no cognizance of these thy Crimes, </l>
             <l>Half wash'd away by Penitence. </l>
           </sp>
-          <sp xml:id="ep000572-e28680">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28680">
             <speaker>Tam. </speaker>
             <l>Well then, </l>
             <l>Suppose that I was Tamerlane; wou'dst thou not kill me? </l>
           </sp>
-          <sp xml:id="ep000572-e28730">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28730">
             <speaker>Zey. </speaker>
             <l>I, that I wou'd, with much more eager hast </l>
             <l>Than quench my Thirst with Nectar, or my Love </l>
@@ -3087,19 +3152,19 @@
             <l>Whom above all my longing Soul holds dearest; </l>
             <l>Lov'd at first sight, and never after chang'd. </l>
           </sp>
-          <sp xml:id="ep000572-e28830">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28830">
             <pb n="48" xml:id="ep000572-034-a"/>
             <speaker>Tam. </speaker>
             <l>I see 'tis Love that makes us Madmen all. </l>
             <l>Then I am Tamerlane, the Terror of the World. </l>
           </sp>
-          <sp xml:id="ep000572-e28880">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e28880">
             <speaker>Zey. </speaker>
             <l>Rather it's Scorn, or Pity. Alass, poor Madman! </l>
             <l>Wrought up by idle Fumes t'affect to dye </l>
             <l>For such a Mighty Monarch. </l>
           </sp>
-          <sp xml:id="ep000572-e28930">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e28930">
             <speaker>Tam. </speaker>
             <l>I tell thee, I </l>
             <l>Am he; the Wrath of Heav'n, the Scourge of Mortals: </l>
@@ -3111,18 +3176,18 @@
             <l>And all for Glory, damn'd eternal Fame. </l>
             <l>Take thy Revenge. </l>
           </sp>
-          <sp xml:id="ep000572-e29040">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e29040">
             <speaker>Zey. </speaker>
             <l>Vain Madman, hold thy Peace. </l>
           </sp>
-          <sp xml:id="ep000572-e29070">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e29070">
             <speaker>Tam. </speaker>
             <l>Why then, by Mahomet, I am. Zey. Falsly. </l>
             <l>Thou swear'st by thy false Prophet, who can take </l>
             <l>No Vengeance for thy Perjury, nor hears it: </l>
             <l>Nor will I e'r believe thee. </l>
           </sp>
-          <sp xml:id="ep000572-e29150">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e29150">
             <speaker>Tam. </speaker>
             <l>
               <stage xml:id="ep000572-e29180">aside. </stage>Double Infidel: </l>
@@ -3136,7 +3201,7 @@
             <l>And then a way for thee t'escape when thou </l>
             <l>Hast kill'd him: Will that merit Thanks, or Friendship? </l>
           </sp>
-          <sp xml:id="ep000572-e29290">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e29290">
             <speaker>Zey. </speaker>
             <l>Why, now thou speak'st: and cou'dst thou make it good, </l>
             <l>Were I the greatest Man that trod on Earth, </l>
@@ -3145,11 +3210,11 @@
             <l>I wou'd Depose my self, to be thy Slave, </l>
             <l>And lick the Dust before thee. </l>
           </sp>
-          <sp xml:id="ep000572-e29370">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e29370">
             <speaker>Tam, </speaker>
             <l>If I betray thee, Heav'n revenge the Falshood. </l>
           </sp>
-          <sp xml:id="ep000572-e29400">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e29400">
             <speaker>Zey. </speaker>
             <l>Come then, my perjur'd Madman, I will trust thee, </l>
             <l>And thou shalt Steer me in this unknown Coast; </l>
@@ -3158,13 +3223,13 @@
           <stage xml:id="ep000572-e29460">[Exeunt. </stage>
           <stage xml:id="ep000572-e29470">
             <pb n="49" xml:id="ep000572-034-b"/>Enter Ragalzan, Despina. </stage>
-          <sp xml:id="ep000572-e29490">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e29490">
             <speaker>Rag. </speaker>
             <l>This was a rare request, a Master-piece of Malice: </l>
             <l>There's nothing but a Woman cou'd have thought on't. </l>
             <l>How cou'd you work him to this height? </l>
           </sp>
-          <sp xml:id="ep000572-e29540">
+          <sp who="#ep000572-despina" xml:id="ep000572-e29540">
             <speaker>Desp. </speaker>
             <l>With ease: </l>
             <l>Lovers will wind themselves by Words to Passion, </l>
@@ -3175,20 +3240,20 @@
             <l>Such monstrous Oaths, such wild and Impious Offers, </l>
             <l>The Gods might be asham'd to be so Hector'd. </l>
           </sp>
-          <sp xml:id="ep000572-e29640">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e29640">
             <speaker>Rag. </speaker>
             <l>Oh, good, good, good! But did not he deny </l>
             <l>What he affirm'd, as soon as he had heard </l>
             <l>Your Admirable Suit? </l>
           </sp>
-          <sp xml:id="ep000572-e29690">
+          <sp who="#ep000572-despina" xml:id="ep000572-e29690">
             <speaker>Desp. </speaker>
             <l>Oh, yes, most fiercely. </l>
             <l>But cou'd I think such mean things of a Hero, </l>
             <l>A double Caesar, Triple Alexander? </l>
             <l>And you had told me all the Truth before. </l>
           </sp>
-          <sp xml:id="ep000572-e29770">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e29770">
             <speaker>Rag. </speaker>
             <l>It was too true. How cou'd he be secure </l>
             <l>Had Bajazet escap'd? The Turkish Garrisons </l>
@@ -3202,13 +3267,13 @@
             <l>They all shall find it Lawful, and require him </l>
             <l>To offer up his Daughter. </l>
           </sp>
-          <sp xml:id="ep000572-e29950">
+          <sp who="#ep000572-despina" xml:id="ep000572-e29950">
             <speaker>Desp. </speaker>
             <l>That's enough: </l>
             <l>Let me alone to give the fatal Period. </l>
             <l>But how does he digest this Compound Passion? </l>
           </sp>
-          <sp xml:id="ep000572-e30000">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e30000">
             <speaker>Rag. </speaker>
             <l>I come not near him; but he raves Divinely: </l>
             <l>Love and Ambition fiercely sight within him; </l>
@@ -3218,13 +3283,13 @@
             <l>Then both go to't again, and fight for ever; </l>
             <l>Those Mastiffs are too keen to loose their hold. </l>
           </sp>
-          <sp xml:id="ep000572-e30080">
+          <sp who="#ep000572-despina" xml:id="ep000572-e30080">
             <speaker>Desp. </speaker>
             <l>Oh, thou refreshest me with chearful Sounds, </l>
             <l>With all the Music of sublime Revenge! </l>
             <l>Oh, thou hast given me Spirit of Joy to drink! </l>
           </sp>
-          <sp xml:id="ep000572-e30130">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e30130">
             <speaker>Rag. </speaker>
             <l>Nay, then take t' other Dram. His pretty Daughter </l>
             <l>Came to him since, and with her innocent Prate </l>
@@ -3232,17 +3297,17 @@
             <l>And told his passion to the gaping Army: </l>
             <l>And wou'd have kill'd himself, if not prevented. </l>
           </sp>
-          <sp xml:id="ep000572-e30200">
+          <sp who="#ep000572-despina" xml:id="ep000572-e30200">
             <speaker>Desp. </speaker>
             <l>I wou'd have hindred him: I wou'd not have him dye </l>
             <l>So unprepar'd, </l>
             <l>His Life and Fame shall perish both together. </l>
           </sp>
-          <sp xml:id="ep000572-e30250">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e30250">
             <speaker>Rag. </speaker>
             <l>But yet some easier way might have been found. </l>
           </sp>
-          <sp xml:id="ep000572-e30280">
+          <sp who="#ep000572-despina" xml:id="ep000572-e30280">
             <speaker>Desp. </speaker>
             <l>This is the nobler method. </l>
             <l>I'll wound him in his Fame, his tender'st part, </l>
@@ -3264,14 +3329,14 @@
             <l>Pray give me an account of all proceedings, </l>
             <l>That we may feast our selves on his Afflictions. </l>
           </sp>
-          <sp xml:id="ep000572-e30510">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e30510">
             <speaker>Rag. </speaker>
             <l>I will not lose my share of the least morsel. </l>
           </sp>
           <stage xml:id="ep000572-e30540">[Exeunt. </stage>
           <stage xml:id="ep000572-e30550">
             <pb n="51" xml:id="ep000572-035-b"/>Tamerlane in his Pavilion: Princes and Servants about him. </stage>
-          <sp xml:id="ep000572-e30570">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e30570">
             <speaker>Tam. </speaker>
             <l>
               <stage xml:id="ep000572-e30600">giving a Ring to one of his Guards. </stage>Go tell the Countryman, that sits without </l>
@@ -3287,13 +3352,13 @@
             <l>Then gives them blows in jest, that smart in earnest. </l>
           </sp>
           <stage xml:id="ep000572-e30720">Enter Guard, with Zeylan disguis'd. </stage>
-          <sp xml:id="ep000572-e30740">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e30740">
             <speaker>Zey. </speaker>
             <l>Am I betray'd, or no? Here stands the Prince; </l>
             <l>But where's my Guide, I know not! 'Tis no matter, </l>
             <l>I'll make a bold Attack, and lose my Life in't. </l>
           </sp>
-          <sp xml:id="ep000572-e30790">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e30790">
             <speaker>Tam. </speaker>
             <l>Let all withdraw, and leave me with this Stranger. </l>
             <l>Come, Friend, draw nearer, view me more exactly, </l>
@@ -3301,20 +3366,20 @@
             <l>Has kept his Word. Am I forsworn, or no? </l>
             <l>Am not I Tamerlane? </l>
           </sp>
-          <sp xml:id="ep000572-e30870">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e30870">
             <speaker>Zey. </speaker>
             <l>Death, 'tis the same; </l>
             <l>Shining in all his Glory! What means this Riddle? </l>
           </sp>
-          <sp xml:id="ep000572-e30910">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e30910">
             <speaker>Tam. </speaker>
             <l>Nay, fear not to come near me. </l>
           </sp>
-          <sp xml:id="ep000572-e30940">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e30940">
             <speaker>Zey. </speaker>
             <l>'Tis not Fear, but Wonder. </l>
           </sp>
-          <sp xml:id="ep000572-e30970">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e30970">
             <speaker>Tam. </speaker>
             <l>Here, take this Dagger, strike this open Brest; </l>
             <l>But yet, before you do this welcom Act, </l>
@@ -3329,14 +3394,14 @@
             <l>If thou get'st clear from hence, thou hast enough </l>
             <l>To purchase thee a Kingdom. </l>
           </sp>
-          <sp xml:id="ep000572-e31120">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e31120">
             <speaker>Zey. </speaker>
             <l>Sure Fame has </l>
             <l>Not flatter'd him: he's a Man of wond'rous Virtue! </l>
             <l>But Thrones are not exempt from fatal Sorrows. </l>
             <l>Can I consent to kill my Benefactor? </l>
           </sp>
-          <sp xml:id="ep000572-e31180">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e31180">
             <speaker>Tam. </speaker>
             <l>There's nothing thou canst do, that can deserve </l>
             <l>So great Rewards, but this. Alass! I'm weary </l>
@@ -3346,26 +3411,26 @@
             <l>Nor ever sent a sad Man from my presence; </l>
             <l>And shall I be deny'd so small, so just a Favor? </l>
           </sp>
-          <sp xml:id="ep000572-e31270">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e31270">
             <speaker>Zey. </speaker>
             <l>My Vengeance fails me. Most Heroic Prince, </l>
             <l>I cannot guide this Dagger to your Brest; </l>
             <l>I beg but one Request, in satisfaction </l>
             <l>Of all the Wrongs, the World, or you have done me. </l>
           </sp>
-          <sp xml:id="ep000572-e31330">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e31330">
             <speaker>Tam. </speaker>
             <l>Refuse not this to me, and I'll refuse thee </l>
             <l>Nothing, that my unbounded Empire yields. </l>
           </sp>
-          <sp xml:id="ep000572-e31370">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e31370">
             <speaker>Zey. </speaker>
             <l>Here on my knees I'll try your Virtue first: </l>
             <l>I beg, Sir, a young Beardless Captain's Life, </l>
             <l>That is condemn'd to dye, for letting Zeylan </l>
             <l>Escape, that was his Prisoner. Tam. I grant it freely. </l>
           </sp>
-          <sp xml:id="ep000572-e31450">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e31450">
             <speaker>Zey. </speaker>
             <l>Why, then as freely here I give you Zeylan, </l>
             <stage xml:id="ep000572-e31490">[pulls off his disguise. </stage>
@@ -3379,7 +3444,7 @@
             <l>The ruin of the World, that my fair Saint </l>
             <l>Might fly out in the merciful Confusion. </l>
           </sp>
-          <sp xml:id="ep000572-e31590">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e31590">
             <speaker>Tam. </speaker>
             <l>But art thou Zeylan? Welcom noble Prince, </l>
             <stage xml:id="ep000572-e31630">[Embraces him. </stage>
@@ -3397,12 +3462,12 @@
             <l>The fittest man to execute this Sacred Act: </l>
             <l>Oh, now 'tis Justice, that before was Fury. </l>
           </sp>
-          <sp xml:id="ep000572-e31780">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e31780">
             <speaker>Zey. </speaker>
             <l>Pray, Sir, be pleased to call first to your Guards; </l>
             <l>Her precious Life's at stake. </l>
           </sp>
-          <sp xml:id="ep000572-e31820">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e31820">
             <speaker>Tam. </speaker>
             <l>Guards, make hast; </l>
             <l>Carry my Pardon to the sentenc'd Captain </l>
@@ -3411,7 +3476,7 @@
             <l>With all your Treasure, lest the Soldiers Fury </l>
             <l>O'rwhelm you. Come, ease me quickly. </l>
           </sp>
-          <sp xml:id="ep000572-e31910">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e31910">
             <speaker>Zey. </speaker>
             <l>I have not, Sir, been bred in Foreign Courts, </l>
             <l>Nor can I talk of high-flown Rules of Honor, </l>
@@ -3420,7 +3485,7 @@
             <l>By their dim light, </l>
             <l>How great a Monster is Ingratitude. </l>
           </sp>
-          <sp xml:id="ep000572-e31990">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e31990">
             <speaker>Tam. </speaker>
             <l>Thou art ungrateful then, if thou deny me this </l>
             <l>So just Request, since I have answer'd thine: </l>
@@ -3437,7 +3502,7 @@
             <l>Of the wide Mischief-studying Earth, to teach </l>
             <l>The World the Fate of Traytors to their Country. </l>
           </sp>
-          <sp xml:id="ep000572-e32150">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e32150">
             <speaker>Zey. </speaker>
             <l>I never heard Great Tamerlane abus'd </l>
             <l>Heav'ns favors to excess; but his kind Sword </l>
@@ -3452,7 +3517,7 @@
             <l>And by your Glory raise my Infamy? </l>
             <l>Urge me not to a Crime your self would fly from. </l>
           </sp>
-          <sp xml:id="ep000572-e32290">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e32290">
             <speaker>Tam. </speaker>
             <l>Is there such Honour in the World besides? </l>
             <l>How many Climates have I pass'd, and now </l>
@@ -3467,7 +3532,7 @@
             <l>In Virtue, and return to Tyranny: </l>
             <l>Kill me, or else thy Mistress dyes. </l>
           </sp>
-          <sp xml:id="ep000572-e32430">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e32430">
             <speaker>Zey. </speaker>
             <l>
               <stage xml:id="ep000572-e32460">kneeling. </stage>The Gods forbid. </l>
@@ -3483,7 +3548,7 @@
             <l>Oh, save her, save her, save her, Virtuous Prince, </l>
             <l>And let my Life redeem her. </l>
           </sp>
-          <sp xml:id="ep000572-e32580">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e32580">
             <speaker>Tam. </speaker>
             <l>Rise, brave Friend. </l>
             <l>No; both shall live together, and live happy: </l>
@@ -3500,12 +3565,12 @@
             <l>But, to return th' Heroic Resignation, </l>
             <l>I make thee King of China. </l>
           </sp>
-          <sp xml:id="ep000572-e32740">
+          <sp who="#ep000572-zeylan" xml:id="ep000572-e32740">
             <speaker>Zey. </speaker>
             <l>Vice-Roy rather, </l>
             <l>When I have Conquer'd the Remaining Rebels. </l>
           </sp>
-          <sp xml:id="ep000572-e32780">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e32780">
             <speaker>Tam. </speaker>
             <l>Then, by my last Will, I bequeath it Thee; </l>
             <l>My Death shall soon confirm it. Let's go out, </l>
@@ -3541,7 +3606,7 @@
           <stage xml:id="ep000572-e33110">
             <pb n="56" xml:id="ep000572-038-a"/>Enter in Dumb-show, Time with his Hour-glass, The Parc● Death, speckled Fame drawn in a Chariot by Cerberus, follow'd by Furies and Infernal Spirits. </stage>
           <stage xml:id="ep000572-e33140">Scene opens, and discovers <hi>Mount Atlas</hi>, with a Face and Beard like a Man made by Trees, which sinks down by degrees with soft Music; and at the top of him appear Angels with flaming Swords, and the Fiends begin to withdraw. </stage>
-          <sp xml:id="ep000572-e33160">
+          <sp who="#ep000572-angel" xml:id="ep000572-e33160">
             <speaker>I Ang. </speaker>
             <l>Be gone, Infernal Spirits; leave this Hero, </l>
             <l>Whose Virtues none of Human Race e're equal'd. </l>
@@ -3552,7 +3617,7 @@
             <l>Thou hast a Share in thy Creator's Love, </l>
             <l>Thy Soul, thy Fame, are both secure above. </l>
           </sp>
-          <sp xml:id="ep000572-e33260">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e33260">
             <speaker>Tam. </speaker>
             <l>Where have I been, in Hell and Heav'n at once? </l>
             <l>Was this a Dream? Or did I waking see? </l>
@@ -3565,11 +3630,11 @@
             <l>If I must land in Bliss? </l>
           </sp>
           <stage xml:id="ep000572-e33370">Enter Guard. </stage>
-          <sp xml:id="ep000572-e33380">
+          <sp who="#ep000572-guard" xml:id="ep000572-e33380">
             <speaker>Guard. </speaker>
             <l>Ragalzan begs admittance to your Presence. </l>
           </sp>
-          <sp xml:id="ep000572-e33420">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e33420">
             <speaker>Tam. </speaker>
             <l>How dares the cause of all my Woes come near me? </l>
             <l>He will disturb my Thoughts again: no matter; </l>
@@ -3595,7 +3660,7 @@
             <pb n="58" xml:id="ep000572-039-a"/>
             <l>But weigh'd it not so throughly. </l>
           </sp>
-          <sp xml:id="ep000572-e33670">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e33670">
             <speaker>Rag. </speaker>
             <l>More than this; </l>
             <l>Because you love variety of Faiths, </l>
@@ -3603,15 +3668,15 @@
             <l>The Calif, Patriarch of Antioch, and brought </l>
             <l>A Writing here under their Hands and Seals. </l>
           </sp>
-          <sp xml:id="ep000572-e33770">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e33770">
             <speaker>Tam. </speaker>
             <l>Oh, let me see those Heav'nly Lines. </l>
           </sp>
-          <sp xml:id="ep000572-e33800">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e33800">
             <speaker>Rag. </speaker>
             <l>Look to that Paragraph. </l>
           </sp>
-          <sp xml:id="ep000572-e33830">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e33830">
             <speaker>Tam. </speaker>
             <l>
               <stage xml:id="ep000572-e33860">reads. </stage>An unjust Vow is better breke than kept: </l>
@@ -3623,11 +3688,11 @@
             <l>No farther than to literal performance, </l>
             <l>And all means may be us'd to save her harmless Person. </l>
           </sp>
-          <sp xml:id="ep000572-e33940">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e33940">
             <speaker>Rag. </speaker>
             <l>Is not this Sence? </l>
           </sp>
-          <sp xml:id="ep000572-e33970">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e33970">
             <speaker>Tam. </speaker>
             <l>Reason peeps out again, </l>
             <l>O'reast with Shame and Passion: Thanks, dear Friend. </l>
@@ -3667,12 +3732,12 @@
           </sp>
           <stage xml:id="ep000572-e34340">Alarm without, Trumpet and Drums. </stage>
           <stage xml:id="ep000572-e34350">Enter Axalla, with Captains. </stage>
-          <sp xml:id="ep000572-e34370">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e34370">
             <speaker>Ax. </speaker>
             <l>Sir, your Triumphant Arms have crush'd the Rebels: </l>
             <l>China, and all the World is now your own, </l>
           </sp>
-          <sp xml:id="ep000572-e34420">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e34420">
             <speaker>Tam. </speaker>
             <l>Oh, my Axalla, oh, there was a time </l>
             <l>I cou'd have hear'd such Sounds with raging Joys; </l>
@@ -3681,7 +3746,7 @@
             <l>Give Prosperous Winds to Ships that have no Sails; </l>
             <l>Their Joys will be like mine. </l>
           </sp>
-          <sp xml:id="ep000572-e34510">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e34510">
             <speaker>Ax. </speaker>
             <l>What, not in Temper yet, Sir? </l>
             <l>I must acquaint you with a just occasion,, </l>
@@ -3690,7 +3755,7 @@
             <l>Whose Gratitude to you, Love to each other </l>
             <l>Wou'd not excuse them from this dangerous Action. </l>
           </sp>
-          <sp xml:id="ep000572-e34610">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e34610">
             <speaker>Tam. </speaker>
             <l>Then Honor's out of Fashion, Tears in Tune. </l>
             <l>Alass, poor Rival in that lofty Science, </l>
@@ -3698,7 +3763,7 @@
             <l>That Beautiful Contention: I've out-liv'd it. </l>
             <l>Tell me how that Heroic Pair expir'd. </l>
           </sp>
-          <sp xml:id="ep000572-e34680">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e34680">
             <speaker>Ax. </speaker>
             <l>The Rebels were dispers'd, their Leaders taken▪ </l>
             <l>Yet rash Philarmia follow'd the pursuit, </l>
@@ -3724,21 +3789,21 @@
             <l>Then strait tear's up his Wounds, and with his Dagger 〈◊〉, </l>
             <l>Till he falls dead upon her. </l>
           </sp>
-          <sp xml:id="ep000572-e34980">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e34980">
             <speaker>Tam. </speaker>
             <l>Happy Pair! </l>
           </sp>
           <stage xml:id="ep000572-e35010">Enter Despina. </stage>
-          <sp xml:id="ep000572-e35030">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e35030">
             <speaker>Ax. </speaker>
             <l>What, Love affairs yet! Friends, let us retire. </l>
           </sp>
           <stage xml:id="ep000572-e35060">[Exit with Soldiers▪. </stage>
-          <sp xml:id="ep000572-e35070">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e35070">
             <speaker>Tam. </speaker>
             <l>Here comes the sole Disturber of my peaceful thoughts▪ </l>
           </sp>
-          <sp xml:id="ep000572-e35100">
+          <sp who="#ep000572-despina" xml:id="ep000572-e35100">
             <speaker>Desp. </speaker>
             <l>Thanks, most indulgent Conqueror: Now I find </l>
             <l>There are some Monarchs that do own the Gods, </l>
@@ -3749,7 +3814,7 @@
           </sp>
           <stage xml:id="ep000572-e35180">Trumpets, and Cornets; the Procession enters. </stage>
           <stage xml:id="ep000572-e35190">Virgins in Mourning. </stage>
-          <sp xml:id="ep000572-e35200">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e35200">
             <speaker>Tam. </speaker>
             <l>So, so; here comes the Stateliest piece of Shame </l>
             <l>That ever Monarch groan'd for: Now I feel </l>
@@ -3760,7 +3825,7 @@
             <l>Drest like a Sacrifice! Ah, poor Irene, </l>
             <l>Art thou prepar'd 〈◊〉 for a sudden Fate? </l>
           </sp>
-          <sp xml:id="ep000572-e35310">
+          <sp who="#ep000572-irene" xml:id="ep000572-e35310">
             <speaker>Ire. </speaker>
             <l>A sudden Fate! There's no such thing in Nature; </l>
             <l>We're dying from our Cradles: Heav'n can send </l>
@@ -3781,11 +3846,11 @@
             <l>Or is the World become so rankly Wicked </l>
             <l>Ne'ra spare Thunderbolt is lest for Thee? </l>
           </sp>
-          <sp xml:id="ep000572-e35520">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e35520">
             <speaker>Tam. </speaker>
             <l>Oh, spare me, spare me; let me dye, Axalla. </l>
           </sp>
-          <sp xml:id="ep000572-e35560">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e35560">
             <speaker>Ax. </speaker>
             <l>Canst thou devor● that Life, that sav'd thy own? </l>
             <l>See that blood spilt, that sprung from thy own Fountain; </l>
@@ -3803,7 +3868,7 @@
             <pb n="62" xml:id="ep000572-041-a"/>
             <l>And Hearts, as hard as thine. </l>
           </sp>
-          <sp xml:id="ep000572-e35720">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e35720">
             <speaker>Tam. </speaker>
             <l>Axalla, Oh Axalla, cou'dst thou see </l>
             <l>My Heart, thou woud'st not chide, but pity me: </l>
@@ -3816,12 +3881,12 @@
             <l>Of several Churches, that my Vow's perform'd </l>
             <l>In her delivery: But, oh! I've done too much. </l>
           </sp>
-          <sp xml:id="ep000572-e35860">
+          <sp who="#ep000572-despina" xml:id="ep000572-e35860">
             <speaker>Desp. </speaker>
             <l>Ha! is't come to this? </l>
           </sp>
           <stage xml:id="ep000572-e35890">[Aside. </stage>
-          <sp xml:id="ep000572-e35900">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e35900">
             <speaker>Ax. </speaker>
             <l>Too much indeed, and more than Heav'n requires: </l>
             <l>For had you made a Vow to burn the World, </l>
@@ -3835,7 +3900,7 @@
             <l>The Glory of all Ages basely bury'd </l>
             <l>Thus in a Woman's Arms. </l>
           </sp>
-          <sp xml:id="ep000572-e36030">
+          <sp who="#ep000572-despina" xml:id="ep000572-e36030">
             <speaker>Desp. </speaker>
             <l>Sir, I perceive </l>
             <l>I breed a Faction in your Family; </l>
@@ -3843,7 +3908,7 @@
             <l>Unbind the Princess; but unloose me too </l>
             <l>From my rash Contract; 'Tis better for us both. </l>
           </sp>
-          <sp xml:id="ep000572-e36100">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e36100">
             <speaker>Tam. </speaker>
             <l>No, Fairest, no: </l>
             <l>Let me not lose that Heav'n, after assurance. </l>
@@ -3856,7 +3921,7 @@
             <l>But urge me not to tear out mine own Bowels, </l>
             <l>To be alive Dissected, doubly Martyr'd. </l>
           </sp>
-          <sp xml:id="ep000572-e36220">
+          <sp who="#ep000572-despina" xml:id="ep000572-e36220">
             <speaker>Desp. </speaker>
             <l>Are Vows made only to be broke; and Women </l>
             <pb n="63" xml:id="ep000572-041-b"/>
@@ -3864,7 +3929,7 @@
             <l>That I must keep my Word, and you be free: </l>
             <l>I'll try if I shall be obey'd: Strangle the Princess. </l>
           </sp>
-          <sp xml:id="ep000572-e36280">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e36280">
             <speaker>Ax. </speaker>
             <l>
               <stage xml:id="ep000572-e36310">kneeling. </stage>Hold, Madam, hold: Here, take my guilty Head: </l>
@@ -3878,12 +3943,12 @@
             <l>Let not this spotless Lamb redeem a Tyger, </l>
             <l>Deep in your Husband's Blood. </l>
           </sp>
-          <sp xml:id="ep000572-e36420">
+          <sp who="#ep000572-despina" xml:id="ep000572-e36420">
             <speaker>Desp. </speaker>
             <l>You are her Lover; </l>
             <l>Then I must punish you, and set her free. </l>
           </sp>
-          <sp xml:id="ep000572-e36460">
+          <sp who="#ep000572-irene" xml:id="ep000572-e36460">
             <speaker>Ire. </speaker>
             <l>Oh, Madam, hear him not: his cruel Love </l>
             <l>Betrays his Life, but never will save mine; </l>
@@ -3893,13 +3958,13 @@
             <l>To save my Father's Life, and ease his Sorrows, </l>
             <l>That weigh too heavy on the afflicted World? </l>
           </sp>
-          <sp xml:id="ep000572-e36550">
+          <sp who="#ep000572-despina" xml:id="ep000572-e36550">
             <speaker>Desp. </speaker>
             <l>What Game of Glory's this: where Death's the Prize, </l>
             <l>And Life the odious Blank? When Appetites </l>
             <l>Are too irregular, pity they shou'd be humour'd. </l>
           </sp>
-          <sp xml:id="ep000572-e36600">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e36600">
             <speaker>Tam. </speaker>
             <l>He wrongs himself to save his guiltless Mistress: </l>
             <l>No Truth is half so Holy, as this Falsehood. </l>
@@ -3908,7 +3973,7 @@
             <l>Nor yet their Counsel, to substract one minute </l>
             <l>From his Heroic Life. </l>
           </sp>
-          <sp xml:id="ep000572-e36690">
+          <sp who="#ep000572-despina" xml:id="ep000572-e36690">
             <speaker>Desp. </speaker>
             <l>So you have told me, Sir; and I begin </l>
             <l>To think you real: well, 'tis time </l>
@@ -3926,28 +3991,28 @@
             <l>You never order'd Bajazets Destruction, </l>
             <l>As you convinc'd me since. </l>
           </sp>
-          <sp xml:id="ep000572-e36860">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e36860">
             <speaker>Tam. </speaker>
             <l>'Tis a Sacred Truth; </l>
             <l>No more, than by hard usage, and denying </l>
             <l>To him the sight of you, which was his Life. </l>
           </sp>
-          <sp xml:id="ep000572-e36910">
+          <sp who="#ep000572-despina" xml:id="ep000572-e36910">
             <speaker>Desp. </speaker>
             <l>That well might move me, Sir, but not so highly. </l>
           </sp>
-          <sp xml:id="ep000572-e36940">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e36940">
             <speaker>Tam. </speaker>
             <l>I had your temper show'd me in false Glasses, </l>
             <l>Which made me Amourously own in part </l>
             <l>What you believ'd by many weighty Reasons. </l>
           </sp>
-          <sp xml:id="ep000572-e36990">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e36990">
             <speaker>Ax. </speaker>
             <l>This may end well: I've seldom heard of Women </l>
             <l>Stand upon terms with all-commanding Emperors. </l>
           </sp>
-          <sp xml:id="ep000572-e37030">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e37030">
             <speaker>Rag. </speaker>
             <l>If these two piece again, what will become </l>
             <l>Of me, the Engineer? I shall be crush'd </l>
@@ -3955,14 +4020,14 @@
             <l>In motion. Perhaps, the Emperor is not poyson'd: </l>
             <l>Who knows the walks of wily Womankind? </l>
           </sp>
-          <sp xml:id="ep000572-e37100">
+          <sp who="#ep000572-despina" xml:id="ep000572-e37100">
             <speaker>Desp. </speaker>
             <l>Now, Sir, by Virtue of your former Grant, </l>
             <l>I'll add but one request, you'll not deny me: </l>
             <l>'Tis to release your Admirable Daughter, </l>
             <l>And beg the Friendship of the fair Irene. </l>
           </sp>
-          <sp xml:id="ep000572-e37170">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e37170">
             <speaker>Tam. </speaker>
             <l>Now you revive me, Madam; all my Sorrows </l>
             <l>Vanish like Dreams, or like the gloomy Shades, </l>
@@ -3974,18 +4039,18 @@
             <l>That can disturb my Peace. Strike off her Chains </l>
             <l>And bring her to the Empress. </l>
           </sp>
-          <sp xml:id="ep000572-e37280">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e37280">
             <speaker>Ax. </speaker>
             <l>The Gods Forbid: What, give her Sacred Life </l>
             <l>Into the Hands of one that Vows her Death! </l>
             <l>trust not to cover'd Flames, nor Furies reconcil'd. </l>
           </sp>
-          <sp xml:id="ep000572-e37330">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e37330">
             <speaker>Tam. </speaker>
             <l>Ha! hold a little. </l>
           </sp>
           <stage xml:id="ep000572-e37360">(To the Guards.) </stage>
-          <sp xml:id="ep000572-e37370">
+          <sp who="#ep000572-despina" xml:id="ep000572-e37370">
             <speaker>Desp. </speaker>
             <l>Am I suspected? Then my Faith's discharg'd; </l>
             <l>And my Revenge, chain'd up by unjust Pity, </l>
@@ -3993,7 +4058,7 @@
             <pb n="65" xml:id="ep000572-042-b"/>
             <l>And rages for its Prey. Perform your Vow, Great Sir. </l>
           </sp>
-          <sp xml:id="ep000572-e37430">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e37430">
             <speaker>Ax. </speaker>
             <l>Oh, hear a little! May you not accept </l>
             <l>A meaner Offering for this mighty Princess; </l>
@@ -4001,14 +4066,14 @@
             <l>To save Heroic Lives; and give the Emperor </l>
             <l>A full discharge of his rash Vow. </l>
           </sp>
-          <sp xml:id="ep000572-e37500">
+          <sp who="#ep000572-despina" xml:id="ep000572-e37500">
             <speaker>Desp. </speaker>
             <l>If either of you dye, Heav'n be my Witness </l>
             <l>I freely clear the Emperor of his Vow. </l>
             <l>The other dyes of Grief by course. </l>
           </sp>
           <stage xml:id="ep000572-e37550">[Aside. </stage>
-          <sp xml:id="ep000572-e37560">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e37560">
             <speaker>Ax. </speaker>
             <l>One Life, to save a better, 'tis no Crime, </l>
             <l>But an exchange, to the advantage of </l>
@@ -4017,56 +4082,56 @@
             <l>Guard her dear Life, or let just Vengeance shake </l>
             <l>Your Guilty Throne. </l>
           </sp>
-          <sp xml:id="ep000572-e37640">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e37640">
             <speaker>Tam. </speaker>
             <l>Oh desperate Fondness! </l>
           </sp>
-          <sp xml:id="ep000572-e37670">
+          <sp who="#ep000572-irene" xml:id="ep000572-e37670">
             <speaker>Ire. </speaker>
             <l>Oh Heav'ns! </l>
           </sp>
           <stage xml:id="ep000572-e37700">Irene swoons. Tam. and Ragal. run to her. </stage>
-          <sp xml:id="ep000572-e37740">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e37740">
             <speaker>Tam. </speaker>
             <l>What ails Irene? </l>
           </sp>
-          <sp xml:id="ep000572-e37780">
+          <sp who="#ep000572-irene" xml:id="ep000572-e37780">
             <speaker>Ire. </speaker>
             <l>Nothing but Dying. </l>
           </sp>
-          <sp xml:id="ep000572-e37810">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e37810">
             <speaker>Rag. </speaker>
             <l>Sure'tis not Grief alone; I fear she's Poyson'd, </l>
             <l>By some corrupted Servant: and I've heard </l>
             <l>Some mutt'ring on't. </l>
           </sp>
-          <sp xml:id="ep000572-e37860">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e37860">
             <speaker>Tam. </speaker>
             <l>Hast thou indeed? </l>
           </sp>
-          <sp xml:id="ep000572-e37890">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e37890">
             <speaker>Rag. </speaker>
             <l>But here </l>
             <l>I have a Cordial-Antidote, will expel </l>
             <l>Both Grief, and Poyson too. </l>
           </sp>
-          <sp xml:id="ep000572-e37940">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e37940">
             <speaker>Tam. </speaker>
             <l>Give it her quickly. </l>
             <stage xml:id="ep000572-e37970">(Ragal. gives it her.) </stage>
             <l>Ha! She revives. </l>
           </sp>
-          <sp xml:id="ep000572-e37990">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e37990">
             <speaker>Rag. to Desp. </speaker>
             <l>But she'l as soon relapse: </l>
             <l>I've poyson'd her, without that State and Pomp, </l>
             <l>Which I knew wou'd not take. </l>
           </sp>
-          <sp xml:id="ep000572-e38040">
+          <sp who="#ep000572-despina" xml:id="ep000572-e38040">
             <speaker>Desp. </speaker>
             <l>What needed that rash hast? </l>
           </sp>
-          <sp xml:id="ep000572-e38070">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e38070">
             <speaker>Rag. </speaker>
             <l>Ha! She relents, and longs to be our Soveraign; </l>
             <l>But I'll secure her, </l>
@@ -4079,27 +4144,27 @@
             <l>Just Heav'ns, I cannot▪ False Murdress! </l>
           </sp>
           <stage xml:id="ep000572-e38190">[Stabs Despina. </stage>
-          <sp xml:id="ep000572-e38210">
+          <sp who="#ep000572-despina" xml:id="ep000572-e38210">
             <pb n="66" xml:id="ep000572-043-a"/>
             <speaker>Desp. </speaker>
             <l>What thou, Ragalzan! Oh, thou double Traytors </l>
             <l>Didst not thou blow the Coals of my revenge, </l>
             <l>Accuse them all of Bajazets Destruction? </l>
           </sp>
-          <sp xml:id="ep000572-e38280">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e38280">
             <speaker>Tam. </speaker>
             <l>Guards, seize the Villain. </l>
           </sp>
-          <sp xml:id="ep000572-e38310">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e38310">
             <speaker>Rag. </speaker>
             <l>Can you believe her, Sir? </l>
             <l>She spits her Venom, now she's trod upon. </l>
           </sp>
-          <sp xml:id="ep000572-e38350">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e38350">
             <speaker>Tam. </speaker>
             <l>Hold me up, Crantor, I am faint with Sorrow. </l>
           </sp>
-          <sp xml:id="ep000572-e38390">
+          <sp who="#ep000572-despina" xml:id="ep000572-e38390">
             <speaker>Desp. </speaker>
             <l>I, and with Poyson too. Here was the Dagger kept </l>
             <l>To Vindicate my wrongs upon thy Daughter, </l>
@@ -4108,21 +4173,21 @@
             <l>Nor I, to tell thee how. </l>
           </sp>
           <stage xml:id="ep000572-e38470">[Dyes. </stage>
-          <sp xml:id="ep000572-e38480">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e38480">
             <speaker>Tam. </speaker>
             <l>Blest be the hand that did it: hadst thou spar'd </l>
             <l>One Life, more precious than my own, thou might'st </l>
             <l>Have bustled with the briskest Female Saints </l>
             <l>For place in Glory. </l>
           </sp>
-          <sp xml:id="ep000572-e38540">
+          <sp who="#ep000572-irene" xml:id="ep000572-e38540">
             <speaker>Ire. </speaker>
             <l>Oh, generous Soul! Oh, my belov'd Axalla! </l>
             <stage xml:id="ep000572-e38580">Kneeling by him. </stage>
             <l>Oh, tell thy poor Irene, why thou wast </l>
             <l>So kindly cruel to thy self and me? </l>
           </sp>
-          <sp xml:id="ep000572-e38620">
+          <sp who="#ep000572-axalla" xml:id="ep000572-e38620">
             <speaker>Ax. </speaker>
             <l>Live, Princess, Live; live to thy Father's Joy, </l>
             <l>The Empire's quiet, and the Ages Glory: </l>
@@ -4131,7 +4196,7 @@
             <l>T'have lov'd you longer, not have serv'd you better. </l>
           </sp>
           <stage xml:id="ep000572-e38690">[Dyes. </stage>
-          <sp xml:id="ep000572-e38700">
+          <sp who="#ep000572-irene" xml:id="ep000572-e38700">
             <speaker>Ire. </speaker>
             <l>What, wou'dst thou have me live an Age of Sorrows, </l>
             <l>When the first Moment of thy Fate has kill'd me? </l>
@@ -4143,19 +4208,19 @@
             <l>Oh! 'tis too much to have both Heav'n and Thee. </l>
           </sp>
           <stage xml:id="ep000572-e38800">[Dyes. </stage>
-          <sp xml:id="ep000572-e38810">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e38810">
             <speaker>Tam. </speaker>
             <l>She's gone; the sweetest Saint Heav'n ever shin'd with! </l>
             <l>Guards, bear the guilty Wretch to Death and Torture. </l>
           </sp>
-          <sp xml:id="ep000572-e38850">
+          <sp who="#ep000572-ragalzan" xml:id="ep000572-e38850">
             <speaker>Rag. </speaker>
             <l>Bear me in Triumph, Guards; I've won the day▪ </l>
             <l>And dye a greater Conqueror than thy self, </l>
             <l>Most mighty Tamerlane: thou, and my lesser Foes, </l>
             <l>About my Feet. </l>
           </sp>
-          <sp xml:id="ep000572-e38920">
+          <sp who="#ep000572-tamerlane" xml:id="ep000572-e38920">
             <speaker>Tam. </speaker>
             <l>Away with the vile Traytor. </l>
             <stage xml:id="ep000572-e38950">Ex. with Rag. </stage>

@@ -49,7 +49,42 @@
         </biblFull>
       </sourceDesc>
     </fileDesc>
-    <profileDesc/>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ep000854-servant-of-horatio" sex="MALE">
+            <persName>Servant of Horatio</persName>
+          </person>
+          <person xml:id="ep000854-servant-of-rossano" sex="MALE">
+            <persName>Servant of Rossano</persName>
+          </person>
+          <person xml:id="ep000854-calista" sex="FEMALE">
+            <persName>Calista</persName>
+          </person>
+          <person xml:id="ep000854-lavinia" sex="FEMALE">
+            <persName>Lavinia</persName>
+          </person>
+          <person xml:id="ep000854-lucilla" sex="FEMALE">
+            <persName>Lucilla</persName>
+          </person>
+          <person xml:id="ep000854-rossano" sex="MALE">
+            <persName>Rossano</persName>
+          </person>
+          <person xml:id="ep000854-lothario" sex="MALE">
+            <persName>Lothario</persName>
+          </person>
+          <person xml:id="ep000854-sciolto" sex="MALE">
+            <persName>Sciolto</persName>
+          </person>
+          <person xml:id="ep000854-horatio" sex="MALE">
+            <persName>Horatio</persName>
+          </person>
+          <person xml:id="ep000854-altamont" sex="MALE">
+            <persName>Altamont</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -202,7 +237,7 @@
           <stage xml:id="ep000854-e11270">SCENE a Garden belonging to Sciolto's Palace. </stage>
           <stage xml:id="ep000854-e11280">Enter Altamont and <hi>Horatio. </hi>
           </stage>
-          <sp xml:id="ep000854-e11300">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e11300">
             <speaker>ALTAMONT. </speaker>
             <l>_ LET this auspicious Day be ever sacred, </l>
             <l>No Mourning, no Misfortunes happen on it; </l>
@@ -212,7 +247,7 @@
             <l>This happy Day that gives me my <hi>Calista. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e11390">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e11390">
             <speaker>Hor. </speaker>
             <l>Yes, <hi>Altamont; </hi>to Day thy better Stars </l>
             <l>Are join'd, to shed their kindest Influence on thee. </l>
@@ -228,7 +263,7 @@
             <l>Had cast off his white Age to Want and Wretchedness, </l>
             <l>And made their Court to faction by his Ruin. </l>
           </sp>
-          <sp xml:id="ep000854-e11550">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e11550">
             <speaker>Alt. </speaker>
             <l>Oh great <hi>Sciolto! </hi>oh my more than Father! </l>
             <l>Let me not live, but at thy very Name </l>
@@ -242,7 +277,7 @@
             <l>The Night's unwholsom Dew and Noon-day's Heat, </l>
             <l>To be the Scorn of Earth and Curse of Heav'n. </l>
           </sp>
-          <sp xml:id="ep000854-e11690">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e11690">
             <speaker>Hor. </speaker>
             <l>So open, so unbounded was his Goodness, </l>
             <l>It reach'd ev'n me, because I was thy Friend. </l>
@@ -254,7 +289,7 @@
             <l>Indulg'd us in his Wealth, blest us with Plenty, </l>
             <l>Heal'd all our Cares, and sweeten'd Love it self. </l>
           </sp>
-          <sp xml:id="ep000854-e11800">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e11800">
             <speaker>Alt. </speaker>
             <l>By Heav'n, he found my Fortunes so abandon'd, </l>
             <l>That nothing but a Miracle could raise 'em; </l>
@@ -265,7 +300,7 @@
             <l>I had no Wealth to bring, nothing to succour him, </l>
             <l>But fruitless Tears. </l>
           </sp>
-          <sp xml:id="ep000854-e11900">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e11900">
             <speaker>Hor. </speaker>
             <l>Yet what thou cou'dst thou didst, </l>
             <l>And didst it like a Son; when his hard Creditors, </l>
@@ -283,7 +318,7 @@
             <l>And bad Sciolto's Bounty be its Proxy, </l>
             <l>To bless thy filial Virtue with Abundance. </l>
           </sp>
-          <sp xml:id="ep000854-e12070">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e12070">
             <speaker>Alt. </speaker>
             <l>But see he comes, the Author of my Happiness, </l>
             <l>The Man who sav'd my Life from deadly Sorrow, </l>
@@ -291,14 +326,14 @@
             <l>And satisfies my Soul with Love and Beauty. </l>
           </sp>
           <stage xml:id="ep000854-e12130">Enter <hi>Sciolto, </hi>he runs to Altamont and embraces him. </stage>
-          <sp xml:id="ep000854-e12150">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e12150">
             <speaker>Sci. </speaker>
             <l>Joy to thee, <hi>Altamont! </hi>Joy to my self! </l>
             <l>Joy to this happy Morn, that makes thee mine, </l>
             <l>That kindly grants what Nature had deny'd me, </l>
             <l>And makes me Father of a Son like thee. </l>
           </sp>
-          <sp xml:id="ep000854-e12220">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e12220">
             <speaker>Alt. </speaker>
             <l>My Father! oh let me unlade my Breast, </l>
             <l>Pour out the fullness of my Soul before you, </l>
@@ -308,20 +343,20 @@
             <l>
               <pb n="4" xml:id="ep000854-014"/>Swear you reign here, but never tell how much. </l>
           </sp>
-          <sp xml:id="ep000854-e12310">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e12310">
             <speaker>Sci. </speaker>
             <l>It is enough; I know thee thou art honest; </l>
             <l>Goodness innate, and Worth hereditary </l>
             <l>Are in thy Mind; thy noble Father's Virtues </l>
             <l>Spring freshly forth, and blossom in thy Youth. </l>
           </sp>
-          <sp xml:id="ep000854-e12370">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e12370">
             <speaker>Alt. </speaker>
             <l>Thus Heav'n from nothing rais'd his fair Creation, </l>
             <l>And then with wond'rous Joy beheld its Beauty, </l>
             <l>Well pleas'd to see the Excellence he gave. </l>
           </sp>
-          <sp xml:id="ep000854-e12420">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e12420">
             <speaker>Sci. </speaker>
             <l>Oh noble Youth! I swear since first I knew thee, </l>
             <l>Ev'n from that day of Sorrows when I saw thee, </l>
@@ -340,7 +375,7 @@
             <l>Thy waiting Bride ev'n chides thee for delaying, </l>
             <l>And swears thou com'st not with a Bridegroom's Haste. </l>
           </sp>
-          <sp xml:id="ep000854-e12600">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e12600">
             <speaker>Alt. </speaker>
             <l>Oh! could I hope there was one Thought of Altamont </l>
             <l>One kind Remembrance in Calista's Breast, </l>
@@ -350,11 +385,11 @@
             <l>Blest as I am, and honour'd in your Friendship, </l>
             <l>There is one Pain that hangs upon my Heart. </l>
           </sp>
-          <sp xml:id="ep000854-e12690">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e12690">
             <speaker>Sci. </speaker>
             <l>What means my Son? </l>
           </sp>
-          <sp xml:id="ep000854-e12720">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e12720">
             <speaker>Alt. </speaker>
             <l>When, at your Intercession, </l>
             <l>Last Night Calista yielded to my Happiness, </l>
@@ -371,7 +406,7 @@
             <l>Sadly reply'd, her Sorrows were her own, </l>
             <l>Nor in a Father's Pow'r to dispose of. </l>
           </sp>
-          <sp xml:id="ep000854-e12880">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e12880">
             <speaker>Sci. </speaker>
             <l>Away! it is the Cosenage of their Sex, </l>
             <l>One of the common Arts they practise on us, </l>
@@ -389,27 +424,27 @@
           </sp>
           <stage xml:id="ep000854-e13030">Enter Lothario and <hi>Rossano. </hi>
           </stage>
-          <sp xml:id="ep000854-e13050">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13050">
             <speaker>Loth. </speaker>
             <l>The Father and the Husband! </l>
           </sp>
-          <sp xml:id="ep000854-e13080">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13080">
             <speaker>Ross. </speaker>
             <l>Let them pass, </l>
             <l>They saw us not. </l>
           </sp>
-          <sp xml:id="ep000854-e13120">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13120">
             <speaker>Loth. </speaker>
             <l>I care not if they did, </l>
             <l>Ere long I mean to meet 'em Face to Face, </l>
             <l>And gaul 'em with my Triumph o'er <hi>Calista. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e13180">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13180">
             <speaker>Ross. </speaker>
             <l>You lov'd her once. </l>
           </sp>
-          <sp xml:id="ep000854-e13210">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13210">
             <speaker>Loth. </speaker>
             <l>I lik'd her, wou'd have marry'd her, </l>
             <l>But that it pleas'd her Father to refuse me, </l>
@@ -418,24 +453,24 @@
             <l>For which, if I forget him, may the Shame </l>
             <l>I mean to brand his Name with, stick on mine. </l>
           </sp>
-          <sp xml:id="ep000854-e13290">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13290">
             <speaker>Ross. </speaker>
             <l>She, gentle Soul, was kinder than her Father. </l>
           </sp>
-          <sp xml:id="ep000854-e13320">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13320">
             <speaker>Loth. </speaker>
             <l>She was, and oft in private gave me hearing, </l>
             <l>'Till by long list'ning to the soothing Tale, </l>
             <l>At length her easie Heart was wholly mine. </l>
           </sp>
-          <sp xml:id="ep000854-e13370">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13370">
             <speaker>Ross. </speaker>
             <l>I have heard you oft describe her, Haughty, Insolent, </l>
             <l>And fierce with high Disdain; it moves my wonder, </l>
             <l>That Virtue thus defended, should be yielded </l>
             <l>A Prey to loose Desires. </l>
           </sp>
-          <sp xml:id="ep000854-e13430">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13430">
             <speaker>Loth. </speaker>
             <l>Hear, then I'll tell thee. </l>
             <l>Once in a lone, and secret Hour of Night, </l>
@@ -444,11 +479,11 @@
             <l>Hot with the Tuscan Grape, and high in Blood, </l>
             <l>Hap'ly I stole unheeded to her Chamber. </l>
           </sp>
-          <sp xml:id="ep000854-e13510">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13510">
             <speaker>Ross. </speaker>
             <l>That Minute sure was lucky. </l>
           </sp>
-          <sp xml:id="ep000854-e13540">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13540">
             <speaker>Loth. </speaker>
             <l>Oh 'twas great. </l>
             <l>I found the Fond, Believing, Love-sick Maid, </l>
@@ -470,11 +505,11 @@
             <l>I hastily took leave, and left the Nymph </l>
             <l>To think on what was past, and sigh alone. </l>
           </sp>
-          <sp xml:id="ep000854-e13750">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13750">
             <speaker>Ross. </speaker>
             <l>You saw her soon again. </l>
           </sp>
-          <sp xml:id="ep000854-e13780">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13780">
             <speaker>Loth. </speaker>
             <l>Too soon I saw her; </l>
             <l>For oh! that Meeting was not like the former; </l>
@@ -483,11 +518,11 @@
             <l>'Twas past, and Reason took her turn to reign, </l>
             <l>While ev'ry Weakness fell before her Throne. </l>
           </sp>
-          <sp xml:id="ep000854-e13860">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13860">
             <speaker>Ross. </speaker>
             <l>What of the Lady? </l>
           </sp>
-          <sp xml:id="ep000854-e13890">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e13890">
             <speaker>Loth. </speaker>
             <l>With uneasie Fondness </l>
             <l>She hung upon me, wept, and sigh'd, and swore </l>
@@ -497,11 +532,11 @@
             <l>To witness for her that she was my Wife. </l>
             <l>I started at that Name. </l>
           </sp>
-          <sp xml:id="ep000854-e13980">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e13980">
             <speaker>Ross. </speaker>
             <l>What Answer made you? </l>
           </sp>
-          <sp xml:id="ep000854-e14010">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e14010">
             <speaker>Loth. </speaker>
             <l>None; but pretending sudden Pain and Illness </l>
             <l>Escap'd the Persecution; two Nights since, </l>
@@ -521,11 +556,11 @@
             <l>But for those other Names of Wise and Husband, </l>
             <l>They only meant Ill-nature, Cares, and Quarrels. </l>
           </sp>
-          <sp xml:id="ep000854-e14200">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e14200">
             <speaker>Ross. </speaker>
             <l>How bore she this Reply? </l>
           </sp>
-          <sp xml:id="ep000854-e14230">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e14230">
             <speaker>Loth. </speaker>
             <l>Ev'n as the Earth, </l>
             <l>When, (Winds pent up, or eating Fires beneath </l>
@@ -543,13 +578,13 @@
             <l>Then bid me fly that minute; I obey'd, </l>
             <l>And bowing left her to grow cool at leisure. </l>
           </sp>
-          <sp xml:id="ep000854-e14400">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e14400">
             <speaker>Ross. </speaker>
             <l>She has relented since, else why this Message, </l>
             <l>To meet the Keeper of her Secrets here </l>
             <l>This Morning? </l>
           </sp>
-          <sp xml:id="ep000854-e14450">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e14450">
             <speaker>Loth. </speaker>
             <l>See the Person whom you nam'd. </l>
             <stage xml:id="ep000854-e14480">Enter <hi>Lucilla. </hi>
@@ -562,7 +597,7 @@
             <l>To treat in Juncture with her new Ally, </l>
             <l>And make her Husband Party to th' Agreement. </l>
           </sp>
-          <sp xml:id="ep000854-e14570">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e14570">
             <pb n="9" xml:id="ep000854-019"/>
             <speaker>Lucil. </speaker>
             <l>Is this well done, my Lord? Have you put off </l>
@@ -571,11 +606,11 @@
             <l>Lest other Men, tho' cruel, should disclaim you, </l>
             <l>And judge you to be number'd with the Brutes. </l>
           </sp>
-          <sp xml:id="ep000854-e14650">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e14650">
             <speaker>Loth. </speaker>
             <l>I see thou'st learnt to rail. </l>
           </sp>
-          <sp xml:id="ep000854-e14680">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e14680">
             <speaker>Lucil. </speaker>
             <l>I've learnt to weep; </l>
             <l>That Lesson my sad Mistress often gives me; </l>
@@ -588,7 +623,7 @@
             <l>And cries, False! false <hi>Lothario. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e14800">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e14800">
             <speaker>Loth. </speaker>
             <l>Oh no more! </l>
             <l>I swear thou'lt spoil thy pretty Face with Crying, </l>
@@ -596,7 +631,7 @@
             <l>Some keeping Cardinal shall doat upon thee, </l>
             <l>And barter his Church Treasure for thy Freshness. </l>
           </sp>
-          <sp xml:id="ep000854-e14870">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e14870">
             <speaker>Lucil. </speaker>
             <l>What! shall I fell my Innocence and Youth, </l>
             <l>For Wealth or Titles, to perfidious Man! </l>
@@ -606,13 +641,13 @@
             <l>Rather than know the Sorrows of <hi>Calista. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e14960">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e14960">
             <speaker>Loth. </speaker>
             <l>Does she send thee to chide in her behalf? </l>
             <l>I swear thou dost it with so good a Grace, </l>
             <l>That I cou'd almost love thee for thy frowning. </l>
           </sp>
-          <sp xml:id="ep000854-e15010">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e15010">
             <speaker>Lucil. </speaker>
             <l>Read there, my Lord, there in her own sad Lines, <stage xml:id="ep000854-e15040">[Giving a Letter. </stage>
             </l>
@@ -644,11 +679,11 @@
             </l>
             <l>Yet tell the Fair Inconstant— </l>
           </sp>
-          <sp xml:id="ep000854-e15270">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e15270">
             <speaker>Lucil. </speaker>
             <l>How, my Lord? </l>
           </sp>
-          <sp xml:id="ep000854-e15300">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e15300">
             <speaker>Loth. </speaker>
             <l>Nay, no more angry Words, say to <hi>Calista, </hi>
             </l>
@@ -656,25 +691,25 @@
             <l>If she can leave her happy Husband's Arms, </l>
             <l>To think upon so lost a thing as I am. </l>
           </sp>
-          <sp xml:id="ep000854-e15370">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e15370">
             <speaker>Lucil. </speaker>
             <l>Alas! for pity come with gentler Looks; </l>
             <l>Wound not her Heart with this unmanly Triumph; </l>
             <l>And tho' you love her not, yet swear you do, </l>
             <l>So shall Dissembling once be virtuous in you. </l>
           </sp>
-          <sp xml:id="ep000854-e15430">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e15430">
             <speaker>Loth. </speaker>
             <l>Ha! who comes here? </l>
           </sp>
-          <sp xml:id="ep000854-e15460">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e15460">
             <speaker>Lucil. </speaker>
             <l>The Bridegroom's Friend, <hi>Horatio. </hi>
             </l>
             <l>He must not see us here; to morrow early </l>
             <l>Be at the Garden Gate. </l>
           </sp>
-          <sp xml:id="ep000854-e15520">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e15520">
             <speaker>Loth. </speaker>
             <l>Bear to my Love </l>
             <l>My kindest Thoughts, and swear I will not fail her. </l>
@@ -684,7 +719,7 @@
           <stage xml:id="ep000854-e15580">
             <pb n="11" xml:id="ep000854-021"/>Enter <hi>Horatio. </hi>
           </stage>
-          <sp xml:id="ep000854-e15610">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e15610">
             <speaker>Hor. </speaker>
             <l>Sure 'tis the very Error of my Eyes: </l>
             <l>Waking I dream, or I beheld <hi>Lothario; </hi>
@@ -745,7 +780,7 @@
           </sp>
           <stage xml:id="ep000854-e16180">Enter <hi>Lavinia. </hi>
           </stage>
-          <sp xml:id="ep000854-e16200">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e16200">
             <speaker>Lav. </speaker>
             <l>My Lord! </l>
             <l>Trust me it joys my Heart that I have found you. </l>
@@ -757,23 +792,23 @@
             <l>That I may take you gently in my Arms, </l>
             <l>Sooth you to Rest, and soften all your Pains. </l>
           </sp>
-          <sp xml:id="ep000854-e16310">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e16310">
             <speaker>Hor. </speaker>
             <l>It were unjust, no let me spare my Friend, </l>
             <l>
               <pb n="13" xml:id="ep000854-023"/>Lock up the fatal Secret in my Breast, </l>
             <l>Nor tell him that which will undo his Quiet. </l>
           </sp>
-          <sp xml:id="ep000854-e16370">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e16370">
             <speaker>Lav. </speaker>
             <l>What means my Lord? </l>
           </sp>
-          <sp xml:id="ep000854-e16400">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e16400">
             <speaker>Hor. </speaker>
             <l>Ha! saidst thou my <hi>Lavinia? </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e16440">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e16440">
             <speaker>Lav. </speaker>
             <l>Alas! you know not what you make me suffer; </l>
             <l>Why are you pale? Why did you start and tremble? </l>
@@ -783,7 +818,7 @@
             <l>Lifts up his feeble Hands and Eyes for Mercy, </l>
             <l>And with Confusion thinks upon his Audit. </l>
           </sp>
-          <sp xml:id="ep000854-e16530">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e16530">
             <speaker>Hor. </speaker>
             <l>Oh no! thou hast mistook my Sickness quite, </l>
             <l>These Pangs are of the Soul. Wou'd I had met </l>
@@ -791,7 +826,7 @@
             <l>Or any other deadly Foe to Life, </l>
             <l>Rather than heave beneath this load of Thought. </l>
           </sp>
-          <sp xml:id="ep000854-e16600">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e16600">
             <speaker>Lav. </speaker>
             <l>Alas, what is it? Wherefore turn you from me? </l>
             <l>Why did you falsly call me your <hi>Lavinia, </hi>
@@ -805,7 +840,7 @@
             <l>Much rather than my Love should treat me coldly, </l>
             <l>And use me like a Stranger to his Heart. </l>
           </sp>
-          <sp xml:id="ep000854-e16730">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e16730">
             <speaker>Hor. </speaker>
             <l>Seek not to know what I wou'd hide from all, </l>
             <l>But most from thee. I never knew a Pleasure, </l>
@@ -818,7 +853,7 @@
             <l>Allow my melancholy Thoughts this privilege, </l>
             <l>And let 'em brood in secret o'er their Sorrows. </l>
           </sp>
-          <sp xml:id="ep000854-e16850">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e16850">
             <speaker>Lav. </speaker>
             <l>It is enough, chide not, and all is well; </l>
             <l>Forgive me if I saw you sad, <hi>Horatio, </hi>
@@ -834,7 +869,7 @@
             <l>He thinks the Priest has but half blest his Marriage, </l>
             <l>'Till his Friend Hails him with the sound of Joy. </l>
           </sp>
-          <sp xml:id="ep000854-e17000">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e17000">
             <speaker>Hor. </speaker>
             <l>Oh never! never! never! Thou art innocent, </l>
             <l>Simplicity from Ill, pure native Truth, </l>
@@ -843,11 +878,11 @@
             <l>'Twou'd fill thy gentle Soul wild Amazement </l>
             <l>To hear their Story told. </l>
           </sp>
-          <sp xml:id="ep000854-e17080">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e17080">
             <speaker>Lav. </speaker>
             <l>False ones, my Lord? </l>
           </sp>
-          <sp xml:id="ep000854-e17110">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e17110">
             <speaker>Hor. </speaker>
             <l>Fatally Fair they are, and in their Smiles, </l>
             <l>The Graces, little Loves, and young Desires inhabit; </l>
@@ -860,7 +895,7 @@
             <l>'Till having lov'd his Hour out, he gives place, </l>
             <l>And mingles with the Herd that went before him. </l>
           </sp>
-          <sp xml:id="ep000854-e17230">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e17230">
             <speaker>Lav. </speaker>
             <l>Can there be such? And have they peace of Mind? </l>
             <l>
@@ -874,7 +909,7 @@
             <l>Yields all his homely Dwelling to his Guest, </l>
             <l>And hardly keeps a Corner for himself. </l>
           </sp>
-          <sp xml:id="ep000854-e17360">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e17360">
             <speaker>Hor. </speaker>
             <l>Oh were they all like thee Men would adore 'em, </l>
             <l>And all the Bus'ness of their Lives be loving; </l>
@@ -893,7 +928,7 @@
           <stage xml:id="ep000854-e17490">SCENE, a Hall. </stage>
           <stage xml:id="ep000854-e17500">Enter Calista and <hi>Lucilla. </hi>
           </stage>
-          <sp xml:id="ep000854-e17520">
+          <sp who="#ep000854-calista" xml:id="ep000854-e17520">
             <speaker>Cal. </speaker>
             <l>BE dumb for ever, silent as the Grave, </l>
             <l>Nor let thy fond officious Love disturb </l>
@@ -904,7 +939,7 @@
             <l>But all are Indignation, Love, or Shame, </l>
             <l>And my dear Peace of Mind is lost for ever. </l>
           </sp>
-          <sp xml:id="ep000854-e17620">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e17620">
             <speaker>Luc. </speaker>
             <l>Why do you follow still that wand'ring Fire, </l>
             <l>That has mis-led your weary Steps, and leaves you </l>
@@ -917,7 +952,7 @@
             <l>That never knew the Courtly Vice of Changing, </l>
             <l>Sighs at your Feet, and wooes you to be happy. </l>
           </sp>
-          <sp xml:id="ep000854-e17750">
+          <sp who="#ep000854-calista" xml:id="ep000854-e17750">
             <speaker>Cal. </speaker>
             <l>Away, I think not of him. My sad Soul </l>
             <l>Has form'd a dismal melancholy Scene, </l>
@@ -933,11 +968,11 @@
             <l>Who had long since, like me, by Love undone, </l>
             <l>Sought that sad Place out to despair and die in. </l>
           </sp>
-          <sp xml:id="ep000854-e17900">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e17900">
             <speaker>Luc. </speaker>
             <l>Alas for Pity! </l>
           </sp>
-          <sp xml:id="ep000854-e17930">
+          <sp who="#ep000854-calista" xml:id="ep000854-e17930">
             <speaker>Cal. </speaker>
             <l>there I fain wou'd hide me, </l>
             <l>From the base World, from Malice, and from Shame; </l>
@@ -949,7 +984,7 @@
             <l>To be a Tale for Fools! Scorn'd by the Women, </l>
             <l>And pity'd by the Men! oh insupportable! </l>
           </sp>
-          <sp xml:id="ep000854-e18040">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e18040">
             <speaker>Luc. </speaker>
             <l>Can you perceive the manifest Destruction, </l>
             <l>The gaping Gulf that opens just before you, </l>
@@ -960,7 +995,7 @@
             <l>Never to see this faithless Man again: </l>
             <l>Let me forbid his coming. </l>
           </sp>
-          <sp xml:id="ep000854-e18140">
+          <sp who="#ep000854-calista" xml:id="ep000854-e18140">
             <speaker>Cal. </speaker>
             <l>On thy Life </l>
             <l>I charge thee no; my Genius drives me on; </l>
@@ -972,7 +1007,7 @@
             <l>The busie thing shall rest within its Cell, </l>
             <l>And never beat again. </l>
           </sp>
-          <sp xml:id="ep000854-e18250">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e18250">
             <speaker>Luc. </speaker>
             <l>Trust not to that; </l>
             <l>Rage is the shortest Passion of our Souls, </l>
@@ -982,7 +1017,7 @@
             <l>Still as it ebbs the softer Thoughts flow in, </l>
             <l>And the Deceiver Love supplies its place. </l>
           </sp>
-          <sp xml:id="ep000854-e18340">
+          <sp who="#ep000854-calista" xml:id="ep000854-e18340">
             <speaker>Cal. </speaker>
             <l>I have been wrong'd enough, to arm my Temper </l>
             <l>Against the smooth Delusion; but alas! </l>
@@ -994,7 +1029,7 @@
             <l>But my relenting Heart would pardon all, </l>
             <l>And quite forget 'twas he that had undone me. </l>
           </sp>
-          <sp xml:id="ep000854-e18450">
+          <sp who="#ep000854-lucilla" xml:id="ep000854-e18450">
             <speaker>Lucil. </speaker>
             <l>Ye sacred Powers, whose gracious Providence </l>
             <l>Is watchful for our Good, guard me from Men, </l>
@@ -1004,7 +1039,7 @@
             <l>That none may think it worth his while to ruin me, </l>
             <l>And fatal Love may never be my Bane. </l>
           </sp>
-          <sp xml:id="ep000854-e18540">
+          <sp who="#ep000854-calista" xml:id="ep000854-e18540">
             <speaker>Cal </speaker>
             <l>Ha! <hi>Altamont? Calista </hi>now be wary, </l>
             <l>And guard thy Soul's Accesses with Dissembling; </l>
@@ -1014,7 +1049,7 @@
           </sp>
           <stage xml:id="ep000854-e18620">Enter <hi>Altamont. </hi>
           </stage>
-          <sp xml:id="ep000854-e18640">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e18640">
             <speaker>Alt. </speaker>
             <l>Be gone my Cares, I give you to the Winds, </l>
             <l>Far to be born, far from the happy <hi>Altamont; </hi>
@@ -1027,14 +1062,14 @@
               <pb n="19" xml:id="ep000854-029"/>She crowns the Seasons with auspicious Beauty, </l>
             <l>And bids ev'n all my Hours be good and joyful. </l>
           </sp>
-          <sp xml:id="ep000854-e18760">
+          <sp who="#ep000854-calista" xml:id="ep000854-e18760">
             <speaker>Cal. </speaker>
             <l>If I was ever Mistress of such Happiness, </l>
             <l>Oh! wherefore did I play th' unthrifty Fool, </l>
             <l>And wasting all on others, leave my self </l>
             <l>Without one Thought of Joy to give me Comfort? </l>
           </sp>
-          <sp xml:id="ep000854-e18820">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e18820">
             <speaker>Alt. </speaker>
             <l>Oh mighty Love! Shall that fair Face profane </l>
             <l>This thy great Festival with Frowns and Sadness! </l>
@@ -1043,7 +1078,7 @@
             <l>That thou shalt catch the gentle Flame from me, </l>
             <l>And kindle into Joy. </l>
           </sp>
-          <sp xml:id="ep000854-e18900">
+          <sp who="#ep000854-calista" xml:id="ep000854-e18900">
             <speaker>Cal. </speaker>
             <l>I tell thee, <hi>Altamont. </hi>
             </l>
@@ -1059,7 +1094,7 @@
             <l>Or any other in the Course of Time, </l>
             <l>That dully took its turn, and was forgotten. </l>
           </sp>
-          <sp xml:id="ep000854-e19050">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e19050">
             <speaker>Alt. </speaker>
             <l>If to behold thee as my Pledge of Happiness, </l>
             <l>To know none fail, none excellent beside thee; </l>
@@ -1070,7 +1105,7 @@
             <l>Oh then let my Calista bless this Day, </l>
             <l>And set it down for happy. </l>
           </sp>
-          <sp xml:id="ep000854-e19150">
+          <sp who="#ep000854-calista" xml:id="ep000854-e19150">
             <pb n="20" xml:id="ep000854-030"/>
             <speaker>Cal. </speaker>
             <l>'Tis the Day </l>
@@ -1080,7 +1115,7 @@
           </sp>
           <stage xml:id="ep000854-e19220">Enter <hi>Sciolto, Horatio, </hi>and <hi>Lavinia. </hi>
           </stage>
-          <sp xml:id="ep000854-e19250">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e19250">
             <speaker>Sci. </speaker>
             <l>Let Mirth go on, let Pleasure know no pause, </l>
             <l>But fill up ev'ry Minute of this Day. </l>
@@ -1117,7 +1152,7 @@
               <l>Nor casts one pitying Look behind. </l>
             </lg>
           </lg>
-          <sp xml:id="ep000854-e19580">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e19580">
             <speaker>Sci. </speaker>
             <l>Take care my Gates be open, bid all welcome; </l>
             <l>All who rejoice with me to Day are Friends: </l>
@@ -1138,7 +1173,7 @@
           </sp>
           <stage xml:id="ep000854-e19760">Manet <hi>Horatio. </hi>
           </stage>
-          <sp xml:id="ep000854-e19780">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e19780">
             <speaker>Hor. </speaker>
             <l>What if, while all are here intent on Revelling, </l>
             <l>I privately went forth, and sought <hi>Lothario? </hi>
@@ -1169,7 +1204,7 @@
           <stage xml:id="ep000854-e20040">SCENE, the Street near Sciolto's Palace. </stage>
           <stage xml:id="ep000854-e20050">Enter Lothario and <hi>Rossano. </hi>
           </stage>
-          <sp xml:id="ep000854-e20070">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20070">
             <speaker>Loth. </speaker>
             <l>To tell thee then the Purport of my Thoughts; </l>
             <l>The Loss of this fond Paper would not give me </l>
@@ -1179,7 +1214,7 @@
             <l>Therefore I mean to wait some Opportunity </l>
             <l>Of speaking with the Maid we saw this Morning. </l>
           </sp>
-          <sp xml:id="ep000854-e20160">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e20160">
             <speaker>Ross. </speaker>
             <l>I wish you, Sir, to think upon the Danger </l>
             <l>Of being seen; to Day their Friends are round 'em, </l>
@@ -1189,7 +1224,7 @@
           </sp>
           <stage xml:id="ep000854-e20230">Enter <hi>Horatio. </hi>
           </stage>
-          <sp xml:id="ep000854-e20250">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e20250">
             <speaker>Hor. </speaker>
             <l>Still I must doubt some Mystery of Mischief, </l>
             <l>Some Artifice beneath; Lothario's Father </l>
@@ -1203,20 +1238,20 @@
             <l>More open, and unartful— Ha! he's here! <stage xml:id="ep000854-e20370">[Seeing him. </stage>
             </l>
           </sp>
-          <sp xml:id="ep000854-e20380">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20380">
             <speaker>Loth. </speaker>
             <l>Damnation! He again!— This second time </l>
             <l>To Day he has crost me like my evil Genius. </l>
           </sp>
-          <sp xml:id="ep000854-e20420">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e20420">
             <speaker>Hor. </speaker>
             <l>I sought you, Sir. </l>
           </sp>
-          <sp xml:id="ep000854-e20450">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20450">
             <speaker>Loth. </speaker>
             <l>'Tis well then I am found. </l>
           </sp>
-          <sp xml:id="ep000854-e20480">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e20480">
             <speaker>Hor. </speaker>
             <l>'Tis well you are: The Man who wrongs my Friend </l>
             <l>To the Earth's utmost Verge I would pursue; </l>
@@ -1224,7 +1259,7 @@
             <l>No Shape that artful Fear e'er form'd should hide him, </l>
             <l>'Till he fair Answer made, and did me Justice. </l>
           </sp>
-          <sp xml:id="ep000854-e20550">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20550">
             <speaker>Loth. </speaker>
             <l>Ha! dost thou know me? that I am <hi>Lothario? </hi>
             </l>
@@ -1234,7 +1269,7 @@
             <l>That I should basely hide me from his Anger, </l>
             <l>Lest he should chide me for his Friend's Displeasure? </l>
           </sp>
-          <sp xml:id="ep000854-e20640">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e20640">
             <speaker>Hor. </speaker>
             <l>The Brave, 'tis true, do never shun the Light, </l>
             <l>Just are their Thoughts, and open are their Tempers, </l>
@@ -1242,14 +1277,14 @@
             <l>Still are they found in the fair face of Day, </l>
             <l>And Heav'n and Men are Judges of their Actions. </l>
           </sp>
-          <sp xml:id="ep000854-e20710">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20710">
             <speaker>Loth. </speaker>
             <l>Such let 'em be of mine; there's not a Purpose, </l>
             <l>Which my Soul ever fram'd, or my Hand acted, </l>
             <l>But I could well have bid the World look on, </l>
             <l>And what I once durst do, have dar'd to justifie. </l>
           </sp>
-          <sp xml:id="ep000854-e20770">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e20770">
             <speaker>Hor. </speaker>
             <l>Where was this open Boldness, this free Spirit? </l>
             <l>When but this very Morning I surpriz'd thee, </l>
@@ -1260,11 +1295,11 @@
             <l>
               <pb n="24" xml:id="ep000854-034"/>At Sight of me thou fledst! </l>
           </sp>
-          <sp xml:id="ep000854-e20870">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20870">
             <speaker>Loth. </speaker>
             <l>Ha! Fled from thee? </l>
           </sp>
-          <sp xml:id="ep000854-e20900">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e20900">
             <speaker>Hor. </speaker>
             <l>Thou fled'st, and Guilt was on thee, like a Thief, </l>
             <l>A Pilferer descry'd in some dark Corner, </l>
@@ -1272,19 +1307,19 @@
             <l>To rob and ravage at the Hour of Rest, </l>
             <l>And do a Midnight Murder on the Sleepers. </l>
           </sp>
-          <sp xml:id="ep000854-e20970">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e20970">
             <speaker>Loth. </speaker>
             <l>Slave! Villain!— </l>
             <stage xml:id="ep000854-e21000">[Offers to draw, Rossano holds him. </stage>
           </sp>
-          <sp xml:id="ep000854-e21010">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e21010">
             <speaker>Ross. </speaker>
             <l>Hold, my Lord! think where you are, </l>
             <l>Think how unsafe, and hurtful to your Honour, </l>
             <l>It were to urge a Quarrel in this Place, </l>
             <l>And shock the peaceful City with a Broil. </l>
           </sp>
-          <sp xml:id="ep000854-e21070">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e21070">
             <speaker>Loth. </speaker>
             <l>Then since thou dost provoke my Vengeance, know </l>
             <l>I wou'd not for this City's Wealth, for all </l>
@@ -1299,7 +1334,7 @@
             <l>To the dull doating Husband; now I have found him, </l>
             <l>And thou art he. </l>
           </sp>
-          <sp xml:id="ep000854-e21220">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e21220">
             <speaker>Hor. </speaker>
             <l>I hold thee base enough, </l>
             <l>To break through Law, and spurn at Sacred Order, </l>
@@ -1317,13 +1352,13 @@
             <l>Ransack for Mistresses th' unwholsome Stews, </l>
             <l>And never know the worth of virtuous Love. </l>
           </sp>
-          <sp xml:id="ep000854-e21390">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e21390">
             <speaker>Loth. </speaker>
             <l>Think'st thou I forg'd the Letter? Think so still, </l>
             <l>'Till the broad Shame comes staring in thy Face, </l>
             <l>And Boys shall hoot the Cuckold as he passes. </l>
           </sp>
-          <sp xml:id="ep000854-e21440">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e21440">
             <speaker>Hor. </speaker>
             <l>Away, no Woman cou'd descend so low: </l>
             <l>A skipping, dancing, worthless Tribe you are, </l>
@@ -1335,12 +1370,12 @@
             <l>Or being, ne'er were Saints, are not so false </l>
             <l>As the fond Tales which you recount of Love. </l>
           </sp>
-          <sp xml:id="ep000854-e21550">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e21550">
             <speaker>Loth. </speaker>
             <l>But that I do not hold it worth my Leisure, </l>
             <l>I cou'd produce such damning Proof— </l>
           </sp>
-          <sp xml:id="ep000854-e21590">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e21590">
             <speaker>Hor. </speaker>
             <l>'Tis false, </l>
             <l>You blast the Fair with Lies because they scorn you, </l>
@@ -1348,13 +1383,13 @@
             <l>Rather than make you blest they wou'd die Virgins, </l>
             <l>And stop the Propagation of Mankind. </l>
           </sp>
-          <sp xml:id="ep000854-e21660">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e21660">
             <speaker>Loth. </speaker>
             <l>It is the Curse of Fools to be secure, </l>
             <l>●nd that be thine and Altamont's: Dream on, </l>
             <l>●or think upon my Vengeance 'till thou feel'st it. </l>
           </sp>
-          <sp xml:id="ep000854-e21710">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e21710">
             <speaker>Hor. </speaker>
             <l>Hold, Sir, another Word, and then farewel; </l>
             <l>Tho' I think greatly of Calista's Virtue, </l>
@@ -1371,7 +1406,7 @@
             <l>Of Dice, of Whores, of Horses, and Your selues; </l>
             <l>'Tis safer, and becomes your Understandings. </l>
           </sp>
-          <sp xml:id="ep000854-e21870">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e21870">
             <speaker>Loth. </speaker>
             <l>What if we pass beyond this solemn Order? </l>
             <l>And, in Defiance of the stern <hi>Horatio, </hi>
@@ -1379,11 +1414,11 @@
             <l>Indulge our gayer Thoughts, let Laughter loose, </l>
             <l>And use his sacred Friendship for our Mirth. </l>
           </sp>
-          <sp xml:id="ep000854-e21940">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e21940">
             <speaker>Hor. </speaker>
             <l>'Tis well! Sir, you are pleasant— </l>
           </sp>
-          <sp xml:id="ep000854-e21970">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e21970">
             <speaker>Loth. </speaker>
             <l>By the Joys, </l>
             <l>Which yet my Soul has uncontroll'd pursu'd, </l>
@@ -1394,7 +1429,7 @@
             <l>Rifle the Sweets, and taste the choicest Fruits, </l>
             <l>Yet scorn to ask the Lordly Owners leave. </l>
           </sp>
-          <sp xml:id="ep000854-e22070">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e22070">
             <speaker>Hor. </speaker>
             <l>What Liberty has vain presumptuous Youth, </l>
             <l>That thou shou'dst dare provoke me unchastis'd? </l>
@@ -1407,7 +1442,7 @@
             <l>Shall print a thousand Wounds, tear thy fine Form, </l>
             <l>And scatter thee to all the Winds of Heav'n, </l>
           </sp>
-          <sp xml:id="ep000854-e22190">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e22190">
             <pb n="27" xml:id="ep000854-037"/>
             <speaker>Loth. </speaker>
             <l>Is then my Way in Genoa prescrib'd, </l>
@@ -1416,40 +1451,40 @@
             <l>A talking Sir, that brawls for him in Taverns, </l>
             <l>And vouches for his Valour's Reputation? </l>
           </sp>
-          <sp xml:id="ep000854-e22270">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e22270">
             <speaker>Hor. </speaker>
             <l>Away, thy Speech is fouler than thy Manners. </l>
           </sp>
-          <sp xml:id="ep000854-e22300">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e22300">
             <speaker>Loth. </speaker>
             <l>Or if there be a Name more vile, his Parasite. </l>
             <l>A Beggar's Parasite!— </l>
           </sp>
-          <sp xml:id="ep000854-e22340">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e22340">
             <speaker>Hor. </speaker>
             <l>Now learn Humanity, </l>
             <stage xml:id="ep000854-e22370">[Offers to strike him, Rossano interposes. </stage>
             <l>Since Brutes and Boys are only taught with Blows. </l>
           </sp>
-          <sp xml:id="ep000854-e22390">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e22390">
             <speaker>Loth. </speaker>
             <l>Damnation! </l>
             <stage xml:id="ep000854-e22420">[They Draw. </stage>
           </sp>
-          <sp xml:id="ep000854-e22430">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e22430">
             <speaker>Ross. </speaker>
             <l>Hold, this goes no further here, </l>
             <l>
               <hi>Horatio, </hi>'tis too much; already see, </l>
             <l>The Crowd are gath'ring to us. </l>
           </sp>
-          <sp xml:id="ep000854-e22490">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e22490">
             <speaker>Loth. </speaker>
             <l>Oh <hi>Rossano! </hi>
             </l>
             <l>Or give me way, or thou'rt no more my Friend. </l>
           </sp>
-          <sp xml:id="ep000854-e22540">
+          <sp who="#ep000854-rossano" xml:id="ep000854-e22540">
             <speaker>Ross. </speaker>
             <l>Sciolto's Servants too have ta'en th' Alarm. </l>
             <l>You'll be opprest by Numbers, be advis'd, </l>
@@ -1458,18 +1493,18 @@
             </l>
             <l>Put up, my Lord. </l>
           </sp>
-          <sp xml:id="ep000854-e22620">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e22620">
             <speaker>Loth. </speaker>
             <l>This wo' not brook Delay; </l>
             <l>West of the Town a Mile, among the Rocks, </l>
             <l>Two Hours e'er Noon to morrow I expect thee, </l>
             <l>Thy single Hand to mine. </l>
           </sp>
-          <sp xml:id="ep000854-e22680">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e22680">
             <speaker>Hor. </speaker>
             <l>I'll meet thee there. </l>
           </sp>
-          <sp xml:id="ep000854-e22710">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e22710">
             <speaker>Loth. </speaker>
             <l>To morrow, oh my better Stars! to morrow, </l>
             <l>Exert your Influence, shine strongly for me; </l>
@@ -1480,7 +1515,7 @@
           </sp>
           <pb n="26" xml:id="ep000854-038"/>
           <pb n="27" xml:id="ep000854-039"/>
-          <sp xml:id="ep000854-e22810">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e22810">
             <pb n="28" xml:id="ep000854-040"/>
             <speaker>Hor. </speaker>
             <l>Two Hours e'er Noon to morrow! ha! e'er that </l>
@@ -1510,7 +1545,7 @@
           <stage xml:id="ep000854-e23060">SCENE an Apartment in Sciolto's Palace. </stage>
           <stage xml:id="ep000854-e23070">Enter Sciolto and <hi>Calista. </hi>
           </stage>
-          <sp xml:id="ep000854-e23090">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e23090">
             <speaker>Sci. </speaker>
             <l>NOW by my Life, my Honour, 'tis too much; </l>
             <l>Have I not mark'd thee wayward as thou art, </l>
@@ -1523,7 +1558,7 @@
             <l>When all the other Stars, with gentle Aspect, </l>
             <l>Propitious shine, and meaning Good to Man. </l>
           </sp>
-          <sp xml:id="ep000854-e23210">
+          <sp who="#ep000854-calista" xml:id="ep000854-e23210">
             <speaker>Cal. </speaker>
             <l>Is then the Task of Duty half perform'd? </l>
             <l>Has not your Daughter giv'n her self to <hi>Altamont, </hi>
@@ -1532,11 +1567,11 @@
             <l>To an Imperious Husband's lordly Rule, </l>
             <l>To gratifie a Father's stern Command? </l>
           </sp>
-          <sp xml:id="ep000854-e23290">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e23290">
             <speaker>Sci. </speaker>
             <l>Dost thou complain? </l>
           </sp>
-          <sp xml:id="ep000854-e23320">
+          <sp who="#ep000854-calista" xml:id="ep000854-e23320">
             <speaker>Cal. </speaker>
             <l>For pity do not frown then, </l>
             <l>If in despight of all my vow'd Obedience, </l>
@@ -1547,7 +1582,7 @@
             <l>'Till Life, the Prop of all, shall leave the Building, </l>
             <l>To tumble down, and moulder into Ruin, </l>
           </sp>
-          <sp xml:id="ep000854-e23420">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e23420">
             <pb n="30" xml:id="ep000854-042"/>
             <speaker>Sci. </speaker>
             <l>Now by the sacred Dust of that dear Saint </l>
@@ -1568,7 +1603,7 @@
             <stage xml:id="ep000854-e23600">[Exit <hi>Sciolto. </hi>
             </stage>
           </sp>
-          <sp xml:id="ep000854-e23620">
+          <sp who="#ep000854-calista" xml:id="ep000854-e23620">
             <speaker>Cal. </speaker>
             <l>How hard is the Condition of our Sex, </l>
             <l>Thro' ev'ry State of Life the Slaves of Man? </l>
@@ -1588,7 +1623,7 @@
           <stage xml:id="ep000854-e23780">
             <pb n="31" xml:id="ep000854-043"/>Enter <hi>Horatio. </hi>
           </stage>
-          <sp xml:id="ep000854-e23810">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e23810">
             <speaker>Hor. </speaker>
             <l>She's here! yet oh! my Tongue is at a loss, </l>
             <l>Teach me, some Pow'r, that happy Art of Speech, </l>
@@ -1601,24 +1636,24 @@
             <l>To join my Grief to yours, and mourn the Evils </l>
             <l>That hurt your Peace, and quench those Eyes in Tears. </l>
           </sp>
-          <sp xml:id="ep000854-e23930">
+          <sp who="#ep000854-calista" xml:id="ep000854-e23930">
             <speaker>Cal. </speaker>
             <l>To steal unlook'd for on my private Sorrow, </l>
             <l>Speaks not the Man of Honour, nor the Friend, </l>
             <l>But rather means the Spy. </l>
           </sp>
-          <sp xml:id="ep000854-e23980">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e23980">
             <speaker>Hor. </speaker>
             <l>Unkindly said! </l>
             <l>For oh! as sure as you accuse me falsly, </l>
             <l>I come to prove my self Calista's Friend. </l>
           </sp>
-          <sp xml:id="ep000854-e24030">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24030">
             <speaker>Cal. </speaker>
             <l>You are my Husband's Friend, the Friend of <hi>Altamont. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e24070">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24070">
             <speaker>Hor. </speaker>
             <l>Are you not one? Are you not join'd by Heav'n, </l>
             <l>Each interwoven with the other's Fate? </l>
@@ -1628,7 +1663,7 @@
             <l>Then, who can give his Friendship: but to one? </l>
             <l>Who can be Altamont's, and not Calista's? </l>
           </sp>
-          <sp xml:id="ep000854-e24160">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24160">
             <speaker>Cal. </speaker>
             <l>Force, and the Wills of our Imperious Rulers, </l>
             <l>May bind two Bodies in one wretched Chain; </l>
@@ -1637,7 +1672,7 @@
             <l>Stands on the Shoar, and sends his Wishes back </l>
             <l>To the dear Native Land from whence he came. </l>
           </sp>
-          <sp xml:id="ep000854-e24240">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24240">
             <speaker>Hor. </speaker>
             <l>When Souls that shou'd agree to Will the same, </l>
             <l>
@@ -1648,13 +1683,13 @@
             <l>The Nights shall all be lonely and unquiet, </l>
             <l>And ev'ry Day shall be a Day of Cares. </l>
           </sp>
-          <sp xml:id="ep000854-e24340">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24340">
             <speaker>Cal. </speaker>
             <l>Then all the boasted Office of thy Friendship, </l>
             <l>Was but to tell Calista what a Wretch she is; </l>
             <l>Alas! what needed that? </l>
           </sp>
-          <sp xml:id="ep000854-e24390">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24390">
             <speaker>Hor. </speaker>
             <l>Oh! rather say, </l>
             <l>I came to tell her how she might be happy; </l>
@@ -1662,13 +1697,13 @@
             <l>To comfort that Fair Mourner, that forlorn one, </l>
             <l>And teach her Steps to know the Paths of Peace. </l>
           </sp>
-          <sp xml:id="ep000854-e24460">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24460">
             <speaker>Cal. </speaker>
             <l>Say thou to whom this Paradise is known, </l>
             <l>Where lyes the blissful Region? Mark my way to it, </l>
             <l>For oh! 'tis sure, I long to be at Rest. </l>
           </sp>
-          <sp xml:id="ep000854-e24510">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24510">
             <speaker>Hor. </speaker>
             <l>Then— to be Good is to be Happy;— Angels </l>
             <l>Are happier than Mankind, because they are better. </l>
@@ -1678,18 +1713,18 @@
             <l>But rest in everlasting Peace of Mind, </l>
             <l>And find the height of all their Heav'n is Goodness. </l>
           </sp>
-          <sp xml:id="ep000854-e24600">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24600">
             <speaker>Cal. </speaker>
             <l>And what bold Parasite's officious Tongue </l>
             <l>Shall dare to tax Calista's Name with Guilt? </l>
           </sp>
-          <sp xml:id="ep000854-e24640">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24640">
             <speaker>Hor. </speaker>
             <l>None shou'd; but 'tis a busie, talking World, </l>
             <l>That with licentious Breath blows like the Wnd, </l>
             <l>As freely on the Palace, as the Cottage. </l>
           </sp>
-          <sp xml:id="ep000854-e24690">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24690">
             <speaker>Cal. </speaker>
             <l>What mystick Riddle lurks beneath thy Words, </l>
             <l>Which thou wou'dst seem unwilling to express, </l>
@@ -1698,17 +1733,17 @@
             <l>Away with this ambiguous shuffling Phrase, </l>
             <l>And let thy Oracle be understood. </l>
           </sp>
-          <sp xml:id="ep000854-e24770">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24770">
             <speaker>Hor. </speaker>
             <l>
               <hi>Lothario! </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e24810">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24810">
             <speaker>Cal. </speaker>
             <l>Ha! what wou'dst thou mean by him? </l>
           </sp>
-          <sp xml:id="ep000854-e24840">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e24840">
             <speaker>Hor. </speaker>
             <l>Lothario and <hi>Calista!</hi>— Thus they join </l>
             <l>Two Names, which Heav'n decreed shou'd never meet; </l>
@@ -1718,7 +1753,7 @@
             <l>Who plighted to a noble Youth her Faith, </l>
             <l>When she had giv'n her Honour to a Wretch. </l>
           </sp>
-          <sp xml:id="ep000854-e24940">
+          <sp who="#ep000854-calista" xml:id="ep000854-e24940">
             <speaker>Cal. </speaker>
             <l>Death! and Confusion! Have I liv'd to this? </l>
             <l>Thus to be treated with unmanly Insolence! </l>
@@ -1726,7 +1761,7 @@
             <l>Thus to be us'd! thus! like the vilest Creature, </l>
             <l>That ever was a Slave to Vice and Infamy. </l>
           </sp>
-          <sp xml:id="ep000854-e25010">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e25010">
             <speaker>Hor. </speaker>
             <l>By Honour and fair Truth, you wrong me much </l>
             <l>For on my Soul nothing but strong Necessity, </l>
@@ -1738,7 +1773,7 @@
             <l>To save his tender Wife, with all her Brood </l>
             <l>Of little Fondlings, from the dreadful Ruin. </l>
           </sp>
-          <sp xml:id="ep000854-e25120">
+          <sp who="#ep000854-calista" xml:id="ep000854-e25120">
             <speaker>Cal. </speaker>
             <l>Is this! Is this the famous Friend of <hi>Altamont, </hi>
             </l>
@@ -1752,7 +1787,7 @@
             <l>Bloody Revenge on his defenceless Wife; </l>
             <l>Who guiltless dies, because her Fool ran mad. </l>
           </sp>
-          <sp xml:id="ep000854-e25250">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e25250">
             <speaker>Hor. </speaker>
             <l>Alas! this Rage is vain; for if your Fame, </l>
             <l>Or Peace be worth your Care, you must be calm, </l>
@@ -1765,13 +1800,13 @@
             <l>Unless you have devoted this rare Beauty </l>
             <l>To Infamy, Diseases, Prostitution— </l>
           </sp>
-          <sp xml:id="ep000854-e25370">
+          <sp who="#ep000854-calista" xml:id="ep000854-e25370">
             <speaker>Cal. </speaker>
             <l>Dishonour blast thee, base, unmanner'd Slave? </l>
             <l>That dar'st forgat my Birth, and sacred Sex, </l>
             <l>And shock me with the rude unhallow'd Sound. </l>
           </sp>
-          <sp xml:id="ep000854-e25420">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e25420">
             <speaker>Hor. </speaker>
             <l>Here kneel, and in the awful Face of Heav'n, </l>
             <l>Breath out a solemn Vow, never to see, </l>
@@ -1781,7 +1816,7 @@
             </l>
             <l>This guilty Paper shall divulge your Shame— </l>
           </sp>
-          <sp xml:id="ep000854-e25510">
+          <sp who="#ep000854-calista" xml:id="ep000854-e25510">
             <speaker>Cal. </speaker>
             <l>What mean'st thou by that Paper? What Contrivance </l>
             <l>Hast thou been forging to deceive my Father, </l>
@@ -1793,24 +1828,24 @@
             <l>
               <pb n="35" xml:id="ep000854-047"/>That forg'd the Scrowl. </l>
           </sp>
-          <sp xml:id="ep000854-e25620">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e25620">
             <speaker>Hor. </speaker>
             <l>Behold, can this be forg'd? </l>
             <l>See where Calista's Name— <stage xml:id="ep000854-e25660">[Shewing the Letter near. </stage>
             </l>
           </sp>
-          <sp xml:id="ep000854-e25670">
+          <sp who="#ep000854-calista" xml:id="ep000854-e25670">
             <speaker>Cal. </speaker>
             <l>To Atoms thus, <stage xml:id="ep000854-e25700">[Tearing it. </stage>
             </l>
             <l>Thus let me tear the vile, detested Falshood, </l>
             <l>The wicked, lying Evidence of Shame. </l>
           </sp>
-          <sp xml:id="ep000854-e25730">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e25730">
             <speaker>Hor. </speaker>
             <l>Confusion! </l>
           </sp>
-          <sp xml:id="ep000854-e25760">
+          <sp who="#ep000854-calista" xml:id="ep000854-e25760">
             <speaker>Cal. </speaker>
             <l>Henceforth, thou officious Fool, </l>
             <l>Meddle no more, nor dare ev'n on thy Life </l>
@@ -1820,7 +1855,7 @@
           </sp>
           <stage xml:id="ep000854-e25830">Enter <hi>Altamont. </hi>
           </stage>
-          <sp xml:id="ep000854-e25850">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e25850">
             <speaker>Alt. </speaker>
             <l>Where is my Life, my Love, my charming Bride, </l>
             <l>Joy of my Heart, and Pleasure of my Eyes, </l>
@@ -1834,21 +1869,21 @@
             <l>That my swift Sword may find out the Offender, </l>
             <l>And do thee ample Justice. </l>
           </sp>
-          <sp xml:id="ep000854-e25990">
+          <sp who="#ep000854-calista" xml:id="ep000854-e25990">
             <speaker>Cal. </speaker>
             <l>Turn to him, </l>
           </sp>
-          <sp xml:id="ep000854-e26020">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e26020">
             <speaker>Alt. </speaker>
             <l>
               <hi>Horatio! </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e26060">
+          <sp who="#ep000854-calista" xml:id="ep000854-e26060">
             <speaker>Cal. </speaker>
             <l>To that Insolent! </l>
           </sp>
-          <sp xml:id="ep000854-e26090">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e26090">
             <speaker>Alt. </speaker>
             <l>My Friend! </l>
             <l>Cou'd he do this? He, who was half my self! </l>
@@ -1860,7 +1895,7 @@
             <l>The Heart of Altamont in his <hi>Calista? </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e26200">
+          <sp who="#ep000854-calista" xml:id="ep000854-e26200">
             <speaker>Cal. </speaker>
             <l>I thought what Justice I should find from thee! </l>
             <l>Go fawn upon him, listen to his Tale, </l>
@@ -1869,14 +1904,14 @@
             <l>Thou art perhaps Confederate in his Mischief, </l>
             <l>And wilt believe the Legend, if he tells it. </l>
           </sp>
-          <sp xml:id="ep000854-e26280">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e26280">
             <speaker>Alt. </speaker>
             <l>Oh Impious! What presumptuous Wretch shall dare </l>
             <l>To offer at an Injury like that? </l>
             <l>Priesthood, nor Age, nor Cowardise it self, </l>
             <l>Shall save him from the Fury of my Vengeance. </l>
           </sp>
-          <sp xml:id="ep000854-e26340">
+          <sp who="#ep000854-calista" xml:id="ep000854-e26340">
             <speaker>Cal. </speaker>
             <l>The Man who dar'd to do it was <hi>Horatio! </hi>
             </l>
@@ -1896,7 +1931,7 @@
             <stage xml:id="ep000854-e26510">[Exit <hi>Calista. </hi>
             </stage>
           </sp>
-          <sp xml:id="ep000854-e26530">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e26530">
             <speaker>Alt. </speaker>
             <l>She's gone; and as she went, Ten thousand Fires </l>
             <l>Shot from her angry Eyes, as if she meant </l>
@@ -1908,7 +1943,7 @@
             <l>Madness and Reason combating within thee, </l>
             <l>And thou wert doubtful which shou'd get the better. </l>
           </sp>
-          <sp xml:id="ep000854-e26650">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e26650">
             <speaker>Hor. </speaker>
             <l>I wou'd be dumb for ever, but thy Fate </l>
             <l>Has otherwise decreed it; thou hast seen </l>
@@ -1916,7 +1951,7 @@
             </l>
             <l>Thou hast beheld her Tears. </l>
           </sp>
-          <sp xml:id="ep000854-e26720">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e26720">
             <speaker>Alt. </speaker>
             <l>I have seen her weep, </l>
             <l>I have seen that lovely one, that dear <hi>Calista, </hi>
@@ -1924,7 +1959,7 @@
             <l>Complaining in the Bitterness of Sorrow, </l>
             <l>That thou! my Friend! Horatio! thou hadst wrong'd her, </l>
           </sp>
-          <sp xml:id="ep000854-e26790">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e26790">
             <speaker>Hor. </speaker>
             <l>That I have wrong'd her! Had her Eyes been fed </l>
             <l>From that rich Stream which warms her Heart, and number'd </l>
@@ -1932,7 +1967,7 @@
             <l>It had not been too much; for she has ruin'd thee, </l>
             <l>Ev'n thee, my <hi>Altamont! </hi>She has undone thee. </l>
           </sp>
-          <sp xml:id="ep000854-e26870">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e26870">
             <speaker>Alt. </speaker>
             <l>Dost thou join Ruin with Calista's Name? </l>
             <l>What is so fair, so exquisitely good? </l>
@@ -1943,13 +1978,13 @@
             <l>The Dowry which she brings is Peace and Pleasure, </l>
             <l>And everlasting Joys are in her Arms. </l>
           </sp>
-          <sp xml:id="ep000854-e26970">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e26970">
             <speaker>Hor. </speaker>
             <l>It had been better thou hadst liv'd a Beggar, </l>
             <l>And fed on Scraps at great Mens surly Doors, </l>
             <l>Than to have match'd with one so false, so fatal.— </l>
           </sp>
-          <sp xml:id="ep000854-e27020">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27020">
             <speaker>Alt. </speaker>
             <l>It is too much for Friendship to allow thee; </l>
             <l>
@@ -1957,7 +1992,7 @@
             <l>Thou dost avow the barb'rous, brutal Part, </l>
             <l>And urge the Injury ev'n to my Face. </l>
           </sp>
-          <sp xml:id="ep000854-e27090">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27090">
             <speaker>Hor. </speaker>
             <l>I see she has got Possession of thy Heart, </l>
             <l>She has charm'd thee, like a Siren, to her Bed, </l>
@@ -1967,13 +2002,13 @@
             <l>Then vainly wish thou hadst not left thy Friend, </l>
             <l>To follow her Delusion. </l>
           </sp>
-          <sp xml:id="ep000854-e27180">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27180">
             <speaker>Alt. </speaker>
             <l>If thy Friendship </l>
             <l>Do churlishly deny my Love a Room, </l>
             <l>It is not worth my keeping, I disclaim it. </l>
           </sp>
-          <sp xml:id="ep000854-e27230">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27230">
             <speaker>Hor. </speaker>
             <l>Canst thou so soon forget what l've been to thee? </l>
             <l>I shar'd the Task of Nature with thy Father, </l>
@@ -1986,19 +2021,19 @@
             <l>He call'd me Friend, like thee; wou'd he have left me </l>
             <l>Thus? for a Woman? nay, a vile one too? </l>
           </sp>
-          <sp xml:id="ep000854-e27350">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27350">
             <speaker>Alt. </speaker>
             <l>Thou canst not, dar'st not mean it; speak again, </l>
             <l>Say, who is vile? but dare not name <hi>Calista. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e27400">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27400">
             <speaker>Hor. </speaker>
             <l>I had not spoke at first, unless compell'd, </l>
             <l>And forc'd to clear my self; but since thus urg'd, </l>
             <l>I must avow I do not know a viler. </l>
           </sp>
-          <sp xml:id="ep000854-e27450">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27450">
             <speaker>Alt. </speaker>
             <l>Thou wert my Father's Friend, he lov'd thee well; </l>
             <l>A kind of venerable Mark of him </l>
@@ -2008,79 +2043,79 @@
             <l>But henceforth never let me see thee more. <stage xml:id="ep000854-e27530">[Going out. </stage>
             </l>
           </sp>
-          <sp xml:id="ep000854-e27540">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27540">
             <speaker>Hor. </speaker>
             <l>I love thee still, ungrateful as thou art, </l>
             <l>And must, and will preserve thee from Dishonour, </l>
             <l>Ev'n in despight of thee. </l>
             <stage xml:id="ep000854-e27590">[Holds him. </stage>
           </sp>
-          <sp xml:id="ep000854-e27600">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27600">
             <speaker>Alt. </speaker>
             <l>Let go my Arm. </l>
           </sp>
-          <sp xml:id="ep000854-e27630">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27630">
             <speaker>Hor. </speaker>
             <l>If Honour be thy Care, if thou wou'dst live, </l>
             <l>Without the Name of credulous, wittal Husband, </l>
             <l>Avoid thy Bride, shun her detested Bed, </l>
             <l>The Joys it yields are dash'd with Poyson.— </l>
           </sp>
-          <sp xml:id="ep000854-e27690">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27690">
             <speaker>Alt. </speaker>
             <l>Off! </l>
             <l>To urge me but a Minute more is fatal. </l>
           </sp>
-          <sp xml:id="ep000854-e27730">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27730">
             <speaker>Hor. </speaker>
             <l>She is polluted! stain'd! </l>
           </sp>
-          <sp xml:id="ep000854-e27760">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27760">
             <speaker>Alt. </speaker>
             <l>Madness and Raving! </l>
             <l>But hence! </l>
           </sp>
-          <sp xml:id="ep000854-e27800">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27800">
             <speaker>Hor. </speaker>
             <l>Dishonour'd by the Man you hate— </l>
           </sp>
-          <sp xml:id="ep000854-e27830">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27830">
             <speaker>Alt. </speaker>
             <l>I prithee loose me yet, for thy own sake, </l>
             <l>If Life be worth the keeping— </l>
           </sp>
-          <sp xml:id="ep000854-e27870">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27870">
             <speaker>Hor. </speaker>
             <l>By <hi>Lothario. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e27910">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e27910">
             <speaker>Alt. </speaker>
             <l>Perdition take thee, Villain, for the falshood. </l>
             <stage xml:id="ep000854-e27940">[Strikes him. </stage>
             <l>Now nothing but thy Life can make Atonement. </l>
           </sp>
-          <sp xml:id="ep000854-e27960">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e27960">
             <speaker>Hor. </speaker>
             <l>A Blow! Thou hast us'd well— </l>
             <stage xml:id="ep000854-e27990">[Draws. </stage>
           </sp>
-          <sp xml:id="ep000854-e28000">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e28000">
             <speaker>Alt. </speaker>
             <l>This to thy Heart— </l>
           </sp>
-          <sp xml:id="ep000854-e28030">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e28030">
             <speaker>Hor. </speaker>
             <l>Yet hold!— By Heav'n his Father's in his Face. </l>
             <l>Spight of my Wrongs my Heart runs o'er with Tenderness, </l>
             <l>And I cou'd rather die my self, than hurt him. </l>
           </sp>
-          <sp xml:id="ep000854-e28080">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e28080">
             <speaker>Alt. </speaker>
             <l>Defend thy self, for by my much wrong'd Love, </l>
             <l>I swear the poor Evasion shall not save thee. </l>
           </sp>
-          <sp xml:id="ep000854-e28120">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e28120">
             <pb n="40" xml:id="ep000854-052"/>
             <speaker>Hor. </speaker>
             <l>Yet hold! thou know'st I dare!— Think how </l>
@@ -2091,7 +2126,7 @@
             <stage xml:id="ep000854-e28210">[They fight. </stage>
           </sp>
           <stage xml:id="ep000854-e28220">Lavinia Enters, and runs between their Swords. </stage>
-          <sp xml:id="ep000854-e28230">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e28230">
             <speaker>Lav. </speaker>
             <l>My Brother! My <hi>Horatio! </hi>is it possible? </l>
             <l>Oh! turn your cruel Swords upon <hi>Lavinia. </hi>
@@ -2100,16 +2135,16 @@
             <l>Behold, my Heart shall give you all her Store, </l>
             <l>To save those dearer Streams that flow from yours. </l>
           </sp>
-          <sp xml:id="ep000854-e28320">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e28320">
             <speaker>Alt. </speaker>
             <l>'Tis well thou hast found a Safeguard; none but this, </l>
             <l>No Pow'r on Earth cou'd save thee from my Fury. </l>
           </sp>
-          <sp xml:id="ep000854-e28360">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e28360">
             <speaker>Lav. </speaker>
             <l>Oh fatal, deadly Sound! </l>
           </sp>
-          <sp xml:id="ep000854-e28390">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e28390">
             <speaker>Hor. </speaker>
             <l>Safety from thee! </l>
             <l>Away, vain Boy! Hast thou forgot the Reverence </l>
@@ -2117,7 +2152,7 @@
             <l>Which pointed out thy way to noble Daring, </l>
             <l>And shew'd thee what it was to be a Man? </l>
           </sp>
-          <sp xml:id="ep000854-e28460">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e28460">
             <speaker>Lav. </speaker>
             <l>What busie, medling Friend, what Foe to Goodness, </l>
             <l>Could kindle such a Discord? Oh! lay by </l>
@@ -2126,7 +2161,7 @@
             <l>Should stretch me out at your relentless Feet, </l>
             <l>A wretched Coarse, the Victim of your Fury. </l>
           </sp>
-          <sp xml:id="ep000854-e28540">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e28540">
             <speaker>Hor. </speaker>
             <l>Ask'st thou what made us Foes? 'twas base Ingratitude; </l>
             <l>'Twas such a Sin to Friendship, as Heaven's Mercy, </l>
@@ -2136,7 +2171,7 @@
               <pb n="41" xml:id="ep000854-053"/>He, who was all to me, Child! Brother! Friend! </l>
             <l>With barb'rous, bloody Malice, sought my Life. </l>
           </sp>
-          <sp xml:id="ep000854-e28630">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e28630">
             <speaker>Alt. </speaker>
             <l>Thou art my Sister, and I would not make thee </l>
             <l>The lonely Mourner of a widow'd Bed, </l>
@@ -2146,7 +2181,7 @@
             <l>We must not meet; 'tis dangerous; farewel. </l>
             <stage xml:id="ep000854-e28710">[He is going, Lavinia holds him. </stage>
           </sp>
-          <sp xml:id="ep000854-e28720">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e28720">
             <speaker>Lav. </speaker>
             <l>Stay <hi>Altamont, </hi>my Brother stay, if ever </l>
             <l>Nature, or what is nearer much than Nature, </l>
@@ -2158,15 +2193,15 @@
             <l>To call you Friend, then press you hard, with all </l>
             <l>The tender, speechless Joy of Reconcilement. </l>
           </sp>
-          <sp xml:id="ep000854-e28840">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e28840">
             <speaker>Alt. </speaker>
             <l>It cannot, sha 'not be!— you must not hold me. </l>
           </sp>
-          <sp xml:id="ep000854-e28870">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e28870">
             <speaker>Lav. </speaker>
             <l>Look kindly then! </l>
           </sp>
-          <sp xml:id="ep000854-e28900">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e28900">
             <speaker>Alt. </speaker>
             <l>Each Minute that I stay, </l>
             <l>Is a new Injury to fair <hi>Calista. </hi>
@@ -2180,7 +2215,7 @@
             <l>Have more than paid me for my faithless Friend. </l>
             <stage xml:id="ep000854-e29020">[ Altamont breaks from <hi>Lavinia, </hi>and Exit. </stage>
           </sp>
-          <sp xml:id="ep000854-e29040">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e29040">
             <speaker>Hor. </speaker>
             <l>Oh raise thee, my <hi>Lavinia, </hi>from the Earth; </l>
             <l>It is too much, this Tide of flowing Grief, </l>
@@ -2188,7 +2223,7 @@
               <pb n="44" xml:id="ep000854-054"/>This wond'rous waste of Tears, too much to give, </l>
             <l>To an ungrateful Friend, and cruel Brother. </l>
           </sp>
-          <sp xml:id="ep000854-e29120">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e29120">
             <speaker>Lav. </speaker>
             <l>Is there not cause for Weeping? Oh <hi>Horatio! </hi>
             </l>
@@ -2202,7 +2237,7 @@
             <l>To have Compassion on a helpless Wanderer. </l>
             <l>And give her where to lay her wretched Head? </l>
           </sp>
-          <sp xml:id="ep000854-e29250">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e29250">
             <speaker>Hor. </speaker>
             <l>Why dost thou wound we with thy soft Complainings? </l>
             <l>Tho' Altamont be false, and use me hardly, </l>
@@ -2214,7 +2249,7 @@
             <l>It gave thee to me, as a large amends, </l>
             <l>For Fortune, Friends, and all the World beside. </l>
           </sp>
-          <sp xml:id="ep000854-e29360">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e29360">
             <speaker>Lav. </speaker>
             <l>Then you will love me still, cherish me ever, </l>
             <l>And hide me from Misfortune in your Bosom: </l>
@@ -2225,7 +2260,7 @@
             <l>Whose bounteous Hand feeds the whole Brute Creation, </l>
             <l>Knows all our Wants, and has enough to give us. </l>
           </sp>
-          <sp xml:id="ep000854-e29460">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e29460">
             <speaker>Hor. </speaker>
             <l>From <hi>Genoa, </hi>from Falshood and Inconstancy, </l>
             <l>To some more honest distant Clime we'll go; </l>
@@ -2233,7 +2268,7 @@
               <pb n="43" xml:id="ep000854-055"/>Nor will I be beholding to my Country, </l>
             <l>For ought but thee, the Partner of my Flight. </l>
           </sp>
-          <sp xml:id="ep000854-e29540">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e29540">
             <speaker>Lav. </speaker>
             <l>Yes, I will follow thee; forsake, for thee, </l>
             <l>My Country, Brother, Friends, ev'n all I have; </l>
@@ -2259,7 +2294,7 @@
           <stage xml:id="ep000854-e29740">SCENE, a Garden. </stage>
           <stage xml:id="ep000854-e29750">Enter <hi>Altamont. </hi>
           </stage>
-          <sp xml:id="ep000854-e29770">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e29770">
             <speaker>Alt. </speaker>
             <l>WITH what unequal Tempers are we form'd? </l>
             <l>One Day the Soul, supine with Ease and Fulness, </l>
@@ -2284,7 +2319,7 @@
           </sp>
           <stage xml:id="ep000854-e29990">Enter Lothario and <hi>Calista. </hi>
           </stage>
-          <sp xml:id="ep000854-e30010">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e30010">
             <speaker>Loth. </speaker>
             <l>Weep not my Fair, but let the God of Love </l>
             <l>Laugh in thy Eyes, and Revel in thy Heart, </l>
@@ -2295,7 +2330,7 @@
             <l>〈◊〉 to a long Oblivion give thy Cares, </l>
             <l>〈◊〉 let us melt the present Hour in Bliss. </l>
           </sp>
-          <sp xml:id="ep000854-e30110">
+          <sp who="#ep000854-calista" xml:id="ep000854-e30110">
             <speaker>Cal. </speaker>
             <l>Seek not to sooth me with thy false Endearments, </l>
             <l>〈◊〉 Charm me with thy Softness: 'tis in vain; </l>
@@ -2307,7 +2342,7 @@
             <l>〈◊〉 all the Sorrows I have known already, </l>
             <l>〈◊〉 all I have to come; thou hast undone me. </l>
           </sp>
-          <sp xml:id="ep000854-e30220">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e30220">
             <speaker>Loth. </speaker>
             <l>Unjust <hi>Calista! </hi>Dost thou call it Ruin, </l>
             <l>〈◊〉 Love as we have done; to melt, to languish, </l>
@@ -2316,7 +2351,7 @@
             <l>〈◊〉 die with Joy, and streight to live again, </l>
             <l>●●●●chless to gaze, and with tumultuous Transport— </l>
           </sp>
-          <sp xml:id="ep000854-e30310">
+          <sp who="#ep000854-calista" xml:id="ep000854-e30310">
             <speaker>Cal. </speaker>
             <l>Oh! let me hear no more, I cannot bear it, </l>
             <l>●●deadly to Remembrance; let that Night, </l>
@@ -2329,7 +2364,7 @@
             <l>〈◊〉 Sorrow, to perfidious, false <hi>Lothario. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e30430">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e30430">
             <speaker>Loth. </speaker>
             <l>Hear this, ye Pow'rs, mark how the Fair Deceiver </l>
             <l>〈◊〉 complains of violated Truth; </l>
@@ -2342,7 +2377,7 @@
             <l>Fled from my Arms, and wedded to another, </l>
             <l>Ev'n to the Man whom most I hate on Earth— </l>
           </sp>
-          <sp xml:id="ep000854-e30550">
+          <sp who="#ep000854-calista" xml:id="ep000854-e30550">
             <speaker>Cal. </speaker>
             <l>Art thou so base, to upbraid me with a Crime, </l>
             <l>Which nothing but thy Cruelty could cause? </l>
@@ -2358,7 +2393,7 @@
             </l>
             <l>Could have prevail'd, or won me to forsake thee. </l>
           </sp>
-          <sp xml:id="ep000854-e30700">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e30700">
             <speaker>Loth. </speaker>
             <l>How have I fail'd in Justice or in Love? </l>
             <l>Burns not my Flame as brightly as at first? </l>
@@ -2366,7 +2401,7 @@
             <l>My Transports are as fierce, as strong my Wishes, </l>
             <l>As if thou hadst never blest me with thy Beauty. </l>
           </sp>
-          <sp xml:id="ep000854-e30770">
+          <sp who="#ep000854-calista" xml:id="ep000854-e30770">
             <speaker>Cal. </speaker>
             <l>How didst thou dare to think that I would live </l>
             <l>A Slave to base Desires, and brutal Pleasures, </l>
@@ -2374,7 +2409,7 @@
             <l>To toy, and waste an Hour of idle Time with? </l>
             <l>My Soul disdains thee for so mean a Thought. </l>
           </sp>
-          <sp xml:id="ep000854-e30840">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e30840">
             <speaker>Loth. </speaker>
             <l>The driving Storm of Passion will have way, </l>
             <l>And I must yield before it; wer't thou calm, </l>
@@ -2385,11 +2420,11 @@
           <stage xml:id="ep000854-e30910">
             <pb n="47" xml:id="ep000854-059"/>Enter behind them <hi>Altamont. </hi>
           </stage>
-          <sp xml:id="ep000854-e30940">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e30940">
             <speaker>Alt. </speaker>
             <l>I have lost my Peace— Ha! do I live, and wake!— </l>
           </sp>
-          <sp xml:id="ep000854-e30970">
+          <sp who="#ep000854-calista" xml:id="ep000854-e30970">
             <speaker>Cal. </speaker>
             <l>Hadst thou been true, how happy had I been? </l>
             <l>Nor <hi>Altamont, </hi>but thou hadst been my Lord. </l>
@@ -2401,24 +2436,24 @@
             <l>With stern Sciolto vowing Vengeance on me; </l>
             <l>With Altamont complaining for his Wrongs— </l>
           </sp>
-          <sp xml:id="ep000854-e31090">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e31090">
             <speaker>Alt. </speaker>
             <l>Behold him here— <stage xml:id="ep000854-e31120">[Coming forward. </stage>
             </l>
           </sp>
-          <sp xml:id="ep000854-e31130">
+          <sp who="#ep000854-calista" xml:id="ep000854-e31130">
             <speaker>Cal. </speaker>
             <l>Ah!— <stage xml:id="ep000854-e31160">[Starting. </stage>
             </l>
           </sp>
-          <sp xml:id="ep000854-e31170">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e31170">
             <speaker>Alt. </speaker>
             <l>The Wretch! whom thou hast made, </l>
             <l>Curses and Sorrows hast thou heap'd upon him, </l>
             <l>And Vengeance is the only Good is left. <stage xml:id="ep000854-e31220">[Drawing. </stage>
             </l>
           </sp>
-          <sp xml:id="ep000854-e31230">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e31230">
             <speaker>Loth. </speaker>
             <l>Thou hast ta'en me somewhat unawares, 'tis true, </l>
             <l>But Love and War take turns like Day and Night, </l>
@@ -2427,11 +2462,11 @@
             <l>We've long been Foes, this moment ends our Quarrel; </l>
             <l>Earth, Heav'n and fair Calista judge the Combat. </l>
           </sp>
-          <sp xml:id="ep000854-e31310">
+          <sp who="#ep000854-calista" xml:id="ep000854-e31310">
             <speaker>Cal. </speaker>
             <l>Distraction! Fury! Sorrow! Shame! and Death! </l>
           </sp>
-          <sp xml:id="ep000854-e31340">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e31340">
             <speaker>Alt. </speaker>
             <l>Thou hast talk'd too much, thy Breath is Poison to me, </l>
             <l>It taints the ambient Air; this for my Father, </l>
@@ -2439,7 +2474,7 @@
             </l>
             <stage xml:id="ep000854-e31410">[They Fight; Lothario is wounded once or twice, and then falls. </stage>
           </sp>
-          <sp xml:id="ep000854-e31420">
+          <sp who="#ep000854-lothario" xml:id="ep000854-e31420">
             <speaker>Loth. </speaker>
             <l>Oh <hi>Altamont! </hi>thy Genius is the stronger, </l>
             <l>Thou hast prevail'd!— My fierce, ambitious Soul </l>
@@ -2452,28 +2487,28 @@
             <l>Adorns my Fall, and chears my Heart in dying. </l>
             <stage xml:id="ep000854-e31540">[Dies, </stage>
           </sp>
-          <sp xml:id="ep000854-e31550">
+          <sp who="#ep000854-calista" xml:id="ep000854-e31550">
             <speaker>Cal. </speaker>
             <l>And what remains for me? Beset with Shame, </l>
             <l>Encompas'd round with Wretchedness, there is </l>
             <l>But this one way, to break the Toil and 'scape. </l>
             <stage xml:id="ep000854-e31600">[She catches up Lothario's Sword, and offers to kill her self, Altamont runs to her, and wrests it from her. </stage>
           </sp>
-          <sp xml:id="ep000854-e31610">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e31610">
             <speaker>Alt. </speaker>
             <l>What means thy frantick Rage? </l>
           </sp>
-          <sp xml:id="ep000854-e31640">
+          <sp who="#ep000854-calista" xml:id="ep000854-e31640">
             <speaker>Cal. </speaker>
             <l>Off! let me go. </l>
           </sp>
-          <sp xml:id="ep000854-e31670">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e31670">
             <speaker>Alt. </speaker>
             <l>Oh! thou hast more than murder'd me, yet still, </l>
             <l>Still art thou here! and my Soul starts with Horror, </l>
             <l>At thought of any Danger that may reach thee. </l>
           </sp>
-          <sp xml:id="ep000854-e31720">
+          <sp who="#ep000854-calista" xml:id="ep000854-e31720">
             <speaker>Cal. </speaker>
             <l>Think'st thou I mean to live? to be forgiven? </l>
             <l>Oh! thou hast known but little of <hi>Calista; </hi>
@@ -2484,16 +2519,16 @@
             <l>But dig down deep to find a Grave beneath, </l>
             <l>And hide me from their Beams. </l>
           </sp>
-          <sp xml:id="ep000854-e31820">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e31820">
             <speaker>Sciolto within.] </speaker>
             <l>What ho! my Son! </l>
           </sp>
-          <sp xml:id="ep000854-e31850">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e31850">
             <speaker>Alt. </speaker>
             <l>It is Sciolto calls; come near, and find me, </l>
             <l>The wretched'st Thing of all my Kind on Earth. </l>
           </sp>
-          <sp xml:id="ep000854-e31890">
+          <sp who="#ep000854-calista" xml:id="ep000854-e31890">
             <speaker>Cal. </speaker>
             <l>Is it the Voice of Thunder, or my Father? </l>
             <l>Madness! Confusion! let the Storm come on, </l>
@@ -2506,7 +2541,7 @@
           </sp>
           <stage xml:id="ep000854-e31990">Enter <hi>Sciolto. </hi>
           </stage>
-          <sp xml:id="ep000854-e32010">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e32010">
             <speaker>Sci. </speaker>
             <l>Ev'n now Rossano leap'd the Garden Walls— </l>
             <l>Ha! Death has been among you— Oh my Fears! </l>
@@ -2515,7 +2550,7 @@
             <l>Didst thou not wrong the Man who told thee Truth? </l>
             <l>Answer me quick— </l>
           </sp>
-          <sp xml:id="ep000854-e32090">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e32090">
             <speaker>Alt. </speaker>
             <l>Oh! press me not to speak. </l>
             <l>Ev'n now my Heart is breaking, and the mention </l>
@@ -2523,7 +2558,7 @@
             <l>And guess my Shame! my Ruin! oh <hi>Calista! </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e32160">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e32160">
             <speaker>Sci. </speaker>
             <l>It is enough! but I am slow to Execute, </l>
             <l>And Justice lingers in my lazy Hand; </l>
@@ -2531,7 +2566,7 @@
             <l>And cut thee from the Earth, thou Stain to Goodness.— </l>
             <stage xml:id="ep000854-e32220">[Offers to kill <hi>Calista, Altamont </hi>holds hins. </stage>
           </sp>
-          <sp xml:id="ep000854-e32240">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e32240">
             <speaker>Alt. </speaker>
             <l>Stay thee, <hi>Sciolto, </hi>thou rash Father stay, </l>
             <l>Or turn the Point on me, and thro' my Breast </l>
@@ -2540,7 +2575,7 @@
             <l>So shall my Love be perfect, while for her </l>
             <l>I die, for whom alone I wish'd to live. </l>
           </sp>
-          <sp xml:id="ep000854-e32330">
+          <sp who="#ep000854-calista" xml:id="ep000854-e32330">
             <speaker>Cal. </speaker>
             <l>No, <hi>Altamont! </hi>my Heart, that scorn'd thy Love, </l>
             <l>Shall never be indebted to thy Pity; </l>
@@ -2555,7 +2590,7 @@
             <l>Ev'n thee, thou venerable good Old Man, </l>
             <l>For being Author of a Wretch like me. </l>
           </sp>
-          <sp xml:id="ep000854-e32480">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e32480">
             <speaker>Alt. </speaker>
             <l>Listen not to the Wildness of her Raving, </l>
             <l>Remember Nature! Shou'd thy Daughter's Murder </l>
@@ -2563,7 +2598,7 @@
             <l>Her Blood wou'd rest upon thee to Posterity, </l>
             <l>Pollute thy Name, and fully all thy Wars. </l>
           </sp>
-          <sp xml:id="ep000854-e32550">
+          <sp who="#ep000854-calista" xml:id="ep000854-e32550">
             <speaker>Cal. </speaker>
             <l>Have I not wrong'd his gentle Nature much? </l>
             <l>And yet behold him pleading for my Life. </l>
@@ -2572,7 +2607,7 @@
             <l>I think thou canst not bear to be cutdone; </l>
             <l>Then haste to die, and be oblig'd no more. </l>
           </sp>
-          <sp xml:id="ep000854-e32630">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e32630">
             <speaker>Sci. </speaker>
             <l>Thy pious Care has giv'n me time to think, </l>
             <l>And sav'd me from a Crime; then rest my Sword; </l>
@@ -2585,7 +2620,7 @@
             <l>Or whatsoe'er thou art that plead'st within me, </l>
             <l>Be still, thy tender Strugglings are in vain. </l>
           </sp>
-          <sp xml:id="ep000854-e32750">
+          <sp who="#ep000854-calista" xml:id="ep000854-e32750">
             <speaker>Cal. </speaker>
             <l>Then am I doom'd to live, and bear your Triumph </l>
             <l>To groan beneath your Scorn and fierce Upbraidings, </l>
@@ -2596,7 +2631,7 @@
             <l>Is this, is this the Mercy of a Father? </l>
             <l>I only beg to die, and he denies me. </l>
           </sp>
-          <sp xml:id="ep000854-e32850">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e32850">
             <pb n="51" xml:id="ep000854-063"/>
             <speaker>Sci. </speaker>
             <l>Hence from my sight, thy Father cannot bear thee; </l>
@@ -2608,7 +2643,7 @@
             <l>There howl out the remainder of thy Life, </l>
             <l>And wish thy Name may be no more remember'd. </l>
           </sp>
-          <sp xml:id="ep000854-e32960">
+          <sp who="#ep000854-calista" xml:id="ep000854-e32960">
             <speaker>Cal. </speaker>
             <l>Yes, I will fly to some such dismal Place, </l>
             <l>And be more curst than you can wish I were; </l>
@@ -2626,7 +2661,7 @@
             <stage xml:id="ep000854-e33110">[Exit <hi>Calista. </hi>
             </stage>
           </sp>
-          <sp xml:id="ep000854-e33130">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e33130">
             <speaker>Sci. </speaker>
             <l>Who of my Servants wait thee? </l>
             <stage xml:id="ep000854-e33160">Enter two or three Servants. </stage>
@@ -2635,7 +2670,7 @@
             <l>Pass out, or enter, but by my Appointment. </l>
             <stage xml:id="ep000854-e33200">[Exeunt Servants. </stage>
           </sp>
-          <sp xml:id="ep000854-e33210">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e33210">
             <speaker>Alt. </speaker>
             <l>There is a fatal Fury in your Visage, </l>
             <l>It blazes fierce, and menaces Destrustion: </l>
@@ -2647,7 +2682,7 @@
             <l>On the poor, faithless, lovely, dear <hi>Calista. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e33320">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e33320">
             <speaker>Sci. </speaker>
             <l>Hast thou not read what brave Virginius did? </l>
             <l>With his own Hand he slew his only Daughter, </l>
@@ -2659,11 +2694,11 @@
             <l>The common Infamy that brands us both, </l>
             <l>She sha 'not' scape. </l>
           </sp>
-          <sp xml:id="ep000854-e33430">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e33430">
             <speaker>Alt. </speaker>
             <l>You mean that she shall dye then. </l>
           </sp>
-          <sp xml:id="ep000854-e33460">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e33460">
             <speaker>Sci. </speaker>
             <l>Ask me not what, nor how I have resolv'd, </l>
             <l>For all within is Anarchy and Uproar. </l>
@@ -2681,7 +2716,7 @@
             <l>Oh damn her! damn her! </l>
           </sp>
           <stage xml:id="ep000854-e33630">Enter a Servant. </stage>
-          <sp xml:id="ep000854-e33640">
+          <sp who="#ep000854-servant-of-rossano" xml:id="ep000854-e33640">
             <speaker>Ser. </speaker>
             <l>Arm your self, my Lord; </l>
             <l>
@@ -2691,7 +2726,7 @@
             <l>Who threaten you, and all your Friends, with Ruin, </l>
             <l>Unless Lothario be return'd in safety. </l>
           </sp>
-          <sp xml:id="ep000854-e33730">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e33730">
             <speaker>Sci. </speaker>
             <l>By Heav'n, their Fury rises to my Wish, </l>
             <l>Nor shall Misfortune know my House alone, </l>
@@ -2711,7 +2746,7 @@
           </sp>
           <stage xml:id="ep000854-e33910">Manet <hi>Altamont. </hi>
           </stage>
-          <sp xml:id="ep000854-e33930">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e33930">
             <speaker>Alt. </speaker>
             <l>There is a stupid Weight upon my Senses, </l>
             <l>A dismal sullen Stillness, that succeeds </l>
@@ -2729,7 +2764,7 @@
           <pb n="53" xml:id="ep000854-067"/>
           <stage xml:id="ep000854-e34080">
             <pb n="54" xml:id="ep000854-068"/>Enter <hi>Lavinia, </hi>with two Servants, their Swords drawn. </stage>
-          <sp xml:id="ep000854-e34110">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e34110">
             <speaker>Lav. </speaker>
             <l>Fly, swiftly fly, to my Horatio's Aid, </l>
             <l>Nor lose your vain, officious Cares on me; </l>
@@ -2738,13 +2773,13 @@
             <l>And I shall be at ease, be well and happy. </l>
             <stage xml:id="ep000854-e34180">[Exeunt Servants </stage>
           </sp>
-          <sp xml:id="ep000854-e34190">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e34190">
             <speaker>Alt. </speaker>
             <l>Art thou <hi>Lavinia? </hi>Oh! what barb'rous Hand </l>
             <l>Could wrong thy poor, defenceless Innocence, </l>
             <l>And leave such Marks of more than savage Fury? </l>
           </sp>
-          <sp xml:id="ep000854-e34250">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e34250">
             <speaker>Lav. </speaker>
             <l>My Brother! Oh my Heart is full of Fears; </l>
             <l>Perhaps ev'n now my dear Horatio bleeds.— </l>
@@ -2758,24 +2793,24 @@
             <l>Had not a Party, from Sciolto's Palace, </l>
             <l>Rush'd out, and snatch'd me from amidst the Fray. </l>
           </sp>
-          <sp xml:id="ep000854-e34380">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e34380">
             <speaker>Alt. </speaker>
             <l>What of my Friend? </l>
           </sp>
-          <sp xml:id="ep000854-e34410">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e34410">
             <speaker>Lav. </speaker>
             <l>Ha! by my Joys 'tis he, <stage xml:id="ep000854-e34440">[Looking out. </stage>
             </l>
             <l>He lives, he comes to bless me, he is safe!— </l>
           </sp>
           <stage xml:id="ep000854-e34460">Enter <hi>Horatio, </hi>with two or three Servants, their Swords drawn. </stage>
-          <sp xml:id="ep000854-e34480">
+          <sp who="#ep000854-servant-of-horatio" xml:id="ep000854-e34480">
             <speaker>1 Serv. </speaker>
             <l>'Twere're at the utmost hazard of your Life </l>
             <l>To venture forth again, 'till we are stronger; </l>
             <l>Their number trebles ours. </l>
           </sp>
-          <sp xml:id="ep000854-e34530">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e34530">
             <speaker>Hor. </speaker>
             <l>No matter, let it; </l>
             <l>Death is not half so shocking as that Traitor. </l>
@@ -2785,14 +2820,14 @@
             <l>As to mistake that Wretch, and call him Friend; </l>
             <l>I cannot bear the Sight. </l>
           </sp>
-          <sp xml:id="ep000854-e34620">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e34620">
             <speaker>Alt. </speaker>
             <l>Open thou Earth, </l>
             <l>Gape wide, and take me down to thy dark Bosom, </l>
             <l>To hide me from <hi>Horatio. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e34680">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e34680">
             <speaker>Hor. </speaker>
             <l>Oh <hi>Lavinia, </hi>
             </l>
@@ -2801,7 +2836,7 @@
             <l>I cou'd ev'n wish, we rather had been wreckt </l>
             <l>On any other Shoar, than sav'd on this. </l>
           </sp>
-          <sp xml:id="ep000854-e34760">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e34760">
             <speaker>Lav. </speaker>
             <l>Oh let us bless the Mercy that preserv'd us, </l>
             <l>That gracious Pow'r that siv'd us for each other: </l>
@@ -2810,7 +2845,7 @@
             <l>And put away th'Offences of thy Friend, </l>
             <l>Far, far from thy Remembrance. </l>
           </sp>
-          <sp xml:id="ep000854-e34840">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e34840">
             <speaker>Alt. </speaker>
             <l>I have mark'd him, </l>
             <l>To see if one forgiving Glance stole hither, </l>
@@ -2820,7 +2855,7 @@
             <l>'Tis lost, 'tis gone, his Soul is quite estrang'd, </l>
             <l>And knows me for its Counter-part no more. </l>
           </sp>
-          <sp xml:id="ep000854-e34930">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e34930">
             <speaker>Hor. </speaker>
             <l>Thou know'st thy Rule, thy Empire in <hi>Horatio, </hi>
             </l>
@@ -2829,7 +2864,7 @@
             <l>But when you urge my Temper, to comply </l>
             <l>With what it most abhors, I cannot do it. </l>
           </sp>
-          <sp xml:id="ep000854-e35010">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e35010">
             <speaker>Lav. </speaker>
             <l>Where didst thou get this sullen gloamy Hate? </l>
             <l>
@@ -2841,7 +2876,7 @@
             <l>Friendship, the Wealth, the last Retreat and Strength, </l>
             <l>Secure against ill Fortune, and the World. </l>
           </sp>
-          <sp xml:id="ep000854-e35120">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e35120">
             <speaker>Her. </speaker>
             <l>I am not apt to take a light Offence, </l>
             <l>But patient of the Failings of my Friends, </l>
@@ -2850,37 +2885,37 @@
             <l>(Perhaps it is the Fault of my rude Nature) </l>
             <l>I own I cannot easily forget it. </l>
           </sp>
-          <sp xml:id="ep000854-e35200">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e35200">
             <speaker>Alt. </speaker>
             <l>Thou hast forgot me. </l>
           </sp>
-          <sp xml:id="ep000854-e35230">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e35230">
             <speaker>Hor. </speaker>
             <l>No. </l>
           </sp>
-          <sp xml:id="ep000854-e35260">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e35260">
             <speaker>Alt. </speaker>
             <l>Why are thy Eyes </l>
             <l>Impatient of me then, scornful and fierce? </l>
           </sp>
-          <sp xml:id="ep000854-e35300">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e35300">
             <speaker>Hor. </speaker>
             <l>Because they speak the meaning of my Heart, </l>
             <l>Because they are honest, and disdain a Villain. </l>
           </sp>
-          <sp xml:id="ep000854-e35340">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e35340">
             <speaker>Alt. </speaker>
             <l>I have wrong'd thee much, <hi>Horatio. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e35380">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e35380">
             <speaker>Hor. </speaker>
             <l>True thou hast: </l>
             <l>When I forget it, may I be a Wretch, </l>
             <l>Vile as thy self, a false persidious Fellow, </l>
             <l>An infamous, believing, British Husband. </l>
           </sp>
-          <sp xml:id="ep000854-e35440">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e35440">
             <speaker>Alt. </speaker>
             <l>I've wrong'd thee much, and Heav'n has well aveng'd it. </l>
             <l>I have not, since we parted, been at Peace, </l>
@@ -2894,7 +2929,7 @@
             <l>They hang like Winter on my Youthful Hopes, </l>
             <l>And blast the Spring and Promise of my Year. </l>
           </sp>
-          <sp xml:id="ep000854-e35570">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e35570">
             <speaker>Lav. </speaker>
             <l>So Flow'rs are gather'd to adorn a Grave, </l>
             <l>To lose their Fre shness amongst Bones and Rotteness, </l>
@@ -2906,13 +2941,13 @@
             <l>His poor Heart broken, Death in his pale Visage, </l>
             <l>And groaning out his Woes, yet stand unmov'd? </l>
           </sp>
-          <sp xml:id="ep000854-e35680">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e35680">
             <speaker>Hor. </speaker>
             <l>The Brave and Wise I pity in Misfortune. </l>
             <l>But when Ingratitude and Folly suffers, </l>
             <l>'Tis Weakness to be touch'd. </l>
           </sp>
-          <sp xml:id="ep000854-e35730">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e35730">
             <speaker>Alt. </speaker>
             <l>I wo' not ask thee </l>
             <l>To pity or forgive me, but confess, </l>
@@ -2925,13 +2960,13 @@
             <l>With streaming Eyes, and open Arms, upon thee, </l>
             <l>And prest thee close, close! </l>
           </sp>
-          <sp xml:id="ep000854-e35850">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e35850">
             <speaker>Hor. </speaker>
             <l>I must hear no more, </l>
             <l>The Weakness is contagious, I shall catch it, </l>
             <l>And be a tame fond Wretch. </l>
           </sp>
-          <sp xml:id="ep000854-e35900">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e35900">
             <speaker>Lav. </speaker>
             <l>Where wou'dst thou go? </l>
             <l>Wou'dst thou part thus? You sha 'not, 'tis impossible; </l>
@@ -2942,7 +2977,7 @@
               <pb n="58" xml:id="ep000854-072"/>And thou shalt trample o'er my faithful Bosom, </l>
             <l>Tread on me, wound me, kill me e'er thou pass. </l>
           </sp>
-          <sp xml:id="ep000854-e36000">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e36000">
             <speaker>Alt. </speaker>
             <l>Urge not in vain thy pious Suit, <hi>Lavinia, </hi>
             </l>
@@ -2955,7 +2990,7 @@
             <stage xml:id="ep000854-e36100">[Falls. </stage>
             <stage xml:id="ep000854-e36110">[ Lavinia runs to him, and endeavours to raise him. </stage>
           </sp>
-          <sp xml:id="ep000854-e36120">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e36120">
             <speaker>Lav. </speaker>
             <l>Speak to me, <hi>Altamont. </hi>
             </l>
@@ -2966,7 +3001,7 @@
             <l>And never see my cruel Lord again. </l>
             <stage xml:id="ep000854-e36210">[ Horatio runs to <hi>Altamont, </hi>and raises him in his Arms </stage>
           </sp>
-          <sp xml:id="ep000854-e36230">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e36230">
             <speaker>Hor. </speaker>
             <l>It is too much to bear! Look up, my <hi>Altamont! </hi>
             </l>
@@ -2978,7 +3013,7 @@
             <l>A Flood of Tenderness comes o'er my Soul; </l>
             <l>I cannot speak!— I love! forgive! and pity thee.— </l>
           </sp>
-          <sp xml:id="ep000854-e36340">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e36340">
             <speaker>Alt. </speaker>
             <l>I thought that nothing cou'd have stay'd my Soul, </l>
             <l>That long ere this her Flight had reach'd the Stars; </l>
@@ -2988,7 +3023,7 @@
             <l>With thine, and Heav'ns Forgiveness on my Soul, </l>
             <l>Shrink to my Grave, and be at ease for ever. </l>
           </sp>
-          <sp xml:id="ep000854-e36430">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e36430">
             <pb n="59" xml:id="ep000854-073"/>
             <speaker>Hor. </speaker>
             <l>By Heav'n my Heart bleeds for thee; ev'n this moment </l>
@@ -3000,7 +3035,7 @@
             <l>Give me thy Sorrows, let me bear 'em for thee, </l>
             <l>And shelter thee from Ruin. </l>
           </sp>
-          <sp xml:id="ep000854-e36540">
+          <sp who="#ep000854-lavinia" xml:id="ep000854-e36540">
             <speaker>Lav. </speaker>
             <l>Oh my Brother! </l>
             <l>Think not but we will sha e in all thy Woes, </l>
@@ -3048,7 +3083,7 @@
               <l>This Musick is thy passing Bell. </l>
             </lg>
           </lg>
-          <sp xml:id="ep000854-e36970">
+          <sp who="#ep000854-calista" xml:id="ep000854-e36970">
             <speaker>Cal. </speaker>
             <l>'Tis well! these Solemn Sounds, this Pomp of Horror, </l>
             <l>Are fit to feed the Frenzy in my Soul, </l>
@@ -3080,7 +3115,7 @@
           <stage xml:id="ep000854-e37250">
             <pb n="62" xml:id="ep000854-076"/>Enter <hi>Sciolto. </hi>
           </stage>
-          <sp xml:id="ep000854-e37280">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e37280">
             <speaker>Sci. </speaker>
             <l>This Dead of Night, this silent Hour of Darkness, </l>
             <l>Nature for Rest ordain'd, and soft Repose, </l>
@@ -3097,7 +3132,7 @@
             <l>Like <hi>Helen, </hi>in the Night when Troy was sack'd, </l>
             <l>Spectatress of the Mischief which she made. </l>
           </sp>
-          <sp xml:id="ep000854-e37450">
+          <sp who="#ep000854-calista" xml:id="ep000854-e37450">
             <speaker>Cal. </speaker>
             <l>It is <hi>Sciolto! </hi>be thy self, my Soul; </l>
             <l>Be strong to bear his fatal Indignation, </l>
@@ -3106,17 +3141,17 @@
             <l>In the forlorn <hi>Calista. </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e37540">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e37540">
             <speaker>Sci. </speaker>
             <l>Thou wert once </l>
             <l>My Daughter. </l>
           </sp>
-          <sp xml:id="ep000854-e37580">
+          <sp who="#ep000854-calista" xml:id="ep000854-e37580">
             <speaker>Cal. </speaker>
             <l>Happy were it I had dy'd, </l>
             <l>And never lost that Name. </l>
           </sp>
-          <sp xml:id="ep000854-e37620">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e37620">
             <speaker>Sci. </speaker>
             <l>That's something yet; </l>
             <l>Thou wer't the very Darling of my Age; </l>
@@ -3126,7 +3161,7 @@
             <l>Were little for my Fondness to bestow; </l>
             <l>Why didst thou turn to Folly then, and curse me? </l>
           </sp>
-          <sp xml:id="ep000854-e37710">
+          <sp who="#ep000854-calista" xml:id="ep000854-e37710">
             <speaker>Cal. </speaker>
             <l>Because my Soul was rudely drawn from yours; </l>
             <l>
@@ -3136,18 +3171,18 @@
             <l>Fili'd up with light Belief, and easie Fondness; </l>
             <l>It was, because I lov'd, and was a Woman. </l>
           </sp>
-          <sp xml:id="ep000854-e37800">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e37800">
             <speaker>Sci. </speaker>
             <l>Hadst thou been honest, thou hadst been a Cherubin; </l>
             <l>But of that Joy, as of a Gem long lost, </l>
             <l>Beyond Redemption gone, think we no more. </l>
             <l>Hast thou e'er dar'd to meditate on Death? </l>
           </sp>
-          <sp xml:id="ep000854-e37860">
+          <sp who="#ep000854-calista" xml:id="ep000854-e37860">
             <speaker>Cal. </speaker>
             <l>I have, as on the end of Shame and Sorrow. </l>
           </sp>
-          <sp xml:id="ep000854-e37890">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e37890">
             <speaker>Sci. </speaker>
             <l>Ha! answer me! say, hast thou cooly thought? </l>
             <l>'Tis not the Stoick's Lessons got by Rote, </l>
@@ -3158,14 +3193,14 @@
             <l>Hast thou consider'd what may happen after it? </l>
             <l>How thy Account may stand, and what to answer? </l>
           </sp>
-          <sp xml:id="ep000854-e37990">
+          <sp who="#ep000854-calista" xml:id="ep000854-e37990">
             <speaker>Cal. </speaker>
             <l>I have turn'd my Eyes inward upon my self, </l>
             <l>Where foul Offence, and Shame have laid all waste; </l>
             <l>Therefore my Soul abhors the wretched Dwelling, </l>
             <l>And longs to find some better place of Rest. </l>
           </sp>
-          <sp xml:id="ep000854-e38050">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e38050">
             <speaker>Sci. </speaker>
             <l>'Tis justly thought, and worthy of that Spirit </l>
             <l>That dwelt in ancient Latian Breasts, when Rome </l>
@@ -3173,12 +3208,12 @@
             <l>And tell thee all my Purpose, but it sticks, </l>
             <l>Here at my Heart, and cannot find a way. </l>
           </sp>
-          <sp xml:id="ep000854-e38120">
+          <sp who="#ep000854-calista" xml:id="ep000854-e38120">
             <speaker>Cal. </speaker>
             <l>Then spare the Telling, if it be a Pain, </l>
             <l>And write the Meaning with your Ponyard here. </l>
           </sp>
-          <sp xml:id="ep000854-e38160">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e38160">
             <speaker>Sci. </speaker>
             <l>Oh! truly guess'd— seest thou this trembling Hand— <stage xml:id="ep000854-e38190">[Holding up a Dagger. </stage>
             </l>
@@ -3190,13 +3225,13 @@
             </l>
             <l>And know the rest untaught. </l>
           </sp>
-          <sp xml:id="ep000854-e38270">
+          <sp who="#ep000854-calista" xml:id="ep000854-e38270">
             <speaker>Cal. </speaker>
             <l>I understand you, </l>
             <l>It is but thus, and both are satisfy'd. </l>
             <stage xml:id="ep000854-e38310">[She offers to kill her self, Sciolto catches hold of her Arm. </stage>
           </sp>
-          <sp xml:id="ep000854-e38320">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e38320">
             <speaker>Sci. </speaker>
             <l>A Moment, give me yet a Moment's space; </l>
             <l>The stern, the rigid Judge has been obey'd; </l>
@@ -3207,13 +3242,13 @@
             <l>The most unnatural Sight, least their Strings crack, </l>
             <l>And my old Brain split, and grow mad with Horror. </l>
           </sp>
-          <sp xml:id="ep000854-e38420">
+          <sp who="#ep000854-calista" xml:id="ep000854-e38420">
             <speaker>Cal. </speaker>
             <l>Ha! Is it possible? and is there yet </l>
             <l>Some little, dear Remain of Love and Tenderness, </l>
             <l>For poor, undone <hi>Calista, </hi>in your Heart? </l>
           </sp>
-          <sp xml:id="ep000854-e38480">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e38480">
             <speaker>Sci. </speaker>
             <l>Oh! when I think what Pleasure I took in thee, </l>
             <l>What Joys thou gav'st me in thy prattling Infancy, </l>
@@ -3225,7 +3260,7 @@
             <l>For making me thy Father, and thy Judge; </l>
             <l>Thou art my Daughter still. </l>
           </sp>
-          <sp xml:id="ep000854-e38590">
+          <sp who="#ep000854-calista" xml:id="ep000854-e38590">
             <speaker>Cal. </speaker>
             <l>For that kind Word, </l>
             <l>Thus let me fall, thus humbly to the Earth; </l>
@@ -3236,11 +3271,11 @@
             <l>Shortens her Father's Age, and cuts him off, </l>
             <l>E'er little more than half his Years be number'd. </l>
           </sp>
-          <sp xml:id="ep000854-e38690">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e38690">
             <speaker>Sci. </speaker>
             <l>Wou'd it were otherwise— but thou must die.— </l>
           </sp>
-          <sp xml:id="ep000854-e38720">
+          <sp who="#ep000854-calista" xml:id="ep000854-e38720">
             <speaker>Cal. </speaker>
             <l>That I must die! it is my only Comfort; </l>
             <l>Death is the Privilege of human Nature, </l>
@@ -3253,7 +3288,7 @@
             <l>More than if Angels tun'd their Golden Viols, </l>
             <l>And sung a Requiem to my parting Soul. </l>
           </sp>
-          <sp xml:id="ep000854-e38840">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e38840">
             <speaker>Sci. </speaker>
             <l>I am summon'd hence, e'er this my Friends expect me, </l>
             <l>There is I know not what of sad Presage, </l>
@@ -3264,7 +3299,7 @@
             <stage xml:id="ep000854-e38920">[Exit <hi>Sciolto. </hi>
             </stage>
           </sp>
-          <sp xml:id="ep000854-e38940">
+          <sp who="#ep000854-calista" xml:id="ep000854-e38940">
             <speaker>Cal. </speaker>
             <l>Now think thou, curst <hi>Calista, </hi>now behold </l>
             <l>The Desolation, Horror, Blood and Ruin, </l>
@@ -3283,7 +3318,7 @@
           </sp>
           <stage xml:id="ep000854-e39110">Enter <hi>Altamont. </hi>
           </stage>
-          <sp xml:id="ep000854-e39130">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e39130">
             <speaker>Alt. </speaker>
             <l>Hail to you Horrors! hail thou House of Death! </l>
             <l>And thou the lovely Mistress of these Shades, </l>
@@ -3294,7 +3329,7 @@
             <l>And when the Fountain of thy Eyes are dry, </l>
             <l>Mine shall supply the Stream, and weep for both. </l>
           </sp>
-          <sp xml:id="ep000854-e39230">
+          <sp who="#ep000854-calista" xml:id="ep000854-e39230">
             <speaker>Cal. </speaker>
             <l>I know thee well, thou art the injur'd <hi>Altamont, </hi>
             </l>
@@ -3303,7 +3338,7 @@
             <l>And in a Moment mean to set me free </l>
             <l>From Shame, and thy Upbraiding. </l>
           </sp>
-          <sp xml:id="ep000854-e39310">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e39310">
             <speaker>Alt. </speaker>
             <l>Falsly, falsly </l>
             <l>Dost thou accuse me; when did I complain, </l>
@@ -3317,7 +3352,7 @@
             <l>To wish some better Fate had rul'd our Loves, </l>
             <l>And that Calista had been mine, and true. </l>
           </sp>
-          <sp xml:id="ep000854-e39440">
+          <sp who="#ep000854-calista" xml:id="ep000854-e39440">
             <pb n="67" xml:id="ep000854-081"/>
             <speaker>Cal. </speaker>
             <l>Oh! <hi>Altamont, </hi>'tis hard for Souls like mine, </l>
@@ -3330,7 +3365,7 @@
             <l>With thee I might have liv'd, for Ages blest, </l>
             <l>And dy'd in Peace within thy faithful Arms. </l>
           </sp>
-          <sp xml:id="ep000854-e39570">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e39570">
             <speaker>Alt. </speaker>
             <l>Then Happiness is still within our reach; </l>
             <l>Here let Remembrance lose our past Misfortunes, </l>
@@ -3338,11 +3373,11 @@
             <l>Here let our Joys begin, from hence go on </l>
             <l>In long successive Order. </l>
           </sp>
-          <sp xml:id="ep000854-e39640">
+          <sp who="#ep000854-calista" xml:id="ep000854-e39640">
             <speaker>Cal, </speaker>
             <l>What! in Death? </l>
           </sp>
-          <sp xml:id="ep000854-e39670">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e39670">
             <speaker>Alt. </speaker>
             <l>Then art thou fix'd to die— But be it so, </l>
             <l>We'll go together, my advent'rous Love </l>
@@ -3353,7 +3388,7 @@
             <l>And tread the Fields of Light, still I'll pursue thee, </l>
             <l>'Till Fate ordains that we shall part no more. </l>
           </sp>
-          <sp xml:id="ep000854-e39770">
+          <sp who="#ep000854-calista" xml:id="ep000854-e39770">
             <speaker>Cal. </speaker>
             <l>Oh no! Heav'n has some better Lot in store </l>
             <l>To Crown thee with; live, and be happy long; </l>
@@ -3368,30 +3403,30 @@
           </sp>
           <stage xml:id="ep000854-e39890">Enter <hi>Horatio. </hi>
           </stage>
-          <sp xml:id="ep000854-e39910">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e39910">
             <speaker>Hor. </speaker>
             <l>Now mourn indeed, ye miserable Pair, </l>
             <l>For now the Measure of your Woes is full. </l>
           </sp>
-          <sp xml:id="ep000854-e39950">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e39950">
             <speaker>Alt. </speaker>
             <l>What dost thou mean, <hi>Horatio? </hi>
             </l>
           </sp>
-          <sp xml:id="ep000854-e39990">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e39990">
             <speaker>Hor. </speaker>
             <l>Oh! 'tis dreadful: </l>
             <l>The great, the good Sciolto dies this Moment. </l>
           </sp>
-          <sp xml:id="ep000854-e40030">
+          <sp who="#ep000854-calista" xml:id="ep000854-e40030">
             <speaker>Cal. </speaker>
             <l>My Father! </l>
           </sp>
-          <sp xml:id="ep000854-e40060">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e40060">
             <speaker>Alt. </speaker>
             <l>That's a deadly Stroak indeed. </l>
           </sp>
-          <sp xml:id="ep000854-e40090">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e40090">
             <speaker>Hor. </speaker>
             <l>Not long ago he privately went forth, </l>
             <l>Attended but by few, and those unbidden; </l>
@@ -3402,7 +3437,7 @@
             <l>E'er that his frantick Valour had provok'd, </l>
             <l>The Death he seem'd to wish for from their Swords. </l>
           </sp>
-          <sp xml:id="ep000854-e40190">
+          <sp who="#ep000854-calista" xml:id="ep000854-e40190">
             <speaker>Cal. </speaker>
             <l>And dost thou bear me yet, thou patient Earth? </l>
             <l>Dost thou not labour with my murd'rous Weight? </l>
@@ -3414,17 +3449,17 @@
             <l>Thus, thus I set thee free. </l>
             <stage xml:id="ep000854-e40290">[Stabs her self. </stage>
           </sp>
-          <sp xml:id="ep000854-e40300">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e40300">
             <speaker>Hor. </speaker>
             <l>Oh! fatal Rashness. </l>
           </sp>
-          <sp xml:id="ep000854-e40330">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e40330">
             <speaker>Alt. </speaker>
             <l>Thou dost instruct me well; to lengthen Life, </l>
             <l>Is but to trifle now. </l>
             <stage xml:id="ep000854-e40370">[ Altamont offers to kill himself; Horatio prevents him, and wrests his Sword from him. </stage>
           </sp>
-          <sp xml:id="ep000854-e40380">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e40380">
             <pb n="69" xml:id="ep000854-083"/>
             <speaker>Hor. </speaker>
             <l>Ha! what means </l>
@@ -3433,7 +3468,7 @@
             <l>And Epidemick Madness. </l>
           </sp>
           <stage xml:id="ep000854-e40460">Enter <hi>Sciolto, </hi>pale and bloody, supported by Servants. </stage>
-          <sp xml:id="ep000854-e40480">
+          <sp who="#ep000854-calista" xml:id="ep000854-e40480">
             <speaker>Cal. </speaker>
             <l>Oh my Heart! </l>
             <l>Well may'st thou fail, for see the Spring that fed </l>
@@ -3445,7 +3480,7 @@
             <l>Lift up your Hand, and bless me e'er I go </l>
             <l>Down to my dark Abode. </l>
           </sp>
-          <sp xml:id="ep000854-e40590">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e40590">
             <speaker>Sci. </speaker>
             <l>Alas! my Daughter? </l>
             <l>Thou hast rashly ventur'd in a stormy Sea, </l>
@@ -3457,7 +3492,7 @@
             <l>And may'st thou find with Heav'n the same Forgiveness, </l>
             <l>As with thy Father here.— Die, and be happy. </l>
           </sp>
-          <sp xml:id="ep000854-e40700">
+          <sp who="#ep000854-calista" xml:id="ep000854-e40700">
             <speaker>Cal. </speaker>
             <l>Celestial Sounds! Peace dawns upon my Soul, </l>
             <l>And ev'ry Pain grows less.— Oh! gentle <hi>Altamont, </hi>
@@ -3470,7 +3505,7 @@
             <l>Thou art their last dear Object.— Mercy, Heav'n! </l>
             <stage xml:id="ep000854-e40810">[She dies. </stage>
           </sp>
-          <sp xml:id="ep000854-e40820">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e40820">
             <pb n="70" xml:id="ep000854-084"/>
             <speaker>Alt. </speaker>
             <l>Cold! dead and cold! and yet thou art not chang'd, </l>
@@ -3479,7 +3514,7 @@
             <l>But at that Beauty must of force relented, </l>
             <l>Melted to Pity, Love, and to Forgiveness? </l>
           </sp>
-          <sp xml:id="ep000854-e40900">
+          <sp who="#ep000854-sciolto" xml:id="ep000854-e40900">
             <speaker>Sci. </speaker>
             <l>Oh! turn thee from the fatal Object; <hi>Altamont, </hi>
             </l>
@@ -3496,14 +3531,14 @@
             <l>And Peace in all his Ways.— </l>
             <stage xml:id="ep000854-e41060">[He dies. </stage>
           </sp>
-          <sp xml:id="ep000854-e41070">
+          <sp who="#ep000854-altamont" xml:id="ep000854-e41070">
             <speaker>Alt. </speaker>
             <l>Take, take it all; </l>
             <l>To thee, <hi>Horatio, </hi>I resign the Gift, </l>
             <l>While I pursue my Father and my Love, </l>
             <l>And find my only Portion in the Grave. </l>
           </sp>
-          <sp xml:id="ep000854-e41140">
+          <sp who="#ep000854-horatio" xml:id="ep000854-e41140">
             <speaker>Hor. </speaker>
             <l>The Storm of Grief bears hard upon his Youth, </l>
             <l>And bends him like a drooping Flower to Earth. </l>

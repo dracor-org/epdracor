@@ -87,72 +87,93 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000262-king">
-            <persName>King</persName>
+          <person xml:id="ep000262-angel-iii" sex="UNKNOWN">
+            <persName>Angel III</persName>
           </person>
-          <person xml:id="ep000262-anthony">
+          <person xml:id="ep000262-angel-ii" sex="UNKNOWN">
+            <persName>Angel II</persName>
+          </person>
+          <personGrp xml:id="ep000262-lords" sex="MALE">
+            <name>Lords</name>
+          </personGrp>
+          <personGrp xml:id="ep000262-watchmen" sex="MALE">
+            <name>Watchmen</name>
+          </personGrp>
+          <person xml:id="ep000262-camel-driver-ii" sex="MALE">
+            <persName>Camel-driver II</persName>
+          </person>
+          <person xml:id="ep000262-camel-driver-i" sex="MALE">
+            <persName>Camel-driver I</persName>
+          </person>
+          <person xml:id="ep000262-pagan-ii" sex="MALE">
+            <persName>Pagan II</persName>
+          </person>
+          <person xml:id="ep000262-pagan-i" sex="MALE">
+            <persName>Pagan I</persName>
+          </person>
+          <person xml:id="ep000262-physician-ii" sex="MALE">
+            <persName>Physician II</persName>
+          </person>
+          <person xml:id="ep000262-physician-i" sex="MALE">
+            <persName>Physician I</persName>
+          </person>
+          <person xml:id="ep000262-huntsman-ii" sex="MALE">
+            <persName>Huntsman II</persName>
+          </person>
+          <person xml:id="ep000262-huntsman-i" sex="MALE">
+            <persName>Huntsman I</persName>
+          </person>
+          <person xml:id="ep000262-genzerick" sex="MALE">
+            <persName>Genzerick</persName>
+          </person>
+          <person xml:id="ep000262-anthony" sex="MALE">
             <persName>Anthony</persName>
           </person>
-          <person xml:id="ep000262-cosmo">
+          <person xml:id="ep000262-cosmo" sex="MALE">
             <persName>Cosmo</persName>
           </person>
-          <person xml:id="ep000262-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000262-hubert">
+          <person xml:id="ep000262-hubert" sex="MALE">
             <persName>Hubert</persName>
           </person>
-          <person xml:id="ep000262-henerick">
+          <person xml:id="ep000262-henerick" sex="MALE">
             <persName>Henerick</persName>
           </person>
-          <person xml:id="ep000262-bellizarius">
+          <person xml:id="ep000262-bellizarius" sex="MALE">
             <persName>Bellizarius</persName>
           </person>
-          <person xml:id="ep000262-eugenius">
+          <person xml:id="ep000262-eugenius" sex="MALE">
             <persName>Eugenius</persName>
           </person>
-          <person xml:id="ep000262-victoria">
+          <person xml:id="ep000262-victoria" sex="FEMALE">
             <persName>Victoria</persName>
           </person>
-          <person xml:id="ep000262-soldier">
+          <person xml:id="ep000262-soldier" sex="MALE">
             <persName>Soldier</persName>
           </person>
-          <person xml:id="ep000262-angel">
-            <persName>Angel</persName>
+          <person xml:id="ep000262-angel-i" sex="UNKNOWN">
+            <persName>Angel I</persName>
           </person>
-          <person xml:id="ep000262-damianus">
+          <person xml:id="ep000262-damianus" sex="MALE">
             <persName>Damianus</persName>
           </person>
-          <person xml:id="ep000262-epidaurus">
+          <person xml:id="ep000262-epidaurus" sex="MALE">
             <persName>Epidaurus</persName>
           </person>
-          <person xml:id="ep000262-clown">
+          <person xml:id="ep000262-clown" sex="MALE">
             <persName>Clown</persName>
           </person>
-          <person xml:id="ep000262-constable">
+          <person xml:id="ep000262-constable" sex="MALE">
             <persName>Constable</persName>
           </person>
-          <person xml:id="ep000262-officer_2">
-            <persName>Officer 2</persName>
+          <person xml:id="ep000262-second-officer" sex="MALE">
+            <persName>Second Officer</persName>
           </person>
-          <person xml:id="ep000262-bellina">
+          <person xml:id="ep000262-bellina" sex="FEMALE">
             <persName>Bellina</persName>
           </person>
-          <person xml:id="ep000262-yyyy_1">
-            <persName>Yyyy 1</persName>
-          </person>
-          <person xml:id="ep000262-yyyy_2">
-            <persName>Yyyy 2</persName>
-          </person>
-          <person xml:id="ep000262-pagan">
-            <persName>Pagan</persName>
-          </person>
-          <person xml:id="ep000262-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000262-slaves">
-            <persName>Slaves</persName>
-          </person>
+          <personGrp xml:id="ep000262-slaves" sex="MALE">
+            <name>Slaves</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -235,7 +256,7 @@
           <div n="1" type="scene" xml:id="ep000262-e100460">
             <head>Scoena prima. </head>
             <stage xml:id="ep000262-e100470">Enter Genzerick King of the Vandalls, sicke on his Bed, Anthony, Damianus, Cosmo, and Lords. </stage>
-            <sp who="#ep000262-king" xml:id="ep000262-e100480">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e100480">
               <speaker>King. </speaker>
               <l>AWay, leave off your golden Flatteries, </l>
               <l>I know I cannot live; there's one lies here </l>
@@ -254,7 +275,7 @@
               <l>We hope the gods have not such rugged hands </l>
               <l>To snatch yee from us. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e100610">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e100610">
               <speaker>King. </speaker>
               <l>Cosmo, Damianus, and Anthony; you upon whom </l>
               <l>The Vandall State doth leane, for my back's too weake; </l>
@@ -278,7 +299,7 @@
               <speaker>Cosm. </speaker>
               <p>Try Sir if Musick can procure your rest. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e100800">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e100800">
               <speaker>King. </speaker>
               <l>Cosmo, 'tis sinne to spend a thing so precious </l>
               <l>On him that cannot weare it: No, no, no Musick; </l>
@@ -300,7 +321,7 @@
               <speaker>Anth. </speaker>
               <p>'Tis swelld to a faire Volume. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e100980">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e100980">
               <speaker>King. </speaker>
               <l>Would I liv'd to adde a second part too't, read, &amp; listen, </l>
               <l>No Vandall ere writ such a Chronicle. </l>
@@ -311,7 +332,7 @@
               <l>Seven hundred flead alive, their Carkasses </l>
               <l>Throwne to King Genzericks hounds. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101050">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101050">
               <speaker>King. </speaker>
               <p>Ha, ha, brave Hunting. </p>
             </sp>
@@ -320,7 +341,7 @@
               <l>Vpon the great day of Apollo's Feast, </l>
               <l>The fourth Moneth of your Reigne. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101100">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101100">
               <speaker>King. </speaker>
               <l>On, give me more, </l>
               <l>Let me dye fat with laughing. </l>
@@ -335,7 +356,7 @@
               <l>Tost as a Sacrifice to Iupiter </l>
               <l>On his great day, and the Ninth Month of Genzerick. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101200">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101200">
               <speaker>King. </speaker>
               <l>A Play, a Comicall Stage our Palace was: </l>
               <l>Any more, oh let me surfeit. </l>
@@ -344,7 +365,7 @@
               <speaker>Anth. </speaker>
               <p>Foure hundred Virgins ravisht. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101250">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101250">
               <speaker>King. </speaker>
               <p>Christian Whores; common, 'tis common. </p>
             </sp>
@@ -353,7 +374,7 @@
               <l>And then their trembling bodies tost on the Pikes </l>
               <l>Of those that spoyl'd 'em, sacrific'd to Pallas. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101300">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101300">
               <speaker>King. </speaker>
               <p>More, more, hang Mayden-heads, Christian Maiden-heads. </p>
             </sp>
@@ -363,17 +384,18 @@
               <l>Some pauncht, some starv'd, some eyes and braines bor'd out, </l>
               <l>Some whipt to death, some torne by Lyons. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101360">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101360">
               <speaker>King. </speaker>
               <l>Damianus, I cannot live to heare my service out, </l>
               <l>Such haste the gods make to reward me. </l>
             </sp>
-            <sp who="#ep000262-omnes" xml:id="ep000262-e101390">
+            <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo #ep000262-lords"
+                       xml:id="ep000262-e101390">
               <speaker>Omnes. </speaker>
               <p>Looke to the King. <stage xml:id="ep000262-e101410">Shouts within: Enter Hubert </stage>
               </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101420">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101420">
               <speaker>King. </speaker>
               <p>What shouts are these? see Cosmo. </p>
             </sp>
@@ -385,7 +407,7 @@
               <speaker>Hub. </speaker>
               <p>Long life and health: wait ever on the King. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101480">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101480">
               <speaker>King. </speaker>
               <l>Hubert, thy wishes are come short of both: </l>
               <l>Hast thou good newes? be briefe then, and speake quickly, </l>
@@ -399,7 +421,7 @@
               <l>What lives the Sword spar'd, serve to grace your Tryumph, </l>
               <l>Till from your lips they have the doome of death. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101580">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101580">
               <speaker>King. </speaker>
               <p>What are they? </p>
             </sp>
@@ -409,7 +431,7 @@
               <l>Eugenius, Bishop of Carthage, and with him </l>
               <l>Seven hundred Captives more, all Christians. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101640">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101640">
               <speaker>King. </speaker>
               <l>Hold Death, let me alittle taste these joyes, </l>
               <l>Then take me ravisht hence: glad mine eyes Hubert </l>
@@ -421,18 +443,19 @@
               </p>
             </sp>
             <pb n="eebo_img-7" xml:id="ep000262-020"/>
-            <sp who="#ep000262-king" xml:id="ep000262-e101710">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101710">
               <speaker>King. </speaker>
               <l>Lift me a little higher, yet more: </l>
               <l>Doe the Immortall Powers powre blessings downe, </l>
               <l>And shall I not returne them? </l>
             </sp>
-            <sp who="#ep000262-omnes" xml:id="ep000262-e101750">
+            <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo #ep000262-lords"
+                       xml:id="ep000262-e101750">
               <speaker>Omnes. </speaker>
               <p>See they come. </p>
             </sp>
             <stage xml:id="ep000262-e101770">A Flourish: Enter Henricke the Prince, Bellizarius, Hubert, leading Eugenius in Chaines, with other Prisoners, and Souldiers. </stage>
-            <sp who="#ep000262-king" xml:id="ep000262-e101780">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101780">
               <speaker>King. </speaker>
               <l>I have now liv'd my full time; </l>
               <l>Tell me my Henricke thy brave successe, </l>
@@ -448,7 +471,7 @@
               <l>Shedding beames over-glorious on our heads, </l>
               <l>Is now full of Eclipses. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e101900">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e101900">
               <speaker>King. </speaker>
               <l>No boy, thy presence </l>
               <l>Has fetcht life home to heare thee. </l>
@@ -468,7 +491,7 @@
               <l>Affronted us with steele; dar'd us to come on, </l>
               <l>And nobly fierd our resolution. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e102060">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e102060">
               <speaker>King. </speaker>
               <l>So hasten; there's in me a battaile too, </l>
               <l>Be quicke, or I shall fall. </l>
@@ -533,7 +556,7 @@
               <l>Yet Hubert it craves more Arethmaticke, </l>
               <l>Than in one figure to be found. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e102440">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e102440">
               <speaker>King. </speaker>
               <p>Hubert, thou art too busie. </p>
             </sp>
@@ -541,7 +564,7 @@
               <speaker>Hub. </speaker>
               <p>So was I in the battaile. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e102480">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e102480">
               <speaker>King. </speaker>
               <p>Prethee peace. </p>
             </sp>
@@ -675,7 +698,7 @@
               <l>Was like to this, I must confesse 'tis true, </l>
               <l>But not beyond it. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e103440">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e103440">
               <speaker>King. </speaker>
               <l>You have done nobly all: </l>
               <l>Nor let the Generall thinke I foyle his worth, </l>
@@ -689,7 +712,7 @@
               <speaker>Hen. </speaker>
               <p>Yes, but not equall to the Generals. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e103540">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e103540">
               <speaker>King. </speaker>
               <l>The spoyles they equally shall both divide; </l>
               <l>The Generall chuse, 'tis his prerogative: </l>
@@ -708,7 +731,7 @@
               <speaker>Hub. </speaker>
               <p>Who earnes it must have wages. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e103660">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e103660">
               <speaker>King. </speaker>
               <p>Ile see you imbrac'd too. </p>
             </sp>
@@ -716,7 +739,7 @@
               <speaker>Hub. </speaker>
               <p>With all my heart. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e103700">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e103700">
               <speaker>King. </speaker>
               <l>And Bellizarius </l>
               <l>Make him thy Scholler. </l>
@@ -725,7 +748,7 @@
               <speaker>Hub. </speaker>
               <p>His Scholler! </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e103750">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e103750">
               <speaker>King. </speaker>
               <l>There's stuffe in him, </l>
               <l>Which temper'd well, would make him a noble fellow. </l>
@@ -750,7 +773,7 @@
               <l>You keepe us from our Crownes of Martyrdomes </l>
               <l>By this delaying; dispatch us hence. </l>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e103940">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e103940">
               <speaker>King. </speaker>
               <l>Not yet Sir; </l>
               <l>Away with them, stay him, and if our gods </l>
@@ -762,7 +785,7 @@
               <speaker>Eug. </speaker>
               <p>Your gods, wretched soules. </p>
             </sp>
-            <sp who="#ep000262-king" xml:id="ep000262-e104020">
+            <sp who="#ep000262-genzerick" xml:id="ep000262-e104020">
               <speaker>King. </speaker>
               <l>My worke is done, and Henrick as, thou lov'st </l>
               <l>Thy Fathers soule, see every thing perform'd; </l>
@@ -790,7 +813,8 @@
               <l>Which on my knees I tender, all being ready </l>
               <l>To set it on your head. </l>
             </sp>
-            <sp who="#ep000262-omnes" xml:id="ep000262-e104210">
+            <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo #ep000262-lords #ep000262-bellizarius #ep000262-hubert"
+                       xml:id="ep000262-e104210">
               <speaker>Omnes. </speaker>
               <l>Ascend your Throne: </l>
               <l>Long live the King of Vandals </l>
@@ -823,7 +847,7 @@
               <l>Of Warres harsh harmony hath long besieg'd </l>
               <l>His tender sences with: your Father's come Bellina. </l>
             </sp>
-            <sp who="#ep000262-bellizarius" xml:id="ep000262-e104440">
+            <sp who="#ep000262-bellina" xml:id="ep000262-e104440">
               <speaker>Bel. </speaker>
               <l>I feele the joy of it with you sweet Mother, </l>
               <l>And am as ready to receive a blessing from him, </l>
@@ -973,7 +997,7 @@
               </l>
               <l>Ha, these are sweet tunes. </l>
             </sp>
-            <sp who="#ep000262-angel" xml:id="ep000262-e105610">
+            <sp who="#ep000262-angel-i" xml:id="ep000262-e105610">
               <speaker>Ang. </speaker>
               <p>Bellizarius? </p>
             </sp>
@@ -981,7 +1005,7 @@
               <speaker>Bel. </speaker>
               <p>It names me too. </p>
             </sp>
-            <sp who="#ep000262-angel" xml:id="ep000262-e105650">
+            <sp who="#ep000262-angel-i" xml:id="ep000262-e105650">
               <speaker>Ang. </speaker>
               <l>Sheath up thy cruelty; no more pursue </l>
               <l>In bloody forrage these oppressed Christians; </l>
@@ -997,7 +1021,7 @@
               <l>The sight of that Celestiall presence </l>
               <l>From whence these sweete sounds come? </l>
             </sp>
-            <sp who="#ep000262-angel" xml:id="ep000262-e105770">
+            <sp who="#ep000262-angel-i" xml:id="ep000262-e105770">
               <speaker>Ang. </speaker>
               <l>Yes, thou shalt see: Nay then 'tis lost agen. <stage xml:id="ep000262-e105790">Bel. kneeles. </stage>
               </l>
@@ -1153,7 +1177,7 @@
             </p>
           </sp>
           <stage xml:id="ep000262-e106880">Flourish: Enter the King, Antony, Cosmo, all about the King, and Bellizarius. </stage>
-          <sp who="#ep000262-king" xml:id="ep000262-e106890">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e106890">
             <speaker>King. </speaker>
             <l>They swarme like Bees about us: insomuch </l>
             <l>Our People cannot sacrifice, nor give Incense, </l>
@@ -1170,7 +1194,7 @@
             <speaker>Bel. </speaker>
             <p>I dare not. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107020">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107020">
             <speaker>King. </speaker>
             <l>Protect me Iove, </l>
             <l>Who dare gaine say it? </l>
@@ -1179,7 +1203,7 @@
             <speaker>Bel. </speaker>
             <p>I must not. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107070">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107070">
             <speaker>King. </speaker>
             <p>Say we command it. </p>
           </sp>
@@ -1187,7 +1211,8 @@
             <speaker>Bel. </speaker>
             <p>Truth is, I neither can, nor will. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e107110">
+          <sp who="#ep000262-antony #ep000262-cosmo #ep000262-lords"
+                    xml:id="ep000262-e107110">
             <speaker>Omn. </speaker>
             <p>Hee's mad. </p>
           </sp>
@@ -1230,16 +1255,16 @@
             <l>That keepes not his decrees; nor am I bound </l>
             <l>In duty to obey him in unjust acts. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107410">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107410">
             <speaker>King. </speaker>
             <p>All leave the roome. <stage xml:id="ep000262-e107430">Exeunt Lords. </stage>
             </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e107440">
+          <sp who="#ep000262-lords" xml:id="ep000262-e107440">
             <speaker>Omnes. </speaker>
             <p>We obey your highnesse. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107460">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107460">
             <speaker>King. </speaker>
             <p>Sir, nay sir good Bellizarius. </p>
           </sp>
@@ -1247,7 +1272,7 @@
             <speaker>Bel. </speaker>
             <p>In that I doe obey. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107500">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107500">
             <speaker>Kin. </speaker>
             <p>Doe you make scruple then of our command? </p>
           </sp>
@@ -1255,7 +1280,7 @@
             <speaker>Bel. </speaker>
             <p>Yes Sir, where the act's unjust and impure. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107540">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107540">
             <speaker>King. </speaker>
             <p>Why then are we a King, if not obey'd? </p>
           </sp>
@@ -1266,7 +1291,7 @@
             <l>And are so long a King to be obey'd, </l>
             <l>As you are just </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107610">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107610">
             <speaker>King. </speaker>
             <l>Good Bellizarius, wherein doe I digresse? </l>
             <l>Have not I made thee great? given thee authority </l>
@@ -1296,7 +1321,7 @@
             <l>Those Christian soules, whom I have sent to death; </l>
             <l>For which I ever, ever shall lament. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107860">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107860">
             <speaker>King. </speaker>
             <p>Ha? what's this, within there? </p>
           </sp>
@@ -1306,7 +1331,7 @@
             <l>With Bellizarius, thinke that thou art blest, </l>
             <l>If that with me thou canst participate. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e107920">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e107920">
             <speaker>King. </speaker>
             <p>Thou art mad. </p>
           </sp>
@@ -1324,7 +1349,7 @@
             <l>Then Bellizarius Acts may be held just: </l>
             <l>Otherwise nothing. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e108060">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e108060">
             <speaker>King. </speaker>
             <l>Some Furie hath possest my Bellizarius </l>
             <l>That thus he railes: Oh my dearest, </l>
@@ -1344,7 +1369,7 @@
             <l>A fingers touch can hurle him from his Throne: </l>
             <l>Is this a thing to be ador'd, or pray'd too? </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e108210">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e108210">
             <speaker>King. </speaker>
             <l>My love turnes now to rage: Attendance there, </l>
             <stage xml:id="ep000262-e108230">Enter all the Lords. </stage>
@@ -1452,7 +1477,7 @@
             <l>Your undermost Iaylor, or staller; </l>
             <l>The word is Lordly and significant. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e108980">
+          <sp who="#ep000262-watchmen" xml:id="ep000262-e108980">
             <speaker>Omnes. </speaker>
             <p>Oh brave Master y'faith. </p>
           </sp>
@@ -1473,7 +1498,7 @@
             <l>Am Master of the worke, and Constable Royall </l>
             <l>Vnder the Kings Majesty. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e109120">
+          <sp who="#ep000262-watchmen" xml:id="ep000262-e109120">
             <speaker>Omnes. </speaker>
             <p>Marry is hee. </p>
           </sp>
@@ -1486,7 +1511,7 @@
             <l>King of these Catterpillars; and indeed, being a Constable, </l>
             <l>Directly Soveraigne over these my Subjects. </l>
           </sp>
-          <sp who="#ep000262-officer_2" xml:id="ep000262-e109210">
+          <sp who="#ep000262-second-officer" xml:id="ep000262-e109210">
             <speaker>2. Offic. </speaker>
             <l>If all these stiles, so hard to climbe over, belong </l>
             <l>To the Office of a Constable, what kin is he to the Divell? </l>
@@ -1505,7 +1530,7 @@
             <l>Darke as it is, by the twilight of my Lanthorne, </l>
             <l>Methinks I see a company of Woodcocks. </l>
           </sp>
-          <sp who="#ep000262-officer_2" xml:id="ep000262-e109320">
+          <sp who="#ep000262-second-officer" xml:id="ep000262-e109320">
             <speaker>2. Offic. </speaker>
             <p>How can you discerne them? <stage xml:id="ep000262-e109340">Enter Epidorus, Victoria &amp; Bellina. </stage>
             </p>
@@ -1686,11 +1711,11 @@
         <div n="3" type="act" xml:id="ep000262-e110560">
           <head>ACTUS TERTIUS. </head>
           <stage xml:id="ep000262-e110570">Enter Clowne and Huntsmen severally. </stage>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e110580">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e110580">
             <speaker>1. Hunt. </speaker>
             <p>Ho, rise sluggards: so, so, ho; so, ho. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e110600">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e110600">
             <speaker>2. Hunt. </speaker>
             <p>So, ho, ho, we come. </p>
           </sp>
@@ -1698,7 +1723,8 @@
             <speaker>Clown. </speaker>
             <p>Morrow jolly Wood-men. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e110640">
+          <sp who="#ep000262-huntsman-i #ep000262-huntsman-ii"
+                    xml:id="ep000262-e110640">
             <speaker>Omnes. </speaker>
             <p>Morrow, morrow. </p>
           </sp>
@@ -1709,13 +1735,13 @@
             <l>If he love Hunting: had he as many cornes on his toes </l>
             <l>As there are Cuckolds in the City. </l>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e110710">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e110710">
             <speaker>1. Hunt. </speaker>
             <l>And that's enough in conscience to keepe men from going </l>
             <l>Were his Boots as wide as the black Iacks, </l>
             <l>Or Bombards tost by the Kings Guard. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e110750">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e110750">
             <speaker>2. Hunt. </speaker>
             <p>Are the swift Horses ready? </p>
           </sp>
@@ -1725,7 +1751,7 @@
             <l>For one of'em had like to have kick't </l>
             <l>My jigumbobs as I came by him. </l>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e110810">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e110810">
             <speaker>1. Hunt. </speaker>
             <p>Where are the Dogges? </p>
           </sp>
@@ -1734,7 +1760,7 @@
             <l>All coupled as Theeves going to a Sessions, </l>
             <l>And are to be hang'd if they be found faulty. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e110860">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e110860">
             <speaker>2. Hunt. </speaker>
             <p>What Dogges are they? </p>
           </sp>
@@ -1749,7 +1775,8 @@
             <l>And for Dewlaps, they are as bigge as Vintners bags, </l>
             <l>In which they straine Ipocras. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e110960">
+          <sp who="#ep000262-huntsman-i #ep000262-huntsman-ii"
+                    xml:id="ep000262-e110960">
             <speaker>Omnes. </speaker>
             <p>There boy. </p>
           </sp>
@@ -1758,7 +1785,7 @@
             <l>And hunt so close and so round together, </l>
             <l>That you may cover 'em all with a sheete. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e111010">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e111010">
             <speaker>2. Hunt. </speaker>
             <p>If it be wide enough. </p>
           </sp>
@@ -1766,7 +1793,7 @@
             <speaker>Clow. </speaker>
             <p>Why as wide as some foure or five Acres that's all, </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e111050">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e111050">
             <speaker>1. Hunt. </speaker>
             <p>And what's the game to day? </p>
           </sp>
@@ -1774,7 +1801,7 @@
             <speaker>Clow. </speaker>
             <p>The wilde Boare. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e111090">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e111090">
             <speaker>1. Hunt. </speaker>
             <p>Which of'em, the greatest? I have not seene him. </p>
           </sp>
@@ -1782,7 +1809,7 @@
             <speaker>Clow. </speaker>
             <p>Not seene him? he is as big as an Elephant. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e111130">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e111130">
             <speaker>2. Hunt. </speaker>
             <p>Now will he build a whole Castle full of lies. </p>
           </sp>
@@ -1790,7 +1817,8 @@
             <speaker>Clow. </speaker>
             <p>Not seene him? I have. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e111170">
+          <sp who="#ep000262-huntsman-i #ep000262-huntsman-ii"
+                    xml:id="ep000262-e111170">
             <speaker>Omnes. </speaker>
             <p>No, no; seene him; as big as an Elephant. </p>
           </sp>
@@ -1799,7 +1827,7 @@
             <l>The backe of him is as broad, let me see, </l>
             <l>As a pretty Lighter. </l>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e111220">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e111220">
             <speaker>1. Hunt. </speaker>
             <p>A Lighter! </p>
           </sp>
@@ -1807,7 +1835,7 @@
             <speaker>Clow. </speaker>
             <p>Yes: and what doe you thinke the Brisells are worth? </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e111260">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e111260">
             <speaker>2. Hunt. </speaker>
             <p>Nothing. </p>
           </sp>
@@ -1815,7 +1843,7 @@
             <speaker>Clow. </speaker>
             <p>Nothing? one Shoomaker offer'd to finde me and the Heire-male of my body, 22. yeeres, but to have them for his owne ends. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e111300">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e111300">
             <speaker>2. Hunt. </speaker>
             <p>He would put Sparabiles into the soales then? </p>
           </sp>
@@ -1824,7 +1852,7 @@
             <p>Not a Bill, not a Sparrow; </p>
             <p>This Boares head is so huge, that a Vintner but drawing that picture, and hanging it up for a Signe, it fell down, and broke him, </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e111350">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e111350">
             <speaker>1. Hunt. </speaker>
             <p>Oh horrible! </p>
           </sp>
@@ -1832,7 +1860,7 @@
             <speaker>Clow. </speaker>
             <p>He has two stones so bigge: let me see, (a Poxe) thy head is but a Cherry-stone to the least of'em. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e111390">
+          <sp who="#ep000262-huntsman-ii" xml:id="ep000262-e111390">
             <speaker>2. Hunt. </speaker>
             <p>How long are his Tuskes? </p>
           </sp>
@@ -1840,7 +1868,7 @@
             <speaker>Clow. </speaker>
             <p>Each of them as crooked, and as long as a Mowers sith. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e111430">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e111430">
             <speaker>1. Hunt. </speaker>
             <p>There's a Cutler. </p>
           </sp>
@@ -1849,7 +1877,7 @@
             <speaker>Clown. </speaker>
             <p>And when he whets his Tuskes, you would sweare there were a sea in's belly, and that his chops were the shore, to which the Foame was beaten: if his Foame were frothy Yest, 'twere worth tenne groats a paile for Bakers. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e111470">
+          <sp who="#ep000262-huntsman-i" xml:id="ep000262-e111470">
             <speaker>1. Hunts. </speaker>
             <p>What will the King doe with him if he kill him? </p>
           </sp>
@@ -1858,7 +1886,8 @@
             <p>Bake him; and if they put him in one Pasty, a new Oven must be made, with a mouth as wide as the gates of the City. <stage xml:id="ep000262-e111510">Horne. </stage>
             </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e111520">
+          <sp who="#ep000262-huntsman-i #ep000262-huntsman-ii"
+                    xml:id="ep000262-e111520">
             <speaker>Omnes. </speaker>
             <p>There boy, there boy. </p>
           </sp>
@@ -2419,7 +2448,7 @@
           </sp>
           <stage xml:id="ep000262-e115440">Soft Musick. </stage>
           <stage xml:id="ep000262-e115450">Enter the King on his bed, two Physitians, Anthony, Damianus, and Cosmo. </stage>
-          <sp who="#ep000262-king" xml:id="ep000262-e115460">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115460">
             <speaker>King. </speaker>
             <l>Are you Physitians? </l>
             <l>Are you those men that proudly call your selves </l>
@@ -2429,7 +2458,7 @@
             <speaker>Ant. </speaker>
             <p>Oh my good Lord, have patience. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e115520">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115520">
             <speaker>King. </speaker>
             <l>What should I doe? lye like a patient Asse, </l>
             <l>Feele my selfe tortur'd by this diffused poyson, </l>
@@ -2439,11 +2468,11 @@
             <speaker>Ant. </speaker>
             <p>Come one of you yourselves, and speake to him. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e115580">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e115580">
             <speaker>1. Phys </speaker>
             <p>How fares your Highnesse? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e115600">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115600">
             <speaker>King. </speaker>
             <p>Never worse: what's he? </p>
           </sp>
@@ -2451,7 +2480,7 @@
             <speaker>Dami. </speaker>
             <p>One of your Highnesse-Doctors. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e115640">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115640">
             <speaker>King. </speaker>
             <l>Come sit neare me, </l>
             <l>Feele my pulse once agen, and tell me Doctor, </l>
@@ -2471,15 +2500,15 @@
             <speaker>Cosm. </speaker>
             <p>Hee's gone for. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e115790">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115790">
             <speaker>King. </speaker>
             <p>What's my disease? </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e115810">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e115810">
             <speaker>1. Phys. </speaker>
             <p>My Lord, you are poyson'd. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e115830">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115830">
             <speaker>King. </speaker>
             <l>I told thee so my selfe, and told thee how: </l>
             <l>But what's the reason that I have no helpe? </l>
@@ -2488,16 +2517,16 @@
             <l>Bring in sufficient store to pay your fees, </l>
             <l>If that you gape at. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e115900">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e115900">
             <speaker>2. Phys. </speaker>
             <l>wilt please your Highnesse then to take this Cordiall? </l>
             <l>Gold never truely did you good till now. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e115930">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e115930">
             <speaker>King. </speaker>
             <p>'Tis gone. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e115950">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e115950">
             <speaker>2. Phys. </speaker>
             <l>My Lord, it was the perfectst tincture </l>
             <l>Of Gold that ever any Art produc'd: </l>
@@ -2508,7 +2537,7 @@
             <l>Which though dull Death had usurp't Natures right, </l>
             <l>Is able to create new life agen. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e116040">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e116040">
             <speaker>King. </speaker>
             <l>Why does it good on men, and not on Kings? </l>
             <l>We have the selfe-same passages for Nature </l>
@@ -2521,12 +2550,12 @@
             <l>Maligne our happinesse: Oh that my breath had power </l>
             <l>With my last words to blast their Deities. </l>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e116150">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e116150">
             <speaker>1. Phys. </speaker>
             <l>The Cordiall that you tooke requires rest: </l>
             <l>For healths sake good my Lord, repose your selfe. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e116180">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e116180">
             <speaker>King. </speaker>
             <p>Yes, any thing for health; draw round the Curtaines: </p>
           </sp>
@@ -2535,15 +2564,15 @@
             <speaker>Dam. </speaker>
             <p>Wee'le watch by him, whilst you two doe consult. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e116220">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e116220">
             <speaker>1. Phys. </speaker>
             <p>What guesse you by that Vrine? </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e116240">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e116240">
             <speaker>2. Phys. </speaker>
             <p>Surely death. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e116260">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e116260">
             <speaker>1. Phys. </speaker>
             <l>Death certaine, without contradiction: </l>
             <l>For though the Vrin be a whore, and lies, </l>
@@ -2555,13 +2584,13 @@
             <l>And you may finde the Pulse to shew as much </l>
             <l>By his uncertainty of time and strength. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e116360">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e116360">
             <speaker>2. Phys. </speaker>
             <l>We finde the spirits often suffisticated </l>
             <l>By many accidents, but yet not mortified; </l>
             <l>A sudden feare will doe it. </l>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e116400">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e116400">
             <speaker>1. Phys. </speaker>
             <l>Very right; </l>
             <l>But there's no malitious humour mixt </l>
@@ -2578,11 +2607,11 @@
             <l>As Lightning through a windows Casement </l>
             <l>Hurts more than that which enters at the doore. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e116550">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e116550">
             <speaker>2. Phys. </speaker>
             <p>But for the way to cure it. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e116570">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e116570">
             <speaker>1. Phys. </speaker>
             <l>Know none: </l>
             <l>Yet Ancient Writers have prescrib'd us many, </l>
@@ -2597,11 +2626,11 @@
             <l>But for my part, I ever held opinon, </l>
             <l>In such a case the ventosies are best. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e116690">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e116690">
             <speaker>2 Phys. </speaker>
             <p>They are indeed, and they doe farre exceede. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e116710">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e116710">
             <speaker>1 Phys. </speaker>
             <l>All the great curious Cataphlasmes, </l>
             <l>Or the live taile of a deplum'd Henne, </l>
@@ -2611,7 +2640,7 @@
             <l>Whereas the other things I nam'd before, </l>
             <l>Doe lose their vertue, as they lose their heat. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e116790">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e116790">
             <speaker>2 Phys. </speaker>
             <p>The ventosies shall be our next intensions. </p>
           </sp>
@@ -2619,7 +2648,7 @@
             <speaker>Anton. </speaker>
             <p>Pray Gentlemen attend his Highnesse. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e116830">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e116830">
             <speaker>King. </speaker>
             <l>Your next intentions be to drowne your selves, </l>
             <l>Dogge-leaches all; I see I am not mortall, </l>
@@ -2630,11 +2659,11 @@
             <l>Goe, goe, you are all but prating Mountebankes, </l>
             <l>Quacksalvers, and Imposures; get you all from me. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e116920">
+          <sp who="#ep000262-physician-ii" xml:id="ep000262-e116920">
             <speaker>2 Phys. </speaker>
             <p>These Ventosies my Lord will give you ease. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e116940">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e116940">
             <speaker>King. </speaker>
             <p>A vengeance on thy Ventosies and thee. </p>
           </sp>
@@ -2643,7 +2672,7 @@
             <speaker>Anton. </speaker>
             <p>The Bishop Sir is come. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e116990">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e116990">
             <speaker>King. </speaker>
             <l>Christian thy blood </l>
             <l>Must give me ease and helpe. </l>
@@ -2657,7 +2686,7 @@
             <l>A drinke so pretious should not be so spilt; </l>
             <l>Take mine, and heaven pardon you the guilt. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117090">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117090">
             <speaker>King. </speaker>
             <p>A Butcher; see his throat cut. </p>
           </sp>
@@ -2670,11 +2699,11 @@
             <l>My blood shall wash these Rushes, </l>
             <l>King, I will cure thee. </l>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e117170">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e117170">
             <speaker>1. Phys. </speaker>
             <p>You cure him. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117190">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117190">
             <speaker>King. </speaker>
             <p>Speak on fellow. </p>
           </sp>
@@ -2685,7 +2714,7 @@
             <l>From the infected part, study your tortures, </l>
             <l>To teare me peece-meale, yet be kept alive. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117260">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117260">
             <speaker>King. </speaker>
             <l>Oh reverent man come neare me, worke this wonder, </l>
             <l>Aske gold, honours, any, any thing, </l>
@@ -2696,15 +2725,16 @@
             <speaker>Eug. </speaker>
             <p>I will doe nothing without a recompence. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117330">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117330">
             <speaker>King. </speaker>
             <p>A royall one. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e117350">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e117350">
             <speaker>Omnes. </speaker>
             <p>Name what you would desire. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117370">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117370">
             <speaker>King. </speaker>
             <l>Stand by, you trouble him, </l>
             <l>A recompence can my Crowne buy thee, take it; </l>
@@ -2714,7 +2744,7 @@
             <speaker>Eug. </speaker>
             <p>No, here's my bargaine. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117430">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117430">
             <speaker>King. </speaker>
             <l>Quickly, oh speake quickly— </l>
             <l>Off with the good-mans Irons. </l>
@@ -2727,7 +2757,7 @@
             <l>Those in Alempha, and in Hazaneth, </l>
             <l>Those in thy Gallies, those in thy Iayles and Dungeons. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117520">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117520">
             <speaker>King. </speaker>
             <l>Those, any where; my Signet, take my Signet, </l>
             <l>And free all on your lives, free all the Christians. </l>
@@ -2737,11 +2767,12 @@
             <speaker>Eug. </speaker>
             <p>This: that thy selfe trample upon thy Pagan gods. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e117580">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e117580">
             <speaker>Omnes. </speaker>
             <p>Sir. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117600">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117600">
             <speaker>King. </speaker>
             <p>Away. </p>
           </sp>
@@ -2750,7 +2781,7 @@
             <l>Wash your soule white by wading in the streame </l>
             <l>Of Christian gore. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117650">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117650">
             <speaker>King. </speaker>
             <p>I will turne Christian. </p>
           </sp>
@@ -2759,7 +2790,7 @@
             <p>Better wolves worry this accursed— </p>
           </sp>
           <pb n="eebo_img-24" xml:id="ep000262-055"/>
-          <sp who="#ep000262-king" xml:id="ep000262-e117690">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117690">
             <speaker>King. </speaker>
             <l>Better </l>
             <l>Have Bandogs worry all of you, than I </l>
@@ -2777,7 +2808,7 @@
             <speaker>Eug. </speaker>
             <p>Now; you are well Sir? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117830">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117830">
             <speaker>King. </speaker>
             <p>Ha! </p>
           </sp>
@@ -2785,16 +2816,17 @@
             <speaker>Eug. </speaker>
             <p>Has your paine left you? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117870">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117870">
             <speaker>King. </speaker>
             <l>Yes, see else Damianus, Antony, </l>
             <l>Cosmo, I am well. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e117900">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e117900">
             <speaker>Omnes </speaker>
             <p>He does it by inchantment. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e117920">
+          <sp who="#ep000262-physician-i" xml:id="ep000262-e117920">
             <speaker>1. Phys. </speaker>
             <p>By meere Witch-craft. </p>
           </sp>
@@ -2802,7 +2834,7 @@
             <speaker>Eug. </speaker>
             <p>Thy payment for my cure? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e117960">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e117960">
             <speaker>King. </speaker>
             <p>What? </p>
           </sp>
@@ -2811,7 +2843,7 @@
             <l>To turne Christian, </l>
             <l>And set all Christian slaves at liberty. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118010">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118010">
             <speaker>King. </speaker>
             <l>Ile hang and torture all; </l>
             <l>Call backe the Messenger sent with our Signet; </l>
@@ -2822,11 +2854,12 @@
             <l>Thy sorceries shall not strike me, stone him to death. </l>
           </sp>
           <stage xml:id="ep000262-e118090">They binde him to a stake, and fetch stowes in Baskets. </stage>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e118100">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e118100">
             <speaker>Omnes. </speaker>
             <p>When? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118120">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118120">
             <speaker>King. </speaker>
             <p>Now, here presently. </p>
           </sp>
@@ -2834,7 +2867,7 @@
             <speaker>Eugen. </speaker>
             <p>Ingratefull man. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118160">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118160">
             <speaker>King. </speaker>
             <l>Dispatch, his voyce is horrid in our eares, </l>
             <l>Kill him, hurle all, and in him kill my feares. </l>
@@ -2844,7 +2877,7 @@
             <speaker>Eug. </speaker>
             <p>I would thy feares were ended. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118210">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118210">
             <speaker>King. </speaker>
             <p>Why thus delay you? </p>
           </sp>
@@ -2869,15 +2902,16 @@
             <speaker>Eug. </speaker>
             <p>Thankes havenly preservation. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118340">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118340">
             <speaker>King. </speaker>
             <p>Mockt by a hell-hound? </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e118360">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e118360">
             <speaker>Omnes. </speaker>
             <p>This must not be endur'd Sir. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118380">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118380">
             <speaker>King. </speaker>
             <l>Unbinde the wretch; </l>
             <l>Naile him to the earth with Irons: Cannot death strike him? </l>
@@ -2893,7 +2927,7 @@
             <speaker>Anton. </speaker>
             <p>But are you well indeed Sir? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e118480">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e118480">
             <speaker>King. </speaker>
             <l>Passing well, </l>
             <l>Though my Physitian fetcht the cure from hell: </l>
@@ -2939,7 +2973,8 @@
             <speaker>Hub. </speaker>
             <p>And must I be the Generall? </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e118770">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e118770">
             <speaker>Omnes. </speaker>
             <p>Onely you. </p>
           </sp>
@@ -3007,7 +3042,7 @@
             <l>Strong charmes about my full-plum'd Burgonet </l>
             <l>To bring me safe home: I must to the Warres. </l>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119260">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119260">
             <speaker>Bel. </speaker>
             <l>What warres? we have no warres but in our selves: </l>
             <l>We fighting with our sinnes, our sinnes with us, </l>
@@ -3023,7 +3058,7 @@
             <l>That breath in his Dominion: I am the Engine </l>
             <l>To worke this glorious wonder. </l>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119380">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119380">
             <speaker>Bel. </speaker>
             <l>Fore-fend it Heaven: </l>
             <l>Last time you sate by me within my bower, </l>
@@ -3033,7 +3068,7 @@
             <speaker>Hub. </speaker>
             <p>I doe remember it. </p>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119440">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119440">
             <speaker>Bel. </speaker>
             <l>The floore of sparkling Diamonds, and the roofe </l>
             <l>Studded with Starres shining as bright as fire. </l>
@@ -3042,7 +3077,7 @@
             <speaker>Hub. </speaker>
             <p>True. </p>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119490">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119490">
             <speaker>Bel. </speaker>
             <l>And I told you one day I would shew you </l>
             <l>A path should bring you thither. </l>
@@ -3051,7 +3086,7 @@
             <speaker>Hub. </speaker>
             <p>You did indeed. </p>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119540">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119540">
             <speaker>Bel. </speaker>
             <l>And will you now neglect a lease of this, </l>
             <l>To lye in a cold field, a field of murder? </l>
@@ -3067,7 +3102,7 @@
             <p>More, prethee more; I had forgot this Musick. </p>
           </sp>
           <pb n="eebo_img-26" xml:id="ep000262-059"/>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119650">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119650">
             <speaker>Bel. </speaker>
             <l>Say thou shouldst win the day, yet art thou lost, </l>
             <l>For ever lost; an everlasting slave, </l>
@@ -3087,7 +3122,7 @@
             <l>I am their Captaine, come both Goth and Vandall, </l>
             <l>Nay, come the King, I am the Christians Generall. </l>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119810">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119810">
             <speaker>Bel. </speaker>
             <l>Not yet, till your Commission be faire drawne, </l>
             <l>Not yet, till on your brow you beare the Print </l>
@@ -3097,7 +3132,7 @@
             <speaker>Hub. </speaker>
             <p>Get me that seale then. </p>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119870">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119870">
             <speaker>Bel. </speaker>
             <l>There is an Aqua fortis, (an eating water) </l>
             <l>Must first wash off thine infidelity, </l>
@@ -3107,7 +3142,7 @@
             <speaker>Hub. </speaker>
             <p>O let me then be arm'd. </p>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119930">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119930">
             <speaker>Bel. </speaker>
             <l>Thou shalt: </l>
             <l>But on thy knees thou gently first shalt sweare </l>
@@ -3117,7 +3152,7 @@
             <speaker>Hub. </speaker>
             <p>By this chaste clasping of our hands I sweare— </p>
           </sp>
-          <sp who="#ep000262-bellizarius" xml:id="ep000262-e119990">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e119990">
             <speaker>Bel. </speaker>
             <l>We then thus hand in hand will fight a battaile </l>
             <l>Worth all the pitch-fields, all the bloody banquets, </l>
@@ -3136,7 +3171,7 @@
             <speaker>Clow. </speaker>
             <p>Come fellow Pagans, death meanes to fare well to day, for he is like to have rost-meate to his supper, two principall <pb n="eebo_img-27" xml:id="ep000262-060"/>dishes; many a Knight keepes a worse Table. First, a brave Generall Carbonadoed, then a fat Bishop broyl'd, whose Rochet comes in fryed for the second course, according to the old saying, A plumpe greazie Prelate fries a fagot daintily. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e120120">
+          <sp who="#ep000262-pagan-i" xml:id="ep000262-e120120">
             <speaker>1. Pag. </speaker>
             <p>Oh the Generall Bellizarius for my money: hee has a fiery spirit too, hee will roast soakingly within and without. </p>
           </sp>
@@ -3144,7 +3179,7 @@
             <speaker>Clow. </speaker>
             <p>Methinks Christians make the bravest Bonefires of any people in the Vniverse; as a Iew burnes pretty-well, but if you marke him, he burnes upward: the fire takes him by the Nose first. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e120160">
+          <sp who="#ep000262-pagan-ii" xml:id="ep000262-e120160">
             <speaker>2. Pag. </speaker>
             <p>I know some Vintners then are Iewes. </p>
           </sp>
@@ -3152,7 +3187,7 @@
             <speaker>Clow. </speaker>
             <p>Now as your Iew burnes upward, your French-man burnes downeward like a Candle, and commonly goes out with a stinke like a snuffe, and what socket soever it light in, it must be well cleans'd and pick't before it can be us'd agen: But Bellizarius, the brave Generall, will flame high and cleare like a Beacon, but your Puritane Eugenius will burne blew, blew, like a white-bread sop in Aqua vitae. Fellow Pagans, I pray let us agree among our selves about the sharing of those two. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e120200">
+          <sp who="#ep000262-pagan-ii" xml:id="ep000262-e120200">
             <speaker>2. Pag. </speaker>
             <p>I, 'tis fit. </p>
           </sp>
@@ -3160,7 +3195,7 @@
             <speaker>Clow. </speaker>
             <p>You know I am worshipfull by my place, the underkeeper may write Squire if he list, at the bottome of the paper: I doe cry first the Generalls great Scarfe to make me a short Summer-cloake, and the Bishops wide sleeves to make me a Holy-dayes shirt. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e120240">
+          <sp who="#ep000262-pagan-i" xml:id="ep000262-e120240">
             <speaker>1. Pag. </speaker>
             <p>Having a double voyce we cannot abridge you of a double share. </p>
           </sp>
@@ -3168,7 +3203,7 @@
             <speaker>Clow. </speaker>
             <p>You that so well know what belongs to reverence, the Breeches by yours, whether Bishops or Generalls: but with this Provizo, because we will all share of both parties, as I have lead the way, I clayming the Generalls and the Bishops sleeves, so he that chuses the Generalls Doublet, shall weare the Generalls Breeches. </p>
           </sp>
-          <sp who="#ep000262-pagan" xml:id="ep000262-e120280">
+          <sp who="#ep000262-pagan-ii" xml:id="ep000262-e120280">
             <speaker>Pag. </speaker>
             <p>A match. </p>
           </sp>
@@ -3190,7 +3225,7 @@
             <l>Be mentioned in the Chronicle of glory, </l>
             <l>Great King vouchsafe me hearing. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e120430">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e120430">
             <speaker>King. </speaker>
             <p>Speake. </p>
           </sp>
@@ -3215,7 +3250,7 @@
             <l>Yet some such men there are that have done thus, </l>
             <l>The more's the pitty. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e120640">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e120640">
             <speaker>King. </speaker>
             <p>To the poynt. </p>
           </sp>
@@ -3235,7 +3270,7 @@
             <l>My Husband, oh my husband Bellizarius, </l>
             <l>For him I begge. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e120790">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e120790">
             <speaker>King. </speaker>
             <l>Lady rise up, we will be gracious </l>
             <l>To thy suit: cause Bellizarius </l>
@@ -3247,7 +3282,7 @@
             <l>Now all the blessings due to a good King </l>
             <l>Crowne you with lasting honours. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e120870">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e120870">
             <speaker>King. </speaker>
             <l>If thou canst </l>
             <l>Perswade thy husband to recant his errours, </l>
@@ -3274,7 +3309,7 @@
             <l>But tell me, pray Sir, </l>
             <l>What are those errours which he must recant? </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121040">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121040">
             <speaker>King. </speaker>
             <l>His hatred to those powers to which we bow, </l>
             <l>On whom we all depend; he has kneel'd to them, </l>
@@ -3282,13 +3317,13 @@
             <l>Recant his being a Christian, and recant </l>
             <l>The love he beares to Christians. </l>
           </sp>
-          <sp who="#ep000262-victoria" xml:id="ep000262-e121100">
+          <sp who="#ep000262-bellina" xml:id="ep000262-e121100">
             <speaker>Bel. </speaker>
             <l>If he deny to doe all this, </l>
             <l>Or any poynt of this, </l>
             <l>Is there no mercy for him? </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121140">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121140">
             <speaker>King. </speaker>
             <l>Couldst thou shed </l>
             <l>A Sea of teares, to drowne my resolution, </l>
@@ -3303,7 +3338,7 @@
             <speaker>Vict. </speaker>
             <p>No sparke of pitty? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121240">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121240">
             <speaker>King. </speaker>
             <p>None. </p>
           </sp>
@@ -3317,7 +3352,7 @@
             <speaker>Anton. </speaker>
             <p>Doe this, and we are all his. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121320">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121320">
             <speaker>King. </speaker>
             <l>Doe this, I sweare to jewell him in my bosome. </l>
             <l>See where he comes. </l>
@@ -3328,7 +3363,7 @@
             <l>And whither now, is Tyranny growne ripe, </l>
             <l>To blow us to our graves yet? </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121390">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121390">
             <speaker>King. </speaker>
             <l>Bellizarius, </l>
             <l>Thy wife has su'd for mercy, and has found it: </l>
@@ -3348,7 +3383,7 @@
             <l>Nothing can alter your incensed rage, </l>
             <l>But recantation. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121530">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121530">
             <speaker>King. </speaker>
             <p>Nothing. </p>
           </sp>
@@ -3360,7 +3395,7 @@
             <l>The ambition of mortality— examine </l>
             <l>What recantation is— a toy. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121610">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121610">
             <speaker>King. </speaker>
             <p>None hinder her: now ply him. </p>
           </sp>
@@ -3373,11 +3408,12 @@
             <l>Which crowne all Martyrs with eternity: </l>
             <l>Wilt thou not recant? </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121690">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121690">
             <speaker>King. </speaker>
             <p>I understand her not. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e121710">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e121710">
             <speaker>Omnes. </speaker>
             <p>Nor I. </p>
           </sp>
@@ -3393,7 +3429,7 @@
             <l>In streames that are most sensuall, and persever </l>
             <l>To live so till they dye, and to dye never. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121830">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121830">
             <speaker>King. </speaker>
             <p>What meanes all this? </p>
           </sp>
@@ -3408,7 +3444,7 @@
             <l>By the Worlds tempting fires, as these men doe, </l>
             <l>Recant that errour. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e121920">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e121920">
             <speaker>King. </speaker>
             <p>Ha? </p>
           </sp>
@@ -3450,7 +3486,7 @@
             <speaker>Cosmo. </speaker>
             <p>Be out-brav'd by a seducing Strumpet? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122190">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122190">
             <speaker>King. </speaker>
             <l>Binde her fast; </l>
             <l>Weele try what recantation you can make, </l>
@@ -3482,7 +3518,7 @@
             <l>Yet onely thy not suffering such an out-rage, </l>
             <l>Shall adde praise to thy name. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122430">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122430">
             <speaker>King. </speaker>
             <p>Where is the Groome? </p>
           </sp>
@@ -3496,7 +3532,8 @@
             <speaker>Epid. </speaker>
             <p>Here is a Cammell driver. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e122510">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo #ep000262-henerick"
+                    xml:id="ep000262-e122510">
             <speaker>Omnes. </speaker>
             <p>Stand forth sirrah. </p>
           </sp>
@@ -3504,19 +3541,19 @@
             <speaker>Epid. </speaker>
             <p>Be bould, and shrinke not, this is she. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122550">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122550">
             <speaker>1 Cam. </speaker>
             <l>And I am hee: </l>
             <l>Is't the Kings pleasure I should mouse her, and before all these people? </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122580">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122580">
             <speaker>King. </speaker>
             <l>No, 'tis considered better; unbinde the fury. </l>
             <l>And dragge her to some corner, 'tis our pleasure, </l>
             <l>Fall to thy businesse freely. </l>
           </sp>
           <pb n="eebo_img-30" xml:id="ep000262-066"/>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122620">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122620">
             <speaker>1 Cam. </speaker>
             <p>Not too freely neither; I fare hard, and drinke water, so doe the Indians; yet who fuller of Bastards? so doe the Turkes, yet who gets greater Logger-heads? come wench, Ile teach thee how to cut up wild fowle. </p>
           </sp>
@@ -3528,7 +3565,7 @@
             <speaker>Bel. </speaker>
             <p>Be mine eyes lost for ever? </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122680">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122680">
             <speaker>1 Cam. </speaker>
             <p>Is that her husband? </p>
           </sp>
@@ -3536,15 +3573,15 @@
             <speaker>Epid. </speaker>
             <p>Yes. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122720">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122720">
             <speaker>1 Cam. </speaker>
             <p>No matter; some husbands are so base, they keepe the doore whilst they are Cuckolded; but this is after a more manlier way, for he stands bound to see it done. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122740">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122740">
             <speaker>King. </speaker>
             <p>Haile her away. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122760">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122760">
             <speaker>1 Cam. </speaker>
             <p>Come Pusse: haile her away, which way? you way? my Cammells backs cannot climbe it. </p>
           </sp>
@@ -3552,27 +3589,28 @@
             <speaker>Anton. </speaker>
             <p>The fellow is struck mad. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122800">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122800">
             <speaker>1 Cam. </speaker>
             <p>That way, it lookes into a Mill-pond; whirre, how the Wheeles goe, and the Divell grindes? no this way. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122820">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122820">
             <speaker>King. </speaker>
             <p>Keepe the slave backe. </p>
           </sp>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e122840">
+          <sp who="#ep000262-camel-driver-i" xml:id="ep000262-e122840">
             <speaker>1 Cam. </speaker>
             <p>Backe, keepe me backe; there sits my wife kombing her haire, which curles like a witches feltlocks, all the Neets in't are Spiders, and all the Dandruffe the sand of a Scriveners Sand-boxe: Stand away, my whore shall not be lousie, let me come noynt her with Stavesucre. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122860">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122860">
             <speaker>King. </speaker>
             <p>Defend me, lop his hands off. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e122880">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e122880">
             <speaker>Omnes. </speaker>
             <p>Hew him in pieces. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122900">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122900">
             <speaker>King. </speaker>
             <p>What has he done? </p>
           </sp>
@@ -3584,7 +3622,7 @@
             <speaker>Vict. </speaker>
             <p>You for his soule must answer. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e122960">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e122960">
             <speaker>King. </speaker>
             <p>Fetch another. </p>
           </sp>
@@ -3594,21 +3632,21 @@
             <l>And crush thee in thy Throne. </l>
           </sp>
           <stage xml:id="ep000262-e123010">Enter 2 Cammell drivers. </stage>
-          <sp who="#ep000262-king" xml:id="ep000262-e123020">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123020">
             <speaker>King. </speaker>
             <l>Peace sorcerous slave: </l>
             <l>Sirra, take hence this Witch and ravish her. </l>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e123050">
+          <sp who="#ep000262-camel-driver-ii" xml:id="ep000262-e123050">
             <speaker>2. Cammel. </speaker>
             <p>A Witch, Witches are the Divels sweete-hearts. </p>
           </sp>
           <pb n="eebo_img-30" xml:id="ep000262-067"/>
-          <sp who="#ep000262-king" xml:id="ep000262-e123070">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123070">
             <speaker>King. </speaker>
             <p>Doe it, be thou Master of much gold. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e123090">
+          <sp who="#ep000262-camel-driver-ii" xml:id="ep000262-e123090">
             <speaker>2 Cam. </speaker>
             <p>Shall I have gold to doe it? in some Countries I heare whole Lordships are spent upon a fleshly device, yet the buyer in the end had nothing but French Repentance, and the curse of Chyrurgery for his money; let me finger my Gold; Ile venture on, but not give her a penny; womans flesh was never cheaper, a man may eate it without bread, all Trades fall, so doe they. </p>
           </sp>
@@ -3616,11 +3654,12 @@
             <speaker>Epid. </speaker>
             <p>Looke you Sir, there's your gold. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e123130">
+          <sp who="#ep000262-camel-driver-ii" xml:id="ep000262-e123130">
             <speaker>2 Cam. </speaker>
             <p>Ile tell money after my Father: oh I am strucke blinde! </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e123150">
+          <sp who="#ep000262-anthony #ep000262-damianus #ep000262-cosmo"
+                    xml:id="ep000262-e123150">
             <speaker>Omnes. </speaker>
             <p>The fellow is bewitcht Sir. </p>
           </sp>
@@ -3631,7 +3670,7 @@
             <l>To witch-craft; 'tis a gentle admonition </l>
             <l>To teach thy heart obey it. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e123220">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123220">
             <speaker>King. </speaker>
             <l>Lift up the slave, </l>
             <l>Though he has lost his sight, his feeling is not: </l>
@@ -3641,11 +3680,11 @@
             <speaker>Epid. </speaker>
             <p>Force her into thy armes, or else thou dyest. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e123280">
+          <sp who="#ep000262-camel-driver-ii" xml:id="ep000262-e123280">
             <speaker>2 Cam. </speaker>
             <p>I have lost my hearing too. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e123300">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123300">
             <speaker>King. </speaker>
             <p>Fetch other slaves. </p>
           </sp>
@@ -3653,7 +3692,7 @@
             <speaker>Epid. </speaker>
             <p>Thou must force her. </p>
           </sp>
-          <sp who="#ep000262-yyyy_2" xml:id="ep000262-e123340">
+          <sp who="#ep000262-camel-driver-ii" xml:id="ep000262-e123340">
             <speaker>2 Cam. </speaker>
             <p>Truely I am hoarse often with driving my Cammells, and nothing does me good but sirrop of Horehound. </p>
           </sp>
@@ -3662,11 +3701,11 @@
             <speaker>Epid. </speaker>
             <p>Here are two slaves will doe it indeed. </p>
           </sp>
-          <sp who="#ep000262-xxxx_2" xml:id="ep000262-e123390">
+          <sp who="#ep000262-camel-driver-ii" xml:id="ep000262-e123390">
             <speaker>2. </speaker>
             <p>Which is shee? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e123410">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123410">
             <speaker>King. </speaker>
             <l>This creature, she has beauty to intice you, </l>
             <l>And enough to feast you all: seize her all three, </l>
@@ -3678,7 +3717,7 @@
           </sp>
           <stage xml:id="ep000262-e123470">They dance antiquely, and Exeunt. </stage>
           <pb n="eebo_img-31" xml:id="ep000262-068"/>
-          <sp who="#ep000262-king" xml:id="ep000262-e123480">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123480">
             <speaker>King. </speaker>
             <l>Hang up these slaves, </l>
             <l>I am mock't by her and them: </l>
@@ -3695,7 +3734,7 @@
             <l>And the Clowdes dance for joy thy cruelty </l>
             <l>Has not tane hold upon me. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e123590">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e123590">
             <speaker>King. </speaker>
             <l>Hunger then shall: </l>
             <l>Leade them away, dragge her to some loathed dungeon, </l>
@@ -3898,7 +3937,7 @@
             <l>One Angell frees you from an host of men. </l>
           </sp>
           <stage xml:id="ep000262-e124800">The Angel descends, as the King enters, who comes in with his Lords, Epidophorus, and the Clowne. </stage>
-          <sp who="#ep000262-king" xml:id="ep000262-e124810">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e124810">
             <speaker>King. </speaker>
             <p>Where is this piece of witchcraft? </p>
           </sp>
@@ -3924,7 +3963,7 @@
             <speaker>Clowne. </speaker>
             <p>And all the ground under my heeles quak't like a Bogge. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e124940">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e124940">
             <speaker>King. </speaker>
             <p>Deluded slaves, these are turn'd Christians too. </p>
           </sp>
@@ -3936,7 +3975,7 @@
             <speaker>Clowne. </speaker>
             <p>Turnd Christians? it has ever beene my profession to fang and clutch, and to squeeze: I was first a Varlet, then a Bumbaily, now an under Iailor turn'd Christian? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125000">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125000">
             <speaker>King. </speaker>
             <l>Breake up the Iron passage of the Cave, </l>
             <l>And if the sorceresse lives, teare her in pieces. </l>
@@ -3946,11 +3985,12 @@
             <speaker>Epid. </speaker>
             <p>See, 'tis come agen. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125060">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125060">
             <speaker>King. </speaker>
             <p>It staggers me. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e125080">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e125080">
             <speaker>Omnes. </speaker>
             <l>Amazement; looke to the King. </l>
             <stage xml:id="ep000262-e125100">Angel Sings. </stage>
@@ -3977,7 +4017,7 @@
             <p>If all divels were no worse, would I were amongst 'em. </p>
           </sp>
           <pb n="eebo_img-33" xml:id="ep000262-073"/>
-          <sp who="#ep000262-king" xml:id="ep000262-e125240">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125240">
             <speaker>King. </speaker>
             <l>Our power is mockt by magicall impostures, </l>
             <l>They shall not mocke our tortures: let Eugenius </l>
@@ -3992,7 +4032,7 @@
             <speaker>Clowne. </speaker>
             <p>As Beares are? </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125330">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125330">
             <speaker>King. </speaker>
             <l>And upon your lives, </l>
             <l>My longings feast with her, though her base limbes </l>
@@ -4011,7 +4051,7 @@
             <l>I am ready for them, and though I lose </l>
             <l>My life, hope to winne the day. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125460">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125460">
             <speaker>King. </speaker>
             <p>What art thou? </p>
           </sp>
@@ -4019,7 +4059,7 @@
             <speaker>Vict. </speaker>
             <p>An armed Christian. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125500">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125500">
             <speaker>King. </speaker>
             <p>What's thy name? </p>
           </sp>
@@ -4030,11 +4070,12 @@
             <l>I therefore feare no threatnings; but pray, </l>
             <l>That thou maist dye a good King. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e125570">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e125570">
             <speaker>Omnes. </speaker>
             <p>This is not she Sir. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125590">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125590">
             <speaker>King. </speaker>
             <l>It is; but on her brow some Deity sits: </l>
             <l>What are those Fayries dressing up her haire, </l>
@@ -4060,7 +4101,7 @@
             <speaker>Clowne. </speaker>
             <p>For any meat shee has eaten, her face needes not make you doate, and for cleane linnen, Ile sweare, it was not brought into the Iaile, for there they scorne to shift once a weeke. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125780">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125780">
             <speaker>King. </speaker>
             <l>Bellizarius, </l>
             <l>Woe thy wife that she would love me, </l>
@@ -4080,11 +4121,12 @@
             <l>And seale tenne thousand kisses on his cheeke, </l>
             <l>So he will tread his false gods under foote. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e125940">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e125940">
             <speaker>Omnes. </speaker>
             <p>Oh horrible! </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e125960">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e125960">
             <speaker>King. </speaker>
             <p>Bring tortures. </p>
           </sp>
@@ -4098,7 +4140,7 @@
             <speaker>Anton. </speaker>
             <p>They mocke you. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e126040">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126040">
             <speaker>King. </speaker>
             <l>Stretch his body up byth' armes, </l>
             <l>And at his feete hang plummets, </l>
@@ -4124,7 +4166,7 @@
             <l>To give us passage hence: death then is easie, </l>
             <l>And I defie all tortures. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e126190">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126190">
             <speaker>King. </speaker>
             <l>There fasten the Cative; </l>
             <l>I care not for thy wife: </l>
@@ -4148,7 +4190,7 @@
             <l>Your tortures are but struck against the wall; </l>
             <l>Which, backe rebounding, hit your selves. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e126390">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126390">
             <speaker>King. </speaker>
             <p>Up with him. </p>
           </sp>
@@ -4159,7 +4201,7 @@
             <l>Addes active feathers to my soaring wings, </l>
           </sp>
           <stage xml:id="ep000262-e126450">They draw him up. </stage>
-          <sp who="#ep000262-king" xml:id="ep000262-e126460">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126460">
             <speaker>King. </speaker>
             <p>Victoria yet save him. </p>
           </sp>
@@ -4168,7 +4210,8 @@
             <l>Keepe on thy flight, </l>
             <l>And be a bird of Paradise. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e126510">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e126510">
             <speaker>Omnes. </speaker>
             <p>Give him more Irons. </p>
           </sp>
@@ -4176,7 +4219,7 @@
             <speaker>Bel. </speaker>
             <p>More, more. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e126550">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126550">
             <speaker>King. </speaker>
             <l>Let him then goe: </l>
             <l>Live thou, and be my Queene. </l>
@@ -4187,13 +4230,14 @@
             <p>I am going to live with a farre greater King. </p>
           </sp>
           <pb n="eebo_img-35" xml:id="ep000262-076"/>
-          <sp who="#ep000262-king" xml:id="ep000262-e126610">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126610">
             <speaker>King. </speaker>
             <l>Binde the coy strumpet, she dyes too. </l>
             <l>Let her braines be beaten on an Anvill: </l>
             <l>For some new plagues for her. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e126650">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e126650">
             <speaker>Omnes. </speaker>
             <p>Vexe him. </p>
           </sp>
@@ -4223,7 +4267,7 @@
               </div>
             </body>
           </floatingText>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e126840">
+          <sp who="#ep000262-angel-i" xml:id="ep000262-e126840">
             <speaker>1 Ang. </speaker>
             <l>This battaile is thy last, fight well, and winne </l>
             <l>A Crowne set full of Starres. </l>
@@ -4238,7 +4282,7 @@
             <speaker>Vict. </speaker>
             <p>Doe, Ile follow thee. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e126930">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e126930">
             <speaker>King. </speaker>
             <p>Is he not yet dispatcht? </p>
           </sp>
@@ -4266,7 +4310,7 @@
               </div>
             </body>
           </floatingText>
-          <sp who="#ep000262-yyyy_1" xml:id="ep000262-e127130">
+          <sp who="#ep000262-angel-i" xml:id="ep000262-e127130">
             <speaker>1 Aug. </speaker>
             <p>Follow. </p>
           </sp>
@@ -4276,7 +4320,7 @@
             <l>What sacred voyce cryes follow? </l>
             <l>I am ready: Oh send me after him. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e127190">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e127190">
             <speaker>King. </speaker>
             <l>Thou shalt not, </l>
             <l>Till thou hast fed my lust. </l>
@@ -4291,7 +4335,7 @@
             <l>I am a Spirit, and no racke of thine </l>
             <l>Can touch me. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e127300">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e127300">
             <speaker>King. </speaker>
             <l>Not a racke of mine shall touch thee: </l>
             <l>Why should the world loose such </l>
@@ -4315,7 +4359,7 @@
             <l>Oh that some rocke of Ice, </l>
             <l>Might fall on me, and freeze me into nothing. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e127490">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e127490">
             <speaker>King. </speaker>
             <l>Enchant our eares with Musicke: <stage xml:id="ep000262-e127510">Musicke. </stage>
             </l>
@@ -4325,12 +4369,12 @@
             <l>Till golden slumbers danc'd upon thy browes, </l>
             <l>Watching to close thine eye-lids. </l>
           </sp>
-          <sp who="#ep000262-angel" xml:id="ep000262-e127570">
+          <sp who="#ep000262-angel-i" xml:id="ep000262-e127570">
             <speaker>Ang. </speaker>
             <l>These Starres must shine no more; soule flye away: </l>
             <l>Tyrant enjoy but a cold lumpe of clay. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e127600">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e127600">
             <speaker>King. </speaker>
             <l>My charmes worke, </l>
             <l>Shee sleepes, and lookes more lovely </l>
@@ -4348,7 +4392,7 @@
             <speaker>Anton. </speaker>
             <p>She's dead Sir. </p>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e127740">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e127740">
             <speaker>King. </speaker>
             <p>Dead? </p>
           </sp>
@@ -4357,7 +4401,7 @@
             <l>As frozen as if the North-winde had in spight </l>
             <l>Snatcht her hence from you. </l>
           </sp>
-          <sp who="#ep000262-king" xml:id="ep000262-e127790">
+          <sp who="#ep000262-henerick" xml:id="ep000262-e127790">
             <speaker>King. </speaker>
             <l>Oh I have murthered her: </l>
             <l>Perfumes, some creature kill: </l>
@@ -4374,7 +4418,8 @@
             <l>Call on thy helper which thou dost adore. </l>
           </sp>
           <stage xml:id="ep000262-e127920">A Thunder-bolt strikes him. </stage>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e127930">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e127930">
             <speaker>Omnes. </speaker>
             <p>The King is strucke with thunder. </p>
           </sp>
@@ -4395,7 +4440,8 @@
             <l>What meanes this cry, a Hubert? </l>
             <l>Where's your King? </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e128060">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e128060">
             <speaker>Omnes. </speaker>
             <p>Strucke dead by thunder. </p>
           </sp>
@@ -4498,7 +4544,8 @@
             <l>Will you consent, or no; be quick in answer; </l>
             <l>I must be swift in execution else. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e128790">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e128790">
             <speaker>Omnes. </speaker>
             <p>Let us consult. </p>
           </sp>
@@ -4524,7 +4571,8 @@
             <l>Let Drums and Trumpets proclaime </l>
             <l>Hubert our King. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e128950">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e128950">
             <speaker>Omnes. </speaker>
             <p>Sound Drummes and Trumpets. </p>
           </sp>
@@ -4566,7 +4614,8 @@
             <l>Proclaim'd a Christian King? and Christian Kings </l>
             <l>Should not be bloody. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e129280">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e129280">
             <speaker>Omnes. </speaker>
             <p>How? turn'd Christian? </p>
           </sp>
@@ -4574,7 +4623,8 @@
             <speaker>Eugen. </speaker>
             <p>O blest King, happy day. </p>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e129320">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e129320">
             <speaker>Omnes. </speaker>
             <p>Must we forsake our gods then? </p>
           </sp>
@@ -4588,7 +4638,8 @@
             <l>Shall straight be cal'd, to set this frame in order </l>
             <l>Of this great state. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e129420">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e129420">
             <speaker>Omnes. </speaker>
             <p>To that we all are willing. </p>
           </sp>
@@ -4597,7 +4648,8 @@
             <l>Are you then willing this noble maid </l>
             <l>Shall be me Queene? </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e129470">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e129470">
             <speaker>Omnes. </speaker>
             <p>With all our hearts. </p>
           </sp>
@@ -4633,7 +4685,8 @@
             <l>A great power prompts me on, and I obey. <stage xml:id="ep000262-e129710">Flourish. </stage>
             </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e129720">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e129720">
             <speaker>Omnes. </speaker>
             <l>Long live Hubert and Bellina, King and Queene </l>
             <l>Of Goths and Vandals. </l>
@@ -4646,7 +4699,8 @@
             <l>Make you this Queene a wife; our Coronation </l>
             <l>Is turnd into a bridall. </l>
           </sp>
-          <sp who="#ep000262-omnes" xml:id="ep000262-e129810">
+          <sp who="#ep000262-lords #ep000262-anthony #ep000262-cosmo #ep000262-damianus"
+                    xml:id="ep000262-e129810">
             <speaker>Omnes. </speaker>
             <p>All joy and happinesse. </p>
           </sp>
