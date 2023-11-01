@@ -89,89 +89,77 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000104-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000104-onion">
+          <person xml:id="ep000104-onion" sex="MALE">
             <persName>Onion</persName>
           </person>
-          <person xml:id="ep000104-juniper">
+          <person xml:id="ep000104-juniper" sex="MALE">
             <persName>Juniper</persName>
           </person>
-          <person xml:id="ep000104-antonio">
+          <person xml:id="ep000104-antonio" sex="MALE">
             <persName>Antonio</persName>
           </person>
-          <person xml:id="ep000104-valentine">
+          <person xml:id="ep000104-valentine" sex="MALE">
             <persName>Valentine</persName>
           </person>
-          <person xml:id="ep000104-sebastian">
+          <person xml:id="ep000104-sebastian" sex="MALE">
             <persName>Sebastian</persName>
           </person>
-          <person xml:id="ep000104-martino">
+          <person xml:id="ep000104-martino" sex="MALE">
             <persName>Martino</persName>
           </person>
-          <person xml:id="ep000104-vincentio">
+          <person xml:id="ep000104-vincentio" sex="MALE">
             <persName>Vincentio</persName>
           </person>
-          <person xml:id="ep000104-balthazar">
+          <person xml:id="ep000104-balthazar" sex="MALE">
             <persName>Balthazar</persName>
           </person>
-          <person xml:id="ep000104-christophero">
+          <person xml:id="ep000104-christophero" sex="MALE">
             <persName>Christophero</persName>
           </person>
-          <person xml:id="ep000104-paulo">
+          <person xml:id="ep000104-paulo" sex="MALE">
             <persName>Paulo</persName>
           </person>
-          <person xml:id="ep000104-boy">
+          <person xml:id="ep000104-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000104-angelo">
+          <person xml:id="ep000104-angelo" sex="MALE">
             <persName>Angelo</persName>
           </person>
-          <person xml:id="ep000104-count">
+          <person xml:id="ep000104-count" sex="MALE">
             <persName>Count</persName>
           </person>
-          <person xml:id="ep000104-maximilian">
+          <person xml:id="ep000104-maximilian" sex="MALE">
             <persName>Maximilian</persName>
           </person>
-          <person xml:id="ep000104-francisco">
+          <person xml:id="ep000104-francisco" sex="MALE">
             <persName>Francisco</persName>
           </person>
-          <person xml:id="ep000104-aurelia">
+          <person xml:id="ep000104-aurelia" sex="FEMALE">
             <persName>Aurelia</persName>
           </person>
-          <person xml:id="ep000104-phoenixella">
+          <person xml:id="ep000104-phoenixella" sex="FEMALE">
             <persName>Phoenixella</persName>
           </person>
-          <person xml:id="ep000104-rachel">
+          <person xml:id="ep000104-rachel" sex="FEMALE">
             <persName>Rachel</persName>
           </person>
-          <person xml:id="ep000104-jaques">
+          <person xml:id="ep000104-jaques" sex="MALE">
             <persName>Jaques</persName>
           </person>
-          <person xml:id="ep000104-balladino">
-            <persName>Balladino</persName>
-          </person>
-          <person xml:id="ep000104-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000104-nuntius">
+          <person xml:id="ep000104-nuntius" sex="MALE">
             <persName>Nuntius</persName>
           </person>
-          <person xml:id="ep000104-pacue">
+          <person xml:id="ep000104-pacue" sex="MALE">
             <persName>Pacue</persName>
           </person>
-          <person xml:id="ep000104-chamont">
+          <person xml:id="ep000104-chamont" sex="MALE">
             <persName>Chamont</persName>
           </person>
-          <person xml:id="ep000104-camillo">
+          <person xml:id="ep000104-camillo" sex="MALE">
             <persName>Camillo</persName>
           </person>
-          <person xml:id="ep000104-finio">
+          <person xml:id="ep000104-finio" sex="MALE">
             <persName>Finio</persName>
-          </person>
-          <person xml:id="ep000104-maxmilian">
-            <persName>Maxmilian</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -188,8 +176,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000104"
-                    passive="http://www.wikidata.org/entity/Q7721496"/>
+                   active="https://dracor.org/entity/ep000104"
+                   passive="http://www.wikidata.org/entity/Q7721496"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -212,7 +200,8 @@
           <div n="1" type="scene" xml:id="ep000104-e100100">
             <head>Scaena prima. </head>
             <stage xml:id="ep000104-e100110">Sound? after a flourish: Iuniper a Cobler is discouered, sitting at worke in his shoppe and singing. </stage>
-            <sp who="#ep000104-multiple" xml:id="ep000104-e100120">
+            <sp who="#ep000104-juniper #ep000104-onion #ep000104-antonio"
+                      xml:id="ep000104-e100120">
               <speaker>Iuniper, Onion, Antony Baladino. </speaker>
               <l>YOV wofull wights giue eare a while, </l>
               <l>And marke the tenor of my stile, </l>
@@ -2067,7 +2056,7 @@
               <speaker>Valen. </speaker>
               <p>O Lord, I, especially they in Vtopia, there they performe their prizes and chalenges, with as great cerimony as the Italian or any nation else. </p>
             </sp>
-            <sp who="#ep000104-balladino" xml:id="ep000104-e111380">
+            <sp who="#ep000104-balthazar" xml:id="ep000104-e111380">
               <speaker>Balt </speaker>
               <p>Indeed? how is the manner of it (for gods loue) good Valentine? </p>
             </sp>
@@ -2160,7 +2149,8 @@
               <speaker>Valen. </speaker>
               <p>Marry? one is the rude barbarous crue, a people that haue no braines, and yet grounded iudgements, these will hisse <pb xml:id="ep000104-016-b"/>any thing that mounts aboue their grounded capacities. But the other are worth the obseruation, I faith. </p>
             </sp>
-            <sp who="#ep000104-omnes" xml:id="ep000104-e111840">
+            <sp who="#ep000104-onion #ep000104-juniper #ep000104-sebastian #ep000104-balthazar"
+                      xml:id="ep000104-e111840">
               <speaker>Omnes. </speaker>
               <p>What be they? what be they? </p>
             </sp>
@@ -2252,7 +2242,8 @@
               <speaker>Oni. </speaker>
               <p>Caprichious? not I, I scorn to be caprichious for a scrach, Martino must haue another bout, come. </p>
             </sp>
-            <sp who="#ep000104-multiple" xml:id="ep000104-e112310">
+            <sp who="#ep000104-valentine #ep000104-sebastian #ep000104-balthazar"
+                      xml:id="ep000104-e112310">
               <speaker>Val. Seb. Balth. </speaker>
               <p>No, no, play no more, play no more. </p>
             </sp>
@@ -2273,7 +2264,8 @@
               <speaker>Iunip. </speaker>
               <p>Not a bout, not a stroke. </p>
             </sp>
-            <sp who="#ep000104-omnes" xml:id="ep000104-e112420">
+            <sp who="#ep000104-onion #ep000104-juniper #ep000104-sebastian #ep000104-balthazar"
+                      xml:id="ep000104-e112420">
               <speaker>Omnes. </speaker>
               <p>No more, no more. </p>
             </sp>
@@ -2950,7 +2942,7 @@
               <p>Why there is good harmony, good musicke in thise Mounsieur Gasper, you shall protract no time, onely I will giue you a bowle of rich wine to the health of your Generall, another to the successe of your iourney, and a third to the loue of my sword. Passe. </p>
             </sp>
             <stage xml:id="ep000104-e116800">Exeunt all but Aurelia and Phoenixella. </stage>
-            <sp who="#ep000104-angelo" xml:id="ep000104-e116810">
+            <sp who="#ep000104-aurelia" xml:id="ep000104-e116810">
               <speaker>Anre. </speaker>
               <l>Why how now sister in a motley muse? </l>
               <l>Go to, thers somewhat in the wind, I see. </l>
@@ -3904,7 +3896,7 @@
               <speaker>Phoe </speaker>
               <p>O my father. </p>
             </sp>
-            <sp who="#ep000104-maxmilian" xml:id="ep000104-e122190">
+            <sp who="#ep000104-maximilian" xml:id="ep000104-e122190">
               <speaker>Mvx. </speaker>
               <p>Lady let your father thank your beauty. </p>
             </sp>
@@ -4256,7 +4248,7 @@
               <p>Iaques. </p>
               <stage xml:id="ep000104-e124470">Enter Rachel. </stage>
             </sp>
-            <sp who="#ep000104-jaques" xml:id="ep000104-e124480">
+            <sp xml:id="ep000104-e124480">
               <stage xml:id="ep000104-e124490">Iaq. </stage>
               <p>What Rachel, Rachel, lock my doore, looke to my house. </p>
             </sp>
