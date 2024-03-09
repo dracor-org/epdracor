@@ -102,88 +102,97 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000010-xxxx">
-            <persName>Xxxx</persName>
+          <person xml:id="ep000010-doctor-2" sex="MALE">
+            <persName>Doctor 2</persName>
           </person>
-          <person xml:id="ep000010-brunhalt">
+          <person xml:id="ep000010-doctor-1" sex="MALE">
+            <persName>Doctor 1</persName>
+          </person>
+          <person xml:id="ep000010-courtier-4" sex="MALE">
+            <persName>Courtier 4</persName>
+          </person>
+          <person xml:id="ep000010-courtier-3" sex="MALE">
+            <persName>Courtier 3</persName>
+          </person>
+          <person xml:id="ep000010-courtier-2" sex="MALE">
+            <persName>Courtier 2</persName>
+          </person>
+          <person xml:id="ep000010-courtier-1" sex="MALE">
+            <persName>Courtier 1</persName>
+          </person>
+          <person xml:id="ep000010-soldier-4" sex="MALE">
+            <persName>Soldier 4</persName>
+          </person>
+          <person xml:id="ep000010-soldier-3" sex="MALE">
+            <persName>Soldier 3</persName>
+          </person>
+          <person xml:id="ep000010-soldier-2" sex="MALE">
+            <persName>Soldier 2</persName>
+          </person>
+          <person xml:id="ep000010-soldier-1" sex="MALE">
+            <persName>Soldier 1</persName>
+          </person>
+          <personGrp xml:id="ep000010-revellers" sex="MALE">
+            <name>Revellers</name>
+          </personGrp>
+          <person xml:id="ep000010-huntsman-2" sex="MALE">
+            <persName>Huntsman 2</persName>
+          </person>
+          <person xml:id="ep000010-huntsman-1" sex="MALE">
+            <persName>Huntsman 1</persName>
+          </person>
+          <person xml:id="ep000010-brunhalt" sex="FEMALE">
             <persName>Brunhalt</persName>
           </person>
-          <person xml:id="ep000010-theodoret">
+          <person xml:id="ep000010-theodoret" sex="MALE">
             <persName>Theodoret</persName>
           </person>
-          <person xml:id="ep000010-bawdber">
+          <person xml:id="ep000010-bawdber" sex="MALE">
             <persName>Bawdber</persName>
           </person>
-          <person xml:id="ep000010-niobe">
-            <persName>Niobe</persName>
-          </person>
-          <person xml:id="ep000010-lecure">
+          <person xml:id="ep000010-lecure" sex="MALE">
             <persName>Lecure</persName>
           </person>
-          <person xml:id="ep000010-protaldie">
+          <person xml:id="ep000010-protaldie" sex="MALE">
             <persName>Protaldie</persName>
           </person>
-          <person xml:id="ep000010-martell">
+          <person xml:id="ep000010-martell" sex="MALE">
             <persName>Martell</persName>
           </person>
-          <person xml:id="ep000010-vitry">
-            <persName>Vitry</persName>
-          </person>
-          <person xml:id="ep000010-thierry">
+          <person xml:id="ep000010-thierry" sex="MALE">
             <persName>Thierry</persName>
           </person>
-          <person xml:id="ep000010-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000010-post">
+          <person xml:id="ep000010-post" sex="MALE">
             <persName>Post</persName>
           </person>
-          <person xml:id="ep000010-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000010-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000010-ordella">
+          <person xml:id="ep000010-ordella" sex="FEMALE">
             <persName>Ordella</persName>
           </person>
-          <person xml:id="ep000010-devitry">
+          <person xml:id="ep000010-devitry" sex="MALE">
             <persName>Devitry</persName>
           </person>
-          <person xml:id="ep000010-lady">
+          <person xml:id="ep000010-lady" sex="FEMALE">
             <persName>Lady</persName>
           </person>
-          <person xml:id="ep000010-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000010-memberge">
+          <person xml:id="ep000010-memberge" sex="FEMALE">
             <persName>Memberge</persName>
           </person>
-          <person xml:id="ep000010-revel">
+          <person xml:id="ep000010-revel" sex="MALE">
             <persName>Revel</persName>
           </person>
-          <person xml:id="ep000010-1_guard">
+          <person xml:id="ep000010-1-guard" sex="MALE">
             <persName>1 Guard</persName>
           </person>
-          <person xml:id="ep000010-missing">
-            <persName>Missing</persName>
-          </person>
-          <person xml:id="ep000010-servant">
+          <person xml:id="ep000010-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000010-xxxx_3">
-            <persName>Xxxx 3</persName>
-          </person>
-          <person xml:id="ep000010-xxxx_4">
-            <persName>Xxxx 4</persName>
-          </person>
-          <person xml:id="ep000010-1_doctor">
+          <person xml:id="ep000010-1-doctor" sex="MALE">
             <persName>1 Doctor</persName>
           </person>
-          <person xml:id="ep000010-2_doctor">
+          <person xml:id="ep000010-2-doctor" sex="MALE">
             <persName>2 Doctor</persName>
           </person>
-          <person xml:id="ep000010-messenger">
+          <person xml:id="ep000010-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
         </listPerson>
@@ -201,8 +210,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000010"
-                    passive="http://www.wikidata.org/entity/Q7784078"/>
+                   active="https://dracor.org/entity/ep000010"
+                   passive="http://www.wikidata.org/entity/Q7784078"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -224,7 +233,7 @@
         <div n="1" type="act" xml:id="ep000010-e100100">
           <div n="1" type="scene" xml:id="ep000010-e100110">
             <head>Act. 1. Scoe. 1. </head>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e100120">
+            <sp xml:id="ep000010-e100120">
               <stage xml:id="ep000010-e100130">Enter Theodoret, Brunhalt, Bawdber. </stage>
             </sp>
             <sp who="#ep000010-brunhalt" xml:id="ep000010-e100140">
@@ -458,7 +467,7 @@
                 <l>Leaue these, and liue like </l>
               </lg>
             </sp>
-            <sp who="#ep000010-niobe" xml:id="ep000010-e101870">
+            <sp who="#ep000010-theodoret" xml:id="ep000010-e101870">
               <speaker>Niobe. </speaker>
               <lg>
                 <l>I told you how </l>
@@ -632,7 +641,7 @@
           </div>
           <div n="2" type="scene" xml:id="ep000010-e102960">
             <head>Act. 1. Scoe. 2. </head>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e102970">
+            <sp xml:id="ep000010-e102970">
               <stage xml:id="ep000010-e102980">Enter Theodoret, Martell. &amp;c. </stage>
             </sp>
             <sp who="#ep000010-theodoret" xml:id="ep000010-e102990">
@@ -754,7 +763,7 @@
                 <l>What laught you at Sir? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e103950">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e103950">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>I haue some occasion, </l>
@@ -769,7 +778,7 @@
                 <l>Why, what's the matter? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e104040">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e104040">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>I see and ioy to see that sometimes poore men, </l>
@@ -785,7 +794,7 @@
                 <l>Speake to the purpose. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e104140">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e104140">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Who would e're haue thought </l>
@@ -814,7 +823,7 @@
                 <l>Prethee what course takes she to do this? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e104360">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e104360">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>One that cannot faile, she and vertuous traine </l>
@@ -830,7 +839,7 @@
                 <l>How? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e104460">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e104460">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Nay storme not, </l>
@@ -870,7 +879,7 @@
                 <l>Thou wilt along with me. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e104760">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e104760">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Yes any where, </l>
@@ -883,7 +892,7 @@
         <div n="2" type="act" xml:id="ep000010-e104810">
           <div n="1" type="scene" xml:id="ep000010-e104820">
             <head>Act. 2. Scoe. 1. </head>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e104830">
+            <sp xml:id="ep000010-e104830">
               <stage xml:id="ep000010-e104840">Enter Thierry, Brunhalt, Bawdber, Lecure. &amp;c. </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e104850">
@@ -1007,7 +1016,7 @@
                 <l>Such instruments we must not lose. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-multiple" xml:id="ep000010-e105770">
+            <sp who="#ep000010-lecure #ep000010-bawdber" xml:id="ep000010-e105770">
               <speaker>Lecure. Bawdb. </speaker>
               <lg>
                 <l>Our seruice. </l>
@@ -1360,7 +1369,7 @@
               </lg>
             </sp>
             <pb xml:id="ep000010-011-a"/>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e108230">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e108230">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>What is that to me? </l>
@@ -1769,7 +1778,7 @@
               <stage xml:id="ep000010-e110880">Exeunt. Windhornes. </stage>
               <stage xml:id="ep000010-e110890">Enter 2 Huntsmen. </stage>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e110900">
+            <sp who="#ep000010-huntsman-1" xml:id="ep000010-e110900">
               <speaker>1. </speaker>
               <lg>
                 <l>I marry Twainer, </l>
@@ -1777,7 +1786,7 @@
                 <l>That are the keepers saints. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e110950">
+            <sp who="#ep000010-huntsman-2" xml:id="ep000010-e110950">
               <speaker>2. </speaker>
               <lg>
                 <l>I like a woman </l>
@@ -1785,7 +1794,7 @@
                 <l>And payes vs by proportion: </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e111000">
+            <sp who="#ep000010-huntsman-1" xml:id="ep000010-e111000">
               <speaker>1. </speaker>
               <lg>
                 <l>Tis no treason </l>
@@ -1793,7 +1802,7 @@
                 <l>That may require a currall. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e111050">
+            <sp who="#ep000010-huntsman-2" xml:id="ep000010-e111050">
               <speaker>2. </speaker>
               <lg>
                 <l>And the bells too, </l>
@@ -1812,7 +1821,7 @@
                 <l>Saw you the King? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e111160">
+            <sp who="#ep000010-huntsman-1" xml:id="ep000010-e111160">
               <speaker>1 </speaker>
               <lg>
                 <l>Yes Sir, he's newly mounted, </l>
@@ -2762,7 +2771,7 @@
         <div n="3" type="act" xml:id="ep000010-e116910">
           <div n="1" type="scene" xml:id="ep000010-e116920">
             <head>Act. 3. Scoe 1. </head>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e116930">
+            <sp xml:id="ep000010-e116930">
               <stage xml:id="ep000010-e116940">Enter Thierry, and Ordella, as from bed. </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e116950">
@@ -3283,7 +3292,7 @@
                 <l>Bin imployde in silent businesses. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e120210">
+            <sp xml:id="ep000010-e120210">
               <stage xml:id="ep000010-e120220">Enter Deuitry. </stage>
             </sp>
             <sp who="#ep000010-lecure" xml:id="ep000010-e120230">
@@ -3313,7 +3322,7 @@
                 <l>I will gladly redeeme it to make you wholy mine. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120380">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120380">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>You seeke too hard a penywoth. </l>
@@ -3326,7 +3335,7 @@
                 <l>To me, howsoeuer you please to forget acquaintance. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120450">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120450">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>I must confesse I haue bin subiect to lewd company. </l>
@@ -3339,7 +3348,7 @@
                 <l>You haue bin a souldier Deuitry, and borne armes. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120520">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120520">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>A couple of vnprofitable ones, that haue only seru'd to get me a stomacke to my dinner. </l>
@@ -3351,7 +3360,7 @@
                 <l>Much good may it do you Sir. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120580">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120580">
               <speaker>Vitry. </speaker>
               <p>You should haue heard me say I had din'd first, I haue built on an vnwholesome ground, rais'd vp a house before I knew a Tenant, matcht to meete wearines, fought to find want and hunger. </p>
             </sp>
@@ -3359,7 +3368,7 @@
               <speaker>Bawdb. </speaker>
               <p>It is time you put vp your sword, and run a way for meate sir, nay if I had not withdrawne ere now, I might haue kept the; fast with you: but since the way to thriue is neuer late, what is the neerest course to profit thinke you? </p>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120620">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120620">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>It may be your worship will say bawdry. </l>
@@ -3372,7 +3381,7 @@
               </lg>
             </sp>
             <pb xml:id="ep000010-021-a"/>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120680">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120680">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Why is their fiue kinds of em, I neuer knew but one. </l>
@@ -3382,7 +3391,7 @@
               <speaker>Bawdb. </speaker>
               <p>Ile shew you a new way of prostitution, fall backe, further yet, further, there is fifty crownes, do but as much to Protaldye the Queenes fauoret, they are doubled. </p>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120730">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120730">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>But thus much. </l>
@@ -3392,11 +3401,11 @@
               <speaker>Bawdb. </speaker>
               <p>Giue him but an affront as he comes to the presence, and in his drawing make way like a true bawde to his valour, the son's thy owne; if you take a scratch in the arme or so, euery drop of blood weighes downe a ducket. </p>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120780">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120780">
               <speaker>Vitry. </speaker>
               <p>After that rate, I and my friends would begger the kingdome. Sir you haue made me blush to see my want, whose cure is such a cheape and easie purchase, this is male bawdery belike. </p>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e120800">
+            <sp xml:id="ep000010-e120800">
               <stage xml:id="ep000010-e120810">Enter Protaldy, a Lady, and Reuellers. </stage>
             </sp>
             <sp who="#ep000010-bawdber" xml:id="ep000010-e120820">
@@ -3405,7 +3414,7 @@
                 <l>See, you shall not belong earning your wages, your worke's before your eyes. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e120850">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e120850">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Leaue it to my handling, ile fall vpon't instantly: </l>
@@ -3441,7 +3450,7 @@
                 <l>By day so much of his content, thinke what night gaue? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e121060">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e121060">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Will you haue a rellish of wit Lady? </l>
@@ -3459,7 +3468,7 @@
                 <l>If it be not deare Sir. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e121150">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e121150">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>If you affect cheapenes, how can you prize this sullied ware so much? mine is fresh, my owne, not retailde. </l>
@@ -3471,7 +3480,7 @@
                 <l>You are sawcy sirra. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e121210">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e121210">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>The fitter to be in the dish with such dry stockfish as you </l>
@@ -3484,7 +3493,7 @@
                 <l>Remember the condition as you looke for payment. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e121280">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e121280">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>That boxe was left out of the bargaine. </l>
@@ -3504,7 +3513,7 @@
                 <l>What a blow is this to my reputation? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e121380">
+            <sp xml:id="ep000010-e121380">
               <stage xml:id="ep000010-e121390">Enter Thierry, Theodoret, Brunhalt, Ordella, Memberge, Martell. </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e121400">
@@ -3517,7 +3526,8 @@
               <speaker>Deuitry. </speaker>
               <p>Heere mee Sir, this creature hir'de mee with fifty crownes in hand, to let Protaldye haue the better of mee at single rapier on a made quarrell; he mistaking the weapon, layes mee ouer the chops with his clubfist, for which I was bold to teach him the art of memory. </p>
             </sp>
-            <sp who="#ep000010-omnes" xml:id="ep000010-e121450">
+            <sp who="#ep000010-theodoret #ep000010-thierry #ep000010-brunhalt #ep000010-bawdber #ep000010-memberge #ep000010-revel #ep000010-revellers"
+                      xml:id="ep000010-e121450">
               <speaker>Omnes. </speaker>
               <lg>
                 <l>Ha, ha, ha, ha. </l>
@@ -3626,7 +3636,7 @@
                 <l>Would you would please to make some other choice </l>
               </lg>
             </sp>
-            <sp who="#ep000010-revel" xml:id="ep000010-e122050">
+            <sp who="#ep000010-revellers" xml:id="ep000010-e122050">
               <speaker>Reuel. </speaker>
               <lg>
                 <l>'Tis a disgrace would dwell vpon me Lady. </l>
@@ -3710,7 +3720,7 @@
                 <l>'Gainst treachery and murther, say is the traytor taken. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-1_guard" xml:id="ep000010-e122530">
+            <sp who="#ep000010-1-guard" xml:id="ep000010-e122530">
               <speaker>1 Guard. </speaker>
               <lg>
                 <l>No man has past the chamber on my life Sir. </l>
@@ -3869,7 +3879,7 @@
                 <l>How hardly he was drawne to this attempt. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e123530">
+            <sp xml:id="ep000010-e123530">
               <stage xml:id="ep000010-e123540">Enter Protaldye. </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e123550">
@@ -3885,7 +3895,7 @@
                 <l>Why lookest thou so deiected? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-missing" xml:id="ep000010-e123620">
+            <sp xml:id="ep000010-e123620">
               <stage xml:id="ep000010-e123630">Enter Martell. </stage>
             </sp>
             <sp who="#ep000010-protaldie" xml:id="ep000010-e123640">
@@ -3921,7 +3931,7 @@
                 <l>Take vp the body. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e123840">
+            <sp xml:id="ep000010-e123840">
               <stage xml:id="ep000010-e123850">Enter Lecure, and a seruant. </stage>
             </sp>
             <sp who="#ep000010-lecure" xml:id="ep000010-e123860">
@@ -4130,7 +4140,7 @@
         <div n="4" type="act" xml:id="ep000010-e125080">
           <div n="1" type="scene" xml:id="ep000010-e125090">
             <head>Act. 4. Scoe. 1. </head>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e125100">
+            <sp xml:id="ep000010-e125100">
               <stage xml:id="ep000010-e125110">Enter Thierry, and Martell. </stage>
             </sp>
             <sp who="#ep000010-martell" xml:id="ep000010-e125120">
@@ -4250,7 +4260,7 @@
                 <l>Can neuer crowne my parting. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e125880">
+            <sp xml:id="ep000010-e125880">
               <stage xml:id="ep000010-e125890">Enter 2 men passing ouer: </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e125900">
@@ -4272,7 +4282,7 @@
                 <l>They crosse my hopes like hares, who's that? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-missing" xml:id="ep000010-e126000">
+            <sp xml:id="ep000010-e126000">
               <stage xml:id="ep000010-e126010">Enter a Priest: </stage>
             </sp>
             <sp who="#ep000010-martell" xml:id="ep000010-e126020">
@@ -4306,7 +4316,7 @@
                 <l>Here comes a woman: </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e126180">
+            <sp xml:id="ep000010-e126180">
               <stage xml:id="ep000010-e126190">Enter Ordella, vail'd. </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e126200">
@@ -4911,7 +4921,7 @@
                 <l>Or life, or death: </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e130020">
+            <sp xml:id="ep000010-e130020">
               <stage xml:id="ep000010-e130030">Enter Lecure. </stage>
             </sp>
             <sp who="#ep000010-lecure" xml:id="ep000010-e130040">
@@ -4998,7 +5008,7 @@
                 <l>When we do so, let's know the reason why? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e130600">
+            <sp xml:id="ep000010-e130600">
               <stage xml:id="ep000010-e130610">Enter Thierry, and Courtiers. </stage>
             </sp>
             <sp who="#ep000010-lecure" xml:id="ep000010-e130620">
@@ -5160,7 +5170,7 @@
                 <l>For I must be resolude and will, be statues. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e131630">
+            <sp xml:id="ep000010-e131630">
               <stage xml:id="ep000010-e131640">Enter Martell. </stage>
             </sp>
             <sp who="#ep000010-thierry" xml:id="ep000010-e131650">
@@ -5380,7 +5390,7 @@
                 <l>I would not cherish,--- who's that? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e133240">
+            <sp xml:id="ep000010-e133240">
               <stage xml:id="ep000010-e133250">Enter Memberge. </stage>
             </sp>
             <sp who="#ep000010-memberge" xml:id="ep000010-e133260">
@@ -5577,14 +5587,15 @@
         <div n="5" type="act" xml:id="ep000010-e134530">
           <div n="1" type="scene" xml:id="ep000010-e134540">
             <head>Act. 5. Scoe. 1. </head>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e134550">
+            <sp xml:id="ep000010-e134550">
               <stage xml:id="ep000010-e134560">Enter Deuitry, and 4 souldiers. </stage>
             </sp>
             <sp who="#ep000010-devitry" xml:id="ep000010-e134570">
               <speaker>Deuitry. </speaker>
               <p>No war, no mony, no master; banisht the Court, not trusted in the citty, whipt out of the country, in what a triangle runnes our misery: let me heare which of you has the best voice to beg in, for other hopes or fortunes I see you haue not; bee not nice, nature prouided you with tones for the purpose, the peoples charity was your heritage, and I would see which of you deserues his birth-right. </p>
             </sp>
-            <sp who="#ep000010-omnes" xml:id="ep000010-e134590">
+            <sp who="#ep000010-soldier-1 #ep000010-soldier-2 #ep000010-soldier-3 #ep000010-soldier-4"
+                      xml:id="ep000010-e134590">
               <speaker>Omnes. </speaker>
               <lg>
                 <l>We vnderstand you not Captaine. </l>
@@ -5594,7 +5605,7 @@
               <speaker>Deuit. </speaker>
               <p>You see this cardicue, the last and the only quintessence of 50 crownes, distill'd in the lembicke of your gardage, of which happy piece thou shalt be treasorer: now hee that can sonest perswade him to part with't, enioyes it, possesses it, and with it, mee and my future countenance. </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e134640">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e134640">
               <speaker>1. </speaker>
               <lg>
                 <l>If they want art to perswade it, ile keepe it my selfe. </l>
@@ -5608,94 +5619,96 @@
               </lg>
             </sp>
             <pb xml:id="ep000010-033-a"/>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e134710">
+            <sp who="#ep000010-soldier-1 #ep000010-soldier-2 #ep000010-soldier-3 #ep000010-soldier-4"
+                      xml:id="ep000010-e134710">
               <speaker>2. </speaker>
               <p>I'le begin to you, braue Sir; bee proud to make him happy by your liberality, whose tongue vouchsafes now to petition was neuer heard before lesse then to command: I am a souldier by profession, a gentleman by birth, and an officer by place, whose pouerty blushes to be the cause that so high a vertue should dessend to the pitty of your charity. </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e134730">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e134730">
               <speaker>1. </speaker>
               <p>In any case keepe your high stile, it is not charity to shame any man, much lesse a vertue of your eminence, wherefore preserue your worth, and i'le preserue my mony. </p>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e134750">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e134750">
               <speaker>3. </speaker>
               <p>You perswade, you are shallow, giue way to merit, ah by the bread of good man, thou hast a bonny countenance and a blith, promising mickle good to a sicker wombe, that has trod a long and a soare ground to meete with friends that wil owe much to thy reuerence, when they shall heare a thy courtesie to their wandring countriman. </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e134770">
+            <sp who="#ep000010-soldier-3" xml:id="ep000010-e134770">
               <speaker>1. </speaker>
               <p>You that will vse your friends so hardly to bring them in debt Sir, will deserue worse of a strainger, wherefore pead one, pead on I say. </p>
             </sp>
-            <sp who="#ep000010-xxxx_4" xml:id="ep000010-e134790">
+            <sp who="#ep000010-soldier-4" xml:id="ep000010-e134790">
               <speaker>4. </speaker>
               <p>It is the welch must doo't I see, comrade man of vrship, St. Tauy bee her patron, the gods of the mountaines keepe her cow and her cupboord, may shee neuer want the greene of the leeke, nor the fat of the onion, if she part with her bounties to him that is a great deale away from her cozines, and has too big suites in law to recouer her heritage. </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e134810">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e134810">
               <speaker>1. </speaker>
               <p>Pardon me Sir, I will haue nothing to do with your suites, it comes within the statute of maintenance: home to your coznes and sowe garlicke and hempeseede, the one will stop your hunger, the other end your suites, gammawash comrade, gammawash. </p>
             </sp>
-            <sp who="#ep000010-xxxx_4" xml:id="ep000010-e134830">
+            <sp who="#ep000010-soldier-4" xml:id="ep000010-e134830">
               <speaker>4. </speaker>
               <lg>
                 <l>Foote he'le hoord all for himselfe. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e134860">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e134860">
               <speaker>Vitry. </speaker>
               <p>Yes, let him; now comes my turne. i'le see if hee can answere me: saue you Sir, they say you haue that I want, mony. </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e134880">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e134880">
               <speaker>1. </speaker>
               <lg>
                 <l>And that you are like to want, for ought I perceaue yet. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e134910">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e134910">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Stand, deliuer. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e134940">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e134940">
               <speaker>1. </speaker>
               <lg>
                 <l>Foote what meane you you will not robbe the Excheckor? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e134970">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e134970">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Do you prate? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e135000">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e135000">
               <speaker>1. </speaker>
               <lg>
                 <l>Hold, hold, here captaine. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e135030">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e135030">
               <speaker>2. </speaker>
               <lg>
                 <l>Why I could haue done this before you. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e135060">
+            <sp who="#ep000010-soldier-3" xml:id="ep000010-e135060">
               <speaker>3. </speaker>
               <lg>
                 <l>And I. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_4" xml:id="ep000010-e135090">
+            <sp who="#ep000010-soldier-4" xml:id="ep000010-e135090">
               <speaker>4. </speaker>
               <lg>
                 <l>And I. </l>
               </lg>
             </sp>
             <pb xml:id="ep000010-033-b"/>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e135120">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e135120">
               <speaker>Vitry. </speaker>
               <p>You haue done this, braue man be proud to make him happy, by the bread of god man thou hast a bony countenance, comrade man of vrship, St. Tauy be her patron, out vpon you, you vncurried colts, walking cans that haue no soules in you, but a little rosin, to keepe your ribs sweete, and hold in liquor. </p>
             </sp>
-            <sp who="#ep000010-omnes" xml:id="ep000010-e135140">
+            <sp who="#ep000010-soldier-1 #ep000010-soldier-2 #ep000010-soldier-3 #ep000010-soldier-4"
+                      xml:id="ep000010-e135140">
               <speaker>Omnes. </speaker>
               <lg>
                 <l>Why, what would you haue vs to do Captaine? </l>
@@ -5705,33 +5718,34 @@
               <speaker>Deuitry. </speaker>
               <p>Beg, beg, and keepe Constables waking, weare out stockes and whipcord, mander for butter milke, die of the iandize, yet haue the cure about you, lice, large lice, begot of your owne dust, and the heate of the bricke-kills; may you statue, and feare of the gallowes which is a gentle consumption too't, only preferre it; or may you fall vpon your feare, and bee hanged for selling those purses to keepe you from famine whose monies my valour empties, and bee cast without other euidence; here is my fort, my castle of defence, who comes by shall pay me tolle, the first purse is your mittimus slaues. </p>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e135190">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e135190">
               <speaker>2. </speaker>
               <p>The purse, foote we'le share in the mony Captaine, if any come within a furlong of our fingers. </p>
             </sp>
-            <sp who="#ep000010-xxxx_4" xml:id="ep000010-e135210">
+            <sp who="#ep000010-soldier-4" xml:id="ep000010-e135210">
               <speaker>4. </speaker>
               <p>Did you doubt but wee could steale as well as your selfe, did not I speake welch? </p>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e135230">
+            <sp who="#ep000010-soldier-3" xml:id="ep000010-e135230">
               <speaker>3. </speaker>
               <lg>
                 <l>We are theeues from our cradells, and will die so. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-vitry" xml:id="ep000010-e135260">
+            <sp who="#ep000010-devitry" xml:id="ep000010-e135260">
               <speaker>Vitry. </speaker>
               <lg>
                 <l>Then you will not beg againe. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-omnes" xml:id="ep000010-e135290">
+            <sp who="#ep000010-soldier-1 #ep000010-soldier-2 #ep000010-soldier-3 #ep000010-soldier-4"
+                      xml:id="ep000010-e135290">
               <speaker>Omnes. </speaker>
               <lg>
                 <l>Yes, as you did, stand, and deliuer. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e135320">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e135320">
               <speaker>2. </speaker>
               <p>Harke, here comes handsell, 'tis a trade quickly set vp, and as soone cast downe. </p>
             </sp>
@@ -5739,7 +5753,7 @@
               <speaker>Deuitry. </speaker>
               <p>Haue goodnesse in your minds varlets, and too't like men; he that has more mony then we, cannot be our friend, and I hope there is no law for spoyling the enemy. </p>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e135360">
+            <sp who="#ep000010-soldier-3" xml:id="ep000010-e135360">
               <speaker>3. </speaker>
               <p>You need not instruct vs farther, your example pleads enough. </p>
             </sp>
@@ -5749,7 +5763,7 @@
                 <l>Disperse your selues, and as their company is, fall on. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e135410">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e135410">
               <speaker>2. </speaker>
               <lg>
                 <l>Come, there are a band of em, i'le charge single. </l>
@@ -5799,7 +5813,7 @@
                 <l>I should know that voice, deliuer. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e135670">
+            <sp xml:id="ep000010-e135670">
               <stage xml:id="ep000010-e135680">Enter souldiers. </stage>
             </sp>
             <sp who="#ep000010-protaldie" xml:id="ep000010-e135690">
@@ -5816,7 +5830,7 @@
               <speaker>Prot. </speaker>
               <p>Keepe your first word as you are gentlemen, and let me stand, alas what do you meane? </p>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e135760">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e135760">
               <speaker>2. </speaker>
               <lg>
                 <l>To tie you to vs Sir, bind you in the knot of friendship. </l>
@@ -5834,7 +5848,7 @@
                 <l>You shold haue iewels about you, stones, precious stones. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e135850">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e135850">
               <speaker>1. </speaker>
               <p>Captaine away, there's company within hearing, if you stay longer we are surpris'd. </p>
             </sp>
@@ -5842,7 +5856,7 @@
               <speaker>Deuitry. </speaker>
               <p>Let the diuell come, i'le pillage this frigot a little better yet. </p>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e135890">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e135890">
               <speaker>2. </speaker>
               <lg>
                 <l>Foote we are lost, they are vpon vs. </l>
@@ -5854,7 +5868,7 @@
                 <l>Ha, vpon vs, make the least noyse, 'tis thy parting gaspe. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e135950">
+            <sp who="#ep000010-soldier-3" xml:id="ep000010-e135950">
               <speaker>3. </speaker>
               <lg>
                 <l>Which way shall she make Sir? </l>
@@ -5864,7 +5878,7 @@
               <speaker>Deuitry. </speaker>
               <p>Euery man his owne; do you heare, only bind mee before you go, and when the companie's past, make to this place againe, this karuell should haue better lading in him, you are slow, why do you not tie harder? </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e136000">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e136000">
               <speaker>1. </speaker>
               <lg>
                 <l>You are sure enough I warrant you Sir. </l>
@@ -5950,7 +5964,7 @@
                 <l>Foote what do you meane Sir? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e136440">
+            <sp xml:id="ep000010-e136440">
               <stage xml:id="ep000010-e136450">Enter souldiers. </stage>
             </sp>
             <sp who="#ep000010-devitry" xml:id="ep000010-e136460">
@@ -5967,7 +5981,7 @@
               <speaker>Deuitry. </speaker>
               <p>Nay Rooke, since you will be prating, we'le share your carion with you, haue you any other conueiance now Sir? </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e136530">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e136530">
               <speaker>1. </speaker>
               <p>Foote here are letters, epistles, familiar epistles, we'le see what treasure is in them, they are seal'd sure. </p>
             </sp>
@@ -5991,7 +6005,7 @@
               <speaker>Prot. </speaker>
               <p>I confesse my selfe a traytor, shew your selues good subiects, and hang me vp for't. </p>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e136650">
+            <sp who="#ep000010-soldier-1" xml:id="ep000010-e136650">
               <speaker>1. </speaker>
               <lg>
                 <l>If it be treason, the discouery will get our pardon Captaine. </l>
@@ -6001,11 +6015,11 @@
               <speaker>Deuitry. </speaker>
               <p>Would we were all lost, hang'd, quarter'd, to saue this one, one innocent prince; Thierry's poyson'd, by his mother poyson'd, the Mistris to this stallion, who by that poyson ne're shall sleepe againe. </p>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e136700">
+            <sp who="#ep000010-soldier-2" xml:id="ep000010-e136700">
               <speaker>2. </speaker>
               <p>Foote let vs mince him by piecemeale, tell he eate himselfe vppe. </p>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e136720">
+            <sp who="#ep000010-soldier-3" xml:id="ep000010-e136720">
               <speaker>3. </speaker>
               <p>Let vs dig out his heart with needles, and halfe broile him, like a mussell. </p>
             </sp>
@@ -6017,7 +6031,8 @@
               <speaker>Deuitry. </speaker>
               <p>Here's that shall remoue it, toade, viper; drag him vnto Martell, vnnaturall parricide, cruell, bloody woman. </p>
             </sp>
-            <sp who="#ep000010-omnes" xml:id="ep000010-e136780">
+            <sp who="#ep000010-devitry #ep000010-protaldie #ep000010-soldier-1 #ep000010-soldier-2 #ep000010-soldier-3 #ep000010-soldier-4"
+                      xml:id="ep000010-e136780">
               <speaker>Ownes. </speaker>
               <lg>
                 <l>On you dogfish, leech, caterpiller. </l>
@@ -6029,7 +6044,7 @@
               <stage xml:id="ep000010-e136830">Exit. </stage>
               <stage xml:id="ep000010-e136840">Enter Bawdher, and 3 Courtiers. </stage>
             </sp>
-            <sp who="#ep000010-xxxx_4" xml:id="ep000010-e136850">
+            <sp who="#ep000010-courtier-4" xml:id="ep000010-e136850">
               <speaker>4. </speaker>
               <lg>
                 <l>Not sleepe at all no meanes. </l>
@@ -6044,7 +6059,7 @@
                 <l>Or one of the citty Constables are tops. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e136930">
+            <sp who="#ep000010-courtier-3" xml:id="ep000010-e136930">
               <speaker>3, </speaker>
               <lg>
                 <l>How came he so? </l>
@@ -6057,7 +6072,7 @@
                 <l>Somethings amisse, heauen helpe all. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e137000">
+            <sp who="#ep000010-courtier-1" xml:id="ep000010-e137000">
               <speaker>1. </speaker>
               <lg>
                 <l>What cures has he? some with glisters. </l>
@@ -6084,7 +6099,7 @@
                 <l>Yet still he wakes. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_1" xml:id="ep000010-e137210">
+            <sp who="#ep000010-courtier-1" xml:id="ep000010-e137210">
               <speaker>1. </speaker>
               <lg>
                 <l>But your good honor </l>
@@ -6098,7 +6113,7 @@
                 <l>But age and an ill memory: </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx_3" xml:id="ep000010-e137290">
+            <sp who="#ep000010-courtier-3" xml:id="ep000010-e137290">
               <speaker>3. </speaker>
               <lg>
                 <l>Has spoyl'd your primmer. </l>
@@ -6111,10 +6126,10 @@
                 <l>And can pray for a pension. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e137360">
+            <sp xml:id="ep000010-e137360">
               <stage xml:id="ep000010-e137370">Enter Thierry, on a bed, with Doctors and attendents. </stage>
             </sp>
-            <sp who="#ep000010-xxxx_2" xml:id="ep000010-e137380">
+            <sp who="#ep000010-courtier-2" xml:id="ep000010-e137380">
               <speaker>2. </speaker>
               <lg>
                 <l>Here's the King Sir, </l>
@@ -6127,7 +6142,7 @@
                 <l>Then pray for me too. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-1_doctor" xml:id="ep000010-e137450">
+            <sp who="#ep000010-1-doctor" xml:id="ep000010-e137450">
               <speaker>1. Doct. </speaker>
               <lg>
                 <l>How does your grace now feele your selfe? </l>
@@ -6139,7 +6154,7 @@
                 <l>What's that? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-1_doctor" xml:id="ep000010-e137510">
+            <sp who="#ep000010-1-doctor" xml:id="ep000010-e137510">
               <speaker>1. Doct. </speaker>
               <lg>
                 <l>Nothing at all Sir, but your fancy: </l>
@@ -6166,7 +6181,7 @@
                 <l>When shall I rest? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-2_doctor" xml:id="ep000010-e137710">
+            <sp who="#ep000010-2-doctor" xml:id="ep000010-e137710">
               <speaker>2. Doct. </speaker>
               <lg>
                 <l>O Sir, be patient. </l>
@@ -6186,7 +6201,7 @@
                 <l>But those of equall ignorance, dare ye kill me? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-1_doctor" xml:id="ep000010-e137850">
+            <sp who="#ep000010-1-doctor" xml:id="ep000010-e137850">
               <speaker>1. Doct. </speaker>
               <lg>
                 <l>We do beseech your grace be more reclam'd, </l>
@@ -6205,7 +6220,7 @@
                 <l>I'st not a dainty ease? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-2_doctor" xml:id="ep000010-e137980">
+            <sp who="#ep000010-2-doctor" xml:id="ep000010-e137980">
               <speaker>2. Doct. </speaker>
               <lg>
                 <l>Your grace shall feele it. </l>
@@ -6222,7 +6237,7 @@
                 <l>Shall neuer, neuer set, who's that? </l>
               </lg>
             </sp>
-            <sp who="#ep000010-missing" xml:id="ep000010-e138090">
+            <sp xml:id="ep000010-e138090">
               <stage xml:id="ep000010-e138100">Enter Martell, Brunhalt, Denitry, souldiers. </stage>
             </sp>
             <sp who="#ep000010-martell" xml:id="ep000010-e138110">
@@ -6323,7 +6338,7 @@
                 <l>Done by your will? </l>
               </lg>
             </sp>
-            <sp xml:id="ep000010-e138641">
+            <sp who="#ep000010-brunhalt" xml:id="ep000010-e138641">
               <speaker>Brun. </speaker>
               <l>It was, and by that will. </l>
             </sp>
@@ -6407,7 +6422,7 @@
                 <l>Now I could sleepe too. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-xxxx" xml:id="ep000010-e139290">
+            <sp xml:id="ep000010-e139290">
               <stage xml:id="ep000010-e139300">Enter Ordella. </stage>
             </sp>
             <sp who="#ep000010-martell" xml:id="ep000010-e139310">
@@ -6650,7 +6665,7 @@
                 <l>Loue I must die, I faint, close vp my glasses. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-1_doctor" xml:id="ep000010-e140640">
+            <sp who="#ep000010-1-doctor" xml:id="ep000010-e140640">
               <speaker>1. Doct. </speaker>
               <lg>
                 <l>The Queene faints too, and deadly. </l>
@@ -6684,7 +6699,7 @@
                 <l>Take me too, farwell honor. dies both. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-2_doctor" xml:id="ep000010-e140830">
+            <sp who="#ep000010-2-doctor" xml:id="ep000010-e140830">
               <speaker>2. Doct. </speaker>
               <lg>
                 <l>They are gone for euer. </l>
@@ -6699,7 +6714,8 @@
                 <l>I am your King in sorrowes. </l>
               </lg>
             </sp>
-            <sp who="#ep000010-omnes" xml:id="ep000010-e140920">
+            <sp who="#ep000010-soldier-1 #ep000010-soldier-2 #ep000010-soldier-3 #ep000010-soldier-4 #ep000010-devitry #ep000010-doctor-1 #ep000010-doctor-2"
+                      xml:id="ep000010-e140920">
               <speaker>Omnes. </speaker>
               <lg>
                 <l>We your subiects. </l>

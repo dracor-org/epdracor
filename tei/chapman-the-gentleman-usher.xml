@@ -85,64 +85,67 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000336-strozza">
+          <personGrp xml:id="ep000336-huntsmen" sex="MALE">
+            <name>Huntsmen</name>
+          </personGrp>
+          <personGrp xml:id="ep000336-women-attendants" sex="FEMALE">
+            <name>Women attendants</name>
+          </personGrp>
+          <person xml:id="ep000336-man-bug" sex="MALE">
+            <persName>Man-bug</persName>
+          </person>
+          <person xml:id="ep000336-enchanter" sex="MALE">
+            <persName>Enchanter</persName>
+          </person>
+          <person xml:id="ep000336-strozza" sex="MALE">
             <persName>Strozza</persName>
           </person>
-          <person xml:id="ep000336-poggio">
+          <person xml:id="ep000336-poggio" sex="MALE">
             <persName>Poggio</persName>
           </person>
-          <person xml:id="ep000336-cynanche">
+          <person xml:id="ep000336-cynanche" sex="FEMALE">
             <persName>Cynanche</persName>
           </person>
-          <person xml:id="ep000336-vincentio">
+          <person xml:id="ep000336-vincentio" sex="MALE">
             <persName>Vincentio</persName>
           </person>
-          <person xml:id="ep000336-alphonso">
+          <person xml:id="ep000336-alphonso" sex="MALE">
             <persName>Alphonso</persName>
           </person>
-          <person xml:id="ep000336-sarpego">
+          <person xml:id="ep000336-sarpego" sex="MALE">
             <persName>Sarpego</persName>
           </person>
-          <person xml:id="ep000336-medice">
+          <person xml:id="ep000336-medice" sex="MALE">
             <persName>Medice</persName>
           </person>
-          <person xml:id="ep000336-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000336-bassiolo">
+          <person xml:id="ep000336-bassiolo" sex="MALE">
             <persName>Bassiolo</persName>
           </person>
-          <person xml:id="ep000336-lasso">
+          <person xml:id="ep000336-lasso" sex="MALE">
             <persName>Lasso</persName>
           </person>
-          <person xml:id="ep000336-2_page">
+          <person xml:id="ep000336-2-page" sex="MALE">
             <persName>2 Page</persName>
           </person>
-          <person xml:id="ep000336-margaret">
+          <person xml:id="ep000336-margaret" sex="FEMALE">
             <persName>Margaret</persName>
           </person>
-          <person xml:id="ep000336-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000336-cortezza">
+          <person xml:id="ep000336-cortezza" sex="FEMALE">
             <persName>Cortezza</persName>
           </person>
-          <person xml:id="ep000336-fungus">
+          <person xml:id="ep000336-fungus" sex="MALE">
             <persName>Fungus</persName>
           </person>
-          <person xml:id="ep000336-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000336-servant">
+          <person xml:id="ep000336-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000336-huntsman">
+          <person xml:id="ep000336-huntsman" sex="MALE">
             <persName>Huntsman</persName>
           </person>
-          <person xml:id="ep000336-benevemus">
+          <person xml:id="ep000336-benevemus" sex="MALE">
             <persName>Benevemus</persName>
           </person>
-          <person xml:id="ep000336-julio">
+          <person xml:id="ep000336-julio" sex="MALE">
             <persName>Julio</persName>
           </person>
         </listPerson>
@@ -160,8 +163,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000336"
-                    passive="http://www.wikidata.org/entity/Q7736134"/>
+                   active="https://dracor.org/entity/ep000336"
+                   passive="http://www.wikidata.org/entity/Q7736134"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -850,7 +853,7 @@
           </lg>
           <stage xml:id="ep000336-e104060">Exeunt. </stage>
         </sp>
-        <sp who="#ep000336-multiple" xml:id="ep000336-e104070">
+        <sp who="#ep000336-strozza #ep000336-vincentio" xml:id="ep000336-e104070">
           <speaker>Stro. Vin. </speaker>
           <p>Which as we can, weele cast to ouerthrow. </p>
           <stage xml:id="ep000336-e104090">Enter Lasso, Corteza, Margaret, Bassiolo, Sarpego, two Pages, Bassiolo bare before. </stage>
@@ -916,7 +919,7 @@
           <speaker>Lass. </speaker>
           <p>And will these waggish pages, hit their songs? </p>
         </sp>
-        <sp who="#ep000336-2_page" xml:id="ep000336-e104460">
+        <sp who="#ep000336-2-page" xml:id="ep000336-e104460">
           <speaker>2 Pag. </speaker>
           <p>Remi fa solla? </p>
         </sp>
@@ -990,7 +993,7 @@
           <speaker>Stro. </speaker>
           <p>Weele doe our best to that end, therefore marke. </p>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e104930">
+        <sp who="#ep000336-enchanter" xml:id="ep000336-e104930">
           <speaker>Ench. </speaker>
           <lg>
             <l>Lady, or Princesse, both your choice commands. </l>
@@ -1175,7 +1178,7 @@
             <l>Th'intent whereof on their report relies. </l>
           </lg>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e106050">
+        <sp who="#ep000336-enchanter" xml:id="ep000336-e106050">
           <speaker>En. </speaker>
           <lg>
             <l>Bright Nimph, that Boare figur'd your crueltie, </l>
@@ -1926,7 +1929,7 @@
             <l>2 See master Vsher; must he weare this haire? </l>
           </lg>
         </sp>
-        <sp who="#ep000336-xxxx_1" xml:id="ep000336-e110600">
+        <sp who="#ep000336-man-bug" xml:id="ep000336-e110600">
           <speaker>1. Bug. </speaker>
           <lg>
             <l>Pray master Vsher, where must I come in? </l>
@@ -3140,7 +3143,8 @@
             <l>Come, to our hunting; now tis time I thinke. </l>
           </lg>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e118070">
+        <sp who="#ep000336-cynanche #ep000336-bassiolo #ep000336-women-attendants #ep000336-huntsmen"
+                xml:id="ep000336-e118070">
           <speaker>Omn </speaker>
           <lg>
             <l>The verie best time of the day, my Lord. </l>
@@ -4144,7 +4148,7 @@
             <pb xml:id="ep000336-023-a"/>Bass. </speaker>
           <p>O sir, she cride fie vpon this. </p>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e123850">
+        <sp xml:id="ep000336-e123850">
           <speaker>Vin. </speaker>
           <p>Well, I must say nothing, loue is blind you know, and can finde no fault in his beloued. </p>
         </sp>
@@ -4152,7 +4156,7 @@
           <speaker>Bass. </speaker>
           <p>Nay, thats most certaine. </p>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e123890">
+        <sp xml:id="ep000336-e123890">
           <speaker>Vin. </speaker>
           <p>Gee't me: Ile haue this letter. </p>
         </sp>
@@ -4199,7 +4203,7 @@
           <speaker>Bass. </speaker>
           <p>No I protest. </p>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e124150">
+        <sp xml:id="ep000336-e124150">
           <speaker>Vin. </speaker>
           <p>Nor haue you neuer kist her? </p>
         </sp>
@@ -4207,7 +4211,7 @@
           <speaker>Bass. </speaker>
           <p>Kist her, thats nothing. </p>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e124190">
+        <sp xml:id="ep000336-e124190">
           <speaker>Vin. </speaker>
           <lg>
             <l>But you know my meaning: </l>
@@ -5834,7 +5838,7 @@
             <l>Charge him to vse no violence to his life. </l>
           </lg>
         </sp>
-        <sp who="#ep000336-bassiolo" xml:id="ep000336-e134780">
+        <sp who="#ep000336-julio" xml:id="ep000336-e134780">
           <speaker>Iulio </speaker>
           <p>I will my Lord. </p>
           <stage xml:id="ep000336-e134800">Exit Iulio. </stage>
@@ -6446,7 +6450,7 @@
             <l>The speciall furtherer of this equall match? </l>
           </lg>
         </sp>
-        <sp who="#ep000336-unassigned" xml:id="ep000336-e139190">
+        <sp who="#ep000336-julio" xml:id="ep000336-e139190">
           <speaker>Iulio </speaker>
           <p>Brought after by a couple of your Guard. </p>
         </sp>

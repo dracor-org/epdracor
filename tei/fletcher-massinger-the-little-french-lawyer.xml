@@ -99,89 +99,83 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000404-dinant">
+          <personGrp xml:id="ep000404-gentlemen" sex="MALE">
+            <name>Gentlemen</name>
+          </personGrp>
+          <person xml:id="ep000404-dinant" sex="MALE">
             <persName>Dinant</persName>
           </person>
-          <person xml:id="ep000404-cleremont">
+          <person xml:id="ep000404-cleremont" sex="MALE">
             <persName>Cleremont</persName>
           </person>
-          <person xml:id="ep000404-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000404-vertaigne">
+          <personGrp xml:id="ep000404-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000404-vertaigne" sex="MALE">
             <persName>Vertaigne</persName>
           </person>
-          <person xml:id="ep000404-champernell">
+          <person xml:id="ep000404-champernell" sex="MALE">
             <persName>Champernell</persName>
           </person>
-          <person xml:id="ep000404-beaupre">
+          <person xml:id="ep000404-beaupre" sex="MALE">
             <persName>Beaupre</persName>
           </person>
-          <person xml:id="ep000404-verdone">
+          <person xml:id="ep000404-verdone" sex="MALE">
             <persName>Verdone</persName>
           </person>
-          <person xml:id="ep000404-lamira">
+          <person xml:id="ep000404-lamira" sex="FEMALE">
             <persName>Lamira</persName>
           </person>
-          <person xml:id="ep000404-nurse">
+          <person xml:id="ep000404-nurse" sex="FEMALE">
             <persName>Nurse</persName>
           </person>
-          <person xml:id="ep000404-charlotte">
+          <person xml:id="ep000404-charlotte" sex="FEMALE">
             <persName>Charlotte</persName>
           </person>
-          <person xml:id="ep000404-gentleman">
+          <person xml:id="ep000404-gentleman" sex="MALE">
             <persName>Gentleman</persName>
           </person>
-          <person xml:id="ep000404-gentleman_1">
+          <person xml:id="ep000404-gentleman-1" sex="MALE">
             <persName>Gentleman 1</persName>
           </person>
-          <person xml:id="ep000404-gentleman_2">
+          <person xml:id="ep000404-gentleman-2" sex="MALE">
             <persName>Gentleman 2</persName>
           </person>
-          <person xml:id="ep000404-writ">
-            <persName>Writ</persName>
+          <person xml:id="ep000404-la-writ" sex="MALE">
+            <persName>La-Writ</persName>
           </person>
-          <person xml:id="ep000404-lawyer">
-            <persName>Lawyer</persName>
-          </person>
-          <person xml:id="ep000404-old_lady">
+          <person xml:id="ep000404-old-lady" sex="FEMALE">
             <persName>Old Lady</persName>
           </person>
-          <person xml:id="ep000404-sampson">
+          <person xml:id="ep000404-sampson" sex="MALE">
             <persName>Sampson</persName>
           </person>
-          <person xml:id="ep000404-client_1">
+          <person xml:id="ep000404-client-1" sex="MALE">
             <persName>Client 1</persName>
           </person>
-          <person xml:id="ep000404-client_2">
+          <person xml:id="ep000404-client-2" sex="MALE">
             <persName>Client 2</persName>
           </person>
-          <person xml:id="ep000404-client_3">
+          <person xml:id="ep000404-client-3" sex="MALE">
             <persName>Client 3</persName>
           </person>
-          <person xml:id="ep000404-client">
-            <persName>Client</persName>
-          </person>
-          <person xml:id="ep000404-servant_1">
+          <person xml:id="ep000404-servant-1" sex="MALE">
             <persName>Servant 1</persName>
           </person>
-          <person xml:id="ep000404-servant_2">
+          <person xml:id="ep000404-servant-2" sex="MALE">
             <persName>Servant 2</persName>
           </person>
-          <person xml:id="ep000404-annabell">
+          <person xml:id="ep000404-annabell" sex="FEMALE">
             <persName>Annabell</persName>
           </person>
-          <person xml:id="ep000404-servant">
+          <person xml:id="ep000404-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000404-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000404-ladies">
-            <persName>Ladies</persName>
-          </person>
-          <person xml:id="ep000404-pr">
-            <persName>Pr</persName>
+          <personGrp xml:id="ep000404-ladies" sex="FEMALE">
+            <name>Ladies</name>
+          </personGrp>
+          <person xml:id="ep000404-provost" sex="MALE">
+            <persName>Provost</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -198,8 +192,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000404"
-                    passive="http://www.wikidata.org/entity/Q7747596"/>
+                   active="https://dracor.org/entity/ep000404"
+                   passive="http://www.wikidata.org/entity/Q7747596"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -1550,13 +1544,13 @@
               <l>I want a second now to meete these gallants, </l>
               <l>You know what honour is, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e109480">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e109480">
               <speaker>1 Gent. </speaker>
               <l>Sir you must pardon us, </l>
               <l>We goe about the same worke, you are ready for; </l>
               <l>And must fight presently, els we were your servants, </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e109520">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e109520">
               <speaker>2 Gent. </speaker>
               <l>God speed you and good day. <stage xml:id="ep000404-e109540">Exit Gent. </stage>
               </l>
@@ -1577,7 +1571,7 @@
               <l>Cold now and treacherous, </l>
             </sp>
             <stage xml:id="ep000404-e109640">Enter Monsieur la Writ within. </stage>
-            <sp who="#ep000404-writ" xml:id="ep000404-e109650">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e109650">
               <speaker>La Writ. </speaker>
               <l>I understand your causes. </l>
               <l>Yours about corne, yours about pinnes and glasses, </l>
@@ -1612,7 +1606,7 @@
               <speaker>Cler. </speaker>
               <l>If you be not hastie, sir. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e109890">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e109890">
               <speaker>La-writ. </speaker>
               <l>Yes, I am hastie, </l>
               <l>Exceeding hastie, sir, I am going to the Parliament, </l>
@@ -1625,7 +1619,7 @@
               <l>'Faith, sir, I have a businesse, </l>
               <l>But it depends upon no Parliament. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e109980">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e109980">
               <speaker>La-writ. </speaker>
               <l>I have no skill in't then. </l>
             </sp>
@@ -1634,7 +1628,7 @@
               <l>I must desire you, </l>
               <l>'Tis a Sword matter, sir. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110030">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110030">
               <speaker>La-writ. </speaker>
               <l>I am no Cutler, </l>
               <l>I am an Advocate, sir. </l>
@@ -1652,7 +1646,7 @@
               <l>Be not so hastie, </l>
               <l>You weare a good Sword. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110130">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110130">
               <speaker>La-writ, </speaker>
               <l>I know not that, </l>
               <l>I never drew it yet, or whether it be a Sword— </l>
@@ -1663,7 +1657,7 @@
               <l>Against these Gentlemen, I want a second; </l>
               <l>Yee seeme a man, and 'tis a noble office. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110200">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110200">
               <speaker>La-writ. </speaker>
               <l>I am a Lawyer, sir, I am no fighter. </l>
             </sp>
@@ -1679,7 +1673,7 @@
               <speaker>Verd. </speaker>
               <l>If this fellow should fight. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110280">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110280">
               <speaker>La-writ. </speaker>
               <l>And for any thing I know, I am an arrant coward, </l>
               <l>Doe not trust me, I thinke I am a coward. </l>
@@ -1689,7 +1683,7 @@
               <l>Try, try, you are mistaken: walke on gentlemen, </l>
               <l>The man shall follow presently. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110340">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110340">
               <speaker>La-writ. </speaker>
               <l>Are ye mad gentleman? </l>
               <l>My businesse is within this halfe houre, </l>
@@ -1708,7 +1702,7 @@
               <speaker>Verd. </speaker>
               <l>Why this will be a comick fight, you'll follow. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110450">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110450">
               <speaker>La-w. </speaker>
               <p>As I am a true man, I cannot fight. <stage xml:id="ep000404-e110470">Ex. Beaup. Verdone. </stage>
               </p>
@@ -1721,7 +1715,7 @@
               <l>And with such judgement, meet your enemies fury; </l>
               <l>I see it in your eye, sir. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110540">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110540">
               <speaker>La-writ. </speaker>
               <l>I'le be hang'd then; </l>
               <l>And I charge you, in the Kings name, name no more fighting. </l>
@@ -1733,7 +1727,7 @@
               <l>Ile make you dance, doe you see your fiddle sticke? </l>
               <l>Sweet Advocate thou shalt fight. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110620">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110620">
               <speaker>La-writ. </speaker>
               <l>Stand farther gentleman. </l>
               <l>Or I'le give you such a dust o'th' chapps— </l>
@@ -1744,7 +1738,7 @@
               <l>And like thy selfe, a noble Advocate: </l>
               <l>Come to thy tooles. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110690">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110690">
               <speaker>La-writ. </speaker>
               <l>I doe not say I'le fight. </l>
             </sp>
@@ -1752,7 +1746,7 @@
               <speaker>Cler. </speaker>
               <l>I say thou shalt, and bravely. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110730">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110730">
               <speaker>La-writ. </speaker>
               <l>If I doe fight; </l>
               <l>I say, if I doe, but doe not depend upon't, </l>
@@ -1764,7 +1758,7 @@
               <l>Let 'em ly by, </l>
               <l>They will not run away, man. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110810">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110810">
               <speaker>La-writ. </speaker>
               <l>I may be kil'd too, </l>
               <l>And where are all my causes then? my businesse? </l>
@@ -1776,7 +1770,7 @@
               <l>Thou art a man to fight for any cause, </l>
               <l>And carry it with honour. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110890">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110890">
               <speaker>La-writ. </speaker>
               <l>Hum I say you so? if I should </l>
               <l>Be such a coxcombe to prove valiant now— </l>
@@ -1785,7 +1779,7 @@
               <speaker>Cler. </speaker>
               <l>I know thou art most valiant. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e110940">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e110940">
               <speaker>La-writ. </speaker>
               <l>Doe you thinke so? </l>
               <l>I am undone for ever, if it prove so, </l>
@@ -1798,7 +1792,7 @@
               <speaker>Cler. </speaker>
               <l>We'll do't in a minute in a moment. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111030">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111030">
               <speaker>La-writ. </speaker>
               <l>Here will I hang my bag then, it may save my belly, </l>
               <l>I never lov'd cold iron there. </l>
@@ -1807,7 +1801,7 @@
               <speaker>Cler. </speaker>
               <l>You doe wisely. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111080">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111080">
               <speaker>La-writ. </speaker>
               <l>Help me to pluck my sword out then, quickly, quickly, </l>
               <l>'T has not seen Sun these ten yeares. </l>
@@ -1817,7 +1811,7 @@
               <l>How it grumbles? </l>
               <l>This Sword is vengeance angry. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111140">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111140">
               <speaker>La-writ. </speaker>
               <l>Now I'le put my hat up, </l>
               <l>And say my prayers as I goe; away boy, </l>
@@ -1832,7 +1826,7 @@
               </l>
               <l>Ile stay here, fight bravely. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111250">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111250">
               <speaker>La-wr. </speaker>
               <l>To't chearfully my boyes, you'll let's have faire play, </l>
               <l>None of your foyning tricks. </l>
@@ -1844,7 +1838,7 @@
               <l>What hast thou there? a pudding in thy belly? </l>
               <l>I shall see what it holds. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111330">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111330">
               <speaker>La-writ. </speaker>
               <l>Put your spoone home then: </l>
               <l>Nay, since I must fight, have at you without wit, sir: </l>
@@ -1855,7 +1849,7 @@
               <l>Nothing but bumbast in yee? </l>
               <l>The rogue winkes and fights. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111400">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111400">
               <speaker>La-wr. </speaker>
               <l>Now your fine fencing, sir: <stage xml:id="ep000404-e111420">Beau. loses his sword, La. writ treads on it. </stage>
               </l>
@@ -1867,7 +1861,7 @@
               <speaker>Beau. </speaker>
               <l>Then keep it, be sure you keep it. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111480">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111480">
               <speaker>La-writ. </speaker>
               <l>I'le put it in my mouth else. </l>
               <l>Stand further off yet, and stand quietly, </l>
@@ -1880,7 +1874,7 @@
               <l>Pox, what a fortune's this? disarm'd by a puppie? </l>
               <l>A snaile? a dog? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111570">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111570">
               <speaker>La-Writ. </speaker>
               <l>No more o'these words Gentleman, </l>
               <l>Sweet gentleman no more, doe not provoke me, </l>
@@ -1893,7 +1887,7 @@
               <speaker>Cler. </speaker>
               <l>Help me, I am almost breathlesse. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111650">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111650">
               <speaker>La-writ. </speaker>
               <l>With all my heart there's a cold py for you, sir. </l>
             </sp>
@@ -1901,7 +1895,7 @@
               <speaker>Cler. </speaker>
               <l>Thou strik'st me, foole. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111690">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111690">
               <speaker>La-writ. </speaker>
               <l>Thou foole, stand further off then, </l>
               <l>Deliver, deliver. </l>
@@ -1911,7 +1905,7 @@
               <p>Hold fast. <stage xml:id="ep000404-e111740">He strikes up the others heeles, and takes his Sword too. </stage>
               </p>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111750">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111750">
               <speaker>La-writ. </speaker>
               <l>I never faile in't </l>
               <l>There's twelve pence, go buy you two leaden Daggers, </l>
@@ -1935,7 +1929,7 @@
               <speaker>Cler. </speaker>
               <l>I shall be glad on't. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111890">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111890">
               <speaker>La-writ. </speaker>
               <l>Where's my cloake, and my trinkets? </l>
               <l>Or will you sight any longer, for a crash or two? </l>
@@ -1944,7 +1938,7 @@
               <speaker>Cler. </speaker>
               <l>I am your noble friend, sir. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111940">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111940">
               <speaker>La-writ. </speaker>
               <l>It may be so. </l>
             </sp>
@@ -1953,7 +1947,7 @@
               <l>What honour shall I doe you, </l>
               <l>For this great courtesie? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e111990">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e111990">
               <speaker>La-writ. </speaker>
               <l>All I desire of ye, </l>
               <l>Is to take the quarrell to your selfe, and let me heare no more on't </l>
@@ -1965,7 +1959,7 @@
               <l>Most willingly. </l>
               <l>But I am bound to gratifie you, and I must not leave you. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112070">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112070">
               <speaker>La-writ. </speaker>
               <l>I tell you, I will not be gratified, </l>
               <l>Nor I will heare no more on't: take the Swords too, </l>
@@ -2004,7 +1998,7 @@
               <l>What's that? </l>
               <l>This is a rascally voice sure it comes this way. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112400">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112400">
               <speaker>La-writ. </speaker>
               <l>He strooke so hard the Bason broke, </l>
               <l>And Tarquin heard the sound. </l>
@@ -2013,7 +2007,7 @@
               <speaker>Din. </speaker>
               <l>What master thing is this? let me survey it. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112450">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112450">
               <speaker>La-writ. </speaker>
               <l>And then he strooke his necke in two. </l>
             </sp>
@@ -2024,7 +2018,7 @@
               <l>Hey how it fences? if this should be the rogue, </l>
               <l>As 'tis the likeliest rogue. I see this day— </l>
             </sp>
-            <sp who="#ep000404-lawyer" xml:id="ep000404-e112520">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112520">
               <speaker>Lawr. </speaker>
               <l>Was ever man for Ladies sake? down, down. </l>
             </sp>
@@ -2032,7 +2026,7 @@
               <speaker>Di. </speaker>
               <l>And what are you good sir? down, down, down, down. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112560">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112560">
               <speaker>La-wr. </speaker>
               <l>What's that to you, good sir? downe, downe. </l>
             </sp>
@@ -2042,7 +2036,7 @@
               <l>You with your Buckram bag, what make you here? </l>
               <l>And from whence come you? I could fight with my shadow now. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112620">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112620">
               <speaker>La-w. </speaker>
               <l>Thou fierce man, that like sir Lancelot dost appear, </l>
               <l>I need not tell thee what I am, nor eke what I make here. </l>
@@ -2053,7 +2047,7 @@
               <l>And let me aske thy mightinesse a question, </l>
               <l>Did ye never abuse a Lady? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112690">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112690">
               <speaker>La-writ. </speaker>
               <l>Not; to abuse a Lady, is very hard, sir, </l>
             </sp>
@@ -2062,7 +2056,7 @@
               <l>Say you so, sir? </l>
               <l>Didst thou never abuse her honour? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112740">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112740">
               <speaker>La-writ. </speaker>
               <l>Not; to abuse her honour, is impossible. </l>
             </sp>
@@ -2070,7 +2064,7 @@
               <speaker>Din. </speaker>
               <l>Certaine this is the rascall: What's thy name? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112780">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112780">
               <speaker>La-writ. </speaker>
               <l>My name is Cock a two, use me respectively, </l>
               <l>I will be Cocke of three else. </l>
@@ -2080,7 +2074,7 @@
               <l>What's all this? </l>
               <l>You say, you did abuse a Lady; </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112840">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112840">
               <speaker>La-writ. </speaker>
               <l>You ly. </l>
             </sp>
@@ -2088,7 +2082,7 @@
               <speaker>Din. </speaker>
               <l>And that you wrong'd her honour. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112880">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112880">
               <speaker>La-writ. </speaker>
               <l>That's two lyes, </l>
               <l>Speake suddenly, for I am full of businesse. </l>
@@ -2098,7 +2092,7 @@
               <l>What art thou, or what canst thou be, thou peagoose, </l>
               <l>That dar'st give me the ly thus? thou mak'st me wonder. </l>
             </sp>
-            <sp who="#ep000404-lawyer" xml:id="ep000404-e112940">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112940">
               <speaker>Law. </speaker>
               <l>And wonder on, till time makes all this plaine. </l>
             </sp>
@@ -2106,7 +2100,7 @@
               <speaker>Din. </speaker>
               <l>You must not part so, sir, art thou a gentleman? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e112980">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e112980">
               <speaker>La-w. </speaker>
               <l>Aske those, upon whose ruines, I am mounted. </l>
             </sp>
@@ -2114,7 +2108,7 @@
               <speaker>Din. </speaker>
               <l>This is some Cavellero Knight o'th' Sun. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e113020">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e113020">
               <speaker>La-w. </speaker>
               <l>I tell thee, I am as good a gentleman as the Duke; </l>
               <l>I have atchieved— goe follow thy businesse. </l>
@@ -2123,7 +2117,7 @@
               <speaker>Din. </speaker>
               <l>But for this Lady, sir— </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e113070">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e113070">
               <speaker>La-writ. </speaker>
               <l>Why, hang this Lady, sir, </l>
               <l>And the Lady Mother too, sir, what have I to do with Ladies? </l>
@@ -2144,7 +2138,7 @@
               <speaker>Cler. </speaker>
               <l>That should be Dinants tongue too. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e113200">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e113200">
               <speaker>La-w. </speaker>
               <l>And I defy thee, do thy worst: ô ho quoth Lancelot tho. </l>
               <l>And that thou shalt know, I am a true gentleman, </l>
@@ -2164,7 +2158,7 @@
               <l>Hold, hold, </l>
               <l>Hold Dinant, as thou art a gentleman. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e113340">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e113340">
               <speaker>La-writ. </speaker>
               <l>As much as you will, my hand is in now. </l>
             </sp>
@@ -2179,7 +2173,7 @@
               <speaker>Din. </speaker>
               <l>I aske your mercy, sir, and am your servant now. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e113430">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e113430">
               <speaker>La-writ. </speaker>
               <l>May we not fight then? </l>
             </sp>
@@ -2187,7 +2181,7 @@
               <speaker>Cler. </speaker>
               <l>I am sure you shall not now. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e113470">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e113470">
               <speaker>La-w. </speaker>
               <l>I am sorry for't I am sure I'le stay no longer then. </l>
               <l>Not a jot longer: are there any more on ye afore? </l>
@@ -2315,7 +2309,7 @@
               <speaker>Cler. </speaker>
               <l>This is a pretty flim-flam. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114280">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114280">
               <speaker>O. La. </speaker>
               <l>I am glad I have met you sir, I have bin seeking, </l>
               <l>And seeking every where. </l>
@@ -2325,7 +2319,7 @@
               <l>And now you have found him, </l>
               <l>Declare that businesse, our Embassadour. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114340">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114340">
               <speaker>O. Lady. </speaker>
               <l>What's that to ye good man flouter? O sir, my Lady. </l>
             </sp>
@@ -2337,7 +2331,7 @@
               <speaker>Cler. </speaker>
               <l>Let me have a little, speake to me. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114400">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114400">
               <speaker>Old Lady. </speaker>
               <l>To you sir? </l>
               <l>'Tis more then time: All occasions set aside sir, </l>
@@ -2347,7 +2341,7 @@
               <speaker>Din. </speaker>
               <l>What then? </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114460">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114460">
               <speaker>Old Lady. </speaker>
               <l>Repaire to me within this houre. </l>
             </sp>
@@ -2355,7 +2349,7 @@
               <speaker>Cler. </speaker>
               <l>Where? </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114500">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114500">
               <speaker>O. Lady. </speaker>
               <l>What's that to you? come you, sir, when y'are sent for. </l>
             </sp>
@@ -2367,7 +2361,7 @@
               <l>And hunny out your youth, in rare adventures, </l>
               <l>I can but grieve, I have knowne you. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114580">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114580">
               <speaker>Old Lady. </speaker>
               <l>Will ye goe sir? </l>
               <l>I come not often to you with these blessings, </l>
@@ -2387,7 +2381,7 @@
               <l>The fetters she put on; thus her enchantments </l>
               <l>I blow away like wind, no more her beauty. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114720">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114720">
               <speaker>Old Lady. </speaker>
               <l>Take heed sir, what you say. </l>
             </sp>
@@ -2399,7 +2393,7 @@
               <speaker>Din. </speaker>
               <l>The charmes shot from her eyes— </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114780">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114780">
               <speaker>O. Lady. </speaker>
               <l>Be wise. </l>
             </sp>
@@ -2412,7 +2406,7 @@
               <l>That tongue that tells faire tales to mens destructions </l>
               <l>Shall never rack me more. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e114850">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e114850">
               <speaker>Old Lady. </speaker>
               <l>Stay there. </l>
             </sp>
@@ -2452,7 +2446,7 @@
               <speaker>Cler. </speaker>
               <l>If this be true— </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115130">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115130">
               <speaker>O. Lady. </speaker>
               <l>I am sorry, I have troubled you, </l>
               <l>More sorrie, that my Lady has adventur'd </l>
@@ -2465,7 +2459,7 @@
               <speaker>Cler. </speaker>
               <l>Stay Lady, stay, but is there such a businesse? </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115220">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115220">
               <speaker>O. Lady. </speaker>
               <l>You would breake your neck 'twere yours. </l>
             </sp>
@@ -2473,7 +2467,7 @@
               <speaker>Cler. </speaker>
               <l>My back, you would say. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115260">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115260">
               <speaker>O. La. </speaker>
               <l>But play the friends part still, sir, and undoe him, </l>
               <l>'Tis a faire office. </l>
@@ -2482,7 +2476,7 @@
               <speaker>Din. </speaker>
               <l>I have spoke too liberally. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115310">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115310">
               <speaker>O. Lady. </speaker>
               <l>I shall deliver what you say. </l>
             </sp>
@@ -2491,7 +2485,7 @@
               <l>You shall be hang'd first, </l>
               <l>You would faine be prating now; take the man with you. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115360">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115360">
               <speaker>O. Lady. </speaker>
               <l>Not I, I have no power. </l>
             </sp>
@@ -2499,7 +2493,7 @@
               <speaker>Cler. </speaker>
               <l>You may goe Dinant. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115400">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115400">
               <speaker>O. Lady. </speaker>
               <l>'Tis in's own will, I had no further charge, sir, </l>
               <l>Then to tell him what I did, which if I had thought </l>
@@ -2526,7 +2520,7 @@
               <l>The great foole, the greater still the better, </l>
               <l>He shall goe with you woman. </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115580">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115580">
               <speaker>Old Lady. </speaker>
               <l>As it please him, </l>
               <l>I know the way alone else. </l>
@@ -2535,7 +2529,7 @@
               <speaker>Din. </speaker>
               <l>Where is your Lady? </l>
             </sp>
-            <sp who="#ep000404-old_lady" xml:id="ep000404-e115630">
+            <sp who="#ep000404-old-lady" xml:id="ep000404-e115630">
               <speaker>O. Lady. </speaker>
               <l>I shall direct you quickly. </l>
             </sp>
@@ -2923,7 +2917,7 @@
               <speaker>Samp. </speaker>
               <l>I know Monsier La-writ. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e118140">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e118140">
               <speaker>1 Cly. </speaker>
               <l>Would he knew himselfe, Sir. </l>
             </sp>
@@ -2932,7 +2926,7 @@
               <l>He was a pretty Lawyer, a kind of pretty Lawyer. </l>
               <l>Of a kind, of unable thing. </l>
             </sp>
-            <sp who="#ep000404-client_2" xml:id="ep000404-e118190">
+            <sp who="#ep000404-client-2" xml:id="ep000404-e118190">
               <speaker>2 Cly. </speaker>
               <l>A fine Lawyer, Sir, </l>
               <l>And would have firk'd you up a businesse, </l>
@@ -2944,7 +2938,7 @@
               <l>Not so fine my friends, something he could have done, </l>
               <l>But short, short. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e118270">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e118270">
               <speaker>1 Cly. </speaker>
               <l>I know your worships favour, </l>
               <l>You are Nephew to the Judge, Sir. </l>
@@ -2958,7 +2952,7 @@
               <l>And tell him that in's eare, there are such courtesies: </l>
               <l>I will not say, I can. </l>
             </sp>
-            <sp who="#ep000404-client_3" xml:id="ep000404-e118370">
+            <sp who="#ep000404-client-3" xml:id="ep000404-e118370">
               <speaker>3 Cly. </speaker>
               <l>We know you can, sir. </l>
             </sp>
@@ -2967,11 +2961,11 @@
               <l>Peradventure I, peradventure no: but where's Lawrit? </l>
               <l>Where's your sufficient Lawyer? </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e118420">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e118420">
               <speaker>1 Cly. </speaker>
               <l>He's blowne up, Sir. </l>
             </sp>
-            <sp who="#ep000404-client_2" xml:id="ep000404-e118440">
+            <sp who="#ep000404-client-2" xml:id="ep000404-e118440">
               <speaker>2 Cly. </speaker>
               <l>Run mad, and quarrells, with the dog he meets; </l>
               <l>He is no Lawyer, of this world now. </l>
@@ -2981,7 +2975,7 @@
               <l>Your reason? </l>
               <l>Is he defunct? is he dead? </l>
             </sp>
-            <sp who="#ep000404-client_2" xml:id="ep000404-e118500">
+            <sp who="#ep000404-client-2" xml:id="ep000404-e118500">
               <speaker>2 Cly. </speaker>
               <l>No, he's not dead yet, sir; </l>
               <l>But I would be loth to take a lease on's life for two houres: </l>
@@ -2995,7 +2989,7 @@
               <l>Looke you my friends, I am a civill Gentleman, </l>
               <l>And my Lord my Uncle loves me. </l>
             </sp>
-            <sp who="#ep000404-client_3" xml:id="ep000404-e118600">
+            <sp who="#ep000404-client-3" xml:id="ep000404-e118600">
               <speaker>3 Cly. </speaker>
               <l>We all know it, sir. </l>
             </sp>
@@ -3007,7 +3001,7 @@
               <l>I can fight too my friends, a little does well, </l>
               <l>I would be loth to learne to fight. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e118680">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e118680">
               <speaker>1 Cly. </speaker>
               <l>But and't please you, sir, </l>
               <l>His fighting has neglected all our businesse, </l>
@@ -3021,7 +3015,7 @@
               <l>But ne'r the lesse, things must be, as they may, </l>
               <l>And there be wayes— </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e118780">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e118780">
               <speaker>1 Cly. </speaker>
               <l>We know, sir, if you please— </l>
             </sp>
@@ -3030,12 +3024,12 @@
               <l>Something I'll doe; goe rally up your Causes. </l>
             </sp>
             <stage xml:id="ep000404-e118820">Enter La-writ, and a Gentleman at the dore. </stage>
-            <sp who="#ep000404-client_2" xml:id="ep000404-e118830">
+            <sp who="#ep000404-client-2" xml:id="ep000404-e118830">
               <speaker>2 Cly. </speaker>
               <l>Now you may behold sir, </l>
               <l>And be a witnesse, whether we lie or no. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e118860">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e118860">
               <speaker>La-writ. </speaker>
               <l>I'll meet you at the Ordinary, sweet Gentlemen, </l>
               <l>And if there be a wench or two— </l>
@@ -3044,7 +3038,7 @@
               <speaker>Gent. </speaker>
               <l>We'll have 'em. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e118910">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e118910">
               <speaker>La-wr. </speaker>
               <l>No handling any Duells before I come, </l>
               <l>We'll have no going lesse, I hate a coward. </l>
@@ -3053,7 +3047,7 @@
               <speaker>Gent. </speaker>
               <l>There shall be nothing done. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e118960">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e118960">
               <speaker>La-wr. </speaker>
               <l>Make all the quarrells </l>
               <l>You can devise before I come, and let's all fight, </l>
@@ -3063,27 +3057,27 @@
               <speaker>Gent. </speaker>
               <l>We'll see what may be done, sir, </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e119020">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e119020">
               <speaker>1 Cly. </speaker>
               <l>Ha? Monsier La-writ? </l>
             </sp>
             <pb n="eebo_img-58" xml:id="ep000404-124"/>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119040">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119040">
               <speaker>La-Wr. </speaker>
               <l>Baffled in way of businesse, </l>
               <l>My causes cast away, Judgement against us? </l>
               <l>Why there it goes </l>
             </sp>
-            <sp who="#ep000404-client_2" xml:id="ep000404-e119080">
+            <sp who="#ep000404-client-2" xml:id="ep000404-e119080">
               <speaker>2 Cli. </speaker>
               <l>What shall we do the whilst Sir? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119100">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119100">
               <speaker>La-Wr. </speaker>
               <l>Breed new dissentions, goe hang your selves </l>
               <l>'Tis allo ne to me; I have a new trade of living. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e119130">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e119130">
               <speaker>1 Cli. </speaker>
               <l>Doe you heare what he saies Sir? </l>
             </sp>
@@ -3091,7 +3085,7 @@
               <speaker>Sam. </speaker>
               <l>The Gentleman, speakes finely </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119170">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119170">
               <speaker>La Wr. </speaker>
               <l>Will any of you fight? Fightings my occupation </l>
               <l>If you find your selves agreev'd; </l>
@@ -3100,7 +3094,7 @@
               <speaker>Sam. </speaker>
               <l>A compleate Gentleman. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119220">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119220">
               <speaker>La-Wr. </speaker>
               <l>Avant thou buckram budget of petitions, </l>
               <l>Thou spittle of lame causes; I lament for thee, </l>
@@ -3110,7 +3104,7 @@
               <speaker>Sam. </speaker>
               <l>'Tis most excellent. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119280">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119280">
               <speaker>La-Wr. </speaker>
               <l>There every man chuse his paper, and his place. </l>
               <l>I'll answer ye all, I will neglect no mans busines </l>
@@ -3121,7 +3115,7 @@
               <speaker>Sam. </speaker>
               <l>You have nothing of mine in your bag, Sir, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119350">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119350">
               <speaker>La-Wr. </speaker>
               <l>I know not Sir, </l>
               <l>But you may put any thing in, any fighting thing </l>
@@ -3130,7 +3124,7 @@
               <speaker>Sam. </speaker>
               <l>It is sufficient, you may heare hereafter. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119400">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119400">
               <speaker>La-Wr. </speaker>
               <l>I rest your servant Sir, </l>
             </sp>
@@ -3141,7 +3135,8 @@
               <l>The Gentlemans, a noble Gentleman. </l>
               <l>I shall doe what I can, and then— </l>
             </sp>
-            <sp who="#ep000404-client" xml:id="ep000404-e119470">
+            <sp who="#ep000404-client-1 #ep000404-client-2 #ep000404-client-3"
+                      xml:id="ep000404-e119470">
               <speaker>Cli. </speaker>
               <l>We thanke you Sir, <stage xml:id="ep000404-e119490">Exit Sam. and Clients. </stage>
               </l>
@@ -3150,7 +3145,7 @@
               <speaker>Sam. </speaker>
               <l>Not a word to disturb him, hee's a Gentleman. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119520">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119520">
               <speaker>La-Wr. </speaker>
               <l>No cause goe? o my side the judge cast all? </l>
               <l>And because I was honourably employed in action, </l>
@@ -3163,7 +3158,7 @@
               <l>Who have we here? </l>
               <l>My little furious Lawyer? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119610">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119610">
               <speaker>La-Wr. </speaker>
               <l>I say 'tis well, </l>
               <l>But marke the end. </l>
@@ -3176,7 +3171,7 @@
               <l>This is no simple conversion </l>
               <l>Your servant Sir, and Friend. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119700">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119700">
               <speaker>La-Wr. </speaker>
               <l>You come in time, Sir, </l>
             </sp>
@@ -3184,7 +3179,7 @@
               <speaker>Cler. </speaker>
               <l>The happier man, to be at your command then. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119740">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119740">
               <speaker>La-Wr. </speaker>
               <l>You may wonder to see me thus; but tha't's all one </l>
               <l>Time shall declare; 'tis true I was a Lawyer, </l>
@@ -3196,7 +3191,7 @@
               <speaker>Cler. </speaker>
               <l>I must confesse it, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119820">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119820">
               <speaker>La-wr. </speaker>
               <l>And budg'd not, no I budg'd not </l>
             </sp>
@@ -3204,7 +3199,7 @@
               <speaker>Cler. </speaker>
               <l>No, ye did not, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119860">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119860">
               <speaker>La-wr. </speaker>
               <l>Ther's it then, one good turne requires another </l>
             </sp>
@@ -3212,7 +3207,7 @@
               <speaker>Cler. </speaker>
               <l>Most willing Sir, I am ready at your service </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119900">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119900">
               <speaker>La-wr. </speaker>
               <l>There read, and understand, &amp; then deliver it </l>
             </sp>
@@ -3220,7 +3215,7 @@
               <speaker>Cler. </speaker>
               <l>This is a challenge Sir, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e119940">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e119940">
               <speaker>La-wr. </speaker>
               <l>'Tis very like Sir, </l>
               <l>I seldome now write Sonnets </l>
@@ -3230,7 +3225,7 @@
               <l>O admirantis, </l>
               <l>To Monsieur Vertaigne the president, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120000">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120000">
               <speaker>La-wr. </speaker>
               <l>I choose no foole sir, </l>
             </sp>
@@ -3238,7 +3233,7 @@
               <speaker>Cler. </speaker>
               <l>Why hee's no sword man Sir, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120040">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120040">
               <speaker>La-wr. </speaker>
               <l>Let him learne, let him learne, </l>
               <l>Time that traines Chickens up, will teach him quickly </l>
@@ -3247,7 +3242,7 @@
               <speaker>Cler. </speaker>
               <l>Why hee's a Judge, an old man. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120090">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120090">
               <speaker>La-wr. </speaker>
               <l>Never too old. </l>
               <l>To be a Gentleman; and he that is a judge </l>
@@ -3261,7 +3256,7 @@
               <l>Pray be rul'd Sir, </l>
               <l>This is the maddest thing— </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120190">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120190">
               <speaker>La-wr. </speaker>
               <l>You will not carry it, </l>
             </sp>
@@ -3269,7 +3264,7 @@
               <speaker>Cler. </speaker>
               <l>I doe not tell you so, but if you may be perswaded </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120230">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120230">
               <speaker>La-wr. </speaker>
               <l>You know how you us'd me, when I would not fight, </l>
               <l>Doe you remember Gentleman? </l>
@@ -3278,7 +3273,7 @@
               <speaker>Cler. </speaker>
               <l>The Divells in him. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120280">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120280">
               <speaker>La-wr. </speaker>
               <l>I see it in your eyes, that you dare it </l>
               <l>You have a carrying face, and you shall carry it, </l>
@@ -3287,7 +3282,7 @@
               <speaker>Cler. </speaker>
               <l>The least is banishment </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120330">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120330">
               <speaker>La-wr. </speaker>
               <l>Be banish'd then; </l>
               <l>'Tis a friends part, wee'll meete in Africa, </l>
@@ -3297,7 +3292,7 @@
               <speaker>Cler. </speaker>
               <l>Say he will not fight, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120390">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120390">
               <speaker>La-wr. </speaker>
               <l>I know then what to say take you no care Sir, </l>
             </sp>
@@ -3307,7 +3302,7 @@
               <l>And to morrow morning meete you in the louer, </l>
               <l>Till when, my service, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e120450">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e120450">
               <speaker>La-Wr. </speaker>
               <l>A Judge, or no Judge, no Judge. <stage xml:id="ep000404-e120470">Exit La-wr. </stage>
               </l>
@@ -3327,7 +3322,7 @@
               <l>I shall find time Gentlemen, </l>
               <l>To doe your causes good, is not that Cleremont. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e120590">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e120590">
               <speaker>1 Gent. </speaker>
               <l>'Tis he my Lord? </l>
             </sp>
@@ -4116,14 +4111,14 @@
               <l>Vp up, you sleep your last else. <stage xml:id="ep000404-e125600">Lights above, two Servants and Anabell. </stage>
               </l>
             </sp>
-            <sp who="#ep000404-servant_1" xml:id="ep000404-e125610">
+            <sp who="#ep000404-servant-1" xml:id="ep000404-e125610">
               <speaker>1 Serv. </speaker>
               <l>No not yet, sir, </l>
               <l>Lady, looke up: would you have wrong'd this beauty? </l>
               <l>Wake so tender a Virgin, with rough tearmes? </l>
               <l>You weare a sword; we must entreat you leave it. </l>
             </sp>
-            <sp who="#ep000404-servant_2" xml:id="ep000404-e125660">
+            <sp who="#ep000404-servant-2" xml:id="ep000404-e125660">
               <speaker>2 Serv. </speaker>
               <l>Fy sir, so sweet a Lady? </l>
             </sp>
@@ -4545,7 +4540,7 @@
               </l>
             </sp>
             <stage xml:id="ep000404-e128120">Enter Cleremont. and La-writ. </stage>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128130">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128130">
               <speaker>La-writ. </speaker>
               <l>Since it cannot be the Judge— </l>
             </sp>
@@ -4553,7 +4548,7 @@
               <speaker>Cler. </speaker>
               <l>'Tis a great deale better. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128170">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128170">
               <speaker>La-writ. </speaker>
               <l>You are sure, he is his kinsman? a gentleman? </l>
             </sp>
@@ -4562,7 +4557,7 @@
               <l>As arrant a gentleman, and a brave fellow, </l>
               <l>And so neare to his blood— </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128220">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128220">
               <speaker>La-writ. </speaker>
               <l>It shall suffice, </l>
               <l>I'le set him further off, I'le give a remove </l>
@@ -4572,7 +4567,7 @@
               <speaker>Cler. </speaker>
               <l>Will ye kill him? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128280">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128280">
               <speaker>La-w. </speaker>
               <l>And there were no more cosins in the world I kil him, </l>
               <l>I do mean, sir, to kill all my Lords kindred. </l>
@@ -4582,7 +4577,7 @@
               <speaker>Cler. </speaker>
               <l>How if he have no more cousins. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128340">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128340">
               <speaker>La-writ. </speaker>
               <l>The next a kin then, to his Lordships favour, </l>
               <l>The man he smiles upon. </l>
@@ -4591,7 +4586,7 @@
               <speaker>Cler. </speaker>
               <l>Why this is vengeance, horrid, and dire. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128390">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128390">
               <speaker>La-writ. </speaker>
               <l>I love a dire revenge: </l>
               <l>Give me the man, that will all others kill, </l>
@@ -4601,7 +4596,7 @@
               <speaker>Cler. </speaker>
               <l>You stole that resolution. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128450">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128450">
               <speaker>La-writ. </speaker>
               <l>I had it in a Play, but that's all one, </l>
               <l>I woo'd see it done. </l>
@@ -4610,7 +4605,7 @@
               <speaker>Cler. </speaker>
               <l>Come, you must be more mercifull. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128500">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128500">
               <speaker>La-writ. </speaker>
               <l>To no Lords cosins in the world, I hate 'em; </l>
               <l>A Lords cosin to me is a kind of Cocatrice, </l>
@@ -4621,7 +4616,7 @@
               <speaker>Cler. </speaker>
               <l>What think you of their Neeces? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128570">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128570">
               <speaker>La-writ. </speaker>
               <l>If I like 'em, </l>
               <l>They may live, and multiply; 'tis a cold morning. </l>
@@ -4630,7 +4625,7 @@
               <speaker>Cler. </speaker>
               <l>'Tis sharpe indeed; you have broke your fast. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128620">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128620">
               <speaker>La-writ. </speaker>
               <l>No verily. </l>
             </sp>
@@ -4638,7 +4633,7 @@
               <speaker>Cler. </speaker>
               <l>Your valour would have ask'd a good foundation. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128660">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128660">
               <speaker>La-writ. </speaker>
               <l>Hang him, I'le kill him fasting. </l>
             </sp>
@@ -4649,7 +4644,7 @@
               <l>Beare your selfe in your language, smooth and gently, </l>
               <l>When your swords argue. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128730">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128730">
               <speaker>La-writ. </speaker>
               <l>'Pray sir spare your precepts. </l>
             </sp>
@@ -4657,7 +4652,7 @@
               <speaker>Gent. </speaker>
               <l>I have brought you sir— </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128770">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128770">
               <speaker>La-writ. </speaker>
               <l>'Tis very well, no words, </l>
               <pb n="eebo_img-60" xml:id="ep000404-129"/>
@@ -4667,7 +4662,7 @@
               <speaker>Sam. </speaker>
               <l>I thanke you, sir, few words. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128820">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128820">
               <speaker>La-writ. </speaker>
               <l>I'le kill you for your Uncles sake. </l>
             </sp>
@@ -4676,7 +4671,7 @@
               <l>I love you, </l>
               <l>I'le cut your throat, for your owne sake. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128870">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128870">
               <speaker>La-writ. </speaker>
               <l>I esteeme of you. </l>
             </sp>
@@ -4697,7 +4692,7 @@
               <speaker>Sam. </speaker>
               <l>I come fairely, to kill him honestly. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e128980">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e128980">
               <speaker>La-writ. </speaker>
               <l>Hang Spells, and Witchcrafts, </l>
               <l>I come to kill my Lords Nephew like a gentleman, </l>
@@ -4707,7 +4702,7 @@
               <speaker>Gent. </speaker>
               <l>This doublet is too stiffe. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129040">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129040">
               <speaker>La-writ. </speaker>
               <l>Off woo't, I hate it, </l>
               <l>And all such fortifications, feele my skin, </l>
@@ -4717,7 +4712,7 @@
               <speaker>Gent. </speaker>
               <l>'Tis no soft one. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129100">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129100">
               <speaker>La-wr. </speaker>
               <l>Off, woo't, I say: </l>
               <l>I'le fight with him, like a flead Catt. </l>
@@ -4745,7 +4740,7 @@
               <speaker>Cler. </speaker>
               <l>That's true, sir. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129260">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129260">
               <speaker>La-w. </speaker>
               <l>Base and degenerate cousin, doest not thou know </l>
               <l>An old, and tatter'd colours, to the enemy, </l>
@@ -4786,7 +4781,7 @@
               <l>When you have done, then stir your resolutions, </l>
               <l>Take to your Weapons bravely. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129510">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129510">
               <speaker>La-writ. </speaker>
               <l>'Tis too cold; </l>
               <l>This for a Summer fight. </l>
@@ -4808,7 +4803,7 @@
               <speaker>Cler. </speaker>
               <l>Where both stood up to th' chins. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129630">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129630">
               <speaker>La-writ. </speaker>
               <l>Then let's talke quickly, </l>
               <l>Pl— o' this circumstance. </l>
@@ -4843,7 +4838,7 @@
               <l>Call when y'are fit. <stage xml:id="ep000404-e129830">Ex. Cler. and Gent. </stage>
               </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129840">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129840">
               <speaker>La-writ. </speaker>
               <l>Why look you sir, you seem to be a gentleman, </l>
               <l>And you come in honour of your Uncle, boh, boh, 'tis very cold; </l>
@@ -4858,7 +4853,7 @@
               <l>Yet, take me with you: boh, boh, pestlence cold, </l>
               <l>Not altogether. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129950">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129950">
               <speaker>La-wr. </speaker>
               <l>Boh, boh, I say altogether. </l>
             </sp>
@@ -4866,7 +4861,7 @@
               <speaker>Sam. </speaker>
               <l>You say you know not what then: boh, boh, sir. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e129990">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e129990">
               <speaker>La-w. </speaker>
               <l>Sir me with your sword in your hand; </l>
               <l>You have a scurvy Uncle, you have a most scurvy cause, </l>
@@ -4876,7 +4871,7 @@
               <speaker>Sam. </speaker>
               <l>Boh, boh, what? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130050">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130050">
               <speaker>La-writ. </speaker>
               <l>A shitten scurvy Cousin. </l>
             </sp>
@@ -4885,7 +4880,7 @@
               <l>Our Swords? our swords? </l>
               <l>Thou art a dog, and like a dog: our swords? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130100">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130100">
               <speaker>La-w. </speaker>
               <l>Our weapons gentlemen: ha? wher's your second? </l>
             </sp>
@@ -4893,7 +4888,7 @@
               <speaker>Sam. </speaker>
               <l>Where's yours? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130140">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130140">
               <speaker>La-writ. </speaker>
               <l>So ho? our weapons? </l>
             </sp>
@@ -4902,7 +4897,7 @@
               <l>Wa, ha, ho, our weapons? </l>
               <l>Our Doublets and our weapons, I am dead. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130190">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130190">
               <speaker>La-w. </speaker>
               <l>Firsts? second? third? a pl— be woo' you gentlemen </l>
             </sp>
@@ -4910,7 +4905,7 @@
               <speaker>Sam. </speaker>
               <l>Are these the rules of honour? I am starv'd. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130230">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130230">
               <speaker>La-w. </speaker>
               <l>They are gone, and we are here; what shall we do? </l>
             </sp>
@@ -4918,7 +4913,7 @@
               <speaker>Sam. </speaker>
               <l>O for a couple of faggots. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130270">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130270">
               <speaker>La-writ. </speaker>
               <l>Hang a couple of faggots; </l>
               <l>Dar'st thou take a killing cold with me? </l>
@@ -4927,7 +4922,7 @@
               <speaker>Sam. </speaker>
               <l>I have it already. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130320">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130320">
               <speaker>La-writ. </speaker>
               <l>Rogues, theeves, boh boh, run away with our Doublets? </l>
               <l>To fight at Buffets now, 'twere such a May-game. </l>
@@ -4936,7 +4931,7 @@
               <speaker>Sam. </speaker>
               <l>There were no honour in't, p— on't, 'tis scurvy. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130370">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130370">
               <speaker>La-wr. </speaker>
               <l>Or to revenge my wrongs at fifty-cuffes. </l>
             </sp>
@@ -4944,7 +4939,7 @@
               <speaker>Sam. </speaker>
               <l>My Lord, mine Uncles cause, depend on Boxes? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130410">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130410">
               <speaker>La-wr. </speaker>
               <l>Let's goe in quest, if ever we recover 'em. </l>
             </sp>
@@ -4952,7 +4947,7 @@
               <speaker>Sam. </speaker>
               <l>I, come, our colds together, and our doublets. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130450">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130450">
               <speaker>La-w. </speaker>
               <l>Give me thy hand; thou art a valiant gentleman. </l>
               <l>I say, if ever we recover 'em— </l>
@@ -4961,7 +4956,7 @@
               <speaker>Sam. </speaker>
               <l>Let's get into a house and warme our hearts. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130500">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130500">
               <speaker>La-writ. </speaker>
               <l>There's ne'r a house within this mile, beat me, </l>
               <l>Kick me, and beat me as I goe, and I'le beat thee too, </l>
@@ -4972,7 +4967,7 @@
               <speaker>Sam. </speaker>
               <l>I am dull yet. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e130570">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e130570">
               <speaker>La-w. </speaker>
               <l>I'le warme thee I'le warme thee.— Gentlemen, </l>
               <l>Rogues, theeves, theeves: run, now I'le follow thee. <stage xml:id="ep000404-e130600">Exeūt. </stage>
@@ -5110,31 +5105,31 @@
               <l>This way, this way seeke delight. </l>
             </lg>
             <stage xml:id="ep000404-e131470">Enter a company of Gentlemen, like Ruffians. </stage>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e131480">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e131480">
               <speaker>1 Gent. </speaker>
               <l>They are ours but draw them on a little further </l>
               <l>From the foot-path into the neighbouring thicket, </l>
               <l>And we may do't, as safe, as in a Castle. </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e131520">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e131520">
               <speaker>2 Gent. </speaker>
               <l>They follow still; the President, Vertaigne </l>
               <l>Comes on a-pace, and Champernell limps after; </l>
               <l>The women, as if they had wings, and walk't </l>
               <l>Upon the ayre, fly to us. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e131570">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e131570">
               <speaker>1 Gent. </speaker>
               <l>They are welcome, </l>
               <l>We'll make 'em sport; make a stand here, all know </l>
               <l>How we are to proceed. </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e131610">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e131610">
               <speaker>2 Gen. </speaker>
               <l>We are instructed. <stage xml:id="ep000404-e131630">Still Musick within. </stage>
               </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e131640">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e131640">
               <speaker>1 Gent. </speaker>
               <l>One straine or two more. <stage xml:id="ep000404-e131660">Gent. off. </stage>
               </l>
@@ -5152,7 +5147,7 @@
               <l>Would we were at it once, </l>
               <l>I doe not walke, but dance. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e131760">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e131760">
               <speaker>1 Gen. </speaker>
               <l>You shall have dancing. </l>
             </sp>
@@ -5160,7 +5155,7 @@
               <speaker>Lam. </speaker>
               <l>Begin, and when I give the word— </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e131800">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e131800">
               <speaker>2 Gent. </speaker>
               <l>No more. </l>
               <l>Weare instructed. <stage xml:id="ep000404-e131830">Dance. </stage>
@@ -5171,7 +5166,7 @@
               <l>But win us fairely— <stage xml:id="ep000404-e131860">Now. </stage>
               </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e131870">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e131870">
               <speaker>1 Gent. </speaker>
               <l>O sir, We do not come to try your valour, </l>
               <l>But to possess you, yet we use you kindly </l>
@@ -5191,7 +5186,7 @@
               <l>My Staffe in my rest, and this good sword too, friend, </l>
               <l>How I would breake and scatter these. </l>
             </sp>
-            <sp who="#ep000404-all" xml:id="ep000404-e132010">
+            <sp who="#ep000404-gentlemen" xml:id="ep000404-e132010">
               <speaker>All Gent. </speaker>
               <l>Ha, ha, ha. </l>
             </sp>
@@ -5222,7 +5217,7 @@
               <l>Do you know me, or my place that you presume not </l>
               <l>To touch my person? </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e132200">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e132200">
               <speaker>1 Gent. </speaker>
               <l>If you are well, rest so, </l>
               <l>Provoke not angry waspes. </l>
@@ -5238,7 +5233,7 @@
               <l>(These Ladies honours, and our liberties safe) </l>
               <l>We freely give it. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e132320">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e132320">
               <speaker>1 Gent. </speaker>
               <l>You give but our owne. </l>
             </sp>
@@ -5280,7 +5275,7 @@
               <l>Will hold you play. </l>
             </sp>
             <stage xml:id="ep000404-e132610">Enter Dinant and Cleremont. </stage>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e132620">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e132620">
               <speaker>1 Gent. </speaker>
               <l>This hen longs to be troden. </l>
             </sp>
@@ -5293,7 +5288,7 @@
               <l>This way, I heard the cries </l>
               <l>Of distress'd women. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e132690">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e132690">
               <speaker>2 Gent. </speaker>
               <l>Stand upon your guard. </l>
             </sp>
@@ -5379,12 +5374,12 @@
               <speaker>Cham. </speaker>
               <l>They are lost yet, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e133180">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e133180">
               <speaker>1 Gen. </speaker>
               <l>You that would rescue others, shall now feele </l>
               <l>What they were borne to, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e133210">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e133210">
               <speaker>2 Gen. </speaker>
               <p>Hurry them away. <stage xml:id="ep000404-e133230">Exit. Manent Vertaigne, and Champernell. </stage>
               </p>
@@ -5406,7 +5401,7 @@
               <l>My searching vengeance. </l>
             </sp>
             <stage xml:id="ep000404-e133340">Enter La-writ and Sampson. </stage>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133350">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133350">
               <speaker>La-wr. </speaker>
               <l>O cold! o fearfull cold! plague of all seconds, </l>
             </sp>
@@ -5420,7 +5415,7 @@
               <l>The rogues have met with these two </l>
               <l>Upon my life and robd 'em </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133430">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133430">
               <speaker>La. Wr. </speaker>
               <l>As you are honourable Gentlemen, </l>
               <l>Impart unto a couple of cold combatants, </l>
@@ -5429,7 +5424,7 @@
               <speaker>Sam. </speaker>
               <l>My Lord, mine uncle as I live, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133480">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133480">
               <speaker>La-wr. </speaker>
               <l>Pox take him. </l>
               <l>How that word, has warm'd my mouth? </l>
@@ -5460,7 +5455,7 @@
               <l>Why 'tis such a thing I smell it Sir, I smell it, </l>
               <l>Such a ridiculous thing,— </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133670">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133670">
               <speaker>La-wr. </speaker>
               <l>Do you laugh at me my Lord? </l>
               <l>I am very cold, but that should not be laught at, </l>
@@ -5469,7 +5464,7 @@
               <speaker>Cham. </speaker>
               <l>What art thou? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133720">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133720">
               <speaker>La-wr. </speaker>
               <l>What art thou? </l>
             </sp>
@@ -5486,7 +5481,7 @@
               <speaker>Cham. </speaker>
               <l>Come hither little Gentleman, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133810">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133810">
               <speaker>La wr. </speaker>
               <l>Base is the slave commanded: come to me </l>
             </sp>
@@ -5508,7 +5503,7 @@
               <speaker>Cham. </speaker>
               <l>Is this the little Lawyer? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e133930">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e133930">
               <speaker>La. wr. </speaker>
               <l>You have a sword Sir, </l>
               <l>And I have none, you have a doublet too, </l>
@@ -5521,7 +5516,7 @@
               <l>Though he shew sleight here, &amp; at what gusts of danger </l>
               <l>His manhood has arrived, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134020">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134020">
               <speaker>La-wr. </speaker>
               <l>Bee't then. </l>
               <l>Mens faces are foolish, </l>
@@ -5536,7 +5531,7 @@
               <speaker>Cham. </speaker>
               <l>Say you so Sir? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134110">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134110">
               <speaker>La-wr. </speaker>
               <p>So niggle about your grave shins Lord Vertaigne too </p>
             </sp>
@@ -5544,7 +5539,7 @@
               <speaker>Sam. </speaker>
               <l>No more sweet Gentleman, no more of that Sir, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134150">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134150">
               <speaker>La-wr. </speaker>
               <l>I will have more, I must have more. </l>
             </sp>
@@ -5608,7 +5603,7 @@
               <speaker>Cham. </speaker>
               <l>Are you a Lawyer Sir? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134510">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134510">
               <speaker>La-Wr. </speaker>
               <l>I was, I was Sir, </l>
             </sp>
@@ -5618,7 +5613,7 @@
               <l>And your litigious blood, about your eares sirra, </l>
               <l>Why doe you fight and snarle? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134570">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134570">
               <speaker>La. Wr. </speaker>
               <l>I was possest. </l>
             </sp>
@@ -5630,7 +5625,7 @@
               <speaker>Vert. </speaker>
               <l>Ha ha ha. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134630">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134630">
               <speaker>La-Wr. </speaker>
               <l>Et tu Brute. </l>
             </sp>
@@ -5651,7 +5646,7 @@
               <speaker>Cham. </speaker>
               <l>Ly still, and doe not struggle, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134740">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134740">
               <speaker>La-Wr. </speaker>
               <l>I am patient, </l>
               <l>I never saw my blood before, it jades me, </l>
@@ -5663,7 +5658,7 @@
               <l>And send your challenges like thunderbolts, </l>
               <l>To men of honour'd place? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134820">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134820">
               <speaker>La-wr. </speaker>
               <l>I understand Sir, </l>
               <l>I never understood, before your beating, </l>
@@ -5673,7 +5668,7 @@
               <speaker>Cham. </speaker>
               <l>Does this worke on you? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134870">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134870">
               <speaker>La-wr. </speaker>
               <l>Yes. </l>
             </sp>
@@ -5681,7 +5676,7 @@
               <speaker>Cham. </speaker>
               <l>Doe you thanke me for't? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134910">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134910">
               <speaker>La-wr. </speaker>
               <l>As well as a beaten man can, </l>
             </sp>
@@ -5690,7 +5685,7 @@
               <l>And doe you promise me, </l>
               <l>To fall close to your trade againe? leave brawling </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e134960">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e134960">
               <speaker>La-wr. </speaker>
               <l>If you will give me leave and life, </l>
             </sp>
@@ -5698,7 +5693,7 @@
               <speaker>Cham. </speaker>
               <l>And aske this noble man forgivenesse? </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e135000">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e135000">
               <speaker>La-Wr. </speaker>
               <l>Hartily. </l>
             </sp>
@@ -5709,7 +5704,7 @@
               <l>Get you off quickly, and make no murmurs </l>
               <l>I shall pursue you else, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e135070">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e135070">
               <speaker>La-Wr. </speaker>
               <l>I have done sweet Gentlemen. <stage xml:id="ep000404-e135090">Exit. </stage>
               </l>
@@ -5724,7 +5719,7 @@
             </sp>
             <stage xml:id="ep000404-e135140">Exeunt. </stage>
             <stage xml:id="ep000404-e135150">Enter one Gent. and Lamira. </stage>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135160">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e135160">
               <speaker>1 Gent. </speaker>
               <l>Shall I entereate for what I may command? </l>
             </sp>
@@ -5732,7 +5727,7 @@
               <speaker>Lam. </speaker>
               <l>Thinke on my birth, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135200">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e135200">
               <speaker>1 Gent. </speaker>
               <l>Here I am only Noble. </l>
               <l>A King, and thou in my dominions foole, </l>
@@ -5746,7 +5741,7 @@
               <l>As to my Soveraigne, pay a Subjects duty, </l>
               <l>With prayers and teares, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135300">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e135300">
               <speaker>1 Gent. </speaker>
               <l>I like this humble carriage. </l>
               <l>I will walke by, but kneele you still and weepe too, </l>
@@ -5758,7 +5753,7 @@
               <l>Is there no mercie, heaven? </l>
             </sp>
             <stage xml:id="ep000404-e135370">Enter second Gent. and Anabell. </stage>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e135380">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e135380">
               <speaker>2 Gent. </speaker>
               <l>Not kisse you? </l>
               <l>I will kisse and kisse againe, </l>
@@ -5770,7 +5765,7 @@
               <l>Thus scorne and spit at thee; will you come on Sir, </l>
               <l>You are hot, there is a cooler, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135460">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e135460">
               <speaker>2 Gen. </speaker>
               <l>A virago? </l>
             </sp>
@@ -5780,7 +5775,7 @@
               <l>That here with whippes of steele in hell hereafter </l>
               <l>Scourge rape and theft, </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e135520">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e135520">
               <speaker>2 Gen. </speaker>
               <l>I'll try your deity, </l>
             </sp>
@@ -5790,7 +5785,7 @@
               <l>Against thy lust thy sword and thee a Beast. </l>
               <l>Call on for the encounter. </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e135580">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e135580">
               <speaker>2 Gen. </speaker>
               <l>Now what thinke you? <stage xml:id="ep000404-e135600">Throwes her and takes. her Knife. </stage>
               </l>
@@ -5801,7 +5796,7 @@
               <l>In me their power suffers, </l>
               <l>That should protect the Innocent, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135650">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e135650">
               <speaker>1 Gent. </speaker>
               <l>I am all fire, </l>
               <l>And thou shall quench it, and serve my pleasures, </l>
@@ -5817,14 +5812,14 @@
               <speaker>Ana. </speaker>
               <l>O my Cleremont! </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135750">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e135750">
               <speaker>1 Gent. </speaker>
               <l>Two are our slaves they call on, bring 'em forth </l>
               <l>As they are chaind together let them see </l>
               <l>And suffer in the object. </l>
             </sp>
             <stage xml:id="ep000404-e135790">Enter Dinant and Cleremont bound. By the rest of the Gent. </stage>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e135800">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e135800">
               <speaker>2 Gen. </speaker>
               <l>While we sit </l>
               <l>And without pitty heare 'em </l>
@@ -5843,11 +5838,11 @@
               <l>The baites they laied for us; were our owne honours, </l>
               <l>Which thus hath made us slaves too, worse then slaves </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e135930">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e135930">
               <speaker>2 Gen. </speaker>
               <l>He dies </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e135950">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e135950">
               <speaker>1 Gen. </speaker>
               <l>Pray hold, give him a little respite, </l>
             </sp>
@@ -5909,7 +5904,7 @@
               <l>That's comfort, </l>
               <l>But now.— </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e136390">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e136390">
               <speaker>2 Gent. </speaker>
               <l>Another that will have it offer'd, </l>
               <l>Compell it to be offer'd, shall enjoye it. </l>
@@ -5918,11 +5913,11 @@
               <speaker>Cler. </speaker>
               <l>A rogue, a ruffian. </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e136440">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e136440">
               <speaker>2 Gen. </speaker>
               <l>As you love your throat,— </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e136460">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e136460">
               <speaker>1 Gen. </speaker>
               <l>Away with them. </l>
             </sp>
@@ -5949,21 +5944,21 @@
               <speaker>Ana. </speaker>
               <l>Amen, amen. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e136610">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e136610">
               <speaker>1 Gent. </speaker>
               <l>Drag the slaves hence, for you </l>
               <l>A while I'll locke you up here study all wayes </l>
               <l>You can to please me, or the deed being done, </l>
               <l>You are but dead. </l>
             </sp>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e136660">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e136660">
               <speaker>2 Gen. </speaker>
               <l>This strong vault shall conteine you </l>
               <l>There thinke how many for your maydenhead </l>
               <l>Have pin'd away, and be prepared to loose it </l>
               <l>With penitence. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e136710">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e136710">
               <speaker>1 Gent. </speaker>
               <l>No humane help can save you. </l>
             </sp>
@@ -5972,7 +5967,7 @@
               <l>Helpe, helpe? </l>
             </sp>
             <pb n="eebo_img-62" xml:id="ep000404-133"/>
-            <sp who="#ep000404-gentleman_2" xml:id="ep000404-e136750">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e136750">
               <speaker>2 Gent. </speaker>
               <l>You cry in vaine, rockes cannot heare you. </l>
             </sp>
@@ -6169,7 +6164,7 @@
               <speaker>Ana. </speaker>
               <l>Has mischeif ne'r a tongue? </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e137940">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e137940">
               <speaker>1 Gent. </speaker>
               <l>Yes foolish woman, </l>
               <l>Our Captaines will is death. </l>
@@ -6270,7 +6265,7 @@
               <l>You excellent in honesty; o kinsmen! </l>
               <l>O Noble kinsmen! </l>
             </sp>
-            <sp who="#ep000404-gentleman" xml:id="ep000404-e138570">
+            <sp who="#ep000404-gentlemen" xml:id="ep000404-e138570">
               <speaker>Gen. </speaker>
               <l>Away with 'em. <stage xml:id="ep000404-e138590">Exit Verta. Beaup. and Gent. </stage>
               </l>
@@ -6502,7 +6497,7 @@
               </l>
               <l>With such great worth and vertue, </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e140120">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e140120">
               <speaker>1 Gen. </speaker>
               <l>Ever thinke us, </l>
               <l>Your servants Madam. </l>
@@ -6535,12 +6530,12 @@
               <l>With such a constant brow, that I am doubtfull, </l>
               <l>I should believe him too. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e140380">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e140380">
               <speaker>1 Gent. </speaker>
               <l>If we did well, </l>
               <l>We are rewarded. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e140410">
+            <sp who="#ep000404-gentleman-2" xml:id="ep000404-e140410">
               <speaker>2 Gent. </speaker>
               <l>Thankes but takes away </l>
               <l>From what was freely purpos'd. </l>
@@ -6554,7 +6549,7 @@
               <l>Nor Verdoone sents it: for the Ladyes, they </l>
               <l>Were easie to be gul'd. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e140510">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e140510">
               <speaker>1 Gent. </speaker>
               <l>'Twas but a jest, </l>
               <l>And yet the jest, may chance to breake our neckes </l>
@@ -6588,7 +6583,7 @@
               <l>So foolish, and improvident husbands, but </l>
               <l>'Twill yeild us meat, and wine. </l>
             </sp>
-            <sp who="#ep000404-gentleman_1" xml:id="ep000404-e140730">
+            <sp who="#ep000404-gentleman-1" xml:id="ep000404-e140730">
               <speaker>1 Gent. </speaker>
               <l>Let's ransack it, </l>
               <l>'Tis ours now, by the Law. </l>
@@ -6766,7 +6761,7 @@
               </l>
             </sp>
             <stage xml:id="ep000404-e141980">Enter La-writ, Sampson, Clyents. </stage>
-            <sp who="#ep000404-writ" xml:id="ep000404-e141990">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e141990">
               <speaker>La-writ. </speaker>
               <l>Do not perswade me gentle Monsier Sampson, </l>
               <l>I am a mortall man againe, a Lawyer, </l>
@@ -6778,7 +6773,7 @@
               <l>Sweet Monsier, </l>
               <l>Let but our honours teach us. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142060">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142060">
               <speaker>La-writ. </speaker>
               <l>Monsier Sampson </l>
               <l>My honourable friend, my valiant friend, </l>
@@ -6790,7 +6785,7 @@
               <speaker>Sam. </speaker>
               <l>Which calls upon us for a Reparation. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142140">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142140">
               <speaker>La-wr. </speaker>
               <l>I have, it cost me halfe a crowne, I beare it </l>
               <l>All over me, I beare it Monsier Sampson; </l>
@@ -6802,7 +6797,7 @@
               <l>It concernes you, </l>
               <l>You have bin swing'd. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142220">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142220">
               <speaker>La-writ. </speaker>
               <l>Let it concerne thee too; </l>
               <l>Goe and be beaten, speake scurvy words, as I did, </l>
@@ -6812,13 +6807,13 @@
               <l>Thy valiant armes and leggs beaten to Poultesses, </l>
               <l>Doe silly Sampson, doe. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e142300">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e142300">
               <speaker>1 Cly. </speaker>
               <l>You wrong the gentleman, </l>
               <l>To put him out of his right minde thus: </l>
               <l>You wrong us, and our Causes. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142340">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142340">
               <speaker>La-writ. </speaker>
               <l>Downe with him gentlemen, </l>
               <l>Turne him, and beat him, if he breake our peace, </l>
@@ -6830,12 +6825,12 @@
               <speaker>Sam. </speaker>
               <l>And can the brave La-writ— </l>
             </sp>
-            <sp who="#ep000404-client_2" xml:id="ep000404-e142420">
+            <sp who="#ep000404-client-2" xml:id="ep000404-e142420">
               <speaker>2 Cly. </speaker>
               <l>Tempt him no further, </l>
               <l>Be warn'd and say no more. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142450">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142450">
               <speaker>La-writ. </speaker>
               <l>If thou doest, Sampson, </l>
               <l>Thou seest my Mirmidons, I'le let 'em loose, </l>
@@ -6845,7 +6840,7 @@
               <speaker>Sam. </speaker>
               <l>I say nothing, sir, but I could wish— </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142510">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142510">
               <speaker>La-wr. </speaker>
               <l>They shall destroy thee wishing; </l>
               <l>There's ne'r a man of these, but have lost ten Causes, </l>
@@ -6857,11 +6852,11 @@
               <l>Keep thy hand from thy sword, and from thy Laundresse placket, </l>
               <l>And thou wilt live long. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e142610">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e142610">
               <speaker>1 Cly. </speaker>
               <l>Give eare, and be instructed. </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142630">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142630">
               <speaker>La-writ. </speaker>
               <l>I find I am wiser then a Justice of Peace now, </l>
               <l>Give me the wisdome that's beaten into a man </l>
@@ -6872,7 +6867,7 @@
               <l>Yes, yes, </l>
               <l>Thy learned precepts have inchanted me, </l>
             </sp>
-            <sp who="#ep000404-writ" xml:id="ep000404-e142700">
+            <sp who="#ep000404-la-writ" xml:id="ep000404-e142700">
               <speaker>La-writ. </speaker>
               <l>Goe my son Sampson, I have now begot thee, </l>
               <l>I'le send thee causes; speake to thy Lord, and live. </l>
@@ -6883,7 +6878,7 @@
               <l>Farewell; come chearly boyes, about our businesse, </l>
               <l>Now welcome tongue againe, hang Swords. </l>
             </sp>
-            <sp who="#ep000404-client_1" xml:id="ep000404-e142790">
+            <sp who="#ep000404-client-1" xml:id="ep000404-e142790">
               <speaker>1 Cly. </speaker>
               <l>Sweet Advocate. <stage xml:id="ep000404-e142810">Exeunt. </stage>
               </l>
@@ -6945,7 +6940,7 @@
               <l>Hast and acquaint my Lady, <stage xml:id="ep000404-e143220">Exit Nurse and Charl. </stage>
               </l>
             </sp>
-            <sp who="#ep000404-pr" xml:id="ep000404-e143230">
+            <sp who="#ep000404-provost" xml:id="ep000404-e143230">
               <speaker>Pro. </speaker>
               <l>Wonderous strainge, </l>
             </sp>
@@ -6957,7 +6952,7 @@
               <speaker>Cham. </speaker>
               <l>On mine honour, </l>
             </sp>
-            <sp who="#ep000404-pr" xml:id="ep000404-e143290">
+            <sp who="#ep000404-provost" xml:id="ep000404-e143290">
               <speaker>Pro. </speaker>
               <l>I have bin provost-Marshall twenty yeares, </l>
               <l>And have trussed up a thousand of these rascalls, </l>
@@ -6969,7 +6964,7 @@
               <l>We to our cost have, </l>
               <l>But will you search the wood </l>
             </sp>
-            <sp who="#ep000404-pr" xml:id="ep000404-e143370">
+            <sp who="#ep000404-provost" xml:id="ep000404-e143370">
               <speaker>Pro. </speaker>
               <l>It is beset, </l>
               <l>They cannot scape us, Nothing makes me wonder, </l>

@@ -102,72 +102,66 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000083-gorlois">
+          <person xml:id="ep000083-dux-pictorum" sex="MALE">
+            <persName>Dux Pictorum</persName>
+          </person>
+          <person xml:id="ep000083-gorlois" sex="MALE">
             <persName>Gorlois</persName>
           </person>
-          <person xml:id="ep000083-guenevora">
+          <person xml:id="ep000083-guenevora" sex="FEMALE">
             <persName>Guenevora</persName>
           </person>
-          <person xml:id="ep000083-fronia">
+          <person xml:id="ep000083-fronia" sex="FEMALE">
             <persName>Fronia</persName>
           </person>
-          <person xml:id="ep000083-angharad">
+          <person xml:id="ep000083-angharad" sex="FEMALE">
             <persName>Angharad</persName>
           </person>
-          <person xml:id="ep000083-mordred">
+          <person xml:id="ep000083-mordred" sex="MALE">
             <persName>Mordred</persName>
           </person>
-          <person xml:id="ep000083-conan">
+          <person xml:id="ep000083-conan" sex="MALE">
             <persName>Conan</persName>
           </person>
-          <person xml:id="ep000083-unidentified">
-            <persName>Unidentified</persName>
-          </person>
-          <person xml:id="ep000083-arthur">
+          <person xml:id="ep000083-arthur" sex="MALE">
             <persName>Arthur</persName>
           </person>
-          <person xml:id="ep000083-herald">
+          <person xml:id="ep000083-herald" sex="MALE">
             <persName>Herald</persName>
           </person>
-          <person xml:id="ep000083-gawin">
+          <person xml:id="ep000083-gawin" sex="MALE">
             <persName>Gawin</persName>
           </person>
-          <person xml:id="ep000083-gilla">
+          <person xml:id="ep000083-gilla" sex="MALE">
             <persName>Gilla</persName>
           </person>
-          <person xml:id="ep000083-cheldrich">
+          <person xml:id="ep000083-cheldrich" sex="MALE">
             <persName>Cheldrich</persName>
           </person>
-          <person xml:id="ep000083-pictland">
-            <persName>Pictland</persName>
-          </person>
-          <person xml:id="ep000083-cador">
+          <person xml:id="ep000083-cador" sex="MALE">
             <persName>Cador</persName>
           </person>
-          <person xml:id="ep000083-howe">
+          <person xml:id="ep000083-howe" sex="MALE">
             <persName>Howe</persName>
           </person>
-          <person xml:id="ep000083-soldier">
+          <person xml:id="ep000083-soldier" sex="MALE">
             <persName>Soldier</persName>
           </person>
-          <person xml:id="ep000083-aschillus">
+          <person xml:id="ep000083-aschillus" sex="MALE">
             <persName>Aschillus</persName>
           </person>
-          <person xml:id="ep000083-king">
-            <persName>King</persName>
+          <person xml:id="ep000083-king" sex="MALE">
+            <persName>King of Norway</persName>
           </person>
-          <person xml:id="ep000083-gildas">
+          <person xml:id="ep000083-gildas" sex="MALE">
             <persName>Gildas</persName>
           </person>
-          <person xml:id="ep000083-gona">
-            <persName>Gona</persName>
-          </person>
-          <person xml:id="ep000083-nuntius">
+          <person xml:id="ep000083-nuntius" sex="MALE">
             <persName>Nuntius</persName>
           </person>
-          <person xml:id="ep000083-chorus">
-            <persName>Chorus</persName>
-          </person>
+          <personGrp xml:id="ep000083-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -180,8 +174,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000083"
-                    passive="http://www.wikidata.org/entity/Q7751711"/>
+                   active="https://dracor.org/entity/ep000083"
+                   passive="http://www.wikidata.org/entity/Q7751711"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -1137,7 +1131,7 @@
         <div n="1" type="scene" xml:id="ep000083-e105720">
           <head>THE SECOND act and first Scene. </head>
           <stage xml:id="ep000083-e105730">Nuntius. </stage>
-          <sp who="#ep000083-unidentified" xml:id="ep000083-e105740">
+          <sp who="#ep000083-nuntius" xml:id="ep000083-e105740">
             <speaker>VNT. </speaker>
             <l>LO here at length the stately type of Troy, </l>
             <l>And Brytain land the promist seate of Brute. </l>
@@ -1841,7 +1835,7 @@
             <l>The Albane Crowne I giue to you and yours. </l>
           </sp>
           <pb n="20" xml:id="ep000083-016-a"/>
-          <sp who="#ep000083-pictland" xml:id="ep000083-e110660">
+          <sp who="#ep000083-dux-pictorum" xml:id="ep000083-e110660">
             <speaker>PICT. </speaker>
             <l>Your highnes bountie in so high degreé, </l>
             <l>Were cause inough to moue me to my best. </l>
@@ -2767,7 +2761,7 @@
             <l>Then enter to discourse vpon their cause, </l>
             <l>And erre as wide in wordes, as they in deédes. </l>
           </sp>
-          <sp who="#ep000083-gona" xml:id="ep000083-e118000">
+          <sp who="#ep000083-conan" xml:id="ep000083-e118000">
             <speaker>GONA. </speaker>
             <l>And Lo: to satisfie your wish therein, </l>
             <l>Where comes a Souldier sweating from the Camps. </l>

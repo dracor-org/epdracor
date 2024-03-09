@@ -92,14 +92,11 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000366-concord">
+          <person xml:id="ep000366-concord" sex="FEMALE">
             <persName>Concord</persName>
           </person>
-          <person xml:id="ep000366-genius">
+          <person xml:id="ep000366-genius" sex="MALE">
             <persName>Genius</persName>
-          </person>
-          <person xml:id="ep000366-both">
-            <persName>Both</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -113,8 +110,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000366"
-                    passive="http://www.wikidata.org/entity/Q7405376"/>
+                   active="https://dracor.org/entity/ep000366"
+                   passive="http://www.wikidata.org/entity/Q7405376"/>
     </listRelation>
   </standOff>
   <text>
@@ -253,7 +250,7 @@
         </floatingText>
         <pb xml:id="ep000366-007-a"/>
         <p>Being arrived at the Earth, and descended from the Chariot, they sing this short Dialogue, and then departed severall wayes to incite the beloved people to honest pleasures and recreations which have ever beene peculiar to this Nation. </p>
-        <sp who="#ep000366-both" xml:id="ep000366-e101000">
+        <sp who="#ep000366-concord #ep000366-genius" xml:id="ep000366-e101000">
           <speaker>Both. </speaker>
           <l>O who but he, could thus endure </l>
           <l>To live, and governe in a sulleine age, </l>

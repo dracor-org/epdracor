@@ -79,68 +79,59 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000107-another">
+          <person xml:id="ep000107-mrs-mavis" sex="FEMALE">
+            <persName>Mrs Mavis</persName>
+          </person>
+          <person xml:id="ep000107-another" sex="MALE">
             <persName>Another</persName>
           </person>
-          <person xml:id="ep000107-cleremont">
-            <persName>Cleremont</persName>
-          </person>
-          <person xml:id="ep000107-boy">
+          <person xml:id="ep000107-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000107-truewit">
+          <person xml:id="ep000107-cleremont" sex="MALE">
+            <persName>Cleremont</persName>
+          </person>
+          <person xml:id="ep000107-truewit" sex="MALE">
             <persName>Truewit</persName>
           </person>
-          <person xml:id="ep000107-dauphine">
+          <person xml:id="ep000107-dauphine" sex="MALE">
             <persName>Dauphine</persName>
           </person>
-          <person xml:id="ep000107-la-fool">
+          <person xml:id="ep000107-la-fool" sex="MALE">
             <persName>La Fool</persName>
           </person>
-          <person xml:id="ep000107-morose">
-            <persName>Morose</persName>
-          </person>
-          <person xml:id="ep000107-mute">
+          <person xml:id="ep000107-mute" sex="MALE">
             <persName>Mute</persName>
           </person>
-          <person xml:id="ep000107-cutbeard">
+          <person xml:id="ep000107-morose" sex="MALE">
+            <persName>Morose</persName>
+          </person>
+          <person xml:id="ep000107-cutbeard" sex="MALE">
             <persName>Cutbeard</persName>
           </person>
-          <person xml:id="ep000107-daw">
-            <persName>Daw</persName>
-          </person>
-          <person xml:id="ep000107-epicoene">
+          <person xml:id="ep000107-epicoene" sex="FEMALE">
             <persName>Epicoene</persName>
           </person>
-          <person xml:id="ep000107-otter">
-            <persName>Otter</persName>
+          <person xml:id="ep000107-daw" sex="MALE">
+            <persName>Daw</persName>
           </person>
-          <person xml:id="ep000107-mrs_otter">
+          <person xml:id="ep000107-mrs-otter" sex="FEMALE">
             <persName>Mrs Otter</persName>
           </person>
-          <person xml:id="ep000107-unassigned">
-            <persName>Unassigned</persName>
+          <person xml:id="ep000107-otter" sex="MALE">
+            <persName>Otter</persName>
           </person>
-          <person xml:id="ep000107-parson">
+          <person xml:id="ep000107-parson" sex="MALE">
             <persName>Parson</persName>
           </person>
-          <person xml:id="ep000107-haughty">
+          <person xml:id="ep000107-haughty" sex="FEMALE">
             <persName>Haughty</persName>
           </person>
-          <person xml:id="ep000107-centaur">
+          <person xml:id="ep000107-centaur" sex="FEMALE">
             <persName>Centaur</persName>
           </person>
-          <person xml:id="ep000107-mrs.">
-            <persName>Mrs.</persName>
-          </person>
-          <person xml:id="ep000107-trusty">
+          <person xml:id="ep000107-trusty" sex="FEMALE">
             <persName>Trusty</persName>
-          </person>
-          <person xml:id="ep000107-epicone">
-            <persName>Epicone</persName>
-          </person>
-          <person xml:id="ep000107-all">
-            <persName>All</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -154,8 +145,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000107"
-                    passive="http://www.wikidata.org/entity/Q549927"/>
+                   active="https://dracor.org/entity/ep000107"
+                   passive="http://www.wikidata.org/entity/Q549927"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -288,7 +279,7 @@
           <div n="1" type="scene" xml:id="ep000107-e101040">
             <head>Scene I. </head>
             <stage xml:id="ep000107-e101050">Clerimont, Boy, True-wit. </stage>
-            <sp who="#ep000107-cleremont" xml:id="ep000107-e101060">
+            <sp xml:id="ep000107-e101060">
               <p>
                 <stage xml:id="ep000107-e101080">He comes out making himselfe ready .</stage>HA' you got the Song yet perfect I ga'you, Boy? </p>
             </sp>
@@ -417,7 +408,7 @@
           <div n="2" type="scene" xml:id="ep000107-e101710">
             <head>Act I. Scene II. </head>
             <stage xml:id="ep000107-e101720">Dauphine, Tru-wit, Clerimont. </stage>
-            <sp who="#ep000107-dauphine" xml:id="ep000107-e101730">
+            <sp xml:id="ep000107-e101730">
               <p>HOw now! what alle you Sirs? dumbe? </p>
             </sp>
             <sp who="#ep000107-truewit" xml:id="ep000107-e101750">
@@ -559,7 +550,7 @@
           <div n="4" type="scene" xml:id="ep000107-e102420">
             <head>Act I. Scene IIII. </head>
             <stage xml:id="ep000107-e102430">La-Foole Clerimont, Dauphine. </stage>
-            <sp who="#ep000107-la-fool" xml:id="ep000107-e102440">
+            <sp xml:id="ep000107-e102440">
               <p>S'Aue, deare Sir Dauphine, honor'd Master Clerimont. </p>
             </sp>
             <sp who="#ep000107-cleremont" xml:id="ep000107-e102460">
@@ -682,7 +673,7 @@
           <div n="1" type="scene" xml:id="ep000107-e103030">
             <head>Scene I. </head>
             <stage xml:id="ep000107-e103040">Morose, Mute. </stage>
-            <sp who="#ep000107-morose" xml:id="ep000107-e103050">
+            <sp xml:id="ep000107-e103050">
               <p>CAnnot I, yet, finde out a more compendious method, then by this Trunke, to saue my Seruants the labour of speech, and mine eares, the discord of sounds? Let me see: all Discourses, but mine owne, afflict mee, they seeme harsh, <pb xml:id="ep000107-008-b"/>impertinent, and irkesome. Is it not possible, that thou should'st answere me, by Signes, and, I apprehend thee, fellow? speake not, though I question you. You haue taken the Ring, off from the street doore, as I bad you? answere mee not, by speech, but by silence; vnlesse, <stage xml:id="ep000107-e103070">At the breaches, still the fellow makes legs, or signes </stage>it be otherwise(—) very good. And, you haue fastened on a thick quilt, or flock-bed, on the out-side of the doore; that if they knocke with their Daggers, or with Brick-bats, they can make no noyse? but with your legge, your answere, vnlesse it bee otherwise(—) very good. This is not, onely, fit modestie in a Seruant, but good state, and discretion in a Master. And you haue beene with Cutberd, the Barber, to haue him come to mee?(—) good. And, hee will come presently? answere mee not but with your legge, vnlesse it bee otherwise: if it bee otherwise, shake your head, or shrugge(—) so. Your Italian, and Spaniard, are wise in these! and it is a frugall, and comely grauitie. How long will it bee, ere Cutberd come? stay, if an houre, hold vp your whole hand; if halfe an houre, two fingers; if a quarter, one;(—) good: halfe a quarter? 'tis well. And haue you giuen him a Key, to come in without knocking?(—) good. And, is the Lock oyld, and the Hinges, to day?(—) good. And the Quilting of the stayres no where worne out, and bare(—) very good. I see, by much doctrine, and impulsion, it may be effected: stand by. The Turke, in this diuine discipline, is admirable, exceeding all the Potentates of the Earth; still waited on by Mutes; and all his Commands so executed; yea, euen in the Warre (as I haue heard) and in his Marches, most of his Charges, and directions, giuen by Signes, and with silence: and exquisite art! and I am heartily asham'd, and angry oftentimes, that the Princes of Christendome, should suffer a Barbarian, to transcend 'hem in so high a point of felicitie. I will practize it, hereafter. How now? oh! oh! what Villaine? what Prodigie of Mankinde is that? looke. Oh! <stage xml:id="ep000107-e103080">One winds a Horne without. Againe .</stage>cut his throat, cut his throat: what Murderer, Hell-hound, Deuill can this be? </p>
             </sp>
             <pb xml:id="ep000107-009-a"/>
@@ -706,7 +697,7 @@
           <div n="2" type="scene" xml:id="ep000107-e103170">
             <head>Act II. Scene II. </head>
             <stage xml:id="ep000107-e103180">True-wit, Morose, Cutherd. </stage>
-            <sp who="#ep000107-truewit" xml:id="ep000107-e103190">
+            <sp xml:id="ep000107-e103190">
               <p>BY your leaue, Sir (I am a stranger here) is your name, Master Morose? is your name, Master Morose? Fishes! Pythagoreans all! this is strange! What say you, Sir, nothing? Has Harpocrates been here, with his Club, among you? well Sir, I will beleeue you to be the man, at this time: I will venter vpon you, Sir. Your friends at Court commend 'hem to you, Sir— </p>
             </sp>
             <stage xml:id="ep000107-e103210">(Mor. O men! O manners! was there euer such an impudence?) </stage>
@@ -804,7 +795,7 @@
           <div n="3" type="scene" xml:id="ep000107-e103690">
             <head>Act II. Scene III. </head>
             <stage xml:id="ep000107-e103700">Daw, Clerimont, Dauphine, Epicoene. </stage>
-            <sp who="#ep000107-daw" xml:id="ep000107-e103710">
+            <sp xml:id="ep000107-e103710">
               <p>NAy, and she will, let her refuse, at her owne charges: 'tis nothing to me, Gentlemen. But she will not be inuited to the like Feasts, or Guests, euery day. </p>
             </sp>
             <sp who="#ep000107-cleremont" xml:id="ep000107-e103730">
@@ -1117,7 +1108,7 @@
           <div n="4" type="scene" xml:id="ep000107-e105310">
             <head>Act II. Scene IIII. </head>
             <stage xml:id="ep000107-e105320">Clerimont, Tru-wit, Dauphine, Cutherd, Daw, Epicoene. </stage>
-            <sp who="#ep000107-cleremont" xml:id="ep000107-e105330">
+            <sp xml:id="ep000107-e105330">
               <p>WHere hast thou beene, in the name of madnesse! thus accoutred with thy Horne? </p>
             </sp>
             <sp who="#ep000107-truewit" xml:id="ep000107-e105350">
@@ -1399,7 +1390,7 @@
             <pb xml:id="ep000107-017-b"/>
             <head>Act II. Scene V. </head>
             <stage xml:id="ep000107-e106720">Morose, Epicoene, Cutberd, Mute. </stage>
-            <sp who="#ep000107-morose" xml:id="ep000107-e106730">
+            <sp xml:id="ep000107-e106730">
               <p>WElcome Cutberd; draw neer with your faire charge: and, in her eare, softly intreat her to vnmasque(—) So. Is the doore shut?(—) inough. Now, Cutberd, with the same discipline I vse to my Family, I will question you. As I conceiue, Cutberd, this Gentlewoman is shee, you haue prouided, and brought, in hope shee will fit mee in the place and person of a Wise? Answere mee not, but with your legge, vnlesse it bee otherwise:(—) very well done, Cutberd. I conceiue, besides, Cutberd, you haue beene pre-acquainted with her birth, education, and qualities, or else you would not preferre her to my acceptance, in the waighty consequence of Marriage.(—) this I conceiue, Cutberd. Answer me not but with your legge, vnlesse it be otherwise.(—) Very well done Cutberd. Giue aside now a little, <stage xml:id="ep000107-e106750">He goes about her, and viewes her .</stage>and leaue me to examine her condition, and aptitude to my affection. Shee is exceeding faire, and of a speciall good fauour; a sweete composition, or harmony of limmes: her temper of beauty has the true height of my bloud. The Knaue hath exceedingly well fitted me without: I will now try her within. Come neere, faire Gentlewoman: let not my behauiour seeme rude, though vnto you, being rare, it may happily appeare strange.(—) Nay, Lady, <stage xml:id="ep000107-e106760">She curtsies .</stage>you may speake, though Cutberd, and my man, might not: for, of all sounds, onely, the sweet voyce of a faire Lady has the just length of mine eare. I beseech you, say Lady, out of the first fire of meeting eyes, (they say) loue is stricken; doe you feele any such motion, sodenly shot into you, from any part you see in me? ha, Lady?(—) Alasse, Lady, these answers by silent curt'sies, from you, are too courtlesse, and simple. <stage xml:id="ep000107-e106770">Curt'sie .</stage>I haue euer had my breeding in Court: and shee that shall be <pb xml:id="ep000107-018-a"/>my Wife, must be accomplished with Courtly, and audacious ornaments. Can you speake, Lady? </p>
             </sp>
             <sp who="#ep000107-epicoene" xml:id="ep000107-e106780">
@@ -1455,7 +1446,7 @@
           <div n="6" type="scene" xml:id="ep000107-e107040">
             <head>Act II. Scene VI. </head>
             <stage xml:id="ep000107-e107050">Tru-wit, Dauphine, Clerimont, Cutberd. </stage>
-            <sp who="#ep000107-truewit" xml:id="ep000107-e107060">
+            <sp xml:id="ep000107-e107060">
               <p>ARe you sure he is not gone by? </p>
             </sp>
             <sp who="#ep000107-dauphine" xml:id="ep000107-e107080">
@@ -1612,10 +1603,10 @@
           <div n="1" type="scene" xml:id="ep000107-e107810">
             <head>Scene I. </head>
             <stage xml:id="ep000107-e107820">Otter, Mrs. Otter, Tru-wit, Clerimont, Dauphine. </stage>
-            <sp who="#ep000107-otter" xml:id="ep000107-e107830">
+            <sp xml:id="ep000107-e107830">
               <p>NAy, good Princesse, heare me pauca verba. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e107850">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e107850">
               <speaker>Mrs. Ot. </speaker>
               <p>By that light, I'll a' you chain'd vp, with your Bul-dogges, and Beare-dogges, if you be not ciuill the sooner. I'll send you to kennell, i'faith. You were best bait me with your Bull, Beare, and Horse? Neuer a time, that the Courtiers, or Collegiates come to the House, but you make it a Shrouetuesday! I would haue you get your Whitsontide-Veluet-Cap, and your staffe i'your hand, to entertaine 'hem: yes in troth, doe. </p>
             </sp>
@@ -1623,7 +1614,7 @@
               <speaker>Ott. </speaker>
               <p>Not so Princesse, neither, but vnder correction, sweet Princesse, gi'me leaue— these things I am knowne to the Courtiers by. It is reported to them for my humour, and they receiue it so, and doe expect it. Tom Otters Bull, Beare, and Horse is knowne all ouer England, in rerum natura. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e107890">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e107890">
               <speaker>Mrs. Ot. </speaker>
               <p>Fore me, I will na-ture 'hem ouer to Paris-Garden, and na-ture you thether too, if you pronounce them againe. Is a Beare a fit Beast, or a Bull, to mixe in societie with great Ladies? thinke i'your discretion, in any good politie. </p>
             </sp>
@@ -1631,7 +1622,7 @@
               <speaker>Ott. </speaker>
               <p>The Horse then, good Princesse. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e107930">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e107930">
               <speaker>Mrs. Ot. </speaker>
               <p>Well, I am contented for the Horse: they loue to be well hors'd, I know. I loue it my selfe. </p>
             </sp>
@@ -1639,7 +1630,7 @@
               <speaker>Ott. </speaker>
               <p>And it is a delicate fine Horse. Poetarum Pegasus. Vnder correction, Princesse, Iupiter did turne himselfe into a— Taurus, or Bull, vnder correction, good Princesse. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e107970">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e107970">
               <speaker>Mrs. Ot. </speaker>
               <p>By my integritiy, I'll send you ouer to the Banke-side, I'll commit you to the Master of the Garden, if I heare but a sillable more. Must my house, or my roofe, bee polluted with the scent of Beares, and Buls, when it is perfum'd <pb xml:id="ep000107-021-a"/>for great Ladies? Is this according to the instrument, when I marryed you? That I would be Princesse, and raigne in mine owne House: and you would bee my subiect, and obey me? What did you bring me, should make you thus peremptory? Doe I allow you your halfe-crowne a day, to spend, where you will, among your Gamesters, to vexe and torment me, at such times as these? Who giues you your maintenance, I pray you? who allowes you your Horse-meat, and Mans-meat? your three Sutes of Apparell a yeere? your foure paire of Stockings, one Silke, three Worsted? your cleane Linnen, your Bands, and Cuffes when I can get you to weare 'hem? 'Tis mar'l you ha'hem on now. Who graces you with Courtiers, or great Personages, to speake to you out of their Coaches, and come home to your House? Were you euer so much as look'd vpon by a Lord, or a Lady, before I marryed you: but on the Easter, or Whitson-holy-dayes? and then out at the Banquetting-house windore, when Ned Whiting, or George Stone, were at the stake? </p>
             </sp>
@@ -1647,7 +1638,7 @@
               <speaker>Tru. </speaker>
               <p>(For Gods sake, let's goe staue her off him.) </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108010">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108010">
               <speaker>Mrs. Ot. </speaker>
               <p>Answere mee to that. And did not I take you vp from thence, in an olde Greasie Buffe-Doublet, with Points; and Greene Vellet Sleeues, out at the elbowes? you forget this. </p>
             </sp>
@@ -1655,7 +1646,7 @@
               <speaker>Tru. </speaker>
               <p>(Shee'll worry him, if we helpe not in time.) </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108050">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108050">
               <speaker>Mrs. Ot. </speaker>
               <p>O, here are some o' the Gallants! Goe to, behaue your selfe distinctly, and with good moralitie; Or, I protest, I'll take away your exhibition. </p>
             </sp>
@@ -1663,11 +1654,11 @@
           <div n="2" type="scene" xml:id="ep000107-e108070">
             <head>Act III. Scene II. </head>
             <stage xml:id="ep000107-e108080">Tru-wit, Mrs. Otter, Cap. Otter, Clerimont, Dauphine, Cutberd. </stage>
-            <sp who="#ep000107-truewit" xml:id="ep000107-e108090">
+            <sp xml:id="ep000107-e108090">
               <p>BY your leaue, faire Mistris Otter, I'll bee bold to enter these Gentlemen in your acquaintance. </p>
             </sp>
             <pb xml:id="ep000107-021-b"/>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108110">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108110">
               <speaker>Mrs. Ot. </speaker>
               <p>It shall not be obnoxious, or difficill, Sir. </p>
             </sp>
@@ -1679,7 +1670,7 @@
               <speaker>Ott. </speaker>
               <p>Sir. Sic visum superis. </p>
             </sp>
-            <sp who="#ep000107-unassigned" xml:id="ep000107-e108170">
+            <sp xml:id="ep000107-e108170">
               <speaker>Mrs. Ott. </speaker>
               <p>I would you would but intimate 'hem, doe. Goe your wayes in, and get Tosts, and Butter, made for the Wood-cocks. That's a fit Prouince for you. </p>
             </sp>
@@ -1699,7 +1690,7 @@
               <speaker>Tru. </speaker>
               <p>No Anabaptist euer rail'd with the like licence: but marke her Language in the meane-time, I beseech you. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108270">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108270">
               <speaker>Mrs. Ot. </speaker>
               <p>Gentlemen, you are very aptly come. My Cosin, Sir Amorous, will be here briefly. </p>
             </sp>
@@ -1707,7 +1698,7 @@
               <speaker>Tru. </speaker>
               <p>In good time, Lady. Was not Sir Iohn Daw here, to aske for him, and the company? </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108310">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108310">
               <speaker>Mrs. Ot. </speaker>
               <p>I cannot assure you, Mr. Tru-wit. Here was a very melancholy Knight in a Ruffe, that demanded my subiect for some body, a Gentleman, I thinke. </p>
             </sp>
@@ -1715,7 +1706,7 @@
               <speaker>Cle. </speaker>
               <p>I, that was he, Lady. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108350">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108350">
               <speaker>Mrs. Ot. </speaker>
               <p>But he departed straight, I can resolue you. </p>
             </sp>
@@ -1727,7 +1718,7 @@
               <speaker>Tru. </speaker>
               <p>O, Sir! she is the onely authenticall Courtier, that is not naturally bred one, in the Citie. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108410">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108410">
               <speaker>Mrs. Ot. </speaker>
               <p>You haue taken that report vpon trust, Gentlemen. </p>
             </sp>
@@ -1735,7 +1726,7 @@
               <speaker>Tru. </speaker>
               <p>No, I assure you, the Court gouernes it so, Lady, in your behalfe. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108450">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108450">
               <speaker>Mrs. Ot. </speaker>
               <p>I am the Seruant of the Court, and Courtiers, Sir. </p>
             </sp>
@@ -1743,7 +1734,7 @@
               <speaker>Tru. </speaker>
               <p>They are rather your Idolaters. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e108490">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e108490">
               <speaker>Mrs Ot. </speaker>
               <p>Not so, Sir. </p>
             </sp>
@@ -1945,7 +1936,7 @@
           <div n="4" type="scene" xml:id="ep000107-e109480">
             <head>Act III. Scene IIII. </head>
             <stage xml:id="ep000107-e109490">Morose, Epicaene, Parson, Cutberd. </stage>
-            <sp who="#ep000107-morose" xml:id="ep000107-e109500">
+            <sp xml:id="ep000107-e109500">
               <p>SIr, there's an Angell for your selfe, and a brace of Angels for your cold. Muse not at this mannage of my bounty, It is fit, we should thanke Fortune, double to Nature, for any benefit she conferres vpon vs; besides, it is your imperfection, but my solace. <stage xml:id="ep000107-e109520">The Parson speakes, as hauing a cold. </stage>
               </p>
             </sp>
@@ -2063,7 +2054,7 @@
           <div n="5" type="scene" xml:id="ep000107-e110090">
             <head>Act III. Scene V. </head>
             <stage xml:id="ep000107-e110100">Tru-wit, Morose, Epicoene. </stage>
-            <sp who="#ep000107-truewit" xml:id="ep000107-e110110">
+            <sp xml:id="ep000107-e110110">
               <p>WHere's Master Morose? </p>
             </sp>
             <sp who="#ep000107-morose" xml:id="ep000107-e110130">
@@ -2241,7 +2232,7 @@
               <speaker>Tru. </speaker>
               <p>Beleeue it Madame, and Mistris Mauis, shee will sustaine her part. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e111000">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e111000">
               <speaker>Mau. </speaker>
               <p>I'll tell you that, when I haue talk'd with her, and try'd her. </p>
             </sp>
@@ -2249,7 +2240,7 @@
               <speaker>Hau. </speaker>
               <p>Use her very ciuilly, Mauis. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e111040">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e111040">
               <speaker>Mau. </speaker>
               <p>So I will, Madame. </p>
             </sp>
@@ -2330,7 +2321,7 @@
           <div n="7" type="scene" xml:id="ep000107-e111420">
             <head>Act III. Scene VII. </head>
             <stage xml:id="ep000107-e111430">Clerimont, Morose, Tru-wit, Dauphine, La-Foole, Otter, Mrs. Otter, &amp;c. </stage>
-            <sp who="#ep000107-cleremont" xml:id="ep000107-e111440">
+            <sp xml:id="ep000107-e111440">
               <p>BY your leaue, Ladies. Doe you want any Musique? I haue brought you varietie of noyses. Play, Sirs, all of you. </p>
             </sp>
             <sp who="#ep000107-morose" xml:id="ep000107-e111460">
@@ -2383,31 +2374,31 @@
               <speaker>Cen. </speaker>
               <p>How like you her wit, Mauis. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e111720">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e111720">
               <speaker>Mau. </speaker>
               <p>Very prettily, absolutely well. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e111740">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e111740">
               <speaker>Mrs. Ot. </speaker>
               <p>'Tis my place. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e111760">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e111760">
               <speaker>Mau. </speaker>
               <p>You shall pardon me, Mistris Otter. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e111780">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e111780">
               <speaker>Mrs. Ot. </speaker>
               <p>Why, I am a Collegiate. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e111800">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e111800">
               <speaker>Mau. </speaker>
               <p>But not in ordinary. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e111820">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e111820">
               <speaker>Mrs. Ot. </speaker>
               <p>But I am. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e111840">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e111840">
               <speaker>Mau. </speaker>
               <p>Wee'll dispute that within. </p>
             </sp>
@@ -2443,7 +2434,7 @@
           <div n="1" type="scene" xml:id="ep000107-e112000">
             <head>Scene I. </head>
             <stage xml:id="ep000107-e112010">Tru-wit, Clerimont, Dauphine. </stage>
-            <sp who="#ep000107-truewit" xml:id="ep000107-e112020">
+            <sp xml:id="ep000107-e112020">
               <p>WAs there euer poore Bride-groome so tormented? or man indeed? </p>
             </sp>
             <sp who="#ep000107-cleremont" xml:id="ep000107-e112040">
@@ -2601,7 +2592,7 @@
           <div n="2" type="scene" xml:id="ep000107-e112780">
             <head>Act IIII. Scene II. </head>
             <stage xml:id="ep000107-e112790">Otter, Clerimont, Daw, Dauphine, Morose, Tru-wit, La-Foole, Mrs. Otter. </stage>
-            <sp who="#ep000107-otter" xml:id="ep000107-e112800">
+            <sp xml:id="ep000107-e112800">
               <p>O Lord, Gentlemen, how my Knights and I haue mist you here! </p>
             </sp>
             <sp who="#ep000107-cleremont" xml:id="ep000107-e112820">
@@ -2799,7 +2790,7 @@
               <speaker>Ott. </speaker>
               <p>Shee has a breath worse then my Grand-mothers, profecto. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e113800">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e113800">
               <speaker>Mrs. Ot. </speaker>
               <p>O trecherous Lyar. Kisse mee sweete Master Tru-wit, and proue him a slandring Knaue. </p>
             </sp>
@@ -2811,7 +2802,7 @@
               <speaker>Ott. </speaker>
               <p>And shee has a Perruke, that's like a pound of Hempe, made vp in Shoo-thrids. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e113860">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e113860">
               <speaker>Mrs. Ot. </speaker>
               <p>O Viper, Mandrake! </p>
             </sp>
@@ -2819,7 +2810,7 @@
               <speaker>Ott. </speaker>
               <p>A most vile face! and yet she spends me fortie pound a yeere in Mercurie, and Hogs-bones. All her Teeth were made i'the Blacke-Friers: both her eye-browes i'the Strand, and her Haire in Siuer-street. Euery part o' the Towne ownes a piece of her. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e113900">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e113900">
               <speaker>Mrs. Ot. </speaker>
               <p>I cannot hold. </p>
             </sp>
@@ -2827,7 +2818,7 @@
               <speaker>Ott. </speaker>
               <p>Shee takes her selfe asunder still when shee goes to bed, into some twentie Boxes; and about next day noone is put together againe, like a great Germane Clocke: and so comes forth and rings a tedious larum to the whole House, and then is quiet againe for an houre, but for her quarters. Ha' you done me right, Gentlemen? </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e113940">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e113940">
               <speaker>Mrs. Ot. </speaker>
               <p>No, Sir, I'll doe you right with my quarters, with my quarters. </p>
             </sp>
@@ -2845,7 +2836,7 @@
               <speaker>Cle. </speaker>
               <p>A battell, a battell. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e114030">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e114030">
               <speaker>Mrs. Ot. </speaker>
               <p>You notorious stinkardly Beareward, do's my breath smell? </p>
             </sp>
@@ -2853,7 +2844,7 @@
               <speaker>Ott. </speaker>
               <p>Vnder correction, deare Princesse: looke to my Beare, and my Horse, Gentlemen. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e114070">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e114070">
               <speaker>Mrs. Ot. </speaker>
               <p>Doe I want Teeth, and Eye-browes, thou Bul-Dogge? </p>
             </sp>
@@ -2865,7 +2856,7 @@
               <speaker>Ott. </speaker>
               <p>No, I protest, vnder correction— </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e114130">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e114130">
               <speaker>Mrs. Ott. </speaker>
               <p>I, now you are vnder correction, you protest: but you did not protest before correction, Sir. Thou Iudas, to offer to betray thy Princesse! I'll make thee an example— </p>
             </sp>
@@ -2874,7 +2865,7 @@
               <p>
                 <stage xml:id="ep000107-e114170">Morose descends with a longsword </stage>I will haue no such examples in my House, Lady Otter. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e114180">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e114180">
               <speaker>Mrs. Ot. </speaker>
               <p>Ah— </p>
             </sp>
@@ -2935,18 +2926,18 @@
           <div n="3" type="scene" xml:id="ep000107-e114460">
             <head>Act IIII. Scene III. </head>
             <stage xml:id="ep000107-e114470">Haughty, Mistris Otter, Mauis, Daw, La-Foole, Centaure, Epicoene, Tru-wit, Clerimont. </stage>
-            <sp who="#ep000107-haughty" xml:id="ep000107-e114480">
+            <sp xml:id="ep000107-e114480">
               <p>WE wondred why you shreek'd so, Mistris Otter. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e114500">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e114500">
               <speaker>Mrs. Ot. </speaker>
               <p>O God, Madame, hee came downe with a huge long naked Weapon in both his hands, and look'd so dreadfully! Sure, hee's beside himselfe. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e114520">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e114520">
               <speaker>Mau. </speaker>
               <p>Why, what made you there, Mistris Otter? </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e114540">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e114540">
               <speaker>Mrs. Ot. </speaker>
               <p>Alas, Mistris Mauis, I was chastising my subiect, and thought nothing of him. </p>
             </sp>
@@ -2970,7 +2961,7 @@
               <speaker>Hau. </speaker>
               <p>Make him giue Milke, and Honey. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e114660">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e114660">
               <speaker>Mau. </speaker>
               <p>Looke how you manage him at first, you shall haue him euer after. </p>
             </sp>
@@ -2990,7 +2981,7 @@
               <speaker>Hau. </speaker>
               <p>Here's Centaure has immortaliz'd her selfe, with taming of her wilde Male. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e114760">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e114760">
               <speaker>Mau. </speaker>
               <p>I, shee has done the Miracle of the Kingdome. </p>
             </sp>
@@ -3022,7 +3013,7 @@
               <speaker>Hau. </speaker>
               <p>Besides, Ladies should bee mindfull of the approch of age, and let no time want his due vse. The best of our dayes passe first. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e114920">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e114920">
               <speaker>Mau. </speaker>
               <p>We are Riuers, that cannot bee call'd backe, Madame: shee that now excludes her Louers, may liue to lye a forsaken Beldame, in a frozen Bed. </p>
             </sp>
@@ -3113,7 +3104,7 @@
               <speaker>La-F. </speaker>
               <p>I haue read it, my Lady Centaure, all ouer to my Cousin, hers. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e115380">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e115380">
               <speaker>Mrs. Ot. </speaker>
               <p>I, and 'tis a very good Booke as any is, of the Modernes. </p>
             </sp>
@@ -3130,7 +3121,7 @@
               <p>I, in some Cases: but in these they are best, and Aristotles Ethicks. </p>
             </sp>
             <pb xml:id="ep000107-033-b"/>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e115460">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e115460">
               <speaker>Mau. </speaker>
               <p>Say you so, Sir Iohn? I thinke you are deceiu'd: you tooke it vpon trust. </p>
             </sp>
@@ -3154,7 +3145,7 @@
               <speaker>Hau. </speaker>
               <p>I, it's very faesible. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e115580">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e115580">
               <speaker>Mrs. Ot. </speaker>
               <p>My Lady call'd for you, Mistris Trusty: you must decide a Controuersie. </p>
             </sp>
@@ -3353,7 +3344,7 @@
             <pb xml:id="ep000107-035-a"/>
             <head>Act IIII. Scene V. </head>
             <stage xml:id="ep000107-e116550">Clerimont, Tru-wit, Dauphine, Daw, La-Foole. </stage>
-            <sp who="#ep000107-cleremont" xml:id="ep000107-e116560">
+            <sp xml:id="ep000107-e116560">
               <p>O Sir, you are welcome. </p>
             </sp>
             <sp who="#ep000107-truewit" xml:id="ep000107-e116580">
@@ -3943,14 +3934,14 @@
             <head>Act IIII. Scene VI. </head>
             <stage xml:id="ep000107-e119510">Hauing discouerd part of the past Scene aboue: </stage>
             <stage xml:id="ep000107-e119520">Haughty, Centaure, Mauis, Mistris Otter, Epicoene, Trusty, Dauphine, Tru-wit, &amp;c. </stage>
-            <sp who="#ep000107-haughty" xml:id="ep000107-e119530">
+            <sp xml:id="ep000107-e119530">
               <p>CEntaure, how our iudgements were impos'd on by these adulterate Knights! </p>
             </sp>
             <sp who="#ep000107-centaur" xml:id="ep000107-e119550">
               <speaker>Cen. </speaker>
               <p>Nay, Madame, Mauis was more deceiu'd then wee, 'twas her commendation vtter'd 'hem in the Colledge. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e119570">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e119570">
               <speaker>Mau. </speaker>
               <p>I commended but their wits, Madame, and their braueries. I neuer look'd toward their valours. </p>
             </sp>
@@ -3958,7 +3949,7 @@
               <speaker>Hau. </speaker>
               <p>Sir Dauphine is valiant, and a wit too, it seemes. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e119610">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e119610">
               <speaker>Mau. </speaker>
               <p>And a brauery too. </p>
             </sp>
@@ -3966,7 +3957,7 @@
               <speaker>Hau. </speaker>
               <p>Was this his proiect? </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e119650">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e119650">
               <speaker>Mrs. Ot. </speaker>
               <p>So Master Clerimont intimates, Madame. </p>
             </sp>
@@ -3991,7 +3982,7 @@
               <speaker>Hau. </speaker>
               <p>No, to morrow, good Morose, Centaure shall send you her Coach. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e119770">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e119770">
               <speaker>Mau. </speaker>
               <p>Yes faith, doe, and bring Sir Dauphine with you. </p>
             </sp>
@@ -3999,7 +3990,7 @@
               <speaker>Hau. </speaker>
               <p>Shee has promis'd that Mauis. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e119810">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e119810">
               <speaker>Mau. </speaker>
               <p>Hee is a very worthy Gentleman, in his exteriors, Madame. </p>
             </sp>
@@ -4015,7 +4006,7 @@
               <speaker>Hau. </speaker>
               <p>I, and haue euery haire in forme! </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e119890">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e119890">
               <speaker>Mau. </speaker>
               <p>That weare purer Linnen then our selues, and professe more neatnesse, then the French Hermaphrodite! </p>
             </sp>
@@ -4031,7 +4022,7 @@
               <speaker>Cen. </speaker>
               <p>I could loue a man, for such a Nose! </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e119970">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e119970">
               <speaker>Mau. </speaker>
               <p>Or such a Legge! </p>
             </sp>
@@ -4039,7 +4030,7 @@
               <speaker>Cen. </speaker>
               <p>He has an exceeding good eye, Madame! </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e120010">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e120010">
               <speaker>Mau. </speaker>
               <p>And a very good Lock! </p>
             </sp>
@@ -4047,7 +4038,7 @@
               <speaker>Cen. </speaker>
               <p>Good Morose, bring him to my Chamber first. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e120050">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e120050">
               <speaker>Mrs. Ot. </speaker>
               <p>Please your Honours, to meete at my House, Madame? </p>
             </sp>
@@ -4071,7 +4062,7 @@
               <speaker>Cen. </speaker>
               <p>God so, Mauis, Haughty is kissing. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e120170">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e120170">
               <speaker>Mau. </speaker>
               <p>Let vs goe too, and take part. </p>
             </sp>
@@ -4084,7 +4075,7 @@
               <speaker>Cen. </speaker>
               <p>Wee would bee all glad to stile him of our friendship, and see him at the Colledge. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e120230">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e120230">
               <speaker>Mau. </speaker>
               <p>Hee cannot mixe with a sweeter societie, I'll prophesie, and I hope he himselfe will thinke so. </p>
             </sp>
@@ -4201,7 +4192,7 @@
               <speaker>Tru. </speaker>
               <p>Nay, there is so i' the points too, I warrant you. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e120810">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e120810">
               <speaker>Mrs. Ot. </speaker>
               <p>O me! Madame, hee comes againe, the madde man, away. </p>
             </sp>
@@ -4209,7 +4200,7 @@
           <div n="7" type="scene" xml:id="ep000107-e120830">
             <head>Act. IIII. Scene VII. </head>
             <stage xml:id="ep000107-e120840">Morose, Tru-wit, Clerimont, Dauphine. </stage>
-            <sp who="#ep000107-morose" xml:id="ep000107-e120850">
+            <sp xml:id="ep000107-e120850">
               <p>
                 <stage xml:id="ep000107-e120870">Hee had sound the two Swords drawne within .</stage>WHat make these naked weapons here, Gentlemen? </p>
             </sp>
@@ -4310,7 +4301,7 @@
           <div n="1" type="scene" xml:id="ep000107-e121340">
             <head>Scene I. </head>
             <stage xml:id="ep000107-e121350">La-Foole, Clerimont, Daw, Manis. </stage>
-            <sp who="#ep000107-la-fool" xml:id="ep000107-e121360">
+            <sp xml:id="ep000107-e121360">
               <p>WHere had you our Swords, Master Clerimont? </p>
             </sp>
             <sp who="#ep000107-cleremont" xml:id="ep000107-e121380">
@@ -4337,7 +4328,7 @@
               <speaker>Daw. </speaker>
               <p>Sir Amorous, and I are your Seruants, Sir. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e121500">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e121500">
               <speaker>Mau. </speaker>
               <p>Gentlemen, haue any of you a Pen-and-Inke. I would faine write out a Riddle in Italian, for Sir Dauphine, to translate. </p>
             </sp>
@@ -4557,7 +4548,7 @@
           <div n="2" type="scene" xml:id="ep000107-e122570">
             <head>Act V. Scene II. </head>
             <stage xml:id="ep000107-e122580">Haughtie, Dauphine, Centaure, Mauis, Clerimont. </stage>
-            <sp who="#ep000107-haughty" xml:id="ep000107-e122590">
+            <sp xml:id="ep000107-e122590">
               <p>I Assure you, Sir Dauphine, it is the price and estimation of your vertue only, that hath embarqu'd mee to this aduenture, and I could not but make out to tell you; nor can I repent me of the act, since it is alwayes an argument of some vertue in our selues, that wee loue and affect it so in others. </p>
             </sp>
             <sp who="#ep000107-dauphine" xml:id="ep000107-e122610">
@@ -4605,7 +4596,7 @@
               <speaker>Cen. </speaker>
               <p>Good Sir Dauphine, doe not trust Haughty, nor make any credit to her, what euer you doe besides. Sir Dauphine, I giue you this caution, shee is a perfect Courtier; and loues no body, but for her vses: and for her vses, she loues all. Besides, her Phisicians giue her out to be none o'the cleerest, whether she pay 'hem or no, Heau'n knowes: and she's abode fiftie too, and pargets! See her in a fore-noone. Heere comes Mauis, a worse face then shee! you would not like this, by Candle-light. If you'll come to my Chamber one o' these Mornings early, or late in an Euening, I'll tell you more. Where's Haughty, Mauis? </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e122830">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e122830">
               <speaker>Mau. </speaker>
               <p>Within, Centaure. </p>
             </sp>
@@ -4613,7 +4604,7 @@
               <speaker>Cen. </speaker>
               <p>What ha' you, there? </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e122870">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e122870">
               <speaker>Mau. </speaker>
               <p>An Italian Riddle for Sir Dauphine, (you shall not see it yfaith, Centaure.) Good Sir Dauphine, solue it for me. I'll call for it anon. </p>
             </sp>
@@ -4679,7 +4670,7 @@
           <div n="3" type="scene" xml:id="ep000107-e123180">
             <head>Act V. Scene III. </head>
             <stage xml:id="ep000107-e123190">Tru-wit, Morose, Otter, Cutberd, Clerimont, Dauphine. </stage>
-            <sp who="#ep000107-truewit" xml:id="ep000107-e123200">
+            <sp xml:id="ep000107-e123200">
               <p>O, Are you here? Come Dauphine, Goe call your Vncle presently. I haue fitted my Diuine, and my Canonist, dyed their Beards and all: the Knaues doe not know themselues they are so exalted, and alter'd. Preferment changes any man. Thou shalt keepe one doore, and I another, and then Clerimont in the midst, that hee may haue no meanes of escape from their cauilling, when they grow hot once againe. And then the women (as I haue giuen the Bride her instructions) to breake in vpon him, i' the l'enuoy. O, 'twill bee full and twanging! Away, fetch him. Come, Master Doctor, and Master Parson, looke to your parts now, and discharge 'hem brauely: you are well set forth, performe <pb xml:id="ep000107-045-a"/>it as well. If you chance to be out, doe not confesse it with standing still, or humming, or gaping one at another: but go on, and talke alowd, and eagerly, vse vehement action, and onely remember your termes, and you are safe. Let the matter goe where it will: you haue many will doe so. But at first, be very solemne, and graue like your garments, though you lose your selues after, and skip out like a brace of Iugglers on a Table. Here he comes! set your faces, and looke superciliously, while I present you. </p>
             </sp>
             <sp who="#ep000107-morose" xml:id="ep000107-e123220">
@@ -5163,7 +5154,7 @@
           <div n="4" type="scene" xml:id="ep000107-e125580">
             <head>Act V. Scene IIII. </head>
             <stage xml:id="ep000107-e125590">Epicoene, Morose, Haughty, Centaure, Mauis, Mistris Otter, Daw, Tru-wit, Dauphine, Clerimont, La-Foole, Otter, Cutherd. </stage>
-            <sp who="#ep000107-epicone" xml:id="ep000107-e125600">
+            <sp xml:id="ep000107-e125600">
               <p>I Wil not endure it any longer. Ladies, I beseech you helpe me. This is such a wrong, as neuer was offer'd to poore Bride before. Vpon her Marriage day, to haue her Husband conspire against her, and a couple of Mercinary Companions, to be brought in for formes sake, to perswade a Separation! If you had bloud, or vertue in you, Gentlemen, you would not suffer such Eare-wigs about a Husband, or Scorpions, to creepe betweene Man and Wife— </p>
             </sp>
             <sp who="#ep000107-morose" xml:id="ep000107-e125620">
@@ -5178,11 +5169,11 @@
               <speaker>Cen. </speaker>
               <p>I'll lend you my Foot-man. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e125680">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e125680">
               <speaker>Mau. </speaker>
               <p>Wee'll haue our men blanket 'hem i'the Hall. </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e125700">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e125700">
               <speaker>Mrs. Ot. </speaker>
               <p>As there was one, at our House, Madame, for peeping in at the doore. </p>
             </sp>
@@ -5195,7 +5186,7 @@
               <speaker>Tru. </speaker>
               <p>Stay, Ladies, and Gentlemen, you'll heare, before u proceed? </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e125760">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e125760">
               <speaker>Mau. </speaker>
               <p>I'lld ha' the Bride-groome blanketted, too. </p>
             </sp>
@@ -5259,7 +5250,8 @@
               <speaker>Mor. </speaker>
               <p>I am no man, Ladies. </p>
             </sp>
-            <sp who="#ep000107-all" xml:id="ep000107-e126080">
+            <sp who="#ep000107-trusty #ep000107-mrs-mavis #ep000107-haughty #ep000107-mrs-otter #ep000107-epicoene #ep000107-centaur #ep000107-dauphine"
+                      xml:id="ep000107-e126080">
               <speaker>All. </speaker>
               <p>How! </p>
             </sp>
@@ -5267,7 +5259,7 @@
               <speaker>Mor. </speaker>
               <p>Vtterly vn-abled in nature, by reason of frigiditie, to performe the duties, or any the least office of a Husband. </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e126120">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e126120">
               <speaker>Mau. </speaker>
               <p>Now, out vpon him, prodigious creature! </p>
             </sp>
@@ -5279,7 +5271,7 @@
               <speaker>Hau. </speaker>
               <p>And would you offer it to a yong Gentlewoman? </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e126180">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e126180">
               <speaker>Mrs. Ot. </speaker>
               <p>A Lady of her longings? </p>
             </sp>
@@ -5304,7 +5296,7 @@
               <speaker>Mor. </speaker>
               <p>O me, must I vndergoe that! </p>
             </sp>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e126300">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e126300">
               <speaker>Mrs. Ot. </speaker>
               <p>No, let women search him, Madame: wee can doe it our selues. </p>
             </sp>
@@ -5461,7 +5453,7 @@
               <speaker>Cen. </speaker>
               <p>And, ha' they confess'd? </p>
             </sp>
-            <sp who="#ep000107-mrs." xml:id="ep000107-e127080">
+            <sp who="#ep000107-mrs-mavis" xml:id="ep000107-e127080">
               <speaker>Mau. </speaker>
               <p>Now out vpon 'hem, Informers! </p>
             </sp>
@@ -5474,7 +5466,7 @@
               <p>I would except against 'hem as beaten Knights, Wench, and not good Witnesses in Law. </p>
             </sp>
             <pb xml:id="ep000107-050-a"/>
-            <sp who="#ep000107-mrs_otter" xml:id="ep000107-e127140">
+            <sp who="#ep000107-mrs-otter" xml:id="ep000107-e127140">
               <speaker>Mrs. Ot. </speaker>
               <p>Poore Gentlewoman, how she takes it! </p>
             </sp>

@@ -87,73 +87,67 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000122-king">
-            <persName>King</persName>
+          <person xml:id="ep000122-king" sex="MALE">
+            <persName>King Leir</persName>
           </person>
-          <person xml:id="ep000122-skalliger">
+          <person xml:id="ep000122-skalliger" sex="MALE">
             <persName>Skalliger</persName>
           </person>
-          <person xml:id="ep000122-noble">
+          <person xml:id="ep000122-noble" sex="MALE">
             <persName>Noble</persName>
           </person>
-          <person xml:id="ep000122-perillus">
+          <person xml:id="ep000122-perillus" sex="MALE">
             <persName>Perillus</persName>
           </person>
-          <person xml:id="ep000122-goneril">
+          <person xml:id="ep000122-goneril" sex="FEMALE">
             <persName>Goneril</persName>
           </person>
-          <person xml:id="ep000122-ragan">
+          <person xml:id="ep000122-ragan" sex="FEMALE">
             <persName>Ragan</persName>
           </person>
-          <person xml:id="ep000122-cordelia">
+          <person xml:id="ep000122-cordelia" sex="FEMALE">
             <persName>Cordelia</persName>
           </person>
-          <person xml:id="ep000122-mumford">
+          <person xml:id="ep000122-mumford" sex="MALE">
             <persName>Mumford</persName>
           </person>
-          <person xml:id="ep000122-nobles">
-            <persName>Nobles</persName>
+          <personGrp xml:id="ep000122-nobles" sex="MALE">
+            <name>Nobles</name>
+          </personGrp>
+          <person xml:id="ep000122-cornwall" sex="MALE">
+            <persName>King of Cornwall</persName>
           </person>
-          <person xml:id="ep000122-cornwall">
-            <persName>Cornwall</persName>
-          </person>
-          <person xml:id="ep000122-servant">
+          <person xml:id="ep000122-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000122-cambria">
-            <persName>Cambria</persName>
+          <person xml:id="ep000122-cambria" sex="MALE">
+            <persName>King of Cambria</persName>
           </person>
-          <person xml:id="ep000122-messenger">
+          <person xml:id="ep000122-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000122-ambassador">
+          <person xml:id="ep000122-ambassador" sex="MALE">
             <persName>Ambassador</persName>
           </person>
-          <person xml:id="ep000122-ambo">
-            <persName>Ambo</persName>
+          <person xml:id="ep000122-1-mar" sex="MALE">
+            <persName>1 Mariner</persName>
           </person>
-          <person xml:id="ep000122-1_mar">
-            <persName>1 Mar</persName>
+          <person xml:id="ep000122-2-mar" sex="MALE">
+            <persName>2 Mariner</persName>
           </person>
-          <person xml:id="ep000122-2_mar">
-            <persName>2 Mar</persName>
-          </person>
-          <person xml:id="ep000122-card">
-            <persName>Card</persName>
-          </person>
-          <person xml:id="ep000122-captain">
+          <person xml:id="ep000122-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000122-1_watch">
+          <person xml:id="ep000122-1-watch" sex="MALE">
             <persName>1 Watch</persName>
           </person>
-          <person xml:id="ep000122-2_watch">
+          <person xml:id="ep000122-2-watch" sex="MALE">
             <persName>2 Watch</persName>
           </person>
-          <person xml:id="ep000122-1_captain">
+          <person xml:id="ep000122-1-captain" sex="MALE">
             <persName>1 Captain</persName>
           </person>
-          <person xml:id="ep000122-2_captain">
+          <person xml:id="ep000122-2-captain" sex="MALE">
             <persName>2 Captain</persName>
           </person>
         </listPerson>
@@ -190,7 +184,7 @@
           <head>ACTVS I. </head>
           <div n="1" type="scene" xml:id="ep000122-e100170">
             <stage xml:id="ep000122-e100180">Enter King Leir and Nobles. </stage>
-            <sp who="#ep000122-king" xml:id="ep000122-e100190">
+            <sp xml:id="ep000122-e100190">
               <l>THus to our griefe the obsequies performd </l>
               <l>Of our (too late) deceast and dearest Queen, </l>
               <l>Whose soule I hope, possest of heauenvly ioyes, </l>
@@ -1974,7 +1968,7 @@
           </div>
           <div n="13" type="scene" xml:id="ep000122-e113640">
             <stage xml:id="ep000122-e113650">Enter Cordella solus. </stage>
-            <sp who="#ep000122-cordelia" xml:id="ep000122-e113660">
+            <sp xml:id="ep000122-e113660">
               <l>I haue bin ouer-negligent to day, </l>
               <l>In going to the Temple of my God, </l>
               <l>To render thanks for all his benefits, </l>
@@ -2873,7 +2867,7 @@
               <l>I know he is, and therefore meane to try him: </l>
               <l>You are his friend too, I must try you both. </l>
             </sp>
-            <sp who="#ep000122-ambo" xml:id="ep000122-e120130">
+            <sp who="#ep000122-perillus #ep000122-king" xml:id="ep000122-e120130">
               <speaker>Ambo. </speaker>
               <l>Prithy do, prithy do. </l>
             </sp>
@@ -3674,13 +3668,13 @@
               <l>To see you satisfied to the vttermost. </l>
             </sp>
             <stage xml:id="ep000122-e125960">Looke on Leir. </stage>
-            <sp who="#ep000122-1_mar" xml:id="ep000122-e125970">
+            <sp who="#ep000122-1-mar" xml:id="ep000122-e125970">
               <speaker>1. Mar. </speaker>
               <l>Heres a good gown, 'twould become me passing wel, </l>
               <l>I should be fine in it. </l>
             </sp>
             <stage xml:id="ep000122-e126000">Looke on Perillus. </stage>
-            <sp who="#ep000122-2_mar" xml:id="ep000122-e126010">
+            <sp who="#ep000122-2-mar" xml:id="ep000122-e126010">
               <speaker>2. Mar. </speaker>
               <l>Heres a good cloke, I maruel how I should look in it, </l>
             </sp>
@@ -3689,7 +3683,7 @@
               <l>Fayth, had we others to supply their roome, </l>
               <l>Though ne're so meane, you willingly should haue them. </l>
             </sp>
-            <sp who="#ep000122-1_mar" xml:id="ep000122-e126060">
+            <sp who="#ep000122-1-mar" xml:id="ep000122-e126060">
               <speaker>1. Mar. </speaker>
               <l>Do you heare, sir? you looke like an honest man; </l>
               <pb xml:id="ep000122-029-a"/>
@@ -3700,7 +3694,7 @@
               <l>With al my heart, and xx. thanks. </l>
             </sp>
             <stage xml:id="ep000122-e126130">Leir &amp; he changeth. </stage>
-            <sp who="#ep000122-2_mar" xml:id="ep000122-e126140">
+            <sp who="#ep000122-2-mar" xml:id="ep000122-e126140">
               <speaker>2. Mar. </speaker>
               <p>Do you heare, sir? you shal haue a better match than he, because you are my friend: here is a good sheeps russet seagowne, wil bide more stresse, I warrant you, then two of his, yet for you seem to be an honest gentleman, I am content to change it for your cloke, and aske you nothing for your passage more. </p>
             </sp>
@@ -3713,7 +3707,7 @@
               <l>My friend, ile giue thee this new dublet, if thou wilt </l>
               <l>Restore his gowne vnto him back agayne. </l>
             </sp>
-            <sp who="#ep000122-1_mar" xml:id="ep000122-e126230">
+            <sp who="#ep000122-1-mar" xml:id="ep000122-e126230">
               <speaker>1. Mar. </speaker>
               <p>Nay, if I do, would I might ne're eate powderd beefe and mustard more, nor drink Can of good liquor whilst I liue. My friend, you haue small reason to seeke to hinder me of my bargaine: but the best is, a bargayne's a bargayne. </p>
             </sp>
@@ -3724,13 +3718,13 @@
               <l>For by this meanes we may escape vnknowne; </l>
               <l>Till time and opportunity do fit. </l>
             </sp>
-            <sp who="#ep000122-2_mar" xml:id="ep000122-e126300">
+            <sp who="#ep000122-2-mar" xml:id="ep000122-e126300">
               <speaker>2. Mar. </speaker>
               <l>Hark, hark, they are laying their heads together, </l>
               <l>Theile repent them of their bargayne anon, </l>
               <l>'Twere best for vs to go while we are well. </l>
             </sp>
-            <sp who="#ep000122-1_mar" xml:id="ep000122-e126340">
+            <sp who="#ep000122-1-mar" xml:id="ep000122-e126340">
               <speaker>1. Mar. </speaker>
               <l>God be with you, sir, for your passage back agayne, </l>
               <l>Ile vse you as vnreasonable as another. </l>
@@ -3832,7 +3826,7 @@
               <l>Cannot be pleasing to your tender ioynts, </l>
               <l>Which ne're were vsed to these toylesome walks. </l>
             </sp>
-            <sp who="#ep000122-card" xml:id="ep000122-e127130">
+            <sp xml:id="ep000122-e127130">
               <speaker>Cord. </speaker>
               <l>I neuer in my life tooke more delight </l>
               <l>In any iourney, then I do in this: </l>
@@ -4420,59 +4414,59 @@
               <l>The beacon presently, and raise the towne. </l>
             </sp>
             <stage xml:id="ep000122-e131660">Exit. </stage>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131670">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131670">
               <speaker>1. Wat. </speaker>
               <p>I, I, I, feare nothing; we know our charge, I warrant: I haue bin a watchman about this Beacon this xxx. yere, and yet I ne're see it stir, but stood as quietly as might be. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131690">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131690">
               <speaker>2. Wat. </speaker>
               <p>Fayth neighbour, and you'l follow my vice, instead of watching the Beacon, wee'l go to goodman Gennings, &amp; watch a pot of Ale and a rasher of Bacon: and if we do not drink our selues drunke, then so; I warrant, the Beacon will see vs when we come out agayne. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131710">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131710">
               <speaker>1. W. </speaker>
               <p>I, but how if some body excuse vs to the Captayne? </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131730">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131730">
               <speaker>2. W. </speaker>
               <p>I is no matter, ile proue by good reason that we watch the Beacon: asse for example. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131750">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131750">
               <speaker>1. W. </speaker>
               <p>I hope you do not call me asse by craft, neighbour. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131770">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131770">
               <speaker>2. W. </speaker>
               <p>No, no, but for example: Say here stands the pot of ale, thats the Beacon. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131790">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131790">
               <speaker>1. W. </speaker>
               <p>I, I, tis a very good Beacon. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131810">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131810">
               <speaker>2. W. </speaker>
               <p>Well, say here stands your nose, thats the fire. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131830">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131830">
               <speaker>1. W. </speaker>
               <p>Indeed I must confesse, tis somewhat red. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131850">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131850">
               <speaker>2. W. </speaker>
               <p>I see come marching in a dish, halfe a score pieces of salt Bacon. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131870">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131870">
               <speaker>1. W. </speaker>
               <p>I vnderstand your meaning, thats as much to say, half a score ships. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131890">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131890">
               <speaker>2 W. </speaker>
               <p>True, you conster right; presently, like a faithfull watch man, I fire the Beacon; and call vp the towne. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e131910">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e131910">
               <speaker>1. W. </speaker>
               <p>I, thats as much as to say, you set your nose to the pot, and drink vp the drink. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e131930">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e131930">
               <speaker>2. W. </speaker>
               <p>You are in the right; come, let's go fire the Beacon. </p>
             </sp>
@@ -4499,7 +4493,7 @@
           <div n="29" type="scene" xml:id="ep000122-e132110">
             <pb xml:id="ep000122-035-a"/>
             <stage xml:id="ep000122-e132140">Alarum, with men and women halfe naked: Enter two Captaynes without dublets, with swords. </stage>
-            <sp who="#ep000122-1_captain" xml:id="ep000122-e132150">
+            <sp who="#ep000122-1-captain" xml:id="ep000122-e132150">
               <speaker>1. Cap. </speaker>
               <l>Where are these villaines that were set to watch, </l>
               <l>And fire the Beacon, if occasion seru'd, </l>
@@ -4508,37 +4502,37 @@
               <l>We are betrayd, and quite deuoyd of hope, </l>
               <l>By any meanes to fortify our selues. </l>
             </sp>
-            <sp who="#ep000122-2_captain" xml:id="ep000122-e132220">
+            <sp who="#ep000122-2-captain" xml:id="ep000122-e132220">
               <speaker>2. Cap. </speaker>
               <p>Tis ten to one the peasants are o'recome with drinke and sleep, and so neglect their charge. </p>
             </sp>
-            <sp who="#ep000122-1_captain" xml:id="ep000122-e132240">
+            <sp who="#ep000122-1-captain" xml:id="ep000122-e132240">
               <speaker>1. Cap. </speaker>
               <p>A whirl-wind carry them quick to a whirl-poole, That there the slaues may drinke their bellies full. </p>
             </sp>
-            <sp who="#ep000122-2_captain" xml:id="ep000122-e132260">
+            <sp who="#ep000122-2-captain" xml:id="ep000122-e132260">
               <speaker>2. Cap. </speaker>
               <p>This tis, to haue the Beacon so neere the Ale-house. </p>
             </sp>
             <stage xml:id="ep000122-e132280">Enter the watchmen drunke, with each a pot. </stage>
-            <sp who="#ep000122-1_captain" xml:id="ep000122-e132290">
+            <sp who="#ep000122-1-captain" xml:id="ep000122-e132290">
               <speaker>1. Cap. </speaker>
               <p>Out on ye, villaynes, whither run you now? </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e132310">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e132310">
               <speaker>1. Wat. </speaker>
               <p>To fire the towne, and call vp the Beacon. </p>
             </sp>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e132330">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e132330">
               <speaker>2 Wat. </speaker>
               <p>No, no, sir, to fire the Beacon. </p>
             </sp>
             <stage xml:id="ep000122-e132350">He drinkes. </stage>
-            <sp who="#ep000122-2_captain" xml:id="ep000122-e132360">
+            <sp who="#ep000122-2-captain" xml:id="ep000122-e132360">
               <speaker>2. Cap. </speaker>
               <p>What, with a pot of ale, you drunken Rogues? </p>
             </sp>
-            <sp who="#ep000122-1_captain" xml:id="ep000122-e132380">
+            <sp who="#ep000122-1-captain" xml:id="ep000122-e132380">
               <speaker>1. Cap. </speaker>
               <l>You'l fire the Beacon, when the towne is lost: </l>
               <l>Ile teach you how to tend your office better. </l>
@@ -4550,7 +4544,7 @@
               <p>Yeeld, yeeld, yeeld. </p>
             </sp>
             <stage xml:id="ep000122-e132450">He kicks downe their pots. </stage>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e132460">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e132460">
               <speaker>1. Wat. </speaker>
               <l>Reele? no, we do not reele: </l>
               <l>You may lacke a pot of Ale ere you dye. </l>
@@ -4560,11 +4554,11 @@
               <p>But in meane space, I answer, you want none. Wel, theres no dealing with you, y'are tall men, &amp; wel weapond, I would there were no worse then you in the towne. </p>
             </sp>
             <stage xml:id="ep000122-e132510">Exit. </stage>
-            <sp who="#ep000122-2_watch" xml:id="ep000122-e132520">
+            <sp who="#ep000122-2-watch" xml:id="ep000122-e132520">
               <speaker>2. Wat. </speaker>
               <p>A speaks like an honest man, my cholers past already. Come, neighbour, let's go. </p>
             </sp>
-            <sp who="#ep000122-1_watch" xml:id="ep000122-e132540">
+            <sp who="#ep000122-1-watch" xml:id="ep000122-e132540">
               <speaker>1. Wat. </speaker>
               <p>Nay, first let's see and we can stand. </p>
             </sp>
@@ -4589,7 +4583,7 @@
               <l>Kind Countrymen, it grieues me, that perforce, </l>
               <l>I am constraind to vse extremities. </l>
             </sp>
-            <sp who="#ep000122-noble" xml:id="ep000122-e132730">
+            <sp who="#ep000122-nobles" xml:id="ep000122-e132730">
               <speaker>Noble. </speaker>
               <l>Long haue you here bin lookt for, good my Lord, </l>
               <l>And wish'd for by a generall consent: </l>

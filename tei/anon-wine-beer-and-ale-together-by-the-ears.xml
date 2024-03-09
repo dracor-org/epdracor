@@ -93,38 +93,32 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000022-sugar">
+          <person xml:id="ep000022-sugar" sex="MALE">
             <persName>Sugar</persName>
           </person>
-          <person xml:id="ep000022-nutmeg">
+          <person xml:id="ep000022-nutmeg" sex="MALE">
             <persName>Nutmeg</persName>
           </person>
-          <person xml:id="ep000022-tost">
+          <person xml:id="ep000022-tost" sex="MALE">
             <persName>Tost</persName>
           </person>
-          <person xml:id="ep000022-wine">
+          <person xml:id="ep000022-wine" sex="MALE">
             <persName>Wine</persName>
           </person>
-          <person xml:id="ep000022-beer">
+          <person xml:id="ep000022-beer" sex="MALE">
             <persName>Beer</persName>
           </person>
-          <person xml:id="ep000022-ale">
+          <person xml:id="ep000022-ale" sex="MALE">
             <persName>Ale</persName>
           </person>
-          <person xml:id="ep000022-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000022-water">
+          <person xml:id="ep000022-water" sex="MALE">
             <persName>Water</persName>
           </person>
-          <person xml:id="ep000022-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000022-tobacco">
+          <personGrp xml:id="ep000022-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000022-tobacco" sex="MALE">
             <persName>Tobacco</persName>
-          </person>
-          <person xml:id="ep000022-toast">
-            <persName>Toast</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -584,7 +578,7 @@
           <speaker>Ale. </speaker>
           <p>Harke you, are you both mad? who hath heat you, that you run ouer, do you contend for that in iustice belongs to another? I tell you Wine and Beere, I do not rellish you, Ile tell you a tale: Two spruce hot-spurre fiery gallants meeting ith streets, iustled for the wall, drew, would he been fighting: there steps mee forth a correcter of soles, an vnderlaid cobler, and cries out, Hold, hold your hands Gentlemen, are you so simple to fight for the wall? why the wall's my Landlords. Haue you but so much wit as to apply this, you shall neuer neede fence for the matter. Superioritie is mine, Ale is the prince of liquors, and you are both my subiects. </p>
         </sp>
-        <sp who="#ep000022-both" xml:id="ep000022-e102370">
+        <sp who="#ep000022-wine #ep000022-beer" xml:id="ep000022-e102370">
           <speaker>Both. </speaker>
           <p>Wee thy Subiects? </p>
         </sp>
@@ -1303,10 +1297,10 @@
             </list>
           </p>
         </sp>
-        <sp who="#ep000022-ale" xml:id="ep000022-e106170">
+        <sp xml:id="ep000022-e106170">
           <p>Exercise this discipline till you stinke, defile the roome, offend your friends, destroy your liuer and lungs, and bid adiew to the world with a scowring fluxe. </p>
         </sp>
-        <sp who="#ep000022-toast" xml:id="ep000022-e106190">
+        <sp who="#ep000022-tobacco" xml:id="ep000022-e106190">
           <speaker>To. </speaker>
           <p>You haue a good memorie.— </p>
         </sp>
@@ -1322,7 +1316,7 @@
           <speaker>Wine. </speaker>
           <p>They are most proper to illustrate your magnificence, for howsoeuer you pretend that you conuerse with men, it is apparant, that you make men children agen, for they that vse you most familiarly, doe but smoake all the day long. </p>
         </sp>
-        <sp who="#ep000022-toast" xml:id="ep000022-e106270">
+        <sp who="#ep000022-tobacco" xml:id="ep000022-e106270">
           <speaker>To. </speaker>
           <p>You dishonour me. </p>
         </sp>
@@ -1338,7 +1332,7 @@
           <speaker>Be. </speaker>
           <p>How? </p>
         </sp>
-        <sp who="#ep000022-toast" xml:id="ep000022-e106350">
+        <sp who="#ep000022-tobacco" xml:id="ep000022-e106350">
           <speaker>To. </speaker>
           <p>And preserue the health of man. </p>
         </sp>
@@ -1347,7 +1341,7 @@
           <speaker>Wine. </speaker>
           <p>I hope they are not come to drinke healthes in Tobacco. </p>
         </sp>
-        <sp who="#ep000022-toast" xml:id="ep000022-e106390">
+        <sp who="#ep000022-tobacco" xml:id="ep000022-e106390">
           <speaker>To. </speaker>
           <p>I repaire the bodies which your immoderate cups haue turnd to fennes and marishes. The wisest Phisitians prescribe my vse, and acknowledge me a salutary herbe. </p>
         </sp>

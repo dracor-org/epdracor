@@ -80,79 +80,73 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000138-endymion">
+          <person xml:id="ep000138-constable" sex="MALE">
+            <persName>Constable</persName>
+          </person>
+          <person xml:id="ep000138-endymion" sex="MALE">
             <persName>Endymion</persName>
           </person>
-          <person xml:id="ep000138-eumenides">
+          <person xml:id="ep000138-eumenides" sex="MALE">
             <persName>Eumenides</persName>
           </person>
-          <person xml:id="ep000138-tellus">
+          <person xml:id="ep000138-tellus" sex="FEMALE">
             <persName>Tellus</persName>
           </person>
-          <person xml:id="ep000138-floscula">
+          <person xml:id="ep000138-floscula" sex="FEMALE">
             <persName>Floscula</persName>
           </person>
-          <person xml:id="ep000138-dares">
+          <person xml:id="ep000138-dares" sex="MALE">
             <persName>Dares</persName>
           </person>
-          <person xml:id="ep000138-samias">
+          <person xml:id="ep000138-samias" sex="MALE">
             <persName>Samias</persName>
           </person>
-          <person xml:id="ep000138-tophas">
+          <person xml:id="ep000138-tophas" sex="MALE">
             <persName>Tophas</persName>
           </person>
-          <person xml:id="ep000138-epiton">
+          <person xml:id="ep000138-epiton" sex="MALE">
             <persName>Epiton</persName>
           </person>
-          <person xml:id="ep000138-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000138-dipsas">
+          <person xml:id="ep000138-dipsas" sex="FEMALE">
             <persName>Dipsas</persName>
           </person>
-          <person xml:id="ep000138-scintilla">
+          <person xml:id="ep000138-scintilla" sex="FEMALE">
             <persName>Scintilla</persName>
           </person>
-          <person xml:id="ep000138-favil">
-            <persName>Favil</persName>
+          <person xml:id="ep000138-favil" sex="FEMALE">
+            <persName>Favilla</persName>
           </person>
-          <person xml:id="ep000138-bagoa">
+          <person xml:id="ep000138-bagoa" sex="FEMALE">
             <persName>Bagoa</persName>
           </person>
-          <person xml:id="ep000138-cynthia">
+          <person xml:id="ep000138-cynthia" sex="FEMALE">
             <persName>Cynthia</persName>
           </person>
-          <person xml:id="ep000138-semele">
+          <person xml:id="ep000138-semele" sex="FEMALE">
             <persName>Semele</persName>
           </person>
-          <person xml:id="ep000138-corsites">
+          <person xml:id="ep000138-corsites" sex="MALE">
             <persName>Corsites</persName>
           </person>
-          <person xml:id="ep000138-zontes">
+          <person xml:id="ep000138-zontes" sex="MALE">
             <persName>Zontes</persName>
           </person>
-          <person xml:id="ep000138-geron">
+          <person xml:id="ep000138-geron" sex="MALE">
             <persName>Geron</persName>
           </person>
-          <person xml:id="ep000138-1">
-            <persName>1</persName>
+          <person xml:id="ep000138-1" sex="MALE">
+            <persName>1. Watch</persName>
           </person>
-          <person xml:id="ep000138-2">
-            <persName>2</persName>
+          <person xml:id="ep000138-2" sex="MALE">
+            <persName>2. Watch</persName>
           </person>
-          <person xml:id="ep000138-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000138-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000138-pythagoras">
+          <person xml:id="ep000138-pythagoras" sex="MALE">
             <persName>Pythagoras</persName>
           </person>
-          <person xml:id="ep000138-gyptes">
+          <person xml:id="ep000138-gyptes" sex="MALE">
             <persName>Gyptes</persName>
           </person>
-          <person xml:id="ep000138-panelion">
+          <person xml:id="ep000138-panelion" sex="MALE">
             <persName>Panelion</persName>
           </person>
         </listPerson>
@@ -170,8 +164,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000138"
-                    passive="http://www.wikidata.org/entity/Q5376698"/>
+                   active="https://dracor.org/entity/ep000138"
+                   passive="http://www.wikidata.org/entity/Q5376698"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -579,7 +573,7 @@
             <speaker>Dares </speaker>
             <p>Well Sir Tophas we bid you farewell, &amp; at our next meeting, we will be readie to doe you seruice. </p>
           </sp>
-          <sp who="#ep000138-multiple" xml:id="ep000138-e102070">
+          <sp who="#ep000138-tophas #ep000138-samias" xml:id="ep000138-e102070">
             <speaker>Tophas Samias </speaker>
             <p>I thanke you. Dares I thanke you, but especiallie I thanke you both. </p>
           </sp>
@@ -2134,15 +2128,16 @@
             <speaker>Epi. </speaker>
             <p>Let Maister Constable speake: I thinke hee is the wisest among you. </p>
           </sp>
-          <sp who="#ep000138-unassigned" xml:id="ep000138-e109930">
+          <sp who="#ep000138-constable" xml:id="ep000138-e109930">
             <speaker>Ma. Const. </speaker>
             <p>You know neighbors tis an an old said saw, children and fooles speake true. </p>
           </sp>
-          <sp who="#ep000138-all" xml:id="ep000138-e109950">
+          <sp who="#ep000138-dares #ep000138-epiton #ep000138-samias #ep000138-1 #ep000138-2"
+                   xml:id="ep000138-e109950">
             <speaker>All say. </speaker>
             <p>True. </p>
           </sp>
-          <sp who="#ep000138-unassigned" xml:id="ep000138-e109970">
+          <sp who="#ep000138-constable" xml:id="ep000138-e109970">
             <speaker>Ma. Const. </speaker>
             <p>Well, there you see the men bee the fooles, because it is prouided from the children. </p>
           </sp>
@@ -2150,7 +2145,7 @@
             <speaker>Dares </speaker>
             <p>Good. </p>
           </sp>
-          <sp who="#ep000138-unassigned" xml:id="ep000138-e110010">
+          <sp who="#ep000138-constable" xml:id="ep000138-e110010">
             <speaker>Ma. Const. </speaker>
             <p>Then say I neighbors, that children must not see Endimion, because children &amp; fooles speak true. </p>
           </sp>

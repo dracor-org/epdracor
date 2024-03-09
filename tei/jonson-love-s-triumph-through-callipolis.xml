@@ -86,34 +86,34 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000111-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000111-amphitrite">
+          <personGrp xml:id="ep000111-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000111-amphitrite" sex="FEMALE">
             <persName>Amphitrite</persName>
           </person>
-          <person xml:id="ep000111-euphemus">
+          <person xml:id="ep000111-euphemus" sex="MALE">
             <persName>Euphemus</persName>
           </person>
-          <person xml:id="ep000111-semi-chorus">
-            <persName>Semi Chorus</persName>
-          </person>
-          <person xml:id="ep000111-euclias">
+          <personGrp xml:id="ep000111-semi-chorus" sex="MALE">
+            <name>Semi Chorus</name>
+          </personGrp>
+          <person xml:id="ep000111-euclias" sex="MALE">
             <persName>Euclias</persName>
           </person>
-          <person xml:id="ep000111-jupiter">
+          <person xml:id="ep000111-jupiter" sex="MALE">
             <persName>Jupiter</persName>
           </person>
-          <person xml:id="ep000111-juno">
+          <person xml:id="ep000111-juno" sex="FEMALE">
             <persName>Juno</persName>
           </person>
-          <person xml:id="ep000111-enius">
-            <persName>Enius</persName>
+          <person xml:id="ep000111-genius" sex="MALE">
+            <persName>Genius</persName>
           </person>
-          <person xml:id="ep000111-hymen">
+          <person xml:id="ep000111-hymen" sex="MALE">
             <persName>Hymen</persName>
           </person>
-          <person xml:id="ep000111-venus">
+          <person xml:id="ep000111-venus" sex="FEMALE">
             <persName>Venus</persName>
           </person>
         </listPerson>
@@ -128,8 +128,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000111"
-                    passive="http://www.wikidata.org/entity/Q6690021"/>
+                   active="https://dracor.org/entity/ep000111"
+                   passive="http://www.wikidata.org/entity/Q6690021"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -430,7 +430,7 @@
           <l>All powers, that gouerne mariage, pray That you will lend your light </l>
         </sp>
         <pb n="9" xml:id="ep000111-006-b"/>
-        <sp who="#ep000111-enius" xml:id="ep000111-e101840">
+        <sp who="#ep000111-genius" xml:id="ep000111-e101840">
           <speaker>GEN. </speaker>
           <l>Vnto the constellation of this night. </l>
         </sp>
@@ -442,7 +442,7 @@
           <speaker>IVN. </speaker>
           <l>And Iuno. </l>
         </sp>
-        <sp who="#ep000111-enius" xml:id="ep000111-e101900">
+        <sp who="#ep000111-genius" xml:id="ep000111-e101900">
           <speaker>GEN. </speaker>
           <l>And the Genius call, </l>
         </sp>

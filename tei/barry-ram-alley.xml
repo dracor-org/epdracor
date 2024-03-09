@@ -88,8 +88,11 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <personGrp xml:id="ep000116-citizens" sex="UNKNOWN">
+          <personGrp xml:id="ep000116-citizens" sex="MALE">
             <name>Citizens</name>
+          </personGrp>
+          <personGrp xml:id="ep000116-gentlemen" sex="MALE">
+            <name>Gentlemen</name>
           </personGrp>
           <person xml:id="ep000116-constantia" sex="FEMALE">
             <persName>Constantia</persName>
@@ -130,11 +133,11 @@
           <person xml:id="ep000116-puff" sex="MALE">
             <persName>Puff</persName>
           </person>
-          <person xml:id="ep000116-first-gentleman" sex="MALE">
-            <persName>First Gentleman</persName>
+          <person xml:id="ep000116-gentleman-1" sex="MALE">
+            <persName>Gentleman 1</persName>
           </person>
-          <person xml:id="ep000116-second-gentleman" sex="MALE">
-            <persName>Second Gentleman</persName>
+          <person xml:id="ep000116-gentleman-2" sex="MALE">
+            <persName>Gentleman 2</persName>
           </person>
           <person xml:id="ep000116-officer" sex="MALE">
             <persName>Officer</persName>
@@ -145,15 +148,18 @@
           <person xml:id="ep000116-drawer" sex="MALE">
             <persName>Drawer</persName>
           </person>
-          <person xml:id="ep000116-third-gentleman" sex="MALE">
-            <persName>Third Gentleman</persName>
+          <person xml:id="ep000116-captain" sex="MALE">
+            <persName>Captain Face</persName>
           </person>
           <person xml:id="ep000116-lady-summerfield" sex="FEMALE">
             <persName>Lady Summerfield</persName>
           </person>
-          <personGrp xml:id="ep000116-servingmen" sex="MALE">
-            <name>Servingmen</name>
-          </personGrp>
+          <person xml:id="ep000116-servant" sex="MALE">
+            <persName>Servant</persName>
+          </person>
+          <person xml:id="ep000116-lawyer" sex="MALE">
+            <persName>Lawyer</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -443,7 +449,7 @@
           <l>I will assume the most penurious state </l>
           <l>The Citty yeelds, to giue me meanes of life. </l>
         </sp>
-        <sp xml:id="ep000116-e102040">
+        <sp who="#ep000116-william-smallshanks" xml:id="ep000116-e102040">
           <speaker>W. S </speaker>
           <l>Why ther's it, you heare her what she sayes, </l>
           <l>Would not he be damn'd that should forsake her, </l>
@@ -1263,7 +1269,7 @@
           <l>But let that goe, and tell me how you doe, </l>
           <l>How does Will Smalshankes and his louely bride, </l>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e107510">
+        <sp who="#ep000116-throte" xml:id="ep000116-e107510">
           <speaker>Th. </speaker>
           <l>Introth you make me blush, I should haue ask't, </l>
           <l>His health of you, but tis not yet to late. </l>
@@ -1560,7 +1566,7 @@
           <l>Haue you hid your head within a suburbe hole </l>
           <l>All this while, and are you now crept forth? </l>
         </sp>
-        <sp xml:id="ep000116-e109520">
+        <sp who="#ep000116-william-smallshanks" xml:id="ep000116-e109520">
           <speaker>W. S </speaker>
           <p>'Tis a starke lye. </p>
         </sp>
@@ -1784,7 +1790,7 @@
           <l>The Lawyers house will giue you entertainment, </l>
           <l>Bountifull and free. </l>
         </sp>
-        <sp xml:id="ep000116-e110940">
+        <sp who="#ep000116-william-smallshanks" xml:id="ep000116-e110940">
           <speaker>W. S </speaker>
           <l>O nay second selfe, </l>
           <l>Come let me busse thy beard, we are all made, </l>
@@ -1840,7 +1846,7 @@
           <speaker>Both. </speaker>
           <p>We are so please you, both perfit friends. </p>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e111320">
+        <sp who="#ep000116-throte" xml:id="ep000116-e111320">
           <speaker>Th. </speaker>
           <l>Why so, </l>
           <l>Now to the next Tap-house, there drinke downe this, </l>
@@ -2816,7 +2822,7 @@
           <pb xml:id="ep000116-017-b"/>
           <l>Is to dwell in the very suburbs of Heauen, </l>
         </sp>
-        <sp who="#ep000116-first-gentleman" xml:id="ep000116-e117690">
+        <sp who="#ep000116-gentleman-1" xml:id="ep000116-e117690">
           <speaker>1. Gen. </speaker>
           <p>Is she so exquesite. </p>
         </sp>
@@ -2825,7 +2831,7 @@
           <l>Sir she is rich </l>
           <l>And a great heire. </l>
         </sp>
-        <sp who="#ep000116-second-gentleman" xml:id="ep000116-e117740">
+        <sp who="#ep000116-gentleman-2" xml:id="ep000116-e117740">
           <speaker>2. Gen. </speaker>
           <p>Tis the more dangerous, </p>
         </sp>
@@ -2867,7 +2873,7 @@
           <l>But shares a fortune with me if I speed. </l>
         </sp>
         <stage xml:id="ep000116-e118070">Enter William Smal-shanke Boutcher. Thomas Smal-shanke, Francis and Bear. with a torch. </stage>
-        <sp who="#ep000116-first-gentleman" xml:id="ep000116-e118080">
+        <sp who="#ep000116-gentleman-1" xml:id="ep000116-e118080">
           <speaker>1. Gen. </speaker>
           <l>Tut feare not vs be shure you runne away, </l>
           <l>And weele performe the quarrell. </l>
@@ -2930,7 +2936,7 @@
           <l>There is but two paire, of hoose, and shooes, </l>
           <l>In all his Parish. </l>
         </sp>
-        <sp who="#ep000116-first-gentleman" xml:id="ep000116-e118460">
+        <sp who="#ep000116-gentleman-1" xml:id="ep000116-e118460">
           <speaker>1, Gen. </speaker>
           <p>Hold vp your light Sir. </p>
         </sp>
@@ -2942,7 +2948,7 @@
           <speaker>W.S. </speaker>
           <p>Whats the matter Leiftenant. </p>
         </sp>
-        <sp who="#ep000116-second-gentleman" xml:id="ep000116-e118520">
+        <sp who="#ep000116-gentleman-2" xml:id="ep000116-e118520">
           <speaker>2. Ge. </speaker>
           <p>Your Lieftenants an asse. </p>
         </sp>
@@ -2979,13 +2985,12 @@
           <speaker>T.S. </speaker>
           <p>Downe toward Fleete bridge. </p>
         </sp>
-        <sp who="#ep000116-william-smallshanks #ep000116-boucher #ep000116-thomas-smallshanks #ep000116-beard #ep000116-frances"
-                 xml:id="ep000116-e118710">
+        <sp who="#ep000116-gentlemen" xml:id="ep000116-e118710">
           <speaker>All. </speaker>
           <p>Follow, follow, follow. <stage xml:id="ep000116-e118730">Ex. </stage>
           </p>
         </sp>
-        <sp who="#ep000116-first-gentleman" xml:id="ep000116-e118740">
+        <sp who="#ep000116-gentleman-1" xml:id="ep000116-e118740">
           <speaker>1. Gen. </speaker>
           <l>So has the wentch let vs persue a loofe, </l>
           <l>And see the euent, this will proue good mirth, </l>
@@ -3579,7 +3584,7 @@
           <speaker>W. Sm. </speaker>
           <p>Reskue, resku. </p>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e122680">
+        <sp who="#ep000116-throte" xml:id="ep000116-e122680">
           <speaker>Th. </speaker>
           <p>O he is caught. </p>
         </sp>
@@ -3686,8 +3691,8 @@
           <l>I know your trick:, </l>
           <l>And know I now am wife vnto this man. </l>
         </sp>
-        <sp who="#ep000116-throte #ep000116-beard #ep000116-william-smallshanks #ep000116-thomas-smallshanks #ep000116-boucher"
-                 xml:id="ep000116-e123360">
+        <sp who="#ep000116-william-smallshanks #ep000116-thomas-smallshanks #ep000116-beard #ep000116-officer #ep000116-boucher"
+                xml:id="ep000116-e123360">
           <speaker>Omn. </speaker>
           <p>How? </p>
         </sp>
@@ -3714,7 +3719,7 @@
           <speaker>Fra. </speaker>
           <p>I hope a will compound. </p>
         </sp>
-        <sp who="#ep000116-william-smallshanks" xml:id="ep000116-e123520">
+        <sp xml:id="ep000116-e123520">
           <speaker>W. S </speaker>
           <l>Foote shall I giue two thousand pound a yeare </l>
           <l>For nothing. </l>
@@ -3801,8 +3806,8 @@
           <speaker>Thr. </speaker>
           <p>You giue this as your deeds. </p>
         </sp>
-        <sp who="#ep000116-throte #ep000116-beard #ep000116-william-smallshanks #ep000116-thomas-smallshanks #ep000116-boucher #ep000116-frances #ep000116-dash"
-                 xml:id="ep000116-e124050">
+        <sp who="#ep000116-william-smallshanks #ep000116-thomas-smallshanks #ep000116-beard #ep000116-officer #ep000116-boucher"
+                xml:id="ep000116-e124050">
           <speaker>Omn. </speaker>
           <p>We doe, </p>
         </sp>
@@ -4397,7 +4402,7 @@
           </l>
         </sp>
         <stage xml:id="ep000116-e128270">Enter Captaine Face. </stage>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128280">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128280">
           <speaker>Cap. </speaker>
           <l>Is the coast cleare, are these combustions ceast, </l>
           <l>And may we drinke Canary sack in peace? </l>
@@ -4409,7 +4414,7 @@
           <speaker>Dra. </speaker>
           <p>Sir. </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128360">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128360">
           <speaker>Cap. </speaker>
           <p>On whom waite you sir rogue? </p>
         </sp>
@@ -4418,7 +4423,7 @@
           <l>Faith Captaine </l>
           <l>I attend a conuenticle of Players. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128410">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128410">
           <speaker>Ca. </speaker>
           <p>How players, what is there ere a Cuckold among them? </p>
         </sp>
@@ -4429,7 +4434,7 @@
           <l>If it be but for the better keeping </l>
           <l>The rest of his company together. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128480">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128480">
           <speaker>Cap. </speaker>
           <l>When did you see sir Theophrastus Slop, </l>
           <l>The Citty Dog-maister? </l>
@@ -4438,7 +4443,7 @@
           <speaker>Dra. </speaker>
           <p>Not to day sir. </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128530">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128530">
           <speaker>Cap. </speaker>
           <p>What haue you for my supper. </p>
         </sp>
@@ -4447,7 +4452,7 @@
           <l>Nothing ready </l>
           <l>Vnlesse you please to stay the dressing Captaine, </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128580">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128580">
           <speaker>Cap. </speaker>
           <l>Zownes stay the dressing; you damned rogue, </l>
           <l>What shall I waite vpon your greasie cooke, </l>
@@ -4461,7 +4466,7 @@
           <speaker>Dra. </speaker>
           <p>Yes sir. </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128670">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128670">
           <speaker>Cap. </speaker>
           <l>And good-man roague </l>
           <l>See what good thing your Kitchin-maide has left </l>
@@ -4496,7 +4501,7 @@
           <speaker>Bou. </speaker>
           <p>Now leaue vs boy; blesse you Captaine Face. </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e128980">
+        <sp who="#ep000116-captain" xml:id="ep000116-e128980">
           <speaker>Cap. </speaker>
           <p>Ile haue no Musick? </p>
         </sp>
@@ -4504,7 +4509,7 @@
           <speaker>W.S. </speaker>
           <p>Foot doost take vs for fidlers </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129020">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129020">
           <speaker>Cap. </speaker>
           <l>Then turne straight, Drawer runne downe the stares, </l>
           <l>And thanke the Gods a gaue me that great patience </l>
@@ -4517,7 +4522,7 @@
           <l>You needs will wed the widdow Taffata, </l>
           <l>Nolens volens. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129110">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129110">
           <speaker>Cap. </speaker>
           <l>Doe not vrge my patience, </l>
           <l>Awake not furie, new rakt vp in embers, </l>
@@ -4530,7 +4535,7 @@
           <l>Y'are an admirable Ape, and you can doe </l>
           <l>More feates then three Babounes, we must haue some. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129190">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129190">
           <speaker>Cap. </speaker>
           <l>My patience yet is great, I say be gone, </l>
           <l>My tricks are dangerous. </l>
@@ -4543,7 +4548,7 @@
           <l>Or I will whip you to them, doe not I know </l>
           <l>You are a lowsie knaue. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129280">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129280">
           <speaker>Cap. </speaker>
           <l>How? Lowsie knaue, </l>
           <l>Are wee not English bred? </l>
@@ -4554,7 +4559,7 @@
           <l>That dares not looke a Kitling in the face, </l>
           <l>If she but stare or mew. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129350">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129350">
           <speaker>Cap. </speaker>
           <l>My patience yet is great: </l>
           <l>Doe you bandie troopes, by Dis I will be Knight, </l>
@@ -4567,7 +4572,7 @@
           <l>Will you yet gee vp, </l>
           <l>I must lash you to it, </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129440">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129440">
           <speaker>Cap. </speaker>
           <l>By Pluto, Gentlemen, </l>
           <l>To doe you pleasure, and to make you sport, </l>
@@ -4581,7 +4586,7 @@
           <speaker>Bou. </speaker>
           <p>Ile dresse you sir. </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129520">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129520">
           <speaker>Cap. </speaker>
           <l>By Ioue 'tis not for feare, </l>
           <l>But for a loue I beare vnto these tricks, </l>
@@ -4644,7 +4649,7 @@
           <speaker>Dr. </speaker>
           <p>O rare. </p>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e129920">
+        <sp who="#ep000116-captain" xml:id="ep000116-e129920">
           <speaker>Cap. </speaker>
           <l>Zounes Ile first be dam'nd, shall sport </l>
           <l>Bee laught at; by Dis, by Pluto, and great Proserpine, </l>
@@ -4658,7 +4663,7 @@
           <l>'Twill not serue sir, </l>
           <l>You must shew more. </l>
         </sp>
-        <sp who="#ep000116-puff" xml:id="ep000116-e130020">
+        <sp who="#ep000116-captain" xml:id="ep000116-e130020">
           <speaker>Cap. </speaker>
           <p>Ile first be hangd and damn'd. </p>
         </sp>
@@ -4727,7 +4732,7 @@
           <l>Foote though I haue noe wit, yet I can, </l>
           <l>Loue a wentch and choose a wife, </l>
         </sp>
-        <sp who="#ep000116-gentleman" xml:id="ep000116-e130480">
+        <sp who="#ep000116-gentlemen" xml:id="ep000116-e130480">
           <speaker>Gen. </speaker>
           <l>Why sir, what should you doe with a wife, that are </l>
           <l>held none of the wisest? youle get none but fooles. </l>
@@ -4743,7 +4748,7 @@
           <l>there my father and I will this morning be married. </l>
           <stage xml:id="ep000116-e130590">Enter Beard and Francis, </stage>
         </sp>
-        <sp who="#ep000116-gentleman" xml:id="ep000116-e130600">
+        <sp who="#ep000116-gentlemen" xml:id="ep000116-e130600">
           <speaker>Gen. </speaker>
           <p>Stand close they come. </p>
         </sp>
@@ -4753,7 +4758,7 @@
           <l>As if this hower some fifty cuckolds were making, </l>
           <l>Then let vs trudge. </l>
         </sp>
-        <sp who="#ep000116-gentleman" xml:id="ep000116-e130660">
+        <sp who="#ep000116-gentlemen" xml:id="ep000116-e130660">
           <speaker>Gen. </speaker>
           <l>Downe with 'em, downe with them, away with her </l>
           <l>Maister Smal-shankes to Fleetestreet, goe the Curate there staies for you. </l>
@@ -4864,7 +4869,7 @@
           <l>all at a clap. </l>
           <l>And that is much I thinke. </l>
         </sp>
-        <sp who="#ep000116-servingmen" xml:id="ep000116-e131490">
+        <sp who="#ep000116-servant" xml:id="ep000116-e131490">
           <speaker>Seru. </speaker>
           <p>Thats my Lady. </p>
         </sp>
@@ -4896,22 +4901,22 @@
           <speaker>I.T. </speaker>
           <p>A man of forme like me but what's your businesse? </p>
         </sp>
-        <sp who="#ep000116-lady-summerfield" xml:id="ep000116-e131690">
+        <sp who="#ep000116-lawyer" xml:id="ep000116-e131690">
           <speaker>La. </speaker>
           <p>Be briefe good sir: what makes this bold intrusion? </p>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e131710">
+        <sp who="#ep000116-throte" xml:id="ep000116-e131710">
           <speaker>Th. </speaker>
           <l>Intrude, I do not, for I know the lawe, </l>
           <l>It is the rule that squares out all our actions, </l>
           <l>Those actions bring in coyne, coyne gets me friends, </l>
           <l>Your sonne in law hath law at's fingers ends. </l>
         </sp>
-        <sp who="#ep000116-lady-summerfield" xml:id="ep000116-e131760">
+        <sp who="#ep000116-lawyer" xml:id="ep000116-e131760">
           <speaker>La. </speaker>
           <p>My sonne in law. </p>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e131780">
+        <sp who="#ep000116-throte" xml:id="ep000116-e131780">
           <speaker>Th. </speaker>
           <l>Madame your sonne in law, </l>
           <l>Mother I come, (be glad I call you so) </l>
@@ -4922,7 +4927,7 @@
           <l>For beauty, vertue, and a wealthy dowre) </l>
           <l>I haue espousd. </l>
         </sp>
-        <sp who="#ep000116-lady-summerfield" xml:id="ep000116-e131860">
+        <sp who="#ep000116-lawyer" xml:id="ep000116-e131860">
           <speaker>La. </speaker>
           <p>How? you espouse my daughter? </p>
         </sp>
@@ -4944,7 +4949,7 @@
           <l>By that same rule these lips haue taken season, </l>
           <l>Tut I do all by Statute law, and reason. </l>
         </sp>
-        <sp who="#ep000116-lady-summerfield" xml:id="ep000116-e132000">
+        <sp who="#ep000116-lawyer" xml:id="ep000116-e132000">
           <speaker>La. </speaker>
           <l>Hence you base knaue, you petty-fogging groome, </l>
           <l>Clad in old ends, and peec'd with Brokery, </l>
@@ -4971,7 +4976,7 @@
           <l>We weare small hayre yet haue we tongue and wit, </l>
           <l>Lawyers close breech't haue bodies pollitick. </l>
         </sp>
-        <sp who="#ep000116-lady-summerfield" xml:id="ep000116-e132210">
+        <sp who="#ep000116-lawyer" xml:id="ep000116-e132210">
           <speaker>La. </speaker>
           <p>Speake, answer me sir Iack: stole you my daughter? </p>
         </sp>
@@ -4983,7 +4988,7 @@
           <l>Shee's mine without exception, barre or clause: </l>
           <l>Come, come, restore. </l>
         </sp>
-        <sp who="#ep000116-lady-summerfield" xml:id="ep000116-e132290">
+        <sp who="#ep000116-lawyer" xml:id="ep000116-e132290">
           <speaker>La. </speaker>
           <p>The fellow's mad I thinke, </p>
         </sp>
@@ -5035,7 +5040,7 @@
           <l>But for the restlesse toile it tooke of late, </l>
           <l>My blade shall sleep awhile. </l>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e132660">
+        <sp who="#ep000116-throte" xml:id="ep000116-e132660">
           <speaker>Th. </speaker>
           <p>Helpe. </p>
         </sp>
@@ -5054,7 +5059,7 @@
           <speaker>I. Tu. </speaker>
           <p>Sirra what are you? </p>
         </sp>
-        <sp who="#ep000116-thomas-smallshanks" xml:id="ep000116-e132790">
+        <sp who="#ep000116-throte" xml:id="ep000116-e132790">
           <speaker>Th. </speaker>
           <p>My Ladies Butler sir. </p>
         </sp>
@@ -5785,7 +5790,7 @@
           <speaker>S. Ol. </speaker>
           <p>Villaine, slaue, thou hast wrong'd my wife. </p>
         </sp>
-        <sp xml:id="ep000116-e137970">
+        <sp who="#ep000116-william-smallshanks" xml:id="ep000116-e137970">
           <speaker>W. S </speaker>
           <l>not so, </l>
           <pb xml:id="ep000116-035-a"/>
@@ -5960,8 +5965,8 @@
           <l>Agreed, take each his place, and heere the case </l>
           <l>Argued betwixt them two. </l>
         </sp>
-        <sp who="#ep000116-lady-summerfield #ep000116-tutchin #ep000116-william-smallshanks #ep000116-oliver-smallshanks #ep000116-boucher #ep000116-constantia #ep000116-taffata #ep000116-adriana"
-                 xml:id="ep000116-e139080">
+        <sp who="#ep000116-throte #ep000116-boucher #ep000116-lady-summerfield #ep000116-william-smallshanks"
+                xml:id="ep000116-e139080">
           <speaker>Om. </speaker>
           <p>Agreed, agreed. </p>
         </sp>
@@ -6010,7 +6015,7 @@
           <l>Whom since I left your house in shape of Page, </l>
           <l>I still haue followed. </l>
         </sp>
-        <sp xml:id="ep000116-e139400">
+        <sp who="#ep000116-william-smallshanks" xml:id="ep000116-e139400">
           <speaker>W. S </speaker>
           <l>Foot would I had knowne so much, </l>
           <l>I would haue beene bold to haue laine with your page. </l>

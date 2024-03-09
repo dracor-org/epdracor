@@ -87,71 +87,71 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000288-collector">
+          <person xml:id="ep000288-queen-mother" sex="FEMALE">
+            <persName>Queen mother</persName>
+          </person>
+          <person xml:id="ep000288-collector" sex="MALE">
             <persName>Collector</persName>
           </person>
-          <person xml:id="ep000288-jack">
+          <person xml:id="ep000288-jack" sex="MALE">
             <persName>Jack</persName>
           </person>
-          <person xml:id="ep000288-tyler">
+          <person xml:id="ep000288-tyler" sex="MALE">
             <persName>Tyler</persName>
           </person>
-          <person xml:id="ep000288-miller">
+          <person xml:id="ep000288-miller" sex="MALE">
             <persName>Miller</persName>
           </person>
-          <person xml:id="ep000288-ball">
+          <person xml:id="ep000288-ball" sex="MALE">
             <persName>Ball</persName>
           </person>
-          <person xml:id="ep000288-nobs">
+          <person xml:id="ep000288-nobs" sex="MALE">
             <persName>Nobs</persName>
           </person>
-          <person xml:id="ep000288-treasurer">
+          <person xml:id="ep000288-treasurer" sex="MALE">
             <persName>Treasurer</persName>
           </person>
-          <person xml:id="ep000288-archbishop">
+          <person xml:id="ep000288-archbishop" sex="MALE">
             <persName>Archbishop</persName>
           </person>
-          <person xml:id="ep000288-secretary">
+          <person xml:id="ep000288-secretary" sex="MALE">
             <persName>Secretary</persName>
           </person>
-          <person xml:id="ep000288-messenger">
+          <person xml:id="ep000288-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000288-hob">
+          <person xml:id="ep000288-hob" sex="MALE">
             <persName>Hob</persName>
           </person>
-          <person xml:id="ep000288-queen">
+          <person xml:id="ep000288-queen" sex="FEMALE">
             <persName>Queen</persName>
           </person>
-          <person xml:id="ep000288-salisbury">
+          <person xml:id="ep000288-salisbury" sex="MALE">
             <persName>Salisbury</persName>
           </person>
-          <person xml:id="ep000288-usher">
+          <person xml:id="ep000288-usher" sex="MALE">
             <persName>Usher</persName>
           </person>
-          <person xml:id="ep000288-king">
+          <person xml:id="ep000288-king" sex="MALE">
             <persName>King</persName>
           </person>
-          <person xml:id="ep000288-morton">
+          <person xml:id="ep000288-morton" sex="MALE">
             <persName>Morton</persName>
           </person>
-          <person xml:id="ep000288-bishop">
+          <person xml:id="ep000288-bishop" sex="MALE">
             <persName>Bishop</persName>
           </person>
-          <person xml:id="ep000288-spencer">
+          <person xml:id="ep000288-spencer" sex="MALE">
             <persName>Spencer</persName>
           </person>
-          <person xml:id="ep000288-newton">
+          <person xml:id="ep000288-newton" sex="MALE">
             <persName>Newton</persName>
           </person>
-          <person xml:id="ep000288-southwarkmen">
-            <persName>Southwarkmen</persName>
-          </person>
-          <person xml:id="ep000288-lord">
-            <persName>Lord</persName>
-          </person>
-          <person xml:id="ep000288-mayor">
-            <persName>Mayor</persName>
+          <personGrp xml:id="ep000288-southwarkmen" sex="MALE">
+            <name>Southwarkmen</name>
+          </personGrp>
+          <person xml:id="ep000288-lord-mayor" sex="MALE">
+            <persName>Lord Mayor</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -550,7 +550,7 @@
         </sp>
         <stage xml:id="ep000288-e102700">Exeunt. </stage>
         <stage xml:id="ep000288-e102710">Enter the Queene Mother, the County of Salsburie, and a Gentleman Usher. </stage>
-        <sp who="#ep000288-queen" xml:id="ep000288-e102720">
+        <sp who="#ep000288-queen-mother" xml:id="ep000288-e102720">
           <speaker>Queene Mother. </speaker>
           <l>This strange vnwelcome and vnhappie newes, </l>
           <l>Of these vnnaturall Rebels and vniust, </l>
@@ -771,7 +771,7 @@
         <pb xml:id="ep000288-011-a"/>
         <head>Actus Secundus. </head>
         <stage xml:id="ep000288-e104460">Enter Tom Miller with a Goose. </stage>
-        <sp who="#ep000288-miller" xml:id="ep000288-e104470">
+        <sp xml:id="ep000288-e104470">
           <l>IT is good to make prouision, for peraduenture wee shall lacke victuals and wee lie in campe on Blacke Heath long. </l>
           <l>And in faith as long as this Goose lasts wele not starue: </l>
           <l>And as many good fellowes as will come to the eating of her, come and welcome. </l>
@@ -957,7 +957,7 @@
           <l>More heard mishap than had of like bin mine, </l>
           <l>Had I not marked bin to be a King. </l>
         </sp>
-        <sp who="#ep000288-lord" xml:id="ep000288-e105830">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e105830">
           <speaker>Lord Maior. </speaker>
           <l>It shall become your Grace most Gratious Lord, </l>
           <l>To beare the minde in this aflicted time, </l>
@@ -993,7 +993,7 @@
           <l>Accompanied with the Lord Maior here alone, </l>
           <l>Besides our Gard that doth attend on vs. </l>
         </sp>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e106140">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e106140">
           <speaker>Maior. </speaker>
           <l>May it please your Grace that I shall raise the streets, </l>
           <l>To Gard your Maiestie through Smithfield as you walke. </l>
@@ -1072,7 +1072,7 @@
           <speaker>Ball. </speaker>
           <l>Marrie Sir he is a Kentishman, and hath bin my scholler ere now. </l>
         </sp>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e106670">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e106670">
           <speaker>Maior. </speaker>
           <l>Little good manner hath the villaine learnd, </l>
           <l>To vse his Lord and King so barberously. </l>
@@ -1281,7 +1281,7 @@
           <l>That haue so carefully remembred them: </l>
           <l>This is a part of great ingratitude. </l>
         </sp>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e107990">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e107990">
           <speaker>Maior. </speaker>
           <l>And it like your Maiestie the Essex men, </l>
           <l>With far more better mindes haue parted companie, </l>
@@ -1359,7 +1359,7 @@
           <l>And force cannot preuaile amongst the rowt. </l>
         </sp>
         <pb xml:id="ep000288-018-b"/>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e108490">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e108490">
           <speaker>Maior. </speaker>
           <l>Old Rome I can remember I haue read, </l>
           <l>When thou didst flourish for vertue, and for armes, </l>
@@ -1398,7 +1398,7 @@
           <l>These Rebls then will soone be put to foile. </l>
         </sp>
         <stage xml:id="ep000288-e108790">Exeunt all but the Maior and two Sargants. </stage>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e108800">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e108800">
           <speaker>Maior. </speaker>
           <l>Souldiers take hart to you and follow me, </l>
           <pb subtype="duplicate" type="blank" xml:id="ep000288-019-a"/>
@@ -1467,7 +1467,7 @@
           <l>When thrid of life is almost fret in twaine, </l>
           <l>To giue it strength breeds thankes, and wonders too. </l>
         </sp>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e109360">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e109360">
           <speaker>Maior. </speaker>
           <l>So many as are tane within the Cittie, </l>
           <l>Are fast in hold to know your Graces will, </l>
@@ -1602,7 +1602,7 @@
           <l>And thanke you for this honourable attempt. </l>
         </sp>
         <pb xml:id="ep000288-024-a"/>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e110340">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e110340">
           <speaker>Maior. </speaker>
           <l>What subiects harts could brooke the rage of theirs, </l>
           <l>To vaunt in presence of their Soueraigne Lord, </l>
@@ -1630,7 +1630,7 @@
           <l>The bloody dagger the more for Walworths honour: </l>
           <l>Call forth your Harrold and receaue your due. </l>
         </sp>
-        <sp who="#ep000288-mayor" xml:id="ep000288-e110580">
+        <sp who="#ep000288-lord-mayor" xml:id="ep000288-e110580">
           <speaker>Maior. </speaker>
           <l>My Gratious Lord this honourable Grace </l>
           <l>So far aboue desert, sith what I did </l>

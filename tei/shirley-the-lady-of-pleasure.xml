@@ -80,68 +80,53 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000272-steward">
+          <person xml:id="ep000272-steward" sex="MALE">
             <persName>Steward</persName>
           </person>
-          <person xml:id="ep000272-aretina">
+          <person xml:id="ep000272-aretina" sex="FEMALE">
             <persName>Aretina</persName>
           </person>
-          <person xml:id="ep000272-bornwell">
+          <person xml:id="ep000272-bornwell" sex="MALE">
             <persName>Bornwell</persName>
           </person>
-          <person xml:id="ep000272-decoy">
+          <person xml:id="ep000272-decoy" sex="FEMALE">
             <persName>Decoy</persName>
           </person>
-          <person xml:id="ep000272-alexander">
+          <person xml:id="ep000272-alexander" sex="MALE">
             <persName>Alexander</persName>
           </person>
-          <person xml:id="ep000272-littleworth">
+          <person xml:id="ep000272-littleworth" sex="MALE">
             <persName>Littleworth</persName>
           </person>
-          <person xml:id="ep000272-servant">
+          <person xml:id="ep000272-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000272-celestina">
+          <person xml:id="ep000272-celestina" sex="FEMALE">
             <persName>Celestina</persName>
           </person>
-          <person xml:id="ep000272-haircut">
+          <person xml:id="ep000272-haircut" sex="MALE">
             <persName>Haircut</persName>
           </person>
-          <person xml:id="ep000272-frederick">
+          <person xml:id="ep000272-frederick" sex="MALE">
             <persName>Frederick</persName>
           </person>
-          <person xml:id="ep000272-mariana">
+          <person xml:id="ep000272-mariana" sex="FEMALE">
             <persName>Mariana</persName>
           </person>
-          <person xml:id="ep000272-isabella">
+          <person xml:id="ep000272-isabella" sex="FEMALE">
             <persName>Isabella</persName>
           </person>
-          <person xml:id="ep000272-gentlewoman">
+          <person xml:id="ep000272-gentlewoman" sex="FEMALE">
             <persName>Gentlewoman</persName>
           </person>
-          <person xml:id="ep000272-sentlove">
+          <person xml:id="ep000272-sentlove" sex="MALE">
             <persName>Sentlove</persName>
           </person>
-          <person xml:id="ep000272-UNASSIGNED">
-            <persName>UNASSIGNED</persName>
-          </person>
-          <person xml:id="ep000272-lord">
+          <person xml:id="ep000272-lord" sex="MALE">
             <persName>Lord</persName>
           </person>
-          <person xml:id="ep000272-secretary">
+          <person xml:id="ep000272-secretary" sex="MALE">
             <persName>Secretary</persName>
-          </person>
-          <person xml:id="ep000272-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000272-kickshaw">
-            <persName>Kickshaw</persName>
-          </person>
-          <person xml:id="ep000272-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000272-londoner">
-            <persName>Londoner</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -158,8 +143,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000272"
-                    passive="http://www.wikidata.org/entity/Q7745187"/>
+                   active="https://dracor.org/entity/ep000272"
+                   passive="http://www.wikidata.org/entity/Q7745187"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -671,7 +656,7 @@
           <stage xml:id="ep000272-e103500">
             <pb n="eebo_img-7" xml:id="ep000272-017"/>Enter Alexander and Littleworth. </stage>
           <sp who="#ep000272-alexander #ep000272-littleworth"
-                    xml:id="ep000272-e103510">
+                   xml:id="ep000272-e103510">
             <speaker>Al. Lit. </speaker>
             <l>Save you Sir Thomas. </l>
           </sp>
@@ -687,7 +672,7 @@
             <speaker>Bor. </speaker>
             <l>What day is it abroad? </l>
           </sp>
-          <sp who="#ep000272-alexander" xml:id="ep000272-e103590">
+          <sp xml:id="ep000272-e103590">
             <speaker>Lit. </speaker>
             <l>The morning rises from your Ladies eye, </l>
             <l>If she looke cleare, we take the happy omen </l>
@@ -2510,7 +2495,7 @@
             <l>Ladies you will vouchsafe </l>
             <l>Your company. </l>
           </sp>
-          <sp who="#ep000272-UNASSIGNED" xml:id="ep000272-e115720">
+          <sp who="#ep000272-isabella #ep000272-mariana" xml:id="ep000272-e115720">
             <speaker>Is. M. </speaker>
             <l>We waite upon you sir. <stage xml:id="ep000272-e115740">Exunt. </stage>
             </l>
@@ -2680,7 +2665,7 @@
             <speaker>Lor. </speaker>
             <l>Have you prepard her? </l>
           </sp>
-          <sp who="#ep000272-unassigned" xml:id="ep000272-e116750">
+          <sp xml:id="ep000272-e116750">
             <speaker>De. </speaker>
             <l>Not for your Lordship, till I have found your pulse, </l>
             <l>I am acquainted with her disposition </l>
@@ -2820,7 +2805,7 @@
             </l>
             <l>Sentlove and Kickshaw! </l>
           </sp>
-          <sp who="#ep000272-kickshaw" xml:id="ep000272-e117690">
+          <sp who="#ep000272-alexander" xml:id="ep000272-e117690">
             <speaker>Kic. </speaker>
             <l>Your Lordship's busie. </l>
           </sp>
@@ -3052,7 +3037,7 @@
             <l>Why doe you thinke your selves competent Judges. </l>
             <l>Of beauty gentlemen? </l>
           </sp>
-          <sp who="#ep000272-both" xml:id="ep000272-e119110">
+          <sp who="#ep000272-sentlove #ep000272-alexander" xml:id="ep000272-e119110">
             <speaker>Both. </speaker>
             <l>What should hinder us? </l>
           </sp>
@@ -3322,7 +3307,7 @@
             <l>
               <pb n="eebo_img-21" xml:id="ep000272-045"/>To employ your wit and secrecie. </l>
           </sp>
-          <sp who="#ep000272-both" xml:id="ep000272-e120800">
+          <sp who="#ep000272-sentlove #ep000272-alexander" xml:id="ep000272-e120800">
             <speaker>Both. </speaker>
             <l>You'le honour us. </l>
           </sp>
@@ -3958,7 +3943,7 @@
             <l>They are not worth your anger, how I shall </l>
             <l>Acquit your Ladies silence. </l>
           </sp>
-          <sp who="#ep000272-unassigned" xml:id="ep000272-e124940">
+          <sp who="#ep000272-bornwell" xml:id="ep000272-e124940">
             <pb n="eebo_img-25" xml:id="ep000272-052"/>
             <speaker>Bo. </speaker>
             <l>Madam, I </l>
@@ -3968,7 +3953,7 @@
             <speaker>Cel. </speaker>
             <l>No cause of mine. </l>
           </sp>
-          <sp who="#ep000272-unassigned" xml:id="ep000272-e124990">
+          <sp xml:id="ep000272-e124990">
             <speaker>Bor. </speaker>
             <l>It must become me to attend you home. </l>
           </sp>
@@ -4790,7 +4775,7 @@
             <speaker>Se. </speaker>
             <l>My Lord your periwig is awry! </l>
           </sp>
-          <sp who="#ep000272-londoner" xml:id="ep000272-e130620">
+          <sp who="#ep000272-lord" xml:id="ep000272-e130620">
             <speaker>Lo </speaker>
             <l>You sir— <stage xml:id="ep000272-e130640">While Hairecut is busie about his haire, Sentlove goes to Celestina. </stage>
             </l>

@@ -73,79 +73,67 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000819-rodriguez">
+          <person xml:id="ep000819-soldier" sex="MALE">
+            <persName>Soldier</persName>
+          </person>
+          <person xml:id="ep000819-rodriguez" sex="MALE">
             <persName>Rodriguez</persName>
           </person>
-          <person xml:id="ep000819-ernesto">
+          <person xml:id="ep000819-ernesto" sex="MALE">
             <persName>Ernesto</persName>
           </person>
-          <person xml:id="ep000819-leonario">
+          <person xml:id="ep000819-leonario" sex="MALE">
             <persName>Leonario</persName>
           </person>
-          <person xml:id="ep000819-captain">
+          <person xml:id="ep000819-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000819-yyyy_1">
-            <persName>Yyyy 1</persName>
-          </person>
-          <person xml:id="ep000819-yyyy_2">
-            <persName>Yyyy 2</persName>
-          </person>
-          <person xml:id="ep000819-citizen_1">
+          <person xml:id="ep000819-citizen-1" sex="MALE">
             <persName>Citizen 1</persName>
           </person>
-          <person xml:id="ep000819-citizen_2">
+          <person xml:id="ep000819-citizen-2" sex="MALE">
             <persName>Citizen 2</persName>
           </person>
-          <person xml:id="ep000819-leandro">
+          <person xml:id="ep000819-leandro" sex="MALE">
             <persName>Leandro</persName>
           </person>
-          <person xml:id="ep000819-queen">
+          <person xml:id="ep000819-queen" sex="FEMALE">
             <persName>Queen</persName>
           </person>
-          <person xml:id="ep000819-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000819-lords">
-            <persName>Lords</persName>
-          </person>
-          <person xml:id="ep000819-servant">
+          <personGrp xml:id="ep000819-lords" sex="MALE">
+            <name>Lords</name>
+          </personGrp>
+          <person xml:id="ep000819-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000819-lieutenant">
+          <person xml:id="ep000819-servants" sex="MALE">
+            <persName>Servants</persName>
+          </person>
+          <person xml:id="ep000819-lieutenant" sex="MALE">
             <persName>Lieutenant</persName>
           </person>
-          <person xml:id="ep000819-ancient">
-            <persName>Ancient</persName>
+          <person xml:id="ep000819-antient" sex="MALE">
+            <persName>Antient</persName>
           </person>
-          <person xml:id="ep000819-rosania">
+          <person xml:id="ep000819-rosania" sex="FEMALE">
             <persName>Rosania</persName>
           </person>
-          <person xml:id="ep000819-ferdinand">
+          <person xml:id="ep000819-ferdinand" sex="MALE">
             <persName>Ferdinand</persName>
           </person>
-          <person xml:id="ep000819-keeper">
+          <person xml:id="ep000819-keeper" sex="MALE">
             <persName>Keeper</persName>
           </person>
-          <person xml:id="ep000819-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000819-ambo">
-            <persName>Ambo</persName>
-          </person>
-          <person xml:id="ep000819-violinda">
+          <person xml:id="ep000819-violinda" sex="FEMALE">
             <persName>Violinda</persName>
           </person>
-          <person xml:id="ep000819-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000819-courtier">
+          <person xml:id="ep000819-courtier" sex="MALE">
             <persName>Courtier</persName>
           </person>
-          <person xml:id="ep000819-guardian">
-            <persName>Guardian</persName>
+          <person xml:id="ep000819-guard" sex="MALE">
+            <persName>Guard</persName>
           </person>
-          <person xml:id="ep000819-alfonso">
+          <person xml:id="ep000819-alfonso" sex="MALE">
             <persName>Alfonso</persName>
           </person>
         </listPerson>
@@ -163,8 +151,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000819"
-                    passive="http://www.wikidata.org/entity/Q7730757"/>
+                   active="https://dracor.org/entity/ep000819"
+                   passive="http://www.wikidata.org/entity/Q7730757"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -355,15 +343,15 @@
           <speaker>Er. </speaker>
           <l>But Captain— </l>
         </sp>
-        <sp who="#ep000819-yyyy_1" xml:id="ep000819-e101290">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101290">
           <speaker>1 C. </speaker>
           <l>'Tis he, we must not lose him, </l>
         </sp>
-        <sp who="#ep000819-yyyy_2" xml:id="ep000819-e101310">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e101310">
           <speaker>2 C. </speaker>
           <l>He has credit with the Lords it seems. </l>
         </sp>
-        <sp who="#ep000819-yyyy_1" xml:id="ep000819-e101330">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101330">
           <speaker>1 C. </speaker>
           <l>He has spied us. </l>
         </sp>
@@ -374,7 +362,7 @@
           <l>Pray grace these honest Gentlemen, they will </l>
           <l>Deserve to kiss your Hands. </l>
         </sp>
-        <sp who="#ep000819-yyyy_1" xml:id="ep000819-e101390">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101390">
           <speaker>1 C. </speaker>
           <l>Our business </l>
           <l>Is to you Captain. </l>
@@ -399,7 +387,7 @@
           <speaker>Capt. </speaker>
           <l>I ha' mov'd your sute Gentlemen. </l>
         </sp>
-        <sp who="#ep000819-yyyy_1" xml:id="ep000819-e101520">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101520">
           <speaker>1 C. </speaker>
           <l>What sute? </l>
         </sp>
@@ -415,11 +403,11 @@
           <l>Of your long-winded Officers, whose purse </l>
           <l>Was made of the Leather with their conscience. </l>
         </sp>
-        <sp who="#ep000819-yyyy_1" xml:id="ep000819-e101640">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101640">
           <speaker>1 Ci. </speaker>
           <l>Does he talk to us of a Masque? </l>
         </sp>
-        <sp who="#ep000819-yyyy_2" xml:id="ep000819-e101660">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e101660">
           <speaker>2 Ci. </speaker>
           <l>Good Captain put your Masque off, and give us. </l>
           <l>The money that you owe us. </l>
@@ -433,7 +421,7 @@
           <l>Upon record; this villanous War distracts </l>
           <l>All civill mirth, but you will be remembred. </l>
         </sp>
-        <sp who="#ep000819-yyyy_1" xml:id="ep000819-e101760">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101760">
           <speaker>1 Ci. </speaker>
           <l>We know not what you mean, we have no anticks </l>
           <l>In agitation; if your Captain-ship </l>
@@ -449,7 +437,7 @@
           <pb n="4" xml:id="ep000819-007-a"/>
           <l>Why, whither doe you think I am going now? </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e101870">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e101870">
           <speaker>1 Cit. </speaker>
           <l>We care not whither so you pay us first. </l>
         </sp>
@@ -457,7 +445,7 @@
           <speaker>Capt. </speaker>
           <l>Let their own Fathers swing, so they have mony. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e101910">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e101910">
           <speaker>2 Cit. </speaker>
           <l>May be you are going to the Wars. </l>
         </sp>
@@ -476,7 +464,7 @@
           <l>And ha' your consciences so course a Nap </l>
           <l>To aske money of us? </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e102060">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e102060">
           <speaker>1 Cit. </speaker>
           <l>You had the conscience </l>
           <l>To take up our commodities. </l>
@@ -486,7 +474,7 @@
           <l>Reason good; </l>
           <l>Should I goe naked leeches? </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e102120">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e102120">
           <speaker>2 Cit. </speaker>
           <l>No but there is reason </l>
           <l>That you should pay good Captain for your warmth. </l>
@@ -496,7 +484,7 @@
           <l>Pay you? for what? for Cloaths, such things as these? </l>
           <l>Your tribe is bound to keep us. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e102180">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e102180">
           <speaker>1 Cit. </speaker>
           <l>How? </l>
         </sp>
@@ -540,7 +528,7 @@
           <l>Two such prodigious things with crooked consciences, </l>
           <l>Though Young yet Old in Usury— </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e102530">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e102530">
           <speaker>2 Cit. </speaker>
           <l>All this Captain </l>
           <l>Wo'not pay us our money, which we must </l>
@@ -551,7 +539,7 @@
           <l>Well since there is no remedy, will you take </l>
           <l>These two Noblemens words for what I owe you? </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e102600">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e102600">
           <speaker>1 Cit. </speaker>
           <l>With all our Hearts. </l>
         </sp>
@@ -582,7 +570,7 @@
           <pb n="6" xml:id="ep000819-008-a"/>
           <l>The debt when I ha' paid you? </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e102780">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e102780">
           <speaker>2 Cit. </speaker>
           <l>'Tis but reason. </l>
         </sp>
@@ -593,11 +581,11 @@
           <l>And witness what I pay you, I'l not trust </l>
           <l>Your Memorandums. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e102850">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e102850">
           <speaker>1 Cit. </speaker>
           <l>With all our Hearts Sir. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e102870">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e102870">
           <speaker>2 Cit. </speaker>
           <l>We desire no more. </l>
         </sp>
@@ -905,7 +893,7 @@
           <stage xml:id="ep000819-e105010">Enter Captain, two Citizens, and a Souldier. </stage>
           <l>May poize the scale. See, the Captain. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105030">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105030">
           <speaker>1 Cit. </speaker>
           <l>We alwaies thought you Noble, and we hope </l>
           <l>You'l take no offence, that our occasions </l>
@@ -920,7 +908,7 @@
           <l>Intreat you to be witnesses of what money </l>
           <l>I pay these Gentlemen, that have trusted me. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e105130">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e105130">
           <speaker>2 Cit. </speaker>
           <l>And will agen; command our Shops. </l>
         </sp>
@@ -938,11 +926,11 @@
           <speaker>Capt. </speaker>
           <l>They expect good money, and both good are too much. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105230">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105230">
           <speaker>1 Cit. </speaker>
           <l>We alwaies lov'd you. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e105250">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e105250">
           <speaker>2 Cit. </speaker>
           <l>And doe so still most virtuously. </l>
         </sp>
@@ -950,7 +938,7 @@
           <speaker>Capt. </speaker>
           <l>It does appear, </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105290">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105290">
           <speaker>1 Cit. </speaker>
           <l>And you shall find us ready— </l>
         </sp>
@@ -962,15 +950,15 @@
           <l>Faith make it up a thousand 'twixt you both </l>
           <l>Till I come back, you will be Aldermen. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105370">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105370">
           <speaker>1 Cit. </speaker>
           <l>Ne'r a whit the sooner. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e105390">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e105390">
           <speaker>2 Cit. </speaker>
           <l>Alas Sir, if it were at another time— </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105410">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105410">
           <speaker>1 Cit. </speaker>
           <l>Hereafter, upon good occasion you shall find— </l>
         </sp>
@@ -980,11 +968,11 @@
           <l>Lace by a wrong name; well ther's no remedy, </l>
           <l>I'l keep my word; the money's ready for you. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105470">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105470">
           <speaker>1 Cit. </speaker>
           <l>You are noble Captain. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e105490">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e105490">
           <speaker>2 Cit. </speaker>
           <l>May you kill all the Queens Enemies. </l>
         </sp>
@@ -993,11 +981,11 @@
           <l>You would not scape, </l>
           <l>That Cosen her liege people every day, then. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e105540">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e105540">
           <speaker>2 Cit. </speaker>
           <l>This payment Captain will come most seasonably. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105560">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105560">
           <speaker>1 Cit. </speaker>
           <l>And doe us as much good, as you had given us </l>
           <l>The sum twice told, another time. </l>
@@ -1008,14 +996,14 @@
           <l>These Noblemen, have you such want </l>
           <l>As you profess? you have no Wives nor Children. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105630">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105630">
           <speaker>1 Cit. </speaker>
           <l>I protest upon my credit, I am to pay </l>
           <l>This day two hundred pound, or be indanger'd </l>
           <l>To an arrest. </l>
         </sp>
         <pb n="12" xml:id="ep000819-011-a"/>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e105670">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e105670">
           <speaker>2 Cit. </speaker>
           <l>And I must goe to Prison </l>
           <l>If before Sun-set— </l>
@@ -1024,7 +1012,7 @@
           <speaker>Capt. </speaker>
           <l>Then 'twill doe you a pleasure. </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e105720">
+        <sp who="#ep000819-citizen-1 #ep000819-citizen-2" xml:id="ep000819-e105720">
           <speaker>Both. Cit. </speaker>
           <l>Above expression. </l>
         </sp>
@@ -1033,7 +1021,7 @@
           <l>Heres twelve pence a peece for you y'ar fit Men </l>
           <l>To serve the Queen: </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e105770">
+        <sp who="#ep000819-citizen-1 #ep000819-citizen-2" xml:id="ep000819-e105770">
           <speaker>Both Cit. </speaker>
           <l>How Captain? </l>
         </sp>
@@ -1042,7 +1030,7 @@
           <l>Why in the Wars, choose either Pike or Musket, </l>
           <l>You shall have that favour. </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e105820">
+        <sp who="#ep000819-citizen-1 #ep000819-citizen-2" xml:id="ep000819-e105820">
           <speaker>Both Cit. </speaker>
           <l>We are both undone. </l>
         </sp>
@@ -1055,7 +1043,7 @@
           <l>Ha' they not ready mony? why d'ee stare? </l>
           <l>No thanks for my protection? </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e105890">
+        <sp who="#ep000819-citizen-1 #ep000819-citizen-2" xml:id="ep000819-e105890">
           <speaker>Both Cat. </speaker>
           <l>Protection? </l>
         </sp>
@@ -1065,7 +1053,7 @@
           <l>Why you unthankfull sons of false light, Sergeant </l>
           <l>Take 'em to thei'r Rendevous </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105950">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105950">
           <speaker>1 Cit. </speaker>
           <l>Captain, a word— we are content— </l>
         </sp>
@@ -1073,11 +1061,11 @@
           <speaker>Capt. </speaker>
           <l>I'm glad on't, Why d'ee stay then. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e105990">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e105990">
           <speaker>1 Cit. </speaker>
           <l>To abate half our money. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e106010">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e106010">
           <speaker>2 Cit. </speaker>
           <l>All, all good Captain, he shall have all, rather </l>
           <l>Than be sent a souldiering; d'ee know what 'tis? </l>
@@ -1092,7 +1080,7 @@
           <speaker>Capt. </speaker>
           <l>Umh'. You will forgive me both your debts? </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e106100">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e106100">
           <speaker>2 Cit. </speaker>
           <l>And pray Heaven to forgive you too. </l>
         </sp>
@@ -1102,7 +1090,7 @@
           <l>These two would bribe me to abuse the Queen </l>
           <l>And the present service, is this less then Treason? </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e106160">
+        <sp who="#ep000819-citizen-1 #ep000819-citizen-2" xml:id="ep000819-e106160">
           <speaker>Both Cit. </speaker>
           <l>Oh. Er. Nay, nay Captain. </l>
         </sp>
@@ -1126,7 +1114,7 @@
           <l>When they come to'th, field, but goe they shall, </l>
           <l>And they were my Cosen-germans. </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e106310">
+        <sp who="#ep000819-citizen-1 #ep000819-citizen-2" xml:id="ep000819-e106310">
           <speaker>Both Cit. </speaker>
           <l>Good my Lord speak for us. </l>
         </sp>
@@ -1239,7 +1227,7 @@
           <speaker>Capt. </speaker>
           <l>Antient, what think you of the Wars now? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107200">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107200">
           <speaker>Ant. </speaker>
           <l>We are come off with Honour. </l>
         </sp>
@@ -1255,7 +1243,7 @@
           <l>The memorie of Man, when you receiv'd </l>
           <l>The binding twelve-pence, it was otherwise. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107300">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107300">
           <speaker>Ant. </speaker>
           <l>But you receiv'd, if you remember Captain, </l>
           <l>Beside what we releast in honest debt </l>
@@ -1272,7 +1260,7 @@
           <l>I ha' made you both brave fellows, fellows to Knights. </l>
           <l>You may be Squires to Ladies too. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107430">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107430">
           <speaker>Ant. </speaker>
           <l>I think so. </l>
         </sp>
@@ -1299,7 +1287,7 @@
           <l>But fear not, though you come off with more </l>
           <l>Limbs than you deserve, you shall have pay. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107610">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107610">
           <speaker>Ant. </speaker>
           <l>Shall we and not be troubled to fight for't? </l>
         </sp>
@@ -1317,7 +1305,7 @@
           <l>A Man had as good be no Lieutenant, as be </l>
           <l>Beaten when he comes home what think you Antient? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107730">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107730">
           <speaker>Ant. </speaker>
           <l>For my part I can indure beating as well </l>
           <l>As another if that be all. </l>
@@ -1326,7 +1314,7 @@
           <speaker>Capt. </speaker>
           <l>Will you to your Shops agen? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107780">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107780">
           <speaker>Ant. </speaker>
           <l>I have no mind to Woosted Stockings agen, </l>
           <l>And Shoos that Shine, I would were colours still. </l>
@@ -1343,7 +1331,7 @@
           <l>Shall we? they shall rack me e'r Ile confess I am </l>
           <l>A Lieutenant or ever see the Wars. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e107890">
+        <sp who="#ep000819-antient" xml:id="ep000819-e107890">
           <speaker>Ant. </speaker>
           <l>Or I an Antient. Ile tak't upon my death </l>
           <l>I was never a Souldier in my life. </l>
@@ -1364,7 +1352,7 @@
           <speaker>Cap. </speaker>
           <l>You shall both turn Courtiers. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e108010">
+        <sp who="#ep000819-antient" xml:id="ep000819-e108010">
           <speaker>Ant. </speaker>
           <l>Shall we? </l>
         </sp>
@@ -1373,7 +1361,7 @@
           <l>I say't; for if my phisnomy deceive me not, </l>
           <l>You two are born to be— </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e108060">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e108060">
           <speaker>Both. </speaker>
           <l>What? </l>
         </sp>
@@ -1389,7 +1377,7 @@
           <l>When you wore a girt under your chops, you two </l>
           <l>May stand between me and the Gallows. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e108180">
+        <sp who="#ep000819-antient" xml:id="ep000819-e108180">
           <speaker>Ant. </speaker>
           <l>Hang us if we do not. </l>
         </sp>
@@ -1399,7 +1387,7 @@
           <l>Have you a minde to be Officers to the Queen </l>
           <l>In ordinary, or extraordinary? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e108240">
+        <sp who="#ep000819-antient" xml:id="ep000819-e108240">
           <speaker>Ant. </speaker>
           <l>Extraordinary by all means. </l>
         </sp>
@@ -1412,7 +1400,7 @@
           <l>I commend your judgement, that will be </l>
           <l>Chargeable: But— </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e108310">
+        <sp who="#ep000819-antient" xml:id="ep000819-e108310">
           <speaker>Ant. </speaker>
           <l>Hang't, we'l finde money enough, but I more </l>
           <l>Resolve to be extraordinary. </l>
@@ -1422,7 +1410,7 @@
           <l>I'l bring you to a Court-Merchant presently; </l>
           <l>You will get infinite estates. </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e108370">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e108370">
           <speaker>Both. </speaker>
           <l>A ha Captain. </l>
         </sp>
@@ -1430,7 +1418,7 @@
           <speaker>Capt. </speaker>
           <l>And so command the Ladies, if you be bountiful. </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e108410">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e108410">
           <speaker>Both. </speaker>
           <l>A ha Boy. </l>
         </sp>
@@ -1455,7 +1443,7 @@
           <l>Will you, come on, no more Lieutenant now </l>
           <l>Nor Antient. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e108570">
+        <sp who="#ep000819-antient" xml:id="ep000819-e108570">
           <speaker>Ant. </speaker>
           <l>Do ye think we long to be beaten. </l>
         </sp>
@@ -1675,7 +1663,7 @@
           <l>Speak to the treason you are charged with </l>
           <l>And confess a guilt. </l>
         </sp>
-        <sp who="#ep000819-unassigned" xml:id="ep000819-e110330">
+        <sp who="#ep000819-leandro" xml:id="ep000819-e110330">
           <speaker>Leond. </speaker>
           <l>He justifies himself. </l>
         </sp>
@@ -1989,7 +1977,7 @@
           <speaker>Leon. </speaker>
           <l>My Lords Rodriguez and Ernesto. </l>
         </sp>
-        <sp who="#ep000819-ambo" xml:id="ep000819-e112520">
+        <sp who="#ep000819-rodriguez #ep000819-ernesto" xml:id="ep000819-e112520">
           <speaker>Ambo. </speaker>
           <l>Your Graces servants. </l>
         </sp>
@@ -2143,7 +2131,7 @@
           <l>But I would touz and tumble: Who are these? </l>
         </sp>
         <stage xml:id="ep000819-e113570">Enter two Citizens. </stage>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e113580">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e113580">
           <speaker>1. Cit. </speaker>
           <l>Save you Sir. </l>
         </sp>
@@ -2151,7 +2139,7 @@
           <speaker>Cap. </speaker>
           <l>It may be so. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e113620">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e113620">
           <speaker>2. Cit. </speaker>
           <l>Pray Sir take no offence, we have been enquiring </l>
           <l>About the Court for two Gentlemen. </l>
@@ -2161,7 +2149,7 @@
           <l>And cannot your four eies see two Gentlemen </l>
           <l>I'th' Court? </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e113680">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e113680">
           <speaker>1. Cit. </speaker>
           <l>Excuse us Sir, we have seen many, you </l>
           <l>May guess we have relation to the Citie Sir, </l>
@@ -2183,7 +2171,7 @@
           <l>This perswasion, That no woman can hold out, </l>
           <l>Now he is sworn a servant extraordinary. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e113850">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e113850">
           <speaker>1. Cit. </speaker>
           <l>Sir do you know us? </l>
         </sp>
@@ -2191,7 +2179,7 @@
           <speaker>Lieut. </speaker>
           <l>No. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e113890">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e113890">
           <speaker>2. Cit. </speaker>
           <l>We were your neighbors, and of the same trade </l>
         </sp>
@@ -2199,7 +2187,7 @@
           <speaker>Cap. </speaker>
           <l>They'l make him sweat; how the Rogue glotes upon 'em </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e113930">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e113930">
           <speaker>1. Cit. </speaker>
           <l>We were of your acquaintance, when you sold Garters. </l>
         </sp>
@@ -2207,7 +2195,7 @@
           <speaker>Lieut. </speaker>
           <l>Go hang your selves. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e113970">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e113970">
           <speaker>2. Cit. </speaker>
           <l>And Statute-lace. </l>
         </sp>
@@ -2221,7 +2209,7 @@
           <l>And would become my Clients to procure </l>
           <l>Some Letters Patents to beg by; alas, they are half distracted. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e114050">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e114050">
           <speaker>1. Cit. </speaker>
           <l>He's proud— I have a parcel of Periwigs </l>
           <l>Please you, for old acquaintance, put 'em off for me, </l>
@@ -2237,7 +2225,7 @@
           <l>He has brib'd her absence with some Ring or Bracelet, </l>
           <l>Least she should taste the discovery now. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e114170">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e114170">
           <speaker>1. Cit. </speaker>
           <l>Methinks you need not be so proud. </l>
         </sp>
@@ -2259,7 +2247,7 @@
         </sp>
         <stage xml:id="ep000819-e114290">Exit. </stage>
         <pb n="31" xml:id="ep000819-020-b"/>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e114300">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e114300">
           <speaker>1. Cit. </speaker>
           <l>I will not leave your worship so. </l>
         </sp>
@@ -2270,16 +2258,16 @@
           <l>Here comes the other Fool to make up the Gemini. </l>
         </sp>
         <stage xml:id="ep000819-e114360">Enter Antient with two Petitions. </stage>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114370">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114370">
           <speaker>Ant. </speaker>
           <l>Hum, I will not know him— Let me see— </l>
           <l>The humble Petition of— </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114400">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114400">
           <speaker>2. Cit. </speaker>
           <l>Save you Matter— </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114420">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114420">
           <speaker>Ant. </speaker>
           <l>Prethee fellow do not trouble me— </l>
           <l>Humbly praying— The Queen shall sign it. </l>
@@ -2292,7 +2280,7 @@
           <l>Pretend himself most busily employ'd </l>
           <l>About Petitions to the Queen. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114510">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114510">
           <speaker>Ant. </speaker>
           <l>Hum, shall daily pray for— Hum. </l>
         </sp>
@@ -2301,22 +2289,22 @@
           <l>More wit and money a your side; for your </l>
           <l>Extraordinary place will not hold out. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114560">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114560">
           <speaker>2. Cit. </speaker>
           <l>Sir I have a sute to you. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114580">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114580">
           <speaker>Ant. </speaker>
           <l>Is it Embroidered Sattin Sir, or Scarlet? </l>
           <l>Yet if your business do hold weight and consequence, </l>
           <l>may deserve to wear your thankfulness </l>
           <l>In Tissue or cloth of Bodkin; Ermines are for Princes. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114630">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114630">
           <speaker>2. Cit. </speaker>
           <l>Alas my Suite is not worth your wearing. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114650">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114650">
           <speaker>Ant. </speaker>
           <l>Good faith Sir you must excuse me, at this time </l>
           <l>My attendance is expected at the Counsel, come </l>
@@ -2328,16 +2316,16 @@
           <speaker>Cap. </speaker>
           <l>A sleep. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114730">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114730">
           <speaker>2. Cit. </speaker>
           <l>But do you not know me? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114750">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114750">
           <speaker>Ant. </speaker>
           <l>Hum. Yes I have seen your phisnomy, were you </l>
           <l>Never in a conspicuous place, called the Pillorie. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114780">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114780">
           <speaker>2. Cit. </speaker>
           <l>How, the Pillory? </l>
         </sp>
@@ -2345,17 +2333,17 @@
           <speaker>Cap. </speaker>
           <l>A skirmish, and it be thy will. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114820">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114820">
           <speaker>2. Cit. </speaker>
           <l>If it were not in the Court Garden, </l>
           <l>I would beat out thy brains. </l>
         </sp>
         <pb n="32" xml:id="ep000819-021-a"/>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114850">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114850">
           <speaker>Ant. </speaker>
           <l>Take heed, for I am an extraordinary— Sir </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114870">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114870">
           <speaker>2. Cit. </speaker>
           <l>Ratcatcher. </l>
         </sp>
@@ -2366,12 +2354,12 @@
           <l>Not kill him outright, it is but the loss </l>
           <l>Of your hand. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e114940">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e114940">
           <speaker>2. Cit. </speaker>
           <l>I would it were but the loss of my left hand </l>
           <l>To beat one of thy eyes out— Are you an Ancient? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e114970">
+        <sp who="#ep000819-antient" xml:id="ep000819-e114970">
           <speaker>Ant. </speaker>
           <l>Thank you for that, so I might deserve </l>
           <l>To be beaten. I am an extraordinary Sir. </l>
@@ -2381,7 +2369,7 @@
           <l>And deserves to be beaten accordingly. </l>
           <l>You may kick him without danger. </l>
         </sp>
-        <sp who="#ep000819-citizen_2" xml:id="ep000819-e115030">
+        <sp who="#ep000819-citizen-2" xml:id="ep000819-e115030">
           <speaker>2. Cit. </speaker>
           <l>May I? </l>
         </sp>
@@ -2391,7 +2379,7 @@
           <l>Look, your friend will shew you a president </l>
           <l>He is acquainted with the Court latitude. </l>
         </sp>
-        <sp who="#ep000819-citizen_1" xml:id="ep000819-e115090">
+        <sp who="#ep000819-citizen-1" xml:id="ep000819-e115090">
           <speaker>1. Cit. </speaker>
           <l>This is no striking. </l>
         </sp>
@@ -2407,7 +2395,7 @@
           <speaker>Lieut. </speaker>
           <l>A pox upon 'em, I feel it. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e115170">
+        <sp who="#ep000819-antient" xml:id="ep000819-e115170">
           <speaker>Ant. </speaker>
           <l>At their peril say I, these poor things </l>
           <l>Do not believe that we are extraordinary men, </l>
@@ -3869,7 +3857,8 @@
           <l>As kisses, and excuse for marrying with </l>
           <l>The Queen, a Virgin still, &amp;c. </l>
         </sp>
-        <sp who="#ep000819-omnes" xml:id="ep000819-e125320">
+        <sp who="#ep000819-ferdinand #ep000819-leandro #ep000819-rodriguez #ep000819-ernesto #ep000819-guard"
+                xml:id="ep000819-e125320">
           <speaker>Omnes. </speaker>
           <l>A Woman? </l>
         </sp>
@@ -4069,7 +4058,8 @@
           <l>She might allow me death without this scorn, </l>
           <l>This jeering Antimasque. </l>
         </sp>
-        <sp who="#ep000819-omnes" xml:id="ep000819-e126690">
+        <sp who="#ep000819-leandro #ep000819-ernesto #ep000819-rodriguez"
+                xml:id="ep000819-e126690">
           <speaker>Omnes. </speaker>
           <l>Long live the King. </l>
         </sp>
@@ -4077,7 +4067,8 @@
           <speaker>Ferd. </speaker>
           <l>What King? </l>
         </sp>
-        <sp who="#ep000819-omnes" xml:id="ep000819-e126730">
+        <sp who="#ep000819-leandro #ep000819-ernesto #ep000819-rodriguez"
+                xml:id="ep000819-e126730">
           <speaker>Omnes. </speaker>
           <l>Long live Ferdinand King of Murcia. </l>
         </sp>
@@ -4088,7 +4079,8 @@
           <l>Apparitions, I'l shut my eyes, and lose 'em. </l>
           <l>They wo'not vanish Leandro, Rodriguez, Ernesto? </l>
         </sp>
-        <sp who="#ep000819-omnes" xml:id="ep000819-e126800">
+        <sp who="#ep000819-leandro #ep000819-ernesto #ep000819-rodriguez"
+                xml:id="ep000819-e126800">
           <speaker>Omnes. </speaker>
           <l>All your subjects. </l>
         </sp>
@@ -4151,7 +4143,7 @@
           <l>And I have satisfied these Lords so well, </l>
           <l>They are confirm'd in your just claim, and person. </l>
         </sp>
-        <sp who="#ep000819-unassigned" xml:id="ep000819-e127220">
+        <sp who="#ep000819-rodriguez #ep000819-ernesto" xml:id="ep000819-e127220">
           <speaker>Rod Er. </speaker>
           <l>We lay our lives and fortunes at your feet. </l>
         </sp>
@@ -4258,7 +4250,7 @@
           <speaker>Leon. </speaker>
           <l>So neer? </l>
         </sp>
-        <sp who="#ep000819-unassigned" xml:id="ep000819-e127990">
+        <sp who="#ep000819-soldier" xml:id="ep000819-e127990">
           <speaker>Sold. </speaker>
           <l>We heard before of your affront </l>
           <l>My Lord, and were prepar'd. </l>
@@ -4271,7 +4263,7 @@
           <l>With victory from the Moores; his fame I honour, </l>
           <l>My knowledge never reach'd his person. </l>
         </sp>
-        <sp who="#ep000819-unassigned" xml:id="ep000819-e128080">
+        <sp who="#ep000819-soldier" xml:id="ep000819-e128080">
           <speaker>Sold. </speaker>
           <l>Sir, he brings old Soldiers with him, the Commanders </l>
           <l>Are such, whose faith and valor in those Wars </l>
@@ -4283,7 +4275,7 @@
           <l>We will to Horse immediatly. I long </l>
           <l>To salute the Army. </l>
         </sp>
-        <sp who="#ep000819-unassigned" xml:id="ep000819-e128160">
+        <sp who="#ep000819-soldier" xml:id="ep000819-e128160">
           <speaker>Sold. </speaker>
           <l>Which but wants your person </l>
           <l>The Soul of their design; you may soon reach 'em. </l>
@@ -4317,7 +4309,7 @@
           <l>I see no profit in these offices </l>
           <l>That we ha' brought. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128370">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128370">
           <speaker>Ant. </speaker>
           <l>Not extraordinary, as the name did promise </l>
         </sp>
@@ -4325,7 +4317,7 @@
           <speaker>Capt. </speaker>
           <l>The Rogues are poor, and now repent. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128410">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128410">
           <speaker>Ant. </speaker>
           <l>We were told by the cheating Captain </l>
           <l>That we should want Men to tell our money. </l>
@@ -4334,7 +4326,7 @@
           <speaker>Lieut. </speaker>
           <l>This 'tis to deal with Soldades. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128460">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128460">
           <speaker>Ant. </speaker>
           <l>We should command the Ladies too, and we </l>
           <l>Were bountifull, a small Pox take their beauties, </l>
@@ -4346,7 +4338,7 @@
           <speaker>Lieut. </speaker>
           <l>Well, if I trust a Captain agen. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128540">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128540">
           <speaker>Ant. </speaker>
           <l>Or I. </l>
         </sp>
@@ -4355,7 +4347,7 @@
           <l>I'm glad they are payd; I wo'not leave 'em </l>
           <l>I feel my antipathy strong yet. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128590">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128590">
           <speaker>Ant. </speaker>
           <l>I would venture half my soul to be reveng'd </l>
           <l>If I knew how. </l>
@@ -4368,7 +4360,7 @@
           <speaker>Lieut. </speaker>
           <l>The Ladies love him. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128660">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128660">
           <speaker>Ant. </speaker>
           <l>They all Love Men of War. </l>
         </sp>
@@ -4376,7 +4368,7 @@
           <speaker>Lieu. </speaker>
           <l>Would his poop were a fire. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128700">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128700">
           <speaker>Ant. </speaker>
           <l>And Battels in Bed naturally. </l>
         </sp>
@@ -4384,7 +4376,7 @@
           <speaker>Lieu. </speaker>
           <p>Well, what Ladies give him hereafter to buy new Feathers, may his body compell him to bestow upon a Surgeon. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128740">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128740">
           <speaker>Ant. </speaker>
           <l>May Diseases undermine his Flesh like Gun powder, </l>
           <pb n="63" xml:id="ep000819-036-b"/>
@@ -4394,7 +4386,7 @@
           <speaker>Lieu. </speaker>
           <p>May they that look for his Nose, go about for want of a bridge, and let him wear no Legs but what he buyes from the Carpenter. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128790">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128790">
           <speaker>Ant. </speaker>
           <p>May his face break out, and undo him in taffata, and may the patches at the last be so many, till his skin be invisible, and his goggle eyes look through a Mask. </p>
         </sp>
@@ -4402,7 +4394,7 @@
           <speaker>Lieu. </speaker>
           <p>May he live to be as much coward as we ha' been, and be beaten! </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128830">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128830">
           <speaker>Ant. </speaker>
           <p>Abominably beaten, and may the miracle be on our side, that we may be valiant, and be the Men to doe it, oh I would have no more mercy.— </p>
         </sp>
@@ -4410,11 +4402,11 @@
           <speaker>Capt. </speaker>
           <p>Save you Gallants, save you Courtiers. </p>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e128870">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e128870">
           <speaker>Both. </speaker>
           <p>My noble Captain. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e128890">
+        <sp who="#ep000819-antient" xml:id="ep000819-e128890">
           <speaker>Ant. </speaker>
           <p>It may be he did not hear us. </p>
         </sp>
@@ -4422,7 +4414,7 @@
           <speaker>Capt. </speaker>
           <p>Hark you, what purchase have you two made lately? </p>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e128930">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e128930">
           <speaker>Both. </speaker>
           <p>Of what? </p>
         </sp>
@@ -4437,7 +4429,7 @@
           <speaker>Lieu. </speaker>
           <l>Where is it Captain? </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129020">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129020">
           <speaker>Ant. </speaker>
           <p>Can you tell where we may borrow as much money upon our extraordinary places, as will set up shop agen? For this Court trade wo' not do. </p>
         </sp>
@@ -4453,7 +4445,7 @@
           <speaker>Capt. </speaker>
           <p>Ye took not the right way then. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129100">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129100">
           <speaker>Ant. </speaker>
           <p>That may be. </p>
         </sp>
@@ -4474,7 +4466,7 @@
           <speaker>Capt. </speaker>
           <p>You jeast y'faith. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129220">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129220">
           <speaker>Ant. </speaker>
           <p>And by all my no money, I have but half a one left </p>
         </sp>
@@ -4482,7 +4474,7 @@
           <speaker>Capt. </speaker>
           <p>Come, come, you took up linnen lately, I heard You did. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129260">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129260">
           <speaker>Ant. </speaker>
           <p>I, smocks. </p>
         </sp>
@@ -4492,7 +4484,7 @@
           <l>But if you be in earnest, I can tell, where you </l>
           <l>May furnish your selves richly. </l>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e129320">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e129320">
           <speaker>Both. </speaker>
           <p>Where? where? </p>
         </sp>
@@ -4500,7 +4492,7 @@
           <speaker>Capt. </speaker>
           <p>W'y in the Shops for ready money, but you would Save charges. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129360">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129360">
           <speaker>Ant. </speaker>
           <p>I marry Captain. </p>
         </sp>
@@ -4518,7 +4510,7 @@
           <l>It pleases you to say so, I begin </l>
           <l>To smell.— </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129480">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129480">
           <speaker>Ant. </speaker>
           <p>Not to us Captain, we have been beholding to you. </p>
         </sp>
@@ -4536,7 +4528,7 @@
           <p>Then observe; you are not ignorant how things go at Court, the King is in prison. </p>
         </sp>
         <pb n="65" xml:id="ep000819-037-b"/>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129570">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129570">
           <speaker>Ant. </speaker>
           <p>So. </p>
         </sp>
@@ -4544,7 +4536,7 @@
           <speaker>Capt. </speaker>
           <p>And his wench with him that walk'd in Breeches; The Queen resolves they shall both dye. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129610">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129610">
           <speaker>Ant. </speaker>
           <p>Good. </p>
         </sp>
@@ -4560,7 +4552,7 @@
           <speaker>Capt. </speaker>
           <p>And the tother a Lady, as some imagine, you two may do very well to undertake now— </p>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e129690">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e129690">
           <speaker>Both. </speaker>
           <p>Any thing. </p>
         </sp>
@@ -4568,7 +4560,7 @@
           <speaker>Capt. </speaker>
           <p>To be a couple of Hangmen: d'ee mark? to dispatch the Queens enemies in what horrid way, her counsell shall think convenient, you will do service to the State, and have extraordinary rewards; besides the honour and reputation of your places; what say? 'tis my pure love to make this first offer to you. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129730">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129730">
           <speaker>Ant. </speaker>
           <p>Do we look like a couple of Hangmen? </p>
         </sp>
@@ -4576,7 +4568,7 @@
           <speaker>Capt. </speaker>
           <p>No you ha' not so good a complexion; and now I think on't you sha'not live to have that preferment come, draw you that wear your Sword like a Bum-baly, do as I bid you, and that quickly. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129770">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129770">
           <speaker>Ant. </speaker>
           <p>It wo'not come out Sir— </p>
         </sp>
@@ -4584,7 +4576,7 @@
           <speaker>Cap. </speaker>
           <p>No.— this shall in then— </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e129810">
+        <sp who="#ep000819-antient" xml:id="ep000819-e129810">
           <speaker>Ant. </speaker>
           <p>I will put more strength to't. </p>
         </sp>
@@ -4592,7 +4584,7 @@
           <speaker>Capt. </speaker>
           <p>So, now, d'ee mark— kill one another. </p>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e129850">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e129850">
           <speaker>Both. </speaker>
           <p>Kill one another? </p>
         </sp>
@@ -4613,7 +4605,7 @@
           <speaker>Capt. </speaker>
           <p>Necessity has taught 'em the noble science, come. if all fail, you shall fight challenges; ther's mony and <pb n="66" xml:id="ep000819-038-a"/>broken Pates to be got that way, you can make legs, and gape like Gudgins for benevolence, cut scurvy capers, to shew your Legs are well, when your Head bleeds; farewell; stay, you want money, I had forgot, there is twelve pence apiece for you. </p>
         </sp>
-        <sp who="#ep000819-both" xml:id="ep000819-e129980">
+        <sp who="#ep000819-lieutenant #ep000819-antient" xml:id="ep000819-e129980">
           <speaker>Both. </speaker>
           <p>How Captain? I hope not. </p>
         </sp>
@@ -4621,7 +4613,7 @@
           <speaker>Capt. </speaker>
           <p>They are not hearty yet, they think I serve 'em with Press money agen; no, tis my pure bountie. Go, set up agen, and trust Souldiers, without impertinent asking for your debts; they I pay you. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130020">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130020">
           <speaker>Ant. </speaker>
           <p>As you ha' done. </p>
         </sp>
@@ -4633,7 +4625,7 @@
           <speaker>Lieu. </speaker>
           <p>Too much is too much; humh. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130080">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130080">
           <speaker>Ant. </speaker>
           <p>Now have I a great mind to fight with your Captainship. </p>
         </sp>
@@ -4645,7 +4637,7 @@
           <speaker>Capt. </speaker>
           <p>You are not desperate? </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130140">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130140">
           <speaker>Ant. </speaker>
           <p>We are a little better, as good be Hang'd for killing of you Captain, as live after the rate of our disgrace. I am resolv'd. </p>
         </sp>
@@ -4655,7 +4647,7 @@
           <stage xml:id="ep000819-e130180">They fight. </stage>
           <l>Must we have tother 'bout. </l>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130200">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130200">
           <speaker>Ant. </speaker>
           <p>This is enough at once we may come too't in time. </p>
         </sp>
@@ -4663,7 +4655,7 @@
           <speaker>Capt. </speaker>
           <p>Why now I love you, love you, as well as you do Law. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130240">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130240">
           <speaker>Ant. </speaker>
           <p>Upon good terms we love you too. </p>
         </sp>
@@ -4671,7 +4663,7 @@
           <speaker>Capt. </speaker>
           <p>Let's shake Hands, you sha'not to your vomit agen. Now you dare sight, I'l tell you a hundred wayes to get moneys, come, wee'l drink and divide fortunes, Run not back into cows agen. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130280">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130280">
           <speaker>Ant. </speaker>
           <p>I'l be Antient now agen. </p>
         </sp>
@@ -4683,7 +4675,7 @@
           <speaker>Capt. </speaker>
           <p>Both my own Boyes. </p>
         </sp>
-        <sp who="#ep000819-ancient" xml:id="ep000819-e130340">
+        <sp who="#ep000819-antient" xml:id="ep000819-e130340">
           <speaker>Ant. </speaker>
           <p>'Tis not so hard to fight I see, if a Man be but desperate, and give his mind too't. </p>
         </sp>
@@ -4812,7 +4804,8 @@
           <speaker>Que. </speaker>
           <l>From what an expectation am I faln! </l>
         </sp>
-        <sp who="#ep000819-omnes" xml:id="ep000819-e131210">
+        <sp who="#ep000819-leandro #ep000819-ernesto #ep000819-rodriguez #ep000819-servants"
+                xml:id="ep000819-e131210">
           <speaker>Omnes. </speaker>
           <l>Long live Ferdinand King. </l>
         </sp>
@@ -4857,7 +4850,7 @@
           <l>Ha? what clamors that? the frightfull noise increases. </l>
         </sp>
         <stage xml:id="ep000819-e131540">Enter first Guard. </stage>
-        <sp who="#ep000819-guardian" xml:id="ep000819-e131550">
+        <sp who="#ep000819-guard" xml:id="ep000819-e131550">
           <speaker>Guard. </speaker>
           <p>Flie, and save your selves the Fort's surpris'd By the Prince of Arragon, whose troups have seiz'd the City, reeling with Wine, and careless of their strength, in their joyes for you Sir. </p>
         </sp>

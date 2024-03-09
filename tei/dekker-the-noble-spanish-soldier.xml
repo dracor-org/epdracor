@@ -94,12 +94,9 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000235-signor-no" sex="MALE">
-            <persName>Signor No</persName>
-          </person>
-          <person xml:id="ep000235-lords" sex="MALE">
-            <persName>Lords</persName>
-          </person>
+          <personGrp xml:id="ep000235-guards" sex="MALE">
+            <name>Guards</name>
+          </personGrp>
           <person xml:id="ep000235-king" sex="MALE">
             <persName>King</persName>
           </person>
@@ -112,7 +109,7 @@
           <person xml:id="ep000235-onaelia" sex="FEMALE">
             <persName>Onaelia</persName>
           </person>
-          <person xml:id="ep000235-medina" sex="MALE">
+          <person xml:id="ep000235-medina" sex="FEMALE">
             <persName>Medina</persName>
           </person>
           <person xml:id="ep000235-baltazar" sex="MALE">
@@ -154,6 +151,9 @@
           <person xml:id="ep000235-valasco" sex="MALE">
             <persName>Valasco</persName>
           </person>
+          <person xml:id="ep000235-no" sex="MALE">
+            <persName>No</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -169,8 +169,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000235"
-                    passive="http://www.wikidata.org/entity/Q7754258"/>
+                   active="https://dracor.org/entity/ep000235"
+                   passive="http://www.wikidata.org/entity/Q7754258"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -1098,8 +1098,8 @@
               <speaker>Kin. </speaker>
               <l>What womans voyce is that? </l>
             </sp>
-            <sp who="#ep000235-baltazar #ep000235-alanzo #ep000235-cockadillio #ep000235-carlo"
-                       xml:id="ep000235-e105850">
+            <sp who="#ep000235-alanzo #ep000235-carlo #ep000235-cockadillio #ep000235-baltazar"
+                      xml:id="ep000235-e105850">
               <speaker>Omnes. </speaker>
               <l>Medina's Neece. </l>
             </sp>
@@ -1214,7 +1214,7 @@
               <l>How now? </l>
             </sp>
             <stage xml:id="ep000235-e106450">Enter Lords drawne. </stage>
-            <sp who="#ep000235-lords" xml:id="ep000235-e106460">
+            <sp who="#ep000235-guards" xml:id="ep000235-e106460">
               <speaker>Omnes. </speaker>
               <l>In danger, Sir? </l>
             </sp>
@@ -1278,8 +1278,8 @@
               <l>Grandoes and Lords of Spaine be witnesse all </l>
               <l>What here I cancell; read, doe you know this bond? </l>
             </sp>
-            <sp who="#ep000235-roderigo #ep000235-alba #ep000235-valasco #ep000235-daenia"
-                       xml:id="ep000235-e106900">
+            <sp who="#ep000235-roderigo #ep000235-alba #ep000235-daenia #ep000235-valasco"
+                      xml:id="ep000235-e106900">
               <speaker>Omnes. </speaker>
               <l>Our hands are too't. </l>
             </sp>
@@ -2071,11 +2071,11 @@
               <speaker>Seb. </speaker>
               <l>The King my father shall kill him I trow. </l>
             </sp>
-            <sp who="#ep000235-medina" xml:id="ep000235-e111950">
+            <sp xml:id="ep000235-e111950">
               <speaker>Dæn. </speaker>
               <l>But, sweet Coozen, the King loves not your mother. </l>
             </sp>
-            <sp who="#ep000235-sebastian" xml:id="ep000235-e111970">
+            <sp xml:id="ep000235-e111970">
               <speaker>Seb. </speaker>
               <l>Ile make him love her when I am a King. </l>
             </sp>
@@ -2137,8 +2137,8 @@
               <speaker>Onae. </speaker>
               <l>I, I, that's well; pray sweare. </l>
             </sp>
-            <sp who="#ep000235-alanzo #ep000235-carlo #ep000235-alba #ep000235-medina #ep000235-daenia #ep000235-cornego"
-                       xml:id="ep000235-e112360">
+            <sp who="#ep000235-medina #ep000235-alanzo #ep000235-carlo #ep000235-alba #ep000235-sebastian #ep000235-daenia"
+                      xml:id="ep000235-e112360">
               <speaker>Omnes. </speaker>
               <l>To this we sweare. </l>
             </sp>
@@ -2226,7 +2226,7 @@
               <l>All his All yes and friends rush into troopes </l>
               <l>Like raging Torrents. </l>
             </sp>
-            <sp who="#ep000235-valasco" xml:id="ep000235-e112890">
+            <sp xml:id="ep000235-e112890">
               <speaker>Val. </speaker>
               <l>And lowd Trumpet forth </l>
               <l>Your perjuries: seducing the wild people, </l>
@@ -2268,7 +2268,7 @@
               <speaker>Bal. </speaker>
               <l>I am none, Sir. </l>
             </sp>
-            <sp who="#ep000235-valasco" xml:id="ep000235-e113150">
+            <sp xml:id="ep000235-e113150">
               <speaker>Val. </speaker>
               <l>There's a man drop'd downe by thee. </l>
             </sp>
@@ -2704,8 +2704,8 @@
               <l>Leape desperately, and drowne himselfe i'th Seas, </l>
               <l>What were so brave a fellow? </l>
             </sp>
-            <sp who="#ep000235-medina #ep000235-alba #ep000235-daenia"
-                       xml:id="ep000235-e115710">
+            <sp who="#ep000235-medina #ep000235-alba #ep000235-carlo #ep000235-daenia"
+                      xml:id="ep000235-e115710">
               <speaker>Omnes. </speaker>
               <l>A brave blacke villaine. </l>
             </sp>
@@ -2837,8 +2837,8 @@
               <l>Mantled in darknesse, forthwith be conveyed </l>
               <l>To the Monastery of Saint Paul. </l>
             </sp>
-            <sp who="#ep000235-alba #ep000235-daenia #ep000235-baltazar"
-                       xml:id="ep000235-e116610">
+            <sp who="#ep000235-medina #ep000235-alba #ep000235-carlo #ep000235-daenia"
+                      xml:id="ep000235-e116610">
               <speaker>Omnes. </speaker>
               <l>Good. </l>
             </sp>
@@ -3827,7 +3827,7 @@
               <speaker>Med. </speaker>
               <l>What are you? come you from the King? </l>
             </sp>
-            <sp who="#ep000235-signor-no" xml:id="ep000235-e122570">
+            <sp who="#ep000235-no" xml:id="ep000235-e122570">
               <speaker>No. </speaker>
               <l>No. </l>
             </sp>
@@ -3846,7 +3846,7 @@
               <speaker>Carl. </speaker>
               <l>Will you smell to a sprig of Rosemary? </l>
             </sp>
-            <sp who="#ep000235-signor-no" xml:id="ep000235-e122670">
+            <sp who="#ep000235-no" xml:id="ep000235-e122670">
               <speaker>No. </speaker>
               <l>No. </l>
             </sp>
@@ -3854,7 +3854,7 @@
               <speaker>Bal. </speaker>
               <l>Will you be hang'd? </l>
             </sp>
-            <sp who="#ep000235-signor-no" xml:id="ep000235-e122710">
+            <sp who="#ep000235-no" xml:id="ep000235-e122710">
               <speaker>No. </speaker>
               <l>No. </l>
             </sp>
@@ -3868,8 +3868,8 @@
               <l>To arme our selves against we come to Court, </l>
               <l>Because the guard is doubled. </l>
             </sp>
-            <sp who="#ep000235-daenia #ep000235-alba #ep000235-carlo #ep000235-baltazar"
-                       xml:id="ep000235-e122790">
+            <sp who="#ep000235-alba #ep000235-carlo #ep000235-daenia"
+                      xml:id="ep000235-e122790">
               <speaker>Omnes. </speaker>
               <l>Tush, we care not. </l>
             </sp>
@@ -4060,7 +4060,7 @@
               <l>Where is our Noble Souldier Baltazar? </l>
               <l>So close in conference with that Signior? </l>
             </sp>
-            <sp who="#ep000235-signor-no" xml:id="ep000235-e124070">
+            <sp who="#ep000235-no" xml:id="ep000235-e124070">
               <speaker>No. </speaker>
               <l>No. </l>
             </sp>
@@ -4072,7 +4072,7 @@
               <speaker>Bal. </speaker>
               <p>Of this day? why as of a new play, if it ends well, all's well; all men are but Actors, now if you being the King, should be out of your part, or the Queene out of hers, or your Dons out of theirs, here's No wil never be out of his. </p>
             </sp>
-            <sp who="#ep000235-signor-no" xml:id="ep000235-e124130">
+            <sp who="#ep000235-no" xml:id="ep000235-e124130">
               <speaker>No. </speaker>
               <p>No. </p>
             </sp>
@@ -4193,8 +4193,8 @@
               <speaker>Kin. </speaker>
               <l>Poyson'd? </l>
             </sp>
-            <sp who="#ep000235-lopez #ep000235-valasco #ep000235-roderigo #ep000235-medina #ep000235-cockadillio #ep000235-alba #ep000235-carlo #ep000235-daenia #ep000235-cornego #ep000235-baltazar"
-                       xml:id="ep000235-e124810">
+            <sp who="#ep000235-medina #ep000235-alba #ep000235-carlo #ep000235-daenia"
+                      xml:id="ep000235-e124810">
               <speaker>Omnes. </speaker>
               <l>Descend blacke speckled soule to hell. </l>
             </sp>
@@ -4358,8 +4358,8 @@
               <l>See how I seale it with this Marriage; </l>
               <l>My blessing and Spaines kingdome both be thine. </l>
             </sp>
-            <sp who="#ep000235-lopez #ep000235-valasco #ep000235-roderigo #ep000235-medina #ep000235-cockadillio #ep000235-alba #ep000235-carlo #ep000235-daenia #ep000235-cornego #ep000235-baltazar #ep000235-cardinal #ep000235-queen"
-                       xml:id="ep000235-e125790">
+            <sp who="#ep000235-medina #ep000235-alba #ep000235-carlo #ep000235-daenia #ep000235-baltazar"
+                      xml:id="ep000235-e125790">
               <speaker>Omnes. </speaker>
               <l>Long live Sebastian. </l>
             </sp>

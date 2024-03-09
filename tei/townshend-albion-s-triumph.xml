@@ -86,38 +86,32 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000297-mercury">
+          <personGrp xml:id="ep000297-four-gods" sex="UNKNOWN">
+            <name>Four Gods</name>
+          </personGrp>
+          <person xml:id="ep000297-five-deities" sex="UNKNOWN">
+            <persName>Five Deities</persName>
+          </person>
+          <person xml:id="ep000297-mercury" sex="MALE">
             <persName>Mercury</persName>
           </person>
-          <person xml:id="ep000297-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000297-publius">
+          <personGrp xml:id="ep000297-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000297-publius" sex="MALE">
             <persName>Publius</persName>
           </person>
-          <person xml:id="ep000297-platonicus">
+          <person xml:id="ep000297-platonicus" sex="MALE">
             <persName>Platonicus</persName>
           </person>
-          <person xml:id="ep000297-cupid">
+          <person xml:id="ep000297-cupid" sex="MALE">
             <persName>Cupid</persName>
           </person>
-          <person xml:id="ep000297-diana">
+          <person xml:id="ep000297-diana" sex="FEMALE">
             <persName>Diana</persName>
           </person>
-          <person xml:id="ep000297-UNASSIGNED">
-            <persName>UNASSIGNED</persName>
-          </person>
-          <person xml:id="ep000297-peace">
+          <person xml:id="ep000297-peace" sex="FEMALE">
             <persName>Peace</persName>
-          </person>
-          <person xml:id="ep000297-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000297-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000297-multiple">
-            <persName>Multiple</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -539,7 +533,7 @@
             <l>I doe, I doe, since I am sure, </l>
             <l>When we two ioyne, our flames are pure. </l>
           </sp>
-          <sp who="#ep000297-UNASSIGNED" xml:id="ep000297-e102440">
+          <sp who="#ep000297-cupid #ep000297-diana" xml:id="ep000297-e102440">
             <speaker>CVPID and DIANA. </speaker>
             <l>As pure, and Cleere, as ALBAS skin, </l>
             <l>As her faire Fame, or thoughts within: </l>
@@ -648,17 +642,17 @@
           </sp>
           <stage xml:id="ep000297-e103260">The Five in the lower Clowde confessing her great Bounty, Answere. </stage>
           <stage xml:id="ep000297-e103270">The Five. </stage>
-          <sp who="#ep000297-unassigned" xml:id="ep000297-e103280">
+          <sp who="#ep000297-five-deities" xml:id="ep000297-e103280">
             <speaker>Two 2 </speaker>
             <l>Lyons, and Lambs togeather lye, </l>
             <l>When Lovly Peace stands smiling by </l>
           </sp>
-          <sp who="#ep000297-unassigned" xml:id="ep000297-e103310">
+          <sp who="#ep000297-five-deities" xml:id="ep000297-e103310">
             <speaker>Two 2 </speaker>
             <l>Temples and Townes by thy stay'd hand, </l>
             <l>First learne to Rise, And then to Stand. </l>
           </sp>
-          <sp who="#ep000297-all" xml:id="ep000297-e103340">
+          <sp who="#ep000297-five-deities" xml:id="ep000297-e103340">
             <speaker>All 5 </speaker>
             <l>'Tis not the Laurel Tree that brings, </l>
             <l>Anointing Oyle for sacred Kings: </l>
@@ -675,11 +669,11 @@
             <l>Why should this Ile aboue the rest, </l>
             <l>Be made (great Gods) the Halcions nest? </l>
           </lg>
-          <sp who="#ep000297-multiple" xml:id="ep000297-e103470">
+          <sp who="#ep000297-five-deities" xml:id="ep000297-e103470">
             <speaker>The 5. Deities thus resolue them </speaker>
             <l>Imperious Peace her selfe Descends </l>
           </sp>
-          <sp who="#ep000297-multiple" xml:id="ep000297-e103490">
+          <sp who="#ep000297-four-gods" xml:id="ep000297-e103490">
             <speaker>The foure Gods. </speaker>
             <l>Then here our search, and wonder ends, </l>
             <l>Wee'l steale away </l>
@@ -688,7 +682,7 @@
             <speaker>Peace. </speaker>
             <l>Earths Rulers, stay! </l>
           </sp>
-          <sp who="#ep000297-multiple" xml:id="ep000297-e103540">
+          <sp who="#ep000297-four-gods" xml:id="ep000297-e103540">
             <speaker>The foure Gods. </speaker>
             <l>Doth soft Peace call? </l>
           </sp>
@@ -696,16 +690,16 @@
             <speaker>Peace. </speaker>
             <l>Yes: and will streight employ yee All. </l>
           </sp>
-          <sp who="#ep000297-multiple" xml:id="ep000297-e103580">
+          <sp who="#ep000297-four-gods" xml:id="ep000297-e103580">
             <speaker>The foure Gods </speaker>
             <l>How, and wherein? </l>
           </sp>
-          <sp who="#ep000297-multiple" xml:id="ep000297-e103600">
+          <sp who="#ep000297-five-deities" xml:id="ep000297-e103600">
             <speaker>The 5. in the lower Clowde. </speaker>
             <l>Give eare, your Charge doth now begin. </l>
           </sp>
           <pb n="21" xml:id="ep000297-012-b"/>
-          <sp who="#ep000297-UNASSIGNED" xml:id="ep000297-e103620">
+          <sp who="#ep000297-peace" xml:id="ep000297-e103620">
             <speaker>Peace gives them their Charge. </speaker>
             <l>Neptune to Sea, And let no Sayle, </l>
             <l>Meete ALBIONS Fleete, But make it veile. </l>
@@ -716,7 +710,7 @@
             <l>And let Both Indies (Pluto) meete, </l>
             <l>And lay their wealth at ALBAS feete. </l>
           </sp>
-          <sp who="#ep000297-multiple" xml:id="ep000297-e103710">
+          <sp who="#ep000297-four-gods" xml:id="ep000297-e103710">
             <speaker>The foure God; </speaker>
             <stage xml:id="ep000297-e103720">reply </stage>
             <l>When Peace commands such pleasing things, </l>
