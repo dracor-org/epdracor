@@ -83,56 +83,53 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000816-mercury">
+          <person xml:id="ep000816-mercury" sex="MALE">
             <persName>Mercury</persName>
           </person>
-          <person xml:id="ep000816-momus">
+          <person xml:id="ep000816-momus" sex="MALE">
             <persName>Momus</persName>
           </person>
-          <person xml:id="ep000816-plutus">
+          <person xml:id="ep000816-plutus" sex="MALE">
             <persName>Plutus</persName>
           </person>
-          <person xml:id="ep000816-poverty">
+          <person xml:id="ep000816-poverty" sex="FEMALE">
             <persName>Poverty</persName>
           </person>
-          <person xml:id="ep000816-fortuna">
+          <person xml:id="ep000816-fortuna" sex="FEMALE">
             <persName>Fortuna</persName>
           </person>
-          <person xml:id="ep000816-pleasure">
+          <person xml:id="ep000816-pleasure" sex="FEMALE">
             <persName>Pleasure</persName>
           </person>
-          <person xml:id="ep000816-genius">
+          <person xml:id="ep000816-genius" sex="MALE">
             <persName>Genius</persName>
           </person>
-          <person xml:id="ep000816-kingdoms">
-            <persName>Kingdoms</persName>
-          </person>
-          <person xml:id="ep000816-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000816-eternity">
+          <personGrp xml:id="ep000816-kingdoms" sex="MALE">
+            <name>Kingdoms</name>
+          </personGrp>
+          <personGrp xml:id="ep000816-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000816-eternity" sex="MALE">
             <persName>Eternity</persName>
           </person>
-          <person xml:id="ep000816-eusebeia">
-            <persName>Eusebeia</persName>
+          <person xml:id="ep000816-eusebia" sex="FEMALE">
+            <persName>Eusebia</persName>
           </person>
-          <person xml:id="ep000816-aletheia">
+          <person xml:id="ep000816-aletheia" sex="MALE">
             <persName>Aletheia</persName>
           </person>
-          <person xml:id="ep000816-sophia">
+          <person xml:id="ep000816-sophia" sex="FEMALE">
             <persName>Sophia</persName>
           </person>
-          <person xml:id="ep000816-homonoia">
+          <person xml:id="ep000816-homonoia" sex="FEMALE">
             <persName>Homonoia</persName>
           </person>
-          <person xml:id="ep000816-dicaearche">
-            <persName>Dicaearche</persName>
+          <person xml:id="ep000816-dicaearches" sex="MALE">
+            <persName>Dicaearches</persName>
           </person>
-          <person xml:id="ep000816-euphemia">
+          <person xml:id="ep000816-euphemia" sex="FEMALE">
             <persName>Euphemia</persName>
-          </person>
-          <person xml:id="ep000816-multiple">
-            <persName>Multiple</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -1048,7 +1045,7 @@
                 <l>Since Good is here so perfect, as no Worth </l>
                 <l>Is left for After-Ages to bring forth. </l>
               </sp>
-              <sp who="#ep000816-eusebeia" xml:id="ep000816-e107250">
+              <sp who="#ep000816-eusebia" xml:id="ep000816-e107250">
                 <speaker>EVSEBIA. </speaker>
                 <l>Mortality cannot with more </l>
                 <l>Religious zeale, the gods adore. </l>
@@ -1068,7 +1065,7 @@
                 <l>And as their owne pure Soules entwin'd, </l>
                 <l>So are their Subjects hearts combin'd. </l>
               </sp>
-              <sp who="#ep000816-dicaearche" xml:id="ep000816-e107370">
+              <sp who="#ep000816-dicaearches" xml:id="ep000816-e107370">
                 <speaker>DICAEARCHES. </speaker>
                 <l>So just, so gentle is their sway, </l>
                 <l>As it seemes Empire to obay. </l>
@@ -1087,7 +1084,7 @@
                 <speaker>AL. </speaker>
                 <l>Truth. </l>
               </sp>
-              <sp who="#ep000816-eusebeia" xml:id="ep000816-e107470">
+              <sp who="#ep000816-eusebia" xml:id="ep000816-e107470">
                 <speaker>EVS. </speaker>
                 <l>Pure Adoration. </l>
               </sp>
@@ -1095,7 +1092,7 @@
                 <speaker>HO. </speaker>
                 <l>Concord. </l>
               </sp>
-              <sp who="#ep000816-dicaearche" xml:id="ep000816-e107510">
+              <sp who="#ep000816-dicaearches" xml:id="ep000816-e107510">
                 <speaker>DI. </speaker>
                 <l>Rule. </l>
               </sp>
@@ -1126,7 +1123,8 @@
                 <l>With your resistlesse influence guide </l>
                 <l>Of human change th' incertaine tide </l>
               </sp>
-              <sp who="#ep000816-multiple" xml:id="ep000816-e107720">
+              <sp who="#ep000816-eusebia #ep000816-aletheia #ep000816-sophia"
+                         xml:id="ep000816-e107720">
                 <speaker>EVS. ALE. SOP. </speaker>
                 <l>But oh you Royall Turtles, shed, </l>
                 <l>When you from Earth remove, </l>
@@ -1138,7 +1136,8 @@
                 <l>Which no Power can but yours dispence, </l>
                 <l>Since you the patterne beare from hence. </l>
               </sp>
-              <sp who="#ep000816-multiple" xml:id="ep000816-e107800">
+              <sp who="#ep000816-homonoia #ep000816-dicaearches #ep000816-euphemia"
+                         xml:id="ep000816-e107800">
                 <speaker>HOM. DIC. EVP. </speaker>
                 <l>Then from your fruitfull race shall flow </l>
                 <l>Endlesse Succession, </l>

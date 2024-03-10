@@ -92,59 +92,50 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000118-agnostus">
+          <person xml:id="ep000118-agnostus" sex="MALE">
             <persName>Agnostus</persName>
           </person>
-          <person xml:id="ep000118-poneria">
+          <person xml:id="ep000118-poneria" sex="FEMALE">
             <persName>Poneria</persName>
           </person>
-          <person xml:id="ep000118-rhodon">
+          <person xml:id="ep000118-rhodon" sex="MALE">
             <persName>Rhodon</persName>
           </person>
-          <person xml:id="ep000118-acanthus">
+          <person xml:id="ep000118-acanthus" sex="MALE">
             <persName>Acanthus</persName>
           </person>
-          <person xml:id="ep000118-clematis">
+          <person xml:id="ep000118-clematis" sex="FEMALE">
             <persName>Clematis</persName>
           </person>
-          <person xml:id="ep000118-eglantine">
+          <person xml:id="ep000118-eglantine" sex="FEMALE">
             <persName>Eglantine</persName>
           </person>
-          <person xml:id="ep000118-cynobastus">
+          <person xml:id="ep000118-cynobastus" sex="MALE">
             <persName>Cynobastus</persName>
           </person>
-          <person xml:id="ep000118-martagon">
+          <person xml:id="ep000118-martagon" sex="MALE">
             <persName>Martagon</persName>
           </person>
-          <person xml:id="ep000118-anthophotus">
+          <person xml:id="ep000118-anthophotus" sex="MALE">
             <persName>Anthophotus</persName>
           </person>
-          <person xml:id="ep000118-iris">
+          <person xml:id="ep000118-iris" sex="FEMALE">
             <persName>Iris</persName>
           </person>
-          <person xml:id="ep000118-messenger">
+          <person xml:id="ep000118-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000118-panace">
+          <person xml:id="ep000118-panace" sex="FEMALE">
             <persName>Panace</persName>
           </person>
-          <person xml:id="ep000118-missing">
-            <persName>Missing</persName>
-          </person>
-          <person xml:id="ep000118-violetta">
+          <person xml:id="ep000118-violetta" sex="FEMALE">
             <persName>Violetta</persName>
           </person>
-          <person xml:id="ep000118-gladiolus">
+          <person xml:id="ep000118-gladiolus" sex="MALE">
             <persName>Gladiolus</persName>
           </person>
-          <person xml:id="ep000118-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000118-flora">
+          <person xml:id="ep000118-flora" sex="FEMALE">
             <persName>Flora</persName>
-          </person>
-          <person xml:id="ep000118-all">
-            <persName>All</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -276,9 +267,9 @@
         <signed>IOHN MINGAY. </signed>
       </div>
       <div cert="high"
-               type="encomium"
-               xml:id="ep000118-e100880"
-               xml:lang="lat">
+              type="encomium"
+              xml:id="ep000118-e100880"
+              xml:lang="lat">
         <pb xml:id="ep000118-007-a"/>
         <head>In Librum. </head>
         <lg>
@@ -1234,7 +1225,7 @@
           <pb xml:id="ep000118-019-b"/>
           <head>ACT. 2. SCEN. 3. </head>
           <stage xml:id="ep000118-e108340">Eglantine sola. </stage>
-          <sp who="#ep000118-missing" xml:id="ep000118-e108350">
+          <sp xml:id="ep000118-e108350">
             <l>SInce that the gods will not my woe redresse, </l>
             <l>Since men are altogether pittilesse, </l>
             <l>Ye silent ghosts unto my plaints give eare; </l>
@@ -1577,7 +1568,7 @@
         <div n="1" type="scene" xml:id="ep000118-e111010">
           <head>ACT. 3. SCEN. 1. </head>
           <stage xml:id="ep000118-e111020">Clematis Solo. </stage>
-          <sp who="#ep000118-missing" xml:id="ep000118-e111030">
+          <sp xml:id="ep000118-e111030">
             <l>WEll, if I were but once rid of her service, </l>
             <l>If I ever seru'd love-sicke mistris againe, </l>
             <l>I would feed all my life time on Agnus Castus, </l>
@@ -1726,7 +1717,7 @@
             <l>For reason and experience shewes, that no man </l>
             <l>Ere gain'd repute by drawing gainst a woman. </l>
           </sp>
-          <sp who="#ep000118-unassigned" xml:id="ep000118-e112370">
+          <sp who="#ep000118-clematis" xml:id="ep000118-e112370">
             <speaker>Dl. </speaker>
             <l>Stripling, dost thinke I feare a naked blade; </l>
             <l>Ile meete thee where thou dar'st, and whip thee too </l>
@@ -2540,7 +2531,7 @@
         <div n="4" type="scene" xml:id="ep000118-e118180">
           <head>ACT. 4: SCEN. 4. </head>
           <stage xml:id="ep000118-e118190">Panace Sola. </stage>
-          <sp who="#ep000118-missing" xml:id="ep000118-e118200">
+          <sp xml:id="ep000118-e118200">
             <l>VPon this shady banke with laurels crown'd, </l>
             <l>The gentle Shepheard Rhodon dwels: </l>
             <l>His Cottage seated is upon a Cristall River, </l>
@@ -3210,7 +3201,8 @@
             <l>Confine them to perpetuall prison in the scabbard, </l>
             <l>That they may nere come forth to manage civill broiles. </l>
           </sp>
-          <sp who="#ep000118-all" xml:id="ep000118-e122930">
+          <sp who="#ep000118-iris #ep000118-eglantine #ep000118-panace #ep000118-martagon #ep000118-rhodon #ep000118-acanthus"
+                   xml:id="ep000118-e122930">
             <speaker>All. </speaker>
             <l>We must obey, and will, Oh awfull goddesse. </l>
           </sp>

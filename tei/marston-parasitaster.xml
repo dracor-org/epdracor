@@ -99,66 +99,63 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000160-hercules">
+          <person xml:id="ep000160-hercules" sex="MALE">
             <persName>Hercules</persName>
           </person>
-          <person xml:id="ep000160-reynaldo">
+          <person xml:id="ep000160-reynaldo" sex="MALE">
             <persName>Reynaldo</persName>
           </person>
-          <person xml:id="ep000160-page">
+          <person xml:id="ep000160-page" sex="MALE">
             <persName>Page</persName>
           </person>
-          <person xml:id="ep000160-nymphadoro">
+          <person xml:id="ep000160-nymphadoro" sex="MALE">
             <persName>Nymphadoro</persName>
           </person>
-          <person xml:id="ep000160-herod">
+          <person xml:id="ep000160-herod" sex="MALE">
             <persName>Herod</persName>
           </person>
-          <person xml:id="ep000160-dondolo">
+          <person xml:id="ep000160-dondolo" sex="MALE">
             <persName>Dondolo</persName>
           </person>
-          <person xml:id="ep000160-gonzago">
+          <person xml:id="ep000160-gonzago" sex="MALE">
             <persName>Gonzago</persName>
           </person>
-          <person xml:id="ep000160-dulcimell">
-            <persName>Dulcimell</persName>
+          <person xml:id="ep000160-dulcimell" sex="FEMALE">
+            <persName>Dulcimel</persName>
           </person>
-          <person xml:id="ep000160-tiberio">
+          <person xml:id="ep000160-tiberio" sex="MALE">
             <persName>Tiberio</persName>
           </person>
-          <person xml:id="ep000160-amoroso">
+          <person xml:id="ep000160-amoroso" sex="MALE">
             <persName>Amoroso</persName>
           </person>
-          <person xml:id="ep000160-zuccone">
+          <person xml:id="ep000160-zuccone" sex="MALE">
             <persName>Zuccone</persName>
           </person>
-          <person xml:id="ep000160-zoya">
+          <person xml:id="ep000160-zoya" sex="FEMALE">
             <persName>Zoya</persName>
           </person>
-          <person xml:id="ep000160-garbetza">
+          <person xml:id="ep000160-garbetza" sex="FEMALE">
             <persName>Garbetza</persName>
           </person>
-          <person xml:id="ep000160-philocalia">
+          <person xml:id="ep000160-philocalia" sex="FEMALE">
             <persName>Philocalia</persName>
           </person>
-          <person xml:id="ep000160-granuffo">
+          <person xml:id="ep000160-granuffo" sex="MALE">
             <persName>Granuffo</persName>
           </person>
-          <person xml:id="ep000160-puttotta">
+          <person xml:id="ep000160-puttotta" sex="MALE">
             <persName>Puttotta</persName>
           </person>
-          <person xml:id="ep000160-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000160-cupid">
+          <person xml:id="ep000160-cupid" sex="MALE">
             <persName>Cupid</persName>
           </person>
-          <person xml:id="ep000160-poveia">
+          <person xml:id="ep000160-poveia" sex="MALE">
             <persName>Poveia</persName>
           </person>
-          <person xml:id="ep000160-ladies">
-            <persName>Ladies</persName>
-          </person>
+          <personGrp xml:id="ep000160-ladies" sex="FEMALE">
+            <name>Ladies</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -174,8 +171,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000160"
-                    passive="http://www.wikidata.org/entity/Q7135928"/>
+                   active="https://dracor.org/entity/ep000160"
+                   passive="http://www.wikidata.org/entity/Q7135928"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -3180,7 +3177,8 @@
             <speaker>Zoya. </speaker>
             <p>What fellowes that. </p>
           </sp>
-          <sp who="#ep000160-multiple" xml:id="ep000160-e117390">
+          <sp who="#ep000160-nymphadoro #ep000160-dondolo #ep000160-zuccone"
+                   xml:id="ep000160-e117390">
             <speaker>Nym. Don. Zuc. </speaker>
             <p>your sometime husband. </p>
           </sp>

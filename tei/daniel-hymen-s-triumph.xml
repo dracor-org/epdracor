@@ -83,57 +83,54 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000361-hymen">
+          <person xml:id="ep000361-hymen" sex="FEMALE">
             <persName>Hymen</persName>
           </person>
-          <person xml:id="ep000361-envy">
+          <person xml:id="ep000361-envy" sex="FEMALE">
             <persName>Envy</persName>
           </person>
-          <person xml:id="ep000361-avarice">
+          <person xml:id="ep000361-avarice" sex="FEMALE">
             <persName>Avarice</persName>
           </person>
-          <person xml:id="ep000361-jealousy">
+          <person xml:id="ep000361-jealousy" sex="FEMALE">
             <persName>Jealousy</persName>
           </person>
-          <person xml:id="ep000361-thirsis">
-            <persName>Thirsis</persName>
-          </person>
-          <person xml:id="ep000361-palaemon">
+          <person xml:id="ep000361-palaemon" sex="MALE">
             <persName>Palaemon</persName>
           </person>
-          <person xml:id="ep000361-cloris">
-            <persName>Cloris</persName>
+          <person xml:id="ep000361-thirsis" sex="MALE">
+            <persName>Thirsis</persName>
           </person>
-          <person xml:id="ep000361-clarindo">
+          <person xml:id="ep000361-clarindo" sex="FEMALE">
             <persName>Clarindo</persName>
           </person>
-          <person xml:id="ep000361-phillis">
+          <person xml:id="ep000361-cloris" sex="FEMALE">
+            <persName>Cloris</persName>
+          </person>
+          <person xml:id="ep000361-phillis" sex="FEMALE">
             <persName>Phillis</persName>
           </person>
-          <person xml:id="ep000361-lidia">
+          <person xml:id="ep000361-lidia" sex="FEMALE">
             <persName>Lidia</persName>
           </person>
-          <person xml:id="ep000361-silvanus">
-            <persName>Silvanus</persName>
-          </person>
-          <person xml:id="ep000361-dorcas">
+          <person xml:id="ep000361-dorcas" sex="MALE">
             <persName>Dorcas</persName>
           </person>
-          <person xml:id="ep000361-silvia">
-            <persName>Silvia</persName>
+          <person xml:id="ep000361-silvanus" sex="MALE">
+            <persName>Silvanus</persName>
           </person>
-          <person xml:id="ep000361-montanus">
+          <person xml:id="ep000361-montanus" sex="MALE">
             <persName>Montanus</persName>
           </person>
-          <person xml:id="ep000361-charinus">
+          <person xml:id="ep000361-charinus" sex="MALE">
             <persName>Charinus</persName>
           </person>
-          <person xml:id="ep000361-medorus">
+          <person xml:id="ep000361-medorus" sex="MALE">
             <persName>Medorus</persName>
           </person>
-          <person xml:id="ep000361-chorus">
-            <persName>Chorus</persName>
-          </person>
+          <personGrp xml:id="ep000361-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -344,7 +341,7 @@
         <div n="1" type="scene" xml:id="ep000361-e101490">
           <head>ACT. I. SCEN. I. </head>
           <stage xml:id="ep000361-e101500">Thirsis. Palaemon. </stage>
-          <sp who="#ep000361-thirsis" xml:id="ep000361-e101510">
+          <sp xml:id="ep000361-e101510">
             <l>SO to be reft of all the ioyes of life, </l>
             <l>How is it possible Palaemon, I </l>
             <l>Should euer more a thought retaine </l>
@@ -641,7 +638,7 @@
         <div n="2" type="scene" xml:id="ep000361-e103850">
           <head>SCEN. II. </head>
           <stage xml:id="ep000361-e103860">Cloris. Clarindo. </stage>
-          <sp who="#ep000361-cloris" xml:id="ep000361-e103870">
+          <sp xml:id="ep000361-e103870">
             <l>NOw gentle boy Clarindo, hast thou brought </l>
             <l>My flockes into the field? </l>
           </sp>
@@ -957,7 +954,7 @@
           <pb n="15" xml:id="ep000361-012-b"/>
           <head>ACT. I. SCEN. IIII. </head>
           <stage xml:id="ep000361-e106090">Phillis. Clarindo. </stage>
-          <sp who="#ep000361-phillis" xml:id="ep000361-e106100">
+          <sp xml:id="ep000361-e106100">
             <l>Ah cruell youth, whither away so fast? </l>
           </sp>
           <sp who="#ep000361-clarindo" xml:id="ep000361-e106120">
@@ -1035,7 +1032,7 @@
         <div n="5" type="scene" xml:id="ep000361-e106590">
           <head>SCEN. V. </head>
           <stage xml:id="ep000361-e106600">Lidia. Phillis. </stage>
-          <sp who="#ep000361-lidia" xml:id="ep000361-e106610">
+          <sp xml:id="ep000361-e106610">
             <lg>
               <l>SO Phillis haue you, and y'are rightly seru'd. </l>
               <l>Haue you disdain'd the gallanst Forresters, </l>
@@ -1102,7 +1099,7 @@
         <div n="1" type="scene" xml:id="ep000361-e107100">
           <head>ACT. II. SCEN. I. </head>
           <stage xml:id="ep000361-e107110">Siluanus. Dorcas. Montanus. </stage>
-          <sp who="#ep000361-silvanus" xml:id="ep000361-e107120">
+          <sp xml:id="ep000361-e107120">
             <l>IN what a meane regard are we now held, </l>
             <l>We actiue and laborious forresters? </l>
             <l>Who though our liuing rurall be and rough, </l>
@@ -1127,7 +1124,7 @@
             <l>As they disdaine our plainnesse, and do scorne </l>
             <l>Our company, as men rude and ill borne. </l>
           </sp>
-          <sp who="#ep000361-silvia" xml:id="ep000361-e107330">
+          <sp who="#ep000361-silvanus" xml:id="ep000361-e107330">
             <speaker>Sil. </speaker>
             <l>Well, so they doe; but Dorcas if you marke </l>
             <l>How oft they doe miscarie in their loue, </l>
@@ -1190,7 +1187,7 @@
               <l>They would not be, or held to be great men. </l>
             </lg>
           </sp>
-          <sp who="#ep000361-silvia" xml:id="ep000361-e107890">
+          <sp who="#ep000361-silvanus" xml:id="ep000361-e107890">
             <speaker>Sil. </speaker>
             <l>Then Dorcas, how much more are we to prize </l>
             <l>Our meane estate, which they so much despise? </l>
@@ -1286,7 +1283,7 @@
             <l>Tush, many in this world we see are caught, </l>
             <l>And suffer for misfortune, not their fault. </l>
           </sp>
-          <sp who="#ep000361-silvia" xml:id="ep000361-e108690">
+          <sp who="#ep000361-silvanus" xml:id="ep000361-e108690">
             <speaker>Sil. </speaker>
             <l>But that would not become your manlines, </l>
             <l>Montanus, it were shame for valiant men </l>
@@ -1910,7 +1907,7 @@
           <pb n="38" xml:id="ep000361-024-a"/>
           <head>ACT. III. SCEN. I. </head>
           <stage xml:id="ep000361-e113450">Charinus, the father of Thirsis. Palaemon. </stage>
-          <sp who="#ep000361-charinus" xml:id="ep000361-e113460">
+          <sp xml:id="ep000361-e113460">
             <l>PAlaemon, you me thinkes might something work </l>
             <l>With Thirsis my aggreeued sonne, and sound </l>
             <l>His humour what it is: and why he thus </l>
@@ -2899,7 +2896,7 @@
         <div n="4" type="scene" xml:id="ep000361-e121190">
           <head>SCEN. IIII. </head>
           <stage xml:id="ep000361-e121200">Palaemon. Thirsis. </stage>
-          <sp who="#ep000361-palaemon" xml:id="ep000361-e121210">
+          <sp xml:id="ep000361-e121210">
             <l>ALas, what accident is here falne out? </l>
             <l>My deere friend Thirsis, how comes this to passe? </l>
           </sp>
@@ -3024,7 +3021,7 @@
           <pb xml:id="ep000361-038-a"/>
           <head>ACT. V. SCAEN. I. </head>
           <stage xml:id="ep000361-e122180">Chorus. Palaemon. </stage>
-          <sp who="#ep000361-chorus" xml:id="ep000361-e122190">
+          <sp xml:id="ep000361-e122190">
             <l>DId euer yet Arcadia heare before </l>
             <l>Of two so worthie louers, as we find </l>
             <l>Thirsis and Siluia were? or euer had </l>
@@ -3181,7 +3178,7 @@
         <div n="2" type="scene" xml:id="ep000361-e123460">
           <head>SCAEN. II. </head>
           <stage xml:id="ep000361-e123470">Phillis. Lidia. Cloris. </stage>
-          <sp who="#ep000361-phillis" xml:id="ep000361-e123480">
+          <sp xml:id="ep000361-e123480">
             <l>WHat shall we now do Lidia? now am I </l>
             <l>Vtterly sham'd: this youth turn'd woman is, </l>
             <l>Clarindo, Siluia is become; how now? </l>

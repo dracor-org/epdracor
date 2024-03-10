@@ -93,71 +93,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000017-menaphon">
+          <person xml:id="ep000017-menaphon" sex="MALE">
             <persName>Menaphon</persName>
           </person>
-          <person xml:id="ep000017-pelias">
+          <person xml:id="ep000017-pelias" sex="MALE">
             <persName>Pelias</persName>
           </person>
-          <person xml:id="ep000017-sophronos">
+          <person xml:id="ep000017-sophronos" sex="MALE">
             <persName>Sophronos</persName>
           </person>
-          <person xml:id="ep000017-amethus">
+          <person xml:id="ep000017-amethus" sex="MALE">
             <persName>Amethus</persName>
           </person>
-          <person xml:id="ep000017-rhetias">
+          <person xml:id="ep000017-rhetias" sex="MALE">
             <persName>Rhetias</persName>
           </person>
-          <person xml:id="ep000017-cuculus">
+          <person xml:id="ep000017-cuculus" sex="MALE">
             <persName>Cuculus</persName>
           </person>
-          <person xml:id="ep000017-grilla">
+          <person xml:id="ep000017-grilla" sex="MALE">
             <persName>Grilla</persName>
           </person>
-          <person xml:id="ep000017-cucullus">
-            <persName>Cucullus</persName>
-          </person>
-          <person xml:id="ep000017-corax">
+          <person xml:id="ep000017-corax" sex="MALE">
             <persName>Corax</persName>
           </person>
-          <person xml:id="ep000017-thamasta">
+          <person xml:id="ep000017-thamasta" sex="FEMALE">
             <persName>Thamasta</persName>
           </person>
-          <person xml:id="ep000017-eroclea">
+          <person xml:id="ep000017-eroclea" sex="FEMALE">
             <persName>Eroclea</persName>
           </person>
-          <person xml:id="ep000017-kala">
+          <person xml:id="ep000017-kala" sex="FEMALE">
             <persName>Kala</persName>
           </person>
-          <person xml:id="ep000017-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000017-aretus">
+          <person xml:id="ep000017-aretus" sex="MALE">
             <persName>Aretus</persName>
           </person>
-          <person xml:id="ep000017-prince">
+          <person xml:id="ep000017-prince" sex="MALE">
             <persName>Prince</persName>
           </person>
-          <person xml:id="ep000017-cleophila">
+          <person xml:id="ep000017-cleophila" sex="FEMALE">
             <persName>Cleophila</persName>
           </person>
-          <person xml:id="ep000017-trollio">
+          <person xml:id="ep000017-trollio" sex="MALE">
             <persName>Trollio</persName>
           </person>
-          <person xml:id="ep000017-meleander">
+          <person xml:id="ep000017-meleander" sex="MALE">
             <persName>Meleander</persName>
           </person>
-          <person xml:id="ep000017-clown">
+          <person xml:id="ep000017-clown" sex="MALE">
             <persName>Clown</persName>
           </person>
-          <person xml:id="ep000017-philosopher">
+          <person xml:id="ep000017-philosopher" sex="MALE">
             <persName>Philosopher</persName>
           </person>
-          <person xml:id="ep000017-nymph">
+          <person xml:id="ep000017-nymph" sex="FEMALE">
             <persName>Nymph</persName>
-          </person>
-          <person xml:id="ep000017-all">
-            <persName>All</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -174,8 +165,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000017"
-                    passive="http://www.wikidata.org/entity/Q7749034"/>
+                   active="https://dracor.org/entity/ep000017"
+                   passive="http://www.wikidata.org/entity/Q7749034"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -831,7 +822,7 @@
             <speaker>Grill. </speaker>
             <p>A sounder of some such wind instrument forsooth. </p>
           </sp>
-          <sp who="#ep000017-cucullus" xml:id="ep000017-e104770">
+          <sp who="#ep000017-cuculus" xml:id="ep000017-e104770">
             <speaker>Cucull. </speaker>
             <l>Was he so? hold vp thy head; be thou musicall </l>
             <l>To me, and I will marry thee to a dancer: one </l>
@@ -1342,7 +1333,7 @@
             <l>Th'affaires of gouernment, which I for my part, </l>
             <l>Groane vnder, and am weary of. </l>
           </sp>
-          <sp who="#ep000017-multiple" xml:id="ep000017-e107900">
+          <sp who="#ep000017-aretus #ep000017-sophronos" xml:id="ep000017-e107900">
             <speaker>Aret. Sophronos, </speaker>
             <l>I am as zealous too of shaking of </l>
             <l>My gay State fetters, that I haue bethought </l>
@@ -1425,7 +1416,7 @@
           </sp>
           <stage xml:id="ep000017-e108350">Soft Musicke. </stage>
           <stage xml:id="ep000017-e108360">Enter Pallador, the Prince, with a Booke in his hand. </stage>
-          <sp who="#ep000017-multiple" xml:id="ep000017-e108370">
+          <sp who="#ep000017-sophronos #ep000017-aretus" xml:id="ep000017-e108370">
             <speaker>Soph. Aret. </speaker>
             <p>Sir; Gracious Sir. </p>
           </sp>
@@ -3383,7 +3374,8 @@
             <l>And let vs conclude our delights in a Dance. </l>
           </sp>
           <pb n="53" xml:id="ep000017-031-b"/>
-          <sp who="#ep000017-all" xml:id="ep000017-e120860">
+          <sp who="#ep000017-nymph #ep000017-cuculus #ep000017-corax #ep000017-prince #ep000017-grilla #ep000017-philosopher #ep000017-rhetias #ep000017-pelias #ep000017-amethus #ep000017-menaphon #ep000017-thamasta #ep000017-eroclea"
+                   xml:id="ep000017-e120860">
             <speaker>All. </speaker>
             <p>A Dance, a Dance, a Dance. </p>
           </sp>
@@ -4158,7 +4150,7 @@
             <speaker>Amet. </speaker>
             <p>Tis strange. </p>
           </sp>
-          <sp who="#ep000017-multiple" xml:id="ep000017-e125900">
+          <sp who="#ep000017-aretus #ep000017-sophronos" xml:id="ep000017-e125900">
             <speaker>Aret. Soph. </speaker>
             <p>We must obey. </p>
           </sp>
@@ -4424,7 +4416,7 @@
         <div type="act" xml:id="ep000017-f11300">
           <head>Actus V. Scena I. </head>
           <stage xml:id="ep000017-f11320">Enter Corax and Cleophila. </stage>
-          <sp xml:id="ep000017-f11330">
+          <sp who="#ep000017-corax" xml:id="ep000017-f11330">
             <speaker>Corax. </speaker>
             <l>TIs well, tis well, the houre is at hand, </l>
             <l>Which must conclude the busines, that no Art </l>
@@ -4472,7 +4464,7 @@
             <l>By any meanes, the time is precious now; </l>
             <l>Lady, be quick and carefull, follow, <hi>Trollio</hi>. </l>
           </sp>
-          <sp xml:id="ep000017-f11740">
+          <sp who="#ep000017-trollio" xml:id="ep000017-f11740">
             <speaker>Trollio. </speaker>
             <l>I owe all Sir- Reuerence to your Right Worshipfulnesse. </l>
           </sp>

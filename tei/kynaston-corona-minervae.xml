@@ -88,30 +88,27 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000121-minerva">
+          <person xml:id="ep000121-minerva" sex="FEMALE">
             <persName>Minerva</persName>
           </person>
-          <person xml:id="ep000121-time">
+          <person xml:id="ep000121-time" sex="FEMALE">
             <persName>Time</persName>
           </person>
-          <person xml:id="ep000121-spring">
+          <person xml:id="ep000121-spring" sex="FEMALE">
             <persName>Spring</persName>
           </person>
-          <person xml:id="ep000121-winter">
+          <person xml:id="ep000121-winter" sex="MALE">
             <persName>Winter</persName>
           </person>
-          <person xml:id="ep000121-summer">
+          <person xml:id="ep000121-summer" sex="MALE">
             <persName>Summer</persName>
           </person>
-          <person xml:id="ep000121-autumn">
+          <person xml:id="ep000121-autumn" sex="MALE">
             <persName>Autumn</persName>
           </person>
-          <person xml:id="ep000121-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000121-chorus">
-            <persName>Chorus</persName>
-          </person>
+          <personGrp xml:id="ep000121-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -432,7 +429,8 @@
           <l>To please these Glories, whom all you have sought </l>
           <l>T'endeere your service to. </l>
         </sp>
-        <sp who="#ep000121-all" xml:id="ep000121-e102220">
+        <sp who="#ep000121-spring #ep000121-summer #ep000121-autumn #ep000121-winter"
+                xml:id="ep000121-e102220">
           <speaker>All Foure. </speaker>
           <p>I have the best. </p>
           <stage xml:id="ep000121-e102240">Here every one offered Baskets of fresh Fruits and Flowres. </stage>
@@ -445,7 +443,8 @@
           <l>Seasons, I promise you both first and last, </l>
           <l>And all shall equally their favours taste. </l>
         </sp>
-        <sp who="#ep000121-all" xml:id="ep000121-e102310">
+        <sp who="#ep000121-spring #ep000121-summer #ep000121-autumn #ep000121-winter"
+                xml:id="ep000121-e102310">
           <speaker>All foure. </speaker>
           <p>Wee all obey. </p>
         </sp>
@@ -459,7 +458,8 @@
           <l>A paire of his attendance in a dance, </l>
           <l>To move delight. </l>
         </sp>
-        <sp who="#ep000121-all" xml:id="ep000121-e102410">
+        <sp who="#ep000121-spring #ep000121-summer #ep000121-autumn #ep000121-winter"
+                xml:id="ep000121-e102410">
           <speaker>All foure. </speaker>
           <p>Immediately 'tis done. </p>
         </sp>

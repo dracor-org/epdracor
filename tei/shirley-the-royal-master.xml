@@ -89,71 +89,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000277-duke">
+          <person xml:id="ep000277-duke" sex="MALE">
             <persName>Duke</persName>
           </person>
-          <person xml:id="ep000277-king">
+          <person xml:id="ep000277-king" sex="MALE">
             <persName>King</persName>
           </person>
-          <person xml:id="ep000277-riviero">
+          <person xml:id="ep000277-riviero" sex="MALE">
             <persName>Riviero</persName>
           </person>
-          <person xml:id="ep000277-andrugio">
+          <person xml:id="ep000277-andrugio" sex="MALE">
             <persName>Andrugio</persName>
           </person>
-          <person xml:id="ep000277-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000277-theodosia">
+          <person xml:id="ep000277-theodosia" sex="FEMALE">
             <persName>Theodosia</persName>
           </person>
-          <person xml:id="ep000277-montalto">
+          <person xml:id="ep000277-montalto" sex="MALE">
             <persName>Montalto</persName>
           </person>
-          <person xml:id="ep000277-1_lady">
-            <persName>1 Lady</persName>
+          <person xml:id="ep000277-lady-1" sex="FEMALE">
+            <persName>Lady 1</persName>
           </person>
-          <person xml:id="ep000277-octavio">
+          <person xml:id="ep000277-octavio" sex="MALE">
             <persName>Octavio</persName>
           </person>
-          <person xml:id="ep000277-2_lady">
-            <persName>2 Lady</persName>
+          <person xml:id="ep000277-lady-2" sex="FEMALE">
+            <persName>Lady 2</persName>
           </person>
-          <person xml:id="ep000277-guido">
+          <person xml:id="ep000277-guido" sex="MALE">
             <persName>Guido</persName>
           </person>
-          <person xml:id="ep000277-aloisio">
+          <person xml:id="ep000277-aloisio" sex="MALE">
             <persName>Aloisio</persName>
           </person>
-          <person xml:id="ep000277-bombo">
+          <person xml:id="ep000277-bombo" sex="MALE">
             <persName>Bombo</persName>
           </person>
-          <person xml:id="ep000277-jacamo">
+          <person xml:id="ep000277-jacamo" sex="MALE">
             <persName>Jacamo</persName>
           </person>
-          <person xml:id="ep000277-domitilla">
+          <person xml:id="ep000277-domitilla" sex="FEMALE">
             <persName>Domitilla</persName>
           </person>
-          <person xml:id="ep000277-simphorosa">
+          <person xml:id="ep000277-simphorosa" sex="FEMALE">
             <persName>Simphorosa</persName>
           </person>
-          <person xml:id="ep000277-pietro">
+          <person xml:id="ep000277-pietro" sex="MALE">
             <persName>Pietro</persName>
           </person>
-          <person xml:id="ep000277-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000277-alexio">
+          <person xml:id="ep000277-alexio" sex="MALE">
             <persName>Alexio</persName>
           </person>
-          <person xml:id="ep000277-servant">
+          <person xml:id="ep000277-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000277-courtier">
+          <person xml:id="ep000277-courtier" sex="MALE">
             <persName>Courtier</persName>
-          </person>
-          <person xml:id="ep000277-multiple">
-            <persName>Multiple</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -170,8 +161,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000277"
-                    passive="http://www.wikidata.org/entity/Q7761707"/>
+                   active="https://dracor.org/entity/ep000277"
+                   passive="http://www.wikidata.org/entity/Q7761707"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -461,7 +452,7 @@
             <l>I ha done. </l>
           </sp>
           <stage xml:id="ep000277-e102320">Enter Theodosia, Ladies. </stage>
-          <sp who="#ep000277-unassigned" xml:id="ep000277-e102330">
+          <sp who="#ep000277-duke" xml:id="ep000277-e102330">
             <speaker>, </speaker>
             <l>Your sister. </l>
           </sp>
@@ -514,7 +505,7 @@
             <l>Of what is good, nay excellent in him </l>
             <l>would stocke a barren Province. </l>
           </sp>
-          <sp who="#ep000277-unassigned" xml:id="ep000277-e102720">
+          <sp xml:id="ep000277-e102720">
             <speaker>King. </speaker>
             <l>Tis our happinesse. </l>
           </sp>
@@ -543,7 +534,7 @@
             <l>Free to distinguish objects, if there be </l>
             <l>No witchcraft exerciz'd upon his senses. </l>
           </sp>
-          <sp who="#ep000277-1_lady" xml:id="ep000277-e102920">
+          <sp who="#ep000277-lady-1" xml:id="ep000277-e102920">
             <speaker>1 lady. </speaker>
             <l>My Lord you are very pleasant. </l>
           </sp>
@@ -554,7 +545,7 @@
             <l>Courtier to observe times and methods; and when Madam </l>
             <l>Are you for this match? </l>
           </sp>
-          <sp who="#ep000277-1_lady" xml:id="ep000277-e102990">
+          <sp who="#ep000277-lady-1" xml:id="ep000277-e102990">
             <speaker>1 Lady. </speaker>
             <l>What my Lord? </l>
           </sp>
@@ -564,7 +555,7 @@
             <l>Be sad at heart, to sleepe with such a bedfellow </l>
             <l>As the Duke is? </l>
           </sp>
-          <sp who="#ep000277-2_lady" xml:id="ep000277-e103050">
+          <sp who="#ep000277-lady-2" xml:id="ep000277-e103050">
             <speaker>2 Lady. </speaker>
             <l>How my Lord? </l>
           </sp>
@@ -577,7 +568,7 @@
             <l>If no worse man would make their husband of </l>
             <l>The honorable order of the night-cap. </l>
           </sp>
-          <sp who="#ep000277-1_lady" xml:id="ep000277-e103140">
+          <sp who="#ep000277-lady-1" xml:id="ep000277-e103140">
             <speaker>1 Lady. </speaker>
             <l>When will you marry my Lord? </l>
           </sp>
@@ -588,7 +579,7 @@
             <l>The Lord Montalto the great Court Patron </l>
             <l>Will help me to a wife. </l>
           </sp>
-          <sp who="#ep000277-2_lady" xml:id="ep000277-e103210">
+          <sp who="#ep000277-lady-2" xml:id="ep000277-e103210">
             <speaker>2 Lady. </speaker>
             <l>You are bound to his Lordship. </l>
           </sp>
@@ -1726,7 +1717,7 @@
             <l>Gentlemen if I be forc'd to live in court Ile make </l>
             <l>You all in time; who can write or reade among you. </l>
           </sp>
-          <sp who="#ep000277-both" xml:id="ep000277-e110510">
+          <sp who="#ep000277-jacamo #ep000277-pietro" xml:id="ep000277-e110510">
             <speaker>Both. </speaker>
             <l>None, none; we scorne it. </l>
           </sp>
@@ -2604,7 +2595,7 @@
             <l>You talke of; durst Montalto charge her with </l>
             <l>This staine, without his conscience to assure it. </l>
           </sp>
-          <sp who="#ep000277-unassigned" xml:id="ep000277-e116540">
+          <sp xml:id="ep000277-e116540">
             <speaker>Rivi. </speaker>
             <l>Yes, and to me this tenders him the more </l>
             <l>To be suspected and I am so farre </l>
@@ -4364,7 +4355,7 @@
             <l>A wit? theres a new word; now for the Hellespont, </l>
             <l>Heele make a subtile courtier. </l>
           </sp>
-          <sp who="#ep000277-unassigned" xml:id="ep000277-e128270">
+          <sp xml:id="ep000277-e128270">
             <speaker>Bom. </speaker>
             <l>It has undone me. </l>
           </sp>
@@ -5226,7 +5217,7 @@
             <speaker>King. </speaker>
             <l>Andrugio. </l>
           </sp>
-          <sp who="#ep000277-unassigned" xml:id="ep000277-e134080">
+          <sp xml:id="ep000277-e134080">
             <speaker>Rivi. </speaker>
             <l>Things are not yet mature for my discovery. </l>
           </sp>
@@ -5488,7 +5479,7 @@
             <speaker>Rivi. </speaker>
             <l>That you may know your friends and enemies. </l>
           </sp>
-          <sp who="#ep000277-unassigned" xml:id="ep000277-e135820">
+          <sp xml:id="ep000277-e135820">
             <speaker>Mont. </speaker>
             <l>Lost, lost for ever. </l>
           </sp>
@@ -5547,7 +5538,8 @@
             <l>Expect the censure of our lawes you gentlemen; </l>
             <l>We onely banish from the court. </l>
           </sp>
-          <sp who="#ep000277-multiple" xml:id="ep000277-e136210">
+          <sp who="#ep000277-guido #ep000277-aloisio #ep000277-alexio"
+                   xml:id="ep000277-e136210">
             <speaker>Gui. Aloi. Alex. </speaker>
             <l>You are mercifull. </l>
           </sp>

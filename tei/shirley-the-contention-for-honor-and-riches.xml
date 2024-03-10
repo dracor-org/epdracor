@@ -90,41 +90,26 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000266-ingenuity">
+          <person xml:id="ep000266-honour" sex="FEMALE">
+            <persName>Honour</persName>
+          </person>
+          <person xml:id="ep000266-ingenuity" sex="MALE">
             <persName>Ingenuity</persName>
           </person>
-          <person xml:id="ep000266-riches">
+          <person xml:id="ep000266-riches" sex="FEMALE">
             <persName>Riches</persName>
           </person>
-          <person xml:id="ep000266-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000266-gettings">
+          <person xml:id="ep000266-gettings" sex="MALE">
             <persName>Gettings</persName>
           </person>
-          <person xml:id="ep000266-clod">
+          <person xml:id="ep000266-clod" sex="MALE">
             <persName>Clod</persName>
           </person>
-          <person xml:id="ep000266-courtier">
+          <person xml:id="ep000266-courtier" sex="MALE">
             <persName>Courtier</persName>
           </person>
-          <person xml:id="ep000266-soldier">
+          <person xml:id="ep000266-soldier" sex="MALE">
             <persName>Soldier</persName>
-          </person>
-          <person xml:id="ep000266-colonel">
-            <persName>Colonel</persName>
-          </person>
-          <person xml:id="ep000266-honesty">
-            <persName>Honesty</persName>
-          </person>
-          <person xml:id="ep000266-countryman">
-            <persName>Countryman</persName>
-          </person>
-          <person xml:id="ep000266-clerk">
-            <persName>Clerk</persName>
-          </person>
-          <person xml:id="ep000266-UNASSIGNED">
-            <persName>UNASSIGNED</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -141,8 +126,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000266"
-                    passive="http://www.wikidata.org/entity/Q4656090"/>
+                   active="https://dracor.org/entity/ep000266"
+                   passive="http://www.wikidata.org/entity/Q4656090"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -355,7 +340,7 @@
           <speaker>Ing. </speaker>
           <l>Be pleas'd to heare me speake— </l>
         </sp>
-        <sp who="#ep000266-unassigned" xml:id="ep000266-e101330">
+        <sp xml:id="ep000266-e101330">
           <speaker>Ric. </speaker>
           <l>What impudence </l>
           <l>Does this appeare, you should desire that favour? </l>
@@ -616,7 +601,7 @@
           <l>That he professes, looke upon the Lady </l>
           <l>That can be active in your service. </l>
         </sp>
-        <sp who="#ep000266-unassigned" xml:id="ep000266-e102980">
+        <sp xml:id="ep000266-e102980">
           <speaker>Ing. </speaker>
           <l>Tis </l>
           <l>The Courtier and the Souldier pleading their </l>
@@ -624,7 +609,7 @@
           <l>I wo'not interrupt them yet, I cannot </l>
           <l>Find by her countenance that she enclines to either </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e103040">
+        <sp who="#ep000266-clod" xml:id="ep000266-e103040">
           <speaker>Col. </speaker>
           <l>Blesse me but with one smile if you did know </l>
           <l>With what devotion my soule lookes on you, </l>
@@ -655,7 +640,7 @@
           <l>Where, in my imagination I saw </l>
           <l>Thee charioted, and dropping downe a Garland. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e103300">
+        <sp who="#ep000266-honour" xml:id="ep000266-e103300">
           <speaker>Ho. </speaker>
           <l>No more there are but compleiners of wars, </l>
           <l>Perhaps some studied speech I love your quality, </l>
@@ -688,7 +673,7 @@
           <l>He may find two, and be himselfe devided, </l>
           <l>Which he should first contemplate. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e103560">
+        <sp who="#ep000266-honour" xml:id="ep000266-e103560">
           <speaker>Ho. </speaker>
           <l>You both love me. </l>
         </sp>
@@ -700,7 +685,7 @@
           <speaker>Sol. </speaker>
           <l>How sir, the best? </l>
         </sp>
-        <sp who="#ep000266-countryman" xml:id="ep000266-e103620">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e103620">
           <speaker>Cou. </speaker>
           <l>Ere since I knew the Court, </l>
           <l>I had no other study but to advance </l>
@@ -715,7 +700,7 @@
           <l>And with my breath call backe their soules agen. </l>
           <l>What cannot Honor doe? </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e103740">
+        <sp who="#ep000266-honour" xml:id="ep000266-e103740">
           <speaker>Ho. </speaker>
           <l>Not that you boast. </l>
           <l>True Honor makes not proud, not takes delight </l>
@@ -725,7 +710,7 @@
           <speaker>So. </speaker>
           <l>Sir, you said you lov'd her best. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e103800">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e103800">
           <speaker>Co. </speaker>
           <l>And will maintaine it. </l>
         </sp>
@@ -733,11 +718,11 @@
           <speaker>So. </speaker>
           <l>You cannot, dare not. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e103840">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e103840">
           <speaker>Co. </speaker>
           <l>Dare not? </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e103860">
+        <sp who="#ep000266-honour" xml:id="ep000266-e103860">
           <speaker>Ho. </speaker>
           <l>So peremptory, Honor may in time </l>
           <l>Find wayes to tame the insolent Lady Riches, </l>
@@ -748,7 +733,7 @@
           <l>The Courtier, and </l>
           <l>The Souldier looke as they would quarrell. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e103930">
+        <sp who="#ep000266-honour" xml:id="ep000266-e103930">
           <speaker>Ho. </speaker>
           <l>Let 'em. </l>
           <l>You see how they pursue me still, but Honor </l>
@@ -759,7 +744,7 @@
           <l>They are </l>
           <l>Gay creatures, and conspicuous in the world. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e104000">
+        <sp who="#ep000266-honour" xml:id="ep000266-e104000">
           <speaker>Ho. </speaker>
           <l>But no such miracles: Gentlement, you promise </l>
           <l>Some spirit in you, ther's no way to make </l>
@@ -778,7 +763,7 @@
           <l>I am then happy, </l>
           <l>When you command me service. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e104140">
+        <sp who="#ep000266-honour" xml:id="ep000266-e104140">
           <speaker>Ho. </speaker>
           <l>And I keepe </l>
           <l>A Register of all, and though delayd, </l>
@@ -794,7 +779,7 @@
           <l>You have worne a sword thus long, to shew the hilt, </l>
           <l>Now let the blade appeare. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e104260">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e104260">
           <speaker>Co. </speaker>
           <l>Good Captaine Voyce, </l>
           <l>It shall, and reach you manners, I have yet </l>
@@ -820,7 +805,7 @@
           <speaker>So. </speaker>
           <l>Musk-Cat. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e104470">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e104470">
           <speaker>Co. </speaker>
           <l>Or wert thou what thou seem'st, a Soldier, </l>
           <l>For so much good I wish thee for my honor, </l>
@@ -830,7 +815,7 @@
           <speaker>So. </speaker>
           <l>Sirra Civet-box. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e104530">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e104530">
           <speaker>Co. </speaker>
           <l>Let me aske your Souldier ship but one cold question, </l>
           <l>If Lady Honor, whom you have presum'd </l>
@@ -842,7 +827,7 @@
           <speaker>So. </speaker>
           <l>Ioynture? </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e104610">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e104610">
           <speaker>Co. </speaker>
           <l>Ile admit for arguments sake, </l>
           <l>Thou art a Souldier, perhaps </l>
@@ -875,7 +860,7 @@
           <speaker>So. </speaker>
           <l>Have you done yet? </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e104890">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e104890">
           <speaker>Co. </speaker>
           <l>I have not much more to say. </l>
         </sp>
@@ -907,7 +892,7 @@
           <l>But truth, of your gay quality and vertues, </l>
           <l>You are a Courtier. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105160">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105160">
           <speaker>Co. </speaker>
           <l>Very good. </l>
         </sp>
@@ -942,7 +927,7 @@
           <l>When thou livest in it be an Hospitall, </l>
           <l>And owe no other body for diseases. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105460">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105460">
           <speaker>Co. </speaker>
           <l>Pray come, and take a chamber. </l>
         </sp>
@@ -951,7 +936,7 @@
           <l>Thou hast ignorance </l>
           <l>And impudence enough for twenty Alchymists. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105510">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105510">
           <speaker>Co. </speaker>
           <l>Ile heare no more. </l>
         </sp>
@@ -960,7 +945,7 @@
           <l>A little, Ile intreat you, </l>
           <l>You shall be beaten afterward, ne're feare it. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105560">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105560">
           <speaker>Co. </speaker>
           <l>Dar'st thou blaspheme the Court? </l>
         </sp>
@@ -975,7 +960,7 @@
           <l>Or rotten wood, I hate, and in their number </l>
           <l>For this time be content I list your worship. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105660">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105660">
           <speaker>Co. </speaker>
           <l>How do you know what I am, or what title </l>
           <l>Perhaps I weare? </l>
@@ -985,13 +970,13 @@
           <l>I know thee by the wrong </l>
           <l>To Souldiers. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105720">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105720">
           <speaker>Co. </speaker>
           <l>I speake of such as thou wert, and I dare </l>
           <l>Maintaine, and write as much in thy owne blood. </l>
         </sp>
         <stage xml:id="ep000266-e105750">Enter Honestie. </stage>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105760">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105760">
           <speaker>Co. </speaker>
           <l>Dost thou not see, Honestie? </l>
         </sp>
@@ -999,7 +984,7 @@
           <speaker>So. </speaker>
           <l>Honestie? what hast thou to do with Honesty? </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105800">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105800">
           <speaker>Co. </speaker>
           <l>I never could endure her, she appeares </l>
           <l>More terrible then a ghost, I ha no stomacke </l>
@@ -1016,7 +1001,7 @@
         </sp>
         <stage xml:id="ep000266-e105910">
           <pb xml:id="ep000266-015-a"/>Enter No-pay. </stage>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105920">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105920">
           <speaker>Co. </speaker>
           <l>What's the matter, more terror? </l>
         </sp>
@@ -1024,7 +1009,7 @@
           <speaker>So. </speaker>
           <l>I am cold too. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e105960">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e105960">
           <speaker>Co. </speaker>
           <l>Another apparition. </l>
         </sp>
@@ -1061,7 +1046,7 @@
           <speaker>Get. </speaker>
           <p>You cannot, sure: for ought I see in your countenance, you are not long-lyv'd your selfe, you have but a tallow complexion, doe you know what ground you stand upon, Clod? </p>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e106180">
+        <sp who="#ep000266-clod" xml:id="ep000266-e106180">
           <speaker>Col. </speaker>
           <p>Ground? </p>
         </sp>
@@ -1262,7 +1247,7 @@
           <l>But who are these? </l>
         </sp>
         <stage xml:id="ep000266-e107480">Enter Courtier and Souldier. </stage>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e107490">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e107490">
           <speaker>Co. </speaker>
           <l>No Honor to be found. </l>
         </sp>
@@ -1275,7 +1260,7 @@
           <speaker>Get. </speaker>
           <l>What care we for Honor, so we have Riches? </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e107560">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e107560">
           <speaker>Co. </speaker>
           <l>Ha? I have beene acquainted with this Lady. </l>
         </sp>
@@ -1320,7 +1305,7 @@
           <speaker>Ric. </speaker>
           <l>I apprehend your desires, sir, &amp; will direct you. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e107780">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e107780">
           <speaker>Co. </speaker>
           <l>I am your servant, Lady. </l>
         </sp>
@@ -1334,7 +1319,7 @@
           <l>Know my Commodities, when I ha married Riches, </l>
           <l>I shall be better able to furnish you </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e107860">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e107860">
           <speaker>Co. </speaker>
           <l>We wish you joy. </l>
         </sp>
@@ -1346,7 +1331,7 @@
           <speaker>Get. </speaker>
           <l>I make no doubt. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e107920">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e107920">
           <speaker>Co. </speaker>
           <l>But here's the Lady whom we enquire for. </l>
         </sp>
@@ -1357,20 +1342,20 @@
           <l>Ha! the Scholler? </l>
           <l>The case is alterd. Is not that Ingenuity? </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e107990">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e107990">
           <speaker>Co. </speaker>
           <l>How familiar they are! I hope they'r not married. </l>
         </sp>
         <pb xml:id="ep000266-019-a"/>
-        <sp who="#ep000266-clerk" xml:id="ep000266-e108010">
+        <sp who="#ep000266-clod" xml:id="ep000266-e108010">
           <speaker>Cl. </speaker>
           <l>Is this Madam Honor? </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e108030">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e108030">
           <speaker>Co. </speaker>
           <l>So, Lady. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e108050">
+        <sp who="#ep000266-honour" xml:id="ep000266-e108050">
           <speaker>Ho. </speaker>
           <l>Gentlemen, </l>
           <l>I come to reconcile your difference, </l>
@@ -1383,7 +1368,7 @@
           <l>Hath remov'd all occasion of your further </l>
           <l>Courtship, and now won me for his Bride. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e108160">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e108160">
           <speaker>Co. </speaker>
           <l>Married the Scholler? despis'd. </l>
         </sp>
@@ -1391,7 +1376,7 @@
           <speaker>So. </speaker>
           <l>Affronted. </l>
         </sp>
-        <sp who="#ep000266-honesty" xml:id="ep000266-e108200">
+        <sp who="#ep000266-honour" xml:id="ep000266-e108200">
           <speaker>Ho. </speaker>
           <l>You are passionate. </l>
           <l>You could not both possesse me, yet in him </l>
@@ -1419,7 +1404,7 @@
           <speaker>Ing. </speaker>
           <l>Now I am confident. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e108410">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e108410">
           <speaker>Co. </speaker>
           <l>We must obey our destiny. Since Fate </l>
           <l>Meant me not so much happinesse, to be </l>
@@ -1430,7 +1415,7 @@
           <speaker>So. </speaker>
           <l>My desires have the same ambition. </l>
         </sp>
-        <sp who="#ep000266-UNASSIGNED" xml:id="ep000266-e108480">
+        <sp who="#ep000266-courtier #ep000266-soldier" xml:id="ep000266-e108480">
           <speaker>Co. and So. </speaker>
           <l>Ioyes crowne your marriage </l>
         </sp>
@@ -1441,7 +1426,7 @@
           <l>Be all my honor'd guests, and with one feast </l>
           <l>And revels celebrate our double marriage. </l>
         </sp>
-        <sp who="#ep000266-colonel" xml:id="ep000266-e108550">
+        <sp who="#ep000266-courtier" xml:id="ep000266-e108550">
           <speaker>Co. </speaker>
           <l>And here our love unites. Pardon what language </l>
           <l>My passion threw upon thee: acknowledge </l>

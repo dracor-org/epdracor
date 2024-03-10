@@ -86,51 +86,48 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000364-foreste">
+          <person xml:id="ep000364-foreste" sex="MALE">
             <persName>Foreste</persName>
           </person>
-          <person xml:id="ep000364-lucio">
+          <person xml:id="ep000364-lucio" sex="MALE">
             <persName>Lucio</persName>
           </person>
-          <person xml:id="ep000364-duke">
+          <person xml:id="ep000364-duke" sex="MALE">
             <persName>Duke</persName>
           </person>
-          <person xml:id="ep000364-castruchio">
+          <person xml:id="ep000364-castruchio" sex="MALE">
             <persName>Castruchio</persName>
           </person>
-          <person xml:id="ep000364-dorido">
+          <person xml:id="ep000364-dorido" sex="MALE">
             <persName>Dorido</persName>
           </person>
-          <person xml:id="ep000364-monk">
+          <person xml:id="ep000364-monk" sex="MALE">
             <persName>Monk</persName>
           </person>
-          <person xml:id="ep000364-cosimo">
+          <person xml:id="ep000364-cosimo" sex="MALE">
             <persName>Cosimo</persName>
           </person>
-          <person xml:id="ep000364-lothario">
+          <person xml:id="ep000364-lothario" sex="MALE">
             <persName>Lothario</persName>
           </person>
-          <person xml:id="ep000364-borachio">
+          <person xml:id="ep000364-borachio" sex="MALE">
             <persName>Borachio</persName>
           </person>
-          <person xml:id="ep000364-luinna">
+          <person xml:id="ep000364-luinna" sex="FEMALE">
             <persName>Luinna</persName>
           </person>
-          <person xml:id="ep000364-corsa">
+          <person xml:id="ep000364-corsa" sex="FEMALE">
             <persName>Corsa</persName>
           </person>
-          <person xml:id="ep000364-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000364-gentleman">
+          <person xml:id="ep000364-gentleman" sex="MALE">
             <persName>Gentleman</persName>
           </person>
-          <person xml:id="ep000364-duarte">
+          <person xml:id="ep000364-duarte" sex="FEMALE">
             <persName>Duarte</persName>
           </person>
-          <person xml:id="ep000364-servant">
-            <persName>Servant</persName>
-          </person>
+          <personGrp xml:id="ep000364-servants" sex="MALE">
+            <name>Servants</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -1903,7 +1900,7 @@
             <l>We take notice (Lucio) She is thy wife, </l>
             <l>And thy sister our Foreste. </l>
           </sp>
-          <sp who="#ep000364-multiple" xml:id="ep000364-e112870">
+          <sp who="#ep000364-foreste #ep000364-lucio" xml:id="ep000364-e112870">
             <speaker>Fores. Lucio. </speaker>
             <l>We your Graces humblest Creatures. </l>
           </sp>
@@ -2027,7 +2024,7 @@
             <l>Nay let's follow; and worry him to peeces. </l>
           </sp>
           <stage xml:id="ep000364-e113610">Enter Lucio, and Foreste. </stage>
-          <sp who="#ep000364-multiple" xml:id="ep000364-e113620">
+          <sp who="#ep000364-lucio #ep000364-foreste" xml:id="ep000364-e113620">
             <speaker>Lucio. Foreste. </speaker>
             <l>Our ruine is contriu'd aboue. </l>
             <l>If our Master prooue vnkin'd, the Planets </l>
@@ -2467,7 +2464,7 @@
             <l>For my Master, can doe all this, and more too </l>
             <l>I haue seene him. </l>
           </sp>
-          <sp who="#ep000364-servant" xml:id="ep000364-e116480">
+          <sp who="#ep000364-servants" xml:id="ep000364-e116480">
             <speaker>Ser. </speaker>
             <l>Be you quiet. You that desire Offices. </l>
           </sp>

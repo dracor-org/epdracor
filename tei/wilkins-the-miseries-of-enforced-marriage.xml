@@ -93,91 +93,70 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000306-bartley">
-            <persName>Bartley</persName>
-          </person>
-          <person xml:id="ep000306-ilford">
-            <persName>Ilford</persName>
-          </person>
-          <person xml:id="ep000306-wentloe">
-            <persName>Wentloe</persName>
-          </person>
-          <person xml:id="ep000306-clown">
-            <persName>Clown</persName>
-          </person>
-          <person xml:id="ep000306-scarborow">
-            <persName>Scarborow</persName>
-          </person>
-          <person xml:id="ep000306-harcop">
-            <persName>Harcop</persName>
-          </person>
-          <person xml:id="ep000306-clare">
-            <persName>Clare</persName>
-          </person>
-          <person xml:id="ep000306-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000306-butler">
-            <persName>Butler</persName>
-          </person>
-          <person xml:id="ep000306-hunsdon">
-            <persName>Hunsdon</persName>
-          </person>
-          <person xml:id="ep000306-william">
+          <person xml:id="ep000306-william" sex="MALE">
             <persName>William</persName>
           </person>
-          <person xml:id="ep000306-lord">
-            <persName>Lord</persName>
+          <person xml:id="ep000306-bartley" sex="MALE">
+            <persName>Bartley</persName>
           </person>
-          <person xml:id="ep000306-baxter">
+          <person xml:id="ep000306-ilford" sex="MALE">
+            <persName>Ilford</persName>
+          </person>
+          <person xml:id="ep000306-wentloe" sex="MALE">
+            <persName>Wentloe</persName>
+          </person>
+          <person xml:id="ep000306-clown" sex="MALE">
+            <persName>Clown</persName>
+          </person>
+          <person xml:id="ep000306-scarborow" sex="MALE">
+            <persName>Scarborow</persName>
+          </person>
+          <person xml:id="ep000306-harcop" sex="MALE">
+            <persName>Harcop</persName>
+          </person>
+          <person xml:id="ep000306-clare" sex="FEMALE">
+            <persName>Clare</persName>
+          </person>
+          <person xml:id="ep000306-butler" sex="MALE">
+            <persName>Butler</persName>
+          </person>
+          <person xml:id="ep000306-lord" sex="MALE">
+            <persName>Lord Faulconbridge</persName>
+          </person>
+          <person xml:id="ep000306-baxter" sex="MALE">
             <persName>Baxter</persName>
           </person>
-          <person xml:id="ep000306-boy">
+          <person xml:id="ep000306-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000306-thomas">
+          <person xml:id="ep000306-thomas" sex="MALE">
             <persName>Thomas</persName>
           </person>
-          <person xml:id="ep000306-john">
+          <person xml:id="ep000306-john" sex="MALE">
             <persName>John</persName>
           </person>
-          <person xml:id="ep000306-katherine">
+          <person xml:id="ep000306-katherine" sex="FEMALE">
             <persName>Katherine</persName>
           </person>
-          <person xml:id="ep000306-drawer">
+          <person xml:id="ep000306-drawer" sex="MALE">
             <persName>Drawer</persName>
           </person>
-          <person xml:id="ep000306-servant">
+          <person xml:id="ep000306-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000306-gripe">
+          <person xml:id="ep000306-gripe" sex="MALE">
             <persName>Gripe</persName>
           </person>
-          <person xml:id="ep000306-sister">
+          <person xml:id="ep000306-sister" sex="FEMALE">
             <persName>Sister</persName>
           </person>
-          <person xml:id="ep000306-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000306-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000306-child">
+          <person xml:id="ep000306-child" sex="UNKNOWN">
             <persName>Child</persName>
           </person>
-          <person xml:id="ep000306-calverly">
-            <persName>Calverly</persName>
-          </person>
-          <person xml:id="ep000306-doctor">
+          <person xml:id="ep000306-doctor" sex="MALE">
             <persName>Doctor</persName>
           </person>
-          <person xml:id="ep000306-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000306-wife">
-            <persName>Wife</persName>
-          </person>
-          <person xml:id="ep000306-brother">
+          <person xml:id="ep000306-brother" sex="MALE">
             <persName>Brother</persName>
           </person>
         </listPerson>
@@ -195,8 +174,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000306"
-                    passive="http://www.wikidata.org/entity/Q7751706"/>
+                   active="https://dracor.org/entity/ep000306"
+                   passive="http://www.wikidata.org/entity/Q7751706"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -754,7 +733,7 @@
           <speaker>Har. </speaker>
           <p>And both agreed so. </p>
         </sp>
-        <sp who="#ep000306-both" xml:id="ep000306-e103170">
+        <sp who="#ep000306-clare #ep000306-scarborow" xml:id="ep000306-e103170">
           <speaker>Both. </speaker>
           <p>We are Sir, </p>
         </sp>
@@ -820,7 +799,7 @@
         </sp>
         <stage xml:id="ep000306-e103550">Exeunt </stage>
         <stage xml:id="ep000306-e103560">Enter Lord Faulconbridge, and sir William Scarborow. </stage>
-        <sp who="#ep000306-hunsdon" xml:id="ep000306-e103570">
+        <sp who="#ep000306-lord" xml:id="ep000306-e103570">
           <speaker>Hunsd. </speaker>
           <l>Sir William, </l>
           <l>How old say you is your kinsman Scarborrow. </l>
@@ -1100,7 +1079,7 @@
           <speaker>scar. </speaker>
           <l>A yoake indeed. </l>
         </sp>
-        <sp who="#ep000306-hunsdon" xml:id="ep000306-e105370">
+        <sp who="#ep000306-lord" xml:id="ep000306-e105370">
           <speaker>Huns. </speaker>
           <l>And spight of they dare contradict my will, </l>
           <l>Ile make thee marry to my Chambermaid. come couz. </l>
@@ -3035,7 +3014,7 @@
           <p>A man had better lyne a good handsome payre of gallows before his time, then be born to do these sucklings good, their mothers milke not wrung out of their nose yet, they knowe no more how to behaue themselues in this honest and needeful calling of Purse-taking, then I do to peece stockings. </p>
         </sp>
         <stage xml:id="ep000306-e117390">within. This way, This way, this way. </stage>
-        <sp who="#ep000306-both" xml:id="ep000306-e117400">
+        <sp who="#ep000306-clare #ep000306-scarborow" xml:id="ep000306-e117400">
           <speaker>Both. </speaker>
           <p>Sfut what shal we do now? </p>
         </sp>
@@ -3160,7 +3139,7 @@
           <speaker>But. </speaker>
           <p>And I tell thee (setting thy worsh. knighthood aside) he lyes in his throat that saies so: Had not one of them a white Frocke? Did they not bind your worships knighthoode by the thumbs? then fagoted you and the fool your man, back to back. </p>
         </sp>
-        <sp who="#ep000306-unassigned" xml:id="ep000306-e118060">
+        <sp who="#ep000306-servant" xml:id="ep000306-e118060">
           <speaker>Man. </speaker>
           <p>He sayes true. </p>
         </sp>
@@ -3317,7 +3296,8 @@
           <speaker>But. </speaker>
           <p>Let your wiues agree of that after, will you first be richly married? </p>
         </sp>
-        <sp who="#ep000306-all" xml:id="ep000306-e118870">
+        <sp who="#ep000306-wentloe #ep000306-ilford #ep000306-bartley"
+                xml:id="ep000306-e118870">
           <speaker>All. </speaker>
           <p>How Butler: richly married? </p>
         </sp>
@@ -3378,7 +3358,8 @@
           <speaker>But. </speaker>
           <p>You were best play the partes of right fooles, and most desperate whore-maysters, and go together by the eares for them ere ye see them. But they are the moste rare featurd, well faced, excellent spoke, rare qualited, vertuous, and worthy to be admired gentlewoman, </p>
         </sp>
-        <sp who="#ep000306-all" xml:id="ep000306-e119170">
+        <sp who="#ep000306-wentloe #ep000306-ilford #ep000306-bartley"
+                xml:id="ep000306-e119170">
           <speaker>All. </speaker>
           <p>And rich Butler? </p>
         </sp>
@@ -3386,7 +3367,8 @@
           <speaker>But. </speaker>
           <p>(I that must be one, tho they want all the rest) And rich Gallants, as are from the vtmost parts of Asya, to these present confines of Europe. </p>
         </sp>
-        <sp who="#ep000306-all" xml:id="ep000306-e119210">
+        <sp who="#ep000306-wentloe #ep000306-ilford #ep000306-bartley"
+                xml:id="ep000306-e119210">
           <speaker>All </speaker>
           <p>And wilt thou helpe vs to them Butler? </p>
         </sp>
@@ -3394,7 +3376,8 @@
           <speaker>But. </speaker>
           <p>Faith, tis to be doubted, for pretious pearle will hardly be bought without pretious stones, and I think theres scarse one indifferent one to be found, betwixt you three: yet since there is some hope ye may proue honest, as by the death of your fathers. <pb xml:id="ep000306-025-b"/>Fathers you are proued rich, walke seuerally, for I knowing you all three to be couetous Tug-muttons will not trust you with the sight of each others beawty but will seuerally, talke with you, and since you haue deignd in this needfull portion of wedlocke to bee ruld by mee Butler, will most bountifully prouide wiues for you generally. </p>
         </sp>
-        <sp who="#ep000306-all" xml:id="ep000306-e119250">
+        <sp who="#ep000306-wentloe #ep000306-ilford #ep000306-bartley"
+                xml:id="ep000306-e119250">
           <speaker>All. </speaker>
           <p>Why that honestly said. </p>
         </sp>
@@ -3575,7 +3558,7 @@
           <speaker>But. </speaker>
           <p>And win a kind of desire, as women are soone wonne to make you bee beloued where you shall firste kisse, then Woe, at length Wed, and at last bed my Noble harts. </p>
         </sp>
-        <sp who="#ep000306-both" xml:id="ep000306-e120150">
+        <sp who="#ep000306-clare #ep000306-scarborow" xml:id="ep000306-e120150">
           <speaker>Both. </speaker>
           <p>O Butler. </p>
         </sp>
@@ -3703,7 +3686,7 @@
           <speaker>Ilf. </speaker>
           <l>Good, good, Ile find imployment for them. </l>
         </sp>
-        <sp who="#ep000306-unassigned" xml:id="ep000306-e120900">
+        <sp who="#ep000306-butler" xml:id="ep000306-e120900">
           <speaker>With. But. </speaker>
           <l>Speak loud enough that he may heare you. </l>
         </sp>
@@ -4001,7 +3984,7 @@
           <speaker>But. </speaker>
           <p>O Gallants are you here, I ha done wonders for you commended you to the Gentlewomen, who hauing taken note of your good legs, and good faces, haue a liking to you, meet me beneath. </p>
         </sp>
-        <sp who="#ep000306-both" xml:id="ep000306-e122540">
+        <sp who="#ep000306-wentloe #ep000306-bartley" xml:id="ep000306-e122540">
           <speaker>both </speaker>
           <p>Happy Butler. </p>
         </sp>
@@ -4504,7 +4487,7 @@
           <speaker>Ilf. </speaker>
           <p>Hees here, draw Gentlemen. </p>
         </sp>
-        <sp who="#ep000306-unassigned" xml:id="ep000306-e125500">
+        <sp who="#ep000306-wentloe #ep000306-bartley" xml:id="ep000306-e125500">
           <speaker>Went. Bart. </speaker>
           <p>Die Scarborrow. </p>
         </sp>
@@ -5029,7 +5012,7 @@
           <l>quick vnto thy graue. </l>
         </sp>
         <pb xml:id="ep000306-036-a"/>
-        <sp who="#ep000306-calverly" xml:id="ep000306-e128820">
+        <sp who="#ep000306-katherine" xml:id="ep000306-e128820">
           <speaker>Ca. </speaker>
           <l>O me, that am no cause of it. </l>
         </sp>
@@ -5633,7 +5616,7 @@
           <speaker>sir Wil </speaker>
           <l>Kinsman. </l>
         </sp>
-        <sp who="#ep000306-multiple" xml:id="ep000306-e132640">
+        <sp who="#ep000306-brother #ep000306-sister" xml:id="ep000306-e132640">
           <speaker>Brother and sister. </speaker>
           <l>Brother. </l>
         </sp>
@@ -5661,7 +5644,7 @@
           <l>Yet looke Sir, </l>
           <l>Heeres your Brothers hand in hand, whom I ha knit so. </l>
         </sp>
-        <sp who="#ep000306-wife" xml:id="ep000306-e132820">
+        <sp who="#ep000306-katherine" xml:id="ep000306-e132820">
           <speaker>Wife. </speaker>
           <l>And looke Sir heeres my husbands hand in mine, </l>
           <l>And I reioyce in him, and he in me. </l>
@@ -5699,7 +5682,7 @@
           <speaker>Bro. </speaker>
           <l>Increast our portions. </l>
         </sp>
-        <sp who="#ep000306-wife" xml:id="ep000306-e133040">
+        <sp who="#ep000306-katherine" xml:id="ep000306-e133040">
           <speaker>Wife. </speaker>
           <l>Giuen me a dowry too. </l>
         </sp>
@@ -5755,7 +5738,8 @@
           <stage xml:id="ep000306-e133390">bow and kneele. </stage>
           <l>And all are pleas'd. </l>
         </sp>
-        <sp who="#ep000306-all" xml:id="ep000306-e133410">
+        <sp who="#ep000306-wentloe #ep000306-ilford #ep000306-bartley"
+                xml:id="ep000306-e133410">
           <speaker>All. </speaker>
           <l>We are. </l>
         </sp>

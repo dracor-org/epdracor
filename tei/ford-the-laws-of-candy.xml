@@ -92,76 +92,64 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000413-melitus">
+          <person xml:id="ep000413-melitus" sex="MALE">
             <persName>Melitus</persName>
           </person>
-          <person xml:id="ep000413-gasparo">
+          <person xml:id="ep000413-gasparo" sex="MALE">
             <persName>Gasparo</persName>
           </person>
-          <person xml:id="ep000413-cassilane">
+          <person xml:id="ep000413-cassilane" sex="MALE">
             <persName>Cassilane</persName>
           </person>
-          <person xml:id="ep000413-messenger">
+          <person xml:id="ep000413-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000413-arcanes">
+          <person xml:id="ep000413-arcanes" sex="MALE">
             <persName>Arcanes</persName>
           </person>
-          <person xml:id="ep000413-antinous">
+          <person xml:id="ep000413-antinous" sex="MALE">
             <persName>Antinous</persName>
           </person>
-          <person xml:id="ep000413-decius">
+          <person xml:id="ep000413-decius" sex="MALE">
             <persName>Decius</persName>
           </person>
-          <person xml:id="ep000413-possenne">
+          <person xml:id="ep000413-possenne" sex="MALE">
             <persName>Possenne</persName>
           </person>
-          <person xml:id="ep000413-porphico">
+          <person xml:id="ep000413-porphico" sex="MALE">
             <persName>Porphico</persName>
           </person>
-          <person xml:id="ep000413-gonzalo">
+          <person xml:id="ep000413-gonzalo" sex="MALE">
             <persName>Gonzalo</persName>
           </person>
-          <person xml:id="ep000413-soldiers">
-            <persName>Soldiers</persName>
-          </person>
-          <person xml:id="ep000413-soldier">
-            <persName>Soldier</persName>
-          </person>
-          <person xml:id="ep000413-fernando">
+          <personGrp xml:id="ep000413-soldiers" sex="MALE">
+            <name>Soldiers</name>
+          </personGrp>
+          <person xml:id="ep000413-fernando" sex="MALE">
             <persName>Fernando</persName>
           </person>
-          <person xml:id="ep000413-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000413-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000413-philander">
+          <person xml:id="ep000413-philander" sex="MALE">
             <persName>Philander</persName>
           </person>
-          <person xml:id="ep000413-erota">
+          <person xml:id="ep000413-erota" sex="FEMALE">
             <persName>Erota</persName>
           </person>
-          <person xml:id="ep000413-mochingo">
+          <person xml:id="ep000413-mochingo" sex="MALE">
             <persName>Mochingo</persName>
           </person>
-          <person xml:id="ep000413-nic">
-            <persName>Nic</persName>
-          </person>
-          <person xml:id="ep000413-annophil">
+          <person xml:id="ep000413-annophil" sex="FEMALE">
             <persName>Annophil</persName>
           </person>
-          <person xml:id="ep000413-attendant">
+          <person xml:id="ep000413-attendant" sex="UNKNOWN">
             <persName>Attendant</persName>
           </person>
-          <person xml:id="ep000413-servant">
+          <person xml:id="ep000413-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000413-hyparcha">
+          <person xml:id="ep000413-hyparcha" sex="FEMALE">
             <persName>Hyparcha</persName>
           </person>
-          <person xml:id="ep000413-michael">
+          <person xml:id="ep000413-michael" sex="MALE">
             <persName>Michael</persName>
           </person>
         </listPerson>
@@ -179,8 +167,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000413"
-                    passive="http://www.wikidata.org/entity/Q7746448"/>
+                   active="https://dracor.org/entity/ep000413"
+                   passive="http://www.wikidata.org/entity/Q7746448"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -844,7 +832,7 @@
               <l>(This Countries Patron) hath discours'd, is true. </l>
               <l>Fellowes in Armes: speak you is't true? </l>
             </sp>
-            <sp who="#ep000413-soldier" xml:id="ep000413-e104850">
+            <sp xml:id="ep000413-e104850">
               <speaker>Sol. </speaker>
               <l>True, true. </l>
             </sp>
@@ -916,7 +904,7 @@
               <l>Antinous thou art conquerer: the Senate, </l>
               <l>The souldiers, and thy valour have pronounc'd it. </l>
             </sp>
-            <sp who="#ep000413-all" xml:id="ep000413-e105370">
+            <sp who="#ep000413-soldiers" xml:id="ep000413-e105370">
               <speaker>All. </speaker>
               <l>Antinous, Antinous. </l>
             </sp>
@@ -951,7 +939,7 @@
               <l>Great Cassilanes, Patron of Candy's Peace, </l>
               <l>Perpetuall Triumpher. </l>
             </sp>
-            <sp who="#ep000413-multiple" xml:id="ep000413-e105620">
+            <sp who="#ep000413-porphico #ep000413-possenne" xml:id="ep000413-e105620">
               <speaker>Por. Pos. </speaker>
               <l>It is granted. What more? </l>
             </sp>
@@ -1010,7 +998,7 @@
               <speaker>Cas. </speaker>
               <l>I have a sute too, Lords. </l>
             </sp>
-            <sp who="#ep000413-multiple" xml:id="ep000413-e105990">
+            <sp who="#ep000413-porphico #ep000413-possenne" xml:id="ep000413-e105990">
               <speaker>Porp. Pos. </speaker>
               <l>Propose it, 'tis yours, if fit and just. </l>
             </sp>
@@ -1340,7 +1328,7 @@
               <speaker>Erot. </speaker>
               <l>Knowes any one here what this fellow is? </l>
             </sp>
-            <sp who="#ep000413-nic" xml:id="ep000413-e108310">
+            <sp who="#ep000413-attendant" xml:id="ep000413-e108310">
               <speaker>Attend. </speaker>
               <l>He is of Venice (Madam) a great Magnifico, </l>
               <l>And gracious with the Senate. </l>
@@ -3848,7 +3836,7 @@
               <l>She shall be then my Patronesse: come sirs, </l>
               <l>Wee'l taste a cup of wine together now. </l>
             </sp>
-            <sp who="#ep000413-multiple" xml:id="ep000413-e124970">
+            <sp who="#ep000413-gonzalo #ep000413-fernando" xml:id="ep000413-e124970">
               <speaker>Gonz, Fernando, </speaker>
               <l>I must speake with you in secret. </l>
             </sp>

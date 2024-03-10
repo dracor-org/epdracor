@@ -88,67 +88,61 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000257-father">
-            <persName>Father</persName>
-          </person>
-          <person xml:id="ep000257-uncle">
-            <persName>Uncle</persName>
-          </person>
-          <person xml:id="ep000257-flowerdale">
-            <persName>Flowerdale</persName>
-          </person>
-          <person xml:id="ep000257-lancelot">
-            <persName>Lancelot</persName>
-          </person>
-          <person xml:id="ep000257-artichoake">
-            <persName>Artichoake</persName>
-          </person>
-          <person xml:id="ep000257-artichoke">
-            <persName>Artichoke</persName>
-          </person>
-          <person xml:id="ep000257-frances">
+          <person xml:id="ep000257-frances" sex="FEMALE">
             <persName>Frances</persName>
           </person>
-          <person xml:id="ep000257-weathercock">
+          <person xml:id="ep000257-citizen-s-wife" sex="FEMALE">
+            <persName>Citizen's Wife</persName>
+          </person>
+          <person xml:id="ep000257-father" sex="MALE">
+            <persName>Father</persName>
+          </person>
+          <person xml:id="ep000257-uncle" sex="MALE">
+            <persName>Uncle</persName>
+          </person>
+          <person xml:id="ep000257-flowerdale" sex="MALE">
+            <persName>Flowerdale</persName>
+          </person>
+          <person xml:id="ep000257-lancelot" sex="MALE">
+            <persName>Lancelot</persName>
+          </person>
+          <person xml:id="ep000257-artichoke" sex="MALE">
+            <persName>Artichoke</persName>
+          </person>
+          <person xml:id="ep000257-weathercock" sex="MALE">
             <persName>Weathercock</persName>
           </person>
-          <person xml:id="ep000257-luce">
+          <person xml:id="ep000257-luce" sex="FEMALE">
             <persName>Luce</persName>
           </person>
-          <person xml:id="ep000257-daffidill">
+          <person xml:id="ep000257-daffidill" sex="MALE">
             <persName>Daffidill</persName>
           </person>
-          <person xml:id="ep000257-civet">
+          <person xml:id="ep000257-civet" sex="MALE">
             <persName>Civet</persName>
           </person>
-          <person xml:id="ep000257-drawer">
+          <person xml:id="ep000257-drawer" sex="MALE">
             <persName>Drawer</persName>
           </person>
-          <person xml:id="ep000257-arthur">
+          <person xml:id="ep000257-arthur" sex="MALE">
             <persName>Arthur</persName>
           </person>
-          <person xml:id="ep000257-soldier">
+          <person xml:id="ep000257-soldier" sex="MALE">
             <persName>Soldier</persName>
           </person>
-          <person xml:id="ep000257-oliver">
+          <person xml:id="ep000257-oliver" sex="MALE">
             <persName>Oliver</persName>
           </person>
-          <person xml:id="ep000257-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000257-delia">
+          <person xml:id="ep000257-delia" sex="FEMALE">
             <persName>Delia</persName>
           </person>
-          <person xml:id="ep000257-frank">
-            <persName>Frank</persName>
-          </person>
-          <person xml:id="ep000257-rafe">
+          <person xml:id="ep000257-rafe" sex="MALE">
             <persName>Rafe</persName>
           </person>
-          <person xml:id="ep000257-ruffian">
+          <person xml:id="ep000257-ruffian" sex="MALE">
             <persName>Ruffian</persName>
           </person>
-          <person xml:id="ep000257-citizen">
+          <person xml:id="ep000257-citizen" sex="MALE">
             <persName>Citizen</persName>
           </person>
         </listPerson>
@@ -166,8 +160,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000257"
-                    passive="http://www.wikidata.org/entity/Q5919818"/>
+                   active="https://dracor.org/entity/ep000257"
+                   passive="http://www.wikidata.org/entity/Q5919818"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -681,7 +675,7 @@
             <l>Driue home your fellow calfes that you haue bought. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-artichoake" xml:id="ep000257-e102840">
+        <sp who="#ep000257-artichoke" xml:id="ep000257-e102840">
           <speaker>Arti. </speaker>
           <p>Yes forsooth, shall not my fellow Daffidill goe along with me. </p>
         </sp>
@@ -1593,7 +1587,7 @@
           <speaker>Arty. </speaker>
           <p>Maister, here is a man would speake with maister Oliuer, he comes from young maister Flowerdale. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e108080">
+        <sp who="#ep000257-oliver" xml:id="ep000257-e108080">
           <speaker>Oli.. </speaker>
           <p>Why Chill speake with him, Chill speake with him. </p>
         </sp>
@@ -1749,7 +1743,7 @@
           </lg>
           <stage xml:id="ep000257-e108950">Enter Artic. </stage>
         </sp>
-        <sp who="#ep000257-artichoake" xml:id="ep000257-e108960">
+        <sp who="#ep000257-artichoke" xml:id="ep000257-e108960">
           <speaker>Arti. </speaker>
           <p>Now, what's the matter? some brawle toward, I warrant you. </p>
         </sp>
@@ -2000,7 +1994,7 @@
           <speaker>Ciu. </speaker>
           <p>I, and a better penny sister. </p>
         </sp>
-        <sp who="#ep000257-frank" xml:id="ep000257-e110400">
+        <sp who="#ep000257-frances" xml:id="ep000257-e110400">
           <speaker>
             <pb xml:id="ep000257-014-b"/>Fran. </speaker>
           <p>Sister you forget that at couckolds-hauen. </p>
@@ -2020,7 +2014,7 @@
             <l>Come brother will you in, dinner staies for vs. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e110510">
+        <sp xml:id="ep000257-e110510">
           <speaker>Ciu. </speaker>
           <p>I good sister with all my heart. </p>
         </sp>
@@ -2028,7 +2022,7 @@
           <speaker>Fran. </speaker>
           <p>I by my troath Tom, for I haue a good stomacke. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e110550">
+        <sp xml:id="ep000257-e110550">
           <speaker>Ciu. </speaker>
           <lg>
             <l>And I the like sweet Francke, no sister </l>
@@ -2078,11 +2072,11 @@
           <speaker>Lance. </speaker>
           <p>I prethee tell him his verie good friend syr Lancelot Spurcocke, intreates to speake with him. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e110820">
+        <sp xml:id="ep000257-e110820">
           <speaker>Fath. </speaker>
           <p>By my troath syr, if you come to take vp the matter betweene my maister and the Deuenshyre man, you doe but beguile your hopes, and loose your labour. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e110840">
+        <sp xml:id="ep000257-e110840">
           <speaker>Lance. </speaker>
           <p>Honest friend, I haue not any such thing to him, I come to speake with him about other matters. </p>
         </sp>
@@ -2478,7 +2472,7 @@
           </lg>
         </sp>
         <stage xml:id="ep000257-e113300">(Exit. </stage>
-        <sp who="#ep000257-father" xml:id="ep000257-e113310">
+        <sp xml:id="ep000257-e113310">
           <speaker>Oly. </speaker>
           <lg>
             <l>Cham ashured thick be the place, that the scoundrell </l>
@@ -2550,7 +2544,7 @@
           <speaker>Ar. </speaker>
           <p>Married to Flowerdale! tis impossible. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e113760">
+        <sp who="#ep000257-oliver" xml:id="ep000257-e113760">
           <speaker>Oli.. </speaker>
           <lg>
             <l>Married man, che hope thou doest but iest: </l>
@@ -2563,7 +2557,7 @@
           <p>O tis too true. Here comes his Vncle. </p>
         </sp>
         <stage xml:id="ep000257-e113820">Enter Flowerdale, Sheriffe, Officers. </stage>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e113830">
+        <sp xml:id="ep000257-e113830">
           <speaker>Uncle. </speaker>
           <p>God morrow sir Arthur, good morrow M. Oliuer. </p>
         </sp>
@@ -2609,7 +2603,7 @@
           <speaker>Lance. </speaker>
           <p>Nay be not angry sir, the fault is in me, I haue done all the wrong, kept him from comming to the field to you, as I might sir, for I am a Iustice, and sworne to keepe the peace. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114090">
+        <sp who="#ep000257-weathercock" xml:id="ep000257-e114090">
           <speaker>Whe. </speaker>
           <p>I marry is he sir, a very Iustice, and sworne to keepe the peace, you must not disturbe the weddings. </p>
         </sp>
@@ -2624,7 +2618,7 @@
           <speaker>Oly. </speaker>
           <p>Well, Well, Chill be quiet. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114170">
+        <sp who="#ep000257-weathercock" xml:id="ep000257-e114170">
           <speaker>Whe. </speaker>
           <p>M. Flowerdale, sir Lancelot, looke you who here is? M. Flowerdale. </p>
         </sp>
@@ -2668,7 +2662,7 @@
             <l>A cousoner vnto all that know you. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114410">
+        <sp xml:id="ep000257-e114410">
           <speaker>Lance. </speaker>
           <lg>
             <l>Why syr, suppose he be to you in debt </l>
@@ -2676,7 +2670,7 @@
             <l>To be at least three thousand by the yeare. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114460">
+        <sp xml:id="ep000257-e114460">
           <speaker>Vnck. </speaker>
           <lg>
             <l>O syr, I was too late informed of that plot, </l>
@@ -2690,7 +2684,7 @@
           <speaker>Lance. </speaker>
           <p>Ha, hath he not such Lordships, landes, and shippes? </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114550">
+        <sp xml:id="ep000257-e114550">
           <speaker>Vnck. </speaker>
           <p>Not worth a groat, not worth a halfepenie he. </p>
         </sp>
@@ -2706,7 +2700,7 @@
             <l>By the lord, and of good credit, knowes all is true. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114640">
+        <sp xml:id="ep000257-e114640">
           <speaker>Fath. </speaker>
           <lg>
             <l>Not I syr, I am too old to lye, I rather know </l>
@@ -2722,7 +2716,7 @@
           <speaker>Fath. </speaker>
           <p>Y faith no where syr, for he hath none at all. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e114730">
+        <sp xml:id="ep000257-e114730">
           <speaker>Wea. </speaker>
           <p>Benedicitie, we are ore wretched I beleeue. </p>
         </sp>
@@ -2840,7 +2834,7 @@
           <speaker>Delia. </speaker>
           <p>Yet sister in this passion doe not runne headlong to confusion. You may affect him, though not follow him. </p>
         </sp>
-        <sp who="#ep000257-frank" xml:id="ep000257-e115440">
+        <sp who="#ep000257-frances" xml:id="ep000257-e115440">
           <speaker>Frank. </speaker>
           <p>Doe sister, hang him, let him goe. </p>
         </sp>
@@ -3293,7 +3287,7 @@
           <speaker>Lance. </speaker>
           <p>Yes mary shall she: Delia, make you ready. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e118220">
+        <sp xml:id="ep000257-e118220">
           <speaker>Deli. </speaker>
           <lg>
             <l>I am ready syr, I will first goe to Greene-witch, </l>
@@ -3465,7 +3459,7 @@
         </sp>
         <stage xml:id="ep000257-e119220">Exit Omnes. </stage>
         <stage xml:id="ep000257-e119230">Enter Flowerdale. </stage>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e119240">
+        <sp who="#ep000257-flowerdale" xml:id="ep000257-e119240">
           <speaker>Flou. </speaker>
           <lg>
             <l>A plague of the diuell, the diuell take the dyce, </l>
@@ -3491,7 +3485,7 @@
             <l>The weather is hot, and I am something wearie. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-artichoake" xml:id="ep000257-e119430">
+        <sp who="#ep000257-artichoke" xml:id="ep000257-e119430">
           <speaker>Arti. </speaker>
           <lg>
             <l>Nay I warrant you mistresse Delia ile not tire you </l>
@@ -3502,7 +3496,7 @@
           <speaker>Flow. </speaker>
           <p>Stand, deliuer your purse. </p>
         </sp>
-        <sp who="#ep000257-artichoake" xml:id="ep000257-e119490">
+        <sp who="#ep000257-artichoke" xml:id="ep000257-e119490">
           <speaker>Arti. </speaker>
           <p>O lord, theeues, theeues. </p>
         </sp>
@@ -3549,7 +3543,7 @@
           </lg>
         </sp>
         <stage xml:id="ep000257-e119760">Enter Oliuer. syr Arthur, and Artichoake. </stage>
-        <sp who="#ep000257-artichoake" xml:id="ep000257-e119770">
+        <sp who="#ep000257-artichoke" xml:id="ep000257-e119770">
           <speaker>Arti. </speaker>
           <p>Theeues, theeues, theeues. </p>
         </sp>
@@ -3655,7 +3649,7 @@
             <pb xml:id="ep000257-023-b"/>Fran. </speaker>
           <p>By my troath a fine name, O Tanikin, you are excellent for dressing one head a newe fashion. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e120400">
+        <sp xml:id="ep000257-e120400">
           <speaker>Luce. </speaker>
           <p>Me sall doe euery ting about da head. </p>
         </sp>
@@ -3667,7 +3661,7 @@
           <speaker>Fath. </speaker>
           <p>A dutch woman sir. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e120460">
+        <sp xml:id="ep000257-e120460">
           <speaker>Ciu. </speaker>
           <p>Why then she is outlandish, is she not? </p>
         </sp>
@@ -3679,7 +3673,7 @@
           <speaker>Fran. </speaker>
           <p>O then thou canst tell how to helpe mee to cheekes and eares </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e120520">
+        <sp xml:id="ep000257-e120520">
           <speaker>Luce. </speaker>
           <p>Yes mistresse verie vell. </p>
         </sp>
@@ -3691,7 +3685,7 @@
           <speaker>Fran. </speaker>
           <p>Thou art a foole indeed Tom, thou knowest what I meane, </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e120580">
+        <sp xml:id="ep000257-e120580">
           <speaker>Ciu. </speaker>
           <lg>
             <l>I, I Kester, tis such as they weare a their heads, </l>
@@ -3747,7 +3741,7 @@
           <speaker>Arty. </speaker>
           <p>Marry by none but by Flowerdale, he is turned theefe. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e120890">
+        <sp xml:id="ep000257-e120890">
           <speaker>Ciu. </speaker>
           <lg>
             <l>By my faith, but that is not well, but God be praised </l>
@@ -3790,7 +3784,7 @@
           <speaker>Ciu. </speaker>
           <p>How doe you like her sister? </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e121120">
+        <sp who="#ep000257-delia" xml:id="ep000257-e121120">
           <speaker>Deli.. </speaker>
           <p>I like your maide well. </p>
         </sp>
@@ -3961,7 +3955,7 @@
             <l>thankfull, vntill I had requited so great a curtesie. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e122320">
+        <sp who="#ep000257-citizen" xml:id="ep000257-e122320">
           <speaker>
             <pb xml:id="ep000257-025-b"/>Citizen. </speaker>
           <lg>
@@ -3993,7 +3987,7 @@
             <l>before this time demanded pennie, halpenie, nor farthing. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e122560">
+        <sp who="#ep000257-citizen-s-wife" xml:id="ep000257-e122560">
           <speaker>Citiz. Wife. </speaker>
           <p>. Stay Alexander, now by my troth a very proper man, and tis great pittie: hold my friend, theres all the monie I haue about me, a couple of shillings, and God blesse thee. </p>
         </sp>
@@ -4092,7 +4086,7 @@
           </lg>
         </sp>
         <stage xml:id="ep000257-e123120">Enter Vnckle and Father. </stage>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e123130">
+        <sp xml:id="ep000257-e123130">
           <speaker>Vnc. </speaker>
           <p>See Kester if you can find the house. </p>
         </sp>
@@ -4625,7 +4619,7 @@
             <l>What thou in loue giues, I in loue restore. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e126310">
+        <sp who="#ep000257-frances" xml:id="ep000257-e126310">
           <speaker>Frā. </speaker>
           <lg>
             <l>Ha, ha, sister, there you playd bo-peepe with </l>
@@ -4633,7 +4627,7 @@
             <l>Sister Delia, shall I giue her my Fanne? </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e126360">
+        <sp who="#ep000257-delia" xml:id="ep000257-e126360">
           <speaker>Del. </speaker>
           <p>You were best aske your husband. </p>
         </sp>
@@ -4641,11 +4635,11 @@
           <speaker>Fran. </speaker>
           <p>Shal I Tom? </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e126400">
+        <sp xml:id="ep000257-e126400">
           <speaker>Ciuet. </speaker>
           <p>I do Franck ile by thee a new one, with a longer handle. </p>
         </sp>
-        <sp who="#ep000257-frank" xml:id="ep000257-e126420">
+        <sp who="#ep000257-frances" xml:id="ep000257-e126420">
           <speaker>
             <pb xml:id="ep000257-029-b"/>Franck. </speaker>
           <p>A russet one Franke. </p>
@@ -4766,7 +4760,7 @@
             <pb xml:id="ep000257-030-a"/>Unc. </speaker>
           <p>Say it and do it Cozen, all is well. </p>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e127100">
+        <sp who="#ep000257-lancelot" xml:id="ep000257-e127100">
           <speaker>Lanc </speaker>
           <lg>
             <l>Wel being in hope youle proue an honest man, </l>
@@ -4776,7 +4770,7 @@
             <l>And I am glad of it, come lets in and feast. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e127170">
+        <sp xml:id="ep000257-e127170">
           <speaker>Oly. </speaker>
           <lg>
             <l>Nay zoft you awhile, you promised to make </l>
@@ -4803,7 +4797,7 @@
             <l>Dispatched in a trice so chill. </l>
           </lg>
         </sp>
-        <sp who="#ep000257-unassigned" xml:id="ep000257-e127320">
+        <sp xml:id="ep000257-e127320">
           <speaker>Delia. </speaker>
           <lg>
             <l>Pardon me sir, I meane I am yours, </l>

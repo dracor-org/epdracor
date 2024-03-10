@@ -85,79 +85,64 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000329-roger">
+          <person xml:id="ep000329-roger" sex="MALE">
             <persName>Roger</persName>
           </person>
-          <person xml:id="ep000329-hilts">
-            <persName>Hilts</persName>
-          </person>
-          <person xml:id="ep000329-rowland">
+          <person xml:id="ep000329-rowland" sex="MALE">
             <persName>Rowland</persName>
           </person>
-          <person xml:id="ep000329-valentine">
+          <person xml:id="ep000329-hilts" sex="MALE">
+            <persName>Hilts</persName>
+          </person>
+          <person xml:id="ep000329-valentine" sex="MALE">
             <persName>Valentine</persName>
           </person>
-          <person xml:id="ep000329-fairfaith">
+          <person xml:id="ep000329-fairfaith" sex="MALE">
             <persName>Fairfaith</persName>
           </person>
-          <person xml:id="ep000329-sabina">
+          <person xml:id="ep000329-sabina" sex="FEMALE">
             <persName>Sabina</persName>
           </person>
-          <person xml:id="ep000329-mirabel">
+          <person xml:id="ep000329-mirabel" sex="FEMALE">
             <persName>Mirabel</persName>
           </person>
-          <person xml:id="ep000329-c">
-            <persName>C</persName>
-          </person>
-          <person xml:id="ep000329-plenteous">
+          <person xml:id="ep000329-plenteous" sex="MALE">
             <persName>Plenteous</persName>
           </person>
-          <person xml:id="ep000329-timothy">
+          <person xml:id="ep000329-timothy" sex="MALE">
             <persName>Timothy</persName>
           </person>
-          <person xml:id="ep000329-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000329-within">
-            <persName>Within</persName>
-          </person>
-          <person xml:id="ep000329-sportlove">
+          <person xml:id="ep000329-sportlove" sex="MALE">
             <persName>Sportlove</persName>
           </person>
-          <person xml:id="ep000329-trash">
-            <persName>Trash</persName>
-          </person>
-          <person xml:id="ep000329-fairfaigh">
-            <persName>Fairfaigh</persName>
-          </person>
-          <person xml:id="ep000329-betty">
+          <person xml:id="ep000329-betty" sex="FEMALE">
             <persName>Betty</persName>
           </person>
-          <person xml:id="ep000329-kate">
+          <person xml:id="ep000329-trash" sex="MALE">
+            <persName>Trash</persName>
+          </person>
+          <person xml:id="ep000329-kate" sex="FEMALE">
             <persName>Kate</persName>
           </person>
-          <person xml:id="ep000329-muchcraft">
+          <person xml:id="ep000329-muchcraft" sex="MALE">
             <persName>Muchcraft</persName>
           </person>
-          <person xml:id="ep000329-budget">
+          <person xml:id="ep000329-budget" sex="MALE">
             <persName>Budget</persName>
           </person>
-          <person xml:id="ep000329-musician">
-            <persName>Musician</persName>
-          </person>
-          <person xml:id="ep000329-officer">
-            <persName>Officer</persName>
-          </person>
-          <person xml:id="ep000329-ambo">
-            <persName>Ambo</persName>
-          </person>
-          <person xml:id="ep000329-welt">
+          <personGrp xml:id="ep000329-musicians" sex="MALE">
+            <name>Musicians</name>
+          </personGrp>
+          <personGrp xml:id="ep000329-officers" sex="MALE">
+            <name>Officers</name>
+          </personGrp>
+          <person xml:id="ep000329-welt" sex="MALE">
             <persName>Welt</persName>
           </person>
-          <person xml:id="ep000329-wife">
+          <person xml:id="ep000329-wife" sex="FEMALE">
             <persName>Wife</persName>
           </person>
-          <person xml:id="ep000329-boy">
+          <person xml:id="ep000329-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
         </listPerson>
@@ -747,7 +732,7 @@
             <l>From this mortality, and embrace my Fate. </l>
           </sp>
           <stage xml:id="ep000329-e103900">To them Sir Timothy Testy, Sir Plenteous Crambagge. </stage>
-          <sp who="#ep000329-c" xml:id="ep000329-e103910">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e103910">
             <speaker>Sir T. </speaker>
             <p>No further, no further, pray returne. </p>
           </sp>
@@ -755,7 +740,7 @@
             <speaker>Sir P. </speaker>
             <p>Good sir give me leave to bring you a little further. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e103950">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e103950">
             <speaker>Sir T. </speaker>
             <p>Pray yee, returne, ye doe but trouble your selfe and me to no purpose, well, Sir Plenteous Crambagge I thanke ye. </p>
           </sp>
@@ -763,7 +748,7 @@
             <speaker>Sir P. </speaker>
             <p>Farwell good sir Timothy Testy. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e103990">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e103990">
             <speaker>Sir T. </speaker>
             <p>Come girles, come— where's Hilts?— ha. Where is he? </p>
             <stage xml:id="ep000329-e104010">Enter Hilts. </stage>
@@ -980,7 +965,7 @@
         <div n="2" type="act" xml:id="ep000329-e105310">
           <head>Actus Secundus. </head>
           <stage xml:id="ep000329-e105320">Enter sir Timothy Testy, sir Plenteous Crambagge. </stage>
-          <sp who="#ep000329-c" xml:id="ep000329-e105330">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105330">
             <speaker>Sir T. </speaker>
             <p>PIsh, pray sir doe not urge me, I'me a little busie. </p>
           </sp>
@@ -988,7 +973,7 @@
             <speaker>Sir P. </speaker>
             <p>Tis but a word sir, and the matter ends. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105370">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105370">
             <speaker>Sir T. </speaker>
             <p>Words, or matter, I cannot heare it now I tell ye. </p>
           </sp>
@@ -996,7 +981,7 @@
             <speaker>Sir P. </speaker>
             <p>Tis a concernement requires your serious intention, as much as mine sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105410">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105410">
             <speaker>Sir T. </speaker>
             <p>Sir, I doe not use to step out of my humour, neither for my owne sake, nor no mans else. </p>
           </sp>
@@ -1004,7 +989,7 @@
             <speaker>Sir P. </speaker>
             <p>Tis for your owne profit and good, pray heare it sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105450">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105450">
             <speaker>Sir T. </speaker>
             <p>Well, lets here it then, lets heare it, but dee heare, be breefe. </p>
           </sp>
@@ -1012,7 +997,7 @@
             <speaker>Sir P. </speaker>
             <p>Thus it is. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105490">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105490">
             <speaker>Sir T. </speaker>
             <p>Nay, come come, make an end, make an end. </p>
           </sp>
@@ -1020,7 +1005,7 @@
             <speaker>Sir P. </speaker>
             <p>I have not begun yet sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105530">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105530">
             <speaker>Sir T. </speaker>
             <p>Preethee make an end I say. </p>
           </sp>
@@ -1028,7 +1013,7 @@
             <speaker>Sir P. </speaker>
             <p>Well, then you shall heare the end: my sonne Valantine has a minde to make a conjunction copulative with your daughter Sabina. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105570">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105570">
             <speaker>Sir T. </speaker>
             <p>Speake in a plainer part of speech man, what dee meane? </p>
           </sp>
@@ -1036,7 +1021,7 @@
             <speaker>Sir P. </speaker>
             <p>He has a minde to lye with her sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105610">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105610">
             <speaker>Sir T. </speaker>
             <l>Ile see him hang'd first, except he marry her first. </l>
           </sp>
@@ -1045,7 +1030,7 @@
             <p>So he does entend sir, but you would not heare the beginning, which made me beginne at the end. </p>
           </sp>
           <pb xml:id="ep000329-010-b"/>
-          <sp who="#ep000329-c" xml:id="ep000329-e105650">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105650">
             <speaker>Sir T. </speaker>
             <p>Well, come to th'point, what saies my daughter too't? </p>
           </sp>
@@ -1053,7 +1038,7 @@
             <speaker>Sir P. </speaker>
             <p>Rich Parents ne're question that sir, they first wisely agree upon Portions, seale Writings, then marry the young couple, and afterwards, give 'em time to consider of that, if we may have your consent, I make no question of hers. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105690">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105690">
             <speaker>Sir T. </speaker>
             <p>Well, ye have it, ye have it. </p>
           </sp>
@@ -1061,7 +1046,7 @@
             <speaker>Sir P. </speaker>
             <p>I thanke yee sir, I shall make my sonne a glad man when I come home sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105730">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105730">
             <speaker>Sir T. </speaker>
             <p>Send 'em joy, come, is this all ye have to say? </p>
           </sp>
@@ -1069,7 +1054,7 @@
             <speaker>Sir P. </speaker>
             <p>Tis all sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105770">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105770">
             <speaker>Sir T. </speaker>
             <p>Well, fare yee well. </p>
           </sp>
@@ -1077,7 +1062,7 @@
             <speaker>Sir P. </speaker>
             <p>Stay sir, I had like to have forgot the maine businesse. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105810">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105810">
             <speaker>Sir T. </speaker>
             <p>Puh, yet againe, speake, speake come, what ist? </p>
           </sp>
@@ -1085,7 +1070,7 @@
             <speaker>Sir P. </speaker>
             <p>I wud desire to know sir what blessings you meane to bestow upon your daughter? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105850">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105850">
             <speaker>Sir T. </speaker>
             <p>Pish, dee thinke Ile be backward in these things? She shall have a thousand. </p>
           </sp>
@@ -1093,7 +1078,7 @@
             <speaker>Sir P. </speaker>
             <p>Tis a faire portion sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105890">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105890">
             <speaker>Sir T. </speaker>
             <p>Have ye done now? </p>
           </sp>
@@ -1101,7 +1086,7 @@
             <speaker>Sir P. </speaker>
             <l>I have done, I have done, heavens protect ye sir— </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105930">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105930">
             <speaker>Sir T. </speaker>
             <p>A due, a due. </p>
           </sp>
@@ -1109,7 +1094,7 @@
             <speaker>Sir P. </speaker>
             <p>— Good sir, but one word more, and then I have done. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e105970">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e105970">
             <speaker>Sir T. </speaker>
             <p>What againe, what ailes the man tro? </p>
           </sp>
@@ -1117,7 +1102,7 @@
             <speaker>Sir P. </speaker>
             <p>Onely this sir, I hope you'le pay the money upon the wedding day sir, will not ye? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106010">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106010">
             <speaker>Sir T. </speaker>
             <p>Money?— what money? </p>
           </sp>
@@ -1125,7 +1110,7 @@
             <speaker>Sir P. </speaker>
             <p>The marriage money sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106050">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106050">
             <speaker>Sir T. </speaker>
             <p>What marriage money? </p>
           </sp>
@@ -1133,7 +1118,7 @@
             <speaker>Sir P. </speaker>
             <p>The thousand pound. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106090">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106090">
             <speaker>Sir T. </speaker>
             <p>The thousand pound? what dee meane sir? </p>
           </sp>
@@ -1141,7 +1126,7 @@
             <speaker>Sir P. </speaker>
             <p>Did you not say but now you wod give a thousand pound with her? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106130">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106130">
             <speaker>Sir T. </speaker>
             <p>I told you I wod give her a thousand blessings; passion of my heart, a thousand pound quoth a? sir I scorne it; ye have abus'd me to thinke so, let those scraping curmudgions, that for the most part beget cripples and idiots like themselves, I say, let those doo't J tell ye; on the wedding day, as I said, Ile give her a thousand blessings with all my heart. </p>
           </sp>
@@ -1149,7 +1134,7 @@
             <speaker>Sir P. </speaker>
             <p>And ne're a penny of mony? </p>
           </sp>
-          <sp who="#ep000329-unassigned" xml:id="ep000329-e106170">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106170">
             <speaker>Sir. </speaker>
             <p>Not a penny. </p>
           </sp>
@@ -1158,7 +1143,7 @@
             <speaker>Sir P. </speaker>
             <p>What? Not with your owne childe? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106210">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106210">
             <speaker>Sir T. </speaker>
             <l>Not a Denier, not one Denier: </l>
           </sp>
@@ -1166,7 +1151,7 @@
             <speaker>Sir P. </speaker>
             <p>Why then give me leave to tell yee, your resolution is unworthy, nay, tis scurvy. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106250">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106250">
             <speaker>Sir T. </speaker>
             <p>How scurvy? and in my owne house too? </p>
           </sp>
@@ -1174,7 +1159,7 @@
             <speaker>Sir P. </speaker>
             <p>Ay scurvy, and I must tell yee, argues no better than a beggerly disposition. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106290">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106290">
             <speaker>Sir T. </speaker>
             <p>Beggerly disposition? O basenesse it selfe. </p>
           </sp>
@@ -1182,7 +1167,7 @@
             <speaker>Sir P. </speaker>
             <p>Base, I n'ere stood yet sir with my cap in my hand to a Scrivener for the procuring of ten pounds upon my owne bond. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106330">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106330">
             <speaker>Sir T. </speaker>
             <p>How? I stand with my cap in my hand ye rascall? when? when? how? to whom? I stand with my cap in my hand?— I defie thee. <stage xml:id="ep000329-e106350">Enter Hilts .</stage>I stand with my cap in my hand? </p>
           </sp>
@@ -1190,7 +1175,7 @@
             <speaker>Hilts. </speaker>
             <p>How now? what dee affront my master in's owne house sir, pray avoide. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106380">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106380">
             <speaker>Sir T. </speaker>
             <p>Out of my house ye dunghill, ye dirt, yee spawne of ten ith hundred. </p>
           </sp>
@@ -1198,7 +1183,7 @@
             <speaker>Hilts. </speaker>
             <p>Come, come sir, lets see your backe, or your worships pate feele the weight of my cudgell. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106420">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106420">
             <speaker>Sir T. </speaker>
             <p>Out ye villaine. </p>
           </sp>
@@ -1207,7 +1192,7 @@
             <p>Very well sir. <stage xml:id="ep000329-e106460">Exit sir Plenteous. </stage>
             </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106470">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106470">
             <speaker>Sir T. </speaker>
             <p>A slave abuse me thus, and in my owne house too. </p>
           </sp>
@@ -1215,7 +1200,7 @@
             <speaker>Hil. </speaker>
             <l>Come sir, doe not trouble your selfe, he's gone now </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106510">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106510">
             <speaker>Sir T. </speaker>
             <p>A Sirra, an old Pancridge. </p>
           </sp>
@@ -1223,7 +1208,7 @@
             <speaker>Hilts. </speaker>
             <p>Nay I see you are bell mettle sir if you'r angred once. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106550">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106550">
             <speaker>Sir T. </speaker>
             <p>Angry? twas well thou cam'st in, for in my conscience I had kill'd the rogue else. <stage xml:id="ep000329-e106570">Enter Sabina, Mirable .</stage>Whorson dogbolt affront me thus. </p>
           </sp>
@@ -1231,7 +1216,7 @@
             <speaker>Sab. </speaker>
             <l>Whats the matter Hilts, who has vext my father thus </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106600">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106600">
             <speaker>Sir T. </speaker>
             <p>Old Crambag forsooth, has beene here and so abus'd me as I was never abus'd since I peept into the world, and whats the reason forsooth, because his son and heire's in love with you forsooth, and entends to make you his bride forsooth, therefore must I give thim a thousand pound forsooth, but Ile see him hang'd for a signe ats owne doore first; the truth is <pb xml:id="ep000329-011-b"/>daughter, his sonne is a pretty gentleman, but heres the thing, his sonne, as I perceive is mad in love, and for ought I see, rather than faile, he will give me a thousand pound for my consent, were not I an Asse then Hilts, to give a man a thousand pound to marry my daughter; when the same man rather than goe without her will give it me? were not I a Buzzard then I say? </p>
           </sp>
@@ -1239,7 +1224,7 @@
             <speaker>Hilts. </speaker>
             <p>A man wod thinke so sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e106640">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106640">
             <speaker>Sir T. </speaker>
             <p>Why shod I doe it— ha? give me but a why, and I'me satisfied? </p>
           </sp>
@@ -1256,7 +1241,7 @@
             <speaker>Hilts. </speaker>
             <p>This young gentleman, a nimble sparke I see, that I did not thinke the young colt wod have beene leaping so quickly— therefore doe you hamper him as soone as yee can, dee heare. </p>
           </sp>
-          <sp who="#ep000329-within" xml:id="ep000329-e106730">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e106730">
             <speaker>Within. </speaker>
             <p>Come away Hilts. </p>
           </sp>
@@ -1390,7 +1375,7 @@
             <speaker>Val. </speaker>
             <p>Sirra, what did yee tell her? you are so officious. </p>
           </sp>
-          <sp who="#ep000329-fairfaigh" xml:id="ep000329-e107470">
+          <sp who="#ep000329-fairfaith" xml:id="ep000329-e107470">
             <speaker>Fr. </speaker>
             <p>I told her sir, that your worship said, she was the staring blaze whereon you gaz'd, and the world of little beauty which you admir'd. </p>
           </sp>
@@ -2327,7 +2312,7 @@
             <stage xml:id="ep000329-e113140">Enter Sir Timothy. </stage>
             <l>Ah poore sister. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113160">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113160">
             <speaker>Sir T. </speaker>
             <p>How now, what ayles your sister now? </p>
           </sp>
@@ -2335,7 +2320,7 @@
             <speaker>Mir. </speaker>
             <p>Nothing forsooth. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113200">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113200">
             <speaker>Sir T. </speaker>
             <p>What does the wedding hold or no?— ha? </p>
           </sp>
@@ -2343,7 +2328,7 @@
             <speaker>Mir. </speaker>
             <p>Shees wedded already sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113240">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113240">
             <speaker>Sir T. </speaker>
             <p>How? and I not know on't? what a forward sawcy girle's this? </p>
             <p>But is she married indeede? </p>
@@ -2352,7 +2337,7 @@
             <speaker>Mir. </speaker>
             <p>Yes, to misery, shame, and infamy. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113290">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113290">
             <speaker>Sir T. </speaker>
             <p>What's the matter girle?— ha?— speake— what's the matter? </p>
           </sp>
@@ -2360,7 +2345,7 @@
             <speaker>Mir. </speaker>
             <p>Hee that pretended so much love to her, I meane young Crambragge. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113330">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113330">
             <speaker>Sir T. </speaker>
             <p>Ay— what of him?— ha? what's the businesse I say? </p>
           </sp>
@@ -2368,7 +2353,7 @@
             <speaker>Mir. </speaker>
             <p>O Sister, sister! </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113370">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113370">
             <speaker>Sir T. </speaker>
             <p>Daughter, I charge ye tell me what the matter is, <pb xml:id="ep000329-019-b"/>what of young Crambagge? </p>
           </sp>
@@ -2376,7 +2361,7 @@
             <speaker>Mir. </speaker>
             <p>He— that villaine has by smooth words wrought upon her gentle nature, to her perpetuall dishonor; to tell ye the plaine truth sir, he has lyen with her, publish'd it abroad to her disgrace, and is now fled. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113410">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113410">
             <speaker>Sir T. </speaker>
             <l>— umph— lyen with her?— and fled? </l>
             <l>Is there no thunder left above the skye? </l>
@@ -2389,7 +2374,7 @@
             <speaker>Tr. </speaker>
             <p>Sir, my Master sent me to your worship, to tell your worship, that your worship needs not trouble your selfe about your daughters portion, for his mindes alter'd, and hee bid tell your worship that he wud intreate your worship to have patience. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113500">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113500">
             <speaker>Sir T. </speaker>
             <p>Sirra, your Master's a rascall, and you are another. </p>
           </sp>
@@ -2412,7 +2397,7 @@
             <l>The messenger has heeles of lead that brings </l>
             <l>Good newes, but ill newes flye with Eagles wings. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113650">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113650">
             <speaker>Sir T. </speaker>
             <l>Stand fast ye weake supporters of my age </l>
             <l>Henceforth my hand be pillow to my head, </l>
@@ -2428,7 +2413,7 @@
             <speaker>Tr. </speaker>
             <p>Your worship might have dream'd on't, for to my knowledge your worship was a sleepe in your bed when the <pb xml:id="ep000329-020-a"/>businesse was done. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113770">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113770">
             <speaker>Sir T. </speaker>
             <p>O that I had the rogue by the eares. </p>
           </sp>
@@ -2437,7 +2422,7 @@
             <p>I but he does not desire to give eare to yee. </p>
           </sp>
           <stage xml:id="ep000329-e113810">Enter Mirabell, with Sabina very pensive </stage>
-          <sp who="#ep000329-c" xml:id="ep000329-e113820">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113820">
             <speaker>Sir T. </speaker>
             <p>Out ye strumpet, ye whore, does thou play the whore and looke me in the face? hast thou playd the baggage? hast thou playd the whore?— Ha? Out of my sight ye queane, get ye out. <stage xml:id="ep000329-e113840">Exit Sabina. </stage>
             </p>
@@ -2447,7 +2432,7 @@
             <speaker>Hilts. </speaker>
             <p>Tis more then I know Sir, tis the first time I heard on't, if I had seene the sawcy rascalls I wud have sent 'em further with a vengeance. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113890">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113890">
             <speaker>Sir T. </speaker>
             <p>Abominable— thus to disgrace her selfe and me, where is she, did not I bid ye fetch her? </p>
           </sp>
@@ -2455,7 +2440,7 @@
             <speaker>Mir. </speaker>
             <p>She has beene here Sir, and you sent her out againe. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113930">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113930">
             <speaker>Sir T. </speaker>
             <p>Has shee? I know not, these distractions do so confound me, that I forget the last minute: O daughter Mirabell what shud I doe? </p>
           </sp>
@@ -2463,7 +2448,7 @@
             <speaker>Tr. </speaker>
             <p>Me thinkes your worship shud keepe alwayes a rope about your house against such a desperate case as this is. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e113970">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e113970">
             <speaker>Sir T. </speaker>
             <p>Hilts take that rogue, and dee heare, deliver him from me to the keeper of Bridewell— take him away I say. </p>
           </sp>
@@ -2475,7 +2460,7 @@
             <speaker>Tr. </speaker>
             <p>No Sir, I did not jeere Sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114030">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114030">
             <speaker>Sir T. </speaker>
             <p>Take him away I say. </p>
           </sp>
@@ -2487,7 +2472,7 @@
             <speaker>Tr. </speaker>
             <p>Master Hilts, your master does but jest man. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114090">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114090">
             <speaker>Sir T. </speaker>
             <p>Sir your master has abusd my house, and Ile make him smart fort. </p>
           </sp>
@@ -2495,7 +2480,7 @@
             <speaker>Tr. </speaker>
             <p>Tis like enough and please your worship, but shall I be punisht for the wickednesse of my Masters Codpeece, and please your worship, no no. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114130">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114130">
             <speaker>Sir T. </speaker>
             <p>Carry him away I say. </p>
           </sp>
@@ -2504,7 +2489,7 @@
             <speaker>Tr. </speaker>
             <p>Your worship's a merry Gentleman, you love to make sport I see that. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114170">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114170">
             <speaker>Sir T. </speaker>
             <p>Hilts, I bid you once more carry him away, what dee thinke to laugh me out of my resolutions? </p>
           </sp>
@@ -2516,7 +2501,7 @@
             <speaker>Tr. </speaker>
             <p>Hilts is in sober sadnesse and please your worship. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114230">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114230">
             <speaker>Sir T. </speaker>
             <l>So am I too sirra, carry him I say— </l>
           </sp>
@@ -2524,7 +2509,7 @@
             <speaker>Hilts. </speaker>
             <p>Was thou mad to talke thus to a Iustice of Peace, a Iustice of Corum horum rotulorum? 'tis as much as thy life's worth. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114270">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114270">
             <speaker>Sir T. </speaker>
             <p>A prating sawcy rascall; carry him away. </p>
           </sp>
@@ -2532,7 +2517,7 @@
             <speaker>Tr. </speaker>
             <p>I beseech your worship forgive me, good your worship. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114310">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114310">
             <speaker>Sir T. </speaker>
             <p>Carry him away I say. </p>
           </sp>
@@ -2540,7 +2525,7 @@
             <speaker>Tr. </speaker>
             <p>Good your worship forgive me, I beseech your worship. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114350">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114350">
             <speaker>Sir T. </speaker>
             <p>Well, let him goe for this time, get ye gone sirra. </p>
           </sp>
@@ -2549,7 +2534,7 @@
             <p>Yes and shall please your worship— gone quoth a? Ile see your worship hang'd before Ile come neere ye againe. </p>
           </sp>
           <stage xml:id="ep000329-e114390">Exit Trash. </stage>
-          <sp who="#ep000329-c" xml:id="ep000329-e114400">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114400">
             <speaker>Sir T. </speaker>
             <p>O Hilts, this wicked fellow has undone us. </p>
           </sp>
@@ -2557,7 +2542,7 @@
             <speaker>Hilts. </speaker>
             <p>Who dee meane sir? Mr. Crambagge? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114440">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114440">
             <speaker>Sir T. </speaker>
             <p>The same. </p>
           </sp>
@@ -2565,7 +2550,7 @@
             <speaker>Hilts. </speaker>
             <p>What has he done sir? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114480">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114480">
             <speaker>Sir T. </speaker>
             <p>What? my cheeks wud burne to speake it, uncontrouleable fates— is there no pitty in your votes. </p>
           </sp>
@@ -2573,7 +2558,7 @@
             <speaker>Hilts. </speaker>
             <l>Well, if I once meete with him— </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114520">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114520">
             <speaker>Sir T. </speaker>
             <p>What then? </p>
           </sp>
@@ -2581,7 +2566,7 @@
             <speaker>Hilts. </speaker>
             <p>I'de make him an example to all the young lads in England, I wud fustinado the carkasse of him till the limbs of the rogue flew one from another, and then I wud beate 'em together againe. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114560">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114560">
             <speaker>Sir T. </speaker>
             <p>No, no, if we shud hurt him Hilts, the Law wud be of his side. </p>
           </sp>
@@ -2589,7 +2574,7 @@
             <speaker>Hilts. </speaker>
             <p>Hurt him, no forsooth, I wud onely bestow a little timber upon the shoulders of him. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e114600">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e114600">
             <speaker>Sir T. </speaker>
             <p>Pish, pish, come, goe your wayes to my cosin Muchcraft the Atturney, tell him I'me comming to him for <pb xml:id="ep000329-021-a"/>his advice; in the meane time doe you put the Case to him for comming into the house at an unseasonable time of the night, goe your wayes, Ile be with ye presently. </p>
           </sp>
@@ -2758,7 +2743,7 @@
             <p>No, no, prethee doe not trouble me, I'me a little <pb xml:id="ep000329-022-b"/>busie. <stage xml:id="ep000329-e115590">Enter sir Tim. </stage>
             </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e115600">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e115600">
             <speaker>Sir T. </speaker>
             <p>Cosin Muchcraft, how dee sir? </p>
           </sp>
@@ -2766,7 +2751,7 @@
             <speaker>Much. </speaker>
             <p>Sir Timothy Testy, you are kindely welcome sir, how dee sir? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e115640">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e115640">
             <speaker>Sir T. </speaker>
             <p>Never worse cosin,— even almost dead with griefe, most abominably abus'd. </p>
           </sp>
@@ -2775,7 +2760,7 @@
             <p>Wherein, pray ye sir? <stage xml:id="ep000329-e115680">Gives him a fee. </stage>
             </p>
           </sp>
-          <sp who="#ep000329-plenteous" xml:id="ep000329-e115690">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e115690">
             <speaker>Sir Tim. </speaker>
             <p>That I will tell more at large hereafter sir, not onely a peece, but my whole love attends ye sir— the case is this; a Gentleman comes into my house, at an uncivill and unseasonable time of the night, contrary to my knowne will and command; a Trespasse or no? </p>
           </sp>
@@ -2783,7 +2768,7 @@
             <speaker>Much. </speaker>
             <p>A trespasse: a transcedent crime sir; a most foule matter, Ile assure ye; your man did not put the Case to mee in this manner. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e115730">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e115730">
             <speaker>Sir T. </speaker>
             <p>Not? ye whoreson blockhead, are yee not able to speake to a man? wherefore doe I keepe ye?— ha? </p>
           </sp>
@@ -2795,7 +2780,7 @@
             <speaker>Much. </speaker>
             <p>'Tis well enough sir, both Law and Equitie supports your cause; come, wee'le walke out and talke of it. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e115790">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e115790">
             <speaker>Sir T. </speaker>
             <p>Your tongue drops honey cosin, and you have revived my staggering spirits: </p>
             <l>And now though time and age, </l>
@@ -3112,7 +3097,7 @@
             <speaker>Much. </speaker>
             <p>Well sir, I heare ye, but yee have not spoke toth <pb xml:id="ep000329-025-a"/>purpose yet. </p>
           </sp>
-          <sp who="#ep000329-unassigned" xml:id="ep000329-e117790">
+          <sp xml:id="ep000329-e117790">
             <speaker>Sir P. </speaker>
             <p>Accept this from me sir, Ile proove sir, that my sonne was invited and sent for, and that her maide and she both us'd all meanes possible to allure him thither. <stage xml:id="ep000329-e117810">Gives him a fee. </stage>
             </p>
@@ -3133,7 +3118,7 @@
             <speaker>Much. </speaker>
             <p>Alasse for's businesse, were my case, if any body wud but give me a sawcer of Mustard for't, he shud have it. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e117910">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e117910">
             <speaker>Sir T. </speaker>
             <p>Sawcy rascall. </p>
           </sp>
@@ -3141,7 +3126,7 @@
             <speaker>Much. </speaker>
             <p>Suppose he brings his action, what can he doe in 't?— not this, tis true, he wud have retain'd me to have taken out a Writ against ye, but when I perceived that it was nothing but a malicious humor, I bid him goe and be hang'd with this brabbles, I wud not be troubled with 'em. </p>
           </sp>
-          <sp who="#ep000329-unassigned" xml:id="ep000329-e117950">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e117950">
             <speaker>Sir▪ T. </speaker>
             <p>Very good, but you were willing enough to be troubled with my money, I have heard you all this while, and this your sucking knave too. </p>
           </sp>
@@ -3149,7 +3134,7 @@
             <speaker>Much. </speaker>
             <p>Sir Timothy, come, come, Ime glad you are come, Ime glad you are here with all my heart, come, I must have you made friends by all meanes. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e117990">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e117990">
             <speaker>Sir T. </speaker>
             <p>Friends? Ile see him stand bare to the taile of a Cart first, I friends with him?— hang him rascall. </p>
           </sp>
@@ -3157,7 +3142,7 @@
             <speaker>Sir. P, </speaker>
             <p>Sir, I make no doubt but I shall make you know, and your daughter too before I have done with her, that shee has abus'd my sonne, I cannot tell, I will not say she has bewitch'd him, but if I prove it, Ile make ye all stinke with a <pb xml:id="ep000329-025-b"/>vengeance. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e118030">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e118030">
             <speaker>Sir T. </speaker>
             <p>Why, ye worme-eaten slave, does my daughter looke like a Witch? </p>
           </sp>
@@ -3165,7 +3150,7 @@
             <speaker>Sir P. </speaker>
             <p>Budget, pray ye put downe worme-eaten slave, and the day of the moneth too, bee heare? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e118070">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e118070">
             <speaker>Sir T. </speaker>
             <p>Didst not come thy selfe (you whorson gull?) </p>
           </sp>
@@ -3177,7 +3162,7 @@
             <speaker>Budg. </speaker>
             <p>Yes sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e118130">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e118130">
             <speaker>Sir T. </speaker>
             <p>Didst not come, thy selfe, I say to know what portion I wud give her? Now I find it was but a meere pretence, ye cheating rogue you. </p>
           </sp>
@@ -3189,7 +3174,7 @@
             <speaker>Budg. </speaker>
             <p>Yes forsooth. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e118190">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e118190">
             <speaker>Sir T. </speaker>
             <p>If my man Hilts were here I wud beate thy very nose into thy face, and afterwards beat it out agen. </p>
           </sp>
@@ -3213,7 +3198,7 @@
             <speaker>Budg. </speaker>
             <p>Sir Plenteous, pray ye goe along with me sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e118310">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e118310">
             <speaker>Sir T. </speaker>
             <p>Prethee let me beate the rogue first. </p>
           </sp>
@@ -3320,7 +3305,7 @@
             <speaker>Sport. </speaker>
             <p>Ay, ay, doe so, what? upon your joviall day be sad? but where be these Fidlers? </p>
           </sp>
-          <sp who="#ep000329-musician" xml:id="ep000329-e119040">
+          <sp who="#ep000329-musicians" xml:id="ep000329-e119040">
             <speaker>Musi. </speaker>
             <p>We are come sir. </p>
           </sp>
@@ -3745,7 +3730,7 @@
             <p>Yes, yes, goe on. </p>
           </sp>
           <stage xml:id="ep000329-e121530">Enter Sir Timothy with officers meeting them. </stage>
-          <sp who="#ep000329-c" xml:id="ep000329-e121540">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121540">
             <speaker>Sir T. </speaker>
             <p>How now daughter, whether are you going? </p>
           </sp>
@@ -3754,16 +3739,16 @@
             <p>To see if I can finde my sister sir. </p>
           </sp>
           <pb xml:id="ep000329-029-b"/>
-          <sp who="#ep000329-c" xml:id="ep000329-e121580">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121580">
             <speaker>Sir T. </speaker>
             <p>Come, come, doe not trouble your selfe to no purpose, I have order'd it already, Ile have these men goe that have authority to make the doores and gates flie open where they come and goe, and dee heare Officers, looke too 'it, and be sure to search very narrowly the places that I told ye of, and especially the house where young Crambagge is suspected to lie, and if yee finde either one or both of 'em, bring 'em away, dee heare? </p>
           </sp>
-          <sp who="#ep000329-officer" xml:id="ep000329-e121600">
+          <sp who="#ep000329-officers" xml:id="ep000329-e121600">
             <speaker>Offi. </speaker>
             <p>We shall sir. <stage xml:id="ep000329-e121620">Exeunt Officer. </stage>
             </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e121630">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121630">
             <speaker>Sir T. </speaker>
             <p>Daughter, I rather thinke (to put her selfe out of th-way of this approaching disparagement) shee has runne her selfe upon some desperate course. </p>
           </sp>
@@ -3771,7 +3756,7 @@
             <speaker>Mir. </speaker>
             <p>But dee thinke these men will finde her sir? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e121670">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121670">
             <speaker>Sir T. </speaker>
             <p>I cannot tell, wee shall know presently. </p>
           </sp>
@@ -3779,7 +3764,7 @@
             <speaker>Kate. </speaker>
             <p>Doe not weepe Mistresse, I hope shee's well, and will be here agen shortly. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e121710">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121710">
             <speaker>Sir T. </speaker>
             <p>Come, come, lets have no weeping. </p>
           </sp>
@@ -3797,7 +3782,7 @@
             <speaker>Hilts. </speaker>
             <p>Ne're feare, shee's well enough Ile warrant ye. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e121810">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121810">
             <speaker>Sir T. </speaker>
             <l>Oh Hilts, </l>
             <l>Her high borne spirit cannot brooke disgrace, </l>
@@ -3813,7 +3798,7 @@
             <speaker>Hilts. </speaker>
             <p>Nay then sir feare nothing, for if shee had so much wit to carry away her rings and jewells, she has wit enough to keepe her selfe from killing or drowning, I warrant ye. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e121930">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e121930">
             <speaker>Sir T. </speaker>
             <l>O heavens! </l>
             <l>With what a swinge is youth, </l>
@@ -3917,7 +3902,7 @@
             <speaker>Val. </speaker>
             <p>O Rowland, I'me undone, I'me undone. </p>
           </sp>
-          <sp who="#ep000329-ambo" xml:id="ep000329-e122520">
+          <sp who="#ep000329-trash #ep000329-rowland" xml:id="ep000329-e122520">
             <speaker>Ambo. </speaker>
             <p>What's the matter sir? </p>
           </sp>
@@ -4176,7 +4161,7 @@
             <p>Enough, enough, I will not be beholden to her, Ile satisfie her. </p>
           </sp>
           <stage xml:id="ep000329-e123960">Enter sir Timothy with Officers. </stage>
-          <sp who="#ep000329-c" xml:id="ep000329-e123970">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e123970">
             <speaker>Sir T. </speaker>
             <p>O sir, have I found ye out in the end, Come Officers lay hold on him— but stay lets talke with ye a little first. </p>
           </sp>
@@ -4184,7 +4169,7 @@
             <speaker>Ro. </speaker>
             <p>Sure my master was borne when the signe was in Cancer, for whatsoever he does intend, goes alwayes quite backwards, well some body shall know on't presently, that shall fetch him off againe for all this sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124010">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124010">
             <speaker>Sir T. </speaker>
             <l>Sirra, hold your peace, and </l>
             <l>Be gone about your businesse fellow, <stage xml:id="ep000329-e124040">Exit Rowland. </stage>
@@ -4197,7 +4182,7 @@
             <l>Sir I am conscious to my selfe of all </l>
             <l>The wrongs and injuries that I have done ye. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124100">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124100">
             <speaker>Sir T. </speaker>
             <l>Why hast thou put this blemish on my child, </l>
             <l>Which like a Canker threatens to deface </l>
@@ -4220,7 +4205,7 @@
             <l>— They, I say, they must be </l>
             <l>That expiating sacrifice for me. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124280">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124280">
             <speaker>Sir T. </speaker>
             <l>Smiles on thee? </l>
             <l>Hast thou the face to say thy faults can be </l>
@@ -4238,7 +4223,7 @@
             <speaker>Val. </speaker>
             <p>Sir, I am content to engage all my possibilities to accomplish your desires. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124420">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124420">
             <speaker>Sir T. </speaker>
             <p>There may be some hope in this. </p>
           </sp>
@@ -4248,7 +4233,7 @@
             <l>But give this satisfaction you require, </l>
             <l>And my soule shall study its performance. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124480">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124480">
             <speaker>Sir T. </speaker>
             <l>I cannot tell, </l>
             <l>Thou hast so plung'd her in a sincke of shame, </l>
@@ -4271,7 +4256,7 @@
             <pb xml:id="ep000329-033-b"/>
             <l>In your esteeme. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124660">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124660">
             <speaker>Sir T. </speaker>
             <l>'Tis well, I doe commend your forward minde; </l>
             <l>But this will never doo't; </l>
@@ -4282,7 +4267,7 @@
             <speaker>Val. </speaker>
             <p>Nothing but marriage? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124730">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124730">
             <speaker>Sir T. </speaker>
             <p>Not any thing ith' world but Marriage▪ </p>
           </sp>
@@ -4290,7 +4275,7 @@
             <speaker>Val. </speaker>
             <p>Not? </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124770">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124770">
             <speaker>Sir T. </speaker>
             <p>No indeede. </p>
           </sp>
@@ -4304,7 +4289,7 @@
             <l>Sir, in a word, </l>
             <l>Your daughter's quite undone, and so am I. </l>
           </sp>
-          <sp who="#ep000329-plenteous" xml:id="ep000329-e124870">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124870">
             <speaker>Sir, T. </speaker>
             <l>How stands the businesse? </l>
             <l>Speake the worst, if truth, and let me die. </l>
@@ -4316,7 +4301,7 @@
             <l>Doe with me what ye please, the truth is this, </l>
             <l>I am already married. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e124950">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e124950">
             <speaker>Sir T. </speaker>
             <l>How? already married? </l>
             <l>Villaine, keepe in that breath; </l>
@@ -4343,7 +4328,7 @@
             <speaker>Val. </speaker>
             <p>It is unknowne to me sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e125170">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e125170">
             <speaker>Sir T. </speaker>
             <p>I aske ye who 'tis you have married? </p>
           </sp>
@@ -4352,7 +4337,7 @@
             <l>Sir, </l>
             <l>Vpon my life I know not who she is. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e125220">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e125220">
             <speaker>Sir T. </speaker>
             <p>Has thy leudnesse brought thee to distraction; married, and yee know not to whom? come take him away, 'tis in vaine to talke— but stay a little. Ile see what creature 'tis. </p>
           </sp>
@@ -4360,7 +4345,7 @@
             <speaker>Val. </speaker>
             <p>'Tis very true sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e125260">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e125260">
             <speaker>Sir T. </speaker>
             <l>What wilt thou make me mad? </l>
             <l>Where is she, in the house? </l>
@@ -4369,7 +4354,7 @@
             <speaker>Val. </speaker>
             <p>Yes. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e125310">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e125310">
             <speaker>Sir T. </speaker>
             <l>Officer, goe fetch her hither, <stage xml:id="ep000329-e125330">Exit Officer. </stage>
             </l>
@@ -4382,7 +4367,7 @@
             <speaker>Fai. </speaker>
             <p>We heard ye sent for my cosin Valentines wife sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e125400">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e125400">
             <speaker>Sir T. </speaker>
             <p>I did so. </p>
           </sp>
@@ -4390,7 +4375,7 @@
             <speaker>Fai. </speaker>
             <p>We have brought her to you sir, here she is sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e125440">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e125440">
             <speaker>Sir T. </speaker>
             <p>Very well, in good time: what are you gentlewoman? whence are ye? ha?— speake; nay, if you will not give me an account, I must punish ye; <stage xml:id="ep000329-e125460">Sabina unpins her maske, and falls upon her knees to her Father. </stage>
             </p>
@@ -4474,7 +4459,7 @@
             <l>My soule out of this clod, </l>
             <l>It shall be his and thine. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e126080">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e126080">
             <speaker>Sir T. </speaker>
             <l>But gentlemen, me thinkes I long to heare </l>
             <l>The storie of this marriage, how it come to passe; </l>
@@ -4489,7 +4474,7 @@
             <l>Suspend but your desires till then </l>
             <l>And you shall be satisfied. </l>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e126190">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e126190">
             <speaker>Sir T. </speaker>
             <p>With all my heart, with all my heart, but sonne, I have one petition to preferre to you. </p>
           </sp>
@@ -4497,7 +4482,7 @@
             <speaker>Val. </speaker>
             <p>You may stile it a command sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e126230">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e126230">
             <speaker>Sir T. </speaker>
             <p>You must needs bestow upon me your servant Trash. </p>
           </sp>
@@ -4513,7 +4498,7 @@
             <speaker>Tr. </speaker>
             <p>Your worships humble servant sir. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e126310">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e126310">
             <speaker>Sir T. </speaker>
             <l>In all this businesse I have observed in thee </l>
             <l>Discretion— judgement— wit— and police; </l>
@@ -4526,7 +4511,7 @@
             <speaker>Tr. </speaker>
             <p>Nay sir, for an oversight in any businesse let me alone. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e126400">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e126400">
             <speaker>Sir T. </speaker>
             <l>And what is more. </l>
             <l>Dispose my house and servants as you please. </l>
@@ -4543,7 +4528,7 @@
             <speaker>Tr. </speaker>
             <p>I did ever thinke thou wudst come to some good, for thou hast beene alwayes an honest Trojan; Dee heare, if you had carried me to Bridewell, when ye were bid— where had your proferments beene then Hilts. </p>
           </sp>
-          <sp who="#ep000329-c" xml:id="ep000329-e126490">
+          <sp who="#ep000329-timothy" xml:id="ep000329-e126490">
             <speaker>Sir T. </speaker>
             <l>Mr. Fairefaith, for you, </l>
             <pb xml:id="ep000329-035-b"/>

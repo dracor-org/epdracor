@@ -80,51 +80,45 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000032-xxxx">
-            <persName>Xxxx</persName>
-          </person>
-          <person xml:id="ep000032-bonivet">
+          <person xml:id="ep000032-bonivet" sex="MALE">
             <persName>Bonivet</persName>
           </person>
-          <person xml:id="ep000032-vitelli">
+          <person xml:id="ep000032-vitelli" sex="MALE">
             <persName>Vitelli</persName>
           </person>
-          <person xml:id="ep000032-lactantio">
+          <person xml:id="ep000032-lactantio" sex="MALE">
             <persName>Lactantio</persName>
           </person>
-          <person xml:id="ep000032-frangipan">
+          <person xml:id="ep000032-frangipan" sex="MALE">
             <persName>Frangipan</persName>
           </person>
-          <person xml:id="ep000032-doria">
+          <person xml:id="ep000032-doria" sex="MALE">
             <persName>Doria</persName>
           </person>
-          <person xml:id="ep000032-adorni">
+          <person xml:id="ep000032-adorni" sex="MALE">
             <persName>Adorni</persName>
           </person>
-          <person xml:id="ep000032-trivulci">
+          <person xml:id="ep000032-trivulci" sex="MALE">
             <persName>Trivulci</persName>
           </person>
-          <person xml:id="ep000032-chrisea">
+          <person xml:id="ep000032-chrisea" sex="FEMALE">
             <persName>Chrisea</persName>
           </person>
-          <person xml:id="ep000032-corimba">
+          <person xml:id="ep000032-corimba" sex="FEMALE">
             <persName>Corimba</persName>
           </person>
-          <person xml:id="ep000032-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000032-eurione">
+          <person xml:id="ep000032-eurione" sex="FEMALE">
             <persName>Eurione</persName>
           </person>
-          <person xml:id="ep000032-sabelli">
+          <person xml:id="ep000032-sabelli" sex="MALE">
             <persName>Sabelli</persName>
           </person>
-          <person xml:id="ep000032-officer">
-            <persName>Officer</persName>
-          </person>
-          <person xml:id="ep000032-senator">
-            <persName>Senator</persName>
-          </person>
+          <personGrp xml:id="ep000032-officers" sex="MALE">
+            <name>Officers</name>
+          </personGrp>
+          <personGrp xml:id="ep000032-senators" sex="MALE">
+            <name>Senators</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -233,7 +227,7 @@
         <head>The Ladies Priviledge. </head>
         <div n="1" type="act_and_scene" xml:id="ep000032-e100670">
           <head>Act. 1. Scena. 1. </head>
-          <sp who="#ep000032-xxxx" xml:id="ep000032-e100680">
+          <sp xml:id="ep000032-e100680">
             <stage xml:id="ep000032-e100690">Enter Bonivet, Lactantio, and Vitelli. </stage>
           </sp>
           <sp who="#ep000032-bonivet" xml:id="ep000032-e100700">
@@ -495,7 +489,7 @@
             <stage xml:id="ep000032-e102720">Flour. Ex. praeter Corim. and Eurione. </stage>
             <l>Should have the early fruits of their owne peace, </l>
           </sp>
-          <sp who="#ep000032-multiple" xml:id="ep000032-e102740">
+          <sp who="#ep000032-eurione #ep000032-corimba" xml:id="ep000032-e102740">
             <speaker>Euri. and Corimba. </speaker>
             <l>Have you imploy'd a serious diligence yet </l>
             <l>In giving Lord Vitelli secret notice </l>
@@ -908,7 +902,7 @@
         </div>
         <div n="2" type="act" xml:id="ep000032-e105890">
           <head>Actus Secundus. </head>
-          <sp who="#ep000032-xxxx" xml:id="ep000032-e105900">
+          <sp xml:id="ep000032-e105900">
             <stage xml:id="ep000032-e105910">Enter Bonivet, Lactantio, and Adorni. </stage>
           </sp>
           <sp who="#ep000032-bonivet" xml:id="ep000032-e105920">
@@ -1674,7 +1668,7 @@
         </div>
         <div n="3" type="act" xml:id="ep000032-e111710">
           <head>Actus Tertius. </head>
-          <sp who="#ep000032-xxxx" xml:id="ep000032-e111720">
+          <sp xml:id="ep000032-e111720">
             <stage xml:id="ep000032-e111730">Enter Chrisea, and Corimba. </stage>
           </sp>
           <sp who="#ep000032-chrisea" xml:id="ep000032-e111740">
@@ -2344,7 +2338,7 @@
         </div>
         <div n="4" type="act" xml:id="ep000032-e116880">
           <head>Actus Quartus. </head>
-          <sp who="#ep000032-xxxx" xml:id="ep000032-e116890">
+          <sp xml:id="ep000032-e116890">
             <stage xml:id="ep000032-e116900">Enter Chrisa, Enrione, Vitelli. </stage>
           </sp>
           <sp who="#ep000032-chrisea" xml:id="ep000032-e116910">
@@ -2495,7 +2489,7 @@
             <l>The Duke approaching, let your soule expect </l>
             <l>An equall hearing. </l>
           </sp>
-          <sp who="#ep000032-officer" xml:id="ep000032-e118100">
+          <sp who="#ep000032-officers" xml:id="ep000032-e118100">
             <speaker>Offic. </speaker>
             <l>Beare backe, roome for the Duke and Senate, what </l>
             <l>Cuckold's that would have his Coxcombe broake? beare backe there. </l>
@@ -2504,7 +2498,7 @@
             <speaker>Triv. </speaker>
             <l>Cite in the prisoner. </l>
           </sp>
-          <sp who="#ep000032-officer" xml:id="ep000032-e118150">
+          <sp who="#ep000032-officers" xml:id="ep000032-e118150">
             <speaker>Offic. </speaker>
             <l>Hee's here my Lord. </l>
           </sp>
@@ -2524,7 +2518,7 @@
             <l>Which michiefes giant-off-springs, raysing warre, </l>
             <l>Cut in the bosome of the common-wealth. </l>
           </sp>
-          <sp who="#ep000032-senator" xml:id="ep000032-e118310">
+          <sp who="#ep000032-senators" xml:id="ep000032-e118310">
             <speaker>Sen. </speaker>
             <l>We all confesse his worth. </l>
           </sp>
@@ -2549,7 +2543,7 @@
             <l>By their example fearelesse, will runne on </l>
             <l>Into licencious wickednesse. </l>
           </sp>
-          <sp who="#ep000032-senator" xml:id="ep000032-e118510">
+          <sp who="#ep000032-senators" xml:id="ep000032-e118510">
             <speaker>Sen. </speaker>
             <l>Your grace delivers </l>
             <l>The intension of the state, no oracle </l>
@@ -2574,7 +2568,7 @@
             <l>The person is that acts them, so farre sharper </l>
             <l>Should be the penalty inflicted on him. </l>
           </sp>
-          <sp who="#ep000032-senator" xml:id="ep000032-e118720">
+          <sp who="#ep000032-senators" xml:id="ep000032-e118720">
             <speaker>Sen. </speaker>
             <l>And when the law </l>
             <l>Vses its utmost rigor, tis the crime, </l>
@@ -2650,7 +2644,7 @@
             <l>Even to posterity, and does revive </l>
             <l>After t'has sufferd martyrdome. </l>
           </sp>
-          <sp who="#ep000032-senator" xml:id="ep000032-e119320">
+          <sp who="#ep000032-senators" xml:id="ep000032-e119320">
             <speaker>Sen. </speaker>
             <l>Yet this </l>
             <l>Cannot excuse your fact, for civill reason </l>
@@ -2791,7 +2785,7 @@
             <speaker>Fra. </speaker>
             <p>She's not asham'd to shew her face, marry her Uncle, that I may call you so. </p>
           </sp>
-          <sp who="#ep000032-senator" xml:id="ep000032-e120450">
+          <sp who="#ep000032-senators" xml:id="ep000032-e120450">
             <speaker>Sen. </speaker>
             <p>To wed this figure, is a farre greater punishment then Death. </p>
           </sp>
@@ -3010,7 +3004,7 @@
         <div n="5" type="act" xml:id="ep000032-e122150">
           <pb xml:id="ep000032-029-b"/>
           <head>Actus Quintus. </head>
-          <sp who="#ep000032-xxxx" xml:id="ep000032-e122160">
+          <sp xml:id="ep000032-e122160">
             <stage xml:id="ep000032-e122170">Enter Trivulci, Doria, Sabelli, Adorni, Priest and Uirgins. </stage>
           </sp>
           <sp who="#ep000032-trivulci" xml:id="ep000032-e122180">
@@ -3055,7 +3049,7 @@
             <l>And all your Virgin Trophies bring away, </l>
             <l>To grace these Nuptialls, Triumphs Holyday. </l>
           </lg>
-          <sp who="#ep000032-xxxx" xml:id="ep000032-e122530">
+          <sp xml:id="ep000032-e122530">
             <stage xml:id="ep000032-e122540">A Dance. </stage>
           </sp>
           <sp who="#ep000032-trivulci" xml:id="ep000032-e122550">

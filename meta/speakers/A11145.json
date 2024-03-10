@@ -1,15 +1,9 @@
 {
   "particDesc": [
     {
-      "name": "Signor No",
-      "id": "signor-no",
-      "isGroup": false,
-      "sex": "MALE"
-    },
-	{
-      "name": "Lords",
-      "id": "lords",
-      "isGroup": false,
+      "id": "guards",
+      "name": "Guards",
+      "isGroup": true,
       "sex": "MALE"
     },
     {
@@ -40,7 +34,7 @@
       "id": "medina",
       "name": "Medina",
       "isGroup": false,
-      "sex": "MALE"
+      "sex": "FEMALE"
     },
     {
       "id": "baltazar",
@@ -119,6 +113,12 @@
       "name": "Valasco",
       "isGroup": false,
       "sex": "MALE"
+    },
+    {
+      "id": "no",
+      "name": "No",
+      "isGroup": false,
+      "sex": "MALE"
     }
   ],
   "speeches": {
@@ -167,6 +167,20 @@
     "A11145-e100940": [
       "king"
     ],
+    "A11145-e101130": [],
+    "A11145-e101150": [],
+    "A11145-e101170": [],
+    "A11145-e101190": [],
+    "A11145-e101210": [],
+    "A11145-e101230": [],
+    "A11145-e101250": [],
+    "A11145-e101270": [],
+    "A11145-e101290": [],
+    "A11145-e101310": [],
+    "A11145-e101330": [],
+    "A11145-e101350": [],
+    "A11145-e101390": [],
+    "A11145-e101410": [],
     "A11145-e101450": [
       "cornego"
     ],
@@ -534,10 +548,10 @@
       "king"
     ],
     "A11145-e105850": [
-      "baltazar",
-	  "alanzo",
-	  "cockadillio",
-	  "carlo"
+      "alanzo",
+      "carlo",
+      "cockadillio",
+      "baltazar"
     ],
     "A11145-e105870": [
       "king"
@@ -615,7 +629,7 @@
       "king"
     ],
     "A11145-e106460": [
-      "lords"
+      "guards"
     ],
     "A11145-e106480": [
       "king"
@@ -646,9 +660,9 @@
     ],
     "A11145-e106900": [
       "roderigo",
-	  "alba",
-	  "valasco",
-	  "daenia"
+      "alba",
+      "daenia",
+      "valasco"
     ],
     "A11145-e106920": [
       "daenia"
@@ -1055,12 +1069,8 @@
     "A11145-e111930": [
       "sebastian"
     ],
-    "A11145-e111950": [
-	  "medina"
-	],
-    "A11145-e111970": [
-	  "sebastian"
-	],
+    "A11145-e111950": [],
+    "A11145-e111970": [],
     "A11145-e111990": [
       "medina"
     ],
@@ -1092,12 +1102,12 @@
       "onaelia"
     ],
     "A11145-e112360": [
+      "medina", 
       "alanzo",
-	  "carlo",
-	  "alba",
-	  "medina",
-	  "daenia",
-	  "cornego"
+      "carlo",
+      "alba",
+      "sebastian",
+      "daenia"
     ],
     "A11145-e112380": [
       "sebastian"
@@ -1147,9 +1157,7 @@
     "A11145-e112860": [
       "roderigo"
     ],
-    "A11145-e112890": [
-	  "valasco"
-	],
+    "A11145-e112890": [],
     "A11145-e112930": [
       "king"
     ],
@@ -1171,9 +1179,7 @@
     "A11145-e113130": [
       "baltazar"
     ],
-    "A11145-e113150": [
-	  "valasco"
-	],
+    "A11145-e113150": [],
     "A11145-e113170": [
       "king"
     ],
@@ -1431,8 +1437,9 @@
     ],
     "A11145-e115710": [
       "medina",
-	  "alba",
-	  "daenia"
+      "alba",
+      "carlo",
+      "daenia"
     ],
     "A11145-e115730": [
       "baltazar"
@@ -1492,9 +1499,10 @@
       "medina"
     ],
     "A11145-e116610": [
+      "medina",
       "alba",
-	  "daenia",
-	  "baltazar"
+      "carlo",
+      "daenia"
     ],
     "A11145-e116630": [
       "medina"
@@ -2061,7 +2069,7 @@
       "medina"
     ],
     "A11145-e122570": [
-      "signor-no"
+      "no"
     ],
     "A11145-e122590": [
       "baltazar"
@@ -2073,13 +2081,13 @@
       "carlo"
     ],
     "A11145-e122670": [
-      "signor-no"
+      "no"
     ],
     "A11145-e122690": [
       "baltazar"
     ],
     "A11145-e122710": [
-      "signor-no"
+      "no"
     ],
     "A11145-e122730": [
       "baltazar"
@@ -2088,10 +2096,9 @@
       "medina"
     ],
     "A11145-e122790": [
-      "daenia",
       "alba",
-	  "carlo",
-	  "baltazar"
+      "carlo",
+      "daenia"
     ],
     "A11145-e122810": [
       "baltazar"
@@ -2181,7 +2188,7 @@
       "king"
     ],
     "A11145-e124070": [
-      "signor-no"
+      "no"
     ],
     "A11145-e124090": [
       "king"
@@ -2190,7 +2197,7 @@
       "baltazar"
     ],
     "A11145-e124130": [
-      "signor-no"
+      "no"
     ],
     "A11145-e124150": [
       "baltazar"
@@ -2268,16 +2275,10 @@
       "king"
     ],
     "A11145-e124810": [
-      "lopez",
-	  "valasco",
-	  "roderigo",
-	  "medina",
-	  "cockadillio",
-	  "alba",
-	  "carlo",
-	  "daenia",
-	  "cornego",
-	  "baltazar"
+      "medina",
+      "alba",
+      "carlo",
+      "daenia"
     ],
     "A11145-e124840": [
       "malateste"
@@ -2373,18 +2374,11 @@
       "king"
     ],
     "A11145-e125790": [
-      "lopez",
-	  "valasco",
-	  "roderigo",
-	  "medina",
-	  "cockadillio",
-	  "alba",
-	  "carlo",
-	  "daenia",
-	  "cornego",
-	  "baltazar",
-	  "cardinal",
-	  "queen"
+      "medina",
+      "alba",
+      "carlo",
+      "daenia",
+      "baltazar"
     ],
     "A11145-e125810": [
       "onaelia"

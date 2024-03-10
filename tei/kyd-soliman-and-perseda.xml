@@ -91,94 +91,88 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000285-love">
+          <person xml:id="ep000285-messenger" sex="MALE">
+            <persName>Messenger</persName>
+          </person>
+          <person xml:id="ep000285-witness-2" sex="MALE">
+            <persName>Witness 2</persName>
+          </person>
+          <person xml:id="ep000285-witness-1" sex="MALE">
+            <persName>Witness 1</persName>
+          </person>
+          <person xml:id="ep000285-love" sex="UNKNOWN">
             <persName>Love</persName>
           </person>
-          <person xml:id="ep000285-fortune">
+          <person xml:id="ep000285-fortune" sex="UNKNOWN">
             <persName>Fortune</persName>
           </person>
-          <person xml:id="ep000285-death">
+          <person xml:id="ep000285-death" sex="UNKNOWN">
             <persName>Death</persName>
           </person>
-          <person xml:id="ep000285-erastus">
+          <person xml:id="ep000285-erastus" sex="MALE">
             <persName>Erastus</persName>
           </person>
-          <person xml:id="ep000285-perseda">
+          <person xml:id="ep000285-perseda" sex="FEMALE">
             <persName>Perseda</persName>
           </person>
-          <person xml:id="ep000285-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000285-piston">
+          <person xml:id="ep000285-piston" sex="MALE">
             <persName>Piston</persName>
           </person>
-          <person xml:id="ep000285-philippo">
+          <person xml:id="ep000285-philippo" sex="MALE">
             <persName>Philippo</persName>
           </person>
-          <person xml:id="ep000285-cyprus">
+          <person xml:id="ep000285-cyprus" sex="MALE">
             <persName>Cyprus</persName>
           </person>
-          <person xml:id="ep000285-englishman">
+          <person xml:id="ep000285-englishman" sex="MALE">
             <persName>Englishman</persName>
           </person>
-          <person xml:id="ep000285-spaniard">
+          <person xml:id="ep000285-spaniard" sex="MALE">
             <persName>Spaniard</persName>
           </person>
-          <person xml:id="ep000285-brusort">
-            <persName>Brusort</persName>
-          </person>
-          <person xml:id="ep000285-basilisco">
+          <person xml:id="ep000285-basilisco" sex="MALE">
             <persName>Basilisco</persName>
           </person>
-          <person xml:id="ep000285-frenchman">
+          <person xml:id="ep000285-frenchman" sex="MALE">
             <persName>Frenchman</persName>
           </person>
-          <person xml:id="ep000285-turk">
+          <person xml:id="ep000285-turk" sex="MALE">
             <persName>Turk</persName>
           </person>
-          <person xml:id="ep000285-lucina">
+          <person xml:id="ep000285-lucina" sex="FEMALE">
             <persName>Lucina</persName>
           </person>
-          <person xml:id="ep000285-ferdinand">
-            <persName>Ferdinand</persName>
-          </person>
-          <person xml:id="ep000285-cryer">
+          <person xml:id="ep000285-cryer" sex="MALE">
             <persName>Cryer</persName>
           </person>
-          <person xml:id="ep000285-soliman">
+          <person xml:id="ep000285-soliman" sex="MALE">
             <persName>Soliman</persName>
           </person>
-          <person xml:id="ep000285-amurath">
+          <person xml:id="ep000285-amurath" sex="MALE">
             <persName>Amurath</persName>
           </person>
-          <person xml:id="ep000285-haleb">
+          <person xml:id="ep000285-haleb" sex="MALE">
             <persName>Haleb</persName>
           </person>
-          <person xml:id="ep000285-ferdinando">
+          <person xml:id="ep000285-ferdinando" sex="MALE">
             <persName>Ferdinando</persName>
           </person>
-          <person xml:id="ep000285-guelpio">
+          <person xml:id="ep000285-guelpio" sex="MALE">
             <persName>Guelpio</persName>
           </person>
-          <person xml:id="ep000285-julio">
+          <person xml:id="ep000285-julio" sex="MALE">
             <persName>Julio</persName>
           </person>
-          <person xml:id="ep000285-brusor">
+          <person xml:id="ep000285-brusor" sex="MALE">
             <persName>Brusor</persName>
           </person>
-          <person xml:id="ep000285-marshal">
+          <person xml:id="ep000285-marshal" sex="MALE">
             <persName>Marshal</persName>
           </person>
-          <person xml:id="ep000285-witness">
-            <persName>Witness</persName>
-          </person>
-          <person xml:id="ep000285-1">
-            <persName>1</persName>
-          </person>
-          <person xml:id="ep000285-2">
-            <persName>2</persName>
-          </person>
-          <person xml:id="ep000285-captain">
+          <personGrp xml:id="ep000285-witnesses" sex="MALE">
+            <name>Witnesses</name>
+          </personGrp>
+          <person xml:id="ep000285-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
         </listPerson>
@@ -401,7 +395,7 @@
             <l>I know your message, hath the Princesse sent for me? </l>
           </sp>
           <pb xml:id="ep000285-005-b"/>
-          <sp who="#ep000285-unassigned" xml:id="ep000285-e101580">
+          <sp who="#ep000285-messenger" xml:id="ep000285-e101580">
             <speaker>Messen. </speaker>
             <l>She hath, and desires you to consort her to the triumphes. </l>
           </sp>
@@ -480,7 +474,7 @@
             <l>Vpon the incounter of thine enemy, </l>
             <l>What is thy mot renowned Knight of Fraunce. </l>
           </sp>
-          <sp who="#ep000285-unassigned" xml:id="ep000285-e102160">
+          <sp who="#ep000285-frenchman" xml:id="ep000285-e102160">
             <speaker>French-man. </speaker>
             <l>In Italie I put my knighthoode on, </l>
             <l>Where in my shirt but with my single Rapier, </l>
@@ -514,7 +508,7 @@
             <l>Vpon the first braue of thine enemy, </l>
             <l>What is thy noted word of charge, braue Turke? </l>
           </sp>
-          <sp who="#ep000285-brusort" xml:id="ep000285-e102420">
+          <sp who="#ep000285-brusor" xml:id="ep000285-e102420">
             <speaker>Bruser. </speaker>
             <l>Against the Sophy in three pitched fields, </l>
             <l>Vnder the conduct of great Soliman, </l>
@@ -968,7 +962,7 @@
             <l>There spend we the remainder of the day, </l>
             <stage xml:id="ep000285-e105460">Exeunt. Manet Ferdinando. </stage>
           </sp>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e105470">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e105470">
             <speaker>Ferdi. </speaker>
             <l>Though ouerborne, and foyled in my course, </l>
             <l>Yet haue I partners in mine infamie. </l>
@@ -1452,7 +1446,7 @@
             <pb xml:id="ep000285-013-b"/>
             <l>Ferdinando is Lucinaes onely ioy. </l>
           </sp>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e108950">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e108950">
             <speaker>Ferdi. </speaker>
             <l>What pledge thereof? </l>
           </sp>
@@ -1460,7 +1454,7 @@
             <speaker>Luci. </speaker>
             <l>An oath, a hand, a kisse. </l>
           </sp>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e108990">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e108990">
             <speaker>Ferdi. </speaker>
             <l>O holy oath, faire hand, and sugred kisse: </l>
             <l>Oh neuer may Fernando lack such blisse, </l>
@@ -1478,7 +1472,7 @@
             <l>Full fraught with loue, and burning with desire, </l>
             <l>I long haue longd for light of Hymens lights. </l>
           </sp>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e109130">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e109130">
             <speaker>Ferdi. </speaker>
             <l>Then that same day, whose warme &amp; pleasant sight, </l>
             <l>Brings in the spring, with many gladsome flowers, </l>
@@ -1503,7 +1497,7 @@
             <l>Except Persedas beautious excelence, </l>
             <l>Shame to loues Queene, and Empresse of my thoughts. </l>
           </sp>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e109320">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e109320">
             <speaker>Ferdi. </speaker>
             <l>Marry thrise happy is Persedas chance, </l>
             <l>To haue so braue a champion to hir Squire. </l>
@@ -1513,7 +1507,7 @@
             <l>Hir Squire: her Knight, and who so else denies, </l>
             <l>Shall feele the rigour of my Sword and Launce. </l>
           </sp>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e109380">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e109380">
             <speaker>Ferdi. </speaker>
             <l>O Sir, not I. </l>
           </sp>
@@ -1913,7 +1907,7 @@
             <l>Yes sir, a garded sute from top to toe. </l>
           </sp>
           <stage xml:id="ep000285-e112170">Enter Ferdinando. </stage>
-          <sp who="#ep000285-ferdinand" xml:id="ep000285-e112180">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e112180">
             <speaker>Ferdi. </speaker>
             <l>Dasell mine eyes, or ist Lucinas chaine, </l>
             <pb xml:id="ep000285-017-a"/>
@@ -1923,7 +1917,7 @@
             <speaker>Erast. </speaker>
             <l>He lewdly lyes that cals me treacherous. </l>
           </sp>
-          <sp who="#ep000285-unassigned" xml:id="ep000285-e112230">
+          <sp who="#ep000285-ferdinando" xml:id="ep000285-e112230">
             <speaker>Fern. </speaker>
             <l>That lye my weapon shall put downe thy throate: </l>
           </sp>
@@ -3734,7 +3728,7 @@
             <l>Why sirs, why face to face expresse you not, </l>
             <l>The treasons you reueald to Soliman? </l>
           </sp>
-          <sp who="#ep000285-witness" xml:id="ep000285-e124820">
+          <sp who="#ep000285-witnesses" xml:id="ep000285-e124820">
             <speaker>Witnesses. </speaker>
             <l>That very day Erastus went from hence, </l>
             <l>He sent for me into his Cabinet, </l>
@@ -3744,7 +3738,7 @@
             <speaker>Eras. </speaker>
             <l>I neuer saw them I vntill this day. </l>
           </sp>
-          <sp who="#ep000285-witness" xml:id="ep000285-e124880">
+          <sp who="#ep000285-witnesses" xml:id="ep000285-e124880">
             <speaker>Witnesse. </speaker>
             <l>His Cabine dore fast shut, he first began </l>
             <l>To question vs of all sorts of fire-workes, </l>
@@ -3764,7 +3758,7 @@
             <speaker>Pist. </speaker>
             <l>What haue we heer, my maister before the marshall? </l>
           </sp>
-          <sp who="#ep000285-witness" xml:id="ep000285-e125010">
+          <sp who="#ep000285-witnesses" xml:id="ep000285-e125010">
             <speaker>Witn. </speaker>
             <l>We said not I, nor durst we say him nay, </l>
             <l>Bicause we were already in his gallyes, </l>
@@ -3797,11 +3791,11 @@
             <l>That all is true that heere you haue declard. </l>
             <l>Both lay your hands vpon the Alcaron. </l>
           </sp>
-          <sp who="#ep000285-1" xml:id="ep000285-e125280">
+          <sp who="#ep000285-witness-1" xml:id="ep000285-e125280">
             <speaker>1. Wit. </speaker>
             <l>Foule death betide me if I sweare not true, </l>
           </sp>
-          <sp who="#ep000285-2" xml:id="ep000285-e125300">
+          <sp who="#ep000285-witness-2" xml:id="ep000285-e125300">
             <speaker>2. Wit. </speaker>
             <l>And mischiefe light on me, if I sweare false. </l>
           </sp>
@@ -3888,11 +3882,11 @@
             <l>And throw them headlong downe into the valley, </l>
             <l>So let their treasons with their liues haue end. </l>
           </sp>
-          <sp who="#ep000285-1" xml:id="ep000285-e125910">
+          <sp who="#ep000285-witness-1" xml:id="ep000285-e125910">
             <speaker>1. Witn. </speaker>
             <l>Your selfe procured vs. </l>
           </sp>
-          <sp who="#ep000285-2" xml:id="ep000285-e125930">
+          <sp who="#ep000285-witness-2" xml:id="ep000285-e125930">
             <speaker>2. Witn. </speaker>
             <l>Is this our hier? </l>
             <stage xml:id="ep000285-e125950">Then the marshall beares them to the tower top. </stage>

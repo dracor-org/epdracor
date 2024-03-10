@@ -94,62 +94,44 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000299-merrygreek">
-            <persName>Merrygreek</persName>
-          </person>
-          <person xml:id="ep000299-royster">
+          <person xml:id="ep000299-royster" sex="MALE">
             <persName>Royster</persName>
           </person>
-          <person xml:id="ep000299-mumblecrust">
+          <person xml:id="ep000299-merrygreek" sex="MALE">
+            <persName>Merrygreek</persName>
+          </person>
+          <person xml:id="ep000299-mumblecrust" sex="FEMALE">
             <persName>Mumblecrust</persName>
           </person>
-          <person xml:id="ep000299-tib">
-            <persName>Tib</persName>
+          <person xml:id="ep000299-tib" sex="FEMALE">
+            <persName>Tib Talk</persName>
           </person>
-          <person xml:id="ep000299-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000299-alyface">
+          <person xml:id="ep000299-alyface" sex="FEMALE">
             <persName>Alyface</persName>
           </person>
-          <person xml:id="ep000299-dough">
+          <person xml:id="ep000299-dough" sex="MALE">
             <persName>Dough</persName>
           </person>
-          <person xml:id="ep000299-harpax">
+          <person xml:id="ep000299-harpax" sex="MALE">
             <persName>Harpax</persName>
           </person>
-          <person xml:id="ep000299-custance">
+          <person xml:id="ep000299-custance" sex="FEMALE">
             <persName>Custance</persName>
           </person>
-          <person xml:id="ep000299-trupenny">
+          <person xml:id="ep000299-trupenny" sex="MALE">
             <persName>Trupenny</persName>
           </person>
-          <person xml:id="ep000299-scrivener">
+          <person xml:id="ep000299-scrivener" sex="MALE">
             <persName>Scrivener</persName>
           </person>
-          <person xml:id="ep000299-suresby">
+          <person xml:id="ep000299-suresby" sex="MALE">
             <persName>Suresby</persName>
           </person>
-          <person xml:id="ep000299-truepenny">
-            <persName>Truepenny</persName>
-          </person>
-          <person xml:id="ep000299-trusty">
+          <person xml:id="ep000299-trusty" sex="MALE">
             <persName>Trusty</persName>
           </person>
-          <person xml:id="ep000299-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000299-tristram">
-            <persName>Tristram</persName>
-          </person>
-          <person xml:id="ep000299-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000299-goodluck">
+          <person xml:id="ep000299-goodluck" sex="MALE">
             <persName>Goodluck</persName>
-          </person>
-          <person xml:id="ep000299-omnes">
-            <persName>Omnes</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -166,8 +148,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000299"
-                    passive="http://www.wikidata.org/entity/Q7288034"/>
+                   active="https://dracor.org/entity/ep000299"
+                   passive="http://www.wikidata.org/entity/Q7288034"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -213,7 +195,7 @@
         <div n="1" type="scene" xml:id="ep000299-e100350">
           <head>Actus. j. Scaena. j. </head>
           <stage xml:id="ep000299-e100360">Mathewe Merygreeke. He entreth singing. </stage>
-          <sp who="#ep000299-merrygreek" xml:id="ep000299-e100370">
+          <sp xml:id="ep000299-e100370">
             <l>AS long lyueth the mery man (they say) </l>
             <l>As doth the sory man, and longer by a day. </l>
             <l>Yet the Grassehopper for all his Sommer pipyng, </l>
@@ -844,7 +826,7 @@
             <speaker>Tib Talk. </speaker>
             <l>Whiche will slide downe the lane without any bones. </l>
           </sp>
-          <sp who="#ep000299-unassigned" xml:id="ep000299-e104370">
+          <sp who="#ep000299-tib" xml:id="ep000299-e104370">
             <speaker>Cantet. </speaker>
             <l>Olde browne bread crustes must haue much good mumblyng, </l>
             <l>But good ale downe your throte hath good easie tumbling. </l>
@@ -1705,7 +1687,8 @@
             <l>A lousy haire from your masterships beard. </l>
             <l>And sir for Nurses sake pardon this one offence. </l>
           </sp>
-          <sp who="#ep000299-unassigned" xml:id="ep000299-e109100">
+          <sp who="#ep000299-merrygreek #ep000299-dough #ep000299-harpax #ep000299-royster #ep000299-mumblecrust"
+                   xml:id="ep000299-e109100">
             <speaker>Oes 〈◊〉 </speaker>
             <l>We shall not after this shew the like negligence. </l>
           </sp>
@@ -4477,7 +4460,7 @@
             <speaker>C. Custance. </speaker>
             <l>I can thée thanke Trupenie, thou hast done right wele. </l>
           </sp>
-          <sp who="#ep000299-truepenny" xml:id="ep000299-e125890">
+          <sp xml:id="ep000299-e125890">
             <speaker>Trupeny. </speaker>
             <l>Maistresse since I went no grasse hath growne on my hele, </l>
             <l>But maister Tristram Trustie here maketh no spéede. </l>
@@ -4501,7 +4484,7 @@
             <l>Trupenie get thée in, thou shalt among them knowe, </l>
             <l>How to vse thy selfe, like a propre man I trowe. </l>
           </sp>
-          <sp who="#ep000299-truepenny" xml:id="ep000299-e126030">
+          <sp xml:id="ep000299-e126030">
             <speaker>Trupeny. </speaker>
             <l>I go. </l>
           </sp>
@@ -4656,7 +4639,7 @@
             <l>Will ye haue this man, woman? or else will ye not? </l>
             <l>Else will be come neuer bore so brymme nor tost so hot. </l>
           </sp>
-          <sp who="#ep000299-multiple" xml:id="ep000299-e126920">
+          <sp who="#ep000299-trusty #ep000299-custance" xml:id="ep000299-e126920">
             <speaker>Tris. &amp; Cu. </speaker>
             <l>But why ioyn ye with him. </l>
           </sp>
@@ -4672,7 +4655,7 @@
             <speaker>M. Mery. </speaker>
             <l>The more fond of you both hardly the mater gesse. </l>
           </sp>
-          <sp who="#ep000299-tristram" xml:id="ep000299-e127000">
+          <sp who="#ep000299-trusty" xml:id="ep000299-e127000">
             <speaker>Tristram. </speaker>
             <l>Lo how say ye dame? </l>
           </sp>
@@ -5514,7 +5497,8 @@
             <speaker>C. Custance. </speaker>
             <l>Well nowe goe ye in, and make your selfe some good chéere. </l>
           </sp>
-          <sp who="#ep000299-all" xml:id="ep000299-e131630">
+          <sp who="#ep000299-tib #ep000299-custance #ep000299-royster #ep000299-merrygreek"
+                   xml:id="ep000299-e131630">
             <speaker>Omnes pariter. </speaker>
             <l>We goe. </l>
           </sp>
@@ -5704,7 +5688,7 @@
             <speaker>Ga. Good. </speaker>
             <l>ANd was it none other than ye to me reporte? </l>
           </sp>
-          <sp who="#ep000299-tristram" xml:id="ep000299-e132870">
+          <sp who="#ep000299-trusty" xml:id="ep000299-e132870">
             <speaker>Tristram. </speaker>
             <l>No, and here were ye wished to haue seene the sporte. </l>
           </sp>
@@ -5961,7 +5945,8 @@
             <speaker>R. R. </speaker>
             <l>Sirs, I gréete you all well. </l>
           </sp>
-          <sp who="#ep000299-omnes" xml:id="ep000299-e134320">
+          <sp who="#ep000299-merrygreek #ep000299-custance #ep000299-goodluck #ep000299-trusty #ep000299-dough #ep000299-harpax"
+                   xml:id="ep000299-e134320">
             <speaker>Omnes. </speaker>
             <l>Your maistership is welcom. </l>
           </sp>
@@ -6101,7 +6086,8 @@
             <l>Hir highnesse most worthy counsellers God prosper, </l>
             <l>With honour and loue of all men to minister. </l>
           </sp>
-          <sp who="#ep000299-omnes" xml:id="ep000299-e135080">
+          <sp who="#ep000299-merrygreek #ep000299-custance #ep000299-goodluck #ep000299-trusty #ep000299-dough #ep000299-harpax"
+                   xml:id="ep000299-e135080">
             <speaker>Omnes. </speaker>
             <l>God graunt the nobilitie hir to serue and loue, </l>
             <l>With all the whole commontie as doth them behoue. </l>

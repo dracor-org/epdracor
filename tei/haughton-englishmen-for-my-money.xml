@@ -95,73 +95,67 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000051-pisaro">
+          <person xml:id="ep000051-marchant" sex="MALE">
+            <persName>Marchant</persName>
+          </person>
+          <person xml:id="ep000051-pisaro" sex="MALE">
             <persName>Pisaro</persName>
           </person>
-          <person xml:id="ep000051-laurentia">
+          <person xml:id="ep000051-laurentia" sex="FEMALE">
             <persName>Laurentia</persName>
           </person>
-          <person xml:id="ep000051-anthony">
+          <person xml:id="ep000051-anthony" sex="MALE">
             <persName>Anthony</persName>
           </person>
-          <person xml:id="ep000051-marina">
+          <person xml:id="ep000051-marina" sex="FEMALE">
             <persName>Marina</persName>
           </person>
-          <person xml:id="ep000051-mathea">
+          <person xml:id="ep000051-mathea" sex="FEMALE">
             <persName>Mathea</persName>
           </person>
-          <person xml:id="ep000051-frisco">
+          <person xml:id="ep000051-frisco" sex="MALE">
             <persName>Frisco</persName>
           </person>
-          <person xml:id="ep000051-heigham">
+          <person xml:id="ep000051-heigham" sex="MALE">
             <persName>Heigham</persName>
           </person>
-          <person xml:id="ep000051-harvey">
+          <person xml:id="ep000051-harvey" sex="MALE">
             <persName>Harvey</persName>
           </person>
-          <person xml:id="ep000051-walgrave">
+          <person xml:id="ep000051-walgrave" sex="MALE">
             <persName>Walgrave</persName>
           </person>
-          <person xml:id="ep000051-strangers">
+          <person xml:id="ep000051-strangers" sex="MALE">
             <persName>Strangers</persName>
           </person>
-          <person xml:id="ep000051-vandalle">
+          <person xml:id="ep000051-vandalle" sex="MALE">
             <persName>Vandalle</persName>
           </person>
-          <person xml:id="ep000051-delion">
+          <person xml:id="ep000051-delion" sex="MALE">
             <persName>Delion</persName>
           </person>
-          <person xml:id="ep000051-moore">
+          <person xml:id="ep000051-moore" sex="MALE">
             <persName>Moore</persName>
           </person>
-          <person xml:id="ep000051-towerson">
+          <person xml:id="ep000051-towerson" sex="MALE">
             <persName>Towerson</persName>
           </person>
-          <person xml:id="ep000051-browne">
+          <person xml:id="ep000051-browne" sex="MALE">
             <persName>Browne</persName>
           </person>
-          <person xml:id="ep000051-gentlemen">
-            <persName>Gentlemen</persName>
-          </person>
-          <person xml:id="ep000051-post">
+          <personGrp xml:id="ep000051-gentlemen" sex="MALE">
+            <name>Gentlemen</name>
+          </personGrp>
+          <person xml:id="ep000051-post" sex="MALE">
             <persName>Post</persName>
           </person>
-          <person xml:id="ep000051-balsaro">
+          <person xml:id="ep000051-balsaro" sex="MALE">
             <persName>Balsaro</persName>
           </person>
-          <person xml:id="ep000051-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000051-alvaro">
+          <person xml:id="ep000051-alvaro" sex="MALE">
             <persName>Alvaro</persName>
           </person>
-          <person xml:id="ep000051-mall">
-            <persName>Mall</persName>
-          </person>
-          <person xml:id="ep000051-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000051-bellman">
+          <person xml:id="ep000051-bellman" sex="MALE">
             <persName>Bellman</persName>
           </person>
         </listPerson>
@@ -179,8 +173,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000051"
-                    passive="http://www.wikidata.org/entity/Q5378708"/>
+                   active="https://dracor.org/entity/ep000051"
+                   passive="http://www.wikidata.org/entity/Q5378708"/>
     </listRelation>
   </standOff>
   <text>
@@ -1199,7 +1193,7 @@
           <l>The Spanish-gallies haue besette our shippes, </l>
           <l>That lately were bound out for Siria. </l>
         </sp>
-        <sp who="#ep000051-unassigned" xml:id="ep000051-e107040">
+        <sp who="#ep000051-marchant" xml:id="ep000051-e107040">
           <speaker>March. </speaker>
           <p>What not? I promise you I am sorry for it. </p>
         </sp>
@@ -2439,7 +2433,7 @@
           <l>Birlady heres short worke, harke you Girles, </l>
           <l>Will you to morrow marry with the strangers. </l>
         </sp>
-        <sp who="#ep000051-mall" xml:id="ep000051-e115130">
+        <sp who="#ep000051-marina" xml:id="ep000051-e115130">
           <speaker>Mall. </speaker>
           <l>Y fayth sir no Ile first leape out at window, </l>
           <l>Before Marina marry with a stranger, </l>
@@ -2448,7 +2442,7 @@
           <speaker>Antho. </speaker>
           <p>Yes but your father sweares, you shall haue one. </p>
         </sp>
-        <sp who="#ep000051-mall" xml:id="ep000051-e115180">
+        <sp who="#ep000051-marina" xml:id="ep000051-e115180">
           <speaker>Ma. </speaker>
           <l>Yes but his daughters, swears they shall haue none, </l>
           <pb xml:id="ep000051-022-b"/>
@@ -2463,7 +2457,8 @@
           <l>That when your fathers in his soundest sleepe, </l>
           <l>You ope the Dore and runne away with them, </l>
         </sp>
-        <sp who="#ep000051-all" xml:id="ep000051-e115280">
+        <sp who="#ep000051-marina #ep000051-laurentia #ep000051-mathea"
+                xml:id="ep000051-e115280">
           <speaker>All sisters. </speaker>
           <p>So wee will rather then misse of them. </p>
         </sp>
@@ -3102,7 +3097,7 @@
           <l>What shall wee doe with him? </l>
           <l>Why crowne him with a— </l>
         </sp>
-        <sp who="#ep000051-unassigned" xml:id="ep000051-e118880">
+        <sp who="#ep000051-marina" xml:id="ep000051-e118880">
           <speaker>Mart. </speaker>
           <p>Fie Slutt: No, wele vse him clenlier; you know we haue neuer a Signe at the dore, would not the iest proue <pb xml:id="ep000051-027-b"/>currant, to make the Dutchman supply that want. </p>
         </sp>
@@ -4002,7 +3997,8 @@
           <l>And anger him I feare, ere I haue done. </l>
         </sp>
         <stage xml:id="ep000051-e124590">Enter Anthony. </stage>
-        <sp who="#ep000051-all" xml:id="ep000051-e124600">
+        <sp who="#ep000051-marina #ep000051-mathea #ep000051-laurentia"
+                xml:id="ep000051-e124600">
           <speaker>All. </speaker>
           <l>Whom Anthony our friend, our Schoole-maister? </l>
           <l>Now helpe vs Gentle Anthony, or neuer. </l>
@@ -4074,7 +4070,8 @@
           <l>For sooner may one day the Sea lie still, </l>
           <l>Then once restraine a Woman of her will. </l>
         </sp>
-        <sp who="#ep000051-all" xml:id="ep000051-e125070">
+        <sp who="#ep000051-marina #ep000051-mathea #ep000051-laurentia"
+                xml:id="ep000051-e125070">
           <speaker>All. </speaker>
           <p>Sweete Anthony, how shall we quit thy hire? </p>
         </sp>
@@ -4635,7 +4632,7 @@
           <l>I cannot say for these; but on my life, </l>
           <l>This loues a Cusshion better then a Wife. </l>
         </sp>
-        <sp who="#ep000051-mall" xml:id="ep000051-e128950">
+        <sp who="#ep000051-marina" xml:id="ep000051-e128950">
           <speaker>Mall. </speaker>
           <l>And reason too, that Cusshion fell out right, </l>
           <l>Else hard had been his lodging all last night. </l>

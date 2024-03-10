@@ -79,82 +79,70 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000639-lactantio">
+          <person xml:id="ep000639-lactantio" sex="MALE">
             <persName>Lactantio</persName>
           </person>
-          <person xml:id="ep000639-aurelia">
+          <person xml:id="ep000639-aurelia" sex="FEMALE">
             <persName>Aurelia</persName>
           </person>
-          <person xml:id="ep000639-lord_cardinal">
+          <person xml:id="ep000639-lord-cardinal" sex="MALE">
             <persName>Lord Cardinal</persName>
           </person>
-          <person xml:id="ep000639-lord_1">
+          <person xml:id="ep000639-lord-1" sex="MALE">
             <persName>Lord 1</persName>
           </person>
-          <person xml:id="ep000639-lord_2">
+          <person xml:id="ep000639-lord-2" sex="MALE">
             <persName>Lord 2</persName>
           </person>
-          <person xml:id="ep000639-lord_3">
+          <person xml:id="ep000639-lord-3" sex="MALE">
             <persName>Lord 3</persName>
           </person>
-          <person xml:id="ep000639-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000639-servant">
+          <person xml:id="ep000639-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000639-page">
+          <person xml:id="ep000639-page" sex="MALE">
             <persName>Page</persName>
           </person>
-          <person xml:id="ep000639-father">
+          <person xml:id="ep000639-father" sex="MALE">
             <persName>Father</persName>
           </person>
-          <person xml:id="ep000639-governor">
+          <person xml:id="ep000639-governor" sex="MALE">
             <persName>Governor</persName>
           </person>
-          <person xml:id="ep000639-duchess">
+          <person xml:id="ep000639-duchess" sex="FEMALE">
             <persName>Duchess</persName>
           </person>
-          <person xml:id="ep000639-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000639-lord">
+          <person xml:id="ep000639-lord" sex="MALE">
             <persName>Lord</persName>
           </person>
-          <person xml:id="ep000639-celia">
+          <person xml:id="ep000639-celia" sex="FEMALE">
             <persName>Celia</persName>
           </person>
-          <person xml:id="ep000639-dondolo">
+          <person xml:id="ep000639-dondolo" sex="MALE">
             <persName>Dondolo</persName>
           </person>
-          <person xml:id="ep000639-andrugio">
+          <person xml:id="ep000639-andrugio" sex="MALE">
             <persName>Andrugio</persName>
           </person>
-          <person xml:id="ep000639-1_lord">
-            <persName>1 Lord</persName>
-          </person>
-          <person xml:id="ep000639-2_lord">
-            <persName>2 Lord</persName>
-          </person>
-          <person xml:id="ep000639-lords">
-            <persName>Lords</persName>
-          </person>
-          <person xml:id="ep000639-captain">
+          <personGrp xml:id="ep000639-lords" sex="MALE">
+            <name>Lords</name>
+          </personGrp>
+          <person xml:id="ep000639-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000639-multiple">
-            <persName>Multiple</persName>
+          <person xml:id="ep000639-gypsy-2" sex="MALE">
+            <persName>Gypsy 2</persName>
           </person>
-          <person xml:id="ep000639-2_gipsies">
-            <persName>2 Gipsies</persName>
-          </person>
-          <person xml:id="ep000639-crotchet">
+          <personGrp xml:id="ep000639-gypsies" sex="MALE">
+            <name>Gypsies</name>
+          </personGrp>
+          <person xml:id="ep000639-crotchet" sex="MALE">
             <persName>Crotchet</persName>
           </person>
-          <person xml:id="ep000639-sinquapace">
+          <person xml:id="ep000639-sinquapace" sex="MALE">
             <persName>Sinquapace</persName>
           </person>
-          <person xml:id="ep000639-usher">
+          <person xml:id="ep000639-usher" sex="MALE">
             <persName>Usher</persName>
           </person>
         </listPerson>
@@ -172,8 +160,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000639"
-                    passive="http://www.wikidata.org/entity/Q6910924"/>
+                   active="https://dracor.org/entity/ep000639"
+                   passive="http://www.wikidata.org/entity/Q6910924"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -409,7 +397,7 @@
           <div n="2" type="scene" xml:id="ep000639-e101620">
             <head>Scaen. 2. </head>
             <stage xml:id="ep000639-e101630">Enter L. Cardinal in his Closet, and two or three Lords. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e101640">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e101640">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>My Lords, I have work for you, when you have hours </l>
@@ -441,7 +429,7 @@
                 <l>No longer she's a Virgin, then she's just. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_1" xml:id="ep000639-e101920">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e101920">
               <speaker>1. Lord. </speaker>
               <lg>
                 <l>Chaste Sir, the Truth and Justice of her Vow </l>
@@ -462,7 +450,7 @@
               </lg>
             </sp>
             <pb n="5" xml:id="ep000639-007-b"/>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102090">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102090">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>You have put my zeal into a way, my Lord. </l>
@@ -479,11 +467,11 @@
                 <l>You Temporal Lords, and all your means can practise. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_2" xml:id="ep000639-e102230">
+            <sp who="#ep000639-lord-2" xml:id="ep000639-e102230">
               <speaker>2. Lord. </speaker>
               <p>My Lord, not any we. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102250">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102250">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Her resolute goodness </l>
@@ -491,11 +479,11 @@
                 <l>That beat against it, into the bosom of the owners, weeping. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_3" xml:id="ep000639-e102300">
+            <sp who="#ep000639-lord-3" xml:id="ep000639-e102300">
               <speaker>3. Lord. </speaker>
               <p>We with her vertues so. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102320">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102320">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>O give me pardon, </l>
@@ -510,11 +498,11 @@
                 <l>He kills my hopes of woman, that doubts her. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_1" xml:id="ep000639-e102440">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e102440">
               <speaker>1. Lord. </speaker>
               <p>No more, my Lord, 'tis fixt. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102460">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102460">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Believe my Judgment, </l>
@@ -525,11 +513,12 @@
               </lg>
             </sp>
             <pb n="4" xml:id="ep000639-008-a"/>
-            <sp who="#ep000639-all" xml:id="ep000639-e102530">
+            <sp who="#ep000639-lord-1 #ep000639-lord-2 #ep000639-lord-3"
+                      xml:id="ep000639-e102530">
               <speaker>All L. </speaker>
               <p>We are the same most firmly. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102550">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102550">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Good opinion </l>
@@ -542,7 +531,7 @@
               <speaker>Serv. </speaker>
               <p>My Lord. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102630">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102630">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Call our Nephew: There's a work too </l>
@@ -578,7 +567,7 @@
                 <l>Gaping and waiting for his Masters coming. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e102930">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e102930">
               <speaker>L. Card. </speaker>
               <p>What man in age, could bring forth graver thoughts? </p>
             </sp>
@@ -615,7 +604,7 @@
                 <l>Can there be greater thraldom, greater folly? </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e103240">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e103240">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>In making him my heir, I make good works, </l>
@@ -678,7 +667,7 @@
                 <l>To walk a turn or two. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e103620">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e103620">
               <speaker>L. Card. </speaker>
               <p>What Gentleman? </p>
             </sp>
@@ -689,7 +678,7 @@
                 <l>With L. Vincentio; so the Letter speaks him. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e103680">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e103680">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Admit him, my kinde Boy; the prettiest Servant </l>
@@ -712,7 +701,7 @@
             </sp>
             <stage xml:id="ep000639-e103830">
               <pb n="9" xml:id="ep000639-009-b"/>Enter Aurelia like a Gentleman. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e103840">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e103840">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Welcome to Milan Sir, how is the health </l>
@@ -727,7 +716,7 @@
                 <l>The same: Blest Fortune keeps it: </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e103930">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e103930">
               <speaker>L. Card. </speaker>
               <p>I hear your near him. </p>
             </sp>
@@ -742,7 +731,7 @@
                 <l>Then to be one of mine. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e104010">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e104010">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Your news is pleasing; </l>
@@ -754,7 +743,7 @@
               <speaker>Aur. </speaker>
               <p>Thanks to your Grace. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e104080">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e104080">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>I'll leave you to confer; </l>
@@ -962,7 +951,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e105560">Enter Lord Cardinal. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e105570">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e105570">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>The blessing of Perfection to your thoughts, Lady, </l>
@@ -978,7 +967,7 @@
                 <l>Welcome, as Peace to Temples. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e105660">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e105660">
               <speaker>L. Card. </speaker>
               <p>I bring War. </p>
             </sp>
@@ -986,7 +975,7 @@
               <speaker>Dutch </speaker>
               <p>How Sir? </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e105700">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e105700">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>A harder fight: If now you conquer, </l>
@@ -997,7 +986,7 @@
               <speaker>Dutch. </speaker>
               <p>What's your aym Sir? </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e105760">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e105760">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>To astonish sin, and all her tempting evils, </l>
@@ -1027,14 +1016,14 @@
                 <l>Had power to alter me </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e106000">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e106000">
               <speaker>L. Card: </speaker>
               <lg>
                 <l>No, there's my hope, </l>
                 <l>My credit, and my triumph. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-unassigned" xml:id="ep000639-e106040">
+            <sp xml:id="ep000639-e106040">
               <speaker>Dutch. </speaker>
               <lg>
                 <l>I'll no more, </l>
@@ -1046,7 +1035,7 @@
                 <l>On Earth's corruptions, and shine clear it self. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e106120">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e106120">
               <speaker>L. Card. </speaker>
               <p>Hold conquest now, and I have all my wishes. </p>
             </sp>
@@ -1055,7 +1044,7 @@
               <speaker>Dutch. </speaker>
               <p>The meaning of that sudden shout, my Lord. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e106170">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e106170">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Seignior Andrugio, General of the Field; </l>
@@ -1388,7 +1377,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e108380">Enter Lord Cardinal. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e108390">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e108390">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Increase of health, and a redoubled courage </l>
@@ -1410,7 +1399,7 @@
                 <l>You heard the last words of my dying Lord. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e108550">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e108550">
               <speaker>L. Card. </speaker>
               <p>Which I shall nev'r forget. </p>
             </sp>
@@ -1425,7 +1414,7 @@
               </lg>
             </sp>
             <pb n="22" xml:id="ep000639-016-a"/>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e108640">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e108640">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>What's your meaning? </l>
@@ -1442,7 +1431,7 @@
                 <l>Effectually from you Sir, that's my request. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e108750">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e108750">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>I wonder, yet I'll spare to question farther. </l>
@@ -1456,7 +1445,7 @@
                 <l>A blessing come along with't. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e108830">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e108830">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>You see my Lords, what all Earths glory is </l>
@@ -1494,7 +1483,7 @@
                 <l>To draw my affections to a second liking. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109140">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109140">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>'tas ever been the promise, and the spring </l>
@@ -1516,7 +1505,7 @@
               <speaker>Dutch. </speaker>
               <p>Then here I vow, never. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109310">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109310">
               <speaker>L. Card </speaker>
               <p>Why Madam? </p>
             </sp>
@@ -1524,7 +1513,7 @@
               <speaker>Dutch. </speaker>
               <p>I can go no further. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109350">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109350">
               <speaker>L. Card. </speaker>
               <p>What have you forgot your vow? </p>
             </sp>
@@ -1532,7 +1521,7 @@
               <speaker>Dutch. </speaker>
               <p>I have, too certainly. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109390">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109390">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Your vow? that cannot be; it follows now, </l>
@@ -1546,7 +1535,7 @@
                 <l>Nothing prevails but ill. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109470">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109470">
               <speaker>L. Card. </speaker>
               <p>What ail you Madam? </p>
             </sp>
@@ -1554,7 +1543,7 @@
               <speaker>Dutch. </speaker>
               <p>Sir, I'm in love. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109510">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109510">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Oh all you powers of Chastity, </l>
@@ -1572,7 +1561,7 @@
                 <l>Beyond recovery of good counsel Sir. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109620">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109620">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>What mischeif ow'd a malice to the Sex, </l>
@@ -1600,7 +1589,7 @@
                 <l>Full of desert and grace, his name Lactantio. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109840">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109840">
               <speaker>L. Card. </speaker>
               <p>How? </p>
             </sp>
@@ -1608,7 +1597,7 @@
               <speaker>Dutch. </speaker>
               <p>Your Nephew. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109880">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109880">
               <speaker>L. Card. </speaker>
               <p>My Nephew! </p>
             </sp>
@@ -1619,7 +1608,7 @@
                 <l>That could have conquer'd me, himself excepted. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e109940">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e109940">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>He that I lov'd so dearly, does he wear </l>
@@ -1637,7 +1626,7 @@
               <speaker>Dutch. </speaker>
               <p>Not if you love my health, or life, my Lord. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e110060">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e110060">
               <speaker>L. Card. </speaker>
               <p>This day he shall set forth: </p>
             </sp>
@@ -1645,7 +1634,7 @@
               <speaker>Dutch. </speaker>
               <p>Dispatch me rather. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e110100">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e110100">
               <speaker>L. Card. </speaker>
               <p>I'll send him far enough. </p>
             </sp>
@@ -1653,7 +1642,7 @@
               <speaker>Dutch. </speaker>
               <p>Send me to death first. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e110140">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e110140">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>No Basilisk that strikes dead pure affection </l>
@@ -1683,7 +1672,7 @@
           <div n="3" type="scene" xml:id="ep000639-e110340">
             <head>Scaen. 3. </head>
             <stage xml:id="ep000639-e110350">Enter L. Cardinal. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e110360">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e110360">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Let me think upon't, </l>
@@ -2305,7 +2294,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e114300">Enter Lord Cardinal. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114310">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114310">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>What ails this pretty Boy to weep so often? </l>
@@ -2326,7 +2315,7 @@
                 <l>No Master else. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114460">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114460">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Thou shalt not: Mine's a Mistress, </l>
@@ -2338,7 +2327,7 @@
               <speaker>Page. </speaker>
               <p>Nor her, nor any: </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114530">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114530">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Cease Boy, </l>
@@ -2351,7 +2340,7 @@
               <p>This rather is the way to make 'em moister. </p>
             </sp>
             <stage xml:id="ep000639-e114600">Exit Page. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114610">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114610">
               <speaker>L. Card. </speaker>
               <p>Now Nephew, Nephew. </p>
             </sp>
@@ -2363,7 +2352,7 @@
                 <l>That ever made Soul happy. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114680">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114680">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>I am afraid </l>
@@ -2380,7 +2369,7 @@
               <speaker>Lact. </speaker>
               <p>How Sir, to marriage? </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114790">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114790">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Yes, to a fruitful life; </l>
@@ -2396,7 +2385,7 @@
                 <l>When you speak this? </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e114890">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e114890">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Yes, very perfectly; </l>
@@ -2417,7 +2406,7 @@
                 <l>Name no such thing to me. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115040">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115040">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Come, come you'r fond: </l>
@@ -2438,7 +2427,7 @@
               <speaker>Lact. </speaker>
               <p>The Dutchess! </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115190">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115190">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Dotes on thee: Will die for thee, </l>
@@ -2449,7 +2438,7 @@
               <speaker>Lact. </speaker>
               <p>She must die then. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115250">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115250">
               <speaker>L. Card. </speaker>
               <p>How? </p>
             </sp>
@@ -2462,7 +2451,7 @@
                 <l>That will keep life in her. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115330">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115330">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Believe me then, </l>
@@ -2475,7 +2464,7 @@
               <speaker>Lact. </speaker>
               <p>My blood dances. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115410">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115410">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>And though that bashful Maiden vertue in thee, </l>
@@ -2504,7 +2493,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e115620">Enter Lords. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115630">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115630">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>A thing you shall not lose by. Here come the Lords, </l>
@@ -2528,7 +2517,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e115800">Exit: </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e115810">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e115810">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>You Lights of State, Truths Friends, much honored Lords, </l>
@@ -2556,7 +2545,7 @@
                 <l>When others sleep unmov'd. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e116050">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e116050">
               <speaker>1 Lord. </speaker>
               <lg>
                 <l>I speak it faithfully, </l>
@@ -2565,7 +2554,7 @@
                 <l>T'has been a grief of mine, but where's the remedy? </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e116110">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e116110">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>True, there your Lordship spake enough in little; </l>
@@ -2612,11 +2601,11 @@
                 <l>What's chaste in others, is most rare in her. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-2_lord" xml:id="ep000639-e116540">
+            <sp who="#ep000639-lord-2" xml:id="ep000639-e116540">
               <speaker>2 Lord. </speaker>
               <p>What wisdom but approves it? </p>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e116560">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e116560">
               <speaker>1 Lord. </speaker>
               <lg>
                 <l>But my Lord, </l>
@@ -2624,7 +2613,7 @@
                 <l>Pity such good things should be spoke and lost. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e116610">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e116610">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>That were the way to lose 'em utterly, </l>
@@ -2633,11 +2622,11 @@
                 <l>Was it not Lords? </l>
               </lg>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e116670">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e116670">
               <speaker>1 Lord. </speaker>
               <p>Meerly compell'd indeed. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e116690">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e116690">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Onely to please the Duke, and forced vertue </l>
@@ -2661,7 +2650,7 @@
               <speaker>Lords. </speaker>
               <p>And we'll all second you, my Lord. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e116870">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e116870">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Agreed. </l>
@@ -2669,14 +2658,14 @@
                 <l>All wit in her shall not undo in hast. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-2_lord" xml:id="ep000639-e116920">
+            <sp who="#ep000639-lord-2" xml:id="ep000639-e116920">
               <speaker>2 Lord. </speaker>
               <lg>
                 <l>Nay sure, I think all we shall be too hard for her, </l>
                 <l>Else she's a huge wilde Creature. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e116960">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e116960">
               <speaker>1 Lord. </speaker>
               <lg>
                 <l>If we win, </l>
@@ -3208,7 +3197,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e120290">Enter Dondolo. </stage>
-            <sp who="#ep000639-unassigned" xml:id="ep000639-e120300">
+            <sp xml:id="ep000639-e120300">
               <speaker>Dond. </speaker>
               <p>Oh ex'lent, by this light here's one of them. I thank my Stars: I learnt that phrase in the Half-Moon Tavern. By your leave good Gipsey, I pray how far off is your company? </p>
             </sp>
@@ -3251,7 +3240,7 @@
                 <l>Yet never want good cheer. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-all" xml:id="ep000639-e120560">
+            <sp who="#ep000639-gypsies" xml:id="ep000639-e120560">
               <speaker>All. </speaker>
               <p>We never want good cheer. </p>
             </sp>
@@ -3287,7 +3276,7 @@
                 <l>At what hour he pleases. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-all" xml:id="ep000639-e120830">
+            <sp who="#ep000639-gypsies" xml:id="ep000639-e120830">
               <speaker>All. </speaker>
               <lg>
                 <l>We laugh, we quaff, we roar, we scuffle. </l>
@@ -3306,7 +3295,7 @@
                 <l>I must do neither. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-multiple" xml:id="ep000639-e120940">
+            <sp who="#ep000639-captain" xml:id="ep000639-e120940">
               <speaker>Cap. Gips. </speaker>
               <lg>
                 <l>Ousabel, camcheteroon, puscatelion, hows-drows. </l>
@@ -3359,7 +3348,7 @@
                 <l>We have not a more true bred theif amongst us. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-all" xml:id="ep000639-e121250">
+            <sp who="#ep000639-gypsies" xml:id="ep000639-e121250">
               <speaker>All. </speaker>
               <p>Not any Captain. </p>
             </sp>
@@ -3404,7 +3393,7 @@
               <speaker>Cap. </speaker>
               <p>A pregnant Gipsey. </p>
             </sp>
-            <sp who="#ep000639-all" xml:id="ep000639-e121470">
+            <sp who="#ep000639-gypsies" xml:id="ep000639-e121470">
               <speaker>All. </speaker>
               <p>A most witty sinner. </p>
             </sp>
@@ -3476,7 +3465,7 @@
               <speaker>Dond. </speaker>
               <p>Nay here's some money: I know an Office comes not all for love; a Pox of your Lime-twigs, you hav't all already. </p>
             </sp>
-            <sp who="#ep000639-unassigned" xml:id="ep000639-e121830">
+            <sp who="#ep000639-captain" xml:id="ep000639-e121830">
               <speaker>Gap. </speaker>
               <p>It lies but here in cash for thine own use Boy. </p>
             </sp>
@@ -3566,7 +3555,7 @@
               <speaker>Cap. </speaker>
               <p>Nosario. </p>
             </sp>
-            <sp who="#ep000639-unassigned" xml:id="ep000639-e122390">
+            <sp xml:id="ep000639-e122390">
               <speaker>Dond. </speaker>
               <p>Nosario: Why what's gipsey for my Nose then? </p>
             </sp>
@@ -3587,7 +3576,7 @@
                 <l>Calavario, Fulkadelio. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-2_gipsies" xml:id="ep000639-e122500">
+            <sp who="#ep000639-gypsy-2" xml:id="ep000639-e122500">
               <speaker>2 Gip. </speaker>
               <p>La gnambrol a tumbrel. </p>
             </sp>
@@ -3746,7 +3735,7 @@
               <speaker>Dond. </speaker>
               <p>Filcheroon, pursse-fulleroon: I can say somewhat too. </p>
             </sp>
-            <sp who="#ep000639-all" xml:id="ep000639-e123430">
+            <sp who="#ep000639-gypsies" xml:id="ep000639-e123430">
               <speaker>All. </speaker>
               <p>Excellent Gipsey, witty rare Doxey: </p>
             </sp>
@@ -3779,7 +3768,7 @@
                 <l>And then drink, drink for joy: </l>
               </lg>
             </sp>
-            <sp who="#ep000639-all" xml:id="ep000639-e123610">
+            <sp who="#ep000639-gypsies" xml:id="ep000639-e123610">
               <speaker>All. </speaker>
               <p>And then drink, drink for joy. </p>
             </sp>
@@ -3788,7 +3777,7 @@
           <div n="3" type="scene" xml:id="ep000639-e123640">
             <head>Scaen 3. </head>
             <stage xml:id="ep000639-e123650">Enter Dutchess, Lord Cardinal, and other Lords, Celia. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e123660">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e123660">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>That which is meerly call'd a will in woman, </l>
@@ -3799,7 +3788,7 @@
               <speaker>Dutch. </speaker>
               <p>Oh good Sir spare me. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e123720">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e123720">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Spare your self, good Madam. </l>
@@ -3812,32 +3801,32 @@
               <speaker>Dutch. </speaker>
               <p>Sir settle your own peace, let me make mine. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e123800">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e123800">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>But here's a heart must pity it, when it thinks on't, </l>
                 <l>I finde compassion, though the smart be yours. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e123840">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e123840">
               <speaker>1 Lord. </speaker>
               <p>None here but do's the like. </p>
             </sp>
-            <sp who="#ep000639-2_lord" xml:id="ep000639-e123860">
+            <sp who="#ep000639-lord-2" xml:id="ep000639-e123860">
               <speaker>2 Lord. </speaker>
               <lg>
                 <l>Believe it Madam, </l>
                 <l>You have much wrong'd your time. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e123900">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e123900">
               <speaker>1 Lord. </speaker>
               <lg>
                 <l>Nay, let your Grace </l>
                 <l>But think upon the barrenness of succession. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-2_lord" xml:id="ep000639-e123940">
+            <sp who="#ep000639-lord-2" xml:id="ep000639-e123940">
               <speaker>2 Lord. </speaker>
               <p>Nay more, a Vow enforc'd. </p>
             </sp>
@@ -3852,7 +3841,7 @@
                 <l>Serve under his opinion? </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e124030">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e124030">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>So will all Madam, </l>
@@ -3879,7 +3868,7 @@
               <speaker>Dutch. </speaker>
               <p>Oh what have you done my Lord? </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e124250">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e124250">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Laid the way plain </l>
@@ -3896,7 +3885,7 @@
                 <l>Will curse you for this deed. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e124360">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e124360">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>You speak in pain Madam, </l>
@@ -3909,22 +3898,22 @@
               </lg>
             </sp>
             <pb n="59" xml:id="ep000639-034-b"/>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e124450">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e124450">
               <speaker>1 Lord. </speaker>
               <lg>
                 <l>In all your wishes fortunate, and I </l>
                 <l>The cheif of 'em my self. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e124490">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e124490">
               <speaker>L. Card. </speaker>
               <p>Peace be at your heart Lady. </p>
             </sp>
-            <sp who="#ep000639-1_lord" xml:id="ep000639-e124510">
+            <sp who="#ep000639-lord-1" xml:id="ep000639-e124510">
               <speaker>1 Lord. </speaker>
               <p>And love, say I. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e124530">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e124530">
               <speaker>L. Card. </speaker>
               <p>We'll leave good thoughts now, to bring in themselves. </p>
             </sp>
@@ -4857,7 +4846,7 @@
               <speaker>Page. </speaker>
               <p>And that Seignior Laurentio taught me Sir: </p>
             </sp>
-            <sp who="#ep000639-unassigned" xml:id="ep000639-e130070">
+            <sp xml:id="ep000639-e130070">
               <speaker>Sinq. </speaker>
               <lg>
                 <l>Seignior Laurentio was an arrant Cockscomb, </l>
@@ -5337,7 +5326,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000639-e133300">Enter Lord Cardinal and the Lords. </stage>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e133310">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e133310">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Nephew, prepare thy self </l>
@@ -5355,7 +5344,7 @@
                 <l>To finde out such another. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e133430">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e133430">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>'Tis high time Madam, </l>
@@ -5370,7 +5359,7 @@
                 <l>You speak things strange to me Sir. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e133520">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e133520">
               <speaker>L. Card. </speaker>
               <p>How! good Madam. </p>
             </sp>
@@ -5381,7 +5370,7 @@
                 <l>You are too religious Sir to deal in Riddles. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e133580">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e133580">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Is there a plainer way then leads to marriage, Madam, </l>
@@ -5401,7 +5390,7 @@
                 <l>Take all th'advantage on't? </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e133710">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e133710">
               <speaker>L. Card. </speaker>
               <p>Is this in earnest, Madam? </p>
             </sp>
@@ -5441,7 +5430,7 @@
                 <l>According to his merits. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e134000">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e134000">
               <speaker>L. Card. </speaker>
               <p>How's that! good Madam? </p>
             </sp>
@@ -5466,7 +5455,7 @@
               <speaker>Lact. </speaker>
               <p>I'm paid with mine own money. </p>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e134170">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e134170">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>Dare hypocrisie, </l>
@@ -5499,7 +5488,7 @@
                 <l>To make her dowry. </l>
               </lg>
             </sp>
-            <sp who="#ep000639-lord_cardinal" xml:id="ep000639-e134440">
+            <sp who="#ep000639-lord-cardinal" xml:id="ep000639-e134440">
               <speaker>L. Card. </speaker>
               <lg>
                 <l>None has the true way </l>

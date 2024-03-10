@@ -83,64 +83,55 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000164-timagoras">
+          <person xml:id="ep000164-timagoras" sex="MALE">
             <persName>Timagoras</persName>
           </person>
-          <person xml:id="ep000164-leosthenes">
+          <person xml:id="ep000164-leosthenes" sex="MALE">
             <persName>Leosthenes</persName>
           </person>
-          <person xml:id="ep000164-pisander">
+          <person xml:id="ep000164-pisander" sex="MALE">
             <persName>Pisander</persName>
           </person>
-          <person xml:id="ep000164-corisca">
+          <person xml:id="ep000164-corisca" sex="FEMALE">
             <persName>Corisca</persName>
           </person>
-          <person xml:id="ep000164-cleon">
+          <person xml:id="ep000164-cleon" sex="MALE">
             <persName>Cleon</persName>
           </person>
-          <person xml:id="ep000164-gracculo">
+          <person xml:id="ep000164-gracculo" sex="MALE">
             <persName>Gracculo</persName>
           </person>
-          <person xml:id="ep000164-archidamus">
+          <person xml:id="ep000164-archidamus" sex="MALE">
             <persName>Archidamus</persName>
           </person>
-          <person xml:id="ep000164-diphilus">
+          <person xml:id="ep000164-diphilus" sex="MALE">
             <persName>Diphilus</persName>
           </person>
-          <person xml:id="ep000164-olympia">
+          <person xml:id="ep000164-olympia" sex="FEMALE">
             <persName>Olympia</persName>
           </person>
-          <person xml:id="ep000164-cleora">
+          <person xml:id="ep000164-cleora" sex="FEMALE">
             <persName>Cleora</persName>
           </person>
-          <person xml:id="ep000164-timoleon">
+          <person xml:id="ep000164-timoleon" sex="MALE">
             <persName>Timoleon</persName>
           </person>
-          <person xml:id="ep000164-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000164-asotus">
+          <person xml:id="ep000164-asotus" sex="MALE">
             <persName>Asotus</persName>
           </person>
-          <person xml:id="ep000164-cimbrio">
+          <person xml:id="ep000164-cimbrio" sex="MALE">
             <persName>Cimbrio</persName>
           </person>
-          <person xml:id="ep000164-zanthia">
+          <person xml:id="ep000164-zanthia" sex="FEMALE">
             <persName>Zanthia</persName>
           </person>
-          <person xml:id="ep000164-poliphron">
+          <person xml:id="ep000164-poliphron" sex="MALE">
             <persName>Poliphron</persName>
           </person>
-          <person xml:id="ep000164-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000164-timandra">
+          <person xml:id="ep000164-timandra" sex="FEMALE">
             <persName>Timandra</persName>
           </person>
-          <person xml:id="ep000164-corinth">
-            <persName>Corinth</persName>
-          </person>
-          <person xml:id="ep000164-jailor">
+          <person xml:id="ep000164-jailor" sex="MALE">
             <persName>Jailor</persName>
           </person>
         </listPerson>
@@ -158,8 +149,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000164"
-                    passive="http://www.wikidata.org/entity/Q7719099"/>
+                   active="https://dracor.org/entity/ep000164"
+                   passive="http://www.wikidata.org/entity/Q7719099"/>
     </listRelation>
   </standOff>
   <text>
@@ -815,12 +806,14 @@
             <l>Not Circumscrib'd or bound in, shall by you </l>
             <l>Be willingly obey'd. </l>
           </sp>
-          <sp who="#ep000164-multiple" xml:id="ep000164-e104710">
+          <sp who="#ep000164-archidamus #ep000164-diphilus #ep000164-cleon"
+                   xml:id="ep000164-e104710">
             <speaker>Archid. Dip. Cleon. </speaker>
             <l>So may we prosper, </l>
             <l>As we obey in all things. </l>
           </sp>
-          <sp who="#ep000164-multiple" xml:id="ep000164-e104740">
+          <sp who="#ep000164-timagoras #ep000164-leosthenes #ep000164-asotus"
+                   xml:id="ep000164-e104740">
             <speaker>Timag. Leost. Aso. </speaker>
             <l>And obserue </l>
             <l>All your commands as Oracles. </l>
@@ -2416,7 +2409,8 @@
             <l>You haue beene barr'd from, with one voyce cry with me, </l>
             <l>Libertie, Libertie. </l>
           </sp>
-          <sp who="#ep000164-all" xml:id="ep000164-e116000">
+          <sp who="#ep000164-pisander #ep000164-poliphron #ep000164-cimbrio #ep000164-gracculo"
+                   xml:id="ep000164-e116000">
             <speaker>All. </speaker>
             <l>Libertie, Libertie. </l>
           </sp>
@@ -3098,7 +3092,8 @@
             <l>Most miserable, and rest assur'd you are so. </l>
             <l>Our Masters are victorious: </l>
           </sp>
-          <sp who="#ep000164-all" xml:id="ep000164-e120930">
+          <sp who="#ep000164-pisander #ep000164-poliphron #ep000164-cimbrio #ep000164-gracculo"
+                   xml:id="ep000164-e120930">
             <speaker>All. </speaker>
             <l>How? </l>
           </sp>
@@ -4264,7 +4259,7 @@
             <l>With Mummy, Ceruses, or Infants fat, </l>
             <l>To keepe off age, and time. </l>
           </sp>
-          <sp who="#ep000164-corinth" xml:id="ep000164-e129370">
+          <sp who="#ep000164-corisca" xml:id="ep000164-e129370">
             <speaker>Cori. </speaker>
             <l>Pray you, forbeare; </l>
             <l>I am an alter'd woman. </l>
@@ -4274,7 +4269,7 @@
             <l>So it seemes; </l>
             <l>A part of your honours ruffe stands out of rancke too. </l>
           </sp>
-          <sp who="#ep000164-corinth" xml:id="ep000164-e129430">
+          <sp who="#ep000164-corisca" xml:id="ep000164-e129430">
             <speaker>Cori. </speaker>
             <l>No matter, I haue other thoughts. </l>
           </sp>

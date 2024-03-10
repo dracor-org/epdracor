@@ -82,100 +82,94 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000089-gentleman">
+          <person xml:id="ep000089-gentleman" sex="MALE">
             <persName>Gentleman</persName>
           </person>
-          <person xml:id="ep000089-prologue">
+          <person xml:id="ep000089-prologue" sex="MALE">
             <persName>Prologue</persName>
           </person>
-          <person xml:id="ep000089-page">
+          <person xml:id="ep000089-page" sex="MALE">
             <persName>Page</persName>
           </person>
-          <person xml:id="ep000089-antonio">
+          <person xml:id="ep000089-antonio" sex="MALE">
             <persName>Antonio</persName>
           </person>
-          <person xml:id="ep000089-duke">
+          <person xml:id="ep000089-duke" sex="MALE">
             <persName>Duke</persName>
           </person>
-          <person xml:id="ep000089-lucilio">
+          <person xml:id="ep000089-lucilio" sex="MALE">
             <persName>Lucilio</persName>
           </person>
-          <person xml:id="ep000089-duchess">
+          <person xml:id="ep000089-duchess" sex="FEMALE">
             <persName>Duchess</persName>
           </person>
-          <person xml:id="ep000089-althea">
+          <person xml:id="ep000089-althea" sex="FEMALE">
             <persName>Althea</persName>
           </person>
-          <person xml:id="ep000089-mrs_frailware">
+          <person xml:id="ep000089-mrs-frailware" sex="FEMALE">
             <persName>Mrs Frailware</persName>
           </person>
-          <person xml:id="ep000089-alastor">
+          <person xml:id="ep000089-alastor" sex="MALE">
             <persName>Alastor</persName>
           </person>
-          <person xml:id="ep000089-abigail">
+          <person xml:id="ep000089-abigail" sex="FEMALE">
             <persName>Abigail</persName>
           </person>
-          <person xml:id="ep000089-frailware">
+          <person xml:id="ep000089-frailware" sex="MALE">
             <persName>Frailware</persName>
           </person>
-          <person xml:id="ep000089-servant">
+          <person xml:id="ep000089-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000089-attendant">
-            <persName>Attendant</persName>
-          </person>
-          <person xml:id="ep000089-damasippus">
+          <personGrp xml:id="ep000089-attendants" sex="MALE">
+            <name>Attendants</name>
+          </personGrp>
+          <person xml:id="ep000089-damasippus" sex="MALE">
             <persName>Damasippus</persName>
           </person>
-          <person xml:id="ep000089-executioner">
+          <person xml:id="ep000089-executioner" sex="MALE">
             <persName>Executioner</persName>
           </person>
-          <person xml:id="ep000089-julia">
+          <person xml:id="ep000089-julia" sex="FEMALE">
             <persName>Julia</persName>
           </person>
-          <person xml:id="ep000089-micale">
+          <person xml:id="ep000089-micale" sex="FEMALE">
             <persName>Micale</persName>
           </person>
-          <person xml:id="ep000089-assassino">
+          <person xml:id="ep000089-assassino" sex="MALE">
             <persName>Assassino</persName>
           </person>
-          <person xml:id="ep000089-deborah">
+          <person xml:id="ep000089-deborah" sex="FEMALE">
             <persName>Deborah</persName>
           </person>
-          <person xml:id="ep000089-abigal">
-            <persName>Abigal</persName>
-          </person>
-          <person xml:id="ep000089-sarvia">
+          <person xml:id="ep000089-sarvia" sex="FEMALE">
             <persName>Sarvia</persName>
           </person>
-          <person xml:id="ep000089-camilla">
+          <person xml:id="ep000089-camilla" sex="FEMALE">
             <persName>Camilla</persName>
           </person>
-          <person xml:id="ep000089-laurinda">
+          <person xml:id="ep000089-laurinda" sex="FEMALE">
             <persName>Laurinda</persName>
           </person>
-          <person xml:id="ep000089-arminio">
+          <person xml:id="ep000089-arminio" sex="MALE">
             <persName>Arminio</persName>
           </person>
-          <person xml:id="ep000089-barber">
+          <person xml:id="ep000089-barber" sex="MALE">
             <persName>Barber</persName>
           </person>
-          <person xml:id="ep000089-captain">
+          <person xml:id="ep000089-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000089-navarchus">
+          <person xml:id="ep000089-navarchus" sex="MALE">
             <persName>Navarchus</persName>
           </person>
-          <person xml:id="ep000089-shipman">
+          <person xml:id="ep000089-shipman" sex="MALE">
             <persName>Shipman</persName>
           </person>
-          <person xml:id="ep000089-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000089-messenger">
+          <person xml:id="ep000089-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000089-fioretta">
+          <person xml:id="ep000089-fioretta" sex="FEMALE">
             <persName>Fioretta</persName>
           </person>
         </listPerson>
@@ -580,7 +574,7 @@
               </l>
             </sp>
             <stage xml:id="ep000089-e102770">Enter Mistris Frailware and the Page. </stage>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e102780">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e102780">
               <speaker>Mistris Frail. </speaker>
               <l>By my troth I am glad to see thee well my little </l>
               <l>Gallow-clapper; how hast thou done this many a day? ha! </l>
@@ -590,7 +584,7 @@
               <speaker>Page. </speaker>
               <p>Faith prettily well Mistris Fraileware, as a man of my profession might; I had all the chiefe trades in the City to help mee doe well. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e102830">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e102830">
               <speaker>Mistris Frail. </speaker>
               <p>What trades were they, thou wert too young for any occupation yet. </p>
             </sp>
@@ -598,7 +592,7 @@
               <speaker>Page. </speaker>
               <p>Not above three yeares at most: but I earn'd something with working and wayting on my Lord, as Tankard-bearers, Labourers, and Servingmen doe: I stole and cozen'd, as Taylors, Shopkeepers and Cutpurses doe; I let out my Lords books, and tooke money for the use of'hem, as the later ends of gouty Merchants doe: and yet for all this I was forc'd (as many of you Citizens are) to goe many times to bed with a hungry conscience. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e102870">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e102870">
               <speaker>Mistris Frail. </speaker>
               <p>You'll never leave your crackery, but tell mee prethee sirrha, is Athens a fine Towne? What be these College, like? didst thou goe to schoole there? </p>
             </sp>
@@ -606,7 +600,7 @@
               <speaker>Page. </speaker>
               <p>O, an excellent place for a woman that will use trading: You shall have the Schollers lie at your sweet Frailes night and day; they bee forc'd to sweeten their disputations with Grocers reasons: and custome could not but make your husband one of the head men of the City presently. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e102910">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e102910">
               <speaker>Mistris Frail. </speaker>
               <p>Now by my troth I thinke it were a very good place for a stale shopkeepers wife of the City to set up in: o'my conscience, a woman of our occupation might thrive there. </p>
             </sp>
@@ -614,7 +608,7 @@
               <speaker>Page. </speaker>
               <p>I, and she were down never so low, the schollers would doe it— and how does Master Damasippios the lecturing Stoick? When was he here? </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e102950">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e102950">
               <speaker>Mistris Frail. </speaker>
               <p>Dost remember him? let me see— o'my honesty, I never saw him since his last morall Lecture against the sinnes of the flesh— yes heaven forgive me to sweare, now I remember me, the same day my husband went a duck-hunting; and then he came hither, and brought mee many good things: wilt thou goe to him againe sometimes for mee? Ile give thee some figges and Tobacco. </p>
             </sp>
@@ -622,7 +616,7 @@
               <speaker>Page. </speaker>
               <p>Yours to command; Ile smoake in your businesse then i'faith. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e102990">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e102990">
               <speaker>Mistris Frail. </speaker>
               <p>Prethee come to me when my husband is out of the shoppe. <stage xml:id="ep000089-e103010">exit. </stage>
               </p>
@@ -1060,7 +1054,7 @@
           <div n="1" type="scene" xml:id="ep000089-e106110">
             <head>Scena 1. </head>
             <stage xml:id="ep000089-e106120">Enter Mistris Frailware and Mistris Abigail. </stage>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106130">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106130">
               <speaker>Mistris Frail. </speaker>
               <p>ILe ensure you 'tis true Mistris Abigail, my Husband was call'd from my side at midnight by the Dukes Pursivant at Armes, commanded to bring his weapon ready with him, because they would reprehend my Ladie Iulia's daughter in her bed; nay, I am serv'd so many times in the yeare; and if it were not for a little honour wee have by being the Constables wife of the Parish, or leave to build a new Pue in the Lecture house, or meeting at the Quest-house sometimes; wee had better never bee in authoritie, than have so many hewings and cryings, such pasportings; that the whole yeare while our Husbands be Magistrates, we be very widdowes, for any feeling we have of them; and if we had not their company in the day sometimes, we should eene forget wee were maried: 'tis too true Mistris Abigail: but you have a happy turne. </p>
             </sp>
@@ -1068,7 +1062,7 @@
               <speaker>Mistris Abig. </speaker>
               <p>Indeed Mistris Frailware our Husbands should not be troubled with common businesse; and Master Damasippus does meditate and practise his Principles by my side till nine a Clock many times. But I pray, what did you heare was the cause of my Lady Iulia's daughters contamination? </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106170">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106170">
               <speaker>Mistris Frail. </speaker>
               <p>O, why shee was in love with my young Lord Lucilio, and would have, God blesse us, stabb'd the Duke with a panado, and then be marry'd where the Dutches would or no. </p>
             </sp>
@@ -1076,7 +1070,7 @@
               <speaker>Mistris Abig. </speaker>
               <p>Now Iove forsend it! How desperate be these princock Gentlewomen when they be in love! they'll venture upon any weapons: I marvell themselves be not afraid of stabbing: I warrant you shee'll to the Rock for it. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106210">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106210">
               <speaker>Mistris Frail. </speaker>
               <p>I cannot tell that; but a Friend I have in the Court was here before breake of day and told me all. </p>
             </sp>
@@ -1085,7 +1079,7 @@
               <p>Lord Mistris Frailware have you any friends in the Court? </p>
             </sp>
             <pb n="15" xml:id="ep000089-012-b"/>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106250">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106250">
               <speaker>Mistris Frail. </speaker>
               <p>I these seven years, Mistris Abigail, have I had friends there, and acquaintance too, I thanke my beautie, three yeares before I was marri'd. Ile tell you Mistris Abigail, these Courtiers be the finest, sweetest smelling Gentlemen that be; they will have some friends in the City now and then, for varieties sake, but they'll pick and chuse: and for mine owne part Ile ensure you, that before I was marry'd, of a browne-wench, marke what I say, to speake of a browne-wench, I was as sweet a creature as liv'd. There was a Nobleman here in Florence— I, there was a Knight too that would eate but little meate except— how ever it was my hap to fell figges in the Citie; Ile ensure you that my flesh was so tender, that if a fellow with a strong breath had kiss'd me, all my lips would have blister'd. I wore my silke Stockins then, and my Bodkins of beaten Gold, I thanke my own wit, and had Velvet Cloakes, and Velvet Coloches come to see mee. </p>
             </sp>
@@ -1093,7 +1087,7 @@
               <speaker>Mistris Abig. </speaker>
               <p>Doubtlesse you were one of the happiest living, to have such blessings: I would to heavens my husband, or I, might have an Office under these Courtiers, that I might have friends at Court too. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106290">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106290">
               <speaker>Mistris Frail. </speaker>
               <p>Ile ensure you Mistris Abigail, many of 'hem be able to doe a woman a good pleasure sometimes; and yet there be some againe that promise more than all their strength can performe too, when they be put to it; for alas, Courtiers doe for so many, that they cannot doe for all: for mine owne part, I have try'd 'hem, and try'd 'hem agen; and some of 'hem have stood to mee very sufficiently and friendly, when I have come to see the Masking and Beare-baiting there. </p>
             </sp>
@@ -1101,7 +1095,7 @@
               <speaker>Mistris Abig. </speaker>
               <p>God's my pitty, is there Beare-baiting at Court? doe the Ladies love Beare-baiting? </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106330">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106330">
               <speaker>Mistris Frail. </speaker>
               <p>O, abomination: they'll so shift for corners and places to be at it, that their waiting gentlewomen can seldome come to the pastime. And how does your good husband Master Damasippus? </p>
             </sp>
@@ -1109,7 +1103,7 @@
               <speaker>Mistris Abig. </speaker>
               <p>In good deed la not well: hee has beene ill at ease ever since t'other night. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106370">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106370">
               <speaker>Mistris Fra. </speaker>
               <p>Ah sweet man! he does so labour, and labour to fill us with moralitie, that hee's ee'n tyr'd out in the Citie amongst us. </p>
             </sp>
@@ -1120,7 +1114,7 @@
               <p>Fie upon't: how heavy this authoritie sits upon us! ever since midnight in the Dukes businesse! but it stands us upon it; 'tis for the credit of the City: we must doe more than one bare Office, or wee cannot bee good subjects. Here take in my weapon. <stage xml:id="ep000089-e106420">Exit man. </stage>
               </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106430">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106430">
               <speaker>Mistris Frail. </speaker>
               <p>I'faith 'tis a fine time o'day to come home at: Gods my precious, doe you thinke to leave me so still? from twelve a Clock till I rise I must he alone dreaming, and dreaming, sometimes that you are dead; sometimes that I am with childe, and a lust for a thing that I cannot have; sometimes again that you have falne downe the Stayres, and broke your back; and such fearfull dreames that I cannot rest an houre, because I can doe nothing but dreame. </p>
             </sp>
@@ -1128,7 +1122,7 @@
               <speaker>Master Frail. </speaker>
               <p>O, good wife! we be for this yeare Magistrates Officers of place, men of imployment, the upholders of the Citie, the eyes of the Common-wealth: and therefore when matters of State call, wee must come with wisedome, and with severity answer our Vocation. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106470">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106470">
               <speaker>Mistris Frail. </speaker>
               <p>Focation me no Vocation: for as true as I am marry'd, if you put me in such frights by going away, and leaving mee in the darke, Ile get me a bedfellow shall stick closer to mee, so I will; cannot you have a Deputy as well as an Alderman? I hope you are in authority too. </p>
             </sp>
@@ -1136,7 +1130,7 @@
               <speaker>Mistris Abig. </speaker>
               <p>O patience deare Mistris Frailware! patience with your Spouse: my husband told me that patience was one of the ten morall vertues. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e106510">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e106510">
               <speaker>Mistris Frail. </speaker>
               <p>I Mistris Abigail, if a woman had such a husband as you have, that were able to put patience into a woman; she might easily be content and have mortall vertues enough too. </p>
             </sp>
@@ -1548,7 +1542,7 @@
             </sp>
             <stage xml:id="ep000089-e109530">Exeunt. </stage>
             <stage xml:id="ep000089-e109540">Enter the Duke at one doore, with Antonio, Page, and other Attendants. At the other doore Lucilio in Altheas apparell, his face covered with a Scarfe, brought in by a Pursivant at Armes, Frailware and others with Holbeards, as a Prisoner to the Barre. Damasippus. </stage>
-            <sp who="#ep000089-attendant" xml:id="ep000089-e109550">
+            <sp who="#ep000089-attendants" xml:id="ep000089-e109550">
               <speaker>Attend. </speaker>
               <l>Give back there, and let the prisoner stand forth. </l>
             </sp>
@@ -2309,7 +2303,7 @@
             </sp>
             <stage xml:id="ep000089-e115090">A Table set forth covered with a cloth. </stage>
             <stage xml:id="ep000089-e115100">Enter Mistris Frailware. </stage>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115110">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115110">
               <speaker>Mistris Frail. </speaker>
               <p>Why Debora I say! why Debora. </p>
             </sp>
@@ -2318,7 +2312,7 @@
               <p>Anon forsooth.— <stage xml:id="ep000089-e115150">within. </stage>
               </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115160">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115160">
               <speaker>Mistris Frail. </speaker>
               <p>Come bring away the Napkins quickly, and make ready here, (these heavy Ars'd wenches are so slow) and doe you heare, bid one of the Boyes fetch me a Pinte of Oligant, Buls Blood, and a quart of Canary; and look that the white Broth with Eringoes and Marrow be not over-boyl'd; I know M. Damasippus loves it well. </p>
             </sp>
@@ -2327,7 +2321,7 @@
               <speaker>Damas. </speaker>
               <p>Ioy and peace of minde be to my deare Pupill, let mee give thee a morall kisse. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115210">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115210">
               <speaker>Mistris Frai. </speaker>
               <p>In pure moralitie M. Damasippus, you are most heartily welcome— Would this wench would come away that wee had Supper once. </p>
             </sp>
@@ -2336,7 +2330,7 @@
               <p>That word hath eterniz'd thee my sweet Ambrosia; <pb n="40" xml:id="ep000089-025-a"/>and thy name is written in Elizium among Ioves paramours: Wherefore let the beloved of Iove feast and banquet according to moralitie. </p>
             </sp>
             <stage xml:id="ep000089-e115250">Enter Debora with Supper. </stage>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115260">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115260">
               <speaker>Mistris Frail. </speaker>
               <p>You are so full of learned sayings still: I have studyed too a great while, would I could reade once. </p>
             </sp>
@@ -2344,7 +2338,7 @@
               <speaker>Dam. </speaker>
               <p>Soule of the world! thou shalt bee illuminated without reading, for I will infuse knowledge into thee, and thou shalt bee repleate. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115300">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115300">
               <speaker>Mistris Fra. </speaker>
               <p>Can you doe so M. Damasippus? </p>
             </sp>
@@ -2352,7 +2346,7 @@
               <speaker>Dam. </speaker>
               <p>I can my Summum bonum: and thou shalt have the Mandragoras for thy fecundity; and I will free thee from the vicious note of sterility. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115340">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115340">
               <speaker>Mistris Fra. </speaker>
               <p>O the blessings of these Philosophers! Come sweet M. Damasippus, sit, and lets sup quickly. </p>
             </sp>
@@ -2369,7 +2363,7 @@
               <speaker>Dam. </speaker>
               <p>Thunder from heaven confound 'hem, and the fire of Aetna consume their steps. </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115430">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115430">
               <speaker>Mistris Fra. </speaker>
               <p>Charitable M. Damasippus, get in here till I can shift 'hem— so, 'tis well, <stage xml:id="ep000089-e115450">She hides him. </stage>
               </p>
@@ -2379,11 +2373,11 @@
               <speaker>Master Fra. </speaker>
               <p>Good Mistris Abigail, I was sure before hee was not here. How now wife! at high Supper! and Wine! and Iunkets! and knacks! and all alone! this feast would have beseem'd thy friends and Neighbours, the worshipfull of the Parish, our fellow Magistrates: but I thanke thee for't, I have a stomacke now as sharp— as if I would eate for anger. I would not for a pound I were to beguile any one of his Supper to night, Come sit Mistris Abigail. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115490">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115490">
               <speaker>Abig. </speaker>
               <p>Mistris Frailware will you sit by your husband? </p>
             </sp>
-            <sp who="#ep000089-mrs_frailware" xml:id="ep000089-e115510">
+            <sp who="#ep000089-mrs-frailware" xml:id="ep000089-e115510">
               <speaker>Mistris Fra. </speaker>
               <p>No forsooth, my stomack does so wamble: when Supper was dressing methought I could eate such a deale; <pb n="41" xml:id="ep000089-025-b"/>and now the sight of— the meat does so fill mee: I pray Husband bring Mistris Abigal into my Chamber, I think I shall be very ill. </p>
             </sp>
@@ -2391,7 +2385,7 @@
               <speaker>Master Frail. </speaker>
               <p>By and by duck, we follow thee— so, sit as close to mee now as mine Office, and here's a health in Canary to the formall Cuckold thy Husband. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115550">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115550">
               <speaker>Abi. </speaker>
               <p>Fy M. Frailware that you'll have such a fearfull word in your mouth. </p>
             </sp>
@@ -2407,7 +2401,7 @@
               <speaker>Master Fra. </speaker>
               <p>I, and wilt doe still, though thy Husband heard thee say so. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115630">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115630">
               <speaker>Abig. </speaker>
               <p>I and will doe it though my husband heard mee. </p>
             </sp>
@@ -2415,7 +2409,7 @@
               <speaker>M. Fra. </speaker>
               <p>Why now thou speak'st like a sister of the Lecture, and according to moralitiy. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115670">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115670">
               <speaker>Abig. </speaker>
               <p>Nay I have been forward enough to you M. Frailware, ever since my first mariage: for in good earnest I did marry M. Damasippus, only because I saw the Philosophers wives goe with the first of the Parish, and so forth— but my heart— </p>
             </sp>
@@ -2423,7 +2417,7 @@
               <speaker>M. Fra. </speaker>
               <p>Let the City have it wench, and let my fine pure formall peece of Stoicity weare out six grogran Elbowes with pleading moralities, and counterfeit railing against the sinnes of the flesh; spend all hee can flatter from women to play the Epicure; and then make ragged Lectures and exercises in Cellars and Gravell Pits for a collection of seven pence, ere thou giv'st him so much as a good wish. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115710">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115710">
               <speaker>Abig. </speaker>
               <p>Nay so hee shall; for truely he is growne a very Pharao, a hard-hearted Mirmidon to me of late. </p>
             </sp>
@@ -2449,7 +2443,7 @@
               <p>Musick! most opportunely welcome; wee'll make a night on't now: strike up Tigellius. </p>
             </sp>
             <pb n="42" xml:id="ep000089-026-a"/>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115840">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115840">
               <speaker>Abig. </speaker>
               <p>Away with him prophane Tavern-Leech. </p>
             </sp>
@@ -2457,7 +2451,7 @@
               <speaker>Master Fra. </speaker>
               <p>Nay prethee Mistris Abigail have patience. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e115880">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e115880">
               <speaker>Abig. </speaker>
               <p>I will not heare it. </p>
             </sp>
@@ -2483,7 +2477,7 @@
               <speaker>Master Fra, </speaker>
               <p>Neighbour Damasippus! now by my authoritie welcome into the Livery: wee'll have a company shortly. </p>
             </sp>
-            <sp who="#ep000089-abigal" xml:id="ep000089-e116020">
+            <sp who="#ep000089-abigail" xml:id="ep000089-e116020">
               <speaker>Abig. </speaker>
               <p>O, my husband! I will goe to an exercise presently, that the gods may appease your wrath. <stage xml:id="ep000089-e116040">exit. </stage>
               </p>
@@ -3840,7 +3834,7 @@
               <speaker>Cap. </speaker>
               <p>Come, lets to the the Litto, and set our helps to find the Body. </p>
             </sp>
-            <sp who="#ep000089-both" xml:id="ep000089-e124340">
+            <sp who="#ep000089-shipman #ep000089-navarchus" xml:id="ep000089-e124340">
               <speaker>Both. </speaker>
               <p>Content. <stage xml:id="ep000089-e124360">Exeunt </stage>
               </p>

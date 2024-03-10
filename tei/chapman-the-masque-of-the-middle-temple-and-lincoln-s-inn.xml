@@ -91,24 +91,24 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000338-plutus">
+          <person xml:id="ep000338-plutus" sex="MALE">
             <persName>Plutus</persName>
           </person>
-          <person xml:id="ep000338-capriccio">
+          <person xml:id="ep000338-capriccio" sex="MALE">
             <persName>Capriccio</persName>
           </person>
-          <person xml:id="ep000338-eun">
-            <persName>Eun</persName>
+          <person xml:id="ep000338-eunomia" sex="FEMALE">
+            <persName>Eunomia</persName>
           </person>
-          <person xml:id="ep000338-honour">
+          <person xml:id="ep000338-honour" sex="FEMALE">
             <persName>Honour</persName>
           </person>
-          <person xml:id="ep000338-herald">
+          <person xml:id="ep000338-herald" sex="MALE">
             <persName>Herald</persName>
           </person>
-          <person xml:id="ep000338-chorus">
-            <persName>Chorus</persName>
-          </person>
+          <personGrp xml:id="ep000338-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -121,8 +121,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000338"
-                    passive="http://www.wikidata.org/entity/Q7750957"/>
+                   active="https://dracor.org/entity/ep000338"
+                   passive="http://www.wikidata.org/entity/Q7750957"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -419,7 +419,7 @@
           <l>Daughter of Ioue, and Goddesse Honors Priest; </l>
           <l>Appeare to Plutus, and his loue assist. </l>
         </sp>
-        <sp who="#ep000338-eun" xml:id="ep000338-e101660">
+        <sp who="#ep000338-eunomia" xml:id="ep000338-e101660">
           <speaker>EVN. </speaker>
           <l>What would the god of Riches? <ref target="A18416-e101680-b"/>
             <note anchored="true" corresp="A18416-e101680-a" place="margin">Eunomia in the Temple gates. </note>
@@ -434,7 +434,7 @@
           <l>Being Vertues Rule, and her directfull light) </l>
           <l>Help me to th'honor of her speech and sight. </l>
         </sp>
-        <sp who="#ep000338-eun" xml:id="ep000338-e101760">
+        <sp who="#ep000338-eunomia" xml:id="ep000338-e101760">
           <speaker>EVN. </speaker>
           <l>Thy will shal straight be honour'd; all that seek </l>
           <l>Accesse to Honor, by cleer virtues beame, </l>
@@ -612,7 +612,7 @@
           <l>Whose armes shall all the Earth embrace. </l>
         </sp>
         <stage xml:id="ep000338-e103040">This done Eunomia spake to the Maskers set yet aboue. </stage>
-        <sp who="#ep000338-eun" xml:id="ep000338-e103050">
+        <sp who="#ep000338-eunomia" xml:id="ep000338-e103050">
           <speaker>EVN. </speaker>
           <l>Virginian Princes, ye must now renounce </l>
           <l>Your superstitious worship of these Sunnes, </l>

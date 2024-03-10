@@ -78,86 +78,74 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000631-xxxx">
-            <persName>Xxxx</persName>
-          </person>
-          <person xml:id="ep000631-durazzo">
+          <personGrp xml:id="ep000631-bandetti" sex="MALE">
+            <name>Bandetti</name>
+          </personGrp>
+          <person xml:id="ep000631-durazzo" sex="MALE">
             <persName>Durazzo</persName>
           </person>
-          <person xml:id="ep000631-camillo">
+          <person xml:id="ep000631-camillo" sex="MALE">
             <persName>Camillo</persName>
           </person>
-          <person xml:id="ep000631-lentulo">
+          <person xml:id="ep000631-lentulo" sex="MALE">
             <persName>Lentulo</persName>
           </person>
-          <person xml:id="ep000631-donato">
+          <person xml:id="ep000631-donato" sex="MALE">
             <persName>Donato</persName>
           </person>
-          <person xml:id="ep000631-caldoro">
+          <person xml:id="ep000631-caldoro" sex="MALE">
             <persName>Caldoro</persName>
           </person>
-          <person xml:id="ep000631-adorio">
+          <person xml:id="ep000631-adorio" sex="MALE">
             <persName>Adorio</persName>
           </person>
-          <person xml:id="ep000631-caliste">
+          <person xml:id="ep000631-caliste" sex="FEMALE">
             <persName>Caliste</persName>
           </person>
-          <person xml:id="ep000631-mirtilla">
+          <person xml:id="ep000631-mirtilla" sex="FEMALE">
             <persName>Mirtilla</persName>
           </person>
-          <person xml:id="ep000631-jolantre">
+          <person xml:id="ep000631-jolantre" sex="FEMALE">
             <persName>Jolantre</persName>
           </person>
-          <person xml:id="ep000631-calypso">
+          <person xml:id="ep000631-calypso" sex="FEMALE">
             <persName>Calypso</persName>
           </person>
-          <person xml:id="ep000631-calliste">
-            <persName>Calliste</persName>
-          </person>
-          <person xml:id="ep000631-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000631-alphonso">
+          <person xml:id="ep000631-alphonso" sex="MALE">
             <persName>Alphonso</persName>
           </person>
-          <person xml:id="ep000631-general">
+          <person xml:id="ep000631-general" sex="MALE">
             <persName>General</persName>
           </person>
-          <person xml:id="ep000631-monteclaro">
+          <person xml:id="ep000631-monteclaro" sex="MALE">
             <persName>Monteclaro</persName>
           </person>
-          <person xml:id="ep000631-cario">
+          <person xml:id="ep000631-cario" sex="MALE">
             <persName>Cario</persName>
           </person>
-          <person xml:id="ep000631-claudio">
+          <person xml:id="ep000631-claudio" sex="MALE">
             <persName>Claudio</persName>
           </person>
-          <person xml:id="ep000631-severino">
+          <person xml:id="ep000631-severino" sex="MALE">
             <persName>Severino</persName>
           </person>
-          <person xml:id="ep000631-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000631-servant">
+          <person xml:id="ep000631-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000631-captain">
+          <person xml:id="ep000631-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000631-1_woman">
-            <persName>1 Woman</persName>
+          <person xml:id="ep000631-woman-1" sex="FEMALE">
+            <persName>Woman 1</persName>
           </person>
-          <person xml:id="ep000631-1_bandit">
-            <persName>1 Bandit</persName>
+          <person xml:id="ep000631-bandit-1" sex="MALE">
+            <persName>Bandit 1</persName>
           </person>
-          <person xml:id="ep000631-2_bandit">
-            <persName>2 Bandit</persName>
+          <person xml:id="ep000631-bandit-2" sex="MALE">
+            <persName>Bandit 2</persName>
           </person>
-          <person xml:id="ep000631-3_bandit">
-            <persName>3 Bandit</persName>
-          </person>
-          <person xml:id="ep000631-all">
-            <persName>All</persName>
+          <person xml:id="ep000631-bandit-3" sex="MALE">
+            <persName>Bandit 3</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -174,8 +162,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000631"
-                    passive="http://www.wikidata.org/entity/Q7738432"/>
+                   active="https://dracor.org/entity/ep000631"
+                   passive="http://www.wikidata.org/entity/Q7738432"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -272,7 +260,7 @@
         <head>THE GUARDIAN. </head>
         <div n="1" type="act" xml:id="ep000631-e100680">
           <head>Act. I. Sceen. I. </head>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e100690">
+          <sp xml:id="ep000631-e100690">
             <stage xml:id="ep000631-e100700">Enter Durazzo, Camillo, Lentulo, and Donato; two Servants. </stage>
           </sp>
           <sp who="#ep000631-durazzo" xml:id="ep000631-e100710">
@@ -523,7 +511,7 @@
               <l>I thank you; this torrent must be stopt. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e102260">
+          <sp xml:id="ep000631-e102260">
             <stage xml:id="ep000631-e102270">Enter Adorio, Caliste, Mirtilla, Caldoro (muffel'd.) </stage>
           </sp>
           <sp who="#ep000631-donato" xml:id="ep000631-e102280">
@@ -538,7 +526,7 @@
               <l>Stand close. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e102340">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e102340">
             <speaker>Cal. </speaker>
             <lg>
               <l>I know I wrong my modesty. </l>
@@ -552,7 +540,7 @@
               <l>I neither can nor must grant. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e102420">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e102420">
             <speaker>Cal. </speaker>
             <lg>
               <l>A hard sentence! and to increase my misery, by you </l>
@@ -635,7 +623,7 @@
               <l>Would you would keep your word. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e102990">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e102990">
             <speaker>Cal. </speaker>
             <lg>
               <l>Put me to the test. </l>
@@ -659,7 +647,7 @@
               <l>And we'll meet merrily. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e103170">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e103170">
             <speaker>Cal. </speaker>
             <lg>
               <l>'Tis strange such a man can use such language. </l>
@@ -1149,7 +1137,7 @@
             </lg>
             <stage xml:id="ep000631-e106580">Exeunt: </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e106590">
+          <sp xml:id="ep000631-e106590">
             <stage xml:id="ep000631-e106600">Enter Jolante, Caliste, Calypso, Mirtilla. </stage>
           </sp>
           <sp who="#ep000631-jolantre" xml:id="ep000631-e106610">
@@ -1392,7 +1380,7 @@
               <l>Insufferable. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108170">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108170">
             <speaker>Cal. </speaker>
             <lg>
               <l>Nor write, nor yet receive an amorous Letter! </l>
@@ -1404,7 +1392,7 @@
               <l>Not to be endured. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108230">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108230">
             <speaker>Cal. </speaker>
             <lg>
               <l>Nor look upon a man out of a Windore. </l>
@@ -1417,7 +1405,7 @@
               <l>To a Lady of your Blood. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108300">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108300">
             <speaker>Cal. </speaker>
             <lg>
               <l>She is my Mother, &amp; how I should decline it? </l>
@@ -1429,7 +1417,7 @@
               <l>Run away from't, take any course, </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108360">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108360">
             <speaker>Cal. </speaker>
             <lg>
               <l>But without means Mirtilla, how shall we live? </l>
@@ -1445,7 +1433,7 @@
               <l>Wine, Meat, or Money stirring. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108450">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108450">
             <speaker>Cal. </speaker>
             <lg>
               <l>Be you more modest, </l>
@@ -1473,7 +1461,7 @@
               <l>To shun your Mothers rigor. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108670">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108670">
             <speaker>Cal. </speaker>
             <lg>
               <l>Lawful means? </l>
@@ -1487,7 +1475,7 @@
               <l>Make tryal of Adorio. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e108750">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108750">
             <speaker>Cal. </speaker>
             <lg>
               <l>And give up my honor to his lust. </l>
@@ -1510,7 +1498,7 @@
             </lg>
           </sp>
           <pb n="18" xml:id="ep000631-060-a"/>
-          <sp who="#ep000631-calliste" xml:id="ep000631-e108910">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e108910">
             <speaker>Galist. </speaker>
             <lg>
               <l>'Tis a business to be consider'd of. </l>
@@ -1532,7 +1520,7 @@
               <l>Abominable! </l>
             </lg>
           </sp>
-          <sp who="#ep000631-calliste" xml:id="ep000631-e109070">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e109070">
             <speaker>Galist. </speaker>
             <lg>
               <l>Do not my blushes speak </l>
@@ -1550,7 +1538,7 @@
         </div>
         <div n="2" type="act" xml:id="ep000631-e109160">
           <head>Act. 2. Scaen. 1. </head>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e109170">
+          <sp xml:id="ep000631-e109170">
             <stage xml:id="ep000631-e109180">Enter Jolante, Calypso. </stage>
           </sp>
           <sp who="#ep000631-jolantre" xml:id="ep000631-e109190">
@@ -1603,7 +1591,7 @@
               <l>And cur'd me in an instant, Venus be prais'd for't. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e109500">
+          <sp xml:id="ep000631-e109500">
             <stage xml:id="ep000631-e109510">Enter Alphonso, General, Monteclaro, Attendants, and Captain. </stage>
           </sp>
           <sp who="#ep000631-jolantre" xml:id="ep000631-e109520">
@@ -1612,7 +1600,7 @@
               <l>They come, leave prating. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-unassigned" xml:id="ep000631-e109550">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e109550">
             <speaker>Col. </speaker>
             <lg>
               <l>I am dumb, an't like your honor. </l>
@@ -1785,7 +1773,7 @@
             <stage xml:id="ep000631-e110730">Exeunt. </stage>
           </sp>
           <pb n="22" xml:id="ep000631-062-a"/>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e110740">
+          <sp xml:id="ep000631-e110740">
             <stage xml:id="ep000631-e110750">Enter Calypso, and Jolante (with a Purse and a Jewel) </stage>
           </sp>
           <sp who="#ep000631-calypso" xml:id="ep000631-e110760">
@@ -1899,7 +1887,7 @@
             </lg>
             <stage xml:id="ep000631-e111520">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e111530">
+          <sp xml:id="ep000631-e111530">
             <stage xml:id="ep000631-e111540">Enter Adorio, Camillo, Lentulo, Donato. </stage>
           </sp>
           <sp who="#ep000631-donato" xml:id="ep000631-e111550">
@@ -1944,7 +1932,7 @@
               <l>My harshneis to Caliste. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e111840">
+          <sp xml:id="ep000631-e111840">
             <stage xml:id="ep000631-e111850">Enter Cario (in haste.) </stage>
           </sp>
           <sp who="#ep000631-camillo" xml:id="ep000631-e111860">
@@ -2040,7 +2028,7 @@
               <l>It comes to be tasted. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e112420">
+          <sp xml:id="ep000631-e112420">
             <stage xml:id="ep000631-e112430">Enter Mirtilla (with Letter and Jewel.) </stage>
           </sp>
           <sp who="#ep000631-camillo" xml:id="ep000631-e112440">
@@ -2305,7 +2293,7 @@
             </lg>
             <stage xml:id="ep000631-e114190">Exit. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e114200">
+          <sp xml:id="ep000631-e114200">
             <stage xml:id="ep000631-e114210">Enter Claudio and Severino. </stage>
           </sp>
           <sp who="#ep000631-claudio" xml:id="ep000631-e114220">
@@ -2598,7 +2586,7 @@
               <l>Hangs for't by Marshal law. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-omnes" xml:id="ep000631-e116220">
+          <sp who="#ep000631-bandetti" xml:id="ep000631-e116220">
             <speaker>Omnes. </speaker>
             <lg>
               <l>Long live Severino. </l>
@@ -2613,14 +2601,14 @@
               <l>To praise your care and discipline. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-omnes" xml:id="ep000631-e116310">
+          <sp who="#ep000631-bandetti" xml:id="ep000631-e116310">
             <speaker>Omnes. </speaker>
             <lg>
               <l>We'll not fail Sir. </l>
             </lg>
             <stage xml:id="ep000631-e116340">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e116350">
+          <sp xml:id="ep000631-e116350">
             <stage xml:id="ep000631-e116360">Enter Monteclaro and Calypso. </stage>
           </sp>
           <sp who="#ep000631-monteclaro" xml:id="ep000631-e116370">
@@ -2873,7 +2861,7 @@
         </div>
         <div n="3" type="act" xml:id="ep000631-e118000">
           <head>Act. 3. Scaen. 1. </head>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e118010">
+          <sp xml:id="ep000631-e118010">
             <stage xml:id="ep000631-e118020">Enter Durazzo, Caldoro, Servant. </stage>
           </sp>
           <sp who="#ep000631-durazzo" xml:id="ep000631-e118030">
@@ -2985,7 +2973,7 @@
             <stage xml:id="ep000631-e118750">Exeunt. </stage>
           </sp>
           <stage xml:id="ep000631-e118760">Enter Caliste (richly habited) and Mirtilla (in her first gown.) </stage>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e118770">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e118770">
             <speaker>Cal. </speaker>
             <lg>
               <l>How doest thou like my gown? </l>
@@ -2997,7 +2985,7 @@
               <l>'Tis rich and Courtlike. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e118830">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e118830">
             <speaker>Cal. </speaker>
             <lg>
               <l>The dressings too are suitable? </l>
@@ -3009,7 +2997,7 @@
               <l>I must say so, or you might blame my want of care. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e118890">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e118890">
             <speaker>Cal. </speaker>
             <lg>
               <l>My mother </l>
@@ -3023,7 +3011,7 @@
               <l>I hope so. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e118970">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e118970">
             <speaker>Cal. </speaker>
             <lg>
               <l>How dully thou repliest! thou dost not envy </l>
@@ -3068,7 +3056,7 @@
               <l>Can this be borne with patience? </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e119290">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e119290">
             <speaker>Cal. </speaker>
             <lg>
               <l>The necessity of my strange fate commands it; but I vow </l>
@@ -3082,7 +3070,7 @@
               <l>You must do more, and help me. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e119370">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e119370">
             <speaker>Cal. </speaker>
             <lg>
               <l>Ha! what said you? </l>
@@ -3202,7 +3190,7 @@
             </lg>
             <stage xml:id="ep000631-e120120">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e120130">
+          <sp xml:id="ep000631-e120130">
             <stage xml:id="ep000631-e120140">Enter Adorio, Camillo, Lentulo, Donato, Cario, Servants. </stage>
           </sp>
           <sp who="#ep000631-adorio" xml:id="ep000631-e120150">
@@ -3389,7 +3377,7 @@
             </lg>
             <stage xml:id="ep000631-e121300">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e121310">
+          <sp xml:id="ep000631-e121310">
             <stage xml:id="ep000631-e121320">Enter Jolante and Calypso. </stage>
           </sp>
           <sp who="#ep000631-jolantre" xml:id="ep000631-e121330">
@@ -3399,7 +3387,7 @@
               <l>Ore thy tomb for a monument. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e121370">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e121370">
             <speaker>Cal. </speaker>
             <lg>
               <l>I am not prepar'd yet </l>
@@ -3415,7 +3403,7 @@
               <l>Take that. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e121470">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e121470">
             <speaker>Cal. </speaker>
             <lg>
               <l>Magnificent Lady! </l>
@@ -3431,7 +3419,7 @@
               <l>My daughter and Mirtilla to their chamber: </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e121570">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e121570">
             <speaker>Cal. </speaker>
             <lg>
               <l>And lock'em up: Such liquorish Kitlings are not </l>
@@ -3448,7 +3436,7 @@
             </lg>
             <stage xml:id="ep000631-e121690">Exeunt: </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e121700">
+          <sp xml:id="ep000631-e121700">
             <stage xml:id="ep000631-e121710">Enter Adorio, and Servant. </stage>
           </sp>
           <sp who="#ep000631-adorio" xml:id="ep000631-e121720">
@@ -3475,7 +3463,7 @@
             </lg>
             <stage xml:id="ep000631-e121860">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e121870">
+          <sp xml:id="ep000631-e121870">
             <stage xml:id="ep000631-e121880">Enter Durazzo, Caldoro. </stage>
           </sp>
           <sp who="#ep000631-durazzo" xml:id="ep000631-e121890">
@@ -3527,7 +3515,7 @@
               <l>Mirtilla! </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e122220">
+          <sp xml:id="ep000631-e122220">
             <stage xml:id="ep000631-e122230">Enter Caliste and Mirtilla. </stage>
           </sp>
           <sp who="#ep000631-caldoro" xml:id="ep000631-e122240">
@@ -3536,7 +3524,7 @@
               <l>'Tis her voice. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e122270">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e122270">
             <speaker>Cal. </speaker>
             <lg>
               <l>You heard the horses footing. </l>
@@ -3548,7 +3536,7 @@
               <l>Certainly. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e122330">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e122330">
             <speaker>Cal. </speaker>
             <lg>
               <l>Speak low, my Lord Adorio: </l>
@@ -3568,7 +3556,7 @@
               <l>Adorio your servant. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e122440">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e122440">
             <speaker>Cal. </speaker>
             <lg>
               <l>As you are so, I do command your silence till we are </l>
@@ -3601,7 +3589,7 @@
             <stage xml:id="ep000631-e122630">Exeunt. </stage>
           </sp>
           <pb n="46" xml:id="ep000631-074-a"/>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e122640">
+          <sp xml:id="ep000631-e122640">
             <stage xml:id="ep000631-e122650">Enter Adorio and Servant. </stage>
           </sp>
           <sp who="#ep000631-adorio" xml:id="ep000631-e122660">
@@ -3626,7 +3614,7 @@
               <l>Here comes the daughter. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e122790">
+          <sp xml:id="ep000631-e122790">
             <stage xml:id="ep000631-e122800">Enter Mirtilla. </stage>
           </sp>
           <sp who="#ep000631-mirtilla" xml:id="ep000631-e122810">
@@ -3673,7 +3661,7 @@
               <l>I hear some footing, ha? </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e123120">
+          <sp xml:id="ep000631-e123120">
             <stage xml:id="ep000631-e123130">Enter Monteclaro and Calypso. </stage>
           </sp>
           <sp who="#ep000631-calypso" xml:id="ep000631-e123140">
@@ -4118,7 +4106,7 @@
               <l>Now what follows? </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e126050">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e126050">
             <speaker>Cal. </speaker>
             <lg>
               <l>I will supply your place; and bound, give me </l>
@@ -4156,7 +4144,7 @@
               <l>He comes; I cannot pray, my fear will kill me. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e126330">
+          <sp xml:id="ep000631-e126330">
             <stage xml:id="ep000631-e126340">Enter Severino (throwing open the doors violently) having a knife. </stage>
           </sp>
           <sp who="#ep000631-severino" xml:id="ep000631-e126350">
@@ -4223,7 +4211,7 @@
               <l>Cursed desire of gold, how art thou punish'd? </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e126800">
+          <sp xml:id="ep000631-e126800">
             <stage xml:id="ep000631-e126810">Enter Jolante. </stage>
           </sp>
           <sp who="#ep000631-jolantre" xml:id="ep000631-e126820">
@@ -4312,7 +4300,7 @@
               <l>Suffer what ever follows. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e127400">
+          <sp xml:id="ep000631-e127400">
             <stage xml:id="ep000631-e127410">Enter Severino (with a Taper.) </stage>
           </sp>
           <sp who="#ep000631-severino" xml:id="ep000631-e127420">
@@ -4474,7 +4462,7 @@
         </div>
         <div n="4" type="act" xml:id="ep000631-e128530">
           <head>Act. 4. Scaen. 1. </head>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e128540">
+          <sp xml:id="ep000631-e128540">
             <stage xml:id="ep000631-e128550">A noyse within, as the fall of a Horse,— then Enter Durazzo, Caldoro, Caliste, Servant. </stage>
           </sp>
           <sp who="#ep000631-durazzo" xml:id="ep000631-e128560">
@@ -4642,7 +4630,7 @@
               <l>Kneeling to you for mercy. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e129620">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e129620">
             <speaker>Cal. </speaker>
             <lg>
               <l>I should know this voice, and something more then fear I am </l>
@@ -4894,7 +4882,7 @@
             <stage xml:id="ep000631-e131340">Exeunt. </stage>
           </sp>
           <pb n="64" xml:id="ep000631-083-a"/>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e131350">
+          <sp xml:id="ep000631-e131350">
             <stage xml:id="ep000631-e131360">Enter Cario and Country-men, (for the Dance and Song.) </stage>
           </sp>
           <sp who="#ep000631-cario" xml:id="ep000631-e131370">
@@ -4920,7 +4908,7 @@
               <l>I'the Rear, the Van is yours. Now chant it spritely. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e131570">
+          <sp xml:id="ep000631-e131570">
             <stage xml:id="ep000631-e131580">Enter Adorio, Mirtilla, Camillo, Lentulo, Donato </stage>
           </sp>
           <sp who="#ep000631-adorio" xml:id="ep000631-e131590">
@@ -5292,7 +5280,7 @@
             </lg>
             <stage xml:id="ep000631-e133860">Exeunt: </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e133870">
+          <sp xml:id="ep000631-e133870">
             <stage xml:id="ep000631-e133880">Enter Monteclaro and Calypso. </stage>
           </sp>
           <sp who="#ep000631-monteclaro" xml:id="ep000631-e133890">
@@ -5341,10 +5329,10 @@
               <l>The King! </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e134190">
+          <sp xml:id="ep000631-e134190">
             <stage xml:id="ep000631-e134200">Enter Alphonso and Captain. </stage>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e134210">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e134210">
             <speaker>Cal. </speaker>
             <lg>
               <l>The Surgeon must be paid. </l>
@@ -5356,7 +5344,7 @@
               <l>Take that. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e134270">
+          <sp who="#ep000631-calypso" xml:id="ep000631-e134270">
             <speaker>Cal. </speaker>
             <lg>
               <l>I thank you, </l>
@@ -5467,7 +5455,7 @@
         <div n="5" type="act" xml:id="ep000631-e134940">
           <pb n="71" xml:id="ep000631-087-b"/>
           <head>Act. 5. Scaen. 1. </head>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e134950">
+          <sp xml:id="ep000631-e134950">
             <stage xml:id="ep000631-e134960">Enter Claudio, and all the Banditi (making a guard) Severino and Jolante (with Oaken leav'd garlands) and Singers. </stage>
           </sp>
           <sp who="#ep000631-severino" xml:id="ep000631-e134970">
@@ -5588,7 +5576,7 @@
             </lg>
             <stage xml:id="ep000631-e135740">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e135750">
+          <sp xml:id="ep000631-e135750">
             <stage xml:id="ep000631-e135760">Enter Lentulo and Camillo. </stage>
           </sp>
           <sp who="#ep000631-lentulo" xml:id="ep000631-e135770">
@@ -5632,7 +5620,7 @@
             </lg>
           </sp>
           <stage xml:id="ep000631-e136010">[Sleeps] </stage>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e136020">
+          <sp xml:id="ep000631-e136020">
             <stage xml:id="ep000631-e136030">Enter Adorio, Mirtilla, Donato. </stage>
           </sp>
           <sp who="#ep000631-adorio" xml:id="ep000631-e136040">
@@ -5641,7 +5629,7 @@
               <l>Was ever man so crost? </l>
             </lg>
           </sp>
-          <sp who="#ep000631-1_woman" xml:id="ep000631-e136070">
+          <sp who="#ep000631-woman-1" xml:id="ep000631-e136070">
             <speaker>1 Wom. </speaker>
             <lg>
               <l>So blest. This is the finest Wild-goose chase. </l>
@@ -5818,7 +5806,7 @@
               </l>
             </lg>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e137160">
+          <sp xml:id="ep000631-e137160">
             <stage xml:id="ep000631-e137170">Enter Durazzo. </stage>
           </sp>
           <sp who="#ep000631-durazzo" xml:id="ep000631-e137180">
@@ -5839,7 +5827,7 @@
             </lg>
           </sp>
           <pb n="76" xml:id="ep000631-091-a"/>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e137320">
+          <sp xml:id="ep000631-e137320">
             <stage xml:id="ep000631-e137330">Enter Caldoro and Caliste. </stage>
           </sp>
           <sp who="#ep000631-caldoro" xml:id="ep000631-e137340">
@@ -6170,14 +6158,14 @@
               <l>But justice against these. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-1_bandit" xml:id="ep000631-e139240">
+          <sp who="#ep000631-bandit-1" xml:id="ep000631-e139240">
             <speaker>1. Bandit. </speaker>
             <lg>
               <l>We'll teach your Sir </l>
               <l>To meddle with wenches in our walks. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-2_bandit" xml:id="ep000631-e139280">
+          <sp who="#ep000631-bandit-2" xml:id="ep000631-e139280">
             <speaker>2. Bandit. </speaker>
             <lg>
               <l>It being against our Canons. </l>
@@ -6196,7 +6184,7 @@
             </lg>
             <stage xml:id="ep000631-e139370">Exeunt: </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e139380">
+          <sp xml:id="ep000631-e139380">
             <stage xml:id="ep000631-e139390">Enter Alphonso, Monteclaro, Captain. </stage>
           </sp>
           <sp who="#ep000631-alphonso" xml:id="ep000631-e139400">
@@ -6276,7 +6264,7 @@
             </lg>
             <stage xml:id="ep000631-e139880">Exeunt. </stage>
           </sp>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e139890">
+          <sp xml:id="ep000631-e139890">
             <stage xml:id="ep000631-e139900">Enter Severino and Jolante. </stage>
           </sp>
           <sp who="#ep000631-severino" xml:id="ep000631-e139910">
@@ -6367,7 +6355,7 @@
             </lg>
           </sp>
           <pb n="82" xml:id="ep000631-097-a"/>
-          <sp who="#ep000631-xxxx" xml:id="ep000631-e140560">
+          <sp xml:id="ep000631-e140560">
             <stage xml:id="ep000631-e140570">Enter Claudio, Banditi, Adorio, Lentulo, Donato, Camillo, Mirtilla, (at one door) Banditi, Durazo, Caldoro, Caliste, (at another;) Alphonso, Monteclaro, Captain, and Banditi. </stage>
           </sp>
           <sp who="#ep000631-claudio" xml:id="ep000631-e140580">
@@ -6386,7 +6374,7 @@
               <l>Be shed in the service. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-1_bandit" xml:id="ep000631-e140680">
+          <sp who="#ep000631-bandit-1" xml:id="ep000631-e140680">
             <speaker>1 Band. </speaker>
             <lg>
               <l>On our lives no drop sir. </l>
@@ -6428,7 +6416,7 @@
               <l>Faln in the Devils mouth. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-caldoro" xml:id="ep000631-e140890">
+          <sp who="#ep000631-caliste" xml:id="ep000631-e140890">
             <speaker>Cal. </speaker>
             <lg>
               <l>My father, </l>
@@ -6779,13 +6767,13 @@
               <l>Such brave men shall live slaves. </l>
             </lg>
           </sp>
-          <sp who="#ep000631-2_bandit" xml:id="ep000631-e143220">
+          <sp who="#ep000631-bandit-2" xml:id="ep000631-e143220">
             <speaker>2. Bandit. </speaker>
             <lg>
               <l>We will not yeeld to't: </l>
             </lg>
           </sp>
-          <sp who="#ep000631-3_bandit" xml:id="ep000631-e143250">
+          <sp who="#ep000631-bandit-3" xml:id="ep000631-e143250">
             <speaker>3. Bandit. </speaker>
             <lg>
               <l>Nor loose our parts. </l>
@@ -6797,7 +6785,7 @@
               <l>How's this? </l>
             </lg>
           </sp>
-          <sp who="#ep000631-2_bandit" xml:id="ep000631-e143310">
+          <sp who="#ep000631-bandit-2" xml:id="ep000631-e143310">
             <speaker>2: Bandit. </speaker>
             <lg>
               <l>You are fitter far </l>
@@ -6821,7 +6809,7 @@
               <l>Hold, give the sign </l>
             </lg>
           </sp>
-          <sp who="#ep000631-all" xml:id="ep000631-e143460">
+          <sp who="#ep000631-bandetti" xml:id="ep000631-e143460">
             <speaker>All. </speaker>
             <lg>
               <l>The King. </l>

@@ -95,28 +95,28 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000298-circe">
+          <person xml:id="ep000298-mrs-shepherd" sex="FEMALE">
+            <persName>Mrs Shepherd</persName>
+          </person>
+          <person xml:id="ep000298-circe" sex="FEMALE">
             <persName>Circe</persName>
           </person>
-          <person xml:id="ep000298-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000298-laneere">
+          <person xml:id="ep000298-laneere" sex="MALE">
             <persName>Laneere</persName>
           </person>
-          <person xml:id="ep000298-spheres">
-            <persName>Spheres</persName>
-          </person>
-          <person xml:id="ep000298-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000298-cupid">
+          <personGrp xml:id="ep000298-spheres" sex="FEMALE">
+            <name>Spheres</name>
+          </personGrp>
+          <personGrp xml:id="ep000298-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000298-cupid" sex="MALE">
             <persName>Cupid</persName>
           </person>
-          <person xml:id="ep000298-jupiter">
+          <person xml:id="ep000298-jupiter" sex="MALE">
             <persName>Jupiter</persName>
           </person>
-          <person xml:id="ep000298-pallas">
+          <person xml:id="ep000298-pallas" sex="FEMALE">
             <persName>Pallas</persName>
           </person>
         </listPerson>
@@ -131,8 +131,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000298"
-                    passive="http://www.wikidata.org/entity/Q7698266"/>
+                   active="https://dracor.org/entity/ep000298"
+                   passive="http://www.wikidata.org/entity/Q7698266"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -317,7 +317,7 @@
             <l>So great a Guest, </l>
             <l>And such a Trayne. </l>
           </lg>
-          <sp who="#ep000298-unassigned" xml:id="ep000298-e101370">
+          <sp who="#ep000298-laneere" xml:id="ep000298-e101370">
             <speaker>Mr. Laneere. </speaker>
             <l>I cannot blame ye if ye gaze, </l>
             <l>And giue small eare to what I say: </l>
@@ -344,7 +344,7 @@
         </div>
         <div type="part" xml:id="ep000298-e101560">
           <head>The Song. </head>
-          <sp who="#ep000298-unassigned" xml:id="ep000298-e101570">
+          <sp who="#ep000298-mrs-shepherd" xml:id="ep000298-e101570">
             <speaker>Mirs Sheperd. </speaker>
             <l>How rich is earth? and poore the skies? </l>
             <l>Depriu'd of heauenly Beauties eyes? </l>
@@ -434,7 +434,7 @@
             <speaker>Cupid: </speaker>
             <l>Then was the wound I gaue her deepe. </l>
           </sp>
-          <sp who="#ep000298-unassigned" xml:id="ep000298-e102170">
+          <sp who="#ep000298-circe #ep000298-jupiter" xml:id="ep000298-e102170">
             <speaker>Both: </speaker>
             <l>T'was I whose power none can withstand, </l>
             <l>That open'd both her heart, and hand. </l>

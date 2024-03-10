@@ -83,63 +83,54 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000271-xxxx">
-            <persName>Xxxx</persName>
-          </person>
-          <person xml:id="ep000271-volterre">
+          <personGrp xml:id="ep000271-attendants" sex="MALE">
+            <name>Attendants</name>
+          </personGrp>
+          <person xml:id="ep000271-volterre" sex="MALE">
             <persName>Volterre</persName>
           </person>
-          <person xml:id="ep000271-orseolo">
+          <person xml:id="ep000271-orseolo" sex="MALE">
             <persName>Orseolo</persName>
           </person>
-          <person xml:id="ep000271-contarini">
+          <person xml:id="ep000271-contarini" sex="MALE">
             <persName>Contarini</persName>
           </person>
-          <person xml:id="ep000271-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000271-comachio">
+          <person xml:id="ep000271-comachio" sex="MALE">
             <persName>Comachio</persName>
           </person>
-          <person xml:id="ep000271-giotto">
+          <person xml:id="ep000271-giotto" sex="MALE">
             <persName>Giotto</persName>
           </person>
-          <person xml:id="ep000271-duchess">
+          <person xml:id="ep000271-duchess" sex="FEMALE">
             <persName>Duchess</persName>
           </person>
-          <person xml:id="ep000271-laura">
+          <person xml:id="ep000271-laura" sex="FEMALE">
             <persName>Laura</persName>
           </person>
-          <person xml:id="ep000271-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000271-dandalo">
+          <person xml:id="ep000271-dandalo" sex="MALE">
             <persName>Dandalo</persName>
           </person>
-          <person xml:id="ep000271-carintha">
+          <person xml:id="ep000271-carintha" sex="FEMALE">
             <persName>Carintha</persName>
           </person>
-          <person xml:id="ep000271-depazzi">
+          <person xml:id="ep000271-depazzi" sex="MALE">
             <persName>Depazzi</persName>
           </person>
-          <person xml:id="ep000271-crispino">
+          <person xml:id="ep000271-crispino" sex="MALE">
             <persName>Crispino</persName>
           </person>
-          <person xml:id="ep000271-sancho">
+          <person xml:id="ep000271-sancho" sex="MALE">
             <persName>Sancho</persName>
           </person>
-          <person xml:id="ep000271-officer">
+          <person xml:id="ep000271-officer" sex="MALE">
             <persName>Officer</persName>
           </person>
-          <person xml:id="ep000271-servant">
+          <person xml:id="ep000271-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000271-lords">
-            <persName>Lords</persName>
-          </person>
-          <person xml:id="ep000271-pazzi">
-            <persName>Pazzi</persName>
-          </person>
+          <personGrp xml:id="ep000271-lords" sex="MALE">
+            <name>Lords</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -155,8 +146,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000271"
-                    passive="http://www.wikidata.org/entity/Q7740925"/>
+                   active="https://dracor.org/entity/ep000271"
+                   passive="http://www.wikidata.org/entity/Q7740925"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -236,7 +227,7 @@
         <head>THE HVMOROVS COVRTIER. </head>
         <div n="1" type="act" xml:id="ep000271-e100530">
           <head>Actus Primi. Scena Prima. </head>
-          <sp who="#ep000271-xxxx" xml:id="ep000271-e100540">
+          <sp xml:id="ep000271-e100540">
             <stage xml:id="ep000271-e100550">Enter Volterre, Orseollo. </stage>
           </sp>
           <sp who="#ep000271-volterre" xml:id="ep000271-e100560">
@@ -530,7 +521,7 @@
             <l>Madams halfe cursies, I neere come to Court </l>
             <l>But to defend me from it. </l>
           </sp>
-          <sp who="#ep000271-unassigned" xml:id="ep000271-e102610">
+          <sp who="#ep000271-contarini" xml:id="ep000271-e102610">
             <speaker>Bo. </speaker>
             <l>Ha? </l>
           </sp>
@@ -759,7 +750,7 @@
             <l>Shortly you shall see I am art, prevention </l>
             <l>Of all danger. </l>
           </sp>
-          <sp who="#ep000271-all" xml:id="ep000271-e104190">
+          <sp who="#ep000271-attendants" xml:id="ep000271-e104190">
             <speaker>All. </speaker>
             <l>You are my gracious Mistresse. </l>
           </sp>
@@ -963,7 +954,7 @@
         </div>
         <div n="2" type="act" xml:id="ep000271-e105530">
           <head>Act. 2. Scena. 1. </head>
-          <sp who="#ep000271-xxxx" xml:id="ep000271-e105540">
+          <sp xml:id="ep000271-e105540">
             <stage xml:id="ep000271-e105550">Enter Contarini, Dandalo. </stage>
           </sp>
           <sp who="#ep000271-contarini" xml:id="ep000271-e105560">
@@ -1461,7 +1452,7 @@
             <l>I doe discourse of Epigrams, and an Epitaph </l>
             <l>Vpon some one or other of my kindred. </l>
           </sp>
-          <sp who="#ep000271-comachio" xml:id="ep000271-e108800">
+          <sp xml:id="ep000271-e108800">
             <stage xml:id="ep000271-e108810">Enter Comachio, and Giotto. </stage>
             <l>I ha made a rare one on my Vncle, and </l>
             <l>He would dye shortly to deserve it. </l>
@@ -1956,7 +1947,7 @@
         </div>
         <div n="3" type="act" xml:id="ep000271-e111880">
           <head>Actus 3. Scaen. 1. </head>
-          <sp who="#ep000271-xxxx" xml:id="ep000271-e111890">
+          <sp xml:id="ep000271-e111890">
             <stage xml:id="ep000271-e111900">Enter Giotto, Dutchesse, Laura, Carintha. </stage>
           </sp>
           <sp who="#ep000271-duchess" xml:id="ep000271-e111910">
@@ -3013,7 +3004,7 @@
         </div>
         <div n="4" type="act" xml:id="ep000271-e118670">
           <head>Actus 4. Scaen. 1. </head>
-          <sp who="#ep000271-xxxx" xml:id="ep000271-e118680">
+          <sp xml:id="ep000271-e118680">
             <stage xml:id="ep000271-e118690">Enter Dutchesse, Laura, Carintha. </stage>
           </sp>
           <sp who="#ep000271-duchess" xml:id="ep000271-e118700">
@@ -4166,7 +4157,7 @@
         </div>
         <div n="5" type="act" xml:id="ep000271-e125910">
           <head>Act. 5. Scena. 1. </head>
-          <sp who="#ep000271-xxxx" xml:id="ep000271-e125920">
+          <sp xml:id="ep000271-e125920">
             <stage xml:id="ep000271-e125930">Enter Contarini, Carintha. </stage>
           </sp>
           <sp who="#ep000271-contarini" xml:id="ep000271-e125940">
@@ -4888,7 +4879,8 @@
             <l>And who should be the villaine thinke you, but </l>
             <l>Giotto. </l>
           </sp>
-          <sp who="#ep000271-all" xml:id="ep000271-e130430">
+          <sp who="#ep000271-carintha #ep000271-laura #ep000271-duchess"
+                   xml:id="ep000271-e130430">
             <speaker>
               <pb n="eebo_img-32" xml:id="ep000271-032-b"/>All. </speaker>
             <l>Giotto. </l>
@@ -5388,7 +5380,7 @@
             <speaker>Dutch. </speaker>
             <l>Signiour de Pazzi. </l>
           </sp>
-          <sp who="#ep000271-pazzi" xml:id="ep000271-e133600">
+          <sp who="#ep000271-depazzi" xml:id="ep000271-e133600">
             <speaker>Paz. </speaker>
             <l>Hom! now I begin my raignē: Dutchēsse, </l>
             <l>We know thy minde: thou wouldst protest thy great </l>
@@ -5401,7 +5393,7 @@
             <speaker>Dutch. </speaker>
             <l>Your Lordship will please to hearē me speake. </l>
           </sp>
-          <sp who="#ep000271-pazzi" xml:id="ep000271-e133690">
+          <sp who="#ep000271-depazzi" xml:id="ep000271-e133690">
             <speaker>Paz. </speaker>
             <l>First we would know thy lips. I say it is </l>
             <l>Our will to busse thy highnesse. </l>
@@ -5414,7 +5406,7 @@
             <speaker>Com. </speaker>
             <l>How now Nephew?— </l>
           </sp>
-          <sp who="#ep000271-pazzi" xml:id="ep000271-e133760">
+          <sp who="#ep000271-depazzi" xml:id="ep000271-e133760">
             <speaker>Paz. </speaker>
             <l>Tis fine ifaith— </l>
             <stage xml:id="ep000271-e133780">Giotto and the Dutchesse imbrace. </stage>
@@ -5467,7 +5459,7 @@
             <speaker>Cris. </speaker>
             <l>Then I am no Iudge now. </l>
           </sp>
-          <sp who="#ep000271-pazzi" xml:id="ep000271-e134120">
+          <sp who="#ep000271-depazzi" xml:id="ep000271-e134120">
             <speaker>Paz. </speaker>
             <l>Tis a new tricke of state, continually </l>
             <l>To shift great offices. </l>
@@ -5476,7 +5468,7 @@
             <speaker>Cris. </speaker>
             <l>Eare I've made my cushion warme! </l>
           </sp>
-          <sp who="#ep000271-pazzi" xml:id="ep000271-e134170">
+          <sp who="#ep000271-depazzi" xml:id="ep000271-e134170">
             <speaker>Paz. </speaker>
             <l>No remedy, If I'me his favourite, </l>
             <l>Thou shalt be my Pimpe, then th'art sure to rise. </l>
@@ -5486,7 +5478,7 @@
             <l>Must we not be reconcil'd to my Lord </l>
             <l>Depazzi too? </l>
           </sp>
-          <sp who="#ep000271-pazzi" xml:id="ep000271-e134230">
+          <sp who="#ep000271-depazzi" xml:id="ep000271-e134230">
             <speaker>Paz. </speaker>
             <l>I forgive your highnesse, I. </l>
           </sp>
@@ -5507,7 +5499,8 @@
             <l>Madam, you are truely noble: you have </l>
             <l>Merited our best assistance. </l>
           </sp>
-          <sp who="#ep000271-all" xml:id="ep000271-e134360">
+          <sp who="#ep000271-attendants #ep000271-laura #ep000271-comachio #ep000271-depazzi #ep000271-crispino #ep000271-volterre"
+                   xml:id="ep000271-e134360">
             <speaker>All. </speaker>
             <l>Long Foscari, Duke of Mantua, and Parma. </l>
             <stage xml:id="ep000271-e134380">

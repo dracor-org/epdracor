@@ -73,53 +73,53 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000462-verona">
+          <person xml:id="ep000462-mason" sex="MALE">
+            <persName>Mason</persName>
+          </person>
+          <person xml:id="ep000462-verona" sex="MALE">
             <persName>Verona</persName>
           </person>
-          <person xml:id="ep000462-prospero">
+          <person xml:id="ep000462-prospero" sex="MALE">
             <persName>Prospero</persName>
           </person>
-          <person xml:id="ep000462-montecelso">
+          <person xml:id="ep000462-montecelso" sex="MALE">
             <persName>Montecelso</persName>
           </person>
-          <person xml:id="ep000462-ambassador">
-            <persName>Ambassador</persName>
-          </person>
-          <person xml:id="ep000462-cosmo">
+          <personGrp xml:id="ep000462-ambassadors" sex="MALE">
+            <name>Ambassadors</name>
+          </personGrp>
+          <person xml:id="ep000462-cosmo" sex="MALE">
             <persName>Cosmo</persName>
           </person>
-          <person xml:id="ep000462-mantua">
+          <person xml:id="ep000462-mantua" sex="MALE">
             <persName>Mantua</persName>
           </person>
-          <person xml:id="ep000462-clown">
+          <person xml:id="ep000462-clown" sex="MALE">
             <persName>Clown</persName>
           </person>
-          <person xml:id="ep000462-ferrara">
+          <person xml:id="ep000462-ferrara" sex="MALE">
             <persName>Ferrara</persName>
           </person>
-          <person xml:id="ep000462-florence">
+          <person xml:id="ep000462-florence" sex="MALE">
             <persName>Florence</persName>
           </person>
-          <person xml:id="ep000462-julio">
+          <person xml:id="ep000462-julio" sex="MALE">
             <persName>Julio</persName>
           </person>
-          <person xml:id="ep000462-duchess">
+          <person xml:id="ep000462-duchess" sex="FEMALE">
             <persName>Duchess</persName>
           </person>
-          <person xml:id="ep000462-valentia">
+          <person xml:id="ep000462-valentia" sex="FEMALE">
             <persName>Valentia</persName>
           </person>
-          <person xml:id="ep000462-carpenter">
+          <person xml:id="ep000462-carpenter" sex="MALE">
             <persName>Carpenter</persName>
           </person>
-          <person xml:id="ep000462-smith">
+          <person xml:id="ep000462-smith" sex="MALE">
             <persName>Smith</persName>
           </person>
-          <person xml:id="ep000462-bricklayer">
+          <person xml:id="ep000462-bricklayer" sex="MALE">
             <persName>Bricklayer</persName>
-          </person>
-          <person xml:id="ep000462-all">
-            <persName>All</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -273,7 +273,7 @@
           <l>Shall by the Children be confirmed at length, </l>
           <l>'Tis now on foot. </l>
         </sp>
-        <sp who="#ep000462-ambassador" xml:id="ep000462-e101040">
+        <sp who="#ep000462-ambassadors" xml:id="ep000462-e101040">
           <speaker>Em. </speaker>
           <l>Your grace mistakes the tenour, </l>
           <l>And the strange purpose our Embasie; </l>
@@ -302,7 +302,7 @@
           <l>Depart our Court, be gone without reply, </l>
           <l>Not Mantuans, but Mantua we defie. </l>
         </sp>
-        <sp who="#ep000462-ambassador" xml:id="ep000462-e101290">
+        <sp who="#ep000462-ambassadors" xml:id="ep000462-e101290">
           <speaker>Emb. </speaker>
           <l>Let me conclude my Message. </l>
         </sp>
@@ -442,7 +442,7 @@
           <speaker>Man. </speaker>
           <l>You have breath'd defiance then. </l>
         </sp>
-        <sp who="#ep000462-ambassador" xml:id="ep000462-e102190">
+        <sp who="#ep000462-ambassadors" xml:id="ep000462-e102190">
           <speaker>Emb. </speaker>
           <l>I have my Lord. </l>
         </sp>
@@ -450,7 +450,7 @@
           <speaker>Man. </speaker>
           <l>And how did he receive it? </l>
         </sp>
-        <sp who="#ep000462-ambassador" xml:id="ep000462-e102230">
+        <sp who="#ep000462-ambassadors" xml:id="ep000462-e102230">
           <speaker>Emb. </speaker>
           <l>With such scorne </l>
           <l>And proud contempt, that with far greater spleene </l>
@@ -880,7 +880,7 @@
           <speaker>Clo. </speaker>
           <p>Come on my masters, the Duke has appointed me to be Overseer of his workes, the building of this Tower is put to my indiscretion; therefore come every one of you, and from me take your directions; what are you? </p>
         </sp>
-        <sp who="#ep000462-mantua" xml:id="ep000462-e105080">
+        <sp who="#ep000462-mason" xml:id="ep000462-e105080">
           <speaker>Ma. </speaker>
           <l>I am a free Mason, and expert in squaring stone. </l>
         </sp>
@@ -889,7 +889,7 @@
           <l>A good proper square fellow, if your trade be in stone, </l>
           <l>I make no question but you will worke hard. </l>
         </sp>
-        <sp who="#ep000462-mantua" xml:id="ep000462-e105130">
+        <sp who="#ep000462-mason" xml:id="ep000462-e105130">
           <speaker>Ma. </speaker>
           <p>I warrant you sir Ile do my endeavour; will you give us directions? </p>
         </sp>
@@ -897,7 +897,7 @@
           <speaker>Clo. </speaker>
           <l>First you must make a faire large post at the entrie. </l>
         </sp>
-        <sp who="#ep000462-mantua" xml:id="ep000462-e105170">
+        <sp who="#ep000462-mason" xml:id="ep000462-e105170">
           <speaker>Ma. </speaker>
           <p>I warrant you Ile make a large porch that any Lady shall go in and out at pleasure. </p>
         </sp>
@@ -910,7 +910,7 @@
           <speaker>Clo. </speaker>
           <p>Tell not me of possible, such directions I had, and such an one I must have made: Then must I have faire bay windows that must alwaies stand open and give no light, that they that stand without and looke in may see no body within, and she that stands within and looks out may see no body without; the <pb n="13" xml:id="ep000462-008-b"/>reason is, my Lord meanes to keep his daughter in that Tower, where she must neither see nor be seen. </p>
         </sp>
-        <sp who="#ep000462-mantua" xml:id="ep000462-e105240">
+        <sp who="#ep000462-mason" xml:id="ep000462-e105240">
           <speaker>Ma. </speaker>
           <p>Then none must offer to looke out from the inside, nor in from the outside, else 'tis not within the compasse of workmanship. </p>
         </sp>
@@ -942,7 +942,8 @@
           <speaker>Clo. </speaker>
           <p>Marry will I sir, you must have a speciall regard in your Chimneys that they cast heat, though there be no fire in them, and the Kitchin Chimney especially must every meale yeeld rost meat without sending to market, and so to worke for a spurt, and after merrily to dinner. </p>
         </sp>
-        <sp who="#ep000462-all" xml:id="ep000462-e105400">
+        <sp who="#ep000462-bricklayer #ep000462-smith #ep000462-carpenter #ep000462-clown #ep000462-mason"
+                xml:id="ep000462-e105400">
           <speaker>Omues. </speaker>
           <l>A good motion. <stage xml:id="ep000462-e105420">Exeunt. </stage>
           </l>
@@ -1010,7 +1011,7 @@
           <speaker>Fer. </speaker>
           <l>Shall I baile her my Lord? Ile put you in good security. </l>
         </sp>
-        <sp who="#ep000462-mantua" xml:id="ep000462-e105790">
+        <sp who="#ep000462-mason" xml:id="ep000462-e105790">
           <speaker>Ma. </speaker>
           <l>But not in better security than I have put her in already, </l>
           <l>Yet better would do well; oh for a man </l>
@@ -4610,7 +4611,8 @@
           <l>Speake, where's Valentia, can you tell me? </l>
         </sp>
         <pb n="64" xml:id="ep000462-034-a"/>
-        <sp who="#ep000462-all" xml:id="ep000462-e128030">
+        <sp who="#ep000462-julio #ep000462-clown #ep000462-prospero #ep000462-ferrara #ep000462-florence #ep000462-valentia"
+                xml:id="ep000462-e128030">
           <speaker>All. </speaker>
           <l>No. </l>
         </sp>

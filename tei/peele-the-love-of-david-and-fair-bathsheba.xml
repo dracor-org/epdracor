@@ -91,8 +91,14 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000227-second-concubine" sex="FEMALE">
-            <persName>Second Concubine</persName>
+          <personGrp xml:id="ep000227-soldiers" sex="MALE">
+            <name>Soldiers</name>
+          </personGrp>
+          <person xml:id="ep000227-concubine-2" sex="FEMALE">
+            <persName>Concubine 2</persName>
+          </person>
+          <person xml:id="ep000227-concubine-1" sex="FEMALE">
+            <persName>Concubine 1</persName>
           </person>
           <person xml:id="ep000227-bethsabe" sex="FEMALE">
             <persName>Bethsabe</persName>
@@ -145,8 +151,8 @@
           <person xml:id="ep000227-adonia" sex="MALE">
             <persName>Adonia</persName>
           </person>
-          <person xml:id="ep000227-widow-of-thecoa" sex="FEMALE">
-            <persName>Widow of Thecoa</persName>
+          <person xml:id="ep000227-widow" sex="FEMALE">
+            <persName>Widow</persName>
           </person>
           <person xml:id="ep000227-sadoc" sex="MALE">
             <persName>Sadoc</persName>
@@ -157,9 +163,9 @@
           <person xml:id="ep000227-ithay" sex="MALE">
             <persName>Ithay</persName>
           </person>
-          <person xml:id="ep000227-first-concubine" sex="FEMALE">
-            <persName>First Concubine</persName>
-          </person>
+          <personGrp xml:id="ep000227-concubine" sex="FEMALE">
+            <name>Concubines</name>
+          </personGrp>
           <person xml:id="ep000227-achitophel" sex="MALE">
             <persName>Achitophel</persName>
           </person>
@@ -168,6 +174,9 @@
           </person>
           <person xml:id="ep000227-semei" sex="MALE">
             <persName>Semei</persName>
+          </person>
+          <person xml:id="ep000227-jonat" sex="MALE">
+            <persName>Jonathan</persName>
           </person>
           <person xml:id="ep000227-soldier" sex="MALE">
             <persName>Soldier</persName>
@@ -1665,7 +1674,7 @@
             </l>
           </sp>
           <stage xml:id="ep000227-e111130">Manet Dauid, Enter widdow of Thecoa. </stage>
-          <sp who="#ep000227-widow-of-thecoa" xml:id="ep000227-e111140">
+          <sp who="#ep000227-widow" xml:id="ep000227-e111140">
             <speaker>Widdow. </speaker>
             <l>God saue King Dauid, King of Israel, </l>
             <l>And blesse the gates of Syon for his sake. </l>
@@ -1675,7 +1684,7 @@
             <l>Woman, why mournest thou, rise from the earth, </l>
             <l>Tell me what sorrow hath befalne thy soule. </l>
           </sp>
-          <sp who="#ep000227-widow-of-thecoa" xml:id="ep000227-e111200">
+          <sp who="#ep000227-widow" xml:id="ep000227-e111200">
             <speaker>Widdow. </speaker>
             <l>Thy seruants soule O King is troubled sore, </l>
             <l>And greenous is the anguish of her heart, </l>
@@ -1687,7 +1696,7 @@
             <pb xml:id="ep000227-016-a"/>
             <l>What aileth thee, or what is come to passe. </l>
           </sp>
-          <sp who="#ep000227-widow-of-thecoa" xml:id="ep000227-e111270">
+          <sp who="#ep000227-widow" xml:id="ep000227-e111270">
             <speaker>Widdow. </speaker>
             <l>Thy seruant is a widdow in Thecoa, </l>
             <l>Two sonnes thy handmaid had, and they (my lord) </l>
@@ -1712,7 +1721,7 @@
             <l>Woman to God alone belongs reuenge, </l>
             <l>Shall then the kindred slay him for his sinne? </l>
           </sp>
-          <sp who="#ep000227-widow-of-thecoa" xml:id="ep000227-e111480">
+          <sp who="#ep000227-widow" xml:id="ep000227-e111480">
             <speaker>Widdow. </speaker>
             <l>Well hath King Dauid to his handmaid spoke, </l>
             <l>But wherefore then hast thou determined </l>
@@ -1731,7 +1740,7 @@
             <l>Is not the hand of Ioab in this worke? </l>
             <l>Tell me is not his finger in this fact? </l>
           </sp>
-          <sp who="#ep000227-widow-of-thecoa" xml:id="ep000227-e111630">
+          <sp who="#ep000227-widow" xml:id="ep000227-e111630">
             <speaker>Wid. </speaker>
             <l>It is my lord, his hand is in this worke, </l>
             <l>Assure thee, Ioab captaine of thy host, </l>
@@ -2045,7 +2054,7 @@
             <l>Sooner then his cleare eyes should suffer staine, </l>
             <l>Or be offended with a lowring day. </l>
           </sp>
-          <sp who="#ep000227-first-concubine" xml:id="ep000227-e114080">
+          <sp who="#ep000227-concubine" xml:id="ep000227-e114080">
             <speaker>Concub. </speaker>
             <l>Thy fathers honour, gracelesse Absalon, </l>
             <l>And ours thus beaten with thy violent armes, </l>
@@ -2054,7 +2063,7 @@
             <l>And will dart plagues at thy aspiring head, </l>
             <l>For doing this disgrace to Dauids throne. </l>
           </sp>
-          <sp who="#ep000227-second-concubine" xml:id="ep000227-e114150">
+          <sp who="#ep000227-concubine-2" xml:id="ep000227-e114150">
             <speaker>2. </speaker>
             <l>To Dauids throne, to Dauids holy throne, </l>
             <l>Whose scepter angels guard with swords of fire, </l>
@@ -2081,7 +2090,7 @@
             <l>And wash your couches with your mourning teares, </l>
             <l>For greefe that Dauids kingdome is decaied. </l>
           </sp>
-          <sp who="#ep000227-first-concubine" xml:id="ep000227-e114360">
+          <sp who="#ep000227-concubine-1" xml:id="ep000227-e114360">
             <speaker>1. </speaker>
             <l>No Absalon, his kingdome is enchaind </l>
             <l>Fast to the finger of great Iacobs God, </l>
@@ -2216,7 +2225,7 @@
             <l>Then that is giuen vs from Achitophel, </l>
             <l>And so I thinke doth euery souldier here. </l>
           </sp>
-          <sp who="#ep000227-absolon #ep000227-amasa" xml:id="ep000227-e115440">
+          <sp who="#ep000227-soldiers" xml:id="ep000227-e115440">
             <speaker>All. </speaker>
             <l>Cusaies counsell is better then Achitophels. </l>
           </sp>
@@ -2421,7 +2430,7 @@
             <l>Which was to number euery Israelite, </l>
             <l>And so assault you in their pride of strength. </l>
           </sp>
-          <sp who="#ep000227-jonadab" xml:id="ep000227-e117010">
+          <sp who="#ep000227-jonat" xml:id="ep000227-e117010">
             <speaker>Ionat. </speaker>
             <l>Abiathar besides intreats the King </l>
             <l>To send his men of warre against his sonne, </l>

@@ -94,59 +94,53 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000006-lewis">
-            <persName>Lewis</persName>
-          </person>
-          <person xml:id="ep000006-angelina">
+          <person xml:id="ep000006-angelina" sex="FEMALE">
             <persName>Angelina</persName>
           </person>
-          <person xml:id="ep000006-sylvia">
+          <person xml:id="ep000006-lewis" sex="MALE">
+            <persName>Lewis</persName>
+          </person>
+          <person xml:id="ep000006-sylvia" sex="FEMALE">
             <persName>Sylvia</persName>
           </person>
-          <person xml:id="ep000006-andrew">
-            <persName>Andrew</persName>
-          </person>
-          <person xml:id="ep000006-cook">
+          <person xml:id="ep000006-cook" sex="MALE">
             <persName>Cook</persName>
           </person>
-          <person xml:id="ep000006-butler">
+          <person xml:id="ep000006-andrew" sex="MALE">
+            <persName>Andrew</persName>
+          </person>
+          <person xml:id="ep000006-butler" sex="MALE">
             <persName>Butler</persName>
           </person>
-          <person xml:id="ep000006-brisac">
+          <person xml:id="ep000006-brisac" sex="MALE">
             <persName>Brisac</persName>
           </person>
-          <person xml:id="ep000006-charles">
+          <person xml:id="ep000006-charles" sex="MALE">
             <persName>Charles</persName>
           </person>
-          <person xml:id="ep000006-eustace">
+          <person xml:id="ep000006-eustace" sex="MALE">
             <persName>Eustace</persName>
           </person>
-          <person xml:id="ep000006-egremont">
+          <person xml:id="ep000006-egremont" sex="MALE">
             <persName>Egremont</persName>
           </person>
-          <person xml:id="ep000006-cowsy">
+          <person xml:id="ep000006-cowsy" sex="MALE">
             <persName>Cowsy</persName>
           </person>
-          <person xml:id="ep000006-miramont">
+          <person xml:id="ep000006-miramont" sex="MALE">
             <persName>Miramont</persName>
           </person>
-          <person xml:id="ep000006-notary">
+          <person xml:id="ep000006-notary" sex="MALE">
             <persName>Notary</persName>
           </person>
-          <person xml:id="ep000006-lilly">
+          <person xml:id="ep000006-lilly" sex="FEMALE">
             <persName>Lilly</persName>
           </person>
-          <person xml:id="ep000006-prologue">
-            <persName>Prologue</persName>
+          <person xml:id="ep000006-priest" sex="MALE">
+            <persName>Priest</persName>
           </person>
-          <person xml:id="ep000006-servant">
+          <person xml:id="ep000006-servant" sex="MALE">
             <persName>Servant</persName>
-          </person>
-          <person xml:id="ep000006-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000006-multiple">
-            <persName>Multiple</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -163,8 +157,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000006"
-                    passive="http://www.wikidata.org/entity/Q7731687"/>
+                   active="https://dracor.org/entity/ep000006"
+                   passive="http://www.wikidata.org/entity/Q7731687"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -231,7 +225,7 @@
         <div n="1" type="scene" xml:id="ep000006-e100460">
           <head>Actus I. Scoena I. </head>
           <stage xml:id="ep000006-e100470">LEWIS, ANGELLINA, SYLVIA. </stage>
-          <sp who="#ep000006-lewis" xml:id="ep000006-e100480">
+          <sp xml:id="ep000006-e100480">
             <l>NAy, I must walke you farther. </l>
           </sp>
           <sp who="#ep000006-angelina" xml:id="ep000006-e100500">
@@ -476,7 +470,7 @@
         <div n="2" type="scene" xml:id="ep000006-e102300">
           <head>Actus I. Scoena II. </head>
           <stage xml:id="ep000006-e102310">ANDREW, COOKE, BUTLER. </stage>
-          <sp who="#ep000006-andrew" xml:id="ep000006-e102320">
+          <sp xml:id="ep000006-e102320">
             <l>Unload part of the Library, and make roome </l>
             <l>For th'other dozen of Carts, Ile straight be with you. </l>
           </sp>
@@ -1109,7 +1103,7 @@
         <div n="1" type="scene" xml:id="ep000006-e106750">
           <head>Actus 2. Scoena 1. </head>
           <stage xml:id="ep000006-e106760">MIRAMONT. BRISAC. </stage>
-          <sp who="#ep000006-miramont" xml:id="ep000006-e106770">
+          <sp xml:id="ep000006-e106770">
             <l>NAy brother, brother. </l>
           </sp>
           <sp who="#ep000006-brisac" xml:id="ep000006-e106790">
@@ -1496,7 +1490,7 @@
         <div n="2" type="scene" xml:id="ep000006-e109450">
           <head>Actus II. Scoena II. </head>
           <stage xml:id="ep000006-e109460">EUSTACE, EGREMONT, COWSY. </stage>
-          <sp who="#ep000006-eustace" xml:id="ep000006-e109470">
+          <sp xml:id="ep000006-e109470">
             <l>How doe I looke now to my elder Brother; </l>
             <l>Nay, 'tis a handsome Suite. </l>
           </sp>
@@ -1604,7 +1598,7 @@
         <div n="3" type="scene" xml:id="ep000006-e110230">
           <head>Actus II. Scoena II. </head>
           <stage xml:id="ep000006-e110240">COOKE, ANDREW, BUTLER. </stage>
-          <sp who="#ep000006-cook" xml:id="ep000006-e110250">
+          <sp xml:id="ep000006-e110250">
             <l>And how do's my Master? </l>
           </sp>
           <sp who="#ep000006-andrew" xml:id="ep000006-e110270">
@@ -1753,7 +1747,7 @@
         <div n="4" type="scene" xml:id="ep000006-e111250">
           <head>Actus II. Scoena IV. </head>
           <stage xml:id="ep000006-e111260">CHARLES. </stage>
-          <sp who="#ep000006-charles" xml:id="ep000006-e111270">
+          <sp xml:id="ep000006-e111270">
             <l>I have forgot to eate and sleepe with reading, </l>
             <l>And all my faculties turne into studie, </l>
             <l>Tis meat and sleepe, what need I outward garments, </l>
@@ -1883,7 +1877,7 @@
         <div n="1" type="scene" xml:id="ep000006-e112130">
           <head>Actus 3. Scoena 1. </head>
           <stage xml:id="ep000006-e112140">LEWIS, ANGELLINA, SYLVIA, NOTARY. </stage>
-          <sp who="#ep000006-lewis" xml:id="ep000006-e112150">
+          <sp xml:id="ep000006-e112150">
             <l>THis is the day my daughter Angellina, </l>
             <l>The happy, that must make you a fortune, </l>
             <l>A large and full one, my great care has wrought it, </l>
@@ -1973,7 +1967,7 @@
         <div n="2" type="scene" xml:id="ep000006-e112780">
           <head>Actus III. Scoena II. </head>
           <stage xml:id="ep000006-e112790">BRISAC, ANDREW, COOKE, LILLY. </stage>
-          <sp who="#ep000006-brisac" xml:id="ep000006-e112800">
+          <sp xml:id="ep000006-e112800">
             <l>Waite on your Master, he shall have that befits him. </l>
           </sp>
           <sp who="#ep000006-andrew" xml:id="ep000006-e112820">
@@ -2067,7 +2061,7 @@
         <div n="3" type="scene" xml:id="ep000006-e113440">
           <head>Actus III. Scoena III. </head>
           <stage xml:id="ep000006-e113450">CHARLES. </stage>
-          <sp who="#ep000006-charles" xml:id="ep000006-e113460">
+          <sp xml:id="ep000006-e113460">
             <l>What noise is in this house, my head is broken, </l>
             <l>Within a Parenthesis, in every corner </l>
             <l>As if the earth were shaken with some strange Collect, </l>
@@ -2579,7 +2573,7 @@
             <l>Come let him bring his sonnes hand, and all's done. </l>
             <l>Is yours ready? </l>
           </sp>
-          <sp who="#ep000006-prologue" xml:id="ep000006-e116620">
+          <sp who="#ep000006-priest" xml:id="ep000006-e116620">
             <speaker>Pr. </speaker>
             <l>Yes, Ile dispatch ye presently, </l>
             <l>Immediately, for in truth I am a hungry. </l>
@@ -3131,7 +3125,7 @@
           <pb xml:id="ep000006-023-a"/>
           <head>Actus 4. Scoena 1. </head>
           <stage xml:id="ep000006-e120290">Enter BRISAC, EUSTACE, EGREMONT, COWSY. </stage>
-          <sp who="#ep000006-brisac" xml:id="ep000006-e120300">
+          <sp xml:id="ep000006-e120300">
             <l>NEre talke to me, you are no men but Masquers, </l>
             <l>Shapes, shadowes, and the signes of men, Court bubbles, </l>
             <l>That every breath or breakes or blowes away, </l>
@@ -3309,7 +3303,7 @@
         <div n="2" type="scene" xml:id="ep000006-e121590">
           <head>Actus IV. Scoena II. </head>
           <stage xml:id="ep000006-e121600">Enter MIRAMONT, ANDREW. </stage>
-          <sp who="#ep000006-miramont" xml:id="ep000006-e121610">
+          <sp xml:id="ep000006-e121610">
             <l>Doe they chase roundly? </l>
           </sp>
           <sp who="#ep000006-andrew" xml:id="ep000006-e121630">
@@ -3419,7 +3413,7 @@
         <div n="3" type="scene" xml:id="ep000006-e122340">
           <head>Actus IV. Scoena III. </head>
           <stage xml:id="ep000006-e122350">ANGELLINA, SYLVIA with a taper. </stage>
-          <sp who="#ep000006-angelina" xml:id="ep000006-e122360">
+          <sp xml:id="ep000006-e122360">
             <l>I'me worse than ere I was, for now I feare, </l>
             <l>That that I love, that that I onely dote on; </l>
             <l>He followes me through every roome I passe, </l>
@@ -3691,7 +3685,7 @@
             <speaker>Eust. </speaker>
             <l>Nay, then you must goe, I must claime mine owne. </l>
           </sp>
-          <sp who="#ep000006-both" xml:id="ep000006-e124200">
+          <sp who="#ep000006-egremont #ep000006-cowsy" xml:id="ep000006-e124200">
             <speaker>Both. </speaker>
             <l>Away, away with her. </l>
           </sp>
@@ -3858,7 +3852,7 @@
             <speaker>Eust. </speaker>
             <l>In truth Sir, I came but to doe my duty. </l>
           </sp>
-          <sp who="#ep000006-both" xml:id="ep000006-e125310">
+          <sp who="#ep000006-egremont #ep000006-cowsy" xml:id="ep000006-e125310">
             <speaker>Both. </speaker>
             <l>And we to renew our loves. </l>
           </sp>
@@ -3917,7 +3911,7 @@
         <div n="4" type="scene" xml:id="ep000006-e125730">
           <head>Actus IV. Scoena IV. </head>
           <stage xml:id="ep000006-e125740">Enter ANDREW. </stage>
-          <sp who="#ep000006-andrew" xml:id="ep000006-e125750">
+          <sp xml:id="ep000006-e125750">
             <l>Are you come old Master? very good, your horse </l>
             <l>Is well set up, but ere ye part; Ile ride you </l>
             <l>And spurre your reverend Justiceship such a question, </l>
@@ -4338,7 +4332,7 @@
             <l>He will ride you </l>
             <l>The better, </l>
           </sp>
-          <sp who="#ep000006-multiple" xml:id="ep000006-e128580">
+          <sp who="#ep000006-lilly #ep000006-andrew" xml:id="ep000006-e128580">
             <speaker>Lilly. And. </speaker>
             <l>Wee'll teach him to meddle with Scholars. </l>
           </sp>
@@ -4363,7 +4357,7 @@
           <pb xml:id="ep000006-031-a"/>
           <head>Actus 5. Scoena 1. </head>
           <stage xml:id="ep000006-e128720">EUSTACE, EGREMONT, COWSY. </stage>
-          <sp who="#ep000006-eustace" xml:id="ep000006-e128730">
+          <sp xml:id="ep000006-e128730">
             <l>Turn'd out of doores and baffled! </l>
           </sp>
           <sp who="#ep000006-egremont" xml:id="ep000006-e128750">
@@ -4606,7 +4600,7 @@
             <l>To be disciplin'd for your roguery, and this done </l>
             <l>With true contrition. </l>
           </sp>
-          <sp who="#ep000006-both" xml:id="ep000006-e130370">
+          <sp who="#ep000006-egremont #ep000006-cowsy" xml:id="ep000006-e130370">
             <speaker>Both. </speaker>
             <l>Yes Sir. </l>
           </sp>
@@ -4625,7 +4619,7 @@
             <l>Keepe your oathes, </l>
             <l>And without grumbling vanish. </l>
           </sp>
-          <sp who="#ep000006-both" xml:id="ep000006-e130480">
+          <sp who="#ep000006-egremont #ep000006-cowsy" xml:id="ep000006-e130480">
             <speaker>Both. </speaker>
             <l>We are gone, Sir. </l>
           </sp>

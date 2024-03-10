@@ -77,84 +77,75 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000604-captain">
+          <person xml:id="ep000604-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000604-wanton">
+          <person xml:id="ep000604-wanton" sex="FEMALE">
             <persName>Wanton</persName>
           </person>
-          <person xml:id="ep000604-parson">
+          <person xml:id="ep000604-parson" sex="MALE">
             <persName>Parson</persName>
           </person>
-          <person xml:id="ep000604-pleasant">
+          <person xml:id="ep000604-pleasant" sex="FEMALE">
             <persName>Pleasant</persName>
           </person>
-          <person xml:id="ep000604-widow">
+          <person xml:id="ep000604-widow" sex="FEMALE">
             <persName>Widow</persName>
           </person>
-          <person xml:id="ep000604-secret">
+          <person xml:id="ep000604-secret" sex="FEMALE">
             <persName>Secret</persName>
           </person>
-          <person xml:id="ep000604-jolly">
+          <person xml:id="ep000604-jolly" sex="MALE">
             <persName>Jolly</persName>
           </person>
-          <person xml:id="ep000604-constant">
+          <person xml:id="ep000604-constant" sex="MALE">
             <persName>Constant</persName>
           </person>
-          <person xml:id="ep000604-sadd">
+          <person xml:id="ep000604-sadd" sex="MALE">
             <persName>Sadd</persName>
           </person>
-          <person xml:id="ep000604-footman">
+          <person xml:id="ep000604-footman" sex="MALE">
             <persName>Footman</persName>
           </person>
-          <person xml:id="ep000604-careless">
+          <person xml:id="ep000604-careless" sex="MALE">
             <persName>Careless</persName>
           </person>
-          <person xml:id="ep000604-wild">
+          <person xml:id="ep000604-wild" sex="MALE">
             <persName>Wild</persName>
           </person>
-          <person xml:id="ep000604-loveall">
+          <person xml:id="ep000604-loveall" sex="FEMALE">
             <persName>Loveall</persName>
           </person>
-          <person xml:id="ep000604-bawd">
+          <person xml:id="ep000604-bawd" sex="FEMALE">
             <persName>Bawd</persName>
           </person>
-          <person xml:id="ep000604-faithful">
+          <person xml:id="ep000604-faithful" sex="FEMALE">
             <persName>Faithful</persName>
           </person>
-          <person xml:id="ep000604-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000604-servant">
+          <person xml:id="ep000604-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000604-maid">
+          <person xml:id="ep000604-maid" sex="FEMALE">
             <persName>Maid</persName>
           </person>
-          <person xml:id="ep000604-boy">
+          <person xml:id="ep000604-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000604-drawer">
+          <person xml:id="ep000604-drawer" sex="MALE">
             <persName>Drawer</persName>
           </person>
-          <person xml:id="ep000604-taylor">
+          <person xml:id="ep000604-taylor" sex="MALE">
             <persName>Taylor</persName>
           </person>
-          <person xml:id="ep000604-cropp">
+          <person xml:id="ep000604-cropp" sex="MALE">
             <persName>Cropp</persName>
           </person>
-          <person xml:id="ep000604-watchman">
+          <person xml:id="ep000604-watchman" sex="MALE">
             <persName>Watchman</persName>
           </person>
-          <person xml:id="ep000604-fiddlers">
-            <persName>Fiddlers</persName>
-          </person>
-          <person xml:id="ep000604-fiddler">
-            <persName>Fiddler</persName>
-          </person>
-          <person xml:id="ep000604-both">
-            <persName>Both</persName>
-          </person>
+          <personGrp xml:id="ep000604-fiddlers" sex="MALE">
+            <name>Fiddlers</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -170,8 +161,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000604"
-                    passive="http://www.wikidata.org/entity/Q7756182"/>
+                   active="https://dracor.org/entity/ep000604"
+                   passive="http://www.wikidata.org/entity/Q7756182"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -2018,7 +2009,8 @@
             <speaker>Joll. </speaker>
             <p>These, which? </p>
           </sp>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e109500">
+          <sp who="#ep000604-wild #ep000604-careless #ep000604-captain"
+                   xml:id="ep000604-e109500">
             <speaker>Omnes. </speaker>
             <p>Which? </p>
           </sp>
@@ -2109,7 +2101,8 @@
             <speaker>Joll. </speaker>
             <p>And as we go I'le tell you all the story, and after Dinner, be free from all Engagements, as we promis'd thee; and follow but your directions, I'le warrant you mirth and a prety Wench. </p>
           </sp>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e109960">
+          <sp who="#ep000604-wild #ep000604-careless #ep000604-captain"
+                   xml:id="ep000604-e109960">
             <speaker>Omnes. </speaker>
             <p>Agreed, any thing that breeds mirth is welcome. </p>
           </sp>
@@ -2989,7 +2982,8 @@
             <speaker>Capt. </speaker>
             <p>But this for Supper; Capt. No more of this now; This afternoon, as you are true to the Pettycoat, observe your Instructions, and meet at Neds house in the Evening. </p>
           </sp>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e114460">
+          <sp who="#ep000604-wild #ep000604-careless #ep000604-widow #ep000604-sadd #ep000604-jolly #ep000604-pleasant #ep000604-constant #ep000604-secret"
+                   xml:id="ep000604-e114460">
             <speaker>Omnes. </speaker>
             <p>We will not fail. </p>
           </sp>
@@ -3110,7 +3104,8 @@
             <speaker>Capt. </speaker>
             <p>Well, I must go write, therefore resolve of somewhat; shall I propose an indifferent place where 'tis probable we shall all meet. </p>
           </sp>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e115060">
+          <sp who="#ep000604-wild #ep000604-careless #ep000604-jolly"
+                   xml:id="ep000604-e115060">
             <speaker>Omnes. </speaker>
             <p>Yes. </p>
           </sp>
@@ -3139,7 +3134,8 @@
             <speaker>Capt. </speaker>
             <p>Farewell, you will be sure to meet. </p>
           </sp>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e115200">
+          <sp who="#ep000604-wild #ep000604-careless #ep000604-jolly"
+                   xml:id="ep000604-e115200">
             <speaker>Omnes. </speaker>
             <p>Yes, yes. </p>
           </sp>
@@ -4195,7 +4191,7 @@
             <p>I'le expect you at my house. </p>
           </sp>
           <stage xml:id="ep000604-e120660">[Exit Wild one way, and the rest of the Company another. </stage>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e120670">
+          <sp who="#ep000604-careless #ep000604-jolly" xml:id="ep000604-e120670">
             <speaker>Omnes. </speaker>
             <p>Wee'l come, wee'l come. </p>
           </sp>
@@ -5643,7 +5639,7 @@
             <speaker>Capt. </speaker>
             <p>Let the Fidlers play then, and bid God give them joy, by the name of my Lady Careless and Mistriss Wild. </p>
           </sp>
-          <sp who="#ep000604-fiddler" xml:id="ep000604-e128100">
+          <sp who="#ep000604-fiddlers" xml:id="ep000604-e128100">
             <speaker>Fid. </speaker>
             <p>Where shall we play, Sir? </p>
           </sp>
@@ -5954,7 +5950,7 @@
             <speaker>Pleas. </speaker>
             <p>And a Parson to swear he did it? </p>
           </sp>
-          <sp who="#ep000604-both" xml:id="ep000604-e129680">
+          <sp who="#ep000604-wild #ep000604-careless" xml:id="ep000604-e129680">
             <speaker>Both. </speaker>
             <p>Yes. </p>
           </sp>
@@ -5962,7 +5958,7 @@
             <speaker>Wid. </speaker>
             <p>And a wench that will swear, she put us to Bed? </p>
           </sp>
-          <sp who="#ep000604-both" xml:id="ep000604-e129720">
+          <sp who="#ep000604-wild #ep000604-careless" xml:id="ep000604-e129720">
             <speaker>Both. </speaker>
             <p>Yes, By this good light, and witness of reputation. </p>
           </sp>
@@ -6589,7 +6585,8 @@
             <speaker>Wild. </speaker>
             <p>No, let's home, and with all diligence get our dinner, to defend us; and let the Porter dispute it at the wicket, till she signs Articles of peace. </p>
           </sp>
-          <sp who="#ep000604-omnes" xml:id="ep000604-e132910">
+          <sp who="#ep000604-captain #ep000604-constant #ep000604-widow #ep000604-careless #ep000604-wanton #ep000604-pleasant #ep000604-jolly"
+                   xml:id="ep000604-e132910">
             <speaker>Omnes. </speaker>
             <p>Agreed.— </p>
           </sp>

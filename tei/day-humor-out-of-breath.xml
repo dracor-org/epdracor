@@ -80,64 +80,52 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000371-octavio">
+          <person xml:id="ep000371-octavio" sex="MALE">
             <persName>Octavio</persName>
           </person>
-          <person xml:id="ep000371-francisco">
+          <person xml:id="ep000371-francisco" sex="MALE">
             <persName>Francisco</persName>
           </person>
-          <person xml:id="ep000371-hippolito">
+          <person xml:id="ep000371-hippolito" sex="MALE">
             <persName>Hippolito</persName>
           </person>
-          <person xml:id="ep000371-florimell">
+          <person xml:id="ep000371-florimell" sex="FEMALE">
             <persName>Florimell</persName>
           </person>
-          <person xml:id="ep000371-antonio">
+          <person xml:id="ep000371-antonio" sex="MALE">
             <persName>Antonio</persName>
           </person>
-          <person xml:id="ep000371-hermia">
+          <person xml:id="ep000371-hermia" sex="FEMALE">
             <persName>Hermia</persName>
           </person>
-          <person xml:id="ep000371-lucida">
+          <person xml:id="ep000371-lucida" sex="FEMALE">
             <persName>Lucida</persName>
           </person>
-          <person xml:id="ep000371-aspero">
+          <person xml:id="ep000371-aspero" sex="MALE">
             <persName>Aspero</persName>
           </person>
-          <person xml:id="ep000371-page">
+          <person xml:id="ep000371-page" sex="MALE">
             <persName>Page</persName>
           </person>
-          <person xml:id="ep000371-hortensio">
+          <person xml:id="ep000371-hortensio" sex="MALE">
             <persName>Hortensio</persName>
           </person>
-          <person xml:id="ep000371-flamineo">
-            <persName>Flamineo</persName>
-          </person>
-          <person xml:id="ep000371-boy">
+          <person xml:id="ep000371-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000371-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000371-florimel">
-            <persName>Florimel</persName>
-          </person>
-          <person xml:id="ep000371-ambo">
-            <persName>Ambo</persName>
-          </person>
-          <person xml:id="ep000371-assistance">
+          <person xml:id="ep000371-assistance" sex="MALE">
             <persName>Assistance</persName>
           </person>
-          <person xml:id="ep000371-brothers">
-            <persName>Brothers</persName>
+          <personGrp xml:id="ep000371-brothers" sex="MALE">
+            <name>Brothers</name>
+          </personGrp>
+          <person xml:id="ep000371-julio" sex="MALE">
+            <persName>Julio</persName>
           </person>
-          <person xml:id="ep000371-jul">
-            <persName>Jul</persName>
-          </person>
-          <person xml:id="ep000371-lord">
-            <persName>Lord</persName>
-          </person>
-          <person xml:id="ep000371-messenger">
+          <personGrp xml:id="ep000371-lords" sex="MALE">
+            <name>Lords</name>
+          </personGrp>
+          <person xml:id="ep000371-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
         </listPerson>
@@ -894,7 +882,7 @@
             <l>The eies of youth will now and then dwell there, </l>
             <l>Whereas they should not glance, this doubt I feare. </l>
           </sp>
-          <sp who="#ep000371-flamineo" xml:id="ep000371-e104770">
+          <sp who="#ep000371-hortensio" xml:id="ep000371-e104770">
             <speaker>Fla. </speaker>
             <l>And well aduisd my liege should they incline </l>
             <l>To loue not fitting their estates and births, </l>
@@ -1727,7 +1715,7 @@
             <speaker>Pa. </speaker>
             <p>SWeet hony candy madam, if it be no forfeit to tell tales out of Cupids free schoole, tell what proficient your louer Aspero proues. </p>
           </sp>
-          <sp who="#ep000371-unassigned" xml:id="ep000371-e109140">
+          <sp xml:id="ep000371-e109140">
             <speaker>Flo. </speaker>
             <p>Now so loue helpe me lot, a passing weake one and verye vnready. </p>
           </sp>
@@ -1760,7 +1748,7 @@
             <speaker>Pa. </speaker>
             <p>Marry that if you neuer forget him, you shall euer remember him, was he neuer in your chamber. </p>
           </sp>
-          <sp who="#ep000371-florimel" xml:id="ep000371-e109300">
+          <sp who="#ep000371-florimell" xml:id="ep000371-e109300">
             <speaker>Fio. </speaker>
             <p>Yes, but he shewed himselfe the strangest foole: And by my troth loe. J am sorry for't to, J had as good an appetite to maintaine discourse; but here a comes, if euer I choose a man by the fulnesse of his Calfe, or a cock by the crowing, looke and the bashfull foole do not blush already. </p>
           </sp>
@@ -2369,7 +2357,7 @@
             <speaker>Oct. </speaker>
             <p>A word with you, you meane to marry these wenches, </p>
           </sp>
-          <sp who="#ep000371-ambo" xml:id="ep000371-e112650">
+          <sp who="#ep000371-brothers" xml:id="ep000371-e112650">
             <speaker>Ambo. </speaker>
             <p>We doe. </p>
           </sp>
@@ -2377,7 +2365,7 @@
             <speaker>Oct. </speaker>
             <p>And are going to contract your selues. </p>
           </sp>
-          <sp who="#ep000371-ambo" xml:id="ep000371-e112690">
+          <sp who="#ep000371-brothers" xml:id="ep000371-e112690">
             <speaker>Ambo. </speaker>
             <p>We are. </p>
           </sp>
@@ -2778,7 +2766,7 @@
             <speaker>Pa. </speaker>
             <p>Vds foot lets enlarge him, </p>
           </sp>
-          <sp who="#ep000371-unassigned" xml:id="ep000371-e114850">
+          <sp xml:id="ep000371-e114850">
             <speaker>Flo. </speaker>
             <p>Not possible boy. </p>
           </sp>
@@ -2818,7 +2806,7 @@
             <speaker>Fr. </speaker>
             <p>Feare not old man, he was the meanes that breath'd this spirit into vs. </p>
           </sp>
-          <sp who="#ep000371-unassigned" xml:id="ep000371-e115070">
+          <sp xml:id="ep000371-e115070">
             <speaker>Hip. </speaker>
             <l>Wood vs to this course. </l>
             <l>But should he proue Apostata, denie </l>
@@ -3049,7 +3037,7 @@
             <speaker>Asp. </speaker>
             <p>Blame me not loue, </p>
           </sp>
-          <sp who="#ep000371-unassigned" xml:id="ep000371-e116470">
+          <sp who="#ep000371-boy" xml:id="ep000371-e116470">
             <speaker>Boy. </speaker>
             <p>Vdsfoot your iaylor my lord. </p>
           </sp>
@@ -3609,7 +3597,7 @@
             <stage xml:id="ep000371-e119390">Enter Iulio. </stage>
             <l>What waighty businesse drawes thee from thy charge? </l>
           </sp>
-          <sp who="#ep000371-jul" xml:id="ep000371-e119410">
+          <sp who="#ep000371-julio" xml:id="ep000371-e119410">
             <speaker>Iul. </speaker>
             <l>Came not the cause afore me? the proud Mantuans </l>
             <l>Basely reuolt, deposde me from the seate </l>
@@ -3697,7 +3685,7 @@
             <speaker>Oct. </speaker>
             <p>Nay you sir too, shall taste of the same sauce, away with both, </p>
           </sp>
-          <sp who="#ep000371-flamineo" xml:id="ep000371-e119900">
+          <sp who="#ep000371-hortensio" xml:id="ep000371-e119900">
             <speaker>Flamineo. </speaker>
             <l>Come my sonnes, </l>
             <l>Lets leauy present armes gaynst Mantua. </l>
@@ -3715,7 +3703,7 @@
             <l>And seated me in antient dignity, </l>
             <l>I am yours, and ready at your best dispose. </l>
           </sp>
-          <sp who="#ep000371-lord" xml:id="ep000371-e120040">
+          <sp who="#ep000371-lords" xml:id="ep000371-e120040">
             <speaker>Lord </speaker>
             <l>Your owne, my liege, we like inferiour lights </l>
             <l>Take life from your reflection, for like stars </l>
@@ -3732,7 +3720,7 @@
             <l>Our life, and cause efficient of our state, </l>
             <l>And these our prety partners in exile. </l>
           </sp>
-          <sp who="#ep000371-lord" xml:id="ep000371-e120160">
+          <sp who="#ep000371-lords" xml:id="ep000371-e120160">
             <speaker>Lord. </speaker>
             <l>We ha yet performd but the least part of duetie, </l>
             <l>Your reinstalment: it rests, that with our bloud, </l>
@@ -4087,7 +4075,7 @@
             <speaker>Oct. </speaker>
             <p>How, my sonnes loue the daughters of my foe! it cannot be, </p>
           </sp>
-          <sp who="#ep000371-jul" xml:id="ep000371-e122270">
+          <sp who="#ep000371-julio" xml:id="ep000371-e122270">
             <speaker>Iul. </speaker>
             <l>Then question them your selfe. </l>
           </sp>

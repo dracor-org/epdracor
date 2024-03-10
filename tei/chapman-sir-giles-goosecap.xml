@@ -80,82 +80,55 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000037-bullaker">
+          <person xml:id="ep000037-bullaker" sex="MALE">
             <persName>Bullaker</persName>
           </person>
-          <person xml:id="ep000037-jack">
+          <person xml:id="ep000037-jack" sex="MALE">
             <persName>Jack</persName>
           </person>
-          <person xml:id="ep000037-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000037-will">
+          <person xml:id="ep000037-will" sex="MALE">
             <persName>Will</persName>
           </person>
-          <person xml:id="ep000037-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000037-ambo">
-            <persName>Ambo</persName>
-          </person>
-          <person xml:id="ep000037-rudesby">
+          <person xml:id="ep000037-rudesby" sex="MALE">
             <persName>Rudesby</persName>
           </person>
-          <person xml:id="ep000037-goosecap">
+          <person xml:id="ep000037-goosecap" sex="MALE">
             <persName>Goosecap</persName>
           </person>
-          <person xml:id="ep000037-foulweather">
+          <person xml:id="ep000037-foulweather" sex="MALE">
             <persName>Foulweather</persName>
           </person>
-          <person xml:id="ep000037-eugenia">
+          <person xml:id="ep000037-eugenia" sex="FEMALE">
             <persName>Eugenia</persName>
           </person>
-          <person xml:id="ep000037-winifrid">
+          <person xml:id="ep000037-winifrid" sex="FEMALE">
             <persName>Winifrid</persName>
           </person>
-          <person xml:id="ep000037-hippolyta">
+          <person xml:id="ep000037-hippolyta" sex="FEMALE">
             <persName>Hippolyta</persName>
           </person>
-          <person xml:id="ep000037-penelope">
+          <person xml:id="ep000037-penelope" sex="FEMALE">
             <persName>Penelope</persName>
           </person>
-          <person xml:id="ep000037-lady">
-            <persName>Lady</persName>
-          </person>
-          <person xml:id="ep000037-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000037-clarence">
+          <person xml:id="ep000037-clarence" sex="MALE">
             <persName>Clarence</persName>
           </person>
-          <person xml:id="ep000037-momford">
+          <person xml:id="ep000037-momford" sex="MALE">
             <persName>Momford</persName>
           </person>
-          <person xml:id="ep000037-messenger">
+          <person xml:id="ep000037-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000037-tales">
+          <person xml:id="ep000037-tales" sex="MALE">
             <persName>Tales</persName>
           </person>
-          <person xml:id="ep000037-kingcob">
+          <person xml:id="ep000037-kingcob" sex="MALE">
             <persName>Kingcob</persName>
           </person>
-          <person xml:id="ep000037-kingcob_tales">
-            <persName>Kingcob Tales</persName>
-          </person>
-          <person xml:id="ep000037-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000037-furnifall">
+          <person xml:id="ep000037-furnifall" sex="MALE">
             <persName>Furnifall</persName>
           </person>
-          <person xml:id="ep000037-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000037-giles">
-            <persName>Giles</persName>
-          </person>
-          <person xml:id="ep000037-doctor">
+          <person xml:id="ep000037-doctor" sex="MALE">
             <persName>Doctor</persName>
           </person>
         </listPerson>
@@ -173,8 +146,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000037"
-                    passive="http://www.wikidata.org/entity/Q7526980"/>
+                   active="https://dracor.org/entity/ep000037"
+                   passive="http://www.wikidata.org/entity/Q7526980"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -226,7 +199,7 @@
             <speaker>Iack. </speaker>
             <p>Theis two strange hungrie knights (Wil) make the leanest trenchers that euer I waited on. </p>
           </sp>
-          <sp who="#ep000037-unassigned" xml:id="ep000037-e100340">
+          <sp xml:id="ep000037-e100340">
             <speaker>Will. </speaker>
             <p>A plague on them Iack, they leaue vs no fees at all, for our attendance, I thinke they vse to sett their bones in siluer they pick them so cleane, see, see, see Iack whats that? </p>
           </sp>
@@ -279,7 +252,7 @@
             <speaker>Bul. </speaker>
             <p>Out ye mopede monckies can yee not knowe a man from a Marmasett, in theis Frenchified dayes of ours? nay Ile Iackefie you alittle better yet. </p>
           </sp>
-          <sp who="#ep000037-both" xml:id="ep000037-e100600">
+          <sp who="#ep000037-will #ep000037-jack" xml:id="ep000037-e100600">
             <speaker>both, </speaker>
             <p>Nay good Sir, good Sir, pardon vs. </p>
           </sp>
@@ -287,7 +260,7 @@
             <speaker>Bul </speaker>
             <p>Pardon vs, out ye home-bred peasants, plain english, pardon vs, if you had parled, &amp; not spoken, but said pardonne moy; I wood haue pardon'd you, but since you speake, and not parley, I will cudgell ye better yet. </p>
           </sp>
-          <sp who="#ep000037-ambo" xml:id="ep000037-e100640">
+          <sp who="#ep000037-will #ep000037-jack" xml:id="ep000037-e100640">
             <speaker>Ambo </speaker>
             <p>O pardonne moy mounsieur. </p>
           </sp>
@@ -511,7 +484,7 @@
             <speaker>Bul. </speaker>
             <p>Pardonne moy mounsieur. </p>
           </sp>
-          <sp who="#ep000037-both" xml:id="ep000037-e101760">
+          <sp who="#ep000037-will #ep000037-jack" xml:id="ep000037-e101760">
             <speaker>both </speaker>
             <p>No pardoning in trueth Sir, </p>
           </sp>
@@ -725,7 +698,7 @@
         <div n="3" type="scene" xml:id="ep000037-e102820">
           <head>SCAeNA TERTIA. </head>
           <stage xml:id="ep000037-e102830">Enter to them Iack Bullaker, Will. </stage>
-          <sp who="#ep000037-lady" xml:id="ep000037-e102840">
+          <sp who="#ep000037-jack" xml:id="ep000037-e102840">
             <speaker>La. </speaker>
             <p>Captaine Fowleweather, my Ladie the Countes Eugenia commends hir most kindly to you, and is determined to morrowe morning earely if it be a frost to take her Coach to Barnet to bee nipt where if it please you, to meet her, and accompany her homewarde, ioyning your wit with the frost, and helpe to nippe her, She does not doubt but tho you had a sad supper, you will haue a ioyfull breakefast. </p>
           </sp>
@@ -753,7 +726,8 @@
             <speaker>Will </speaker>
             <p>The other two Ladies commend them no lesse kindly to you two knights too; &amp; desire your worships wood meete them at Barnet ith morning with the Captaine. </p>
           </sp>
-          <sp who="#ep000037-multiple" xml:id="ep000037-e102980">
+          <sp who="#ep000037-foulweather #ep000037-goosecap #ep000037-rudesby"
+                   xml:id="ep000037-e102980">
             <speaker>Foul. Goos. Rud. </speaker>
             <p>O. good Sir. </p>
           </sp>
@@ -1528,7 +1502,7 @@
             <speaker>Wil. </speaker>
             <p>Pray pardon vs madam, we would be glad to please anie body. </p>
           </sp>
-          <sp who="#ep000037-unassigned" xml:id="ep000037-e107190">
+          <sp who="#ep000037-jack" xml:id="ep000037-e107190">
             <speaker>Iac. </speaker>
             <p>I indeed madam and we were sure we pleas'd them highly to tell them you were desirous of their companie. </p>
           </sp>
@@ -1744,7 +1718,7 @@
             <speaker>Eug. </speaker>
             <p>Wel, come in my Lords, and take a bad dinner with me now, and wee will all goe with you at night to a better supper with the Lord, and Ladie Furnifall. </p>
           </sp>
-          <sp who="#ep000037-kingcob_tales" xml:id="ep000037-e108270">
+          <sp who="#ep000037-kingcob #ep000037-tales" xml:id="ep000037-e108270">
             <speaker>King. Tale. </speaker>
             <p>We attend you honorable Ladies. </p>
             <stage xml:id="ep000037-e108290">Exeunt. </stage>
@@ -1929,7 +1903,8 @@
             <speaker>Will </speaker>
             <p>Yes indeed Sir, but we left our fellowes to wait for once, and cood not chuse in pure loue to your worships, but we must needs come and meet you, before you mett our Ladies, to tell you a secret. </p>
           </sp>
-          <sp who="#ep000037-omnes" xml:id="ep000037-e109200">
+          <sp who="#ep000037-rudesby #ep000037-goosecap #ep000037-foulweather"
+                   xml:id="ep000037-e109200">
             <speaker>Omnes </speaker>
             <p>A secrett, what secret I pray thee? </p>
           </sp>
@@ -1937,7 +1912,8 @@
             <speaker>Ia. </speaker>
             <p>If euer your worships say any thing, we are vndone for euer. </p>
           </sp>
-          <sp who="#ep000037-omnes" xml:id="ep000037-e109240">
+          <sp who="#ep000037-rudesby #ep000037-goosecap #ep000037-foulweather"
+                   xml:id="ep000037-e109240">
             <speaker>Omnes </speaker>
             <p>Not for a world beleue it. </p>
           </sp>
@@ -1949,7 +1925,8 @@
             <speaker>Ia. </speaker>
             <p>And some said you, Sir Gyles, another you Sir and the third you Captaine, </p>
           </sp>
-          <sp who="#ep000037-omnes" xml:id="ep000037-e109300">
+          <sp who="#ep000037-rudesby #ep000037-goosecap #ep000037-foulweather"
+                   xml:id="ep000037-e109300">
             <speaker>Om. </speaker>
             <p>This was excellent. </p>
           </sp>
@@ -2418,7 +2395,7 @@
           <speaker>Tal. </speaker>
           <p>I am a Goosecappe by the mothers side madam, at least my mother was a Goosecappe. </p>
         </sp>
-        <sp who="#ep000037-unassigned" xml:id="ep000037-e112190">
+        <sp who="#ep000037-penelope" xml:id="ep000037-e112190">
           <speaker>Fen. </speaker>
           <p>And you were her white sonne, I warrant my Lord. </p>
         </sp>
@@ -2584,7 +2561,8 @@
           <speaker>Mom. </speaker>
           <p>I haue brought her a little Greeke, to helpe me out withal, and shees so coy of her learning for sooth she makes it strange: Lords, and Ladies, I inuite you al to supper to night, and you shal not denie me. </p>
         </sp>
-        <sp who="#ep000037-unassigned" xml:id="ep000037-e113020">
+        <sp who="#ep000037-eugenia #ep000037-hippolyta #ep000037-penelope #ep000037-tales #ep000037-kingcob"
+                xml:id="ep000037-e113020">
           <speaker>Ad. </speaker>
           <p>We will attend your Lordshippe. </p>
         </sp>
@@ -2900,7 +2878,8 @@
           <speaker>Fur. </speaker>
           <p>Nay my gallants I will tell you more. </p>
         </sp>
-        <sp who="#ep000037-all" xml:id="ep000037-e114730">
+        <sp who="#ep000037-rudesby #ep000037-goosecap #ep000037-foulweather #ep000037-bullaker"
+                xml:id="ep000037-e114730">
           <speaker>All. </speaker>
           <p>Forth good my Lord. </p>
         </sp>
@@ -2919,7 +2898,8 @@
             <l>On my behauiours talking with the king: </l>
           </lg>
         </sp>
-        <sp who="#ep000037-all" xml:id="ep000037-e114860">
+        <sp who="#ep000037-rudesby #ep000037-goosecap #ep000037-foulweather #ep000037-bullaker"
+                xml:id="ep000037-e114860">
           <speaker>All </speaker>
           <p>True my good Lord. </p>
         </sp>
@@ -3152,7 +3132,7 @@
           <speaker>Goos. </speaker>
           <p>All his beard nothing but haire. </p>
         </sp>
-        <sp who="#ep000037-unassigned" xml:id="ep000037-e116150">
+        <sp who="#ep000037-rudesby" xml:id="ep000037-e116150">
           <speaker>Cud. </speaker>
           <p>Or something else. </p>
         </sp>
@@ -3189,7 +3169,7 @@
           <p>The best that euer I heard, gray mercy good knight for thy merrie description, Captaine, I giue thee twentie companies of commendations, neuer to bee casheird. </p>
         </sp>
         <stage xml:id="ep000037-e116330">Enter Iacke and Will on the other side. </stage>
-        <sp who="#ep000037-ambo" xml:id="ep000037-e116340">
+        <sp who="#ep000037-jack #ep000037-will" xml:id="ep000037-e116340">
           <speaker>Am. </speaker>
           <p>Saue your Lordship, </p>
         </sp>
@@ -3246,11 +3226,11 @@
           <speaker>Will. </speaker>
           <p>I indeed sir Giles, and he knowes you so wel too </p>
         </sp>
-        <sp who="#ep000037-giles" xml:id="ep000037-e116620">
+        <sp who="#ep000037-goosecap" xml:id="ep000037-e116620">
           <speaker>Giles </speaker>
           <p>Knowe me? slight he knowes me no more then the begger knowes his dish. </p>
         </sp>
-        <sp who="#ep000037-unassigned" xml:id="ep000037-e116640">
+        <sp xml:id="ep000037-e116640">
           <speaker>Ia. </speaker>
           <p>Faith he begs you to be content sir Giles, for he wil not come. </p>
         </sp>
@@ -4444,7 +4424,7 @@
             <speaker>Wil, </speaker>
             <p>Well, I am sorie for my presumtion then, but more sorie for my Ladies, marie most sorie for thee good Lorde Momforde, that will make vs most of all sorie for our selues, if wee doe not fynde her out. </p>
           </sp>
-          <sp who="#ep000037-lady" xml:id="ep000037-e123840">
+          <sp who="#ep000037-jack" xml:id="ep000037-e123840">
             <speaker>la: </speaker>
             <p>Why alas what shood wee doe? all the starres of our heauen see, wee seeke her as fast as wee can, if shee bee crept into a rush wee will seeke her out or burne her. </p>
           </sp>
@@ -4512,7 +4492,7 @@
             <speaker>Hip. </speaker>
             <p>Will not your Lord-shippe see your friend, and neece? </p>
           </sp>
-          <sp who="#ep000037-unassigned" xml:id="ep000037-e124310">
+          <sp who="#ep000037-momford" xml:id="ep000037-e124310">
             <speaker>Mom. </speaker>
             <lg>
               <l>Wood I might sinke if I shame not to see her </l>
@@ -4581,7 +4561,7 @@
               <l>Heauen blesse you for it Ladie, and your choyce. </l>
             </lg>
           </sp>
-          <sp who="#ep000037-ambo" xml:id="ep000037-e124770">
+          <sp who="#ep000037-will #ep000037-jack" xml:id="ep000037-e124770">
             <speaker>Ambo </speaker>
             <p>Thankes my good Lord. </p>
           </sp>
@@ -4598,7 +4578,7 @@
             <speaker>Kin. </speaker>
             <p>So may it speed deere Countesse, worthy Clarence. </p>
           </sp>
-          <sp who="#ep000037-ambo" xml:id="ep000037-e124870">
+          <sp who="#ep000037-will #ep000037-jack" xml:id="ep000037-e124870">
             <speaker>Ambo </speaker>
             <p>Thankes good Sir Cutberd. </p>
           </sp>

@@ -100,76 +100,70 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000059-tota">
+          <person xml:id="ep000059-tota" sex="FEMALE">
             <persName>Tota</persName>
           </person>
-          <person xml:id="ep000059-joffer">
+          <person xml:id="ep000059-joffer" sex="MALE">
             <persName>Joffer</persName>
           </person>
-          <person xml:id="ep000059-clem">
+          <person xml:id="ep000059-clem" sex="MALE">
             <persName>Clem</persName>
           </person>
-          <person xml:id="ep000059-roughman">
+          <person xml:id="ep000059-roughman" sex="MALE">
             <persName>Roughman</persName>
           </person>
-          <person xml:id="ep000059-mullisheg">
+          <person xml:id="ep000059-mullisheg" sex="MALE">
             <persName>Mullisheg</persName>
           </person>
-          <person xml:id="ep000059-bess">
+          <person xml:id="ep000059-bess" sex="FEMALE">
             <persName>Bess</persName>
           </person>
-          <person xml:id="ep000059-spencer">
+          <person xml:id="ep000059-spencer" sex="MALE">
             <persName>Spencer</persName>
           </person>
-          <person xml:id="ep000059-goodlack">
+          <person xml:id="ep000059-goodlack" sex="MALE">
             <persName>Goodlack</persName>
           </person>
-          <person xml:id="ep000059-alcade">
-            <persName>Alcade</persName>
-          </person>
-          <person xml:id="ep000059-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000059-king">
-            <persName>King</persName>
-          </person>
-          <person xml:id="ep000059-porter">
-            <persName>Porter</persName>
-          </person>
-          <person xml:id="ep000059-negro">
+          <person xml:id="ep000059-negro" sex="MALE">
             <persName>Negro</persName>
           </person>
-          <person xml:id="ep000059-messenger">
+          <person xml:id="ep000059-alcade" sex="MALE">
+            <persName>Alcade</persName>
+          </person>
+          <person xml:id="ep000059-king" sex="MALE">
+            <persName>King</persName>
+          </person>
+          <person xml:id="ep000059-porter" sex="MALE">
+            <persName>Porter</persName>
+          </person>
+          <person xml:id="ep000059-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000059-both">
-            <persName>Both</persName>
+          <personGrp xml:id="ep000059-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000059-captain-bandetti" sex="MALE">
+            <persName>Captain Bandetti</persName>
           </person>
-          <person xml:id="ep000059-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000059-bandit">
-            <persName>Bandit</persName>
-          </person>
-          <person xml:id="ep000059-florence">
+          <person xml:id="ep000059-florence" sex="MALE">
             <persName>Florence</persName>
           </person>
-          <person xml:id="ep000059-merchant">
+          <person xml:id="ep000059-merchant" sex="MALE">
             <persName>Merchant</persName>
           </person>
-          <person xml:id="ep000059-drawer">
+          <person xml:id="ep000059-drawer" sex="MALE">
             <persName>Drawer</persName>
           </person>
-          <person xml:id="ep000059-mantua">
+          <person xml:id="ep000059-mantua" sex="MALE">
             <persName>Mantua</persName>
           </person>
-          <person xml:id="ep000059-farar">
-            <persName>Farar</persName>
+          <person xml:id="ep000059-farara" sex="MALE">
+            <persName>Farara</persName>
           </person>
-          <person xml:id="ep000059-lord">
+          <person xml:id="ep000059-lord" sex="MALE">
             <persName>Lord</persName>
           </person>
-          <person xml:id="ep000059-petro">
+          <person xml:id="ep000059-petro" sex="MALE">
             <persName>Petro</persName>
           </person>
         </listPerson>
@@ -1024,7 +1018,8 @@
             <l>From us to flow on you. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-all" xml:id="ep000059-e105070">
+        <sp who="#ep000059-alcade #ep000059-bess #ep000059-goodlack #ep000059-joffer #ep000059-spencer"
+                xml:id="ep000059-e105070">
           <speaker>All. </speaker>
           <p>Long live the King: </p>
           <stage xml:id="ep000059-e105090">Exeunt. </stage>
@@ -3294,7 +3289,7 @@
             <l>Have you been all at prayers? </l>
           </lg>
         </sp>
-        <sp who="#ep000059-both" xml:id="ep000059-e119010">
+        <sp who="#ep000059-roughman #ep000059-goodlack" xml:id="ep000059-e119010">
           <speaker>Both </speaker>
           <p>We have. </p>
         </sp>
@@ -4173,7 +4168,7 @@
           </lg>
           <stage xml:id="ep000059-e124900">Enter Captain Bandetties, and others. </stage>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e124910">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e124910">
           <speaker>Band. </speaker>
           <p>Cease, and surprise the prisoners: thou art mine. </p>
         </sp>
@@ -4181,7 +4176,7 @@
           <speaker>Ruff. </speaker>
           <p>Villain, hands off, knowst thou whom thou offendest? </p>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e124950">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e124950">
           <speaker>Band. </speaker>
           <p>Binde her fast, and after captive him. </p>
         </sp>
@@ -4197,7 +4192,7 @@
           <speaker>Besse </speaker>
           <p>What's thy purpose? </p>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e125040">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e125040">
           <speaker>Band. </speaker>
           <lg>
             <l>In all my travells, and my quest of blood, </l>
@@ -4214,7 +4209,7 @@
             <l>Bold villein, that thou mak'st this preparation? </l>
           </lg>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e125150">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e125150">
           <speaker>Band. </speaker>
           <p>I intend to ravish thee. </p>
         </sp>
@@ -4233,7 +4228,7 @@
             <l>Such letters sound. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e125290">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e125290">
           <speaker>Band. </speaker>
           <lg>
             <l>I trifle howers too long, </l>
@@ -4246,7 +4241,7 @@
           <speaker>Besse </speaker>
           <p>Help, murther, rape, murther. </p>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e125370">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e125370">
           <speaker>
             <pb xml:id="ep000059-064-a"/>Band. </speaker>
           <p>Ile stop your mouth from bawling. </p>
@@ -4260,7 +4255,7 @@
             <l>For my encounter. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-bandit" xml:id="ep000059-e125450">
+        <sp who="#ep000059-captain-bandetti" xml:id="ep000059-e125450">
           <speaker>Band. </speaker>
           <p>Hell prevented. </p>
         </sp>
@@ -5058,7 +5053,7 @@
             <l>Of our united league. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e130410">
+        <sp who="#ep000059-farara" xml:id="ep000059-e130410">
           <speaker>
             <pb xml:id="ep000059-069-b"/>Farar. </speaker>
           <lg>
@@ -5086,7 +5081,7 @@
             <l>Whose fire is now extinct. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e130590">
+        <sp who="#ep000059-farara" xml:id="ep000059-e130590">
           <speaker>Ferar. </speaker>
           <lg>
             <l>Which who so kindles, </l>
@@ -5115,7 +5110,7 @@
             <l>You scarce can finde her equall. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e130790">
+        <sp who="#ep000059-farara" xml:id="ep000059-e130790">
           <speaker>Farar. </speaker>
           <lg>
             <l>Had not wonder, </l>
@@ -5149,7 +5144,7 @@
             <l>And as I am commanded. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e131000">
+        <sp who="#ep000059-farara" xml:id="ep000059-e131000">
           <speaker>Farar. </speaker>
           <lg>
             <l>I should have wrastled for priority, </l>
@@ -5168,7 +5163,7 @@
           <speaker>Mant. </speaker>
           <p>You shall choose for me. </p>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e131110">
+        <sp who="#ep000059-farara" xml:id="ep000059-e131110">
           <speaker>Farar. </speaker>
           <lg>
             <l>More happy in this beauty, I account you, </l>
@@ -5234,7 +5229,7 @@
           </lg>
           <stage xml:id="ep000059-e131520">Exit. </stage>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e131530">
+        <sp who="#ep000059-farara" xml:id="ep000059-e131530">
           <speaker>Ferar. </speaker>
           <lg>
             <l>You have onely shewed us a rich Iewell, Sir, </l>
@@ -5300,7 +5295,7 @@
           <speaker>Mant. </speaker>
           <p>Ile speak for this. </p>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e131950">
+        <sp who="#ep000059-farara" xml:id="ep000059-e131950">
           <speaker>Farar. </speaker>
           <lg>
             <l>And I for him, </l>
@@ -5313,7 +5308,7 @@
             <l>Where 'twas shown. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e132040">
+        <sp who="#ep000059-farara" xml:id="ep000059-e132040">
           <speaker>Ferar. </speaker>
           <lg>
             <l>Hath fame been so injurious to thy merit, </l>
@@ -5355,7 +5350,7 @@
             <l>English Gentlemen, let fame speak for you. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e132310">
+        <sp who="#ep000059-farara" xml:id="ep000059-e132310">
           <speaker>Farar. </speaker>
           <lg>
             <l>Gentlemen of England, we pardon you all duty, </l>
@@ -6531,7 +6526,7 @@
           <speaker>Mant. </speaker>
           <p>There must be great presumption that must force belief to that. </p>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e139540">
+        <sp who="#ep000059-farara" xml:id="ep000059-e139540">
           <speaker>Farar. </speaker>
           <lg>
             <l>Nay more then presumptions, proofs, </l>
@@ -6604,7 +6599,7 @@
           <speaker>Flor. </speaker>
           <p>Have we not don't? </p>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e139970">
+        <sp who="#ep000059-farara" xml:id="ep000059-e139970">
           <speaker>Farar. </speaker>
           <lg>
             <l>Who can with the least honour speak for him, </l>
@@ -6751,7 +6746,8 @@
             <l>Wee'll dignifie and raise their suffrage higher, </l>
           </lg>
         </sp>
-        <sp who="#ep000059-all" xml:id="ep000059-e140850">
+        <sp who="#ep000059-alcade #ep000059-bess #ep000059-goodlack #ep000059-joffer #ep000059-spencer"
+                xml:id="ep000059-e140850">
           <speaker>All. </speaker>
           <p>Florence is honourable. </p>
           <stage xml:id="ep000059-e140870">Enter Ioffer, Venturo. </stage>
@@ -6814,7 +6810,7 @@
             <l>Will not amount so much, Ile leave my self in hostage. </l>
           </lg>
         </sp>
-        <sp who="#ep000059-farar" xml:id="ep000059-e141260">
+        <sp who="#ep000059-farara" xml:id="ep000059-e141260">
           <speaker>Farar. </speaker>
           <lg>
             <l>'Tis the part </l>

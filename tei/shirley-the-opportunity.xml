@@ -80,71 +80,59 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000275-aurelio">
+          <person xml:id="ep000275-servant-2" sex="MALE">
+            <persName>Servant 2</persName>
+          </person>
+          <person xml:id="ep000275-servant-1" sex="MALE">
+            <persName>Servant 1</persName>
+          </person>
+          <person xml:id="ep000275-aurelio" sex="MALE">
             <persName>Aurelio</persName>
           </person>
-          <person xml:id="ep000275-pimponio">
-            <persName>Pimponio</persName>
-          </person>
-          <person xml:id="ep000275-pisauro">
+          <person xml:id="ep000275-pisauro" sex="MALE">
             <persName>Pisauro</persName>
           </person>
-          <person xml:id="ep000275-lucio">
+          <person xml:id="ep000275-pimponio" sex="MALE">
+            <persName>Pimponio</persName>
+          </person>
+          <person xml:id="ep000275-lucio" sex="MALE">
             <persName>Lucio</persName>
           </person>
-          <person xml:id="ep000275-pietro">
+          <person xml:id="ep000275-pietro" sex="MALE">
             <persName>Pietro</persName>
           </person>
-          <person xml:id="ep000275-julio">
+          <person xml:id="ep000275-julio" sex="MALE">
             <persName>Julio</persName>
           </person>
-          <person xml:id="ep000275-mercutio">
+          <person xml:id="ep000275-mercutio" sex="MALE">
             <persName>Mercutio</persName>
           </person>
-          <person xml:id="ep000275-duke">
-            <persName>Duke</persName>
+          <person xml:id="ep000275-dutchesse" sex="FEMALE">
+            <persName>Dutchesse</persName>
           </person>
-          <person xml:id="ep000275-ursini">
-            <persName>Ursini</persName>
-          </person>
-          <person xml:id="ep000275-duchess">
-            <persName>Duchess</persName>
-          </person>
-          <person xml:id="ep000275-cornelia">
-            <persName>Cornelia</persName>
-          </person>
-          <person xml:id="ep000275-borgia">
-            <persName>Borgia</persName>
-          </person>
-          <person xml:id="ep000275-ascanio">
-            <persName>Ascanio</persName>
-          </person>
-          <person xml:id="ep000275-grutti">
-            <persName>Grutti</persName>
-          </person>
-          <person xml:id="ep000275-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000275-ferrara">
+          <person xml:id="ep000275-ferrara" sex="MALE">
             <persName>Ferrara</persName>
           </person>
-          <person xml:id="ep000275-laura">
-            <persName>Laura</persName>
+          <person xml:id="ep000275-ursini" sex="MALE">
+            <persName>Ursini</persName>
           </person>
-          <person xml:id="ep000275-melinda">
+          <person xml:id="ep000275-cornelia" sex="FEMALE">
+            <persName>Cornelia</persName>
+          </person>
+          <person xml:id="ep000275-melinda" sex="FEMALE">
             <persName>Melinda</persName>
           </person>
-          <person xml:id="ep000275-">
-            <persName/>
+          <person xml:id="ep000275-laura" sex="FEMALE">
+            <persName>Laura</persName>
           </person>
-          <person xml:id="ep000275-1_servant">
-            <persName>1 Servant</persName>
+          <person xml:id="ep000275-borgia" sex="MALE">
+            <persName>Borgia</persName>
           </person>
-          <person xml:id="ep000275-2_servant">
-            <persName>2 Servant</persName>
+          <person xml:id="ep000275-ascanio" sex="MALE">
+            <persName>Ascanio</persName>
           </person>
-          <person xml:id="ep000275-unassigned">
-            <persName>Unassigned</persName>
+          <person xml:id="ep000275-grutty" sex="MALE">
+            <persName>Grutty</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -161,8 +149,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000275"
-                    passive="http://www.wikidata.org/entity/Q7755219"/>
+                   active="https://dracor.org/entity/ep000275"
+                   passive="http://www.wikidata.org/entity/Q7755219"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -639,7 +627,7 @@
               <l>That thus I steale upon you, I wod hope </l>
               <l>My sister— </l>
             </sp>
-            <sp who="#ep000275-pietro" xml:id="ep000275-e102970">
+            <sp who="#ep000275-pisauro" xml:id="ep000275-e102970">
               <speaker>Pi. </speaker>
               <p>Cornelia. </p>
             </sp>
@@ -670,7 +658,7 @@
               <l>I heare my Vncle </l>
               <l>Has left us— </l>
             </sp>
-            <sp who="#ep000275-pietro" xml:id="ep000275-e103130">
+            <sp who="#ep000275-pisauro" xml:id="ep000275-e103130">
               <speaker>Pi. </speaker>
               <l>A good estate, ther's the lesse cause </l>
               <l>To mourne for him. </l>
@@ -829,7 +817,7 @@
               <stage xml:id="ep000275-e104160">Exit. </stage>
             </sp>
             <stage xml:id="ep000275-e104170">Enter Dutchesse, Ursini, Cornelia, Melinda, Laura. </stage>
-            <sp who="#ep000275-duke" xml:id="ep000275-e104180">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104180">
               <speaker>Du. </speaker>
               <l>You have prevail'd Vrsini: yet we thought </l>
               <l>Of all men living you would least have beene </l>
@@ -849,7 +837,7 @@
               <l>A death more killing, still to live a stranger </l>
               <l>To his owne friends and countrey. </l>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e104340">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104340">
               <speaker>Du. </speaker>
               <l>If your charitie </l>
               <l>Extend so farre, the rest we have dispenc'd with, </l>
@@ -862,7 +850,7 @@
               <l>This will make </l>
               <l>Your art of mercy shine the brighter Madam. </l>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e104430">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104430">
               <speaker>Du. </speaker>
               <l>It will, but let me aske you good my Lord, </l>
               <l>Does this proceede out of a cleare forgivenesse: </l>
@@ -888,7 +876,7 @@
               <l>And by that charme of her consent to love </l>
               <l>My brother is redevivd in Borgia. </l>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e104640">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104640">
               <speaker>Dut. </speaker>
               <l>Y'are briefe, yet plaine; how point Cornelias </l>
               <l>Affections. </l>
@@ -902,7 +890,7 @@
               <l>Of his sonnes fortune may have indisposd </l>
               <l>To a present reconcilement. </l>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e104740">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104740">
               <speaker>Dut. </speaker>
               <l>This one act </l>
               <l>Will make him kinde, and forme him to your wishes. </l>
@@ -916,7 +904,7 @@
               <l>Begge this with many blushes, love is grac'd </l>
               <l>By dwelling on your breath. </l>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e104840">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104840">
               <speaker>Dut. </speaker>
               <l>Ursini since </l>
               <l>The Duke dyed you have found no losse in out </l>
@@ -939,7 +927,7 @@
               <speaker>Cor. </speaker>
               <p>My brother. </p>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e104990">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e104990">
               <speaker>Dut. </speaker>
               <l>Tho we pardon him </l>
               <pb xml:id="ep000275-008-a"/>
@@ -955,7 +943,7 @@
               <l>Is meant him, of no vertue, or to himselfe, </l>
               <l>Or my designe. </l>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e105100">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e105100">
               <speaker>Dut. </speaker>
               <l>How is the name of gentleman </l>
               <l>Dishonor'd by such desperate undertakings; </l>
@@ -967,7 +955,7 @@
               <speaker>Urs. </speaker>
               <p>Th'are admitted. </p>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e105180">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e105180">
               <speaker>Dut. </speaker>
               <l>Is that he? </l>
               <l>We sent for you Mercutio to tell you </l>
@@ -1015,7 +1003,7 @@
               <l>Ha you no sense? humble your knees to thanke </l>
               <l>Her highnesse and that gentleman. </l>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e105510">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e105510">
               <speaker>Du. </speaker>
               <l>Why does </l>
               <l>That fellow kneele Ursini. </l>
@@ -1025,7 +1013,7 @@
               <l>'Tis Signior Borgia, </l>
               <l>His heart is full of thankes. </l>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e105570">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e105570">
               <speaker>Du. </speaker>
               <l>I looke not for em, </l>
               <l>What doe I feele? command him rise. </l>
@@ -1052,7 +1040,7 @@
               <l>How now Cornelia, pray excuse me brother, </l>
               <l>My joy to see you safe doth halfe transport me. </l>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e105720">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e105720">
               <speaker>Du. </speaker>
               <p>Mercutio. </p>
             </sp>
@@ -1080,7 +1068,7 @@
               <l>To incline his favour, since she has declar'd </l>
               <l>Herselfe no enemy. </l>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e105920">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e105920">
               <speaker>Du. </speaker>
               <p>Cornelia. </p>
             </sp>
@@ -1199,7 +1187,7 @@
               <l>To your other princely favours Madam, and </l>
               <l>Admit this gentleman to kisse your hand. </l>
             </sp>
-            <sp who="#ep000275-duchess" xml:id="ep000275-e106710">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e106710">
               <speaker>Dut. </speaker>
               <l>Without much suite my heart would have conveyd </l>
               <l>That to my lip, a very handsome gentleman. </l>
@@ -1256,7 +1244,7 @@
               <speaker>Urs. </speaker>
               <p>I was jealous she would chide and frowne upon him, praid her be gentle, and looke calme, Ist come To this? </p>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e107090">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e107090">
               <speaker>Du. </speaker>
               <l>Vrsini, I have thought how to supply </l>
               <l>That place of Secretary that is vacant, see </l>
@@ -1267,7 +1255,7 @@
               <speaker>Vrs. </speaker>
               <p>Madam. </p>
             </sp>
-            <sp who="#ep000275-duke" xml:id="ep000275-e107160">
+            <sp who="#ep000275-dutchesse" xml:id="ep000275-e107160">
               <speaker>Du. </speaker>
               <l>I hope this will please you </l>
               <l>Vrsini, we can grace whom you present; </l>
@@ -1352,7 +1340,7 @@
             <pb xml:id="ep000275-011-a"/>
             <p>Here comes mine Host. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e107680">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e107680">
             <speaker>Gr. </speaker>
             <p>What would this fellow have, no newes of your master? </p>
           </sp>
@@ -1360,7 +1348,7 @@
             <speaker>Pim. </speaker>
             <p>Speake that word no more on thy allegiance, here goe to bed and rise with a cleane shirt. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e107720">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e107720">
             <speaker>Gr. </speaker>
             <p>This is gold, what does the fellow meane? </p>
           </sp>
@@ -1400,7 +1388,7 @@
             <speaker>Pim. </speaker>
             <p>Thou art wise, thine eare, I am a Prince. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e107920">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e107920">
             <speaker>Gr. </speaker>
             <p>How Signior. </p>
           </sp>
@@ -1425,7 +1413,7 @@
             <speaker>Pim. </speaker>
             <p>This boy shall waite on me, Ile have yee all. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e108050">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e108050">
             <speaker>Gr. </speaker>
             <p>Whether? </p>
           </sp>
@@ -1441,7 +1429,7 @@
             <speaker>Pim. </speaker>
             <p>For your preferments, when thou hast got a chapman for this tub thou liv'st in, let me know't. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e108130">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e108130">
             <speaker>Gr. </speaker>
             <p>Boy this a Spanish Prince. </p>
           </sp>
@@ -1462,7 +1450,7 @@
               <pb xml:id="ep000275-011-b"/>Pim. </speaker>
             <p>You doe not know my plot, these Gentlemen my servants should cunningly have prefer'd mee to be the Dutchesse Foole. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e108230">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e108230">
             <speaker>Gr. </speaker>
             <p>Her Foole? tis very likely. </p>
           </sp>
@@ -1473,7 +1461,7 @@
             <l>And disposition ere I married her, </l>
             <l>For I can have at this present foure Kings daughters, the eldest of 'em is but seven yeares old, which shewes the parents dote upon me, and wod make sure of me betimes. </l>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e108300">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e108300">
             <speaker>Gr. </speaker>
             <p>I doe beleeve your grace. </p>
           </sp>
@@ -1586,7 +1574,7 @@
             <l>Here's earnest for new skins, when things are ripe </l>
             <l>We will to Court. </l>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e108980">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e108980">
             <speaker>Gr. </speaker>
             <p>What thinkes your grace of going to bed </p>
           </sp>
@@ -1596,7 +1584,7 @@
             <l>To be drunke our selves in state too: </l>
             <l>Let me have fiftie strumpets. </l>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e109040">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e109040">
             <speaker>Gr. </speaker>
             <p>Fiftie trumpets. </p>
           </sp>
@@ -1612,7 +1600,7 @@
             <speaker>Pim. </speaker>
             <p>I will, and thou shalt be Captaine of the Pigmies under me, this roome's too narrow, beate downe the walls on both sides, advance your lights and call the Country in, if there be a Taylor amongst 'em he shall first take measure of my highnesse, for I must not longer walke in Quirpo. </p>
           </sp>
-          <sp who="#ep000275-both" xml:id="ep000275-e109120">
+          <sp who="#ep000275-ascanio #ep000275-grutty" xml:id="ep000275-e109120">
             <speaker>Both. </speaker>
             <p>We attend your excellence. </p>
             <stage xml:id="ep000275-e109140">Exeunt. </stage>
@@ -1927,7 +1915,7 @@
             <speaker>Bo. </speaker>
             <p>Your our graces pardon? </p>
           </sp>
-          <sp who="#ep000275-duke" xml:id="ep000275-e111210">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e111210">
             <speaker>Du. </speaker>
             <p>'Tis late, good night my Lord Embassador. </p>
             <stage xml:id="ep000275-e111230">Exit. </stage>
@@ -2020,7 +2008,7 @@
             <l>He is the hansomst Gentleman; dee thinke </l>
             <l>He weares his owne haire? </l>
           </sp>
-          <sp who="#ep000275-" xml:id="ep000275-e111810">
+          <sp who="#ep000275-melinda" xml:id="ep000275-e111810">
             <speaker>
               <pb xml:id="ep000275-015-a"/>Mil. </speaker>
             <l>I was about </l>
@@ -2233,7 +2221,7 @@
             <speaker>Cor. </speaker>
             <p>The Dutchesse shee'l spoyle all. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113310">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113310">
             <speaker>
               <pb xml:id="ep000275-016-b"/>Dut. </speaker>
             <l>I heard your voyce more loud then usuall, </l>
@@ -2243,7 +2231,7 @@
             <speaker>Cor. </speaker>
             <p>Heer's no body and please your grace. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113360">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113360">
             <speaker>Dut. </speaker>
             <l>You hold some dialogue at the window then, </l>
             <l>Ile know. </l>
@@ -2252,7 +2240,7 @@
             <speaker>Cor. </speaker>
             <p>My brother Borgia Madam. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113410">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113410">
             <speaker>Dut. </speaker>
             <p>Borgia, leave us. </p>
           </sp>
@@ -2265,7 +2253,7 @@
             <l>I must confesse you are my Princesse Madam, </l>
             <l>To whose least command I owe my blood and fortune. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113480">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113480">
             <speaker>Dut. </speaker>
             <p>He speaks to me, how does he know I am here? </p>
           </sp>
@@ -2282,7 +2270,7 @@
             <l>My heart shall bleed to death ere it shall finde </l>
             <l>One thought of so much impudence. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113610">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113610">
             <speaker>Dut. </speaker>
             <l>Howes this? </l>
             <l>Since Cornelia has usurped my name </l>
@@ -2295,7 +2283,7 @@
             <speaker>Bo. </speaker>
             <p>Is the Dutchesse gone? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113700">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113700">
             <speaker>Dut. </speaker>
             <p>You well distinguish voyces, yet shee's gone. </p>
           </sp>
@@ -2304,7 +2292,7 @@
             <l>My joy of soule, deerest Cornelia. </l>
             <l>Tis she that I must trust to. </l>
           </sp>
-          <sp who="#ep000275-duke" xml:id="ep000275-e113750">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113750">
             <speaker>Du. </speaker>
             <l>I'st e'en so? </l>
             <l>Deare brother, leaving all your studied complements </l>
@@ -2326,7 +2314,7 @@
             <l>I am undone </l>
             <l>A 'both sides, heare me yet but speake. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113920">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113920">
             <speaker>Dut. </speaker>
             <p>What would you say brother? </p>
           </sp>
@@ -2334,7 +2322,7 @@
             <speaker>Bo. </speaker>
             <p>I am not thy brother. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e113960">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e113960">
             <speaker>Dut. </speaker>
             <p>How, not Borgia. </p>
           </sp>
@@ -2348,7 +2336,7 @@
             <l>To enjoy thy conversation more freely, </l>
             <l>I was content to seeme what men would call me </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e114060">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e114060">
             <speaker>Dut. </speaker>
             <p>You tell me wonders. </p>
           </sp>
@@ -2362,7 +2350,7 @@
             <l>Ile make no noyse to morrow, when I take </l>
             <l>My journey. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e114160">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e114160">
             <speaker>Dut. </speaker>
             <l>Stay, he must not be fo lost, </l>
             <l>This is a strange discovery, if you can </l>
@@ -2388,7 +2376,7 @@
           <pb xml:id="ep000275-017-b"/>
           <head>Actus Tertius. </head>
           <stage xml:id="ep000275-e114340">Enter Grutti and Ascanio. </stage>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114350">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114350">
             <speaker>Gr. </speaker>
             <p>WHy, I shall hardly take thee for my owne naturall child. </p>
           </sp>
@@ -2396,7 +2384,7 @@
             <speaker>As. </speaker>
             <p>Let me alone with my son, if I do not fit him, let me never finde the way into my owne breeches agen, I would be loath to die in a wrong case and bee mistaken in another world; is the musicke ready, and the wine father? can the fellowes doe their dance hansomely, in stead of a maske to entertaine his highnesse, I am sorry my legges are out of tune, I have a great minde to be capering. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114390">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114390">
             <speaker>Gr. </speaker>
             <p>My owne wit, my owne naturall wit to a haire. </p>
           </sp>
@@ -2404,7 +2392,7 @@
             <speaker>As. </speaker>
             <p>Not too much haire of your owne, and wit together, father, tis not the fashion:de' heare, whatsoever I say, be you drunk time enough to justifie it, the bills shall be discharged without scrupulous examination, sowse in wine and give him Sea roome, if his head leake we will pumpe his breeches, he shall not sinke with all his ballast I warrant him. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114430">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114430">
             <speaker>Gr. </speaker>
             <p>A witty cracke, and my owne boy still. </p>
           </sp>
@@ -2412,7 +2400,7 @@
             <speaker>As. </speaker>
             <p>Your owne boy? take heed what you say, lest you bee driven to justifie it, you have no minde to wake my mother from her grave, tis enough I aske you blessing, I doe long to be metamorphosd, and pursue his princely humor out of breath— Musicke, tis well, his grace is upon entrance. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114470">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114470">
             <speaker>Gr. </speaker>
             <p>Dispatch boy. </p>
           </sp>
@@ -2426,7 +2414,7 @@
             <speaker>Pim. </speaker>
             <p>And how, and how doe things become? We were in clouds but now. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114550">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114550">
             <speaker>Gr. </speaker>
             <p>Your highnesse is broken out. </p>
           </sp>
@@ -2434,7 +2422,7 @@
             <speaker>Pim. </speaker>
             <p>Broken out, where? </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114590">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114590">
             <speaker>Gr. </speaker>
             <p>Out of the clouds and please you. </p>
           </sp>
@@ -2445,7 +2433,7 @@
             <l>At all adventures let it goe no further, </l>
             <l>There are no traytors I hope amongst yee▪ </l>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114660">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114660">
             <speaker>
               <pb xml:id="ep000275-018-a"/>Gr. </speaker>
             <p>Traytors, we will cut off any mans necke that dares but thinke so. </p>
@@ -2454,7 +2442,7 @@
             <speaker>Pim. </speaker>
             <p>Doe and I will justifie it, hang necks among friends, although I am pleasd to reveale the majestie of my person to you, it is not fit every one should know so much, you are strangers, and therefore I dare trust you, but the Dutchesse must not heare on't upon your lives; she and I must be better acquainted when I see my time; Ile tell you, the toy may take me i'th head to looke like a foole agen, it may, greatnesse is given to humors, and giddinesse will runne in a blood, if it doe, doe not know me. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114700">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114700">
             <speaker>Gr. </speaker>
             <p>For what? </p>
           </sp>
@@ -2462,7 +2450,7 @@
             <speaker>Pim. </speaker>
             <p>For any other then I seeme. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114740">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114740">
             <speaker>Gr. </speaker>
             <p>Not a foole. </p>
           </sp>
@@ -2470,7 +2458,7 @@
             <speaker>Pim. </speaker>
             <p>Thou art an asse, a Prince may play the foole within his owne dominions, or any other; provided they bee of his owne allies and confederates: I know where I am, but we are not merry reach me a chaire and a bottle of wine, every one take his charge. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114780">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114780">
             <speaker>Gr. </speaker>
             <p>Will not your highnesse have the dance first? </p>
           </sp>
@@ -2478,7 +2466,7 @@
             <speaker>Pim. </speaker>
             <p>They will dance the better when they are three quarters drunke. </p>
           </sp>
-          <sp who="#ep000275-1_servant" xml:id="ep000275-e114820">
+          <sp who="#ep000275-servant-1" xml:id="ep000275-e114820">
             <speaker>1. Ser. </speaker>
             <p>We do not observe men of your nation to be so joviall. </p>
           </sp>
@@ -2486,7 +2474,7 @@
             <speaker>Pim. </speaker>
             <p>Not subjects I grant you that, but we <stage xml:id="ep000275-e114860">Sound a health .</stage>have priviledge musique, and give fire at once— so, but me thinkes it were necessary there were some difference in our drinkings; all are not Princes, reach me a bigger bottle, <stage xml:id="ep000275-e114870">Sound a health .</stage>I will preserve my state, this is a Princely draught— <stage xml:id="ep000275-e114880">We drinke alone .</stage>so— Why have we not a Concubine? </p>
           </sp>
-          <sp who="#ep000275-2_servant" xml:id="ep000275-e114890">
+          <sp who="#ep000275-servant-2" xml:id="ep000275-e114890">
             <speaker>2. Ser. </speaker>
             <p>Brave Prince, with what a majestie he drinkes. </p>
           </sp>
@@ -2494,18 +2482,18 @@
             <speaker>Pim. </speaker>
             <p>Now let em friske the dance you have prepard, I am ready to accept it. </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e114930">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e114930">
             <speaker>Gr. </speaker>
             <l>And it shall please your grace, <stage xml:id="ep000275-e114950">The dance which ended. </stage>
             </l>
             <l>There is a high German desires to speak with you. </l>
             <stage xml:id="ep000275-e114970">Enter Grut. </stage>
           </sp>
-          <sp who="#ep000275-1_servant" xml:id="ep000275-e114980">
+          <sp who="#ep000275-servant-1" xml:id="ep000275-e114980">
             <speaker>1. Ser. </speaker>
             <p>The high German that was at Court, hee's a man of mightie parts and knowne to all the Princes in Christendome, what comes he for? </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e115000">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e115000">
             <speaker>Gr. </speaker>
             <p>I feare you are betrayd Sir, and that the Dutchesse has sent for you. </p>
           </sp>
@@ -2514,7 +2502,7 @@
               <pb xml:id="ep000275-018-b"/>Pim. </speaker>
             <p>For me, I wonnot come yet. </p>
           </sp>
-          <sp who="#ep000275-2_servant" xml:id="ep000275-e115040">
+          <sp who="#ep000275-servant-2" xml:id="ep000275-e115040">
             <speaker>2. Ser. </speaker>
             <p>Doe not affront him Sir, for your owne sake, this high German has beaten all the Fencers in Europe. </p>
           </sp>
@@ -2522,7 +2510,7 @@
             <speaker>Pim. </speaker>
             <p>Let him beate all the world, whats that to me? shall he make a prize of me? </p>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e115080">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e115080">
             <speaker>Gr. </speaker>
             <p>But if he come Embassador from the Dutchesse. </p>
           </sp>
@@ -2533,7 +2521,7 @@
             </l>
             <l>Which is the high German? let me see him. </l>
           </sp>
-          <sp who="#ep000275-grutti" xml:id="ep000275-e115150">
+          <sp who="#ep000275-grutty" xml:id="ep000275-e115150">
             <speaker>Gr. </speaker>
             <p>That Sir. </p>
           </sp>
@@ -2584,7 +2572,7 @@
             <speaker>Pim. </speaker>
             <p>O Pensioner, tis the least honour we intend thee, I am a naturall Prince as sure as I live; here weare this gold, there's more to drinke our health, wee are pleasd no man be sober at our returne, as he will answer it, you may be all my subjects: if I marry the Dutchesse Ile hang you all. </p>
           </sp>
-          <sp who="#ep000275-unassigned" xml:id="ep000275-e115460">
+          <sp who="#ep000275-ursini" xml:id="ep000275-e115460">
             <speaker>
               <pb xml:id="ep000275-019-a"/>Ors. </speaker>
             <p>How? </p>
@@ -2945,7 +2933,7 @@
             <l>With joy, I am not in my spheare of love. </l>
             <stage xml:id="ep000275-e117870">Exit. </stage>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e117880">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e117880">
             <speaker>Dut. </speaker>
             <l>But tell me signior, nay we are pleas'd </l>
             <l>You should be free, upon what confidence </l>
@@ -2963,7 +2951,7 @@
             <l>A blessing in my fate to meete your mercy </l>
             <l>That gave me boldnesse. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e118010">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e118010">
             <speaker>Dut. </speaker>
             <l>Cunningly dissembled, </l>
             <l>You met no Lady then in all your travell, </l>
@@ -2982,7 +2970,7 @@
             <l>On so much barrennesse which left their charity </l>
             <l>To pay it selfe. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e118160">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e118160">
             <speaker>Dut. </speaker>
             <l>You doe not promise such </l>
             <l>A hard and horrid composition, </l>
@@ -3004,7 +2992,7 @@
             <l>Proportion with your excellence, all should </l>
             <l>Be faire and imitate your first example. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e118340">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e118340">
             <speaker>Dut. </speaker>
             <l>I see you can be when you lift a Courtier, </l>
             <l>But this confirmes your love is planted here; </l>
@@ -3044,7 +3032,7 @@
             <speaker>Cor. </speaker>
             <p>Madam the Duke. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e118650">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e118650">
             <speaker>Dut. </speaker>
             <p>What Duke? </p>
           </sp>
@@ -3055,7 +3043,7 @@
             <l>Given out by himselfe, to claime you for his wife, </l>
             <l>For which he has your promise. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e118720">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e118720">
             <speaker>Dut. </speaker>
             <l>How our promise? </l>
             <l>Can Princes be so insolent, beshrew </l>
@@ -3072,7 +3060,7 @@
             <l>Be denied but by a secret destinie. </l>
           </sp>
           <stage xml:id="ep000275-e118840">Runnes to imbrace him— Brother. </stage>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e118850">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e118850">
             <speaker>Dut. </speaker>
             <l>Ha, Cornelia </l>
             <l>I hope you are not courting Borgia, </l>
@@ -3506,7 +3494,7 @@
             <l>The Dutchesse, Ile withdraw. </l>
           </sp>
           <stage xml:id="ep000275-e121780">Enter Dutchesse, Ferrara, Ursini, Borgia, Cornelia Ladies. </stage>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e121790">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e121790">
             <speaker>Dut. </speaker>
             <l>My Lord, you make me wonder, challenge me </l>
             <l>Of promises? tho I acknowledge it, </l>
@@ -3539,7 +3527,7 @@
             <l>And cannot staine your selfe by a denyall </l>
             <l>Of any syllable you speake. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e122070">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e122070">
             <speaker>Dut. </speaker>
             <l>With pardon </l>
             <l>Of your grace, I shall laugh if you persist thus: </l>
@@ -3553,7 +3541,7 @@
             <l>We have receiv'd, and if I had no witnesse </l>
             <l>I see what mirth we are prepar'd for. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e122170">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e122170">
             <speaker>Dut. </speaker>
             <l>Witnesse </l>
             <l>There is too much at stake my Lord already, </l>
@@ -3588,7 +3576,7 @@
             <l>Must pardon me, I heard her highnesse speake </l>
             <l>No language to that purpose. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e122420">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e122420">
             <speaker>Dut. </speaker>
             <l>We honour </l>
             <l>You Borgia for acquitting us. </l>
@@ -3605,7 +3593,7 @@
             <l>It seemes you have concluded, Madam, I </l>
             <l>Must be the generall mirth. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e122520">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e122520">
             <speaker>Dut. </speaker>
             <l>I finde Cornelias </l>
             <l>Cunning in this and must apply some complement </l>
@@ -3643,7 +3631,7 @@
             <speaker>Urs. </speaker>
             <p>You speak a riddle Maddam. </p>
           </sp>
-          <sp who="#ep000275-duke" xml:id="ep000275-e122760">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e122760">
             <speaker>Du. </speaker>
             <l>Will you my Lord </l>
             <l>Admit of so much mirth. </l>
@@ -3652,7 +3640,7 @@
             <speaker>Fer. </speaker>
             <p>You shall command me. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e122810">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e122810">
             <speaker>Dut. </speaker>
             <l>Remit 'em then, the rest Ile cleare hereafter </l>
             <l>To your satisfaction. </l>
@@ -3725,7 +3713,7 @@
             <l>Grac'd with the presence of so brave a Prince </l>
             <l>As this the darling and delight of Christendome. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e123250">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e123250">
             <speaker>Dut. </speaker>
             <p>He seemes no lesse. </p>
           </sp>
@@ -3750,7 +3738,7 @@
             <l>To play with him on any Instrument </l>
             <l>From the Organ to the Iewes-trumpe. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e123440">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e123440">
             <speaker>Dut. </speaker>
             <p>Miracles! </p>
           </sp>
@@ -3769,7 +3757,7 @@
             <l>With all these vertues and advantages </l>
             <l>Of blood and state he comes to court your highnesse. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e123550">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e123550">
             <speaker>Dut. </speaker>
             <l>We are infinitely honord, and wud thank him, </l>
             <l>But that we know not yet this Princes name. </l>
@@ -3840,7 +3828,7 @@
             <speaker>Pim. </speaker>
             <p>Let him goe madam, Ile call him to account hereafter. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e123950">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e123950">
             <speaker>Dut. </speaker>
             <p>We are displeasd, hence with that foole and whip him. </p>
             <stage xml:id="ep000275-e123970">Exit. </stage>
@@ -3876,7 +3864,7 @@
             <p>How am I transform'd, Duke of Ferrara quotha, wud I were any thing, I know not what I am as they have handled me. </p>
           </sp>
           <stage xml:id="ep000275-e124140">Enter Dutchesse and Pietro. </stage>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124150">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124150">
             <speaker>Dut. </speaker>
             <p>Is the Duke gone? </p>
           </sp>
@@ -3884,7 +3872,7 @@
             <speaker>Pie. </speaker>
             <p>Yes Madam. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124190">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124190">
             <speaker>
               <pb xml:id="ep000275-027-b"/>Dut. </speaker>
             <p>Ile have the foole hang'd then. </p>
@@ -3893,7 +3881,7 @@
             <speaker>Pim. </speaker>
             <p>That's I. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124230">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124230">
             <speaker>Dut. </speaker>
             <p>Alas poore fellow, ha, ha, ha, what art thou? </p>
           </sp>
@@ -3901,7 +3889,7 @@
             <speaker>Pim. </speaker>
             <p>Nothing, I hope she does not know me agen, I must deny my selfe. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124270">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124270">
             <speaker>Dut. </speaker>
             <l>Come hither Sirrah, </l>
             <l>Whose devise was it to bid you say you were </l>
@@ -3911,7 +3899,7 @@
             <speaker>Pim. </speaker>
             <p>Alas not I Madam, he is gone. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124330">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124330">
             <speaker>Dut. </speaker>
             <p>Who is gone? </p>
           </sp>
@@ -3919,7 +3907,7 @@
             <speaker>Pim. </speaker>
             <p>The insolent fellow that made a foole of your highnesse. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124370">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124370">
             <speaker>Dut. </speaker>
             <p>Whether is he gone? </p>
           </sp>
@@ -3927,7 +3915,7 @@
             <speaker>Pim. </speaker>
             <p>To obey your grace and be whip'd. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124410">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124410">
             <speaker>Dut. </speaker>
             <p>Why doe you shake so? </p>
           </sp>
@@ -3935,7 +3923,7 @@
             <speaker>Pim. </speaker>
             <p>I'me very warme and please your grace. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124450">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124450">
             <speaker>Dut. </speaker>
             <p>Where be your cloathes? </p>
           </sp>
@@ -3943,7 +3931,7 @@
             <speaker>Pim. </speaker>
             <p>My cloathes? I never wore any more in my life, I sweat with these. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124490">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124490">
             <speaker>Dut. </speaker>
             <l>He has punishment enough, who waites? </l>
             <l>Bid Borgia attend us. </l>
@@ -3999,7 +3987,7 @@
             <speaker>Bo. </speaker>
             <p>Madam you let fall. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124810">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124810">
             <speaker>
               <pb xml:id="ep000275-028-a"/>Dut. </speaker>
             <p>Let it re ward your paines. </p>
@@ -4008,7 +3996,7 @@
             <speaker>Iu. </speaker>
             <p>Observ'd you that. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124850">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124850">
             <speaker>Dut. </speaker>
             <l>Convey this to Mercutio, it creates him </l>
             <l>Controuler of our houshold, this I hope </l>
@@ -4019,7 +4007,7 @@
             <speaker>Bo. </speaker>
             <p>You honour your poore creatures. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124920">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124920">
             <speaker>Dut. </speaker>
             <l>Leave us, <stage xml:id="ep000275-e124940">Exit. </stage>
             </l>
@@ -4029,7 +4017,7 @@
             <speaker>Bo. </speaker>
             <p>Suite Madam? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e124980">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e124980">
             <speaker>Dut. </speaker>
             <l>Did not you say you had a suite to us, </l>
             <l>I hope your modestie will teach you how </l>
@@ -4041,7 +4029,7 @@
             <speaker>Bo. </speaker>
             <p>My suite Madam? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125060">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125060">
             <speaker>Dut. </speaker>
             <l>But in the confidence of your discretion </l>
             <l>Name and enjoy what you desire. </l>
@@ -4051,7 +4039,7 @@
             <l>This bounty </l>
             <l>Of language is beyond all my ambition. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125120">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125120">
             <speaker>Dut. </speaker>
             <l>Well Sir to'th purpose, I would have you speake </l>
             <l>To purpose now. </l>
@@ -4062,7 +4050,7 @@
             <l>This exceeds all the rest, shall I be mad </l>
             <l>And lose this opportunitie. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125190">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125190">
             <speaker>Dut. </speaker>
             <p>We are prepar'd </p>
           </sp>
@@ -4073,7 +4061,7 @@
             <l>What shall I say, she lookes so keene and tempting, </l>
             <l>I have a great mind to kisse her. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125260">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125260">
             <speaker>Dut. </speaker>
             <p>Not resolv'd yet? </p>
           </sp>
@@ -4081,17 +4069,17 @@
             <speaker>Bo. </speaker>
             <p>Long since, my humble suite is to you Madam, that— </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125300">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125300">
             <speaker>Dut. </speaker>
             <p>What? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125320">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125320">
             <speaker>Dut. </speaker>
             <l>I may be number'd still among your creatures </l>
             <l>And keepe a blessing in your gracious smiles </l>
             <l>Vpon my humble service. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125360">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125360">
             <speaker>Dut. </speaker>
             <l>A smile and humblest service, is this all? </l>
             <l>You wonnot purchase much by being a Courtier. </l>
@@ -4102,7 +4090,7 @@
             <l>The greatest rise by favour, I ha lost </l>
             <l>An opportunitie. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125420">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125420">
             <speaker>Dut. </speaker>
             <p>Is there nothing else? </p>
           </sp>
@@ -4111,7 +4099,7 @@
             <l>She Askes agen, now Ile put her toot, </l>
             <l>We are private, I have another suite Madam. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125470">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125470">
             <speaker>Dut. </speaker>
             <p>A courtier should have many, what i'st made on? </p>
           </sp>
@@ -4119,7 +4107,7 @@
             <speaker>Bo. </speaker>
             <p>Of love. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125510">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125510">
             <speaker>Dut. </speaker>
             <l>A prettie winter wearing, and keepes well </l>
             <l>In fashion. </l>
@@ -4128,7 +4116,7 @@
             <speaker>Bo. </speaker>
             <p>May I presume to as aske your grace. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125560">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125560">
             <speaker>Dut. </speaker>
             <p>A question? yes Sir. </p>
           </sp>
@@ -4136,7 +4124,7 @@
             <speaker>Bo. </speaker>
             <p>Doe you love me Madam? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125600">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125600">
             <speaker>Dut. </speaker>
             <p>How Sir? </p>
           </sp>
@@ -4144,7 +4132,7 @@
             <speaker>Bo. </speaker>
             <p>Does your grace love me? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125640">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125640">
             <speaker>Dut. </speaker>
             <l>Audacious Groome, how dares thy soule imagine </l>
             <l>So great an impudence, almost treason to us, </l>
@@ -4172,7 +4160,7 @@
             <speaker>Bo. </speaker>
             <p>Ha'? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e125880">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e125880">
             <speaker>Dut. </speaker>
             <l>Wisely preserve'em </l>
             <l>And rather chide your timerous understanding </l>
@@ -4190,7 +4178,7 @@
             <l>And cunningly she reines it, whats your pleasure </l>
             <l>I shall write Madam? </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126010">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126010">
             <speaker>Dut. </speaker>
             <l>A letter, a love letter, are you ready, </l>
             <l>Write as I bid upon your life,— I love you. </l>
@@ -4199,7 +4187,7 @@
             <speaker>Bo. </speaker>
             <p>I am perpar'd. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126060">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126060">
             <speaker>Dut. </speaker>
             <p>Write I love you Sir, de'e not understand me? </p>
           </sp>
@@ -4207,7 +4195,7 @@
             <speaker>Bo. </speaker>
             <p>Shee'l make me mad, I ha'done, I love you. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126100">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126100">
             <speaker>Dut. </speaker>
             <p>How Sir? </p>
           </sp>
@@ -4215,7 +4203,7 @@
             <speaker>Bo. </speaker>
             <p>There wanted Sir, I love you Sir. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126140">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126140">
             <speaker>Dut. </speaker>
             <p>And if you be not short of apprehension. </p>
           </sp>
@@ -4223,7 +4211,7 @@
             <speaker>Bo. </speaker>
             <p>And if, &amp;c. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126180">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126180">
             <speaker>Dut. </speaker>
             <p>You'l wisely entertaine it. </p>
           </sp>
@@ -4231,7 +4219,7 @@
             <speaker>Bo. </speaker>
             <p>You'l wisely, &amp;c. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126220">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126220">
             <speaker>Dut. </speaker>
             <p>All errors be forgot, meete me this evening </p>
           </sp>
@@ -4239,7 +4227,7 @@
             <speaker>Bo. </speaker>
             <p>All errors, &amp;c. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126260">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126260">
             <speaker>Dut. </speaker>
             <p>I'th privie Garden, and receive more testimony. </p>
           </sp>
@@ -4247,7 +4235,7 @@
             <speaker>Bo. </speaker>
             <p>I'th privie garden, &amp;c. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126300">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126300">
             <speaker>Dut. </speaker>
             <p>Meane time heere is my hand, that in the morning I'le marry you. </p>
           </sp>
@@ -4257,7 +4245,7 @@
             <l>I ha' done, it wants your confirmation— so. </l>
             <l>To whom shall I direct it? </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126360">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126360">
             <speaker>Dut. </speaker>
             <p>You will be trustie, there's danger else. </p>
           </sp>
@@ -4265,7 +4253,7 @@
             <speaker>Bo. </speaker>
             <p>To whom? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e126400">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e126400">
             <speaker>Dut. </speaker>
             <l>To him that loves me best, </l>
             <l>Deceive me not farewell. </l>
@@ -4501,7 +4489,7 @@
             <l>You have confer'd upon my yeares, is much </l>
             <l>Above my strength to satisfie, yet I thanke you. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128160">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128160">
             <speaker>Dut. </speaker>
             <l>You have deserv'd we should encourage you </l>
             <l>For what is past, your sonne is full of hope </l>
@@ -4513,7 +4501,7 @@
             <l>To your infinite favors Madam, a young man, </l>
             <l>And would be active upon your commands. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128240">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128240">
             <speaker>Dut. </speaker>
             <p>Leave us, stay my Lord we must employ you. </p>
           </sp>
@@ -4523,7 +4511,7 @@
             <l>My age is now a burthen, that I could </l>
             <l>Shake off a score of winters. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128300">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128300">
             <speaker>Dut. </speaker>
             <l>There's no such </l>
             <l>Necessitie of youth to execute </l>
@@ -4535,7 +4523,7 @@
             <l>Be bold to tell your grace, I love him better </l>
             <l>For your sake. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128380">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128380">
             <speaker>Dut. </speaker>
             <p>For our sake. </p>
           </sp>
@@ -4547,7 +4535,7 @@
             <l>To a warme place, does not behave himselfe </l>
             <l>Alwayes to purpose. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128460">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128460">
             <speaker>
               <pb xml:id="ep000275-031-b"/>Dut. </speaker>
             <p>To what purpose Signior? </p>
@@ -4558,7 +4546,7 @@
             <l>Confesse proud of his expectations, </l>
             <l>It makes my blood dance Madam. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128520">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128520">
             <speaker>Dut. </speaker>
             <p>You are very merry. </p>
           </sp>
@@ -4566,7 +4554,7 @@
             <speaker>Mer. </speaker>
             <p>I hope to have more cause. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128560">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128560">
             <speaker>Dut. </speaker>
             <l>Well Sir, while we </l>
             <l>Retire into the Garden, be it your care </l>
@@ -4578,7 +4566,7 @@
             <speaker>Mer. </speaker>
             <p>My sonne Borgia. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128640">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128640">
             <speaker>Dut. </speaker>
             <p>Your sonne, if you doe call him Borgia. </p>
           </sp>
@@ -4586,7 +4574,7 @@
             <speaker>Mer. </speaker>
             <p>Shall I goe for him? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e128680">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e128680">
             <speaker>Dut. </speaker>
             <l>Hee'l be so officious </l>
             <l>Perhaps to spare that trouble, if he come </l>
@@ -5491,7 +5479,7 @@
             <l>The Dutchesse. </l>
           </sp>
           <stage xml:id="ep000275-e134740">Enter Dutchesse, Ferrara, Pietro, Iulio, Lucio Laura Melinda. </stage>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e134750">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e134750">
             <speaker>Dut. </speaker>
             <l>You now possesse us freely, the next morning </l>
             <l>Shall spread this joy through Urbin. </l>
@@ -5506,7 +5494,7 @@
             <l>We thanke you </l>
             <l>Signior Ursini, you have beene faithfull to us. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e134840">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e134840">
             <speaker>Dut. </speaker>
             <p>Is your name Borgia? </p>
           </sp>
@@ -5514,7 +5502,7 @@
             <speaker>Bo. </speaker>
             <p>No Madam, </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e134880">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e134880">
             <speaker>Dut. </speaker>
             <l>Where's our letter? </l>
             <l>We did not thinke y'ad beene so apprehensive, </l>
@@ -5528,7 +5516,7 @@
             <speaker>Mer. </speaker>
             <p>Your pardon gratious Madam. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e134980">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e134980">
             <speaker>Dut. </speaker>
             <l>Signior, </l>
             <l>We thanke your diligencē, possesse our favour. </l>
@@ -5539,7 +5527,7 @@
             <speaker>Mer. </speaker>
             <p>I am one of the worst keepers of a dore, </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e135040">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e135040">
             <speaker>Dut. </speaker>
             <p>No more, all's well. </p>
           </sp>
@@ -5570,7 +5558,7 @@
             <stage xml:id="ep000275-e135190">Pimponio within. </stage>
             <p>Oyes, oyes. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e135210">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e135210">
             <speaker>Dut. </speaker>
             <p>What's the matter? </p>
           </sp>
@@ -5631,7 +5619,7 @@
             <l>Of your free pardon Madam for all trespasses? </l>
             <l>My Lord your breath is powerfull. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e135620">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e135620">
             <speaker>Dut. </speaker>
             <p>Rise Aurelio. </p>
           </sp>
@@ -5643,7 +5631,7 @@
             <speaker>Mer. </speaker>
             <p>I hope the pardon's firme. </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e135680">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e135680">
             <speaker>Dut. </speaker>
             <p>Irrevocable. </p>
           </sp>
@@ -5665,7 +5653,7 @@
             <l>With licence of your excellence may </l>
             <l>Prosecute our designe agen for the warres. </l>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e135820">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e135820">
             <speaker>Dut. </speaker>
             <l>If nothing else at Court invite your stay </l>
             <l>We lay commands upon you as our servant </l>
@@ -5683,7 +5671,7 @@
             <speaker>Pis. </speaker>
             <p>Thinkes your grace so? </p>
           </sp>
-          <sp who="#ep000275-duchess" xml:id="ep000275-e135940">
+          <sp who="#ep000275-dutchesse" xml:id="ep000275-e135940">
             <speaker>Dut. </speaker>
             <l>Subjects may love as their rude sense imparts, </l>
             <l>But heaven doth onely governe Princes hearts. </l>

@@ -80,74 +80,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000485-albertus">
-            <persName>Albertus</persName>
-          </person>
-          <person xml:id="ep000485-lorenzo">
+          <personGrp xml:id="ep000485-soldiers" sex="MALE">
+            <name>Soldiers</name>
+          </personGrp>
+          <person xml:id="ep000485-lorenzo" sex="MALE">
             <persName>Lorenzo</persName>
           </person>
-          <person xml:id="ep000485-alphonsus">
+          <person xml:id="ep000485-alphonsus" sex="MALE">
             <persName>Alphonsus</persName>
           </person>
-          <person xml:id="ep000485-bohemia">
+          <person xml:id="ep000485-bohemia" sex="MALE">
             <persName>Bohemia</persName>
           </person>
-          <person xml:id="ep000485-mentz">
+          <person xml:id="ep000485-mentz" sex="MALE">
             <persName>Mentz</persName>
           </person>
-          <person xml:id="ep000485-palsgrave">
+          <person xml:id="ep000485-palsgrave" sex="MALE">
             <persName>Palsgrave</persName>
           </person>
-          <person xml:id="ep000485-collen">
+          <person xml:id="ep000485-collen" sex="MALE">
             <persName>Collen</persName>
           </person>
-          <person xml:id="ep000485-saxony">
+          <person xml:id="ep000485-saxony" sex="MALE">
             <persName>Saxony</persName>
           </person>
-          <person xml:id="ep000485-trier">
+          <person xml:id="ep000485-trier" sex="MALE">
             <persName>Trier</persName>
           </person>
-          <person xml:id="ep000485-brandenburgh">
+          <person xml:id="ep000485-brandenburgh" sex="MALE">
             <persName>Brandenburgh</persName>
           </person>
-          <person xml:id="ep000485-empress">
+          <person xml:id="ep000485-empress" sex="FEMALE">
             <persName>Empress</persName>
           </person>
-          <person xml:id="ep000485-alexander">
+          <person xml:id="ep000485-alexander" sex="MALE">
             <persName>Alexander</persName>
           </person>
-          <person xml:id="ep000485-cologne">
-            <persName>Cologne</persName>
-          </person>
-          <person xml:id="ep000485-richard">
+          <person xml:id="ep000485-richard" sex="MALE">
             <persName>Richard</persName>
           </person>
-          <person xml:id="ep000485-edward">
+          <person xml:id="ep000485-edward" sex="MALE">
             <persName>Edward</persName>
           </person>
-          <person xml:id="ep000485-emperor">
-            <persName>Emperor</persName>
-          </person>
-          <person xml:id="ep000485-hedewick">
+          <person xml:id="ep000485-hedewick" sex="FEMALE">
             <persName>Hedewick</persName>
           </person>
-          <person xml:id="ep000485-jerick">
+          <person xml:id="ep000485-jerick" sex="MALE">
             <persName>Jerick</persName>
           </person>
-          <person xml:id="ep000485-hans">
+          <person xml:id="ep000485-hans" sex="MALE">
             <persName>Hans</persName>
           </person>
-          <person xml:id="ep000485-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000485-captain">
+          <person xml:id="ep000485-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000485-messenger">
+          <person xml:id="ep000485-messenger" sex="MALE">
             <persName>Messenger</persName>
-          </person>
-          <person xml:id="ep000485-all">
-            <persName>All</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -213,7 +201,7 @@
           <pb n="1" xml:id="ep000485-003-b"/>
           <head>ALPHONSUS Emperour of Germany. </head>
           <stage xml:id="ep000485-e100350">Enter Alphonsus the Emperour in his night-gown, and his shirt, and a torch in his hand, Alexander de Tripes his Page following him. </stage>
-          <sp who="#ep000485-albertus" xml:id="ep000485-e100360">
+          <sp who="#ep000485-alphonsus" xml:id="ep000485-e100360">
             <speaker>Al. </speaker>
             <l>BOy, give me the Master Key of all the doors. </l>
             <l>To Bed again, and leave me to my self. </l>
@@ -964,7 +952,7 @@
             <speaker>Alex. </speaker>
             <l>None but an open lyar terms him so. </l>
           </sp>
-          <sp who="#ep000485-cologne" xml:id="ep000485-e105930">
+          <sp who="#ep000485-collen" xml:id="ep000485-e105930">
             <speaker>Col. </speaker>
             <l>What Boy, so malepert? </l>
           </sp>
@@ -1111,7 +1099,7 @@
             <l>Or course of life to do the Empire good, </l>
             <l>I take my chance: My Fortune is to be the Forrester, </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e106960">
+          <sp who="#ep000485-empress" xml:id="ep000485-e106960">
             <speaker>Emp. </speaker>
             <l>If we want Venson either red or fallow, </l>
             <pb n="16" xml:id="ep000485-012-a"/>
@@ -1121,7 +1109,7 @@
             <speaker>Bohem. </speaker>
             <l>The Emperour's Taster I. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e107010">
+          <sp who="#ep000485-empress" xml:id="ep000485-e107010">
             <speaker>Emp. </speaker>
             <l>Your Majesty hath been tasted to so oft, </l>
             <l>That you have need of small instructions. </l>
@@ -1130,7 +1118,7 @@
             <speaker>Richard. </speaker>
             <l>I am the bowr, Sister what is my charge? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e107060">
+          <sp who="#ep000485-empress" xml:id="ep000485-e107060">
             <speaker>Emp. </speaker>
             <l>Tyr'd like a Carter, and a Clownish Bowr, </l>
             <l>To bring a load of Wood into the Kitchin. </l>
@@ -1142,7 +1130,7 @@
             <l>Prince Edward standeth melancholy still, </l>
             <l>Please it your Grace, my Lord, to draw your lot. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e107140">
+          <sp who="#ep000485-empress" xml:id="ep000485-e107140">
             <speaker>Emp. </speaker>
             <l>Nephew you must be solemn with the sad, </l>
             <l>And given to myrth in sportful Company, </l>
@@ -1301,7 +1289,7 @@
             <l>I am an Englishman, why should I not? </l>
           </sp>
           <pb n="18" xml:id="ep000485-013-a"/>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e108130">
+          <sp who="#ep000485-empress" xml:id="ep000485-e108130">
             <speaker>Emp. </speaker>
             <l>Fy Nephew Edward, here in Germany </l>
             <l>To kiss a Maid, a fault intollerable. </l>
@@ -1440,7 +1428,7 @@
             <l>And though the Prince her Father be not here, </l>
             <l>This Royal presence knows his mind in this. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e108960">
+          <sp who="#ep000485-empress" xml:id="ep000485-e108960">
             <speaker>Emp. </speaker>
             <l>Since you do come so roundly to the purpose, </l>
             <l>'Tis time for me to speak, the Maid is mine, </l>
@@ -1855,7 +1843,7 @@
             <speaker>Rich. </speaker>
             <p xml:lang="ger">Ich bien ein Furst, bried mich nicht ihr schelms, ihr verrahters. </p>
           </sp>
-          <sp who="#ep000485-unassigned" xml:id="ep000485-e111960">
+          <sp who="#ep000485-jerick #ep000485-hans" xml:id="ep000485-e111960">
             <speaker>Bath. </speaker>
             <p xml:lang="ger">Sla to, fla to, wir will yow furstlick tractieren. </p>
             <p>Richard having nothing in his hand but his whip, defends himself a while, and then fall's down, as if he were dead: </p>
@@ -2674,7 +2662,7 @@
             <l>We'll be with Ensigns spread before the Walls, </l>
             <l>We leave dear pledges of our quick return. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e117110">
+          <sp who="#ep000485-empress" xml:id="ep000485-e117110">
             <speaker>Emp. </speaker>
             <l>May the Heavens prosper your just intents. </l>
           </sp>
@@ -2852,7 +2840,7 @@
             <l>Come forth thou damned Witch, adulteror Whore, </l>
             <l>Foul scandal to thy name, thy sex, thy blood. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118360">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118360">
             <speaker>Emp. </speaker>
             <l>O Emperour, gentle Husband, pitty me. </l>
           </sp>
@@ -2865,7 +2853,7 @@
             <l>With an intent that they should gather arms, </l>
             <l>Besiege my Court, and take away my life? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118450">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118450">
             <speaker>Emp. </speaker>
             <l>Ah my Alphonsus. </l>
           </sp>
@@ -2873,7 +2861,7 @@
             <speaker>Alphon. </speaker>
             <l>Thy Alphonsus Whore? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118490">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118490">
             <speaker>Emp. </speaker>
             <l>O pierce my heart, trail me not by my hair; </l>
             <l>What I have done, I did it for the best. </l>
@@ -2884,7 +2872,7 @@
             <l>Hast thou in secret Clytemnestra like, </l>
             <l>Hid thy Aegestus thy adulterous love. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118560">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118560">
             <speaker>Emp. </speaker>
             <l>Heav'n be the record 'twixt my Lord and me, </l>
             <l>How pure and sacred I do hold thy Bed. </l>
@@ -2894,7 +2882,7 @@
             <l>Art thou so impudent to bely the deed, </l>
             <l>Is not the Palsgrave hidden in thy Chamber? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118620">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118620">
             <speaker>Empe. </speaker>
             <l>That I have hid the Palsgrave I confess; </l>
             <l>But to no ill intent your conscience knows. </l>
@@ -2905,7 +2893,7 @@
             <l>Are all committed to a good intent; </l>
             <l>Thou know'st he was my deadly enemy. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118690">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118690">
             <speaker>Emp. </speaker>
             <l>By this device I hop'd to make your friends. </l>
           </sp>
@@ -2913,7 +2901,7 @@
             <speaker>Alphon. </speaker>
             <l>Then bring him forth, we'l reconcile our selves. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118730">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118730">
             <speaker>Emp. </speaker>
             <l>Should I betray so great a Prince's life? </l>
           </sp>
@@ -2928,7 +2916,7 @@
             <l>And cut the Nose from thy bewitching face, </l>
             <l>And into England send thee like a Strumpet. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118830">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118830">
             <speaker>Emp. </speaker>
             <l>Pull every hair from off my head, </l>
             <l>Drag me at Horses tayls, cut off my nose </l>
@@ -2938,7 +2926,7 @@
             <speaker>Alphon. </speaker>
             <l>That will I try. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118890">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118890">
             <speaker>Emp. </speaker>
             <l>O Heav'n revenge my shame. </l>
           </sp>
@@ -2953,7 +2941,7 @@
             <speaker>Alphon. </speaker>
             <l>Upon him Souldiers, strike him to the ground. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e118980">
+          <sp who="#ep000485-empress" xml:id="ep000485-e118980">
             <speaker>Emp. </speaker>
             <l>Ah Souldiers, spare the Princely Pallatine. </l>
           </sp>
@@ -2973,7 +2961,7 @@
             <l>What wretched dame is this with blubbered cheeks, </l>
             <l>And rent dishevel'd hair? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e119120">
+          <sp who="#ep000485-empress" xml:id="ep000485-e119120">
             <speaker>Emp. </speaker>
             <l>O my dear Nephew, </l>
             <l>Fly, fly the Shambles, for thy turn is next. </l>
@@ -3054,7 +3042,7 @@
             <speaker>Edward. </speaker>
             <l>My senses are confounded and amaz'd. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e119680">
+          <sp who="#ep000485-empress" xml:id="ep000485-e119680">
             <speaker>Emp. </speaker>
             <l>The God of Heav'n knows my unguiltiness. </l>
           </sp>
@@ -4209,7 +4197,7 @@
             <l>And hearts and hands to scourge this tyrannie, </l>
             <l>And so farewel. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e127650">
+          <sp who="#ep000485-empress" xml:id="ep000485-e127650">
             <speaker>Emp. </speaker>
             <l>A thousand times farewel, </l>
             <l>Sweet Brother Richard and brave Prince of Collen. </l>
@@ -4260,7 +4248,7 @@
             <l>Heaven and the Right prevail, and let me die; </l>
             <l>Uncle farewell. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e127950">
+          <sp who="#ep000485-empress" xml:id="ep000485-e127950">
             <speaker>Emp. </speaker>
             <l>Brother farewell untill wee meet in Heaven. </l>
           </sp>
@@ -4294,7 +4282,7 @@
             <l>Yet welfare wenches that can love Good fellows, </l>
             <l>And not mix Murder with Adulterie. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e128210">
+          <sp who="#ep000485-empress" xml:id="ep000485-e128210">
             <speaker>Emp. </speaker>
             <l>Great Emperor, I dare not call you Husband, </l>
             <l>Your Conscience knows my hearts unguiltiness. </l>
@@ -4303,7 +4291,7 @@
             <speaker>Alpho. </speaker>
             <l>Didst thou not poison, or consent to poison us? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e128260">
+          <sp who="#ep000485-empress" xml:id="ep000485-e128260">
             <speaker>Emp. </speaker>
             <l>Should any but your Highness tell me so, </l>
             <l>I should forget my patience at my death, </l>
@@ -4362,7 +4350,7 @@
             <l>Those tears proceed from Fury and curst heart. </l>
             <l>I know the stomach of your English Dames. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e128680">
+          <sp who="#ep000485-empress" xml:id="ep000485-e128680">
             <speaker>Emp. </speaker>
             <l>No Emperour, these tears proceed from grief. </l>
           </sp>
@@ -4370,7 +4358,7 @@
             <speaker>Alphon. </speaker>
             <l>Grief that thou canst not be reveng'd of Vs. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e128720">
+          <sp who="#ep000485-empress" xml:id="ep000485-e128720">
             <speaker>Emp. </speaker>
             <l>Grief that your Highness is so ill advis'd, </l>
             <l>To offer violence to my Nephew Edward; </l>
@@ -4452,7 +4440,7 @@
             <speaker>Edw. </speaker>
             <l>O execrable deeds! </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e129350">
+          <sp who="#ep000485-empress" xml:id="ep000485-e129350">
             <speaker>Emp. </speaker>
             <l>O salvage mind! </l>
           </sp>
@@ -4474,7 +4462,7 @@
             <l>Thy Reasons are effectuall, take this Dagger; </l>
             <l>Yet pawse a while. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e129500">
+          <sp who="#ep000485-empress" xml:id="ep000485-e129500">
             <speaker>Emp. </speaker>
             <l>Sweet Nephew now farewell. </l>
           </sp>
@@ -4494,7 +4482,7 @@
             <speaker>Alphon. </speaker>
             <l>More then consented, they did execute. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e129600">
+          <sp who="#ep000485-empress" xml:id="ep000485-e129600">
             <speaker>Emp. </speaker>
             <l>I will not make his Majestie a Lyar, </l>
             <l>I kill'd thy Father, therefore let me die, </l>
@@ -4572,7 +4560,7 @@
             <speaker>Alphon. </speaker>
             <l>Then bind me quickly, use me as thou please </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e130190">
+          <sp who="#ep000485-empress" xml:id="ep000485-e130190">
             <speaker>Emp. </speaker>
             <l>O Villain, wilt thou kill thy Sovereign? </l>
           </sp>
@@ -4585,7 +4573,7 @@
             <l>Fair Empress. I shame to ask thee pardon, </l>
             <l>Whom I have wrong'd so many thousand waies. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e130260">
+          <sp who="#ep000485-empress" xml:id="ep000485-e130260">
             <speaker>Emp. </speaker>
             <l>Dread Lord and Husband, leave these desperat thoughts, </l>
             <l>Doubt not the Princes may be reconcil'd. </l>
@@ -4654,7 +4642,7 @@
             <l>Damning thy Soul to endless pains of Hell. </l>
             <l>Do this or die upon my Rapiers point. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e130780">
+          <sp who="#ep000485-empress" xml:id="ep000485-e130780">
             <speaker>Emp. </speaker>
             <l>Sweet Lord and Husband, spit in's face. </l>
             <l>Die like a man, and live not like a Devill. </l>
@@ -4709,7 +4697,7 @@
             <l>Great Emperor where is his Majestie? </l>
             <l>What bloody spectacle do I behold? </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e131120">
+          <sp who="#ep000485-empress" xml:id="ep000485-e131120">
             <speaker>Emp. </speaker>
             <l>Revenge, revenge, O Saxon, Brandenburg, </l>
             <l>My Lord is slain, Caesar is doom'd to death. </l>
@@ -4726,7 +4714,7 @@
             <speaker>Edward. </speaker>
             <l>Follow the Murtherer. </l>
           </sp>
-          <sp who="#ep000485-emperor" xml:id="ep000485-e131210">
+          <sp who="#ep000485-empress" xml:id="ep000485-e131210">
             <speaker>Emp. </speaker>
             <l>Why stand you gasing on an other thus? </l>
             <l>Follow the Murtherer. </l>
@@ -5012,7 +5000,8 @@
             <speaker>Cullen. </speaker>
             <l>Then sound the Trumpets, and cry Vivat Caesar. </l>
           </sp>
-          <sp who="#ep000485-all" xml:id="ep000485-e133310">
+          <sp who="#ep000485-richard #ep000485-edward #ep000485-saxony #ep000485-brandenburgh #ep000485-soldiers"
+                   xml:id="ep000485-e133310">
             <speaker>All. </speaker>
             <l>Vivat Caesar. </l>
           </sp>

@@ -80,65 +80,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000267-silvio">
+          <person xml:id="ep000267-silvio" sex="MALE">
             <persName>Silvio</persName>
           </person>
-          <person xml:id="ep000267-valerio">
+          <person xml:id="ep000267-valerio" sex="MALE">
             <persName>Valerio</persName>
           </person>
-          <person xml:id="ep000267-leontio">
+          <person xml:id="ep000267-leontio" sex="MALE">
             <persName>Leontio</persName>
           </person>
-          <person xml:id="ep000267-ascanio">
+          <person xml:id="ep000267-ascanio" sex="MALE">
             <persName>Ascanio</persName>
           </person>
-          <person xml:id="ep000267-lady">
+          <person xml:id="ep000267-lady" sex="FEMALE">
             <persName>Lady</persName>
           </person>
-          <person xml:id="ep000267-euphemia">
+          <person xml:id="ep000267-euphemia" sex="FEMALE">
             <persName>Euphemia</persName>
           </person>
-          <person xml:id="ep000267-strozzi">
+          <person xml:id="ep000267-strozzi" sex="MALE">
             <persName>Strozzi</persName>
           </person>
-          <person xml:id="ep000267-pallante">
+          <person xml:id="ep000267-pallante" sex="MALE">
             <persName>Pallante</persName>
           </person>
-          <person xml:id="ep000267-duke">
+          <person xml:id="ep000267-duke" sex="MALE">
             <persName>Duke</persName>
           </person>
-          <person xml:id="ep000267-ardelia">
+          <person xml:id="ep000267-ardelia" sex="FEMALE">
             <persName>Ardelia</persName>
           </person>
-          <person xml:id="ep000267-horatio">
+          <person xml:id="ep000267-horatio" sex="MALE">
             <persName>Horatio</persName>
           </person>
-          <person xml:id="ep000267-bentivolio">
+          <person xml:id="ep000267-bentivolio" sex="MALE">
             <persName>Bentivolio</persName>
           </person>
-          <person xml:id="ep000267-fiametta">
+          <person xml:id="ep000267-fiametta" sex="FEMALE">
             <persName>Fiametta</persName>
           </person>
-          <person xml:id="ep000267-servant">
+          <person xml:id="ep000267-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000267-aurelia">
+          <person xml:id="ep000267-aurelia" sex="FEMALE">
             <persName>Aurelia</persName>
           </person>
-          <person xml:id="ep000267-macrina">
+          <person xml:id="ep000267-macrina" sex="FEMALE">
             <persName>Macrina</persName>
           </person>
-          <person xml:id="ep000267-scolopendra">
+          <person xml:id="ep000267-scolopendra" sex="FEMALE">
             <persName>Scolopendra</persName>
           </person>
-          <person xml:id="ep000267-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000267-officer">
-            <persName>Officer</persName>
-          </person>
-          <person xml:id="ep000267-xxxx_1">
-            <persName>Xxxx 1</persName>
+          <personGrp xml:id="ep000267-officers" sex="MALE">
+            <name>Officers</name>
+          </personGrp>
+          <person xml:id="ep000267-officer-1" sex="MALE">
+            <persName>Officer 1</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -155,8 +152,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000267"
-                    passive="http://www.wikidata.org/entity/Q7731164"/>
+                   active="https://dracor.org/entity/ep000267"
+                   passive="http://www.wikidata.org/entity/Q7731164"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -3989,7 +3986,7 @@
             <l>Make me happy </l>
             <l>My Lord, by your commands. </l>
           </sp>
-          <sp who="#ep000267-multiple" xml:id="ep000267-e125490">
+          <sp who="#ep000267-valerio" xml:id="ep000267-e125490">
             <speaker>Ua. Ardelia </speaker>
             <l>Your Mistris is in health— nay be not stirrd. </l>
             <l>I have done you a curtesie by acquainting </l>
@@ -4645,7 +4642,7 @@
             <l>What tumults that? </l>
           </sp>
           <stage xml:id="ep000267-e129910">Enter Bentivolio, and Ardelia with officers </stage>
-          <sp who="#ep000267-officer" xml:id="ep000267-e129920">
+          <sp who="#ep000267-officers" xml:id="ep000267-e129920">
             <speaker>Off. </speaker>
             <l>My Lord we have found the traytor </l>
             <l>He does confesse he kil'd the Duke. </l>
@@ -5000,7 +4997,7 @@
             <l>And his faire Mistresse pinniand? how now friend, </l>
             <l>Wither are you bound with such a convoy. </l>
           </sp>
-          <sp who="#ep000267-xxxx_1" xml:id="ep000267-e132340">
+          <sp who="#ep000267-officer-1" xml:id="ep000267-e132340">
             <speaker>1. </speaker>
             <l>To prison, they are traitors. </l>
           </sp>
@@ -5012,7 +5009,7 @@
             <speaker>Ar. </speaker>
             <l>Do not beleeve 'em. </l>
           </sp>
-          <sp who="#ep000267-xxxx_1" xml:id="ep000267-e132400">
+          <sp who="#ep000267-officer-1" xml:id="ep000267-e132400">
             <speaker>1. </speaker>
             <l>They have kil'd the Duke. </l>
           </sp>
@@ -5020,7 +5017,7 @@
             <speaker>Fia. </speaker>
             <l>How's that? </l>
           </sp>
-          <sp who="#ep000267-xxxx_1" xml:id="ep000267-e132440">
+          <sp who="#ep000267-officer-1" xml:id="ep000267-e132440">
             <speaker>1. </speaker>
             <l>Doe you know him sir? </l>
           </sp>
@@ -5033,7 +5030,7 @@
             <l>Take me along, </l>
             <l>Better be hang'd then hanted with that goblin. </l>
           </sp>
-          <sp who="#ep000267-xxxx_1" xml:id="ep000267-e132510">
+          <sp who="#ep000267-officer-1" xml:id="ep000267-e132510">
             <speaker>1. </speaker>
             <l>Another of the conspiracy disarm'd him. </l>
           </sp>
@@ -5041,7 +5038,7 @@
             <speaker>Ho. </speaker>
             <l>Let me but speake a word to this old Damsell. </l>
           </sp>
-          <sp who="#ep000267-xxxx_1" xml:id="ep000267-e132550">
+          <sp who="#ep000267-officer-1" xml:id="ep000267-e132550">
             <speaker>1. </speaker>
             <l>Shee's of the plot too. </l>
           </sp>
@@ -5104,7 +5101,7 @@
             <l>With weight of this so unexpected happinesse, </l>
             <l>I shall die more then satisfied. </l>
           </sp>
-          <sp who="#ep000267-multiple" xml:id="ep000267-e132970">
+          <sp who="#ep000267-duke #ep000267-euphemia" xml:id="ep000267-e132970">
             <speaker>Du. and Euphemia. </speaker>
             <l>Thou art too mercifull, and my repentance </l>
             <l>Is yet too feeble, and too short a wonder, </l>

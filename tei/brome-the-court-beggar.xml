@@ -73,77 +73,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000463-mendicant">
+          <personGrp xml:id="ep000463-men" sex="MALE">
+            <name>Men</name>
+          </personGrp>
+          <person xml:id="ep000463-mendicant" sex="MALE">
             <persName>Mendicant</persName>
           </person>
-          <person xml:id="ep000463-charissa">
+          <person xml:id="ep000463-charissa" sex="FEMALE">
             <persName>Charissa</persName>
           </person>
-          <person xml:id="ep000463-gabriel">
+          <person xml:id="ep000463-gabriel" sex="MALE">
             <persName>Gabriel</persName>
           </person>
-          <person xml:id="ep000463-projector_1">
+          <person xml:id="ep000463-projector-1" sex="MALE">
             <persName>Projector 1</persName>
           </person>
-          <person xml:id="ep000463-projector_2">
+          <person xml:id="ep000463-projector-2" sex="MALE">
             <persName>Projector 2</persName>
           </person>
-          <person xml:id="ep000463-projector_3">
+          <person xml:id="ep000463-projector-3" sex="MALE">
             <persName>Projector 3</persName>
           </person>
-          <person xml:id="ep000463-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000463-1">
-            <persName>1</persName>
-          </person>
-          <person xml:id="ep000463-2">
-            <persName>2</persName>
-          </person>
-          <person xml:id="ep000463-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000463-3">
-            <persName>3</persName>
-          </person>
-          <person xml:id="ep000463-frederick">
+          <person xml:id="ep000463-frederick" sex="MALE">
             <persName>Frederick</persName>
           </person>
-          <person xml:id="ep000463-philomel">
+          <person xml:id="ep000463-philomel" sex="FEMALE">
             <persName>Philomel</persName>
           </person>
-          <person xml:id="ep000463-courtwit">
+          <person xml:id="ep000463-courtwit" sex="MALE">
             <persName>Courtwit</persName>
           </person>
-          <person xml:id="ep000463-swainwit">
+          <person xml:id="ep000463-swainwit" sex="MALE">
             <persName>Swainwit</persName>
           </person>
-          <person xml:id="ep000463-citwit">
+          <person xml:id="ep000463-citwit" sex="MALE">
             <persName>Citwit</persName>
           </person>
-          <person xml:id="ep000463-dainty">
+          <person xml:id="ep000463-dainty" sex="MALE">
             <persName>Dainty</persName>
           </person>
-          <person xml:id="ep000463-strangelove">
+          <person xml:id="ep000463-strangelove" sex="FEMALE">
             <persName>Strangelove</persName>
           </person>
-          <person xml:id="ep000463-raphael">
+          <person xml:id="ep000463-raphael" sex="MALE">
             <persName>Raphael</persName>
           </person>
-          <person xml:id="ep000463-doctor">
+          <person xml:id="ep000463-doctor" sex="MALE">
             <persName>Doctor</persName>
           </person>
-          <person xml:id="ep000463-ferdinand">
+          <person xml:id="ep000463-ferdinand" sex="MALE">
             <persName>Ferdinand</persName>
           </person>
-          <person xml:id="ep000463-boy">
+          <person xml:id="ep000463-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000463-servant">
+          <person xml:id="ep000463-servant" sex="MALE">
             <persName>Servant</persName>
-          </person>
-          <person xml:id="ep000463-projector">
-            <persName>Projector</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -160,8 +145,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000463"
-                    passive="http://www.wikidata.org/entity/Q7727849"/>
+                   active="https://dracor.org/entity/ep000463"
+                   passive="http://www.wikidata.org/entity/Q7727849"/>
     </listRelation>
   </standOff>
   <text>
@@ -560,7 +545,7 @@
               <l>Afford them none. Now sirs, your businesse? </l>
             </sp>
             <stage xml:id="ep000463-e102840">Enter 3 Projectors. </stage>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e102850">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e102850">
               <speaker>1. Pro. </speaker>
               <l>We wait upon your honour my good Lord </l>
               <l>To crave the knowledge of what good successe </l>
@@ -570,15 +555,15 @@
               <speaker>Men. </speaker>
               <p>Why honor? why my Lord? </p>
             </sp>
-            <sp who="#ep000463-projector_2" xml:id="ep000463-e102910">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e102910">
               <speaker>2. Pro. </speaker>
               <p>We stile you now. </p>
             </sp>
-            <sp who="#ep000463-projector_3" xml:id="ep000463-e102930">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e102930">
               <speaker>3. Pro. </speaker>
               <p>As all must doe hereafter. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e102950">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e102950">
               <speaker>1. Pro. </speaker>
               <l>Yes, and that </l>
               <l>In a short space of time, the world holds no </l>
@@ -586,7 +571,8 @@
               <l>That money can buy Land; or great Estates </l>
               <l>In Lands and Mannor-houses be call'd Lordships. </l>
             </sp>
-            <sp who="#ep000463-multiple" xml:id="ep000463-e103010">
+            <sp who="#ep000463-projector-1 #ep000463-projector-2 #ep000463-projector-3"
+                      xml:id="ep000463-e103010">
               <speaker>1.2.3. </speaker>
               <p>Or wealth joynd with desert attaine to honor </p>
             </sp>
@@ -594,7 +580,7 @@
               <speaker>Gab. </speaker>
               <p>So now the Game's a foot. They hunt in full cry </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103050">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103050">
               <speaker>1. P. </speaker>
               <p>My Lord 'tis most apparant. </p>
             </sp>
@@ -603,11 +589,11 @@
               <p>How you torture me! </p>
             </sp>
             <pb xml:id="ep000463-006-b"/>
-            <sp who="#ep000463-projector_2" xml:id="ep000463-e103090">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103090">
               <speaker>2. P. </speaker>
               <p>Wee'l mak't appeare most plainly on our lives. </p>
             </sp>
-            <sp who="#ep000463-projector_3" xml:id="ep000463-e103110">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e103110">
               <speaker>3. P. </speaker>
               <p>And credits too. </p>
             </sp>
@@ -615,7 +601,7 @@
               <speaker>Gab. </speaker>
               <p>Their Lives and credits, ha, ha, ha. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103150">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103150">
               <speaker>1. P. </speaker>
               <l>That in the space of one whole year our projects </l>
               <l>Shall bring in fifty thousand pounds to us, </l>
@@ -625,12 +611,12 @@
               <l>Tis here already cast. Which to make good </l>
               <l>Wee'l venture Lives and Goods. </l>
             </sp>
-            <sp who="#ep000463-projector_2" xml:id="ep000463-e103230">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103230">
               <speaker>2. P. </speaker>
               <p>Our Wives and Children. <stage xml:id="ep000463-e103250">Mend takes the scroll and peruses it. </stage>
               </p>
             </sp>
-            <sp who="#ep000463-projector_3" xml:id="ep000463-e103260">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e103260">
               <speaker>3. P. </speaker>
               <p>We can ingage no more. </p>
             </sp>
@@ -645,7 +631,7 @@
               <l>Your wives and children to their severall Parishes </l>
               <l>You are still faithlesse sir, in all projects. </l>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e103370">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103370">
               <speaker>1. </speaker>
               <l>But when you shall perceive the wealthy sonnes </l>
               <l>Dayly brought in, and be, continually, </l>
@@ -655,7 +641,7 @@
               <l>Yet find the lickings of 'em sweet, you'l then </l>
               <l>Sing other Notes. </l>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e103450">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103450">
               <speaker>2. </speaker>
               <l>Meane time entreat my Lord </l>
               <l>To put you to some Tellers Clearke to teach you </l>
@@ -666,7 +652,7 @@
               <l>Do you hear sir? Can you give me two sixpences </l>
               <l>For a shilling— or any single money? </l>
             </sp>
-            <sp who="#ep000463-unassigned" xml:id="ep000463-e103520">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103520">
               <speaker>2. P. Pish. </speaker>
               <l/>
             </sp>
@@ -680,7 +666,7 @@
               <l>Then all the Hollanders have waited for </l>
               <l>These 7 yeares out of the Spanish plate fleets. </l>
             </sp>
-            <sp who="#ep000463-unassigned" xml:id="ep000463-e103610">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e103610">
               <speaker>3. Pugh. </speaker>
               <l/>
             </sp>
@@ -689,13 +675,13 @@
               <l>But put mine eye out (now I dare you to't) </l>
               <l>With any single peece of ready money. </l>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103660">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103660">
               <speaker>1. P. </speaker>
               <l>My Lord your man abuses us here strangely </l>
               <l>With his old misbeliefe. But still we doubt not </l>
               <l>Your honourable good opinion of us. </l>
             </sp>
-            <sp who="#ep000463-projector_2" xml:id="ep000463-e103700">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103700">
               <speaker>2. P. </speaker>
               <p>You have pervs'd this weighty paper here. </p>
             </sp>
@@ -703,7 +689,7 @@
               <speaker>Men. </speaker>
               <p>It weighes not all twelve graines. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103740">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103740">
               <speaker>1. P. </speaker>
               <l>No more? </l>
               <l>Nay the whole platforme of a stately City, </l>
@@ -711,16 +697,16 @@
               <l>But doe you note the grounds, the Rules and Reasons, </l>
               <l>First for the easinesse of the severall grants. </l>
             </sp>
-            <sp who="#ep000463-projector_2" xml:id="ep000463-e103800">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103800">
               <speaker>2. P. </speaker>
               <p>Next for performance of our undertakings. </p>
             </sp>
-            <sp who="#ep000463-projector_3" xml:id="ep000463-e103820">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e103820">
               <speaker>3. P. </speaker>
               <l>And then the certainty o' th' propounded profits </l>
               <l>Both to the King and us. </l>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103850">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103850">
               <speaker>1. P. </speaker>
               <p>Without all grievance unto the subject. </p>
             </sp>
@@ -728,7 +714,7 @@
               <speaker>Fab. </speaker>
               <p>That's no little marvaile. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103890">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e103890">
               <speaker>1. P. </speaker>
               <l>Take 'em into particulars my Lord, </l>
               <l>First this for Perrukes. The Monopoly </l>
@@ -739,7 +725,7 @@
               <speaker>Gab. </speaker>
               <p>There's a capitall project. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e103960">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e103960">
               <speaker>2. P. </speaker>
               <l>Note the necessity, that they be well made </l>
               <l>Of no diseas'd or infectious stuffe, of dead or living, </l>
@@ -753,7 +739,7 @@
               <l>From Gallowses, nor Hospitalls; from whence </l>
               <l>They have had great supplies. </l>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e104060">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104060">
               <speaker>1. P. </speaker>
               <l>You have in that </l>
               <l>Said very well; For here's a Reformation </l>
@@ -767,7 +753,7 @@
               <l>To weare a friends hayre so departed; as </l>
               <l>You his; or your wife yours; may't not be had? </l>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e104150">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104150">
               <speaker>1. P. </speaker>
               <l>Or if your friend or Mistris dye so, you </l>
               <l>Procure the haire and bring it from the Gallows </l>
@@ -777,7 +763,7 @@
               <speaker>Gab. </speaker>
               <p>You have in that said very well Sir too. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e104210">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104210">
               <speaker>1. P. </speaker>
               <l>Now out of this provision, what an infinite </l>
               <l>Profit will rise i' th' generall use of 'em, </l>
@@ -791,7 +777,7 @@
               <speaker>Gab. </speaker>
               <p>By the pox or so. </p>
             </sp>
-            <sp who="#ep000463-projector_1" xml:id="ep000463-e104310">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104310">
               <speaker>1. P. </speaker>
               <l>They shall be brought into that reputation </l>
               <l>That none shall be esteem'd so sound or wise </l>
@@ -805,7 +791,7 @@
               <speaker>Men. </speaker>
               <p>No more of that. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e104410">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104410">
               <speaker>1. </speaker>
               <l>What say to this my Lord, </l>
               <l>Touching new fashions of apparrell; sutes, </l>
@@ -825,7 +811,7 @@
               <p>I will not meddle in it. </p>
             </sp>
             <pb xml:id="ep000463-008-a"/>
-            <sp who="#ep000463-2" xml:id="ep000463-e104540">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e104540">
               <speaker>2. </speaker>
               <p>No my good Lord. </p>
             </sp>
@@ -833,7 +819,7 @@
               <speaker>Men. </speaker>
               <p>No, nor your Perrukes neither. </p>
             </sp>
-            <sp who="#ep000463-3" xml:id="ep000463-e104580">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e104580">
               <speaker>3. </speaker>
               <p>What say to this my Lord of the Balconyes? </p>
             </sp>
@@ -841,7 +827,7 @@
               <speaker>Men. </speaker>
               <p>Nor that. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e104620">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104620">
               <speaker>1. </speaker>
               <p>This then for sucking out of cornes. </p>
             </sp>
@@ -849,7 +835,7 @@
               <speaker>Men. </speaker>
               <p>Away with it. </p>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e104660">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e104660">
               <speaker>2. </speaker>
               <l>This then: that on the birth of every Girle </l>
               <l>The Father pay a groat; to hearten men </l>
@@ -859,7 +845,7 @@
               <speaker>Men. </speaker>
               <p>Away. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e104720">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104720">
               <speaker>1. </speaker>
               <l>This makes amends for all then. A new project </l>
               <l>For buylding a new Theatre or Play-house </l>
@@ -879,7 +865,7 @@
               <speaker>Men. </speaker>
               <p>Fy away. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e104880">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e104880">
               <speaker>1. </speaker>
               <l>This is a weighty one: For massy summes </l>
               <l>That may be freely given out of the City, </l>
@@ -898,7 +884,7 @@
               <speaker>Gab. </speaker>
               <p>Were not they gotten by Projectors think you? </p>
             </sp>
-            <sp who="#ep000463-3" xml:id="ep000463-e105020">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e105020">
               <speaker>3. </speaker>
               <p>My Lord your servant jeeres us. </p>
             </sp>
@@ -919,7 +905,7 @@
               <l>For (with hearts griefe I speake it) he by whom </l>
               <l>I onely hop'd to climbe (alas) is fallen. </l>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105150">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105150">
               <speaker>1. </speaker>
               <p>What out of favour? </p>
             </sp>
@@ -927,11 +913,11 @@
               <speaker>Men. </speaker>
               <p>No, out of his Reason. </p>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e105190">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e105190">
               <speaker>2. </speaker>
               <p>The noble Cavalier sir Ferdinando. </p>
             </sp>
-            <sp who="#ep000463-3" xml:id="ep000463-e105210">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e105210">
               <speaker>3. </speaker>
               <l>That late stood candidate for the favour royall, </l>
               <l>Is he now fallen besides himselfe? </l>
@@ -940,7 +926,7 @@
               <speaker>Men. </speaker>
               <p>Even he. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105260">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105260">
               <speaker>1. </speaker>
               <l>What have you then to doe my Lord </l>
               <l>In lieu of all your service but beg him? </l>
@@ -950,16 +936,16 @@
               <l>His greater and his nearer friends at Court </l>
               <l>Will prevent me. </l>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e105320">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e105320">
               <speaker>2. </speaker>
               <p>They shall not, never feare it. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105340">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105340">
               <speaker>1. </speaker>
               <l>Come we will make quick worke of this. </l>
               <l>My Lord you shall disburse but twenty pieces. </l>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e105370">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e105370">
               <speaker>2. </speaker>
               <l>Among us three. 3. And we will instantly </l>
               <l>Finde his estate. 1. And lay you down a way </l>
@@ -976,7 +962,7 @@
               <speaker>Men. </speaker>
               <p>I will not part with any money sirs. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105480">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105480">
               <speaker>1. </speaker>
               <l>Trust me you doe not well to put my Lord </l>
               <l>Off o' his benefit, by disheartning him </l>
@@ -988,12 +974,12 @@
               <speaker>Men. </speaker>
               <p>Not a penny. </p>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e105550">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e105550">
               <speaker>2. </speaker>
               <l>Five you shall my Lord, </l>
               <l>And stand no longer thus in your own light. </l>
             </sp>
-            <sp who="#ep000463-3" xml:id="ep000463-e105580">
+            <sp who="#ep000463-projector-3" xml:id="ep000463-e105580">
               <speaker>3. </speaker>
               <p>Or but a piece a Man. </p>
             </sp>
@@ -1001,7 +987,7 @@
               <speaker>Men. </speaker>
               <p>Not a denier. </p>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105620">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105620">
               <speaker>1. </speaker>
               <p>A dinner then my Lord, but of one piece. </p>
             </sp>
@@ -1022,7 +1008,7 @@
               <l>To every man a kick on the condition? </l>
               <l>What say you to one with tother? </l>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105770">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105770">
               <speaker>1. </speaker>
               <l>This abuse </l>
               <l>Shall lose your Master a hundred thousand pound. </l>
@@ -1033,7 +1019,7 @@
               <l>And come againe. My master was </l>
               <l>Your Lord even now, as he was Lord of Beggers. </l>
             </sp>
-            <sp who="#ep000463-1" xml:id="ep000463-e105840">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e105840">
               <speaker>1. </speaker>
               <p>I hope to live to see him beg of us. </p>
             </sp>
@@ -2720,7 +2706,7 @@
               <p>O doe you make me then your Knight o' th' shire A tun o' Wine for that. Shoulder your Knight, advance your Knight, beare him out. <stage xml:id="ep000463-e115730">Manent Men. </stage>
               </p>
             </sp>
-            <sp who="#ep000463-unassigned" xml:id="ep000463-e115740">
+            <sp who="#ep000463-men" xml:id="ep000463-e115740">
               <speaker>Al. </speaker>
               <p>A Ferdinand, a Ferdinand, &amp;c. </p>
               <stage xml:id="ep000463-e115760">sir Rap. </stage>
@@ -3373,7 +3359,7 @@
               <p>Help, help, a rape, a rape, murder, help! <stage xml:id="ep000463-e119400">Draw all </stage>
               </p>
             </sp>
-            <sp who="#ep000463-multiple" xml:id="ep000463-e119410">
+            <sp who="#ep000463-swainwit #ep000463-courtwit" xml:id="ep000463-e119410">
               <speaker>Sw. Cou. </speaker>
               <p>Tis time to fly then. </p>
             </sp>
@@ -5035,7 +5021,7 @@
               <speaker>Dai. </speaker>
               <p>Hold sir I pray; Gentlemen so you will grant me pardon, and forbeare the Law i'le answer you. </p>
             </sp>
-            <sp who="#ep000463-multiple" xml:id="ep000463-e129120">
+            <sp who="#ep000463-courtwit #ep000463-swainwit" xml:id="ep000463-e129120">
               <speaker>Cou. Sw. </speaker>
               <p>Agreed, agreed. </p>
             </sp>
@@ -5251,7 +5237,7 @@
               <speaker>Str. </speaker>
               <p>What's the meaning? </p>
             </sp>
-            <sp who="#ep000463-multiple" xml:id="ep000463-e130430">
+            <sp who="#ep000463-courtwit #ep000463-swainwit" xml:id="ep000463-e130430">
               <speaker>Cou. Sw. </speaker>
               <p>Wee'l tell you Madam. </p>
             </sp>
@@ -5398,16 +5384,16 @@
               </l>
             </sp>
             <stage xml:id="ep000463-e131200">Enter two Projectors. </stage>
-            <sp who="#ep000463-1" xml:id="ep000463-e131210">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e131210">
               <speaker>1. </speaker>
               <p>Into the Garden, good, let's follow him. </p>
             </sp>
-            <sp who="#ep000463-2" xml:id="ep000463-e131230">
+            <sp who="#ep000463-projector-2" xml:id="ep000463-e131230">
               <speaker>2. </speaker>
               <p>Tis not the repulse he gave us in the morning shall quit him of us. </p>
             </sp>
             <pb xml:id="ep000463-044-b"/>
-            <sp who="#ep000463-1" xml:id="ep000463-e131250">
+            <sp who="#ep000463-projector-1" xml:id="ep000463-e131250">
               <speaker>1. </speaker>
               <p>No now his superintendent's turn'd away, wee'l once more fill his head with millions. <stage xml:id="ep000463-e131270">Exit. </stage>
               </p>
@@ -5847,7 +5833,8 @@
               <l>In right of Love to give the Nuptialls Grace. </l>
             </sp>
             <stage xml:id="ep000463-e133890">After they have Danc'd a while, Enter Projectors, breakes 'em off. </stage>
-            <sp who="#ep000463-projector" xml:id="ep000463-e133900">
+            <sp who="#ep000463-projector-1 #ep000463-projector-2 #ep000463-projector-3"
+                      xml:id="ep000463-e133900">
               <speaker>Pro. </speaker>
               <l>Lay by your Jolity, forbeare your Sport, </l>
               <l>And heare a story shall inforce your pitty. </l>
@@ -5864,7 +5851,8 @@
               <speaker>Ga. </speaker>
               <p>One of my Masters Minions, a Projector. </p>
             </sp>
-            <sp who="#ep000463-projector" xml:id="ep000463-e133990">
+            <sp who="#ep000463-projector-1 #ep000463-projector-2 #ep000463-projector-3"
+                      xml:id="ep000463-e133990">
               <speaker>Pro. </speaker>
               <l>You had a Master: But to all I speake. </l>
               <l>Your practises have sunk him from the Comforts </l>
@@ -5877,7 +5865,8 @@
               <speaker>Fer. </speaker>
               <p>Hee's mad; is he? </p>
             </sp>
-            <sp who="#ep000463-projector" xml:id="ep000463-e134070">
+            <sp who="#ep000463-projector-1 #ep000463-projector-2 #ep000463-projector-3"
+                      xml:id="ep000463-e134070">
               <speaker>Pro. </speaker>
               <p>Mad, and has hang'd himselfe— </p>
             </sp>
@@ -5889,7 +5878,8 @@
               <speaker>La. </speaker>
               <p>How! hang'd himselfe? </p>
             </sp>
-            <sp who="#ep000463-projector" xml:id="ep000463-e134130">
+            <sp who="#ep000463-projector-1 #ep000463-projector-2 #ep000463-projector-3"
+                      xml:id="ep000463-e134130">
               <speaker>Pro. </speaker>
               <l>All over sir, with draughts of Projects, Suits, </l>
               <l>Petitions, Grants, and Pattents, such as were </l>

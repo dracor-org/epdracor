@@ -90,97 +90,88 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000014-king">
-            <persName>King</persName>
+          <personGrp xml:id="ep000014-soldiers" sex="MALE">
+            <name>Soldiers</name>
+          </personGrp>
+          <person xml:id="ep000014-king-henry-vii" sex="MALE">
+            <persName>King Henry VII</persName>
           </person>
-          <person xml:id="ep000014-durham">
+          <person xml:id="ep000014-durham" sex="MALE">
             <persName>Durham</persName>
           </person>
-          <person xml:id="ep000014-dawbney">
+          <person xml:id="ep000014-dawbney" sex="MALE">
             <persName>Dawbney</persName>
           </person>
-          <person xml:id="ep000014-oxford">
+          <person xml:id="ep000014-oxford" sex="MALE">
             <persName>Oxford</persName>
           </person>
-          <person xml:id="ep000014-surrey">
+          <person xml:id="ep000014-surrey" sex="MALE">
             <persName>Surrey</persName>
           </person>
-          <person xml:id="ep000014-henryvii">
-            <persName>Henryvii</persName>
-          </person>
-          <person xml:id="ep000014-stanley">
+          <person xml:id="ep000014-stanley" sex="MALE">
             <persName>Stanley</persName>
           </person>
-          <person xml:id="ep000014-urswick">
+          <person xml:id="ep000014-urswick" sex="MALE">
             <persName>Urswick</persName>
           </person>
-          <person xml:id="ep000014-huntley">
+          <person xml:id="ep000014-huntley" sex="MALE">
             <persName>Huntley</persName>
           </person>
-          <person xml:id="ep000014-daliell">
+          <person xml:id="ep000014-daliell" sex="MALE">
             <persName>Daliell</persName>
           </person>
-          <person xml:id="ep000014-kate">
-            <persName>Kate</persName>
-          </person>
-          <person xml:id="ep000014-crawford">
+          <person xml:id="ep000014-crawford" sex="MALE">
             <persName>Crawford</persName>
           </person>
-          <person xml:id="ep000014-clifford">
+          <person xml:id="ep000014-clifford" sex="MALE">
             <persName>Clifford</persName>
           </person>
-          <person xml:id="ep000014-counsellor">
-            <persName>Counsellor</persName>
+          <person xml:id="ep000014-countesse-of-crawford" sex="FEMALE">
+            <persName>Countesse of Crawford</persName>
           </person>
-          <person xml:id="ep000014-jane">
+          <person xml:id="ep000014-jane" sex="FEMALE">
             <persName>Jane</persName>
           </person>
-          <person xml:id="ep000014-jamesiv">
-            <persName>Jamesiv</persName>
+          <person xml:id="ep000014-james-iv" sex="MALE">
+            <persName>James IV</persName>
           </person>
-          <person xml:id="ep000014-warbeck">
+          <person xml:id="ep000014-warbeck" sex="MALE">
             <persName>Warbeck</persName>
           </person>
-          <person xml:id="ep000014-katherine">
+          <person xml:id="ep000014-katherine" sex="FEMALE">
             <persName>Katherine</persName>
           </person>
-          <person xml:id="ep000014-frion">
+          <person xml:id="ep000014-frion" sex="MALE">
             <persName>Frion</persName>
           </person>
-          <person xml:id="ep000014-heron">
+          <person xml:id="ep000014-heron" sex="MALE">
             <persName>Heron</persName>
           </person>
-          <person xml:id="ep000014-sketon">
+          <person xml:id="ep000014-sketon" sex="MALE">
             <persName>Sketon</persName>
           </person>
-          <person xml:id="ep000014-astley">
+          <person xml:id="ep000014-astley" sex="MALE">
             <persName>Astley</persName>
           </person>
-          <person xml:id="ep000014-mayor">
+          <person xml:id="ep000014-mayor" sex="MALE">
             <persName>Mayor</persName>
           </person>
-          <person xml:id="ep000014-hialas">
+          <person xml:id="ep000014-hialas" sex="MALE">
             <persName>Hialas</persName>
           </person>
-          <person xml:id="ep000014-marchmount">
+          <person xml:id="ep000014-marchmount" sex="MALE">
             <persName>Marchmount</persName>
           </person>
-          <person xml:id="ep000014-post">
+          <person xml:id="ep000014-post" sex="MALE">
             <persName>Post</persName>
           </person>
-          <person xml:id="ep000014-skelton">
-            <persName>Skelton</persName>
-          </person>
-          <person xml:id="ep000014-servant">
+          <person xml:id="ep000014-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000014-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000014-constable">
+          <person xml:id="ep000014-constable" sex="MALE">
             <persName>Constable</persName>
           </person>
-          <person xml:id="ep000014-lambert">
+          <person xml:id="ep000014-lambert" sex="MALE">
             <persName>Lambert</persName>
           </person>
         </listPerson>
@@ -195,8 +186,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000014"
-                    passive="http://www.wikidata.org/entity/Q7169013"/>
+                   active="https://dracor.org/entity/ep000014"
+                   passive="http://www.wikidata.org/entity/Q7169013"/>
     </listRelation>
   </standOff>
   <text>
@@ -387,7 +378,7 @@
           <div n="1" type="scene" xml:id="ep000014-e101450">
             <head>Scaena prima. </head>
             <stage xml:id="ep000014-e101460">Enter King Henry, Durham, Oxford, Surrey, Sir William Stanly, Lord Chamberlaine, Lord Dawbny. The King supported to his Throne by Stanly and Durham. A Guard. </stage>
-            <sp who="#ep000014-king" xml:id="ep000014-e101470">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e101470">
               <speaker>King. </speaker>
               <l>Still to be haunted; still to be pursued, </l>
               <l>Still to be frighted with false apparitions </l>
@@ -481,7 +472,7 @@
               <l>And but Idolls, </l>
               <l>A steelie hammer Crushes 'em to peices. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e102230">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e102230">
               <speaker>K: </speaker>
               <l>Lambert the eldest (Lords) is in our service, </l>
               <l>Prefer'd by an officious care of Dutie </l>
@@ -496,7 +487,7 @@
               <speaker>Stan: </speaker>
               <l>The throne is filld Sir. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e102340">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e102340">
               <speaker>K: </speaker>
               <l>True Stanlie, and the lawfull heire sitts on it; </l>
               <l>A guard of Angells, and the holy prayers </l>
@@ -513,7 +504,7 @@
               <l>Vnthankfull beasts, </l>
               <l>Dogges, villaines, traytors. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e102470">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e102470">
               <speaker>K: </speaker>
               <l>Dawbney let the guiltie </l>
               <l>Keepe silence, I accuse none, tho I know, </l>
@@ -540,7 +531,7 @@
               <l>A finger vp in all defence but yours, </l>
               <l>Which can be but impostorous in a title. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e102690">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e102690">
               <speaker>K. </speaker>
               <l>Stanlie wee know thou lou'st Vs, and thy heart </l>
               <l>Is figur'd on thy tongue; nor thinke wee lesse </l>
@@ -589,7 +580,7 @@
               <speaker>Daw: </speaker>
               <l>Good newes beleeue it. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e103050">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e103050">
               <speaker>K: </speaker>
               <l>Vrswick thine eare— </l>
               <l>Th'ast lodgd him? </l>
@@ -598,7 +589,7 @@
               <speaker>Vr: </speaker>
               <l>Strongly, safe Sir. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e103100">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e103100">
               <speaker>K: </speaker>
               <l>Enough, is Barly come to? </l>
             </sp>
@@ -606,7 +597,7 @@
               <speaker>Vr: </speaker>
               <l>No, my Lord. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e103140">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e103140">
               <speaker>K: </speaker>
               <l>No matter— phew, hee's but a running weede, </l>
               <l>At pleasure to be pluck'd vp by the rootes: </l>
@@ -621,7 +612,7 @@
               <speaker>Stan: </speaker>
               <l>The Tower— I shall sir. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e103250">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e103250">
               <speaker>K: </speaker>
               <l>Come my true, best, fast friends, these clouds will vanish, </l>
               <l>The Sunne will shine at full: the Heauens are clearing. <stage xml:id="ep000014-e103280">Exeunt. </stage>
@@ -733,7 +724,7 @@
               <l>Looke yee, shee comes, to her now, to her, to her. </l>
             </sp>
             <stage xml:id="ep000014-e104100">Enter Katherine and Iane. </stage>
-            <sp who="#ep000014-kate" xml:id="ep000014-e104110">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e104110">
               <speaker>Kat: </speaker>
               <l>The King commands your presence Sir. </l>
             </sp>
@@ -742,7 +733,7 @@
               <l>The gallant— this this this Lord, this </l>
               <l>Servant (Kate) of yours, desires to be your Maister. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e104160">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e104160">
               <speaker>Kat: </speaker>
               <l>I acknowledge him, a worthy friend of mine. </l>
             </sp>
@@ -769,7 +760,7 @@
               <speaker>Hunt: </speaker>
               <l>This is scurvie. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e104330">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e104330">
               <speaker>Kat: </speaker>
               <l>My Lord I interrupt you not. </l>
             </sp>
@@ -806,7 +797,7 @@
               <l>A subtill trick, a queint one,— will you heare (man) </l>
               <l>What did I say to you, come come toth poynt. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e104570">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e104570">
               <speaker>Kate: </speaker>
               <l>It shall not neede my Lord. </l>
             </sp>
@@ -851,7 +842,7 @@
               <l>Oh! y'are all Oracle, </l>
               <l>The living stocke and roote of truth and wisedome. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e104950">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e104950">
               <speaker>Kat: </speaker>
               <l>My worthiest Lord and Father, the indulgence </l>
               <l>Of your sweete composition, thus commands </l>
@@ -873,7 +864,7 @@
               <l>Kate, Kate, thou grow'st vpon my heart, like peace, </l>
               <l>Creating every other houre a Iubile. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e105130">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e105130">
               <speaker>Kate: </speaker>
               <l>To you my Lord of Daliell, I addresse </l>
               <l>Some few remaining words, the generall fame </l>
@@ -884,7 +875,7 @@
               <speaker>Hunt: </speaker>
               <l>Good wench, good girle y' fayth. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e105200">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e105200">
               <speaker>Kat: </speaker>
               <l>For my part (trust mee) </l>
               <l>I value mine owne worth at higher rate, </l>
@@ -906,7 +897,7 @@
               <l>Sheel make mee court proud danger, and sucke spirit </l>
               <l>From reputation. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e105370">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e105370">
               <speaker>Kat: </speaker>
               <l>To the present motion, </l>
               <l>Heeres all that I dare answer: when a ripenesse </l>
@@ -959,7 +950,7 @@
               <speaker>Craw: </speaker>
               <l>My service noble Lady. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e105740">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e105740">
               <speaker>Kat: </speaker>
               <l>Please yee walke sir? </l>
             </sp>
@@ -1011,7 +1002,7 @@
               <l>The King comes. </l>
             </sp>
             <stage xml:id="ep000014-e106100">Enter King Henry. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106110">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106110">
               <speaker>K: H: </speaker>
               <l>Clifford! </l>
             </sp>
@@ -1022,7 +1013,7 @@
               <l>Before your royall eyes; as to mine owne </l>
               <l>I seeme a Monster, by my breach of truth. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106180">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106180">
               <speaker>K: H: </speaker>
               <l>Clifford stand vp, for instance of thy safetie </l>
               <l>I offer thee my hand. </l>
@@ -1033,7 +1024,7 @@
               <l>For my bruis'd Soule, I kisse it with a greedinesse. </l>
               <l>Sir you are a just Master, but I— </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106250">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106250">
               <speaker>K: H: </speaker>
               <l>Tell me, is every circumstance, thou hast set downe </l>
               <l>With thine owne hand, within this paper true? </l>
@@ -1047,7 +1038,7 @@
               <l>True, as I wish heaven; </l>
               <l>Or my infected honor white againe. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106340">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106340">
               <speaker>K: H: </speaker>
               <l>Wee know all (Clifford) fully, since this meteor </l>
               <l>This ayrie apparition first discradled </l>
@@ -1070,7 +1061,7 @@
               <l>In the French tongue vnto your sacred Excellence, </l>
               <l>But Perkins tutor now. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106530">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106530">
               <speaker>K: H: </speaker>
               <l>A subtill villaine! </l>
               <l>That Frion, Frion,— you my Lord of Durham </l>
@@ -1080,7 +1071,7 @@
               <speaker>Dur. </speaker>
               <l>French both in heart and actions! </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106590">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106590">
               <speaker>K: H: </speaker>
               <l>Some Irish heads worke in this mine of treason; </l>
               <l>Speake em! </l>
@@ -1100,7 +1091,7 @@
               <l>And sue for ayde to him; this is the latest </l>
               <l>Of all their resolutions. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106750">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106750">
               <speaker>K. H. </speaker>
               <l>Still more Frion. </l>
               <l>Pestilent Adder, hee will hisse out poyson </l>
@@ -1117,7 +1108,7 @@
               <l>Oh Sir, here I must breake </l>
               <l>A most vnlawfull Oath to keepe a just one. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106870">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106870">
               <speaker>K. H. </speaker>
               <l>Well, well, be briefe, be briefe. </l>
             </sp>
@@ -1130,7 +1121,7 @@
               <l>Worsley the Deane of Paules, two other Fryars, </l>
               <l>And Robert Ratcliffe. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e106960">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e106960">
               <speaker>K. H. </speaker>
               <l>Church-men are turn'd Divells. </l>
               <l>These are the principall. </l>
@@ -1140,7 +1131,7 @@
               <l>One more remaines </l>
               <l>Vn-nam'd, whom I could willingly forget. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107020">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107020">
               <speaker>K.H. </speaker>
               <l>Ha Clifford, one more? </l>
             </sp>
@@ -1152,7 +1143,7 @@
               <l>I shall loose credit with yee, yet this Lord, </l>
               <l>Last nam'd, is first against you. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107100">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107100">
               <speaker>K. H. </speaker>
               <l>Vrswick the light, view well my face Sirs, </l>
               <l>Is there bloud left in it? </l>
@@ -1162,7 +1153,7 @@
               <l>You alter </l>
               <l>Strangely Sir. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107160">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107160">
               <speaker>K. H. </speaker>
               <l>Alter Lord Bishop? </l>
               <l>Why Clifford stab'd mee, or I dream'd a'stabd mee. </l>
@@ -1189,7 +1180,7 @@
               <speaker>Vrs: </speaker>
               <l>Most wicked! </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107350">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107350">
               <speaker>K: H. </speaker>
               <l>Yet againe, once more; </l>
             </sp>
@@ -1198,7 +1189,7 @@
               <l>Sir William Stanlie is your secret enemy, </l>
               <l>And if time fit, will openly professe it. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107400">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107400">
               <speaker>K. H. </speaker>
               <l>Sir William Stanlie? Who? Sir William Stanlie </l>
               <pb xml:id="ep000014-012-a"/>
@@ -1215,7 +1206,7 @@
               <speaker>Dur. </speaker>
               <l>You loose your constant temper. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107520">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107520">
               <speaker>K. H. </speaker>
               <l>Sir William Stanlie! </l>
               <l>Oh doe not blame mee; hee, twas onely hee </l>
@@ -1230,7 +1221,7 @@
               <l>The night doth waste, this passion ill becomes yee; </l>
               <l>Provide against your danger. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107630">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107630">
               <speaker>K. H. </speaker>
               <l>Let it be so. </l>
               <l>Vrswick command streight Stanly to his chamber. </l>
@@ -1244,7 +1235,7 @@
               <l>Ho, the King, the King, </l>
               <l>I must haue entrance. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107730">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107730">
               <speaker>K. H. </speaker>
               <l>Dawbneys voyce; admit him. </l>
               <l>What new combustions huddle next to keepe </l>
@@ -1259,7 +1250,7 @@
               <l>And to them is joyn'd Lord Audlie, as they march, </l>
               <l>Their number daily encreases, they are— </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e107840">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e107840">
               <speaker>K. H. </speaker>
               <l>Rascalls— talke no more; </l>
               <l>Such are not worthie of my thoughts to night: </l>
@@ -1277,21 +1268,21 @@
           <div n="1" type="scene" xml:id="ep000014-e107930">
             <head>Scaena prima. </head>
             <stage xml:id="ep000014-e107940">Enter aboue: Countesse of Crawford, Katherine, Iane, with other Ladies. </stage>
-            <sp who="#ep000014-counsellor" xml:id="ep000014-e107950">
+            <sp who="#ep000014-countesse-of-crawford" xml:id="ep000014-e107950">
               <speaker>Coun. </speaker>
               <l>COme Ladies, heeres a solemne preparation </l>
               <l>For entertainment of this English Prince; </l>
               <l>The King intends grace more then ordinarie, </l>
               <l>Twere pittie now, if a'should proue a Counterfeit. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e108000">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e108000">
               <speaker>Kat: </speaker>
               <l>Blesse the young man, our Nation would be laughd at </l>
               <l>For honest soules through Christendome: my father </l>
               <l>Hath a weake stomacke to the businesse (Madam) </l>
               <l>But that the King must not be crost. </l>
             </sp>
-            <sp who="#ep000014-counsellor" xml:id="ep000014-e108050">
+            <sp who="#ep000014-countesse-of-crawford" xml:id="ep000014-e108050">
               <speaker>Coun: </speaker>
               <l>A'brings </l>
               <l>A goodly troope (they say) of gallants with him; </l>
@@ -1307,13 +1298,13 @@
               <l>Or breake out. </l>
               <l>For most of em are broken by report;— The King, </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e108170">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e108170">
               <speaker>Kat. </speaker>
               <l>Let vs obserue 'em and be silent. </l>
             </sp>
             <stage xml:id="ep000014-e108190">Flourish. </stage>
             <stage xml:id="ep000014-e108200">Enter King Iames, Huntley, Crawford, and Daliell. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e108210">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e108210">
               <speaker>K. I. </speaker>
               <l>The right of Kings (my Lords) extends not onely </l>
               <l>To the safe Conservation of their owne; </l>
@@ -1338,7 +1329,7 @@
               <speaker>Hunt. </speaker>
               <l>Doe your will Sir. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e108410">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e108410">
               <speaker>K. I. </speaker>
               <l>The young Duke is at hand, Daliell from vs </l>
               <l>First greete him, and conduct him on; then Crawford </l>
@@ -1392,7 +1383,7 @@
               <l>Heire to the Crowne of England, snatch'd by Henry </l>
               <l>From Richards head; a thing scarce knowne ith world. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e108900">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e108900">
               <speaker>K. I. </speaker>
               <l>My Lord, it stands not with your Counsaile now </l>
               <l>To flie vpon invectiues, if you can </l>
@@ -1422,7 +1413,7 @@
               <l>Omitting no occasion in our person, </l>
               <l>To expresse a gratitude, beyond example. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e109150">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e109150">
               <speaker>K. I. </speaker>
               <l>Hee must bee more then subject, who can vtter </l>
               <l>The language of a King, and such is thine. </l>
@@ -1439,13 +1430,13 @@
               <l>Leade on.— <stage xml:id="ep000014-e109290">Exeunt, Manent Ladies aboue. </stage>
               </l>
             </sp>
-            <sp who="#ep000014-counsellor" xml:id="ep000014-e109300">
+            <sp who="#ep000014-countesse-of-crawford" xml:id="ep000014-e109300">
               <speaker>Coun: </speaker>
               <l>I haue not seene a Gentleman </l>
               <l>Of a more braue aspect, or goodlier carriage; </l>
               <l>His fortunes moue not him— Madam, yare passionate. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e109340">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e109340">
               <speaker>Kat: </speaker>
               <l>Beshrew mee, but his words haue touchd mee home, </l>
               <l>As if his cause concernd mee; I should pittie him </l>
@@ -1457,20 +1448,20 @@
               <l>Ladies the King commands your presence instantly, </l>
               <l>For entertainment of the Duke. </l>
             </sp>
-            <sp who="#ep000014-kate" xml:id="ep000014-e109420">
+            <sp who="#ep000014-katherine" xml:id="ep000014-e109420">
               <speaker>Kat. </speaker>
               <l>The Duke </l>
               <l>Must then be entertain'd, the King obayd: </l>
               <l>It is our dutie. </l>
             </sp>
-            <sp who="#ep000014-counsellor" xml:id="ep000014-e109460">
+            <sp who="#ep000014-countesse-of-crawford" xml:id="ep000014-e109460">
               <speaker>Coun: </speaker>
               <l>Wee will all waite on him. <stage xml:id="ep000014-e109480">Exeunt. </stage>
               </l>
             </sp>
             <stage xml:id="ep000014-e109490">Flourish. </stage>
             <stage xml:id="ep000014-e109500">Enter King Henry: Oxford; Durham; Surrey. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e109510">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e109510">
               <speaker>K: H: </speaker>
               <l>Haue yee condem'd my Chamberlaine? </l>
             </sp>
@@ -1483,7 +1474,7 @@
               <l>So neerely, that it drew from him free </l>
               <l>Confession without an importunitie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e109590">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e109590">
               <speaker>K: H: </speaker>
               <l>Oh Lord Bishop, </l>
               <l>This argued shame, and sorrow for his follie; </l>
@@ -1519,7 +1510,7 @@
               <l>Tis a quarrell </l>
               <l>To' ingage a soule in. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e109870">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e109870">
               <speaker>K: H: </speaker>
               <l>What a coyle is here, </l>
               <l>To keepe my gratitude sincere and perfect? </l>
@@ -1543,7 +1534,7 @@
               <speaker>Dur: </speaker>
               <l>Sir, he is comming this way. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e110060">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e110060">
               <speaker>K: H: </speaker>
               <l>If a'speake to me, </l>
               <l>I could denie him nothing; to prevent it, </l>
@@ -1692,7 +1683,7 @@
               <l>To be vpbraided? Lords, the King shall know it. </l>
             </sp>
             <stage xml:id="ep000014-e111100">Enter King Henry with a white staffe. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111110">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111110">
               <speaker>K: H: </speaker>
               <l>The King doth know it Sir; the King hath heard </l>
               <l>What he or you could say; Wee haue given credit </l>
@@ -1704,7 +1695,7 @@
               <speaker>Cliff: </speaker>
               <l>I pleasd my Lord! </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111190">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111190">
               <speaker>K: H: </speaker>
               <l>No ecchoes: for your service, wee dismisse </l>
               <l>Your more attendance on the Court; take ease </l>
@@ -1717,7 +1708,7 @@
               <l>I goe Sir. <stage xml:id="ep000014-e111270">Exit Clifford. </stage>
               </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111280">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111280">
               <speaker>K: H: </speaker>
               <l>Dye all our griefes with Stanlie; take this staffe </l>
               <l>Of office Dawbney, henceforth be our Chamberlaine. </l>
@@ -1726,7 +1717,7 @@
               <speaker>Dawb: </speaker>
               <l>I am your humblest servant. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111330">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111330">
               <speaker>K: H: </speaker>
               <l>Wee are followed </l>
               <l>By enemies at home, that will not cease </l>
@@ -1744,7 +1735,7 @@
               <l>Daring, and able, resolute to fight, </l>
               <l>And loyall in their truthes. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111470">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111470">
               <speaker>K: H: </speaker>
               <l>Wee know it Dawbney: </l>
               <l>For them, wee order thus, Oxford in chiefe </l>
@@ -1757,7 +1748,7 @@
               <speaker>Ox: </speaker>
               <l>I humbly thanke your Majestie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111550">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111550">
               <speaker>K: H: </speaker>
               <l>The next Devision wee assigne to Dawbney: </l>
               <l>These must be men of action, for on those </l>
@@ -1770,7 +1761,7 @@
               <speaker>Dawb: </speaker>
               <l>The King is still oraculous. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e111640">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e111640">
               <speaker>K: H: </speaker>
               <l>But Surrey, </l>
               <l>Wee haue imployment of more toyle for thee! </l>
@@ -1837,7 +1828,7 @@
               <l>For service to their rogueshippes— silence. </l>
             </sp>
             <stage xml:id="ep000014-e112150">Enter King Iames and Huntley. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e112160">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e112160">
               <speaker>K: Iames, </speaker>
               <l>Doe not— </l>
               <l>Argue against our will; wee haue descended </l>
@@ -1861,7 +1852,7 @@
               <l>Take, take my head Sir, whilst my tongue can wagge </l>
               <l>It cannot name him other. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e112360">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e112360">
               <speaker>K: Ia: </speaker>
               <l>Kings are counterfeits </l>
               <l>In your repute (graue Oracle) not presently </l>
@@ -1904,7 +1895,7 @@
               <l>Worthy a free consent; now a' pulls downe </l>
               <l>What olde Desert hath builded. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e112660">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e112660">
               <speaker>K. Ia. </speaker>
               <l>Cease perswasions, </l>
               <l>I violate no pawnes of faythes, intrude not </l>
@@ -1922,7 +1913,7 @@
               <l>Some of thy Subjects hearts </l>
               <l>King Iames will bleede for this! </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e112800">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e112800">
               <speaker>K. Ia. </speaker>
               <l>Then shall their blouds </l>
               <l>Be nobly spent; no more disputes, hee is not </l>
@@ -1936,7 +1927,7 @@
               <l>I and my griefes will daunce now,— Looke Lords looke, </l>
               <l>Heeres hand in hand alreadie? </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e112900">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e112900">
               <speaker>K. Ia. </speaker>
               <l>Peace olde phrensie. </l>
               <stage xml:id="ep000014-e112920">Enter Warbeck leading Katherine, complementing; Countesse of Crawford, Iane, Frion, Major of Corke, Astley, Heron and Sketon. </stage>
@@ -1970,7 +1961,7 @@
               <speaker>Warb: </speaker>
               <l>Shall I?— </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e113130">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e113130">
               <speaker>K. Ia </speaker>
               <l>Cossen yes, </l>
               <l>Enjoy her; from my hand accept your bride; </l>
@@ -2010,7 +2001,7 @@
               <speaker>Dal: </speaker>
               <l>My hopes are in their ruines. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e113410">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e113410">
               <speaker>K. Ia. </speaker>
               <l>Good kinde Huntley </l>
               <l>Is over-joy'd, a fit solemnitie, </l>
@@ -2137,7 +2128,7 @@
           <div n="1" type="scene" xml:id="ep000014-e114230">
             <head>Scaena prima. </head>
             <stage xml:id="ep000014-e114240">Enter King Henrie, his Gorget on, his sword, plume of feathers, leading staffe, and Vrswicke. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e114250">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e114250">
               <speaker>K: H: </speaker>
               <l>HOw runnes the time of day? </l>
             </sp>
@@ -2145,7 +2136,7 @@
               <speaker>Vrsw: </speaker>
               <l>Past tenne my Lord. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e114290">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e114290">
               <speaker>K: H: </speaker>
               <l>A bloudie houre will it proue to some, </l>
               <l>Whose disobedience, like the sonnes 'oth earth, </l>
@@ -2158,7 +2149,7 @@
               <speaker>Vrs: </speaker>
               <l>They are all silent. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e114380">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e114380">
               <speaker>K: H: </speaker>
               <l>From their owne battlements, they may behold, </l>
               <l>Saint Georges fields orespred with armed men; </l>
@@ -2174,7 +2165,7 @@
               <l>King Henry on his lawfull throne, will ever </l>
               <l>Rise vp in his defence. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e114500">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e114500">
               <speaker>K: H: </speaker>
               <l>Rage shall not fright </l>
               <l>The bosome of our confidence; in Kent </l>
@@ -2203,7 +2194,7 @@
               <l>Your Majestie's a wise King, sent from Heaven </l>
               <l>Protector of the just. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e114740">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e114740">
               <speaker>K. H. </speaker>
               <l>Let dinner cheerefully </l>
               <l>Be serv'd in; this day of the weeke is ours, </l>
@@ -2224,7 +2215,7 @@
               <l>The head of strong rebellion is cut off, </l>
               <l>The body hew'd in peeces: </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e114890">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e114890">
               <speaker>K: H: </speaker>
               <l>Dawbney, Oxford, </l>
               <l>Minions to noblest fortunes, how yet stands </l>
@@ -2261,7 +2252,7 @@
               <l>Reserv'd to trie your mercy, haue return'd </l>
               <l>A victory with safetie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e115210">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e115210">
               <speaker>K: H: </speaker>
               <l>Haue we lost </l>
               <l>An equall number with them? </l>
@@ -2274,7 +2265,7 @@
               <l>Raled in ropes, fit Ornaments for traytors, </l>
               <l>Waite your determinations. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e115300">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e115300">
               <speaker>K: H: </speaker>
               <l>Wee must pay </l>
               <l>Our thankes where they are onely due: Oh, Lords, </l>
@@ -2294,7 +2285,7 @@
               <l>Sir, will you please to see those Rebells, heads </l>
               <l>Of this wilde Monster multitude? </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e115460">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e115460">
               <speaker>K: H: </speaker>
               <l>Deare friend, </l>
               <l>My faithfull Dawbney, no; on them our Iustice </l>
@@ -2315,7 +2306,7 @@
               <speaker>Oxf: </speaker>
               <l>I shall Sir. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e115620">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e115620">
               <speaker>K: H: </speaker>
               <l>Vrswicke. </l>
             </sp>
@@ -2323,7 +2314,7 @@
               <speaker>Vrsw: </speaker>
               <l>My Lorde </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e115660">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e115660">
               <speaker>K: H: </speaker>
               <l>To Dinham our high treasurer, </l>
               <l>Say wee commaund Commissions be new graunted, </l>
@@ -2338,7 +2329,7 @@
               <l>Haue manfully and faithfully acquitted </l>
               <l>Their severall duties. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e115770">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e115770">
               <speaker>K: H: </speaker>
               <l>For it, wee will throwe </l>
               <l>A Largesse free amongst them, which shall harten </l>
@@ -2503,7 +2494,7 @@
             </sp>
             <stage xml:id="ep000014-e117010">Flourish. </stage>
             <stage xml:id="ep000014-e117020">Enter King Iames, Warbecke leading Katherine, Crawford, Countesse, and Iane, Huntley, and Daliell fall among them. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117030">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117030">
               <speaker>K: Ia: </speaker>
               <l>Cosen of Yorke, you and your Princely Bride, </l>
               <l>Haue liberally enjoy'd such soft delights, </l>
@@ -2532,7 +2523,7 @@
               <l>One person, shall vnite and rule one people. </l>
               <l>Devisible in titles onely. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117280">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117280">
               <speaker>K: Ia: </speaker>
               <l>Seate yee'; </l>
               <l>Are the presentors readie? </l>
@@ -2548,7 +2539,7 @@
             </sp>
             <stage xml:id="ep000014-e117360">
               <pb xml:id="ep000014-023-a"/>Enter at one dore foure Scotch Antickes, accordingly habited; Enter at another foure wilde Irish in Trowses, long hayred, and accordingly habited. Musicke. The Maskers daunce. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117370">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117370">
               <speaker>K: Ia: </speaker>
               <l>To all a generall thankes! </l>
             </sp>
@@ -2558,7 +2549,7 @@
               <l>Take your owne shapes againe, you shall receiue </l>
               <l>Particular acknowledgement. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117430">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117430">
               <speaker>K: Ia: </speaker>
               <l>Enough </l>
               <l>Of merriments; Crawford, how far's our Armie </l>
@@ -2569,7 +2560,7 @@
               <l>At Hedenhall (great King) </l>
               <l>Twelue thousand well prepard. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117500">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117500">
               <speaker>K: Ia: </speaker>
               <l>Crawford, to night </l>
               <l>Post thither Wee in person with the Prince </l>
@@ -2580,7 +2571,7 @@
               <speaker>Craw. </speaker>
               <l>I flie my Lord. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117570">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117570">
               <speaker>K: I: </speaker>
               <l>Our businesse growes to head now, where's your </l>
               <l>Secretarie that he attends'ee not to serue? </l>
@@ -2589,7 +2580,7 @@
               <speaker>Warb: </speaker>
               <l>With March-mont your Herald. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117620">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117620">
               <speaker>K: Ia: </speaker>
               <l>Good: the Proclamations readie; </l>
               <l>By that it will appeare, how the English stand </l>
@@ -2604,7 +2595,7 @@
               <l>Which men, so neere their graues as I, doe vse. </l>
               <l>I've little else to doe. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e117730">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e117730">
               <speaker>K: Ia: </speaker>
               <l>To rest young beauties! </l>
               <l>Wee must be early stirring, quickly part, </l>
@@ -2727,7 +2718,7 @@
               </l>
             </sp>
             <stage xml:id="ep000014-e118590">Enter King Henrie, Hialas, and Vrswicke. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e118600">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e118600">
               <speaker>K: H: </speaker>
               <l>Your name is Pedro Hialas: a Spaniard? </l>
             </sp>
@@ -2735,7 +2726,7 @@
               <speaker>Hialas. </speaker>
               <l>Sir a Castillian borne. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e118640">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e118640">
               <speaker>K: H: </speaker>
               <l>King Ferdinand </l>
               <l>With wise Queene Isabell his royall consort, </l>
@@ -2761,7 +2752,7 @@
               <l>Your Majestie </l>
               <l>Doth vnderstand him rightly. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e118860">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e118860">
               <speaker>K: H: </speaker>
               <l>Els, your knowledge can instruct me, wherein (Sir) </l>
               <pb xml:id="ep000014-024-b"/>
@@ -2778,7 +2769,7 @@
               <l>Some learned man of power and experience </l>
               <l>To joyne in treatie with me. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e118980">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e118980">
               <speaker>K. H. </speaker>
               <l>I shall doe it, </l>
               <l>Being that way well provided by a servant </l>
@@ -2791,7 +2782,7 @@
               <l>My comming neere your Court, I doubt the issue </l>
               <l>Of my imployment. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119070">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119070">
               <speaker>K: H: </speaker>
               <l>Be not your owne Herald, </l>
               <l>I learne sometimes without a teacher. </l>
@@ -2800,7 +2791,7 @@
               <speaker>Hialas. </speaker>
               <l>Good dayes guard all your Princely thoughts. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119120">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119120">
               <speaker>K: H: </speaker>
               <l>Vrswicke no further </l>
               <l>Then the next open Gallerie attend him. </l>
@@ -2811,7 +2802,7 @@
               <l>Your vow'd Beadsman. <stage xml:id="ep000014-e119180">Ex: Vrsw: and Hialas. </stage>
               </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119190">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119190">
               <speaker>K: H: </speaker>
               <l>King Ferdinand is not so much a Foxe, </l>
               <l>But that a cunning Huntsman may in time </l>
@@ -2827,7 +2818,7 @@
               <l>Your Majestie conveyde, a' gentlie purst, </l>
               <l>With a right modest gravitie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119310">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119310">
               <speaker>K: H: </speaker>
               <l>What wast </l>
               <l>A' mutterd in the earnest of his wisedome, </l>
@@ -2840,7 +2831,7 @@
               <l>Such a wilde runnagate might soone be cag'd, </l>
               <l>No great adoe withstanding. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119400">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119400">
               <speaker>K: H: </speaker>
               <l>Nay, nay, something </l>
               <l>About my sonne Prince Arthurs match! </l>
@@ -2856,7 +2847,7 @@
               <l>As any Earle of Warwicke liv'd in England, </l>
               <l>Except by newe Creation. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119510">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119510">
               <speaker>K: H: </speaker>
               <l>I remember, </l>
               <l>'Twas so indeede, the King his Maister swore it? </l>
@@ -2865,7 +2856,7 @@
               <speaker>Vrsw: </speaker>
               <l>Directly, as he said. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e119560">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e119560">
               <speaker>K: H: </speaker>
               <l>An Earle of Warwicke! </l>
               <l>Provide a Messenger for Letters instantly </l>
@@ -2878,7 +2869,7 @@
               </l>
             </sp>
             <stage xml:id="ep000014-e119660">Enter King Iames, Warbecke, Crawford, Daliell, Heron, Astley, Major, Sketon, and Souldiers. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e119670">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e119670">
               <speaker>K: Ia: </speaker>
               <l>Wee trifle time against these Castle walls, </l>
               <l>The English Prelate will not yeelde, once more </l>
@@ -2891,7 +2882,7 @@
               <l>See, the jolly Clarke </l>
               <l>Appeares trimd like a ruffian. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e119760">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e119760">
               <speaker>K: Ia: </speaker>
               <l>Bishop, yet </l>
               <l>Set ope the portes, and to your lawfull Soveraigne </l>
@@ -2966,7 +2957,7 @@
               <l>Can you studie, while such a Devill raues? O Sir. </l>
             </sp>
             <pb xml:id="ep000014-026-a"/>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e120350">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e120350">
               <speaker>K: Ia. </speaker>
               <l>Well,— Bishopp, </l>
               <l>You'le not be drawne to mercie? </l>
@@ -2979,7 +2970,7 @@
               <l>A greater fate waites on thee. <stage xml:id="ep000014-e120430">Exit Durham cum suis. </stage>
               </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e120440">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e120440">
               <speaker>K: Ia: </speaker>
               <l>Forrage through </l>
               <l>The Countrey, spare no prey of life, or goods, </l>
@@ -2999,7 +2990,7 @@
               <l>Endure to see such havocke with drie eyes: </l>
               <l>Spare, spare, my deare deare England. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e120600">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e120600">
               <speaker>K: Ia: </speaker>
               <l>You foole your pietie </l>
               <l>Ridiculously, carefull of an interest </l>
@@ -3030,7 +3021,7 @@
               <l>Lowest reproofe, without contempt or words </l>
             </sp>
             <stage xml:id="ep000014-e120820">Enter Frion. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e120830">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e120830">
               <speaker>K: Ia: </speaker>
               <l>An humble minded man,— now, what intelligence </l>
               <pb xml:id="ep000014-026-b"/>
@@ -3043,7 +3034,7 @@
               <l>The Armies who opposd him, in the right </l>
               <l>Of this young Prince. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e120910">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e120910">
               <speaker>K: Ia: </speaker>
               <l>His Subsidies you meane: more if you haue it? </l>
             </sp>
@@ -3061,7 +3052,7 @@
               <speaker>Warb: </speaker>
               <l>'Tis false! they come to side with vs. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e121030">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e121030">
               <speaker>K: Ia: </speaker>
               <l>Retreate: </l>
               <l>Wee shall not finde them stones and walls to cope with. </l>
@@ -3080,7 +3071,7 @@
               <l>Doth interest this fayre quarrell; valued least </l>
               <l>I am his equall. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e121180">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e121180">
               <speaker>K: I: </speaker>
               <l>I will be the man; </l>
               <l>March softly off, where Victorie can reape </l>
@@ -3446,7 +3437,7 @@
               <l>I dare both motion, and effect this marriage. </l>
               <l>For weale of both the Kingdomes. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e123790">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e123790">
               <speaker>K: Ia. </speaker>
               <l>Darst thou Lord Bishop? </l>
             </sp>
@@ -3458,7 +3449,7 @@
               <pb xml:id="ep000014-030-a"/>
               <l>Shall suite my mediation. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e123860">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e123860">
               <speaker>K. Ia. </speaker>
               <l>Well; what Heaven </l>
               <l>Hath poynted out to be, must be; you two </l>
@@ -3491,7 +3482,7 @@
               <speaker>Durh. </speaker>
               <l>Wise, and herein happie. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e124120">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e124120">
               <speaker>K. Ia. </speaker>
               <l>Nor will wee dallie in affayres of weight: </l>
               <l>Huntley (Lord Bishop) shall with you to England </l>
@@ -3505,7 +3496,7 @@
               <l>Heaven crowne it. <stage xml:id="ep000014-e124210">Exeunt Durham and Hialas. </stage>
               </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e124220">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e124220">
               <speaker>K: Ia: </speaker>
               <l>A league with Ferdinand? a marriage </l>
               <l>With English Margaret? a free release </l>
@@ -3519,7 +3510,7 @@
               <l>Here Sir. <stage xml:id="ep000014-e124310">Enter Daliell </stage>
               </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e124320">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e124320">
               <speaker>K: Ia: </speaker>
               <l>Are Huntley and his Daughter sent for? </l>
             </sp>
@@ -3528,7 +3519,7 @@
               <l>Sent for, and come (my Lord.) </l>
             </sp>
             <pb xml:id="ep000014-030-b"/>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e124360">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e124360">
               <speaker>K: Ia: </speaker>
               <l>Say to the English Prince, </l>
               <l>Wee want his companie. </l>
@@ -3538,7 +3529,7 @@
               <l>He is at hand Sir. </l>
             </sp>
             <stage xml:id="ep000014-e124410">Enter Warbeck, Katherine, Iane, Frion, Heron, Sketon, Major, Astley. </stage>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e124420">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e124420">
               <speaker>K. Ia. </speaker>
               <l>Cosen, our bountie, favours, gentlenesse, </l>
               <l>Our benefits, the hazard of our person, </l>
@@ -3594,7 +3585,7 @@
               <l>Such another treasure </l>
               <l>The earth is Banckrout of. </l>
             </sp>
-            <sp who="#ep000014-jamesiv" xml:id="ep000014-e124890">
+            <sp who="#ep000014-james-iv" xml:id="ep000014-e124890">
               <speaker>K: Ia: </speaker>
               <l>I giue her (Cosen) </l>
               <l>And must avowe the guift: will adde withall </l>
@@ -3801,7 +3792,7 @@
               <l>And dealt with cunning, bring some gamester thrift, </l>
               <l>But others must rise loosers. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126370">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126370">
               <speaker>K: H: </speaker>
               <l>the trayne takes? </l>
             </sp>
@@ -3809,7 +3800,7 @@
               <speaker>Vrsw: </speaker>
               <l>Most prosperously. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126410">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126410">
               <speaker>K. H. </speaker>
               <l>I knew it should not misse. </l>
               <l>He fondly angles who will hurle his bayte </l>
@@ -3830,7 +3821,7 @@
               <speaker>Vrsw: </speaker>
               <l>A Glow-worme. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126540">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126540">
               <speaker>K: H: </speaker>
               <l>Now if Frion, </l>
               <l>His practisd politician weare a brayne </l>
@@ -3845,7 +3836,7 @@
               <l>With all his rabble, within twentie miles </l>
               <l>Of London. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126650">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126650">
               <speaker>K: H: </speaker>
               <l>Farther off is neere enough </l>
               <l>To lodge him in his home; he wager odds </l>
@@ -3857,7 +3848,7 @@
               <speaker>Dawb: </speaker>
               <l>'Tis a strange conceite Sir. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126730">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126730">
               <speaker>K: H: </speaker>
               <l>Such voluntarie favours as our people </l>
               <l>In dutie ayde vs with, wee never scatter'd </l>
@@ -3883,7 +3874,7 @@
               <speaker>Oxf: </speaker>
               <l>It must not, should not. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126940">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126940">
               <speaker>K: H: </speaker>
               <l>So then. To whom? <stage xml:id="ep000014-e126960">Enter a Post. </stage>
               </l>
@@ -3892,7 +3883,7 @@
               <speaker>Post. </speaker>
               <l>This packett to your sacred Majestie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e126990">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e126990">
               <speaker>K: H: </speaker>
               <l>Sirra attend without. </l>
             </sp>
@@ -3906,7 +3897,7 @@
               <l>Devines aforehand of events: with him </l>
               <l>Attempts and execution are one act. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e127070">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e127070">
               <speaker>K: H: </speaker>
               <l>Vrswicke thine eare; Frion is caught, the man </l>
               <l>Of cunning is out-reacht: wee must be safe: </l>
@@ -3920,7 +3911,7 @@
               <speaker>Vrsw: </speaker>
               <l>And conceiue your Highnesse fitly: </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e127170">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e127170">
               <speaker>K. H. </speaker>
               <l>Dawbney, and Oxford; since our Armie stands </l>
               <l>Entire, it were a weakenesse to admit </l>
@@ -3936,7 +3927,7 @@
               <l>Salisburie? </l>
               <l>Sir, all is peace at Salisburie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e127290">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e127290">
               <speaker>K: H: </speaker>
               <l>Deare friend— </l>
               <l>The charge must be our owne; we would a little </l>
@@ -3947,7 +3938,7 @@
               <speaker>Oxf: </speaker>
               <l>command our Liues. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e127360">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e127360">
               <speaker>K: H: </speaker>
               <l>Y'are men know how to doe not to forethinke: </l>
               <l>My Bishop is a jewell try'd, and perfect; </l>
@@ -3959,7 +3950,7 @@
               <speaker>Vrs: </speaker>
               <l>He waites your pleasure. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e127440">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e127440">
               <speaker>K: H: </speaker>
               <l>Perkin a King? a King? </l>
             </sp>
@@ -3968,7 +3959,7 @@
               <l>My gracious Lord. </l>
             </sp>
             <pb xml:id="ep000014-033-b"/>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e127480">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e127480">
               <speaker>K: H: </speaker>
               <l>Thoughts, busied in the spheare of Royaltie, </l>
               <l>Fixe not on creeping wormes, without their stings; </l>
@@ -4045,7 +4036,7 @@
               <l>Commend vs to our people; wee in person </l>
               <l>Will lend them double spirits, tell them so. </l>
             </sp>
-            <sp who="#ep000014-skelton #ep000014-astley" xml:id="ep000014-e128060">
+            <sp who="#ep000014-sketon #ep000014-astley" xml:id="ep000014-e128060">
               <speaker>She: &amp; Astl: </speaker>
               <l>King Richard, King Richard. </l>
             </sp>
@@ -4321,7 +4312,7 @@
               </l>
             </sp>
             <stage xml:id="ep000014-e130030">Enter King Henry, Surrey, Vrswicke, and a guard of Souldiers. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130040">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130040">
               <speaker>K: H: </speaker>
               <l>The Counterfeit King Perkin is escap'd, </l>
               <l>Escape, so let him; he is heg'd too fast </l>
@@ -4345,7 +4336,7 @@
               <l>How that our Master Henrie was much abler </l>
               <l>To beare the detriments, then he repay them. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130240">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130240">
               <speaker>K: H: </speaker>
               <l>The young man I beleeue spake honest truth, </l>
               <l>'A studies to be wise betimes. Ha's Vrswicke, </l>
@@ -4360,7 +4351,7 @@
               <pb xml:id="ep000014-036-b"/>
               <l>With open hearts, they joyfully receiu'd. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130340">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130340">
               <speaker>K: H: </speaker>
               <l>Young Buckingham is a fayre natur'd Prince, </l>
               <l>Louely in hopes, and worthie of his Father: </l>
@@ -4379,7 +4370,7 @@
               <l>To ripenesse, but th'ambition of your mercie: </l>
               <l>Perkin the Christian worlds strange wonder. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130490">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130490">
               <speaker>K: H: </speaker>
               <l>Dawbney, Wee obserue no wonder; I behold (tis true) </l>
               <l>An ornament of nature, fine, and pollisht, </l>
@@ -4392,7 +4383,7 @@
               <l>At Beweley, neere Southhampton, registred </l>
               <l>With these few followers, for persons priviledg'd. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130580">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130580">
               <speaker>K: H: </speaker>
               <l>I must not thanke you Sir! you were too blame </l>
               <l>To infringe the Libertie of houses sacred: </l>
@@ -4404,7 +4395,7 @@
               <l>They voluntarily resign'd themselues, </l>
               <l>Without compulsion. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130660">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130660">
               <speaker>K: H: </speaker>
               <l>So? 'twas very well, </l>
               <l>T'was very very well— turne now thine eyes </l>
@@ -4437,7 +4428,7 @@
               <l>Whither speeds his boldnesse? </l>
               <l>Checke his rude tongue (great Sir!) </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e130920">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e130920">
               <speaker>K: H: </speaker>
               <l>O let him range: </l>
               <l>The player's on the stage still, 'tis his part; </l>
@@ -4452,7 +4443,7 @@
               <l>Fate which crown'd these attempts when lest assur'd, </l>
               <l>Might haue befriended others, like resolv'd. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131030">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131030">
               <speaker>K: H: </speaker>
               <l>A prettie gallant! thus, your Aunt of Burgundie, </l>
               <l>Your Dutchesse Aunt enform'd her Nephew; so </l>
@@ -4471,7 +4462,7 @@
               <l>By which the Soveraigne is best distinguisht', </l>
               <l>From Zanyes to his Greatnesse. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131180">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131180">
               <speaker>K: H: </speaker>
               <l>Sirra, shift </l>
               <l>Your anticke Pageantrie, and now appeare </l>
@@ -4492,7 +4483,7 @@
               <l>Flowe from some noble Orator, in death </l>
               <l>I owe the fee of thankfulnesse. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131340">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131340">
               <speaker>K: H: </speaker>
               <l>So braue! </l>
               <l>What a bold knaue is this? which of these Rebells </l>
@@ -4503,7 +4494,7 @@
               <l>This wise formalitie: </l>
               <l>Kneele to the King 'ee Rascalls! </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131410">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131410">
               <speaker>K: H: </speaker>
               <l>Canst thou hope, </l>
               <l>A Pardon, where thy guilt is so apparant? </l>
@@ -4521,15 +4512,16 @@
               <speaker>Mayor. </speaker>
               <p>Every man knowes what is best, as it happens: for my owne part, I beleeue it is true, if I be not deceived, that Kings must be Kings, and Subjects, Subjects. But which is which; you shall pardon me for that; whether we speake or hold our peace, all are mortall, no man knowes his end. </p>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131510">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131510">
               <speaker>K: H: </speaker>
               <l>Wee trifle time with follyes. </l>
             </sp>
-            <sp who="#ep000014-omnes" xml:id="ep000014-e131530">
+            <sp who="#ep000014-dawbney #ep000014-warbeck #ep000014-heron #ep000014-astley #ep000014-sketon #ep000014-surrey #ep000014-urswick #ep000014-soldiers"
+                      xml:id="ep000014-e131530">
               <speaker>Omnes. </speaker>
               <l>Mercie, mercie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131550">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131550">
               <speaker>K: H: </speaker>
               <l>Vrswicke, command the Dukeling, and these fellowes, </l>
               <l>To Digby, the Lieftenant of the Tower: </l>
@@ -4546,7 +4538,7 @@
               <l>Meete freedome in captivitie; the Tower? </l>
               <l>Our Childhoods dreadfull nursery. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131680">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131680">
               <speaker>K: H. </speaker>
               <l>No more. </l>
             </sp>
@@ -4556,7 +4548,7 @@
             </sp>
             <stage xml:id="ep000014-e131720">Exit Vrsw: with Perkin and his. </stage>
             <pb xml:id="ep000014-038-a"/>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131730">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131730">
               <speaker>K: H: </speaker>
               <l>Was ever so much impudence in forgery? </l>
               <l>The custome sure of being stil'd a King, </l>
@@ -4569,7 +4561,7 @@
               <l>The Hangmans physicke </l>
               <l>Will purge this saucie humor. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131820">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131820">
               <speaker>K: H: </speaker>
               <l>Very likely: </l>
               <l>Yet, wee could, temper mercie, with extremitie, </l>
@@ -4582,7 +4574,7 @@
               <l>With your accustomed grace, to entertaine </l>
               <l>The Princesse Katherine Gourdon. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e131910">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e131910">
               <speaker>K. H: </speaker>
               <l>Oxford, herein </l>
               <l>Wee must beshrew thy knowledge of our nature. </l>
@@ -4601,7 +4593,7 @@
               <l>As both are now befriended (Sir!) however </l>
               <l>Both bow before your clemencie. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e132060">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e132060">
               <speaker>K: H: </speaker>
               <l>Our armes </l>
               <l>Shall circle them from malice— 'A sweete Ladie? </l>
@@ -4612,7 +4604,7 @@
               <speaker>Kath: </speaker>
               <l>O Sir, I haue a husband. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e132130">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e132130">
               <speaker>K: H: </speaker>
               <l>Wee'le proue your father, husband, friend, and servant, </l>
               <l>Proue what you wish to graunt vs, (Lords) be carefull </l>
@@ -4627,7 +4619,7 @@
               <l>But my husband? </l>
             </sp>
             <pb xml:id="ep000014-038-b"/>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e132230">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e132230">
               <speaker>K: H: </speaker>
               <l>By all descriptions, you are noble Daliell, </l>
               <l>Whose generous truth hath fam'd a rare observance! </l>
@@ -4640,7 +4632,7 @@
               <l>Worthier then your prayses, </l>
               <l>Right princely Sir, I neede not glorie in. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e132320">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e132320">
               <speaker>K: H: </speaker>
               <l>Embrace him (Lords,) who ever calls you Mistresse </l>
               <l>Is lifted in our charge,— a goodlier beautie </l>
@@ -4651,7 +4643,7 @@
               <l>Cruell misery </l>
               <l>Of fate, what rests to hope for? </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e132390">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e132390">
               <speaker>K: H: </speaker>
               <l>Forward Lords </l>
               <l>To London: (fayre) ere long, I shall present 'ee <stage xml:id="ep000014-e132420">Exeunt omnes. </stage>
@@ -5034,7 +5026,7 @@
               <l>Iust Lawes ought to proceede. </l>
             </sp>
             <stage xml:id="ep000014-e135230">Enter King Henry, Durham, and Hialas. </stage>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e135240">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e135240">
               <speaker>K: H: </speaker>
               <l>Wee are resolv'd: </l>
               <l>Your businesse (noble Lords) shall finde successe, </l>
@@ -5044,7 +5036,7 @@
               <speaker>Hunt: </speaker>
               <l>You are gracious. </l>
             </sp>
-            <sp who="#ep000014-henryvii" xml:id="ep000014-e135300">
+            <sp who="#ep000014-king-henry-vii" xml:id="ep000014-e135300">
               <speaker>K: H: </speaker>
               <l>Perkin, wee are inform'd, is arm'd to dye: </l>
               <l>In that weele honour him. Our Lords shall followe </l>

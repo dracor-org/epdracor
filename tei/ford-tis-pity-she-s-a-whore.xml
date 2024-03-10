@@ -87,63 +87,57 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000019-friar">
+          <person xml:id="ep000019-friar" sex="MALE">
             <persName>Friar</persName>
           </person>
-          <person xml:id="ep000019-giovanni">
+          <person xml:id="ep000019-giovanni" sex="MALE">
             <persName>Giovanni</persName>
           </person>
-          <person xml:id="ep000019-vasques">
+          <person xml:id="ep000019-vasques" sex="MALE">
             <persName>Vasques</persName>
           </person>
-          <person xml:id="ep000019-grimaldi">
+          <person xml:id="ep000019-grimaldi" sex="MALE">
             <persName>Grimaldi</persName>
           </person>
-          <person xml:id="ep000019-florio">
+          <person xml:id="ep000019-florio" sex="MALE">
             <persName>Florio</persName>
           </person>
-          <person xml:id="ep000019-donado">
+          <person xml:id="ep000019-donado" sex="MALE">
             <persName>Donado</persName>
           </person>
-          <person xml:id="ep000019-soranzo">
+          <person xml:id="ep000019-soranzo" sex="MALE">
             <persName>Soranzo</persName>
           </person>
-          <person xml:id="ep000019-putana">
+          <person xml:id="ep000019-putana" sex="FEMALE">
             <persName>Putana</persName>
           </person>
-          <person xml:id="ep000019-annabella">
+          <person xml:id="ep000019-annabella" sex="FEMALE">
             <persName>Annabella</persName>
           </person>
-          <person xml:id="ep000019-bergetto">
+          <person xml:id="ep000019-bergetto" sex="MALE">
             <persName>Bergetto</persName>
           </person>
-          <person xml:id="ep000019-poggio">
+          <person xml:id="ep000019-poggio" sex="MALE">
             <persName>Poggio</persName>
           </person>
-          <person xml:id="ep000019-richardetto">
+          <person xml:id="ep000019-richardetto" sex="MALE">
             <persName>Richardetto</persName>
           </person>
-          <person xml:id="ep000019-philotis">
+          <person xml:id="ep000019-philotis" sex="FEMALE">
             <persName>Philotis</persName>
           </person>
-          <person xml:id="ep000019-hippolyta">
+          <person xml:id="ep000019-hippolyta" sex="FEMALE">
             <persName>Hippolyta</persName>
           </person>
-          <person xml:id="ep000019-officers">
-            <persName>Officers</persName>
-          </person>
-          <person xml:id="ep000019-officer">
-            <persName>Officer</persName>
-          </person>
-          <person xml:id="ep000019-cardinal">
+          <personGrp xml:id="ep000019-officers" sex="MALE">
+            <name>Officers</name>
+          </personGrp>
+          <person xml:id="ep000019-cardinal" sex="MALE">
             <persName>Cardinal</persName>
           </person>
-          <person xml:id="ep000019-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000019-bandit">
-            <persName>Bandit</persName>
-          </person>
+          <personGrp xml:id="ep000019-bandits" sex="MALE">
+            <name>Bandits</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -159,8 +153,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000019"
-                    passive="http://www.wikidata.org/entity/Q602623"/>
+                   active="https://dracor.org/entity/ep000019"
+                   passive="http://www.wikidata.org/entity/Q602623"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -3349,7 +3343,7 @@
             <l>But stay my Maisters, are you sure you saw </l>
             <l>The Murtherer passe here? </l>
           </sp>
-          <sp who="#ep000019-officer" xml:id="ep000019-e119840">
+          <sp who="#ep000019-officers" xml:id="ep000019-e119840">
             <speaker>Offic. </speaker>
             <l>And it please you sir, wee are sure wee saw a Ruffian </l>
             <l>with a naked weapon in his hand all bloody, get into my Lord </l>
@@ -3360,7 +3354,7 @@
             <speaker>Do. </speaker>
             <l>Know you what manner of man hee was? </l>
           </sp>
-          <sp who="#ep000019-officer" xml:id="ep000019-e119910">
+          <sp who="#ep000019-officers" xml:id="ep000019-e119910">
             <speaker>Offic. </speaker>
             <l>Yes sure I know the man, they say a is a souldier, hee </l>
             <l>that lou'd your daughter Sir an't please y'ee, 'twas hee for certaine. </l>
@@ -3369,7 +3363,7 @@
             <speaker>Flo. </speaker>
             <l>Grimaldi on my life. </l>
           </sp>
-          <sp who="#ep000019-officer" xml:id="ep000019-e119960">
+          <sp who="#ep000019-officers" xml:id="ep000019-e119960">
             <speaker>Offic. </speaker>
             <l>I, I, the same. </l>
           </sp>
@@ -3620,7 +3614,8 @@
             <speaker>Hip. </speaker>
             <l>Villaine. </l>
           </sp>
-          <sp who="#ep000019-omnes" xml:id="ep000019-e121710">
+          <sp who="#ep000019-vasques #ep000019-soranzo #ep000019-florio #ep000019-annabella #ep000019-giovanni #ep000019-philotis #ep000019-putana #ep000019-friar #ep000019-donado #ep000019-richardetto"
+                   xml:id="ep000019-e121710">
             <speaker>Omnes. </speaker>
             <l>What's the matter? </l>
           </sp>
@@ -3637,7 +3632,8 @@
             <p>Dye in charity for shame, </p>
             <p>This thing of malice, this woman had priuately corrupted mee with promise of malice, vnder this politique reconciliation to to poyson my Lord, whiles shee might laugh at his Confusion oh his marriage-day; I promis'd her faire, but I knew what my reward should haue beene, and would willingly haue spar'd her life, but that I was acquainted with the danger of her disposition, and now haue fitted her a iust payment in her owne coyne, there shee is, shee hath yet— and end thy dayes in peace vild woman, as for life there's no hope, thinke not on't. </p>
           </sp>
-          <sp who="#ep000019-omnes" xml:id="ep000019-e121800">
+          <sp who="#ep000019-vasques #ep000019-soranzo #ep000019-florio #ep000019-annabella #ep000019-giovanni #ep000019-philotis #ep000019-putana #ep000019-friar #ep000019-donado #ep000019-richardetto"
+                   xml:id="ep000019-e121800">
             <speaker>Omnes. </speaker>
             <l>Wonderfull Iustice! </l>
           </sp>
@@ -4575,7 +4571,7 @@
             <speaker>Vas. </speaker>
             <p>I will vndertake for their parts; be sure my Maisters to be bloody enough, and as vnmercifull, as if you were praying vpon a rich booty on the very Mountaines of Liguria; for your pardons trust to my Lord; but for reward you shall trust none but your owne pockets. </p>
           </sp>
-          <sp who="#ep000019-omnes" xml:id="ep000019-e127970">
+          <sp who="#ep000019-bandits" xml:id="ep000019-e127970">
             <speaker>Ban. omnes. </speaker>
             <l>Wee'le make a murther. </l>
           </sp>
@@ -4584,7 +4580,8 @@
             <p>Here's gold, here's more; want nothing, what you do is noble, and an act of braue reuenge. </p>
             <p>I'le make yee rich Bandetti and all Free. </p>
           </sp>
-          <sp who="#ep000019-omnes" xml:id="ep000019-e128020">
+          <sp who="#ep000019-vasques #ep000019-soranzo #ep000019-florio #ep000019-annabella #ep000019-giovanni #ep000019-philotis #ep000019-putana #ep000019-friar #ep000019-donado #ep000019-richardetto"
+                   xml:id="ep000019-e128020">
             <speaker>Omnes. </speaker>
             <p>Liberty, liberty. </p>
           </sp>
@@ -4592,7 +4589,8 @@
             <speaker>Vas. </speaker>
             <l>Hold, take euery man a Vizard; when yee are with drawne, keepe as much silence as you can possibly: you know the watch-word, till which be spoken moue not, but when you heare that, rush in like a stormy-flood; I neede not instruct yee in your owne profession. </l>
           </sp>
-          <sp who="#ep000019-omnes" xml:id="ep000019-e128060">
+          <sp who="#ep000019-vasques #ep000019-soranzo #ep000019-florio #ep000019-annabella #ep000019-giovanni #ep000019-philotis #ep000019-putana #ep000019-friar #ep000019-donado #ep000019-richardetto"
+                   xml:id="ep000019-e128060">
             <speaker>Omnes. </speaker>
             <l>No, no, no. </l>
           </sp>
@@ -5129,7 +5127,7 @@
             <l>Shift for your selues, your reward is your owne, </l>
             <l>Shift for your selues. </l>
           </sp>
-          <sp who="#ep000019-bandit" xml:id="ep000019-e131660">
+          <sp who="#ep000019-bandits" xml:id="ep000019-e131660">
             <speaker>Ban. </speaker>
             <l>Away, away. </l>
           </sp>

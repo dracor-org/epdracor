@@ -76,73 +76,64 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000464-vermin">
+          <person xml:id="ep000464-vermin" sex="MALE">
             <persName>Vermin</persName>
           </person>
-          <person xml:id="ep000464-dryground">
+          <person xml:id="ep000464-dryground" sex="MALE">
             <persName>Dryground</persName>
           </person>
-          <person xml:id="ep000464-alice">
+          <person xml:id="ep000464-alice" sex="FEMALE">
             <persName>Alice</persName>
           </person>
-          <person xml:id="ep000464-servant">
+          <person xml:id="ep000464-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000464-wat">
+          <person xml:id="ep000464-wat" sex="MALE">
             <persName>Wat</persName>
           </person>
-          <person xml:id="ep000464-bumpsey">
+          <person xml:id="ep000464-bumpsey" sex="MALE">
             <persName>Bumpsey</persName>
           </person>
-          <person xml:id="ep000464-magdalen">
+          <person xml:id="ep000464-magdalen" sex="FEMALE">
             <persName>Magdalen</persName>
           </person>
-          <person xml:id="ep000464-valentine">
+          <person xml:id="ep000464-valentine" sex="MALE">
             <persName>Valentine</persName>
           </person>
-          <person xml:id="ep000464-jane">
+          <person xml:id="ep000464-jane" sex="FEMALE">
             <persName>Jane</persName>
           </person>
-          <person xml:id="ep000464-oliver">
+          <person xml:id="ep000464-oliver" sex="MALE">
             <persName>Oliver</persName>
           </person>
-          <person xml:id="ep000464-ambrose">
+          <person xml:id="ep000464-ambrose" sex="MALE">
             <persName>Ambrose</persName>
           </person>
-          <person xml:id="ep000464-amphilus">
+          <person xml:id="ep000464-amphilus" sex="MALE">
             <persName>Amphilus</persName>
           </person>
-          <person xml:id="ep000464-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000464-trebasco">
+          <person xml:id="ep000464-trebasco" sex="MALE">
             <persName>Trebasco</persName>
           </person>
-          <person xml:id="ep000464-brookeall">
+          <person xml:id="ep000464-brookeall" sex="MALE">
             <persName>Brookeall</persName>
           </person>
-          <person xml:id="ep000464-phillis">
+          <person xml:id="ep000464-phillis" sex="FEMALE">
             <persName>Phillis</persName>
           </person>
-          <person xml:id="ep000464-attorney">
+          <person xml:id="ep000464-attorney" sex="MALE">
             <persName>Attorney</persName>
           </person>
-          <person xml:id="ep000464-friendly">
+          <person xml:id="ep000464-friendly" sex="MALE">
             <persName>Friendly</persName>
           </person>
-          <person xml:id="ep000464-frances">
+          <person xml:id="ep000464-frances" sex="FEMALE">
             <persName>Frances</persName>
           </person>
-          <person xml:id="ep000464-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000464-rabble">
-            <persName>Rabble</persName>
-          </person>
-          <person xml:id="ep000464-unassivalentinegned">
-            <persName>Unassivalentinegned</persName>
-          </person>
-          <person xml:id="ep000464-eleanor">
+          <personGrp xml:id="ep000464-rabble" sex="UNKNOWN">
+            <name>Rabble</name>
+          </personGrp>
+          <person xml:id="ep000464-eleanor" sex="FEMALE">
             <persName>Eleanor</persName>
           </person>
         </listPerson>
@@ -1654,7 +1645,8 @@
               <l>Yet I may find a time.— <stage xml:id="ep000464-e109720">Exit: </stage>
               </l>
             </sp>
-            <sp who="#ep000464-all" xml:id="ep000464-e109730">
+            <sp who="#ep000464-valentine #ep000464-oliver #ep000464-amphilus"
+                      xml:id="ep000464-e109730">
               <speaker>All. </speaker>
               <l>Ha ha ha.— </l>
             </sp>
@@ -2620,7 +2612,7 @@
               <l>He understands it all. Yonder he is, </l>
               <l>Profoundly Love-struck too, I make no doubt. </l>
             </sp>
-            <sp who="#ep000464-unassigned" xml:id="ep000464-e115570">
+            <sp who="#ep000464-friendly" xml:id="ep000464-e115570">
               <speaker>Fry. </speaker>
               <l>Fye! Can you be so lew'd? Is that your reason? </l>
             </sp>
@@ -4751,7 +4743,7 @@
               <l>J do begin, not altogether, now, </l>
               <l>To love these things so well methinks. Humh ha! </l>
             </sp>
-            <sp who="#ep000464-unassivalentinegned" xml:id="ep000464-e128880">
+            <sp xml:id="ep000464-e128880">
               <speaker>Val. </speaker>
               <l>Nay, if you go not chearfully— </l>
             </sp>

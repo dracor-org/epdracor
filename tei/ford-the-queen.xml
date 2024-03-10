@@ -82,70 +82,55 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000689-STAGE">
-            <persName>STAGE</persName>
-          </person>
-          <person xml:id="ep000689-petruchi">
+          <person xml:id="ep000689-petruchi" sex="MALE">
             <persName>Petruchi</persName>
           </person>
-          <person xml:id="ep000689-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000689-mureto">
+          <person xml:id="ep000689-mureto" sex="MALE">
             <persName>Mureto</persName>
           </person>
-          <person xml:id="ep000689-bufo">
+          <person xml:id="ep000689-bufo" sex="MALE">
             <persName>Bufo</persName>
           </person>
-          <person xml:id="ep000689-pynto">
+          <person xml:id="ep000689-pynto" sex="MALE">
             <persName>Pynto</persName>
           </person>
-          <person xml:id="ep000689-velasco">
+          <person xml:id="ep000689-velasco" sex="MALE">
             <persName>Velasco</persName>
           </person>
-          <person xml:id="ep000689-lodovico">
+          <person xml:id="ep000689-lodovico" sex="MALE">
             <persName>Lodovico</persName>
           </person>
-          <person xml:id="ep000689-alphonso">
+          <person xml:id="ep000689-alphonso" sex="MALE">
             <persName>Alphonso</persName>
           </person>
-          <person xml:id="ep000689-hangman">
+          <person xml:id="ep000689-hangman" sex="MALE">
             <persName>Hangman</persName>
           </person>
-          <person xml:id="ep000689-collumello">
+          <person xml:id="ep000689-collumello" sex="MALE">
             <persName>Collumello</persName>
           </person>
-          <person xml:id="ep000689-almado">
+          <person xml:id="ep000689-almado" sex="MALE">
             <persName>Almado</persName>
           </person>
-          <person xml:id="ep000689-queen">
+          <person xml:id="ep000689-queen" sex="FEMALE">
             <persName>Queen</persName>
           </person>
-          <person xml:id="ep000689-messenger">
+          <person xml:id="ep000689-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000689-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000689-shaparoon">
+          <person xml:id="ep000689-shaparoon" sex="FEMALE">
             <persName>Shaparoon</persName>
           </person>
-          <person xml:id="ep000689-mopas">
+          <person xml:id="ep000689-mopas" sex="MALE">
             <persName>Mopas</persName>
           </person>
-          <person xml:id="ep000689-salassa">
+          <person xml:id="ep000689-salassa" sex="FEMALE">
             <persName>Salassa</persName>
           </person>
-          <person xml:id="ep000689-herald">
-            <persName>Herald</persName>
-          </person>
-          <person xml:id="ep000689-groom">
+          <person xml:id="ep000689-groom" sex="MALE">
             <persName>Groom</persName>
           </person>
-          <person xml:id="ep000689-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000689-herophil">
+          <person xml:id="ep000689-herophil" sex="FEMALE">
             <persName>Herophil</persName>
           </person>
         </listPerson>
@@ -364,14 +349,15 @@
         <pb xml:id="ep000689-005-b"/>
         <head>The Queen. </head>
         <head>ACTUS PRIMUS. </head>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e101520">
+        <sp xml:id="ep000689-e101520">
           <stage xml:id="ep000689-e101530">Enter Petruchi with Buso, Pynto and Muretto, in poor habit. </stage>
         </sp>
         <sp who="#ep000689-petruchi" xml:id="ep000689-e101540">
           <speaker>Petr </speaker>
           <p>ALL free, and all forgiven. </p>
         </sp>
-        <sp who="#ep000689-omnes" xml:id="ep000689-e101560">
+        <sp who="#ep000689-bufo #ep000689-pynto #ep000689-mureto"
+                xml:id="ep000689-e101560">
           <speaker>Omnes. </speaker>
           <p>Bless her Majesty. </p>
         </sp>
@@ -544,7 +530,7 @@
           <speaker>Buf. </speaker>
           <p>But i'thy face, I'll have no buts, S'bones, the black guard is more honorably sured then any of us three. Foolish, foolish, will never out of my head while I live. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e102530">
+        <sp xml:id="ep000689-e102530">
           <stage xml:id="ep000689-e102540">Enter Velasco and Lodovico. </stage>
         </sp>
         <sp who="#ep000689-mureto" xml:id="ep000689-e102550">
@@ -588,7 +574,7 @@
           <l>The forfeit of his life unto the Law. </l>
           <l>I onely can be sorry. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e102800">
+        <sp xml:id="ep000689-e102800">
           <stage xml:id="ep000689-e102810">Enter Petruchi, after the hangman bearing the axe before Alphonso, with Officers. </stage>
         </sp>
         <sp who="#ep000689-petruchi" xml:id="ep000689-e102820">
@@ -705,7 +691,7 @@
           <speaker>Lodov. </speaker>
           <p>A gallant resolution, even in death. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e103550">
+        <sp xml:id="ep000689-e103550">
           <stage xml:id="ep000689-e103560">Enter Queen, Collummello, Almada, Herophil, and attendants. </stage>
         </sp>
         <sp who="#ep000689-collumello" xml:id="ep000689-e103570">
@@ -950,14 +936,15 @@
           <speaker>Buf. </speaker>
           <p>'Zookes, 'tis a scurvy, a pocky, and a naked answer; a plague of all your sentences; whilst I am like to starve with hunger and cold, </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e105130">
+        <sp xml:id="ep000689-e105130">
           <stage xml:id="ep000689-e105140">Enter Messenger. </stage>
         </sp>
         <sp who="#ep000689-messenger" xml:id="ep000689-e105150">
           <speaker>Mes. </speaker>
           <p>By your leave, Gentlemen, the Lord Alphonso hath sent you this purse of gold, commands ye to put your selves into costly sutes, and repair to Court; </p>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e105170">
+        <sp who="#ep000689-pynto #ep000689-bufo #ep000689-mureto"
+                xml:id="ep000689-e105170">
           <speaker>All. </speaker>
           <p>How! To Court! </p>
         </sp>
@@ -984,7 +971,7 @@
           <p>Bawll no more the weather's cold, I must have utensicles, follow your leader, ho. </p>
           <stage xml:id="ep000689-e105300">Exit all. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e105310">
+        <sp xml:id="ep000689-e105310">
           <stage xml:id="ep000689-e105320">Enter Velasco and Lodovico. </stage>
         </sp>
         <sp who="#ep000689-velasco" xml:id="ep000689-e105330">
@@ -1043,10 +1030,11 @@
           <speaker>Lodov. </speaker>
           <p>Why your onely present remedy is, then as soon as you can, to quench those fires in the watry Channels of qualification: soft, no more words, behold a prodegy. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e105610">
+        <sp xml:id="ep000689-e105610">
           <stage xml:id="ep000689-e105620">Florish. Enter Colonnello, Almada bare, Alphonso and the Queen Crowned, Herophil, Petruchi with a Guard, the King and Queen take their States. </stage>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e105630">
+        <sp who="#ep000689-collumello #ep000689-almado #ep000689-petruchi #ep000689-herophil"
+                xml:id="ep000689-e105630">
           <speaker>All. </speaker>
           <p>Long live Alphonso King of Arragon. </p>
         </sp>
@@ -1162,7 +1150,7 @@
       </div>
       <div n="2" type="act" xml:id="ep000689-e106350">
         <head>Act II. </head>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e106360">
+        <sp xml:id="ep000689-e106360">
           <stage xml:id="ep000689-e106370">Enter Shaparoon and Mopas. </stage>
         </sp>
         <sp who="#ep000689-shaparoon" xml:id="ep000689-e106380">
@@ -1218,7 +1206,7 @@
           <speaker>Shap. </speaker>
           <p>All this with a great deal of modesty I must confess. Ud's Pittikins, stand by, aside a little: see where the lady coms; do not appear before you are call'd, in any case: but mark how I will work her like wax. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e106650">
+        <sp xml:id="ep000689-e106650">
           <stage xml:id="ep000689-e106660">Enter Salassa reading a letter. </stage>
         </sp>
         <sp who="#ep000689-salassa" xml:id="ep000689-e106670">
@@ -1293,7 +1281,7 @@
           <speaker>Shap. </speaker>
           <p>Alas good heart, I suffer for him. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e107030">
+        <sp xml:id="ep000689-e107030">
           <stage xml:id="ep000689-e107040">Enter Lodovico. </stage>
         </sp>
         <sp who="#ep000689-lodovico" xml:id="ep000689-e107050">
@@ -1439,10 +1427,10 @@
           <p>All happiness ride ever before you, your disgraces behinde you, and and full pleasure in the midst of ye. </p>
           <stage xml:id="ep000689-e107770">Exeunt. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e107780">
+        <sp xml:id="ep000689-e107780">
           <stage xml:id="ep000689-e107790">Enter Bufo in fresh apparel, ushering: Herophil. </stage>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e107800">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e107800">
           <speaker>Her. </speaker>
           <p>My over kinde, Captain, what would you say? </p>
         </sp>
@@ -1450,7 +1438,7 @@
           <speaker>Buf. </speaker>
           <p>Why, Mistris, I would say, as a man might say forsooth, indeed I would say. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e107840">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e107840">
           <speaker>Her. </speaker>
           <p>What, Captain? </p>
         </sp>
@@ -1458,7 +1446,7 @@
           <speaker>Buf. </speaker>
           <p>Even whatsoever you would have me to say, forsooth. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e107880">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e107880">
           <speaker>Her. </speaker>
           <p>If that be all, pray say nothing. </p>
         </sp>
@@ -1466,7 +1454,7 @@
           <speaker>Buf. </speaker>
           <p>Why look ye, Mistris, all what I say if you mark it well, is just nothing; As for example, To tell you that you are fair, is nothing, for you know it your self; to say you were honest, were an indignity to your beauty, and upon the matter nothing, for honesty in a fair woman is as good as nothing. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e107920">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e107920">
           <speaker>Her. </speaker>
           <p>That is somwhat strange to be proved. </p>
         </sp>
@@ -1474,7 +1462,7 @@
           <speaker>Buf. </speaker>
           <p>To a good wit, dear Mistris, nothing's impossible. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e107960">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e107960">
           <speaker>
             <pb xml:id="ep000689-010-b"/>Her. </speaker>
           <p>Sure the Court and your new clothes have infected you: Would I were a purse of gold, for your sake, Captain, to reward your wit. </p>
@@ -1483,7 +1471,7 @@
           <speaker>Buf. </speaker>
           <p>I would you were, mistris, so you were not counterfeit metal, I should soon try you on the too true touchstone of my affections, indeed forsooth. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108000">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108000">
           <speaker>Her. </speaker>
           <p>Well, witty Captain, for your love I must pass away in debt, but will not fail to think on't. But now I am in hast. </p>
         </sp>
@@ -1491,7 +1479,7 @@
           <speaker>Buf. </speaker>
           <p>If you would but grant me but one poor request, before you go, I should soon dispatch and part. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108040">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108040">
           <speaker>Her. </speaker>
           <p>Name it, Captain. </p>
         </sp>
@@ -1499,7 +1487,7 @@
           <speaker>Buf. </speaker>
           <p>Truly, and as I live, 'tis a very small triffle for your part, all things considered. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108080">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108080">
           <speaker>Her. </speaker>
           <p>But cannot you tell what it is? </p>
         </sp>
@@ -1507,7 +1495,7 @@
           <speaker>Buf. </speaker>
           <p>That were a fine jest indeed, why, I would desire, intreat, and beseech you. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108120">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108120">
           <speaker>Her. </speaker>
           <p>What to do? </p>
         </sp>
@@ -1515,7 +1503,7 @@
           <speaker>Buf. </speaker>
           <p>There you have it, and thank you too. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108160">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108160">
           <speaker>Her. </speaker>
           <p>I understand you not. </p>
         </sp>
@@ -1523,7 +1511,7 @@
           <speaker>Buf. </speaker>
           <p>Why, To do with you, forsooth, to do with you. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108200">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108200">
           <speaker>Her. </speaker>
           <p>To do what? </p>
         </sp>
@@ -1531,7 +1519,7 @@
           <speaker>Buf. </speaker>
           <p>In plain words, I would commit with you, or as the more learned phrase it, if you be pleased to consent, I would ravish you. </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108240">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108240">
           <speaker>Her. </speaker>
           <p>Fy, fy, Captain, so uncivil, you made me blush. </p>
         </sp>
@@ -1539,7 +1527,7 @@
           <speaker>Buf. </speaker>
           <p>Do I say; why, I am glad I have it for you: Souldiers are hot upon service, mistris, and a wise mans bolt is soon shot; as the proverb says: </p>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e108280">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e108280">
           <speaker>Her. </speaker>
           <p>Good Captain, keep up your bolt till I am at leasure to stand fair for your mark. If the Court Stalions prove all so rank, I will vow all to ride henceforth upon an ass; so, Captain, I must leave you. </p>
           <stage xml:id="ep000689-e108300">Exit Herophil. </stage>
@@ -1549,7 +1537,7 @@
           <p>Fare-wel heartily to you forsooth. </p>
           <p>Go thy waies for as true a Mistris as ever fowled clean Napary. This same whorson Court diet, cost, lodging, change of clothes, and ease, have addicted me villanously to the itch of concupiscence. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e108340">
+        <sp xml:id="ep000689-e108340">
           <stage xml:id="ep000689-e108350">Enter Alphonso; Pynto and Muretto complementing on either side of him. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e108360">
@@ -1598,7 +1586,7 @@
           <speaker>Muret. </speaker>
           <p>That is not to be questioned; the best of women are but troubles and vexations, 'tis man that retains all true perfection, and of all men your Majesty. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e108600">
+        <sp xml:id="ep000689-e108600">
           <stage xml:id="ep000689-e108610">Enter Almada and Collummello. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e108620">
@@ -1637,7 +1625,8 @@
           <l>Say you so, Great Sir; </l>
           <l>You speak it but for tryal </l>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e108840">
+        <sp who="#ep000689-pynto #ep000689-mureto #ep000689-bufo #ep000689-almado #ep000689-alphonso"
+                xml:id="ep000689-e108840">
           <speaker>All. </speaker>
           <p>Ha, ha, ha. </p>
         </sp>
@@ -1666,7 +1655,7 @@
           <speaker>Muret. </speaker>
           <p>Like one that hath the whole World for his proper Monarchy, and it becomes you Royally. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e109030">
+        <sp xml:id="ep000689-e109030">
           <stage xml:id="ep000689-e109040">Enter Queen, Petruchi, and Herophil. </stage>
         </sp>
         <sp who="#ep000689-bufo" xml:id="ep000689-e109050">
@@ -1823,7 +1812,7 @@
           <l>'Twas too unkinde a task. But he commanded </l>
           <l>I cannot but obey. Where's Herophil? </l>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e110180">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e110180">
           <speaker>Her. </speaker>
           <p>Here Madam. </p>
         </sp>
@@ -1856,7 +1845,7 @@
           <l>Never gainsaid his, yea; yet sure I fear </l>
           <l>He hath some ground for his displeasure. </l>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e110420">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e110420">
           <speaker>Her. </speaker>
           <l>None, </l>
           <l>Unless because you sav'd him from the block. </l>
@@ -1904,7 +1893,7 @@
           <l>The King will yet repent these rude divisions. </l>
           <stage xml:id="ep000689-e110730">Exeunt. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e110740">
+        <sp xml:id="ep000689-e110740">
           <stage xml:id="ep000689-e110750">Enter Velasco, Lodovico, Mopas. </stage>
         </sp>
         <sp who="#ep000689-lodovico" xml:id="ep000689-e110760">
@@ -1919,7 +1908,7 @@
           <speaker>Lodov. </speaker>
           <p>She did: Are ye answer'd? </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e110820">
+        <sp xml:id="ep000689-e110820">
           <stage xml:id="ep000689-e110830">Enter Salassa, Shaparoon. </stage>
         </sp>
         <sp who="#ep000689-shaparoon" xml:id="ep000689-e110840">
@@ -2203,7 +2192,7 @@
       </div>
       <div n="3" type="act" xml:id="ep000689-e112620">
         <head>Act III. </head>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e112630">
+        <sp xml:id="ep000689-e112630">
           <stage xml:id="ep000689-e112640">Enter Alphonso, Almada, Muretto, Bufo, Pynto, and attendants. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e112650">
@@ -2227,7 +2216,7 @@
           <speaker>Pyn. </speaker>
           <p>The very Jove of benignity, by whose gentle aspect the whole sphere of this Court and Kingdom are (like the lesser orbes) moved round in the harmony of affability. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e112780">
+        <sp xml:id="ep000689-e112780">
           <stage xml:id="ep000689-e112790">Enter one with wine. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e112800">
@@ -2272,7 +2261,7 @@
           <p>I shall attend to wait upon your lordship to the Caraoch. </p>
           <stage xml:id="ep000689-e113050">Exeunt. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e113060">
+        <sp xml:id="ep000689-e113060">
           <stage xml:id="ep000689-e113070">Manet Alphonso. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e113080">
@@ -2285,7 +2274,7 @@
           <l>Shall kill in smiles. I will not strike and frown, </l>
           <l>But laugh and murther. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e113160">
+        <sp xml:id="ep000689-e113160">
           <stage xml:id="ep000689-e113170">Enter Muretto. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e113180">
@@ -2367,7 +2356,7 @@
           <speaker>Alph. </speaker>
           <p>I have it, wee'll confer; let's stand aside. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e113630">
+        <sp xml:id="ep000689-e113630">
           <stage xml:id="ep000689-e113640">Enter Bufo and another Groom with wine, both drunk; Bufo handing Velasco by the shoulders. </stage>
         </sp>
         <sp who="#ep000689-bufo" xml:id="ep000689-e113650">
@@ -2476,7 +2465,7 @@
           <speaker>Muret. </speaker>
           <p>It must be some or other hath bewitched him. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e114240">
+        <sp xml:id="ep000689-e114240">
           <stage xml:id="ep000689-e114250">Enter Pynto. </stage>
         </sp>
         <sp who="#ep000689-pynto" xml:id="ep000689-e114260">
@@ -2499,7 +2488,7 @@
           <speaker>Gro. </speaker>
           <p>Now, Sir, having taken a little breath, have at ye once more, and I have done. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e114360">
+        <sp xml:id="ep000689-e114360">
           <stage xml:id="ep000689-e114370">
             <pb xml:id="ep000689-014-b"/>Enter Mopas and Lodovico. </stage>
         </sp>
@@ -2601,7 +2590,7 @@
           <l>Is't even so, no man now; then I smell how things stand: I'll lay my life, his lady sweet heart hath given him the Gleek, and he in return hath gelded himself, and so both lost his courage and his wits together. </l>
           <stage xml:id="ep000689-e114990">Exit. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e115000">
+        <sp xml:id="ep000689-e115000">
           <stage xml:id="ep000689-e115010">Enter Queen, Almado, Collumello, Petruchi and Herophil. </stage>
         </sp>
         <sp who="#ep000689-queen" xml:id="ep000689-e115020">
@@ -2655,7 +2644,7 @@
           <l>Of cost, that's worthy of his Royal eyes, </l>
           <l>Why Herophil? </l>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e115380">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e115380">
           <speaker>Her. </speaker>
           <p>Here, Madam. </p>
         </sp>
@@ -2683,7 +2672,8 @@
           <l>I talk I know not what. I would 'twere fit </l>
           <l>To ask one queston of ye. </l>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e115580">
+        <sp who="#ep000689-almado #ep000689-collumello #ep000689-petruchi #ep000689-herophil"
+                xml:id="ep000689-e115580">
           <speaker>All. </speaker>
           <p>Madam, any thing. </p>
         </sp>
@@ -2879,7 +2869,7 @@
           <p>Shall I? Why agreed, let me <pb xml:id="ep000689-016-a"/>alone for an instrument, be it a winde or string'd instrument, I'll sound at one end or other I'll warrant ye. </p>
           <stage xml:id="ep000689-e116790">Exeunt. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e116800">
+        <sp xml:id="ep000689-e116800">
           <stage xml:id="ep000689-e116810">Enter Alphonso, Pynto, Bufo. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e116820">
@@ -2906,10 +2896,11 @@
           <l>This Queen with all the seeming forms of State. </l>
           <stage xml:id="ep000689-e116950">Loud Musick. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e116960">
+        <sp xml:id="ep000689-e116960">
           <stage xml:id="ep000689-e116970">Enter Queen supported by Petruchi, Herophil, Collumello, Almada, and Muretto. </stage>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e116980">
+        <sp who="#ep000689-almado #ep000689-collumello #ep000689-petruchi #ep000689-herophil #ep000689-mureto"
+                xml:id="ep000689-e116980">
           <speaker>All. </speaker>
           <p>All joy to Aragons great King. </p>
         </sp>
@@ -2973,7 +2964,7 @@
           <l>True, 'cause it came from me, I take it so, </l>
           <l>And grant ye, know the word. 'Tis won and lost. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e117420">
+        <sp xml:id="ep000689-e117420">
           <stage xml:id="ep000689-e117430">Enter a Guard, Bufo with them seize Petruchi; Pynto the Queen. </stage>
         </sp>
         <sp who="#ep000689-petruchi" xml:id="ep000689-e117440">
@@ -3104,7 +3095,7 @@
           <l>Remember both by oaths and by allegiance </l>
           <l>You are my subjects. </l>
         </sp>
-        <sp who="#ep000689-both" xml:id="ep000689-e118230">
+        <sp who="#ep000689-almado #ep000689-collumello" xml:id="ep000689-e118230">
           <speaker>Both. </speaker>
           <p>Madam, true, we are. </p>
         </sp>
@@ -3119,7 +3110,7 @@
           <l>Traytors to loyalty and me: for surety, </l>
           <l>I crave your oaths a new. </l>
         </sp>
-        <sp who="#ep000689-both" xml:id="ep000689-e118340">
+        <sp who="#ep000689-almado #ep000689-collumello" xml:id="ep000689-e118340">
           <speaker>Both. </speaker>
           <l>Since you enforce us, </l>
           <l>We sware: and heaven protect you. </l>
@@ -3171,7 +3162,7 @@
       <div n="4" type="act" xml:id="ep000689-e118640">
         <pb xml:id="ep000689-017-a"/>
         <head>Act IV. </head>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e118650">
+        <sp xml:id="ep000689-e118650">
           <stage xml:id="ep000689-e118660">Enter Salassa and Shaparoon. </stage>
         </sp>
         <sp who="#ep000689-salassa" xml:id="ep000689-e118670">
@@ -3210,7 +3201,7 @@
           <speaker>Salas. </speaker>
           <p>'Tis a glorious reward— speak low, and observe. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e118850">
+        <sp xml:id="ep000689-e118850">
           <stage xml:id="ep000689-e118860">Enter Mopas reading a Proclamation. </stage>
         </sp>
         <sp who="#ep000689-mopas" xml:id="ep000689-e118870">
@@ -3256,7 +3247,7 @@
           <p>I am at your ladiships beck. </p>
           <stage xml:id="ep000689-e119090">Exeunt. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e119100">
+        <sp xml:id="ep000689-e119100">
           <stage xml:id="ep000689-e119110">Enter Alphonso, and Muretto. </stage>
         </sp>
         <sp who="#ep000689-mureto" xml:id="ep000689-e119120">
@@ -3376,7 +3367,7 @@
           <l>And gaze upon her cheeks, her ravishing cheeks. </l>
           <l>But, oh, to be a Cuckold; 's death, she dyes. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e119840">
+        <sp xml:id="ep000689-e119840">
           <stage xml:id="ep000689-e119850">Enter at one door Petruchi, and the other Muretto and the Queen, they stand at several ends of the Stage. </stage>
         </sp>
         <sp who="#ep000689-mureto" xml:id="ep000689-e119860">
@@ -3574,7 +3565,7 @@
           <l>As you would be more merciful, away, </l>
           <l>Or as you would finde mercy. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e121180">
+        <sp xml:id="ep000689-e121180">
           <stage xml:id="ep000689-e121190">Ex. Queen Petruchi contrary waies. </stage>
         </sp>
         <sp who="#ep000689-mureto" xml:id="ep000689-e121200">
@@ -3593,7 +3584,7 @@
           <p>Fare ye well King, this is admirable, I will be chronicled, all my business ripens to my wishes. And if honest intentions thrive so succesfully; I will henceforth build upon this assurance, that there can hardly be a greater Hell or Damnation, then in being a Villane upon earth. </p>
           <stage xml:id="ep000689-e121290">Exit. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e121300">
+        <sp xml:id="ep000689-e121300">
           <stage xml:id="ep000689-e121310">Enter Lodovico, Salassa, Shaparoon. </stage>
         </sp>
         <sp who="#ep000689-lodovico" xml:id="ep000689-e121320">
@@ -3629,7 +3620,7 @@
           <p>Marry is't. I applaud your consideration. </p>
           <p>'Twas neatly thought on. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e121490">
+        <sp xml:id="ep000689-e121490">
           <stage xml:id="ep000689-e121500">Enter Collumello and Almada. </stage>
         </sp>
         <sp who="#ep000689-collumello" xml:id="ep000689-e121510">
@@ -3642,7 +3633,7 @@
           <l>Good my lords, fear nothing: </l>
           <l>Were it but two hours to't, I should be ready. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e121570">
+        <sp xml:id="ep000689-e121570">
           <stage xml:id="ep000689-e121580">
             <pb xml:id="ep000689-019-a"/>Enter Velasco very sad. </stage>
         </sp>
@@ -3864,7 +3855,7 @@
           <l>Compos'd of Goodnes, what a foole was I? </l>
           <l>It grieves me more to loose him then to die. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e122940">
+        <sp xml:id="ep000689-e122940">
           <stage xml:id="ep000689-e122950">Enter Almada, Columello, Lodovico, Shaproon. </stage>
         </sp>
         <sp who="#ep000689-collumello" xml:id="ep000689-e122960">
@@ -3910,7 +3901,7 @@
           <p>Nay even go thy ways, 'tis an old proverbe that leachery and covetousnes go together, and 'tis a true one too, But I'le shift for one. </p>
           <p>If some proper squire or lustly yeoman have a mind to any thing I have about me, a shall soon know what to trust too for I see the times are very troublesome. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e123220">
+        <sp xml:id="ep000689-e123220">
           <stage xml:id="ep000689-e123230">Enter Pynto. </stage>
         </sp>
         <sp who="#ep000689-pynto" xml:id="ep000689-e123240">
@@ -3973,7 +3964,7 @@
           <speaker>Shap. </speaker>
           <p>At your pleasure sir being under your gard as I am. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e123560">
+        <sp xml:id="ep000689-e123560">
           <stage xml:id="ep000689-e123570">Enter Mopas and Bufo. </stage>
         </sp>
         <sp who="#ep000689-bufo" xml:id="ep000689-e123580">
@@ -4008,7 +3999,7 @@
           <speaker>Mop. </speaker>
           <p>Signior Pynto take her to you, so true a mettall'd blade as ever was turn'd into a dudgion, hearke in your eare. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e123740">
+        <sp xml:id="ep000689-e123740">
           <stage xml:id="ep000689-e123750">Enter Lodovico and Herophill. </stage>
         </sp>
         <sp who="#ep000689-lodovico" xml:id="ep000689-e123760">
@@ -4077,7 +4068,7 @@
       <div n="5" type="act" xml:id="ep000689-e124090">
         <head>Act V. </head>
         <stage xml:id="ep000689-e124100">A Scassold </stage>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e124110">
+        <sp xml:id="ep000689-e124110">
           <stage xml:id="ep000689-e124120">Enter Velasco and Lodovico. </stage>
         </sp>
         <sp who="#ep000689-velasco" xml:id="ep000689-e124130">
@@ -4131,7 +4122,7 @@
           <p>Let me stand back unseen, Good Angells guard her. </p>
           <stage xml:id="ep000689-e124450">Velasco Muffles himselfe. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e124460">
+        <sp xml:id="ep000689-e124460">
           <stage xml:id="ep000689-e124470">Enter executioner before Salassa, her Hayre loose, after her, Almada, Collumello and officers. </stage>
         </sp>
         <sp who="#ep000689-almado" xml:id="ep000689-e124480">
@@ -4348,7 +4339,7 @@
           <l>I strove to save, which being sav'd I hate. </l>
           <stage xml:id="ep000689-e125990">Exeunt all. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e126000">
+        <sp xml:id="ep000689-e126000">
           <stage xml:id="ep000689-e126010">Enter Alphonso armed all save the head, leading the Queen, a Herauld going before, Muretto, Herophil, a Guard. </stage>
         </sp>
         <sp who="#ep000689-alphonso" xml:id="ep000689-e126020">
@@ -4477,7 +4468,7 @@
           <stage xml:id="ep000689-e126870">trumpet sounds. </stage>
           <stage xml:id="ep000689-e126880">Second sound. </stage>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e126890">
+        <sp xml:id="ep000689-e126890">
           <stage xml:id="ep000689-e126900">A Trumpet within Enter herauld sounding, after him Velasco arm'd all save the head, Lodovico and attendants. </stage>
         </sp>
         <sp who="#ep000689-velasco" xml:id="ep000689-e126910">
@@ -4600,7 +4591,7 @@
           <l>You dishonour her, </l>
           <l>To prove it I'le fight both quarrels now. </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e127680">
+        <sp xml:id="ep000689-e127680">
           <stage xml:id="ep000689-e127690">Enter a herauld sounding a trumpett. after him Petruchi arm'd head and all. </stage>
         </sp>
         <sp who="#ep000689-lodovico" xml:id="ep000689-e127700">
@@ -4663,7 +4654,7 @@
           <l>Petruchi! death of manhood, </l>
           <l>I am plainly bought &amp; sold, why wher's Muretto? </l>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e128070">
+        <sp xml:id="ep000689-e128070">
           <stage xml:id="ep000689-e128080">Enter Muretto with a sword drawn. </stage>
         </sp>
         <sp who="#ep000689-mureto" xml:id="ep000689-e128090">
@@ -4771,7 +4762,8 @@
           <l>Your Senators, your bravest men, make suit on my behalf. Why speak ye not, my lords? </l>
           <l>I am I know too vile to be remitted, But she is merciful. </l>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e128670">
+        <sp who="#ep000689-almado #ep000689-collumello #ep000689-mureto #ep000689-herophil #ep000689-petruchi #ep000689-lodovico #ep000689-velasco"
+                xml:id="ep000689-e128670">
           <speaker>All. </speaker>
           <p>Great Soveraign Lady— </p>
         </sp>
@@ -4843,7 +4835,8 @@
           <l>I am in all your debts: henceforth beleeve me, </l>
           <l>I'll strive to be a servant to the State. </l>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e129090">
+        <sp who="#ep000689-almado #ep000689-collumello #ep000689-mureto #ep000689-herophil #ep000689-petruchi #ep000689-lodovico #ep000689-velasco"
+                xml:id="ep000689-e129090">
           <speaker>All. </speaker>
           <p>Long live happy both. </p>
         </sp>
@@ -4869,7 +4862,7 @@
           <l>With all my heart, I think her well bestow'd, </l>
           <l>If she her self consents. </l>
         </sp>
-        <sp who="#ep000689-herald" xml:id="ep000689-e129230">
+        <sp who="#ep000689-herophil" xml:id="ep000689-e129230">
           <speaker>Her. </speaker>
           <l>My duty, Madam, </l>
           <l>Shall ever speak my thankfulness, in this </l>
@@ -4880,7 +4873,8 @@
             <pb xml:id="ep000689-024-a"/>Velas. </speaker>
           <p>Much comfort to you friend. </p>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e129290">
+        <sp who="#ep000689-almado #ep000689-collumello #ep000689-mureto #ep000689-herophil #ep000689-petruchi #ep000689-lodovico"
+                xml:id="ep000689-e129290">
           <speaker>All. </speaker>
           <p>All joy and peace. </p>
         </sp>
@@ -4888,7 +4882,7 @@
           <speaker>Lodov. </speaker>
           <p>My duty to my Soveraigns, to all therest at once, my heartiest heartiest thanks. Now, lady, you are mine; why so, here's short work to begin with. If in the end we make long work, and beget a race of mad-caps, we shall but do as our fathers and mothers did, and they must be cared for. </p>
         </sp>
-        <sp who="#ep000689-STAGE" xml:id="ep000689-e129330">
+        <sp xml:id="ep000689-e129330">
           <stage xml:id="ep000689-e129340">Enter Pynto, Bufo, Mopas with a tire upon his head, and Shaparoon: </stage>
         </sp>
         <sp who="#ep000689-pynto" xml:id="ep000689-e129350">
@@ -4904,7 +4898,7 @@
           <speaker>Pyn. </speaker>
           <p>I to this ugly bawde. </p>
         </sp>
-        <sp who="#ep000689-both" xml:id="ep000689-e129420">
+        <sp who="#ep000689-almado #ep000689-collumello" xml:id="ep000689-e129420">
           <speaker>Both. </speaker>
           <p>Justice. </p>
         </sp>
@@ -5045,7 +5039,8 @@
           <l>All memory of any former strife: </l>
           <l>He hath enough who hath a vertuous wife. </l>
         </sp>
-        <sp who="#ep000689-all" xml:id="ep000689-e130310">
+        <sp who="#ep000689-almado #ep000689-collumello #ep000689-mureto #ep000689-herophil #ep000689-petruchi #ep000689-lodovico #ep000689-velasco #ep000689-salassa"
+                xml:id="ep000689-e130310">
           <speaker>All. </speaker>
           <p>Long joy to both. </p>
         </sp>

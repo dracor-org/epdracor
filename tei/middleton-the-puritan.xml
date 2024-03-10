@@ -90,95 +90,80 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000243-widow">
+          <person xml:id="ep000243-widow" sex="FEMALE">
             <persName>Widow</persName>
           </person>
-          <person xml:id="ep000243-godfrey">
+          <person xml:id="ep000243-godfrey" sex="MALE">
             <persName>Godfrey</persName>
           </person>
-          <person xml:id="ep000243-edmund">
+          <person xml:id="ep000243-edmund" sex="MALE">
             <persName>Edmund</persName>
           </person>
-          <person xml:id="ep000243-frank">
+          <person xml:id="ep000243-frank" sex="FEMALE">
             <persName>Frank</persName>
           </person>
-          <person xml:id="ep000243-moll">
+          <person xml:id="ep000243-moll" sex="FEMALE">
             <persName>Moll</persName>
           </person>
-          <person xml:id="ep000243-pie-boord">
+          <person xml:id="ep000243-pie-boord" sex="MALE">
             <persName>Pie Boord</persName>
           </person>
-          <person xml:id="ep000243-skirmish">
+          <person xml:id="ep000243-skirmish" sex="MALE">
             <persName>Skirmish</persName>
           </person>
-          <person xml:id="ep000243-nicholas">
+          <person xml:id="ep000243-nicholas" sex="MALE">
             <persName>Nicholas</persName>
           </person>
-          <person xml:id="ep000243-simon">
+          <person xml:id="ep000243-simon" sex="MALE">
             <persName>Simon</persName>
           </person>
-          <person xml:id="ep000243-frailty">
+          <person xml:id="ep000243-frailty" sex="MALE">
             <persName>Frailty</persName>
           </person>
-          <person xml:id="ep000243-corporal">
+          <person xml:id="ep000243-corporal" sex="MALE">
             <persName>Corporal</persName>
           </person>
-          <person xml:id="ep000243-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000243-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000243-captain">
+          <person xml:id="ep000243-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000243-multiple">
-            <persName>Multiple</persName>
+          <person xml:id="ep000243-pennydub" sex="MALE">
+            <persName>Pennydub</persName>
           </person>
-          <person xml:id="ep000243-penny-dub">
-            <persName>Penny Dub</persName>
+          <person xml:id="ep000243-muckhill" sex="MALE">
+            <persName>Muckhill</persName>
           </person>
-          <person xml:id="ep000243-muck-hill">
-            <persName>Muck Hill</persName>
-          </person>
-          <person xml:id="ep000243-tipstaff">
+          <person xml:id="ep000243-tipstaff" sex="MALE">
             <persName>Tipstaff</persName>
           </person>
-          <person xml:id="ep000243-officer">
+          <person xml:id="ep000243-officer" sex="MALE">
             <persName>Officer</persName>
           </person>
-          <person xml:id="ep000243-puttock">
+          <person xml:id="ep000243-puttock" sex="MALE">
             <persName>Puttock</persName>
           </person>
-          <person xml:id="ep000243-ravenshaw">
+          <person xml:id="ep000243-ravenshaw" sex="MALE">
             <persName>Ravenshaw</persName>
           </person>
-          <person xml:id="ep000243-dogson">
+          <person xml:id="ep000243-dogson" sex="MALE">
             <persName>Dogson</persName>
           </person>
-          <person xml:id="ep000243-servant">
+          <person xml:id="ep000243-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000243-gentleman">
+          <person xml:id="ep000243-gentleman" sex="MALE">
             <persName>Gentleman</persName>
           </person>
-          <person xml:id="ep000243-prisoners">
-            <persName>Prisoners</persName>
-          </person>
-          <person xml:id="ep000243-keeper">
+          <personGrp xml:id="ep000243-prisoners" sex="MALE">
+            <name>Prisoners</name>
+          </personGrp>
+          <person xml:id="ep000243-keeper" sex="MALE">
             <persName>Keeper</persName>
           </person>
-          <person xml:id="ep000243-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000243-sheriff">
+          <person xml:id="ep000243-sheriff" sex="MALE">
             <persName>Sheriff</persName>
           </person>
-          <person xml:id="ep000243-noble">
+          <person xml:id="ep000243-noble" sex="MALE">
             <persName>Noble</persName>
-          </person>
-          <person xml:id="ep000243-john">
-            <persName>John</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -195,8 +180,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000243"
-                    passive="http://www.wikidata.org/entity/Q6131536"/>
+                   active="https://dracor.org/entity/ep000243"
+                   passive="http://www.wikidata.org/entity/Q6131536"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -509,7 +494,8 @@
             <speaker>Corp. </speaker>
             <p>Why how now? we three? Puritanicall Scrape-shoes, Flesh a good Fridayes? a hand. </p>
           </sp>
-          <sp who="#ep000243-all" xml:id="ep000243-e101720">
+          <sp who="#ep000243-nicholas #ep000243-simon #ep000243-frailty"
+                   xml:id="ep000243-e101720">
             <speaker>All. </speaker>
             <p>Oh. </p>
           </sp>
@@ -521,7 +507,7 @@
             <speaker>Frail. </speaker>
             <p>A man of Marke, quatha, I doe not thinke he can shew a Beggers Noble. </p>
           </sp>
-          <sp who="#ep000243-unassigned" xml:id="ep000243-e101780">
+          <sp who="#ep000243-corporal" xml:id="ep000243-e101780">
             <speaker>Corpo. </speaker>
             <p>A Corporall, a Commander, one of spirit; that is able to blowe you vp all drye with your Bookes at your Girdles. </p>
           </sp>
@@ -711,7 +697,7 @@
             <p>How now more Visitants?— what Corporall Oth? </p>
           </sp>
           <pb xml:id="ep000243-008-a"/>
-          <sp who="#ep000243-multiple" xml:id="ep000243-e102790">
+          <sp who="#ep000243-pie-boord #ep000243-skirmish" xml:id="ep000243-e102790">
             <speaker>Pie. Skir. </speaker>
             <p>Corporal? </p>
           </sp>
@@ -989,7 +975,7 @@
             <l>But George thou talkst of Art and Coniuring, </l>
             <l>How shall that bee? </l>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e104200">
+          <sp who="#ep000243-pie-boord" xml:id="ep000243-e104200">
             <speaker>Peb. </speaker>
             <l>Puh, bee't not in your care, </l>
             <l>Leaue that to me and my directions; </l>
@@ -1109,7 +1095,7 @@
             <l>'Tis happinesse my Mother saw him not: </l>
             <l>O welcome good Sir Iohn. </l>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e104890">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e104890">
             <speaker>Penny-dub. </speaker>
             <p>I thanke you faith,— Nay you must stand mee, till I kisse you: 'tis the fashion euery where I-faith, and I came from Court enow? </p>
           </sp>
@@ -1117,7 +1103,7 @@
             <speaker>Moll. </speaker>
             <p>Nay the Fates forsend that I should anger the fashion? </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e104930">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e104930">
             <speaker>Penny. </speaker>
             <p>Then not forgetting the sweete of new ceremonies, I first fall back, then recouering my selfe; make my honour to your lip thus: and then accost it. </p>
           </sp>
@@ -1191,20 +1177,20 @@
             <speaker>Wid. </speaker>
             <p>Out ignorant slaue. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e105360">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e105360">
             <speaker>Muck </speaker>
             <l>Nay pray be patient Lady, </l>
             <l>We come in way of honorable loue. </l>
           </sp>
-          <sp who="#ep000243-multiple" xml:id="ep000243-e105390">
+          <sp who="#ep000243-tipstaff #ep000243-pennydub" xml:id="ep000243-e105390">
             <speaker>Tipst. Penny. </speaker>
             <p>Wee doe. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e105410">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e105410">
             <speaker>Muck. </speaker>
             <p>To you. </p>
           </sp>
-          <sp who="#ep000243-multiple" xml:id="ep000243-e105430">
+          <sp who="#ep000243-tipstaff #ep000243-pennydub" xml:id="ep000243-e105430">
             <speaker>Tipst. Penny. </speaker>
             <p>And to your Daughters? </p>
           </sp>
@@ -1212,11 +1198,11 @@
             <speaker>Widdow. </speaker>
             <p>O why will you offer mee this Gentlemen? indeed I will not looke vppon you; when the Teares are scarce out of mine Eyes, not yet washt off from my Cheekes, and my deere husbands body scarse so colde as the Coffin, what reason haue you to offer it? I am not like some of your Widdowes that will burie one in the Euening, and bee sure to another ere morning? pray away, pray, take your answeres good <pb xml:id="ep000243-012-a"/>Knights, and you bee sweete Knights, I haue vow'd neuer to marry;— and so haue my daughters too! </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e105470">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e105470">
             <speaker>Penny. </speaker>
             <p>I two of you haue, but the thirds a good wench! </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e105490">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e105490">
             <speaker>Muck. </speaker>
             <p>Lady, a shrewde answere marry; the best is, tis but the first, and hee's a blunt wooer, that will leaue for one sharpe answere. </p>
           </sp>
@@ -1228,11 +1214,11 @@
             <speaker>Wid. </speaker>
             <p>Indeed theyle answere you so, tak't a my word theile giue you the very same answere Verbatim truly la; </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e105550">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e105550">
             <speaker>Penny </speaker>
             <p>Mum: Molls a good wench still, I know what shee'le doo? </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e105570">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e105570">
             <speaker>Muck. </speaker>
             <p>Well, Lady, for this time weele take our leaues, hoping for better comfort. </p>
           </sp>
@@ -1245,7 +1231,7 @@
             <p>Put off all their suites qua tha? I, that's the best wooing of a Widdow indeed, when a man's Nonsuted, that is, when he's a bed with her. </p>
           </sp>
           <stage xml:id="ep000243-e105630">Going out, Muckhill and sir Godfrey. </stage>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e105640">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e105640">
             <speaker>Muck. </speaker>
             <p>Sir Godfrey? here's twenty Angells more worke hard for me; there's life int yet. </p>
             <stage xml:id="ep000243-e105660">Exit Muckhill. </stage>
@@ -1387,7 +1373,7 @@
             <speaker>Wid. </speaker>
             <p>It quakes me too, now I thinke on't— sir, I am much grieu'd, that you a stranger should so deeply wrong my dead husband! </p>
           </sp>
-          <sp who="#ep000243-unassigned" xml:id="ep000243-e106450">
+          <sp xml:id="ep000243-e106450">
             <speaker>Pie. </speaker>
             <p>Oh? </p>
           </sp>
@@ -1435,7 +1421,7 @@
             <speaker>Pie. </speaker>
             <p>Nay keepe in your wonders, till I haue told you the fortunes of you all; which are more fearefull, if not happily preuented— for your part &amp; your daughters, if there be not once this day some bloud-shed before your dore, wheerof the humaine creature dies? two of you the elder shall run mad? </p>
           </sp>
-          <sp who="#ep000243-multiple" xml:id="ep000243-e106700">
+          <sp who="#ep000243-frank #ep000243-widow" xml:id="ep000243-e106700">
             <speaker>Mother and Franck. </speaker>
             <p>Oh. </p>
           </sp>
@@ -2843,7 +2829,7 @@
             <speaker>Sir Godf. </speaker>
             <p>Oh a simple yong man, very simple, come Captaine, and you sir, weele een part with a gallon of wine till to morrow breake-fast. </p>
           </sp>
-          <sp who="#ep000243-multiple" xml:id="ep000243-e114220">
+          <sp who="#ep000243-tipstaff #ep000243-captain" xml:id="ep000243-e114220">
             <speaker>Tip. Cap. </speaker>
             <p>Troth agreed sir. </p>
           </sp>
@@ -2864,7 +2850,7 @@
         <div n="4" type="act" xml:id="ep000243-e114310">
           <head>Actus. 4. </head>
           <stage xml:id="ep000243-e114320">Enter Moll, and Sir Iohn Penny-dub. </stage>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114330">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114330">
             <speaker>Penne. </speaker>
             <p>But I hope you will not serue a Knight so: Gentlewoman will you: to casheere him, and cast him off at your pleasure; what do you thinke I was dubd for nothing, no by my faith Ladies daughter. </p>
           </sp>
@@ -2872,7 +2858,7 @@
             <speaker>Moll. </speaker>
             <p>Pray Sir Iohn Pennydub, let it be deferd awhile, I haue as bigge a heart to marry as you can haue; but as the Fortune-teller tolld me. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114370">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114370">
             <speaker>Penny. </speaker>
             <p>Pax a'th Fortune-teller, would Derecke had beene <pb xml:id="ep000243-024-b"/>his fortune seauen yeare agoe, to crosse my loue thus: did hee know what case I was in, why this is able to make a man drowne himselfe in's Fathers fish-pond. </p>
           </sp>
@@ -2880,7 +2866,7 @@
             <speaker>Moll. </speaker>
             <p>And then hee told mee more-ouer Sir Iohn, that the breach of it, kept my Father in Purgatorie. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114410">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114410">
             <speaker>Penny. </speaker>
             <p>In Purgatorie? why let him purge out his heart there, what haue we to do with that? there's Phisitions enow there to cast his water, is that any matter to vs: how can hee hinder our loue, why let him bee hangd now hee's dead?— Well, haue I rid poste day and night, to bring you merry newes of my fathers death, and now— </p>
           </sp>
@@ -2888,7 +2874,7 @@
             <speaker>Moll. </speaker>
             <p>Thy Fathers death? is the old Farmer dead? </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114450">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114450">
             <speaker>Penny. </speaker>
             <p>As dead as his Barne doore Moll. </p>
           </sp>
@@ -2896,7 +2882,7 @@
             <speaker>Moll, </speaker>
             <p>And you'le keepe your word with mee now, Sir Iohn. that I shall haue my Coach and my Coach-man? </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114490">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114490">
             <speaker>Penny. </speaker>
             <p>I faith. </p>
           </sp>
@@ -2904,7 +2890,7 @@
             <speaker>Moll. </speaker>
             <p>And two white Horses with black Fethers to draw it? </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114530">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114530">
             <speaker>Penny. </speaker>
             <p>Too, </p>
           </sp>
@@ -2912,7 +2898,7 @@
             <speaker>Moll. </speaker>
             <p>A guarded Lackey to run befor't, and pyed liueries to come trashing after't. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114570">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114570">
             <speaker>Penny. </speaker>
             <p>Thou shalt Moll. </p>
           </sp>
@@ -2920,7 +2906,7 @@
             <speaker>Moll. </speaker>
             <p>And to let me haue money in my purse to go whether I will. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e114610">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e114610">
             <speaker>Penny. </speaker>
             <p>All this. </p>
           </sp>
@@ -2959,7 +2945,7 @@
             <p>So faire, and yet so cunning, that's to bee wonderd at Mother. </p>
           </sp>
           <stage xml:id="ep000243-e114810">Enter Sir Oliuer Muck-hill, and Sir Andrew Tip-staffe. </stage>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e114820">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e114820">
             <speaker>Muck. </speaker>
             <p>Blesse you sweete Lady. </p>
           </sp>
@@ -2972,7 +2958,7 @@
             <speaker>Wid. </speaker>
             <p>Coades? what doe you meane Gentlemen? fie, did I not giue you your answeres? </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e114890">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e114890">
             <speaker>Muck. </speaker>
             <p>Sweete Lady? </p>
           </sp>
@@ -2993,7 +2979,7 @@
             <speaker>Wid. </speaker>
             <p>Truly la, sir Oliuer, yare much to blame to come agen, when you know my minde, so well deliuerd— as a Widdow could deliuer a thing. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e115000">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e115000">
             <speaker>Muck. </speaker>
             <p>But I expect a farther comfort Lady. </p>
           </sp>
@@ -3001,7 +2987,7 @@
             <speaker>Wid. </speaker>
             <p>Why la you now, did I not desire you to put off your sute quite &amp; cleane, when you came to me againe, how say you, did I not. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e115040">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e115040">
             <speaker>Muc. </speaker>
             <p>But the sincere loue which my heart beares you, </p>
           </sp>
@@ -3009,7 +2995,7 @@
             <speaker>Wid. </speaker>
             <p>Go to, ile cut you off. &amp; Sir Oliuer to put you in comfort a farre off, my fortune is read me, I must marry againe. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e115080">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e115080">
             <speaker>Muck. </speaker>
             <p>O blest fortune! </p>
           </sp>
@@ -3017,7 +3003,7 @@
             <speaker>Wid. </speaker>
             <p>But not as long as I can choose;— nay Ile hold out, well. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e115120">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e115120">
             <speaker>Muc. </speaker>
             <p>Yet are my hopes now fairer. </p>
           </sp>
@@ -3043,7 +3029,7 @@
             <speaker>Wid. </speaker>
             <p>What dos he meane to coniure here the? how shall I do to <pb xml:id="ep000243-025-b"/>bee rid of these Knights,— please you Gentlemen to walke a while ith Garden, go gather a pinck, or a Iilly-flower. </p>
           </sp>
-          <sp who="#ep000243-both" xml:id="ep000243-e115260">
+          <sp who="#ep000243-muckhill #ep000243-tipstaff" xml:id="ep000243-e115260">
             <speaker>Both. </speaker>
             <p>With all our hearts Lady, and count vs fauourd? </p>
             <stage xml:id="ep000243-e115280">Exit. </stage>
@@ -3222,7 +3208,7 @@
             <speaker>Cap. </speaker>
             <p>Sirrah George, how wast, how wast, did I doo't well ynough. </p>
           </sp>
-          <sp who="#ep000243-puttock" xml:id="ep000243-e116180">
+          <sp who="#ep000243-pie-boord" xml:id="ep000243-e116180">
             <speaker>Pit. </speaker>
             <p>woult beleeue mee Captaine, better then any Coniurer, for here was no harme in this, and yet their horrible expectation satisffied well, you were much beholding to thunder &amp; lightning at this time it gracst you well I can tell you? </p>
           </sp>
@@ -3230,7 +3216,7 @@
             <speaker>Cap. </speaker>
             <p>I must needes say so George? sirrah if wee could ha conuoide hether cleanly a cracker or a fire-wheele t'ad beene admitable. </p>
           </sp>
-          <sp who="#ep000243-puttock" xml:id="ep000243-e116220">
+          <sp who="#ep000243-pie-boord" xml:id="ep000243-e116220">
             <speaker>Pit. </speaker>
             <p>Blurt, blurt their's nothing remaines to put thee to paine now Captaine. </p>
           </sp>
@@ -3705,7 +3691,7 @@
           </sp>
           <stage xml:id="ep000243-e118720">Exeunt omnes. </stage>
           <stage xml:id="ep000243-e118730">Enter Sir Iohn Penidub, and Moll aboue lacing of her clothes. </stage>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e118740">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e118740">
             <speaker>Pen. </speaker>
             <p>Whewh Mistris Mol, Mistris Mol. </p>
           </sp>
@@ -3718,7 +3704,7 @@
             <speaker>Mol. </speaker>
             <p>Who Sir Iohn Penidub O you'r an early cocke ifayth, who would haue thought you to be so rare a stirrer. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e118810">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e118810">
             <speaker>Pen. </speaker>
             <p>Pree the Mol let me come vp. </p>
           </sp>
@@ -3726,7 +3712,7 @@
             <speaker>Mol. </speaker>
             <p>No by my faith Sir Iohn, Ile keepe you downe, for you Knights are very dangerous if once you get aboue. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e118850">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e118850">
             <speaker>Pen. </speaker>
             <p>Ile not stay ifaith. </p>
           </sp>
@@ -3734,7 +3720,7 @@
             <speaker>Mol. </speaker>
             <p>Ifaith you shall staie, for Sir Iohn you must note the nature of the Climates your Northen wench in her owne Countrie may well hold out till shee bee fifteene, <pb xml:id="ep000243-030-a"/>but if she touch the South once, and vp to London, here the Chimes go presently after twelue. </p>
           </sp>
-          <sp who="#ep000243-penny-dub" xml:id="ep000243-e118890">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e118890">
             <speaker>Pen. </speaker>
             <p>O th' art a mad wench Moll, but I pree thee make hast, for the Priest is gone before. </p>
           </sp>
@@ -3744,7 +3730,7 @@
           </sp>
           <stage xml:id="ep000243-e118930">Exeunt. </stage>
           <stage xml:id="ep000243-e118940">Enter Sir Oliuer Muck-hill, Sir Andrew Tip-staffe, and old Skirmish talking. </stage>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e118950">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e118950">
             <speaker>Muck. </speaker>
             <p>O monstrous vn-heard of forgerie. </p>
           </sp>
@@ -3752,7 +3738,7 @@
             <speaker>Tip. </speaker>
             <p>Knight, I neuer heard of such villany in our owne countrie, in my life. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e118990">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e118990">
             <speaker>Muck. </speaker>
             <p>Why 'tis impossible, dare you maintaine your words? </p>
           </sp>
@@ -3760,7 +3746,7 @@
             <speaker>Skir. </speaker>
             <p>Dare wee? een to their wezen pipe;, we know all their plots, they cannot squander with vs, they haue knauishly abusd vs, made onely properties on's to aduance their selues vpon our shoulders, but they shall rue their abuses, this morning they are to bee married. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e119030">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e119030">
             <speaker>Muck. </speaker>
             <p>Tis too true, yet if the Widdow be not too much besotted on slights and forgeries, the reuelation of their villanies will make 'em loathsome, and to that end, be it in priuate to you, I sent late last night to an honourable personage, to whom I am much indebted in kindnesse, as he is to me, and therefore presume vpon the paiment of his tongue, and that hee will lay out good words for me, and to speake truth, for such needfull occasions, I onely preserue him in bond, and some-times he may doe mee more good here in the Cittie by a free word of his mouth, then if hee had paide one halfe in hand, and tooke Doomes-day for t' other. </p>
           </sp>
@@ -3768,7 +3754,7 @@
             <speaker>Tip. </speaker>
             <p>In troth Sir, without soothing bee it spoken, you haue publisht much iudgement in these few words. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e119070">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e119070">
             <speaker>Muck. </speaker>
             <p>For you know, what such a man vtters will be thought effectuall and to waighty purpose, and therefore into his mouth weel put the approoued theame of their forgeries. </p>
           </sp>
@@ -3777,7 +3763,7 @@
             <p>And Ile maintaine it Knight, if sheele be true. </p>
           </sp>
           <stage xml:id="ep000243-e119110">Enter a seruant. </stage>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e119120">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e119120">
             <speaker>Muck. </speaker>
             <p>How now fellow. </p>
           </sp>
@@ -3786,7 +3772,7 @@
             <p>May it please you Sir, my Lord is newly lighted from his Coache. </p>
           </sp>
           <pb xml:id="ep000243-030-b"/>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e119160">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e119160">
             <speaker>Muc. </speaker>
             <l>Is my Lord come already; his honnours early, </l>
             <l>You see he loues me well vp before seauen, </l>
@@ -3928,7 +3914,7 @@
             <speaker>Wid. </speaker>
             <p>Pardon me worthy Sirs, I and my daughter haue wrongd your loues. </p>
           </sp>
-          <sp who="#ep000243-muck-hill" xml:id="ep000243-e119920">
+          <sp who="#ep000243-muckhill" xml:id="ep000243-e119920">
             <speaker>Muck. </speaker>
             <l>Tis easily pardon'd Lady, </l>
             <l>If you vouch safe it now. </l>
@@ -3945,7 +3931,7 @@
             <speaker>Moll. </speaker>
             <p>And I Sir Iohn with soule, heart, lights and all. </p>
           </sp>
-          <sp who="#ep000243-john" xml:id="ep000243-e120010">
+          <sp who="#ep000243-pennydub" xml:id="ep000243-e120010">
             <speaker>Sir Ioh. </speaker>
             <l>They are all mine Moll. </l>
           </sp>

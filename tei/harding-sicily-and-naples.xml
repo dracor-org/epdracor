@@ -90,85 +90,73 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000049-valenzo">
+          <person xml:id="ep000049-valenzo" sex="MALE">
             <persName>Valenzo</persName>
           </person>
-          <person xml:id="ep000049-galeotto">
+          <person xml:id="ep000049-galeotto" sex="MALE">
             <persName>Galeotto</persName>
           </person>
-          <person xml:id="ep000049-contareno">
+          <person xml:id="ep000049-contareno" sex="MALE">
             <persName>Contareno</persName>
           </person>
-          <person xml:id="ep000049-piero">
+          <person xml:id="ep000049-piero" sex="MALE">
             <persName>Piero</persName>
           </person>
-          <person xml:id="ep000049-zisco">
+          <person xml:id="ep000049-zisco" sex="MALE">
             <persName>Zisco</persName>
           </person>
-          <person xml:id="ep000049-fungoso">
+          <person xml:id="ep000049-fungoso" sex="MALE">
             <persName>Fungoso</persName>
           </person>
-          <person xml:id="ep000049-grutti">
+          <person xml:id="ep000049-grutti" sex="MALE">
             <persName>Grutti</persName>
           </person>
-          <person xml:id="ep000049-cassio">
+          <person xml:id="ep000049-cassio" sex="MALE">
             <persName>Cassio</persName>
           </person>
-          <person xml:id="ep000049-servant">
+          <person xml:id="ep000049-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000049-ursini">
+          <person xml:id="ep000049-ursini" sex="MALE">
             <persName>Ursini</persName>
           </person>
-          <person xml:id="ep000049-alberto">
+          <person xml:id="ep000049-alberto" sex="MALE">
             <persName>Alberto</persName>
           </person>
-          <person xml:id="ep000049-bentivoglio">
+          <person xml:id="ep000049-bentivoglio" sex="MALE">
             <persName>Bentivoglio</persName>
           </person>
-          <person xml:id="ep000049-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000049-ursino">
-            <persName>Ursino</persName>
-          </person>
-          <person xml:id="ep000049-alphonso">
+          <person xml:id="ep000049-alphonso" sex="MALE">
             <persName>Alphonso</persName>
           </person>
-          <person xml:id="ep000049-ferrando">
+          <person xml:id="ep000049-ferrando" sex="MALE">
             <persName>Ferrando</persName>
           </person>
-          <person xml:id="ep000049-violetta">
+          <person xml:id="ep000049-violetta" sex="FEMALE">
             <persName>Violetta</persName>
           </person>
-          <person xml:id="ep000049-calantha">
+          <person xml:id="ep000049-calantha" sex="FEMALE">
             <persName>Calantha</persName>
           </person>
-          <person xml:id="ep000049-sylvio">
+          <person xml:id="ep000049-sylvio" sex="MALE">
             <persName>Sylvio</persName>
           </person>
-          <person xml:id="ep000049-florinda">
+          <person xml:id="ep000049-florinda" sex="FEMALE">
             <persName>Florinda</persName>
           </person>
-          <person xml:id="ep000049-mercury">
+          <person xml:id="ep000049-mercury" sex="MALE">
             <persName>Mercury</persName>
           </person>
-          <person xml:id="ep000049-charintha">
+          <person xml:id="ep000049-charintha" sex="FEMALE">
             <persName>Charintha</persName>
           </person>
-          <person xml:id="ep000049-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000049-gonzales">
+          <personGrp xml:id="ep000049-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000049-gonzales" sex="MALE">
             <persName>Gonzales</persName>
           </person>
-          <person xml:id="ep000049-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000049-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000049-felicia">
+          <person xml:id="ep000049-felicia" sex="FEMALE">
             <persName>Felicia</persName>
           </person>
         </listPerson>
@@ -1600,7 +1588,7 @@
               <speaker>Bent. </speaker>
               <p>I forgive you, and pray Gentlemen use mee for your Physitian when ever the state of your bodies requires it. I'le learne secrecie of you. </p>
             </sp>
-            <sp who="#ep000049-both" xml:id="ep000049-e109960">
+            <sp who="#ep000049-grutti #ep000049-cassio" xml:id="ep000049-e109960">
               <speaker>Both. </speaker>
               <p>Agreed. </p>
             </sp>
@@ -1617,7 +1605,7 @@
           </div>
           <div n="6" type="scene" xml:id="ep000049-e110040">
             <head>ACT. I. SCEN. VI. </head>
-            <sp who="#ep000049-ursino" xml:id="ep000049-e110050">
+            <sp who="#ep000049-ursini" xml:id="ep000049-e110050">
               <speaker>Ursini. </speaker>
               <l>'Tis hee— I am confirm'd: Frederico, Albert's </l>
               <l>Sonne— I'le let him live conceal'd, he's a sure </l>
@@ -5292,7 +5280,7 @@
               <l>All the better; she's skilfull at her weapon, </l>
               <l>We'le but exchange a thrust in sport. </l>
             </sp>
-            <sp who="#ep000049-unassigned" xml:id="ep000049-e133780">
+            <sp who="#ep000049-galeotto #ep000049-gonzales" xml:id="ep000049-e133780">
               <speaker>Gal. &amp; Gon. </speaker>
               <p>Ha! what meanes this flight? </p>
             </sp>
@@ -5320,7 +5308,8 @@
               <speaker>Cal. </speaker>
               <p>No, I'me your Prince's murthresse. </p>
             </sp>
-            <sp who="#ep000049-omnes" xml:id="ep000049-e133940">
+            <sp who="#ep000049-galeotto #ep000049-valenzo #ep000049-contareno #ep000049-gonzales"
+                      xml:id="ep000049-e133940">
               <speaker>Omnes. </speaker>
               <p>How? </p>
             </sp>
@@ -6085,7 +6074,8 @@
               <speaker>Val. </speaker>
               <p>Yes, and Felicia too. </p>
             </sp>
-            <sp who="#ep000049-omnes" xml:id="ep000049-e138770">
+            <sp who="#ep000049-galeotto #ep000049-valenzo #ep000049-contareno #ep000049-gonzales"
+                      xml:id="ep000049-e138770">
               <speaker>Omnes. </speaker>
               <p>All slaine; by what dire hand? </p>
             </sp>

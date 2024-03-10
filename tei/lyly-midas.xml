@@ -83,96 +83,96 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000141-bacchus">
+          <person xml:id="ep000141-nymph-3" sex="FEMALE">
+            <persName>Nymph 3</persName>
+          </person>
+          <person xml:id="ep000141-nymph-2" sex="FEMALE">
+            <persName>Nymph 2</persName>
+          </person>
+          <person xml:id="ep000141-nymph-1" sex="FEMALE">
+            <persName>Nymph 1</persName>
+          </person>
+          <person xml:id="ep000141-bacchus" sex="MALE">
             <persName>Bacchus</persName>
           </person>
-          <person xml:id="ep000141-midas">
+          <person xml:id="ep000141-midas" sex="MALE">
             <persName>Midas</persName>
           </person>
-          <person xml:id="ep000141-eristus">
+          <person xml:id="ep000141-eristus" sex="MALE">
             <persName>Eristus</persName>
           </person>
-          <person xml:id="ep000141-martius">
+          <person xml:id="ep000141-martius" sex="MALE">
             <persName>Martius</persName>
           </person>
-          <person xml:id="ep000141-melancholic">
-            <persName>Melancholic</persName>
-          </person>
-          <person xml:id="ep000141-licio">
+          <person xml:id="ep000141-licio" sex="MALE">
             <persName>Licio</persName>
           </person>
-          <person xml:id="ep000141-petulus">
+          <person xml:id="ep000141-petulus" sex="MALE">
             <persName>Petulus</persName>
           </person>
-          <person xml:id="ep000141-pipenetta">
+          <person xml:id="ep000141-pipenetta" sex="FEMALE">
             <persName>Pipenetta</persName>
           </person>
-          <person xml:id="ep000141-celia">
+          <person xml:id="ep000141-celia" sex="FEMALE">
             <persName>Celia</persName>
           </person>
-          <person xml:id="ep000141-sophronia">
+          <person xml:id="ep000141-sophronia" sex="FEMALE">
             <persName>Sophronia</persName>
           </person>
-          <person xml:id="ep000141-mellacrites">
+          <person xml:id="ep000141-mellacrites" sex="MALE">
             <persName>Mellacrites</persName>
           </person>
-          <person xml:id="ep000141-oracle">
+          <person xml:id="ep000141-oracle" sex="UNKNOWN">
             <persName>Oracle</persName>
           </person>
-          <person xml:id="ep000141-dello">
+          <person xml:id="ep000141-dello" sex="MALE">
             <persName>Dello</persName>
           </person>
-          <person xml:id="ep000141-motto">
+          <person xml:id="ep000141-motto" sex="MALE">
             <persName>Motto</persName>
           </person>
-          <person xml:id="ep000141-suavia">
+          <person xml:id="ep000141-suavia" sex="FEMALE">
             <persName>Suavia</persName>
           </person>
-          <person xml:id="ep000141-amerula">
+          <person xml:id="ep000141-amerula" sex="FEMALE">
             <persName>Amerula</persName>
           </person>
-          <person xml:id="ep000141-camilla">
+          <person xml:id="ep000141-camilla" sex="FEMALE">
             <persName>Camilla</persName>
           </person>
-          <person xml:id="ep000141-apollo">
+          <person xml:id="ep000141-apollo" sex="MALE">
             <persName>Apollo</persName>
           </person>
-          <person xml:id="ep000141-pan">
+          <person xml:id="ep000141-pan" sex="MALE">
             <persName>Pan</persName>
           </person>
-          <person xml:id="ep000141-erato">
+          <person xml:id="ep000141-erato" sex="FEMALE">
             <persName>Erato</persName>
           </person>
-          <person xml:id="ep000141-thia">
+          <person xml:id="ep000141-thia" sex="FEMALE">
             <persName>Thia</persName>
           </person>
-          <person xml:id="ep000141-yyyy">
-            <persName>Yyyy</persName>
-          </person>
-          <person xml:id="ep000141-menalcas">
+          <person xml:id="ep000141-menalcas" sex="MALE">
             <persName>Menalcas</persName>
           </person>
-          <person xml:id="ep000141-corin">
+          <person xml:id="ep000141-corin" sex="MALE">
             <persName>Corin</persName>
           </person>
-          <person xml:id="ep000141-driapon">
+          <person xml:id="ep000141-driapon" sex="MALE">
             <persName>Driapon</persName>
           </person>
-          <person xml:id="ep000141-amintas">
+          <person xml:id="ep000141-amintas" sex="MALE">
             <persName>Amintas</persName>
           </person>
-          <person xml:id="ep000141-huntsman">
+          <person xml:id="ep000141-huntsman" sex="MALE">
             <persName>Huntsman</persName>
           </person>
-          <person xml:id="ep000141-minutius">
+          <person xml:id="ep000141-minutius" sex="MALE">
             <persName>Minutius</persName>
           </person>
-          <person xml:id="ep000141-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000141-reeds">
-            <persName>Reeds</persName>
-          </person>
+          <personGrp xml:id="ep000141-reeds" sex="MALE">
+            <name>Reeds</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -188,8 +188,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000141"
-                    passive="http://www.wikidata.org/entity/Q6841103"/>
+                   active="https://dracor.org/entity/ep000141"
+                   passive="http://www.wikidata.org/entity/Q6841103"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -245,7 +245,7 @@
             <speaker>Myd. </speaker>
             <p>What say you Mellacrites? </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e100300">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e100300">
             <speaker>Mel. </speaker>
             <p>Nothing, but that these two haue said nothing. I would wish that eueriething I touched might turne to gold: this is the sinewes of warre, and the sweetnesse of peace. Is it not gold that maketh the chastest to yeeld to lust, the honestest to lewdnes, the wisest to follie, the faithfullest to deceit, and the most holy in heart, to be most hollow of hart? In this word Gold are all the powers of the gods, the desires of men, the woonders of the worlde, the miracles of nature, the losenes of fortune and triumphs of time. By gold may you shake the courts of other Princes, and haue your own setled, one spade of gold vndermines faster then an hundred mattocks of steele. Would one be thought religious &amp; deuout? Quantum quisque sua nummorum seruat in arca, tantum habet &amp; fidei: Religions ballance are golden bags. Desire you vertue? querenda pecunia primum est, virtus post nummos: the first staire of vertue is money. Doeth anie thirst after gentrie, and wish to be esteemed beautiful? <pb xml:id="ep000141-004-b"/>&amp; genus &amp; formam regina pecunia donat: king Coin hath a mint to stamp gentlemen, and art to make amiablenes. I denie not but loue is sweet, and the marrowe of a mans minde, that to conquere kings is the quintessence of the thoughts of kings: why ţhen follow both, Aurea sunt vera nunc saecula, plurimus auro venit honos, auro conciliatur amor: it is a world for gold, honor and loue are both taken vp on interest. Doth Midas determine to tempt the mindes of true Subiectes? to drawe them from obedience to trecherie, from their allegiance and othes to treason and periurie? quid non mortalia pectora cogit aurisacra fames? what holes doth not gold bore in mens hearts? Such vertue is there in golde, that being bred in the barrennest ground, and troden vnder foote, it mounteth to sit on Princes heads. Wish gold Midas, or wish not to be Midas. In the councel of the gods, was not Anubis with his long nose of gold, preferred before Neptunes, whose stature was but brasse? And Aesculapius more honored for his golden beard, then Apollo for his sweet harmonie? </p>
           </sp>
@@ -257,7 +257,7 @@
             <speaker>Mar. </speaker>
             <p>To possesse mountains of gold, and a mistresse more precious then gold, and not to commaunde the world, is to make Mydas new prentise to a mint, and Iorneiman to a woman </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e100360">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e100360">
             <speaker>Mel. </speaker>
             <p>To enioy a faire Ladie in loue, and wante faire gold to geue: to haue thousands of people to fight, and no peny to paye, wil make ones mistresse wilde, and his soldiers tame. Iupiter was a god, but he knew gold was a greater: and flewe into those grates with his golden winges, where he coulde not enter with his Swannes wings. What staide Atlantas course with Hippomanes? <pb xml:id="ep000141-005-a"/>an apple of gold; what made the three goddesses striue? an apple of gold. If therfore thou make not thy mistres a goldfinch, thou mayst chance to find her a wagtaile: beleeue me, Res est ingeniosa dare. Besides, how many gates of cities this golden key hath opened, we may remember of late, and ought to feare hereafter. That iron world is worne out, the golden is now come, Sub Ioue nunc mundus iussa sequare Iouis. </p>
           </sp>
@@ -265,7 +265,7 @@
             <speaker>Erist. </speaker>
             <p>Gold is but the guts of the earth. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e100400">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e100400">
             <speaker>Mel. </speaker>
             <p>I had rather haue the earthes guttes, then the Moones braines. What is it that gold cannot command, or hath not conquered? Iustice her selfe, that sitteth wimpled about the eyes, doth it not because shee will take no gold, but that she would not be seene blushing when she takes it: the ballance she holdeth are not to weie the right of the cause, but the weight of the bribe: she wil put vp her naked sword if thou offer her a golden scabberd. </p>
           </sp>
@@ -281,7 +281,7 @@
             <speaker>Myd. </speaker>
             <p>Fortunate Mydas. It is gold Mellacrites, gold, it is gold. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e100480">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e100480">
             <speaker>Mel. </speaker>
             <p>This stick. </p>
           </sp>
@@ -297,7 +297,7 @@
             <speaker>Myd. </speaker>
             <p>Come my Lords, I wil with golde paue my court, and deck with gold my turrets, these petty ilands neer to Phrygia shal totter, and other kingdoms be turned topsey turuie: I wil commaund both the affections of men, and the fortunes. Chastitie wil growe cheape where gold is not thought deere. Celia, chast Celia shall yeeld. You my Lords shall haue my handes in your houses, turning your brasen gates to fine gold. Thus shal Mydas be monarch of the world, the darer of fortune, the commander of loue. Come let vs in. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e100560">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e100560">
             <speaker>Mel. </speaker>
             <p>We follow, desiring that our thoughtes may be touched with thy finger, that they also may become gold. </p>
           </sp>
@@ -702,7 +702,7 @@
             <speaker>Sophro. </speaker>
             <p>Mellacrites, I cannot tell whether I should more mislike thy councell, or Mydas consent, but the couetous humor of you both I contemne and wonder at, being vnfit for a king, whose honor should consiste in liberalitie, not greedines; and vnworthy the calling <pb xml:id="ep000141-009-a"/>of Mellacrites, whose fame should rise by the Souldiers god, Mars, not by the merchants god, Gold. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e102590">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e102590">
             <speaker>Mel. </speaker>
             <p>Madam, things past cannot be recalled, but repented; and therefore are rather to be pittied than punished. It now behoueth vs how to redresse the miserable estate of our king, not to dispute of the occasion. Your highnes sees, and without griefe you cannot see, that his meat turneth to massie gold in his mouth, and his wine slideth downe his throte like liquide golde: if he touch his roabes they are turned to gold, and what is not that toucheth him, but becommeth golde? </p>
           </sp>
@@ -730,7 +730,7 @@
             <speaker>Soph. </speaker>
             <p>Eristus, thy tongue doth itch to talke of loue, and my eares tingle to heare it. I charge you all, if you owe any duetie to your king, to goe presently vnto the temple of Bacchus, offer praise-giftes, and sacrifice, that Mydas may be released of his wish, or his life: this I entreate you, this Mydas commaunds you. Iarre not with your selues, agree in one for your king, if euer you took Mydas for your lawful king. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e102730">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e102730">
             <speaker>Mel. </speaker>
             <p>Madam we will goe, and omit nothing that <pb xml:id="ep000141-010-b"/>duety may performe, or paynes. </p>
           </sp>
@@ -923,7 +923,7 @@
             <speaker>Mar. </speaker>
             <p>I vnderstand no Oracles, shal the water turne euery thing to gold, what then shal become of the fish: shal he be free from gold? what then shal become of vs, of his crowne, of our Countrie? I like not these riddles. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e103700">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e103700">
             <speaker>Mel. </speaker>
             <p>Thou Martius art so warlike, that thou wouldest cut of the wish with a sworde, not cure it with a salue: but the Gods that can geue the desires of the heart, can as easilie withdraw the torment. Suppose Vulcan should so temper thy sword, that were thy heart neuer so valeant, thine arme neuer so strong, yet thy blade shoulde neuer draw bloud, wouldest not thou wish to haue a weaker hand, and a sharper edge? </p>
           </sp>
@@ -931,7 +931,7 @@
             <speaker>Mar. </speaker>
             <p>Yes. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e103740">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e103740">
             <speaker>Mel. </speaker>
             <p>If Mars should answere thee thus, go bath thy sword in water, and wash thy hands in milke, and thy sword shal cleaue adamant, and thy heart answere the sharpnes of thy sword, wouldst not thou trie the conclusion? </p>
           </sp>
@@ -939,7 +939,7 @@
             <speaker>Mar. </speaker>
             <p>What els? </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e103780">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e103780">
             <speaker>Mel. </speaker>
             <p>Then let Mydas beleeue til he haue tried, and thinke that the Gods rule as wel by geuing remedies, as graunting wishes. But Eristus is mum. </p>
           </sp>
@@ -960,7 +960,7 @@
             <speaker>Erist. </speaker>
             <p>And if I finde a cudgell Ile make your shoulders ake. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e103880">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e103880">
             <speaker>Mel. </speaker>
             <p>And you Licio, wait on your selfe. </p>
           </sp>
@@ -968,7 +968,7 @@
             <speaker>Li. </speaker>
             <p>I cannot chuse sir, I am alwaies so neer my selfe. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e103920">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e103920">
             <speaker>Mel. </speaker>
             <p>Ile be as neere you as your skin presently. </p>
           </sp>
@@ -1383,7 +1383,7 @@
             <speaker>Soph. </speaker>
             <p>What say you Caelia? </p>
           </sp>
-          <sp who="#ep000141-camilla" xml:id="ep000141-e106010">
+          <sp who="#ep000141-celia" xml:id="ep000141-e106010">
             <speaker>Cae </speaker>
             <p>Sing. </p>
           </sp>
@@ -1608,7 +1608,7 @@
             <speaker>Pan. </speaker>
             <p>I cannot vndoo what Apollo hath done, nor giue thee anie amends, vnlesse to those eares thou wilt haue added these hornes. </p>
           </sp>
-          <sp who="#ep000141-yyyy" xml:id="ep000141-e107140">
+          <sp who="#ep000141-nymph-1" xml:id="ep000141-e107140">
             <speaker>1. Nymph. </speaker>
             <p>It were verie well, that it might bee hard to iudge whether he were more Ox or Asse. </p>
           </sp>
@@ -1621,7 +1621,7 @@
             <speaker>Pan. </speaker>
             <p>Mydas farewell. </p>
           </sp>
-          <sp who="#ep000141-yyyy" xml:id="ep000141-e107200">
+          <sp who="#ep000141-nymph-2" xml:id="ep000141-e107200">
             <speaker>2. Nymph. </speaker>
             <p>I warrant they bee daintie eares, nothing can please them but Pans pipe. </p>
           </sp>
@@ -1629,11 +1629,11 @@
             <speaker>Erato. </speaker>
             <p>He hath the aduantage of all eares, except the mouse; for els theres none so sharpe of hearing, as the Asse. Farewell Mydas. </p>
           </sp>
-          <sp who="#ep000141-yyyy" xml:id="ep000141-e107240">
+          <sp who="#ep000141-nymph-2" xml:id="ep000141-e107240">
             <speaker>2. Nymph. </speaker>
             <p>Mydas farewell. </p>
           </sp>
-          <sp who="#ep000141-yyyy" xml:id="ep000141-e107260">
+          <sp who="#ep000141-nymph-3" xml:id="ep000141-e107260">
             <speaker>3. Nymph. </speaker>
             <p>Farewell Mydas. </p>
           </sp>
@@ -1869,7 +1869,7 @@
             <speaker>Hunts. </speaker>
             <p>Spare your windes in this, or Ile winde your neckes in a cord: but soft I heard my masters blaste. </p>
           </sp>
-          <sp who="#ep000141-unassigned" xml:id="ep000141-e108450">
+          <sp who="#ep000141-minutius" xml:id="ep000141-e108450">
             <speaker>Myn. </speaker>
             <p>Some haue felt it. </p>
           </sp>
@@ -1881,7 +1881,7 @@
             <speaker>Ly. </speaker>
             <p>Then let not vs tarrie, for now shal we shaue the Barbars house. The world will grow full of wyles seeing Mydas hath lost his golden wish. </p>
           </sp>
-          <sp who="#ep000141-unassigned" xml:id="ep000141-e108510">
+          <sp who="#ep000141-minutius" xml:id="ep000141-e108510">
             <speaker>Myn. </speaker>
             <p>I care not, my head shall dig deuises, and my tongue stampe them; so as my mouth shall be a mynt, and my braynes a myne. </p>
           </sp>
@@ -1901,7 +1901,7 @@
             <speaker>Erist. </speaker>
             <p>I Maruell what Mydas meaneth to bee so melancholy since his hunting. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e108610">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e108610">
             <speaker>Mel. </speaker>
             <p>It is a good word in Mydas, otherwise I should tearme it in another blockishnes. I cannot tell whether it bee a sowernesse commonly incident to age, or a seuerenesse perticular to the Kings of Phrygia, or a suspition cleauing to great Estates; but mee thinkes he seemeth so iealous of vs al, and becomes so ouerthwart to all others, that either I must coniecture his wits are not his owne, or his meaning verie hard to some. </p>
           </sp>
@@ -1913,7 +1913,7 @@
             <speaker>Erist. </speaker>
             <p>Martius, we will all ioyne: and though I haue been (as in Phrygia they tearme) a braue Courtier, that is, (as they expound it) a fine Louer; yet will I set both aside, Loue and Courting, and followe Martius: for neuer shall it bee sayd, Bella gerant alij, semper Eristus amet. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e108670">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e108670">
             <speaker>Mel. </speaker>
             <p>And I (Martius) that honored gold for a god, and accounted all other gods but lead, wil follow Martius, and say; Vilius argentum est aurum, virtutibus aurum. </p>
           </sp>
@@ -1959,7 +1959,7 @@
             <speaker>Martius. </speaker>
             <p>It may bee that his wishing for golde, being but drosse of the world, is by all the Gods accounted foolish, and so discouered out of the earth: for, a King to thirst for golde in steede of honour, to preferre heapes of worldly coyne before triumphes in warlike Conquests, was in my minde no Princely minde. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e108900">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e108900">
             <speaker>Mel. </speaker>
             <p>Let vs not debate the cause, but seeke to preuent the snares; for in my minde it foretelleth that which woundeth my minde. Let vs in. </p>
           </sp>
@@ -1990,7 +1990,7 @@
             <speaker>Myd. </speaker>
             <p>Mydas of Phrygia hath asses eares? So he hath, vnhappie Mydas. If these reedes sing my shame so lowde, wil men whisper it softly? No, all the world alreadie rings of it and as impossible it is to staye the rumor, as to catch the wind in a nette that bloweth in the aier; or to stop the wind of al mens mouths that breathe out aier. I will to Apollo, whose Oracle must be my doome, and I fear me, my dishonor, because my doom was his, if kings may disgrace gods. and gods they disgrace, when they forget their dueties. </p>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e109060">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e109060">
             <speaker>Mel. </speaker>
             <p>What saith Mydas? </p>
           </sp>
@@ -2370,7 +2370,7 @@
             <l>Vnlesse he shrinke his stretching hand from Lesbos, </l>
             <l>His eares in length, at length shal reach to Delphos. </l>
           </sp>
-          <sp who="#ep000141-melancholic" xml:id="ep000141-e111000">
+          <sp who="#ep000141-mellacrites" xml:id="ep000141-e111000">
             <speaker>Mel. </speaker>
             <p>It were good to expound these oracles, that the learned men in Phrygia were assembled, otherwise the remedie wil be as impossible to be had, as the cause to be sifted. </p>
           </sp>
