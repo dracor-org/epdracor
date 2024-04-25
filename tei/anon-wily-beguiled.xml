@@ -82,74 +82,59 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000312-player">
+          <person xml:id="ep000312-player" sex="MALE">
             <persName>Player</persName>
           </person>
-          <person xml:id="ep000312-prologue">
+          <person xml:id="ep000312-prologue" sex="MALE">
             <persName>Prologue</persName>
           </person>
-          <person xml:id="ep000312-juggler">
+          <person xml:id="ep000312-juggler" sex="MALE">
             <persName>Juggler</persName>
           </person>
-          <person xml:id="ep000312-gripe">
-            <persName>Gripe</persName>
-          </person>
-          <person xml:id="ep000312-churms">
+          <person xml:id="ep000312-churms" sex="MALE">
             <persName>Churms</persName>
           </person>
-          <person xml:id="ep000312-ploddall">
+          <person xml:id="ep000312-gripe" sex="MALE">
+            <persName>Gripe</persName>
+          </person>
+          <person xml:id="ep000312-ploddall" sex="MALE">
             <persName>Ploddall</persName>
           </person>
-          <person xml:id="ep000312-oldman">
+          <person xml:id="ep000312-oldman" sex="MALE">
             <persName>Oldman</persName>
           </person>
-          <person xml:id="ep000312-cricket">
+          <person xml:id="ep000312-cricket" sex="MALE">
             <persName>Cricket</persName>
           </person>
-          <person xml:id="ep000312-peter">
+          <person xml:id="ep000312-peter" sex="MALE">
             <persName>Peter</persName>
           </person>
-          <person xml:id="ep000312-lelia">
+          <person xml:id="ep000312-lelia" sex="FEMALE">
             <persName>Lelia</persName>
           </person>
-          <person xml:id="ep000312-nurse">
+          <person xml:id="ep000312-nurse" sex="FEMALE">
             <persName>Nurse</persName>
           </person>
-          <person xml:id="ep000312-sophos">
+          <person xml:id="ep000312-sophos" sex="MALE">
             <persName>Sophos</persName>
           </person>
-          <person xml:id="ep000312-granam">
-            <persName>Granam</persName>
-          </person>
-          <person xml:id="ep000312-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000312-robin_goodfellow">
+          <person xml:id="ep000312-robin-goodfellow" sex="MALE">
             <persName>Robin Goodfellow</persName>
           </person>
-          <person xml:id="ep000312-robin">
-            <persName>Robin</persName>
-          </person>
-          <person xml:id="ep000312-mother_midnight">
+          <person xml:id="ep000312-mother-midnight" sex="FEMALE">
             <persName>Mother Midnight</persName>
           </person>
-          <person xml:id="ep000312-peg">
-            <persName>Peg</persName>
+          <person xml:id="ep000312-peg" sex="FEMALE">
+            <persName>Pegge</persName>
           </person>
-          <person xml:id="ep000312-fortunatus">
+          <person xml:id="ep000312-fortunatus" sex="MALE">
             <persName>Fortunatus</persName>
           </person>
-          <person xml:id="ep000312-sylvanus">
+          <person xml:id="ep000312-sylvanus" sex="MALE">
             <persName>Sylvanus</persName>
           </person>
-          <person xml:id="ep000312-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000312-clerk">
+          <person xml:id="ep000312-clerk" sex="MALE">
             <persName>Clerk</persName>
-          </person>
-          <person xml:id="ep000312-all">
-            <persName>All</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -212,7 +197,7 @@
           <speaker>Prol. </speaker>
           <p>What, Spectrum once again? Why noble Cerberus, nothing but patch-pannell stuffe, olde gally-mawfreies and cotten-candle eloquence? out you bawling bandogge foxfurd slaue: you dried stockefish you, out of my sight. </p>
         </sp>
-        <sp who="#ep000312-prologue" xml:id="ep000312-e100350">
+        <sp xml:id="ep000312-e100350">
           <stage xml:id="ep000312-e100360">Exit the Player. </stage>
           <p>Well tis no matter: Ile set mee downe and see't, and for fault of a better, Ile supply the plate of a scuruy Prologue. </p>
           <pb xml:id="ep000312-003-a"/>
@@ -283,7 +268,7 @@
         <pb n="5" xml:id="ep000312-004-b"/>
         <head>WILY BEGVILDE. </head>
         <stage xml:id="ep000312-e100830">Enter Gripe, solus. </stage>
-        <sp who="#ep000312-gripe" xml:id="ep000312-e100840">
+        <sp xml:id="ep000312-e100840">
           <p>A Heauy purse makes a light heart: O the consideration of this pouch, this pouch! </p>
           <p>Why hee that has money, has hearts ease and the world in a string. </p>
           <p>O this red chink, and siluer coine, it is the consolation of the World. </p>
@@ -754,13 +739,13 @@
           <speaker>Wil. </speaker>
           <p>Nay here, you drinke afore you bargaine. </p>
         </sp>
-        <sp who="#ep000312-granam" xml:id="ep000312-e103950">
+        <sp who="#ep000312-gripe" xml:id="ep000312-e103950">
           <speaker>Gr. </speaker>
           <p>Mas, an tis a good motion: oy, fill some wine. </p>
           <stage xml:id="ep000312-e103970">He fills them wine &amp; giues them the napkin. </stage>
           <p>Here Neighbour and M. Churms I drink to you. </p>
         </sp>
-        <sp who="#ep000312-both" xml:id="ep000312-e103990">
+        <sp who="#ep000312-ploddall #ep000312-gripe" xml:id="ep000312-e103990">
           <speaker>Both. </speaker>
           <p>We thanke you Sir. </p>
         </sp>
@@ -908,7 +893,7 @@
           <p>And that does make my stomacke so rise, that Ile be sworn, I can turne me three or foure bowles of porredge ouer in a morning afore breakefast. </p>
         </sp>
         <stage xml:id="ep000312-e104960">Enter Robin-Goodfellow. </stage>
-        <sp who="#ep000312-robin_goodfellow" xml:id="ep000312-e104970">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e104970">
           <speaker>Robin Goodfellow. </speaker>
           <p>How now sirra, what make you here, with all that timber in your necke? </p>
         </sp>
@@ -918,7 +903,7 @@
           <l>How knew he this were Timber? </l>
           <l>Mas Ile speake him faire, and get out ons companie: for I am afraid on him. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105030">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105030">
           <speaker>Robin. </speaker>
           <p>Speake man, what art afraid? what makest here? </p>
         </sp>
@@ -926,7 +911,7 @@
           <speaker>Will. </speaker>
           <p>A poore fellow Sir, ha bin drinking two or three pots of ale at an alehouse, and ha lost my way Sir. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105070">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105070">
           <speaker>Robin. </speaker>
           <p>O, nay then I see thou art a good fellow, </p>
           <p>Seest thou not Master Churms the Lawer to day? </p>
@@ -935,7 +920,7 @@
           <speaker>Will. </speaker>
           <p>No Sir, would you speake with him. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105120">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105120">
           <speaker>Robin. </speaker>
           <p>I marrie would I. </p>
         </sp>
@@ -944,7 +929,7 @@
           <speaker>Will. </speaker>
           <p>If I see him, Ile tell him you would speake with him. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105160">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105160">
           <speaker>Robin. </speaker>
           <p>Nay, prithee stay, who wilt thou tell him would speake with him? </p>
         </sp>
@@ -952,7 +937,7 @@
           <speaker>Will. </speaker>
           <p>Marrie you Sir. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105200">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105200">
           <speaker>Robin. </speaker>
           <p>I, who am I? </p>
         </sp>
@@ -960,7 +945,7 @@
           <speaker>Will. </speaker>
           <p>Faith Sir I know not. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105240">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105240">
           <speaker>Robin. </speaker>
           <p>If thou seest him, tell him Robin Goodfellow wold speake with him. </p>
         </sp>
@@ -969,7 +954,7 @@
           <p>O I will Sir. </p>
         </sp>
         <stage xml:id="ep000312-e105280">Exit. Wil. Cr. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105290">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105290">
           <speaker>Robin. </speaker>
           <l>Mas, the fellow was afraid, </l>
           <l>I play the Bugbeare wheresoere I come, </l>
@@ -981,7 +966,7 @@
           <speaker>Churms. </speaker>
           <p>Fellow Robin, God saue you, I haue beene seeking for you in euerie Ale-house, in the Towne. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105370">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105370">
           <speaker>Robin. </speaker>
           <p>What, Master Churms? Whats the best newes abroad? tis long since I see you. </p>
         </sp>
@@ -990,7 +975,7 @@
           <p>Faith little newes: but yet I am glad I haue met with you. </p>
           <p>I haue a matter to impart to you, wherein you may stand me in some stead, and make a good benefit to yourselfe: if we can deale cunningly, twill be worth a double fee to you, (by the Lord.) </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105420">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105420">
           <speaker>Robin. </speaker>
           <l>A double fee? speake man, what ist? </l>
           <l>If it be to betray mine owne father, Ile doot for halfe a fee: </l>
@@ -1016,7 +1001,7 @@
           <l>And still relies vpon the olde sayd Saw; </l>
           <l>Si nihil attuleris &amp;c. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105630">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105630">
           <speaker>Robin. </speaker>
           <p>And wherein can I doe you good in this? </p>
         </sp>
@@ -1036,7 +1021,7 @@
           <l>In courtesie she hath requested me, </l>
           <l>To do hir kindest greetings to hir Loue, </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105790">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105790">
           <speaker>Robin. </speaker>
           <p>An excellent deuise, yfaith. </p>
         </sp>
@@ -1049,7 +1034,7 @@
           <l>When God knowes I meane nothing lesse. </l>
           <l>Qui nescit dissimulare, nescit vivere. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105870">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105870">
           <speaker>Robin. </speaker>
           <l>Why this will be sport alone, </l>
           <l>But what would you haue me doe in this action? </l>
@@ -1064,7 +1049,7 @@
           <p>And so weele make a gull of the one, and a goose of the other. </p>
           <p>And if wee can inuent any deuise, to bring the scholler in disgrace with hir: I doe not doubt but with your helpe to creep between the bark and the tree, and get Lelia my selfe. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e105980">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e105980">
           <speaker>Robin. </speaker>
           <p>Tush man, I haue a deuise in my head already to doe that: </p>
           <p>But they say hir brother Fortunatus loues him dearely. </p>
@@ -1076,7 +1061,7 @@
           <p>He may chance to be kild with a double Canon before hee come home againe: </p>
           <p>But whats your deuise? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e106060">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e106060">
           <speaker>Robin. </speaker>
           <p>Marrie Ile do this; </p>
           <p>Ile frame an Inditement against Sophos, in manner and forme of a Rape, and the next Law day you shall preferre it; that so Lelia may loath him, </p>
@@ -1087,7 +1072,7 @@
           <speaker>Churms. </speaker>
           <p>But how shall we prooue it? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e106130">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e106130">
           <speaker>Robin. </speaker>
           <p>Sounds weele hire some Strumpet or other to be sworne against him. </p>
         </sp>
@@ -1099,7 +1084,7 @@
         <stage xml:id="ep000312-e106180">Exeunt. </stage>
         <stage xml:id="ep000312-e106190">
           <pb xml:id="ep000312-012-b"/>Enter Mother Midnight, Nurse and Pegge. </stage>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e106200">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e106200">
           <speaker>Mother M. </speaker>
           <p>Yfaith Marget you must eene take your daughter Pegge home againe, </p>
           <p>For sheele not bee rul'd by mee. </p>
@@ -1108,7 +1093,7 @@
           <speaker>Nurse. </speaker>
           <p>Why Mother? what will she not doe? </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e106250">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e106250">
           <speaker>Mother M. </speaker>
           <p>Faith she neither did nor does, nor will do any thing: </p>
           <p>Send hir tuth market with egs: sheele sell them and spend the money, </p>
@@ -1124,7 +1109,7 @@
           <l>I know hir to be a teatie olde foole, </l>
           <l>Shees neuer well, grunting in a corner. </l>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e106370">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e106370">
           <speaker>Mother M. </speaker>
           <p>Nay sheele campe (I warrant ye) O she has a tongue. </p>
           <p>But Marget eene take hir home to your Mistresse, and there keepe hir: for He keepe hir no longer. </p>
@@ -1133,7 +1118,7 @@
           <speaker>Nurse. </speaker>
           <p>Mother pray yee take some paines with hir, and keep hir a while longer; and if she doe not mend, Ile beat hir blacke and blew, yfaith Ile not faile you Minion. </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e106420">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e106420">
           <speaker>Mother M. </speaker>
           <p>Faith at thy request, Ile take hir home and try hir a weeke longer. </p>
         </sp>
@@ -1141,7 +1126,7 @@
           <speaker>Nurse. </speaker>
           <p>Come on huswife please you Granam, and bee a good wench, and you shall ha my blessing. </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e106460">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e106460">
           <speaker>Mother M. </speaker>
           <p>Come follow vs good Wench. </p>
         </sp>
@@ -1245,7 +1230,7 @@
         </sp>
         <stage xml:id="ep000312-e107220">Exeunt. </stage>
         <stage xml:id="ep000312-e107230">Enter Robin Goodfellow, and P. Ploddall. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107240">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107240">
           <speaker>Robin. </speaker>
           <p>Come hither my honest friend: M. Churms tolde me you had a suit to me, </p>
           <p>Whats the matter? </p>
@@ -1254,7 +1239,7 @@
           <speaker>Peter. </speaker>
           <p>Pray ye Sir is your name Robin Goodfellow? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107290">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107290">
           <speaker>Robin. </speaker>
           <p>My name is Robin Goodfellow. </p>
         </sp>
@@ -1267,7 +1252,7 @@
           <l>Now if you can tell mee, how I should wipe his nose of hir, </l>
           <l>I would bestow a fee of you. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107380">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107380">
           <speaker>Robin. </speaker>
           <l>Let mee seet, and thou shalt see what Ile say to thee. <stage xml:id="ep000312-e107400">He giues him money. </stage>
           </l>
@@ -1280,7 +1265,7 @@
           <l>Shall I trouble you so farre to take some paines with me? </l>
           <l>I am loth to haue the dodge; </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107470">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107470">
           <speaker>Robin. </speaker>
           <p>Tush feare not the dodge; </p>
           <p>Ile rather put on my flashing red nose, and my flaming face, and come wrapt in a Calue skin and crie bo ho: </p>
@@ -1302,7 +1287,7 @@
           <l>I need not do so, for I may say and say true, </l>
           <l>I haue lands and liuing inough for a countrey fellow. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107640">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107640">
           <speaker>Robin. </speaker>
           <p>Barlady so had not I, I was faine to ouerreach as many times I doe. </p>
           <p>But now experience has taught me so much craft, that I excell in cunning. </p>
@@ -1313,7 +1298,7 @@
           <l>And so Ile bid you farewell and goe forward, </l>
           <l>Ile too hir, thats flat. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107710">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107710">
           <speaker>Robin. </speaker>
           <p>Do so: and let me heare how you speede. </p>
         </sp>
@@ -1322,7 +1307,7 @@
           <p>That I will Sir. </p>
         </sp>
         <stage xml:id="ep000312-e107750">Exit Peter. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e107760">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e107760">
           <speaker>Robin. </speaker>
           <l>Well, a good beginning makes a good end, </l>
           <l>Heers ten groats for doing nothing, </l>
@@ -1717,7 +1702,7 @@
         </sp>
         <stage xml:id="ep000312-e110440">Stand aside. </stage>
         <stage xml:id="ep000312-e110450">Enter Robin Goodfellow. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e110460">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e110460">
           <speaker>Robin. </speaker>
           <l>I wonder I heare not of Master Churms, </l>
           <l>I would faine know how he speedes, </l>
@@ -1821,7 +1806,7 @@
           <p>Peace here comes my Granam Midnight. </p>
         </sp>
         <stage xml:id="ep000312-e111280">Enter Mother Midnight. </stage>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e111290">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e111290">
           <speaker>Mother M. </speaker>
           <l>What Pegge? what ho? what Pegge I say? </l>
           <l>what Pegge my wench? </l>
@@ -1831,7 +1816,7 @@
           <speaker>Pegge. </speaker>
           <p>Here Granam, at your elbow. </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e111350">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e111350">
           <speaker>Moth. M. </speaker>
           <l>What mak'st here this twatter light? </l>
           <l>I thinke thart in a dreame, </l>
@@ -1842,7 +1827,7 @@
           <p>Sounds, foole in your face: foole? O monstrous intitulation: </p>
           <p>Foole? O disgrace to my person: sounds, foole not me, for I cannot brooke such a colde rasher I can tell you: giue me but such an other word, and Ile be thy tooth-drawer een of thy butter tooth, thou toothlesse trot thou. </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e111420">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e111420">
           <speaker>Moth. M. </speaker>
           <p>Nay William pray ye be not angry, you must beare with olde folkes, </p>
           <p>They be olde and teastie, hot and hastie: set not your wit against mine William, </p>
@@ -1853,7 +1838,7 @@
           <p>Well, your good words haue something laide my coller. </p>
           <p>But Granam shall I be so bolde to come to your house now and then to keep Pegge company? </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e111490">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e111490">
           <speaker>Moth. M. </speaker>
           <p>I, and beshrowe thy good heart and thou doost not. </p>
           <p>Come, and weele haue a piece of a barley bagpudding or something, </p>
@@ -1865,7 +1850,7 @@
           <p>Granam: if you did but see him dance twoulde doe your heart good: </p>
           <p>Lord, twould make any bodie loue him, to see how finely heele foote it. </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e111570">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e111570">
           <speaker>Moth. M. </speaker>
           <p>William, prithee goe home to my house <pb xml:id="ep000312-020-a"/>with vs, and taste a cup of our beere, and learne to knowe the way, againe another time. </p>
         </sp>
@@ -1993,7 +1978,7 @@
           <p>Well: I see that Churmes must be the man must carrie Lelia when alls done. </p>
         </sp>
         <stage xml:id="ep000312-e112400">Enter Robin Goodfellow. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112410">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112410">
           <speaker>Robin. </speaker>
           <p>How now Master Churmes, what newes abroad? Me thinke you looke very spruce: yare very frolicke now a late. </p>
         </sp>
@@ -2002,7 +1987,7 @@
           <p>What fellow Robin, how goes the squares with you? </p>
           <p>Yare waxen very proude alate, you will not know your olde friends. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112460">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112460">
           <speaker>Robin. </speaker>
           <p>Faith I eene came to seeke you, to bestow a quart of wine of you. </p>
         </sp>
@@ -2010,7 +1995,7 @@
           <speaker>Churms. </speaker>
           <p>Thats strange: you were nere wont to be so liberall. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112500">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112500">
           <speaker>Robin. </speaker>
           <p>Tush man, one good turne askes another: cleare gaines man, cleare gaines: </p>
           <p>Peter Ploddall shall pay for all: I haue guld him once, </p>
@@ -2020,7 +2005,7 @@
           <speaker>Churms. </speaker>
           <p>Faith, Lelia has een giuen him the doff off here, and has made hir father almost starke mad. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112560">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112560">
           <speaker>Robin. </speaker>
           <p>O all the better: then I shall bee sure of more of his custome. </p>
           <p>But what successe haue you in your suit with hir? </p>
@@ -2032,7 +2017,7 @@
           <l>But as yet we are growne to no conclusion: </l>
           <l>But I am in very good hope. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112640">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112640">
           <speaker>Robin. </speaker>
           <p>But doe you thinke you shall get hir fathers good will? </p>
         </sp>
@@ -2046,7 +2031,7 @@
           <l>And Ile gather vp what money I can amongst them, </l>
           <l>And Gripe shall nere know of it neither. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112730">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112730">
           <speaker>Robin. </speaker>
           <l>I, and of those that are scarse able to pay, </l>
           <l>Take the one halfe and forgiue them the other, rather then sit out at all. </l>
@@ -2058,7 +2043,7 @@
           <l>Why he has made me his spokesman to M. Lelia, </l>
           <l>And Gods my Iudge I nere so much as name him to hir. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112810">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112810">
           <speaker>Robin. </speaker>
           <l>O byth Mas well remembred, </l>
           <l>Ile tell you what I meane to doe, </l>
@@ -2073,7 +2058,7 @@
           <l>Then should I ha the wench cocke sure, </l>
           <l>I doubt no body but him. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e112920">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e112920">
           <speaker>Robin. </speaker>
           <l>Well, lets go drinke together; </l>
           <l>And then Ile go put on my diuelish roabes, </l>
@@ -2216,7 +2201,7 @@
           <l>But onely Fortunatus, hees my second selfe, </l>
           <l>Mi Fortunateter Fortunate venis. </l>
         </sp>
-        <sp who="#ep000312-unassigned" xml:id="ep000312-e114080">
+        <sp xml:id="ep000312-e114080">
           <speaker>Fort. </speaker>
           <l>How fares my friend? me thinks you look not wel: </l>
           <l>Your eyes are sunk, your cheekes looke pale and wan, </l>
@@ -2978,7 +2963,7 @@
           <l>And Ile giue you two pence of white siluer, </l>
           <l>If Robin the diuel be not a water witch. </l>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e119380">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e119380">
           <speaker>Moth. M. </speaker>
           <p>Marrie, Iesus blesse vs: why prithee? </p>
         </sp>
@@ -2995,7 +2980,7 @@
           <l>O tis a base vexation slaue, </l>
           <l>How the country talkes of the large ribd varlet! </l>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e119510">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e119510">
           <speaker>Mother M. </speaker>
           <l>Marry out vpon him: what a Friday fac't slaue it is! </l>
           <l>I thinke in my conscience, his face neuer keepes Holiday. </l>
@@ -3015,7 +3000,7 @@
           <pb n="58" xml:id="ep000312-031-a"/>
           <p>Come Pegge, wee are towarde marriage; let vs talke of that may doe vs good: Granam, what wil you giue vs toward howse-keeping? </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e119640">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e119640">
           <speaker>Moth. M. </speaker>
           <l>Why William, we are talking of Rob Goodfellow: </l>
           <l>What thinke you of him? </l>
@@ -3032,7 +3017,7 @@
           <l>then in baudie houses: </l>
           <l>But Granam what wil you giue vs? </l>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e119770">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e119770">
           <speaker>Moth. M. </speaker>
           <l>Marrie I wil giue Pegge a pot and a pan, </l>
           <l>Two platters, a dish and a spoone, a dogge, and a cat: </l>
@@ -3048,7 +3033,7 @@
           <speaker>Pegge. </speaker>
           <p>Yfaith William weele haue a merry day ont. </p>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e119870">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e119870">
           <speaker>Mother M. </speaker>
           <p>That wee will yfaith Pegge: weele haue a whole noise of fiddlers there: </p>
           <p>Come Pegge lets hie vs home, weele make a bag-pudding to supper, </p>
@@ -3109,7 +3094,7 @@
           <speaker>Fortunatus. </speaker>
           <p>O, peace a while: you shal see good sport anone. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e120330">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e120330">
           <speaker>Robin. </speaker>
           <l>Now I am cloathed in this hellish shape, </l>
           <l>If I could meete with Sophos in these woods, </l>
@@ -3139,7 +3124,7 @@
           <l>And because I know mony goes lowe with Sophos, </l>
           <l>Ile pay you your fees: [Hee beates him,] take that, &amp; that, and that: </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e120580">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e120580">
           <speaker>Robin. </speaker>
           <p>O good Sir, I beseech you, Ile do any thing; </p>
         </sp>
@@ -3147,7 +3132,7 @@
           <speaker>Fortunatus. </speaker>
           <p>Then downe to Hell, for sure thou art a Diuell. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e120620">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e120620">
           <speaker>Robin. </speaker>
           <p>O hold your hands, I am not a Diuell by my troth. </p>
         </sp>
@@ -3156,7 +3141,7 @@
           <p>Sounds, dost thou crosse mee? I say thou art a Diuell. </p>
         </sp>
         <stage xml:id="ep000312-e120660">Beate him againe. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e120670">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e120670">
           <speaker>Robin. </speaker>
           <p>O Lord sir saue my life: and Ile say as you say, or any thing else youle ha me doe. </p>
         </sp>
@@ -3165,7 +3150,7 @@
           <p>Then stand vp and make a preachment of thy Pedigree, and how at first thou learnd'st this diuelish trade: vp I say. </p>
         </sp>
         <stage xml:id="ep000312-e120710">Beate him. Stands vpon a stoole. </stage>
-        <sp who="#ep000312-robin" xml:id="ep000312-e120720">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e120720">
           <speaker>Robin. </speaker>
           <l>O I wil Sit: </l>
           <l>Although in some places, I beare the title of a scuruy gentleman: </l>
@@ -3203,7 +3188,7 @@
           <speaker>Fortunatus. </speaker>
           <p>But tell me: whats thy course of life, &amp; how thou shiftest for maintenance in the world? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e121030">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e121030">
           <speaker>Robin. </speaker>
           <l>Faith Sir, I am in a manner a promoter, </l>
           <l>Or more fitly term'd a promoting knaue: </l>
@@ -3224,7 +3209,7 @@
           </l>
           <l>Dost thou thinke thou shalt euer come to heauen? </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e121200">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e121200">
           <speaker>Robin. </speaker>
           <l>I little hope for heauen or heauenly blisse: </l>
           <l>But if in hell doth any place remaine, </l>
@@ -3242,7 +3227,7 @@
           </l>
           <l>For if thou dost, thou comest vnto thy woe. </l>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e121330">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e121330">
           <speaker>Rob. </speaker>
           <p>The diuel himself was neuer coniur'd so. </p>
         </sp>
@@ -3498,7 +3483,7 @@
           <speaker>Peter. </speaker>
           <p>Ha you plaid the Diuel brauely, and scard the scholler out ons wits? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123020">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123020">
           <speaker>Robin. </speaker>
           <p>A pox of the Scholler. </p>
         </sp>
@@ -3507,7 +3492,7 @@
           <p>Nay harke you: I sent you vortie shillings, and you shal haue the cheese I promis'd you too. </p>
         </sp>
         <pb n="66" xml:id="ep000312-035-a"/>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123060">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123060">
           <speaker>Robin. </speaker>
           <p>A plague of the vortie shillings, and the Cheese too. </p>
         </sp>
@@ -3515,7 +3500,7 @@
           <speaker>Peter. </speaker>
           <p>Heare you, wil you giue me the powder you told me of? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123100">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123100">
           <speaker>Robin. </speaker>
           <p>How you vex me! powder quotha? Sounds I ha been powderd. </p>
         </sp>
@@ -3534,7 +3519,7 @@
           <speaker>Churms. </speaker>
           <p>Fellow Robin, what newes? howe goes the world? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123210">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123210">
           <speaker>Robin. </speaker>
           <p>Faith, the world goes I cannot tell how: </p>
           <p>How speed you with your wench? </p>
@@ -3544,7 +3529,7 @@
           <p>I would the wench were at the Diuel: </p>
           <p>A plague vpont I neuer say my prayers, and that makes me haue such ill lucke. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123270">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123270">
           <speaker>Robin. </speaker>
           <p>I think the scholler be haunted with some Demidiuel. </p>
         </sp>
@@ -3552,7 +3537,7 @@
           <speaker>Churms. </speaker>
           <p>Why, didst thou fray him? </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123310">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123310">
           <speaker>Robin. </speaker>
           <l>Fray him? a vengeance ont, all our shifting knauerie's knowne: </l>
           <l>We are counted very vagrants: </l>
@@ -3562,7 +3547,7 @@
           <speaker>Churms. </speaker>
           <p>We are horribly haunted: our behauiour is so beastly, that we are growen loathsome, our craft gets vs nought but knocks. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123370">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123370">
           <speaker>Robin. </speaker>
           <p>What course shal we take now? </p>
         </sp>
@@ -3570,7 +3555,7 @@
           <speaker>Churms. </speaker>
           <p>Faith I cannot tell: lets eene run our Countrie, for heres no staying for vs. </p>
         </sp>
-        <sp who="#ep000312-robin" xml:id="ep000312-e123410">
+        <sp who="#ep000312-robin-goodfellow" xml:id="ep000312-e123410">
           <speaker>Robin. </speaker>
           <p>Faith agreed: lets go into some place where wee are not knowne, and there set vp the art of knauerie with the second edition. </p>
         </sp>
@@ -3876,7 +3861,7 @@
           <l>See where Pegge and my Granam Midnight comes. </l>
         </sp>
         <stage xml:id="ep000312-e125520">Enter M. Midnight and Pegge. </stage>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e125530">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e125530">
           <speaker>Moth. M. </speaker>
           <l>Come Pegge, bestirre your stumpes: make thy selfe smugge, wench; thou must be married to morrow: </l>
           <l>Lets goe seeke out thy sweete heart, </l>
@@ -3911,7 +3896,7 @@
           <l>Ho braue William Cricket! </l>
           <l>How like you this Granam? </l>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e125780">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e125780">
           <speaker>Mother M. </speaker>
           <p>Marrie gods bennison light oth thy good hart, fort: </p>
           <p>Ha, that I were young againe! </p>
@@ -3936,7 +3921,7 @@
           <l>Marry, because you told me a merrie gooses case: </l>
           <l>Ile bestow a fat goose on ye: and God giue you luck. </l>
         </sp>
-        <sp who="#ep000312-mother_midnight" xml:id="ep000312-e125930">
+        <sp who="#ep000312-mother-midnight" xml:id="ep000312-e125930">
           <speaker>Mother M. </speaker>
           <p>Marry wel said old master: eene God giue them ioy indeed, for by my vay, they are a good sweete yong couple. </p>
         </sp>
@@ -4018,7 +4003,8 @@
           <p>Nay an you be good at that, Ile tel you what weele doe. </p>
           <p>〈…〉 I must be married to morrow; and if you will, weele goe all tuth Church together: and so saue Sir Iohn a labour. </p>
         </sp>
-        <sp who="#ep000312-all" xml:id="ep000312-e126490">
+        <sp who="#ep000312-lelia #ep000312-gripe #ep000312-sophos #ep000312-fortunatus #ep000312-nurse #ep000312-mother-midnight #ep000312-peg"
+                xml:id="ep000312-e126490">
           <speaker>All. </speaker>
           <p>Agreed. </p>
         </sp>

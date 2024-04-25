@@ -74,79 +74,73 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000821-confidence">
+          <person xml:id="ep000821-embroderer-s-wife" sex="FEMALE">
+            <persName>Embroderer's Wife</persName>
+          </person>
+          <person xml:id="ep000821-property-man-s-wife" sex="FEMALE">
+            <persName>Property Man's Wife</persName>
+          </person>
+          <person xml:id="ep000821-tailor-s-wife" sex="FEMALE">
+            <persName>Tailor's Wife</persName>
+          </person>
+          <person xml:id="ep000821-confidence" sex="MALE">
             <persName>Confidence</persName>
           </person>
-          <person xml:id="ep000821-opinion">
+          <person xml:id="ep000821-opinion" sex="MALE">
             <persName>Opinion</persName>
           </person>
-          <person xml:id="ep000821-novelty">
+          <person xml:id="ep000821-novelty" sex="FEMALE">
             <persName>Novelty</persName>
           </person>
-          <person xml:id="ep000821-admiration">
+          <person xml:id="ep000821-admiration" sex="FEMALE">
             <persName>Admiration</persName>
           </person>
-          <person xml:id="ep000821-philosopher">
+          <person xml:id="ep000821-philosopher" sex="MALE">
             <persName>Philosopher</persName>
           </person>
-          <person xml:id="ep000821-jollity">
+          <person xml:id="ep000821-jollity" sex="MALE">
             <persName>Jollity</persName>
           </person>
-          <person xml:id="ep000821-antimasker">
+          <person xml:id="ep000821-antimasker" sex="MALE">
             <persName>Antimasker</persName>
           </person>
-          <person xml:id="ep000821-irene">
+          <person xml:id="ep000821-irene" sex="FEMALE">
             <persName>Irene</persName>
           </person>
-          <person xml:id="ep000821-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000821-eunomia">
+          <personGrp xml:id="ep000821-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000821-eunomia" sex="FEMALE">
             <persName>Eunomia</persName>
           </person>
-          <person xml:id="ep000821-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000821-diche">
+          <person xml:id="ep000821-diche" sex="FEMALE">
             <persName>Diche</persName>
           </person>
-          <person xml:id="ep000821-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000821-genius">
+          <person xml:id="ep000821-genius" sex="MALE">
             <persName>Genius</persName>
           </person>
-          <person xml:id="ep000821-carpenter">
+          <person xml:id="ep000821-carpenter" sex="MALE">
             <persName>Carpenter</persName>
           </person>
-          <person xml:id="ep000821-guard_1">
+          <person xml:id="ep000821-guard-1" sex="MALE">
             <persName>Guard 1</persName>
           </person>
-          <person xml:id="ep000821-tailor">
+          <person xml:id="ep000821-tailor" sex="MALE">
             <persName>Tailor</persName>
           </person>
-          <person xml:id="ep000821-guard_2">
+          <person xml:id="ep000821-guard-2" sex="MALE">
             <persName>Guard 2</persName>
           </person>
-          <person xml:id="ep000821-projector">
-            <persName>Projector</persName>
-          </person>
-          <person xml:id="ep000821-blackguard">
+          <person xml:id="ep000821-blackguard" sex="MALE">
             <persName>Blackguard</persName>
           </person>
-          <person xml:id="ep000821-painter">
+          <person xml:id="ep000821-painter" sex="MALE">
             <persName>Painter</persName>
           </person>
-          <person xml:id="ep000821-feather-maker">
-            <persName>Feather Maker</persName>
+          <person xml:id="ep000821-feather-maker-s-wife" sex="FEMALE">
+            <persName>Feather Maker's Wife</persName>
           </person>
-          <person xml:id="ep000821-ambassador">
-            <persName>Ambassador</persName>
-          </person>
-          <person xml:id="ep000821-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000821-amphiluche">
+          <person xml:id="ep000821-amphiluche" sex="FEMALE">
             <persName>Amphiluche</persName>
           </person>
         </listPerson>
@@ -161,8 +155,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000821"
-                    passive="http://www.wikidata.org/entity/Q7770291"/>
+                   active="https://dracor.org/entity/ep000821"
+                   passive="http://www.wikidata.org/entity/Q7770291"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -907,7 +901,7 @@
                   <l>No more, no more, but ioyne </l>
                   <l>Thy voyce, and Lute with mine. </l>
                 </sp>
-                <sp who="#ep000821-both" xml:id="ep000821-e104890">
+                <sp who="#ep000821-eunomia #ep000821-irene" xml:id="ep000821-e104890">
                   <speaker>Both. </speaker>
                   <l>The world shall giue prerogative to neyther </l>
                   <l>We cannot flourish but together. </l>
@@ -940,7 +934,7 @@
                   <l>of gods below. </l>
                   <l>Irene chast Evnomia. </l>
                 </sp>
-                <sp who="#ep000821-unassigned" xml:id="ep000821-e105110">
+                <sp who="#ep000821-irene #ep000821-eunomia" xml:id="ep000821-e105110">
                   <speaker>Ir. Eu. </speaker>
                   <l>Wee </l>
                   <l>Diche, have stayd expecting thee, </l>
@@ -1086,7 +1080,7 @@
             <l>D'ee thinke to keepe vs out? </l>
           </sp>
           <pb n="20" xml:id="ep000821-017-a"/>
-          <sp who="#ep000821-guard_1" xml:id="ep000821-e106190">
+          <sp who="#ep000821-guard-1" xml:id="ep000821-e106190">
             <speaker>1 Gu. </speaker>
             <l>Knocke her downe. </l>
           </sp>
@@ -1094,15 +1088,15 @@
             <speaker>Tay. </speaker>
             <p>Knocke downe my Wife, I'de see the tallest Beefe-eater on you all, but hold vp his Halberd in the way of knocking my Wife downe, and ile bring him a button-hole lower. </p>
           </sp>
-          <sp who="#ep000821-unassigned" xml:id="ep000821-e106230">
+          <sp who="#ep000821-tailor-s-wife" xml:id="ep000821-e106230">
             <speaker>Tay. W. </speaker>
             <p>Nay, let 'em, let 'em Husband, at their perrill. </p>
           </sp>
-          <sp who="#ep000821-guard_2" xml:id="ep000821-e106250">
+          <sp who="#ep000821-guard-2" xml:id="ep000821-e106250">
             <speaker>2 Gu. </speaker>
             <p>Complaine to my Lord Chamberlaine. </p>
           </sp>
-          <sp who="#ep000821-projector" xml:id="ep000821-e106270">
+          <sp who="#ep000821-property-man-s-wife" xml:id="ep000821-e106270">
             <speaker>Pro. </speaker>
             <p>My husband is somewhere in the workes; I'me sure I helpt to make him an Owle and a Hobbihorse, and I see no reason but his Wife may bee admitted in Forma paperis, to see as good a Maske as this. </p>
           </sp>
@@ -1118,11 +1112,11 @@
             <speaker>Car. </speaker>
             <p>And that Timber I set vp: some body is my witnesse. </p>
           </sp>
-          <sp who="#ep000821-feather-maker" xml:id="ep000821-e106350">
+          <sp who="#ep000821-feather-maker-s-wife" xml:id="ep000821-e106350">
             <speaker>Fea. </speaker>
             <p>I am sure my husband sold 'em most of the Feathers; some body promis'd me a fall too if I came to Court, but let that passe. </p>
           </sp>
-          <sp who="#ep000821-ambassador" xml:id="ep000821-e106370">
+          <sp who="#ep000821-embroderer-s-wife" xml:id="ep000821-e106370">
             <speaker>Emb. </speaker>
             <p>And mine embroyder'd two of the best habits, what though we be no Ladies, we are Christians in these cloathes, and the Kings subiects God blesse us. </p>
           </sp>
@@ -1130,7 +1124,8 @@
             <speaker>Tay. </speaker>
             <p>Nay, now I am in, I will see a dance, though my shop-windowes be shut vp for't, tell us?— hum? dee heare? doo not they laugh at us? what were wee best to doe, the Masquers will doe no feates as long <pb n="21" xml:id="ep000821-017-b"/>we are here, be rul'd by me, harke euery one, 'tis our best course to dance a figary our selues, and then they'l thinke it a peece of the Plot, and we may goe off agen with the more credite, we may else kisse the Porters-lodge for't, let's put a tricke vpon 'em in reuenge, 'twill seeme a new device too. </p>
           </sp>
-          <sp who="#ep000821-omnes" xml:id="ep000821-e106410">
+          <sp who="#ep000821-carpenter #ep000821-blackguard #ep000821-painter #ep000821-tailor #ep000821-tailor-s-wife #ep000821-embroderer-s-wife #ep000821-feather-maker-s-wife #ep000821-property-man-s-wife"
+                   xml:id="ep000821-e106410">
             <speaker>Om. </speaker>
             <p>Content. </p>
           </sp>

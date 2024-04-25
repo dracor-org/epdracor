@@ -1,8 +1,14 @@
 {
   "particDesc": [
     {
-      "name": "Duke of Vanholt",
-      "id": "duke-of-vanholt",
+      "name": "Scholars",
+      "id": "scholars",
+      "isGroup": true,
+      "sex": "MALE"
+    },
+    {
+      "name": "Scholar 4",
+      "id": "scholar-4",
       "isGroup": false,
       "sex": "MALE"
     },
@@ -15,8 +21,8 @@
     {
       "id": "chorus",
       "name": "Chorus",
-      "isGroup": false,
-      "sex": "UNKNOWN"
+      "isGroup": true,
+      "sex": "MALE"
     },
     {
       "id": "faustus",
@@ -34,13 +40,13 @@
       "id": "good-angel",
       "name": "Good Angel",
       "isGroup": false,
-      "sex": "UNKNOWN"
+      "sex": "MALE"
     },
     {
       "id": "evil-angel",
       "name": "Evil Angel",
       "isGroup": false,
-      "sex": "UNKNOWN"
+      "sex": "MALE"
     },
     {
       "id": "valdes",
@@ -55,20 +61,14 @@
       "sex": "MALE"
     },
     {
-      "id": "scholar-i",
-      "name": "Scholar I",
+      "id": "1-scholar",
+      "name": "1 Scholar",
       "isGroup": false,
       "sex": "MALE"
     },
     {
-      "id": "scholar-ii",
-      "name": "Scholar II",
-      "isGroup": false,
-      "sex": "MALE"
-    },
-    {
-      "id": "scholar-iii",
-      "name": "Scholar III",
+      "id": "2-scholar",
+      "name": "2 Scholar",
       "isGroup": false,
       "sex": "MALE"
     },
@@ -140,7 +140,7 @@
     },
     {
       "id": "lorraine",
-      "name": "Lorraine",
+      "name": "Cardinal of Lorraine",
       "isGroup": false,
       "sex": "MALE"
     },
@@ -181,10 +181,16 @@
       "sex": "MALE"
     },
     {
-      "id": "duchess-of-vanholt",
-      "name": "Duchess of Vanholt",
+      "id": "duchess",
+      "name": "Duchess",
       "isGroup": false,
       "sex": "FEMALE"
+    },
+    {
+      "id": "3-scholar",
+      "name": "3 Scholar",
+      "isGroup": false,
+      "sex": "MALE"
     },
     {
       "id": "old-man",
@@ -207,10 +213,10 @@
       "faustus"
     ],
     "A07009-e101170": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e101220": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e101280": [
       "faustus"
@@ -240,58 +246,58 @@
       "faustus"
     ],
     "A07009-e102290": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e102310": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e102340": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e102360": [
       "wagner"
     ],
     "A07009-e102380": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e102400": [
       "wagner"
     ],
     "A07009-e102420": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e102440": [
       "wagner"
     ],
     "A07009-e102460": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e102480": [
       "wagner"
     ],
     "A07009-e102500": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e102520": [
       "wagner"
     ],
     "A07009-e102540": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e102560": [
       "wagner"
     ],
     "A07009-e102590": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e102610": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e102630": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e102650": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e102690": [
       "faustus"
@@ -480,22 +486,22 @@
       "faustus"
     ],
     "A07009-e105040": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e105060": [
       "faustus"
     ],
     "A07009-e105080": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e105100": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e105130": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e105150": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e105170": [
       "faustus"
@@ -684,16 +690,16 @@
       "faustus"
     ],
     "A07009-e107310": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e107330": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e107350": [
       "faustus"
     ],
     "A07009-e107390": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e107420": [
       "faustus"
@@ -753,16 +759,16 @@
       "faustus"
     ],
     "A07009-e108130": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e108150": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e108170": [
-      "evil_angel"
+      "evil-angel"
     ],
     "A07009-e108190": [
-      "good_angel"
+      "good-angel"
     ],
     "A07009-e108220": [
       "faustus"
@@ -1239,58 +1245,58 @@
       "faustus"
     ],
     "A07009-e113170": [
-      "duke-of-vanholt"
+      "duchess"
     ],
     "A07009-e113190": [
       "faustus"
     ],
     "A07009-e113210": [
-      "duchess-of-vanholt"
+      "duchess"
     ],
     "A07009-e113230": [
       "faustus"
     ],
     "A07009-e113270": [
-      "duke-of-vanholt"
+      "duchess"
     ],
     "A07009-e113290": [
       "faustus"
     ],
     "A07009-e113310": [
-      "duchess-of-vanholt"
+      "duchess"
     ],
     "A07009-e113330": [
       "faustus"
     ],
     "A07009-e113350": [
-      "duke-of-vanholt"
+      "duchess"
     ],
     "A07009-e113370": [
-      "duchess-of-vanholt"
+      "duchess"
     ],
     "A07009-e113400": [
       "faustus"
     ],
     "A07009-e113420": [
-      "duke-of-vanholt"
+      "duchess"
     ],
     "A07009-e113460": [
       "wagner"
     ],
     "A07009-e113560": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e113580": [
       "faustus"
     ],
     "A07009-e113610": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e113640": [
-      "scholar-iii"
+      "3-scholar"
     ],
     "A07009-e113675": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e113730": [
       "faustus"
@@ -1344,82 +1350,76 @@
       "faustus"
     ],
     "A07009-e114830": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e114850": [
       "faustus"
     ],
     "A07009-e114870": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e114890": [
-      "scholar-iii"
+      "3-scholar"
     ],
     "A07009-e114910": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e114930": [
       "faustus"
     ],
     "A07009-e114950": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e114970": [
       "faustus"
     ],
     "A07009-e115010": [
-      "scholar-iii"
+      "3-scholar"
     ],
     "A07009-e115030": [
       "faustus"
     ],
     "A07009-e115050": [
-      "scholar-i",
-	  "scholar-ii",
-	  "scholar-iii"
+      "scholars"
     ],
     "A07009-e115070": [
       "faustus"
     ],
     "A07009-e115100": [
-      "scholar-i",
-	  "scholar-ii",
-	  "scholar-iii"
+      "scholars"
     ],
     "A07009-e115120": [
       "faustus"
     ],
     "A07009-e115140": [
-      "scholar-iii"
+      "scholar-4"
     ],
     "A07009-e115160": [
       "faustus"
     ],
     "A07009-e115180": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e115200": [
       "faustus"
     ],
     "A07009-e115220": [
-      "scholar-iii"
+      "3-scholar"
     ],
     "A07009-e115240": [
-      "scholar-i"
+      "1-scholar"
     ],
     "A07009-e115260": [
       "faustus"
     ],
     "A07009-e115280": [
-      "scholar-ii"
+      "2-scholar"
     ],
     "A07009-e115300": [
       "faustus"
     ],
     "A07009-e115320": [
-      "scholar-i",
-      "scholar-ii",
-      "scholar-iii"
+      "scholars"
     ],
     "A07009-e115360": [
       "faustus"

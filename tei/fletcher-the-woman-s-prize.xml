@@ -92,73 +92,64 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000425-moroso">
+          <person xml:id="ep000425-moroso" sex="MALE">
             <persName>Moroso</persName>
           </person>
-          <person xml:id="ep000425-tranio">
+          <person xml:id="ep000425-tranio" sex="MALE">
             <persName>Tranio</persName>
           </person>
-          <person xml:id="ep000425-sophocles">
+          <person xml:id="ep000425-sophocles" sex="MALE">
             <persName>Sophocles</persName>
           </person>
-          <person xml:id="ep000425-jaques">
+          <person xml:id="ep000425-jaques" sex="MALE">
             <persName>Jaques</persName>
           </person>
-          <person xml:id="ep000425-rowland">
+          <person xml:id="ep000425-rowland" sex="MALE">
             <persName>Rowland</persName>
           </person>
-          <person xml:id="ep000425-livia">
+          <person xml:id="ep000425-livia" sex="FEMALE">
             <persName>Livia</persName>
           </person>
-          <person xml:id="ep000425-bianca">
+          <person xml:id="ep000425-bianca" sex="FEMALE">
             <persName>Bianca</persName>
           </person>
-          <person xml:id="ep000425-maria">
+          <person xml:id="ep000425-maria" sex="FEMALE">
             <persName>Maria</persName>
           </person>
-          <person xml:id="ep000425-petruchio">
+          <person xml:id="ep000425-petruchio" sex="MALE">
             <persName>Petruchio</persName>
           </person>
-          <person xml:id="ep000425-petronius">
+          <person xml:id="ep000425-petronius" sex="MALE">
             <persName>Petronius</persName>
           </person>
-          <person xml:id="ep000425-soph">
-            <persName>Soph</persName>
-          </person>
-          <person xml:id="ep000425-pedro">
+          <person xml:id="ep000425-pedro" sex="MALE">
             <persName>Pedro</persName>
           </person>
-          <person xml:id="ep000425-Mai._1">
-            <persName>Mai. 1</persName>
+          <person xml:id="ep000425-maid-1" sex="FEMALE">
+            <persName>Maid 1</persName>
           </person>
-          <person xml:id="ep000425-xxxx_2">
-            <persName>Xxxx 2</persName>
+          <person xml:id="ep000425-maid-2" sex="FEMALE">
+            <persName>Maid 2</persName>
           </person>
-          <person xml:id="ep000425-xxxx_3">
-            <persName>Xxxx 3</persName>
+          <person xml:id="ep000425-maid-3" sex="FEMALE">
+            <persName>Maid 3</persName>
           </person>
-          <person xml:id="ep000425-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000425-constable">
+          <person xml:id="ep000425-constable" sex="MALE">
             <persName>Constable</persName>
           </person>
-          <person xml:id="ep000425-citizen">
-            <persName>Citizen</persName>
-          </person>
-          <person xml:id="ep000425-doctor">
+          <personGrp xml:id="ep000425-citizens" sex="MALE">
+            <name>Citizens</name>
+          </personGrp>
+          <person xml:id="ep000425-doctor" sex="MALE">
             <persName>Doctor</persName>
           </person>
-          <person xml:id="ep000425-petro">
-            <persName>Petro</persName>
-          </person>
-          <person xml:id="ep000425-watch_1">
+          <person xml:id="ep000425-watch-1" sex="MALE">
             <persName>Watch 1</persName>
           </person>
-          <person xml:id="ep000425-watch_2">
+          <person xml:id="ep000425-watch-2" sex="MALE">
             <persName>Watch 2</persName>
           </person>
-          <person xml:id="ep000425-servant">
+          <person xml:id="ep000425-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
         </listPerson>
@@ -1096,7 +1087,7 @@
               <l>Tis well sir. </l>
               <l>What then? </l>
             </sp>
-            <sp who="#ep000425-soph" xml:id="ep000425-e105860">
+            <sp who="#ep000425-sophocles" xml:id="ep000425-e105860">
               <speaker>Saph. </speaker>
               <l>Fly, fly, quoth then the fearfull dwarfe; </l>
               <l>Here is no place for living man. </l>
@@ -2475,33 +2466,33 @@
           <div n="3" type="scene" xml:id="ep000425-e114440">
             <head>Scaena Tertia. </head>
             <stage xml:id="ep000425-e114450">Enter three Maides. </stage>
-            <sp who="#ep000425-Mai._1" xml:id="ep000425-e114460">
+            <sp who="#ep000425-maid-1" xml:id="ep000425-e114460">
               <speaker>1 Mai. </speaker>
               <l>How goes your businesse Girles? </l>
             </sp>
-            <sp who="#ep000425-xxxx_2" xml:id="ep000425-e114480">
+            <sp who="#ep000425-maid-2" xml:id="ep000425-e114480">
               <speaker>2 </speaker>
               <l>A foot, and faire. </l>
             </sp>
-            <sp who="#ep000425-xxxx_3" xml:id="ep000425-e114500">
+            <sp who="#ep000425-maid-3" xml:id="ep000425-e114500">
               <speaker>3 </speaker>
               <l>If fortune favour us: away to your strength </l>
               <l>The Country Forces are ariv'd, be gone. </l>
               <l>We are discover'd else. </l>
             </sp>
-            <sp who="#ep000425-xxxx_1" xml:id="ep000425-e114540">
+            <sp who="#ep000425-maid-1" xml:id="ep000425-e114540">
               <speaker>1 </speaker>
               <l>Arme? and be valiant. </l>
             </sp>
-            <sp who="#ep000425-xxxx_2" xml:id="ep000425-e114560">
+            <sp who="#ep000425-maid-2" xml:id="ep000425-e114560">
               <speaker>2 </speaker>
               <l>Think of our cause. </l>
             </sp>
-            <sp who="#ep000425-xxxx_3" xml:id="ep000425-e114580">
+            <sp who="#ep000425-maid-3" xml:id="ep000425-e114580">
               <speaker>3 </speaker>
               <l>Our Justice. </l>
             </sp>
-            <sp who="#ep000425-xxxx_1" xml:id="ep000425-e114600">
+            <sp who="#ep000425-maid-1" xml:id="ep000425-e114600">
               <speaker>1 </speaker>
               <l>'Tis sufficient. <stage xml:id="ep000425-e114620">Exeunt. </stage>
               </l>
@@ -2762,7 +2753,7 @@
               <l>Dares plant a stand of battring Ale against 'em, </l>
               <l>And drinke 'em out o'th Parish </l>
             </sp>
-            <sp who="#ep000425-soph" xml:id="ep000425-e116400">
+            <sp who="#ep000425-sophocles" xml:id="ep000425-e116400">
               <speaker>Saph. </speaker>
               <p>Lo you fierce Petruchio, this comes of your impatience. </p>
             </sp>
@@ -2824,32 +2815,32 @@
               </l>
             </sp>
             <stage xml:id="ep000425-e116790">Enter three mayds, at severall doors. </stage>
-            <sp who="#ep000425-xxxx_1" xml:id="ep000425-e116800">
+            <sp who="#ep000425-maid-1" xml:id="ep000425-e116800">
               <speaker>1. </speaker>
               <l>How goes the businesse, girles? </l>
             </sp>
-            <sp who="#ep000425-xxxx_2" xml:id="ep000425-e116820">
+            <sp who="#ep000425-maid-2" xml:id="ep000425-e116820">
               <speaker>2. </speaker>
               <l>A foot, and faire. </l>
             </sp>
-            <sp who="#ep000425-xxxx_3" xml:id="ep000425-e116840">
+            <sp who="#ep000425-maid-3" xml:id="ep000425-e116840">
               <speaker>3. </speaker>
               <l>If fortune favour us: away to your strength, </l>
               <l>The Country forces are ariv'd; be gon we are discovered else. </l>
             </sp>
-            <sp who="#ep000425-xxxx_1" xml:id="ep000425-e116870">
+            <sp who="#ep000425-maid-1" xml:id="ep000425-e116870">
               <speaker>1. </speaker>
               <l>Arme, and be valiant. </l>
             </sp>
-            <sp who="#ep000425-xxxx_2" xml:id="ep000425-e116890">
+            <sp who="#ep000425-maid-2" xml:id="ep000425-e116890">
               <speaker>2. </speaker>
               <l>Think of our cause. </l>
             </sp>
-            <sp who="#ep000425-xxxx_3" xml:id="ep000425-e116910">
+            <sp who="#ep000425-maid-3" xml:id="ep000425-e116910">
               <speaker>3. </speaker>
               <l>Our iustice. </l>
             </sp>
-            <sp who="#ep000425-xxxx_1" xml:id="ep000425-e116930">
+            <sp who="#ep000425-maid-1" xml:id="ep000425-e116930">
               <speaker>1. </speaker>
               <l>Tis sufficient. <stage xml:id="ep000425-e116950">Exeunt </stage>
               </l>
@@ -3065,7 +3056,7 @@
               <speaker>Petru. </speaker>
               <l>I thank you Susan Brotes. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e118200">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e118200">
               <speaker>Cit. </speaker>
               <l>Forward sister. </l>
             </sp>
@@ -3104,7 +3095,7 @@
               <speaker>Petru. </speaker>
               <l>Pray by your patience Mistris. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e118410">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e118410">
               <speaker>Cit. </speaker>
               <l>Forward sister. </l>
             </sp>
@@ -3112,7 +3103,7 @@
               <speaker>Petru. </speaker>
               <l>Do you mean to treat of all these? </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e118450">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e118450">
               <speaker>Cit. </speaker>
               <l>Who shall let her? </l>
             </sp>
@@ -3148,7 +3139,7 @@
               <l>Or flatter your opinions with a thought </l>
               <l>Of base repentance in her. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e118670">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e118670">
               <speaker>Cit. </speaker>
               <l>Give me sack, </l>
               <l>By this, and next strong Ale. </l>
@@ -3157,7 +3148,7 @@
               <speaker>Cun. </speaker>
               <l>Sweare forward sister. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e118720">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e118720">
               <speaker>Cit. </speaker>
               <l>By all that's cordiall, in this place we'l bury </l>
               <l>Our bones, fames, tongues, our triumphs; and then all </l>
@@ -3178,7 +3169,7 @@
               <l>Shall fill to all the world the glorious fall </l>
               <l>Of old Don Gillian. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e118890">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e118890">
               <speaker>Cit. </speaker>
               <l>Yet a little further, </l>
               <l>We have taken Armes in rescue of this Lady; </l>
@@ -3267,7 +3258,7 @@
               <l>It must be his then sir, </l>
               <l>For need wil then compell me. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e119460">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e119460">
               <speaker>Cit. </speaker>
               <l>Blessing on thee. </l>
             </sp>
@@ -3339,7 +3330,7 @@
               <l>No, Ile take that oath; </l>
               <l>But have a care you keep it. </l>
             </sp>
-            <sp who="#ep000425-citizen" xml:id="ep000425-e119910">
+            <sp who="#ep000425-citizens" xml:id="ep000425-e119910">
               <speaker>Cit. </speaker>
               <l>Tis not now </l>
               <l>As when Andrea liv'd. </l>
@@ -4749,7 +4740,7 @@
               <l>Let's save our selves sir, </l>
               <l>He's past all worldly cure. </l>
             </sp>
-            <sp who="#ep000425-petro" xml:id="ep000425-e128770">
+            <sp xml:id="ep000425-e128770">
               <stage xml:id="ep000425-e128780">Petro. </stage>
               <l>Friends do your office. </l>
               <l>And what he wants, if money, love, or labour, </l>
@@ -4763,12 +4754,12 @@
               <l>Friends, Gentlemen, thou beastly wife, Jaques; </l>
               <l>None heare me? who at the doore there? </l>
             </sp>
-            <sp who="#ep000425-watch_1" xml:id="ep000425-e128880">
+            <sp who="#ep000425-watch-1" xml:id="ep000425-e128880">
               <speaker>1 Watch. </speaker>
               <l>Thinke I pray sir, </l>
               <l>Whether you are going, and prepare your selfe. </l>
             </sp>
-            <sp who="#ep000425-watch_2" xml:id="ep000425-e128910">
+            <sp who="#ep000425-watch-2" xml:id="ep000425-e128910">
               <speaker>2 Watch. </speaker>
               <l>These idle thoughts disturbe you, the good Gentlewoman </l>
               <l>Your wife has taken care you shall want nothing. </l>
@@ -4782,11 +4773,11 @@
               <l>I am as excellent wel, I thank Heav'n for't, </l>
               <l>And have as good a stomacke at this instant— </l>
             </sp>
-            <sp who="#ep000425-watch_2" xml:id="ep000425-e129010">
+            <sp who="#ep000425-watch-2" xml:id="ep000425-e129010">
               <speaker>2 Watch. </speaker>
               <l>That's an ill signe. </l>
             </sp>
-            <sp who="#ep000425-watch_1" xml:id="ep000425-e129030">
+            <sp who="#ep000425-watch-1" xml:id="ep000425-e129030">
               <speaker>1 Watch. </speaker>
               <l>He draws on; he's a dead man, </l>
             </sp>
@@ -4794,7 +4785,7 @@
               <speaker>Petru. </speaker>
               <l>And sleep as soundly; wil ye looke upon me? </l>
             </sp>
-            <sp who="#ep000425-watch_1" xml:id="ep000425-e129070">
+            <sp who="#ep000425-watch-1" xml:id="ep000425-e129070">
               <speaker>1 Watch. </speaker>
               <l>Do you want Pen and Inke? while you have sence sir, </l>
               <l>Settle your state. </l>
@@ -4805,7 +4796,7 @@
               <pb n="eebo_img-313" xml:id="ep000425-635"/>
               <l>Or any Rascall living. </l>
             </sp>
-            <sp who="#ep000425-watch_2" xml:id="ep000425-e129130">
+            <sp who="#ep000425-watch-2" xml:id="ep000425-e129130">
               <speaker>2 Watch. </speaker>
               <l>would you were sir. </l>
             </sp>
@@ -4816,12 +4807,12 @@
               <l>— Ile shoot, and presently, chain-bullets; </l>
               <l>And under foure I will not kill. </l>
             </sp>
-            <sp who="#ep000425-watch_1" xml:id="ep000425-e129200">
+            <sp who="#ep000425-watch-1" xml:id="ep000425-e129200">
               <speaker>1 Watch. </speaker>
               <l>Let's quit him, </l>
               <l>It may be it is trick: he's dangerous. </l>
             </sp>
-            <sp who="#ep000425-watch_2" xml:id="ep000425-e129230">
+            <sp who="#ep000425-watch-2" xml:id="ep000425-e129230">
               <speaker>2 Watch. </speaker>
               <p>The devill take the hinmost, I cry. <stage xml:id="ep000425-e129250">Exit watch running. </stage>
               </p>

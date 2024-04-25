@@ -83,92 +83,77 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000013-crotolon">
+          <person xml:id="ep000013-singer-3" sex="MALE">
+            <persName>Singer 3</persName>
+          </person>
+          <person xml:id="ep000013-singer-2" sex="MALE">
+            <persName>Singer 2</persName>
+          </person>
+          <person xml:id="ep000013-singer-1" sex="MALE">
+            <persName>Singer 1</persName>
+          </person>
+          <person xml:id="ep000013-crotolon" sex="MALE">
             <persName>Crotolon</persName>
           </person>
-          <person xml:id="ep000013-orgilus">
+          <person xml:id="ep000013-orgilus" sex="MALE">
             <persName>Orgilus</persName>
           </person>
-          <person xml:id="ep000013-euphrania">
+          <person xml:id="ep000013-euphrania" sex="FEMALE">
             <persName>Euphrania</persName>
           </person>
-          <person xml:id="ep000013-amyclas">
+          <person xml:id="ep000013-amyclas" sex="MALE">
             <persName>Amyclas</persName>
           </person>
-          <person xml:id="ep000013-armostes">
+          <person xml:id="ep000013-armostes" sex="MALE">
             <persName>Armostes</persName>
           </person>
-          <person xml:id="ep000013-prophilus">
-            <persName>Prophilus</persName>
+          <person xml:id="ep000013-prophilus" sex="MALE">
+            <persName>prophilus</persName>
           </person>
-          <person xml:id="ep000013-prologue">
-            <persName>Prologue</persName>
-          </person>
-          <person xml:id="ep000013-calantha">
+          <person xml:id="ep000013-calantha" sex="FEMALE">
             <persName>Calantha</persName>
           </person>
-          <person xml:id="ep000013-ithocles">
+          <person xml:id="ep000013-ithocles" sex="MALE">
             <persName>Ithocles</persName>
           </person>
-          <person xml:id="ep000013-hemophil">
+          <person xml:id="ep000013-hemophil" sex="MALE">
             <persName>Hemophil</persName>
           </person>
-          <person xml:id="ep000013-groneas">
+          <person xml:id="ep000013-groneas" sex="MALE">
             <persName>Groneas</persName>
           </person>
-          <person xml:id="ep000013-christalla">
+          <person xml:id="ep000013-christalla" sex="FEMALE">
             <persName>Christalla</persName>
           </person>
-          <person xml:id="ep000013-philema">
+          <person xml:id="ep000013-philema" sex="FEMALE">
             <persName>Philema</persName>
           </person>
-          <person xml:id="ep000013-tecnicus">
+          <person xml:id="ep000013-tecnicus" sex="MALE">
             <persName>Tecnicus</persName>
           </person>
-          <person xml:id="ep000013-bassanes">
+          <person xml:id="ep000013-bassanes" sex="MALE">
             <persName>Bassanes</persName>
           </person>
-          <person xml:id="ep000013-phulas">
+          <person xml:id="ep000013-phulas" sex="MALE">
             <persName>Phulas</persName>
           </person>
-          <person xml:id="ep000013-gransis">
+          <person xml:id="ep000013-gransis" sex="MALE">
             <persName>Gransis</persName>
           </person>
-          <person xml:id="ep000013-penthea">
+          <person xml:id="ep000013-penthea" sex="FEMALE">
             <persName>Penthea</persName>
           </person>
-          <person xml:id="ep000013-croton">
-            <persName>Croton</persName>
-          </person>
-          <person xml:id="ep000013-proph">
-            <persName>Proph</persName>
-          </person>
-          <person xml:id="ep000013-nearchus">
+          <person xml:id="ep000013-nearchus" sex="MALE">
             <persName>Nearchus</persName>
           </person>
-          <person xml:id="ep000013-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000013-amelus">
+          <person xml:id="ep000013-amelus" sex="MALE">
             <persName>Amelus</persName>
           </person>
-          <person xml:id="ep000013-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000013-servant">
-            <persName>Servant</persName>
-          </person>
-          <person xml:id="ep000013-lem">
-            <persName>Lem</persName>
-          </person>
-          <person xml:id="ep000013-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000013-1">
-            <persName>1</persName>
-          </person>
-          <person xml:id="ep000013-2">
-            <persName>2</persName>
+          <personGrp xml:id="ep000013-servants" sex="UNKNOWN">
+            <name>Servants</name>
+          </personGrp>
+          <person xml:id="ep000013-lemophil" sex="MALE">
+            <persName>Lemophil</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -185,8 +170,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000013"
-                    passive="http://www.wikidata.org/entity/Q7720251"/>
+                   active="https://dracor.org/entity/ep000013"
+                   passive="http://www.wikidata.org/entity/Q7720251"/>
     </listRelation>
   </standOff>
   <text>
@@ -599,7 +584,7 @@
               <speaker>Amy. </speaker>
               <l>When comes your friend and General? </l>
             </sp>
-            <sp who="#ep000013-prologue" xml:id="ep000013-e103000">
+            <sp who="#ep000013-prophilus" xml:id="ep000013-e103000">
               <speaker>Pro. </speaker>
               <l>He promis'd </l>
               <l>To follow with all speed conuenient. </l>
@@ -709,7 +694,7 @@
               <speaker>Amy. </speaker>
               <l>Shee is in all our daughter. </l>
             </sp>
-            <sp who="#ep000013-amyclas" xml:id="ep000013-e103750">
+            <sp xml:id="ep000013-e103750">
               <speaker>Ithoc </speaker>
               <l>Let me blush, </l>
               <pb xml:id="ep000013-007-b"/>
@@ -1745,7 +1730,7 @@
               <l>Your wisdome is too ripe to need instruction </l>
               <l>From your sonnes tutillage. </l>
             </sp>
-            <sp who="#ep000013-croton" xml:id="ep000013-e110850">
+            <sp xml:id="ep000013-e110850">
               <speaker>Crot. </speaker>
               <l>Yet not so ripe </l>
               <l>(My Lord Armoster) that it dares to dote </l>
@@ -1765,7 +1750,7 @@
               <l>Yes, and the King himselfe importun'd Crotolon </l>
               <l>For a dispatch. </l>
             </sp>
-            <sp who="#ep000013-croton" xml:id="ep000013-e110990">
+            <sp who="#ep000013-crotolon" xml:id="ep000013-e110990">
               <speaker>Crot. </speaker>
               <l>Kings may command, their will </l>
               <pb xml:id="ep000013-014-a"/>
@@ -2083,7 +2068,7 @@
               <l>Sir, I'me not inquisitiue </l>
               <l>Of secrecies without an inuitation. </l>
             </sp>
-            <sp who="#ep000013-proph" xml:id="ep000013-e113050">
+            <sp who="#ep000013-prophilus" xml:id="ep000013-e113050">
               <speaker>Phoph. </speaker>
               <l>With pardon, Lady, not a sillable </l>
               <l>Of mine implyes so rude a sense; the drift.— </l>
@@ -2610,7 +2595,7 @@
               <l>Chamber-combats </l>
               <l>Are felt, not hard. </l>
             </sp>
-            <sp who="#ep000013-prologue" xml:id="ep000013-e116810">
+            <sp who="#ep000013-prophilus" xml:id="ep000013-e116810">
               <speaker>Pro. </speaker>
               <l>A wakes. </l>
             </sp>
@@ -3053,7 +3038,7 @@
               <l>Virgin of reuerence and antiquity </l>
               <l>Stay you behind. </l>
             </sp>
-            <sp who="#ep000013-gransis" xml:id="ep000013-e119710">
+            <sp xml:id="ep000013-e119710">
               <speaker>Gron. </speaker>
               <l>The Court wants not your diligence. </l>
             </sp>
@@ -3749,7 +3734,7 @@
               <gap extent="1" n="25-b-3330" unit="paragraphs"/>
             </stage>
             <pb xml:id="ep000013-026-a"/>
-            <sp who="#ep000013-both" xml:id="ep000013-e124470">
+            <sp who="#ep000013-christalla #ep000013-philema" xml:id="ep000013-e124470">
               <speaker>Both. </speaker>
               <l>Madam, here. </l>
             </sp>
@@ -4837,7 +4822,8 @@
               <l>Vnto my bed-chamber: none on his forehead </l>
               <l>Were a distempered looke. </l>
             </sp>
-            <sp who="#ep000013-omnes" xml:id="ep000013-e131970">
+            <sp who="#ep000013-ithocles #ep000013-calantha #ep000013-prophilus #ep000013-orgilus #ep000013-euphrania #ep000013-hemophil #ep000013-groneas"
+                      xml:id="ep000013-e131970">
               <speaker>Omnes. </speaker>
               <l>The gods preserue'ee'ee. </l>
             </sp>
@@ -4990,7 +4976,7 @@
               </l>
             </sp>
             <stage xml:id="ep000013-e132990">Enter Christalla and Philema, bringing in Penthea in a chaire vaild: two other seruants placing two chaires, one on the one side, and the other with an Engine on the other; the maids sit downe at her feet mourning, the seruants goe out, meet them Ithocles and Orgilus. </stage>
-            <sp who="#ep000013-servant" xml:id="ep000013-e133000">
+            <sp who="#ep000013-servants" xml:id="ep000013-e133000">
               <speaker>Seru. </speaker>
               <l>'Tis done, that on her right hand. </l>
             </sp>
@@ -5419,7 +5405,8 @@
               <speaker>Near. </speaker>
               <l>Long liue Calantha, Sparta's Soueraigne Queene. </l>
             </sp>
-            <sp who="#ep000013-omnes" xml:id="ep000013-e135900">
+            <sp who="#ep000013-groneas #ep000013-hemophil #ep000013-euphrania #ep000013-christalla #ep000013-philema #ep000013-prophilus #ep000013-nearchus #ep000013-crotolon #ep000013-amelus #ep000013-armostes #ep000013-bassanes #ep000013-orgilus"
+                      xml:id="ep000013-e135900">
               <speaker>Omnes. </speaker>
               <l>Long liue the Queene. </l>
             </sp>
@@ -5622,7 +5609,7 @@
               <speaker>Org. </speaker>
               <l>Honourable infamy. </l>
             </sp>
-            <sp who="#ep000013-lem" xml:id="ep000013-e137300">
+            <sp who="#ep000013-lemophil" xml:id="ep000013-e137300">
               <speaker>Lem. </speaker>
               <l>I tremble at the sight. </l>
             </sp>
@@ -5860,29 +5847,31 @@
                 <div type="song" xml:id="ep000013-e139000">
                   <pb xml:id="ep000013-040-b"/>
                   <head>A Song. </head>
-                  <sp who="#ep000013-all" xml:id="ep000013-040-b-0011">
+                  <sp who="#ep000013-singer-1 #ep000013-singer-2 #ep000013-singer-3"
+                               xml:id="ep000013-040-b-0011">
                     <speaker>All .</speaker>
                     <l>Glories, pleasures, pomps, delights, and ease, </l>
                     <l>Can but please </l>
                     <l>outward senses, when the mind </l>
                     <l>Is not vntroubled, or by peace refin'd. </l>
                   </sp>
-                  <sp who="#ep000013-1" xml:id="ep000013-040-b-0051">
+                  <sp who="#ep000013-singer-1" xml:id="ep000013-040-b-0051">
                     <speaker>1 </speaker>
                     <l>Crownes may flourish and decay, </l>
                     <l>Beauties shine, but fade away. </l>
                   </sp>
-                  <sp who="#ep000013-2" xml:id="ep000013-e139081">
+                  <sp who="#ep000013-singer-2" xml:id="ep000013-e139081">
                     <speaker>2. </speaker>
                     <l>Youth may reuell, yet it must </l>
                     <l>Lye downe in a bed of dust: </l>
                   </sp>
-                  <sp xml:id="ep000013-e139111">
+                  <sp who="#ep000013-singer-3" xml:id="ep000013-e139111">
                     <speaker>3. </speaker>
                     <l>Earthly honors flow and wast, </l>
                     <l>Time alone doth change and last. </l>
                   </sp>
-                  <sp xml:id="ep000013-e139141">
+                  <sp who="#ep000013-singer-1 #ep000013-singer-2 #ep000013-singer-3"
+                               xml:id="ep000013-e139141">
                     <speaker>All .</speaker>
                     <l>Sorrowes mingled with contents, prepare </l>
                     <l>Rest for care; </l>
@@ -5916,7 +5905,8 @@
               <speaker>Near. </speaker>
               <l>I am your King. </l>
             </sp>
-            <sp who="#ep000013-omnes" xml:id="ep000013-e139350">
+            <sp who="#ep000013-groneas #ep000013-hemophil #ep000013-euphrania #ep000013-christalla #ep000013-philema #ep000013-prophilus #ep000013-nearchus #ep000013-crotolon #ep000013-amelus #ep000013-armostes #ep000013-bassanes"
+                      xml:id="ep000013-e139350">
               <speaker>Omnes. </speaker>
               <l>Long liue </l>
               <l>Nearchus King of Sparta. </l>

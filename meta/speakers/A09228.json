@@ -1,8 +1,20 @@
 {
   "particDesc": [
     {
-      "name": "Second Concubine",
-      "id": "second-concubine",
+      "name": "Soldiers",
+      "id": "soldiers",
+      "isGroup": true,
+      "sex": "MALE"
+    },
+    {
+      "name": "Concubine 2",
+      "id": "concubine-2",
+      "isGroup": false,
+      "sex": "FEMALE"
+    },
+    {
+      "name": "Concubine 1",
+      "id": "concubine-1",
       "isGroup": false,
       "sex": "FEMALE"
     },
@@ -109,8 +121,8 @@
       "sex": "MALE"
     },
     {
-      "id": "widow-of-thecoa",
-      "name": "Widow of Thecoa",
+      "id": "widow",
+      "name": "Widow",
       "isGroup": false,
       "sex": "FEMALE"
     },
@@ -133,9 +145,9 @@
       "sex": "MALE"
     },
     {
-      "id": "first-concubine",
-      "name": "First Concubine",
-      "isGroup": false,
+      "id": "concubine",
+      "name": "Concubines",
+      "isGroup": true,
       "sex": "FEMALE"
     },
     {
@@ -153,6 +165,12 @@
     {
       "id": "semei",
       "name": "Semei",
+      "isGroup": false,
+      "sex": "MALE"
+    },
+    {
+      "id": "jonat",
+      "name": "Jonathan",
       "isGroup": false,
       "sex": "MALE"
     },
@@ -660,31 +678,31 @@
       "david"
     ],
     "A09228-e111140": [
-      "widow-of-thecoa"
+      "widow"
     ],
     "A09228-e111170": [
       "david"
     ],
     "A09228-e111200": [
-      "widow-of-thecoa"
+      "widow"
     ],
     "A09228-e111240": [
       "david"
     ],
     "A09228-e111270": [
-      "widow-of-thecoa"
+      "widow"
     ],
     "A09228-e111390": [
       "david"
     ],
     "A09228-e111480": [
-      "widow-of-thecoa"
+      "widow"
     ],
     "A09228-e111580": [
       "david"
     ],
     "A09228-e111630": [
-      "widow-of-thecoa"
+      "widow"
     ],
     "A09228-e111710": [
       "david"
@@ -777,10 +795,10 @@
       "absolon"
     ],
     "A09228-e114080": [
-      "first-concubine"
+      "concubine"
     ],
     "A09228-e114150": [
-      "second-concubine"
+      "concubine-2"
     ],
     "A09228-e114250": [
       "achitophel"
@@ -789,7 +807,7 @@
       "absolon"
     ],
     "A09228-e114360": [
-      "first-concubine"
+      "concubine-1"
     ],
     "A09228-e114410": [
       "amasa"
@@ -825,8 +843,7 @@
       "amasa"
     ],
     "A09228-e115440": [
-      "absolon",
-      "amasa"
+      "soldiers"
     ],
     "A09228-e115460": [
       "absolon"
@@ -892,7 +909,7 @@
       "ahimaas"
     ],
     "A09228-e117010": [
-      "jonadab"
+      "jonat"
     ],
     "A09228-e117050": [
       "david"

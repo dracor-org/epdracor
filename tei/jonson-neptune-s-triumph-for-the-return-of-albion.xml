@@ -86,34 +86,31 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000112-cook">
+          <person xml:id="ep000112-cook" sex="MALE">
             <persName>Cook</persName>
           </person>
-          <person xml:id="ep000112-poet">
+          <person xml:id="ep000112-poet" sex="MALE">
             <persName>Poet</persName>
           </person>
-          <person xml:id="ep000112-child">
+          <person xml:id="ep000112-child" sex="MALE">
             <persName>Child</persName>
           </person>
-          <person xml:id="ep000112-apollo">
+          <person xml:id="ep000112-apollo" sex="MALE">
             <persName>Apollo</persName>
           </person>
-          <person xml:id="ep000112-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000112-proteus">
+          <personGrp xml:id="ep000112-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000112-proteus" sex="MALE">
             <persName>Proteus</persName>
           </person>
-          <person xml:id="ep000112-portunus">
+          <person xml:id="ep000112-portunus" sex="MALE">
             <persName>Portunus</persName>
           </person>
-          <person xml:id="ep000112-saron">
+          <person xml:id="ep000112-saron" sex="MALE">
             <persName>Saron</persName>
           </person>
-          <person xml:id="ep000112-porteus">
-            <persName>Porteus</persName>
-          </person>
-          <person xml:id="ep000112-sailor">
+          <person xml:id="ep000112-sailor" sex="MALE">
             <persName>Sailor</persName>
           </person>
         </listPerson>
@@ -128,8 +125,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000112"
-                    passive="http://www.wikidata.org/entity/Q6995612"/>
+                   active="https://dracor.org/entity/ep000112"
+                   passive="http://www.wikidata.org/entity/Q6995612"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -582,7 +579,7 @@
           <l>And Doris dry your teares. </l>
           <l>Albion is come: </l>
         </sp>
-        <sp who="#ep000112-porteus" xml:id="ep000112-e103040">
+        <sp who="#ep000112-proteus" xml:id="ep000112-e103040">
           <speaker>PORTEVS. </speaker>
           <l>And (m) Haliclyon, too, <ref target="A04656-e103060-b"/>
             <note anchored="true" corresp="A04656-e103060-a" place="margin">●ari incly●●renoumd a.) Another Neptunes at●●tes, and 〈◊〉 to the 〈◊〉 person 〈◊〉 Hippius. </note>

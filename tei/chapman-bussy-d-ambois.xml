@@ -80,95 +80,86 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000332-bussy">
+          <personGrp xml:id="ep000332-murderers" sex="MALE">
+            <name>Murderers</name>
+          </personGrp>
+          <person xml:id="ep000332-murderer-1" sex="MALE">
+            <persName>Murderer 1</persName>
+          </person>
+          <personGrp xml:id="ep000332-pages" sex="MALE">
+            <name>Pages</name>
+          </personGrp>
+          <person xml:id="ep000332-bussy" sex="MALE">
             <persName>Bussy</persName>
           </person>
-          <person xml:id="ep000332-monsieur">
+          <person xml:id="ep000332-monsieur" sex="MALE">
             <persName>Monsieur</persName>
           </person>
-          <person xml:id="ep000332-maffe">
+          <person xml:id="ep000332-maffe" sex="MALE">
             <persName>Maffe</persName>
           </person>
-          <person xml:id="ep000332-d_ambois">
-            <persName>D'ambois</persName>
-          </person>
-          <person xml:id="ep000332-henry">
+          <person xml:id="ep000332-henry" sex="MALE">
             <persName>Henry</persName>
           </person>
-          <person xml:id="ep000332-guise">
+          <person xml:id="ep000332-guise" sex="MALE">
             <persName>Guise</persName>
           </person>
-          <person xml:id="ep000332-montsurry">
+          <person xml:id="ep000332-montsurry" sex="MALE">
             <persName>Montsurry</persName>
           </person>
-          <person xml:id="ep000332-duchess">
+          <person xml:id="ep000332-duchess" sex="FEMALE">
             <persName>Duchess</persName>
           </person>
-          <person xml:id="ep000332-tamyra">
+          <person xml:id="ep000332-tamyra" sex="FEMALE">
             <persName>Tamyra</persName>
           </person>
-          <person xml:id="ep000332-beaupre">
+          <person xml:id="ep000332-beaupre" sex="FEMALE">
             <persName>Beaupre</persName>
           </person>
-          <person xml:id="ep000332-barrisor">
+          <person xml:id="ep000332-barrisor" sex="MALE">
             <persName>Barrisor</persName>
           </person>
-          <person xml:id="ep000332-l_anou">
+          <person xml:id="ep000332-l-anou" sex="MALE">
             <persName>L'anou</persName>
           </person>
-          <person xml:id="ep000332-pyra">
+          <person xml:id="ep000332-pyra" sex="FEMALE">
             <persName>Pyra</persName>
           </person>
-          <person xml:id="ep000332-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000332-brisac">
+          <person xml:id="ep000332-brisac" sex="MALE">
             <persName>Brisac</persName>
           </person>
-          <person xml:id="ep000332-melynell">
+          <person xml:id="ep000332-melynell" sex="MALE">
             <persName>Melynell</persName>
           </person>
-          <person xml:id="ep000332-nuntius">
+          <person xml:id="ep000332-nuntius" sex="MALE">
             <persName>Nuntius</persName>
           </person>
-          <person xml:id="ep000332-beaumond">
+          <person xml:id="ep000332-beaumond" sex="MALE">
             <persName>Beaumond</persName>
           </person>
-          <person xml:id="ep000332-pero">
+          <person xml:id="ep000332-pero" sex="FEMALE">
             <persName>Pero</persName>
           </person>
-          <person xml:id="ep000332-comolet">
+          <person xml:id="ep000332-comolet" sex="MALE">
             <persName>Comolet</persName>
           </person>
-          <person xml:id="ep000332-annabell">
+          <person xml:id="ep000332-annabell" sex="FEMALE">
             <persName>Annabell</persName>
           </person>
-          <person xml:id="ep000332-charlotte">
+          <person xml:id="ep000332-charlotte" sex="FEMALE">
             <persName>Charlotte</persName>
           </person>
-          <person xml:id="ep000332-ely">
-            <persName>Ely</persName>
-          </person>
-          <person xml:id="ep000332-behemoth">
+          <person xml:id="ep000332-behemoth" sex="MALE">
             <persName>Behemoth</persName>
           </person>
-          <person xml:id="ep000332-cartophylax">
+          <person xml:id="ep000332-cartophylax" sex="MALE">
             <persName>Cartophylax</persName>
           </person>
-          <person xml:id="ep000332-umbra">
+          <person xml:id="ep000332-umbra" sex="MALE">
             <persName>Umbra</persName>
           </person>
-          <person xml:id="ep000332-spirit">
+          <person xml:id="ep000332-spirit" sex="MALE">
             <persName>Spirit</persName>
-          </person>
-          <person xml:id="ep000332-count">
-            <persName>Count</persName>
-          </person>
-          <person xml:id="ep000332-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000332-omnes">
-            <persName>Omnes</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -185,8 +176,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000332"
-                    passive="http://www.wikidata.org/entity/Q5002051"/>
+                   active="https://dracor.org/entity/ep000332"
+                   passive="http://www.wikidata.org/entity/Q5002051"/>
     </listRelation>
   </standOff>
   <text>
@@ -205,7 +196,7 @@
         <head>Bussy D'Ambois: A TRAGEDIE. </head>
         <head>Actus primi Scena prima. </head>
         <stage xml:id="ep000332-e100080">Bussy solus. </stage>
-        <sp who="#ep000332-bussy" xml:id="ep000332-e100090">
+        <sp xml:id="ep000332-e100090">
           <l>FOrtune, not Reason, rules the state of things, </l>
           <l>Reward goes backwards, Honor on his head; </l>
           <l>Who is not poore, is monstrous; only Need </l>
@@ -242,7 +233,7 @@
           <l>Or wee shall shipwracke in our safest Port. <stage xml:id="ep000332-e100430">Procumbit. </stage>
           </l>
         </sp>
-        <sp who="#ep000332-monsieur" xml:id="ep000332-e100440">
+        <sp xml:id="ep000332-e100440">
           <stage xml:id="ep000332-e100450">Monsieur with two Pages. </stage>
           <l>There is no second place in Numerous State </l>
           <l>That holds more than a Cypher: In a King </l>
@@ -558,7 +549,7 @@
           <l>This a good standing liuing, Tis a Bountie, </l>
           <l>His Highnes might perhaps haue bestow'd better. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e102800">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e102800">
           <speaker>D'Amb. </speaker>
           <l>Goe, y'are a Rascall; hence, Away you Rogue. </l>
         </sp>
@@ -566,7 +557,7 @@
           <speaker>Maff. </speaker>
           <l>What meane you sir? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e102840">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e102840">
           <speaker>D'Amb. </speaker>
           <l>Hence; prate no more; </l>
           <l>Or by thy villans blood thou prat'st thy last: </l>
@@ -663,7 +654,7 @@
           <speaker>Henr. </speaker>
           <l>D'Ambois, I thinke. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e103610">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e103610">
           <speaker>D'Amb. </speaker>
           <l>Thats still my name, my Lord, though I be something altered in attire. </l>
         </sp>
@@ -674,7 +665,7 @@
           <l>For we (in feare to make milde vertue proud) </l>
           <l>Vse not to seeke her out in any man. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e103680">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e103680">
           <speaker>D'Amb. </speaker>
           <l>Nor doth she vse to seeke out any man: </l>
           <l>He that will winne, must wooe her; shee's not shamelesse. </l>
@@ -707,7 +698,7 @@
           <speaker>Beaup. </speaker>
           <p>And why did the Toy take him in th'head now? </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e103850">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e103850">
           <speaker>D'Amb. </speaker>
           <p>Tis leape yeere, Ladie, and therefore verie good to <pb n="10" xml:id="ep000332-007-a"/>enter a Courtier. </p>
         </sp>
@@ -715,7 +706,7 @@
           <speaker>Tam. </speaker>
           <p>The man's a Courtier at first sight. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e103890">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e103890">
           <speaker>D'Amb. </speaker>
           <p>I can sing prickesong, Ladie, at first sight; and why not be a Courtier as suddenly? </p>
         </sp>
@@ -723,7 +714,7 @@
           <speaker>Beaup. </speaker>
           <p>Heere's a Courtier rotten before he be ripe. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e103930">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e103930">
           <speaker>D'Amb. </speaker>
           <p>Thinke mee not impudent, Ladie, I am yet no Courtier, I desire to be one, and would gladly take entrance (Madam) vnder your Princely Colours. </p>
         </sp>
@@ -731,7 +722,7 @@
           <speaker>Gui. </speaker>
           <p>Sir, know you me? </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e103970">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e103970">
           <speaker>D'Amb. </speaker>
           <p>My Lord? </p>
         </sp>
@@ -739,7 +730,7 @@
           <speaker>Gui. </speaker>
           <p>I know not you: Whom doe you serue? </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104010">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104010">
           <speaker>D'Amb. </speaker>
           <p>Serue, my Lord? </p>
         </sp>
@@ -747,7 +738,7 @@
           <speaker>Gui. </speaker>
           <p>Go to Companion; Your Courtship's too saucie. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104050">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104050">
           <speaker>D'Amb. </speaker>
           <p>Saucie? Companion? Tis the Guise, but yet those termes might haue beene spar'd of the Guiserd. </p>
           <p>Companion? Hee's iealous by this light: are you blinde of that side Sir? Ile to her againe for that. Forth Madam, for the honour of Courtship. </p>
@@ -756,7 +747,7 @@
           <speaker>Gui. </speaker>
           <p>Cease your Courtshippe, or by heauen Ile cut your throat. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104100">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104100">
           <speaker>D'Amb. </speaker>
           <p>Cut my throat? cut a whetstone; good Accius Noeuius, doe as much with your tongue as he did with a Rasor; cut my throat? </p>
         </sp>
@@ -764,7 +755,7 @@
           <speaker>Gui. </speaker>
           <p>Ile doe't by this hand. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104140">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104140">
           <speaker>D'Amb. </speaker>
           <l>That hand dares not doe't; y'aue cut too many </l>
           <l>Throates alreadie Guise; and Robb'd the Realme of </l>
@@ -777,11 +768,11 @@
           <speaker>Bar. </speaker>
           <p>What new-come Gallant haue wee heere, that dares mate the Guise thus? </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104230">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104230">
           <speaker>L' An. </speaker>
           <p>Sfoote tis D'Ambois; The Duke mistakes him (on my life) for some Knight of the new edition. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104250">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104250">
           <speaker>D'Amb. </speaker>
           <p>Cut my throat? I would the King fear'd thy cutting of his throat no more than I feare thy cutting of mine. </p>
         </sp>
@@ -798,7 +789,7 @@
           <speaker>Bar. </speaker>
           <p>Heere's a sudden transmigration with D'Ambois, out of the Knights ward, into the Duches bed. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104330">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104330">
           <speaker>L'An. </speaker>
           <p>See what a Metamorphosis a braue suit can worke. </p>
         </sp>
@@ -814,7 +805,7 @@
           <speaker>Gui. </speaker>
           <p>Leaue your Courtship. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104410">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104410">
           <speaker>D'Amb. </speaker>
           <p>I will not. I say mistresse, and I will stand vnto it, that if a woman may haue three seruants, a man may haue threescore mistresses. </p>
         </sp>
@@ -822,7 +813,7 @@
           <speaker>Gui. </speaker>
           <p>Sirha, Ile haue you whipt out of the Court for this insolence. </p>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e104450">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e104450">
           <speaker>D'Amb. </speaker>
           <p>Whipt? Such another syllable out a th' presence, if thou dar'st for thy Dukedome. </p>
         </sp>
@@ -871,15 +862,15 @@
           <speaker>Bar. </speaker>
           <p>Why heer's the Lion, skard with the throat of a dunghill Cocke; a fellow that has newlie shak'd off his shackles; <pb n="12" xml:id="ep000332-008-a"/>Now does he crow for that victorie. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104740">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104740">
           <speaker>L' An. </speaker>
           <p>Tis one of the best Iigges that euer was acted. </p>
         </sp>
-        <sp who="#ep000332-unassigned" xml:id="ep000332-e104760">
+        <sp who="#ep000332-pyra" xml:id="ep000332-e104760">
           <speaker>Pry. </speaker>
           <p>Whom does the Guise suppose him to be troe? </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104780">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104780">
           <speaker>L' An. </speaker>
           <p>Out of doubt, some new denizond Lord; and thinks that suit come new out a th' Mercers bookes. </p>
         </sp>
@@ -887,11 +878,11 @@
           <speaker>Bar. </speaker>
           <p>I haue heard of a fellow, that by a fixt imagination looking vpon a Bulbaiting, had a visible paire of hornes grew out of his forhead: and I beleeue this Gallant ouerioied with the conceit of Monsieurs cast suit, imagines himselfe to be the Monsieur. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104820">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104820">
           <speaker>L' An </speaker>
           <p>And why not? as well as the Asse, stalking in the Lions case, beare himselfe like a Lion, roaring all the huger beasts out of the Forrest? </p>
         </sp>
-        <sp who="#ep000332-unassigned" xml:id="ep000332-e104840">
+        <sp who="#ep000332-pyra" xml:id="ep000332-e104840">
           <speaker>Pry. </speaker>
           <p>Peace, he lookes this way. </p>
         </sp>
@@ -899,7 +890,7 @@
           <speaker>Bar. </speaker>
           <p>Marrie let him looke sir, what will you say now if the Guise be gone to fetch a blanquet for him? </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104880">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104880">
           <speaker>L' An. </speaker>
           <p>Faith I beleeue it for his honour. </p>
         </sp>
@@ -915,7 +906,7 @@
           <speaker>Pyr. </speaker>
           <p>I marie sir. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e104960">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e104960">
           <speaker>L' An. </speaker>
           <p>Sfoote, see how he stares on's. </p>
         </sp>
@@ -935,7 +926,7 @@
           <speaker>Buss. </speaker>
           <p>So sir, and was that the subiect of your ridiculous ioilitie? </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e105060">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e105060">
           <speaker>L' An. </speaker>
           <p>What's that to you sir? </p>
         </sp>
@@ -953,7 +944,7 @@
           <p>This iealousie of yours sir, confesses some close defect in your selfe, that wee neuer dream'd of. </p>
         </sp>
         <pb n="13" xml:id="ep000332-008-b"/>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e105150">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e105150">
           <speaker>L An. </speaker>
           <p>We held discourse of a perfum'd Asse, that being disguis'd with a Lions case, imagin'd himselfe a Lion: I hope that toucht not you. </p>
         </sp>
@@ -969,7 +960,7 @@
           <speaker>Buss. </speaker>
           <p>Goe at your pleasures, Ile be your Ghost to haunt you, and yee sleepe an't, hang mee. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e105230">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e105230">
           <speaker>L' An. </speaker>
           <p>Goe, goe sir, Court your mistresse. </p>
         </sp>
@@ -993,7 +984,7 @@
           <speaker>Mely. </speaker>
           <p>Not sir: Though he be not so rich, hee's a better man than the best of you; And I will not endure it. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e105350">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e105350">
           <speaker>L' An. </speaker>
           <p>Not you sir? </p>
         </sp>
@@ -1009,7 +1000,7 @@
           <speaker>Bar. </speaker>
           <p>Does your confident spirit doubt that sir? Come follow vs and trie. </p>
         </sp>
-        <sp who="#ep000332-l_anou" xml:id="ep000332-e105430">
+        <sp who="#ep000332-l-anou" xml:id="ep000332-e105430">
           <speaker>L'An. </speaker>
           <p>Come sir, wee'll lead you a dance. <stage xml:id="ep000332-e105450">Exeunt. </stage>
           </p>
@@ -1722,7 +1713,7 @@
           <l>For the direct is crooked; Loue comes flying; </l>
           <l>The height of loue is still wonne with denying. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e110930">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e110930">
           <speaker>D' Amb. </speaker>
           <l>Thankes honoured Father. </l>
         </sp>
@@ -1794,7 +1785,7 @@
           <l>So should we be as curious to shunne </l>
           <l>All cause that other thinke not ill of vs. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e111500">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e111500">
           <speaker>D'Amb. </speaker>
           <l>Madam, tis farre from that: I only heard </l>
           <l>By this my honour'd father, that your conscience </l>
@@ -2525,7 +2516,7 @@
           <speaker>Mons. </speaker>
           <l>How now, what leap'st thou at? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116590">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116590">
           <speaker>D'Amb. </speaker>
           <l>O royall obiect. </l>
         </sp>
@@ -2533,7 +2524,7 @@
           <speaker>Mons. </speaker>
           <l>Thou dream'st awake: Obiect in th'emptie aire? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116630">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116630">
           <speaker>D'Amb. </speaker>
           <l>Worthie the head of Titan, worth his chaire. </l>
         </sp>
@@ -2541,7 +2532,7 @@
           <speaker>Mons. </speaker>
           <l>Pray thee what mean'st thou? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116670">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116670">
           <speaker>D'Amb. </speaker>
           <l>See you not a Croune </l>
           <l>Empale the forehead of the great King Monsieur? </l>
@@ -2550,7 +2541,7 @@
           <speaker>Mons. </speaker>
           <l>O fie vpon thee. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116720">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116720">
           <speaker>D'Amb. </speaker>
           <l>Sir, that is the Subiect </l>
           <l>Of all these your retir'd and sole discourses. </l>
@@ -2561,7 +2552,7 @@
           <l>This still hath made me doubt thou dost not loue me. </l>
           <l>Wilt thou doe one thing for me then syncerelie? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116790">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116790">
           <speaker>D'Amb. </speaker>
           <l>I, any thing, but killing of the King. </l>
         </sp>
@@ -2570,7 +2561,7 @@
           <speaker>Mons. </speaker>
           <l>Still in that discord, and ill taken note? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116830">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116830">
           <speaker>D'Amb. </speaker>
           <l>Come, doe not doubt me, and command mee all things. </l>
         </sp>
@@ -2583,7 +2574,7 @@
           <l>Both of thy noble nature and thy friendship) </l>
           <l>The full and plaine state of me in thy thoughts. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e116920">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e116920">
           <speaker>D'Amb. </speaker>
           <l>What, vtter plainly what I thinke of you? </l>
           <l>Why this swims quite against the streame of greatnesse: </l>
@@ -2595,7 +2586,7 @@
           <l>I am no such great foole, and therefore charge thee </l>
           <l>Euen from the roote of thy free heart, display mee. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e117000">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e117000">
           <speaker>D'Amb. </speaker>
           <l>Since you affect it in such serious termes, </l>
           <l>If your selfe first will tell me what you thinke </l>
@@ -2608,7 +2599,7 @@
           <l>That prooue wee in our full dissection </l>
           <l>Neuer so foule, liue still the sounder friends. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e117090">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e117090">
           <speaker>D'Amb. </speaker>
           <l>What else Sir? come begin, and speake me simply. </l>
         </sp>
@@ -2652,7 +2643,7 @@
           <l>To thy friends slaughters, like a Scrich-owle sing, </l>
           <l>And to all mischiefs, but to kill the King. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e117480">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e117480">
           <speaker>D'Amb. </speaker>
           <l>So: Haue you said? </l>
         </sp>
@@ -2661,7 +2652,7 @@
           <l>How thinkest thou? Doe I flatter? </l>
           <l>Speake I not like a trustie friend to thee? </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e117530">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e117530">
           <speaker>D'Amb. </speaker>
           <l>That euer any man was blest withall; </l>
           <l>So heere's for mee. I thinke you are (at worst) </l>
@@ -2767,7 +2758,7 @@
           <l>That back woorst men: valure to them must creepe </l>
           <l>That (to themselues left) would feare him asleepe. </l>
         </sp>
-        <sp who="#ep000332-ely" xml:id="ep000332-e118430">
+        <sp who="#ep000332-duchess" xml:id="ep000332-e118430">
           <speaker>Ely. </speaker>
           <l>Ye all take that for granted, that doth rest </l>
           <pb n="44" xml:id="ep000332-024-a"/>
@@ -3174,7 +3165,7 @@
           <l>Father? </l>
         </sp>
         <stage xml:id="ep000332-e121210">Ascendit Bussy with Comolet. </stage>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e121220">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e121220">
           <speaker>D' Amb. </speaker>
           <l>How is it with my honour'd mistresse? </l>
         </sp>
@@ -3183,7 +3174,7 @@
           <l>O seruant helpe, and saue me from the gripes </l>
           <l>Of shame and infamie. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e121270">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e121270">
           <speaker>D' Amb. </speaker>
           <l>What insensate stocke, </l>
           <l>Or rude inanimate vapour without fashion, </l>
@@ -3330,7 +3321,7 @@
           <l>Beleeue what there the wicked man hath written. </l>
         </sp>
         <pb n="52" xml:id="ep000332-028-a"/>
-        <sp who="#ep000332-unassigned" xml:id="ep000332-e122290">
+        <sp who="#ep000332-pero" xml:id="ep000332-e122290">
           <speaker>Pre. </speaker>
           <l>Perswasion hath already enterd him </l>
           <l>Beyond reflection; peace till their departure. </l>
@@ -3797,17 +3788,17 @@
           <l>And to the world sing new impieties. </l>
         </sp>
         <stage xml:id="ep000332-e125810">D' Ambois with two Pages. </stage>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e125820">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e125820">
           <speaker>D' Amb. </speaker>
           <l>Sit vp to night, and watch, Ile speake with none </l>
           <l>But the old frier, who bring to me. </l>
         </sp>
-        <sp who="#ep000332-unassigned" xml:id="ep000332-e125850">
+        <sp who="#ep000332-pages" xml:id="ep000332-e125850">
           <speaker>Pa. </speaker>
           <l>We will Sir. <stage xml:id="ep000332-e125870">Exit. </stage>
           </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e125880">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e125880">
           <speaker>D' Amb. </speaker>
           <l>What violent heat is this? me thinks the fire </l>
           <l>Of twenty liues doth on a sudden flash </l>
@@ -3826,7 +3817,7 @@
           <l>Ile meet thee in the chamber of thy loue. <stage xml:id="ep000332-e126010">Exit. </stage>
           </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126020">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126020">
           <speaker>D' Amb. </speaker>
           <l>What dismall change is heere? the good old Frier </l>
           <l>Is murtherd; being made knowne to serue my loue; </l>
@@ -3878,7 +3869,7 @@
           <l>The summons that thy mistresse next wil send thee, </l>
           <l>Her hand shalbe thy death. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126490">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126490">
           <speaker>D' Amb. </speaker>
           <l>When will she send? </l>
         </sp>
@@ -3886,7 +3877,7 @@
           <speaker>Sp. </speaker>
           <l>Soone as I set againe, where late I rose. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126530">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126530">
           <speaker>D' Amb. </speaker>
           <l>Is the old Frier slaine? </l>
         </sp>
@@ -3894,7 +3885,7 @@
           <speaker>Sp. </speaker>
           <l>No, and yet liues not. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126570">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126570">
           <speaker>D' Amb. </speaker>
           <l>Died he a naturall death? </l>
         </sp>
@@ -3902,7 +3893,7 @@
           <speaker>Sp. </speaker>
           <l>He did. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126610">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126610">
           <speaker>D' Amb. </speaker>
           <l>Who then, </l>
           <l>Will my deare mistresse send? </l>
@@ -3911,7 +3902,7 @@
           <speaker>Sp. </speaker>
           <l>I must not tell thee. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126660">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126660">
           <speaker>D' Amb. </speaker>
           <l>Who lets thee? </l>
         </sp>
@@ -3919,7 +3910,7 @@
           <speaker>Sp. </speaker>
           <l>Fate. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126700">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126700">
           <speaker>D' Am. </speaker>
           <l>Who are fates ministers? </l>
         </sp>
@@ -3927,7 +3918,7 @@
           <speaker>Sp. </speaker>
           <l>The Guise and Monsieur. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126740">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126740">
           <speaker>D' Amb. </speaker>
           <l>A fit paire of sheeres </l>
           <l>To cut the threds of kings, and kingly spirits, </l>
@@ -3941,7 +3932,7 @@
           <l>To her next summons, y'are faire warnd: farewell. <stage xml:id="ep000332-e126830">Exit. </stage>
           </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e126840">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e126840">
           <speaker>D' Amb. </speaker>
           <l>I must fare well, how euer: though I die </l>
           <pb n="62" xml:id="ep000332-033-a"/>
@@ -3965,7 +3956,7 @@
           <speaker>Mont. </speaker>
           <l>Haile to my worthy sonne. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e127030">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e127030">
           <speaker>D'Amb. </speaker>
           <l>O lying Spirit: welcome loued father </l>
           <l>How fares my dearest mistresse? </l>
@@ -3977,7 +3968,7 @@
           <l>Whereof she sends this witnesse in her hand </l>
           <l>And praies, for vrgent cause, your speediest presence. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e127110">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e127110">
           <speaker>D'Amb. </speaker>
           <l>What? writ in bloud? </l>
         </sp>
@@ -3985,7 +3976,7 @@
           <speaker>Mont. </speaker>
           <l>I, tis the inke of louers. </l>
         </sp>
-        <sp who="#ep000332-d_ambois" xml:id="ep000332-e127150">
+        <sp who="#ep000332-bussy" xml:id="ep000332-e127150">
           <speaker>D'Amb. </speaker>
           <l>O tis a sacred witnesse of her loue. </l>
           <l>So much elixer of her bloud as this </l>
@@ -4074,7 +4065,7 @@
           <l>And with a sudden outcrie of his murther, </l>
           <l>Blow his retreat before he be engag'd. </l>
         </sp>
-        <sp who="#ep000332-count" xml:id="ep000332-e127940">
+        <sp who="#ep000332-tamyra" xml:id="ep000332-e127940">
           <speaker>Count. </speaker>
           <l>O father, haue my dumbe woes wak'd your death? </l>
           <l>When will our humane griefes be at their height? </l>
@@ -4093,7 +4084,7 @@
         </sp>
         <stage xml:id="ep000332-e128070">
           <pb n="65" xml:id="ep000332-034-b"/>D'Amb. at the gulfe. </stage>
-        <sp who="#ep000332-count" xml:id="ep000332-e128080">
+        <sp who="#ep000332-tamyra" xml:id="ep000332-e128080">
           <speaker>Count. </speaker>
           <l>Away, (my loue) away, thou wilt be murther'd. </l>
         </sp>
@@ -4118,7 +4109,7 @@
           <speaker>Tam. </speaker>
           <l>They come. </l>
         </sp>
-        <sp who="#ep000332-xxxx_1" xml:id="ep000332-e128270">
+        <sp who="#ep000332-murderer-1" xml:id="ep000332-e128270">
           <speaker>1. </speaker>
           <l>Come all at once. </l>
         </sp>
@@ -4126,12 +4117,12 @@
           <speaker>Vmb. </speaker>
           <l>Backe coward murtherers, backe. </l>
         </sp>
-        <sp who="#ep000332-omnes" xml:id="ep000332-e128310">
+        <sp who="#ep000332-murderers" xml:id="ep000332-e128310">
           <speaker>Omn. </speaker>
           <l>Defend vs heauen. <stage xml:id="ep000332-e128330">Exeunt. </stage>
           </l>
         </sp>
-        <sp who="#ep000332-xxxx_1" xml:id="ep000332-e128340">
+        <sp who="#ep000332-murderer-1" xml:id="ep000332-e128340">
           <speaker>1. </speaker>
           <l>Come ye not on? </l>
         </sp>

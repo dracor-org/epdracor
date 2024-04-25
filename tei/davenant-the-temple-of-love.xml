@@ -84,39 +84,33 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000088-divine_poesy">
+          <person xml:id="ep000088-divine-poesy" sex="FEMALE">
             <persName>Divine Poesy</persName>
           </person>
-          <person xml:id="ep000088-poets">
-            <persName>Poets</persName>
-          </person>
-          <person xml:id="ep000088-speaker_2">
+          <personGrp xml:id="ep000088-poets" sex="MALE">
+            <name>Poets</name>
+          </personGrp>
+          <person xml:id="ep000088-speaker-2" sex="MALE">
             <persName>Speaker 2</persName>
           </person>
-          <person xml:id="ep000088-speaker_1">
+          <person xml:id="ep000088-speaker-1" sex="MALE">
             <persName>Speaker 1</persName>
           </person>
-          <person xml:id="ep000088-speaker_3">
+          <person xml:id="ep000088-speaker-3" sex="MALE">
             <persName>Speaker 3</persName>
           </person>
-          <person xml:id="ep000088-speaker_4">
+          <person xml:id="ep000088-speaker-4" sex="MALE">
             <persName>Speaker 4</persName>
           </person>
-          <person xml:id="ep000088-missing">
-            <persName>Missing</persName>
-          </person>
-          <person xml:id="ep000088-sunesis">
+          <person xml:id="ep000088-sunesis" sex="MALE">
             <persName>Sunesis</persName>
           </person>
-          <person xml:id="ep000088-thelema">
+          <person xml:id="ep000088-thelema" sex="FEMALE">
             <persName>Thelema</persName>
           </person>
-          <person xml:id="ep000088-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000088-chorus">
-            <persName>Chorus</persName>
-          </person>
+          <personGrp xml:id="ep000088-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -152,7 +146,7 @@
         <p>In the midst of this border was fixed a rich Compartiment, <pb xml:id="ep000088-004-a"/>behind which was a crimson Drapery part of it borne up by naked Children tack'd up in severall pleats, and the rest was at each end of the Freeze tyed with a great knot, and from thence hung downe in foulds to the bottome of the pedestalls: In the midst of this Compartiment in an Ovall was written TEMPLVM AMORIS: all these figures were in their naturall colours bigger than the life, and the Compartiments of Gold. </p>
         <p>A Curtaine flying up the first Sceane was discover'd, in which appeared a spacious grove of shady trees; and a farre off on a mount with a winding way to the top was seated a pleasant bower environed with young trees, and in the lower part walkes planted with Cypresse, representing the place where the Soules of the Ancient Poets are fained to reside: the delight of this prospect was quickly diverted to the fight of a more strange apparision; for, out of the heaven by little and little broke foorth a great Cloud of a Rosie Colour, which being come downe some little way beganne to open, and in it was seene sitting a beautifull woman; her garment was Sky-colour set all with Starres of gold, her head was crowned with Laurell, with a spangled vaile hanging downe behind, and her haire in artificiall curles graciously dress'd, representing Divine Poesie, and by her a milke white Swanne, as she descends singing out of those venerable shades came forth a company of ancient Greeke Poets, as Demodicus, Foemius, Homer, Hesiod, Terpander, and Sapho a Poetesse in habits varied and of severall colours, with laurell wreaths on their heads. Divine Poesie sung this: </p>
         <pb xml:id="ep000088-004-b"/>
-        <sp who="#ep000088-divine_poesy" xml:id="ep000088-e100140">
+        <sp who="#ep000088-divine-poesy" xml:id="ep000088-e100140">
           <speaker>Divine Poesie. </speaker>
           <lg n="1">
             <head>(1.) </head>
@@ -191,7 +185,7 @@
             <l>Awd lost in many a forgotten Tombe. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-divine_poesy" xml:id="ep000088-e100400">
+        <sp who="#ep000088-divine-poesy" xml:id="ep000088-e100400">
           <speaker>D. Poesie. </speaker>
           <lg>
             <pb xml:id="ep000088-005-a"/>
@@ -209,7 +203,7 @@
             <l>For each loose verse, tormented with a flame. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-divine_poesy" xml:id="ep000088-e100510">
+        <sp who="#ep000088-divine-poesy" xml:id="ep000088-e100510">
           <speaker>D. Poesie. </speaker>
           <lg>
             <l>Descend then, and become with me, </l>
@@ -219,7 +213,7 @@
           </lg>
         </sp>
         <p>Shee being descended to the ground in a Majesticke pace, goes up to the State, attended by the fore-named Poets; and the Cloud that brought her downe, closeth as it ascends. </p>
-        <sp who="#ep000088-divine_poesy" xml:id="ep000088-e100580">
+        <sp who="#ep000088-divine-poesy" xml:id="ep000088-e100580">
           <speaker>D. Poesie. </speaker>
           <lg>
             <l>Thou Monarch of mens hearts rejoyce! </l>
@@ -241,11 +235,11 @@
             <l>This morne proclaim'd it from a falling Cloud. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e100720">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e100720">
           <speaker>(2.) </speaker>
           <l>Who? Divine Poesie? </l>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e100740">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e100740">
           <speaker>(3.) </speaker>
           <lg>
             <l>I know her well. </l>
@@ -255,11 +249,11 @@
             <l>To see us carelesse of their punishment. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_1" xml:id="ep000088-e100810">
+        <sp who="#ep000088-speaker-1" xml:id="ep000088-e100810">
           <speaker>(1.) </speaker>
           <l>But who shall bring this mischiefe to our Art? </l>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e100830">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e100830">
           <speaker>(3.) </speaker>
           <lg>
             <l>Indamora, the delight of Destiny! </l>
@@ -272,7 +266,7 @@
             <l>Of Bodies but of Soules. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e100930">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e100930">
           <speaker>(2.) </speaker>
           <lg>
             <l>Beleeve me, my Magicall friends, </l>
@@ -283,7 +277,7 @@
             <l>Your Spirit's a cold Companion at midnight. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_1" xml:id="ep000088-e101010">
+        <sp who="#ep000088-speaker-1" xml:id="ep000088-e101010">
           <speaker>(1.) </speaker>
           <lg>
             <l>Have we so long misse-led and entertain'd </l>
@@ -293,7 +287,7 @@
             <l>Their soules? This humor cannot last. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e101080">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e101080">
           <speaker>(2.) </speaker>
           <lg>
             <l>If it should, we may rid our Temple </l>
@@ -304,11 +298,11 @@
             <l>But where shall this new Sect be planted first? </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e101150">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e101150">
           <speaker>(3.) </speaker>
           <l>In a dull Northerne Ile, they call Britaine. </l>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e101170">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e101170">
           <speaker>(2.) </speaker>
           <lg>
             <l>Indeed 'tis a cold Northerly opinion; </l>
@@ -320,14 +314,14 @@
             <l>I'le give mine to a Raven for his Supper. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e101260">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e101260">
           <speaker>(3.) </speaker>
           <lg>
             <l>The Miracle is more increas'd, in that </l>
             <l>It first takes birth and nourishment in Court. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e101300">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e101300">
           <speaker>(2.) </speaker>
           <lg>
             <l>But my good damn'd friend tell me? Is there not </l>
@@ -335,7 +329,7 @@
             <l>Some countenance to the affaires of the body? </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e101350">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e101350">
           <speaker>(3) </speaker>
           <lg>
             <l>Certain yong Lords at first disliked the Phylosophy </l>
@@ -347,18 +341,18 @@
           </lg>
         </sp>
         <p>To these come foorth in hast another Magician, in shape and habit differing from the other, and spake as followeth. </p>
-        <sp who="#ep000088-speaker_1" xml:id="ep000088-e101440">
+        <sp who="#ep000088-speaker-1" xml:id="ep000088-e101440">
           <speaker>(1.) </speaker>
           <l>Here comes a brother of our misticke Tribe! </l>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e101460">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e101460">
           <speaker>(3.) </speaker>
           <lg>
             <l>He knowes th'occasion of our griefe, and by </l>
             <l>His hast imports discoveries more strange! </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_4" xml:id="ep000088-e101500">
+        <sp who="#ep000088-speaker-4" xml:id="ep000088-e101500">
           <speaker>(4.) </speaker>
           <lg>
             <l>Newes! newes! my sad companions of the shade! </l>
@@ -370,7 +364,7 @@
           </lg>
         </sp>
         <pb xml:id="ep000088-006-b"/>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e101580">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e101580">
           <speaker>(2.) </speaker>
           <lg>
             <l>I hope these are no Platonicall Lovers, </l>
@@ -378,7 +372,7 @@
             <l>Madrigals to the mind? more of thy newes! </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_4" xml:id="ep000088-e101630">
+        <sp who="#ep000088-speaker-4" xml:id="ep000088-e101630">
           <speaker>(4.) </speaker>
           <lg>
             <l>The rest inferres small joy, and little hope: </l>
@@ -398,7 +392,7 @@
             <l>Which now their expectation doth attend. </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e101800">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e101800">
           <speaker>(3.) </speaker>
           <lg>
             <l>'Tis time to wake our drowsie Art, and try </l>
@@ -407,19 +401,19 @@
             <l>A Spirit of the Element of fire! </l>
           </lg>
         </sp>
-        <sp who="#ep000088-speaker_2" xml:id="ep000088-e101860">
+        <sp who="#ep000088-speaker-2" xml:id="ep000088-e101860">
           <speaker>(2.) </speaker>
           <l>Me one of Ayre! </l>
         </sp>
-        <sp who="#ep000088-speaker_1" xml:id="ep000088-e101880">
+        <sp who="#ep000088-speaker-1" xml:id="ep000088-e101880">
           <speaker>(1.) </speaker>
           <l>The water me supplies! </l>
         </sp>
-        <sp who="#ep000088-speaker_4" xml:id="ep000088-e101900">
+        <sp who="#ep000088-speaker-4" xml:id="ep000088-e101900">
           <speaker>(4.) </speaker>
           <l>Mine from the center of the earth shall rise! </l>
         </sp>
-        <sp who="#ep000088-speaker_3" xml:id="ep000088-e101920">
+        <sp who="#ep000088-speaker-3" xml:id="ep000088-e101920">
           <speaker>(3.) </speaker>
           <l>These shall infuse their sev'rall qualities </l>
           <l>In men; if not t'uphold the faction of </l>
@@ -430,7 +424,7 @@
           <l>Against this hum'rous vertue of the Time, </l>
           <l>Nature, our weaknesse must be thought thy crime. </l>
         </sp>
-        <sp who="#ep000088-missing" xml:id="ep000088-e102010">
+        <sp xml:id="ep000088-e102010">
           <gap extent="2" n="6-b-3040" unit="pages"/>
           <pb xml:id="ep000088-007-a"/>
           <l>From Persian Princes too, and each as fierce </l>
@@ -547,7 +541,7 @@
                 <l>First breath thine into me, thine is the part </l>
                 <l>More heavenly, and doth more adorne the heart. </l>
               </sp>
-              <sp who="#ep000088-both" xml:id="ep000088-e102940">
+              <sp who="#ep000088-sunesis #ep000088-thelema" xml:id="ep000088-e102940">
                 <speaker>Both. </speaker>
                 <l>Thus mix'd, our love will ever be discreet, </l>
                 <l>And all our thoughts and actions pure, </l>

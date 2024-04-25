@@ -94,72 +94,78 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000008-delsp">
-            <persName>Delsp</persName>
+          <person xml:id="ep000008-servant-2" sex="MALE">
+            <persName>Servant 2</persName>
           </person>
-          <person xml:id="ep000008-lurcher">
+          <person xml:id="ep000008-servant-1" sex="MALE">
+            <persName>Servant 1</persName>
+          </person>
+          <person xml:id="ep000008-recorder-2" sex="MALE">
+            <persName>Recorder 2</persName>
+          </person>
+          <person xml:id="ep000008-recorder-1" sex="MALE">
+            <persName>Recorder 1</persName>
+          </person>
+          <person xml:id="ep000008-fury-2" sex="FEMALE">
+            <persName>Fury 2</persName>
+          </person>
+          <person xml:id="ep000008-fury-1" sex="FEMALE">
+            <persName>Fury 1</persName>
+          </person>
+          <personGrp xml:id="ep000008-women" sex="FEMALE">
+            <name>Women</name>
+          </personGrp>
+          <person xml:id="ep000008-wildbrain-friend-2" sex="MALE">
+            <persName>Wildbrain's Friend 2</persName>
+          </person>
+          <person xml:id="ep000008-wildbrain-friend-1" sex="MALE">
+            <persName>Wildbrain's Friend 1</persName>
+          </person>
+          <person xml:id="ep000008-gentlewoman-2" sex="FEMALE">
+            <persName>Gentlewoman 2</persName>
+          </person>
+          <person xml:id="ep000008-gentlewoman-1" sex="FEMALE">
+            <persName>Gentlewoman 1</persName>
+          </person>
+          <person xml:id="ep000008-lurcher" sex="MALE">
             <persName>Lurcher</persName>
           </person>
-          <person xml:id="ep000008-wildbrain">
+          <person xml:id="ep000008-wildbrain" sex="MALE">
             <persName>Wildbrain</persName>
           </person>
-          <person xml:id="ep000008-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000008-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000008-hartlove">
+          <person xml:id="ep000008-hartlove" sex="MALE">
             <persName>Hartlove</persName>
           </person>
-          <person xml:id="ep000008-lady">
+          <person xml:id="ep000008-lady" sex="FEMALE">
             <persName>Lady</persName>
           </person>
-          <person xml:id="ep000008-maria">
+          <person xml:id="ep000008-maria" sex="FEMALE">
             <persName>Maria</persName>
           </person>
-          <person xml:id="ep000008-boy">
+          <person xml:id="ep000008-boy" sex="MALE">
             <persName>Boy</persName>
           </person>
-          <person xml:id="ep000008-nurse">
+          <person xml:id="ep000008-nurse" sex="FEMALE">
             <persName>Nurse</persName>
           </person>
-          <person xml:id="ep000008-toby">
+          <person xml:id="ep000008-toby" sex="MALE">
             <persName>Toby</persName>
           </person>
-          <person xml:id="ep000008-tom">
-            <persName>Tom</persName>
-          </person>
-          <person xml:id="ep000008-mrs_newlove">
+          <person xml:id="ep000008-mrs-newlove" sex="FEMALE">
             <persName>Mrs Newlove</persName>
           </person>
-          <person xml:id="ep000008-algrip">
-            <persName>Algrip</persName>
+          <person xml:id="ep000008-justice-algrip" sex="MALE">
+            <persName>Justice Algrip</persName>
           </person>
-          <person xml:id="ep000008-prostitute">
-            <persName>Prostitute</persName>
-          </person>
-          <person xml:id="ep000008-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000008-servant">
+          <person xml:id="ep000008-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000008-xxxxx">
-            <persName>Xxxxx</persName>
-          </person>
-          <person xml:id="ep000008-woman">
-            <persName>Woman</persName>
-          </person>
-          <person xml:id="ep000008-sexton">
+          <person xml:id="ep000008-sexton" sex="MALE">
             <persName>Sexton</persName>
           </person>
-          <person xml:id="ep000008-ringer">
-            <persName>Ringer</persName>
-          </person>
-          <person xml:id="ep000008-altha">
-            <persName>Altha</persName>
-          </person>
+          <personGrp xml:id="ep000008-ringers" sex="MALE">
+            <name>Ringers</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -226,7 +232,7 @@
         <div n="1" type="act" xml:id="ep000008-e100340">
           <div n="1" type="scene" xml:id="ep000008-e100350">
             <head>Actus primus, Scena prima </head>
-            <sp who="#ep000008-delsp" xml:id="ep000008-e100360">
+            <sp xml:id="ep000008-e100360">
               <stage xml:id="ep000008-e100370">Enter Tom Lurcher and Iack Wildbraine. </stage>
             </sp>
             <sp who="#ep000008-lurcher" xml:id="ep000008-e100380">
@@ -435,13 +441,13 @@
               <speaker>Wil. </speaker>
               <l>You are welcome noble friends. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e101730">
+            <sp who="#ep000008-wildbrain-friend-1" xml:id="ep000008-e101730">
               <speaker>1. </speaker>
               <l>I thanke you Sir, </l>
               <l>Nephew to the old Lady, his name is Wildbraine, </l>
               <l>And wild his best condition. </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e101770">
+            <sp who="#ep000008-wildbrain-friend-2" xml:id="ep000008-e101770">
               <speaker>2. </speaker>
               <l>I have heard of him, </l>
               <l>I pray ye tell me Sir, is young Maria merry </l>
@@ -455,7 +461,7 @@
               <l>But tis mine Ants will, that this dull mettall </l>
               <l>Must be mixt with her to allay her handsomenesse. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e101870">
+            <sp who="#ep000008-wildbrain-friend-1" xml:id="ep000008-e101870">
               <speaker>1. </speaker>
               <l>Had Hartlove no fast friends? </l>
             </sp>
@@ -469,7 +475,7 @@
               <l>But tis her unhansome fate. </l>
               <stage xml:id="ep000008-e101960">Enter Hartlove. </stage>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e101970">
+            <sp who="#ep000008-wildbrain-friend-1" xml:id="ep000008-e101970">
               <speaker>1. </speaker>
               <l>I am sorry fort, </l>
               <l>Here comes poore Franke, nay we are friends, start not Sir, </l>
@@ -504,14 +510,14 @@
               <speaker>Wil. </speaker>
               <l>Let 'em alone a while, thei'le follow thee. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e102180">
+            <sp who="#ep000008-wildbrain-friend-1" xml:id="ep000008-e102180">
               <speaker>1. </speaker>
               <l>Come good Franke, </l>
               <pb xml:id="ep000008-005-b"/>
               <l>Forget now, since there is no remedy, </l>
               <l>And shew a merry face, as wise men would doe. </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e102220">
+            <sp who="#ep000008-wildbrain-friend-2" xml:id="ep000008-e102220">
               <speaker>2. </speaker>
               <l>Be a free guest, and thinke not of those passages. </l>
             </sp>
@@ -544,7 +550,7 @@
               <stage xml:id="ep000008-e102410">Knock within. </stage>
               <l>Come wo't thou goe? </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e102430">
+            <sp who="#ep000008-wildbrain-friend-2" xml:id="ep000008-e102430">
               <speaker>2. </speaker>
               <l>I prethee Franke goe with us, </l>
               <l>And laugh and dance as we doe. </l>
@@ -939,7 +945,7 @@
               <speaker>La. </speaker>
               <l>Alas, good Gentleman, give him not much wine. </l>
             </sp>
-            <sp who="#ep000008-tom" xml:id="ep000008-e105090">
+            <sp who="#ep000008-lurcher" xml:id="ep000008-e105090">
               <speaker>Tom. </speaker>
               <l>He shall ha none by my consent. </l>
             </sp>
@@ -947,7 +953,7 @@
               <speaker>La. </speaker>
               <l>Are the women comforting my daughter? </l>
             </sp>
-            <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e105130">
+            <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e105130">
               <speaker>New. </speaker>
               <l>Yes, yes, Madam, </l>
               <l>And reading to her a patterne of true patience, </l>
@@ -1091,7 +1097,7 @@
               <speaker>La. </speaker>
               <l>Tis time you were a bed. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e106050">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e106050">
               <speaker>In. </speaker>
               <l>I prethee sweete heart </l>
               <l>Consider my necessity, why art sad? </l>
@@ -1102,24 +1108,24 @@
               <l>Of Tom Thumb. </l>
               <l>I beleeve that will prove your stiffest story. </l>
             </sp>
-            <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e106120">
+            <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e106120">
               <speaker>New. </speaker>
               <l>I pitty the young wench. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e106140">
+            <sp who="#ep000008-gentlewoman-1" xml:id="ep000008-e106140">
               <speaker>1. </speaker>
               <l>And so doe I too. </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e106160">
+            <sp who="#ep000008-gentlewoman-2" xml:id="ep000008-e106160">
               <speaker>2. </speaker>
               <l>Come, old stickes take fire. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e106180">
+            <sp who="#ep000008-gentlewoman-1" xml:id="ep000008-e106180">
               <speaker>1. </speaker>
               <l>But the Plague is, heele burne out instantly; </l>
               <l>Give him another cup. </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e106210">
+            <sp who="#ep000008-gentlewoman-2" xml:id="ep000008-e106210">
               <speaker>2. </speaker>
               <l>Those are but flashes, </l>
               <l>A run of sacke wonot set him high enough. </l>
@@ -1129,13 +1135,13 @@
               <speaker>M. </speaker>
               <l>I must. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e106270">
+            <sp who="#ep000008-gentlewoman-1" xml:id="ep000008-e106270">
               <speaker>1. </speaker>
               <l>Come have a good heart, </l>
               <l>And win him like a bowle to lye close to you, </l>
               <l>Make your best use. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e106310">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e106310">
               <speaker>Ju. </speaker>
               <l>Nay prethee Ducke goe instantly, </l>
               <l>Ile daunce a Jig or two to warme my body. </l>
@@ -1162,7 +1168,7 @@
               <l>Come then, </l>
               <l>Weele waite in the next roome. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e106470">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e106470">
               <speaker>Iu. </speaker>
               <l>Doe not tarry </l>
               <l>For if thou dost, by my troth I shall fall asleepe Mall. </l>
@@ -1246,7 +1252,7 @@
               <speaker>Ma. </speaker>
               <l>Yare little better to disturb me now. </l>
             </sp>
-            <sp who="#ep000008-prostitute" xml:id="ep000008-e107020">
+            <sp who="#ep000008-hartlove" xml:id="ep000008-e107020">
               <speaker>Pr. </speaker>
               <l>My name is Hartlove </l>
             </sp>
@@ -1310,7 +1316,7 @@
               <stage xml:id="ep000008-e107380">Exit. </stage>
               <stage xml:id="ep000008-e107390">Enter Wildbraine, Iustice, Lady, Nurse, Gent. Women, Newlove. </stage>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e107400">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e107400">
               <speaker>Iust. </speaker>
               <l>Shee's not in her Chamber. </l>
             </sp>
@@ -1322,11 +1328,12 @@
               <speaker>Wil. </speaker>
               <l>And Ile tell you what I dream'd </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e107460">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e107460">
               <speaker>Iu. </speaker>
               <l>Give me a Torch. </l>
             </sp>
-            <sp who="#ep000008-multiple" xml:id="ep000008-e107480">
+            <sp who="#ep000008-gentlewoman-1 #ep000008-gentlewoman-2"
+                      xml:id="ep000008-e107480">
               <speaker>1 and G. </speaker>
               <l>Be not too hastie sir. </l>
             </sp>
@@ -1358,7 +1365,7 @@
               <l>Prethee honest Nurse doe not fret too much </l>
               <l>For feare I dreame youle hang your selfe too. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e107670">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e107670">
               <speaker>Iust. </speaker>
               <l>The Cloister? </l>
             </sp>
@@ -1367,7 +1374,7 @@
               <l>Such was my fancie, I doe not say tis true, </l>
               <l>Nor doe I bid you be too confident. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e107720">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e107720">
               <speaker>Iu. </speaker>
               <l>Where are the keyes, the keyes I say. </l>
             </sp>
@@ -1392,7 +1399,7 @@
               <speaker>Wil. </speaker>
               <l>What foolish dreames are these? </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e107850">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e107850">
               <speaker>Iu. </speaker>
               <l>I am mad. </l>
             </sp>
@@ -1401,15 +1408,15 @@
               <l>I hope so. </l>
               <l>If you be not mad, Ile doe my best to make yee. </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e107900">
+            <sp who="#ep000008-gentlewoman-1" xml:id="ep000008-e107900">
               <speaker>1. </speaker>
               <l>This is some tricke. </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e107920">
+            <sp who="#ep000008-gentlewoman-2" xml:id="ep000008-e107920">
               <speaker>2. </speaker>
               <l>I smell the Wildgoose. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e107940">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e107940">
               <speaker>Iu. </speaker>
               <l>Come gentlemen, come quickely I beseech you, </l>
               <l>Quicke as you can, this may be your case Gentlemen. </l>
@@ -1441,7 +1448,7 @@
               <l>On your faire hand I seale. </l>
               <stage xml:id="ep000008-e108160">Enter. </stage>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108170">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108170">
               <speaker>Iu. </speaker>
               <l>Downe with the doore. </l>
             </sp>
@@ -1454,18 +1461,18 @@
               <l>Ile dye for ye </l>
               <l>Rather than you shall suffer, Ile—— </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108240">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108240">
               <speaker>Iu. </speaker>
               <l>Now Enter. </l>
               <l>Enter sweete Gentlemen, mine eyes, mine eyes, </l>
               <l>Oh how my head akes. </l>
               <stage xml:id="ep000008-e108280">Enter All. </stage>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e108290">
+            <sp who="#ep000008-gentlewoman-1" xml:id="ep000008-e108290">
               <speaker>1. </speaker>
               <l>Is it possible? </l>
             </sp>
-            <sp who="#ep000008-xxxx_2" xml:id="ep000008-e108310">
+            <sp who="#ep000008-gentlewoman-2" xml:id="ep000008-e108310">
               <speaker>2. </speaker>
               <l>Hold her, she sinkes. </l>
             </sp>
@@ -1475,7 +1482,7 @@
               <l>To poyson my faire name, a studied villanie, </l>
               <l>Farewell, as I have hope of peace, I am honest, </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108370">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108370">
               <speaker>Iu. </speaker>
               <l>My brains, my brains, my monstrous brains, they bud sure. </l>
             </sp>
@@ -1483,7 +1490,7 @@
               <speaker>Nu. </speaker>
               <l>She is gone, she is gone. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108410">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108410">
               <speaker>Iu. </speaker>
               <l>A handsome riddance of her. </l>
               <l>Would I could as easily lose her memory. </l>
@@ -1493,11 +1500,11 @@
               <l>Is this the sweete of Marriage, have I bred thee </l>
               <l>For this reward? </l>
             </sp>
-            <sp who="#ep000008-xxxx_1" xml:id="ep000008-e108470">
+            <sp who="#ep000008-gentlewoman-1" xml:id="ep000008-e108470">
               <speaker>1. </speaker>
               <l>Hold, hold, he's desperate too. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108490">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108490">
               <speaker>Ju. </speaker>
               <l>Be sure ye hold him fast, weele bind him over </l>
               <l>To the next Sessions, and if I can Ile hang him. </l>
@@ -1524,7 +1531,7 @@
               <speaker>La. </speaker>
               <l>Carry her in, you will pay backe her portion. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108660">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108660">
               <speaker>Iu. </speaker>
               <l>No not a penny, pay me backe my credit </l>
               <l>And Ile condition weye. </l>
@@ -1537,7 +1544,7 @@
               <l>Would I had wed thee to thy owne content </l>
               <l>Then I had had thee still. </l>
             </sp>
-            <sp who="#ep000008-algrip" xml:id="ep000008-e108740">
+            <sp who="#ep000008-justice-algrip" xml:id="ep000008-e108740">
               <speaker>Iu. </speaker>
               <l>I am mad, farewell, </l>
               <l>Another wanton wife will prove a hell. </l>
@@ -1547,7 +1554,7 @@
         </div>
         <div n="2" type="act" xml:id="ep000008-e108780">
           <head>Actus Secundus. </head>
-          <sp who="#ep000008-delsp" xml:id="ep000008-e108790">
+          <sp xml:id="ep000008-e108790">
             <stage xml:id="ep000008-e108800">Enter Tom Lurch. and his Boy. </stage>
           </sp>
           <sp who="#ep000008-lurcher" xml:id="ep000008-e108810">
@@ -1701,7 +1708,7 @@
             <l>And when I touch move forward, make no noise. </l>
           </sp>
           <pb xml:id="ep000008-012-b"/>
-          <sp who="#ep000008-delsp" xml:id="ep000008-e109740">
+          <sp xml:id="ep000008-e109740">
             <stage xml:id="ep000008-e109750">Enter Nurse and Tobie. </stage>
           </sp>
           <sp who="#ep000008-nurse" xml:id="ep000008-e109760">
@@ -1906,7 +1913,7 @@
             <l>Here's something comes. </l>
             <stage xml:id="ep000008-e111110">Enter Newlove. </stage>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111120">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111120">
             <speaker>New. </speaker>
             <l>Oh that I had some company, </l>
             <l>I care not what they were, to ease my misery, </l>
@@ -1916,7 +1923,7 @@
             <speaker>Wil. </speaker>
             <l>Whos's that? </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111180">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111180">
             <speaker>New. </speaker>
             <l>Againe? nay then receive </l>
           </sp>
@@ -1925,7 +1932,7 @@
             <l>Hold, hold I am no fury. </l>
             <l>The Merchants wife. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111230">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111230">
             <speaker>New. </speaker>
             <l>Are ye a man? pray heaven you be. </l>
           </sp>
@@ -1933,7 +1940,7 @@
             <speaker>Wil. </speaker>
             <l>I am. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111270">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111270">
             <speaker>New. </speaker>
             <l>Alas I have met sir </l>
             <l>The strangest things too night. </l>
@@ -1942,7 +1949,7 @@
             <speaker>Wil. </speaker>
             <l>Why doe you stare. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111320">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111320">
             <speaker>New. </speaker>
             <l>Pray comfort me, and put your candle out </l>
             <pb xml:id="ep000008-014-a"/>
@@ -1956,7 +1963,7 @@
             <l>Retire into my Chamber, there Ile watch we yee, </l>
             <l>Ile keepe you from all frights. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111410">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111410">
             <speaker>New. </speaker>
             <l>And will ye keepe me. </l>
           </sp>
@@ -1964,7 +1971,7 @@
             <speaker>Wil. </speaker>
             <l>Keepe you as secure Lady. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111450">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111450">
             <speaker>New. </speaker>
             <l>You must not wrong me then, the devill will have us. </l>
           </sp>
@@ -1979,7 +1986,7 @@
             <l>Into strange creatures, Owles, and long-taild Monkeys </l>
             <l>Jayes, Pies, and Parrots, quickely, I smell his brimstone. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e111560">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e111560">
             <speaker>New. </speaker>
             <l>It comes agen I am gone, shift for your selfe sir. </l>
             <stage xml:id="ep000008-e111580">Exit. </stage>
@@ -2115,7 +2122,7 @@
             <l>Most learned child. </l>
             <stage xml:id="ep000008-e112430">Enter Mistresse. </stage>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112440">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112440">
             <speaker>Mi. </speaker>
             <l>Y'are welcome, where have you left it. </l>
           </sp>
@@ -2123,7 +2130,7 @@
             <speaker>Lu. </speaker>
             <l>In the next roome, hard by. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112480">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112480">
             <speaker>Mi. </speaker>
             <l>Is it plate all. </l>
           </sp>
@@ -2132,7 +2139,7 @@
             <l>All, all, and Jewels, I am monstrous weary, </l>
             <l>Prethee lets goe to bed. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112530">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112530">
             <speaker>Mi. </speaker>
             <l>Prethee lets see it first. </l>
           </sp>
@@ -2140,7 +2147,7 @@
             <speaker>Lu. </speaker>
             <l>To morrowes a new sweet. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112570">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112570">
             <speaker>Mi. </speaker>
             <l>Yes to melt it, </l>
             <l>But lets agree to night, how it shall be handled </l>
@@ -2150,7 +2157,7 @@
             <speaker>Lur. </speaker>
             <l>Shat have any thing. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112630">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112630">
             <speaker>Mi. </speaker>
             <l>And such a riding suite as Mistresse Newloves, </l>
             <l>What though I be no gentlewoman borne, </l>
@@ -2160,7 +2167,7 @@
             <speaker>Lu. </speaker>
             <l>Thou sayst right. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112690">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112690">
             <speaker>Mi. </speaker>
             <l>You promis'd me a horse too, and a lackquay. </l>
           </sp>
@@ -2168,7 +2175,7 @@
             <speaker>Lur. </speaker>
             <l>Thou shat have horses sixe, and a postilion. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112730">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112730">
             <speaker>Mi. </speaker>
             <l>That will be stately sweete heart, a postilion. </l>
           </sp>
@@ -2178,7 +2185,7 @@
             <l>In winter, with as much dirt would dampe a musket, </l>
             <l>The inside of our coach shall be of scarlet. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112790">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112790">
             <speaker>Mi. </speaker>
             <l>That will be deere. </l>
           </sp>
@@ -2187,7 +2194,7 @@
             <l>There is a dye projecting </l>
             <l>Will make it cheape wench, come thou shalt have any thing. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112840">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112840">
             <speaker>Mi. </speaker>
             <l>Where is this chest, I long sweete to behold </l>
             <l>Our Jndies. </l>
@@ -2197,7 +2204,7 @@
             <l>Mistresse lets melt it first, and then tis fit </l>
             <l>You should dispose it, then tis safe from danger. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112900">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112900">
             <speaker>Mi. </speaker>
             <l>Ile be a loving Mistresse to my boy too. </l>
             <l>Now fetch it in and lets rejoyce upon't. </l>
@@ -2206,7 +2213,7 @@
             <speaker>Boy. </speaker>
             <l>Hold your light Mistresse, we may see to enter. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e112950">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e112950">
             <speaker>Mi. </speaker>
             <l>Ha what's here? call you this a chest? </l>
           </sp>
@@ -2216,7 +2223,7 @@
             <pb xml:id="ep000008-015-b"/>
             <l>Our hast and want of light made us mistake? </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113000">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113000">
             <speaker>Mi. </speaker>
             <l>A very Coffin. </l>
           </sp>
@@ -2228,7 +2235,7 @@
             <speaker>Boy. </speaker>
             <l>The devill ow'd us a shame, and now he has paid us. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113060">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113060">
             <speaker>Mi. </speaker>
             <l>Is this your Treasure? </l>
           </sp>
@@ -2240,7 +2247,7 @@
             <speaker>Lu. </speaker>
             <l>It may be there is no roome. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113120">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113120">
             <speaker>Mi. </speaker>
             <l>Nay, I will search it, </l>
             <l>Ile see what wealth's within,—— a womans face, </l>
@@ -2260,7 +2267,7 @@
             <speaker>Boy. </speaker>
             <l>This may worke, what will become on's sir? </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113240">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113240">
             <speaker>Mi. </speaker>
             <l>She is cold, dead cold: de'e finde 'your conscience, </l>
             <l>De'e bring your Gillians hither— nay, shee's punish'd, </l>
@@ -2270,7 +2277,7 @@
             <speaker>Lur. </speaker>
             <l>Tis Maria, the very same, the Bride, new horror! </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113300">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113300">
             <speaker>Mi. </speaker>
             <l>These are fine trickes, you hope shee's in a sound, </l>
             <l>But Ile take order she shall ne'r recover </l>
@@ -2283,7 +2290,7 @@
             <l>Wee may be in for murther so; be patient, </l>
             <l>Thou seest shee's dead, and cannot injure thee. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113390">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113390">
             <speaker>Mi. </speaker>
             <l>I am sure she shall not. </l>
           </sp>
@@ -2297,7 +2304,7 @@
             <speaker>Lu. </speaker>
             <l>What an unluckie theefe am I? </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113470">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113470">
             <speaker>Mi. </speaker>
             <l>Ile no considering, either bestirre your selfe, or— </l>
           </sp>
@@ -2305,7 +2312,7 @@
             <speaker>Lu. </speaker>
             <l>Hold. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113510">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113510">
             <speaker>Mi. </speaker>
             <l>Let it not stay to smell then, I will not </l>
             <l>Indure the stinke of a Rivall. </l>
@@ -2324,7 +2331,7 @@
             <pb xml:id="ep000008-016-a"/>
             <l>That no eyes watch us. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113610">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113610">
             <speaker>Mi. </speaker>
             <l>Take a Spade and follow me. </l>
             <l>The next faire ground we meete, make the Church yard; </l>
@@ -2362,7 +2369,7 @@
             <l>And must dispose her. </l>
             <stage xml:id="ep000008-e113840">Enter Mistresse. </stage>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e113850">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e113850">
             <speaker>Mi. </speaker>
             <l>Hang both for two blind buzzards, here's a Spade </l>
             <l>Quickly or Ile call the neighbours. </l>
@@ -2375,7 +2382,7 @@
             <speaker>Ser. </speaker>
             <l>'Twas a strange mischance sir. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e113940">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e113940">
             <speaker>Iu. </speaker>
             <l>Mischance, saist? No twas happinesse to me, </l>
             <l>There's so much charge sav'd, I haue her portion, </l>
@@ -2386,7 +2393,7 @@
             <l>Did it not trouble you sir, </l>
             <l>To see her dead? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114010">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114010">
             <speaker>Iu. </speaker>
             <l>Not much, I thanke my conscience; </l>
             <l>I was tormented till that happen'd, furies </l>
@@ -2399,7 +2406,7 @@
             <speaker>Ser. </speaker>
             <l>Why, and please you? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114100">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114100">
             <speaker>Iu. </speaker>
             <l>Foole to aske that question; </l>
             <l>To keepe out women, I expect her mother </l>
@@ -2419,7 +2426,7 @@
             <l>If youle goe </l>
             <l>To th'charge, let me alone to finde you Bookes. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114250">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114250">
             <speaker>Ju. </speaker>
             <l>They come neere us. </l>
           </sp>
@@ -2427,7 +2434,7 @@
             <speaker>Ser. </speaker>
             <l>Whats that? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114290">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114290">
             <speaker>Ju. </speaker>
             <l>Where? hold up the Torch Knave. </l>
           </sp>
@@ -2435,7 +2442,7 @@
             <speaker>Ser. </speaker>
             <l>Did you heare nothing? 'tis a— </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114330">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114330">
             <speaker>Iu. </speaker>
             <l>Why dost make a stand? </l>
           </sp>
@@ -2443,7 +2450,7 @@
             <speaker>Ser. </speaker>
             <l>Whats that? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114370">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114370">
             <speaker>Iu. </speaker>
             <l>Where, where, dost see any thing? </l>
             <l>We are hard by the Church-yard, and I was never </l>
@@ -2451,7 +2458,7 @@
             <l>They say Ghosts walke sometimes, harke, de'e heare nothing? </l>
             <stage xml:id="ep000008-e114420">Enter Eurcher, Boy, and Mistres. </stage>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e114430">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e114430">
             <speaker>Mi. </speaker>
             <l>No further, dig here, and lay her in quickly. </l>
           </sp>
@@ -2465,7 +2472,7 @@
             <speaker>Boy. </speaker>
             <l>Oh. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114510">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114510">
             <speaker>Ju. </speaker>
             <l>Where's that groane? I begin to be afraid. </l>
           </sp>
@@ -2473,7 +2480,7 @@
             <speaker>Ser. </speaker>
             <l>What shall we doe sir? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114550">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114550">
             <speaker>Iu. </speaker>
             <l>We are almost at home now, thou must goe forward; </l>
             <l>Perhaps 'twas my imagination. </l>
@@ -2491,7 +2498,7 @@
             <l>Oh sir, a Ghost, the very Ghost of Mistresse Bride. </l>
             <l>I have no power to runne away. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114650">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114650">
             <speaker>Iu. </speaker>
             <l>Cursed Ghost; blesse me, preserve me, </l>
             <l>I doe command thee what so ere thou art, </l>
@@ -2505,7 +2512,7 @@
             <speaker>Boy. </speaker>
             <l>Thy wife. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114740">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114740">
             <speaker>Iu. </speaker>
             <l>I shall be tormented. </l>
           </sp>
@@ -2514,7 +2521,7 @@
             <l>Thy abus'd wife, that cannot peaceably </l>
             <l>Enjoy her death, thou hast an evill conscience. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114790">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114790">
             <speaker>Ju. </speaker>
             <l>I know it. </l>
           </sp>
@@ -2538,7 +2545,7 @@
             <speaker>Ser. </speaker>
             <l>There are more spirits. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e114950">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e114950">
             <speaker>Iu. </speaker>
             <l>Thanke you deare wife, </l>
             <l>Ile bestow twentie nobles of a Tombe for thee, </l>
@@ -2557,7 +2564,7 @@
             <l>This Gentlewoman, where's my Mistresse? </l>
             <stage xml:id="ep000008-e115070">Enter Mistresse. </stage>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e115080">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e115080">
             <speaker>Mi. </speaker>
             <l>Here, I durst not tarry. </l>
           </sp>
@@ -2583,7 +2590,7 @@
             <speaker>Lur. </speaker>
             <l>Agen, she stirres. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e115220">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e115220">
             <speaker>Mi. </speaker>
             <l>Lets flye, or else we shall be torne in peeces. </l>
           </sp>
@@ -2611,7 +2618,7 @@
         </div>
         <div n="3" type="act" xml:id="ep000008-e115400">
           <head>Actus Tertius. </head>
-          <sp who="#ep000008-xxxxx" xml:id="ep000008-e115410">
+          <sp xml:id="ep000008-e115410">
             <stage xml:id="ep000008-e115420">Enter Lady, Wildbraine, Women, Toby, </stage>
           </sp>
           <sp who="#ep000008-lady" xml:id="ep000008-e115430">
@@ -2963,7 +2970,7 @@
             <l>They may be charitable, would 'twere perfect day. </l>
             <stage xml:id="ep000008-e117940">Enter Mistresse. </stage>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e117950">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e117950">
             <speaker>Mi. </speaker>
             <l>Tis not he? What would you sir? </l>
           </sp>
@@ -2973,7 +2980,7 @@
             <l>And for my hurts some Surgerie, I am a Gentleman </l>
             <l>That Fortune of a fight— </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e118010">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e118010">
             <speaker>Mi. </speaker>
             <l>A hansome Gentleman, </l>
             <l>Alas he bleedes, a very hansome gentleman, </l>
@@ -2983,7 +2990,7 @@
             <l>A sweet young wench, beshrow my heart a faire one; </l>
             <l>Fortune has made me some recompence. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e118070">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e118070">
             <speaker>Mi. </speaker>
             <l>Pray come in, the aire is hurtfull for you; </l>
             <l>Pray let me lead you, Ile have a bed for you presently, </l>
@@ -2993,7 +3000,7 @@
             <speaker>Wi. </speaker>
             <l>I feele no hurts, the morning comes too fast now. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e118130">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e118130">
             <speaker>Mi. </speaker>
             <l>Softly I beseech you. </l>
             <stage xml:id="ep000008-e118150">Exit. </stage>
@@ -3075,7 +3082,7 @@
             <l>And tune our Instruments, till the confort come </l>
             <l>To make up the full noise, Ile knocke. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e118660">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e118660">
             <speaker>Iu. </speaker>
             <l>Who's that? raps so sawcily? </l>
           </sp>
@@ -3085,7 +3092,7 @@
             <l>Alas, this is but the Sauncebell, here's a Gentlewoman </l>
             <l>Will ring you another peale, come downe, I say. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e118720">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e118720">
             <speaker>Iu. </speaker>
             <l>Some new fortifications, looke to my doores, </l>
             <l>Put double barres, I will not have her enter, </l>
@@ -3106,7 +3113,7 @@
             <speaker>To. </speaker>
             <l>Iew's too good for him. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e118860">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e118860">
             <speaker>Iu. </speaker>
             <l>I defie you both; </l>
             <l>Thy daughter plaid the villaine and betray'd me. </l>
@@ -3144,7 +3151,7 @@
             <l>Where is her Porrion. </l>
             <stage xml:id="ep000008-e119070">Enter Nurse and women. </stage>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119080">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119080">
             <speaker>Iu. </speaker>
             <l>Where Ile keepe it safely. </l>
           </sp>
@@ -3152,7 +3159,7 @@
             <speaker>Nur. </speaker>
             <l>Traitor, thou shalt not keepe it. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119120">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119120">
             <speaker>Iu. </speaker>
             <l>More of the kennell? put more bolts to'th doores there, </l>
             <l>And arme your selves, hell is broke loose upon us. </l>
@@ -3165,7 +3172,7 @@
             <speaker>La. </speaker>
             <l>Oh Nurse, I have such cause— </l>
           </sp>
-          <sp who="#ep000008-woman" xml:id="ep000008-e119190">
+          <sp who="#ep000008-women" xml:id="ep000008-e119190">
             <speaker>Wo. </speaker>
             <l>Vilaine, viper, although you had no cause, we are bound </l>
             <l>To helpe. </l>
@@ -3175,7 +3182,7 @@
             <l>Yes, and beleeve, we come not here to examine, </l>
             <l>And if you please weele fire the house. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119250">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119250">
             <speaker>Iu. </speaker>
             <l>Call the Constable. </l>
           </sp>
@@ -3188,7 +3195,7 @@
             <l>No, no, wele onely let him know our minds, </l>
             <l>We will commit no outrage, he's a Lawyer. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119320">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119320">
             <speaker>Iu. </speaker>
             <l>Give me my Musket. </l>
           </sp>
@@ -3197,7 +3204,7 @@
             <l>Wheer's my daughters body, </l>
             <l>That I may bury it? </l>
           </sp>
-          <sp who="#ep000008-woman" xml:id="ep000008-e119370">
+          <sp who="#ep000008-women" xml:id="ep000008-e119370">
             <speaker>Wo. </speaker>
             <l>Speake, or weele bury thee, </l>
           </sp>
@@ -3209,7 +3216,7 @@
             <speaker>To. </speaker>
             <l>Bury him alive by all meanes for a testimony. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119430">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119430">
             <speaker>Iu. </speaker>
             <l>Their voyces make my house reele, oh for Officers, </l>
             <pb xml:id="ep000008-021-b"/>
@@ -3221,7 +3228,7 @@
             <speaker>La. </speaker>
             <l>The Law shall say more. </l>
           </sp>
-          <sp who="#ep000008-multiple" xml:id="ep000008-e119500">
+          <sp who="#ep000008-women #ep000008-nurse" xml:id="ep000008-e119500">
             <speaker>Wo. and Nur. </speaker>
             <l>We are witnesses, </l>
             <l>And if thou beest not hang'd— </l>
@@ -3255,7 +3262,7 @@
             <speaker>Lur. </speaker>
             <l>A new booke of women. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119700">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119700">
             <speaker>Iu. </speaker>
             <l>The thunders laid, how they stare at him. </l>
           </sp>
@@ -3264,7 +3271,7 @@
             <l>A new booke of fooles, a strange booke, </l>
             <l>Very strange fooles. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119750">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119750">
             <speaker>Iu. </speaker>
             <l>Ile owe thee a good turne what e're thou art. </l>
           </sp>
@@ -3272,7 +3279,7 @@
             <speaker>Lur. </speaker>
             <l>A booke of walking spirits. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119790">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119790">
             <speaker>Iu. </speaker>
             <l>That I like not. </l>
           </sp>
@@ -3284,7 +3291,7 @@
             <speaker>Lur. </speaker>
             <l>A booke of wicked women. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e119850">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e119850">
             <speaker>Iu. </speaker>
             <l>Thats well thought on. </l>
           </sp>
@@ -3315,7 +3322,7 @@
             <speaker>Nur. </speaker>
             <l>Peace firra, or Ile teare your bookes. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e120020">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e120020">
             <speaker>Iu. </speaker>
             <l>Open the doore, and let him in, I love him. </l>
           </sp>
@@ -3333,7 +3340,7 @@
             <l>That we are their places in their peticotes. </l>
           </sp>
           <pb xml:id="ep000008-022-a"/>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e120110">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e120110">
             <speaker>Iu. </speaker>
             <l>Dee you heare that Lady. </l>
           </sp>
@@ -3356,12 +3363,12 @@
             <l>Was sent to abuse us, but we shall have time </l>
             <l>To talke more with this Iustice. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e120260">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e120260">
             <speaker>Iu. </speaker>
             <l>Farewell Madam, as you like this come visit me agen, </l>
             <l>You and your treble strings, now scold your hearts out— </l>
           </sp>
-          <sp who="#ep000008-woman" xml:id="ep000008-e120290">
+          <sp who="#ep000008-women" xml:id="ep000008-e120290">
             <speaker>Wo. </speaker>
             <l>Shall he carry it thus away? </l>
           </sp>
@@ -3378,11 +3385,11 @@
             <stage xml:id="ep000008-e120380">Exit. </stage>
             <stage xml:id="ep000008-e120390">Enter Servants. </stage>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120400">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120400">
             <speaker>1. </speaker>
             <l>What booke has he given thee? </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120420">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120420">
             <speaker>2. </speaker>
             <l>A dainty booke, a booke of the great Navy, </l>
             <l>Of fifteene hundred shippes of Cannon proofe, </l>
@@ -3390,25 +3397,25 @@
             <l>And Dragons in 'em, that spit fire ten mile; </l>
             <l>And Elephants that carry goodly castles. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120480">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120480">
             <speaker>1. </speaker>
             <l>Dost thou beleeve it? </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120500">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120500">
             <speaker>2. </speaker>
             <l>Shall we not beleeve bookes in Print? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120520">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120520">
             <speaker>1. </speaker>
             <l>I have John Taylors booke of Hempeseede too, </l>
             <l>Which for two lines I hapned on by chance, </l>
             <l>I reverence. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120560">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120560">
             <speaker>2. </speaker>
             <l>I prethee what are they? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120580">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120580">
             <speaker>1. </speaker>
             <l>They are so put upon the time, as if </l>
             <l>He studied to answer the late Histriomastix, </l>
@@ -3421,41 +3428,41 @@
             <l>What hast there, a ballad too? </l>
           </sp>
           <pb xml:id="ep000008-022-b"/>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120680">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120680">
             <speaker>2. </speaker>
             <l>This? This is a peece of Poetrie indeed; </l>
             <stage xml:id="ep000008-e120700">He sings; Iustice cries within. </stage>
             <l>What noise is that? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120720">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120720">
             <speaker>1. </speaker>
             <l>Some cry ith' streets; prethee sing on. </l>
             <stage xml:id="ep000008-e120740">Sing againe. </stage>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120750">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120750">
             <speaker>2. </speaker>
             <l>Agen, dost not heare? 'tis ith' house certainely? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120770">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120770">
             <speaker>1. </speaker>
             <l>Tis a strange noise? and has a tang o'the Iustice. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120790">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120790">
             <speaker>2. </speaker>
             <l>Lets see? </l>
             <stage xml:id="ep000008-e120810">Exit. </stage>
             <stage xml:id="ep000008-e120820">Enter the Servants bringing in their Master bound and gag'd. </stage>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120830">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120830">
             <speaker>1. </speaker>
             <l>Unty his feete, pull out his gagge, he will choake else; </l>
             <l>What desperate rogues were these. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e120860">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e120860">
             <speaker>2. </speaker>
             <l>Give him fresh aire. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e120880">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e120880">
             <speaker>Iu. </speaker>
             <l>I will never study bookes more; </l>
             <l>I am undone, these villaines have undone me, </l>
@@ -3464,23 +3471,23 @@
             <l>Where were you rascalls when the villaines bound me, </l>
             <l>You could not heare. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e120950">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e120950">
             <speaker>1. </speaker>
             <l>He gave us bookes sir, dainty bookes to busie us; </l>
             <l>And we were reading in that which was the Brewhouse; </l>
             <l>A great way off, we were singing ballads too, </l>
             <l>And could not heare. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121000">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121000">
             <speaker>Ju. </speaker>
             <l>This was a precious theefe, </l>
             <l>A subtill tricke to keepe my servants safe. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e121030">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e121030">
             <speaker>2. </speaker>
             <l>What ha you lost fir? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121050">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121050">
             <speaker>Iu. </speaker>
             <l>They ransack'd all before my face, and threatned </l>
             <l>To kill me, if I cough'd, they have a chaine, </l>
@@ -3490,44 +3497,44 @@
             <l>That knew me, and set on by the old Lady, </l>
             <l>I will indite her for't. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e121130">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e121130">
             <speaker>1. </speaker>
             <l>Shall we pursue 'em? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121150">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121150">
             <speaker>Iu. </speaker>
             <l>Runne, runne, cursed raskalls, </l>
             <l>I am out of my wits, let not a creature in, </l>
             <l>No not with necessaries. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e121190">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e121190">
             <speaker>2. </speaker>
             <l>We shall be starv'd. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121210">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121210">
             <speaker>Ju. </speaker>
             <l>Ile buy my meate at window, as they passe by; </l>
             <l>I wonot trust my Scrivenor, he has bookes too; </l>
             <l>And bread Ile ha flung up; I charge yee all </l>
             <l>Burne all the bookes i th house. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e121260">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e121260">
             <speaker>1. </speaker>
             <l>Your little Prayer booke? </l>
           </sp>
           <pb xml:id="ep000008-023-a"/>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121280">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121280">
             <speaker>Iu. </speaker>
             <l>Ile never pray agen, ile have my doores </l>
             <l>Made, up nothing but walls, and thicke ones too; </l>
             <l>No sound shall tempt me agen, remember I </l>
             <l>Have forswoare bookes. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e121330">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e121330">
             <speaker>2. </speaker>
             <l>If you should be call'd to take you oath. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121350">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121350">
             <speaker>Iu. </speaker>
             <l>I will forsweare all oathes, rather than see </l>
             <l>A thing but in the likenesse of a booke: </l>
@@ -3535,12 +3542,12 @@
             <l>Than read agen; come in, and search all places, </l>
             <l>They may be about the house, were the doores lock'd? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e121410">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e121410">
             <speaker>1. </speaker>
             <l>But the keyes in 'em, and if they be gone, </l>
             <l>They could not want wit to locke us in sir. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e121440">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e121440">
             <speaker>Iu. </speaker>
             <l>Never was man so miserably undone, </l>
             <l>I would lose a limbe to see their rogueships totter. </l>
@@ -3639,7 +3646,7 @@
             <l>Assure me you are charitable; shee's dead </l>
             <l>Which makes us both sad: What doe you looke on? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e122040">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e122040">
             <speaker>1. </speaker>
             <l>The likest face— </l>
           </sp>
@@ -3701,7 +3708,7 @@
             <speaker>La. </speaker>
             <l>How prettily this anger shewes. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e122370">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e122370">
             <speaker>1. </speaker>
             <l>She gabbles innocently. </l>
           </sp>
@@ -3711,7 +3718,7 @@
             <l>With me my owne affections; farwell maide, </l>
             <l>Faire gentle maide. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e122430">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e122430">
             <speaker>2. </speaker>
             <l>She sighes. </l>
           </sp>
@@ -3768,11 +3775,11 @@
             <speaker>Ha. </speaker>
             <l>I am most pleas'd. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e122770">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e122770">
             <speaker>1. </speaker>
             <l>Lets interrupt him, hee'le be mad our right else. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e122790">
+          <sp who="#ep000008-servant-2" xml:id="ep000008-e122790">
             <speaker>2. </speaker>
             <l>Observe a little more. </l>
           </sp>
@@ -3822,7 +3829,7 @@
             <l>He is no friend that wishes my departure, </l>
             <l>I doe not trouble you. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e123090">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e123090">
             <speaker>1. </speaker>
             <l>Tis not Maria. </l>
           </sp>
@@ -3861,7 +3868,7 @@
             <speaker>Ha. </speaker>
             <l>She's gone too. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e123330">
+          <sp who="#ep000008-servant-1" xml:id="ep000008-e123330">
             <speaker>2. </speaker>
             <l>Come leave this dreame. </l>
           </sp>
@@ -3875,7 +3882,7 @@
         </div>
         <div n="4" type="act" xml:id="ep000008-e123400">
           <head>Actus Quartus. </head>
-          <sp who="#ep000008-xxxxx" xml:id="ep000008-e123410">
+          <sp xml:id="ep000008-e123410">
             <stage xml:id="ep000008-e123420">Enter Wildbraine, and Toby. </stage>
           </sp>
           <sp who="#ep000008-wildbrain" xml:id="ep000008-e123430">
@@ -4038,7 +4045,7 @@
             <speaker>Wi. </speaker>
             <l>Thar't'ithe right </l>
           </sp>
-          <sp who="#ep000008-tom" xml:id="ep000008-e124390">
+          <sp who="#ep000008-lurcher" xml:id="ep000008-e124390">
             <speaker>Tom. </speaker>
             <l>Ile tele thee first, </l>
             <l>I ha shooke off my Aunt, and yet I live still, </l>
@@ -4226,7 +4233,7 @@
             <l>But I cannot dally time. </l>
             <stage xml:id="ep000008-e125620">Within. </stage>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e125630">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e125630">
             <speaker>Iu. </speaker>
             <l>Who's that? </l>
           </sp>
@@ -4243,7 +4250,7 @@
             <l>To bring your worship to the first knowledge, and </l>
             <l>Thanke me, as you finde the good on't afterwards. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e125740">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e125740">
             <speaker>Iu. </speaker>
             <l>What is it? Treason? </l>
           </sp>
@@ -4254,7 +4261,7 @@
             <l>They talke of robberies, and wayes they did 'em; </l>
             <l>And how they left men bound in their studies. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e125810">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e125810">
             <speaker>Iu. </speaker>
             <l>With bookes and ballads? </l>
           </sp>
@@ -4265,7 +4272,7 @@
             <l>In money, jewels, chaines, and a hundred more </l>
             <l>Devices. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e125880">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e125880">
             <speaker>Iu. </speaker>
             <l>Happy, happy Constable, I meet yee </l>
             <l>At the backe doore, get ready knaves. </l>
@@ -4279,7 +4286,7 @@
             <l>That you might have the hope of the enterprise, </l>
             <l>That you might heare e'm first, and then proceed sir, </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e125980">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e125980">
             <speaker>Iu. </speaker>
             <l>I come, I come. </l>
           </sp>
@@ -4289,7 +4296,7 @@
             <stage xml:id="ep000008-e126020">Exit. </stage>
           </sp>
           <pb xml:id="ep000008-027-b"/>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e126030">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e126030">
             <speaker>Iu. </speaker>
             <l>Keepe all my doores fast, tis something late. </l>
           </sp>
@@ -4333,7 +4340,7 @@
             <speaker>Lur. </speaker>
             <l>Come softly, yet sir softly, are you not weary? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e126350">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e126350">
             <speaker>Iu. </speaker>
             <l>Tha'st brought me into a melancholy place, </l>
             <l>I see no creature. </l>
@@ -4350,7 +4357,7 @@
             <l>The manners to ha let you drinke before me; </l>
             <l>Now am I lusty. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e126480">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e126480">
             <speaker>Iu. </speaker>
             <l>Thas a good taste. </l>
             <stage xml:id="ep000008-e126500">Seemes to drinke. </stage>
@@ -4362,7 +4369,7 @@
             <l>Your worships body? when you come to examine, </l>
             <l>'Till make you speake like Thunder. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e126560">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e126560">
             <speaker>Iu. </speaker>
             <l>Hoy he. </l>
           </sp>
@@ -4370,7 +4377,7 @@
             <speaker>Lur. </speaker>
             <l>It workes already. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e126600">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e126600">
             <speaker>Iu. </speaker>
             <l>Is there never a chaire, I was wearier than I thought, </l>
             <pb xml:id="ep000008-028-a"/>
@@ -4381,7 +4388,7 @@
             <l>Let me alone, when I but give the watch word </l>
             <l>We will have men enough to surprise an army. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e126660">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e126660">
             <speaker>Iu. </speaker>
             <l>I begin to be sleepie; what, hast a chaire? </l>
             <stage xml:id="ep000008-e126680">Enter another with a chaire. </stage>
@@ -4449,7 +4456,7 @@
             <speaker>Wi. </speaker>
             <l>A palpable knocke. </l>
           </sp>
-          <sp who="#ep000008-ringer" xml:id="ep000008-e127100">
+          <sp who="#ep000008-ringers" xml:id="ep000008-e127100">
             <speaker>Rin. </speaker>
             <l>'Twas none. </l>
           </sp>
@@ -4490,7 +4497,7 @@
             <l>Handle a bell, as you were haling timber; </l>
             <l>Grosse, grosse, and base, absurd. </l>
           </sp>
-          <sp who="#ep000008-ringer" xml:id="ep000008-e127340">
+          <sp who="#ep000008-ringers" xml:id="ep000008-e127340">
             <speaker>Rin. </speaker>
             <l>Ile mend it next peale. </l>
           </sp>
@@ -4619,7 +4626,7 @@
             <speaker>Wi. </speaker>
             <l>Sure 'tis past midnight. </l>
           </sp>
-          <sp who="#ep000008-ringer" xml:id="ep000008-e128100">
+          <sp who="#ep000008-ringers" xml:id="ep000008-e128100">
             <speaker>Rin. </speaker>
             <l>No stirring in the streets I heare, </l>
           </sp>
@@ -4646,7 +4653,7 @@
             <speaker>Sex. </speaker>
             <l>Where, where? </l>
           </sp>
-          <sp who="#ep000008-ringer" xml:id="ep000008-e128250">
+          <sp who="#ep000008-ringers" xml:id="ep000008-e128250">
             <speaker>Rin. </speaker>
             <l>Ith' corner. </l>
           </sp>
@@ -4682,7 +4689,7 @@
             <speaker>Wi. </speaker>
             <l>My all cloathes Toby. </l>
           </sp>
-          <sp who="#ep000008-ringer" xml:id="ep000008-e128450">
+          <sp who="#ep000008-ringers" xml:id="ep000008-e128450">
             <speaker>Rin. </speaker>
             <l>Here's none. </l>
           </sp>
@@ -4739,7 +4746,7 @@
             <l>And wonder seize upon him, </l>
             <l>Bid 'em within be ready. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e128790">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e128790">
             <speaker>Iu. </speaker>
             <l>What sound's this? </l>
             <l>What horrid dinne? what dismall place is this? </l>
@@ -4751,59 +4758,59 @@
             <l>Mercy, protect me, my soule quakes, </l>
             <l>What dreadfull apparitions! how I shudder! </l>
           </sp>
-          <sp who="#ep000008-multiple" xml:id="ep000008-e128890">
+          <sp who="#ep000008-fury-1 #ep000008-fury-2" xml:id="ep000008-e128890">
             <speaker>1, 2 and Fu. </speaker>
             <l>Algripe. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e128910">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e128910">
             <speaker>Iu. </speaker>
             <l>What are you? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e128930">
+          <sp who="#ep000008-fury-1" xml:id="ep000008-e128930">
             <speaker>1. </speaker>
             <l>We are helhounds helhounds, that have commission </l>
             <l>From the Prince of darkenesse, </l>
             <l>To fetch thy blacke soule to him. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e128970">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e128970">
             <speaker>Iu. </speaker>
             <l>Am I not alive still? </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e128990">
+          <sp who="#ep000008-fury-1" xml:id="ep000008-e128990">
             <speaker>1. </speaker>
             <l>Thou art, but we have brought thee instruments </l>
             <l>Will quickly rid thy miserable life, Stabbe, </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e129020">
+          <sp who="#ep000008-fury-2" xml:id="ep000008-e129020">
             <speaker>2. </speaker>
             <l>Poyson. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e129040">
+          <sp who="#ep000008-fury-1" xml:id="ep000008-e129040">
             <speaker>1. </speaker>
             <l>Hang thy selfe, this choyse is offer'd </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e129060">
+          <sp who="#ep000008-fury-2" xml:id="ep000008-e129060">
             <speaker>2. </speaker>
             <l>Thou canst not hope for heaven; thy base soule is </l>
             <l>Lost to all hope of mercy. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e129090">
+          <sp who="#ep000008-fury-2" xml:id="ep000008-e129090">
             <speaker>2. </speaker>
             <l>Quickly, quickly. </l>
             <l>The torments coole </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e129120">
+          <sp who="#ep000008-fury-1" xml:id="ep000008-e129120">
             <speaker>1. </speaker>
             <l>And all the Fiends expect thee. </l>
             <pb xml:id="ep000008-030-a"/>
             <l>Come with us to that pit of endlesse horrour, </l>
             <l>Or we will force thee. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129160">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129160">
             <speaker>Ju. </speaker>
             <l>Oh, oh oh. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e129180">
+          <sp who="#ep000008-fury-1" xml:id="ep000008-e129180">
             <speaker>1. </speaker>
             <l>Grones are too late, sooner the ravisher, </l>
             <l>Whose soule is hurl'd into eternall frost, </l>
@@ -4819,30 +4826,31 @@
             <l>And shall that Justice spare thee, that hast slaine, </l>
             <l>Murdered by thy extortion so many? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129320">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129320">
             <speaker>Iu. </speaker>
             <l>Oh, oh. </l>
           </sp>
-          <sp who="#ep000008-xxxx_2" xml:id="ep000008-e129340">
+          <sp who="#ep000008-fury-2" xml:id="ep000008-e129340">
             <speaker>2. </speaker>
             <l>Doe execution quickly, or weele carry thee alive to hell. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129360">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129360">
             <speaker>Iu. </speaker>
             <l>Gently, gentle devills, doe not force me </l>
             <l>To kill my selfe, nor doe not you do't for me; </l>
             <l>Oh let me live, Ile make amends for all. </l>
           </sp>
-          <sp who="#ep000008-xxxx_1" xml:id="ep000008-e129400">
+          <sp who="#ep000008-fury-1" xml:id="ep000008-e129400">
             <speaker>1. </speaker>
             <l>Tell us of thy repentance? perjur'd villaine, </l>
             <l>Pinch off his flesh, he must be whipt, salted and whipt. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129430">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129430">
             <speaker>Iu. </speaker>
             <l>Oh misery of miseries! </l>
           </sp>
-          <sp who="#ep000008-multiple" xml:id="ep000008-e129450">
+          <sp who="#ep000008-recorder-1 #ep000008-recorder-2"
+                   xml:id="ep000008-e129450">
             <speaker>Recorders 1 and 2 </speaker>
             <l>Teare his accursed limbs, to hell with him, ha. </l>
             <l>A mischiefe on that innocent face, away. </l>
@@ -4854,7 +4862,7 @@
             <l>Malicious furies hence, choake not the seedes </l>
             <l>Of holy penitence. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129530">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129530">
             <speaker>Iu. </speaker>
             <l>This must be an Angell, </l>
             <l>How at his presence the fiends crawle away! </l>
@@ -4867,7 +4875,7 @@
             <l>What poore defence hath all thy wealth beene to thee? </l>
             <l>What sayes thy conscience now? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129620">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129620">
             <speaker>Ju. </speaker>
             <l>Be my good Angell, here I promise thee, </l>
             <l>To become honest, and renounce all villany; </l>
@@ -4880,7 +4888,7 @@
             <l>Take heede, </l>
             <l>There is no dallying, nor are these impos'd. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129700">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129700">
             <speaker>Iu. </speaker>
             <l>Name any thing within my power, sweet Angell; </l>
             <l>And if I doe not faithfully performe it, </l>
@@ -4893,7 +4901,7 @@
             <l>Thou hast undone a faithfull gentleman, </l>
             <l>By taking forfeit of his land. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129790">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129790">
             <speaker>Iu. </speaker>
             <l>Young Lurcher, </l>
             <l>I doe confesse. </l>
@@ -4906,7 +4914,7 @@
             <l>More sinne in thy account: hast thou forgotten </l>
             <l>He had a sister? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129880">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129880">
             <speaker>Iu. </speaker>
             <l>I doe well remember it. </l>
           </sp>
@@ -4918,7 +4926,7 @@
             <l>Was not thy faith contracted, and thy heart? </l>
             <l>And couldst thou marry another? </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e129960">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e129960">
             <speaker>Ju. </speaker>
             <l>But she's dead, </l>
             <l>And I will make true satisfaction. </l>
@@ -4928,7 +4936,7 @@
             <l>What doe I instance these, that hast beene false </l>
             <l>To all the world. </l>
           </sp>
-          <sp who="#ep000008-algrip" xml:id="ep000008-e130020">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e130020">
             <speaker>Iu. </speaker>
             <l>I know it, and will henceforth </l>
             <l>Practise repentance, doe not frowne sweete Angell; </l>
@@ -5378,7 +5386,7 @@
         <div n="5" type="act" xml:id="ep000008-e133120">
           <pb xml:id="ep000008-034-a"/>
           <head>Actus Quintus. </head>
-          <sp who="#ep000008-xxxxx" xml:id="ep000008-e133130">
+          <sp xml:id="ep000008-e133130">
             <stage xml:id="ep000008-e133140">Enter Lurcher, and Boy. </stage>
           </sp>
           <sp who="#ep000008-lurcher" xml:id="ep000008-e133150">
@@ -5678,7 +5686,7 @@
             <l>A friend of mine to be acquainted with you, </l>
             <l>He's other than he seemes; why d'ee stare thus? </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e135220">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e135220">
             <speaker>Mi. </speaker>
             <l>Oh sir, forgive me, I have done you wrong. </l>
           </sp>
@@ -5705,7 +5713,7 @@
             <l>For she is impudent, and thou art miserable; </l>
             <l>'Twill be a rare match. </l>
           </sp>
-          <sp who="#ep000008-mrs_newlove" xml:id="ep000008-e135410">
+          <sp who="#ep000008-mrs-newlove" xml:id="ep000008-e135410">
             <speaker>Mi. </speaker>
             <l>As you are a man forgive me, Ile redeeme all. </l>
           </sp>
@@ -6019,7 +6027,7 @@
             <speaker>Nur. </speaker>
             <l>Here's Mr. Algripe and other strangers Madam. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137490">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137490">
             <speaker>Al. </speaker>
             <l>Here good Lady, </l>
             <l>Vpon my knees I aske thy worships pardon; </l>
@@ -6034,7 +6042,7 @@
             <speaker>La. </speaker>
             <l>This is incredible. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137600">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137600">
             <speaker>Al. </speaker>
             <l>Tis truth. </l>
           </sp>
@@ -6042,7 +6050,7 @@
             <speaker>Lur. </speaker>
             <l>Doe you know me sir? </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137640">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137640">
             <speaker>Al. </speaker>
             <l>Ha, the gentleman I deceiv'd. </l>
           </sp>
@@ -6050,7 +6058,7 @@
             <speaker>Lur. </speaker>
             <l>My name is Lurcher. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137680">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137680">
             <speaker>Al. </speaker>
             <l>'Shat have thy morgage. </l>
           </sp>
@@ -6059,7 +6067,7 @@
             <l>I ha that already, no matter for the deede </l>
             <l>If you release it. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137730">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137730">
             <speaker>Al. </speaker>
             <l>Ile do't before thy witnesse; </l>
             <l>But where's thy sister? if she live I am happy, though </l>
@@ -6079,7 +6087,7 @@
             <speaker>Boy. </speaker>
             <l>Even here, and please you sir. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137850">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137850">
             <speaker>Al. </speaker>
             <l>How? </l>
           </sp>
@@ -6095,7 +6103,7 @@
             <l>So farre as you would hearken to my counsell; </l>
             <l>That all the world may know how much you owe me. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e137960">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e137960">
             <speaker>Al. </speaker>
             <l>Welcome entirely, welcome my deare Alathe, </l>
             <l>And when I lose the agen, blessing forsake me: </l>
@@ -6120,7 +6128,7 @@
             <l>Dare you give this hand </l>
             <l>To this young gentleman, my heart goes with it. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e138110">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e138110">
             <speaker>Al. </speaker>
             <l>Maria alive I how my hearts exalted, tis my duty; </l>
             <l>Take her Franke Hartlove, take her; and all joyes </l>
@@ -6141,7 +6149,7 @@
             <l>Be more temperate, </l>
             <l>Or Ile be Welsh againe. </l>
           </sp>
-          <sp who="#ep000008-altha" xml:id="ep000008-e138240">
+          <sp who="#ep000008-justice-algrip" xml:id="ep000008-e138240">
             <speaker>Al. </speaker>
             <l>A day of wonder. </l>
           </sp>

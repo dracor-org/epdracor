@@ -95,40 +95,37 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000315-solon">
+          <person xml:id="ep000315-solon" sex="MALE">
             <persName>Solon</persName>
           </person>
-          <person xml:id="ep000315-croesus">
+          <person xml:id="ep000315-croesus" sex="MALE">
             <persName>Croesus</persName>
           </person>
-          <person xml:id="ep000315-aesop">
+          <person xml:id="ep000315-aesop" sex="MALE">
             <persName>Aesop</persName>
           </person>
-          <person xml:id="ep000315-adrastus">
+          <person xml:id="ep000315-adrastus" sex="MALE">
             <persName>Adrastus</persName>
           </person>
-          <person xml:id="ep000315-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000315-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000315-atis">
+          <personGrp xml:id="ep000315-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000315-atis" sex="MALE">
             <persName>Atis</persName>
           </person>
-          <person xml:id="ep000315-caelia">
+          <person xml:id="ep000315-caelia" sex="FEMALE">
             <persName>Caelia</persName>
           </person>
-          <person xml:id="ep000315-sandanis">
+          <person xml:id="ep000315-sandanis" sex="MALE">
             <persName>Sandanis</persName>
           </person>
-          <person xml:id="ep000315-harpagus">
+          <person xml:id="ep000315-harpagus" sex="MALE">
             <persName>Harpagus</persName>
           </person>
-          <person xml:id="ep000315-cyrus">
+          <person xml:id="ep000315-cyrus" sex="MALE">
             <persName>Cyrus</persName>
           </person>
-          <person xml:id="ep000315-nuntius">
+          <person xml:id="ep000315-nuntius" sex="MALE">
             <persName>Nuntius</persName>
           </person>
         </listPerson>
@@ -1930,7 +1927,7 @@
                 <l>This is a Vertue that makes Kings to stand. </l>
               </lg>
             </sp>
-            <sp who="#ep000315-unassigned" xml:id="ep000315-e113780">
+            <sp who="#ep000315-chorus" xml:id="ep000315-e113780">
               <speaker>Cor. </speaker>
               <lg>
                 <l>Sir, our estate some speedy helpe requires, </l>

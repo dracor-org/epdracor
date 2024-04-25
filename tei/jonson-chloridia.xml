@@ -86,43 +86,43 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000106-zephyrus">
+          <personGrp xml:id="ep000106-rivers" sex="UNKNOWN">
+            <name>Rivers</name>
+          </personGrp>
+          <person xml:id="ep000106-zephyrus" sex="MALE">
             <persName>Zephyrus</persName>
           </person>
-          <person xml:id="ep000106-spring">
+          <person xml:id="ep000106-spring" sex="FEMALE">
             <persName>Spring</persName>
           </person>
-          <person xml:id="ep000106-fountain">
-            <persName>Fountain</persName>
-          </person>
-          <person xml:id="ep000106-postilion">
+          <personGrp xml:id="ep000106-fountains" sex="FEMALE">
+            <name>Fountains</name>
+          </personGrp>
+          <person xml:id="ep000106-postilion" sex="MALE">
             <persName>Postilion</persName>
           </person>
-          <person xml:id="ep000106-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000106-juno">
+          <person xml:id="ep000106-juno" sex="FEMALE">
             <persName>Juno</persName>
           </person>
-          <person xml:id="ep000106-iris">
+          <person xml:id="ep000106-iris" sex="FEMALE">
             <persName>Iris</persName>
           </person>
-          <person xml:id="ep000106-fame">
+          <person xml:id="ep000106-fame" sex="FEMALE">
             <persName>Fame</persName>
           </person>
-          <person xml:id="ep000106-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000106-poesy">
+          <personGrp xml:id="ep000106-chorus" sex="UNKNOWN">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000106-poesy" sex="FEMALE">
             <persName>Poesy</persName>
           </person>
-          <person xml:id="ep000106-history">
+          <person xml:id="ep000106-history" sex="FEMALE">
             <persName>History</persName>
           </person>
-          <person xml:id="ep000106-architecture">
+          <person xml:id="ep000106-architecture" sex="FEMALE">
             <persName>Architecture</persName>
           </person>
-          <person xml:id="ep000106-sculpture">
+          <person xml:id="ep000106-sculpture" sex="FEMALE">
             <persName>Sculpture</persName>
           </person>
         </listPerson>
@@ -137,8 +137,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000106"
-                    passive="http://www.wikidata.org/entity/Q5102941"/>
+                   active="https://dracor.org/entity/ep000106"
+                   passive="http://www.wikidata.org/entity/Q5102941"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -232,7 +232,7 @@
           <body>
             <div type="song" xml:id="ep000106-e100630">
               <head>The second Song. </head>
-              <sp who="#ep000106-fountain" xml:id="ep000106-e100640">
+              <sp who="#ep000106-fountains" xml:id="ep000106-e100640">
                 <speaker>FOVNTAYNES. </speaker>
                 <l>Fayre Mayde, but are you come to dwell, </l>
                 <l>And tarry with ys here? </l>
@@ -245,7 +245,7 @@
                 <l>Whereof the murmure will do well: </l>
                 <l>If you your parts will beare. </l>
               </sp>
-              <sp who="#ep000106-fountain" xml:id="ep000106-e100720">
+              <sp who="#ep000106-fountains" xml:id="ep000106-e100720">
                 <speaker>FOVNTAYNES. </speaker>
                 <l>Our purlings wayte vpon the Spring. </l>
               </sp>
@@ -263,7 +263,7 @@
                 <l>Not to be call'd into their Guild </l>
                 <l>But slightly passd by, as a child. </l>
               </sp>
-              <sp who="#ep000106-fountain" xml:id="ep000106-e100840">
+              <sp who="#ep000106-fountains" xml:id="ep000106-e100840">
                 <speaker>FOVNTAYNES. </speaker>
                 <l>Wherein hee thinkes his honour was peruerted. </l>
               </sp>
@@ -276,7 +276,7 @@
                 <l>And she hath forc'd his armes away. </l>
               </sp>
               <pb xml:id="ep000106-005-a"/>
-              <sp who="#ep000106-fountain" xml:id="ep000106-e100920">
+              <sp who="#ep000106-fountains" xml:id="ep000106-e100920">
                 <speaker>FOVNTAYNES. </speaker>
                 <l>To make him feele the Justice of her hand. </l>
               </sp>
@@ -288,7 +288,7 @@
                 <l>To make a party 'gainst the Gods, </l>
                 <l>And set Heauen, Earth, and Hell at odds. </l>
               </sp>
-              <sp who="#ep000106-fountain" xml:id="ep000106-e101000">
+              <sp who="#ep000106-fountains" xml:id="ep000106-e101000">
                 <speaker>FOVNTAYNES. </speaker>
                 <l>And rayse a chaos of calamity. </l>
               </sp>
@@ -330,7 +330,8 @@
             <div type="song" xml:id="ep000106-e101280">
               <head>Song. 3. </head>
               <pb xml:id="ep000106-008-b"/>
-              <sp who="#ep000106-multiple" xml:id="ep000106-e101290">
+              <sp who="#ep000106-fountains #ep000106-rivers #ep000106-spring"
+                         xml:id="ep000106-e101290">
                 <speaker>RIVERS, SPRING, FOVNTAYNES. </speaker>
                 <l>Run out, all the Flouds, in ioy with your siluer feete; </l>
                 <l>And hast to meete, the enamour'd Spring; </l>
@@ -352,7 +353,7 @@
           <body>
             <div type="song" xml:id="ep000106-e101440">
               <head>Song. 4, </head>
-              <sp who="#ep000106-multiple" xml:id="ep000106-e101450">
+              <sp who="#ep000106-rivers #ep000106-fountains" xml:id="ep000106-e101450">
                 <speaker>RIVERS, FOVNTAYNES. </speaker>
                 <l>Tell a truth, gay Spring, let vs know </l>
                 <l>What feete they were, that so </l>
@@ -365,7 +366,7 @@
                 <l>Or a Goddesse, 'boue the rest: </l>
                 <l>And all their graces, in her selfe expres't! </l>
               </sp>
-              <sp who="#ep000106-multiple" xml:id="ep000106-e101530">
+              <sp who="#ep000106-rivers #ep000106-fountains" xml:id="ep000106-e101530">
                 <speaker>RIVERS, FOVNTAYNES. </speaker>
                 <l>O' it were a fame, to know her name! </l>
                 <l>Whether she were the roote; </l>

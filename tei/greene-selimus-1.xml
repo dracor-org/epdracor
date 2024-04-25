@@ -99,91 +99,85 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000793-bajazet">
+          <personGrp xml:id="ep000793-janizaries" sex="MALE">
+            <name>Janizaries</name>
+          </personGrp>
+          <person xml:id="ep000793-bajazet" sex="MALE">
             <persName>Bajazet</persName>
           </person>
-          <person xml:id="ep000793-cherseoli">
+          <person xml:id="ep000793-cherseoli" sex="MALE">
             <persName>Cherseoli</persName>
           </person>
-          <person xml:id="ep000793-mustaffa">
+          <person xml:id="ep000793-mustaffa" sex="MALE">
             <persName>Mustaffa</persName>
           </person>
-          <person xml:id="ep000793-messenger">
+          <person xml:id="ep000793-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000793-selimus">
+          <person xml:id="ep000793-selimus" sex="MALE">
             <persName>Selimus</persName>
           </person>
-          <person xml:id="ep000793-occhiali">
+          <person xml:id="ep000793-occhiali" sex="MALE">
             <persName>Occhiali</persName>
           </person>
-          <person xml:id="ep000793-sinam">
+          <person xml:id="ep000793-sinam" sex="MALE">
             <persName>Sinam</persName>
           </person>
-          <person xml:id="ep000793-ottrante">
+          <person xml:id="ep000793-ottrante" sex="MALE">
             <persName>Ottrante</persName>
           </person>
-          <person xml:id="ep000793-acomat">
+          <person xml:id="ep000793-acomat" sex="MALE">
             <persName>Acomat</persName>
           </person>
-          <person xml:id="ep000793-visir">
+          <person xml:id="ep000793-visir" sex="MALE">
             <persName>Visir</persName>
           </person>
-          <person xml:id="ep000793-regan">
+          <person xml:id="ep000793-regan" sex="MALE">
             <persName>Regan</persName>
           </person>
-          <person xml:id="ep000793-unassigned">
-            <persName>Unassigned</persName>
+          <person xml:id="ep000793-calibassa" sex="MALE">
+            <persName>Calibassa</persName>
           </person>
-          <person xml:id="ep000793-cali">
-            <persName>Cali</persName>
-          </person>
-          <person xml:id="ep000793-mahomet">
+          <person xml:id="ep000793-mahomet" sex="MALE">
             <persName>Mahomet</persName>
           </person>
-          <person xml:id="ep000793-belierbey">
+          <person xml:id="ep000793-belierbey" sex="MALE">
             <persName>Belierbey</persName>
           </person>
-          <person xml:id="ep000793-zonara">
+          <person xml:id="ep000793-zonara" sex="FEMALE">
             <persName>Zonara</persName>
           </person>
-          <person xml:id="ep000793-aga">
+          <person xml:id="ep000793-aga" sex="MALE">
             <persName>Aga</persName>
           </person>
-          <person xml:id="ep000793-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000793-abraham">
+          <person xml:id="ep000793-abraham" sex="MALE">
             <persName>Abraham</persName>
           </person>
-          <person xml:id="ep000793-bullithrumble">
+          <person xml:id="ep000793-bullithrumble" sex="MALE">
             <persName>Bullithrumble</persName>
           </person>
-          <person xml:id="ep000793-corcut">
+          <person xml:id="ep000793-corcut" sex="MALE">
             <persName>Corcut</persName>
           </person>
-          <person xml:id="ep000793-page">
+          <person xml:id="ep000793-page" sex="MALE">
             <persName>Page</persName>
           </person>
-          <person xml:id="ep000793-hali">
+          <person xml:id="ep000793-hali" sex="MALE">
             <persName>Hali</persName>
           </person>
-          <person xml:id="ep000793-solima">
+          <person xml:id="ep000793-solima" sex="FEMALE">
             <persName>Solima</persName>
           </person>
-          <person xml:id="ep000793-aladin">
+          <person xml:id="ep000793-aladin" sex="MALE">
             <persName>Aladin</persName>
           </person>
-          <person xml:id="ep000793-amurath">
+          <person xml:id="ep000793-amurath" sex="MALE">
             <persName>Amurath</persName>
           </person>
-          <person xml:id="ep000793-alinda">
-            <persName>Alinda</persName>
-          </person>
-          <person xml:id="ep000793-tonombey">
+          <person xml:id="ep000793-tonombey" sex="MALE">
             <persName>Tonombey</persName>
           </person>
-          <person xml:id="ep000793-queen">
+          <person xml:id="ep000793-queen" sex="FEMALE">
             <persName>Queen</persName>
           </person>
         </listPerson>
@@ -1338,7 +1332,7 @@
             <l>Deale with their dammes, then Selimus with thee. </l>
           </lg>
         </sp>
-        <sp who="#ep000793-unassigned" xml:id="ep000793-e109620">
+        <sp who="#ep000793-hali" xml:id="ep000793-e109620">
           <speaker>Halibas. </speaker>
           <lg>
             <l>Mustaffa we are princes of the land, </l>
@@ -1390,7 +1384,7 @@
             <l>Will be as true to him as to himselfe. </l>
           </lg>
         </sp>
-        <sp who="#ep000793-cali" xml:id="ep000793-e110070">
+        <sp who="#ep000793-calibassa" xml:id="ep000793-e110070">
           <speaker>Cali. </speaker>
           <lg>
             <l>Why braue Mustaffa, Hali and my selfe </l>
@@ -2554,7 +2548,8 @@
             </l>
           </lg>
         </sp>
-        <sp who="#ep000793-all" xml:id="ep000793-e119000">
+        <sp who="#ep000793-bajazet #ep000793-sinam #ep000793-hali #ep000793-calibassa #ep000793-janizaries"
+                xml:id="ep000793-e119000">
           <speaker>All. </speaker>
           <l>Long liue Selimus Emperour of Turkes. </l>
         </sp>
@@ -3114,7 +3109,7 @@
             <l>Corcut is readie, since it is must be so. </l>
           </lg>
         </sp>
-        <sp who="#ep000793-cali" xml:id="ep000793-e123340">
+        <sp who="#ep000793-calibassa" xml:id="ep000793-e123340">
           <speaker>Cali. </speaker>
           <l>Shepheard. </l>
         </sp>
@@ -3122,7 +3117,7 @@
           <speaker>Bulli. </speaker>
           <l>That's my profession sir. </l>
         </sp>
-        <sp who="#ep000793-cali" xml:id="ep000793-e123380">
+        <sp who="#ep000793-calibassa" xml:id="ep000793-e123380">
           <speaker>Cali. </speaker>
           <l>Come, you must go with vs. </l>
         </sp>
@@ -3130,7 +3125,7 @@
           <speaker>Bulli. </speaker>
           <p>Who I? Alasse sir, I haue a wife and seuenteene cradles rocking, two ploughs going, two barnes filling, and a great heard of beasts feeding, and you should vtterly vndo me to take me to such a great charge. </p>
         </sp>
-        <sp who="#ep000793-cali" xml:id="ep000793-e123420">
+        <sp who="#ep000793-calibassa" xml:id="ep000793-e123420">
           <speaker>Cali. </speaker>
           <l>Well there is no remedie. </l>
           <stage xml:id="ep000793-e123440">Exeunt all, but Bullithrumble stealing from them closely away. </stage>
@@ -3176,7 +3171,7 @@
             <l>How now, what newes? </l>
           </lg>
         </sp>
-        <sp who="#ep000793-cali" xml:id="ep000793-e123740">
+        <sp who="#ep000793-calibassa" xml:id="ep000793-e123740">
           <speaker>Cali. </speaker>
           <lg>
             <l>My gratious Lord, we here present to you </l>
@@ -3400,7 +3395,7 @@
             <l>Ile to Aegyptus. </l>
           </lg>
         </sp>
-        <sp who="#ep000793-alinda" xml:id="ep000793-e125480">
+        <sp who="#ep000793-aladin" xml:id="ep000793-e125480">
           <speaker>Alinda. </speaker>
           <l>I to Persia. </l>
           <stage xml:id="ep000793-e125500">(Exeunt. </stage>

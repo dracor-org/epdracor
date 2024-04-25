@@ -82,90 +82,78 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000343-lysander">
+          <person xml:id="ep000343-soldier-2" sex="MALE">
+            <persName>Soldier 2</persName>
+          </person>
+          <person xml:id="ep000343-soldier-1" sex="MALE">
+            <persName>Soldier 1</persName>
+          </person>
+          <person xml:id="ep000343-lysander" sex="MALE">
             <persName>Lysander</persName>
           </person>
-          <person xml:id="ep000343-tharsalio">
+          <person xml:id="ep000343-tharsalio" sex="MALE">
             <persName>Tharsalio</persName>
           </person>
-          <person xml:id="ep000343-cynthia">
+          <person xml:id="ep000343-cynthia" sex="FEMALE">
             <persName>Cynthia</persName>
           </person>
-          <person xml:id="ep000343-lycas">
+          <person xml:id="ep000343-lycas" sex="MALE">
             <persName>Lycas</persName>
           </person>
-          <person xml:id="ep000343-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000343-hiarbus">
+          <person xml:id="ep000343-hiarbus" sex="MALE">
             <persName>Hiarbus</persName>
           </person>
-          <person xml:id="ep000343-psorabeus">
+          <person xml:id="ep000343-psorabeus" sex="MALE">
             <persName>Psorabeus</persName>
           </person>
-          <person xml:id="ep000343-eudora">
+          <person xml:id="ep000343-eudora" sex="FEMALE">
             <persName>Eudora</persName>
           </person>
-          <person xml:id="ep000343-rebus">
+          <person xml:id="ep000343-rebus" sex="MALE">
             <persName>Rebus</persName>
           </person>
-          <person xml:id="ep000343-argus">
+          <person xml:id="ep000343-argus" sex="MALE">
             <persName>Argus</persName>
           </person>
-          <person xml:id="ep000343-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000343-hylus">
+          <person xml:id="ep000343-hylus" sex="MALE">
             <persName>Hylus</persName>
           </person>
-          <person xml:id="ep000343-arsace">
+          <person xml:id="ep000343-arsace" sex="FEMALE">
             <persName>Arsace</persName>
           </person>
-          <person xml:id="ep000343-tom">
-            <persName>Tom</persName>
+          <person xml:id="ep000343-tomasin" sex="FEMALE">
+            <persName>Tomasin</persName>
           </person>
-          <person xml:id="ep000343-sthenia">
+          <person xml:id="ep000343-sthenia" sex="FEMALE">
             <persName>Sthenia</persName>
           </person>
-          <person xml:id="ep000343-ianthe">
+          <person xml:id="ep000343-ianthe" sex="FEMALE">
             <persName>Ianthe</persName>
           </person>
-          <person xml:id="ep000343-clinias">
+          <person xml:id="ep000343-clinias" sex="MALE">
             <persName>Clinias</persName>
           </person>
-          <person xml:id="ep000343-music">
-            <persName>Music</persName>
-          </person>
-          <person xml:id="ep000343-laodice">
+          <person xml:id="ep000343-laodice" sex="FEMALE">
             <persName>Laodice</persName>
           </person>
-          <person xml:id="ep000343-hymen">
+          <person xml:id="ep000343-hymen" sex="MALE">
             <persName>Hymen</persName>
           </person>
-          <person xml:id="ep000343-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000343-ero">
+          <person xml:id="ep000343-ero" sex="FEMALE">
             <persName>Ero</persName>
           </person>
-          <person xml:id="ep000343-captain">
+          <person xml:id="ep000343-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000343-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000343-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000343-guard">
+          <person xml:id="ep000343-guard" sex="MALE">
             <persName>Guard</persName>
           </person>
-          <person xml:id="ep000343-governor">
+          <person xml:id="ep000343-governor" sex="MALE">
             <persName>Governor</persName>
           </person>
-          <person xml:id="ep000343-soldier">
-            <persName>Soldier</persName>
-          </person>
+          <personGrp xml:id="ep000343-soldiers" sex="MALE">
+            <name>Soldiers</name>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -181,8 +169,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000343"
-                    passive="http://www.wikidata.org/entity/Q7774771"/>
+                   active="https://dracor.org/entity/ep000343"
+                   passive="http://www.wikidata.org/entity/Q7774771"/>
     </listRelation>
   </standOff>
   <text>
@@ -492,7 +480,7 @@
               </p>
             </sp>
             <stage xml:id="ep000343-e102390">Enter Argus barehead, with whome another Vsher Lycus ioynes, going ouer the Stage. Hiarbas, and Psorabeus next, Robus single before Eudora, Laodice, Sthenio bearing her traine, Ianthe following. </stage>
-            <sp who="#ep000343-unassigned" xml:id="ep000343-e102400">
+            <sp who="#ep000343-psorabeus" xml:id="ep000343-e102400">
               <speaker>Peb. </speaker>
               <p>I Admire Madame, you can not loue whome the Viceroy loues. </p>
             </sp>
@@ -708,7 +696,7 @@
               <speaker>Reb. </speaker>
               <p>So shall he indeede sir. </p>
             </sp>
-            <sp who="#ep000343-multiple" xml:id="ep000343-e104000">
+            <sp who="#ep000343-argus #ep000343-lycas" xml:id="ep000343-e104000">
               <speaker>Lye. Arg. </speaker>
               <p>Will you be gone sir? </p>
             </sp>
@@ -769,7 +757,7 @@
               <l>Ile turne yee all away (by our Iles Goddesse) </l>
               <l>If he but set a foote within my Gates. </l>
             </sp>
-            <sp who="#ep000343-unassigned" xml:id="ep000343-e104490">
+            <sp who="#ep000343-psorabeus" xml:id="ep000343-e104490">
               <speaker>Lurd. </speaker>
               <l>Your Honour shall doe well to haue him poison'd. </l>
             </sp>
@@ -1031,7 +1019,7 @@
               <speaker>Ars. </speaker>
               <p>Is't come to that? why Tomasin. </p>
             </sp>
-            <sp who="#ep000343-tom" xml:id="ep000343-e106470">
+            <sp who="#ep000343-tomasin" xml:id="ep000343-e106470">
               <speaker>Tom. </speaker>
               <p>Madam. </p>
             </sp>
@@ -1039,7 +1027,7 @@
               <speaker>Ars. </speaker>
               <p>Did not one of the Countesses Seruing-men tell vs that this Gentleman was sped? </p>
             </sp>
-            <sp who="#ep000343-tom" xml:id="ep000343-e106530">
+            <sp who="#ep000343-tomasin" xml:id="ep000343-e106530">
               <speaker>Tom. </speaker>
               <p>That he did, and how her honour grac't and entertained him in very familiar manner. </p>
             </sp>
@@ -1047,7 +1035,7 @@
               <speaker>Ars. </speaker>
               <p>And brought him downe staires her selfe. </p>
             </sp>
-            <sp who="#ep000343-tom" xml:id="ep000343-e106590">
+            <sp who="#ep000343-tomasin" xml:id="ep000343-e106590">
               <speaker>Tom. </speaker>
               <p>I forsooth, and commanded her men to beare him out of dores. </p>
             </sp>
@@ -1059,7 +1047,7 @@
               <speaker>Ars. </speaker>
               <p>Nay more, that he had alreadie possest her sheetes. </p>
             </sp>
-            <sp who="#ep000343-tom" xml:id="ep000343-e106680">
+            <sp who="#ep000343-tomasin" xml:id="ep000343-e106680">
               <speaker>Tom. </speaker>
               <p>No indeede Mistris, twas her blanquets. </p>
             </sp>
@@ -2562,7 +2550,7 @@
               </l>
               <l>As I my heauenly Mistris, Sit rare sister. </l>
             </sp>
-            <sp who="#ep000343-music" xml:id="ep000343-e118200">
+            <sp xml:id="ep000343-e118200">
               <speaker>Musique: </speaker>
               <l>Hymen descends; and sixe Syluanes enter beneath, with Torches. </l>
             </sp>
@@ -2630,7 +2618,8 @@
               <l>(Great Bride and Bridegroome) you shall amply part </l>
               <l>Betwixt your free loues, and forgoe it neuer. </l>
             </sp>
-            <sp who="#ep000343-omnes" xml:id="ep000343-e118760">
+            <sp who="#ep000343-laodice #ep000343-sthenia #ep000343-argus #ep000343-tharsalio #ep000343-eudora #ep000343-cynthia"
+                      xml:id="ep000343-e118760">
               <speaker>Omn. </speaker>
               <l>Thankes to great Hymen, and faire Syluanes euer. </l>
             </sp>
@@ -3610,7 +3599,7 @@
               <speaker>Cap. </speaker>
               <p>And the Sentinell not to be heard off? </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e126660">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e126660">
               <speaker>1. </speaker>
               <p>No sir. </p>
             </sp>
@@ -3619,7 +3608,7 @@
               <speaker>Cap. </speaker>
               <p>Make out; hast, search about for him; does none of you know him? nor his name? </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e126720">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e126720">
               <speaker>2. </speaker>
               <p>Hee's but a stranger here of some foure daies standing; and we neuer set eie on him, but at setting the watch. </p>
             </sp>
@@ -3627,7 +3616,7 @@
               <speaker>Cap. </speaker>
               <p>For whom serues he? you looke well to your watch masters. </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e126780">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e126780">
               <speaker>1. </speaker>
               <p>For Seigneur Stratio, and whence he is, tis ignorant to vs; we are not correspondent for any, but our owne places. </p>
             </sp>
@@ -3966,54 +3955,54 @@
               </p>
             </sp>
             <stage xml:id="ep000343-e129400">Enter one of the Souldiers sent out before to seeke the Sentinell. </stage>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e129410">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e129410">
               <speaker>1. </speaker>
               <p>All paines are lost in hunting out this Souldier; his fear (adding wings to his heeles) out-goes vs as farre as the fresh Hare the tir'd hounds. Who goes there? <stage xml:id="ep000343-e129440">Ent. 2. souldier another way </stage>
               </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e129450">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e129450">
               <speaker>2. </speaker>
               <p>A friend. </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e129480">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e129480">
               <speaker>1. </speaker>
               <p>O, your successe and mine touching this Sentinell, tells, I suppose, one tale; hee's farre enough I vndertake by this time. </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e129510">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e129510">
               <speaker>2. </speaker>
               <p>I blame him not: the law's seuere (though iust and can not be dispenc'd.) </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e129540">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e129540">
               <speaker>1. </speaker>
               <p>Why should the lawes of Paphos, with more rigour, then other Citie lawes pursue offenders? that not appeas'd with their liues forfait, exact a iustice of them after death? And if a Souldier in his watch forsooth lose one of the dead bodies, he must die for't: It seems the State needed no souldiers when that was made a law. </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e129570">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e129570">
               <speaker>2. </speaker>
               <p>So we may chide the fire for burning vs; or say the Bee's not good because she stings; Tis not the body the law respects, but the souldiers neglect; when the watch (the guard and safetie of the Citie) is left abandon'd to all hazards. But let him goe; and tell me if your newes sort with mine, for Lycus; apprehended they say, about Lysanders murther. </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e129600">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e129600">
               <speaker>1. </speaker>
               <p>Tis true; hee's at the Captaines lodge vnder guard, and tis my charge in the morning to vnclose the leaden coffin, and discouer the bodie; The Captaine will assay an old conclusion often approu'd; that at the murtherers sight the bloud reuiues againe, and boiles a fresh; and euery wound has a condemning voice to crie out guiltie gainst the murtherer. </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e129630">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e129630">
               <speaker>2. </speaker>
               <p>O world, if this be true; his dearest friend, his bed companion, whom of all his friends he cull'd out for his bosome! </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e129660">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e129660">
               <speaker>1. </speaker>
               <p>Tush man, in this topsie turuy world, friendship and bosom kindnes, are but made couers for mischief, meanes to compasse il. Near-allied trust, is but a bridge for treson. The presumptions <pb xml:id="ep000343-036-a"/>crie loud against him; his answeres found disiointed; crosselegd tripping vp one another. He names a Town whether he brought Lysander murther'd by Mountainers, thats false, some of the dwellers haue been here, and all disclaim it. Besides, the wounds he bears in show, are such as shrews closely giue their husbands, that neuer bleede, and finde to be counterfait. </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e129690">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e129690">
               <speaker>2. </speaker>
               <l>O that iade falshood is neuer sound of all; but halts of one legge still. Truth pace is all vpright; sound euery where. </l>
               <l>And like a die, sets euer on a square. </l>
               <l>And how is Lycus his bearing in this condition? </l>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e129740">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e129740">
               <speaker>1. </speaker>
               <p>Faith (as the manner of such desperate offenders is till it come to the point) carelesse, &amp; confident, laughing at all that seeme to pittie him. But leaue it to th'euent. Night fellow Souldier, youle not meet me in the morning at the Tomb, and lend me your hand to the vnrigging of Lysanders herse. </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e129770">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e129770">
               <speaker>2. </speaker>
               <l>I care not if I do, to view heauens power in this vnbottomd seller. Bloud, though it sleep a time, yet neuer dies. </l>
               <l>The Gods on murtherers fixe reuengefull eies. <stage xml:id="ep000343-e129810">Exeunt Lysander solus with a crow of yron, and a halter which he laies downe and puts on his disguise againe. </stage>
@@ -4257,7 +4246,7 @@
               <p>No hast Sir; heele soone be here without your summons. </p>
             </sp>
             <stage xml:id="ep000343-e131750">Souldiers thrust vp Lysander from the Tomb. </stage>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e131760">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e131760">
               <speaker>1. </speaker>
               <p>Bring forth the Knight ath' Tomb; haue we meet with you Sir? </p>
             </sp>
@@ -4265,11 +4254,11 @@
               <speaker>Lys. </speaker>
               <p>Pray thee souldier vse thine office with better temper. </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e131820">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e131820">
               <speaker>2. </speaker>
               <p>Come conuay him to the Lord Gouernour, First afore the Captaine Sir. Haue the heauens nought else to doe, but to stand still, and turne all their malignant Aspects vpon one man? </p>
             </sp>
-            <sp who="#ep000343-xxxx_2" xml:id="ep000343-e131850">
+            <sp who="#ep000343-soldier-2" xml:id="ep000343-e131850">
               <speaker>2. </speaker>
               <p>Captaine here's the Sentinell wee sought for; hee's some new prest Souldier, for none of vs know him. </p>
             </sp>
@@ -4277,7 +4266,7 @@
               <speaker>Cap. </speaker>
               <p>Where found you him? </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e131910">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e131910">
               <speaker>1. </speaker>
               <p>My truant was mich't Sir into a blind corner of the Tomb. </p>
             </sp>
@@ -4285,7 +4274,7 @@
               <speaker>Cap. </speaker>
               <p>Well said, guard him safe, bur for the Corps. </p>
             </sp>
-            <sp who="#ep000343-xxxx_1" xml:id="ep000343-e131970">
+            <sp who="#ep000343-soldier-1" xml:id="ep000343-e131970">
               <speaker>1. </speaker>
               <p>For the Corps Sir? bare misprision, there's no bodie, nothing. A meere blandation; a deceptio visus. Vnlesse this souldier for hunger haue eate vp Lysanders bodie. </p>
             </sp>
@@ -4545,7 +4534,7 @@
               <speaker>Thar. </speaker>
               <p>And that acquitall Ile for him requite; the body lost, is by this time restor'd to his place. </p>
             </sp>
-            <sp who="#ep000343-soldier" xml:id="ep000343-e133920">
+            <sp who="#ep000343-soldiers" xml:id="ep000343-e133920">
               <speaker>Soul. </speaker>
               <p>It is my Lord. </p>
             </sp>

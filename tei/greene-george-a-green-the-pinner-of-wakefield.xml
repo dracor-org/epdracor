@@ -91,94 +91,79 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000039-kendall">
+          <person xml:id="ep000039-kendall" sex="MALE">
             <persName>Kendall</persName>
           </person>
-          <person xml:id="ep000039-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000039-john">
+          <person xml:id="ep000039-john" sex="MALE">
             <persName>John</persName>
           </person>
-          <person xml:id="ep000039-bonfield">
+          <person xml:id="ep000039-bonfield" sex="MALE">
             <persName>Bonfield</persName>
           </person>
-          <person xml:id="ep000039-gilbert">
+          <person xml:id="ep000039-gilbert" sex="MALE">
             <persName>Gilbert</persName>
           </person>
-          <person xml:id="ep000039-kendal">
-            <persName>Kendal</persName>
-          </person>
-          <person xml:id="ep000039-mannering">
+          <person xml:id="ep000039-mannering" sex="MALE">
             <persName>Mannering</persName>
           </person>
-          <person xml:id="ep000039-justice">
+          <person xml:id="ep000039-justice" sex="UNKNOWN">
             <persName>Justice</persName>
           </person>
-          <person xml:id="ep000039-townes">
-            <persName>Townes</persName>
+          <person xml:id="ep000039-townes" sex="MALE">
+            <persName>Townsman</persName>
           </person>
-          <person xml:id="ep000039-george">
+          <person xml:id="ep000039-george" sex="MALE">
             <persName>George</persName>
           </person>
-          <person xml:id="ep000039-cuddy">
+          <person xml:id="ep000039-cuddy" sex="MALE">
             <persName>Cuddy</persName>
           </person>
-          <person xml:id="ep000039-old">
-            <persName>Old</persName>
-          </person>
-          <person xml:id="ep000039-musgrove">
+          <person xml:id="ep000039-musgrove" sex="MALE">
             <persName>Musgrove</persName>
           </person>
-          <person xml:id="ep000039-grime">
+          <person xml:id="ep000039-grime" sex="MALE">
             <persName>Grime</persName>
           </person>
-          <person xml:id="ep000039-bettris">
+          <person xml:id="ep000039-bettris" sex="FEMALE">
             <persName>Bettris</persName>
           </person>
-          <person xml:id="ep000039-king">
-            <persName>King</persName>
-          </person>
-          <person xml:id="ep000039-ned">
+          <person xml:id="ep000039-ned" sex="MALE">
             <persName>Ned</persName>
           </person>
-          <person xml:id="ep000039-james">
+          <person xml:id="ep000039-james" sex="MALE">
             <persName>James</persName>
           </person>
-          <person xml:id="ep000039-jane">
+          <person xml:id="ep000039-jane" sex="FEMALE">
             <persName>Jane</persName>
           </person>
-          <person xml:id="ep000039-messenger">
+          <person xml:id="ep000039-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
-          <person xml:id="ep000039-jenkin">
+          <person xml:id="ep000039-jenkin" sex="MALE">
             <persName>Jenkin</persName>
           </person>
-          <person xml:id="ep000039-willy">
+          <person xml:id="ep000039-willy" sex="MALE">
             <persName>Willy</persName>
           </person>
-          <person xml:id="ep000039-edward">
+          <person xml:id="ep000039-edward" sex="MALE">
             <persName>Edward</persName>
           </person>
-          <person xml:id="ep000039-warw">
-            <persName>Warw</persName>
-          </person>
-          <person xml:id="ep000039-warwick">
+          <person xml:id="ep000039-warwick" sex="MALE">
             <persName>Warwick</persName>
           </person>
-          <person xml:id="ep000039-robin">
+          <person xml:id="ep000039-robin" sex="MALE">
             <persName>Robin</persName>
           </person>
-          <person xml:id="ep000039-marian">
+          <person xml:id="ep000039-marian" sex="FEMALE">
             <persName>Marian</persName>
           </person>
-          <person xml:id="ep000039-scarlet">
+          <person xml:id="ep000039-scarlet" sex="FEMALE">
             <persName>Scarlet</persName>
           </person>
-          <person xml:id="ep000039-much">
+          <person xml:id="ep000039-much" sex="MALE">
             <persName>Much</persName>
           </person>
-          <person xml:id="ep000039-shoemaker">
+          <person xml:id="ep000039-shoemaker" sex="MALE">
             <persName>Shoemaker</persName>
           </person>
         </listPerson>
@@ -220,7 +205,8 @@
           <l>Our cause is good, it is for the lands auayle: </l>
           <l>Then let vs fight, and dye for Englands good. </l>
         </sp>
-        <sp who="#ep000039-omnes" xml:id="ep000039-e100170">
+        <sp who="#ep000039-bonfield #ep000039-gilbert #ep000039-john"
+                xml:id="ep000039-e100170">
           <speaker>Omnes. </speaker>
           <l>We will, my Lord. </l>
         </sp>
@@ -273,7 +259,7 @@
           <l>So what is brought, is sent from them perforce; </l>
           <l>Aske Mannering else. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e100550">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e100550">
           <speaker>Kend. </speaker>
           <l>What sayest thou, Mannering? </l>
         </sp>
@@ -284,7 +270,7 @@
           <l>They made this answere, </l>
           <l>Onely to send prouision for your horses. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e100610">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e100610">
           <speaker>Kend. </speaker>
           <l>Well, hye thee to Wakefield, bid the Towne </l>
           <l>To send me all prouision that I want; </l>
@@ -299,7 +285,7 @@
           <l>The proudest Knight, Iustice, or other, that gaynsayeth </l>
           <l>Your word, He clap him fast, to make the rest to feare. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e100720">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e100720">
           <speaker>Kend. </speaker>
           <l>Doe so Nick: hye thee thither presently, </l>
           <l>And let vs heare of thee againe to morrowe. </l>
@@ -308,7 +294,7 @@
           <speaker>Man. </speaker>
           <l>Will you not remooue, my Lord? </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e100770">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e100770">
           <speaker>Kend. </speaker>
           <l>No: I will lye at Bradford all this night, </l>
           <l>And all the next: come, Bonfield, let vs goe, </l>
@@ -520,7 +506,7 @@
           <l>That earst was blythe and bonny in thine eye, </l>
           <l>Graunt one petition that I shall demaund. </l>
         </sp>
-        <sp who="#ep000039-old" xml:id="ep000039-e102230">
+        <sp who="#ep000039-musgrove" xml:id="ep000039-e102230">
           <speaker>Olde Musgroue. </speaker>
           <l>What is that, my Cuddie? </l>
         </sp>
@@ -666,7 +652,7 @@
           <l>Bootlesse, my Lord, are many vaine replies. </l>
           <l>Let vs hye vs to Wakefield, and send her the pinners head. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e103300">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e103300">
           <speaker>Kend. </speaker>
           <l>It shall be so. Grime, gramercie, </l>
           <l>Shut vp the daughter, bridle her affects, </l>
@@ -679,7 +665,7 @@
           <l>I warrant you, my Lord. </l>
         </sp>
         <stage xml:id="ep000039-e103370">Ex. Grime &amp; Bettris. </stage>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e103380">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e103380">
           <speaker>Ken. </speaker>
           <l>And Bettris, leaue a base pinner, for to loue an Earle, </l>
           <l>Faine would I see this pinner George a Greene. </l>
@@ -690,7 +676,7 @@
         </sp>
         <stage xml:id="ep000039-e103450">Ex. omnes. </stage>
         <stage xml:id="ep000039-e103460">Enter the King of Scots, Lord Humes, with souldiers and Iohnie. </stage>
-        <sp who="#ep000039-king" xml:id="ep000039-e103470">
+        <sp who="#ep000039-james" xml:id="ep000039-e103470">
           <speaker>King. </speaker>
           <l>Why, Iohnie: then the Earle of Kendall is blithe, </l>
           <l>And hath braue men that troupe along with him. </l>
@@ -701,7 +687,7 @@
           <l>That come along with him, </l>
           <l>And vowes to meete you at Scrasblesea, God willing. </l>
         </sp>
-        <sp who="#ep000039-king" xml:id="ep000039-e103540">
+        <sp who="#ep000039-james" xml:id="ep000039-e103540">
           <speaker>King. </speaker>
           <l>If good S. Andrewe lend King Iame leaue, </l>
           <l>I will be with him at the pointed day. </l>
@@ -1054,7 +1040,7 @@
           <stage xml:id="ep000039-e105810">Exit Ienkin. </stage>
         </sp>
         <stage xml:id="ep000039-e105820">Enter the Earle of Kendal, Lord Bonfield, sir Gilbert, all disguised, with a traine of men. </stage>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e105830">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e105830">
           <speaker>Kend. </speaker>
           <l>Now we haue put the horses in the corne, </l>
           <l>Let vs stand in some corner for to heare, </l>
@@ -1109,7 +1095,7 @@
         </sp>
         <stage xml:id="ep000039-e106130">The Earle of Kendall, the Lord Bonfild, and sir Gilbert Armestrong meete them. </stage>
         <pb xml:id="ep000039-011-b"/>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106140">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106140">
           <speaker>Kend. </speaker>
           <l>Whither away, sir? </l>
         </sp>
@@ -1118,7 +1104,7 @@
           <l>Whither away? I am going to put the horses </l>
           <l>In the pound. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106190">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106190">
           <speaker>Kend. </speaker>
           <l>Sirra, those three horses belong to vs, and we put </l>
           <l>Them in, and they must tarrie there, and eate their fill. </l>
@@ -1146,7 +1132,7 @@
           <l>I am the pinner, and before you passe, </l>
           <l>You shall make good the trespasse they haue done. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106370">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106370">
           <speaker>Kend. </speaker>
           <l>Peace, saucie mate, prate not to vs: </l>
           <l>I tell thee, pinner, we are gentlemen. </l>
@@ -1155,7 +1141,7 @@
           <speaker>George. </speaker>
           <l>Why sir, so may I sir, although I giue no armes. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106420">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106420">
           <speaker>Kend. </speaker>
           <l>Thou? howe art thou a gentleman? </l>
         </sp>
@@ -1164,7 +1150,7 @@
           <l>And such is my master, and he may giue as good </l>
           <l>Armes, as euer your great grandfather could giue. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106470">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106470">
           <speaker>Kend. </speaker>
           <l>Pray thee let me heare howe? </l>
         </sp>
@@ -1180,7 +1166,7 @@
           <l>Armes, </l>
           <l>Weares the horne on his owne head. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106580">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106580">
           <speaker>Kend: </speaker>
           <l>Well pinner, sith our horses be in, </l>
           <l>In spite of thee they now shall feede their fill, </l>
@@ -1193,7 +1179,7 @@
           <l>They shall amend the seath or kisse the pound, </l>
           <l>Much more yours sir, whatsoere you be. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106670">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106670">
           <speaker>Kend. </speaker>
           <l>Why man, thou knowest not vs, </l>
           <l>We do belong to Henry Momford Earle of Kendal, </l>
@@ -1216,7 +1202,7 @@
           <l>Is better then an Earle, if he be false: </l>
           <l>Traitors reape no better fauours at my hands. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106820">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106820">
           <speaker>Kend. </speaker>
           <l>I, so me thinks, but thou shalt deare aby this blow. </l>
           <l>Now or neuer lay hold on the pinner. </l>
@@ -1232,7 +1218,7 @@
           <l>I would haue stopt your passage vnto London: </l>
           <l>But now Ile flie to secret policie. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e106930">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e106930">
           <speaker>Kend. </speaker>
           <l>What doest thou murmure, George? </l>
         </sp>
@@ -1243,7 +1229,7 @@
           <l>That thou wilt doe poore G. a Greene this wrong, </l>
           <l>Euer to match me with a troupe of men. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107000">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107000">
           <speaker>Kend. </speaker>
           <l>Why doest thou strike me then? </l>
         </sp>
@@ -1266,7 +1252,7 @@
           <l>A pardon my Lord for this pinner, </l>
           <l>For trust me he speaketh like a man of worth. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107170">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107170">
           <speaker>Kend. </speaker>
           <l>Well, George, wilt thou leaue Wakefielde and </l>
           <l>Wend with me, </l>
@@ -1277,7 +1263,7 @@
           <l>I my Lord, considering me one thing, </l>
           <l>You will leaue these armes and follow your good king. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107240">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107240">
           <speaker>Ken. </speaker>
           <l>Why George, I rise not against king Edward, </l>
           <l>But for the poore that is opprest by wrong, </l>
@@ -1351,7 +1337,7 @@
           <l>Then I will trip it till I see my George. </l>
         </sp>
         <stage xml:id="ep000039-e107790">Enter the Earle of Kendall, L. Bonfield, sir Gilbert, and Ienkin the clowne. </stage>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107800">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107800">
           <speaker>Kend. </speaker>
           <l>Come away Ienkin. </l>
         </sp>
@@ -1363,7 +1349,7 @@
           <speaker>Georg. </speaker>
           <l>Who knocks there? </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107860">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107860">
           <speaker>Kend. </speaker>
           <l>Heere are two or three poore men, father, </l>
           <l>Would speake with you. </l>
@@ -1372,7 +1358,7 @@
           <speaker>Georg. </speaker>
           <l>Pray giue your man leaue to leade me fort </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107910">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107910">
           <speaker>Kend. </speaker>
           <l>Goe, Ienkin, fetch him forth. </l>
         </sp>
@@ -1382,7 +1368,7 @@
         </sp>
         <stage xml:id="ep000039-e107950">Enter George a Greene disguised. </stage>
         <pb xml:id="ep000039-014-a"/>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e107960">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e107960">
           <speaker>Kend. </speaker>
           <l>Father, heere is three poore men come to question </l>
           <l>Thee a word in secrete that concernes their liues. </l>
@@ -1391,7 +1377,7 @@
           <speaker>George. </speaker>
           <l>Say on my sonnes. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108010">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108010">
           <speaker>Kend. </speaker>
           <l>Father, I am sure you heare the newes, </l>
           <l>How that the Earle of Kendal wars against the king, </l>
@@ -1408,7 +1394,7 @@
           <speaker>George. </speaker>
           <l>The king, my sonne. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108140">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108140">
           <speaker>Kend. </speaker>
           <l>Art thou sure of that? </l>
         </sp>
@@ -1417,7 +1403,7 @@
           <l>I, as sure as thou art Henry Momford, </l>
           <l>The one L. Bonfild, the other sir Gilbert. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108190">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108190">
           <speaker>Kend. </speaker>
           <l>Why this is wondrous, being blinde of sight, </l>
           <l>His deepe perseuerance should be such to know vs. </l>
@@ -1435,7 +1421,7 @@
           <l>To leaue these warres against your king, </l>
           <l>And liue in quiet. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108310">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108310">
           <speaker>Kend. </speaker>
           <l>Father, we come not for aduice in warre, </l>
           <l>But to know whether we shall win or leese. </l>
@@ -1446,7 +1432,7 @@
           <l>Lose gentle Lords, but not by good king Edward: </l>
           <l>A baser man shall giue you all the foile. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108370">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108370">
           <speaker>Kend. </speaker>
           <l>I marie father, what man is that? </l>
         </sp>
@@ -1454,7 +1440,7 @@
           <speaker>George. </speaker>
           <l>Poore George a Greene the pinner. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108410">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108410">
           <speaker>Kend. </speaker>
           <l>What shall he? </l>
         </sp>
@@ -1462,7 +1448,7 @@
           <speaker>George. </speaker>
           <l>Pull all your plumes, and sore dishonour you. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108450">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108450">
           <speaker>Kend. </speaker>
           <l>He, as how? </l>
         </sp>
@@ -1470,7 +1456,7 @@
           <speaker>George. </speaker>
           <l>Nay, the end tries all, but so it will fall out. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108490">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108490">
           <speaker>Kend. </speaker>
           <l>But so it shall not by my honor Christ. </l>
           <l>Ile raise my campe, and fire Wakefield towne, </l>
@@ -1484,7 +1470,7 @@
           <l>And for greater proofe, </l>
           <l>Giue your man leaue to fetch me my staffe. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108590">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108590">
           <speaker>Kend. </speaker>
           <l>Ienkin, fetch him his walking staffe. </l>
         </sp>
@@ -1500,7 +1486,7 @@
           <l>Now I haue singled you here alone, </l>
           <l>I care not though you be three to one. </l>
         </sp>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e108690">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e108690">
           <speaker>Kend. </speaker>
           <l>Villaine, hast thou betraid vs? </l>
         </sp>
@@ -1624,7 +1610,7 @@
           <l>They say he is the Pinner of Wakefield towne, </l>
           <l>But for his other qualities, I let alone. </l>
         </sp>
-        <sp who="#ep000039-warw" xml:id="ep000039-e109500">
+        <sp who="#ep000039-warwick" xml:id="ep000039-e109500">
           <speaker>War. </speaker>
           <l>May it please your grace, I know the man too wel. </l>
         </sp>
@@ -1632,7 +1618,7 @@
           <speaker>Edward. </speaker>
           <l>Too well, why so, Warwicke? </l>
         </sp>
-        <sp who="#ep000039-warw" xml:id="ep000039-e109540">
+        <sp who="#ep000039-warwick" xml:id="ep000039-e109540">
           <speaker>War. </speaker>
           <l>For once he swingde me, till my bones did ake. </l>
         </sp>
@@ -1675,7 +1661,7 @@
           <l>But I will make thee buy this treason deare. </l>
         </sp>
         <pb xml:id="ep000039-017-b"/>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e109840">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e109840">
           <speaker>Kend. </speaker>
           <l>Good my Lord. </l>
         </sp>
@@ -1735,7 +1721,7 @@
           <l>So shalt thou end thy dayes within the tower. </l>
         </sp>
         <pb xml:id="ep000039-018-a"/>
-        <sp who="#ep000039-kendal" xml:id="ep000039-e110230">
+        <sp who="#ep000039-kendall" xml:id="ep000039-e110230">
           <speaker>Kend. </speaker>
           <l>Gracious is Edward to offending subiects. </l>
         </sp>

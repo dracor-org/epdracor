@@ -81,46 +81,40 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000323-flora">
+          <person xml:id="ep000323-voice-2" sex="MALE">
+            <persName>Voice 2</persName>
+          </person>
+          <person xml:id="ep000323-voice-1" sex="MALE">
+            <persName>Voice 1</persName>
+          </person>
+          <person xml:id="ep000323-flora" sex="FEMALE">
             <persName>Flora</persName>
           </person>
-          <person xml:id="ep000323-zephyrus">
+          <person xml:id="ep000323-zephyrus" sex="MALE">
             <persName>Zephyrus</persName>
           </person>
-          <person xml:id="ep000323-cantus">
+          <person xml:id="ep000323-cantus" sex="MALE">
             <persName>Cantus</persName>
           </person>
-          <person xml:id="ep000323-tenor">
+          <person xml:id="ep000323-tenor" sex="MALE">
             <persName>Tenor</persName>
           </person>
-          <person xml:id="ep000323-bas">
-            <persName>Bas</persName>
+          <person xml:id="ep000323-bass" sex="MALE">
+            <persName>Bass</persName>
           </person>
-          <person xml:id="ep000323-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000323-night">
+          <personGrp xml:id="ep000323-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000323-night" sex="FEMALE">
             <persName>Night</persName>
           </person>
-          <person xml:id="ep000323-hesperus">
+          <person xml:id="ep000323-hesperus" sex="MALE">
             <persName>Hesperus</persName>
           </person>
-          <person xml:id="ep000323-missing">
-            <persName>Missing</persName>
-          </person>
-          <person xml:id="ep000323-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000323-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000323-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000323-silvan">
+          <person xml:id="ep000323-silvan" sex="MALE">
             <persName>Silvan</persName>
           </person>
-          <person xml:id="ep000323-hour">
+          <person xml:id="ep000323-hour" sex="MALE">
             <persName>Hour</persName>
           </person>
         </listPerson>
@@ -181,9 +175,9 @@
         </div>
       </div>
       <div cert="high"
-               type="dedication"
-               xml:id="ep000323-e100360"
-               xml:lang="lat">
+              type="dedication"
+              xml:id="ep000323-e100360"
+              xml:lang="lat">
         <pb xml:id="ep000323-003-a"/>
         <head>Ad Inuictissimum, Serenissimumque IACOBVM Magnae Britanniae Regem. </head>
         <l>ANgliae, &amp; vnanimis Scotiae pater, annè maritus </l>
@@ -251,9 +245,9 @@
         <l>And liue together many blessed dayes, </l>
         <l>To propagate the honour'd name of HAYES. </l>
         <div cert="high"
-                  type="epigram"
-                  xml:id="ep000323-e100910"
-                  xml:lang="lat">
+                 type="epigram"
+                 xml:id="ep000323-e100910"
+                 xml:lang="lat">
           <head>Epigramma. </head>
           <l>Haeredem (vt spes est) pariet noua nupta Scot 'Anglum, </l>
           <l>Quem gignet post hac ille, Britannus erit. </l>
@@ -377,7 +371,7 @@
           <l>What strife can be where two are one, </l>
           <l>Or what delight to pine alone? </l>
         </sp>
-        <sp who="#ep000323-bas" xml:id="ep000323-e101880">
+        <sp who="#ep000323-bass" xml:id="ep000323-e101880">
           <speaker>Bas. </speaker>
           <l>None such true freendes, none so sweet life, </l>
           <l>As that betweene the man and wife. </l>
@@ -400,7 +394,7 @@
           <l>The bow and arrow both may fit, </l>
           <l>And yet tis hard the marke to hit. </l>
         </sp>
-        <sp who="#ep000323-bas" xml:id="ep000323-e102010">
+        <sp who="#ep000323-bass" xml:id="ep000323-e102010">
           <speaker>Bas. </speaker>
           <l>He leuels faire that by his side </l>
           <l>Laies at night his louely Bride. </l>
@@ -641,7 +635,7 @@
         </sp>
         <p>Night toucht the third 3. trees &amp; the same charme of Night and Diana was sung the third time, the last three trees were transformed, and the Maskers raisd. When presently the first Musique began his full Chorus. </p>
         <pb xml:id="ep000323-012-a"/>
-        <sp who="#ep000323-missing" xml:id="ep000323-e103860">
+        <sp xml:id="ep000323-e103860">
           <l>Againe this song reuiue and sound it hie, </l>
           <l>Long liue Apollo Brittaines glorious eye. </l>
         </sp>
@@ -707,46 +701,46 @@
           <l>To giue this starre a musicall farewell. </l>
         </sp>
         <p>A Diologue of foure voices two Bases and two trebles. </p>
-        <sp who="#ep000323-xxxx_1" xml:id="ep000323-e104420">
+        <sp who="#ep000323-voice-1" xml:id="ep000323-e104420">
           <speaker>1 </speaker>
           <l>Of all the starres which is the kindest </l>
           <l>To a louing Bride? </l>
         </sp>
-        <sp who="#ep000323-xxxx_2" xml:id="ep000323-e104450">
+        <sp who="#ep000323-voice-2" xml:id="ep000323-e104450">
           <speaker>2 </speaker>
           <l>Hesperus when in the west </l>
           <l>He doth the day from night deuide. </l>
         </sp>
-        <sp who="#ep000323-xxxx_1" xml:id="ep000323-e104480">
+        <sp who="#ep000323-voice-1" xml:id="ep000323-e104480">
           <speaker>1 </speaker>
           <l>What message can be more respected </l>
           <l>Then that which tells wish't ioyes shalbe effected? </l>
         </sp>
-        <sp who="#ep000323-xxxx_2" xml:id="ep000323-e104510">
+        <sp who="#ep000323-voice-2" xml:id="ep000323-e104510">
           <speaker>2 </speaker>
           <l>Do not Brides watch the euening starre? </l>
         </sp>
-        <sp who="#ep000323-xxxx_1" xml:id="ep000323-e104530">
+        <sp who="#ep000323-voice-1" xml:id="ep000323-e104530">
           <speaker>1 </speaker>
           <l>O they can discerne it farre: </l>
         </sp>
-        <sp who="#ep000323-xxxx_2" xml:id="ep000323-e104550">
+        <sp who="#ep000323-voice-2" xml:id="ep000323-e104550">
           <speaker>2 </speaker>
           <l>Loue Bridegroomes reuels? </l>
         </sp>
-        <sp who="#ep000323-xxxx_1" xml:id="ep000323-e104570">
+        <sp who="#ep000323-voice-1" xml:id="ep000323-e104570">
           <speaker>1 </speaker>
           <l>But for fashion. </l>
         </sp>
-        <sp who="#ep000323-xxxx_2" xml:id="ep000323-e104590">
+        <sp who="#ep000323-voice-2" xml:id="ep000323-e104590">
           <speaker>2 </speaker>
           <l>And why? </l>
         </sp>
-        <sp who="#ep000323-xxxx_1" xml:id="ep000323-e104610">
+        <sp who="#ep000323-voice-1" xml:id="ep000323-e104610">
           <speaker>1 </speaker>
           <l>They hinder wisht occasion. </l>
         </sp>
-        <sp who="#ep000323-xxxx_2" xml:id="ep000323-e104630">
+        <sp who="#ep000323-voice-2" xml:id="ep000323-e104630">
           <speaker>2 </speaker>
           <l>Longing hearts and new delights, </l>
           <l>Loue short dayes, and long nights </l>
@@ -773,12 +767,12 @@
           <l>And with one song weele bid you all god-Night. </l>
         </sp>
         <p>At the end of these words, the violins began the 4. new dance, which was excellently discharged by the Maskers, &amp; it ended with a light change of musick &amp; mesure: After the dance followed this dialogue of 2 voices, a base &amp; tenor sung by a Siluan, &amp; an Howre. </p>
-        <sp who="#ep000323-multiple" xml:id="ep000323-e104820">
+        <sp who="#ep000323-silvan" xml:id="ep000323-e104820">
           <speaker>Ten: Siluan. </speaker>
           <l>TEll me gentle howre of night </l>
           <l>Wherein dost thou most delight? </l>
         </sp>
-        <sp who="#ep000323-multiple" xml:id="ep000323-e104850">
+        <sp who="#ep000323-hour" xml:id="ep000323-e104850">
           <speaker>Bas. Howre. </speaker>
           <l>Not in sleepe, </l>
         </sp>

@@ -101,79 +101,76 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000130-cleon">
+          <person xml:id="ep000130-bedchamber-2" sex="MALE">
+            <persName>Bedchamber 2</persName>
+          </person>
+          <person xml:id="ep000130-bedchamber-1" sex="MALE">
+            <persName>Bedchamber 1</persName>
+          </person>
+          <personGrp xml:id="ep000130-ladies" sex="FEMALE">
+            <name>Ladies</name>
+          </personGrp>
+          <person xml:id="ep000130-cleon" sex="MALE">
             <persName>Cleon</persName>
           </person>
-          <person xml:id="ep000130-lysippus">
+          <person xml:id="ep000130-lysippus" sex="MALE">
             <persName>Lysippus</persName>
           </person>
-          <person xml:id="ep000130-diphilus">
+          <person xml:id="ep000130-diphilus" sex="MALE">
             <persName>Diphilus</persName>
           </person>
-          <person xml:id="ep000130-strato">
+          <person xml:id="ep000130-strato" sex="MALE">
             <persName>Strato</persName>
           </person>
-          <person xml:id="ep000130-melantius">
+          <person xml:id="ep000130-melantius" sex="MALE">
             <persName>Melantius</persName>
           </person>
-          <person xml:id="ep000130-aspatia">
+          <person xml:id="ep000130-aspatia" sex="FEMALE">
             <persName>Aspatia</persName>
           </person>
-          <person xml:id="ep000130-amintor">
+          <person xml:id="ep000130-amintor" sex="MALE">
             <persName>Amintor</persName>
           </person>
-          <person xml:id="ep000130-calianax">
+          <person xml:id="ep000130-calianax" sex="MALE">
             <persName>Calianax</persName>
           </person>
-          <person xml:id="ep000130-diagorus">
+          <person xml:id="ep000130-diagorus" sex="MALE">
             <persName>Diagorus</persName>
           </person>
-          <person xml:id="ep000130-king">
+          <person xml:id="ep000130-king" sex="MALE">
             <persName>King</persName>
           </person>
-          <person xml:id="ep000130-evadne">
+          <person xml:id="ep000130-evadne" sex="FEMALE">
             <persName>Evadne</persName>
           </person>
-          <person xml:id="ep000130-night">
+          <person xml:id="ep000130-night" sex="FEMALE">
             <persName>Night</persName>
           </person>
-          <person xml:id="ep000130-cinthia">
+          <person xml:id="ep000130-cinthia" sex="FEMALE">
             <persName>Cinthia</persName>
           </person>
-          <person xml:id="ep000130-neptune">
+          <person xml:id="ep000130-neptune" sex="MALE">
             <persName>Neptune</persName>
           </person>
-          <person xml:id="ep000130-eolus">
+          <person xml:id="ep000130-eolus" sex="MALE">
             <persName>Eolus</persName>
           </person>
-          <person xml:id="ep000130-dula">
+          <person xml:id="ep000130-dula" sex="FEMALE">
             <persName>Dula</persName>
           </person>
-          <person xml:id="ep000130-1_lady">
+          <person xml:id="ep000130-1-lady" sex="FEMALE">
             <persName>1 Lady</persName>
           </person>
-          <person xml:id="ep000130-omnes">
-            <persName>Omnes</persName>
-          </person>
-          <person xml:id="ep000130-antiphila">
+          <person xml:id="ep000130-antiphila" sex="FEMALE">
             <persName>Antiphila</persName>
           </person>
-          <person xml:id="ep000130-ollimpias">
+          <person xml:id="ep000130-ollimpias" sex="FEMALE">
             <persName>Ollimpias</persName>
           </person>
-          <person xml:id="ep000130-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000130-gentleman">
+          <person xml:id="ep000130-gentleman" sex="MALE">
             <persName>Gentleman</persName>
           </person>
-          <person xml:id="ep000130-xxxx_1">
-            <persName>Xxxx 1</persName>
-          </person>
-          <person xml:id="ep000130-xxxx_2">
-            <persName>Xxxx 2</persName>
-          </person>
-          <person xml:id="ep000130-servant">
+          <person xml:id="ep000130-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
         </listPerson>
@@ -191,8 +188,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000130"
-                    passive="http://www.wikidata.org/entity/Q7749612"/>
+                   active="https://dracor.org/entity/ep000130"
+                   passive="http://www.wikidata.org/entity/Q7749612"/>
     </listRelation>
   </standOff>
   <text>
@@ -1160,7 +1157,7 @@
             <speaker>EVAD. </speaker>
             <p>You prick me Madame. </p>
           </sp>
-          <sp who="#ep000130-1_lady" xml:id="ep000130-e106490">
+          <sp who="#ep000130-1-lady" xml:id="ep000130-e106490">
             <speaker>1. LAD. </speaker>
             <p>Tis against my will. </p>
           </sp>
@@ -1334,11 +1331,12 @@
             <p>Alas I pittie thee. <stage xml:id="ep000130-e107570">Exit Euadne. </stage>
             </p>
           </sp>
-          <sp who="#ep000130-omnes" xml:id="ep000130-e107580">
+          <sp who="#ep000130-ladies #ep000130-dula #ep000130-aspatia"
+                   xml:id="ep000130-e107580">
             <speaker>OMNES. </speaker>
             <p>Madame good night. </p>
           </sp>
-          <sp who="#ep000130-1_lady" xml:id="ep000130-e107600">
+          <sp who="#ep000130-1-lady" xml:id="ep000130-e107600">
             <speaker>1. LAD. </speaker>
             <p>Come weele let in the Bridegroome. </p>
           </sp>
@@ -1346,7 +1344,7 @@
             <speaker>DVL. </speaker>
             <p>Where's my Lord? </p>
           </sp>
-          <sp who="#ep000130-1_lady" xml:id="ep000130-e107640">
+          <sp who="#ep000130-1-lady" xml:id="ep000130-e107640">
             <speaker>1. LAD. </speaker>
             <l>Here take this light, <stage xml:id="ep000130-e107660">Enter Amintor. </stage>
             </l>
@@ -1355,7 +1353,7 @@
             <speaker>DVL. </speaker>
             <p>Heele finde her in the darke. </p>
           </sp>
-          <sp who="#ep000130-1_lady" xml:id="ep000130-e107690">
+          <sp who="#ep000130-1-lady" xml:id="ep000130-e107690">
             <speaker>1. LAD. </speaker>
             <p>Your Ladye's scarse a bed, you must helpe her. </p>
           </sp>
@@ -1380,7 +1378,7 @@
             <p>Come Ladies will you goe. <stage xml:id="ep000130-e107870">Exit Aspatia. </stage>
             </p>
           </sp>
-          <sp who="#ep000130-1_lady" xml:id="ep000130-e107880">
+          <sp who="#ep000130-1-lady" xml:id="ep000130-e107880">
             <speaker>1. LAD. </speaker>
             <p>Good night my Lord. </p>
           </sp>
@@ -2714,7 +2712,7 @@
             <speaker>EVAD. </speaker>
             <p>Now sir, see how loud this fellow lies. </p>
           </sp>
-          <sp who="#ep000130-unassigned" xml:id="ep000130-e116360">
+          <sp xml:id="ep000130-e116360">
             <speaker>AMIN. </speaker>
             <l>You that can know to wrong, shold know how </l>
             <l>Men must right themselues, what punishment is due, </l>
@@ -4630,7 +4628,8 @@
             <l>When he has vsd me thus a month, I am mad </l>
             <l>Am I not still? </l>
           </sp>
-          <sp who="#ep000130-omnes" xml:id="ep000130-e129070">
+          <sp who="#ep000130-melantius #ep000130-king #ep000130-amintor #ep000130-evadne #ep000130-diphilus #ep000130-lysippus #ep000130-cleon #ep000130-strato"
+                   xml:id="ep000130-e129070">
             <speaker>Omnes. </speaker>
             <p>Ha ha ha. </p>
           </sp>
@@ -4643,7 +4642,8 @@
             <l>And hees an Asse, and I am a very foole </l>
             <l>Both with him, and without him, as you vse me. </l>
           </sp>
-          <sp who="#ep000130-omnes" xml:id="ep000130-e129160">
+          <sp who="#ep000130-melantius #ep000130-king #ep000130-amintor #ep000130-evadne #ep000130-diphilus #ep000130-lysippus #ep000130-cleon #ep000130-strato"
+                   xml:id="ep000130-e129160">
             <speaker>Omnes. </speaker>
             <p>Ha ha ha. </p>
           </sp>
@@ -5175,42 +5175,42 @@
             </p>
           </sp>
           <stage xml:id="ep000130-e132660">Enter two of the Bed-chamber. </stage>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132670">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132670">
             <speaker>1. </speaker>
             <p>Come now shees gone, lets enter, the King expects it, and will be angry. </p>
           </sp>
           <pb xml:id="ep000130-036-a"/>
-          <sp who="#ep000130-xxxx_2" xml:id="ep000130-e132690">
+          <sp who="#ep000130-bedchamber-2" xml:id="ep000130-e132690">
             <speaker>2. </speaker>
             <p>Tis a fine wench, weele haue a snap at her one of these nights as she goes from him. </p>
           </sp>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132710">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132710">
             <speaker>1. </speaker>
             <p>Content: how quickly he had done with her, I see Kings can doe no more that way then other mortall people. </p>
           </sp>
-          <sp who="#ep000130-xxxx_2" xml:id="ep000130-e132730">
+          <sp who="#ep000130-bedchamber-2" xml:id="ep000130-e132730">
             <speaker>2. </speaker>
             <p>How fast he is! I cannot heare him breathe. </p>
           </sp>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132750">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132750">
             <speaker>1. </speaker>
             <p>Either the tapers giue a feeble light, or he lookes very pale. </p>
           </sp>
-          <sp who="#ep000130-xxxx_2" xml:id="ep000130-e132770">
+          <sp who="#ep000130-bedchamber-2" xml:id="ep000130-e132770">
             <speaker>2. </speaker>
             <l>Lets looke: Alas, hees stiffe, wounded and dead. </l>
             <l>Treason. </l>
           </sp>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132800">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132800">
             <speaker>1. </speaker>
             <p>Run forth and call. <stage xml:id="ep000130-e132820">Exit Gent. </stage>
             </p>
           </sp>
-          <sp who="#ep000130-xxxx_2" xml:id="ep000130-e132830">
+          <sp who="#ep000130-bedchamber-2" xml:id="ep000130-e132830">
             <speaker>2. </speaker>
             <p>Treason, treason. </p>
           </sp>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132850">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132850">
             <speaker>1. </speaker>
             <l>This will be laid on vs: who can beleeue </l>
             <l>A woman could doe this? </l>
@@ -5220,7 +5220,7 @@
             <speaker>Cle. </speaker>
             <p>How now? wheres the traitor? </p>
           </sp>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132910">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132910">
             <speaker>1. </speaker>
             <l>Fled, fled away, but there her wofull act </l>
             <l>Lies still. </l>
@@ -5233,7 +5233,7 @@
             <speaker>Lys. </speaker>
             <p>Wheres the body? </p>
           </sp>
-          <sp who="#ep000130-xxxx_1" xml:id="ep000130-e132980">
+          <sp who="#ep000130-bedchamber-1" xml:id="ep000130-e132980">
             <speaker>1. </speaker>
             <p>There. </p>
           </sp>

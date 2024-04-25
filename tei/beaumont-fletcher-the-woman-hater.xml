@@ -96,85 +96,82 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000135-arrigo">
-            <persName>Arrigo</persName>
+          <person xml:id="ep000135-secretary" sex="MALE">
+            <persName>Secretary</persName>
           </person>
-          <person xml:id="ep000135-duke">
-            <persName>Duke</persName>
+          <person xml:id="ep000135-waiting-woman" sex="FEMALE">
+            <persName>Waiting woman</persName>
           </person>
-          <person xml:id="ep000135-lucio">
-            <persName>Lucio</persName>
-          </person>
-          <person xml:id="ep000135-lazarillo">
-            <persName>Lazarillo</persName>
-          </person>
-          <person xml:id="ep000135-boy">
-            <persName>Boy</persName>
-          </person>
-          <person xml:id="ep000135-oriana">
-            <persName>Oriana</persName>
-          </person>
-          <person xml:id="ep000135-count">
-            <persName>Count</persName>
-          </person>
-          <person xml:id="ep000135-intelligencer">
-            <persName>Intelligencer</persName>
-          </person>
-          <person xml:id="ep000135-servant">
-            <persName>Servant</persName>
-          </person>
-          <person xml:id="ep000135-gondarino">
-            <persName>Gondarino</persName>
-          </person>
-          <person xml:id="ep000135-luke">
-            <persName>Luke</persName>
-          </person>
-          <person xml:id="ep000135-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000135-pandar">
+          <person xml:id="ep000135-pandar" sex="MALE">
             <persName>Pandar</persName>
           </person>
-          <person xml:id="ep000135-mercer">
+          <person xml:id="ep000135-arrigo" sex="MALE">
+            <persName>Arrigo</persName>
+          </person>
+          <person xml:id="ep000135-duke" sex="MALE">
+            <persName>Duke</persName>
+          </person>
+          <person xml:id="ep000135-lucio" sex="MALE">
+            <persName>Lucio</persName>
+          </person>
+          <person xml:id="ep000135-lazarillo" sex="MALE">
+            <persName>Lazarillo</persName>
+          </person>
+          <person xml:id="ep000135-boy" sex="MALE">
+            <persName>Boy</persName>
+          </person>
+          <person xml:id="ep000135-oriana" sex="FEMALE">
+            <persName>Oriana</persName>
+          </person>
+          <person xml:id="ep000135-count" sex="MALE">
+            <persName>Count</persName>
+          </person>
+          <person xml:id="ep000135-intelligencer" sex="MALE">
+            <persName>Intelligencer</persName>
+          </person>
+          <person xml:id="ep000135-servant" sex="MALE">
+            <persName>Servant</persName>
+          </person>
+          <person xml:id="ep000135-gondarino" sex="MALE">
+            <persName>Gondarino</persName>
+          </person>
+          <person xml:id="ep000135-mercer" sex="MALE">
             <persName>Mercer</persName>
           </person>
-          <person xml:id="ep000135-madona">
+          <person xml:id="ep000135-madona" sex="FEMALE">
             <persName>Madona</persName>
           </person>
-          <person xml:id="ep000135-francissina">
+          <person xml:id="ep000135-francissina" sex="FEMALE">
             <persName>Francissina</persName>
           </person>
-          <person xml:id="ep000135-intelligencer_1">
+          <person xml:id="ep000135-intelligencer-1" sex="MALE">
             <persName>Intelligencer 1</persName>
           </person>
-          <person xml:id="ep000135-intelligencer_2">
+          <person xml:id="ep000135-intelligencer-2" sex="MALE">
             <persName>Intelligencer 2</persName>
           </person>
-          <person xml:id="ep000135-prentice">
+          <person xml:id="ep000135-prentice" sex="MALE">
             <persName>Prentice</persName>
           </person>
-          <person xml:id="ep000135-gentlewoman">
+          <person xml:id="ep000135-gentlewoman" sex="FEMALE">
             <persName>Gentlewoman</persName>
           </person>
-          <person xml:id="ep000135-gentleman">
+          <person xml:id="ep000135-gentleman" sex="MALE">
             <persName>Gentleman</persName>
           </person>
-          <person xml:id="ep000135-julia">
+          <person xml:id="ep000135-julia" sex="FEMALE">
             <persName>Julia</persName>
           </person>
-          <person xml:id="ep000135-waiter">
+          <person xml:id="ep000135-waiter" sex="MALE">
             <persName>Waiter</persName>
           </person>
-          <person xml:id="ep000135-s">
-            <persName>S</persName>
-          </person>
-          <person xml:id="ep000135-ladies">
-            <persName>Ladies</persName>
-          </person>
-          <person xml:id="ep000135-lady_1">
+          <personGrp xml:id="ep000135-ladies" sex="FEMALE">
+            <name>Ladies</name>
+          </personGrp>
+          <person xml:id="ep000135-lady-1" sex="MALE">
             <persName>Lady 1</persName>
           </person>
-          <person xml:id="ep000135-lady_2">
+          <person xml:id="ep000135-lady-2" sex="MALE">
             <persName>Lady 2</persName>
           </person>
         </listPerson>
@@ -192,8 +189,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000135"
-                    passive="http://www.wikidata.org/entity/Q7775476"/>
+                   active="https://dracor.org/entity/ep000135"
+                   passive="http://www.wikidata.org/entity/Q7775476"/>
     </listRelation>
   </standOff>
   <text>
@@ -811,7 +808,7 @@
             <speaker>Laz. </speaker>
             <p>Will it please your worship walke? </p>
           </sp>
-          <sp who="#ep000135-lazarillo" xml:id="ep000135-e103660">
+          <sp who="#ep000135-count" xml:id="ep000135-e103660">
             <speaker>Cont, </speaker>
             <p>Sir I was comming, I will ouer-take you. </p>
           </sp>
@@ -1048,7 +1045,7 @@
             <speaker>Gond. </speaker>
             <p>A woman. </p>
           </sp>
-          <sp who="#ep000135-luke" xml:id="ep000135-e104970">
+          <sp who="#ep000135-duke" xml:id="ep000135-e104970">
             <speaker>Luke. </speaker>
             <p>O I know your auncient quarrell against that sexe; but what hainous crime hath shee committed? </p>
           </sp>
@@ -1440,7 +1437,7 @@
             <speaker>Duk. </speaker>
             <p>Till then farewell all. </p>
           </sp>
-          <sp who="#ep000135-multiple" xml:id="ep000135-e107160">
+          <sp who="#ep000135-count" xml:id="ep000135-e107160">
             <speaker>Gen. Count. </speaker>
             <p>Long life attend your Grace. </p>
           </sp>
@@ -1448,7 +1445,7 @@
             <speaker>Duk. </speaker>
             <p>I doe not tast this sport, Arrigo, Lucio. </p>
           </sp>
-          <sp who="#ep000135-multiple" xml:id="ep000135-e107200">
+          <sp who="#ep000135-arrigo #ep000135-lucio" xml:id="ep000135-e107200">
             <speaker>Ar. Luci. </speaker>
             <p>We doe attend. </p>
           </sp>
@@ -2078,15 +2075,15 @@
         <div n="3" type="scene" xml:id="ep000135-e111160">
           <head>ACTVS III. SCEN. III. </head>
           <stage xml:id="ep000135-e111170">Enter two Intelligencers, discouering treason in the Courtiers words. </stage>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e111180">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e111180">
             <speaker>1. Intel. </speaker>
             <p>There take your standing, be close and vigilant, here will I set my selfe, and let him looke to his language, a shal know the Duke ha's more eares in Court than two. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e111200">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e111200">
             <speaker>2. Int. </speaker>
             <p>Ile quote him to a tittle, let him speake wisely, and plainely, and as hidden as a can, or I shall crush him, a shall not scape charracters, though a speake Babel, I shall crush him: we haue a Fortune by this seruice hanging ouer vs, that within this yeare or two, I hope we shall be called to be examiners, weare politicke gownes garded with copper lace, making great faces full of feare and office, our labours may deserue this. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e111220">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e111220">
             <speaker>1. Int. </speaker>
             <p>I hope it shall: why ha's not many men bin raised from this worming trade, first to gaine good accesse to great men, then to haue commissions out for search, and <pb xml:id="ep000135-020-b"/>lastly, to be worthily nam'd at a great Arraignment: yes, &amp; why not we? they that indeauour well deserue their Fee. Close, close, a comes: marke well, and all goes well. </p>
           </sp>
@@ -2115,7 +2112,7 @@
             <speaker>Laz. </speaker>
             <p>Then am I greater then the Duke. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e111430">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e111430">
             <speaker>2. Int. </speaker>
             <p>There, there's a notable peece of treason, greater then the Duke, marke that. </p>
           </sp>
@@ -2135,7 +2132,7 @@
             <speaker>La. </speaker>
             <p>The plot my Lord, as er'e you can of a woman discouer. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e111530">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e111530">
             <speaker>1. Int. </speaker>
             <p>Plots, dangerous plots, I will deserue by this most liberally. </p>
           </sp>
@@ -2223,7 +2220,7 @@
             <speaker>Laz. </speaker>
             <p>Or corrupt the waiting prentise to betray the reuersion. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112100">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e112100">
             <speaker>1. Inte. </speaker>
             <p>Ther's another point in's plot, corrupt with money to betray: sure 'tis some Fort a meanes: marke, haue a care. </p>
           </sp>
@@ -2231,7 +2228,7 @@
             <speaker>Laz. </speaker>
             <p>And 'twere the bare vineger 'tis eaten with, it would in some sort satisfie nature: but might I once attaine the dish it selfe, though I cut out my meanes through swords and fire, through poison, through any thing that may make good my hopes. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e112140">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e112140">
             <speaker>2. Int. </speaker>
             <p>Thankes to the gods, and our officiousnes, the plots discouered, fire, steele, and poison, burne the Palace, kill the Duke, and poison his priuie Counsell. </p>
           </sp>
@@ -2243,7 +2240,7 @@
             <speaker>Laz. </speaker>
             <p>If it be eaten, here a stands, that is the most deiected, most vnfortunate, miserable, accursed, forsaken slaue, this Prouince yeeldes: I will not sure outliue it, no I will die brauely, and like a Roman; and after death, amidst the Elizian shades, Ile meete my loue againe. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112200">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e112200">
             <speaker>1. In. </speaker>
             <p>I will die brauely, like a Roman: haue a care, mark that: when he hath done all, he will kill himselfe. </p>
           </sp>
@@ -2285,35 +2282,35 @@
             <p>I am all yours. </p>
           </sp>
           <stage xml:id="ep000135-e112450">Exeunt Lazarello and Count. </stage>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112460">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e112460">
             <speaker>1. In. </speaker>
             <p>Come let vs conferre, Inprimis a saith like a blasphemous villaine, he is greater than the Duke, this pepers him, &amp; there were nothing else. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112480">
+          <sp xml:id="ep000135-e112480">
             <speaker>2. In. </speaker>
             <p>Then a was naming plots; did yee not heare? </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112500">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e112500">
             <speaker>1. In. </speaker>
             <p>Yes but a fell from that, vnto discouery, to corrupt by money, and so attaine. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e112520">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e112520">
             <speaker>2. In. </speaker>
             <p>I, I, a meant some Fort, or Syttadell the Duke hath, his very face betraid his meaning, O hee is a very subtill and a dangerous knaue, but if a deale a Gods name we shall worme him. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112540">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e112540">
             <speaker>1. In. </speaker>
             <p>But now comes the Stroake, the fatall blow, Fire, sword, &amp; Poyson, O Canibal, thou bloody Canibal. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e112560">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e112560">
             <speaker>2. In. </speaker>
             <p>What had become of this poore state, had not we beene? </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e112580">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e112580">
             <speaker>1. In. </speaker>
             <p>Faith it had lyen buried in his owne ashes; had not a greater hand beene in't. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e112600">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e112600">
             <speaker>2. In. </speaker>
             <p>But note the Rascals resolution, after th'acts done, because a wo'd auoid al feare of torture, and cousen the Law, a wo'd kill himselfe? was there euer the like danger, brought to light in this age? sure we shall merite much, we shalbe able to keep two men a peece, &amp; a two hand sword <pb xml:id="ep000135-022-b"/>between vs, we will liue in fauour of the State, betray our ten or twelue treasons a weeke, and the people shall feare vs: come, to the Lord Lucio, the Sunne shall not goe down till a be hanged. </p>
           </sp>
@@ -3275,7 +3272,7 @@
             <p>Now am I so truely happy, so much aboue all fate and fortune, that I should despise that man, durst say, Remember Lazarello, thou art mortall. </p>
           </sp>
           <stage xml:id="ep000135-e117820">Enter Intelligencers with a Guard. </stage>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e117830">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e117830">
             <speaker>2. Int. </speaker>
             <p>This is the villaine, lay hands on him. </p>
           </sp>
@@ -3283,7 +3280,7 @@
             <speaker>Laz. </speaker>
             <p>Gentlemen, why am I thus intreated? what is the nature of my crime? </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e117870">
+          <sp xml:id="ep000135-e117870">
             <speaker>2. Int. </speaker>
             <p>Sir, though you haue carried it a great while priuatly, and (as you thinke) well; yet we haue seene your Sir, and we doe know thee Lazarello, for a traitor. </p>
           </sp>
@@ -3291,7 +3288,7 @@
             <speaker>Laz. </speaker>
             <p>The gods defend our Duke. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e117910">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e117910">
             <speaker>2. Int. </speaker>
             <p>Amen. Sir, Sir, this cannot saue that stiffe necke from the halter. </p>
           </sp>
@@ -3303,7 +3300,7 @@
             <speaker>Laz. </speaker>
             <p>My friends, will ye let me haue that little fauour— </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e117970">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e117970">
             <speaker>1. Int. </speaker>
             <p>Sir, ye shall haue law, and nothing else. </p>
           </sp>
@@ -3322,7 +3319,7 @@
             <l>Since I haue lost my hopes, welcome my fall. </l>
           </sp>
           <pb xml:id="ep000135-031-a"/>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e118070">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e118070">
             <speaker>2. Int. </speaker>
             <p>Away sir. </p>
           </sp>
@@ -3346,7 +3343,7 @@
             <speaker>Laz. </speaker>
             <p>Thankes, thankes. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e118190">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e118190">
             <speaker>2. Int. </speaker>
             <p>Away, away, you shall thanke her at the gallows. </p>
           </sp>
@@ -3365,7 +3362,7 @@
             <speaker>Orian. </speaker>
             <p>Hast thou prouided one to beare my letter to my brother? </p>
           </sp>
-          <sp who="#ep000135-waiter" xml:id="ep000135-e118300">
+          <sp who="#ep000135-waiting-woman" xml:id="ep000135-e118300">
             <speaker>Wait. </speaker>
             <p>I haue enquir'd, but they of the house will suffer no letter nor message to bee carried from you, but such as the Lord Gondarino shall bee acquainted with: Truly Madam, I suspect the house to be no better then it should be. </p>
           </sp>
@@ -3373,7 +3370,7 @@
             <speaker>Orian. </speaker>
             <p>What doest thou doubt? </p>
           </sp>
-          <sp who="#ep000135-waiter" xml:id="ep000135-e118340">
+          <sp who="#ep000135-waiting-woman" xml:id="ep000135-e118340">
             <speaker>Wait. </speaker>
             <p>Faith, I am loath to tell it Madam. </p>
           </sp>
@@ -3381,7 +3378,7 @@
             <speaker>Oria. </speaker>
             <p>Out with it, 'tis not true modesty to feare to speak that thou doest thinke. </p>
           </sp>
-          <sp who="#ep000135-waiter" xml:id="ep000135-e118380">
+          <sp who="#ep000135-waiting-woman" xml:id="ep000135-e118380">
             <speaker>Wait. </speaker>
             <p>I thinke it be one of these same bawdy houses. </p>
           </sp>
@@ -3693,7 +3690,7 @@
             <p>I hope so. </p>
           </sp>
           <stage xml:id="ep000135-e120080">Enter Secretary. </stage>
-          <sp who="#ep000135-s" xml:id="ep000135-e120090">
+          <sp who="#ep000135-secretary" xml:id="ep000135-e120090">
             <speaker>Secr. </speaker>
             <p>My Lord, there are some require accesse to you about weightie affaires of state. </p>
           </sp>
@@ -3710,7 +3707,7 @@
             <speaker>Luci. </speaker>
             <p>How waightie is the busines. </p>
           </sp>
-          <sp who="#ep000135-s" xml:id="ep000135-e120170">
+          <sp who="#ep000135-secretary" xml:id="ep000135-e120170">
             <speaker>Secr. </speaker>
             <p>Treason my Lord. </p>
           </sp>
@@ -3731,7 +3728,7 @@
             <p>I will be your Lordships intelligencer for once. </p>
           </sp>
           <stage xml:id="ep000135-e120270">Exit Gentleman, Enter Secretarie. </stage>
-          <sp who="#ep000135-s" xml:id="ep000135-e120280">
+          <sp who="#ep000135-secretary" xml:id="ep000135-e120280">
             <speaker>Secr. </speaker>
             <p>My Lord. </p>
           </sp>
@@ -3740,11 +3737,11 @@
             <p>Let'am in, and say I am at my studie. </p>
           </sp>
           <stage xml:id="ep000135-e120320">Enter Lazarello, &amp; two Intelligensers. Lucio being at his study. </stage>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e120330">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e120330">
             <speaker>1. In. </speaker>
             <p>Where is your Lord? </p>
           </sp>
-          <sp who="#ep000135-s" xml:id="ep000135-e120350">
+          <sp who="#ep000135-secretary" xml:id="ep000135-e120350">
             <speaker>Secr. </speaker>
             <p>At his studie, but he will haue you brought in. </p>
           </sp>
@@ -3752,7 +3749,7 @@
             <speaker>Laza. </speaker>
             <p>Why Gentlemen, what will you charge mee withall? </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e120390">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e120390">
             <speaker>2. In. </speaker>
             <p>Treason, horrible treason, I hope to haue the leading of thee to prison, and pricke thee on 'ith arse with a halbert: to haue him heng'd that salutes thee, and call all those in question, that spit not vpon thee. </p>
           </sp>
@@ -3765,7 +3762,7 @@
             <speaker>Luci. </speaker>
             <p>Gentlemen I am not emptie of waightie occasions at this time; I pray you your busines. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e120460">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e120460">
             <speaker>1. In. </speaker>
             <p>My Lord, I thinke wee haue discouer'd one of the most blodie Traitors, that euer the world held. </p>
           </sp>
@@ -3773,7 +3770,7 @@
             <speaker>Luci. </speaker>
             <p>Signior Lazarillo, I am glad ye'are one of this discouery, giue me your hand. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e120500">
+          <sp xml:id="ep000135-e120500">
             <speaker>2. In. </speaker>
             <p>My Lord that is the Traitor. </p>
           </sp>
@@ -3790,8 +3787,8 @@
             <p>Peace Sir, I know the diuel is at your tongues end, to furnish you with speeches? what are the particulars? <pb xml:id="ep000135-034-a"/>you charge him with. <stage xml:id="ep000135-e120580">They deliuer a paper to Lucio, who reads. </stage>
             </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1 #ep000135-intelligencer_2"
-                    xml:id="ep000135-e120590">
+          <sp who="#ep000135-intelligencer-1 #ep000135-intelligencer-2"
+                   xml:id="ep000135-e120590">
             <speaker>both In. </speaker>
             <p>We haue confer'd our notes, &amp; haue extracted that, which we will iustifie vpon our oathes. </p>
           </sp>
@@ -3822,7 +3819,7 @@
             <speaker>Laz. </speaker>
             <p>But my good Lord— </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e120800">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e120800">
             <speaker>2. In. </speaker>
             <p>Lets gagge him. </p>
           </sp>
@@ -3830,12 +3827,12 @@
             <speaker>Luci. </speaker>
             <p>Peace againe, but many times thirst after distruction, where it hath met with benefits; there I left: Such, &amp; no better are the busines, that we haue now in hand. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e120840">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e120840">
             <speaker>1. In. </speaker>
             <p>Hee's excellently spoken. </p>
           </sp>
           <pb xml:id="ep000135-034-b"/>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e120860">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e120860">
             <speaker>2. In. </speaker>
             <p>Hee'l wind a Tratour I warrant him. </p>
           </sp>
@@ -3843,7 +3840,7 @@
             <speaker>Luci. </speaker>
             <p>But surely me thinkes, setting aside the touch of Conscience, and all other inward convulsions. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e120900">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e120900">
             <speaker>2. In. </speaker>
             <p>Hee'l be hang'd, I know by that word. </p>
           </sp>
@@ -3855,7 +3852,7 @@
             <speaker>Luci. </speaker>
             <p>Hold thy peace: thou canst not answere this speech: no Tratour can answere it: but because you cannot answere this speech; I take it you haue confessed the Treason. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e120960">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e120960">
             <speaker>1. In. </speaker>
             <p>The Count Valore was the first that discouered him, and can witnes it, but hee left the matter to your Lordships graue consideration. </p>
           </sp>
@@ -3876,7 +3873,7 @@
             <speaker>Luci. </speaker>
             <p>Away with him, Ile follow you, looke you pynion him, and take his money from hurt, least he swallow a shilling and kill himselfe. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e121090">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e121090">
             <speaker>2. In. </speaker>
             <p>Get then on before. </p>
           </sp>
@@ -3977,7 +3974,7 @@
             <stage xml:id="ep000135-e121680">Enter Lazarello, 2. Intelligensers, and Guard. </stage>
             <l>How now my friends, whome haue ye guarded hether. </l>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e121700">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e121700">
             <speaker>2. In. </speaker>
             <p>So please your Grace wee haue discouer'd a a villaine and a Traytour: the Lord Lucio hath examin'd him, and sent him to your Grace for Iudgement. </p>
           </sp>
@@ -4024,11 +4021,11 @@
             <speaker>Count. </speaker>
             <p>Now euen a word or two to you, and so farewel; you think you haue deseru'd much of this state, by this discouerie: y'are a slauish people, growne subject to the common course of all men. How much vnhappie were that noble spirite, could worke by such baser gaines? what misery would not a knowing man put on, with willingnes, ere he see him selfe growne fat and full fed, by fall of those you rise by? I do discharge ye my attendance; our healthful state needes no such Leeches to suck out her bloud. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_1" xml:id="ep000135-e121940">
+          <sp who="#ep000135-intelligencer-1" xml:id="ep000135-e121940">
             <speaker>1 Intel. </speaker>
             <p>I do beseech your Lordship. </p>
           </sp>
-          <sp who="#ep000135-intelligencer_2" xml:id="ep000135-e121960">
+          <sp who="#ep000135-intelligencer-2" xml:id="ep000135-e121960">
             <speaker>2 Int. </speaker>
             <p>Good my L. </p>
           </sp>
@@ -4523,7 +4520,7 @@
             <speaker>Gond. </speaker>
             <p>I pronounce perdition to ye all; ye are a parcell of that damned Crew, that fell downe with Lucifer, and here yee stayd on earth, to plague poore men; vanish, auaunt, I am fortified against your charmes; heauen grant me breath and patience. </p>
           </sp>
-          <sp who="#ep000135-lady_1" xml:id="ep000135-e124740">
+          <sp who="#ep000135-lady-1" xml:id="ep000135-e124740">
             <speaker>1. Lady. </speaker>
             <p>Shall we not kisse then? </p>
           </sp>
@@ -4531,7 +4528,7 @@
             <speaker>Gond. </speaker>
             <p>No, feare my lips with hot irons first, or stitch them vp like a Ferrets: O that this brunt were ouer. </p>
           </sp>
-          <sp who="#ep000135-lady_2" xml:id="ep000135-e124780">
+          <sp who="#ep000135-lady-2" xml:id="ep000135-e124780">
             <speaker>2. Lad. </speaker>
             <p>Come, come, little rogue, thou art too maidenly by my troth, I thinke I must boxe thee, till thou bee'st boulder; the more bold, the more welcome: I pre thee kis me, be not afraid? </p>
             <stage xml:id="ep000135-e124800">Shee sits on his knee. </stage>
@@ -4540,7 +4537,7 @@
             <speaker>Gond. </speaker>
             <p>If there bee any here, that yet haue so much of the foole left in them, as to loue their Mothers, let them looke on her, and loath them too. </p>
           </sp>
-          <sp who="#ep000135-lady_2" xml:id="ep000135-e124830">
+          <sp who="#ep000135-lady-2" xml:id="ep000135-e124830">
             <speaker>2. Lad. </speaker>
             <p>What a slouenly little villaine art thou, why dost thou not stroke vp thy haire? I thinke thou ne're comb'st it: I must haue it lie in better order; so, so, so, let me see thy hands, are they washt? </p>
           </sp>
@@ -4556,7 +4553,7 @@
             <speaker>Count. </speaker>
             <p>The best that euer was. </p>
           </sp>
-          <sp who="#ep000135-lady_2" xml:id="ep000135-e124910">
+          <sp who="#ep000135-lady-2" xml:id="ep000135-e124910">
             <speaker>2. Lad. </speaker>
             <p>Alas how cold they are poore golls, why do'st thee not get thee a musse? </p>
           </sp>

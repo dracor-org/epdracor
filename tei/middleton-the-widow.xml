@@ -84,64 +84,58 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000594-francisco">
+          <person xml:id="ep000594-francisco" sex="MALE">
             <persName>Francisco</persName>
           </person>
-          <person xml:id="ep000594-martia">
+          <person xml:id="ep000594-martia" sex="FEMALE">
             <persName>Martia</persName>
           </person>
-          <person xml:id="ep000594-philippa">
+          <person xml:id="ep000594-philippa" sex="FEMALE">
             <persName>Philippa</persName>
           </person>
-          <person xml:id="ep000594-violetta">
+          <person xml:id="ep000594-violetta" sex="FEMALE">
             <persName>Violetta</persName>
           </person>
-          <person xml:id="ep000594-brandino">
+          <person xml:id="ep000594-brandino" sex="MALE">
             <persName>Brandino</persName>
           </person>
-          <person xml:id="ep000594-ricardo">
+          <person xml:id="ep000594-ricardo" sex="MALE">
             <persName>Ricardo</persName>
           </person>
-          <person xml:id="ep000594-attilio">
+          <person xml:id="ep000594-attilio" sex="MALE">
             <persName>Attilio</persName>
           </person>
-          <person xml:id="ep000594-multiple">
-            <persName>Multiple</persName>
-          </person>
-          <person xml:id="ep000594-valeria">
+          <person xml:id="ep000594-valeria" sex="FEMALE">
             <persName>Valeria</persName>
           </person>
-          <person xml:id="ep000594-servellio">
-            <persName>Servellio</persName>
+          <person xml:id="ep000594-servant" sex="MALE">
+            <persName>Servant</persName>
           </person>
-          <person xml:id="ep000594-ambo">
-            <persName>Ambo</persName>
+          <person xml:id="ep000594-suitor-2" sex="MALE">
+            <persName>Suitor 2</persName>
           </person>
-          <person xml:id="ep000594-2_suitor">
-            <persName>2 Suitor</persName>
+          <person xml:id="ep000594-suitor-1" sex="MALE">
+            <persName>Suitor 1</persName>
           </person>
-          <person xml:id="ep000594-1_suitor">
-            <persName>1 Suitor</persName>
-          </person>
-          <person xml:id="ep000594-officer">
+          <person xml:id="ep000594-officer" sex="MALE">
             <persName>Officer</persName>
           </person>
-          <person xml:id="ep000594-occulto">
+          <person xml:id="ep000594-occulto" sex="MALE">
             <persName>Occulto</persName>
           </person>
-          <person xml:id="ep000594-silvio">
+          <person xml:id="ep000594-silvio" sex="MALE">
             <persName>Silvio</persName>
           </person>
-          <person xml:id="ep000594-latrocinio">
+          <person xml:id="ep000594-latrocinio" sex="MALE">
             <persName>Latrocinio</persName>
           </person>
-          <person xml:id="ep000594-ansaldo">
+          <person xml:id="ep000594-ansaldo" sex="MALE">
             <persName>Ansaldo</persName>
           </person>
-          <person xml:id="ep000594-stratio">
+          <person xml:id="ep000594-stratio" sex="MALE">
             <persName>Stratio</persName>
           </person>
-          <person xml:id="ep000594-fiducio">
+          <person xml:id="ep000594-fiducio" sex="MALE">
             <persName>Fiducio</persName>
           </person>
         </listPerson>
@@ -159,8 +153,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000594"
-                    passive="http://www.wikidata.org/entity/Q7774773"/>
+                   active="https://dracor.org/entity/ep000594"
+                   passive="http://www.wikidata.org/entity/Q7774773"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -1029,7 +1023,7 @@
             <l>But to assist a subtle trick I ha' thought on, </l>
             <l>And the rich Widows mine within these three hours. </l>
           </sp>
-          <sp who="#ep000594-multiple" xml:id="ep000594-e105050">
+          <sp who="#ep000594-attilio #ep000594-francisco" xml:id="ep000594-e105050">
             <speaker>Att. Fra. </speaker>
             <l>We should be proud of that Sir. </l>
           </sp>
@@ -1326,7 +1320,7 @@
             <speaker>Val. </speaker>
             <l>SErvellio. </l>
           </sp>
-          <sp who="#ep000594-servellio" xml:id="ep000594-e106800">
+          <sp who="#ep000594-servant" xml:id="ep000594-e106800">
             <speaker>Ser. </speaker>
             <l>Mistris. </l>
           </sp>
@@ -1335,7 +1329,7 @@
             <l>If that fellow come agen, </l>
             <l>Answer him without me: ile not speak with him. </l>
           </sp>
-          <sp who="#ep000594-servellio" xml:id="ep000594-e106850">
+          <sp who="#ep000594-servant" xml:id="ep000594-e106850">
             <speaker>Ser. </speaker>
             <l>He in the Nutmeg-colourd band forsooth. </l>
           </sp>
@@ -1509,7 +1503,7 @@
             <l>Nay, ther's no starting now, I have you fast Widow, </l>
             <l>You'r witness Gentlemen. </l>
           </sp>
-          <sp who="#ep000594-multiple" xml:id="ep000594-e107880">
+          <sp who="#ep000594-francisco #ep000594-attilio" xml:id="ep000594-e107880">
             <speaker>Fra. Att. </speaker>
             <l>Wee'l be depos'd on't. </l>
           </sp>
@@ -1632,7 +1626,7 @@
             <l>Oh kind Gentlemen, </l>
             <l>I am so abus'd here. </l>
           </sp>
-          <sp who="#ep000594-ambo" xml:id="ep000594-e108600">
+          <sp who="#ep000594-suitor-1 #ep000594-suitor-2" xml:id="ep000594-e108600">
             <speaker>Ambo. </speaker>
             <l>Abus'd? </l>
           </sp>
@@ -1640,7 +1634,7 @@
             <speaker>Val. </speaker>
             <l>What will you doe Sirs? put up your weapons. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e108640">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e108640">
             <speaker>2 Suiter. </speaker>
             <p>Nay, they'r not so easily drawn, that I must tell you <pb n="18" xml:id="ep000594-012-a"/>you, mine has not been out this three ears; mary in your cause Widow, 'twould not be long a drawing. Abus'd? by whom Widow? </p>
           </sp>
@@ -1648,7 +1642,7 @@
             <speaker>Val. </speaker>
             <l>Nay, by a begger. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e108680">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e108680">
             <speaker>2 Suiter. </speaker>
             <p>A begger? Ile have him whipt then, and sent to the house of Correction. </p>
           </sp>
@@ -1656,7 +1650,7 @@
             <speaker>Val. </speaker>
             <l>Ricardo? Sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e108720">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e108720">
             <speaker>2 Suiter. </speaker>
             <p>Ricardo? nay by'th' masse, he's a Gentleman begger, he'l be hang'd before he be whipt. Why you'l give me leave to clap him up I hope? </p>
           </sp>
@@ -1671,7 +1665,7 @@
             <l>A kind of verball curtesie, which his witnesses </l>
             <l>And he forsooth call by the name of contract. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e108830">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e108830">
             <speaker>1 Suiter. </speaker>
             <l>O politick villain, </l>
           </sp>
@@ -1681,12 +1675,12 @@
             <l>If the whole power of my estate can cast him, </l>
             <l>He never shall obtain me. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e108890">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e108890">
             <speaker>2 Suiter. </speaker>
             <l>Hold you there Widow, </l>
             <l>Well fare your heart for that y'faith. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e108920">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e108920">
             <speaker>1 Suiter. </speaker>
             <l>Stay, stay, stay, </l>
             <l>You broke no gold between you? </l>
@@ -1695,7 +1689,7 @@
             <speaker>Val. </speaker>
             <l>We broke nothing Sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e108970">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e108970">
             <speaker>1 Suiter. </speaker>
             <l>Nor drunck to one an other? </l>
           </sp>
@@ -1703,7 +1697,7 @@
             <speaker>Val. </speaker>
             <l>Not a drop Sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109010">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109010">
             <speaker>1 Suiter. </speaker>
             <l>Y'ar sure of this you speak? </l>
           </sp>
@@ -1711,7 +1705,7 @@
             <speaker>Val. </speaker>
             <l>Most certain Sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109050">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109050">
             <speaker>1 Suiter. </speaker>
             <l>Be of good comfort wench, ile undertake then </l>
             <l>At mine own charge to overthrow him for thee. </l>
@@ -1723,7 +1717,7 @@
             <l>And alas, ignorant in Law businesses, </l>
             <l>Ile bear the charge most willingly. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109130">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109130">
             <speaker>1 Suiter. </speaker>
             <l>Not a penny, </l>
             <l>Thy love will reward me. </l>
@@ -1734,15 +1728,15 @@
             <pb n="19" xml:id="ep000594-012-b"/>
             <l>It is all but one purse now I think on't. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109190">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109190">
             <speaker>1 Suiter. </speaker>
             <l>All comes to one, sweet Widow. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109210">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109210">
             <speaker>2 Suiter. </speaker>
             <l>Are you so forward? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109230">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109230">
             <speaker>1 Suiter. </speaker>
             <l>I know his mates Attilio and Francisco, </l>
             <l>Ile get out process and and attach 'em all, </l>
@@ -1752,7 +1746,7 @@
             <speaker>Val. </speaker>
             <l>I like that, strangely. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109290">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109290">
             <speaker>1 Suiter. </speaker>
             <l>I have a daughter run away I thank her, </l>
             <l>Ile be a scourge to all youth for her sake: </l>
@@ -1762,7 +1756,7 @@
             <speaker>Val. </speaker>
             <l>Your daughter? what Sir? Martia. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109350">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109350">
             <speaker>1 Suiter. </speaker>
             <l>I a shake wed her, </l>
             <l>I would have married her to a wealthie Gentleman, </l>
@@ -1772,7 +1766,7 @@
             <speaker>Val. </speaker>
             <l>It was too happy for her. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e109410">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e109410">
             <speaker>1 Suiter. </speaker>
             <l>I'm of thy mind. </l>
             <l>Farewell sweet Widow, ile about this strait, </l>
@@ -1784,7 +1778,7 @@
             <l>How I love your providence. </l>
           </sp>
           <stage xml:id="ep000594-e109480">Exit. 1 Suiter. </stage>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109490">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109490">
             <speaker>2 Suiter. </speaker>
             <l>Is my Nose board? Ile cross ye both for this, </l>
             <l>Although it cost me as much o'th' other side, </l>
@@ -1797,7 +1791,7 @@
             <speaker>Val. </speaker>
             <l>Marry fair hope forbid. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109580">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109580">
             <speaker>2 Suiter. </speaker>
             <p>That will he: mary le' me see, le' me see: pray how far past it between you and Ricardo? </p>
           </sp>
@@ -1806,7 +1800,7 @@
             <l>Farther Sir </l>
             <l>Than I would now it had, but I hope well yet. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109630">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109630">
             <speaker>2 Suiter. </speaker>
             <l>Pray let me hear't: I've a shrewd ghesse o'th' Law. </l>
           </sp>
@@ -1815,7 +1809,7 @@
             <l>Faith Sir, I rashly gave my hand and faith </l>
             <l>To marry none but him. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109680">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109680">
             <speaker>2 Suiter. </speaker>
             <l>Indeed? </l>
           </sp>
@@ -1823,7 +1817,7 @@
             <speaker>Val. </speaker>
             <l>I, trust me Sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109720">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109720">
             <speaker>2 Suiter. </speaker>
             <l>I'm very glad on't, I'm an other witness, </l>
             <l>And he shall have you now. </l>
@@ -1832,7 +1826,7 @@
             <speaker>Val. </speaker>
             <l>What said you Sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109770">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109770">
             <speaker>2 Suiter. </speaker>
             <l>He shall not want money in an honest cause Widow, </l>
             <pb n="20" xml:id="ep000594-013-a"/>
@@ -1842,7 +1836,7 @@
             <speaker>Val. </speaker>
             <l>Are all the world betrayers. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109820">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109820">
             <speaker>2 Suiter. </speaker>
             <l>Pish, pish, Widow. </l>
             <l>Y'have borne me in hand this three months, and now fobd me </l>
@@ -1856,7 +1850,7 @@
             <l>The world knows you ha' small reason to help him, </l>
             <l>So much in your debt already. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e109920">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e109920">
             <speaker>2 Suiter. </speaker>
             <l>Therefore I do't, </l>
             <l>I have no way but that to help my self; </l>
@@ -1869,7 +1863,7 @@
             <l>I lookd for this from you. </l>
           </sp>
           <stage xml:id="ep000594-e110000">Exit. </stage>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e110010">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e110010">
             <speaker>2 Suiter. </speaker>
             <l>I ha' not deceiv'd you then: </l>
             <l>Fret, vex, and chafe, I'm obstinate where I take. </l>
@@ -1899,7 +1893,7 @@
             <stage xml:id="ep000594-e110230">[Enter 1 Suiter with Officers.] </stage>
             <l>Helps man as much as a provoking Banquet. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110250">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110250">
             <speaker>1 Suiter. </speaker>
             <l>Here's one of 'em, begin with him first Officers. </l>
           </sp>
@@ -1911,7 +1905,7 @@
             <speaker>Fra. </speaker>
             <l>My body? 'life, for what? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110310">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110310">
             <speaker>1 Suiter. </speaker>
             <l>Hold him fast Officers. </l>
           </sp>
@@ -1927,7 +1921,7 @@
             <l>O treacherous fortune, </l>
             <l>Why what's the cause? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110400">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110400">
             <speaker>1 Suiter. </speaker>
             <l>The Widow's business Sir, </l>
             <l>I hope you know me? </l>
@@ -1937,7 +1931,7 @@
             <l>For a busie Coxcomb, </l>
             <l>This fifteen year, I take it. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110460">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110460">
             <speaker>1 Suiter. </speaker>
             <l>Oh y'ar mad Sir, </l>
             <l>Simple though you make me, I stand for the Widow. </l>
@@ -1947,7 +1941,7 @@
             <l>She's simply stood for then: what's this to me Sir, </l>
             <l>Or she, or you, or any of these flesh-hooks? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110520">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110520">
             <speaker>1 Suiter. </speaker>
             <l>Y'ar like to find good bayl before you leave us, </l>
             <l>Or lye till the Suit's tride. </l>
@@ -1956,7 +1950,7 @@
             <speaker>Fra. </speaker>
             <l>O my loves misery. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110570">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110570">
             <speaker>1 Suiter. </speaker>
             <p>I'm put in trust to follow't, and Ile do't with all severitie; </p>
             <l>Build upon that Sir. </l>
@@ -1987,7 +1981,7 @@
             <speaker>Fra. </speaker>
             <l>Pish, pish, pish. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110760">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110760">
             <speaker>1 Suiter. </speaker>
             <l>Here they be all three now: 'prehend 'em Officers. </l>
           </sp>
@@ -2004,7 +1998,7 @@
             <speaker>Ric. </speaker>
             <p>What, all three in a nooze? this is like a Widows business indeed. </p>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110850">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110850">
             <speaker>1 Suiter. </speaker>
             <l>Sh'as catchd you Gentlemen, as you catchd her, </l>
             <l>The Widow means now, to begin with you Sir. </l>
@@ -2013,7 +2007,7 @@
             <speaker>Ric. </speaker>
             <p>I thank her heartily, sh'as taught me wit: for had I been any but an ass, I should ha' begun with her indeed: by this light, the Widows a notable House-wife, she bestirs her self, I have a <pb n="22" xml:id="ep000594-014-a"/>greater mind to her now than e'r I had: I cannot goe to prison for one I love better I protest, that's one good comfort, And what are you I pray Sir, for a Coxcomb? </p>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110900">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110900">
             <speaker>1 Suiter. </speaker>
             <l>It seems you know me by your anger Sir. </l>
           </sp>
@@ -2021,7 +2015,7 @@
             <speaker>Ric. </speaker>
             <l>I've a neer ghess at you Sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e110940">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e110940">
             <speaker>1 Suiter. </speaker>
             <l>Ghess what you please Sir, </l>
             <l>I'm he ordaind to trounce you, and indeed </l>
@@ -2032,7 +2026,7 @@
             <l>I, to me. </l>
             <l>But Ile swear she's a beast, and she carry thee. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e111010">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e111010">
             <speaker>1 Suiter. </speaker>
             <l>Come, wher's your Bail Sir, quickly, or away. </l>
           </sp>
@@ -2040,7 +2034,7 @@
             <speaker>Ric. </speaker>
             <l>Sir, I'm held wrongfully, my Bayls taken already. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e111050">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e111050">
             <speaker>1 Suiter. </speaker>
             <l>Where i'st Sir, where? </l>
           </sp>
@@ -2050,20 +2044,20 @@
             <p>Here they be both: pox on you, they were taken before I'd need of 'em, and you be honest Officers let's Bail one another, for by this hand, I doe not know who will else:— 'odds' light is he come too? I'm in for midnight then, I shall never find the way out agen: my debts, my debts: </p>
           </sp>
           <l>I'm like to dye i'th' hole now. </l>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e111110">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e111110">
             <speaker>1 Suiter. </speaker>
             <l>We have him fast old Signior, and his Consorts, </l>
             <l>Now you may lay action on action on him. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111140">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111140">
             <speaker>2 Suiter. </speaker>
             <l>That may I Sir, y'faith. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e111160">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e111160">
             <speaker>1 Suiter. </speaker>
             <l>And I'ld not spare him Sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111180">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111180">
             <speaker>2 Suiter. </speaker>
             <l>Know you me Officers? </l>
           </sp>
@@ -2075,7 +2069,7 @@
             <speaker>Ric. </speaker>
             <l>I know the rascall so well, I dare not look upon him. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111240">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111240">
             <speaker>2 Suiter. </speaker>
             <l>Upon my worth deliver me that Gentleman. </l>
           </sp>
@@ -2083,7 +2077,7 @@
             <speaker>Fra. </speaker>
             <l>Which Gentleman? </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111280">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111280">
             <speaker>2 Suiter. </speaker>
             <l>Not you Sir, y'ar too hastie; </l>
             <l>No, nor you neither Sir: pray stay your time. </l>
@@ -2092,7 +2086,7 @@
             <speaker>Ric. </speaker>
             <l>Ther's all but I now, and I dare not think he means me. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111330">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111330">
             <speaker>2 Suiter. </speaker>
             <l>Deliver me Ricardo. </l>
           </sp>
@@ -2117,7 +2111,7 @@
             <speaker>Ric. </speaker>
             <l>Bayl me? </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111460">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111460">
             <speaker>2 Suiter. </speaker>
             <l>I will, I Sir, look in my face man, </l>
             <l>Thou'st a good cause, thoul't pay me when thour't able? </l>
@@ -2127,17 +2121,17 @@
             <speaker>Ric. </speaker>
             <l>I, every penny, as I am a Gentleman. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111510">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111510">
             <speaker>2 Suiter. </speaker>
             <l>No matter if thou do'st not, then, Ile make thee, </l>
             <l>And that's as good at all times. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e111540">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e111540">
             <speaker>1 Suiter. </speaker>
             <l>But I pray Sir, </l>
             <l>You goe against the Hair there. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111570">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111570">
             <speaker>2 Suiter. </speaker>
             <l>Against the Widow you mean Sir, </l>
             <l>Why 'tis my purpose truly, and against you too, </l>
@@ -2148,7 +2142,7 @@
             <l>Money, or means, or friends, but he shall have her, </l>
             <l>I've enough, and I will have my humour. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e111660">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e111660">
             <speaker>1 Suiter. </speaker>
             <l>Hang thee; I have a purss as good as thine. </l>
           </sp>
@@ -2158,7 +2152,7 @@
             <l>'Heart, and I take your rayling at my Patron Sir, </l>
             <l>Ile cramp your joynts. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111720">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111720">
             <speaker>2 Suiter. </speaker>
             <l>Let him alone sweet honey, </l>
             <l>I thank thee for thy love though. </l>
@@ -2196,7 +2190,7 @@
             <l>Ile make tryall 'faith </l>
             <l>May't please you Sir:— 'life if I should spoil all now? </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111940">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111940">
             <speaker>2 Suiter. </speaker>
             <l>What sayst Ricardo? </l>
           </sp>
@@ -2205,7 +2199,7 @@
             <l>Only a thing by'th' way Sir, </l>
             <l>Use your own pleasure. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e111990">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e111990">
             <speaker>2 Suiter. </speaker>
             <l>That I like well from thee. </l>
           </sp>
@@ -2214,7 +2208,7 @@
             <l>'Twere good, and those two Gentlemen were Bayld too, </l>
             <l>They'r both my witnesses. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e112040">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e112040">
             <speaker>2 Suiter. </speaker>
             <l>They'r well, they'r well: </l>
             <l>And they were Bayld, we know not where to find 'em, </l>
@@ -2329,7 +2323,7 @@
             <speaker>Fra. </speaker>
             <l>How I am bound to you? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e112680">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e112680">
             <speaker>1 Suiter. </speaker>
             <l>Know you whom you cross Sir? </l>
             <l>'Tis at your Sisters sute, be well advis'd Sir, </l>
@@ -2351,15 +2345,15 @@
             <speaker>Rich. </speaker>
             <l>This is unkindly done sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e112790">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e112790">
             <speaker>1 suter. </speaker>
             <l>'Tis wisely done sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e112810">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e112810">
             <speaker>2 suter. </speaker>
             <l>Well shot, foul malice. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e112830">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e112830">
             <speaker>1 suter. </speaker>
             <l>Flattery stinks worse sir. </l>
           </sp>
@@ -2417,7 +2411,7 @@
             <speaker>Fra. </speaker>
             <l>Precious Martino. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e113170">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e113170">
             <speaker>1 suter. </speaker>
             <l>Y'ave done wondrous well sir. </l>
             <l>Your sister shall give you thanks. </l>
@@ -2426,16 +2420,16 @@
             <speaker>Ric. </speaker>
             <l>This makes him mad sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e113220">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e113220">
             <speaker>2 suter. </speaker>
             <l>Wee'l follow't now toth' proof. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e113240">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e113240">
             <speaker>1 suter. </speaker>
             <l>Follow your humour out, </l>
             <l>The widdow shall find friends. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e113270">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e113270">
             <speaker>2 suter. </speaker>
             <l>And so shall he sir, </l>
             <l>Mony and means. </l>
@@ -2444,7 +2438,7 @@
             <speaker>Ric. </speaker>
             <l>Hear you me that old huddle. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e113320">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e113320">
             <speaker>2 suter. </speaker>
             <l>Mind him not, follow me and ile supply thee, </l>
             <l>Thou shalt give all thy Lawyers double fees, </l>
@@ -3414,12 +3408,12 @@
             <speaker>Ric. </speaker>
             <l>IT goes well hitherto, my sweet Protector. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e119710">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e119710">
             <speaker>2 Suter. </speaker>
             <l>I, and shall still to th' end, to th' end my honey, </l>
             <l>Wherefore have I enough, but to hav't goe well sir? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e119740">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e119740">
             <speaker>1 Suter. </speaker>
             <l>My whole State on't; thou overthrowst him Widow. </l>
           </sp>
@@ -3427,7 +3421,7 @@
             <speaker>Val. </speaker>
             <l>I hope well still sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e119780">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e119780">
             <speaker>1 Suter. </speaker>
             <l>Hope? be certain Wench: </l>
             <l>I make no question now, but thou art mine, </l>
@@ -3437,7 +3431,7 @@
             <speaker>Val. </speaker>
             <l>By'r Lady, that I doubt Sir. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e119840">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e119840">
             <speaker>1 Suter. </speaker>
             <l>Oh 'tis cleer wench </l>
             <l>By one thing that I markt. </l>
@@ -3446,7 +3440,7 @@
             <speaker>Val. </speaker>
             <l>What's that good sweet sir? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e119890">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e119890">
             <speaker>1 Suter. </speaker>
             <l>A thing that never faild me. </l>
           </sp>
@@ -3454,7 +3448,7 @@
             <speaker>Val. </speaker>
             <l>Good sir, what? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e119930">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e119930">
             <speaker>1 Suter. </speaker>
             <l>I heard our Counsellour speak a word of comfort </l>
             <l>Invita voluntate, hah, that's he wench, </l>
@@ -3464,13 +3458,13 @@
             <speaker>Val. </speaker>
             <l>Invita voluntate, what's the meaning sir? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e119990">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e119990">
             <speaker>1 Suter. </speaker>
             <l>Nay there I leave you, but assure you thus much, </l>
             <l>I never heard him speak that word i' my life, </l>
             <l>But the cause went on's side, that I market ever. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e120030">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e120030">
             <speaker>2 Suter. </speaker>
             <l>Doe, doe, and spare not: thou wouldst talk with her. </l>
           </sp>
@@ -3478,7 +3472,7 @@
             <speaker>Ric. </speaker>
             <l>Yes, with your leave, and liking. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e120070">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e120070">
             <speaker>2 Suter. </speaker>
             <l>Doe, my adoption, </l>
             <l>My chosen child, and thou holdst so obedient </l>
@@ -3488,7 +3482,7 @@
             <speaker>Ric. </speaker>
             <l>A Childs part in your love, that's my ambition sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e120130">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e120130">
             <speaker>2 Suter. </speaker>
             <l>Goe, and deserve it then: please me well now; </l>
             <l>I love wrangling a life Boy; ther's my delight, </l>
@@ -3523,7 +3517,7 @@
             <l>It's the best calling ever woman came to, </l>
             <l>And all your grace indeed, brag as you list. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e120350">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e120350">
             <speaker>2 Suter. </speaker>
             <l>Ha, ha. </l>
           </sp>
@@ -3531,7 +3525,7 @@
             <speaker>Val. </speaker>
             <l>I grant you sir, But not to be your wife. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e120390">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e120390">
             <speaker>1 Suter. </speaker>
             <l>Oh, oh. </l>
           </sp>
@@ -3587,11 +3581,11 @@
             <l>I, may I perish else; if I would not get </l>
             <l>Three Children at a birth, and I could o'thee. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e120710">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e120710">
             <speaker>1 Suter. </speaker>
             <l>Take off your yongster there. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e120730">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e120730">
             <speaker>2 Suter. </speaker>
             <l>Take off your Widow first, </l>
             <l>He shall have the last word, I pay for't dearly; </l>
@@ -3665,7 +3659,7 @@
             <l>Hark you Brother, </l>
             <l>Perhaps you may prevail, as one indifferent. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e121180">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e121180">
             <speaker>1 Suter. </speaker>
             <l>I, about that sweet Widow. </l>
           </sp>
@@ -3685,7 +3679,7 @@
             <l>If he will vanish, and let fall the Sute, </l>
             <l>And never put's to no more cost and trouble. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e121300">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e121300">
             <speaker>1 Suter. </speaker>
             <l>Say me those words good sir, Ile make 'em worth </l>
             <l>A chain of gold to you, at your Sisters wedding. </l>
@@ -3706,7 +3700,7 @@
             <l>I take delight forsooth </l>
             <l>In any such employment. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e121430">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e121430">
             <speaker>1 Suter. </speaker>
             <l>'Good wench trust me </l>
           </sp>
@@ -3768,7 +3762,7 @@
             <speaker>Ric. </speaker>
             <l>'Troth I think I doe sir. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e121760">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e121760">
             <speaker>2. Suter. </speaker>
             <l>Come hither honey; What's the news in whispers? </l>
           </sp>
@@ -3805,7 +3799,7 @@
             <l>Nay, one that has rid fifteen mile this morning </l>
             <l>For your love onely. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e122010">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e122010">
             <speaker>2. Suter. </speaker>
             <l>Honey, hearken after her; </l>
             <l>Being rich, I can have all my money there: </l>
@@ -3851,25 +3845,25 @@
             <speaker>Ric. </speaker>
             <p>'Twas a good quality to choose a husband for: That love was likely to be ty'd in Matrimonie, that begun in a band-string: yet I ha' known asmuch come to passe ere now upon a tassell. Fare you well Sister; I may be cozend in a Maid, I cannot in a Widow. </p>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e122260">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e122260">
             <speaker>2. Suter. </speaker>
             <l>Art thou come home agen; stickst thou there still? </l>
             <l>I will defend thee still then. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e122290">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e122290">
             <speaker>1. Suter. </speaker>
             <l>Sir you malice </l>
             <l>Will have enough on't. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e122320">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e122320">
             <speaker>2. Suter. </speaker>
             <l>I will have my humour. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e122340">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e122340">
             <speaker>1. Sut. </speaker>
             <l>Beggery will prove the spunge. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e122360">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e122360">
             <speaker>2. Sut. </speaker>
             <l>Spunge i' thy gascoyns, </l>
             <l>Thy gally-gascoyns there. </l>
@@ -5641,7 +5635,7 @@
             <l>Welcome sweet Sister; which is the man must have you. </l>
             <l>Ide welcome no body els. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e133060">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e133060">
             <speaker>1 Suter. </speaker>
             <l>Come to me then sir. </l>
           </sp>
@@ -5659,7 +5653,7 @@
             <speaker>Ric. </speaker>
             <l>O dearth of truth. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e133160">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e133160">
             <speaker>2 Suter. </speaker>
             <l>Nay, do not spoil thy hair, </l>
             <l>Hold, hold I say, Ile get thee a Widow somewhere. </l>
@@ -5669,7 +5663,7 @@
             <l>If hand and faith be nothing for a Contract, </l>
             <l>What shall man hope? </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e133220">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e133220">
             <speaker>2 Suter. </speaker>
             <l>'Twas wont to be enough, Honey. </l>
             <pb n="61" xml:id="ep000594-033-b"/>
@@ -5700,11 +5694,11 @@
             <l>That give more grief if they prove false, or fail us </l>
             <l>Then ever they gave joy. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e133440">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e133440">
             <speaker>1 Suter. </speaker>
             <l>Ha'you ser've me so widow </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e133460">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e133460">
             <speaker>2 Suter. </speaker>
             <l>I'm glad thou hast her not, laugh at him honey; ha, ha. </l>
           </sp>
@@ -5714,7 +5708,7 @@
             <l>Here's as old Gentleman looks not after wealth </l>
             <l>But vertue, manners, and conditions. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e133520">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e133520">
             <speaker>1 Suter. </speaker>
             <l>Yes by my faith: I must have Lordships too Widow. </l>
           </sp>
@@ -5722,7 +5716,7 @@
             <speaker>Val. </speaker>
             <l>How sir? </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e133560">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e133560">
             <speaker>1 Suter. </speaker>
             <l>Your manners, vertue, and conditions Widow. </l>
             <l>Are prety things within dores, I like well on 'em, </l>
@@ -5734,7 +5728,7 @@
             <speaker>Val. </speaker>
             <l>Why sir, you swore to me it was for love. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e133640">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e133640">
             <speaker>1 Suter. </speaker>
             <l>True; but thers two words to a bargain ever </l>
             <l>All the world over, and if love be one </l>
@@ -5747,7 +5741,7 @@
             <l>It was this antient Gentleman indeed, </l>
             <l>Whom I crave pardon on. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e133730">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e133730">
             <speaker>2 Suter. </speaker>
             <l>What of me Widow? </l>
           </sp>
@@ -5757,7 +5751,7 @@
             <pb n="62" xml:id="ep000594-034-a"/>
             <l>You lov'd me for my self? </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e133780">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e133780">
             <speaker>2 Suter. </speaker>
             <l>By my troth but I did not. </l>
             <l>Come, Father not your lyes upon me Widow: </l>
@@ -5769,7 +5763,7 @@
             <speaker>Val. </speaker>
             <l>Why you have enough you say. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e133860">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e133860">
             <speaker>2 Suter. </speaker>
             <p>I, but I will have my humour too; you never think of that, they'r Coach horses, they goe together still. </p>
           </sp>
@@ -5798,7 +5792,7 @@
             <speaker>Val. </speaker>
             <l>As love can make one. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e134030">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e134030">
             <speaker>1 Suter. </speaker>
             <l>Why this fils the Common-wealth so full of beggars, </l>
             <l>Marrying for love, which none of mine shall doe. </l>
@@ -5827,7 +5821,7 @@
             <l>I never felt the evill of my debts </l>
             <l>Till this afflicting minute. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e134220">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e134220">
             <speaker>2 Suter. </speaker>
             <p>Ile be mad once in my daies: I have enough to cure me, and I will have my humour, they'r now but desperate debts agen, I nev'r look for 'em, </p>
             <l>And ever since I knew what malice was </l>
@@ -5852,7 +5846,7 @@
             <speaker>Val. </speaker>
             <l>Else may all faith refuse me: </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e134420">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e134420">
             <speaker>2 Suter. </speaker>
             <l>Tear 'em honey </l>
             <l>'Tis firm in Law, a consideration given: </l>
@@ -5891,11 +5885,11 @@
             <l>If I'd but got it up to the black box above </l>
             <l>I had been past redemption </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e134670">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e134670">
             <speaker>1 Suter. </speaker>
             <l>How am I cheated? </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e134690">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e134690">
             <speaker>2 Suter. </speaker>
             <l>I hope you'l have the conscience now to pay me sir. </l>
           </sp>
@@ -5903,7 +5897,7 @@
             <speaker>Ric. </speaker>
             <l>Oh wicked man, sower of strife and envy, open not thy lips. </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e134730">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e134730">
             <speaker>2 Suter. </speaker>
             <l>How, how's this? </l>
           </sp>
@@ -5916,7 +5910,7 @@
             <pb n="64" xml:id="ep000594-035-a"/>
             <l>Hang thy self when thou wilt, a slave goe with thee </l>
           </sp>
-          <sp who="#ep000594-2_suitor" xml:id="ep000594-e134810">
+          <sp who="#ep000594-suitor-2" xml:id="ep000594-e134810">
             <speaker>2 Suter. </speaker>
             <l>I'm gone, my goodness comes all out together. </l>
             <stage xml:id="ep000594-e134830">[Enter Violentta. </stage>
@@ -5965,7 +5959,7 @@
             <l>Ther'l be good sport at night to bring 'em both to bed; </l>
             <l>Doe you see 'em now, ha, ha, ha. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e135100">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e135100">
             <speaker>1 Suter. </speaker>
             <l>My daughter Martia. </l>
           </sp>
@@ -5985,7 +5979,7 @@
             <l>But finding reconcilement from above </l>
             <l>In peace of heart; the next I hopes your love. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e135220">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e135220">
             <speaker>1 Suter. </speaker>
             <l>I cannot but forgive thee now I see thee, </l>
             <l>Thou fledst a happy fortune of an old man, </l>
@@ -6000,7 +5994,7 @@
             <l>Which had you been as foul, as y'ave been spightfull </l>
             <l>I should have lov'd in her. </l>
           </sp>
-          <sp who="#ep000594-1_suitor" xml:id="ep000594-e135330">
+          <sp who="#ep000594-suitor-1" xml:id="ep000594-e135330">
             <speaker>1 Suter. </speaker>
             <l>Well, hold your prating sir, </l>
             <l>Y'ar not like to loose by't. </l>

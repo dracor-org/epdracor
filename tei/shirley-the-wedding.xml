@@ -91,68 +91,62 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000281-belfare">
+          <person xml:id="ep000281-belfare" sex="MALE">
             <persName>Belfare</persName>
           </person>
-          <person xml:id="ep000281-servant">
+          <person xml:id="ep000281-servant" sex="MALE">
             <persName>Servant</persName>
           </person>
-          <person xml:id="ep000281-isaac">
+          <person xml:id="ep000281-isaac" sex="MALE">
             <persName>Isaac</persName>
           </person>
-          <person xml:id="ep000281-beauford">
+          <person xml:id="ep000281-beauford" sex="MALE">
             <persName>Beauford</persName>
           </person>
-          <person xml:id="ep000281-captain">
+          <person xml:id="ep000281-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000281-marwood">
+          <person xml:id="ep000281-marwood" sex="MALE">
             <persName>Marwood</persName>
           </person>
-          <person xml:id="ep000281-justice">
+          <person xml:id="ep000281-justice" sex="MALE">
             <persName>Justice</persName>
           </person>
-          <person xml:id="ep000281-millicent">
+          <person xml:id="ep000281-millicent" sex="FEMALE">
             <persName>Millicent</persName>
           </person>
-          <person xml:id="ep000281-camelion">
+          <person xml:id="ep000281-camelion" sex="MALE">
             <persName>Camelion</persName>
           </person>
-          <person xml:id="ep000281-rawbone">
+          <person xml:id="ep000281-rawbone" sex="MALE">
             <persName>Rawbone</persName>
           </person>
-          <person xml:id="ep000281-jane">
+          <person xml:id="ep000281-jane" sex="FEMALE">
             <persName>Jane</persName>
           </person>
-          <person xml:id="ep000281-cardona">
+          <person xml:id="ep000281-cardona" sex="FEMALE">
             <persName>Cardona</persName>
           </person>
-          <person xml:id="ep000281-keeper">
+          <person xml:id="ep000281-keeper" sex="MALE">
             <persName>Keeper</persName>
           </person>
-          <person xml:id="ep000281-haver">
+          <person xml:id="ep000281-haver" sex="MALE">
             <persName>Haver</persName>
           </person>
-          <person xml:id="ep000281-lodam">
+          <person xml:id="ep000281-lodam" sex="MALE">
             <persName>Lodam</persName>
           </person>
-          <person xml:id="ep000281-gratiana">
+          <person xml:id="ep000281-gratiana" sex="FEMALE">
             <persName>Gratiana</persName>
           </person>
-          <person xml:id="ep000281-surgeon">
+          <person xml:id="ep000281-surgeon" sex="MALE">
             <persName>Surgeon</persName>
           </person>
-          <person xml:id="ep000281-officer">
-            <persName>Officer</persName>
-          </person>
-          <person xml:id="ep000281-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000281-physician">
+          <personGrp xml:id="ep000281-officers" sex="MALE">
+            <name>Officers</name>
+          </personGrp>
+          <person xml:id="ep000281-physician" sex="MALE">
             <persName>Physician</persName>
-          </person>
-          <person xml:id="ep000281-omnes">
-            <persName>Omnes</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -169,8 +163,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000281"
-                    passive="http://www.wikidata.org/entity/Q7774037"/>
+                   active="https://dracor.org/entity/ep000281"
+                   passive="http://www.wikidata.org/entity/Q7774037"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -4843,7 +4837,7 @@
             <l>Ha yee brought him? </l>
           </sp>
           <stage xml:id="ep000281-e129400">Enter Officers. </stage>
-          <sp who="#ep000281-officer" xml:id="ep000281-e129410">
+          <sp who="#ep000281-officers" xml:id="ep000281-e129410">
             <speaker>Officer. </speaker>
             <l>Mr. Beauford, I am sorry wee are </l>
             <l>Commanded to apprehend your person. </l>
@@ -4852,7 +4846,7 @@
             <speaker>Grat. </speaker>
             <l>Officers ha? </l>
           </sp>
-          <sp who="#ep000281-officer" xml:id="ep000281-e129460">
+          <sp who="#ep000281-officers" xml:id="ep000281-e129460">
             <speaker>Officer. </speaker>
             <l>You are suspected to haue slaine a </l>
             <l>Gentle-man, one Marwood. </l>
@@ -4863,7 +4857,7 @@
             <l>I had a ioy was able to make man </l>
             <l>Forget he could be miserable. </l>
           </sp>
-          <sp who="#ep000281-officer" xml:id="ep000281-e129530">
+          <sp who="#ep000281-officers" xml:id="ep000281-e129530">
             <speaker>Officer. </speaker>
             <l>Come sir. </l>
           </sp>
@@ -4876,7 +4870,7 @@
             <speaker>Grat. </speaker>
             <l>You shanot goe. </l>
           </sp>
-          <sp who="#ep000281-unassigned" xml:id="ep000281-e129600">
+          <sp who="#ep000281-officers" xml:id="ep000281-e129600">
             <speaker>Officers. </speaker>
             <l>Our authority will force him. </l>
           </sp>
@@ -4899,7 +4893,7 @@
             <l>Sau'd in a tempest that did threaten most, </l>
             <l>Arriu'd the harbour, ship, and all are lost. </l>
           </sp>
-          <sp who="#ep000281-officer" xml:id="ep000281-e129730">
+          <sp who="#ep000281-officers" xml:id="ep000281-e129730">
             <speaker>Officer. </speaker>
             <l>To the next Iustice. <stage xml:id="ep000281-e129750">Exeunt. </stage>
             </l>
@@ -5354,7 +5348,7 @@
             <l>You will repent your curtesie, I am </l>
             <l>Presented an offender to you. </l>
           </sp>
-          <sp who="#ep000281-unassigned" xml:id="ep000281-e132550">
+          <sp who="#ep000281-officers" xml:id="ep000281-e132550">
             <speaker>Offi. </speaker>
             <l>Yes, and please your worship, he is accus'd. </l>
           </sp>
@@ -5531,7 +5525,8 @@
             <speaker>Mar. </speaker>
             <l>Here sir. </l>
           </sp>
-          <sp who="#ep000281-omnes" xml:id="ep000281-e133780">
+          <sp who="#ep000281-beauford #ep000281-justice #ep000281-keeper #ep000281-belfare #ep000281-gratiana #ep000281-millicent #ep000281-officers"
+                   xml:id="ep000281-e133780">
             <speaker>Omnes. </speaker>
             <l>A liue! </l>
           </sp>

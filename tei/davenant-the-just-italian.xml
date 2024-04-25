@@ -85,53 +85,47 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000365-mervolle">
+          <person xml:id="ep000365-mervolle" sex="MALE">
             <persName>Mervolle</persName>
           </person>
-          <person xml:id="ep000365-altamont">
+          <person xml:id="ep000365-altamont" sex="MALE">
             <persName>Altamont</persName>
           </person>
-          <person xml:id="ep000365-florelio">
+          <person xml:id="ep000365-florelio" sex="MALE">
             <persName>Florelio</persName>
           </person>
-          <person xml:id="ep000365-rossa">
+          <person xml:id="ep000365-rossa" sex="MALE">
             <persName>Rossa</persName>
           </person>
-          <person xml:id="ep000365-molard">
+          <person xml:id="ep000365-molard" sex="MALE">
             <persName>Molard</persName>
           </person>
-          <person xml:id="ep000365-alteza">
+          <person xml:id="ep000365-alteza" sex="FEMALE">
             <persName>Alteza</persName>
           </person>
-          <person xml:id="ep000365-niente">
+          <person xml:id="ep000365-niente" sex="MALE">
             <persName>Niente</persName>
           </person>
-          <person xml:id="ep000365-charintha">
+          <person xml:id="ep000365-charintha" sex="FEMALE">
             <persName>Charintha</persName>
           </person>
-          <person xml:id="ep000365-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000365-scoperta">
+          <person xml:id="ep000365-scoperta" sex="FEMALE">
             <persName>Scoperta</persName>
           </person>
-          <person xml:id="ep000365-sciolto">
+          <person xml:id="ep000365-sciolto" sex="MALE">
             <persName>Sciolto</persName>
           </person>
-          <person xml:id="ep000365-besognia">
+          <person xml:id="ep000365-besognia" sex="FEMALE">
             <persName>Besognia</persName>
           </person>
-          <person xml:id="ep000365-dandolo">
+          <person xml:id="ep000365-dandolo" sex="MALE">
             <persName>Dandolo</persName>
           </person>
-          <person xml:id="ep000365-punto">
+          <person xml:id="ep000365-punto" sex="MALE">
             <persName>Punto</persName>
           </person>
-          <person xml:id="ep000365-stoccata">
+          <person xml:id="ep000365-stoccata" sex="MALE">
             <persName>Stoccata</persName>
-          </person>
-          <person xml:id="ep000365-woman">
-            <persName>Woman</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -908,7 +902,7 @@
               <l>My Launcepresado then shall sop </l>
               <l>His Crust in Cyder and in wine! </l>
             </sp>
-            <sp who="#ep000365-unassigned" xml:id="ep000365-e105280">
+            <sp xml:id="ep000365-e105280">
               <speaker>Rossa. </speaker>
               <l>And my </l>
               <l>Dread Corporall shall sinne no more for Leekes, </l>
@@ -1050,7 +1044,7 @@
               <l>Eternally distinguish fatall time— <stage xml:id="ep000365-e106190">Enter Alteza. </stage>
               </l>
             </sp>
-            <sp who="#ep000365-unassigned" xml:id="ep000365-e106200">
+            <sp who="#ep000365-alteza" xml:id="ep000365-e106200">
               <speaker>Alteza.. </speaker>
               <p>What slaue disturbs the quiet of my Eare? </p>
             </sp>
@@ -1782,7 +1776,7 @@
               <l>So kind (Sir) as to know they may command </l>
               <l>The house. </l>
             </sp>
-            <sp who="#ep000365-unassigned" xml:id="ep000365-e110850">
+            <sp who="#ep000365-rossa #ep000365-molard" xml:id="ep000365-e110850">
               <speaker>Rossa, Molard. </speaker>
               <p>We thanke your Ladiship. </p>
             </sp>
@@ -2196,7 +2190,7 @@
               <l>And open as yon' easy snypes, thou hast </l>
               <l>Ill lucke if thou constraine him not to losse. </l>
             </sp>
-            <sp who="#ep000365-unassigned" xml:id="ep000365-e113530">
+            <sp who="#ep000365-charintha" xml:id="ep000365-e113530">
               <speaker>Charintha· </speaker>
               <l>I'le smile no longer then these rich sparkles </l>
               <l>Shine in my Eies. <stage xml:id="ep000365-e113560">Enter Dandolo. </stage>
@@ -3042,7 +3036,7 @@
               <speaker>Dandolo </speaker>
               <p>Goe, let that fellow die. </p>
             </sp>
-            <sp who="#ep000365-unassigned" xml:id="ep000365-e118910">
+            <sp who="#ep000365-stoccata" xml:id="ep000365-e118910">
               <speaker>〈◊〉. </speaker>
               <p>Why, let him Sir. </p>
             </sp>
@@ -3398,7 +3392,7 @@
             </sp>
             <stage xml:id="ep000365-e121050">Exeunt omnes. </stage>
             <stage xml:id="ep000365-e121060">Scoperta, and her Woman vnder a Canopy. </stage>
-            <sp who="#ep000365-woman" xml:id="ep000365-e121070">
+            <sp who="#ep000365-besognia" xml:id="ep000365-e121070">
               <speaker>Woman. </speaker>
               <p>The longer moitie of the Night's vnspent. </p>
             </sp>
@@ -3410,7 +3404,7 @@
               <pb xml:id="ep000365-026-a"/>
               <l>Imprisoning their deare Light. </l>
             </sp>
-            <sp who="#ep000365-woman" xml:id="ep000365-e121140">
+            <sp who="#ep000365-besognia" xml:id="ep000365-e121140">
               <speaker>Woman. </speaker>
               <p>Madam, good night. <stage xml:id="ep000365-e121160">Exit. </stage>
               </p>
@@ -4011,7 +4005,7 @@
               <l>Thy Crest. I should depriue my Anger of </l>
               <l>Her fame, to be thy actiue opposite. </l>
             </sp>
-            <sp who="#ep000365-unassigned" xml:id="ep000365-e125070">
+            <sp xml:id="ep000365-e125070">
               <speaker>Sciolto. </speaker>
               <l>Scoperta, stay. My Soule shall houer straite </l>
               <l>With thine. Stay for me in the Milky-path. </l>

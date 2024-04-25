@@ -87,83 +87,71 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000004-mercury">
+          <person xml:id="ep000004-mercury" sex="MALE">
             <persName>Mercury</persName>
           </person>
-          <person xml:id="ep000004-brennus">
+          <person xml:id="ep000004-brennus" sex="MALE">
             <persName>Brennus</persName>
           </person>
-          <person xml:id="ep000004-camillus">
+          <person xml:id="ep000004-camillus" sex="MALE">
             <persName>Camillus</persName>
           </person>
-          <person xml:id="ep000004-nennius">
+          <person xml:id="ep000004-nennius" sex="MALE">
             <persName>Nennius</persName>
           </person>
-          <person xml:id="ep000004-caesar">
+          <person xml:id="ep000004-caesar" sex="MALE">
             <persName>Caesar</persName>
           </person>
-          <person xml:id="ep000004-comius">
+          <person xml:id="ep000004-comius" sex="MALE">
             <persName>Comius</persName>
           </person>
-          <person xml:id="ep000004-laberius">
+          <person xml:id="ep000004-laberius" sex="MALE">
             <persName>Laberius</persName>
           </person>
-          <person xml:id="ep000004-volusenus">
+          <person xml:id="ep000004-volusenus" sex="MALE">
             <persName>Volusenus</persName>
           </person>
-          <person xml:id="ep000004-cassibelane">
+          <person xml:id="ep000004-cassibelane" sex="MALE">
             <persName>Cassibelane</persName>
           </person>
-          <person xml:id="ep000004-androgeus">
+          <person xml:id="ep000004-androgeus" sex="MALE">
             <persName>Androgeus</persName>
           </person>
-          <person xml:id="ep000004-themantius">
+          <person xml:id="ep000004-themantius" sex="MALE">
             <persName>Themantius</persName>
           </person>
-          <person xml:id="ep000004-belinus">
+          <person xml:id="ep000004-belinus" sex="MALE">
             <persName>Belinus</persName>
           </person>
-          <person xml:id="ep000004-rollano">
+          <person xml:id="ep000004-rollano" sex="MALE">
             <persName>Rollano</persName>
           </person>
-          <person xml:id="ep000004-eulinus">
+          <person xml:id="ep000004-eulinus" sex="MALE">
             <persName>Eulinus</persName>
           </person>
-          <person xml:id="ep000004-hirildas">
+          <person xml:id="ep000004-hirildas" sex="MALE">
             <persName>Hirildas</persName>
           </person>
-          <person xml:id="ep000004-cridous">
+          <person xml:id="ep000004-cridous" sex="MALE">
             <persName>Cridous</persName>
           </person>
-          <person xml:id="ep000004-guerthed">
+          <person xml:id="ep000004-guerthed" sex="MALE">
             <persName>Guerthed</persName>
           </person>
-          <person xml:id="ep000004-britael">
+          <person xml:id="ep000004-britael" sex="MALE">
             <persName>Britael</persName>
           </person>
-          <person xml:id="ep000004-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000004-lantonus">
+          <person xml:id="ep000004-lantonus" sex="MALE">
             <persName>Lantonus</persName>
           </person>
-          <person xml:id="ep000004-hulacus">
+          <person xml:id="ep000004-hulacus" sex="MALE">
             <persName>Hulacus</persName>
           </person>
-          <person xml:id="ep000004-belgium">
-            <persName>Belgium</persName>
-          </person>
-          <person xml:id="ep000004-both">
-            <persName>Both</persName>
-          </person>
-          <person xml:id="ep000004-mandubratius">
+          <person xml:id="ep000004-mandubratius" sex="MALE">
             <persName>Mandubratius</persName>
           </person>
-          <person xml:id="ep000004-atrius">
+          <person xml:id="ep000004-atrius" sex="MALE">
             <persName>Atrius</persName>
-          </person>
-          <person xml:id="ep000004-harper">
-            <persName>Harper</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -177,8 +165,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000004"
-                    passive="http://www.wikidata.org/entity/Q16931157"/>
+                   active="https://dracor.org/entity/ep000004"
+                   passive="http://www.wikidata.org/entity/Q16931157"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -1063,7 +1051,8 @@
               </l>
             </sp>
             <pb xml:id="ep000004-009-b"/>
-            <sp who="#ep000004-all" xml:id="ep000004-e106650">
+            <sp who="#ep000004-cridous #ep000004-britael #ep000004-guerthed #ep000004-nennius #ep000004-belinus #ep000004-eulinus #ep000004-volusenus"
+                      xml:id="ep000004-e106650">
               <speaker>All. </speaker>
               <l>The gods blesse Britaine, and Cassibelane. </l>
             </sp>
@@ -1304,7 +1293,7 @@
               <l>Whose life of reason void, ends with their sense. </l>
             </sp>
             <stage xml:id="ep000004-e108320">Enter Belinus. </stage>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e108330">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e108330">
               <speaker>Bel. </speaker>
               <l>Hayle to Heauens priuy Counsellors. The King. </l>
               <l>Desires your iudgement of these troublesome times. </l>
@@ -1452,7 +1441,8 @@
               <l>Our Princes to rebell, to learne our strength. </l>
               <l>Lay hands on him: A Spy. </l>
             </sp>
-            <sp who="#ep000004-all" xml:id="ep000004-e109480">
+            <sp who="#ep000004-cridous #ep000004-britael #ep000004-guerthed #ep000004-nennius #ep000004-belinus #ep000004-eulinus #ep000004-volusenus"
+                      xml:id="ep000004-e109480">
               <speaker>All. </speaker>
               <l>A Spy, a spie, a traytour, and a spie. <stage xml:id="ep000004-e109500">they chaine him. </stage>
               </l>
@@ -1469,7 +1459,7 @@
               </l>
               <l>Belinus, haue you mustered vp our Forces? </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e109590">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e109590">
               <speaker>Bel. </speaker>
               <l>Yes, if it please your Highnesse. </l>
             </sp>
@@ -1477,7 +1467,7 @@
               <speaker>Cassib. </speaker>
               <l>And what are the particulars? </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e109630">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e109630">
               <speaker>Bel. </speaker>
               <l>First Cridous leades from the Albanian realme, </l>
               <l>Where Grampiu's ridge deuides the smiling dales, </l>
@@ -1600,7 +1590,7 @@
               <l>Let fire and aire and water, </l>
               <l>And earth conspire their slaughter. </l>
             </sp>
-            <sp who="#ep000004-both" xml:id="ep000004-e110650">
+            <sp who="#ep000004-hulacus #ep000004-lantonus" xml:id="ep000004-e110650">
               <speaker>Both. </speaker>
               <l>By the veruaine, &amp;c. </l>
               <l>Helpe vs, helpe vs, helpe vs. </l>
@@ -1622,7 +1612,7 @@
               <l>Sweet tune, and sweeter dittie, </l>
               <l>Shall chaunt your gracious pittie. </l>
             </sp>
-            <sp who="#ep000004-both" xml:id="ep000004-e110830">
+            <sp who="#ep000004-hulacus #ep000004-lantonus" xml:id="ep000004-e110830">
               <speaker>Both. </speaker>
               <l>By the vervaine, &amp;c. </l>
               <l>Wee'l praise, wee'l praise, wee'l praise. </l>
@@ -2165,7 +2155,7 @@
               <l>Thy tongue in Senate, and thy hands in field. </l>
               <l>Speake free, Belinus. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e114870">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e114870">
               <speaker>Bel. </speaker>
               <l>We forfeit fame, and smother victory </l>
               <l>By idle lingering: The Foe discomfited </l>
@@ -2243,7 +2233,7 @@
               <speaker>Nenn. </speaker>
               <l>We wunne the day: and all our foes are fled? </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e115480">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e115480">
               <speaker>Bel. </speaker>
               <l>Yes noble Nennius, scatter'd on the shoare </l>
               <l>Thicke lay the Latines, and the glutted streame </l>
@@ -2261,7 +2251,7 @@
               <l>Which neuer hurt, but kill'd: Let it be plac'd </l>
               <l>Within my tombe. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e115610">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e115610">
               <speaker>Bel. </speaker>
               <l>Heere is the fatall Blade. </l>
             </sp>
@@ -2978,7 +2968,7 @@
               <l>Which nourish both: Enclos'd he cannot scape. </l>
             </sp>
             <pb xml:id="ep000004-027-a"/>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e121370">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e121370">
               <speaker>Bel. </speaker>
               <l>I rather iudge, We should oppose his footing, </l>
               <l>Vsing the benefit of our naturall mound. </l>
@@ -2992,7 +2982,7 @@
               <l>His time and leasure, would exhaust the state, </l>
               <l>Weary our souldiers. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e121470">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e121470">
               <speaker>Bel. </speaker>
               <l>All places may be strengthned more, or lesse: </l>
               <l>As by last yeere, Discretion now may guesse. </l>
@@ -3015,7 +3005,7 @@
               <l>Scatterd along, can weake resistance make: </l>
               <l>Plainenesse of ground affoording vs no shelter. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e121660">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e121660">
               <speaker>Bel. </speaker>
               <l>For what serues Art and Engines, Mounts and Trenches, </l>
               <l>But to correct the nature of a plaine? </l>
@@ -3037,7 +3027,7 @@
               <l>Supposes feare, not manhood. No, let him march, </l>
               <l>Till he rowse death, and stride his future graue. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e121830">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e121830">
               <speaker>Bel. </speaker>
               <l>Your will commands, and mine obeies. <stage xml:id="ep000004-e121850">Exeunt. </stage>
               </l>
@@ -3080,7 +3070,7 @@
               <l>The gingling launces, ratling chariot-wheeles </l>
               <l>Madded their horse. The Bow men merrily shott. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e122180">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e122180">
               <speaker>Bel. </speaker>
               <l>Yet would our tributary Kings had succoured! </l>
               <pb xml:id="ep000004-028-a"/>
@@ -3409,7 +3399,7 @@
               <speaker>Vol. </speaker>
               <l>You'le repent anon, </l>
             </sp>
-            <sp who="#ep000004-harper" xml:id="ep000004-e124620">
+            <sp who="#ep000004-hulacus" xml:id="ep000004-e124620">
               <speaker>Hal </speaker>
               <l>If I doe ill: But not for suffering ill. </l>
             </sp>
@@ -3511,7 +3501,7 @@
               <l>The fates from their infernall center. None </l>
               <l>But he, durst be so bold. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e125250">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e125250">
               <speaker>Bel. </speaker>
               <l>Yes, when Britaines lead, and Mandubrace insulting </l>
               <l>With naked sword calles on the lagging souldiers: </l>
@@ -3699,7 +3689,7 @@
               <l>And make their Campe a Shambles: So to raise </l>
               <l>Our loftie toombes vpon their slaughtered heapes. </l>
             </sp>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e126900">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e126900">
               <speaker>Bel. </speaker>
               <l>Nay, rather first lets parley for peace. </l>
             </sp>
@@ -3716,7 +3706,7 @@
               <l>When Destinies push, Atlas himselfe comes downe. </l>
             </sp>
             <stage xml:id="ep000004-e127020">Enter Comius. </stage>
-            <sp who="#ep000004-belgium" xml:id="ep000004-e127030">
+            <sp who="#ep000004-belinus" xml:id="ep000004-e127030">
               <speaker>Bel. </speaker>
               <l>No mediator is so fit as Comius: And heer's the man. </l>
             </sp>

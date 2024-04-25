@@ -4,7 +4,13 @@
       "name": "Citizens",
       "id": "citizens",
       "isGroup": true,
-      "sex": "UNKNOWN"
+      "sex": "MALE"
+    },
+    {
+      "name": "Gentlemen",
+      "id": "gentlemen",
+      "isGroup": true,
+      "sex": "MALE"
     },
     {
       "id": "constantia",
@@ -85,14 +91,14 @@
       "sex": "MALE"
     },
     {
-      "id": "first-gentleman",
-      "name": "First Gentleman",
+      "id": "gentleman-1",
+      "name": "Gentleman 1",
       "isGroup": false,
       "sex": "MALE"
     },
     {
-      "id": "second-gentleman",
-      "name": "Second Gentleman",
+      "id": "gentleman-2",
+      "name": "Gentleman 2",
       "isGroup": false,
       "sex": "MALE"
     },
@@ -115,8 +121,8 @@
       "sex": "MALE"
     },
     {
-      "id": "third-gentleman",
-      "name": "Third Gentleman",
+      "id": "captain",
+      "name": "Captain Face",
       "isGroup": false,
       "sex": "MALE"
     },
@@ -127,9 +133,15 @@
       "sex": "FEMALE"
     },
     {
-      "id": "servingmen",
-      "name": "Servingmen",
-      "isGroup": true,
+      "id": "servant",
+      "name": "Servant",
+      "isGroup": false,
+      "sex": "MALE"
+    },
+    {
+      "id": "lawyer",
+      "name": "Lawyer",
+      "isGroup": false,
       "sex": "MALE"
     }
   ],
@@ -215,7 +227,9 @@
     "A04881-e101970": [
       "frances"
     ],
-    "A04881-e102040": [],
+    "A04881-e102040": [
+      "william-smallshanks"
+    ],
     "A04881-e102110": [
       "boucher"
     ],
@@ -610,7 +624,7 @@
       "boucher"
     ],
     "A04881-e107510": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e107540": [
       "boucher"
@@ -744,7 +758,9 @@
     "A04881-e109410": [
       "oliver-smallshanks"
     ],
-    "A04881-e109520": [],
+    "A04881-e109520": [
+      "william-smallshanks"
+    ],
     "A04881-e109540": [
       "oliver-smallshanks"
     ],
@@ -862,7 +878,9 @@
     "A04881-e110900": [
       "boucher"
     ],
-    "A04881-e110940": [],
+    "A04881-e110940": [
+      "william-smallshanks"
+    ],
     "A04881-e111060": [
       "thomas-smallshanks"
     ],
@@ -888,7 +906,7 @@
       "citizens"
     ],
     "A04881-e111320": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e111380": [
       "citizens"
@@ -1377,13 +1395,13 @@
       "throte"
     ],
     "A04881-e117690": [
-      "first-gentleman"
+      "gentleman-1"
     ],
     "A04881-e117710": [
       "throte"
     ],
     "A04881-e117740": [
-      "second-gentleman"
+      "gentleman-2"
     ],
     "A04881-e117760": [
       "throte"
@@ -1395,7 +1413,7 @@
       "throte"
     ],
     "A04881-e118080": [
-      "first-gentleman"
+      "gentleman-1"
     ],
     "A04881-e118110": [
       "throte"
@@ -1431,7 +1449,7 @@
       "william-smallshanks"
     ],
     "A04881-e118460": [
-      "first-gentleman"
+      "gentleman-1"
     ],
     "A04881-e118480": [
       "beard"
@@ -1440,7 +1458,7 @@
       "william-smallshanks"
     ],
     "A04881-e118520": [
-      "second-gentleman"
+      "gentleman-2"
     ],
     "A04881-e118540": [
       "beard"
@@ -1467,14 +1485,10 @@
       "thomas-smallshanks"
     ],
     "A04881-e118710": [
-      "william-smallshanks",
-      "boucher",
-      "thomas-smallshanks",
-      "beard",
-      "frances"
+      "gentlemen"
     ],
     "A04881-e118740": [
-      "first-gentleman"
+      "gentleman-1"
     ],
     "A04881-e118800": [
       "william-smallshanks"
@@ -1765,7 +1779,7 @@
       "william-smallshanks"
     ],
     "A04881-e122680": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e122700": [
       "william-smallshanks"
@@ -1822,10 +1836,10 @@
       "frances"
     ],
     "A04881-e123360": [
-      "throte",
-      "beard",
       "william-smallshanks",
       "thomas-smallshanks",
+      "beard",
+      "officer",
       "boucher"
     ],
     "A04881-e123380": [
@@ -1840,9 +1854,7 @@
     "A04881-e123500": [
       "frances"
     ],
-    "A04881-e123520": [
-      "william-smallshanks"
-    ],
+    "A04881-e123520": [],
     "A04881-e123550": [
       "thomas-smallshanks"
     ],
@@ -1892,13 +1904,11 @@
       "throte"
     ],
     "A04881-e124050": [
-      "throte",
-      "beard",
       "william-smallshanks",
       "thomas-smallshanks",
-      "boucher",
-	  "frances",
-	  "dash"
+      "beard",
+      "officer",
+      "boucher"
     ],
     "A04881-e124070": [
       "throte"
@@ -2141,85 +2151,85 @@
       "beard"
     ],
     "A04881-e128280": [
-      "puff"
+      "captain"
     ],
     "A04881-e128340": [
       "drawer"
     ],
     "A04881-e128360": [
-      "puff"
+      "captain"
     ],
     "A04881-e128380": [
       "drawer"
     ],
     "A04881-e128410": [
-      "puff"
+      "captain"
     ],
     "A04881-e128430": [
       "drawer"
     ],
     "A04881-e128480": [
-      "puff"
+      "captain"
     ],
     "A04881-e128510": [
       "drawer"
     ],
     "A04881-e128530": [
-      "puff"
+      "captain"
     ],
     "A04881-e128550": [
       "drawer"
     ],
     "A04881-e128580": [
-      "puff"
+      "captain"
     ],
     "A04881-e128650": [
       "drawer"
     ],
     "A04881-e128670": [
-      "puff"
+      "captain"
     ],
     "A04881-e128960": [
       "boucher"
     ],
     "A04881-e128980": [
-      "puff"
+      "captain"
     ],
     "A04881-e129000": [
       "william-smallshanks"
     ],
     "A04881-e129020": [
-      "puff"
+      "captain"
     ],
     "A04881-e129060": [
       "boucher"
     ],
     "A04881-e129110": [
-      "puff"
+      "captain"
     ],
     "A04881-e129150": [
       "william-smallshanks"
     ],
     "A04881-e129190": [
-      "puff"
+      "captain"
     ],
     "A04881-e129220": [
       "boucher"
     ],
     "A04881-e129280": [
-      "puff"
+      "captain"
     ],
     "A04881-e129310": [
       "boucher"
     ],
     "A04881-e129350": [
-      "puff"
+      "captain"
     ],
     "A04881-e129410": [
       "boucher"
     ],
     "A04881-e129440": [
-      "puff"
+      "captain"
     ],
     "A04881-e129480": [
       "william-smallshanks"
@@ -2228,7 +2238,7 @@
       "boucher"
     ],
     "A04881-e129520": [
-      "puff"
+      "captain"
     ],
     "A04881-e129560": [
       "boucher"
@@ -2261,13 +2271,13 @@
       "drawer"
     ],
     "A04881-e129920": [
-      "puff"
+      "captain"
     ],
     "A04881-e129990": [
       "boucher"
     ],
     "A04881-e130020": [
-      "puff"
+      "captain"
     ],
     "A04881-e130040": [
       "william-smallshanks"
@@ -2300,19 +2310,19 @@
       "thomas-smallshanks"
     ],
     "A04881-e130480": [
-      "gentleman"
+      "gentlemen"
     ],
     "A04881-e130510": [
       "thomas-smallshanks"
     ],
     "A04881-e130600": [
-      "gentleman"
+      "gentlemen"
     ],
     "A04881-e130620": [
       "beard"
     ],
     "A04881-e130660": [
-      "gentleman"
+      "gentlemen"
     ],
     "A04881-e130690": [
       "beard"
@@ -2351,7 +2361,7 @@
       "tutchin"
     ],
     "A04881-e131490": [
-      "servingmen"
+      "servant"
     ],
     "A04881-e131520": [
       "throte"
@@ -2369,19 +2379,19 @@
       "tutchin"
     ],
     "A04881-e131690": [
-      "lady-summerfield"
+      "lawyer"
     ],
     "A04881-e131710": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e131760": [
-      "lady-summerfield"
+      "lawyer"
     ],
     "A04881-e131780": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e131860": [
-      "lady-summerfield"
+      "lawyer"
     ],
     "A04881-e131880": [
       "throte"
@@ -2393,7 +2403,7 @@
       "throte"
     ],
     "A04881-e132000": [
-      "lady-summerfield"
+      "lawyer"
     ],
     "A04881-e132040": [
       "tutchin"
@@ -2402,13 +2412,13 @@
       "throte"
     ],
     "A04881-e132210": [
-      "lady-summerfield"
+      "lawyer"
     ],
     "A04881-e132230": [
       "throte"
     ],
     "A04881-e132290": [
-      "lady-summerfield"
+      "lawyer"
     ],
     "A04881-e132310": [
       "throte"
@@ -2429,7 +2439,7 @@
       "beard"
     ],
     "A04881-e132660": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e132680": [
       "beard"
@@ -2438,7 +2448,7 @@
       "tutchin"
     ],
     "A04881-e132790": [
-      "thomas-smallshanks"
+      "throte"
     ],
     "A04881-e132810": [
       "beard"
@@ -2740,7 +2750,9 @@
     "A04881-e137950": [
       "oliver-smallshanks"
     ],
-    "A04881-e137970": [],
+    "A04881-e137970": [
+      "william-smallshanks"
+    ],
     "A04881-e138000": [
       "taffata"
     ],
@@ -2832,14 +2844,10 @@
       "tutchin"
     ],
     "A04881-e139080": [
-      "lady-summerfield",
-      "tutchin",
-      "william-smallshanks",
-      "oliver-smallshanks",
+      "throte",
       "boucher",
-      "constantia",
-      "taffata",
-      "adriana"
+      "lady-summerfield",
+      "william-smallshanks"
     ],
     "A04881-e139100": [
       "tutchin"
@@ -2862,7 +2870,9 @@
     "A04881-e139330": [
       "william-smallshanks"
     ],
-    "A04881-e139400": [],
+    "A04881-e139400": [
+      "william-smallshanks"
+    ],
     "A04881-e139430": [
       "constantia"
     ],

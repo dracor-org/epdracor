@@ -90,70 +90,64 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000159-bilioso">
+          <person xml:id="ep000159-bilioso" sex="MALE">
             <persName>Bilioso</persName>
           </person>
-          <person xml:id="ep000159-prepaso">
+          <personGrp xml:id="ep000159-courtiers" sex="UNKNOWN">
+            <name>Courtiers</name>
+          </personGrp>
+          <person xml:id="ep000159-prepaso" sex="MALE">
             <persName>Prepaso</persName>
           </person>
-          <person xml:id="ep000159-unassigned">
-            <persName>Unassigned</persName>
-          </person>
-          <person xml:id="ep000159-pietro">
+          <person xml:id="ep000159-pietro" sex="MALE">
             <persName>Pietro</persName>
           </person>
-          <person xml:id="ep000159-ferrardo">
+          <person xml:id="ep000159-ferrardo" sex="MALE">
             <persName>Ferrardo</persName>
           </person>
-          <person xml:id="ep000159-malevole">
+          <person xml:id="ep000159-malevole" sex="MALE">
             <persName>Malevole</persName>
           </person>
-          <person xml:id="ep000159-equato">
+          <person xml:id="ep000159-equato" sex="MALE">
             <persName>Equato</persName>
           </person>
-          <person xml:id="ep000159-celso">
+          <person xml:id="ep000159-celso" sex="MALE">
             <persName>Celso</persName>
           </person>
-          <person xml:id="ep000159-mendoza">
+          <person xml:id="ep000159-mendoza" sex="MALE">
             <persName>Mendoza</persName>
           </person>
-          <person xml:id="ep000159-aurelia">
+          <person xml:id="ep000159-aurelia" sex="FEMALE">
             <persName>Aurelia</persName>
           </person>
-          <person xml:id="ep000159-farneze">
-            <persName>Farneze</persName>
-          </person>
-          <person xml:id="ep000159-maquerelle">
+          <person xml:id="ep000159-maquerelle" sex="FEMALE">
             <persName>Maquerelle</persName>
           </person>
-          <person xml:id="ep000159-ferneze">
+          <person xml:id="ep000159-ferneze" sex="MALE">
             <persName>Ferneze</persName>
           </person>
-          <person xml:id="ep000159-beancha">
+          <person xml:id="ep000159-beancha" sex="FEMALE">
             <persName>Beancha</persName>
           </person>
-          <person xml:id="ep000159-emilia">
+          <person xml:id="ep000159-emilia" sex="FEMALE">
             <persName>Emilia</persName>
           </person>
-          <person xml:id="ep000159-all">
-            <persName>All</persName>
-          </person>
-          <person xml:id="ep000159-page">
+          <person xml:id="ep000159-page" sex="MALE">
             <persName>Page</persName>
           </person>
-          <person xml:id="ep000159-enusia">
+          <person xml:id="ep000159-enusia" sex="FEMALE">
             <persName>Enusia</persName>
           </person>
-          <person xml:id="ep000159-guerrino">
+          <person xml:id="ep000159-guerrino" sex="MALE">
             <persName>Guerrino</persName>
           </person>
-          <person xml:id="ep000159-captain">
+          <person xml:id="ep000159-captain" sex="MALE">
             <persName>Captain</persName>
           </person>
-          <person xml:id="ep000159-maria">
+          <person xml:id="ep000159-maria" sex="FEMALE">
             <persName>Maria</persName>
           </person>
-          <person xml:id="ep000159-mercury">
+          <person xml:id="ep000159-mercury" sex="MALE">
             <persName>Mercury</persName>
           </person>
         </listPerson>
@@ -171,8 +165,8 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata"
-                    active="https://dracor.org/entity/ep000159"
-                    passive="http://www.wikidata.org/entity/Q16386859"/>
+                   active="https://dracor.org/entity/ep000159"
+                   passive="http://www.wikidata.org/entity/Q16386859"/>
     </listRelation>
   </standOff>
   <text xml:lang="eng">
@@ -247,11 +241,11 @@
             <speaker>Praep. </speaker>
             <p>Are yee building Babilon there? </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e100480">
+          <sp who="#ep000159-bilioso" xml:id="ep000159-e100480">
             <speaker>Bilioso </speaker>
             <p>Heer's a noyse in Court, you thinke you are in a Tauerne, do you not? </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e100500">
+          <sp xml:id="ep000159-e100500">
             <speaker>Praep. </speaker>
             <p>You thinke you are in a brothell house doe you not? This roome is ill sented. </p>
             <stage xml:id="ep000159-e100520">Enter one with a Perfume. </stage>
@@ -360,7 +354,7 @@
             <p>I saue ith Court: and how do's my old Muckill ouerspred with fresh snow: thou halfe a man halfe a Goate, <ref target="A07071-e101050-b"/>
               <note anchored="true" corresp="A07071-e101050-a" place="margin">To Bilioso. </note>all a Beast: how do's thy young wife old huddle? </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e101060">
+          <sp who="#ep000159-bilioso" xml:id="ep000159-e101060">
             <speaker>Bilio. </speaker>
             <p>Out you improuident rascall. </p>
           </sp>
@@ -661,7 +655,7 @@
             <speaker>Aure. </speaker>
             <p>And ist possible? Mendozo slight me, possible? </p>
           </sp>
-          <sp who="#ep000159-farneze" xml:id="ep000159-e102740">
+          <sp who="#ep000159-ferneze" xml:id="ep000159-e102740">
             <speaker>Far. </speaker>
             <lg>
               <l>Possible? what can be strange in him thats drunke with fauour, </l>
@@ -1396,7 +1390,7 @@
           <head>SCENA QVINTA. </head>
           <stage xml:id="ep000159-e107060">A Song. </stage>
           <stage xml:id="ep000159-e107070">Whilest the Song is singing, enter Mendozo with his sworde drawne standing ready to murder Ferneze as he flies from the Dutches chamber. </stage>
-          <sp who="#ep000159-all" xml:id="ep000159-e107080">
+          <sp who="#ep000159-courtiers" xml:id="ep000159-e107080">
             <speaker>All. </speaker>
             <p>Strike, strike. <ref target="A07071-e107100-b"/>
               <note anchored="true" corresp="A07071-e107100-a" place="margin">Tumult within. </note>
@@ -1407,7 +1401,7 @@
             <p>Saue my Ferneze, ô saue my Ferneze. </p>
           </sp>
           <stage xml:id="ep000159-e107130">Enter Ferneze in his shirt, and is receiud vpon Mendoz. sword. </stage>
-          <sp who="#ep000159-all" xml:id="ep000159-e107140">
+          <sp who="#ep000159-courtiers" xml:id="ep000159-e107140">
             <speaker>All. </speaker>
             <p>Follow, pershew. </p>
           </sp>
@@ -1425,7 +1419,7 @@
             </lg>
           </sp>
           <stage xml:id="ep000159-e107240">Enter Aurelia, Duke Pietro, Ferrard, Bilioso, Celso and Equato. </stage>
-          <sp who="#ep000159-all" xml:id="ep000159-e107250">
+          <sp who="#ep000159-courtiers" xml:id="ep000159-e107250">
             <speaker>All. </speaker>
             <p>Follow, follow, </p>
           </sp>
@@ -3081,7 +3075,7 @@
             <speaker>Pietro </speaker>
             <p>Doth Ferneze liue? </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e117060">
+          <sp who="#ep000159-ferneze" xml:id="ep000159-e117060">
             <speaker>Farn.. </speaker>
             <p>For your pardon. </p>
           </sp>
@@ -3271,7 +3265,7 @@
             <speaker>Maq. </speaker>
             <p>You were too boisterous spleeny, for indeede. </p>
           </sp>
-          <sp who="#ep000159-maquerelle" xml:id="ep000159-e118140">
+          <sp xml:id="ep000159-e118140">
             <speaker>Mal. </speaker>
             <lg>
               <l>Go, go, thou art a weake pandres, now I see. </l>
@@ -3280,7 +3274,7 @@
             </lg>
             <p>Go thou the Dukes lime-twigge, Ile make the Duke turne thee out of thine office, what not get one touch of hope, and had her at such advantage. </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e118200">
+          <sp xml:id="ep000159-e118200">
             <speaker>Maq. </speaker>
             <p>Now a my conscience, now I thinke in my discretion, we did not take her in the right signe, the blood was not in the true veine, sure. </p>
           </sp>
@@ -3321,7 +3315,7 @@
             <speaker>Mal. </speaker>
             <p>Colde, frostie, she is obstinate. </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e118410">
+          <sp who="#ep000159-mendoza" xml:id="ep000159-e118410">
             <speaker>Men, </speaker>
             <lg>
               <l>Then shees but dead tis resolute, she dies: </l>
@@ -3610,7 +3604,7 @@
             <speaker>Bili. </speaker>
             <p>Forbeare. </p>
           </sp>
-          <sp who="#ep000159-unassigned" xml:id="ep000159-e120140">
+          <sp xml:id="ep000159-e120140">
             <speaker>Pre. </speaker>
             <p>Forbeare. </p>
           </sp>
@@ -3824,7 +3818,7 @@
             <speaker>Men. </speaker>
             <p>Altofront, Duke Lorenzo Ferneze, hah? </p>
           </sp>
-          <sp who="#ep000159-all" xml:id="ep000159-e121300">
+          <sp who="#ep000159-courtiers" xml:id="ep000159-e121300">
             <speaker>All, </speaker>
             <p>Duke Altofront, Duke Altofront. </p>
           </sp>

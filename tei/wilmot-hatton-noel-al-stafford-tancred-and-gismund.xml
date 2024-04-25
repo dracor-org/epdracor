@@ -118,32 +118,41 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000307-cupid">
+          <person xml:id="ep000307-chorus-4" sex="FEMALE">
+            <persName>Chorus 4</persName>
+          </person>
+          <person xml:id="ep000307-chorus-3" sex="FEMALE">
+            <persName>Chorus 3</persName>
+          </person>
+          <person xml:id="ep000307-chorus-2" sex="FEMALE">
+            <persName>Chorus 2</persName>
+          </person>
+          <person xml:id="ep000307-chorus-1" sex="FEMALE">
+            <persName>Chorus 1</persName>
+          </person>
+          <person xml:id="ep000307-cupid" sex="MALE">
             <persName>Cupid</persName>
           </person>
-          <person xml:id="ep000307-gismond">
-            <persName>Gismond</persName>
+          <person xml:id="ep000307-gismond" sex="FEMALE">
+            <persName>Gismund</persName>
           </person>
-          <person xml:id="ep000307-tancred">
+          <person xml:id="ep000307-tancred" sex="MALE">
             <persName>Tancred</persName>
           </person>
-          <person xml:id="ep000307-chorus">
-            <persName>Chorus</persName>
-          </person>
-          <person xml:id="ep000307-lucrece">
+          <personGrp xml:id="ep000307-chorus" sex="MALE">
+            <name>Chorus</name>
+          </personGrp>
+          <person xml:id="ep000307-lucrece" sex="FEMALE">
             <persName>Lucrece</persName>
           </person>
-          <person xml:id="ep000307-guishard">
+          <person xml:id="ep000307-guishard" sex="MALE">
             <persName>Guishard</persName>
           </person>
-          <person xml:id="ep000307-renuchio">
+          <person xml:id="ep000307-renuchio" sex="MALE">
             <persName>Renuchio</persName>
           </person>
-          <person xml:id="ep000307-jul">
-            <persName>Jul</persName>
-          </person>
-          <person xml:id="ep000307-unassigned">
-            <persName>Unassigned</persName>
+          <person xml:id="ep000307-jul" sex="MALE">
+            <persName>Julio</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -590,7 +599,7 @@
               </lg>
               <stage xml:id="ep000307-e103340">Tan. and Gis. with the Gard, depart into the pallace, the four maydens stay behind, as Chorus to the Tragedie. </stage>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e103350">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e103350">
               <speaker>Chor. 1. </speaker>
               <l>The diuers haps which alwayes worke our care, </l>
               <l>Our ioyes so farre, our woes so neere at hand, </l>
@@ -611,7 +620,7 @@
               <l>Doeth witnesse well our life is but a flower, </l>
               <l>Though it be deckt with honor and renowme. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e103530">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e103530">
               <speaker>Chor. 2 </speaker>
               <l>"What growes to day in fauor of the heauen, </l>
               <l>" Nurst with the sun, and with the showers sweete, </l>
@@ -629,7 +638,7 @@
               <l>Yet could she not remoue the fatall stroke </l>
               <l>Of death, from them that stretcht her power so farre. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e103670">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e103670">
               <speaker>Chor. 3 </speaker>
               <l>Looke what the cruell sisters once decreed </l>
               <l>The thunderer himselfe cannot remoue: </l>
@@ -648,7 +657,7 @@
               <l>As Fortunes change, pluckes downe that was aloft, </l>
               <l>And mingleth ioy, with enterchange of wo. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e103840">
+            <sp who="#ep000307-chorus-4" xml:id="ep000307-e103840">
               <speaker>Chor. 4 </speaker>
               <l>Who liues below, and feeleth not the strokes, </l>
               <l>Which often times on highest towers do fall, </l>
@@ -1061,7 +1070,7 @@
             </sp>
             <stage xml:id="ep000307-e106970">Gismund and Lucre depart into Gismunds chamber. </stage>
             <pb xml:id="ep000307-015-b"/>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e106980">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e106980">
               <speaker>Chorus primus. </speaker>
               <l>Who markes our former times and present yeres, </l>
               <l>What we are now, and lookes what we haue bin, </l>
@@ -1080,7 +1089,7 @@
               <l>The wanton will, but yeelded to the force </l>
               <l>Of proud Tarquin, who bought hir fame with blood. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e107150">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e107150">
               <speaker>Chor. 2. </speaker>
               <l>Queene Artemissa thought an hepe of stones, </l>
               <l>Although they were the wonder of that age) </l>
@@ -1095,7 +1104,7 @@
               <l>And spent her youthfull daies in pensiuenes, </l>
               <l>Bathing her widdowes bed with brinish teares. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e107280">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e107280">
               <speaker>Chor. 3 </speaker>
               <l>The stout daughter of Cato Brutus wife, Portia </l>
               <l>When she had heard his death, did not desire </l>
@@ -1107,7 +1116,7 @@
               <l>The floud of Lethe cannot wash out thy fame, </l>
               <l>To others great reproach, shame, and dispraise. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e107370">
+            <sp who="#ep000307-chorus-4" xml:id="ep000307-e107370">
               <speaker>Chor. 4 </speaker>
               <l>Rare are those vertues now in womens mind, </l>
               <l>Where shall we seeke such iewels passing strange? </l>
@@ -1124,7 +1133,7 @@
               <l>Els in so many yeeres we might haue seene </l>
               <l>As vertuous as euer they haue beene. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e107520">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e107520">
               <speaker>Chor. 1 </speaker>
               <l>Yet let not vs maydens condemne our kinde, </l>
               <l>Because our vertues are not all so rare: </l>
@@ -1393,7 +1402,7 @@
               </lg>
               <stage xml:id="ep000307-e109870">Guiszard departeth in hast vnto the pallace. </stage>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e109880">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e109880">
               <speaker>Chorus. 1. </speaker>
               <l>Right mightie is thy power, O cruell Loue, </l>
               <l>High Ioue himselfe cannot resist thy bow, </l>
@@ -1404,7 +1413,7 @@
               <l>Since that thy might is such, and since thou art, </l>
               <l>Both of the seas and land the Lord and sire. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e109970">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e109970">
               <speaker>Chor. 2 </speaker>
               <l>But why doth he that sprung from Ioues high head? </l>
               <l>And Phoebus sister shene, despise thy power? </l>
@@ -1421,7 +1430,7 @@
               <l>" Their play to plaint, their sport into despite, </l>
               <l>Tis true that Dian chaseth with her bow, </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e110110">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e110110">
               <speaker>Chor. 3. </speaker>
               <l>The flying Hart, the Goat and fomie Bore, </l>
               <l>By hil, by dale, in heat, in frost, in snow, </l>
@@ -1435,7 +1444,7 @@
               <l>Strong Ilium, and al the Phryges land: </l>
               <l>"Such are the fruites of loue, such is his hire. </l>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e110230">
+            <sp who="#ep000307-chorus-4" xml:id="ep000307-e110230">
               <speaker>Chor. 4. </speaker>
               <l>Who yeeldeth vnto him his captiue heart, </l>
               <l>Ere he resist, and holds his open breast </l>
@@ -2103,7 +2112,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000307-e115650">Guizard is led to prison. </stage>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e115660">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e115660">
               <speaker>Chorus primus. </speaker>
               <lg>
                 <l>Who doth not know the fruits of Paris loue, </l>
@@ -2120,7 +2129,7 @@
                 <l>All these too dearly bought their loues with bloud. </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e115800">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e115800">
               <speaker>Cho. 2. </speaker>
               <lg>
                 <l>But he in vertue that his Lady serues </l>
@@ -2141,7 +2150,7 @@
                 <l>Nor findes his life or death within her sight. </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e115980">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e115980">
               <speaker>Cho. 3. </speaker>
               <lg>
                 <l>Remember thou in vertue serue therfore </l>
@@ -2162,7 +2171,7 @@
                 <l>And sings of vertue and her garments pure. </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e116150">
+            <sp who="#ep000307-chorus-4" xml:id="ep000307-e116150">
               <speaker>Cho. 4. </speaker>
               <lg>
                 <l>Desire not of thy Soueraigne the thing </l>
@@ -2210,7 +2219,7 @@
                 <l>That yet, O Queene, attends thy funeral. </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e116520">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e116520">
               <speaker>Cho. 1. </speaker>
               <lg>
                 <l>What mones be these? Renuchio is this Salerne I see? </l>
@@ -2219,7 +2228,7 @@
                 <l>Or do the sauage Scythians here abound? </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e116580">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e116580">
               <speaker>Cho. 2. </speaker>
               <lg>
                 <l>What mean these questions? whether tend thes words? </l>
@@ -2240,7 +2249,7 @@
                 <l>His butchered corps stands staring in my face. </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e116730">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e116730">
               <speaker>Cho. 3. </speaker>
               <lg>
                 <l>We humbly pray thee to forbear these words </l>
@@ -2366,7 +2375,7 @@
                 <l>Bereft of life, vnworthy such an end. </l>
               </lg>
             </sp>
-            <sp who="#ep000307-unassigned" xml:id="ep000307-e117890">
+            <sp who="#ep000307-chorus" xml:id="ep000307-e117890">
               <speaker>〈◊〉. </speaker>
               <p>O damned deed. </p>
             </sp>
@@ -2521,7 +2530,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000307-e119020">Renuchio departeth. </stage>
-            <sp who="#ep000307-gismond" xml:id="ep000307-e119030">
+            <sp xml:id="ep000307-e119030">
               <lg>
                 <l>So now is come the long expected houre, </l>
                 <l>The fatall hower I haue so looked for, </l>
@@ -2562,7 +2571,7 @@
               </lg>
             </sp>
             <stage xml:id="ep000307-e119400">She kisseth it. </stage>
-            <sp who="#ep000307-gismond" xml:id="ep000307-e119410">
+            <sp xml:id="ep000307-e119410">
               <lg>
                 <l>Thine owne true heart anon will follow thee, </l>
                 <l>Which panting hasteth for thy companie. </l>
@@ -2620,7 +2629,7 @@
                 <l>To die with him, that death for thee did choose? </l>
               </lg>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e119960">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e119960">
               <speaker>Chor. 1. </speaker>
               <lg>
                 <l>What damned furie hath possest our Queen </l>
@@ -2633,7 +2642,7 @@
               <p>Maidens forbeare your comfortable wordes. </p>
             </sp>
             <pb xml:id="ep000307-034-a"/>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120030">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e120030">
               <speaker>Cho. 2. </speaker>
               <lg>
                 <l>O worthy Queene, rashnes doth ouerthrowe </l>
@@ -2644,7 +2653,7 @@
               <speaker>Gis. </speaker>
               <p>Where hope of help is lost what booteth feare? </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120090">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e120090">
               <speaker>Cho. 3. </speaker>
               <p>Feare wil auoyd the sting of infamie. </p>
             </sp>
@@ -2652,7 +2661,7 @@
               <speaker>Gis. </speaker>
               <p>May good or bad reports delight the dead? </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120130">
+            <sp who="#ep000307-chorus-4" xml:id="ep000307-e120130">
               <speaker>Cho. 4. </speaker>
               <p>If of the liuing yet the dead haue care. </p>
             </sp>
@@ -2660,7 +2669,7 @@
               <speaker>Gis. </speaker>
               <p>An easie griefe by councel may be cur'd. </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120170">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e120170">
               <speaker>Cho. 1. </speaker>
               <p>But hedstrong mischiefs princes should auoid </p>
             </sp>
@@ -2668,7 +2677,7 @@
               <speaker>Gis. </speaker>
               <p>In headlong griefes and cases desperate? </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120210">
+            <sp who="#ep000307-chorus-2" xml:id="ep000307-e120210">
               <speaker>Cho 2. </speaker>
               <p>Cal to your mind (Gis.) you are the Queene. </p>
             </sp>
@@ -2676,7 +2685,7 @@
               <speaker>Gis, </speaker>
               <p>Vnhappy widow, wife, and paramour. </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120250">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e120250">
               <speaker>Cho. 3. </speaker>
               <p>Think on the king. </p>
             </sp>
@@ -2684,7 +2693,7 @@
               <speaker>Gis. </speaker>
               <p>The king? the tyrant king </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120290">
+            <sp who="#ep000307-chorus-3" xml:id="ep000307-e120290">
               <speaker>Cho. 3. </speaker>
               <p>Your father. </p>
             </sp>
@@ -2692,7 +2701,7 @@
               <speaker>Gis. </speaker>
               <p>Yea, the murthrer of my loue </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120330">
+            <sp who="#ep000307-chorus-4" xml:id="ep000307-e120330">
               <speaker>Ch. 4. </speaker>
               <p>His force. </p>
             </sp>
@@ -2700,7 +2709,7 @@
               <speaker>Gis. </speaker>
               <p>the dead fear not the force of men </p>
             </sp>
-            <sp who="#ep000307-chorus" xml:id="ep000307-e120370">
+            <sp who="#ep000307-chorus-1" xml:id="ep000307-e120370">
               <speaker>Ch. 1. </speaker>
               <p>His care &amp; griefe. </p>
             </sp>

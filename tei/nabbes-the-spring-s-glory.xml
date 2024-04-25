@@ -60,28 +60,52 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ep000825-time">
+          <person xml:id="ep000825-almanac-maker-4" sex="MALE">
+            <persName>Almanac Maker 4</persName>
+          </person>
+          <person xml:id="ep000825-almanac-maker-3" sex="MALE">
+            <persName>Almanac Maker 3</persName>
+          </person>
+          <person xml:id="ep000825-almanac-maker-2" sex="MALE">
+            <persName>Almanac Maker 2</persName>
+          </person>
+          <person xml:id="ep000825-almanac-maker-1" sex="MALE">
+            <persName>Almanac Maker 1</persName>
+          </person>
+          <personGrp xml:id="ep000825-beggars" sex="MALE">
+            <name>Beggars</name>
+          </personGrp>
+          <person xml:id="ep000825-spring" sex="FEMALE">
+            <persName>Spring</persName>
+          </person>
+          <person xml:id="ep000825-lent" sex="MALE">
+            <persName>Lent</persName>
+          </person>
+          <person xml:id="ep000825-shrovetide" sex="MALE">
+            <persName>Shrovetide</persName>
+          </person>
+          <person xml:id="ep000825-christmas" sex="MALE">
+            <persName>Christmas</persName>
+          </person>
+          <person xml:id="ep000825-bacchus" sex="MALE">
+            <persName>Bacchus</persName>
+          </person>
+          <person xml:id="ep000825-ceres" sex="FEMALE">
+            <persName>Ceres</persName>
+          </person>
+          <person xml:id="ep000825-cupid" sex="MALE">
+            <persName>Cupid</persName>
+          </person>
+          <person xml:id="ep000825-venus" sex="FEMALE">
+            <persName>Venus</persName>
+          </person>
+          <person xml:id="ep000825-time" sex="MALE">
             <persName>Time</persName>
           </person>
-          <person xml:id="ep000825-yyyy_1">
-            <persName>Yyyy 1</persName>
-          </person>
-          <person xml:id="ep000825-yyyy_2">
-            <persName>Yyyy 2</persName>
-          </person>
-          <person xml:id="ep000825-yyyy_3">
-            <persName>Yyyy 3</persName>
-          </person>
-          <person xml:id="ep000825-yyyy_4">
-            <persName>Yyyy 4</persName>
-          </person>
-          <person xml:id="ep000825-host">
-            <persName>Host</persName>
-          </person>
-          <person xml:id="ep000825-hostess">
+          <person xml:id="ep000825-hostess" sex="FEMALE">
             <persName>Hostess</persName>
           </person>
-          <person xml:id="ep000825-may">
+          <person xml:id="ep000825-may" sex="FEMALE">
             <persName>May</persName>
           </person>
         </listPerson>
@@ -107,9 +131,9 @@
         <p>LONDON, Printed by I.D. for <hi>Charles Greene</hi>, and are to be sold by <hi>Nicolas Fussell </hi>at the signe of the white Lyon in Pauls Church-yard. 1638. </p>
       </div>
       <div cert="high"
-               type="dedication"
-               xml:id="ep000825-e110"
-               xml:lang="lat">
+              type="dedication"
+              xml:id="ep000825-e110"
+              xml:lang="lat">
         <pb rend="simple:additions" xml:id="ep000825-002-a"/>
         <pb xml:id="ep000825-002-b"/>
         <head>Optimae spei Iuveni </head>
@@ -180,7 +204,7 @@
         <pb xml:id="ep000825-004-b"/>
         <head>THE SPRINGS GLORY; Within an Arch of agreeable workmanship, a Scaene of Winter presents it selfe, the Trees and Earth covered with Snow, and in the middle thereof a prospect of a faire house as the Mansion of Christmasse. </head>
         <stage xml:id="ep000825-e770">Venus and Cupid descend. </stage>
-        <sp xml:id="ep000825-e800">
+        <sp who="#ep000825-venus" xml:id="ep000825-e800">
           <speaker>Venus. </speaker>
           <l>WIthout good meat and drinke must Venus freeze? </l>
           <l>Must I derive my flames and my desire </l>
@@ -202,7 +226,7 @@
           <l>To Ceres or to Bacchus deity </l>
           <l>Assigne our rights? </l>
         </sp>
-        <sp xml:id="ep000825-e1050">
+        <sp who="#ep000825-cupid" xml:id="ep000825-e1050">
           <speaker>Cupid. </speaker>
           <l>In part we must; for they </l>
           <l>Are aiders in our worke, and therefore may </l>
@@ -217,7 +241,7 @@
           <l>Fulnesse and ease assist me more then all </l>
           <l>The helpes I have besides. </l>
         </sp>
-        <sp xml:id="ep000825-e1200">
+        <sp who="#ep000825-venus" xml:id="ep000825-e1200">
           <speaker>Venus. </speaker>
           <l>And therefore shall </l>
           <l>They be preferr'd? Thou art a foolish boy. </l>
@@ -241,20 +265,20 @@
             <hi>To them </hi>Ceres and Bacchus. </stage>
           <l>Here's Ceres and Lyaeus. </l>
         </sp>
-        <sp xml:id="ep000825-e1470">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e1470">
           <speaker>Ceres. </speaker>
           <l>Wee are told </l>
           <l>By Maia's sonne that you intend to scould </l>
           <l>With me and Bacchus. </l>
         </sp>
-        <sp xml:id="ep000825-e1540">
+        <sp who="#ep000825-venus" xml:id="ep000825-e1540">
           <speaker>Venus. </speaker>
           <l>I have cause to chide. </l>
           <l>You'ld rob me of my titles, and beside </l>
           <l>Make it a gluttons tenent, there can be </l>
           <l>No love without you. </l>
         </sp>
-        <sp xml:id="ep000825-e1600">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e1600">
           <speaker>Ceres. </speaker>
           <l>And your Deity </l>
           <l>Hath summond us for this: 'tis very good. </l>
@@ -267,7 +291,7 @@
           <l>Be tempted to her ruine by his lust: </l>
           <l>And this employment Venus still is thine. </l>
         </sp>
-        <sp xml:id="ep000825-e1750">
+        <sp who="#ep000825-venus" xml:id="ep000825-e1750">
           <pb xml:id="ep000825-006-a"/>
           <speaker>Venus. </speaker>
           <l>Ceres is madd still for her Proserpine: </l>
@@ -277,7 +301,7 @@
           <l>Bring the short pleasures of a Maydenhead? </l>
           <l>Repine not at it then. </l>
         </sp>
-        <sp xml:id="ep000825-e1850">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e1850">
           <speaker>Ceres. </speaker>
           <l>I must whilst day </l>
           <l>Hath any light, or heavens bright eye a ray. </l>
@@ -285,7 +309,7 @@
           <l>That suffers not th'infernalsto goe free </l>
           <l>Of his diseases. </l>
         </sp>
-        <sp xml:id="ep000825-e1920">
+        <sp who="#ep000825-bacchus" xml:id="ep000825-e1920">
           <speaker>Bacchus. </speaker>
           <l>Rather Ceres mine: </l>
           <l>For if the God had never tasted wine, </l>
@@ -294,7 +318,7 @@
           <l>Or kindled the least flame in his cold brest </l>
           <l>Without my vertue. </l>
         </sp>
-        <sp xml:id="ep000825-e2010">
+        <sp who="#ep000825-venus" xml:id="ep000825-e2010">
           <speaker>Venus. </speaker>
           <l>'Tis an idle jest. </l>
           <l>Doth Bacchus thinke he can with heate of wine </l>
@@ -306,7 +330,7 @@
           <l>Subscribe then to our power; my sonne and I </l>
           <l>Must have the attributes. </l>
         </sp>
-        <sp xml:id="ep000825-e2130">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e2130">
           <pb xml:id="ep000825-006-b"/>
           <speaker>Ceres. </speaker>
           <l>Let him lay by </l>
@@ -314,7 +338,7 @@
           <l>The Queene of Love, and Bacchus deity </l>
           <l>Include all that is Cupids. </l>
         </sp>
-        <sp xml:id="ep000825-e2220">
+        <sp who="#ep000825-venus" xml:id="ep000825-e2220">
           <speaker>Venus. </speaker>
           <l>First I'le leave </l>
           <l>To be immortall, and my selfe bereave </l>
@@ -324,7 +348,7 @@
           <l>And ayme it at her proud imperious heart </l>
           <l>To shew in thy revenge what thou canst doe. </l>
         </sp>
-        <sp xml:id="ep000825-e2310">
+        <sp who="#ep000825-cupid" xml:id="ep000825-e2310">
           <speaker>Cupid. </speaker>
           <l>I must not Mother. Wee'le referre it to </l>
           <l>Another tryall, and if Bacchus can </l>
@@ -332,7 +356,7 @@
           <l>To argue, by example, wee'le deny </l>
           <l>Nothing that's due unto his deity. </l>
         </sp>
-        <sp xml:id="ep000825-e2390">
+        <sp who="#ep000825-bacchus" xml:id="ep000825-e2390">
           <speaker>Bacchus. </speaker>
           <p>Content. </p>
           <stage xml:id="ep000825-e2420">
@@ -345,59 +369,59 @@
           <l>Of all our gifts: and if you'le not refuse </l>
           <l>A tryall from them— </l>
         </sp>
-        <sp xml:id="ep000825-e2540">
+        <sp who="#ep000825-venus" xml:id="ep000825-e2540">
           <pb xml:id="ep000825-007-a"/>
           <speaker>Venus. </speaker>
           <l>Let them speake, whil'st we </l>
           <l>To their dispose referre the victory. </l>
         </sp>
-        <sp xml:id="ep000825-e2580">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e2580">
           <speaker>Shrovetide. </speaker>
           <p>I say Christmas you are past date, you are out of the Almanack. Resigne, resigne. Let the Oven give place to the Frying-pan, and Minc't-pies yeild superiority to pancakes and Fritters. </p>
         </sp>
-        <sp xml:id="ep000825-e2620">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e2620">
           <speaker>Christmas. </speaker>
           <p>Resigne to thee! I that am the King of good cheere and feasting, though I come but once a yeare to raigne over bak't, boyled, roast, and plum-porridge, will have being in despight of thy lard-ship. Thou art but my fagge-end, and I must still be before thee. </p>
         </sp>
-        <sp xml:id="ep000825-e2650">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e2650">
           <speaker>Shrovetide. </speaker>
           <p>But thou wilt never be before-hand. Thou art a prodigall Christmas; and Shrovetide hath seene thee many times in the Poultry. </p>
         </sp>
-        <sp xml:id="ep000825-e2700">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e2700">
           <speaker>Christmas. </speaker>
           <p>Dost scorne my liberality, thou rasty bacon, tallow-faced scullion? Though thou be as fat as a Flemming, I'le have Lent choke thee with a red-herring. </p>
         </sp>
-        <sp xml:id="ep000825-e2740">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e2740">
           <speaker>Shrovetide. </speaker>
           <p>I'le arme my selfe for that. In three dayes I can victuall my garrison for seven weekes: and it shall goe hard but I will domineere in Lent despite of the thin-chapt surgeon that makes men skillitons. </p>
         </sp>
-        <sp xml:id="ep000825-e2780">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e2780">
           <pb xml:id="ep000825-007-b"/>
           <speaker>Christmas. </speaker>
           <p>As how? </p>
         </sp>
-        <sp xml:id="ep000825-e2810">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e2810">
           <speaker>Shrovetide. </speaker>
           <p>At any Noblemans house, I can licke my fingers in a privy kitchin. Though I bee out of commons in the hall, there's flesh to be had sometimes in a chamber besides a Landresse. The very three-penny ordinary will keepe me in an upper gallery, and I can be invisible even in the pye-house. Should all faile, the wenches I got with child shall long, and have the Phisitians ticket. </p>
         </sp>
-        <sp xml:id="ep000825-e2840">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e2840">
           <speaker>Christmas. </speaker>
           <p>Thou get children! </p>
         </sp>
-        <sp xml:id="ep000825-e2870">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e2870">
           <speaker>Shrovetide. </speaker>
           <p>Yes more then Christmas, and better too: for thine are all unthrifts, whores, or murderers. Thy sonne <hi>In and in</hi>, undid many a Citizen. Thou hast a Daughter called my <hi>Ladyes hole</hi>, a filthy black slut shee is; and Put is common in every Bawdy house. 'Tis thought Noddy was none of thine owne getting, but an Aldermans, that in exchange cuckolded thee, when thou wast a Courtier. Thou hast one sonne bred up in the Country called <hi>Christmas gambolls</hi>, that doth nothing but breake mens necks; and many more that would undoe the Common-wealth, were it not for the Groome porter. </p>
         </sp>
-        <sp xml:id="ep000825-e2960">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e2960">
           <speaker>Christmas. </speaker>
           <p>Do'st see these sirrah? </p>
         </sp>
-        <sp xml:id="ep000825-e2990">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e2990">
           <pb xml:id="ep000825-008-a"/>
           <speaker>Shrovetide. </speaker>
           <p>Ceres and Bacchus: I am their worshipper. Were Stewes tolerated, and Venus the Grand Bawd of them, without good meate and drinke, your young Factors would never be able to breake their Masters or Mistresses, nor your shee-silke-worme in Cheape care a button for her foreman. </p>
         </sp>
-        <sp xml:id="ep000825-e3050">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e3050">
           <speaker>Ceres. </speaker>
           <l>Venus being overcome, I hope will yeeld, </l>
           <l>Now shee is vanquisht in the open field, </l>
@@ -407,64 +431,64 @@
         <stage xml:id="ep000825-e3120">
           <hi>To them </hi>Lent enters. </stage>
         <stage xml:id="ep000825-e3150">Hee is figur'd in a leane Man, his habit like trouses, and what other anticke devices may be thought proper▪ </stage>
-        <sp xml:id="ep000825-e3160">
+        <sp who="#ep000825-venus" xml:id="ep000825-e3160">
           <speaker>Venus. </speaker>
           <l>Yes: with this champion; and his fresh supply </l>
           <l>I'le wage new warre, and call backe victory. </l>
         </sp>
-        <sp xml:id="ep000825-e3200">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e3200">
           <speaker>Shrovetide. </speaker>
           <p>This leaue thin-gut starveling, begot by a Spaniard▪ and nurst at the lower end of Friday-street. </p>
         </sp>
-        <sp xml:id="ep000825-e3230">
+        <sp who="#ep000825-lent" xml:id="ep000825-e3230">
           <speaker>Lent. </speaker>
           <p>Why thou Helluo of hennes and bakon, th●●●●rder houst of collops and egges; thou that makest the kitchin proclaime <pb xml:id="ep000825-008-b"/>its employment through the neighbourhood, with the sent of thy Lard and crumpets, what canst thou boast oft? </p>
         </sp>
-        <sp xml:id="ep000825-e3270">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e3270">
           <speaker>Christmas. </speaker>
           <p>Children, children, thou parcht starveling: thou can●t g●t nothing but Anatomies. </p>
         </sp>
-        <sp xml:id="ep000825-e3300">
+        <sp who="#ep000825-lent" xml:id="ep000825-e3300">
           <speaker>Lent. </speaker>
           <p>Children! I get more (I maintaine not their lawfulnesse) then Christmas and Shrovetide. Oh the vertue of Oysters, Lobsters, Sturgeon, Anchoves, &amp; Caveary. Why thou grout-headed bladder, puft with the windinesse of pared apples coffered in batter: for every Brawne or hogge, either Christmas or thy selfe have demolisht; I have a thousand Herrings, despight of the Dutchmens wastfull theft, let them rob the foure Seas never so often. Besides, I couple more then the Parson of Pancrace: I meane City woodcocks, with Suburb-wagtailes. </p>
         </sp>
-        <sp xml:id="ep000825-e3370">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e3370">
           <speaker>Christmas. </speaker>
           <p>Thou couple! </p>
         </sp>
-        <sp xml:id="ep000825-e3400">
+        <sp who="#ep000825-lent" xml:id="ep000825-e3400">
           <speaker>Lent. </speaker>
           <p>Who more? Is not S. Valentines day mine? are not Codds mine, thou codds-head, and Maides mine? put them together thou wilt find they are things— </p>
         </sp>
-        <sp xml:id="ep000825-e3440">
+        <sp who="#ep000825-shrovetide" xml:id="ep000825-e3440">
           <speaker>Shrovetide. </speaker>
           <p>Thou art a thing of emptinesse, and Lent was ever a Iack by conversion. </p>
         </sp>
-        <sp xml:id="ep000825-e3480">
+        <sp who="#ep000825-lent" xml:id="ep000825-e3480">
           <pb xml:id="ep000825-009-a"/>
           <speaker>Lent. </speaker>
           <p>Such a Iack as can come aloft, and doe Venus more credit then thy fulnesse. Doe not I share of <hi>Aries, Taurus</hi>, and Gemini; the Innes I lye at in my progresse. Yet no cuckold can deny but Aries and Taurus should follow Gemini. And it follows, or should, that I having two fathers my selfe, should get most children. </p>
         </sp>
-        <sp xml:id="ep000825-e3570">
+        <sp who="#ep000825-christmas" xml:id="ep000825-e3570">
           <speaker>Christmas. </speaker>
           <p>Who were thy fathers prethee? </p>
         </sp>
-        <sp xml:id="ep000825-e3610">
+        <sp who="#ep000825-lent" xml:id="ep000825-e3610">
           <speaker>Lent. </speaker>
           <p>Devotion and Pollicy; and I have begotten Hipocrisie on a holy sister, that despight of all Informers would have flesh, her belly full. Let Christmas and Shrovetide eate and drinke; I'le be for Venus, though I feed upon nothing but herring-cobbs. </p>
         </sp>
-        <sp xml:id="ep000825-e3700">
+        <sp who="#ep000825-venus" xml:id="ep000825-e3700">
           <speaker>Venus. </speaker>
           <l>Who's now the conquerour? Will Ceres now </l>
           <l>Subscribe unto my power? and Bacchus bow </l>
           <l>To Cupids awefull strength? </l>
         </sp>
-        <sp xml:id="ep000825-e3780">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e3780">
           <speaker>Ceres. </speaker>
           <l>Not till it is </l>
           <l>Confirm'd by better evidence then his. </l>
         </sp>
-        <sp xml:id="ep000825-e3820">
+        <sp who="#ep000825-lent" xml:id="ep000825-e3820">
           <speaker>Lent. </speaker>
           <p>Then mine! Observe. </p>
         </sp>
@@ -507,7 +531,7 @@
             </body>
           </floatingText>
         </q>
-        <sp xml:id="ep000825-e4180">
+        <sp who="#ep000825-spring" xml:id="ep000825-e4180">
           <speaker>Spring. </speaker>
           <l>Thus breake my gloryes forth that late lay hid </l>
           <l>Within the icye earth, and were forbid </l>
@@ -521,23 +545,23 @@
           <l>And teach men art from Natures harmony. </l>
           <l>Come you to welcome me? </l>
         </sp>
-        <sp xml:id="ep000825-e4310">
+        <sp who="#ep000825-ceres" xml:id="ep000825-e4310">
           <speaker>Ceres. </speaker>
           <l>Yes lovely Maid; </l>
           <l>And to have judgement from you, who most aide </l>
           <l>In Loves great worke. </l>
         </sp>
-        <sp xml:id="ep000825-e4360">
+        <sp who="#ep000825-spring" xml:id="ep000825-e4360">
           <speaker>Spring. </speaker>
           <l>Is there a strife betweene </l>
           <l>The goddesse of desire, and plenties Queene? </l>
           <l>Will they subscribe, Ile moderate. </l>
         </sp>
-        <sp xml:id="ep000825-e4410">
+        <sp who="#ep000825-beggars" xml:id="ep000825-e4410">
           <speaker>All. </speaker>
           <p>Content. </p>
         </sp>
-        <sp xml:id="ep000825-e4440">
+        <sp who="#ep000825-spring" xml:id="ep000825-e4440">
           <speaker>Spring. </speaker>
           <l>First heare my reasons; then my sentence: bent </l>
           <l>'Gainst neithers honours, for I must comply </l>
@@ -566,11 +590,11 @@
           <l>Of purest love: in which let all your jarres </l>
           <l>Be reconcil'd, and finish your sterne warres. </l>
         </sp>
-        <sp xml:id="ep000825-e4730">
+        <sp who="#ep000825-beggars" xml:id="ep000825-e4730">
           <speaker>All. </speaker>
           <p>Thus we embrace in peace. </p>
         </sp>
-        <sp xml:id="ep000825-e4760">
+        <sp who="#ep000825-spring" xml:id="ep000825-e4760">
           <speaker>Spring. </speaker>
           <l>And I 〈◊〉 Spring </l>
           <l>Will lead a moderate measure. Chirpers sing </l>
@@ -1126,7 +1150,7 @@
           <l>Or drought foretold inhaunce the price of graine, </l>
           <l>This is the end of your high practise. </l>
         </sp>
-        <sp who="#ep000825-yyyy_1" xml:id="ep000825-e100240">
+        <sp who="#ep000825-almanac-maker-1" xml:id="ep000825-e100240">
           <speaker>1. Alm. </speaker>
           <l>Wee </l>
           <l>Doe all by just rules of Astrologie. </l>
@@ -1141,7 +1165,7 @@
           <l>Your vaine replies, lest I apply them to </l>
           <l>Another use. </l>
         </sp>
-        <sp who="#ep000825-yyyy_2" xml:id="ep000825-e100340">
+        <sp who="#ep000825-almanac-maker-2" xml:id="ep000825-e100340">
           <speaker>2. Alm. </speaker>
           <p>What would Time have us doe? </p>
         </sp>
@@ -1160,7 +1184,7 @@
           <l>Of some round pillory. 'Twill teach you how </l>
           <l>'Tis judgement to be silent, though you know. </l>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e100490">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e100490">
           <speaker>3. Alm. </speaker>
           <p>Why Astra regunt homines. </p>
         </sp>
@@ -1184,7 +1208,7 @@
           <l>Where's your owne score, perhaps for Ale or Beere </l>
           <l>You will not pay 'till the Platonick yeare. </l>
         </sp>
-        <sp who="#ep000825-yyyy_4" xml:id="ep000825-e100680">
+        <sp who="#ep000825-almanac-maker-4" xml:id="ep000825-e100680">
           <speaker>4 Alm. </speaker>
           <p>Time Satyres me. </p>
         </sp>
@@ -1205,7 +1229,7 @@
           <l>To London; where he onely learnes to boast </l>
           <l>How much his journey, and his law-sutes cost. </l>
         </sp>
-        <sp who="#ep000825-yyyy_2" xml:id="ep000825-e100860">
+        <sp who="#ep000825-almanac-maker-2" xml:id="ep000825-e100860">
           <speaker>2. Alm. </speaker>
           <p>Time knowes that we are schollers. </p>
         </sp>
@@ -1217,7 +1241,7 @@
           <l>Reach at sublime things, when you cannot spye </l>
           <l>What snakes of folly at your owne feet lye. </l>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e100930">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e100930">
           <speaker>3. Alm. </speaker>
           <p>What would Time have us then? </p>
         </sp>
@@ -1236,7 +1260,7 @@
           <l>Fill volumes with his acts, and challenge more </l>
           <l>Then all the great Heroes went before. </l>
         </sp>
-        <sp who="#ep000825-yyyy_4" xml:id="ep000825-e101080">
+        <sp who="#ep000825-almanac-maker-4" xml:id="ep000825-e101080">
           <speaker>4. Alm. </speaker>
           <p>Such things as those Historians ought to day. </p>
         </sp>
@@ -1247,7 +1271,7 @@
           <l>Chang'd into Satyres you shall lash your selves. <stage xml:id="ep000825-e101140">Exit. </stage>
           </l>
         </sp>
-        <sp who="#ep000825-yyyy_1" xml:id="ep000825-e101150">
+        <sp who="#ep000825-almanac-maker-1" xml:id="ep000825-e101150">
           <speaker>1. Alm. </speaker>
           <l>Is the gray dotard gone? </l>
           <l>Wee are then alone: </l>
@@ -1255,56 +1279,56 @@
           <l>Let's call my hostesse Ioane. </l>
         </sp>
         <pb xml:id="ep000825-022-b"/>
-        <sp who="#ep000825-yyyy_2" xml:id="ep000825-e101200">
+        <sp who="#ep000825-almanac-maker-2" xml:id="ep000825-e101200">
           <speaker>2. Alm. </speaker>
           <p>Well said rithmer; thy halting verses will hardly support the fat cripple any longer that begs with them. Would wee had some Ale. </p>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101220">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101220">
           <speaker>3. Alm. </speaker>
           <p>Hang this Time that would alter our profession, which is of equall antiquitie with him. Suppose wee have abilities; must we use them as he please? No: let us inspire our selves with Ale, and compile an everlasting Ephimerides. </p>
         </sp>
-        <sp who="#ep000825-yyyy_1" xml:id="ep000825-e101240">
+        <sp who="#ep000825-almanac-maker-1" xml:id="ep000825-e101240">
           <speaker>1. Alm. </speaker>
           <l>Where's the stock-boy? </l>
           <l>Doe not mock boy: </l>
           <l>Lest I knock boy </l>
           <l>Your learn'd block boy. </l>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101290">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101290">
           <speaker>3. Alm. </speaker>
           <p>Hast thou none left of thy sixe yeares before hand? If the Stationers refuse to trust, our bookes shall never more credit the Company with rubricks in the title. </p>
         </sp>
-        <sp who="#ep000825-yyyy_2" xml:id="ep000825-e101310">
+        <sp who="#ep000825-almanac-maker-2" xml:id="ep000825-e101310">
           <speaker>2. Alm. </speaker>
           <p>Wee'le try all the houses in the Zodiac; and if they will not trust, wee'le pull' downe the signes. </p>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101330">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101330">
           <speaker>3. Alm. </speaker>
           <p>Here is the signe of the Moone, the rendevous of our fraternitie. If the worst comes to the worst, wee'le pawne Time for the reckoning. </p>
         </sp>
         <pb xml:id="ep000825-023-a"/>
-        <sp who="#ep000825-yyyy_4" xml:id="ep000825-e101350">
+        <sp who="#ep000825-almanac-maker-4" xml:id="ep000825-e101350">
           <speaker>4. Alm. </speaker>
           <p>By your favour we may more easily spend him. </p>
           <stage xml:id="ep000825-e101370">Hostesse enters. </stage>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101380">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101380">
           <speaker>3. Alm. </speaker>
           <p>Here comes shee will fill us the comfortable liquor. </p>
         </sp>
-        <sp who="#ep000825-yyyy_2" xml:id="ep000825-e101400">
+        <sp who="#ep000825-almanac-maker-2" xml:id="ep000825-e101400">
           <speaker>2. Alm. </speaker>
           <p>By the dozen? </p>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101420">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101420">
           <speaker>3. Alm. </speaker>
           <p>By the score boy. Wilt not Hostesse? </p>
         </sp>
-        <sp who="#ep000825-host" xml:id="ep000825-e101440">
+        <sp who="#ep000825-hostess" xml:id="ep000825-e101440">
           <speaker>Host. </speaker>
           <p>No indeed sir. I'le hazard no more upon your next yeares Almanack. You say there's a man in the Moone drinkes Claret; keepe him company. The woman at the Moone will keepe her Ale for better customers. </p>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101460">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101460">
           <speaker>3. Alm. </speaker>
           <p>Shall wee have no Ale then? </p>
         </sp>
@@ -1312,35 +1336,35 @@
           <speaker>Hostesse. </speaker>
           <p>Not a cockle-shell full without money before-hand. </p>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101500">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101500">
           <speaker>3. Alm. </speaker>
           <p>Here's two groats; fetch every man his pot, and before we drinke a health wee'le curse thee. </p>
         </sp>
-        <sp who="#ep000825-host" xml:id="ep000825-e101520">
+        <sp who="#ep000825-hostess" xml:id="ep000825-e101520">
           <speaker>Host. </speaker>
           <p>The Foxe will fare the better. <stage xml:id="ep000825-e101540">Exit. </stage>
           </p>
         </sp>
         <pb xml:id="ep000825-023-b"/>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101550">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101550">
           <speaker>3. Alm. </speaker>
           <p>Maist thou have alwayes pennilesse guests like us, 'till thou pawne thy petticoate to pay the Brewer, and thy glorious shelves shine not so much as with an earthen platter. Instead of Shoelane hangings may the walls of thy house be painted with chalke; and the figures of no more valew then cyphars. Mayst thou weekly be subject to informers, and thy forfeited licence be put to the last use of wast paper. </p>
         </sp>
-        <sp who="#ep000825-host" xml:id="ep000825-e101570">
+        <sp who="#ep000825-hostess" xml:id="ep000825-e101570">
           <speaker>Host. </speaker>
           <stage xml:id="ep000825-e101580">Host enters with drinke, and exit presently. </stage>
           <p>Stop your mouth sir. </p>
         </sp>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101600">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101600">
           <speaker>3. Alm. </speaker>
           <p>Hast thou brought Ale? cry thee mercy. Here's a health to the Prince, whose Birth-day Time would have should be the whole subject of an Almanack. </p>
         </sp>
-        <sp who="#ep000825-yyyy_4" xml:id="ep000825-e101620">
+        <sp who="#ep000825-almanac-maker-4" xml:id="ep000825-e101620">
           <speaker>4. Alm. </speaker>
           <p>Let him give the conceipt to a Poet; it may be worth a day to him. </p>
         </sp>
         <stage xml:id="ep000825-e101640">They drinke, and are transformed into Satyres, hornes growing out of their heads. </stage>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101650">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101650">
           <speaker>3. Alm. </speaker>
           <stage xml:id="ep000825-e101660">Time enters. </stage>
           <p>Ha! hath Circes given us an inchanted cup; or are our wives turn'd City Witches? These are fine jestes. </p>
@@ -1350,7 +1374,7 @@
           <p>'Tis your owne idle humour makes you beasts. </p>
         </sp>
         <pb xml:id="ep000825-024-a"/>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101700">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101700">
           <speaker>3. Alm. </speaker>
           <p>Forgive us Time. </p>
         </sp>
@@ -1360,7 +1384,7 @@
           <l>That done perhaps I'le crop your well-growne brow. </l>
         </sp>
         <stage xml:id="ep000825-e101750">They dance: at the end whereof their hornes fall away. </stage>
-        <sp who="#ep000825-yyyy_3" xml:id="ep000825-e101760">
+        <sp who="#ep000825-almanac-maker-3" xml:id="ep000825-e101760">
           <speaker>3. Alm. </speaker>
           <p>Ha! wee are men againe. </p>
         </sp>
