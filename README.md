@@ -19,10 +19,10 @@ The following modifications to the original documents have been made:
 ## Corpus selection
 
 The tally of dramatic works in the Early Print corpus, as provided by its editors, amounted to 853 texts. 
-In this initial phase, we set aside the 363 texts that lack `<who-tags>` in the original markup. 
+In this initial phase, we set aside the 363 texts that lack speaker identification with `<who>` attributes in the original markup. 
 From the remaining texts, we proceed to filter out 73 items which:
 - are not dramatic texts, but rather poems (like Shakespeare's *[The Rape of Lucrece](https://texts.earlyprint.org/works/A12040))*, court entertainments, or masques (like Dekker's *[Arches of Triumph](https://texts.earlyprint.org/works/A02732)*)
-- are collections of multiple plays (like [this](https://texts.earlyprint.org/works/A04632_00)) 
+- are collections of multiple plays (like Ben Johnson's *[Complete Works](https://texts.earlyprint.org/works/A04632_00)*) 
 - are section of plays (like [this](https://texts.earlyprint.org/works/A20062)) or incomplete 
 The remaining 433 plays constitute the first version of EPDraCor.
 
