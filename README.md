@@ -81,3 +81,9 @@ saxon -s:index.xml -xsl:list.xsl type=sourceid
 # list only "vanilla selection"
 saxon -s:index.xml -xsl:list.xsl type=slug vanilla=yes
 ```
+
+## License
+
+The EngDraCor TEI files are licenced under the
+[Creative Commons Attribution-NonCommercial 3.0 Unported license](https://creativecommons.org/licenses/by-nc/3.0/)
+(CC BY-NC 3.0).
