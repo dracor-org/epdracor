@@ -7,9 +7,9 @@
 
 # expects command line arguments as "dracorid:epid", see refined.txt
 
-if [ ! -d meta/speakers -o ! -d ../epdracor-sources/xml ]; then
+if [ ! -d meta/speakers -o ! -d ../engdracor-sources/xml ]; then
   echo "This script must be run from the repository's root directory."
-  echo "The epdracor-sources repo ('dracor' branch) needs to be checked out"
+  echo "The engdracor-sources repo ('dracor' branch) needs to be checked out"
   echo "next to it."
   echo
   exit 1
@@ -23,5 +23,5 @@ for arg in $@; do
   echo "  $epid"
   http ":8080/exist/rest/db/apps/dracor/speakers.xq?id=$id" \
     | jsonlint > meta/speakers/$epid.json
-  ./ep2dracor ../epdracor-sources/xml/$epid.xml
+  ./ep2dracor ../engdracor-sources/xml/$epid.xml
 done

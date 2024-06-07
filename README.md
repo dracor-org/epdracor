@@ -1,11 +1,12 @@
-# EPDraCor
+# EngDraCor
 
 __Note:__ *This corpus is still in __beta__ status.*
 
-The EarlyPrint Drama Corpus (EPDraCor) provides TEI documents which have been
-generated from a selection of dramatic works out of the EarlyPrint.org
-collection. This selection is being maintained in the
-[epdracor-sources](http://github.com/dracor-org/epdracor-sources) repository.
+The English Drama Corpus (EngDraCor) provides TEI documents which have been
+generated from a selection of dramatic works out of the
+[EarlyPrint.org](https://earlyprint.org) collection. This selection is being
+maintained in the
+[engdracor-sources](http://github.com/dracor-org/engdracor-sources) repository.
 
 The following modifications to the original documents have been made:
 
@@ -18,15 +19,15 @@ The following modifications to the original documents have been made:
 
 ## Corpus selection
 
-The tally of dramatic works in the Early Print corpus, as provided by its editors, amounted to 853 texts. 
-In this initial phase, we set aside the 363 texts that lack speaker identification with `who` attributes in the original markup. 
+The tally of dramatic works in the Early Print corpus, as provided by its editors, amounted to 853 texts.
+In this initial phase, we set aside the 363 texts that lack speaker identification with `who` attributes in the original markup.
 From the remaining texts, we proceed to filter out 73 items which:
 
 - are not dramatic texts, but rather poems (like Shakespeare's *[The Rape of Lucrece](https://texts.earlyprint.org/works/A12040))*, court entertainments, or masques (like Dekker's *[Arches of Triumph](https://texts.earlyprint.org/works/A02732)*)
-- are collections of multiple plays (like Ben Johnson's *[Complete Works](https://texts.earlyprint.org/works/A04632_00)*) 
-- are section of plays (like the first part of Dekker's [The Honest Whore](https://texts.earlyprint.org/works/A20062)), or incomplete 
+- are collections of multiple plays (like Ben Johnson's *[Complete Works](https://texts.earlyprint.org/works/A04632_00)*)
+- are section of plays (like the first part of Dekker's [The Honest Whore](https://texts.earlyprint.org/works/A20062)), or incomplete
 
-The remaining 433 plays constitute the first version of EPDraCor.
+The remaining 433 plays constitute the first version of EngDraCor.
 
 ## Updating the corpus
 
@@ -40,27 +41,27 @@ The XSLT workflow depends on the following tools
 ### XSLT Transformation
 
 To update the entire corpus from the sources run the the `ep2dracor` script like
-this (assuming you have cloned the `epdracor-sources` repo to the same parent
-directory as `epdracor`):
+this (assuming you have cloned the `engdracor-sources` repo to the same parent
+directory as `engdracor`):
 
 ```sh
-./ep2dracor ../epdracor-sources/xml/*.xml
+./ep2dracor ../engdracor-sources/xml/*.xml
 ```
 
 You can also update individual files, for instance:
 
 ```sh
-./ep2dracor ../epdracor-sources/xml/A17872.xml
+./ep2dracor ../engdracor-sources/xml/A17872.xml
 ```
 
 ### Adding new plays to the repo
 
-1. add original documents to the `epdracor-sources` repo, see
-  https://github.com/dracor-org/epdracor-sources#how-to-add-or-remove-plays
+1. add original documents to the `engdracor-sources` repo, see
+  https://github.com/dracor-org/engdracor-sources#how-to-add-or-remove-plays
 2. add entries in [index.xml](index.xml) providing a unique DraCor ID, a slug
   and if available a Wikidata ID
 3. run the [XSLT transformation](#xslt-transformation), e.g.
-  `./ep2dracor ../epdracor-sources/xml/*.xml`
+  `./ep2dracor ../engdracor-sources/xml/*.xml`
 
 ## Tooling
 
