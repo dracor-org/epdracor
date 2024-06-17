@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="test000005" xml:lang="eng">
+  <!-- test -->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="work">Everyman</title>
+        <author>
+          <persName>Anonymous</persName>
+          <idno type="wikidata">Q4233718</idno>
+        </author>
+        <respStmt>
+          <resp>Coverted to TEI under the supervision of</resp>
+          <persName>Julia Jennifer Beine</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Converted to TEI by</resp>
+          <persName>Madeleine Justin Nadolny</persName>
+          <persName>Adara Anu Denise Oehlenberg</persName>
+          <persName>Mahdi Zeinali</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Ruhr-University Bochum, Faculty of Philology</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC BY-SA 3.0</ab>
+            <ref target="https://creativecommons.org/licenses/by-sa/3.0/">Licence</ref>
+          </licence>
+          <p>copyright of the text edition (c) Manchester University Press. Cf. <title>A. C.
+              Cawley(ed.): Everyman. Manchester: Manchester University Press 1961 (= Old and Middle
+              English Texts 3).</title></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Oxford Text Archive Core Collection</name>
+          <distributor>
+            <name>University of Oxford Text Archive</name>
+            <address>
+              <addrLine>Oxford University Computing Services</addrLine>
+              <addrLine>13 Banbury Road</addrLine>
+              <addrLine>Oxford</addrLine>
+              <addrLine>OX2 6NN</addrLine>
+            </address>
+            <email>ota@oucs.ox.ac.uk</email>
+          </distributor>
+          <idno type="URL">http://purl.ox.ac.uk/ota/3034</idno>
+          <availability status="free">
+            <licence>
+              <ab>CC BY-SA 3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by-sa/3.0/">Licence</ref>
+            </licence>
+            <p>Distributed by the University of Oxford under a Creative Commons
+              Attribution-ShareAlike 3.0 Unported License. ota@oucs.ox.ac.uk.</p>
+            <p>Revised version of <relatedItem type="older" target="http://ota.ox.ac.uk/id/1679"
+              /></p>
+            <p>Manchester edition drawn from first printed edition by Iohan Skot. edt (Editor)
+              Cawley, A. C. Manchester University Press.<title>Everyman. Anonymous 1485.</title>
+              Prepared by Ian Lancashire. University of Oxford Text Archive Subject Headings.
+              Library of Congress Subject Headings. Manchester 1961.</p>
+          </availability>
+          <bibl type="originalSource">
+            <editor>A. C. Cawley</editor>(ed.): <title>Everyman</title>.
+              <pubPlace>Manchester</pubPlace>: <publisher>Manchester University Press</publisher>
+            <date>1961</date> (= Old and Middle English Texts 3).</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="everyman" sex="MALE">
+            <persName>Everyman</persName>
+          </person>
+          <person xml:id="messenger" sex="UNKNOWN">
+            <persName>Messenger</persName>
+          </person>
+          <person xml:id="god" sex="UNKNOWN">
+            <persName>God</persName>
+          </person>
+          <person xml:id="death" sex="UNKNOWN">
+            <persName>Dethe</persName>
+          </person>
+          <personGrp xml:id="fellowship" sex="UNKNOWN">
+            <name>Felawshyp</name>
+          </personGrp>
+          <personGrp xml:id="kindred" sex="UNKNOWN">
+            <name>Kynrede</name>
+          </personGrp>
+          <person xml:id="cousin" sex="UNKNOWN">
+            <persName>Cosyn</persName>
+          </person>
+          <person xml:id="goods" sex="UNKNOWN">
+            <persName>Goods</persName>
+          </person>
+          <person xml:id="good_deeds" sex="UNKNOWN">
+            <persName>Good Dedes</persName>
+          </person>
+          <person xml:id="knowledge" sex="UNKNOWN">
+            <persName>Knowledge</persName>
+          </person>
+          <person xml:id="confession" sex="UNKNOWN">
+            <persName>Confessyon</persName>
+          </person>
+          <person xml:id="beauty" sex="UNKNOWN">
+            <persName>Beaute</persName>
+          </person>
+          <person xml:id="strength" sex="UNKNOWN">
+            <persName>Strength</persName>
+          </person>
+          <person xml:id="discretion" sex="UNKNOWN">
+            <persName>Dyscretion</persName>
+          </person>
+          <person xml:id="five_wits" sex="UNKNOWN">
+            <persName>V. Wyttes</persName>
+          </person>
+          <person xml:id="angel" sex="UNKNOWN">
+            <persName>The Anguell</persName>
+          </person>
+          <person xml:id="doctor" sex="UNKNOWN">
+            <persName>Doctour</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1485">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/test000005"
+        passive="http://www.wikidata.org/entity/Q662065"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <body>
+      <lg>
+        <l>Here begynneth a treatyse how the hye</l>
+        <l>Fader of heuen sendeth Dethe to</l>
+        <l>somon euery creature to come and</l>
+        <l>gyue a-counte of theyr lyues in</l>
+        <l>this worlde/and is in maner</l>
+        <l>of a morall playe.</l>
+      </lg>
+      <sp who="#messenger">
+        <speaker>Messenger.</speaker>
+        <l>I pray you all gyue your audyence,</l>
+        <l>And here this mater with reuerence,</l>
+        <l>By fygure a morall playe.</l>
+        <l>The Somonynge of Eueryman called it is,</l>
+        <l>That of our lyues and endynge shewes</l>
+        <l>How transytory we be all daye.</l>
+        <l>This mater is wonders precyous;</l>
+        <l>But the entent of it is more gracyous,</l>
+        <l>And swete to bere awaye.</l>
+        <l>The story sayth: Man, in the begynnynge</l>
+        <l>Loke well, and take good heed to the endynge,</l>
+        <l>Be you neuer so gay!</l>
+        <l>Ye thynke synne in the begynnynge full swete,</l>
+        <l>Whiche in the ende causeth the soule to wepe,</l>
+        <l>Whan the body lyeth in claye.</l>
+        <l>Here shall you se how Felawshyp/and Iolyte,</l>
+        <l>Bothe/Strengthe/Pleasure/and Beaute,</l>
+        <l>Wyll fade from the as floure in Maye;</l>
+        <l>For ye shall here how our Heuen Kynge</l>
+        <l>Calleth Eueryman to a generall rekenynge.</l>
+        <l>Gyue audyence, and here what he doth saye.</l>
+      </sp>
+      <stage>God speketh.</stage>
+      <sp who="#god">
+        <speaker>God.</speaker>
+        <l>I perceyue, here in my maieste,</l>
+        <l>How that all creatures be to me vnkynde,</l>
+        <l>Lyuynge without drede in worldly prosperyte.</l>
+        <l>Of ghostly syght the people be so blynde,</l>
+        <l>Drowned in synne, they know me not for theyr God.</l>
+        <l>In worldely ryches is all theyr mynde;</l>
+        <l>They fere not my ryghtwysnes, the sharpe rod.</l>
+        <l>My lawe that I shewed, whan I for them dyed,</l>
+        <l>They forget clene/and shedynge of my blode rede.</l>
+        <l>I hanged bytwene two theues, it can not be denyed;</l>
+        <l>To gete them lyfe I suffred to be deed;</l>
+        <l>I heled theyr fete/with thornes hurt was my heed.</l>
+        <l>I coude do no more than I dyde, truely;</l>
+        <l>And nowe I se the people do clene for-sake me.</l>
+        <l>They vse the seuen deedly synnes dampnable,</l>
+        <l>As pryde, coueytyse, wrath, and lechery</l>
+        <l>Now in the worlde be made commendable;</l>
+        <l>And thus they leue of aungelles the heuenly company.</l>
+        <l>Euery man lyueth so after his owne pleasure,</l>
+        <l>And yeyt of theyr lyfe they be nothynge sure.</l>
+        <l>I se the more that I them forbere</l>
+        <l>The worse they be fro yere to yere.</l>
+        <l>All that lyueth appayreth faste;</l>
+        <l>Therefore I wyll, in all the haste,</l>
+        <l>Haue a rekenynge of euery mannes persone;</l>
+        <l>For, and I leue the people thus alone</l>
+        <l>In theyr lyfe and wycked tempestes,</l>
+        <l>Veryly they will become moche worse than beestes,</l>
+        <l>For now one wolde by enuy another vp ete;</l>
+        <l>Charyte they do all clene forgete.</l>
+        <l>I hoped well that euery man</l>
+        <l>In my glory sholde make his mansyon,</l>
+        <l>And therto I had them all electe;</l>
+        <l>But now I se, lyke traytours deiecte,</l>
+        <l>They thanke me not for the pleasure that I to them ment,</l>
+        <l>Nor yet for theyr beynge that I them haue lent.</l>
+        <l>I profered the people grete multytude of mercy,</l>
+        <l>And fewe there be that asketh it hertly.</l>
+        <l>They be so combred with worldly ryches</l>
+        <l>That nedes on them I must do iustyce,</l>
+        <l>On euery man lyuynge without fere.</l>
+        <l>Where arte thou, Deth, thou myghty messengere?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Almyghty God, I am here at your wyll,</l>
+        <l>Your commaundement to fulfyll.</l>
+      </sp>
+      <sp who="#god">
+        <speaker>God.</speaker>
+        <l>Go thou to Eueryman</l>
+        <l>And shewe hym, in my name,</l>
+        <l>A pylgrymage he must on hym take,</l>
+        <l>Whiche he in no wyse may escape;</l>
+        <l>And that he brynge with hym a sure rekenynge</l>
+        <l>Without delay or ony taryenge.</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Lorde, I wyll in the worlde go renne ouer-all</l>
+        <l>And cruelly out-serche both grete and small.</l>
+        <l>Euery man wyll I beset that lyueth beestly</l>
+        <l>Out of Goddes lawes, and dredeth not foly.</l>
+        <l>He that loueth rychess I wyll stryke with my darte,</l>
+        <l>His syght to blynde, and fro heuen to departe—</l>
+        <l>Excepte that almes be his good frende—</l>
+        <l>In hell for to dwell, worlde without ende.</l>
+        <l>Loo, yonder I se Eueryman walkynge.</l>
+        <l>Full lytell he thynketh on my comynge;</l>
+        <l>His mynde is on flesshely lustes and his treasure,</l>
+        <l>And grete payne it shall cause hym to endure</l>
+        <l>Before the Lorde, Heuen Kynge.</l>
+        <l>Eueryman, stande styll! Whyder arte thou goynge</l>
+        <l>Thus gayly? / Hast thou thy Maker forgete?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Why askest thou?</l>
+        <l>Woldest thou wete?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Ye, syr. I wyll shewe you:</l>
+        <l>In grete hast I am sende to the</l>
+        <l>Fro God out of his mageste.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>What, sente to me?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Ye, certaynly.</l>
+        <l>Thoughe thou haue forgete hym here,</l>
+        <l>He thynketh on the in the heuenly spere,</l>
+        <l>As, or we departe, thou shalte knowe.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>What desyreth God of me?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>That shall I shewe the:</l>
+        <l>A rekenynge he wyll nedes haue</l>
+        <l>Without ony lenger respyte.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>To gyue a rekenynge longer layser I craue;</l>
+        <l>This blynde mater troubleth my wytte.</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>On the thou must take a long iourney;</l>
+        <l>Therfore thy boke of counte with the thou brynge,</l>
+        <l>For tourne agayne thou can not by no waye.</l>
+        <l>And loke thou be sure of thy rekenynge,</l>
+        <l>For before God thou shalte answere, and shewe</l>
+        <l>Thy many badde dedes, and good but a fewe;</l>
+        <l>How thou hast spente thy lyfe, and in what wyse,</l>
+        <l>Before the chefe Lorde of paradyse.</l>
+        <l>Haue ado that thou were in that waye,</l>
+        <l>For wete thou well thou shalte make none attournay.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Full vnredy I am suche rekenynge to guye.</l>
+        <l>I knowe the not. What messenger arte thou?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>I am Dethe that no man dredeth—</l>
+        <l>For euery man I reste-and no man spareth;</l>
+        <l>For it is Goddes commaundement</l>
+        <l>That all to me sholde be obedyent.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O Deth, thou comest whan I had the leest in mynde!</l>
+        <l>in thy power it lyeth me to saue;</l>
+        <l>Yet of my good wyl I guye the, yf thou wyl be kynde—</l>
+        <l>Ye, a thousande pounde shalte thou haue—</l>
+        <l>And dyfferre this mater tyll an other daye.</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Eueryman, it may not be by no waye.</l>
+        <l>I set not by golde, syluer, nor rychesse,</l>
+        <l>Ne by pope/emperour/kynge/duke, ne prynces;</l>
+        <l>For, and I wolde receyue gyftes grete,</l>
+        <l>All the worlde I myght gete;</l>
+        <l>But my custome is clene contrary.</l>
+        <l>I gyue the no respyte. Come hens, and not tary!</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, shall I haue no lenger respyte?</l>
+        <l>I may saye Deth gyueth no warnynge!</l>
+        <l>To thynke on the, it maketh my herte seke,</l>
+        <l>For all vnredy is my boke of rekenynge.</l>
+        <l>But xii. yere and I myght haue a-bydynge,</l>
+        <l>My countynge-boke I wolde make so clere</l>
+        <l>That my rekenynge I sholde not nede to fere.</l>
+        <l>Wherfore, Deth, I praye the, for Goddes mercy,</l>
+        <l>Spare me tyll I be prouyded of remedy.</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>The auayleth not to crye, wepe, and praye;</l>
+        <l>But hast the lyghtly that thou were gone that iournaye,</l>
+        <l>And preue thy frendes yf thou can.</l>
+        <l>For wete thou well the tyde abydeth no man,</l>
+        <l>And in the worlde eche lyuynge creature</l>
+        <l>For Adams synne must dye of nature.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Dethe, yf I sholde this pylgrymage take,</l>
+        <l>And my rekenynge suerly make,</l>
+        <l>Shewe me, for saynt charyte,</l>
+        <l>Sholde I not come agayne shortly?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>No, Eueryman; and thou be ones there,</l>
+        <l>Thou mayst neuer more come here,</l>
+        <l>Trust me veryly.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O gracyous God in the hye sete celestyall,</l>
+        <l>Haue mercy on me in this moost nede!</l>
+        <l>Shall I haue no company fro this vale terestryall</l>
+        <l>Of myne acqueyntaunce, that way me to lede?</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Ye, yf ony be so hardy</l>
+        <l>That wolde go with the and bere the company.</l>
+        <l>Hye the that thou were gone to Goddes magnyfycence,</l>
+        <l>Thy rekenynge to gyue before his presence.</l>
+        <l>What, wenest thou thy lyue is gyuen the,</l>
+        <l>And thy worldely gooddes also?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>I had wende so, veryle.</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Nay, nay, it was but lende the;</l>
+        <l>For as soone as thou arte go,</l>
+        <l>Another a whyle shall haue it, and than go ther-fro,</l>
+        <l>Euen as thou hast done.</l>
+        <l>Eueryman, thou arte made! Thou hast thy wyttes fyue,</l>
+        <l>And here on erthe wyll not amende thy lyue;</l>
+        <l>For sodeynly I do come.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O wretched caytyfe, wheder shall I flee,</l>
+        <l>That I myght scape this endles sorowe?</l>
+        <l>Now, gentyll Deth, spare me tyll to-morowe,</l>
+        <l>That I may amende me</l>
+        <l>With good aduysement.</l>
+      </sp>
+      <sp who="#death">
+        <speaker>Dethe.</speaker>
+        <l>Naye, therto I wyll not consent,</l>
+        <l>Nor no man wyll I respyte;</l>
+        <l>But to the herte sodeynly I shall smyte</l>
+        <l>Without ony aduysement.</l>
+        <l>And now out of thy syght I wyll me hy.</l>
+        <l>Se thou make the redy shortely,</l>
+        <l>For thou mayst saye this is the daye</l>
+        <l>That no man lyuynge may scape a-way.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, I may well wepe with syghes depe!</l>
+        <l>Now haue I no maner of company</l>
+        <l>To help me in my iourney, and me to kepe;</l>
+        <l>And also my wrytynge is full vnredy.</l>
+        <l>How shall I do now for to exscuse me?</l>
+        <l>I wolde to God I had neuer be get!</l>
+        <l>To my soule a full grete profyte it had be,</l>
+        <l>For now I fere paynes huge and grete.</l>
+        <l>The tyme passeth. Lorde, helpe, that all wrought!</l>
+        <l>For though I mourne, it auayleth nought.</l>
+        <l>The day passeth and is almoost ago;</l>
+        <l>I wote not well what for to do.</l>
+        <l>To whome were I best my complaynt to make?</l>
+        <l>What and I to Felawshyp therof spake,</l>
+        <l>And shewed hym of this sodeyne chaunce?</l>
+        <l>For in hym is all muyne affyaunce;</l>
+        <l>We haue in the worlde so many a daye</l>
+        <l>Be good frendes in sporte and playe.</l>
+        <l>I se hym yonder, certaynely.</l>
+        <l>I trust that he wyll bere me company;</l>
+        <l>Therfore to hym wyll I speke to ese my sorowe.</l>
+        <l>Well mette, Good Felawshyp, and good morowe!</l>
+      </sp>
+      <stage>Felawshyp speketh.</stage>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Eueryman, good morowe, by this daye!</l>
+        <l>Syr, why lokest thou so pyteously?</l>
+        <l>If ony thynge be a-mysse, I praye the me saye,</l>
+        <l>That I may helpe to remedy.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye, good Felawshyp, ye,</l>
+        <l>I am in greate ieoparde.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>My true frende, shewe to me your mynde.</l>
+        <l>I wyll not forsake the to my lyues ende,</l>
+        <l>In the waye of good company.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>That was well spoken and louyngly.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawshyp.</speaker>
+        <l>Syr, I must nedes knowe your heuynesse;</l>
+        <l>I haue pyte to se you in ony dystresse.</l>
+        <l>I ony haue you wronged, ye shall reuenged be,</l>
+        <l>Thoughe I on the grounde be slayne for the,</l>
+        <l>Though that I knowe before that I sholde dye.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Veryly, Felawshyp, gramercy.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Tusshe! by thy thankes I set not a strawe.</l>
+        <l>Shewe me your grefe, and saye no more.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>If I my herte sholde to you breke,</l>
+        <l>And than you to tourne your mynde fro me</l>
+        <l>And wolde not me comforte whan ye here me speke,</l>
+        <l>Than sholde I ten tymes soryer be.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Syr, I saye as I wyll do in dede.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Than be you a good frende at nede.</l>
+        <l>I haue founde you true here-before.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>And so ye shall euermore;</l>
+        <l>For, in fayth, and thou go to hell,</l>
+        <l>I wyll not forsake the by the waye.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye speke lyke a good frende; I byleue you well</l>
+        <l>I shall deserue it, and I maye.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>I speke of no deseruynge, by this daye!</l>
+        <l>For he that wyll saye, and nothynge do,</l>
+        <l>Is not worthy with good company to go;</l>
+        <l>Therfore shewe me the grefe of your mynde,</l>
+        <l>As to your frende moost louynge and kynde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>I shall shewe you how it is:</l>
+        <l>Commaunded I am to go a iournaye,</l>
+        <l>A longe waye harde and daungerous,</l>
+        <l>And gyue a strayte counte, without delaye,</l>
+        <l>Before the hye Iuge, Adonay.</l>
+        <l>Wherfore, I pray you, bere me company,</l>
+        <l>As ye haue promysed, in this iournaye.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>That is mater in dede! Promyse is duty;</l>
+        <l>But, and I sholde take suche a vyage on me,</l>
+        <l>I knowe it well, it sholde be to my payne;</l>
+        <l>Also it maketh me aferde, certayne.</l>
+        <l>But let vs take counsell here as well as we can,</l>
+        <l>For your wordes wolde fere a stronge man.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Why, ye sayd yf I had nede</l>
+        <l>Ye wolde me neuer forsake, quycke ne deed,</l>
+        <l>Thoughe it were to hell, truely.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>So I sayd, certaynely,</l>
+        <l>But suche pleasures be set a-syde, the sothe to saye;</l>
+        <l>And also, yf we toke suche a iournaye,</l>
+        <l>Whan sholde we agayne come?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Naye, neuer agayne tyll the daye of dome.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>In fayth, than wyll not I come there!</l>
+        <l>Who hath you these tydynges brought?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>In dede, Deth was with me here.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawshyp.</speaker>
+        <l>Now, by God that all hathe bought,</l>
+        <l>If Deth were the messenger,</l>
+        <l>For no man that is lyuynge to-daye</l>
+        <l>I wyll not go that lothe iournaye—</l>
+        <l>Not for the fader that bygate me!</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye promysed other wyse, parde.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>I wote well I sayd so, truely;</l>
+        <l>And yet, yf thou wylte ete &amp; drynke &amp; make good chere,</l>
+        <l>Or haunt to women the lusty company,</l>
+        <l>I wolde not forsake you whyle the daye is clere,</l>
+        <l>Trust me veryly.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye, therto ye wolde be redy!</l>
+        <l>To go to myrthe, solas, and playe</l>
+        <l>Your mynde wyll soner apply,</l>
+        <l>Than to bere me company in my longe iournaye.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Now, in good fayth, I wyll not that waye;</l>
+        <l>But and thou wyll murder, or ony man kyll,</l>
+        <l>In that I wyll helpe the with a good wyll.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O, that is a symple aduyse in dede.</l>
+        <l>Gentyll felawe, helpe me in my necessyte!</l>
+        <l>We haue loued longe, and now I nede;</l>
+        <l>And now, gentyll Felawshyp, remembre me.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Wheder ye haue loued me or no,</l>
+        <l>By Saynt Iohan I wyll not with the go!</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Yet, I pray the, take the labour &amp; do so moche for me</l>
+        <l>To brynge me forwarde, for saynt charyte,</l>
+        <l>And comforte me tyll I come without the towne.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Nay, and thou wolde gyue me a newe gowne,</l>
+        <l>I wyll not a fote with the go;</l>
+        <l>But, and thou had taryed, I wolde not haue lefte the so.</l>
+        <l>And as now God spede the in thy iournaye,</l>
+        <l>For from the I wyll departe as fast as I maye.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Wheder a-waye, Felawshyp? Wyll thou forsake me?</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>Ye, by my faye! To God I be-take the.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Farewell, good Felawshyp! For the my herte is sore.</l>
+        <l>A-dewe for euer! I shall se the no more.</l>
+      </sp>
+      <sp who="#fellowship">
+        <speaker>Felawship.</speaker>
+        <l>In fayth, Eueryman, fare well now at the endynge!</l>
+        <l>For you I wyll remembre that partynge is mournynge.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>A-lacke, shall wee thus departe in ded—</l>
+        <l>A, Lady, helpe!—without ony more comforte?</l>
+        <l>Lo, Felawshyp forsaketh me in my moost nede.</l>
+        <l>For helpe in this worlde wheder shall I resorte?</l>
+        <l>Felawshyp here-before with me wolde mery make,</l>
+        <l>And now lytell sorowe for me dooth he take.</l>
+        <l>It is sayd, `In prosperyte men frendes may fynde,</l>
+        <l>Whiche in aduersyte be full vnkynde.'</l>
+        <l>Now wheder for socoure shall I flee,</l>
+        <l>Syth that Felawshyp hath forsaken me?</l>
+        <l>To my kynnesmen I wyll, truely,</l>
+        <l>Prayenge them to helpe me in my necessyte.</l>
+        <l>I byleue that they wyll do so,</l>
+        <l>For kynde wyll crepe where it may not go.</l>
+        <l>I wyll go saye, for yonder I se them.</l>
+        <l>Where be ye now, my frendes and kynnesmen?</l>
+      </sp>
+      <sp who="#kindred">
+        <speaker>Kynrede.</speaker>
+        <l>Here be we now at your commaundement.</l>
+        <l>Cosyn, I praye you shewe vs your entent</l>
+        <l>In ony wyse, and not spare.</l>
+      </sp>
+      <sp who="#cousin">
+        <speaker>Cosyn.</speaker>
+        <l>Ye, Eueryman, and to vs declare</l>
+        <l>If ye be dysposed to go ony-whyder;</l>
+        <l>For, wete you well, we wyll lyue and dye to-gyder.</l>
+      </sp>
+      <sp who="#kindred">
+        <speaker>Kynrede.</speaker>
+        <l>In welth and wo we wyll with you holde,</l>
+        <l>For ouer his kynne a man may be bolde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Gramercy, my frendes and kynnesmen kynde.</l>
+        <l>Now shall I shewe you the grefe of my mynde:</l>
+        <l>I was commaunded by a messenger,</l>
+        <l>That is a hye kynges chefe offycer.</l>
+        <l>He bad me go a pylgrymage, to my payne,</l>
+        <l>And I knowe well I shall neuer come agayne.</l>
+        <l>Also I must gyue a rekenynge strayte,</l>
+        <l>For I haue a grete enemy that hath me in wayte,</l>
+        <l>Whiche entendeth me for to hynder.</l>
+      </sp>
+      <sp who="#kindred">
+        <speaker>Kynrede.</speaker>
+        <l>What a-counte is that whiche ye must render?</l>
+        <l>That wolde I knowe.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Of all my workes I must shewe</l>
+        <l>How I haue lyued and my dayes spent;</l>
+        <l>Also of yll dedes that I haue vsed</l>
+        <l>In my tyme, syth lyfe was me lent;</l>
+        <l>And of all vertues that I haue refused.</l>
+        <l>Therfore, I praye you, go thyder with me</l>
+        <l>To helpe to make myn accounte, for saynt charyte.</l>
+      </sp>
+      <sp who="#cousin">
+        <speaker>Cosyn.</speaker>
+        <l>What, to go thyder? Is that the mater?</l>
+        <l>Nay, Eueryman, I had leuer fast brede and water</l>
+        <l>All this fyue yere and more.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, that euer I was bore!</l>
+        <l>For now shall I neuer be mery,</l>
+        <l>If that you forsake me.</l>
+      </sp>
+      <sp who="#kindred">
+        <speaker>Kynrede.</speaker>
+        <l>A, syr, what ye be a mery man!</l>
+        <l>Take good herte to you, and make no mone.</l>
+        <l>But one thynge I warne you, by Saynt Anne—</l>
+        <l>As for me, ye shall go alone.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>My Cosyn, wyll you not with me go?</l>
+      </sp>
+      <sp who="#cousin">
+        <speaker>Cosyn.</speaker>
+        <l>No, by our Lady! I haue the crampe in my to.</l>
+        <l>Trust not to me; for, so God me spede,</l>
+        <l>I wyll deceyue you in your moost nede.</l>
+      </sp>
+      <sp who="#kindred">
+        <speaker>Kynrede.</speaker>
+        <l>It auayleth not vs to tyse.</l>
+        <l>Ye shall haue my mayde with all my herte;</l>
+        <l>She loueth to go to feestes, there to be nyse,</l>
+        <l>And to daunce, and a-brode to sterte.</l>
+        <l>I wyll gyue her leue to helpe you in that iourney,</l>
+        <l>If that you and she may a-gree.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Now shewe me the very effecte of your mynde:</l>
+        <l>Wyll you go with me, or abyde be-hynde?</l>
+      </sp>
+      <sp who="#kindred">
+        <speaker>Kynrede.</speaker>
+        <l>Abyde behynde? / Ye, that wyll I, and I maye!</l>
+        <l>Therfore farewell tyll another daye.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Howe sholde I be mery or gladde?</l>
+        <l>For fayre promyses men to me make,</l>
+        <l>But whan I haue moost nede they me forsake.</l>
+        <l>I am deceyued; that maketh me sadde.</l>
+      </sp>
+      <sp who="#cousin">
+        <speaker>Cosyn.</speaker>
+        <l>Cosyn Eueryman, farewell now,</l>
+        <l>For veryly I wyll not go with you.</l>
+        <l>Also of myne owne an vnredy rekenynge</l>
+        <l>I haue to accounte; therfore I make taryenge.</l>
+        <l>Now God kepe the, for now I go.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>A, Iesus, is all come here-to?</l>
+        <l>Lo, fayre wordes maketh fooles fayne;</l>
+        <l>They promyse, and nothynge wyll do, certayne.</l>
+        <l>My kynnesmen promysed me faythfully</l>
+        <l>For to a-byde with me stedfastly,</l>
+        <l>And now fast a-waye do they flee.</l>
+        <l>Euen so Felawshyp promysed me.</l>
+        <l>What frende were best me of to prouyde?</l>
+        <l>I lose my tyme here longer to abyde.</l>
+        <l>Yet in my mynde a thynge there is:</l>
+        <l>All my lyfe I haue loued ryches;</l>
+        <l>If that my Good now helpe my myght,</l>
+        <l>He wolde make my herte full lyght.</l>
+        <l>I wyll speke to hym in this dystresse.</l>
+        <l>Where arte thou, my Gooddes and ryches?</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Who calleth me? Eueryman? / What, hast thou haste?</l>
+        <l>I lye here in corners, trussed and pyled so hye,</l>
+        <l>And in chestes I am locked so fast,</l>
+        <l>Also sacked in bagges. Thou mayst se with thyn eye</l>
+        <l>I can not styre; in packes, lowe I lye.</l>
+        <l>What wolde ye haue? Lyghtly me saye.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Come hyder, Good, in al the hast thou may,</l>
+        <l>For of counseyll I must desyre the.</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Syre, &amp; ye in the worlde haue sorowe or aduersyte,</l>
+        <l>That can I helpe you to remedy shortly.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>It is another dysease that greueth me;</l>
+        <l>In this worlde it is not, I tell the so.</l>
+        <l>I am sent for, an other way to go,</l>
+        <l>To gyue a strayte counte generall</l>
+        <l>Before the hyest Iupyter of all.</l>
+        <l>And all my lyfe I haue had ioye &amp; pleasure in the,</l>
+        <l>Therfore, I pray the, go with me;</l>
+        <l>For parauenture, thou mayst before God Almyghty</l>
+        <l>My rekenynge helpe to clene and puryfye,</l>
+        <l>For it is sayd euer amonge</l>
+        <l>That ‘money maketh all ryght that is wronge.’</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Nay, Eueryman, I synge an other songe.</l>
+        <l>I folowe no man in suche vyages;</l>
+        <l>For, and I wente with the,</l>
+        <l>Thou sholdest fare moche the worse for me.</l>
+        <l>For bycause on me thou dyd set thy mynde,</l>
+        <l>Thy rekenynge I haue made blotted and blynde,</l>
+        <l>That thyne accounte thou can not make truly--</l>
+        <l>And that hast thou for the loue of me!</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>That wolde greue me full sore,</l>
+        <l>Whan I sholde come to that ferefull answere.</l>
+        <l>Vp, let vs go thyder to-gyder.</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Nay, not so! I am to brytell, I may not endure.</l>
+        <l>I wyll folowe no man one fote, be ye sure.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, I haue the loued, and had grete pleasure</l>
+        <l>All my lyfe-dayes on good and treasure.</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>That is to thy dampnacyon, without lesynge,</l>
+        <l>For my loue is contrary to the loue euerlastynge.</l>
+        <l>But yf thou had me loued moderately durynge,</l>
+        <l>As to the poore gyue parte of me,</l>
+        <l>Than sholdest thou not in this dolour be,</l>
+        <l>Nor in this grete sorowe and care.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Lo, now was I deceyued or I was ware;</l>
+        <l>And all I may wyte my spendynge of tyme.</l>
+        <l>Goodes, What, wenest thou that I am thyne?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>I had went so.</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Naye, Eueryman, I saye no.</l>
+        <l>As for a whyle I was lente the;</l>
+        <l>A season thou hast had me in prosperyte.</l>
+        <l>My condycyon is mannes soule to kyll;</l>
+        <l>If I saue one, a thousande I do spyll.</l>
+        <l>Wenest thou that I wyll folowe the?</l>
+        <l>Nay, fro this worlde not, veryle.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>I had wende otherwyse.</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Therfore to thy soule Good is a thefe;</l>
+        <l>For whan thou arte deed, this is my gyse—</l>
+        <l>Another to deceyue in this same wyse</l>
+        <l>As I haue done the, and all to his soules represe.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O false Good, cursed thou be,</l>
+        <l>Thou traytour to God, that hast deceyued me</l>
+        <l>And caught me in thy snare!</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>Mary, thou brought they selfe in care,</l>
+        <l>Wherof I am gladde.</l>
+        <l>I must nedes laugh; I can not be sadde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>A, Good, thou hast had longe my hertely loue;</l>
+        <l>I gaue the that whiche sholde be the Lordes aboue.</l>
+        <l>But wylte thou not go with me in dede?</l>
+        <l>I praye the trouth to saye.</l>
+      </sp>
+      <sp who="#goods">
+        <speaker>Goodes.</speaker>
+        <l>No, so God me spede!</l>
+        <l>Therfore fare well, and haue good daye.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O, to whome shall I make my mone</l>
+        <l>For to go with me in that heuy iournaye?</l>
+        <l>Fyrst Felawshyp sayd he wolde with me gone;</l>
+        <l>His wordes were very pleasaunt and gaye,</l>
+        <l>But afterwarde he lefte me alone.</l>
+        <l>Than spake I to my kynnesmen, all in dyspayre,</l>
+        <l>And also they gaue me wordes fayre;</l>
+        <l>They lacked no fayre spekynge,</l>
+        <l>But all forsake me in the endynge.</l>
+        <l>Than wente I to my Goodes that I loued best,</l>
+        <l>In hope to haue comforte; but there had I leest,</l>
+        <l>For my Goodes sharpely dyd me tell</l>
+        <l>That he bryngeth many in to hell.</l>
+        <l>Than of my selfe I was ashamed,</l>
+        <l>And so I am worthy to be blamed;</l>
+        <l>Thus may I well my selfe hate.</l>
+        <l>Of whome shall I now counseyll take?</l>
+        <l>I thynke that I shall neuer spede</l>
+        <l>Tyll that I go to my Good Dede.</l>
+        <l>But, alas, she is so weke</l>
+        <l>That she can nother go nor speke;</l>
+        <l>Yet wyll I venter on her now.</l>
+        <l>My Good Dedes, where be you?</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Here I lye, colde in the grounde.</l>
+        <l>Thy synnes hath me sore bounde,</l>
+        <l>That I can not stere.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O Good Dedes, I stande in fere!</l>
+        <l>I must you pray of counseyll,</l>
+        <l>For help now sholde come ryght well.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Eueryman, I haue vnderstandynge</l>
+        <l>That ye be somoned a-counte to make</l>
+        <l>Before Myssyas, of Iherusalem kynge;</l>
+        <l>And you do by me, that iournay with you wyll I take.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Therfore I come to you my moone to make.</l>
+        <l>I praye you that ye wyll go with me.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>wolde full fayne, but I can not stande,</l>
+        <l>veryly.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Ereryman.</speaker>
+        <l>Why, is there ony thynge on you fall?</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Goode Dedes.</speaker>
+        <l>Ye, syr, I may thanke you of all.</l>
+        <l>If ye had parfytely chered me,</l>
+        <l>Your boke of counte full redy had be.</l>
+        <l>Loke, the bokes of your workes and dedes eke</l>
+        <l>Ase how they lye vnder the fete,</l>
+        <l>To your soules heuynes.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Our Lorde Iesus help me!</l>
+        <l>For one letter here I can not se.</l>
+        <l>Good Dedes. There is a blynde rekenynge in tyme of dystres.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Good Dedes, I praye you helpe me in this nede,</l>
+        <l>Or elles I am for euer dampned in dede;</l>
+        <l>Therfore helpe me to make rekenynge</l>
+        <l>Before the Redemer of all thynge,</l>
+        <l>That Kynge is, and was, and euer shall.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Eueryman, I am sory of your fall,</l>
+        <l>And fayne wolde I help you, and I were able.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Good Dedes, your counseyll I pray you gyue me.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>That shall I do veryly.</l>
+        <l>Thoughe that on my fete I may not go,</l>
+        <l>I haue a syster that shall with you also,</l>
+        <l>Called Knowlege, whiche shall with you abyde,</l>
+        <l>To helpe you to make that dredefull rekenynge.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Eueryman, I wyll go with the and be thy gyde,</l>
+        <l>In they moost nede to go by thy syde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>In good condycyon I am now in euery thynge,</l>
+        <l>And am holy content with this good thynge,</l>
+        <l>Thanked be God my creature.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>And whan she hath brought you there</l>
+        <l>Where thou shalte hele the of thy smarte,</l>
+        <l>Than go you with your rekenynge &amp; your Good Dedes togyder,</l>
+        <l>For to make you ioyfull at herte</l>
+        <l>Before the Blessyd Trynyte.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>My Good Dedes, gramercy!</l>
+        <l>I am well content, certaynly,</l>
+        <l>With your wordes swete.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Now go we togyder louyngly</l>
+        <l>To Confessyon, that clensynge ryuere.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>For ioy I wepe; I wolde we were there!</l>
+        <l>But, I pray you, gyue me cognycyon</l>
+        <l>Where dwelleth that holy man, Confessyon.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>In the house of saluacyon;</l>
+        <l>We shall fynde hym in that place,</l>
+        <l>That shall vs comforte, by Goddes grace.</l>
+        <l>Lo, this is Confessyon. Knele downe &amp; aske mercy,</l>
+        <l>For he is in good conceyte with God Almyghty.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O gloryous fountayne, that all vnclennes doth</l>
+        <l>claryfy,</l>
+        <l>Wasshe fro me the spottes of vyce vnclene,</l>
+        <l>That on me no synne may be sene.</l>
+        <l>I come with Knowlege for my redempcyon,</l>
+        <l>Redempte with herte and full contrycyon;</l>
+        <l>For I am commaunded a pylgrymage to take,</l>
+        <l>And grete accountes before God to make.</l>
+        <l>Now I praye you, Shryfte, moder of saluacyon,</l>
+        <l>Helpe my Good Dedes for my pyteous exclamacyon.</l>
+      </sp>
+      <sp who="#confession">
+        <speaker>Confessyon.</speaker>
+        <l>I knowe your sorowe well, Eueryman.</l>
+        <l>Bycause with Knowlege ye come to me,</l>
+        <l>I wyll you comforte as well as I can.</l>
+        <l>And a precyous iewell I wyll gyue the,</l>
+        <l>Called penaunce, voyder of aduersyte;</l>
+        <l>Therwith shall your body chastysed be,</l>
+        <l>With abstynence &amp; perseueraunce in Goddes seruyture.</l>
+        <l>Here shall you receyue that scourge of me,</l>
+        <l>Whiche is penaunce stronge that ye must endure,</l>
+        <l>To remembre thy Sauyour was scourged for the</l>
+        <l>With sharpe scourges, and suffred it pacyently;</l>
+        <l>So must thou or thou scape that paynful pylgrymage.</l>
+        <l>Knowlege, kepe hym in this vyate,</l>
+        <l>And by that tyme Good Dedes wyll be with the.</l>
+        <l>But in ony wyse be seker of mercy,</l>
+        <l>For your tyme draweth fast; and ye wyll saued be,</l>
+        <l>Aske God mercy, and he wyll graunte truely.</l>
+        <l>Whan with the scourge of penaunce man doth hym bynde,</l>
+        <l>The oyle of forgyuenes than shall he fynde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Thanked be God for his gracyous werke!</l>
+        <l>For now I wyll my penaunce begyn.</l>
+        <l>This hath reioysed and lyghted my herte,</l>
+        <l>Though the knottes by paynful and harde, within.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Eueryman, loke your penaunce that ye fulfyll,</l>
+        <l>What payne that euer it to you be;</l>
+        <l>And Knowlege shall guyue you counseyll at wyll</l>
+        <l>How your accounte ye shall make clerely.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O eternall God / O heuenly fygure,</l>
+        <l>O way of ryghtwysnes / O goodly vysyon,</l>
+        <l>Whiche dyscended downe in a vyrgyn pure</l>
+        <l>Bycause he wolde euery man redeme,</l>
+        <l>Which Adam forfayted by his dysobedyence:</l>
+        <l>O blessyd God-heed, electe and hye deuyne,</l>
+        <l>Forgyue me my greuous offence!</l>
+        <l>Here I crye the mercy in this presence.</l>
+        <l>O ghostly treasure, O raunsomer and redemer,</l>
+        <l>Of all the worlde hope and conduyter,</l>
+        <l>Myrrour of ioye, foundatour of mercy,</l>
+        <l>Whiche enlumyneth heuen and erth therby,</l>
+        <l>Here my clamorous complaynt, though it late be,</l>
+        <l>Receyue my prayers vnworthy in this heuy lyfe!</l>
+        <l>Though I be a synner moost abhomynable,</l>
+        <l>Yet let my name be wryten in Moyses table.</l>
+        <l>O Mary, praye to the Maker of all thynge,</l>
+        <l>Me for to helpe at my endynge;</l>
+        <l>And saue me from the power of my enemy,</l>
+        <l>For Deth assayleth me strongly.</l>
+        <l>And, Lady, that I may by meane of thy prayer</l>
+        <l>Of your Sones glory to be partynere,</l>
+        <l>By the meanes of his passyon, I it craue;</l>
+        <l>I besech you helpe my soule to saue.</l>
+        <l>Knowlege, gyue me the scourge of penaunce;</l>
+        <l>My flesshe therwith shall guye acqueyntaunce.</l>
+        <l>I wyll now begyn yf God gyue me grace.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Eueryman, God gyue you tyme and space!</l>
+        <l>Thus I bequeth you in the handes of our Sauyour;</l>
+        <l>Now may you make your rekenynge sure.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>In the name of the Holy Trynyte,</l>
+        <l>My body sore punysshed shall be:</l>
+        <l>Take this, body, for the synne of the flesshe!</l>
+        <l>Also thou delytest to go gay and fresshe,</l>
+        <l>And in the way of dampnacyon thou dyd me brynge;</l>
+        <l>Therfore suffre now strokes of punysshynge.</l>
+        <l>Now of penaunce I wyll wade the water clere,</l>
+        <l>To saue me from Purgatory, that sharpe fyre.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Goode Dedes.</speaker>
+        <l>I thanke God, now I can walke and go,</l>
+        <l>And am delyuered of my sykenesse and wo.</l>
+        <l>Therfore with Eueryman I wyll go, and not spare;</l>
+        <l>His good workes I wyll helpe hym to declare.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Now, Eueryman, be mery and glad!</l>
+        <l>Your Good Dedes cometh now; ye may not be sad.</l>
+        <l>Now is your Good Dedes hole and sounde,</l>
+        <l>Goynge vpryght vpon the grounde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>My herte is lyght, and shal be euermore;</l>
+        <l>Now wyll I smyte faster than I dyde before.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Eueryman, pylgryme, my specyall frende,</l>
+        <l>Blessyd be thou without ende!</l>
+        <l>For the is preparate the eternall glory.</l>
+        <l>Ye haue me made hole and sounde,</l>
+        <l>Therfore I wyll byde by the in euery stounde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Welcome, my Good Dedes! Now I here thy voyce</l>
+        <l>I wepe for very swetenes of loue.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Be no more sad, but euer reioyce;</l>
+        <l>God seeth thy lyuynge in his trone aboue.</l>
+        <l>Put on this garment to thy behoue,</l>
+        <l>Whiche is wette with your teres,</l>
+        <l>Or elles before God you may it mysse,</l>
+        <l>Whan ye to your iourneys ende come shall.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Gentyll Knowlege, what do ye it call?</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>It is a garment of sorowe;</l>
+        <l>Fro payne it wyll you borowe.</l>
+        <l>Contrycyon it is</l>
+        <l>That getteth forgyuenes;</l>
+        <l>He pleaseth God passynge well.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Eueryman, wyll you were it for your hele?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Now blessyde be Iesu, Maryes sone,</l>
+        <l>For now haue I on true contrycyon;</l>
+        <l>And lette vs go now without taryenge.</l>
+        <l>Good Dedes, haue we clere our rekenynge?</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Ye, in dede, I haue it here.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Than I trust we nede not fere.</l>
+        <l>Now, frendes, let vs not parte in twayne.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Nay, Eueryman, that wyll we not, certayne.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Yet must thou lede with the</l>
+        <l>Thre persones of grete myght.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Who sholde they be?</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Dyscrecyon and Strength they hyght,</l>
+        <l>And thy Beaute may not abyde behynde.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Also ye must call to mynde</l>
+        <l>Your Fyue Wyttes as for your counseylours.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>You must haue them redy at all houres.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>My frendes, come hyder and be present,</l>
+        <l>Dyscrecyon, Strengthe, my Fyue Wyttes, and Beaute.</l>
+      </sp>
+      <sp who="#beauty">
+        <speaker>Beaute.</speaker>
+        <l>Here at your wyll we be all redy.</l>
+        <l>What wolde ye that we shold do?</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>That ye wolde with Eueryman go,</l>
+        <l>And help hym in his pylgrymage.</l>
+        <l>Aduyse you / wyll ye with him or not in that vyage?</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strength.</speaker>
+        <l>We wyll brynge hym all thyder,</l>
+        <l>To his helpe and comforte / ye may byleue me.</l>
+      </sp>
+      <sp who="#discretion">
+        <speaker>Dyscrecion.</speaker>
+        <l>So wyll we go with hym all togyder.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Almyghty God, loued may thou be!</l>
+        <l>I gyue the laude that I haue hyder brought</l>
+        <l>Strength, Dyscrecyon, Beaute, &amp; V. Wyttes. Lacke I nought.</l>
+        <l>And my Good Dedes, with Knowlege clere,</l>
+        <l>All be in company at my wyll here.</l>
+        <l>I desyre no more to my besynes.</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strengthe.</speaker>
+        <l>And I, Strength, wyll gy you stande in dystres,</l>
+        <l>Though thou wolde in batayle fyght on the grounde.</l>
+      </sp>
+      <sp who="#five_wits">
+        <speaker>V. Wyttes.</speaker>
+        <l>And though it were thrugh the worlde rounde,</l>
+        <l>We wyll not departe for swete ne soure.</l>
+      </sp>
+      <sp who="#beauty">
+        <speaker>Beaute.</speaker>
+        <l>No more wyll I vnto dethes houre,</l>
+        <l>What so euer therof befall.</l>
+      </sp>
+      <sp who="#discretion">
+        <speaker>Dyscrecion.</speaker>
+        <l>Eueryman, aduyse you fyrst of all;</l>
+        <l>Go with a good aduysement and delyberacyon.</l>
+        <l>We all gyue you vertuous monycyon</l>
+        <l>That all shall be well.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>My frendes, harken what I wyll tell:</l>
+        <l>I praye God rewarde you in his heuenly spere.</l>
+        <l>Now herken, all that be here,</l>
+        <l>For I wyll make my testament</l>
+        <l>Here before you all present:</l>
+        <l>In almes / halfe my good I wyll gyue with my handes</l>
+        <l>twayne</l>
+        <l>In the way of charyte with good entent,</l>
+        <l>And the other hald styll shall remayne</l>
+        <l>In queth, to be retourned there it ought to be.</l>
+        <l>This I do in despyte of the fende of hell,</l>
+        <l>To go quyte out of his perell</l>
+        <l>Euer after and this daye.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Eueryman, herken what I saye:</l>
+        <l>Go to Presthode, I you aduyse,</l>
+        <l>And receyue of hym in ony wyse</l>
+        <l>The holy sacrament and oyntement togyder.</l>
+        <l>Than shortly se ye tourne agayne hyder;</l>
+        <l>We wyll all abyde you here.</l>
+      </sp>
+      <sp who="#five_wits">
+        <speaker>V. Wwyttes.</speaker>
+        <l>Ye, Eueryman, hye you that ye redy were.</l>
+        <l>There is no Emperour, Kynge, Duke, ne Baron,</l>
+        <l>That of God hath commycyon</l>
+        <l>As hath the leest preest in the worlde beynge;</l>
+        <l>For of the blessyd sacraments pure and benygne</l>
+        <l>He bereth the keyes, and therof hath the cure</l>
+        <l>For mannes recempcyon--it is euer sure--</l>
+        <l>Whiche God for our soules medycyne</l>
+        <l>Gaue vs out of his herte with grete pyne.</l>
+        <l>Here in this transytory lyfe, for the and me,</l>
+        <l>The blessyd sacraments vii. there be:</l>
+        <l>Baptym, confyrmacyon, with preesthode good,</l>
+        <l>And the sacrament of Goddes precyous flesshe &amp; blod,</l>
+        <l>Maryage, the holy extreme vnccyon, and penaunce.</l>
+        <l>These seuen be good to haue in remembraunce,</l>
+        <l>Gracyous sacraments of hye deuynyte.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Fayne wolde I receyue that holy body,</l>
+        <l>And mekely to my ghostly fader I wyll go.</l>
+      </sp>
+      <sp who="#five_wits">
+        <speaker>V. Wyttes.</speaker>
+        <l>Eueryman, that is the best that ye can do.</l>
+        <l>God wyll you to saluacyon brynge,</l>
+        <l>For preesthode excedeth all other thynge:</l>
+        <l>To vs holy scrypture they do teche,</l>
+        <l>And conuerteth man fro synne, heuen to reche;</l>
+        <l>God hath to them more power gyuen</l>
+        <l>Than to ony aungell that is in heuen.</l>
+        <l>With v. wordes he may consecrate,</l>
+        <l>Goddes body in flesshe and blode to make,</l>
+        <l>And handeleth his Maker bytwene his handes.</l>
+        <l>The preest byndeth and vnbyndeth all bandes,</l>
+        <l>Bothe in erthe and in heuen.</l>
+        <l>Thou mynystres all the sacramentes seuen;</l>
+        <l>Though we kysse thy fete, thou were worthy.</l>
+        <l>Thou arte surgyon that cureth synne deedly;</l>
+        <l>No remedy we fynde vnder God</l>
+        <l>But all onely preesthode.</l>
+        <l>Eueryman, God gaue preest that dygnyte,</l>
+        <l>And setteth them in his stede amonge vs to be;</l>
+        <l>Thus be they aboue aungelles in degree.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>If preestes be good, it is so, suerly.</l>
+        <l>But whan Iesu hanged on the crosse with grete smarte,</l>
+        <l>There he gaue out of his blessyd herte</l>
+        <l>The seuen sacraments in grete tourment;</l>
+        <l>He solde them not to vs, that Lorde omnypotent.</l>
+        <l>Therfore Saynt Peter the apostell dothe saye</l>
+        <l>That Iesus curse hath all they</l>
+        <l>Whiche God theyr Sauyour do by or sell,</l>
+        <l>Or they for ony money do take or tell.</l>
+        <l>Synfull preestes gyueth the synners example bad:</l>
+        <l>Theyr chyldren sytteth by other mennes fyres, I haue harde;</l>
+        <l>And some haunteth womens company</l>
+        <l>With vnclene lyfe, as lustes of lechery.</l>
+        <l>These be with synne made blynde.</l>
+      </sp>
+      <sp who="#five_wits">
+        <speaker>V. Wyttes.</speaker>
+        <l>I trust to God no suche may we fynde;</l>
+        <l>Therfore let vs preesthode honour,</l>
+        <l>And folowe theyr doctryne for our soules socoure.</l>
+        <l>We be theyr shepe, and they shepeherdes be</l>
+        <l>By whome we all be kepte in suerte.</l>
+        <l>Peas! For yonder I se Eueryman come,</l>
+        <l>Which hath made true satysfaccyon.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Me thyhnke it is he in ded.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Now Iesu be your alder spede!</l>
+        <l>I haue receyued the sacrament for my redempycon,</l>
+        <l>And than myne extreme vnccyon.</l>
+        <l>Blessyd be all they that counseyled me to take it!</l>
+        <l>And now, frendes, let vs go with-out longer respyte.</l>
+        <l>I thanke God that ye haue taryed so longe.</l>
+        <l>Now set eche of you on this rodde your honde,</l>
+        <l>And shortely folowe me.</l>
+        <l>I go before there I wolde be. God be our gyde!</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strength.</speaker>
+        <l>Eueryman, we wyll not fro you go</l>
+        <l>Tyll ye haue done this vyage longe.</l>
+      </sp>
+      <sp who="#discretion">
+        <speaker>Dyscrecion.</speaker>
+        <l>I, Dyscrecyon, wyll byde by you also.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Kniowlege.</speaker>
+        <l>And though this pylgrymage be neuer so stronge,</l>
+        <l>I wyll neuer parte you fro.</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strength.</speaker>
+        <l>Eueryman, I wyll be as sure by the</l>
+        <l>As euer I dyde by Iudas Machabee.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, I am so faynt I may not stande;</l>
+        <l>My lymmes vnder me do folde.</l>
+        <l>Frendes, let vs not tourne agayne to this lande,</l>
+        <l>Not for all the worldes golde;</l>
+        <l>For in to this caue must I crepe</l>
+        <l>And tourne to erth, and there to slepe.</l>
+      </sp>
+      <sp who="#beauty">
+        <speaker>Beaute.</speaker>
+        <l>What, in to this graue? Alas!</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye, there shall ye consume, more and lesse.</l>
+      </sp>
+      <sp who="#beauty">
+        <speaker>Beaute.</speaker>
+        <l>And what, sholde I smoder here?</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye, by my fayth, and neuer more appere.</l>
+        <l>In this worlde lyue no more we shall,</l>
+        <l>But in heuen before the hyest Lorde of all.</l>
+      </sp>
+      <sp who="#beauty">
+        <speaker>Beaute.</speaker>
+        <l>I crosse out all this. / Adewe, by Saynt Iohan!</l>
+        <l>I take my tappe in my lappe and am gone.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>What, Beaute, whyder wyll ye?</l>
+      </sp>
+      <sp who="#beauty">
+        <speaker>Beaute.</speaker>
+        <l>Peas! I am defe. I loke not behynde me,</l>
+        <l>Not &amp; thou wolde gyue me all the golde in thy chest.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, wherto may I truste?</l>
+        <l>Beaute gothe fast awaye fro me.</l>
+        <l>She promysed with me to lyue and dye.</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strength.</speaker>
+        <l>Eueryman, I wyll the also forsake and denye;</l>
+        <l>Thy game lyketh me not at all.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Why, than, ye wyll forsake me all?</l>
+        <l>Swete Strength, tary a lyttel space.</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strengthe.</speaker>
+        <l>Nay, syr, by the rode of grace!</l>
+        <l>I wyll hye me from the fast,</l>
+        <l>Though thou wepe to thy herte to-brast.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Ye wolde euer byde by me, ye sayd.</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strength.</speaker>
+        <l>Ye, I haue you ferre ynoughe conueyde.</l>
+        <l>Ye be olde ynoughe, I vnderstande,</l>
+        <l>Your pylgrymage to take on hande.</l>
+        <l>I repent me that I hyder came.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Strength, you to dysplease I am to blame.</l>
+        <l>Wyll ye breke promyse that is dette?</l>
+      </sp>
+      <sp who="#strength">
+        <speaker>Strength.</speaker>
+        <l>In fayth, I care not.</l>
+        <l>Thou arte but a foole to complayne;</l>
+        <l>You spend your speche and wast your brayne.</l>
+        <l>Go thryst the in to the grounde.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eyeryman.</speaker>
+        <l>I had wende surer I sholde you haue founde.</l>
+        <l>He that trusteth in his Strength,</l>
+        <l>She hym deceyueth at the length.</l>
+        <l>Bothe Strength and Beaute forsaketh me;</l>
+        <l>Yet they promysed me fayre and louyngly.</l>
+      </sp>
+      <sp who="#discretion">
+        <speaker>Dyscrecion.</speaker>
+        <l>Eueryman, I wyll after Strength be gone.</l>
+        <l>As for me, I wyll leue you alone.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Why, Dyscrecyon, wyll ye forsake me?</l>
+      </sp>
+      <sp who="#confession">
+        <speaker>Dyscrecionn.</speaker>
+        <l>Ye, in faytyh, I wyll go fro the,</l>
+        <l>For whan Strength goth before</l>
+        <l>I folowe after euer more.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Yet, I pray the, for the loue of the Trynyte,</l>
+        <l>Loke in my graue ones pyteously.</l>
+      </sp>
+      <sp who="#discretion">
+        <speaker>Dyscrecion.</speaker>
+        <l>Nay, so nye wyll I not come.</l>
+        <l>Fare well, euerychone!</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O, all thynge fayleth, saue God alone--</l>
+        <l>Beaute, Strength, and Dyscrecyon;</l>
+        <l>For whan Deth bloweth his blast,</l>
+        <l>They all renne fro me full fast.</l>
+      </sp>
+      <sp who="#five_wits">
+        <speaker>V. Wyttes.</speaker>
+        <l>Eueryman, my leue now of the I take.</l>
+        <l>I wyll folowe the other, for here I the forsake.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Alas, than may I wayle and wepe,</l>
+        <l>For I toke you for my best frende.</l>
+      </sp>
+      <sp who="#five_wits">
+        <speaker>V. Wyttes.</speaker>
+        <l>I wyll no lenger the kepe.</l>
+        <l>Now fare well, and there an ende.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>O Iesu, helpe! All hath forsaken me.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Nay, Eueryman, I wyll byde with the.</l>
+        <l>I wyll not forsake the in dede;</l>
+        <l>Thou shalte fynde me a good frende at nede.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Gramercy, Good Dedes! Now may I true</l>
+        <l>frendes se.</l>
+        <l>They haue forsaken me, euerychone;</l>
+        <l>I loued them better than my Good Dedes alone.</l>
+        <l>Knowlege, wyll ye forsake me also?</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Ye, Eueryman, whan ye to Deth shall go;</l>
+        <l>But not yet, for no maner of daunger.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Everyman.</speaker>
+        <l>Gramercy, Knowlege, with all my herte.</l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Nay, yet I wyll not from hens departe</l>
+        <l>Tyll I se where ye shall be-come.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Me thynke, alas, that I must be gone</l>
+        <l>To make my rekenynge and my dettes paye,</l>
+        <l>For I se my tyme is nye spent awaye.</l>
+        <l>Take example, all ye that this do here or se,</l>
+        <l>How they that I loued best do forsake me,</l>
+        <l>Except my Good Dedes that bydeth truely.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>All erthly thynges is but vanyte:</l>
+        <l>Beaute, Strength / and Dyscrecyon do man forsake,</l>
+        <l>Folysshe frendes and kynnesmen that fayre spake--</l>
+        <l>All fleeth saue Good Dedes, and that am I.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Haue mercy on me, God moost myghty,</l>
+        <l>And stande by me, thou moder &amp; mayde, Holy Mary!</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Fere not; I wyll speke for the.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>Here I crye God mercy.</l>
+      </sp>
+      <sp who="#good_deeds">
+        <speaker>Good Dedes.</speaker>
+        <l>Shorte our ende and mynysshe our payne;</l>
+        <l>Let vs go and neuer come agayne.</l>
+      </sp>
+      <sp who="#everyman">
+        <speaker>Eueryman.</speaker>
+        <l>In to they handes, Lorde, my soule I commende;</l>
+        <l>Receyue it, Lorde, that it be not lost.</l>
+        <l>As thou me boughtest, so me defende,</l>
+        <l>And saue me from the fendes boost,</l>
+        <l>That I may appere with that blessyd hoost</l>
+        <l>That shall be saued at the day of dome.</l>
+        <l><foreign xml:lang="lat">In manus tuas</foreign>, of myghtes moost</l>
+        <l>For euer, <foreign xml:lang="lat">Commendo spiritum meum.</foreign></l>
+      </sp>
+      <sp who="#knowledge">
+        <speaker>Knowlege.</speaker>
+        <l>Now hath he suffred that we all shall endure;</l>
+        <l>The Good Dedes shall make all sure.</l>
+        <l>Now hath he made endynge;</l>
+        <l>Me thynketh that I here aungelles synge</l>
+        <l>And make grete ioy and melody</l>
+        <l>Where Euerymannes soule receyued shall be.</l>
+      </sp>
+      <sp who="#angel">
+        <speaker>The Aungell.</speaker>
+        <l>Come, excellente electe spouse, to Iesu!</l>
+        <l>Here aboue thou shalte go</l>
+        <l>Bycause of thy synguler vertue.</l>
+        <l>Now thy soule is taken thy body fro,</l>
+        <l>Thy rekenynge is crystall-clere.</l>
+        <l>Now shalte thou in to the heuenly spere,</l>
+        <l>Vnto the whiche all ye shall come</l>
+        <l>That lyueth well before the daye of dome.</l>
+      </sp>
+      <sp who="#doctor">
+        <speaker>Doctour.</speaker>
+        <l>This morall men may haue in mynde.</l>
+        <l>Ye herers, take it of worth, olde and yonge,</l>
+        <l>And forsake Pryde, for he deceyueth you in the ende;</l>
+        <l>And remembre Beaute, V. Wyttes, Strength, &amp; Dyscrecyon,</l>
+        <l>They all at the last do Eueryman forsake,</l>
+        <l>Saue his Good Dedes there dothe he take.</l>
+        <l>But be-ware, for and they be small,</l>
+        <l>Before God he hath no helpe at all:</l>
+        <l>None excuse may be there for Eueryman.</l>
+        <l>Alas, how shall he do than?</l>
+        <l>For after dethe amendes may no man make,</l>
+        <l>For than mercy and pyte doth hym forsake.</l>
+        <l>If his rekenynge be not clere whan he doth come,</l>
+        <l>God wyll saye, <foreign xml:lang="lat">‘Ite, maledicti, in ignem eternum.’</foreign></l>
+        <l>And he that hath his accounte hole and sounde,</l>
+        <l>Hye in heuen he shall be crounde.</l>
+        <l>Vnto which place God brynge vs all thyder,</l>
+        <l>That we may lyue body and soule togyder.</l>
+        <l>Therto helpe the Trynyte!</l>
+        <l>Amen, saye ye, for saynt charyte.</l>
+        <l>FINIS.</l>
+        <l>Thus endeth this morall playe of Eueryman.</l>
+        <l>Imprynted at London in Poules</l>
+        <l>chyrche yarde by me</l>
+        <l>Iohan Skot.</l>
+      </sp>
+    </body>
+  </text>
+</TEI>
